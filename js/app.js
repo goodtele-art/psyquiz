@@ -5,18 +5,15 @@
 
 const Portal = (() => {
   // --- Firebase Config ---
-  // TODO: 실제 Firebase 프로젝트 생성 후 아래 값을 교체하세요.
-  // 1. https://console.firebase.google.com 에서 새 프로젝트 생성
-  // 2. Realtime Database 활성화 (테스트 모드로 시작)
-  // 3. 프로젝트 설정 > 웹 앱 추가 > config 값 복사
   const FIREBASE_CONFIG = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT-default-rtdb.firebaseio.com",
-    projectId: "YOUR_PROJECT",
-    storageBucket: "YOUR_PROJECT.appspot.com",
-    messagingSenderId: "000000000000",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyAdu8Yz4vJQzJ2kjTEQ8cz7KM7Bu2mGTgg",
+    authDomain: "psyquiz-portal-1acfe.firebaseapp.com",
+    databaseURL: "https://psyquiz-portal-1acfe-default-rtdb.firebaseio.com",
+    projectId: "psyquiz-portal-1acfe",
+    storageBucket: "psyquiz-portal-1acfe.firebasestorage.app",
+    messagingSenderId: "737272529800",
+    appId: "1:737272529800:web:d546eda54b3a0b6fbb703d",
+    measurementId: "G-PSMJ68DD0P"
   };
 
   const DB_PATH = 'psyquiz-requests';
