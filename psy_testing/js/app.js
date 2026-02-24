@@ -372,6 +372,8 @@ const App = (() => {
   function init() {
     initTheme();
     loadTerms();
+    if (typeof FirebaseConfig !== 'undefined') FirebaseConfig.init();
+    Leaderboard.init();
     updateHomeStats();
 
     document.querySelectorAll('.game-card').forEach(card => {

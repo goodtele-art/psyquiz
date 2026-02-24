@@ -269,24 +269,60 @@ const StarRating = {
   }
 };
 
-/* --- Leaderboard --- */
+/* --- Leaderboard (Firebase 글로벌 + localStorage 캐시) --- */
 const Leaderboard = {
   KEY: 'psytest_leaderboard',
   MAX_ENTRIES: 10,
+  _cache: {},
 
-  load() {
-    try {
-      return JSON.parse(localStorage.getItem(this.KEY)) || {};
-    } catch { return {}; }
+  init() {
+    this._cache = this._loadLocal();
+    if (typeof FirebaseConfig !== 'undefined' && FirebaseConfig.isReady()) {
+      this._attachListener();
+    }
   },
 
+  _loadLocal() {
+    try { return JSON.parse(localStorage.getItem(this.KEY)) || {}; }
+    catch { return {}; }
+  },
+
+  _saveLocal() {
+    localStorage.setItem(this.KEY, JSON.stringify(this._cache));
+  },
+
+  _attachListener() {
+    try {
+      const ref = FirebaseConfig.getCourseRef();
+      if (!ref) return;
+      ref.on('value', snap => {
+        const data = snap.val();
+        if (!data) return;
+        Object.entries(data).forEach(([gameType, entries]) => {
+          if (entries && typeof entries === 'object') {
+            const arr = Object.values(entries);
+            arr.sort((a, b) => b.score - a.score || (a.elapsed || 0) - (b.elapsed || 0));
+            this._cache[gameType] = arr.slice(0, this.MAX_ENTRIES);
+          }
+        });
+        this._saveLocal();
+      }, err => {
+        console.warn('[Leaderboard] Firebase 리스너 오류:', err.message);
+      });
+    } catch (e) {
+      console.warn('[Leaderboard] Firebase 연결 실패:', e.message);
+    }
+  },
+
+  load() { return this._cache; },
+
   save(data) {
-    localStorage.setItem(this.KEY, JSON.stringify(data));
+    this._cache = data;
+    this._saveLocal();
   },
 
   getForGame(gameType) {
-    const all = this.load();
-    return (all[gameType] || []).sort((a, b) => b.score - a.score || (a.elapsed || 0) - (b.elapsed || 0));
+    return (this._cache[gameType] || []).sort((a, b) => b.score - a.score || (a.elapsed || 0) - (b.elapsed || 0));
   },
 
   qualifies(gameType, score, elapsed) {
@@ -298,12 +334,35 @@ const Leaderboard = {
   },
 
   addEntry(gameType, entry) {
-    const all = this.load();
-    if (!all[gameType]) all[gameType] = [];
-    all[gameType].push(entry);
-    all[gameType].sort((a, b) => b.score - a.score || (a.elapsed || 0) - (b.elapsed || 0));
-    all[gameType] = all[gameType].slice(0, this.MAX_ENTRIES);
-    this.save(all);
+    if (!this._cache[gameType]) this._cache[gameType] = [];
+    this._cache[gameType].push(entry);
+    this._cache[gameType].sort((a, b) => b.score - a.score || (a.elapsed || 0) - (b.elapsed || 0));
+    this._cache[gameType] = this._cache[gameType].slice(0, this.MAX_ENTRIES);
+    this._saveLocal();
+
+    if (typeof FirebaseConfig !== 'undefined' && FirebaseConfig.isReady()) {
+      const ref = FirebaseConfig.getRef(gameType);
+      if (ref) {
+        ref.push(entry).then(() => this._pruneFirebase(gameType)).catch(err => {
+          console.warn('[Leaderboard] Firebase push 실패:', err.message);
+        });
+      }
+    }
+  },
+
+  _pruneFirebase(gameType) {
+    const ref = FirebaseConfig.getRef(gameType);
+    if (!ref) return;
+    ref.once('value', snap => {
+      const entries = [];
+      snap.forEach(child => entries.push({ key: child.key, ...child.val() }));
+      entries.sort((a, b) => b.score - a.score || (a.elapsed || 0) - (b.elapsed || 0));
+      if (entries.length > this.MAX_ENTRIES) {
+        const updates = {};
+        entries.slice(this.MAX_ENTRIES).forEach(e => { updates[e.key] = null; });
+        ref.update(updates);
+      }
+    });
   },
 
   renderTable(gameType, highlightScore) {
