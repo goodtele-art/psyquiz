@@ -582,6 +582,151 @@ a {
   border: 2px dashed var(--border-color);
 }
 
+/* --- 관련 플랫폼 섹션 --- */
+.platforms-section {
+  padding: 0 20px 60px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 520px) {
+  .platform-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  .platform-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.platform-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+  transition: transform var(--transition), box-shadow var(--transition);
+  text-decoration: none;
+  color: inherit;
+}
+
+.platform-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.platform-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 20px 16px;
+}
+
+.platform-psyda .platform-card-header {
+  background: linear-gradient(135deg, #5B86E5, #36D1DC);
+}
+
+.platform-study .platform-card-header {
+  background: linear-gradient(135deg, #56AB2F, #A8E063);
+}
+
+.platform-chat .platform-card-header {
+  background: linear-gradient(135deg, #36D1DC, #5B86E5);
+}
+
+.platform-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(0,0,0,0.2);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+}
+
+.platform-icon {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.platform-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 0 20px;
+  margin-top: -4px;
+}
+
+.platform-psyda .platform-title { color: #4A76D4; }
+.platform-study .platform-title { color: #3D8C2E; }
+.platform-chat .platform-title { color: #2BBBD0; }
+
+[data-theme="dark"] .platform-psyda .platform-title { color: #7EA8F8; }
+[data-theme="dark"] .platform-study .platform-title { color: #7ECF6A; }
+[data-theme="dark"] .platform-chat .platform-title { color: #5CE0F0; }
+
+.platform-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  padding: 4px 20px 12px;
+}
+
+.platform-features {
+  list-style: none;
+  padding: 0 20px 16px;
+  flex: 1;
+}
+
+.platform-features li {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  padding: 4px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.platform-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+.platform-psyda .platform-features li::before { color: #4A76D4; }
+.platform-study .platform-features li::before { color: #3D8C2E; }
+.platform-chat .platform-features li::before { color: #2BBBD0; }
+
+.platform-link {
+  display: block;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-inverse);
+  background: #2C3E50;
+  transition: background var(--transition-fast);
+}
+
+.platform-card:hover .platform-link {
+  background: #34495E;
+}
+
+[data-theme="dark"] .platform-link {
+  background: #1A1A3E;
+}
+
+[data-theme="dark"] .platform-card:hover .platform-link {
+  background: #2A2A5A;
+}
+
 /* --- Footer --- */
 .footer {
   text-align: center;
