@@ -1,0 +1,872 @@
+[
+  {
+    "id": "ASSESS_DSM_001",
+    "terminology": "DSM-5 (Diagnostic and Statistical Manual of Mental Disorders, 5th Edition)",
+    "terminology_ko": "DSM-5",
+    "terminology_en": "Diagnostic and Statistical Manual of Mental Disorders, 5th Edition",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "미국정신의학회(APA)가 발행한 정신장애의 진단 및 통계 편람 제5판으로, 정신장애를 범주적으로 분류하고 각 장애의 진단기준을 제시하는 공식 분류 체계이다.",
+    "definition_en": "The fifth edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association, providing categorical classification and diagnostic criteria for mental disorders.",
+    "significance": "북미를 중심으로 전 세계 임상, 연구, 보험 체계에서 사용되는 정신장애 진단의 표준 참조 체계이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 쿠퍼", "name_en": "David Kupfer", "contribution": "DSM-5 개정위원회 위원장으로서 차원적 접근의 통합과 다축 체계 폐지를 주도했다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III의 주편집자로서 조작적 진단기준을 도입하여 현대 DSM 체계의 기틀을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "ICD-11", "name_en": "ICD-11", "id": "ASSESS_ICD_002"},
+      {"name_ko": "진단적 신뢰도", "name_en": "Diagnostic Reliability", "id": "ASSESS_REL_003"},
+      {"name_ko": "진단적 타당도", "name_en": "Diagnostic Validity", "id": "ASSESS_VAL_004"},
+      {"name_ko": "감별진단", "name_en": "Differential Diagnosis", "id": "ASSESS_DIF_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DSM-5: 2013년 출판, APA 발행, 다축 체계 폐지, 차원적 평가 도입",
+      "differential": "DSM-5는 미국정신의학회 발행이고, ICD-11은 세계보건기구(WHO) 발행이다. DSM은 주로 북미, ICD는 국제적으로 사용된다.",
+      "key_point": "DSM-5에서 다축 체계가 폐지되고, 자폐스펙트럼장애로 통합, 성별불쾌감 신설 등 주요 변화가 있었다.",
+      "common_mistake": "DSM-5를 'DSM-V'로 표기하는 오류 — 아라비아 숫자 5를 사용한다(향후 5.1, 5.2 등 점진적 개정을 위해)."
+    }
+  },
+  {
+    "id": "ASSESS_ICD_002",
+    "terminology": "ICD-11 (International Classification of Diseases, 11th Revision)",
+    "terminology_ko": "ICD-11",
+    "terminology_en": "International Classification of Diseases, 11th Revision",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "세계보건기구(WHO)가 발행한 국제질병분류 제11차 개정판으로, 정신장애를 포함한 모든 질병의 국제적 분류 및 코딩 체계이며, 2022년부터 공식 시행되었다.",
+    "definition_en": "The 11th revision of the International Classification of Diseases published by the World Health Organization, serving as the global classification and coding system for all diseases including mental disorders, officially implemented since 2022.",
+    "significance": "전 세계적으로 통용되는 질병 분류 체계로, 국제적 소통, 역학 통계, 건강 정책 수립의 공통 언어 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "제프리 리드", "name_en": "Geoffrey Reed", "contribution": "ICD-11 정신 및 행동장애 분류 개정의 기술 자문관으로서 임상적 유용성 향상을 주도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "진단적 신뢰도", "name_en": "Diagnostic Reliability", "id": "ASSESS_REL_003"},
+      {"name_ko": "공병", "name_en": "Comorbidity", "id": "ASSESS_COM_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ICD = WHO 발행, 전 세계 공용; DSM = APA 발행, 주로 북미",
+      "differential": "ICD-11은 모든 질병을 분류하며 정신장애는 한 부분이고, DSM-5는 정신장애만 전문적으로 다룬다.",
+      "key_point": "ICD-11은 복합PTSD, 장기간 비탄장애 등 DSM-5에 없는 진단범주를 포함한다.",
+      "common_mistake": "ICD와 DSM이 완전히 동일하다고 보는 것 — 상당 부분 일치하지만 세부 진단기준에 차이가 있다."
+    }
+  },
+  {
+    "id": "ASSESS_REL_003",
+    "terminology": "진단적 신뢰도 (Diagnostic Reliability)",
+    "terminology_ko": "진단적 신뢰도",
+    "terminology_en": "Diagnostic Reliability",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "동일한 환자를 서로 다른 임상가가 평가했을 때 같은 진단을 내리는 일관성의 정도로, 특히 평가자 간 신뢰도(inter-rater reliability)가 중요한 지표이다.",
+    "definition_en": "The degree of consistency in diagnosis when the same patient is evaluated by different clinicians, with inter-rater reliability being a particularly important indicator.",
+    "significance": "진단 체계의 과학적 가치를 좌우하는 기본 요건으로, 신뢰도 없이는 타당도도 보장될 수 없다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III에 조작적 진단기준을 도입하여 진단 신뢰도를 획기적으로 향상시켰다."},
+      {"name_ko": "제이콥 코헨", "name_en": "Jacob Cohen", "contribution": "카파 계수(Cohen's kappa)를 개발하여 진단 신뢰도의 정량적 평가를 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "진단적 타당도", "name_en": "Diagnostic Validity", "id": "ASSESS_VAL_004"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "ASSESS_STR_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "신뢰도(Reliability) = 일관성(Consistency) = 같은 결과가 반복되는가?",
+      "differential": "신뢰도는 측정의 '일관성'이고, 타당도는 측정의 '정확성'이다. 신뢰도는 타당도의 필요조건이지만 충분조건은 아니다.",
+      "key_point": "카파 계수(Cohen's kappa)로 측정하며, .70 이상이면 양호한 신뢰도로 간주한다.",
+      "common_mistake": "신뢰도가 높으면 자동으로 타당도도 높다고 보는 오류 — 일관되게 틀릴 수도 있다."
+    }
+  },
+  {
+    "id": "ASSESS_VAL_004",
+    "terminology": "진단적 타당도 (Diagnostic Validity)",
+    "terminology_ko": "진단적 타당도",
+    "terminology_en": "Diagnostic Validity",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "진단 체계가 실제로 의미 있는 정신장애를 정확하게 구분하고 있는지의 정도로, 내용 타당도, 준거 타당도, 구성 타당도 등으로 평가된다.",
+    "definition_en": "The degree to which a diagnostic system accurately identifies and distinguishes meaningful mental disorders, evaluated through content validity, criterion validity, and construct validity.",
+    "significance": "진단이 실제 임상적 실체를 반영하는지를 결정하며, 치료 선택과 예후 예측의 정확성에 직결된다.",
+    "key_researchers": [
+      {"name_ko": "엘리 로빈스", "name_en": "Eli Robins", "contribution": "진단적 타당도를 검증하기 위한 5가지 기준(임상 기술, 실험실 소견, 감별진단, 추적 연구, 가족 연구)을 제안했다."},
+      {"name_ko": "사무엘 구즈", "name_en": "Samuel Guze", "contribution": "로빈스와 함께 정신의학 진단의 타당도 검증 방법론을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "진단적 신뢰도", "name_en": "Diagnostic Reliability", "id": "ASSESS_REL_003"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "감별진단", "name_en": "Differential Diagnosis", "id": "ASSESS_DIF_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "타당도(Validity) = 정확성 = 측정하려는 것을 실제로 측정하는가?",
+      "differential": "신뢰도는 '같은 결과가 반복'되는지, 타당도는 '맞는 것을 측정'하는지의 문제이다.",
+      "key_point": "Robins와 Guze의 5가지 타당도 검증 기준은 정신의학 진단 연구의 금본위(gold standard)이다.",
+      "common_mistake": "높은 신뢰도가 곧 높은 타당도를 의미한다고 보는 것 — 신뢰도는 필요조건이지 충분조건이 아니다."
+    }
+  },
+  {
+    "id": "ASSESS_INT_005",
+    "terminology": "임상 면담 (Clinical Interview)",
+    "terminology_ko": "임상 면담",
+    "terminology_en": "Clinical Interview",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "임상가가 내담자와 직접 대면하여 현재 증상, 병력, 개인사, 가족력 등을 체계적으로 수집하는 평가 방법으로, 임상 평가의 가장 기본적이고 핵심적인 도구이다.",
+    "definition_en": "An assessment method in which a clinician systematically gathers information about current symptoms, history, personal background, and family history through direct interaction with the client, serving as the most fundamental tool in clinical evaluation.",
+    "significance": "모든 임상 평가의 출발점으로, 라포(rapport) 형성과 임상적 관찰을 동시에 수행하는 필수 과정이다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "내담자 중심 면담 기법을 개발하여 면담에서의 공감적 경청과 비지시적 접근의 중요성을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "ASSESS_STR_006"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "ASSESS_MSE_008"},
+      {"name_ko": "비구조화 면담", "name_en": "Unstructured Interview", "id": "ASSESS_UNS_007"}
+    ],
+    "sub_types": [
+      {"name": "구조화 면담 (Structured Interview)", "description": "표준화된 질문과 순서를 따르는 면담 형식"},
+      {"name": "반구조화 면담 (Semi-Structured Interview)", "description": "기본 구조를 따르되 유연한 추가 질문이 가능한 형식"},
+      {"name": "비구조화 면담 (Unstructured Interview)", "description": "정해진 형식 없이 자유롭게 진행되는 면담"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "면담의 핵심: 라포(rapport) + 정보 수집 + 임상 관찰",
+      "differential": "구조화 면담은 신뢰도가 높고, 비구조화 면담은 유연성이 높다.",
+      "key_point": "면담은 단순한 질문-응답이 아니라 행동 관찰, 정서 평가, 치료 관계 형성을 동시에 수행하는 복합 과정이다.",
+      "common_mistake": "면담을 일상 대화와 동일시하는 것 — 임상 면담은 목적 지향적이고 체계적인 전문 활동이다."
+    }
+  },
+  {
+    "id": "ASSESS_STR_006",
+    "terminology": "구조화 면담 (Structured Interview)",
+    "terminology_ko": "구조화 면담",
+    "terminology_en": "Structured Interview",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "표준화된 질문 목록, 순서, 채점 기준을 따르는 면담 형식으로, 평가자 간 신뢰도를 극대화하기 위해 개발되었으며, SCID와 MINI가 대표적이다.",
+    "definition_en": "An interview format following standardized questions, sequence, and scoring criteria, developed to maximize inter-rater reliability, with the SCID and MINI being representative examples.",
+    "significance": "진단의 일관성과 신뢰도를 높이는 핵심 도구로, 연구 장면에서 표준적 진단 절차로 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "DSM-5에 기반한 구조화 임상 면담(SCID-5)을 개발하여 표준화된 진단 절차를 확립했다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "최초의 SCID를 개발하여 구조화 면담의 개념을 정신의학에 정착시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상 면담", "name_en": "Clinical Interview", "id": "ASSESS_INT_005"},
+      {"name_ko": "진단적 신뢰도", "name_en": "Diagnostic Reliability", "id": "ASSESS_REL_003"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구조화 면담 대표 도구: SCID(Structured Clinical Interview for DSM), MINI(Mini International Neuropsychiatric Interview)",
+      "differential": "구조화 면담은 질문이 고정되어 있고, 반구조화 면담은 기본 구조 위에 추가 탐색이 가능하다.",
+      "key_point": "연구 장면에서 진단의 표준화를 위해 필수적이며, 임상 장면에서도 활용이 확대되고 있다.",
+      "common_mistake": "구조화 면담이 항상 비구조화 면담보다 우월하다고 보는 것 — 목적에 따라 적합한 형식이 다르다."
+    }
+  },
+  {
+    "id": "ASSESS_UNS_007",
+    "terminology": "비구조화 면담 (Unstructured Interview)",
+    "terminology_ko": "비구조화 면담",
+    "terminology_en": "Unstructured Interview",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "정해진 질문 형식이나 순서 없이 임상가의 판단에 따라 자유롭게 진행되는 면담으로, 유연성이 높지만 평가자 간 신뢰도가 낮을 수 있다.",
+    "definition_en": "An interview conducted freely according to the clinician's judgment without predetermined questions or sequence, offering high flexibility but potentially lower inter-rater reliability.",
+    "significance": "내담자의 고유한 문제를 깊이 탐색할 수 있어 사례 개념화와 치료 계획에 유용하지만, 연구 장면에서는 제한적이다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "비지시적 면담 접근을 발전시켜, 내담자 주도의 자유로운 탐색을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상 면담", "name_en": "Clinical Interview", "id": "ASSESS_INT_005"},
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "ASSESS_STR_006"},
+      {"name_ko": "진단적 신뢰도", "name_en": "Diagnostic Reliability", "id": "ASSESS_REL_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비구조화 = 자유롭게 흘러감(free-flowing), 유연하지만 일관성 부족",
+      "differential": "비구조화 면담은 유연성이 강점이고, 구조화 면담은 신뢰도가 강점이다.",
+      "key_point": "임상가의 전문성과 경험에 크게 의존하므로, 숙련된 임상가에게 더 유용하다.",
+      "common_mistake": "비구조화 면담이 체계가 없다고 보는 것 — 경험 있는 임상가는 암묵적 구조를 따른다."
+    }
+  },
+  {
+    "id": "ASSESS_MSE_008",
+    "terminology": "정신상태검사 (Mental Status Examination)",
+    "terminology_ko": "정신상태검사",
+    "terminology_en": "Mental Status Examination",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "면담 시점에서 내담자의 외모, 행동, 언어, 사고과정, 사고내용, 지각, 인지기능, 정동, 기분, 판단력, 병식 등을 체계적으로 관찰하고 평가하는 검사이다.",
+    "definition_en": "A systematic assessment of a client's appearance, behavior, speech, thought process, thought content, perception, cognitive function, affect, mood, judgment, and insight at the time of interview.",
+    "significance": "현재 정신 상태의 '스냅샷'을 제공하며, 정신과적 평가의 필수 구성요소로 모든 임상 기록에 포함된다.",
+    "key_researchers": [
+      {"name_ko": "칼 야스퍼스", "name_en": "Karl Jaspers", "contribution": "정신병리학의 현상학적 기술 방법을 체계화하여 정신상태검사의 이론적 토대를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상 면담", "name_en": "Clinical Interview", "id": "ASSESS_INT_005"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "감별진단", "name_en": "Differential Diagnosis", "id": "ASSESS_DIF_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MSE 주요 항목: 외모, 행동, 언어, 사고(과정·내용), 지각, 인지, 정동/기분, 판단력, 병식",
+      "differential": "MSE는 현재 시점의 정신상태 관찰이고, 임상 면담은 병력 전체를 포괄하는 정보 수집이다.",
+      "key_point": "MSE는 신체검사에서의 이학적 검사(physical examination)에 해당하는 정신과적 평가이다.",
+      "common_mistake": "MSE를 심리검사(psychological testing)와 혼동하는 것 — MSE는 관찰에 기반한 검사이고, 심리검사는 표준화된 도구를 사용한다."
+    }
+  },
+  {
+    "id": "ASSESS_MMP_009",
+    "terminology": "MMPI-2 (미네소타 다면적 인성검사)",
+    "terminology_ko": "MMPI-2",
+    "terminology_en": "Minnesota Multiphasic Personality Inventory-2",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "567개 문항의 자기보고식 성격검사로, 10개 임상척도와 다수의 타당도척도를 포함하며, 세계에서 가장 널리 사용되는 객관적 성격검사이다.",
+    "definition_en": "A self-report personality inventory with 567 items, including 10 clinical scales and multiple validity scales, the most widely used objective personality test in the world.",
+    "significance": "경험적으로 구성된 임상척도를 통해 정신병리의 다면적 평가가 가능하며, 방대한 연구 데이터가 축적되어 있다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "1940년대 MMPI를 최초로 개발하여 경험적 준거집단 방법을 심리검사에 적용했다."},
+      {"name_ko": "존 맥킨리", "name_en": "J. Charnley McKinley", "contribution": "해서웨이와 함께 MMPI의 임상척도를 구성하고 표준화 작업을 수행했다."},
+      {"name_ko": "제임스 부처", "name_en": "James Butcher", "contribution": "MMPI-2 개정판을 주도하여 규준을 업데이트하고 현대 인구에 맞게 재표준화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-RF", "id": "ASSESS_MRF_010"},
+      {"name_ko": "로샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_014"},
+      {"name_ko": "진단적 타당도", "name_en": "Diagnostic Validity", "id": "ASSESS_VAL_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MMPI-2: 567문항, 10개 임상척도(Hs·D·Hy·Pd·Mf·Pa·Pt·Sc·Ma·Si), 타당도척도(L·F·K)",
+      "differential": "MMPI-2는 567문항의 전체판이고, MMPI-2-RF는 338문항의 재구성판으로 더 간결하고 이론적으로 정리되었다.",
+      "key_point": "경험적 접근(empirical keying)으로 구성되어, 문항 내용이 아닌 준거집단의 반응 패턴에 기반한다.",
+      "common_mistake": "개별 척도 점수만으로 진단하는 것 — MMPI-2는 프로파일 패턴(code type)으로 해석해야 한다."
+    }
+  },
+  {
+    "id": "ASSESS_MRF_010",
+    "terminology": "MMPI-2-RF (MMPI-2 재구성판)",
+    "terminology_ko": "MMPI-2-RF",
+    "terminology_en": "MMPI-2 Restructured Form",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "MMPI-2의 338개 문항으로 재구성된 검사로, 재구성 임상척도(RC)를 중심으로 보다 이론적이고 심리측정적으로 정교한 구조를 가진다.",
+    "definition_en": "A restructured version of the MMPI-2 with 338 items, centered on Restructured Clinical (RC) scales with a more theoretically and psychometrically refined structure.",
+    "significance": "MMPI-2의 척도 간 과도한 상관 문제를 해결하고, 보다 명확한 임상적 해석을 가능하게 했다.",
+    "key_researchers": [
+      {"name_ko": "아우케 텔레겐", "name_en": "Auke Tellegen", "contribution": "재구성 임상척도(RC scales)의 개발을 주도하여 MMPI-2의 구조적 문제를 해결했다."},
+      {"name_ko": "욘 벤포라스", "name_en": "Yossef Ben-Porath", "contribution": "텔레겐과 함께 MMPI-2-RF를 개발하고 표준화하여 현대적 성격평가 도구로 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
+      {"name_ko": "진단적 타당도", "name_en": "Diagnostic Validity", "id": "ASSESS_VAL_004"},
+      {"name_ko": "임상적 유의성", "name_en": "Clinical Significance", "id": "ASSESS_CLI_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RF = Restructured Form, 338문항, RC척도 중심",
+      "differential": "MMPI-2는 경험적 접근의 전통적 척도이고, MMPI-2-RF는 이론 기반 재구성 척도이다.",
+      "key_point": "RC척도는 기존 임상척도에서 공통 요인(의기소침, demoralization)을 분리하여 척도 간 변별력을 높였다.",
+      "common_mistake": "MMPI-2-RF를 단순히 MMPI-2의 단축형으로 보는 것 — 구조적으로 완전히 재설계된 검사이다."
+    }
+  },
+  {
+    "id": "ASSESS_DIF_011",
+    "terminology": "감별진단 (Differential Diagnosis)",
+    "terminology_ko": "감별진단",
+    "terminology_en": "Differential Diagnosis",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "유사한 증상을 보이는 여러 정신장애 중에서 내담자의 증상에 가장 적합한 진단을 확인하기 위해 체계적으로 가능한 진단을 비교하고 배제하는 과정이다.",
+    "definition_en": "A systematic process of comparing and eliminating possible diagnoses to identify the most appropriate diagnosis for a client's symptoms among several mental disorders with similar presentations.",
+    "significance": "정확한 진단과 적절한 치료 선택의 핵심 과정으로, 임상적 추론의 가장 중요한 기술 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "정신장애의 체계적 분류를 통해 감별진단의 개념적 기초를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공병", "name_en": "Comorbidity", "id": "ASSESS_COM_012"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "ASSESS_MSE_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "감별진단 = 여러 가능한 진단 중 '소거법'으로 좁혀나가기",
+      "differential": "감별진단은 여러 진단을 비교하여 하나를 확정하는 것이고, 공병은 여러 진단이 동시에 존재하는 것이다.",
+      "key_point": "공황장애 vs. 갑상선기능항진증, 우울증 vs. 갑상선기능저하증 등 신체질환을 먼저 배제하는 것이 감별진단의 첫 단계이다.",
+      "common_mistake": "가장 먼저 떠오르는 진단으로 성급하게 결정하는 확증편향(confirmation bias)의 오류."
+    }
+  },
+  {
+    "id": "ASSESS_COM_012",
+    "terminology": "공병 (Comorbidity)",
+    "terminology_ko": "공병",
+    "terminology_en": "Comorbidity",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "한 개인에게 두 가지 이상의 정신장애가 동시에 존재하는 상태로, 정신장애에서 매우 흔하며 치료 계획과 예후에 중요한 영향을 미친다.",
+    "definition_en": "The co-occurrence of two or more mental disorders in the same individual, very common in mental health and significantly affecting treatment planning and prognosis.",
+    "significance": "정신장애 간의 관계를 이해하고 통합적 치료 계획을 수립하는 데 핵심적이며, 현행 진단 체계의 한계를 드러내기도 한다.",
+    "key_researchers": [
+      {"name_ko": "알빈 파인스타인", "name_en": "Alvan Feinstein", "contribution": "1970년 공존이환(comorbidity)의 개념을 최초로 제안하여 다중 질환의 동시 존재에 대한 체계적 연구를 촉발했다."},
+      {"name_ko": "로널드 케슬러", "name_en": "Ronald Kessler", "contribution": "NCS 연구에서 정신장애의 높은 공병률을 발견하여 공병 연구의 중요성을 부각시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "감별진단", "name_en": "Differential Diagnosis", "id": "ASSESS_DIF_011"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공병(Comorbidity) = Co(함께) + Morbidity(질병) = 질병이 '함께' 있음",
+      "differential": "공병은 두 가지 장애가 '동시 존재'하는 것이고, 감별진단은 유사 증상의 장애 중 '하나를 결정'하는 것이다.",
+      "key_point": "우울장애와 불안장애의 공병률이 약 50~60%로 매우 높으며, 이는 두 장애의 공통 기저 기제를 시사한다.",
+      "common_mistake": "공병을 단순히 두 진단의 합으로 보는 것 — 공병은 독립적 치료가 아닌 통합적 접근이 필요하다."
+    }
+  },
+  {
+    "id": "ASSESS_BDI_013",
+    "terminology": "벡 우울 척도 (Beck Depression Inventory)",
+    "terminology_ko": "벡 우울 척도",
+    "terminology_en": "Beck Depression Inventory",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "아론 벡이 개발한 21문항의 자기보고식 우울증 선별 도구로, 우울 증상의 심각도를 인지, 정서, 신체 영역에서 측정하며, BDI-II가 현재 표준판이다.",
+    "definition_en": "A 21-item self-report screening tool for depression developed by Aaron Beck, measuring severity of depressive symptoms across cognitive, affective, and somatic domains, with the BDI-II being the current standard version.",
+    "significance": "가장 널리 사용되는 우울증 자기보고 척도로, 임상과 연구에서 우울 증상의 선별과 경과 추적에 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "1961년 BDI를 최초 개발하고, 1996년 DSM-IV에 맞춰 BDI-II로 개정했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "벡 불안 척도", "name_en": "Beck Anxiety Inventory", "id": "ASSESS_BAI_014"},
+      {"name_ko": "인지 모형", "name_en": "Cognitive Model", "id": "FOUND_COG_014"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BDI-II: 21문항, 0~63점, 0~13정상, 14~19경도, 20~28중등도, 29~63중증",
+      "differential": "BDI는 우울 증상 선별이고, MMPI-2의 D척도(2번 척도)는 우울 성격 특성까지 평가한다.",
+      "key_point": "자기보고식이므로 진단 도구가 아닌 선별(screening) 및 심각도 측정 도구이다.",
+      "common_mistake": "BDI 점수만으로 우울증을 진단할 수 있다고 보는 것 — 진단은 임상 면담을 통해 이루어져야 한다."
+    }
+  },
+  {
+    "id": "ASSESS_BAI_014",
+    "terminology": "벡 불안 척도 (Beck Anxiety Inventory)",
+    "terminology_ko": "벡 불안 척도",
+    "terminology_en": "Beck Anxiety Inventory",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "아론 벡이 개발한 21문항의 자기보고식 불안 측정 도구로, 특히 불안의 신체적 증상에 초점을 맞추어 우울과 불안을 변별하는 데 유용하다.",
+    "definition_en": "A 21-item self-report anxiety measure developed by Aaron Beck, particularly focused on somatic symptoms of anxiety, useful for discriminating between anxiety and depression.",
+    "significance": "불안 증상의 심각도를 간편하게 측정할 수 있어 임상과 연구에서 광범위하게 사용되는 표준 도구이다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "1988년 BAI를 개발하여 우울과 불안을 변별할 수 있는 불안 특이적 측정 도구를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "벡 우울 척도", "name_en": "Beck Depression Inventory", "id": "ASSESS_BDI_013"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"},
+      {"name_ko": "GAD-7", "name_en": "GAD-7", "id": "ANXIETY_G7_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BAI: 21문항, 0~63점, 신체적 불안 증상에 초점",
+      "differential": "BAI는 불안의 신체적 증상에 초점을 맞추고, GAD-7은 범불안장애의 인지적·심리적 증상에 초점을 맞춘다.",
+      "key_point": "BAI는 우울과 불안이 높은 상관을 보이는 문제를 해결하기 위해 신체적 불안에 초점을 맞추어 개발되었다.",
+      "common_mistake": "BAI가 모든 유형의 불안을 균등하게 측정한다고 보는 것 — 신체적 증상 위주로 인지적 불안은 충분히 반영하지 못한다."
+    }
+  },
+  {
+    "id": "ASSESS_ROR_015",
+    "terminology": "로샤흐 잉크반점 검사 (Rorschach Inkblot Test)",
+    "terminology_ko": "로샤흐 잉크반점 검사",
+    "terminology_en": "Rorschach Inkblot Test",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "10장의 대칭적 잉크반점 카드에 대한 자유 반응을 분석하여 성격 구조, 사고과정, 정서 조절, 대인관계 특성 등을 평가하는 투사적 검사이다.",
+    "definition_en": "A projective test analyzing free responses to 10 symmetrical inkblot cards to assess personality structure, thought processes, emotional regulation, and interpersonal characteristics.",
+    "significance": "가장 오래되고 널리 연구된 투사적 검사로, Exner의 종합체계를 통해 과학적 채점과 해석이 가능해졌다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로샤흐", "name_en": "Hermann Rorschach", "contribution": "1921년 잉크반점 검사를 개발하여 지각 과정을 통한 성격 평가의 새로운 방법론을 제시했다."},
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "종합체계(Comprehensive System)를 개발하여 로샤흐 검사의 채점과 해석을 표준화하고 과학적 기반을 강화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "TAT", "name_en": "Thematic Apperception Test", "id": "ASSESS_TAT_016"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
+      {"name_ko": "정신분석 모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "로샤흐 = 잉크얼룩에서 '무엇이 보이는가?' → 투사적 검사의 대명사",
+      "differential": "로샤흐는 비구조화된 자극(잉크반점)에 대한 반응을 분석하고, MMPI는 구조화된 질문에 대한 자기보고를 분석한다.",
+      "key_point": "Exner의 종합체계(CS)와 후속 R-PAS(Rorschach Performance Assessment System)를 통해 객관적 채점이 가능하다.",
+      "common_mistake": "로샤흐 반응의 '내용'만으로 해석하는 것 — 실제로는 반응의 위치, 결정인, 형태질, 내용 등을 종합적으로 채점한다."
+    }
+  },
+  {
+    "id": "ASSESS_TAT_016",
+    "terminology": "주제통각검사 (Thematic Apperception Test, TAT)",
+    "terminology_ko": "주제통각검사",
+    "terminology_en": "Thematic Apperception Test",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "모호한 사회적 장면이 그려진 카드를 보여주고 이야기를 만들어 내도록 하는 투사적 검사로, 내재된 욕구, 갈등, 대인관계 패턴을 탐색한다.",
+    "definition_en": "A projective test presenting cards with ambiguous social scenes and asking the examinee to create stories, used to explore underlying needs, conflicts, and interpersonal patterns.",
+    "significance": "내담자의 주관적 세계와 대인관계 역동을 이해하는 데 유용한 투사적 검사의 대표적 도구이다.",
+    "key_researchers": [
+      {"name_ko": "헨리 머레이", "name_en": "Henry Murray", "contribution": "1935년 TAT를 개발하여 욕구-압력(need-press) 이론에 기반한 성격 평가 도구를 제시했다."},
+      {"name_ko": "크리스티나 모건", "name_en": "Christiana Morgan", "contribution": "머레이와 함께 TAT의 자극 카드를 설계하고 검사 절차를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "로샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_015"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
+      {"name_ko": "정신분석 모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TAT = 그림 보고 '이야기 만들기' → 투사된 욕구와 갈등 분석",
+      "differential": "TAT는 구조화된 사회적 장면을 사용하고, 로샤흐는 비구조화된 잉크반점을 사용한다.",
+      "key_point": "Murray의 욕구-압력(need-press) 이론에 기반하여 개인의 주요 욕구와 환경적 압력을 파악한다.",
+      "common_mistake": "TAT의 '투사' 해석을 과도하게 적용하는 것 — 이야기 내용이 직접적으로 내담자의 실제 경험을 반영하지 않을 수 있다."
+    }
+  },
+  {
+    "id": "ASSESS_WAI_017",
+    "terminology": "웩슬러 성인지능검사 (Wechsler Adult Intelligence Scale, WAIS)",
+    "terminology_ko": "웩슬러 성인지능검사",
+    "terminology_en": "Wechsler Adult Intelligence Scale",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "개인의 지적 기능을 종합적으로 평가하는 개별 시행 지능검사로, 전체 IQ, 언어이해, 지각추론, 작업기억, 처리속도 지표를 산출하며, WAIS-IV가 현재 표준판이다.",
+    "definition_en": "An individually administered intelligence test providing comprehensive assessment of intellectual functioning, yielding Full-Scale IQ, Verbal Comprehension, Perceptual Reasoning, Working Memory, and Processing Speed indices, with WAIS-IV as the current standard edition.",
+    "significance": "임상 장면에서 지적장애 진단, 신경심리 평가, 인지기능 저하 평가에 필수적인 표준 지능검사이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1939년 Wechsler-Bellevue 지능검사를 개발하고, 이를 WAIS로 발전시켜 개별 시행 지능검사의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경심리검사", "name_en": "Neuropsychological Testing", "id": "ASSESS_NPS_020"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "NEURO_ADH_001"},
+      {"name_ko": "알츠하이머병", "name_en": "Alzheimer's Disease", "id": "NEURO_ALZ_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "WAIS-IV 4개 지표: VCI(언어이해), PRI(지각추론), WMI(작업기억), PSI(처리속도)",
+      "differential": "WAIS는 성인용이고, WISC는 아동용(6~16세), WPPSI는 유아용(2.5~7세)이다.",
+      "key_point": "전체 IQ뿐만 아니라 지표 간 차이(scatter)가 임상적으로 중요한 정보를 제공한다.",
+      "common_mistake": "전체 IQ 점수만으로 지적 능력을 판단하는 것 — 지표별 프로파일 분석이 임상적으로 더 중요하다."
+    }
+  },
+  {
+    "id": "ASSESS_SCL_018",
+    "terminology": "간이정신진단검사 (SCL-90-R)",
+    "terminology_ko": "간이정신진단검사",
+    "terminology_en": "Symptom Checklist-90-Revised",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "90개 문항으로 9개 증상 차원(신체화, 강박, 대인민감성, 우울, 불안, 적대감, 공포불안, 편집증, 정신병적 경향)을 측정하는 자기보고식 다차원 정신건강 선별 도구이다.",
+    "definition_en": "A 90-item self-report multidimensional mental health screening tool measuring nine symptom dimensions: somatization, obsessive-compulsive, interpersonal sensitivity, depression, anxiety, hostility, phobic anxiety, paranoid ideation, and psychoticism.",
+    "significance": "광범위한 정신병리를 빠르게 선별할 수 있어 임상과 연구에서 초기 평가 도구로 광범위하게 사용된다.",
+    "key_researchers": [
+      {"name_ko": "레너드 데로가티스", "name_en": "Leonard Derogatis", "contribution": "SCL-90-R을 개발하여 다차원적 정신건강 선별의 표준 도구를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
+      {"name_ko": "벡 우울 척도", "name_en": "Beck Depression Inventory", "id": "ASSESS_BDI_013"},
+      {"name_ko": "벡 불안 척도", "name_en": "Beck Anxiety Inventory", "id": "ASSESS_BAI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SCL-90-R: 90문항, 9개 증상차원, GSI(전반적 심각도 지표) 핵심",
+      "differential": "SCL-90-R은 다차원적 선별이고, BDI는 우울만, BAI는 불안만 측정하는 단일차원 도구이다.",
+      "key_point": "GSI(Global Severity Index), PST(Positive Symptom Total), PSDI(Positive Symptom Distress Index)의 3가지 전반적 지표가 특히 유용하다.",
+      "common_mistake": "SCL-90-R을 진단 도구로 사용하는 것 — 선별(screening)과 증상 심각도 측정이 목적이다."
+    }
+  },
+  {
+    "id": "ASSESS_CLI_019",
+    "terminology": "임상적 유의성 (Clinical Significance)",
+    "terminology_ko": "임상적 유의성",
+    "terminology_en": "Clinical Significance",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "증상이 개인의 사회적, 직업적, 또는 다른 중요한 기능 영역에서 임상적으로 의미 있는 고통이나 손상을 초래하는 정도로, DSM-5 진단의 필수 기준이다.",
+    "definition_en": "The extent to which symptoms cause clinically meaningful distress or impairment in social, occupational, or other important areas of functioning, a required criterion for DSM-5 diagnoses.",
+    "significance": "정상적 고통과 정신장애를 구분하는 문턱 역할을 하며, 과잉진단을 방지하는 핵심 기준이다.",
+    "key_researchers": [
+      {"name_ko": "제롬 웨이크필드", "name_en": "Jerome Wakefield", "contribution": "유해한 기능장애 분석을 통해 임상적 유의성의 개념적 기초를 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "FOUND_FUN_004"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "정상과 이상의 연속선", "name_en": "Normal-Abnormal Continuum", "id": "ASSESS_CON_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "임상적 유의성 = '증상이 삶에 실질적 영향을 미치는가?'",
+      "differential": "통계적 유의성은 연구 결과의 확률적 의미이고, 임상적 유의성은 증상의 실제 영향력이다.",
+      "key_point": "DSM-5 진단기준의 마지막에 거의 항상 '임상적으로 유의한 고통이나 기능 손상'을 요구한다.",
+      "common_mistake": "증상이 존재한다는 것만으로 진단을 내리는 것 — 임상적 유의성(고통/기능손상)이 충족되어야 한다."
+    }
+  },
+  {
+    "id": "ASSESS_NPS_020",
+    "terminology": "신경심리검사 (Neuropsychological Testing)",
+    "terminology_ko": "신경심리검사",
+    "terminology_en": "Neuropsychological Testing",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "뇌 기능과 관련된 인지 능력(주의, 기억, 실행기능, 언어, 시공간 능력 등)을 체계적으로 평가하는 검사 배터리로, 뇌손상이나 신경인지장애의 평가에 필수적이다.",
+    "definition_en": "A battery of tests systematically assessing cognitive abilities related to brain function (attention, memory, executive function, language, visuospatial abilities), essential for evaluating brain damage and neurocognitive disorders.",
+    "significance": "뇌-행동 관계를 정량적으로 평가하여 신경학적 진단, 치료 계획, 재활 목표 설정에 핵심적 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "알렉산더 루리아", "name_en": "Alexander Luria", "contribution": "뇌 기능의 체계적 분석 모형을 제안하여 신경심리평가의 이론적 기반을 마련했다."},
+      {"name_ko": "랠프 레이탄", "name_en": "Ralph Reitan", "contribution": "홀스테드-레이탄 신경심리검사 배터리(HRNB)를 발전시켜 뇌손상의 정량적 평가를 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "WAIS", "name_en": "WAIS", "id": "ASSESS_WAI_017"},
+      {"name_ko": "신경영상", "name_en": "Neuroimaging", "id": "ASSESS_NIM_022"},
+      {"name_ko": "알츠하이머병", "name_en": "Alzheimer's Disease", "id": "NEURO_ALZ_004"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "NEURO_ADH_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "신경심리검사 = 뇌의 '소프트웨어(인지기능)'를 검사, 신경영상 = 뇌의 '하드웨어(구조/활동)'를 검사",
+      "differential": "신경심리검사는 행동적 수행을 통해 뇌기능을 추론하고, 신경영상은 뇌의 구조/기능을 직접 관찰한다.",
+      "key_point": "개별 검사 점수보다 검사 간 패턴(프로파일)이 진단적으로 더 중요하다.",
+      "common_mistake": "신경심리검사가 뇌의 특정 부위를 정밀하게 '위치 측정'할 수 있다고 보는 것 — 기능적 영역을 평가하는 것이다."
+    }
+  },
+  {
+    "id": "ASSESS_CON_021",
+    "terminology": "정상과 이상의 연속선 (Normal-Abnormal Continuum)",
+    "terminology_ko": "정상과 이상의 연속선",
+    "terminology_en": "Normal-Abnormal Continuum",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "정상과 이상이 질적으로 구분되는 별개의 범주가 아니라, 양적으로 연속되는 스펙트럼 위에 존재한다는 관점으로, 차원적(dimensional) 접근의 기반이 된다.",
+    "definition_en": "The perspective that normality and abnormality are not qualitatively distinct categories but exist on a quantitative spectrum, forming the basis for dimensional approaches to classification.",
+    "significance": "범주적 진단의 한계를 보완하며, DSM-5에서 차원적 평가 요소가 도입되는 이론적 근거가 되었다.",
+    "key_researchers": [
+      {"name_ko": "토머스 위디거", "name_en": "Thomas Widiger", "contribution": "성격장애의 차원적 분류를 주장하고, 범주적 접근의 한계를 체계적으로 비판했다."},
+      {"name_ko": "로버트 크루거", "name_en": "Robert Krueger", "contribution": "정신병리의 위계적 분류 모형(HiTOP)을 제안하여 차원적 분류 체계의 발전에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "임상적 유의성", "name_en": "Clinical Significance", "id": "ASSESS_CLI_019"},
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "FOUND_ABN_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "연속선 = 정상과 이상 사이에 명확한 '경계선'이 없다는 관점",
+      "differential": "범주적(categorical) 접근은 '있다/없다'로 구분하고, 차원적(dimensional) 접근은 '정도'로 측정한다.",
+      "key_point": "HiTOP(Hierarchical Taxonomy of Psychopathology)은 정신병리를 차원적으로 재분류하려는 대표적 시도이다.",
+      "common_mistake": "모든 정신장애가 연속선상에 있다고 단정하는 것 — 일부 장애(예: 자폐스펙트럼)는 범주적 요소도 존재한다."
+    }
+  },
+  {
+    "id": "ASSESS_NIM_022",
+    "terminology": "신경영상 (Neuroimaging)",
+    "terminology_ko": "신경영상",
+    "terminology_en": "Neuroimaging",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "뇌의 구조나 기능을 시각화하는 기술로, CT, MRI는 구조적 영상을, fMRI와 PET는 기능적 영상을 제공하여 정신장애의 신경생물학적 기반 연구에 활용된다.",
+    "definition_en": "Technologies for visualizing brain structure or function, with CT and MRI providing structural images and fMRI and PET providing functional images, used in studying the neurobiological basis of mental disorders.",
+    "significance": "정신장애의 뇌 기반 연구를 혁신적으로 발전시켰으며, 조현병, 우울증, 불안장애 등의 신경학적 이해에 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "마커스 레이클", "name_en": "Marcus Raichle", "contribution": "fMRI의 BOLD 신호를 활용한 뇌 기능 영상법의 기초를 확립하고 기본 모드 네트워크를 발견했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경심리검사", "name_en": "Neuropsychological Testing", "id": "ASSESS_NPS_020"},
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_011"},
+      {"name_ko": "편도체", "name_en": "Amygdala", "id": "ANXIETY_AMY_026"}
+    ],
+    "sub_types": [
+      {"name": "CT (Computed Tomography)", "description": "X선을 이용한 뇌 구조 단층 촬영"},
+      {"name": "MRI (Magnetic Resonance Imaging)", "description": "자기장을 이용한 고해상도 뇌 구조 영상"},
+      {"name": "fMRI (Functional MRI)", "description": "혈류 변화(BOLD 신호)를 통해 뇌 활성화를 실시간 측정"},
+      {"name": "PET (Positron Emission Tomography)", "description": "방사성 추적자를 이용한 뇌 대사 및 신경전달물질 활동 영상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "구조: CT·MRI(뇌의 '사진') / 기능: fMRI·PET(뇌의 '동영상')",
+      "differential": "구조적 영상(CT/MRI)은 해부학적 이상을, 기능적 영상(fMRI/PET)은 활동 패턴의 이상을 확인한다.",
+      "key_point": "임상 진단보다는 주로 연구 도구로 사용되며, 개인 수준의 진단에는 아직 한계가 있다.",
+      "common_mistake": "fMRI 영상이 실시간 뇌 활동을 직접 보여준다고 생각하는 것 — 실제로는 혈류 변화의 간접 측정이다."
+    }
+  },
+  {
+    "id": "ASSESS_BEH_023",
+    "terminology": "행동 평가 (Behavioral Assessment)",
+    "terminology_ko": "행동 평가",
+    "terminology_en": "Behavioral Assessment",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "문제 행동의 빈도, 기간, 강도, 선행조건, 결과를 체계적으로 관찰하고 기록하는 평가 방법으로, 기능분석(functional analysis)을 통해 행동의 유지 요인을 파악한다.",
+    "definition_en": "An assessment method that systematically observes and records the frequency, duration, intensity, antecedents, and consequences of problem behaviors, using functional analysis to identify maintaining factors.",
+    "significance": "행동치료의 계획 수립과 효과 평가에 필수적이며, 행동의 환경적 맥락을 이해하는 데 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "버러스 스키너", "name_en": "B. F. Skinner", "contribution": "행동의 기능적 분석(ABC 분석)의 이론적 기초를 제공하여 행동 평가의 패러다임을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동주의 모형", "name_en": "Behavioral Model", "id": "FOUND_BEH_013"},
+      {"name_ko": "임상 면담", "name_en": "Clinical Interview", "id": "ASSESS_INT_005"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ABC 분석: Antecedent(선행사건) → Behavior(행동) → Consequence(결과)",
+      "differential": "행동 평가는 관찰 가능한 행동에 초점을 맞추고, 심리검사는 내적 특성(성격, 지능)을 측정한다.",
+      "key_point": "자기감시(self-monitoring), 직접 관찰, 행동 일지(diary) 등 다양한 방법이 활용된다.",
+      "common_mistake": "행동 평가가 단순히 '행동을 세는 것'이라고 보는 것 — 선행사건과 결과의 기능적 관계 분석이 핵심이다."
+    }
+  },
+  {
+    "id": "ASSESS_DSH_024",
+    "terminology": "DSM 분류 체계의 역사 (History of DSM Classification)",
+    "terminology_ko": "DSM 분류 체계의 역사",
+    "terminology_en": "History of DSM Classification",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "1952년 DSM-I에서 시작하여 DSM-5(2013)까지 발전한 정신장애 분류 체계의 변천사로, 특히 DSM-III(1980)의 조작적 진단기준 도입이 획기적 전환점이었다.",
+    "definition_en": "The evolution of mental disorder classification from DSM-I (1952) to DSM-5 (2013), with the introduction of operational diagnostic criteria in DSM-III (1980) marking a revolutionary turning point.",
+    "significance": "진단 체계의 발전 과정을 이해하면 현재 체계의 강점과 한계, 향후 발전 방향을 파악할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III의 주편집자로서 조작적 진단기준과 다축 체계를 도입하여 정신의학 진단의 패러다임을 바꾸었다."},
+      {"name_ko": "앨런 프랜시스", "name_en": "Allen Frances", "contribution": "DSM-IV의 주편집자로서 실증적 근거에 기반한 진단기준 개정을 주도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "ICD-11", "name_en": "ICD-11", "id": "ASSESS_ICD_002"},
+      {"name_ko": "진단적 신뢰도", "name_en": "Diagnostic Reliability", "id": "ASSESS_REL_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DSM 주요 전환점: DSM-I(1952, 정신역동) → DSM-III(1980, 조작적 기준) → DSM-5(2013, 다축 폐지)",
+      "differential": "DSM-III 이전은 기술적·정신역동적 접근이었고, DSM-III 이후는 조작적·증거 기반 접근으로 전환되었다.",
+      "key_point": "DSM-III의 조작적 진단기준 도입이 '구약-신약' 수준의 패러다임 전환이었다.",
+      "common_mistake": "DSM이 처음부터 과학적이었다고 보는 것 — DSM-I, II는 정신분석적 영향이 강했고, III에서야 경험적 접근이 시작되었다."
+    }
+  },
+  {
+    "id": "ASSESS_MUL_025",
+    "terminology": "다축 체계 (Multiaxial System)",
+    "terminology_ko": "다축 체계",
+    "terminology_en": "Multiaxial System",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "DSM-III에서 DSM-IV-TR까지 사용된 5축 진단 체계로, 임상장애(축I), 성격장애·지적장애(축II), 일반의학적 상태(축III), 심리사회적 문제(축IV), 전반적 기능(축V)을 포함한다.",
+    "definition_en": "A five-axis diagnostic system used from DSM-III to DSM-IV-TR, including clinical disorders (Axis I), personality/intellectual disorders (Axis II), general medical conditions (Axis III), psychosocial problems (Axis IV), and global functioning (Axis V).",
+    "significance": "환자를 다차원적으로 이해하려는 시도였으나, DSM-5에서 폐지되고 단일축 체계로 전환되었다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III에 다축 체계를 도입하여 정신장애의 다차원적 평가 프레임워크를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "DSM 분류 체계의 역사", "name_en": "History of DSM Classification", "id": "ASSESS_DSH_024"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_001"}
+    ],
+    "sub_types": [
+      {"name": "축I: 임상장애 (Clinical Disorders)", "description": "주요 정신장애 (우울, 불안, 조현병 등)"},
+      {"name": "축II: 성격장애·지적장애", "description": "장기적이고 안정적인 패턴의 장애"},
+      {"name": "축III: 일반의학적 상태", "description": "정신장애와 관련된 신체질환"},
+      {"name": "축IV: 심리사회적 환경적 문제", "description": "스트레스 요인, 사회적 지지 등"},
+      {"name": "축V: 전반적 기능 평가(GAF)", "description": "1~100점으로 전반적 기능 수준 평정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "다축 5개: I(임상)·II(성격/지적)·III(의학)·IV(심리사회)·V(기능=GAF)",
+      "differential": "다축 체계는 DSM-III~IV-TR에서 사용되었고, DSM-5에서는 단일축으로 통합되었다.",
+      "key_point": "DSM-5에서 다축 체계가 폐지된 이유는 축 간 경계의 인위성과 실제 임상에서의 활용도 저하이다.",
+      "common_mistake": "DSM-5에서도 다축 체계를 사용한다고 보는 것 — DSM-5에서는 폐지되었다."
+    }
+  },
+  {
+    "id": "ASSESS_LAB_026",
+    "terminology": "낙인 (Stigma)",
+    "terminology_ko": "낙인",
+    "terminology_en": "Stigma",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "정신장애 진단을 받은 개인에게 부여되는 부정적 사회적 표지(label)와 이로 인한 차별, 편견, 사회적 배제로, 진단의 의도치 않은 부정적 결과이다.",
+    "definition_en": "Negative social labels, discrimination, prejudice, and social exclusion directed at individuals diagnosed with mental disorders, an unintended negative consequence of diagnosis.",
+    "significance": "진단 체계의 중요한 부작용으로, 도움 추구 행동을 억제하고 회복을 방해하는 사회적 장벽이 된다.",
+    "key_researchers": [
+      {"name_ko": "어빙 고프먼", "name_en": "Erving Goffman", "contribution": "1963년 『스티그마(Stigma)』를 출판하여 사회적 낙인의 개념과 역동을 체계적으로 분석했다."},
+      {"name_ko": "데이비드 로젠한", "name_en": "David Rosenhan", "contribution": "1973년 '정신병원에서 정상인 되기' 연구로 진단적 낙인의 지속적 효과를 실증적으로 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사회적 일탈", "name_en": "Social Deviance", "id": "FOUND_SOC_005"},
+      {"name_ko": "사회문화적 모형", "name_en": "Sociocultural Model", "id": "FOUND_SCM_016"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "낙인 = 진단 '꼬리표'가 사람 전체를 규정하는 것",
+      "differential": "공적 낙인(public stigma)은 사회가 부여하는 편견이고, 자기 낙인(self-stigma)은 환자 자신이 내면화한 부정적 평가이다.",
+      "key_point": "로젠한 연구에서 가짜 환자가 퇴원 후에도 '관해 중 조현병'으로 기록된 것은 진단 낙인의 지속성을 보여준다.",
+      "common_mistake": "낙인이 진단 자체만의 문제라고 보는 것 — 미디어, 문화적 태도, 법적 차별 등 다층적 요인이 관여한다."
+    }
+  },
+  {
+    "id": "ASSESS_SSI_027",
+    "terminology": "반구조화 면담 (Semi-Structured Interview)",
+    "terminology_ko": "반구조화 면담",
+    "terminology_en": "Semi-Structured Interview",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "기본적인 질문 구조와 핵심 주제가 정해져 있으나, 임상가가 내담자의 반응에 따라 추가 탐색 질문을 유연하게 할 수 있는 면담 형식이다.",
+    "definition_en": "An interview format with a basic question structure and core topics predetermined, but allowing the clinician to flexibly ask additional probing questions based on the client's responses.",
+    "significance": "구조화 면담의 신뢰도와 비구조화 면담의 유연성을 절충한 형태로, 임상 장면에서 가장 많이 사용되는 면담 형식이다.",
+    "key_researchers": [
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "SCID의 반구조화 형식을 발전시켜 임상 실무에 적합한 진단 면담 도구를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "ASSESS_STR_006"},
+      {"name_ko": "비구조화 면담", "name_en": "Unstructured Interview", "id": "ASSESS_UNS_007"},
+      {"name_ko": "임상 면담", "name_en": "Clinical Interview", "id": "ASSESS_INT_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반구조화 = 반(半, semi)은 절반, 구조+유연의 중간",
+      "differential": "반구조화 면담은 구조화와 비구조화의 장점을 결합하여 신뢰도와 유연성을 모두 확보한다.",
+      "key_point": "SCID(Structured Clinical Interview for DSM)가 실제로는 반구조화 형식으로, 임상적 판단의 여지를 남겨둔다.",
+      "common_mistake": "반구조화 면담을 구조화 면담과 동일시하는 것 — 임상가의 추가 탐색이 가능하다는 점에서 다르다."
+    }
+  },
+  {
+    "id": "ASSESS_FMR_028",
+    "terminology": "기능적 자기공명영상 (fMRI)",
+    "terminology_ko": "기능적 자기공명영상",
+    "terminology_en": "Functional Magnetic Resonance Imaging",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "뇌의 신경활동에 따른 혈류 변화(BOLD 신호)를 측정하여 특정 인지 과제나 정서 처리 시 활성화되는 뇌 영역을 시각화하는 비침습적 신경영상 기법이다.",
+    "definition_en": "A non-invasive neuroimaging technique that measures blood flow changes (BOLD signal) associated with neural activity, visualizing brain regions activated during specific cognitive tasks or emotional processing.",
+    "significance": "이상심리학 연구에서 정신장애와 관련된 뇌 기능의 변화를 탐색하는 가장 널리 사용되는 기능적 영상 기법이다.",
+    "key_researchers": [
+      {"name_ko": "세이지 오가와", "name_en": "Seiji Ogawa", "contribution": "1990년 BOLD(Blood-Oxygen-Level-Dependent) 신호를 발견하여 fMRI의 원리를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경영상", "name_en": "Neuroimaging", "id": "ASSESS_NIM_022"},
+      {"name_ko": "PET", "name_en": "PET", "id": "ASSESS_PET_029"},
+      {"name_ko": "편도체", "name_en": "Amygdala", "id": "ANXIETY_AMY_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "fMRI의 f = functional(기능적), BOLD = Blood-Oxygen-Level-Dependent",
+      "differential": "fMRI는 혈류 변화로 뇌 활동을 간접 측정하고, PET는 방사성 추적자로 대사 활동을 측정한다. fMRI는 방사선 노출이 없다.",
+      "key_point": "BOLD 신호는 신경활동의 직접 측정이 아니라, 혈류 변화를 통한 간접 측정이다.",
+      "common_mistake": "fMRI 영상의 색깔 있는 부분이 '활성화된 뇌'를 직접 보여준다고 생각하는 것 — 통계적 차이를 시각화한 것이다."
+    }
+  },
+  {
+    "id": "ASSESS_PET_029",
+    "terminology": "양전자방출단층촬영 (PET)",
+    "terminology_ko": "양전자방출단층촬영",
+    "terminology_en": "Positron Emission Tomography",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "방사성 동위원소가 표지된 추적자를 주입하여 뇌의 대사 활동, 혈류, 신경전달물질 수용체 분포 등을 영상화하는 기능적 신경영상 기법이다.",
+    "definition_en": "A functional neuroimaging technique that images brain metabolic activity, blood flow, and neurotransmitter receptor distribution by injecting radiolabeled tracers.",
+    "significance": "신경전달물질 수용체의 분포와 밀도를 직접 측정할 수 있어, 약물 작용 기전 연구에 특히 유용하다.",
+    "key_researchers": [
+      {"name_ko": "마이클 터펜코프", "name_en": "Michael Ter-Pogossian", "contribution": "1975년 최초의 PET 스캐너를 개발하여 뇌 대사 활동의 비침습적 영상화를 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경영상", "name_en": "Neuroimaging", "id": "ASSESS_NIM_022"},
+      {"name_ko": "fMRI", "name_en": "fMRI", "id": "ASSESS_FMR_028"},
+      {"name_ko": "신경전달물질", "name_en": "Neurotransmitter", "id": "FOUND_NTR_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PET = 방사성 추적자 주입 → 양전자 방출 → 뇌 대사 영상화",
+      "differential": "PET는 방사성 물질을 사용하므로 침습적이고, fMRI는 자기장만 사용하여 비침습적이다.",
+      "key_point": "도파민 수용체 밀도 측정을 통해 조현병의 도파민 가설을 검증하는 데 핵심적으로 활용되었다.",
+      "common_mistake": "PET와 fMRI가 동일한 정보를 제공한다고 보는 것 — PET는 대사·수용체 영상에, fMRI는 혈류 기반 활동 영상에 강점이 있다."
+    }
+  },
+  {
+    "id": "ASSESS_CTR_030",
+    "terminology": "CT 촬영 (Computed Tomography)",
+    "terminology_ko": "CT 촬영",
+    "terminology_en": "Computed Tomography",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "X선을 여러 각도에서 투과시켜 컴퓨터로 뇌의 단층 구조 영상을 재구성하는 기법으로, 뇌종양, 뇌출혈 등 구조적 이상을 빠르게 확인할 수 있다.",
+    "definition_en": "A technique reconstructing cross-sectional brain images by computer processing X-rays from multiple angles, allowing rapid identification of structural abnormalities such as brain tumors and hemorrhages.",
+    "significance": "최초의 뇌 영상 기술로, 정신장애의 구조적 뇌 이상을 비침습적으로 탐색하는 데 선구적 역할을 했다.",
+    "key_researchers": [
+      {"name_ko": "고드프리 하운스필드", "name_en": "Godfrey Hounsfield", "contribution": "1971년 CT 스캐너를 발명하여 뇌의 비침습적 구조 영상화를 최초로 가능하게 했다(1979년 노벨상 수상)."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경영상", "name_en": "Neuroimaging", "id": "ASSESS_NIM_022"},
+      {"name_ko": "fMRI", "name_en": "fMRI", "id": "ASSESS_FMR_028"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCH_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CT = X선 + 컴퓨터 = 뇌 구조의 '빠른 사진'",
+      "differential": "CT는 빠르고 비용이 낮지만 해상도가 낮고, MRI는 느리고 비용이 높지만 연조직 해상도가 훨씬 높다.",
+      "key_point": "조현병 환자에서 뇌실 확장이 CT로 처음 확인되어, 정신장애의 구조적 뇌 이상 연구의 시작점이 되었다.",
+      "common_mistake": "CT가 뇌 기능(활동)을 보여준다고 생각하는 것 — CT는 구조적 영상만 제공한다."
+    }
+  },
+  {
+    "id": "ASSESS_PSY_031",
+    "terminology": "심리검사 (Psychological Testing)",
+    "terminology_ko": "심리검사",
+    "terminology_en": "Psychological Testing",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "표준화된 절차와 규준에 기반하여 개인의 심리적 특성(성격, 지능, 정서상태, 인지기능 등)을 객관적으로 측정하는 체계적 도구의 총칭이다.",
+    "definition_en": "A general term for systematic instruments that objectively measure psychological characteristics (personality, intelligence, emotional states, cognitive functions) based on standardized procedures and norms.",
+    "significance": "임상 평가에서 면담을 보완하는 핵심 도구로, 객관적이고 양적인 정보를 제공하여 진단과 치료 계획에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "제임스 매킨 캐텔", "name_en": "James McKeen Cattell", "contribution": "'정신검사(mental test)'라는 용어를 처음 사용하고 개인차 측정의 과학적 방법론을 개척했다."},
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "최초의 지능검사를 개발하여 표준화된 심리검사의 시대를 열었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
+      {"name_ko": "WAIS", "name_en": "WAIS", "id": "ASSESS_WAI_017"},
+      {"name_ko": "로샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_015"},
+      {"name_ko": "임상 면담", "name_en": "Clinical Interview", "id": "ASSESS_INT_005"}
+    ],
+    "sub_types": [
+      {"name": "객관적 검사 (Objective Test)", "description": "MMPI-2처럼 표준화된 질문에 대한 선택형 응답"},
+      {"name": "투사적 검사 (Projective Test)", "description": "로샤흐, TAT처럼 모호한 자극에 대한 자유 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "심리검사 = 표준화(standardization) + 규준(norms) + 신뢰도(reliability) + 타당도(validity)",
+      "differential": "객관적 검사는 채점이 표준화되어 있고, 투사적 검사는 해석에 임상적 판단이 필요하다.",
+      "key_point": "좋은 심리검사는 표준화, 규준, 신뢰도, 타당도의 4가지 기본 요건을 갖추어야 한다.",
+      "common_mistake": "온라인 자가 심리검사를 전문 심리검사와 동일시하는 것 — 전문 검사는 훈련된 전문가가 시행·해석해야 한다."
+    }
+  },
+  {
+    "id": "ASSESS_RAT_032",
+    "terminology": "평정척도 (Rating Scale)",
+    "terminology_ko": "평정척도",
+    "terminology_en": "Rating Scale",
+    "category": "ASSESS",
+    "category_name": "평가와 진단분류 (Assessment and Classification)",
+    "definition": "특정 행동이나 증상의 심각도, 빈도, 정도를 수량적으로 평정하기 위해 사용하는 측정 도구로, 자기보고형과 임상가 평정형이 있다.",
+    "definition_en": "A measurement instrument used to quantitatively rate the severity, frequency, or degree of specific behaviors or symptoms, available in self-report and clinician-rated formats.",
+    "significance": "증상의 변화를 수량적으로 추적할 수 있어 치료 효과 평가와 연구에서 핵심적 측정 도구이다.",
+    "key_researchers": [
+      {"name_ko": "막스 해밀턴", "name_en": "Max Hamilton", "contribution": "해밀턴 우울 평정척도(HAM-D)와 해밀턴 불안 평정척도(HAM-A)를 개발하여 임상가 평정 도구의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "벡 우울 척도", "name_en": "Beck Depression Inventory", "id": "ASSESS_BDI_013"},
+      {"name_ko": "벡 불안 척도", "name_en": "Beck Anxiety Inventory", "id": "ASSESS_BAI_014"},
+      {"name_ko": "행동 평가", "name_en": "Behavioral Assessment", "id": "ASSESS_BEH_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "평정척도 유형: 자기보고(BDI, BAI) vs. 임상가 평정(HAM-D, HAM-A)",
+      "differential": "자기보고 척도는 내담자가 직접 작성하고, 임상가 평정 척도는 전문가가 면담을 통해 평정한다.",
+      "key_point": "임상가 평정 척도(HAM-D 등)는 임상시험에서 1차 결과 측정으로 자주 사용된다.",
+      "common_mistake": "평정척도 점수만으로 진단을 내리는 것 — 평정척도는 선별과 심각도 측정이 목적이다."
+    }
+  }
+]

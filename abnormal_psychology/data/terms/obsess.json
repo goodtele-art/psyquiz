@@ -1,0 +1,942 @@
+[
+  {
+    "id": "OBSESS_OCD_001",
+    "terminology": "강박장애 (Obsessive-Compulsive Disorder)",
+    "terminology_ko": "강박장애",
+    "terminology_en": "Obsessive-Compulsive Disorder",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "반복적이고 원치 않는 강박사고와 이를 줄이기 위한 반복적 강박행동이 특징인 정신장애로, 일상생활에 심각한 고통과 기능 저하를 초래한다.",
+    "definition_en": "A mental disorder characterized by recurrent, unwanted obsessions and repetitive compulsions performed to reduce distress, causing significant impairment in daily functioning.",
+    "significance": "불안장애에서 분리되어 DSM-5에서 독립 범주로 재분류된 대표적 장애로, 신경생물학적 기반이 가장 잘 규명된 정신장애 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "주디스 라포포트", "name_en": "Judith Rapoport", "contribution": "OCD의 신경생물학적 기반 연구 및 대중적 인식 확산에 기여"},
+      {"name_ko": "폴 살코프스키스", "name_en": "Paul Salkovskis", "contribution": "OCD의 인지모형 개발, 침습적 사고의 잘못된 평가가 핵심이라고 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "노출 및 반응방지", "name_en": "Exposure and Response Prevention", "id": "OBSESS_ERP_015"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"}
+    ],
+    "sub_types": [
+      {"name": "오염형", "description": "오염에 대한 강박사고와 세척/청소 강박행동"},
+      {"name": "확인형", "description": "해를 끼칠 수 있다는 강박사고와 반복적 확인 행동"},
+      {"name": "대칭/정렬형", "description": "대칭이나 정확성에 대한 욕구와 정렬/정리 행동"},
+      {"name": "금기사고형", "description": "공격적, 성적, 종교적 침습사고와 정신적 의례행동"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "OCD = Obsessions(사고) + Compulsions(행동)의 악순환",
+      "differential": "범불안장애는 현실적 걱정이 중심이나, 강박장애는 비합리적 침습사고와 의례적 행동이 핵심이다",
+      "key_point": "DSM-5에서 불안장애 범주에서 분리되어 독립 범주(강박 및 관련 장애)로 재분류되었다",
+      "common_mistake": "강박장애를 단순히 깔끔한 성격이나 완벽주의와 혼동하는 것은 오류이다. OCD는 자아이질적이며 심각한 고통을 수반한다"
+    }
+  },
+  {
+    "id": "OBSESS_OBS_002",
+    "terminology": "강박사고 (Obsessions)",
+    "terminology_ko": "강박사고",
+    "terminology_en": "Obsessions",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "개인의 의지와 무관하게 반복적으로 떠오르는 원치 않는 침습적 사고, 심상 또는 충동으로, 현저한 불안이나 고통을 유발한다.",
+    "definition_en": "Recurrent, unwanted intrusive thoughts, images, or urges that arise involuntarily and cause marked anxiety or distress to the individual.",
+    "significance": "강박장애의 핵심 구성 요소로서, 인지적 접근에서는 이러한 사고에 대한 잘못된 해석이 장애를 유지시키는 핵심 기제로 본다.",
+    "key_researchers": [
+      {"name_ko": "폴 살코프스키스", "name_en": "Paul Salkovskis", "contribution": "침습적 사고 자체가 아니라 그에 대한 과도한 책임감 해석이 OCD를 유발한다고 제안"},
+      {"name_ko": "스탠리 라크만", "name_en": "Stanley Rachman", "contribution": "정상인도 침습적 사고를 경험하며, OCD 환자는 이를 더 위협적으로 평가한다는 것을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "침습적 사고", "name_en": "Intrusive Thoughts", "id": "OBSESS_INT_007"},
+      {"name_ko": "사고-행동 융합", "name_en": "Thought-Action Fusion", "id": "OBSESS_TAF_008"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "",
+      "differential": "걱정(worry)은 언어적이고 미래지향적이나, 강박사고는 침습적이고 자아이질적인 심상이나 충동을 포함한다",
+      "key_point": "정상인의 약 80~90%도 침습적 사고를 경험하지만, OCD 환자는 이를 과도하게 의미 부여한다",
+      "common_mistake": "강박사고를 단순한 걱정이나 불안과 동일시하는 것은 오류이다. 강박사고는 자아이질적이며 특유의 침습성을 가진다"
+    }
+  },
+  {
+    "id": "OBSESS_COM_003",
+    "terminology": "강박행동 (Compulsions)",
+    "terminology_ko": "강박행동",
+    "terminology_en": "Compulsions",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "강박사고로 인한 불안을 줄이거나 두려운 상황을 예방하기 위해 수행하는 반복적인 행동이나 정신적 행위로, 실제로는 과도하거나 비합리적이다.",
+    "definition_en": "Repetitive behaviors or mental acts performed to reduce anxiety caused by obsessions or to prevent a dreaded situation, which are excessive or unrealistic in nature.",
+    "significance": "강박행동은 단기적으로 불안을 감소시키지만 장기적으로 강박 순환을 유지·강화하는 역할을 하며, 이것이 ERP 치료의 이론적 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "빅터 마이어", "name_en": "Victor Meyer", "contribution": "강박행동에 대한 반응방지 기법을 최초로 개발하여 행동치료의 기초를 마련"},
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "노출 및 반응방지(ERP)의 체계적 프로토콜을 개발하고 효과를 실증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "노출 및 반응방지", "name_en": "Exposure and Response Prevention", "id": "OBSESS_ERP_015"},
+      {"name_ko": "정신적 강박행동", "name_en": "Mental Compulsions", "id": "OBSESS_MEN_025"},
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "OBSESS_AVO_026"}
+    ],
+    "sub_types": [
+      {"name": "세척/청소", "description": "반복적 손씻기, 소독, 청소 등"},
+      {"name": "확인", "description": "문단속, 가스밸브, 전원 등 반복 확인"},
+      {"name": "정렬/정리", "description": "대칭이나 특정 순서로 물건 배열"},
+      {"name": "정신적 의례", "description": "숫자 세기, 기도, 특정 단어 반복 등 내적 행위"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "강박행동 = 불안의 '소화기'처럼 보이지만 실제로는 불을 키우는 '부채'",
+      "differential": "습관이나 의례행동은 대개 즐거움을 주지만, 강박행동은 불안 감소가 목적이며 자발적 즐거움이 없다",
+      "key_point": "강박행동은 외현적 행동뿐 아니라 숫자 세기, 기도 등 정신적 행위도 포함한다",
+      "common_mistake": "강박행동을 반드시 눈에 보이는 행동으로만 한정하는 것은 오류이다. 정신적 강박행동도 존재한다"
+    }
+  },
+  {
+    "id": "OBSESS_CON_004",
+    "terminology": "오염공포 (Contamination Fear)",
+    "terminology_ko": "오염공포",
+    "terminology_en": "Contamination Fear",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "세균, 질병, 화학물질, 혹은 추상적인 '오염'에 대한 과도하고 비합리적인 두려움으로, 반복적 세척이나 회피 행동으로 이어진다.",
+    "definition_en": "An excessive and irrational fear of germs, disease, chemicals, or abstract contamination, leading to repetitive washing or avoidance behaviors.",
+    "significance": "가장 흔한 강박사고 유형 중 하나로, 진화심리학적 관점에서 질병회피 기제의 과활성화로 설명되며 문화적 차이도 관찰된다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 라크만", "name_en": "Stanley Rachman", "contribution": "정신적 오염 개념을 제안하여 물리적 접촉 없이도 오염감을 느낄 수 있음을 입증"},
+      {"name_ko": "폴 로진", "name_en": "Paul Rozin", "contribution": "혐오감과 오염 인지의 심리학적 기제 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "OBSESS_AVO_026"}
+    ],
+    "sub_types": [
+      {"name": "물리적 오염", "description": "세균, 바이러스, 화학물질 등 실체적 오염원에 대한 두려움"},
+      {"name": "정신적 오염", "description": "물리적 접촉 없이 '더럽혀진' 느낌, 대인관계 위반과 관련"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "",
+      "differential": "건강염려증(질병불안장애)은 이미 질병에 걸렸다는 두려움이 중심이나, 오염공포는 오염원에 노출되는 것 자체가 핵심이다",
+      "key_point": "물리적 접촉 없이도 경험하는 '정신적 오염(mental contamination)' 개념이 중요하다",
+      "common_mistake": "오염공포를 단순한 결벽증으로 치부하는 것은 오류이다. 정신적 오염까지 포함하는 복합적 현상이다"
+    }
+  },
+  {
+    "id": "OBSESS_CHK_005",
+    "terminology": "확인강박 (Checking Compulsions)",
+    "terminology_ko": "확인강박",
+    "terminology_en": "Checking Compulsions",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "해를 끼치거나 실수를 했을 수 있다는 의심으로 인해 문단속, 가스밸브, 전기제품 등을 반복적으로 확인하는 강박행동이다.",
+    "definition_en": "Repetitive checking behaviors such as locks, stoves, and appliances, driven by doubt about having caused harm or made an error.",
+    "significance": "오염형과 함께 가장 흔한 강박행동 유형이며, 기억에 대한 불신과 병적 의심이 핵심 기제로 작용한다.",
+    "key_researchers": [
+      {"name_ko": "마르셀 반 덴 하우트", "name_en": "Marcel van den Hout", "contribution": "반복 확인이 오히려 기억 불신을 증가시킨다는 역설적 효과를 발견"},
+      {"name_ko": "아담 라도마스키", "name_en": "Adam Radomsky", "contribution": "확인강박에서 기억 정확도와 기억 확신의 괴리를 실험적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "책임감 과대평가", "name_en": "Inflated Responsibility", "id": "OBSESS_RES_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "확인하면 할수록 기억이 흐려진다 → 확인의 역설",
+      "differential": "범불안장애의 반복적 걱정은 다양한 주제를 넘나드나, 확인강박은 특정 상황(문단속 등)에 고착된다",
+      "key_point": "반복 확인이 기억에 대한 확신을 오히려 감소시키는 역설적 효과가 핵심이다",
+      "common_mistake": "확인강박을 단순한 조심성이나 꼼꼼함으로 오해하면 안 된다. 병적 의심과 기억 불신이 핵심 기제이다"
+    }
+  },
+  {
+    "id": "OBSESS_SYM_006",
+    "terminology": "대칭/정렬 강박 (Symmetry/Ordering Obsessions)",
+    "terminology_ko": "대칭/정렬 강박",
+    "terminology_en": "Symmetry/Ordering Obsessions",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "사물이 대칭적이거나 특정한 순서·배열로 되어 있어야 한다는 강렬한 욕구를 느끼며, 그렇지 않으면 극심한 불편감을 경험하는 강박 유형이다.",
+    "definition_en": "An intense need for things to be symmetrical or in a specific order or arrangement, with extreme discomfort when they are not aligned properly.",
+    "significance": "전형적인 불안 기반이 아닌 '불완전감(not just right experience)'이 동기인 독특한 OCD 하위유형으로, 다른 유형과 기제가 다를 수 있다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 서마펠트", "name_en": "David Summerfeldt", "contribution": "불완전감(incompleteness)이 대칭/정렬 강박의 핵심 동기임을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "불완전감", "name_en": "Incompleteness", "id": "OBSESS_INC_024"},
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대칭강박의 동기 = 불안이 아닌 '불완전감(NJR: Not Just Right)'",
+      "differential": "확인강박은 해를 방지하려는 '불안'이 동기이나, 대칭강박은 '안 맞는 느낌(불완전감)'이 주된 동기이다",
+      "key_point": "불안보다 불완전감(not just right experience)이 핵심 동기인 독특한 OCD 하위유형이다",
+      "common_mistake": "대칭강박을 단순히 미적 선호나 성격 특성으로 치부하면 안 된다. 이에 따른 고통과 기능 저하가 진단의 핵심이다"
+    }
+  },
+  {
+    "id": "OBSESS_INT_007",
+    "terminology": "침습적 사고 (Intrusive Thoughts)",
+    "terminology_ko": "침습적 사고",
+    "terminology_en": "Intrusive Thoughts",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "개인의 의지와 무관하게 갑자기 의식에 침투하는 원치 않는 사고, 심상 또는 충동으로, 일반인에게도 보편적으로 나타나는 정상적 인지 현상이다.",
+    "definition_en": "Unwanted thoughts, images, or urges that involuntarily intrude into consciousness, a universal cognitive phenomenon experienced by the general population as well.",
+    "significance": "정상인의 80~90%가 경험하는 보편적 현상이라는 발견은 OCD 인지이론의 핵심 기반이 되었으며, 사고의 내용이 아닌 해석이 병리의 관건임을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 라크만", "name_en": "Stanley Rachman", "contribution": "정상인도 OCD 환자와 유사한 침습적 사고를 경험함을 최초로 실증적으로 입증"},
+      {"name_ko": "크리스틴 퍼던", "name_en": "Christine Purdon", "contribution": "침습적 사고의 평가와 통제 시도가 역설적으로 사고를 강화함을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "사고-행동 융합", "name_en": "Thought-Action Fusion", "id": "OBSESS_TAF_008"},
+      {"name_ko": "사고억제의 역설", "name_en": "Thought Suppression Paradox", "id": "OBSESS_SUP_022"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "침습적 사고 = 모든 사람에게 나타나는 '정신적 팝업 광고'",
+      "differential": "강박사고는 침습적 사고에 대한 병적 해석과 반복이 추가된 것이며, 침습적 사고 자체는 정상적 현상이다",
+      "key_point": "침습적 사고의 내용(content)이 아닌 그에 대한 해석(appraisal)이 정상과 병리를 구분한다",
+      "common_mistake": "침습적 사고를 경험하는 것 자체가 비정상이라고 판단하는 것은 오류이다. 대부분의 사람이 경험한다"
+    }
+  },
+  {
+    "id": "OBSESS_TAF_008",
+    "terminology": "사고-행동 융합 (Thought-Action Fusion)",
+    "terminology_ko": "사고-행동 융합",
+    "terminology_en": "Thought-Action Fusion",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "나쁜 일을 생각하는 것이 실제로 나쁜 일이 일어날 가능성을 높이거나(가능성 TAF), 나쁜 일을 생각하는 것 자체가 도덕적으로 나쁜 행위와 동등하다고(도덕성 TAF) 믿는 인지적 편향이다.",
+    "definition_en": "A cognitive bias involving beliefs that thinking about a bad event increases its likelihood (likelihood TAF) or that thinking about something bad is morally equivalent to actually doing it (moral TAF).",
+    "significance": "OCD의 인지모형에서 침습적 사고를 위협적으로 평가하게 만드는 핵심 인지적 편향으로, 치료에서 핵심적 개입 대상이다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 라크만", "name_en": "Stanley Rachman", "contribution": "사고-행동 융합 개념을 최초로 체계화하고 측정도구를 개발"},
+      {"name_ko": "다니엘 새소나", "name_en": "Danielle Shafran", "contribution": "사고-행동 융합의 두 하위유형(가능성/도덕성)을 구분하고 실증 연구 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "침습적 사고", "name_en": "Intrusive Thoughts", "id": "OBSESS_INT_007"},
+      {"name_ko": "책임감 과대평가", "name_en": "Inflated Responsibility", "id": "OBSESS_RES_021"},
+      {"name_ko": "마법적 사고", "name_en": "Magical Thinking", "id": "OBSESS_MAG_023"}
+    ],
+    "sub_types": [
+      {"name": "가능성 TAF", "description": "나쁜 생각이 실제 사건의 가능성을 높인다는 믿음"},
+      {"name": "도덕성 TAF", "description": "나쁜 생각 자체가 행동만큼 도덕적으로 나쁘다는 믿음"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "TAF = Thought(생각) = Action(행동)이라는 잘못된 등식",
+      "differential": "마법적 사고는 사고가 물리적 세계에 영향을 준다는 일반적 믿음이나, TAF는 구체적으로 가능성과 도덕성 차원에서 사고와 행동을 동일시한다",
+      "key_point": "가능성 TAF(생각하면 일어난다)와 도덕성 TAF(생각만으로 도덕적 위반)의 두 하위유형이 있다",
+      "common_mistake": "TAF를 모든 인지적 편향의 총칭으로 사용하면 안 된다. 사고와 행동의 동일시라는 특정 편향에만 해당한다"
+    }
+  },
+  {
+    "id": "OBSESS_BDD_009",
+    "terminology": "신체변형장애 (Body Dysmorphic Disorder)",
+    "terminology_ko": "신체변형장애",
+    "terminology_en": "Body Dysmorphic Disorder",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "타인에게는 관찰되지 않거나 미미한 외모 결함에 대해 과도하게 몰두하며, 반복적 확인이나 위장 행동을 동반하는 장애이다.",
+    "definition_en": "A disorder involving excessive preoccupation with perceived flaws in physical appearance that are not observable or appear minor to others, accompanied by repetitive checking or camouflaging behaviors.",
+    "significance": "OCD와 유사한 인지행동적 기제를 공유하여 DSM-5에서 강박 관련 장애로 분류되었으며, 성형수술 의존 등 심각한 기능 저하를 초래한다.",
+    "key_researchers": [
+      {"name_ko": "캐서린 필립스", "name_en": "Katharine Phillips", "contribution": "BDD의 체계적 진단 기준과 치료 프로토콜을 개발한 선구적 연구자"},
+      {"name_ko": "데이비드 베일", "name_en": "David Veale", "contribution": "BDD의 인지행동모형을 개발하고 CBT 기반 치료 효과를 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "근육변형장애", "name_en": "Muscle Dysmorphia", "id": "OBSESS_MDD_010"},
+      {"name_ko": "신경성식욕부진", "name_en": "Anorexia Nervosa", "id": "EATING_AN_001"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ANXIETY_SAD_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BDD = Body(외모) Dysmorphic(왜곡된) Disorder → 거울 속 왜곡",
+      "differential": "신경성식욕부진은 체중/체형 전반에 몰두하나, BDD는 특정 신체 부위의 미세한 결함에 몰두한다",
+      "key_point": "지각된 결함이 타인에게는 관찰되지 않거나 미미하다는 점이 핵심 진단 기준이다",
+      "common_mistake": "BDD를 단순한 외모 불만족이나 허영심으로 오해하면 안 된다. 심각한 고통과 기능 저하를 수반하는 정신장애이다"
+    }
+  },
+  {
+    "id": "OBSESS_MDD_010",
+    "terminology": "근육변형장애 (Muscle Dysmorphia)",
+    "terminology_ko": "근육변형장애",
+    "terminology_en": "Muscle Dysmorphia",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 체격이 충분히 크거나 근육질이 아니라고 인식하여 과도한 운동, 식이 제한, 스테로이드 사용 등에 몰두하는 신체변형장애의 하위유형이다.",
+    "definition_en": "A subtype of body dysmorphic disorder involving a preoccupation that one's body build is insufficiently large or muscular, leading to excessive exercise, dietary restriction, and steroid use.",
+    "significance": "주로 남성에서 나타나는 BDD의 하위유형으로, 스테로이드 남용과 관련된 공중보건 문제와 연결되며 남성의 신체 이미지 문제를 조명한다.",
+    "key_researchers": [
+      {"name_ko": "해리슨 포프", "name_en": "Harrison Pope", "contribution": "근육변형장애를 최초로 '역 신경성식욕부진(reverse anorexia)'으로 명명하고 체계적으로 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체변형장애", "name_en": "Body Dysmorphic Disorder", "id": "OBSESS_BDD_009"},
+      {"name_ko": "신경성식욕부진", "name_en": "Anorexia Nervosa", "id": "EATING_AN_001"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "근육변형 = '역방향 식욕부진(reverse anorexia)' → 충분히 크지 않다는 왜곡",
+      "differential": "신경성식욕부진은 체중이 너무 많다고 느끼나, 근육변형장애는 체격이 충분히 크지 않다고 느끼는 정반대 방향의 왜곡이다",
+      "key_point": "주로 남성에게서 나타나며, 최초에는 '역 신경성식욕부진(reverse anorexia)'으로 명명되었다",
+      "common_mistake": "근육변형장애를 단순한 운동 열정이나 보디빌딩 취미와 혼동하면 안 된다. 임상적 고통과 기능 손상이 동반된다"
+    }
+  },
+  {
+    "id": "OBSESS_HOA_011",
+    "terminology": "저장장애 (Hoarding Disorder)",
+    "terminology_ko": "저장장애",
+    "terminology_en": "Hoarding Disorder",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "소유물을 버리거나 분리하는 것에 지속적인 어려움을 느끼며, 과도한 물건 축적으로 생활공간이 사용 불가능해지는 장애이다.",
+    "definition_en": "A disorder characterized by persistent difficulty discarding or parting with possessions, resulting in excessive accumulation that renders living spaces unusable.",
+    "significance": "DSM-5에서 OCD의 하위유형이 아닌 독립 진단으로 분류되었으며, 노인 인구에서 공중보건 및 안전 문제와 직결된다.",
+    "key_researchers": [
+      {"name_ko": "랜디 프로스트", "name_en": "Randy Frost", "contribution": "저장행동의 인지행동모형을 개발하고 저장장애를 독립 진단으로 확립하는 데 기여"},
+      {"name_ko": "게일 스테케티", "name_en": "Gail Steketee", "contribution": "저장장애의 CBT 치료 프로토콜을 개발하고 효과를 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [
+      {"name": "과도한 획득 동반", "description": "불필요한 물건을 지나치게 구매하거나 수집하는 행동이 동반됨"},
+      {"name": "과도한 획득 비동반", "description": "새로운 물건을 획득하지는 않으나 기존 물건을 버리지 못함"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "저장장애: 버리기 어려움 + 과도 축적 + 생활공간 마비의 3요소",
+      "differential": "OCD의 저장행동은 자아이질적이고 다른 강박증상을 동반하나, 저장장애는 자아동조적이며 물건에 정서적 애착을 느낀다",
+      "key_point": "DSM-5에서 OCD의 하위유형이 아닌 독립 진단으로 분류되었다. 치료 반응이 OCD와 다르기 때문이다",
+      "common_mistake": "저장장애를 단순한 게으름이나 정리 능력 부족으로 치부하면 안 된다. 의사결정과 정서조절의 어려움이 핵심이다"
+    }
+  },
+  {
+    "id": "OBSESS_TTM_012",
+    "terminology": "발모장애 (Trichotillomania)",
+    "terminology_ko": "발모장애",
+    "terminology_en": "Trichotillomania",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 머리카락이나 체모를 반복적으로 뽑는 행동을 보이며, 이를 멈추려는 시도가 반복적으로 실패하여 눈에 띄는 탈모가 발생하는 장애이다.",
+    "definition_en": "A disorder involving repetitive pulling out of one's own hair, resulting in noticeable hair loss despite repeated attempts to decrease or stop the behavior.",
+    "significance": "신체초점반복행동(BFRB)의 대표적 장애로, 습관적이고 자동적인 행동과 의도적이고 집중적인 행동이 공존하며 각각 다른 치료 전략이 필요하다.",
+    "key_researchers": [
+      {"name_ko": "더글러스 우즈", "name_en": "Douglas Woods", "contribution": "습관역전훈련(HRT)의 발모장애 적용을 체계화하고 치료 효과를 검증"},
+      {"name_ko": "마틴 프랭클린", "name_en": "Martin Franklin", "contribution": "발모장애의 행동치료 효과에 대한 대규모 임상시험을 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "피부뜯기장애", "name_en": "Excoriation Disorder", "id": "OBSESS_EXC_013"},
+      {"name_ko": "습관역전훈련", "name_en": "Habit Reversal Training", "id": "OBSESS_HRT_027"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [
+      {"name": "자동적 유형", "description": "무의식적으로, 다른 활동 중에 자동적으로 머리를 뽑는 유형"},
+      {"name": "집중적 유형", "description": "긴장이나 충동을 의식적으로 느끼고 이에 반응하여 뽑는 유형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Tricho(머리카락) + till(뽑다) + mania(충동) = 머리카락 뽑기 충동",
+      "differential": "강박장애는 불안 감소 목적의 의례적 행동이나, 발모장애는 쾌감이나 긴장 해소가 목적인 충동적 행동이다",
+      "key_point": "자동적 유형(무의식적)과 집중적 유형(의식적 충동)으로 구분되며, 치료 접근이 다르다",
+      "common_mistake": "발모장애를 자해행동으로 분류하면 안 된다. 자해와는 목적과 기제가 다른 신체초점반복행동이다"
+    }
+  },
+  {
+    "id": "OBSESS_EXC_013",
+    "terminology": "피부뜯기장애 (Excoriation Disorder)",
+    "terminology_ko": "피부뜯기장애",
+    "terminology_en": "Excoriation Disorder",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 피부를 반복적으로 뜯거나 긁어 피부 손상을 유발하며, 이 행동을 줄이거나 멈추려는 시도가 반복적으로 실패하는 장애이다.",
+    "definition_en": "A disorder involving repetitive picking at one's own skin, resulting in skin lesions, despite repeated attempts to decrease or stop the behavior.",
+    "significance": "발모장애와 함께 신체초점반복행동(BFRB)으로 분류되며, DSM-5에서 처음으로 독립 진단으로 공식 인정되었다.",
+    "key_researchers": [
+      {"name_ko": "존 그랜트", "name_en": "Jon Grant", "contribution": "피부뜯기장애의 약물치료(NAC 등)와 행동치료 효과를 체계적으로 연구"},
+      {"name_ko": "낸시 케너", "name_en": "Nancy Keuthen", "contribution": "피부뜯기장애의 평가도구 개발 및 인지행동치료 프로토콜 표준화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발모장애", "name_en": "Trichotillomania", "id": "OBSESS_TTM_012"},
+      {"name_ko": "습관역전훈련", "name_en": "Habit Reversal Training", "id": "OBSESS_HRT_027"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [
+      {"name": "자동적 유형", "description": "다른 활동 중 무의식적으로 피부를 뜯는 유형"},
+      {"name": "집중적 유형", "description": "피부 불완전함을 인식하고 의도적으로 뜯는 유형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Excoriation = Ex(벗기다) + cor(피부) → 피부를 반복적으로 벗기는 장애",
+      "differential": "비자살적 자해는 정서적 고통 경감이 목적이나, 피부뜯기장애는 충동적/습관적 행동으로 자해 의도가 없다",
+      "key_point": "DSM-5에서 처음으로 독립 진단으로 인정되었으며, 발모장애와 함께 BFRB(신체초점반복행동)로 분류된다",
+      "common_mistake": "피부뜯기장애를 고의적 자해행동과 혼동하면 안 된다. 동기와 기제가 근본적으로 다르다"
+    }
+  },
+  {
+    "id": "OBSESS_ORS_014",
+    "terminology": "후각참조증후군 (Olfactory Reference Syndrome)",
+    "terminology_ko": "후각참조증후군",
+    "terminology_en": "Olfactory Reference Syndrome",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 몸에서 불쾌하거나 역겨운 냄새가 나고 있다고 지속적으로 몰두하지만, 실제로 타인이 감지할 수 없는 냄새에 대한 과도한 염려이다.",
+    "definition_en": "A persistent preoccupation with the belief that one emits a foul or unpleasant body odor that is not actually perceived by others, leading to significant distress.",
+    "significance": "DSM-5에서 '기타 강박 관련 장애'에 포함된 비교적 새로운 진단으로, BDD와 유사한 인지행동 기제를 공유한다.",
+    "key_researchers": [
+      {"name_ko": "캐서린 필립스", "name_en": "Katharine Phillips", "contribution": "후각참조증후군의 진단 기준 체계화 및 BDD와의 유사성 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체변형장애", "name_en": "Body Dysmorphic Disorder", "id": "OBSESS_BDD_009"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ANXIETY_SAD_003"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ORS = 보이지 않는 냄새에 대한 BDD의 '후각 버전'",
+      "differential": "BDD는 시각적 외모 결함에 몰두하나, 후각참조증후군은 후각적 결함(체취)에 몰두한다. 기제는 유사하다",
+      "key_point": "타인이 감지할 수 없는 냄새에 대한 과도한 몰두이며, BDD와 유사한 인지행동 기제를 공유한다",
+      "common_mistake": "후각참조증후군을 망상장애로 분류하면 안 된다. 통찰력 수준이 다양하며 강박 관련 장애에 속한다"
+    }
+  },
+  {
+    "id": "OBSESS_ERP_015",
+    "terminology": "노출 및 반응방지 (Exposure and Response Prevention)",
+    "terminology_ko": "노출 및 반응방지",
+    "terminology_en": "Exposure and Response Prevention",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "강박사고를 유발하는 자극에 의도적으로 노출시키면서 강박행동을 하지 않도록 차단하여, 불안이 자연적으로 소거되도록 하는 행동치료 기법이다.",
+    "definition_en": "A behavioral therapy technique that deliberately exposes the patient to obsession-triggering stimuli while preventing compulsive responses, allowing anxiety to naturally extinguish.",
+    "significance": "OCD 치료에서 가장 강력한 근거를 가진 심리치료법으로, SSRI와 동등하거나 우수한 효과를 보이며 1급 권고 치료이다.",
+    "key_researchers": [
+      {"name_ko": "빅터 마이어", "name_en": "Victor Meyer", "contribution": "OCD에 대한 반응방지 기법을 최초로 개발하고 적용(1966)"},
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "ERP의 체계적 매뉴얼화와 대규모 효과 연구를 통해 표준 치료법으로 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "Y-BOCS", "name_en": "Y-BOCS", "id": "OBSESS_YBO_016"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ERP = Exposure(노출) + Response(반응) Prevention(방지) → 두려움에 직면하되 의례는 금지",
+      "differential": "체계적 둔감화는 이완과 함께 점진적으로 노출하나, ERP는 이완 없이 불안을 직접 경험하며 반응방지가 핵심이다",
+      "key_point": "OCD 치료에서 가장 강력한 근거 기반 심리치료법이며, SSRI와 동등하거나 우수한 효과를 보인다",
+      "common_mistake": "ERP를 단순한 노출치료와 동일시하면 안 된다. '반응방지' 요소가 ERP를 다른 노출치료와 구분하는 핵심이다"
+    }
+  },
+  {
+    "id": "OBSESS_YBO_016",
+    "terminology": "예일-브라운 강박 척도 (Yale-Brown Obsessive Compulsive Scale)",
+    "terminology_ko": "예일-브라운 강박 척도",
+    "terminology_en": "Yale-Brown Obsessive Compulsive Scale",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "강박사고와 강박행동의 심각도를 시간소요, 고통, 간섭, 저항, 통제의 5개 차원에서 평가하는 반구조화 면담 척도이다.",
+    "definition_en": "A semi-structured interview scale assessing the severity of obsessions and compulsions across five dimensions: time occupied, distress, interference, resistance, and control.",
+    "significance": "OCD 연구와 임상에서 가장 널리 사용되는 표준 평가도구로, 치료 효과 측정의 금본위(gold standard)이다.",
+    "key_researchers": [
+      {"name_ko": "웨인 굿맨", "name_en": "Wayne Goodman", "contribution": "Y-BOCS를 개발하여 OCD 심각도의 표준 측정도구로 확립"},
+      {"name_ko": "로렌스 프라이스", "name_en": "Lawrence Price", "contribution": "Y-BOCS의 심리측정적 속성을 검증하고 신뢰도·타당도를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "심리검사", "name_en": "Psychological Testing", "id": "ASSESS_PST_005"},
+      {"name_ko": "노출 및 반응방지", "name_en": "Exposure and Response Prevention", "id": "OBSESS_ERP_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Y-BOCS: Yale + Brown 대학 공동 개발, 5개 차원 × 2(사고+행동) = 10문항",
+      "differential": "OCI-R(강박 목록)은 자기보고식이나, Y-BOCS는 면담 기반 평가로 더 정확한 심각도 측정이 가능하다",
+      "key_point": "OCD 심각도 측정의 금본위(gold standard)로, 강박사고와 강박행동 각각 5개 차원으로 평가한다",
+      "common_mistake": "Y-BOCS가 강박의 내용(유형)을 평가하는 도구로 오해하면 안 된다. 심각도를 측정하는 도구이다"
+    }
+  },
+  {
+    "id": "OBSESS_EDY_017",
+    "terminology": "자아이질적 (Ego-Dystonic)",
+    "terminology_ko": "자아이질적",
+    "terminology_en": "Ego-Dystonic",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 사고, 충동, 행동이 자기 자신의 가치관이나 자아 정체성과 일치하지 않는다고 느끼는 상태로, 이로 인해 고통을 경험한다.",
+    "definition_en": "A state in which one's thoughts, urges, or behaviors are felt to be inconsistent with one's values or sense of self, causing distress as a result.",
+    "significance": "강박사고가 자아이질적이라는 특성은 OCD를 정신증이나 성격장애의 고정된 신념과 구별하는 핵심 특징이며, 치료 동기 유발의 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "자아이질적(ego-dystonic)과 자아동조적(ego-syntonic) 개념을 최초로 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자아동조적", "name_en": "Ego-Syntonic", "id": "OBSESS_ESY_018"},
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Dys(이상) + tonic(긴장) = 자아와 '안 맞는' 불편함",
+      "differential": "자아동조적(ego-syntonic) 증상은 자기 가치관과 일치하여 고통이 적으나, 자아이질적 증상은 자아와 불일치하여 고통이 크다",
+      "key_point": "OCD 환자의 강박사고는 자아이질적이어서 스스로 비합리적임을 인식하며 고통받는다. 이것이 망상과의 핵심 차이이다",
+      "common_mistake": "자아이질적이라는 것이 항상 완전한 통찰력을 의미하지는 않는다. OCD에서도 통찰력의 정도는 다양하다"
+    }
+  },
+  {
+    "id": "OBSESS_ESY_018",
+    "terminology": "자아동조적 (Ego-Syntonic)",
+    "terminology_ko": "자아동조적",
+    "terminology_en": "Ego-Syntonic",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 사고, 행동, 가치관이 자아 정체성과 일치한다고 느끼는 상태로, 이러한 증상에 대한 고통이 상대적으로 적다.",
+    "definition_en": "A state in which one's thoughts, behaviors, and values are felt to be consistent with one's sense of self, resulting in relatively less distress about the symptoms.",
+    "significance": "저장장애, 성격장애 등 자아동조적 장애는 환자의 치료 동기가 낮아 치료가 어렵다는 임상적 함의를 가진다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "자아동조적 개념을 성격장애와 관련하여 최초로 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자아이질적", "name_en": "Ego-Dystonic", "id": "OBSESS_EDY_017"},
+      {"name_ko": "저장장애", "name_en": "Hoarding Disorder", "id": "OBSESS_HOA_011"},
+      {"name_ko": "경계선성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Syn(같은) + tonic = 자아와 '맞는' 편안함",
+      "differential": "OCD의 강박사고는 자아이질적(고통 큼, 치료 동기 높음)이나, 저장장애의 저장행동은 자아동조적(고통 적음, 치료 동기 낮음)이다",
+      "key_point": "자아동조적 증상을 가진 환자는 자신의 행동을 문제로 인식하지 않아 치료 동기가 낮다는 임상적 함의가 중요하다",
+      "common_mistake": "자아동조적 증상이 치료가 불필요함을 의미한다고 오해하면 안 된다. 당사자는 고통이 적어도 기능 저하는 심각할 수 있다"
+    }
+  },
+  {
+    "id": "OBSESS_SER_019",
+    "terminology": "세로토닌 가설 (Serotonin Hypothesis)",
+    "terminology_ko": "세로토닌 가설",
+    "terminology_en": "Serotonin Hypothesis",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "강박장애가 뇌의 세로토닌 체계 이상, 특히 세로토닌 기능 저하와 관련된다는 신경생물학적 가설로, SSRI 치료 효과의 이론적 근거이다.",
+    "definition_en": "A neurobiological hypothesis proposing that OCD is related to dysregulation of the brain's serotonin system, particularly serotonin hypofunction, providing the theoretical basis for SSRI treatment.",
+    "significance": "SSRI가 OCD에 효과적이라는 임상적 관찰이 세로토닌 가설을 지지하며, 다른 불안장애보다 더 높은 용량의 SSRI가 필요하다는 점이 특징적이다.",
+    "key_researchers": [
+      {"name_ko": "주디스 라포포트", "name_en": "Judith Rapoport", "contribution": "클로미프라민(세로토닌 재흡수 억제제)이 OCD에 효과적임을 입증하여 세로토닌 가설의 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "SSRI", "name_en": "SSRI", "id": "OBSESS_SSR_020"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_002"},
+      {"name_ko": "CSTC 신경회로", "name_en": "CSTC Circuit", "id": "OBSESS_CST_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "OCD + 세로토닌: SSRI가 들으니 세로토닌이 관련 → 역추론의 대표 사례",
+      "differential": "우울증의 모노아민 가설은 세로토닌·노르에피네프린·도파민을 모두 포함하나, OCD의 세로토닌 가설은 세로토닌에 더 특이적이다",
+      "key_point": "OCD 치료에는 우울증보다 더 높은 용량의 SSRI가 필요하며, 효과 발현까지 8~12주가 소요된다",
+      "common_mistake": "세로토닌 가설이 OCD의 유일한 생물학적 설명이라고 생각하면 안 된다. 글루타메이트, 도파민 등 다른 신경전달물질도 관여한다"
+    }
+  },
+  {
+    "id": "OBSESS_SSR_020",
+    "terminology": "선택적 세로토닌 재흡수 억제제 (SSRI)",
+    "terminology_ko": "선택적 세로토닌 재흡수 억제제",
+    "terminology_en": "Selective Serotonin Reuptake Inhibitor",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "시냅스 간극에서 세로토닌의 재흡수를 선택적으로 차단하여 세로토닌 활성을 증가시키는 항우울제 계열로, OCD의 1차 약물치료로 사용된다.",
+    "definition_en": "A class of antidepressants that selectively block serotonin reuptake in the synaptic cleft, increasing serotonin activity, used as the first-line pharmacological treatment for OCD.",
+    "significance": "OCD 약물치료의 1차 선택약으로, ERP와 병행 시 최상의 치료 효과를 보이며 OCD 세로토닌 가설의 핵심 근거이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웡", "name_en": "David Wong", "contribution": "최초의 SSRI인 플루옥세틴(프로작)을 개발"},
+      {"name_ko": "마이클 제니케", "name_en": "Michael Jenike", "contribution": "OCD에 대한 SSRI 치료의 체계적 임상 연구를 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "세로토닌 가설", "name_en": "Serotonin Hypothesis", "id": "OBSESS_SER_019"},
+      {"name_ko": "노출 및 반응방지", "name_en": "Exposure and Response Prevention", "id": "OBSESS_ERP_015"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [
+      {"name": "플루옥세틴", "description": "최초의 SSRI, OCD 치료에 40~80mg 사용"},
+      {"name": "플루복사민", "description": "OCD 치료를 위해 처음 승인된 SSRI"},
+      {"name": "설트랄린", "description": "OCD 치료에 널리 사용되는 SSRI"},
+      {"name": "파록세틴", "description": "OCD 치료에 사용되나 중단 증후군이 상대적으로 큼"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SSRI = Serotonin(세로토닌) Selective(선택적) Reuptake(재흡수) Inhibitor(억제) → 세로토닌만 콕 집어 막기",
+      "differential": "삼환계 항우울제(클로미프라민)도 OCD에 효과적이나 부작용이 많아, SSRI가 1차 선택약이다",
+      "key_point": "OCD에서는 우울증 치료보다 더 높은 용량이 필요하며(예: 플루옥세틴 60~80mg), 효과 발현까지 8~12주 소요된다",
+      "common_mistake": "SSRI가 즉각적 효과를 보인다고 기대하면 안 된다. OCD 치료에서는 최소 8~12주의 적정 용량 투여가 필요하다"
+    }
+  },
+  {
+    "id": "OBSESS_RES_021",
+    "terminology": "책임감 과대평가 (Inflated Responsibility)",
+    "terminology_ko": "책임감 과대평가",
+    "terminology_en": "Inflated Responsibility",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신이 해를 끼치거나 예방하는 데 결정적 영향력을 가지고 있다고 과도하게 믿으며, 이에 따른 과도한 책임감을 느끼는 인지적 편향이다.",
+    "definition_en": "A cognitive bias involving an exaggerated belief that one has pivotal power to cause or prevent harm, accompanied by an excessive sense of responsibility.",
+    "significance": "Salkovskis의 OCD 인지모형에서 핵심적 인지 요인으로, 침습적 사고를 강박사고로 전환시키는 핵심 기제이다.",
+    "key_researchers": [
+      {"name_ko": "폴 살코프스키스", "name_en": "Paul Salkovskis", "contribution": "과도한 책임감이 OCD의 핵심 인지 요인이라는 이론을 제안하고 검증"},
+      {"name_ko": "OCCWG", "name_en": "Obsessive Compulsive Cognitions Working Group", "contribution": "책임감 과대평가를 OCD 관련 6대 인지 영역 중 하나로 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사고-행동 융합", "name_en": "Thought-Action Fusion", "id": "OBSESS_TAF_008"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"},
+      {"name_ko": "확인강박", "name_en": "Checking Compulsions", "id": "OBSESS_CHK_005"},
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "책임감 과대평가 = '내가 막지 않으면 끔찍한 일이 일어날 것'이라는 과도한 믿음",
+      "differential": "죄책감은 정서 반응이나, 책임감 과대평가는 자신의 영향력에 대한 인지적 믿음이다",
+      "key_point": "Salkovskis 모형에서 침습적 사고를 강박사고로 전환시키는 핵심 인지 매개 변인이다",
+      "common_mistake": "책임감 과대평가를 단순한 성실성이나 양심적 태도와 혼동하면 안 된다. 비합리적 수준의 과도한 책임 귀인이다"
+    }
+  },
+  {
+    "id": "OBSESS_SUP_022",
+    "terminology": "사고억제의 역설 (Thought Suppression Paradox)",
+    "terminology_ko": "사고억제의 역설",
+    "terminology_en": "Thought Suppression Paradox",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "특정 사고를 의도적으로 억제하려고 할수록 그 사고가 더 자주, 더 강하게 떠오르는 역설적 현상으로, 흰 곰 실험으로 잘 알려져 있다.",
+    "definition_en": "A paradoxical phenomenon in which deliberate attempts to suppress a specific thought lead to an increase in the frequency and intensity of that thought, famously demonstrated by the white bear experiment.",
+    "significance": "OCD에서 강박사고를 통제하려는 시도가 오히려 증상을 악화시키는 기제를 설명하며, 수용 기반 치료의 이론적 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "다니엘 웨그너", "name_en": "Daniel Wegner", "contribution": "'흰 곰 실험'을 통해 사고억제의 역설적 효과를 실증적으로 입증(1987)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "침습적 사고", "name_en": "Intrusive Thoughts", "id": "OBSESS_INT_007"},
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "흰 곰 실험: '흰 곰을 생각하지 마세요' → 더 많이 생각하게 됨",
+      "differential": "반추(rumination)는 부정적 사고에 수동적으로 몰두하는 것이나, 사고억제는 사고를 능동적으로 밀어내려는 시도이다",
+      "key_point": "Wegner의 '아이러닉 프로세스 이론'에 따르면 억제 시도 시 모니터링 과정이 역설적으로 표적 사고를 활성화시킨다",
+      "common_mistake": "사고억제가 효과적인 대처 전략이라고 오해하면 안 된다. 오히려 침습적 사고의 빈도를 증가시키는 역효과를 낳는다"
+    }
+  },
+  {
+    "id": "OBSESS_MAG_023",
+    "terminology": "마법적 사고 (Magical Thinking)",
+    "terminology_ko": "마법적 사고",
+    "terminology_en": "Magical Thinking",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 사고, 말, 행동이 인과적 연결 없이 외부 사건에 영향을 미칠 수 있다고 믿는 비합리적 인지 패턴으로, OCD의 의례적 행동을 유지시키는 기제이다.",
+    "definition_en": "An irrational cognitive pattern involving the belief that one's thoughts, words, or actions can influence external events without a causal connection, maintaining ritualistic behaviors in OCD.",
+    "significance": "OCD 환자의 의례행동(예: 특정 숫자 세기, 특정 말 반복)을 유지시키는 핵심 인지 기제이며, 사고-행동 융합과 밀접하게 관련된다.",
+    "key_researchers": [
+      {"name_ko": "에밀리 프로니노", "name_en": "Emily Pronin", "contribution": "마법적 사고의 실험적 유발과 그 인지 기제를 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사고-행동 융합", "name_en": "Thought-Action Fusion", "id": "OBSESS_TAF_008"},
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "정신적 강박행동", "name_en": "Mental Compulsions", "id": "OBSESS_MEN_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "마법적 사고 = '불길한 숫자를 피하면 나쁜 일이 안 일어날 것' 같은 비합리적 믿음",
+      "differential": "사고-행동 융합은 사고=행동이라는 등식이나, 마법적 사고는 사고→외부사건이라는 인과적 영향력 믿음이다",
+      "key_point": "정상 발달에서도 아동기에 나타나는 보편적 현상이지만, OCD에서는 성인기에도 지속되어 의례행동을 유지시킨다",
+      "common_mistake": "마법적 사고를 정신증적 망상과 동일시하면 안 된다. OCD에서의 마법적 사고는 대개 비합리적임을 인식하면서도 벗어나지 못하는 것이다"
+    }
+  },
+  {
+    "id": "OBSESS_INC_024",
+    "terminology": "불완전감 (Incompleteness / Not Just Right Experience)",
+    "terminology_ko": "불완전감",
+    "terminology_en": "Incompleteness",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "무언가가 '딱 맞지 않는' 내적 불편감이나 긴장감으로, 불안과는 구별되는 감각이며 대칭/정렬/반복 강박의 핵심 동기가 된다.",
+    "definition_en": "An inner sense of discomfort or tension that something is 'not just right,' distinct from anxiety, serving as the core motivator for symmetry, ordering, and repeating compulsions.",
+    "significance": "불안 기반이 아닌 불완전감 기반 OCD 하위유형의 존재는 OCD가 단순한 불안장애가 아님을 뒷받침하는 중요한 근거이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 서마펠트", "name_en": "David Summerfeldt", "contribution": "불완전감이 불안과 구별되는 OCD의 독립적 동기 차원임을 제안"},
+      {"name_ko": "로라 서머펠드", "name_en": "Laura Summerfeldt", "contribution": "불완전감과 해를 회피하려는 동기가 OCD의 두 가지 독립적 핵심 차원임을 실증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대칭/정렬 강박", "name_en": "Symmetry/Ordering Obsessions", "id": "OBSESS_SYM_006"},
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "NJR(Not Just Right) = '뭔가 안 맞는 느낌' → 불안이 아닌 불편감",
+      "differential": "불안은 미래의 위협에 대한 정서 반응이나, 불완전감은 현재 상태가 '안 맞다'는 감각적 불편감이다",
+      "key_point": "불안과 구별되는 독립적 동기 차원으로, OCD가 불안장애에서 분리된 근거 중 하나이다",
+      "common_mistake": "불완전감을 불안의 하위유형으로 간주하면 안 된다. 질적으로 다른 내적 경험이다"
+    }
+  },
+  {
+    "id": "OBSESS_MEN_025",
+    "terminology": "정신적 강박행동 (Mental Compulsions)",
+    "terminology_ko": "정신적 강박행동",
+    "terminology_en": "Mental Compulsions",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "외적으로 관찰할 수 없는 내적 정신 활동으로 수행되는 강박행동으로, 숫자 세기, 기도, 특정 단어 반복, 심상 대체 등이 포함된다.",
+    "definition_en": "Compulsions performed as internal mental activities that are not externally observable, including counting, praying, repeating words, or replacing images in one's mind.",
+    "significance": "외현적 행동이 없어 진단에서 간과되기 쉬우나 실제로 매우 흔하며, ERP 치료에서도 정신적 강박행동의 반응방지가 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "정신적 강박행동을 ERP 치료 프로토콜에 체계적으로 포함시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "마법적 사고", "name_en": "Magical Thinking", "id": "OBSESS_MAG_023"},
+      {"name_ko": "노출 및 반응방지", "name_en": "Exposure and Response Prevention", "id": "OBSESS_ERP_015"}
+    ],
+    "sub_types": [
+      {"name": "숫자 세기", "description": "불안을 줄이기 위해 마음속으로 특정 숫자를 세는 행동"},
+      {"name": "기도", "description": "나쁜 일을 방지하기 위해 마음속으로 기도를 반복"},
+      {"name": "심상 대체", "description": "부정적 심상을 긍정적 심상으로 의도적으로 교체"},
+      {"name": "정신적 확인", "description": "과거 행동을 마음속으로 반복 점검"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "보이지 않는 강박행동 = 머릿속에서 수행하는 의례(숫자 세기, 기도, 심상 교체 등)",
+      "differential": "강박사고는 원치 않게 침입하는 것이나, 정신적 강박행동은 불안을 줄이기 위해 의도적으로 수행하는 것이다",
+      "key_point": "외현적 행동이 없어 '순수 강박사고(Pure O)'로 오해될 수 있으나, 실제로는 정신적 강박행동이 동반된다",
+      "common_mistake": "정신적 강박행동을 강박사고와 혼동하면 안 된다. 강박사고는 침입적이고, 정신적 강박행동은 의도적인 중화 시도이다"
+    }
+  },
+  {
+    "id": "OBSESS_AVO_026",
+    "terminology": "회피행동 (Avoidance Behavior)",
+    "terminology_ko": "회피행동",
+    "terminology_en": "Avoidance Behavior",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "강박사고를 유발하는 상황, 장소, 대상, 사람 등을 의도적으로 피하는 행동으로, 강박행동과 함께 OCD를 유지시키는 핵심 기제이다.",
+    "definition_en": "Deliberate avoidance of situations, places, objects, or people that trigger obsessions, serving as a key mechanism that maintains OCD alongside compulsions.",
+    "significance": "회피행동은 ERP에서 핵심 치료 대상이며, 회피를 통한 불안 감소가 OCD 순환을 유지시키는 부적 강화로 작용한다.",
+    "key_researchers": [
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "OCD에서 회피행동의 역할을 체계적으로 기술하고 ERP 프로토콜에 포함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박행동", "name_en": "Compulsions", "id": "OBSESS_COM_003"},
+      {"name_ko": "노출 및 반응방지", "name_en": "Exposure and Response Prevention", "id": "OBSESS_ERP_015"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "회피 = 강박사고 트리거를 피하는 '보이지 않는 강박행동'",
+      "differential": "사회불안장애의 회피는 사회적 평가에 대한 두려움이 동기이나, OCD의 회피는 강박사고 촉발 방지가 동기이다",
+      "key_point": "회피행동은 강박행동과 마찬가지로 부적 강화를 통해 OCD 순환을 유지시키며, ERP에서 핵심 치료 대상이다",
+      "common_mistake": "회피행동을 강박행동과 별개의 현상으로 간주하면 안 된다. 기능적으로는 강박행동과 동일한 역할을 한다"
+    }
+  },
+  {
+    "id": "OBSESS_HRT_027",
+    "terminology": "습관역전훈련 (Habit Reversal Training)",
+    "terminology_ko": "습관역전훈련",
+    "terminology_en": "Habit Reversal Training",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "문제적 습관행동을 인식하고 이를 양립 불가능한 대체 반응으로 교체하는 행동치료 기법으로, 발모장애와 피부뜯기장애의 1차 치료법이다.",
+    "definition_en": "A behavioral therapy technique that involves recognizing problematic habitual behaviors and replacing them with incompatible competing responses, the first-line treatment for trichotillomania and excoriation disorder.",
+    "significance": "발모장애와 피부뜯기장애에서 가장 강력한 근거를 가진 심리치료법으로, 자각훈련과 대체반응훈련이 핵심 요소이다.",
+    "key_researchers": [
+      {"name_ko": "네이선 아즈린", "name_en": "Nathan Azrin", "contribution": "습관역전훈련을 최초로 개발(1973)하여 다양한 습관장애에 적용"},
+      {"name_ko": "더글러스 우즈", "name_en": "Douglas Woods", "contribution": "HRT의 발모장애 적용을 현대화하고 대규모 효과 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발모장애", "name_en": "Trichotillomania", "id": "OBSESS_TTM_012"},
+      {"name_ko": "피부뜯기장애", "name_en": "Excoriation Disorder", "id": "OBSESS_EXC_013"},
+      {"name_ko": "노출 및 반응방지", "name_en": "Exposure and Response Prevention", "id": "OBSESS_ERP_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HRT 3단계: 자각(인식) → 대체반응(주먹 쥐기 등) → 사회적 지지(격려)",
+      "differential": "ERP는 불안 소거가 목표이나, HRT는 습관적 행동 패턴의 대체가 목표이다",
+      "key_point": "자각훈련(awareness training)과 대체반응훈련(competing response training)이 핵심 2대 요소이다",
+      "common_mistake": "HRT를 OCD의 치료법으로 혼동하면 안 된다. HRT는 발모장애·피부뜯기장애 등 BFRB에 주로 사용된다"
+    }
+  },
+  {
+    "id": "OBSESS_SAL_028",
+    "terminology": "Salkovskis의 인지모형 (Salkovskis' Cognitive Model)",
+    "terminology_ko": "Salkovskis의 인지모형",
+    "terminology_en": "Salkovskis' Cognitive Model",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "침습적 사고 자체가 아니라 그에 대한 과도한 책임감 해석이 강박사고를 유발하고 유지시킨다는 OCD의 대표적 인지 이론이다.",
+    "definition_en": "A prominent cognitive theory of OCD proposing that it is not intrusive thoughts themselves but their appraisal as indicating excessive personal responsibility that generates and maintains obsessions.",
+    "significance": "OCD의 인지행동치료(CBT)의 이론적 기반을 제공하였으며, 침습적 사고의 정상성과 그에 대한 해석의 병리성을 구분한 획기적 이론이다.",
+    "key_researchers": [
+      {"name_ko": "폴 살코프스키스", "name_en": "Paul Salkovskis", "contribution": "1985년 OCD의 인지모형을 제안하여 인지적 평가가 핵심임을 이론화"},
+      {"name_ko": "스탠리 라크만", "name_en": "Stanley Rachman", "contribution": "Salkovskis 이론의 기초가 된 침습적 사고의 보편성 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "책임감 과대평가", "name_en": "Inflated Responsibility", "id": "OBSESS_RES_021"},
+      {"name_ko": "침습적 사고", "name_en": "Intrusive Thoughts", "id": "OBSESS_INT_007"},
+      {"name_ko": "사고-행동 융합", "name_en": "Thought-Action Fusion", "id": "OBSESS_TAF_008"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Salkovskis 공식: 침습적 사고 + 과도한 책임감 해석 = 강박사고 → 중화행동",
+      "differential": "Beck의 인지모형은 우울증의 부정적 삼제에 초점을 맞추나, Salkovskis 모형은 OCD의 책임감 과대평가에 초점을 맞춘다",
+      "key_point": "침습적 사고는 누구나 경험하는 정상 현상이며, 이를 병리적으로 만드는 것은 과도한 책임감 귀인이라는 점이 핵심이다",
+      "common_mistake": "침습적 사고의 내용이 OCD의 원인이라고 생각하면 안 된다. 내용이 아닌 해석(appraisal)이 핵심이다"
+    }
+  },
+  {
+    "id": "OBSESS_CST_029",
+    "terminology": "피질-선조체-시상-피질 회로 (CSTC Circuit)",
+    "terminology_ko": "피질-선조체-시상-피질 회로",
+    "terminology_en": "Cortico-Striato-Thalamo-Cortical Circuit",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "안와전두피질, 미상핵, 시상을 연결하는 신경 루프로, OCD에서 이 회로의 과활성화가 반복적 사고와 행동의 신경학적 기반으로 간주된다.",
+    "definition_en": "A neural loop connecting the orbitofrontal cortex, caudate nucleus, and thalamus, whose hyperactivity in OCD is considered the neurological basis for repetitive thoughts and behaviors.",
+    "significance": "OCD의 신경생물학적 모형의 핵심으로, 신경영상 연구와 신경외과적 치료(DBS 등)의 이론적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "루이스 백스터", "name_en": "Lewis Baxter", "contribution": "PET 연구를 통해 OCD에서 CSTC 회로의 과활성화를 최초로 입증"},
+      {"name_ko": "제프리 슈왈츠", "name_en": "Jeffrey Schwartz", "contribution": "인지행동치료가 CSTC 회로 활동을 정상화시킴을 신경영상으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "세로토닌 가설", "name_en": "Serotonin Hypothesis", "id": "OBSESS_SER_019"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CSTC = Cortex(피질) → Striatum(선조체) → Thalamus(시상) → Cortex(피질) 순환 루프",
+      "differential": "공황장애는 편도체 과활성화가 핵심이나, OCD는 CSTC 회로(안와전두피질-미상핵-시상)의 과활성화가 핵심이다",
+      "key_point": "성공적인 CBT 후에도 CSTC 회로의 활동이 정상화된다는 연구 결과가 있어, 심리치료의 신경학적 효과를 보여준다",
+      "common_mistake": "CSTC 회로 이상이 OCD의 유일한 원인이라고 단정하면 안 된다. 다중 요인 모형의 한 요소이다"
+    }
+  },
+  {
+    "id": "OBSESS_BFR_030",
+    "terminology": "신체초점반복행동 (Body-Focused Repetitive Behaviors)",
+    "terminology_ko": "신체초점반복행동",
+    "terminology_en": "Body-Focused Repetitive Behaviors",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "자신의 신체 일부를 반복적으로 손상시키는 행동 패턴의 총칭으로, 발모장애와 피부뜯기장애가 대표적이며 손톱 물어뜯기 등도 포함된다.",
+    "definition_en": "A collective term for repetitive behavioral patterns that involve damaging parts of one's own body, with trichotillomania and excoriation disorder as primary examples, also including nail biting.",
+    "significance": "DSM-5에서 강박 관련 장애로 분류되며, OCD와 구별되는 고유한 치료 접근(HRT)이 필요한 행동군이다.",
+    "key_researchers": [
+      {"name_ko": "더글러스 우즈", "name_en": "Douglas Woods", "contribution": "BFRB 개념을 체계화하고 습관역전훈련(HRT) 기반 치료 프로토콜을 확립"},
+      {"name_ko": "마이클 톨린", "name_en": "Michael Twohig", "contribution": "BFRB에 대한 수용전념치료(ACT) 적용을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발모장애", "name_en": "Trichotillomania", "id": "OBSESS_TTM_012"},
+      {"name_ko": "피부뜯기장애", "name_en": "Excoriation Disorder", "id": "OBSESS_EXC_013"},
+      {"name_ko": "습관역전훈련", "name_en": "Habit Reversal Training", "id": "OBSESS_HRT_027"}
+    ],
+    "sub_types": [
+      {"name": "발모장애", "description": "머리카락이나 체모를 반복적으로 뽑는 행동"},
+      {"name": "피부뜯기장애", "description": "피부를 반복적으로 뜯거나 긁는 행동"},
+      {"name": "손톱 물어뜯기", "description": "손톱을 반복적으로 물어뜯는 행동(임상적 수준)"},
+      {"name": "입술 깨물기", "description": "입술을 반복적으로 깨무는 행동(임상적 수준)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "BFRB = Body(신체) Focused(초점) Repetitive(반복) Behavior(행동) → 신체를 대상으로 한 반복행동군",
+      "differential": "OCD의 강박행동은 강박사고에 의해 촉발되나, BFRB는 강박사고 없이 감각적 만족이나 긴장 해소가 동기이다",
+      "key_point": "ERP가 아닌 HRT(습관역전훈련)가 1차 치료법이라는 점에서 OCD와 치료 접근이 다르다",
+      "common_mistake": "BFRB를 자해행동으로 분류하면 안 된다. 자해와는 동기와 기능이 근본적으로 다르다"
+    }
+  },
+  {
+    "id": "OBSESS_INS_031",
+    "terminology": "통찰력 명시자 (Insight Specifier)",
+    "terminology_ko": "통찰력 명시자",
+    "terminology_en": "Insight Specifier",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "DSM-5에서 OCD 진단 시 환자가 자신의 강박적 신념이 사실이 아닐 수 있다는 인식 정도를 3단계로 구분하는 명시자이다.",
+    "definition_en": "A DSM-5 specifier for OCD diagnosis that classifies the degree to which patients recognize their obsessive beliefs may not be true, in three levels of insight.",
+    "significance": "통찰력 수준에 따라 치료 반응과 예후가 달라지며, 통찰력이 낮을수록(확신이 높을수록) 치료 반응이 좋지 않다.",
+    "key_researchers": [
+      {"name_ko": "제인 에이센", "name_en": "Jane Eisen", "contribution": "OCD에서 통찰력의 스펙트럼적 특성을 연구하고 BABS(Brown Assessment of Beliefs Scale)를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "자아이질적", "name_en": "Ego-Dystonic", "id": "OBSESS_EDY_017"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [
+      {"name": "양호한 통찰력", "description": "OCD 신념이 확실히 또는 아마도 사실이 아니라고 인식"},
+      {"name": "불량한 통찰력", "description": "OCD 신념이 아마도 사실이라고 생각"},
+      {"name": "통찰력 없음/망상적 신념", "description": "OCD 신념이 확실히 사실이라고 확신"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "통찰력 3단계: 좋음(아닐 수도) → 나쁨(아마 맞을) → 없음(확실히 맞다)",
+      "differential": "망상장애는 신념이 일관되게 확고하나, OCD의 통찰력은 상황에 따라 변동할 수 있다",
+      "key_point": "통찰력이 낮을수록 치료 반응이 좋지 않으며, 망상적 수준의 확신을 보일 수 있다는 점이 DSM-5에서 명시되었다",
+      "common_mistake": "OCD 환자가 항상 자신의 비합리성을 인식한다고 가정하면 안 된다. 통찰력 없는 OCD도 존재한다"
+    }
+  },
+  {
+    "id": "OBSESS_TIC_032",
+    "terminology": "틱 관련 명시자 (Tic-Related Specifier)",
+    "terminology_ko": "틱 관련 명시자",
+    "terminology_en": "Tic-Related Specifier",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "OCD 환자가 현재 또는 과거에 틱장애를 동반하는 경우에 적용하는 DSM-5 명시자로, 치료 접근과 예후에 영향을 미친다.",
+    "definition_en": "A DSM-5 specifier applied when an OCD patient has a current or past history of a tic disorder, influencing treatment approach and prognosis.",
+    "significance": "틱 관련 OCD는 남성에서 더 흔하고, 발병 연령이 더 이르며, 도파민 관여가 더 크고, 항정신병 약물 병합이 더 효과적인 독특한 하위유형이다.",
+    "key_researchers": [
+      {"name_ko": "제임스 레크만", "name_en": "James Leckman", "contribution": "OCD와 뚜렛장애의 유전적·신경생물학적 관련성을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "CSTC 신경회로", "name_en": "CSTC Circuit", "id": "OBSESS_CST_029"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "틱+OCD: 남성↑, 발병↓(어림), 도파민↑, 항정신병약물 병합 효과↑",
+      "differential": "일반 OCD는 세로토닌 기능이상이 핵심이나, 틱 관련 OCD는 도파민계 관여가 추가되어 항정신병 약물 병합이 효과적이다",
+      "key_point": "틱 관련 OCD는 SSRI 단독보다 항정신병 약물(항도파민제) 병합이 더 효과적인 독특한 약물 반응 패턴을 보인다",
+      "common_mistake": "틱과 강박행동을 동일시하면 안 된다. 틱은 불수의적 운동이고 강박행동은 불안 감소를 위한 의도적 행위이다"
+    }
+  },
+  {
+    "id": "OBSESS_PUR_033",
+    "terminology": "순수 강박사고형 (Primarily Obsessional OCD)",
+    "terminology_ko": "순수 강박사고형",
+    "terminology_en": "Primarily Obsessional OCD",
+    "category": "OBSESS",
+    "category_name": "강박 및 관련 장애 (OCD and Related Disorders)",
+    "definition": "외현적 강박행동이 두드러지지 않고 강박사고가 주된 증상인 OCD 유형으로, 실제로는 정신적 강박행동이 동반되는 경우가 대부분이다.",
+    "definition_en": "An OCD presentation where obsessions are predominant without prominent overt compulsions, though mental compulsions are typically present in most cases.",
+    "significance": "외현적 행동이 없어 'Pure O'로 불리기도 하나, 이는 오해의 소지가 있으며 실제로는 정신적 강박행동의 존재를 인식하는 것이 치료에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "리 베어", "name_en": "Lee Baer", "contribution": "순수 강박사고형 OCD의 임상적 특성과 치료적 함의를 체계적으로 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박사고", "name_en": "Obsessions", "id": "OBSESS_OBS_002"},
+      {"name_ko": "정신적 강박행동", "name_en": "Mental Compulsions", "id": "OBSESS_MEN_025"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [
+      {"name": "공격적 강박사고", "description": "타인을 해치는 것에 대한 침습적 사고"},
+      {"name": "성적 강박사고", "description": "원치 않는 성적 심상이나 충동"},
+      {"name": "종교적 강박사고", "description": "신성모독이나 죄에 대한 침습적 사고"},
+      {"name": "실존적 강박사고", "description": "존재, 의식, 현실에 대한 반복적 의문"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Pure O는 사실 'Pure(순수)' 하지 않다 → 보이지 않는 정신적 강박행동이 항상 존재한다",
+      "differential": "범불안장애는 현실적 걱정이 다양한 주제로 이동하나, 순수 강박사고형은 특정 주제의 침습적 사고가 반복적으로 고착된다",
+      "key_point": "'Pure O'라는 용어는 오해의 소지가 있으며, 대부분 정신적 강박행동(숫자 세기, 확인 등)이 동반된다",
+      "common_mistake": "순수 강박사고형에 강박행동이 없다고 오해하면 안 된다. 눈에 보이지 않는 정신적 강박행동이 거의 항상 존재한다"
+    }
+  }
+]

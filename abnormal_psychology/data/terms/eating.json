@@ -1,0 +1,915 @@
+[
+  {
+    "id": "EATING_ANN_001",
+    "terminology": "신경성 식욕부진증 (Anorexia Nervosa)",
+    "terminology_ko": "신경성 식욕부진증",
+    "terminology_en": "Anorexia Nervosa",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "에너지 섭취의 제한으로 유의미하게 낮은 체중을 초래하며, 체중 증가에 대한 극심한 두려움과 체형·체중에 대한 왜곡된 지각이 특징인 섭식장애로, 정신장애 중 가장 높은 사망률을 보인다.",
+    "definition_en": "An eating disorder characterized by restriction of energy intake leading to significantly low body weight, intense fear of weight gain, and distorted perception of body shape and weight, with the highest mortality rate among psychiatric disorders.",
+    "significance": "정신장애 중 가장 높은 사망률을 보이는 심각한 장애로, 생물심리사회적 요인의 복합적 상호작용과 문화적 영향을 연구하는 핵심 진단이다.",
+    "key_researchers": [
+      {"name_ko": "힐데 브루흐", "name_en": "Hilde Bruch", "contribution": "신경성 식욕부진증에서 내부감각 인식 장애와 자율성 결핍을 핵심 특성으로 기술하여 심리학적 이해의 기틀을 마련했다."},
+      {"name_ko": "아서 크리스프", "name_en": "Arthur Crisp", "contribution": "신경성 식욕부진증을 사춘기 발달에 대한 회피로 개념화하는 정신생물학적 모형을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"},
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"},
+      {"name_ko": "무월경", "name_en": "Amenorrhea", "id": "EATING_AMN_020"},
+      {"name_ko": "보상행동", "name_en": "Compensatory Behavior", "id": "EATING_CMP_012"}
+    ],
+    "sub_types": [
+      {"name": "제한형", "description": "폭식이나 제거 행동 없이 식이 제한만으로 체중을 감소시키는 유형"},
+      {"name": "폭식-제거형", "description": "제한과 함께 폭식 삽화 또는 제거 행동(구토, 하제 등)이 동반되는 유형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "AN = Anorexia(식욕부진) + Nervosa(신경성) — 그러나 실제로는 식욕이 없는 것이 아니라 먹기를 거부하는 것",
+      "differential": "신경성 식욕부진증은 유의미하게 낮은 체중이 핵심인 반면, 신경성 폭식증은 정상 체중 범위에서 폭식-제거 순환이 특징이다.",
+      "key_point": "DSM-5에서 무월경 기준이 삭제되었고, BMI 기반 심각도 명시자(경도: BMI≥17, 극심: BMI<15)가 추가되었다.",
+      "common_mistake": "신경성 식욕부진증에서 실제로 식욕이 없다고 오해하지만, 대부분의 환자는 식욕을 느끼면서도 의도적으로 섭취를 제한한다."
+    }
+  },
+  {
+    "id": "EATING_BUL_002",
+    "terminology": "신경성 폭식증 (Bulimia Nervosa)",
+    "terminology_ko": "신경성 폭식증",
+    "terminology_en": "Bulimia Nervosa",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "반복적인 폭식 삽화와 체중 증가를 방지하기 위한 부적절한 보상행동(자가 유도 구토, 하제 남용, 과도한 운동 등)이 특징인 섭식장애로, 체중은 보통 정상 범위이다.",
+    "definition_en": "An eating disorder characterized by recurrent episodes of binge eating followed by inappropriate compensatory behaviors (self-induced vomiting, laxative misuse, excessive exercise, etc.) to prevent weight gain, with body weight typically in the normal range.",
+    "significance": "폭식과 제거의 순환 패턴을 이해하는 핵심 진단으로, 감정 조절 곤란과 충동성의 역할을 연구하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "제럴드 러셀", "name_en": "Gerald Russell", "contribution": "1979년 신경성 폭식증을 독립 진단으로 최초 기술하여 섭식장애 분류 체계를 확장했다."},
+      {"name_ko": "크리스토퍼 페어번", "name_en": "Christopher Fairburn", "contribution": "신경성 폭식증에 대한 CBT 치료 프로토콜을 개발하고 초진단적 모형을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "폭식장애", "name_en": "Binge Eating Disorder", "id": "EATING_BED_003"},
+      {"name_ko": "보상행동", "name_en": "Compensatory Behavior", "id": "EATING_CMP_012"},
+      {"name_ko": "러셀 징후", "name_en": "Russell's Sign", "id": "EATING_RSS_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BN = Bulimia(폭식) + Nervosa(신경성) — '폭식 → 제거'의 반복 순환이 핵심",
+      "differential": "신경성 폭식증은 정상 체중에서 폭식-보상행동 순환이 특징이고, 신경성 식욕부진증 폭식-제거형은 유의미하게 낮은 체중이 동반된다.",
+      "key_point": "DSM-5에서 최소 주 1회, 3개월 이상의 폭식-보상행동 빈도 기준으로 변경되었다(DSM-IV는 주 2회).",
+      "common_mistake": "신경성 폭식증 환자가 모두 구토를 한다고 오해하지만, 하제 남용, 과도한 운동, 단식 등 다양한 보상행동이 있다."
+    }
+  },
+  {
+    "id": "EATING_BED_003",
+    "terminology": "폭식장애 (Binge Eating Disorder)",
+    "terminology_ko": "폭식장애",
+    "terminology_en": "Binge Eating Disorder",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "반복적인 폭식 삽화가 특징이지만 신경성 폭식증과 달리 보상행동(구토, 하제 사용 등)이 동반되지 않는 섭식장애로, 폭식 후 현저한 고통과 수치심을 경험하며 비만과 높은 공존율을 보인다.",
+    "definition_en": "An eating disorder characterized by recurrent binge eating episodes without the compensatory behaviors seen in bulimia nervosa, accompanied by marked distress and shame after bingeing, with high comorbidity with obesity.",
+    "significance": "DSM-5에서 독립 진단으로 승격된 가장 흔한 섭식장애로, 비만과 정서적 섭식의 관계를 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "알버트 스턴커드", "name_en": "Albert Stunkard", "contribution": "1959년 폭식 삽화를 비만 환자에서 최초로 기술하고 폭식장애 개념의 토대를 마련했다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "폭식장애의 진단 기준을 체계화하여 DSM 포함을 위한 연구적 토대를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"},
+      {"name_ko": "폭식 삽화", "name_en": "Binge Episode", "id": "EATING_BNG_017"},
+      {"name_ko": "체중 낙인", "name_en": "Weight Stigma", "id": "EATING_WST_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BED = Binge Eating Disorder — '폭식만 있고 보상행동 없음' → 신경성 폭식증과의 핵심 차이",
+      "differential": "폭식장애는 보상행동이 없고, 신경성 폭식증은 폭식 후 구토·하제 등 보상행동이 동반된다.",
+      "key_point": "DSM-5에서 '달리 명시되지 않는 섭식장애(EDNOS)'에서 독립 진단으로 승격되었으며, 가장 유병률이 높은 섭식장애이다.",
+      "common_mistake": "폭식장애를 단순한 과식과 혼동하지만, 폭식장애의 폭식 삽화는 통제 상실감과 현저한 고통이 동반된다."
+    }
+  },
+  {
+    "id": "EATING_ARF_004",
+    "terminology": "회피적/제한적 음식섭취장애 (Avoidant/Restrictive Food Intake Disorder)",
+    "terminology_ko": "회피적/제한적 음식섭취장애",
+    "terminology_en": "Avoidant/Restrictive Food Intake Disorder",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "음식의 감각적 특성에 대한 혐오, 먹는 것의 불쾌한 결과에 대한 두려움, 또는 음식에 대한 관심 부족으로 인해 적절한 영양을 섭취하지 못하지만, 체형이나 체중에 대한 왜곡은 없는 섭식장애이다.",
+    "definition_en": "An eating disorder characterized by failure to meet appropriate nutritional needs due to aversion to sensory characteristics of food, fear of aversive consequences of eating, or apparent lack of interest in food, without body shape or weight distortion.",
+    "significance": "DSM-5에서 새롭게 도입된 진단으로, 체중·체형 관련이 없는 섭식 문제를 포괄하여 섭식장애의 범위를 확장했다.",
+    "key_researchers": [
+      {"name_ko": "레이첼 브라이언트-워", "name_en": "Rachel Bryant-Waugh", "contribution": "아동기 섭식 장애의 분류를 체계화하고 ARFID 진단 개념의 발전에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "이식증", "name_en": "Pica", "id": "EATING_PCA_005"},
+      {"name_ko": "반추장애", "name_en": "Rumination Disorder", "id": "EATING_RUM_006"}
+    ],
+    "sub_types": [
+      {"name": "감각 회피형", "description": "음식의 질감, 맛, 냄새 등 감각적 특성에 민감하여 특정 음식을 거부"},
+      {"name": "결과 공포형", "description": "먹은 후 구토, 질식 등의 부정적 결과에 대한 두려움"},
+      {"name": "관심 결핍형", "description": "음식이나 먹는 행위 자체에 대한 관심이 부족"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ARFID = Avoidant/Restrictive Food Intake Disorder — '체중·체형 걱정 없이' 음식을 피하거나 제한",
+      "differential": "ARFID는 체형·체중 왜곡이 없는 반면, 신경성 식욕부진증은 체형·체중에 대한 왜곡된 지각이 핵심이다.",
+      "key_point": "아동과 성인 모두에서 진단 가능하며, 체중 문제가 아닌 영양 결핍이나 심리사회적 기능 저하가 핵심 손상이다.",
+      "common_mistake": "ARFID를 단순한 편식과 혼동하지만, ARFID는 유의미한 영양 결핍이나 체중 감소를 초래하는 수준이어야 한다."
+    }
+  },
+  {
+    "id": "EATING_PCA_005",
+    "terminology": "이식증 (Pica)",
+    "terminology_ko": "이식증",
+    "terminology_en": "Pica",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "영양적 가치가 없는 비식품 물질(흙, 종이, 얼음, 머리카락 등)을 1개월 이상 지속적으로 섭취하는 섭식장애로, 발달 수준에 비해 부적절하며 문화적 관행으로 설명되지 않아야 한다.",
+    "definition_en": "An eating disorder involving persistent ingestion of non-nutritive, non-food substances (dirt, paper, ice, hair, etc.) for at least one month, inappropriate for the developmental level and not attributable to cultural practices.",
+    "significance": "영양 결핍(특히 철분)과의 관련성, 지적장애 및 발달장애에서의 높은 유병률을 통해 섭식 행동의 다양한 병리를 보여준다.",
+    "key_researchers": [
+      {"name_ko": "로자린 스미스", "name_en": "Rosalind Smith", "contribution": "이식증의 역학과 영양 결핍과의 관계에 대한 체계적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반추장애", "name_en": "Rumination Disorder", "id": "EATING_RUM_006"},
+      {"name_ko": "회피적/제한적 음식섭취장애", "name_en": "ARFID", "id": "EATING_ARF_004"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "NEURO_IDD_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Pica = 까치(magpie)의 라틴어에서 유래 — 까치가 아무거나 먹는 습성에 비유",
+      "differential": "이식증은 비식품 물질의 섭취이고, ARFID는 음식 자체를 회피/제한하는 것이다.",
+      "key_point": "임신, 철분 결핍, 지적장애에서 유병률이 높으며, 납 중독 등 신체적 합병증의 위험이 있다.",
+      "common_mistake": "이식증을 아동기에만 나타나는 장애로 오해하지만, 성인에서도 발생하며 특히 임산부에서 흔하다."
+    }
+  },
+  {
+    "id": "EATING_RUM_006",
+    "terminology": "반추장애 (Rumination Disorder)",
+    "terminology_ko": "반추장애",
+    "terminology_en": "Rumination Disorder",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "섭취한 음식을 반복적으로 역류시켜 다시 씹거나 삼키거나 뱉어내는 행동이 1개월 이상 지속되는 장애로, 위장관 질환이나 다른 섭식장애로 설명되지 않아야 한다.",
+    "definition_en": "A disorder characterized by repeated regurgitation of food over at least one month, with the food being re-chewed, re-swallowed, or spit out, not attributable to gastrointestinal conditions or other eating disorders.",
+    "significance": "영아기부터 성인기까지 다양한 연령에서 나타나는 독특한 섭식 행동 장애로, 행동적 치료 접근의 효과가 입증되어 있다.",
+    "key_researchers": [
+      {"name_ko": "리처드 프레더릭스", "name_en": "Richard Fredericks", "contribution": "성인 반추장애의 진단과 행동 치료에 대한 임상 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이식증", "name_en": "Pica", "id": "EATING_PCA_005"},
+      {"name_ko": "회피적/제한적 음식섭취장애", "name_en": "ARFID", "id": "EATING_ARF_004"},
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반추(Rumination) = 되새김질 — 소가 음식을 다시 씹듯 역류시켜 재처리",
+      "differential": "반추장애는 비자발적·습관적 역류이고, 신경성 폭식증의 구토는 체중 조절을 위한 의도적 보상행동이다.",
+      "key_point": "DSM-5에서 섭식장애 범주에 포함되며, 횡경막 호흡 훈련(diaphragmatic breathing training)이 효과적인 행동적 치료이다.",
+      "common_mistake": "반추장애를 위식도역류질환(GERD)과 혼동하지만, 반추장애의 역류는 비자발적이면서도 학습된 행동적 요소가 있다."
+    }
+  },
+  {
+    "id": "EATING_NES_007",
+    "terminology": "야식증후군 (Night Eating Syndrome)",
+    "terminology_ko": "야식증후군",
+    "terminology_en": "Night Eating Syndrome",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "저녁 식사 이후 과도한 음식 섭취(하루 총 칼로리의 25% 이상)와/또는 야간 각성 시 식사를 하는 반복적 패턴으로, 아침 식욕 부진이 동반되며 수면-각성 및 섭식 리듬의 불일치가 특징이다.",
+    "definition_en": "A recurrent pattern of excessive food consumption after the evening meal (over 25% of total daily calories) and/or eating upon nocturnal awakenings, accompanied by morning anorexia and characterized by misalignment of sleep-wake and eating rhythms.",
+    "significance": "섭식과 수면-각성 리듬의 관계를 보여주는 독특한 증후군으로, 비만과 수면장애의 교차점에서 연구된다.",
+    "key_researchers": [
+      {"name_ko": "알버트 스턴커드", "name_en": "Albert Stunkard", "contribution": "1955년 야식증후군을 최초로 기술하고 비만과의 관련성을 연구했다."},
+      {"name_ko": "켈리 앨리슨", "name_en": "Kelly Allison", "contribution": "야식증후군의 진단 기준을 체계화하고 일주기 리듬과의 관계를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "폭식장애", "name_en": "Binge Eating Disorder", "id": "EATING_BED_003"},
+      {"name_ko": "설정점 이론", "name_en": "Set Point Theory", "id": "EATING_SPT_019"},
+      {"name_ko": "체질량지수", "name_en": "BMI", "id": "EATING_BMI_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "NES = Night(야간) + Eating(섭식) + Syndrome(증후군) — 밤에 먹고, 아침엔 안 먹는 패턴",
+      "differential": "야식증후군은 저녁 이후 과식과 야간 각성 섭식이 특징이고, 수면관련 섭식장애(SRED)는 수면 중 무의식적 섭식이다.",
+      "key_point": "DSM-5에서 독립 진단이 아닌 '달리 명시된 섭식장애'로 분류되며, 멜라토닌과 렙틴 리듬의 지연이 관여한다.",
+      "common_mistake": "야식증후군을 단순한 습관으로 여기지만, 일주기 리듬 장애와 관련된 생물학적 기반이 있는 임상적 상태이다."
+    }
+  },
+  {
+    "id": "EATING_ORT_008",
+    "terminology": "오르토렉시아 (Orthorexia Nervosa)",
+    "terminology_ko": "오르토렉시아",
+    "terminology_en": "Orthorexia Nervosa",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "'건강한' 음식에 대한 병적인 집착으로, 음식의 순수성, 품질, 구성에 대해 과도하게 엄격한 규칙을 적용하여 사회적 기능과 영양 상태에 심각한 영향을 미치는 제안된 섭식 관련 상태이다.",
+    "definition_en": "A proposed eating-related condition characterized by pathological obsession with 'healthy' food, applying excessively rigid rules about food purity, quality, and composition, significantly affecting social functioning and nutritional status.",
+    "significance": "현대 건강 문화와 섭식 병리의 접점을 보여주는 새로운 개념으로, 공식 진단은 아니지만 임상적 관심이 증가하고 있다.",
+    "key_researchers": [
+      {"name_ko": "스티븐 브래트먼", "name_en": "Steven Bratman", "contribution": "1997년 오르토렉시아(orthorexia nervosa) 개념을 최초로 제안하고 명명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "완벽주의와 섭식장애", "name_en": "Perfectionism and Eating Disorders", "id": "EATING_PFC_033"},
+      {"name_ko": "강박장애", "name_en": "OCD", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Orthorexia = ortho(올바른) + orexis(식욕) — '올바른 식사'에 대한 병적 집착",
+      "differential": "오르토렉시아는 음식의 '질'에 집착하는 반면, 신경성 식욕부진증은 음식의 '양'과 체중에 집착한다.",
+      "key_point": "현재 DSM-5나 ICD-11의 공식 진단은 아니지만, ARFID 또는 강박장애의 틀에서 이해할 수 있다.",
+      "common_mistake": "건강한 식습관과 오르토렉시아를 혼동하지만, 오르토렉시아는 식이 규칙이 사회적 기능과 영양 상태를 해칠 정도로 극단적이다."
+    }
+  },
+  {
+    "id": "EATING_BDS_009",
+    "terminology": "체형 불만족 (Body Dissatisfaction)",
+    "terminology_ko": "체형 불만족",
+    "terminology_en": "Body Dissatisfaction",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "자신의 체형, 체중, 외모에 대한 부정적 주관적 평가로, 이상적 체형과 현재 체형 간의 차이에 대한 불만족이며, 섭식장애 발생의 가장 강력한 예측 인자 중 하나이다.",
+    "definition_en": "A negative subjective evaluation of one's body shape, weight, and appearance, reflecting dissatisfaction with the discrepancy between ideal and actual body image, and one of the strongest predictors of eating disorder development.",
+    "significance": "섭식장애의 핵심 위험 요인이자 유지 요인으로, 예방 프로그램의 주요 개입 표적이다.",
+    "key_researchers": [
+      {"name_ko": "에릭 스타이스", "name_en": "Eric Stice", "contribution": "체형 불만족이 섭식장애의 핵심 위험 요인임을 종단 연구로 입증하고 이중 경로 모형을 제안했다."},
+      {"name_ko": "토머스 캐시", "name_en": "Thomas Cash", "contribution": "신체 이미지의 다차원적 평가 도구를 개발하고 인지행동적 신체 이미지 치료를 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "마른 이상", "name_en": "Thin Ideal", "id": "EATING_THN_010"},
+      {"name_ko": "객체화 이론", "name_en": "Objectification Theory", "id": "EATING_OBJ_025"},
+      {"name_ko": "섭식장애의 사회문화적 모형", "name_en": "Sociocultural Model of Eating Disorders", "id": "EATING_SCM_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체형 불만족 = 이상적 체형 - 현재 체형 → 차이가 클수록 불만족 증가",
+      "differential": "체형 불만족은 정도의 차이가 있는 차원적 개념이고, 신체변형장애(BDD)는 지각된 결함에 대한 병리적 집착이다.",
+      "key_point": "체형 불만족은 섭식장애의 이중 경로 모형에서 다이어트 경로와 부정적 정서 경로 모두를 매개하는 핵심 변인이다.",
+      "common_mistake": "체형 불만족이 여성에게만 해당한다고 오해하지만, 남성에서도 근육질 이상(muscular ideal)에 대한 불만족이 증가하고 있다."
+    }
+  },
+  {
+    "id": "EATING_THN_010",
+    "terminology": "마른 이상 (Thin Ideal)",
+    "terminology_ko": "마른 이상",
+    "terminology_en": "Thin Ideal",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "사회문화적으로 구성된 이상적 여성 체형으로서의 마른 몸에 대한 내면화된 기준으로, 미디어와 또래 집단을 통해 전달되며 체형 불만족과 섭식 병리의 핵심 위험 요인이다.",
+    "definition_en": "An internalized standard of the thin body as the culturally constructed ideal female body shape, transmitted through media and peer groups, serving as a core risk factor for body dissatisfaction and eating pathology.",
+    "significance": "섭식장애의 사회문화적 모형에서 핵심 개념으로, 미디어 리터러시와 예방 프로그램의 중요한 개입 표적이다.",
+    "key_researchers": [
+      {"name_ko": "에릭 스타이스", "name_en": "Eric Stice", "contribution": "마른 이상 내면화가 섭식 병리로 이어지는 경로를 실증적으로 밝히고 예방 프로그램(Body Project)을 개발했다."},
+      {"name_ko": "앤 베커", "name_en": "Anne Becker", "contribution": "피지에서의 연구를 통해 서구 미디어 노출이 마른 이상 내면화와 섭식 병리에 미치는 영향을 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"},
+      {"name_ko": "날씬함 추구", "name_en": "Drive for Thinness", "id": "EATING_DFT_011"},
+      {"name_ko": "섭식장애의 사회문화적 모형", "name_en": "Sociocultural Model of Eating Disorders", "id": "EATING_SCM_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "마른 이상 = 미디어가 전달하는 '이상적 마른 몸' → 내면화 → 체형 불만족 → 섭식 병리",
+      "differential": "마른 이상은 사회문화적으로 구성된 외적 기준이고, 체형 불만족은 그 기준과 자신의 비교에서 오는 내적 평가이다.",
+      "key_point": "마른 이상의 내면화(internalization)가 핵심이며, 단순 인식이 아닌 개인적 기준으로 수용하는 과정이 섭식 병리의 위험을 높인다.",
+      "common_mistake": "마른 이상이 모든 문화에서 동일하다고 오해하지만, 이상적 체형은 문화와 시대에 따라 상당히 다르다."
+    }
+  },
+  {
+    "id": "EATING_DFT_011",
+    "terminology": "날씬함 추구 (Drive for Thinness)",
+    "terminology_ko": "날씬함 추구",
+    "terminology_en": "Drive for Thinness",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "더 날씬해지고자 하는 강렬한 욕구와 동기로, 체중 감소에 대한 과도한 집착, 다이어트 행동, 체중 증가에 대한 두려움으로 나타나며, 섭식장애 검사(EDI)의 핵심 하위 척도이다.",
+    "definition_en": "An intense desire and motivation to become thinner, manifested as excessive preoccupation with weight loss, dieting behavior, and fear of weight gain, a core subscale of the Eating Disorder Inventory (EDI).",
+    "significance": "섭식장애의 핵심 심리적 특성을 측정하는 중요한 구성개념으로, 조기 발견과 예방의 표적이 된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 가너", "name_en": "David Garner", "contribution": "섭식장애 검사(EDI)를 개발하여 날씬함 추구를 포함한 섭식 병리의 다차원적 측정을 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "마른 이상", "name_en": "Thin Ideal", "id": "EATING_THN_010"},
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"},
+      {"name_ko": "극단적 식이제한", "name_en": "Extreme Dietary Restriction", "id": "EATING_EDR_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "날씬함 추구 = EDI의 DT(Drive for Thinness) 척도 — 다이어트 집착 + 체중 공포 + 마름 욕구",
+      "differential": "날씬함 추구는 능동적 동기(더 마르고 싶다)이고, 체형 불만족은 현 상태에 대한 부정적 평가(지금 체형이 싫다)이다.",
+      "key_point": "날씬함 추구 점수가 높은 것은 섭식장애의 강력한 예측 인자이며, EDI-3의 핵심 하위 척도이다.",
+      "common_mistake": "날씬함 추구를 건강한 체중 관리 동기와 혼동하지만, 병적 수준의 날씬함 추구는 건강을 해칠 정도의 극단적 행동으로 이어진다."
+    }
+  },
+  {
+    "id": "EATING_CMP_012",
+    "terminology": "보상행동 (Compensatory Behavior)",
+    "terminology_ko": "보상행동",
+    "terminology_en": "Compensatory Behavior",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "섭취한 음식의 칼로리 효과를 상쇄하기 위해 수행되는 부적절한 행동으로, 자가 유도 구토, 하제·이뇨제 남용, 과도한 운동, 단식 등이 포함되며 신경성 폭식증의 핵심 특징이다.",
+    "definition_en": "Inappropriate behaviors performed to counteract the caloric effects of food consumed, including self-induced vomiting, laxative and diuretic misuse, excessive exercise, and fasting, a core feature of bulimia nervosa.",
+    "significance": "섭식장애에서 폭식과 연결되는 악순환의 핵심 요소로, 심각한 의학적 합병증을 초래할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 페어번", "name_en": "Christopher Fairburn", "contribution": "보상행동의 유지 기제를 인지행동 모형으로 체계화하고 효과적인 치료 프로토콜을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구토", "name_en": "Purging", "id": "EATING_PRG_013"},
+      {"name_ko": "하제 남용", "name_en": "Laxative Abuse", "id": "EATING_LAX_014"},
+      {"name_ko": "과도한 운동", "name_en": "Excessive Exercise", "id": "EATING_EXE_015"},
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"}
+    ],
+    "sub_types": [
+      {"name": "제거형 보상행동", "description": "구토, 하제, 이뇨제 사용 등"},
+      {"name": "비제거형 보상행동", "description": "과도한 운동, 단식 등"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "보상행동 = 폭식의 '대가 치르기' — 제거형(구토, 하제) + 비제거형(운동, 단식)",
+      "differential": "보상행동은 폭식 후 체중 증가를 방지하려는 행동이고, 제한적 섭식은 폭식 없이 지속적으로 칼로리를 줄이는 것이다.",
+      "key_point": "보상행동은 실제로 칼로리 상쇄에 비효과적이지만(하제는 영양분 흡수 후 작용), 환자는 효과적이라고 믿어 행동을 유지한다.",
+      "common_mistake": "하제 사용이 체중 감소에 효과적이라고 오해하지만, 하제는 대장에서 수분만 배출하며 칼로리는 소장에서 이미 흡수된다."
+    }
+  },
+  {
+    "id": "EATING_PRG_013",
+    "terminology": "구토 (Purging)",
+    "terminology_ko": "구토",
+    "terminology_en": "Purging",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "섭취한 음식을 제거하기 위해 자가 유도하는 구토 행동으로, 신경성 폭식증과 신경성 식욕부진증 폭식-제거형에서 가장 흔한 보상행동이며, 식도 손상, 전해질 불균형 등 심각한 의학적 합병증을 초래한다.",
+    "definition_en": "Self-induced vomiting behavior to eliminate consumed food, the most common compensatory behavior in bulimia nervosa and anorexia nervosa binge-purge type, causing serious medical complications including esophageal damage and electrolyte imbalance.",
+    "significance": "섭식장애의 가장 위험한 보상행동 중 하나로, 심장 부정맥, 식도 파열, 치아 침식 등 생명을 위협하는 합병증과 관련된다.",
+    "key_researchers": [
+      {"name_ko": "제럴드 러셀", "name_en": "Gerald Russell", "contribution": "구토를 포함한 제거 행동의 임상적 특성과 의학적 합병증을 체계적으로 기술했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "보상행동", "name_en": "Compensatory Behavior", "id": "EATING_CMP_012"},
+      {"name_ko": "러셀 징후", "name_en": "Russell's Sign", "id": "EATING_RSS_021"},
+      {"name_ko": "이하선 비대", "name_en": "Parotid Gland Enlargement", "id": "EATING_PRT_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Purging = 자가 유도 구토 — 전해질(K+) 불균형 → 심장 부정맥이 가장 위험한 합병증",
+      "differential": "자가 유도 구토(purging)는 의도적 보상행동이고, 반추장애는 비의도적·습관적 역류이다.",
+      "key_point": "반복적 구토는 저칼륨혈증을 초래하여 심장 부정맥의 위험을 높이며, 이것이 섭식장애의 주요 사망 원인 중 하나이다.",
+      "common_mistake": "구토가 체중 감소에 효과적이라고 오해하지만, 실제로는 칼로리의 상당 부분이 이미 흡수된 후 구토가 이루어진다."
+    }
+  },
+  {
+    "id": "EATING_LAX_014",
+    "terminology": "하제 남용 (Laxative Abuse)",
+    "terminology_ko": "하제 남용",
+    "terminology_en": "Laxative Abuse",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "체중 조절 목적으로 완하제를 과도하게 또는 부적절하게 사용하는 행동으로, 탈수, 전해질 불균형, 대장 기능 저하 등의 심각한 의학적 합병증을 초래할 수 있는 보상행동이다.",
+    "definition_en": "Excessive or inappropriate use of laxatives for weight control purposes, a compensatory behavior that can cause serious medical complications including dehydration, electrolyte imbalance, and colon dysfunction.",
+    "significance": "섭식장애에서 흔히 관찰되는 보상행동으로, 의학적 합병증의 심각성과 중독적 사용 패턴에 대한 임상적 주의가 필요하다.",
+    "key_researchers": [
+      {"name_ko": "제임스 미첼", "name_en": "James Mitchell", "contribution": "하제 남용의 의학적 합병증과 섭식장애에서의 역할에 대한 체계적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "보상행동", "name_en": "Compensatory Behavior", "id": "EATING_CMP_012"},
+      {"name_ko": "구토", "name_en": "Purging", "id": "EATING_PRG_013"},
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "하제 남용: 대장에서 수분 배출 → 일시적 체중 감소(수분 손실) → 칼로리 감소 효과 없음",
+      "differential": "하제 남용은 체중 조절 목적의 완하제 과다 사용이고, 의학적 변비 치료를 위한 적절한 하제 사용과 구별된다.",
+      "key_point": "하제는 소장에서 이미 흡수된 칼로리에 영향을 미치지 못하므로 실제 체중 감소 효과가 없으며, '대장 관성(cathartic colon)' 발생 위험이 있다.",
+      "common_mistake": "하제가 음식의 칼로리 흡수를 방지한다고 오해하지만, 영양 흡수는 소장에서 이루어지므로 하제는 칼로리 제거에 무효하다."
+    }
+  },
+  {
+    "id": "EATING_EXE_015",
+    "terminology": "과도한 운동 (Excessive Exercise)",
+    "terminology_ko": "과도한 운동",
+    "terminology_en": "Excessive Exercise",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "체중 조절이나 폭식 보상을 목적으로 부상이나 질병에도 불구하고 수행되는 강박적이고 과도한 운동 행동으로, 운동을 하지 못하면 극심한 불안이나 죄책감을 경험하는 것이 특징이다.",
+    "definition_en": "Compulsive and excessive exercise behavior performed for weight control or binge compensation despite injury or illness, characterized by extreme anxiety or guilt when unable to exercise.",
+    "significance": "비제거형 보상행동의 대표적 형태로, 겉으로는 건강한 행동처럼 보여 발견이 어렵다는 임상적 특성이 있다.",
+    "key_researchers": [
+      {"name_ko": "캐롤라인 데이비스", "name_en": "Caroline Davis", "contribution": "강박적 운동과 섭식장애의 관계를 연구하고, 운동 의존(exercise dependence) 개념을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "보상행동", "name_en": "Compensatory Behavior", "id": "EATING_CMP_012"},
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "완벽주의와 섭식장애", "name_en": "Perfectionism and Eating Disorders", "id": "EATING_PFC_033"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과도한 운동 = 비제거형 보상행동 — 부상·질병에도 운동 중단 불가, 운동 못하면 극심한 불안",
+      "differential": "과도한 운동은 체중 조절/불안 감소를 위한 강박적 행동이고, 건강한 운동은 즐거움과 건강 증진을 위한 자발적 활동이다.",
+      "key_point": "과도한 운동의 핵심은 양(시간)이 아니라 질(강박성, 유연성 결여, 운동 중단 시 고통)이다.",
+      "common_mistake": "운동량이 많으면 과도한 운동이라고 단정하지만, 핵심은 운동의 동기, 강박성, 유연성 결여 여부이다."
+    }
+  },
+  {
+    "id": "EATING_EDR_016",
+    "terminology": "극단적 식이제한 (Extreme Dietary Restriction)",
+    "terminology_ko": "극단적 식이제한",
+    "terminology_en": "Extreme Dietary Restriction",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "신체적 필요를 심각하게 밑도는 수준으로 음식 섭취를 엄격하게 제한하는 행동으로, 특정 음식군의 완전한 배제, 극도로 낮은 칼로리 섭취, 장시간 단식 등을 포함한다.",
+    "definition_en": "Behavior of rigidly restricting food intake to levels severely below physical needs, including complete elimination of food groups, extremely low calorie intake, and prolonged fasting.",
+    "significance": "섭식장애에서 폭식의 주요 선행 요인으로, 제한-폭식 순환의 시작점이 되며, 신체적·인지적 기능 저하를 초래한다.",
+    "key_researchers": [
+      {"name_ko": "앤셀 키스", "name_en": "Ancel Keys", "contribution": "미네소타 기아 실험(1944-45)을 통해 식이 제한이 신체적·심리적 기능에 미치는 심각한 영향을 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "폭식 삽화", "name_en": "Binge Episode", "id": "EATING_BNG_017"},
+      {"name_ko": "설정점 이론", "name_en": "Set Point Theory", "id": "EATING_SPT_019"},
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "극단적 식이제한 → 배고픔 증가 → 폭식 → 죄책감 → 다시 제한 = 악순환",
+      "differential": "극단적 식이제한은 부적절하게 낮은 칼로리 섭취이고, 건강한 식단 관리는 적절한 영양소를 포함한 균형 잡힌 식사이다.",
+      "key_point": "미네소타 기아 실험에서 정상인도 극심한 칼로리 제한 시 음식 집착, 폭식, 정서 불안정 등 섭식장애 유사 증상을 보였다.",
+      "common_mistake": "엄격한 다이어트가 장기적으로 효과적이라고 오해하지만, 극단적 식이제한은 대사 저하와 반동적 폭식을 유발한다."
+    }
+  },
+  {
+    "id": "EATING_BNG_017",
+    "terminology": "폭식 삽화 (Binge Episode)",
+    "terminology_ko": "폭식 삽화",
+    "terminology_en": "Binge Episode",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "일정한 시간 내(보통 2시간 이내)에 대부분의 사람이 같은 상황에서 먹을 양보다 확연히 많은 양의 음식을 섭취하면서, 먹는 행위에 대한 통제 상실감을 경험하는 삽화이다.",
+    "definition_en": "An episode of eating a definitively larger amount of food than most people would consume under similar circumstances within a discrete period (usually within 2 hours), accompanied by a sense of loss of control over eating.",
+    "significance": "신경성 폭식증과 폭식장애의 진단적 핵심 요소로, 통제 상실감의 존재가 단순 과식과 구분하는 핵심 기준이다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 페어번", "name_en": "Christopher Fairburn", "contribution": "폭식 삽화의 인지행동적 모형을 개발하고 촉발 요인과 유지 기제를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"},
+      {"name_ko": "폭식장애", "name_en": "Binge Eating Disorder", "id": "EATING_BED_003"},
+      {"name_ko": "보상행동", "name_en": "Compensatory Behavior", "id": "EATING_CMP_012"}
+    ],
+    "sub_types": [
+      {"name": "객관적 폭식", "description": "객관적으로 과도한 양의 음식을 섭취하면서 통제 상실감 경험"},
+      {"name": "주관적 폭식", "description": "객관적 양은 과도하지 않지만 통제 상실감을 경험"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "폭식 삽화 = '과도한 양' + '통제 상실감' — 두 가지 모두 충족해야 진단 기준 부합",
+      "differential": "폭식 삽화는 통제 상실감이 동반된 과식이고, 단순 과식(overeating)은 통제 상실감 없이 많이 먹는 것이다.",
+      "key_point": "통제 상실감(sense of loss of control)이 핵심 진단 요소이며, 양만으로는 폭식과 과식을 구별할 수 없다.",
+      "common_mistake": "많이 먹으면 모두 폭식이라고 생각하지만, 통제 상실감 없이 자발적으로 많이 먹는 것은 폭식이 아니다."
+    }
+  },
+  {
+    "id": "EATING_BMI_018",
+    "terminology": "체질량지수 (Body Mass Index)",
+    "terminology_ko": "체질량지수",
+    "terminology_en": "Body Mass Index",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "체중(kg)을 신장(m)의 제곱으로 나눈 값으로, 체중 상태를 분류하는 데 사용되는 지표이며, DSM-5에서 신경성 식욕부진증의 심각도를 명시하는 기준으로 활용된다.",
+    "definition_en": "A measure calculated by dividing weight (kg) by height (m) squared, used to classify weight status and employed in DSM-5 to specify the severity of anorexia nervosa.",
+    "significance": "신경성 식욕부진증의 심각도 평가와 의학적 위험 판단에 사용되는 핵심 지표이다.",
+    "key_researchers": [
+      {"name_ko": "아돌프 케틀레", "name_en": "Adolphe Quetelet", "contribution": "19세기에 체중과 신장의 관계를 수학적으로 정의한 케틀레 지수를 개발하여 BMI의 기반을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "설정점 이론", "name_en": "Set Point Theory", "id": "EATING_SPT_019"},
+      {"name_ko": "체중 낙인", "name_en": "Weight Stigma", "id": "EATING_WST_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BMI = kg/m² — 저체중<18.5, 정상 18.5-24.9, 과체중 25-29.9, 비만≥30",
+      "differential": "BMI는 체중 대비 키의 비율 지표이고, 체지방률은 실제 지방의 비율을 측정하는 것으로 더 정확하다.",
+      "key_point": "DSM-5 AN 심각도: 경도 BMI≥17, 중등도 16-16.99, 고도 15-15.99, 극심 BMI<15.",
+      "common_mistake": "BMI가 건강 상태의 완전한 지표라고 오해하지만, BMI는 근육량, 체지방 분포, 인종적 차이를 반영하지 못한다."
+    }
+  },
+  {
+    "id": "EATING_SPT_019",
+    "terminology": "설정점 이론 (Set Point Theory)",
+    "terminology_ko": "설정점 이론",
+    "terminology_en": "Set Point Theory",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "각 개인의 체중이 생물학적으로 결정된 특정 범위(설정점) 주위에서 유지되려는 항상성 기제가 작동한다는 이론으로, 다이어트 후 체중 회복 현상과 대사 적응을 설명한다.",
+    "definition_en": "A theory proposing that each individual's weight is maintained around a biologically determined range (set point) through homeostatic mechanisms, explaining post-diet weight regain and metabolic adaptation.",
+    "significance": "극단적 식이제한의 장기적 비효과성을 설명하고, 자연 체중에 대한 수용의 중요성을 강조하는 이론적 기반이다.",
+    "key_researchers": [
+      {"name_ko": "리처드 니스벳", "name_en": "Richard Nisbett", "contribution": "1972년 설정점 이론을 비만 연구에 적용하여 생물학적 체중 조절 기제를 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "극단적 식이제한", "name_en": "Extreme Dietary Restriction", "id": "EATING_EDR_016"},
+      {"name_ko": "체질량지수", "name_en": "BMI", "id": "EATING_BMI_018"},
+      {"name_ko": "직관적 식사", "name_en": "Intuitive Eating", "id": "EATING_ITE_031"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "설정점 = 체온 조절처럼 체중도 '항상성'으로 유지 — 다이어트해도 원래 체중으로 돌아가려는 힘",
+      "differential": "설정점 이론은 체중이 생물학적으로 고정된 범위를 가진다고 보고, 정착점(settling point) 이론은 환경과 행동에 따라 유동적이라고 본다.",
+      "key_point": "다이어트 시 대사율 감소, 식욕 호르몬(그렐린) 증가 등 체중 회복을 촉진하는 보상적 생리 반응이 설정점 이론을 지지한다.",
+      "common_mistake": "설정점이 절대 변할 수 없다고 오해하지만, 장기적 생활 습관 변화와 환경적 요인에 의해 점진적 변화가 가능하다."
+    }
+  },
+  {
+    "id": "EATING_AMN_020",
+    "terminology": "무월경 (Amenorrhea)",
+    "terminology_ko": "무월경",
+    "terminology_en": "Amenorrhea",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "월경의 부재로, 기능적 시상하부성 무월경(FHA)은 극심한 에너지 부족, 과도한 운동, 스트레스 등에 의해 시상하부-뇌하수체-성선축이 억제되어 발생하며, 섭식장애의 중요한 의학적 결과이다.",
+    "definition_en": "Absence of menstruation; functional hypothalamic amenorrhea (FHA) occurs when the hypothalamic-pituitary-gonadal axis is suppressed due to severe energy deficit, excessive exercise, or stress, representing an important medical consequence of eating disorders.",
+    "significance": "섭식장애의 심각한 의학적 합병증으로, 골밀도 감소와 불임의 위험을 증가시키며, 영양 회복의 중요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "미셸 워런", "name_en": "Michelle Warren", "contribution": "기능적 시상하부성 무월경과 섭식장애의 관계를 연구하고 골밀도에 미치는 영향을 밝혔다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "극단적 식이제한", "name_en": "Extreme Dietary Restriction", "id": "EATING_EDR_016"},
+      {"name_ko": "재급식 증후군", "name_en": "Refeeding Syndrome", "id": "EATING_RFS_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "무월경 = 에너지 부족 → 시상하부 억제 → GnRH 감소 → FSH/LH 감소 → 월경 중단",
+      "differential": "기능적 무월경은 에너지 부족에 의한 가역적 상태이고, 기질적 무월경은 구조적 이상(자궁, 난소)에 의한 것이다.",
+      "key_point": "DSM-5에서 무월경은 더 이상 신경성 식욕부진증의 필수 진단 기준이 아니지만, 중요한 의학적 결과로 평가된다.",
+      "common_mistake": "무월경이 DSM-5에서도 여전히 신경성 식욕부진증의 필수 기준이라고 착각하지만, DSM-5에서 이 기준은 삭제되었다."
+    }
+  },
+  {
+    "id": "EATING_RSS_021",
+    "terminology": "러셀 징후 (Russell's Sign)",
+    "terminology_ko": "러셀 징후",
+    "terminology_en": "Russell's Sign",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "반복적인 자가 유도 구토로 인해 손등(특히 관절 부위)에 형성되는 굳은살, 흉터, 또는 피부 변색으로, 구토 시 치아에 손이 닿아 발생하며 신경성 폭식증의 신체적 징후이다.",
+    "definition_en": "Calluses, scarring, or skin discoloration on the back of the hand (especially over the knuckles) caused by repeated self-induced vomiting, where the hand contacts the teeth, a physical sign of bulimia nervosa.",
+    "significance": "자가 유도 구토의 신체적 증거로서, 섭식장애의 임상적 발견과 선별에 중요한 진찰 소견이다.",
+    "key_researchers": [
+      {"name_ko": "제럴드 러셀", "name_en": "Gerald Russell", "contribution": "이 신체적 징후를 처음으로 기술하여 자가 유도 구토의 객관적 지표로 활용하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구토", "name_en": "Purging", "id": "EATING_PRG_013"},
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"},
+      {"name_ko": "이하선 비대", "name_en": "Parotid Gland Enlargement", "id": "EATING_PRT_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "러셀 징후 = 손등 굳은살 — 구토 유도 시 윗니가 손등을 반복적으로 마찰",
+      "differential": "러셀 징후는 자가 유도 구토의 신체적 증거이고, 이하선 비대는 반복적 구토로 인한 침샘 팽창이다.",
+      "key_point": "경험이 많은 환자는 도구나 다른 방법으로 구토를 유도하여 러셀 징후가 없을 수 있으므로, 징후의 부재가 구토 부재를 의미하지 않는다.",
+      "common_mistake": "러셀 징후가 모든 구토 환자에서 나타난다고 오해하지만, 손을 사용하지 않는 경우에는 관찰되지 않는다."
+    }
+  },
+  {
+    "id": "EATING_PRT_022",
+    "terminology": "이하선 비대 (Parotid Gland Enlargement)",
+    "terminology_ko": "이하선 비대",
+    "terminology_en": "Parotid Gland Enlargement",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "반복적인 구토로 인해 이하선(귀밑샘)이 비대해지는 현상으로, 얼굴이 부어 보이는 '다람쥐 뺨' 외관을 초래하며, 신경성 폭식증의 신체적 징후 중 하나이다.",
+    "definition_en": "Enlargement of the parotid glands due to repeated vomiting, causing a puffy 'chipmunk cheek' appearance, one of the physical signs of bulimia nervosa.",
+    "significance": "반복적 구토의 의학적 합병증이자 임상적 발견의 단서로, 섭식장애의 신체적 영향을 보여주는 대표적 징후이다.",
+    "key_researchers": [
+      {"name_ko": "제임스 미첼", "name_en": "James Mitchell", "contribution": "섭식장애의 의학적 합병증을 체계적으로 연구하여 이하선 비대의 기전과 임상적 의의를 밝혔다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "러셀 징후", "name_en": "Russell's Sign", "id": "EATING_RSS_021"},
+      {"name_ko": "구토", "name_en": "Purging", "id": "EATING_PRG_013"},
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이하선 비대 = '다람쥐 뺨' — 반복 구토 → 침샘 과자극 → 이하선 팽창",
+      "differential": "이하선 비대는 구토에 의한 것이고, 볼거리(유행성 이하선염)는 바이러스 감염에 의한 것이다.",
+      "key_point": "이하선 비대는 구토 중단 후 수주~수개월에 걸쳐 서서히 개선되며, 아밀라아제 수치 상승이 동반될 수 있다.",
+      "common_mistake": "이하선 비대가 영구적이라고 오해하지만, 구토 행동을 중단하면 대부분 가역적으로 회복된다."
+    }
+  },
+  {
+    "id": "EATING_CDT_023",
+    "terminology": "인지적 왜곡 (Cognitive Distortions in Eating Disorders)",
+    "terminology_ko": "인지적 왜곡",
+    "terminology_en": "Cognitive Distortions in Eating Disorders",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "섭식장애에서 나타나는 특유의 비합리적 사고 패턴으로, 흑백사고(음식을 '좋은/나쁜'으로 이분법적 분류), 파국화, 감정적 추론, 선택적 추상화 등이 체형·체중·음식에 대해 집중적으로 나타난다.",
+    "definition_en": "Characteristic irrational thinking patterns in eating disorders, including dichotomous thinking (categorizing food as 'good/bad'), catastrophizing, emotional reasoning, and selective abstraction, focused on body shape, weight, and food.",
+    "significance": "섭식장애의 인지행동치료에서 핵심 치료 표적으로, 인지적 재구조화의 대상이 되는 유지 요인이다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 페어번", "name_en": "Christopher Fairburn", "contribution": "섭식장애에서의 인지적 왜곡을 체계화하고 이를 표적으로 한 CBT-E를 개발했다."},
+      {"name_ko": "아론 벡", "name_en": "Aaron Beck", "contribution": "인지적 왜곡의 일반 이론을 제안하여 섭식장애를 포함한 다양한 정신장애의 인지적 모형 기반을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Fairburn의 초진단적 모형", "name_en": "Fairburn's Transdiagnostic Model", "id": "EATING_FTM_034"},
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "섭식장애의 인지적 왜곡: 흑백사고('금지 음식 먹으면 끝장'), 파국화, 감정적 추론('뚱뚱하다고 느끼니까 뚱뚱한 거야')",
+      "differential": "섭식장애의 인지적 왜곡은 체형·체중·음식에 특화된 사고 오류이고, 우울증의 인지적 왜곡은 자기·세상·미래에 대한 부정적 사고이다.",
+      "key_point": "흑백사고(dichotomous thinking)가 섭식장애에서 특히 핵심적이며, '규칙 위반 효과(abstinence violation effect)'를 통해 폭식을 촉발한다.",
+      "common_mistake": "인지적 왜곡을 인식하면 바로 교정된다고 오해하지만, 깊이 자동화된 사고 패턴이므로 체계적인 인지 재구조화가 필요하다."
+    }
+  },
+  {
+    "id": "EATING_SCM_024",
+    "terminology": "섭식장애의 사회문화적 모형 (Sociocultural Model of Eating Disorders)",
+    "terminology_ko": "섭식장애의 사회문화적 모형",
+    "terminology_en": "Sociocultural Model of Eating Disorders",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "섭식장애의 발생과 유지에 사회문화적 요인, 특히 미디어, 또래 집단, 가족 환경이 전달하는 마른 이상과 외모 중시 가치관이 핵심적 역할을 한다는 이론적 틀이다.",
+    "definition_en": "A theoretical framework proposing that sociocultural factors, particularly the thin ideal and appearance-oriented values transmitted through media, peer groups, and family environment, play a central role in the development and maintenance of eating disorders.",
+    "significance": "섭식장애의 문화적 편재성과 유병률의 문화 간 차이를 설명하는 핵심 이론으로, 예방 프로그램의 이론적 기반을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "앤 베커", "name_en": "Anne Becker", "contribution": "피지 연구를 통해 서구 미디어 도입이 섭식 병리 증가와 관련됨을 실증적으로 입증했다."},
+      {"name_ko": "에릭 스타이스", "name_en": "Eric Stice", "contribution": "사회문화적 요인이 섭식 병리로 이어지는 매개 경로(이중 경로 모형)를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "마른 이상", "name_en": "Thin Ideal", "id": "EATING_THN_010"},
+      {"name_ko": "객체화 이론", "name_en": "Objectification Theory", "id": "EATING_OBJ_025"},
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회문화적 모형: 미디어 + 또래 + 가족 → 마른 이상 내면화 → 체형 불만족 → 섭식장애",
+      "differential": "사회문화적 모형은 외적 환경 요인을 강조하고, 생물학적 모형은 유전과 신경화학적 요인을 강조한다.",
+      "key_point": "피지 연구(Becker, 2004): TV 도입 3년 후 구토 행동이 0%에서 11.3%로 증가하여 미디어의 영향을 극적으로 보여주었다.",
+      "common_mistake": "사회문화적 요인만으로 섭식장애를 설명할 수 있다고 오해하지만, 같은 문화적 압력에 노출된 모든 사람이 발병하지 않으므로 개인적 취약성도 중요하다."
+    }
+  },
+  {
+    "id": "EATING_OBJ_025",
+    "terminology": "객체화 이론 (Objectification Theory)",
+    "terminology_ko": "객체화 이론",
+    "terminology_en": "Objectification Theory",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "여성의 몸이 사회적으로 대상화되는 경험이 자기-객체화(자신의 외모를 외부 관찰자의 시선으로 모니터링)를 유발하고, 이것이 수치심, 불안, 체형 불만족, 섭식 병리로 이어진다는 페미니스트 이론이다.",
+    "definition_en": "A feminist theory proposing that the social objectification of women's bodies leads to self-objectification (monitoring one's appearance from an external observer's perspective), which in turn produces shame, anxiety, body dissatisfaction, and eating pathology.",
+    "significance": "섭식장애의 성별 차이를 설명하는 핵심 이론으로, 성차별적 사회구조와 심리적 건강의 관계를 밝힌다.",
+    "key_researchers": [
+      {"name_ko": "바바라 프레더릭슨", "name_en": "Barbara Fredrickson", "contribution": "1997년 객체화 이론을 제안하여 여성의 신체 경험과 섭식 병리의 관계를 이론화했다."},
+      {"name_ko": "토미-앤 로버츠", "name_en": "Tomi-Ann Roberts", "contribution": "객체화 이론을 공동으로 개발하고 자기-객체화의 실험적 검증을 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"},
+      {"name_ko": "마른 이상", "name_en": "Thin Ideal", "id": "EATING_THN_010"},
+      {"name_ko": "섭식장애의 사회문화적 모형", "name_en": "Sociocultural Model of Eating Disorders", "id": "EATING_SCM_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "객체화 이론: 사회적 객체화 → 자기-객체화(내면화) → 신체 수치심 → 섭식 병리",
+      "differential": "객체화 이론은 사회적 대상화 경험이 자기-감시를 유발한다고 보고, 사회문화적 모형은 미디어의 이상적 체형 전달에 초점을 맞춘다.",
+      "key_point": "자기-객체화(self-objectification)는 '나를 어떻게 보이는가'의 관점에서 자신을 모니터링하는 것으로, 수치심과 섭식 병리의 핵심 매개변인이다.",
+      "common_mistake": "객체화 이론이 여성에게만 적용된다고 오해하지만, 남성에서도 자기-객체화와 관련된 신체 이미지 문제가 보고되고 있다."
+    }
+  },
+  {
+    "id": "EATING_FBT_026",
+    "terminology": "가족기반치료 (Family-Based Treatment)",
+    "terminology_ko": "가족기반치료",
+    "terminology_en": "Family-Based Treatment",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "청소년 신경성 식욕부진증의 가장 효과적인 근거 기반 치료로, 부모가 자녀의 식사를 적극적으로 관리하는 역할을 맡으며, 3단계(체중 회복 → 통제 이양 → 정체성 확립)로 구성된 Maudsley 접근법이다.",
+    "definition_en": "The most effective evidence-based treatment for adolescent anorexia nervosa, in which parents take an active role in managing their child's eating, structured in three phases (weight restoration → transfer of control → identity establishment), known as the Maudsley approach.",
+    "significance": "청소년 신경성 식욕부진증에서 가장 강력한 근거를 가진 치료법으로, 가족을 치료의 자원으로 활용하는 패러다임 전환을 이끌었다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 더", "name_en": "Christopher Dare", "contribution": "Maudsley 병원에서 가족기반치료 접근법을 최초로 개발했다."},
+      {"name_ko": "제임스 록", "name_en": "James Lock", "contribution": "가족기반치료 매뉴얼을 체계화하고 무작위 통제 시험을 통해 효과를 입증했다."},
+      {"name_ko": "다니엘 르 그레인지", "name_en": "Daniel Le Grange", "contribution": "가족기반치료를 신경성 폭식증에 적용하고 치료 매뉴얼을 공동 집필했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "섭식장애의 CBT", "name_en": "CBT for Eating Disorders", "id": "EATING_CBT_027"},
+      {"name_ko": "재급식 증후군", "name_en": "Refeeding Syndrome", "id": "EATING_RFS_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FBT = 3단계: (1) 부모 주도 재급식 → (2) 통제 청소년에게 이양 → (3) 정상 발달 과제 회복",
+      "differential": "가족기반치료는 부모가 섭식을 직접 관리하는 반면, 개인 CBT는 환자 자신의 인지-행동 변화에 초점을 맞춘다.",
+      "key_point": "FBT는 가족을 비난하지 않고('agnostic' 접근) 가족을 치료의 핵심 자원으로 활용하며, 청소년 AN에서 60-70%의 관해율을 보인다.",
+      "common_mistake": "FBT가 가족의 잘못을 전제한다고 오해하지만, 이 접근은 의도적으로 비난을 배제하고 가족을 치료 동맹으로 본다."
+    }
+  },
+  {
+    "id": "EATING_CBT_027",
+    "terminology": "섭식장애의 CBT (CBT for Eating Disorders)",
+    "terminology_ko": "섭식장애의 CBT",
+    "terminology_en": "CBT for Eating Disorders",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "섭식장애의 핵심 유지 요인인 체형·체중의 과대 평가, 극단적 식이 규칙, 인지적 왜곡을 체계적으로 변화시키는 구조화된 인지행동치료로, Fairburn의 CBT-E(Enhanced)가 대표적이다.",
+    "definition_en": "A structured cognitive-behavioral therapy systematically targeting core maintaining factors of eating disorders including overvaluation of shape and weight, extreme dietary rules, and cognitive distortions, with Fairburn's CBT-E (Enhanced) as the leading protocol.",
+    "significance": "신경성 폭식증에서 가장 강력한 근거를 가진 심리치료이며, 초진단적 적용이 가능한 통합적 치료 모형이다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 페어번", "name_en": "Christopher Fairburn", "contribution": "CBT-BN을 개발하고 이를 CBT-E(Enhanced)로 확장하여 모든 섭식장애에 적용 가능한 초진단적 치료를 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지적 왜곡", "name_en": "Cognitive Distortions in Eating Disorders", "id": "EATING_CDT_023"},
+      {"name_ko": "Fairburn의 초진단적 모형", "name_en": "Fairburn's Transdiagnostic Model", "id": "EATING_FTM_034"},
+      {"name_ko": "가족기반치료", "name_en": "Family-Based Treatment", "id": "EATING_FBT_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CBT-E = Enhanced CBT — 4단계: (1) 자기관찰 시작 (2) 유지요인 평가 (3) 핵심 변화 (4) 재발 방지",
+      "differential": "CBT-E는 인지-행동적 유지 요인을 표적으로 하고, IPT는 대인관계 문제를 표적으로 하며, FBT는 가족의 재급식 역할을 활용한다.",
+      "key_point": "CBT-E는 모든 섭식장애 진단에 적용 가능한 초진단적(transdiagnostic) 치료로, 신경성 폭식증에서 40-50%의 관해율을 보인다.",
+      "common_mistake": "CBT가 섭식장애의 모든 하위 유형에 동일하게 효과적이라고 오해하지만, 청소년 AN에서는 FBT가 더 효과적이다."
+    }
+  },
+  {
+    "id": "EATING_IPT_028",
+    "terminology": "대인관계치료 (Interpersonal Psychotherapy for Eating Disorders)",
+    "terminology_ko": "대인관계치료",
+    "terminology_en": "Interpersonal Psychotherapy for Eating Disorders",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "섭식장애의 발생 및 유지와 관련된 대인관계 문제(역할 전환, 역할 갈등, 대인관계 결핍, 애도)에 초점을 맞추어 대인관계 기능을 개선함으로써 섭식 병리를 감소시키는 구조화된 심리치료이다.",
+    "definition_en": "A structured psychotherapy that reduces eating pathology by improving interpersonal functioning, focusing on interpersonal problems (role transitions, role disputes, interpersonal deficits, grief) related to the development and maintenance of eating disorders.",
+    "significance": "섭식 행동을 직접 다루지 않으면서도 효과적인 대안적 치료로, CBT에 반응하지 않는 환자에게 적용할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "데니스 윌플리", "name_en": "Denise Wilfley", "contribution": "폭식장애에 대한 IPT의 효과를 무작위 통제 시험으로 입증하고 섭식장애 특화 IPT 프로토콜을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "섭식장애의 CBT", "name_en": "CBT for Eating Disorders", "id": "EATING_CBT_027"},
+      {"name_ko": "폭식장애", "name_en": "Binge Eating Disorder", "id": "EATING_BED_003"},
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "id": "EATING_BUL_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "IPT-ED: 4가지 대인관계 문제 영역 — 애도, 역할갈등, 역할전환, 대인관계 결핍",
+      "differential": "IPT는 대인관계 문제에 초점을 맞추고 섭식 행동을 직접 다루지 않는 반면, CBT는 섭식 행동과 인지적 왜곡을 직접 표적으로 한다.",
+      "key_point": "IPT는 CBT보다 초기 효과는 느리지만, 장기 추적에서 유사한 결과를 보이며 특히 폭식장애에서 효과적이다.",
+      "common_mistake": "IPT가 섭식 행동을 다루지 않으므로 효과가 없다고 오해하지만, 대인관계 개선이 부정적 정서 감소를 통해 간접적으로 섭식 행동을 개선한다."
+    }
+  },
+  {
+    "id": "EATING_RFS_029",
+    "terminology": "재급식 증후군 (Refeeding Syndrome)",
+    "terminology_ko": "재급식 증후군",
+    "terminology_en": "Refeeding Syndrome",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "장기간의 심각한 영양 결핍 후 급격한 영양 재공급 시 발생하는 잠재적으로 치명적인 대사 합병증으로, 저인산혈증, 전해질 불균형, 체액 이동, 심장 부전 등이 특징이다.",
+    "definition_en": "A potentially fatal metabolic complication occurring during rapid nutritional rehabilitation after prolonged severe malnutrition, characterized by hypophosphatemia, electrolyte imbalances, fluid shifts, and cardiac failure.",
+    "significance": "신경성 식욕부진증 치료의 가장 위험한 의학적 합병증으로, 영양 재공급의 신중한 프로토콜이 필수적임을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "앤셀 키스", "name_en": "Ancel Keys", "contribution": "미네소타 기아 실험에서 재급식 과정의 위험성을 처음으로 관찰하여 재급식 증후군의 이해에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"},
+      {"name_ko": "무월경", "name_en": "Amenorrhea", "id": "EATING_AMN_020"},
+      {"name_ko": "가족기반치료", "name_en": "Family-Based Treatment", "id": "EATING_FBT_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "재급식 증후군: 기아 → 급격한 재급식 → 인슐린 급증 → 세포 내 인산 이동 → 저인산혈증 → 심부전 위험",
+      "differential": "재급식 증후군은 영양 재공급 시 발생하는 대사 합병증이고, 기아 상태의 합병증(서맥, 저혈압 등)은 영양 부족 자체의 결과이다.",
+      "key_point": "저인산혈증(hypophosphatemia)이 핵심 문제이며, 'start low, go slow(낮게 시작하여 천천히 증가)' 원칙에 따라 칼로리를 점진적으로 늘려야 한다.",
+      "common_mistake": "굶은 환자에게 빠르게 많은 음식을 제공하는 것이 좋다고 오해하지만, 급격한 재급식은 생명을 위협하는 대사 합병증을 유발할 수 있다."
+    }
+  },
+  {
+    "id": "EATING_WST_030",
+    "terminology": "체중 낙인 (Weight Stigma)",
+    "terminology_ko": "체중 낙인",
+    "terminology_en": "Weight Stigma",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "체중이나 체형을 근거로 개인에게 부여되는 부정적 태도, 편견, 차별로, 과체중이나 비만인 사람에 대한 사회적 비난과 불이익을 포함하며, 섭식 병리와 정신건강 악화에 기여한다.",
+    "definition_en": "Negative attitudes, prejudice, and discrimination directed at individuals based on their weight or body size, including social blame and disadvantage toward overweight or obese persons, contributing to eating pathology and mental health deterioration.",
+    "significance": "사회적 편견이 건강 행동과 정신건강에 미치는 부정적 영향을 보여주며, 건강 중심 접근(HAES)의 이론적 배경이 된다.",
+    "key_researchers": [
+      {"name_ko": "레베카 풀", "name_en": "Rebecca Puhl", "contribution": "체중 낙인의 실태와 건강에 미치는 영향을 체계적으로 연구하고 반편견 개입을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"},
+      {"name_ko": "폭식장애", "name_en": "Binge Eating Disorder", "id": "EATING_BED_003"},
+      {"name_ko": "직관적 식사", "name_en": "Intuitive Eating", "id": "EATING_ITE_031"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체중 낙인 = '뚱뚱한 것은 게으르고 의지력이 없어서' — 이런 편견이 오히려 건강을 해침",
+      "differential": "체중 낙인은 사회적 편견과 차별이고, 체형 불만족은 자신의 체형에 대한 주관적 부정적 평가이다.",
+      "key_point": "체중 낙인은 스트레스 반응, 폭식 증가, 운동 회피, 의료 이용 기피를 유발하여 건강을 악화시키는 역설적 효과를 나타낸다.",
+      "common_mistake": "체중 낙인이 비만인의 체중 감량 동기를 높인다고 오해하지만, 실제로는 정서적 섭식 증가와 운동 회피를 촉진한다."
+    }
+  },
+  {
+    "id": "EATING_ITE_031",
+    "terminology": "직관적 식사 (Intuitive Eating)",
+    "terminology_ko": "직관적 식사",
+    "terminology_en": "Intuitive Eating",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "배고픔과 포만감이라는 내부 신호에 따라 식사하고, 음식에 대한 도덕적 판단을 배제하며, 신체의 자연스러운 요구를 존중하는 비다이어트 접근법으로, 섭식장애 회복과 건강한 식사 관계 형성에 활용된다.",
+    "definition_en": "A non-diet approach to eating based on internal hunger and satiety cues, removing moral judgments about food and respecting the body's natural needs, used in eating disorder recovery and developing a healthy relationship with food.",
+    "significance": "다이어트 문화에 대한 대안으로서, 섭식장애 예방과 회복에서 신체 신호에 대한 재연결의 중요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "에블린 트리볼", "name_en": "Evelyn Tribole", "contribution": "1995년 직관적 식사(Intuitive Eating) 프레임워크를 공동 개발하고 10가지 원칙을 체계화했다."},
+      {"name_ko": "엘리스 레쉬", "name_en": "Elyse Resch", "contribution": "직관적 식사를 공동 개발하고 임상 적용을 확대했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "설정점 이론", "name_en": "Set Point Theory", "id": "EATING_SPT_019"},
+      {"name_ko": "체중 낙인", "name_en": "Weight Stigma", "id": "EATING_WST_030"},
+      {"name_ko": "극단적 식이제한", "name_en": "Extreme Dietary Restriction", "id": "EATING_EDR_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "직관적 식사 10원칙의 핵심: 다이어트 멘탈리티 거부, 배고픔 존중, 음식과 화해, 만족감 발견",
+      "differential": "직관적 식사는 내부 신호에 따른 자율적 식사이고, 식이제한은 외부 규칙(칼로리, 금지 음식)에 따른 통제적 식사이다.",
+      "key_point": "직관적 식사는 체중 감량을 목표로 하지 않으며, 연구에서 개선된 심리적 건강, 섭식 병리 감소, 신체 만족도 증가와 관련된다.",
+      "common_mistake": "직관적 식사를 '먹고 싶은 대로 아무거나 먹는 것'으로 오해하지만, 신체 신호에 대한 주의 깊은 경청과 자기 돌봄을 포함하는 체계적 접근이다."
+    }
+  },
+  {
+    "id": "EATING_PAM_032",
+    "terminology": "프로아나/프로미아 운동 (Pro-Ana/Pro-Mia Movement)",
+    "terminology_ko": "프로아나/프로미아 운동",
+    "terminology_en": "Pro-Ana/Pro-Mia Movement",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "인터넷 커뮤니티를 중심으로 신경성 식욕부진증(pro-ana)이나 신경성 폭식증(pro-mia)을 질병이 아닌 생활 방식으로 옹호하고, 극단적 다이어트 방법과 제거 기법을 공유하는 온라인 운동이다.",
+    "definition_en": "An online movement centered on internet communities that advocates anorexia nervosa (pro-ana) or bulimia nervosa (pro-mia) as lifestyle choices rather than disorders, sharing extreme dieting methods and purging techniques.",
+    "significance": "인터넷 시대의 섭식장애 전파 경로를 보여주며, 온라인 환경에서의 유해 콘텐츠 규제와 디지털 리터러시의 필요성을 제기한다.",
+    "key_researchers": [
+      {"name_ko": "스테파니 바드비", "name_en": "Stephanie Bardone-Cone", "contribution": "프로아나 웹사이트 노출이 체형 불만족과 부정적 정서에 미치는 영향을 실험적으로 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "마른 이상", "name_en": "Thin Ideal", "id": "EATING_THN_010"},
+      {"name_ko": "섭식장애의 사회문화적 모형", "name_en": "Sociocultural Model of Eating Disorders", "id": "EATING_SCM_024"},
+      {"name_ko": "체형 불만족", "name_en": "Body Dissatisfaction", "id": "EATING_BDS_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Pro-ana = pro(지지) + ana(anorexia) — 섭식장애를 '라이프스타일'로 미화하는 위험한 온라인 운동",
+      "differential": "프로아나 커뮤니티는 섭식장애를 옹호하고, 회복 지향 커뮤니티는 치료와 회복을 지원한다.",
+      "key_point": "프로아나 웹사이트 노출은 체형 불만족, 다이어트 의도, 부정적 정서를 증가시키며, 특히 취약한 개인에게 위험하다.",
+      "common_mistake": "프로아나 커뮤니티가 단순한 지지 그룹이라고 오해하지만, 이들은 섭식장애 행동을 적극적으로 촉진하고 치료를 방해한다."
+    }
+  },
+  {
+    "id": "EATING_PFC_033",
+    "terminology": "완벽주의와 섭식장애 (Perfectionism and Eating Disorders)",
+    "terminology_ko": "완벽주의와 섭식장애",
+    "terminology_en": "Perfectionism and Eating Disorders",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "완벽주의 성향, 특히 자기-지향적 완벽주의와 사회적으로 부과된 완벽주의가 섭식장애의 발생, 유지, 치료 저항의 핵심 성격 위험 요인으로 작용하는 관계를 설명하는 개념이다.",
+    "definition_en": "A concept explaining how perfectionism, particularly self-oriented and socially prescribed perfectionism, serves as a core personality risk factor for the development, maintenance, and treatment resistance of eating disorders.",
+    "significance": "섭식장애의 성격적 취약 요인으로서, Fairburn의 초진단적 모형에서 4가지 핵심 유지 요인 중 하나로 포함된다.",
+    "key_researchers": [
+      {"name_ko": "안나 바르도네-콘", "name_en": "Anna Bardone-Cone", "contribution": "완벽주의와 섭식장애의 관계에 대한 메타분석적 연구를 수행했다."},
+      {"name_ko": "크리스토퍼 페어번", "name_en": "Christopher Fairburn", "contribution": "완벽주의를 섭식장애의 초진단적 유지 요인 중 하나로 포함시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Fairburn의 초진단적 모형", "name_en": "Fairburn's Transdiagnostic Model", "id": "EATING_FTM_034"},
+      {"name_ko": "인지적 왜곡", "name_en": "Cognitive Distortions in Eating Disorders", "id": "EATING_CDT_023"},
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "id": "EATING_ANN_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "완벽주의 → '완벽한 체형' 추구 → 극단적 제한 → 실패 시 자기비난 → 폭식/악화",
+      "differential": "임상적 완벽주의는 자기가치가 성취에 의존하고 기준 미달 시 극심한 고통을 경험하는 반면, 건강한 높은 기준은 유연하고 실패에 적응적이다.",
+      "key_point": "완벽주의는 섭식장애의 위험 요인이자 유지 요인이며, 치료 후에도 지속되어 재발 위험을 높이는 잔여 특성이다.",
+      "common_mistake": "완벽주의가 섭식장애 회복 후 자연히 사라진다고 오해하지만, 완벽주의는 독립적으로 치료해야 하는 지속적 성격 특성이다."
+    }
+  },
+  {
+    "id": "EATING_FTM_034",
+    "terminology": "Fairburn의 초진단적 모형 (Fairburn's Transdiagnostic Model)",
+    "terminology_ko": "Fairburn의 초진단적 모형",
+    "terminology_en": "Fairburn's Transdiagnostic Model",
+    "category": "EATING",
+    "category_name": "섭식장애 (Eating Disorders)",
+    "definition": "모든 섭식장애가 공통된 핵심 병리('체형과 체중에 의한 자기 평가의 과대 결정')를 공유하며, 임상적 완벽주의, 핵심 낮은 자존감, 정서 조절 곤란, 대인관계 어려움이 유지 요인으로 작용한다는 통합적 이론 모형이다.",
+    "definition_en": "An integrative theoretical model proposing that all eating disorders share a common core pathology ('over-evaluation of shape, weight, and their control') maintained by clinical perfectionism, core low self-esteem, mood intolerance, and interpersonal difficulties.",
+    "significance": "섭식장애 진단 간 경계의 인위성을 극복하고 통합적 치료(CBT-E)의 이론적 기반을 제공하는 혁신적 모형이다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 페어번", "name_en": "Christopher Fairburn", "contribution": "2003년 초진단적 모형을 제안하고 이를 기반으로 CBT-E를 개발하여 섭식장애 치료의 패러다임을 변화시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "섭식장애의 CBT", "name_en": "CBT for Eating Disorders", "id": "EATING_CBT_027"},
+      {"name_ko": "완벽주의와 섭식장애", "name_en": "Perfectionism and Eating Disorders", "id": "EATING_PFC_033"},
+      {"name_ko": "인지적 왜곡", "name_en": "Cognitive Distortions in Eating Disorders", "id": "EATING_CDT_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Fairburn 초진단적 모형의 4가지 유지 요인: (1)완벽주의 (2)낮은 자존감 (3)정서조절곤란 (4)대인관계 어려움",
+      "differential": "초진단적 모형은 AN, BN, BED의 공통 핵심 병리를 강조하는 반면, 전통적 접근은 각 진단의 독특한 특성을 강조한다.",
+      "key_point": "핵심 병리는 '체형과 체중 및 그 통제에 의한 자기 평가의 과대 결정'이며, 이것이 모든 섭식장애에 공통된다.",
+      "common_mistake": "초진단적 모형이 섭식장애 간의 차이를 무시한다고 오해하지만, 공통 병리를 인정하면서도 개별적 표현의 차이를 설명한다."
+    }
+  }
+]

@@ -1,0 +1,953 @@
+[
+  {
+    "id": "FOUND_ABN_001",
+    "terminology": "이상행동 (Abnormal Behavior)",
+    "terminology_ko": "이상행동",
+    "terminology_en": "Abnormal Behavior",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "통계적 규준에서 벗어나거나, 개인에게 심리적 고통을 유발하거나, 적응적 기능을 손상시키는 행동 및 심리적 패턴을 말하며, 단일 기준이 아닌 복합적 기준으로 판단한다.",
+    "definition_en": "Behavioral or psychological patterns that deviate from statistical norms, cause personal distress, or impair adaptive functioning, typically judged by multiple criteria rather than a single standard.",
+    "significance": "이상심리학의 핵심 연구 대상으로, 정상과 이상의 경계를 정의하는 것은 진단과 치료의 출발점이 된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 로젠한", "name_en": "David Rosenhan", "contribution": "1973년 '정상인의 정신병원 입원' 연구를 통해 이상행동 판별의 주관성과 진단 체계의 문제점을 드러냈다."},
+      {"name_ko": "제롬 웨이크필드", "name_en": "Jerome Wakefield", "contribution": "유해한 기능장애(harmful dysfunction) 개념을 제안하여 이상행동의 정의에 진화적 기능과 사회적 가치를 통합했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통계적 일탈", "name_en": "Statistical Deviance", "id": "FOUND_STD_002"},
+      {"name_ko": "주관적 고통", "name_en": "Subjective Distress", "id": "FOUND_DIS_003"},
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "FOUND_FUN_004"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이상행동의 4D: Deviance(일탈), Distress(고통), Dysfunction(기능장애), Danger(위험)",
+      "differential": "이상행동은 단일 기준이 아닌 여러 기준(4D)의 복합적 판단이며, 일탈만으로 이상으로 분류하지 않는다.",
+      "key_point": "어떤 하나의 기준만으로 이상을 정의할 수 없으며, 문화적 맥락이 반드시 고려되어야 한다.",
+      "common_mistake": "통계적으로 드문 행동을 곧바로 이상행동으로 간주하는 오류 — 예: 천재적 지능은 통계적으로 드물지만 이상이 아니다."
+    }
+  },
+  {
+    "id": "FOUND_STD_002",
+    "terminology": "통계적 일탈 (Statistical Deviance)",
+    "terminology_ko": "통계적 일탈",
+    "terminology_en": "Statistical Deviance",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "정상 분포 곡선에서 평균으로부터 크게 벗어난 행동이나 특성을 비정상으로 간주하는 기준으로, 빈도가 극히 낮은 행동을 이상으로 분류한다.",
+    "definition_en": "A criterion for defining abnormality based on the extent to which behavior deviates from the statistical average, classifying extremely rare behaviors as abnormal.",
+    "significance": "이상행동 정의의 가장 기본적인 기준 중 하나이나, 단독으로는 이상의 충분한 정의가 될 수 없다는 한계가 있다.",
+    "key_researchers": [
+      {"name_ko": "아돌프 케틀레", "name_en": "Adolphe Quetelet", "contribution": "통계적 방법을 사회과학에 적용한 선구자로, '평균인(average man)' 개념을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "FOUND_ABN_001"},
+      {"name_ko": "주관적 고통", "name_en": "Subjective Distress", "id": "FOUND_DIS_003"},
+      {"name_ko": "사회적 일탈", "name_en": "Social Deviance", "id": "FOUND_SOC_005"},
+      {"name_ko": "유병률", "name_en": "Prevalence", "id": "FOUND_PRV_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정규분포에서 ±2 표준편차 밖 = 통계적 일탈",
+      "differential": "통계적 일탈은 빈도 기준이고, 사회적 일탈은 규범 위반 기준이다.",
+      "key_point": "IQ가 매우 높은 것도 통계적으로 드물지만 이상이 아니므로, 이 기준만으로는 불충분하다.",
+      "common_mistake": "통계적으로 드문 모든 행동이 병적이라고 판단하는 오류를 범하기 쉽다."
+    }
+  },
+  {
+    "id": "FOUND_DIS_003",
+    "terminology": "주관적 고통 (Subjective Distress)",
+    "terminology_ko": "주관적 고통",
+    "terminology_en": "Subjective Distress",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "개인이 자신의 심리적 상태나 행동에 대해 경험하는 불편감, 불안, 우울 등의 주관적 고통이 이상행동 판별의 중요한 기준이 된다.",
+    "definition_en": "Personal suffering or discomfort experienced by an individual regarding their own psychological state or behavior, serving as an important criterion for identifying abnormality.",
+    "significance": "본인의 고통 경험을 중시한다는 점에서 개인 중심적 기준이며, 임상 장면에서 도움을 구하는 주요 동기가 된다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심치료에서 개인의 주관적 경험과 고통을 치료의 핵심으로 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "FOUND_ABN_001"},
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "FOUND_FUN_004"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Distress = 본인이 느끼는 '고통'이 핵심",
+      "differential": "주관적 고통은 본인의 경험이지만, 반사회적 성격장애처럼 고통 없이도 이상일 수 있다.",
+      "key_point": "자기 인식이 없는 경우(예: 조증 삽화) 주관적 고통을 느끼지 못할 수 있어 이 기준만으로는 불충분하다.",
+      "common_mistake": "모든 정신장애에서 주관적 고통이 동반된다고 가정하는 오류 — 조증이나 반사회적 성격장애에서는 고통을 느끼지 않는다."
+    }
+  },
+  {
+    "id": "FOUND_FUN_004",
+    "terminology": "기능 손상 (Functional Impairment)",
+    "terminology_ko": "기능 손상",
+    "terminology_en": "Functional Impairment",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "일상생활, 직업, 대인관계 등에서의 적응적 기능이 현저히 저하된 상태로, 이상행동 판별의 가장 실용적인 기준 중 하나이다.",
+    "definition_en": "A significant decline in adaptive functioning in daily life, occupational roles, or interpersonal relationships, considered one of the most practical criteria for identifying abnormality.",
+    "significance": "DSM-5에서 임상적 유의성의 핵심 기준으로, 단순한 증상 유무가 아닌 실질적 기능 수준을 평가하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "제롬 웨이크필드", "name_en": "Jerome Wakefield", "contribution": "유해한 기능장애 모델에서 기능 손상을 이상행동 정의의 필수 요소로 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "FOUND_ABN_001"},
+      {"name_ko": "주관적 고통", "name_en": "Subjective Distress", "id": "FOUND_DIS_003"},
+      {"name_ko": "임상적 유의성", "name_en": "Clinical Significance", "id": "ASSESS_CLI_010"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Dysfunction = 일상·직업·관계에서 '기능'이 안 된다",
+      "differential": "기능 손상은 객관적 관찰이 가능하여 통계적 일탈이나 주관적 고통보다 측정이 용이하다.",
+      "key_point": "DSM-5에서 거의 모든 진단에 '임상적으로 유의한 고통이나 기능 손상'을 요구한다.",
+      "common_mistake": "기능 손상의 정도가 문화나 환경에 따라 다르게 평가될 수 있다는 점을 간과한다."
+    }
+  },
+  {
+    "id": "FOUND_SOC_005",
+    "terminology": "사회적 일탈 (Social Deviance)",
+    "terminology_ko": "사회적 일탈",
+    "terminology_en": "Social Deviance",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "특정 문화나 사회의 규범, 도덕적 기준, 관습에서 벗어나는 행동을 이상으로 간주하는 기준으로, 문화 상대적 특성을 지닌다.",
+    "definition_en": "A criterion defining abnormality as behavior that violates the norms, moral standards, or conventions of a particular culture or society, inherently culture-relative in nature.",
+    "significance": "이상행동의 문화적 맥락을 강조하며, 문화 간 차이를 고려한 진단의 필요성을 제기한다.",
+    "key_researchers": [
+      {"name_ko": "토머스 사스", "name_en": "Thomas Szasz", "contribution": "정신질환은 사회적 통제 수단으로 사용되는 '신화'라고 비판하며 사회적 일탈 기준의 문제를 지적했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "FOUND_ABN_001"},
+      {"name_ko": "통계적 일탈", "name_en": "Statistical Deviance", "id": "FOUND_STD_002"},
+      {"name_ko": "사회문화적 모형", "name_en": "Sociocultural Model", "id": "FOUND_SCM_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회적 일탈 = 그 사회의 '규범'을 기준으로 판단",
+      "differential": "통계적 일탈은 빈도가 드문 것이고, 사회적 일탈은 규범 위반이다. 둘은 반드시 일치하지 않는다.",
+      "key_point": "동성애가 과거 DSM에 포함되었다가 삭제된 것은 사회적 일탈 기준의 문화 상대성을 보여주는 대표 사례이다.",
+      "common_mistake": "사회적 규범 위반을 곧바로 정신장애로 간주하는 오류 — 정치적 반체제 활동은 사회적 일탈이나 정신장애가 아니다."
+    }
+  },
+  {
+    "id": "FOUND_TRP_006",
+    "terminology": "트레피네이션 (Trephination)",
+    "terminology_ko": "트레피네이션",
+    "terminology_en": "Trephination",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "선사시대에 두개골에 구멍을 뚫어 악령을 빠져나가게 하려 했던 원시적 치료법으로, 이상행동에 대한 초자연적 설명의 대표적 사례이다.",
+    "definition_en": "A prehistoric practice of drilling holes in the skull to allow evil spirits to escape, representing the earliest known supernatural explanation for abnormal behavior.",
+    "significance": "이상행동에 대한 가장 오래된 치료 시도로, 초자연적 원인론의 역사적 기원을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "폴 브로카", "name_en": "Paul Broca", "contribution": "19세기에 트레피네이션된 두개골을 연구하여 선사시대 수술의 증거를 과학적으로 분석했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "귀신론", "name_en": "Demonology", "id": "FOUND_DEM_007"},
+      {"name_ko": "히포크라테스", "name_en": "Hippocrates", "id": "FOUND_HIP_008"},
+      {"name_ko": "도덕치료", "name_en": "Moral Treatment", "id": "FOUND_MOR_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Trephination = 두개골에 '구멍(Tre-hole)' 뚫기",
+      "differential": "트레피네이션은 초자연적 원인론에 기반한 치료이고, 히포크라테스의 체액론은 자연적 원인론에 기반한 치료이다.",
+      "key_point": "석기시대 두개골에서 발견되며, 일부는 치유 흔적이 있어 환자가 생존했음을 보여준다.",
+      "common_mistake": "트레피네이션을 단순히 야만적 행위로만 보는 것 — 실제로는 당시의 이해 수준에 기반한 체계적 치료 시도였다."
+    }
+  },
+  {
+    "id": "FOUND_DEM_007",
+    "terminology": "귀신론 (Demonology)",
+    "terminology_ko": "귀신론",
+    "terminology_en": "Demonology",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "이상행동의 원인을 악령이나 초자연적 존재의 빙의로 설명하는 관점으로, 고대와 중세에 지배적이었으며 엑소시즘이나 마녀사냥으로 이어졌다.",
+    "definition_en": "The view that abnormal behavior is caused by possession by evil spirits or supernatural beings, dominant in ancient and medieval times, leading to exorcism and witch hunts.",
+    "significance": "이상행동에 대한 초자연적 설명의 대표적 형태로, 과학적 접근 이전의 역사적 배경을 이해하는 데 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "하인리히 크라머", "name_en": "Heinrich Kramer", "contribution": "1487년 『마녀의 망치(Malleus Maleficarum)』를 저술하여 마녀 식별과 처벌 지침을 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "트레피네이션", "name_en": "Trephination", "id": "FOUND_TRP_006"},
+      {"name_ko": "히포크라테스", "name_en": "Hippocrates", "id": "FOUND_HIP_008"},
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "FOUND_ABN_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Demonology = Demon(악마) + ology(학문) = 악마가 원인이라는 관점",
+      "differential": "귀신론은 초자연적 원인론이고, 체액론은 자연적(생물학적) 원인론이다.",
+      "key_point": "중세 마녀사냥은 귀신론에 기반한 것으로, 정신장애를 가진 많은 사람들이 마녀로 몰려 처형당했다.",
+      "common_mistake": "중세 전체가 귀신론만 지배했다고 보는 것은 과장이며, 수도원에서는 인도적 보호도 이루어졌다."
+    }
+  },
+  {
+    "id": "FOUND_HIP_008",
+    "terminology": "히포크라테스의 체액론 (Hippocrates' Humoral Theory)",
+    "terminology_ko": "히포크라테스의 체액론",
+    "terminology_en": "Hippocrates' Humoral Theory",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "히포크라테스가 이상행동의 원인을 네 가지 체액(혈액, 점액, 황담즙, 흑담즙)의 불균형으로 설명한 이론으로, 정신장애에 대한 최초의 자연적·의학적 설명이다.",
+    "definition_en": "Hippocrates' theory that abnormal behavior results from imbalances in four bodily humors (blood, phlegm, yellow bile, black bile), representing the first naturalistic and medical explanation of mental disorders.",
+    "significance": "이상행동을 초자연적 현상이 아닌 신체적 원인으로 설명한 최초의 시도로, 생물의학적 모형의 기원이 된다.",
+    "key_researchers": [
+      {"name_ko": "히포크라테스", "name_en": "Hippocrates", "contribution": "기원전 460년경 정신장애를 뇌의 질병으로 보고, 체액 불균형이 원인이라는 자연주의적 설명을 최초로 제시했다."},
+      {"name_ko": "갈레노스", "name_en": "Galen", "contribution": "히포크라테스의 체액론을 발전시켜 기질(temperament) 이론으로 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "귀신론", "name_en": "Demonology", "id": "FOUND_DEM_007"},
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_011"},
+      {"name_ko": "트레피네이션", "name_en": "Trephination", "id": "FOUND_TRP_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "4체액: 혈액(다혈질)·점액(점액질)·황담즙(담즙질)·흑담즙(우울질)",
+      "differential": "체액론은 신체적 불균형을 강조하는 자연적 원인론이고, 귀신론은 초자연적 원인론이다.",
+      "key_point": "히포크라테스는 정신장애를 뇌의 질병으로 본 최초의 인물이며, 이는 현대 생물의학적 모형의 기원이다.",
+      "common_mistake": "체액론을 단순히 비과학적 이론으로 치부하는 것 — 당시로서는 매우 혁명적인 자연주의적 접근이었다."
+    }
+  },
+  {
+    "id": "FOUND_ASY_009",
+    "terminology": "수용소 (Asylum)",
+    "terminology_ko": "수용소",
+    "terminology_en": "Asylum",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "16~18세기에 정신장애인을 사회로부터 격리하여 수용한 시설로, 열악한 환경과 비인간적 처우가 특징이었으며 치료보다는 격리 목적이 강했다.",
+    "definition_en": "Institutions from the 16th to 18th centuries that confined people with mental disorders, characterized by deplorable conditions and inhumane treatment, serving primarily as places of confinement rather than treatment.",
+    "significance": "정신장애인 처우의 어두운 역사를 대표하며, 이후 도덕치료 운동과 정신건강 개혁의 계기가 되었다.",
+    "key_researchers": [
+      {"name_ko": "필리프 피넬", "name_en": "Philippe Pinel", "contribution": "1793년 파리 비세트르 수용소에서 정신장애인의 쇠사슬을 풀어주고 인도적 처우를 시작한 개혁가이다."},
+      {"name_ko": "윌리엄 튜크", "name_en": "William Tuke", "contribution": "1796년 영국 요크 퇴정소(York Retreat)를 설립하여 도덕치료의 모범을 보였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "도덕치료", "name_en": "Moral Treatment", "id": "FOUND_MOR_010"},
+      {"name_ko": "정신위생운동", "name_en": "Mental Hygiene Movement", "id": "FOUND_MHM_021"},
+      {"name_ko": "탈시설화", "name_en": "Deinstitutionalization", "id": "FOUND_DEI_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Asylum = 피난처라는 원래 의미와 달리, 실제로는 감옥 같은 격리 시설",
+      "differential": "수용소는 격리 중심이었고, 도덕치료는 인도적 처우와 치료를 강조했다.",
+      "key_point": "대표적 수용소로 런던의 베들레헴 병원(Bedlam)이 있으며, 여기서 'bedlam(혼란)'이라는 단어가 유래했다.",
+      "common_mistake": "수용소가 모두 비인간적이었다고 일반화하는 것 — 일부 시설은 보호 기능도 수행했다."
+    }
+  },
+  {
+    "id": "FOUND_MOR_010",
+    "terminology": "도덕치료 (Moral Treatment)",
+    "terminology_ko": "도덕치료",
+    "terminology_en": "Moral Treatment",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "18세기 말~19세기 초에 등장한 인도주의적 치료 운동으로, 정신장애인에게 존엄한 처우, 신선한 공기, 작업 활동, 사회적 교류를 제공하여 회복을 도모했다.",
+    "definition_en": "A humanitarian treatment movement from the late 18th to early 19th century that advocated dignified care, fresh air, meaningful activities, and social interaction for people with mental disorders.",
+    "significance": "정신장애인에 대한 인도적 처우의 시작으로, 현대 지역사회 정신건강 운동의 사상적 기원이 된다.",
+    "key_researchers": [
+      {"name_ko": "필리프 피넬", "name_en": "Philippe Pinel", "contribution": "프랑스에서 정신장애인의 쇠사슬을 제거하고 인도적 치료를 시작한 도덕치료의 창시자이다."},
+      {"name_ko": "도로시아 딕스", "name_en": "Dorothea Dix", "contribution": "미국에서 정신장애인의 열악한 처우를 조사하고 입법 운동을 통해 32개 주립 정신병원 설립에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "수용소", "name_en": "Asylum", "id": "FOUND_ASY_009"},
+      {"name_ko": "정신위생운동", "name_en": "Mental Hygiene Movement", "id": "FOUND_MHM_021"},
+      {"name_ko": "인본주의적 모형", "name_en": "Humanistic Model", "id": "FOUND_HUM_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도덕치료의 핵심 인물: 피넬(프랑스), 튜크(영국), 딕스(미국)",
+      "differential": "도덕치료는 환경과 활동을 통한 치료이고, 생물의학적 치료는 약물이나 신체적 개입을 통한 치료이다.",
+      "key_point": "피넬이 비세트르 수용소에서 환자의 쇠사슬을 풀어준 장면은 이상심리학 역사의 상징적 사건이다.",
+      "common_mistake": "'도덕'이라는 단어에서 윤리적 교화를 의미한다고 오해하기 쉬우나, 실제로는 심리적·사회적 환경 개선을 의미한다."
+    }
+  },
+  {
+    "id": "FOUND_BIO_011",
+    "terminology": "생물의학적 모형 (Biomedical Model)",
+    "terminology_ko": "생물의학적 모형",
+    "terminology_en": "Biomedical Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "정신장애를 뇌의 구조적·기능적 이상, 신경전달물질 불균형, 유전적 요인 등 생물학적 원인으로 설명하는 모형으로, 약물치료를 주된 치료법으로 제안한다.",
+    "definition_en": "A model that explains mental disorders in terms of biological causes such as brain abnormalities, neurotransmitter imbalances, and genetic factors, proposing pharmacotherapy as the primary treatment.",
+    "significance": "정신장애의 생물학적 기반을 밝히는 데 기여했으며, 향정신성 약물의 개발과 신경과학 발전의 토대가 되었다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "정신장애를 체계적으로 분류하고 생물학적 원인론을 주장하여 현대 정신의학 분류 체계의 기초를 놓았다."},
+      {"name_ko": "아르비드 칼슨", "name_en": "Arvid Carlsson", "contribution": "도파민의 신경전달물질 기능을 발견하여 조현병의 도파민 가설에 핵심적 기여를 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "히포크라테스의 체액론", "name_en": "Hippocrates' Humoral Theory", "id": "FOUND_HIP_008"},
+      {"name_ko": "신경전달물질", "name_en": "Neurotransmitter", "id": "FOUND_NTR_023"},
+      {"name_ko": "정신분석 모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_012"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCH_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Bio(생물) + Medical(의학) = 뇌와 몸의 문제로 정신장애를 설명",
+      "differential": "생물의학적 모형은 신체적 원인에 초점, 정신분석 모형은 무의식적 갈등에 초점을 둔다.",
+      "key_point": "환원주의적 한계가 있으며, 심리적·사회적 요인을 간과할 수 있다는 비판을 받는다.",
+      "common_mistake": "생물의학적 모형이 정신장애를 단순히 '뇌의 화학적 불균형'으로만 설명한다고 단순화하는 오류."
+    }
+  },
+  {
+    "id": "FOUND_PSA_012",
+    "terminology": "정신분석 모형 (Psychoanalytic Model)",
+    "terminology_ko": "정신분석 모형",
+    "terminology_en": "Psychoanalytic Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "프로이트에 의해 창시된 모형으로, 정신장애를 무의식적 갈등, 초기 아동기 경험, 방어기제의 부적응적 사용에서 비롯된 것으로 설명한다.",
+    "definition_en": "A model founded by Freud that explains mental disorders as arising from unconscious conflicts, early childhood experiences, and maladaptive use of defense mechanisms.",
+    "significance": "무의식의 역할과 아동기 경험의 중요성을 부각시켰으며, 심리치료의 기초를 확립한 최초의 포괄적 심리학 이론이다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "정신분석학을 창시하고 무의식, 자아구조(원초아·자아·초자아), 심리성적 발달 단계를 제안했다."},
+      {"name_ko": "안나 프로이트", "name_en": "Anna Freud", "contribution": "자아 방어기제를 체계적으로 분류하여 정신분석적 이론을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_011"},
+      {"name_ko": "인본주의적 모형", "name_en": "Humanistic Model", "id": "FOUND_HUM_015"},
+      {"name_ko": "방어기제", "name_en": "Defense Mechanisms", "id": "FOUND_DEF_024"},
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정신분석 3요소: 무의식 + 아동기 경험 + 방어기제",
+      "differential": "정신분석은 무의식적 갈등에, 행동주의는 학습된 행동에, 인지모형은 사고패턴에 초점을 둔다.",
+      "key_point": "과학적 검증이 어렵다는 비판을 받지만, 치료적 관계와 무의식의 중요성은 현대 심리치료에도 영향을 미친다.",
+      "common_mistake": "정신분석이 모든 것을 성적 욕구로 환원한다는 오해 — 프로이트 이후 대상관계, 자기심리학 등 다양하게 발전했다."
+    }
+  },
+  {
+    "id": "FOUND_BEH_013",
+    "terminology": "행동주의 모형 (Behavioral Model)",
+    "terminology_ko": "행동주의 모형",
+    "terminology_en": "Behavioral Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "이상행동을 학습의 원리(고전적 조건형성, 조작적 조건형성, 모델링)에 의해 습득된 부적응적 행동으로 설명하며, 새로운 적응 행동의 학습을 통해 치료가 가능하다고 본다.",
+    "definition_en": "A model explaining abnormal behavior as maladaptive behaviors acquired through learning principles (classical conditioning, operant conditioning, modeling), treatable by learning new adaptive behaviors.",
+    "significance": "관찰 가능한 행동에 초점을 맞춰 과학적 검증이 가능한 치료법을 개발했으며, 행동치료의 이론적 기반이 되었다.",
+    "key_researchers": [
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "행동주의의 창시자로, 리틀 앨버트 실험을 통해 공포가 조건형성될 수 있음을 보여주었다."},
+      {"name_ko": "버러스 스키너", "name_en": "B. F. Skinner", "contribution": "조작적 조건형성의 원리를 체계화하고 행동수정 기법의 이론적 기초를 제공했다."},
+      {"name_ko": "앨버트 반두라", "name_en": "Albert Bandura", "contribution": "관찰학습(모델링)을 통해 행동이 습득될 수 있음을 보보 인형 실험으로 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지 모형", "name_en": "Cognitive Model", "id": "FOUND_COG_014"},
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "ANXIETY_SYD_018"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_019"},
+      {"name_ko": "공포 조건화", "name_en": "Fear Conditioning", "id": "ANXIETY_FRC_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동주의 = 이상행동도 '학습'된 것이고, '새로운 학습'으로 고칠 수 있다",
+      "differential": "행동주의는 외현적 행동 변화에, 인지모형은 내적 사고 변화에 초점을 둔다.",
+      "key_point": "왓슨의 리틀 앨버트 실험은 공포증이 고전적 조건형성으로 학습될 수 있음을 보여준 고전적 사례이다.",
+      "common_mistake": "행동주의가 내적 과정을 완전히 무시한다고 보는 것 — 반두라의 사회학습이론은 인지 과정도 포함한다."
+    }
+  },
+  {
+    "id": "FOUND_COG_014",
+    "terminology": "인지 모형 (Cognitive Model)",
+    "terminology_ko": "인지 모형",
+    "terminology_en": "Cognitive Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "이상행동의 원인을 비합리적 신념, 인지적 왜곡, 역기능적 사고 패턴에서 찾으며, 사고 방식의 변화를 통해 정서와 행동의 개선이 가능하다고 보는 모형이다.",
+    "definition_en": "A model that attributes abnormal behavior to irrational beliefs, cognitive distortions, and dysfunctional thinking patterns, proposing that changing thought patterns can improve emotions and behavior.",
+    "significance": "인지행동치료(CBT)의 이론적 기반으로, 현대 임상심리학에서 가장 널리 사용되는 치료적 접근의 토대가 된다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "인지치료를 개발하고, 우울증의 인지삼제(자기·세상·미래에 대한 부정적 사고)를 제안했다."},
+      {"name_ko": "앨버트 엘리스", "name_en": "Albert Ellis", "contribution": "합리적 정서행동치료(REBT)를 개발하고 비합리적 신념의 역할을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동주의 모형", "name_en": "Behavioral Model", "id": "FOUND_BEH_013"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"},
+      {"name_ko": "인지적 왜곡", "name_en": "Cognitive Distortions", "id": "FOUND_CDI_025"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인지모형 = ABC: Activating event → Belief → Consequence",
+      "differential": "인지모형은 사고(thinking) 변화에 초점, 행동모형은 행동(behavior) 변화에 초점을 둔다.",
+      "key_point": "상황 자체가 아니라 상황에 대한 '해석(인지)'이 정서와 행동을 결정한다는 것이 핵심이다.",
+      "common_mistake": "인지모형이 감정을 무시한다고 오해하는 것 — 사고를 변화시켜 감정과 행동을 모두 개선하는 것이 목표이다."
+    }
+  },
+  {
+    "id": "FOUND_HUM_015",
+    "terminology": "인본주의적 모형 (Humanistic Model)",
+    "terminology_ko": "인본주의적 모형",
+    "terminology_en": "Humanistic Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "이상행동을 자기실현 경향성의 차단, 조건부 가치의 내면화, 자기 개념과 경험 간의 불일치에서 비롯된 것으로 설명하며, 무조건적 긍정적 존중을 핵심 치료 요인으로 본다.",
+    "definition_en": "A model explaining abnormal behavior as resulting from blocked self-actualization, internalized conditions of worth, and incongruence between self-concept and experience, emphasizing unconditional positive regard as a key therapeutic factor.",
+    "significance": "인간의 성장 잠재력과 주관적 경험을 존중하는 관점으로, 내담자 중심 치료와 실존주의 치료의 기반이 되었다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심치료를 개발하고 무조건적 긍정적 존중, 공감, 진정성을 핵심 치료 조건으로 제시했다."},
+      {"name_ko": "에이브러햄 매슬로", "name_en": "Abraham Maslow", "contribution": "욕구위계이론과 자기실현 개념을 제안하여 인본주의 심리학의 이론적 틀을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신분석 모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_012"},
+      {"name_ko": "도덕치료", "name_en": "Moral Treatment", "id": "FOUND_MOR_010"},
+      {"name_ko": "생물심리사회적 모형", "name_en": "Biopsychosocial Model", "id": "FOUND_BPS_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인본주의 핵심: 자기실현 차단 → 불일치 → 이상행동",
+      "differential": "인본주의는 성장과 자기실현에, 정신분석은 무의식적 갈등에 초점을 둔다.",
+      "key_point": "이상행동을 '질병'이 아닌 '성장의 차단'으로 보는 관점이 핵심적 차이이다.",
+      "common_mistake": "인본주의를 비과학적이라고 전적으로 치부하는 것 — 치료 관계의 중요성은 경험적으로 지지되고 있다."
+    }
+  },
+  {
+    "id": "FOUND_SCM_016",
+    "terminology": "사회문화적 모형 (Sociocultural Model)",
+    "terminology_ko": "사회문화적 모형",
+    "terminology_en": "Sociocultural Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "이상행동의 원인과 표현이 사회적 환경, 문화적 가치, 빈곤, 차별, 가족 구조 등 사회문화적 요인에 의해 크게 영향받는다고 보는 모형이다.",
+    "definition_en": "A model emphasizing that the causes and expressions of abnormal behavior are significantly influenced by sociocultural factors such as social environment, cultural values, poverty, discrimination, and family structure.",
+    "significance": "정신장애의 문화적 다양성을 인식하게 했으며, 문화에 민감한 진단과 치료의 필요성을 제기했다.",
+    "key_researchers": [
+      {"name_ko": "토머스 사스", "name_en": "Thomas Szasz", "contribution": "정신질환이 사회적 구성물이라고 주장하며, 정신의학의 사회적 통제 기능을 비판했다."},
+      {"name_ko": "어빙 고프먼", "name_en": "Erving Goffman", "contribution": "총체적 기관(total institution)과 낙인(stigma) 개념을 통해 정신병원의 사회적 기능을 분석했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사회적 일탈", "name_en": "Social Deviance", "id": "FOUND_SOC_005"},
+      {"name_ko": "생물심리사회적 모형", "name_en": "Biopsychosocial Model", "id": "FOUND_BPS_017"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회문화적 = 사회(가난·차별) + 문화(가치·규범)의 영향",
+      "differential": "사회문화적 모형은 외부 환경 요인을, 인지모형은 개인의 내적 사고 과정을 강조한다.",
+      "key_point": "같은 장애라도 문화에 따라 증상 표현, 도움 추구 행동, 치료 반응이 다를 수 있다.",
+      "common_mistake": "사회문화적 모형이 개인적 요인을 완전히 무시한다고 보는 것 — 환경적 맥락의 중요성을 강조할 뿐이다."
+    }
+  },
+  {
+    "id": "FOUND_BPS_017",
+    "terminology": "생물심리사회적 모형 (Biopsychosocial Model)",
+    "terminology_ko": "생물심리사회적 모형",
+    "terminology_en": "Biopsychosocial Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "정신장애를 생물학적, 심리적, 사회적 요인의 복합적 상호작용으로 설명하는 통합적 모형으로, 단일 원인론의 한계를 극복하고자 제안되었다.",
+    "definition_en": "An integrative model that explains mental disorders as the result of complex interactions among biological, psychological, and social factors, proposed to overcome the limitations of single-cause models.",
+    "significance": "현대 이상심리학의 주류 패러다임으로, 다양한 요인의 상호작용을 인정함으로써 포괄적 이해와 다학제적 치료를 가능케 한다.",
+    "key_researchers": [
+      {"name_ko": "조지 엥겔", "name_en": "George Engel", "contribution": "1977년 생물심리사회적 모형을 공식 제안하여, 순수 생의학적 모형의 한계를 지적하고 통합적 접근을 주장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_011"},
+      {"name_ko": "사회문화적 모형", "name_en": "Sociocultural Model", "id": "FOUND_SCM_016"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"},
+      {"name_ko": "인지 모형", "name_en": "Cognitive Model", "id": "FOUND_COG_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BPS = Bio(생물) + Psycho(심리) + Social(사회)의 통합",
+      "differential": "생물심리사회적 모형은 여러 요인의 '상호작용'을 강조하며, 단일 모형(생물/심리/사회)은 각각 하나의 측면만 강조한다.",
+      "key_point": "George Engel이 1977년에 제안했으며, 현대 정신건강 분야의 가장 널리 수용되는 프레임워크이다.",
+      "common_mistake": "세 가지 요인을 단순히 나열하는 것과 상호작용을 이해하는 것은 다르다 — 핵심은 요인 간의 역동적 상호작용이다."
+    }
+  },
+  {
+    "id": "FOUND_DSM_018",
+    "terminology": "취약성-스트레스 모형 (Diathesis-Stress Model)",
+    "terminology_ko": "취약성-스트레스 모형",
+    "terminology_en": "Diathesis-Stress Model",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "개인의 생물학적·심리적 취약성(소인)과 환경적 스트레스 요인이 상호작용하여 정신장애가 발생한다는 모형으로, 취약성이 높을수록 적은 스트레스에도 장애가 발현된다.",
+    "definition_en": "A model proposing that mental disorders result from the interaction between an individual's biological or psychological vulnerability (diathesis) and environmental stressors, with greater vulnerability requiring less stress to trigger disorder onset.",
+    "significance": "정신장애의 발병 메커니즘을 설명하는 핵심 이론으로, 예방과 조기 개입의 이론적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "조지프 주빈", "name_en": "Joseph Zubin", "contribution": "1977년 취약성-스트레스 모형을 조현병에 적용하여, 생물학적 소인과 스트레스의 상호작용을 체계화했다."},
+      {"name_ko": "보니 스프링", "name_en": "Bonnie Spring", "contribution": "주빈과 함께 취약성-스트레스 모형을 정립하고 조현병의 발병 기전 연구에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "생물심리사회적 모형", "name_en": "Biopsychosocial Model", "id": "FOUND_BPS_017"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "FOUND_RES_026"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCH_001"},
+      {"name_ko": "HPA축", "name_en": "HPA Axis", "id": "ANXIETY_HPA_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Diathesis(소인/취약성) + Stress(스트레스) = 발병 조건 충족",
+      "differential": "취약성-스트레스 모형은 '어떤 조건에서' 장애가 발생하는지, 생물심리사회적 모형은 '어떤 요인들이' 관여하는지를 설명한다.",
+      "key_point": "같은 스트레스를 겪어도 모든 사람이 발병하지 않는 이유를 설명하는 핵심 모형이다.",
+      "common_mistake": "취약성을 유전적 요인으로만 한정하는 오류 — 심리적 취약성(예: 인지적 편향)도 포함된다."
+    }
+  },
+  {
+    "id": "FOUND_CST_019",
+    "terminology": "사례연구 (Case Study)",
+    "terminology_ko": "사례연구",
+    "terminology_en": "Case Study",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "개인이나 소수의 사례를 심층적으로 관찰하고 기술하는 연구방법으로, 풍부한 질적 자료를 제공하지만 일반화에 한계가 있다.",
+    "definition_en": "A research method involving in-depth observation and description of an individual or small number of cases, providing rich qualitative data but limited in generalizability.",
+    "significance": "이상심리학의 가장 오래된 연구방법으로, 드문 장애의 이해와 가설 생성에 특히 유용하다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "안나 O, 리틀 한스 등 유명한 사례연구를 통해 정신분석 이론을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "FOUND_COR_020"},
+      {"name_ko": "실험연구", "name_en": "Experimental Study", "id": "FOUND_EXP_028"},
+      {"name_ko": "해리성정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사례연구 = 한 사람을 '깊이' 파기",
+      "differential": "사례연구는 깊이(depth)에 강하고 일반화(generalization)에 약하며, 실험연구는 그 반대이다.",
+      "key_point": "내적 타당도와 외적 타당도 모두 제한적이지만, 가설 생성과 희귀 사례 연구에 매우 유용하다.",
+      "common_mistake": "사례연구에서 인과관계를 추론하는 오류 — 사례연구는 기술과 가설 생성에 적합하지 인과 추론에는 부적합하다."
+    }
+  },
+  {
+    "id": "FOUND_COR_020",
+    "terminology": "상관연구 (Correlational Study)",
+    "terminology_ko": "상관연구",
+    "terminology_en": "Correlational Study",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "두 개 이상의 변인 간의 관련성과 그 방향 및 강도를 측정하는 연구방법으로, 인과관계를 증명할 수는 없지만 변인 간의 관계 패턴을 파악할 수 있다.",
+    "definition_en": "A research method measuring the relationship between two or more variables in terms of direction and strength, unable to prove causation but useful for identifying relationship patterns among variables.",
+    "significance": "윤리적 이유로 실험이 불가능한 이상심리학 주제에서 중요한 연구 도구이며, 위험 요인 탐색에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "피어슨 상관계수를 개발하여 변인 간 관계의 정량적 측정을 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사례연구", "name_en": "Case Study", "id": "FOUND_CST_019"},
+      {"name_ko": "실험연구", "name_en": "Experimental Study", "id": "FOUND_EXP_028"},
+      {"name_ko": "역학연구", "name_en": "Epidemiological Study", "id": "FOUND_EPI_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "상관 ≠ 인과: Correlation does not imply Causation",
+      "differential": "상관연구는 관계의 방향과 강도를 측정하고, 실험연구는 인과관계를 검증한다.",
+      "key_point": "상관연구의 핵심 한계는 제3변인(third variable) 문제와 방향성(directionality) 문제이다.",
+      "common_mistake": "상관관계에서 인과관계를 추론하는 대표적 오류 — 예: 우울과 음주의 상관이 음주가 우울을 유발한다는 의미는 아니다."
+    }
+  },
+  {
+    "id": "FOUND_MHM_021",
+    "terminology": "정신위생운동 (Mental Hygiene Movement)",
+    "terminology_ko": "정신위생운동",
+    "terminology_en": "Mental Hygiene Movement",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "20세기 초 클리포드 비어스의 활동을 계기로 시작된 정신건강 개혁운동으로, 정신장애의 예방, 환자의 인권 보호, 치료 환경 개선을 목표로 했다.",
+    "definition_en": "A mental health reform movement initiated in the early 20th century by Clifford Beers, aimed at preventing mental disorders, protecting patients' rights, and improving treatment conditions.",
+    "significance": "현대 지역사회 정신건강 서비스와 정신건강법의 기초가 되었으며, 예방의 중요성을 강조했다.",
+    "key_researchers": [
+      {"name_ko": "클리포드 비어스", "name_en": "Clifford Beers", "contribution": "1908년 자신의 정신병원 입원 경험을 기록한 『자기 자신을 찾은 마음(A Mind That Found Itself)』을 출판하여 정신위생운동을 촉발했다."},
+      {"name_ko": "도로시아 딕스", "name_en": "Dorothea Dix", "contribution": "정신위생운동 이전에 미국 각 주의 정신장애인 수용 시설 개혁과 설립을 위해 투쟁했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "도덕치료", "name_en": "Moral Treatment", "id": "FOUND_MOR_010"},
+      {"name_ko": "수용소", "name_en": "Asylum", "id": "FOUND_ASY_009"},
+      {"name_ko": "탈시설화", "name_en": "Deinstitutionalization", "id": "FOUND_DEI_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "클리포드 비어스(Beers) = 정신위생운동의 시작점",
+      "differential": "도덕치료는 18~19세기 치료 환경 개혁이고, 정신위생운동은 20세기 초 예방과 인권 중심의 사회운동이다.",
+      "key_point": "비어스는 정신병원에서의 가혹한 경험을 직접 기록하여 사회적 관심을 환기한 당사자 운동의 선구자이다.",
+      "common_mistake": "정신위생운동을 도덕치료와 혼동하는 것 — 시대와 초점(치료 vs. 예방·인권)이 다르다."
+    }
+  },
+  {
+    "id": "FOUND_DEI_022",
+    "terminology": "탈시설화 (Deinstitutionalization)",
+    "terminology_ko": "탈시설화",
+    "terminology_en": "Deinstitutionalization",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "1960년대 이후 대형 정신병원을 폐쇄하거나 축소하고 정신장애인을 지역사회로 복귀시킨 정책으로, 항정신병 약물의 개발과 인권운동이 계기가 되었다.",
+    "definition_en": "A policy movement since the 1960s to close or downsize large psychiatric hospitals and reintegrate people with mental disorders into the community, spurred by antipsychotic medications and civil rights movements.",
+    "significance": "지역사회 정신건강 서비스의 확대를 촉진했으나, 충분한 대안 서비스 없이 진행되어 노숙 문제 등 새로운 과제를 발생시켰다.",
+    "key_researchers": [
+      {"name_ko": "존 F. 케네디", "name_en": "John F. Kennedy", "contribution": "1963년 지역사회 정신건강센터법에 서명하여 미국 탈시설화 정책의 제도적 기반을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "수용소", "name_en": "Asylum", "id": "FOUND_ASY_009"},
+      {"name_ko": "정신위생운동", "name_en": "Mental Hygiene Movement", "id": "FOUND_MHM_021"},
+      {"name_ko": "도덕치료", "name_en": "Moral Treatment", "id": "FOUND_MOR_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "De(탈) + institution(시설) = 시설에서 '벗어남'",
+      "differential": "탈시설화는 '시설에서 지역사회로'의 이동이고, 도덕치료는 '시설 내 환경 개선'이다.",
+      "key_point": "항정신병 약물(클로르프로마진)의 개발이 탈시설화를 기술적으로 가능하게 한 핵심 요인이다.",
+      "common_mistake": "탈시설화가 완전히 성공적이었다고 보는 오류 — 지역사회 서비스 부족으로 회전문 현상과 노숙 문제가 발생했다."
+    }
+  },
+  {
+    "id": "FOUND_NTR_023",
+    "terminology": "신경전달물질 (Neurotransmitter)",
+    "terminology_ko": "신경전달물질",
+    "terminology_en": "Neurotransmitter",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "시냅스를 통해 신경세포 간 화학적 신호를 전달하는 물질로, 세로토닌, 도파민, 노르에피네프린, GABA 등의 불균형이 다양한 정신장애와 관련된다.",
+    "definition_en": "Chemical substances that transmit signals between neurons across synapses; imbalances in neurotransmitters such as serotonin, dopamine, norepinephrine, and GABA are associated with various mental disorders.",
+    "significance": "정신장애의 생물학적 기반을 이해하는 핵심 개념으로, 향정신성 약물 개발의 이론적 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "줄리어스 액셀로드", "name_en": "Julius Axelrod", "contribution": "카테콜아민(노르에피네프린) 대사 연구로 노벨상을 수상하여 신경전달물질의 작용 기전 이해에 기여했다."},
+      {"name_ko": "아르비드 칼슨", "name_en": "Arvid Carlsson", "contribution": "도파민의 신경전달 기능을 발견하여 조현병과 파킨슨병의 이해에 핵심적 기여를 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_011"},
+      {"name_ko": "SSRI", "name_en": "SSRI", "id": "ANXIETY_SSR_021"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCH_001"},
+      {"name_ko": "양성증상", "name_en": "Positive Symptoms", "id": "SCHIZO_POS_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "주요 신경전달물질: 세로토닌(기분), 도파민(보상), 노르에피네프린(각성), GABA(억제)",
+      "differential": "신경전달물질은 시냅스 수준의 화학 신호이고, 호르몬은 혈류를 통한 내분비 신호이다.",
+      "key_point": "세로토닌 부족은 우울증, 도파민 과잉은 조현병, GABA 부족은 불안장애와 관련된다.",
+      "common_mistake": "정신장애가 단순한 '화학물질 불균형'으로만 설명된다고 단순화하는 것 — 신경전달물질은 복잡한 회로의 일부이다."
+    }
+  },
+  {
+    "id": "FOUND_DEF_024",
+    "terminology": "방어기제 (Defense Mechanisms)",
+    "terminology_ko": "방어기제",
+    "terminology_en": "Defense Mechanisms",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "자아가 불안으로부터 자신을 보호하기 위해 무의식적으로 사용하는 심리적 전략으로, 억압, 투사, 합리화, 부인, 반동형성, 승화 등이 있으며 과도한 사용은 부적응을 초래한다.",
+    "definition_en": "Unconscious psychological strategies used by the ego to protect itself from anxiety, including repression, projection, rationalization, denial, reaction formation, and sublimation; excessive use leads to maladaptation.",
+    "significance": "정신분석적 이상심리학의 핵심 개념으로, 신경증적 증상의 형성과 유지를 설명하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "안나 프로이트", "name_en": "Anna Freud", "contribution": "1936년 『자아와 방어기제(The Ego and the Mechanisms of Defence)』에서 방어기제를 체계적으로 분류했다."},
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "방어기제 개념을 최초로 도입하고 억압을 가장 기본적인 방어기제로 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신분석 모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_012"},
+      {"name_ko": "인지적 왜곡", "name_en": "Cognitive Distortions", "id": "FOUND_CDI_025"},
+      {"name_ko": "주관적 고통", "name_en": "Subjective Distress", "id": "FOUND_DIS_003"}
+    ],
+    "sub_types": [
+      {"name": "억압 (Repression)", "description": "위협적인 생각이나 기억을 의식에서 무의식으로 밀어내는 가장 기본적 방어기제"},
+      {"name": "투사 (Projection)", "description": "자신의 수용할 수 없는 충동이나 감정을 다른 사람에게 귀인하는 방어기제"},
+      {"name": "합리화 (Rationalization)", "description": "위협적인 행동이나 감정에 대해 그럴듯한 이유를 만들어 정당화하는 방어기제"},
+      {"name": "승화 (Sublimation)", "description": "수용 불가능한 충동을 사회적으로 가치 있는 활동으로 전환하는 성숙한 방어기제"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "방어기제 = 자아(ego)의 '방패': 무의식적으로 불안에서 보호",
+      "differential": "방어기제는 무의식적 전략이고, 대처(coping)는 의식적 전략이다.",
+      "key_point": "방어기제 자체는 정상적이며, 과도하거나 미성숙한 방어기제의 사용이 부적응을 초래한다.",
+      "common_mistake": "모든 방어기제가 부적응적이라고 보는 오류 — 승화는 건강한 적응에 기여하는 성숙한 방어기제이다."
+    }
+  },
+  {
+    "id": "FOUND_CDI_025",
+    "terminology": "인지적 왜곡 (Cognitive Distortions)",
+    "terminology_ko": "인지적 왜곡",
+    "terminology_en": "Cognitive Distortions",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "현실을 체계적으로 부정확하게 해석하는 사고 패턴으로, 흑백사고, 과잉일반화, 파국화, 개인화 등이 있으며 우울과 불안 등 정서장애의 유지에 핵심적 역할을 한다.",
+    "definition_en": "Systematic patterns of inaccurate interpretation of reality, including all-or-nothing thinking, overgeneralization, catastrophizing, and personalization, playing a central role in maintaining emotional disorders such as depression and anxiety.",
+    "significance": "인지행동치료에서 핵심적으로 다루는 치료 표적으로, 인지 재구성의 직접적 대상이 된다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "인지적 왜곡의 개념을 체계화하고, 이를 우울증 및 불안장애의 핵심 유지 기제로 설명했다."},
+      {"name_ko": "데이비드 번스", "name_en": "David Burns", "contribution": "벡의 인지적 왜곡을 대중적으로 정리하여 10가지 인지적 왜곡 목록을 보급했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지 모형", "name_en": "Cognitive Model", "id": "FOUND_COG_014"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"}
+    ],
+    "sub_types": [
+      {"name": "흑백사고 (All-or-Nothing Thinking)", "description": "상황을 양 극단으로만 보는 사고, 중간이 없는 이분법적 판단"},
+      {"name": "과잉일반화 (Overgeneralization)", "description": "한두 번의 경험을 근거로 광범위한 결론을 내리는 사고"},
+      {"name": "파국화 (Catastrophizing)", "description": "최악의 결과만을 예상하고 그 가능성을 과대평가하는 사고"},
+      {"name": "개인화 (Personalization)", "description": "외부 사건의 원인을 자신에게 돌리는 사고"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "인지적 왜곡 = 현실을 '비뚤어진 렌즈'로 보는 것",
+      "differential": "인지적 왜곡은 인지모형의 개념이고, 방어기제는 정신분석 모형의 개념이다. 전자는 사고 오류, 후자는 무의식적 전략이다.",
+      "key_point": "자동적 사고에 내재된 체계적 오류이며, 인지 재구성을 통해 수정 가능하다.",
+      "common_mistake": "인지적 왜곡을 '거짓말'이나 '고의적 왜곡'으로 보는 것 — 당사자는 이를 사실로 인식한다."
+    }
+  },
+  {
+    "id": "FOUND_RES_026",
+    "terminology": "회복탄력성 (Resilience)",
+    "terminology_ko": "회복탄력성",
+    "terminology_en": "Resilience",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "심각한 역경이나 스트레스에도 불구하고 적응적 기능을 유지하거나 빠르게 회복하는 능력으로, 보호 요인과 긍정적 적응 과정을 포함한다.",
+    "definition_en": "The ability to maintain adaptive functioning or recover quickly despite significant adversity or stress, encompassing protective factors and positive adaptation processes.",
+    "significance": "취약성-스트레스 모형에서 발병을 완충하는 보호 요인으로, 정신장애의 예방과 긍정심리학의 핵심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "에미 워너", "name_en": "Emmy Werner", "contribution": "카우아이 종단연구를 통해 고위험 아동의 회복탄력성 요인을 최초로 체계적으로 규명했다."},
+      {"name_ko": "앤 매스턴", "name_en": "Ann Masten", "contribution": "회복탄력성을 '평범한 마법(ordinary magic)'으로 개념화하여 보편적 적응 과정임을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"},
+      {"name_ko": "생물심리사회적 모형", "name_en": "Biopsychosocial Model", "id": "FOUND_BPS_017"},
+      {"name_ko": "PTSD", "name_en": "PTSD", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Resilience = 쓰러져도 다시 일어나는 '오뚝이'",
+      "differential": "회복탄력성은 역경 후의 긍정적 적응이고, 외상 후 성장(PTG)은 역경을 계기로 이전보다 발전하는 것이다.",
+      "key_point": "회복탄력성은 고정된 특성이 아니라 학습과 환경에 의해 증진될 수 있는 역동적 과정이다.",
+      "common_mistake": "회복탄력성을 스트레스에 영향받지 않는 것으로 오해하는 것 — 실제로는 영향을 받되 적응적으로 회복하는 과정이다."
+    }
+  },
+  {
+    "id": "FOUND_PRV_027",
+    "terminology": "유병률 (Prevalence)",
+    "terminology_ko": "유병률",
+    "terminology_en": "Prevalence",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "특정 시점 또는 기간에 전체 인구 중 특정 장애를 가진 사람의 비율로, 시점유병률과 기간유병률(평생유병률 포함)로 구분된다.",
+    "definition_en": "The proportion of a population that has a specific disorder at a particular point or period in time, classified into point prevalence and period prevalence (including lifetime prevalence).",
+    "significance": "정신장애의 규모를 파악하고 공중보건 정책 수립의 근거를 제공하는 핵심 역학 지표이다.",
+    "key_researchers": [
+      {"name_ko": "존 스노", "name_en": "John Snow", "contribution": "현대 역학의 아버지로, 체계적인 질병 발생률 조사 방법론의 기초를 마련했다."},
+      {"name_ko": "로널드 케슬러", "name_en": "Ronald Kessler", "contribution": "미국 전국공존이환조사(NCS)를 주도하여 정신장애의 유병률 데이터를 대규모로 수집했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "발생률", "name_en": "Incidence", "id": "FOUND_INC_030"},
+      {"name_ko": "역학연구", "name_en": "Epidemiological Study", "id": "FOUND_EPI_029"},
+      {"name_ko": "통계적 일탈", "name_en": "Statistical Deviance", "id": "FOUND_STD_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유병률 = 현재 '갖고 있는' 사람의 비율 (전체 사진 한 컷)",
+      "differential": "유병률은 특정 시점/기간의 전체 환자 비율이고, 발생률은 일정 기간 새로 발생한 환자 비율이다.",
+      "key_point": "만성 질환은 유병률이 높고 발생률이 낮을 수 있고, 급성 질환은 그 반대일 수 있다.",
+      "common_mistake": "유병률과 발생률을 혼동하는 것 — 유병률은 기존+신규 사례 모두 포함, 발생률은 신규 사례만 포함."
+    }
+  },
+  {
+    "id": "FOUND_EXP_028",
+    "terminology": "실험연구 (Experimental Study)",
+    "terminology_ko": "실험연구",
+    "terminology_en": "Experimental Study",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "독립변인을 조작하고 종속변인의 변화를 측정하며, 외생변인을 통제하여 인과관계를 검증하는 연구방법으로, 무선할당이 핵심 요소이다.",
+    "definition_en": "A research method that manipulates independent variables, measures changes in dependent variables, and controls extraneous variables to test causal relationships, with random assignment as a key element.",
+    "significance": "인과관계를 입증할 수 있는 유일한 연구방법으로, 치료 효과성 검증(RCT)의 기본 설계이다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald Fisher", "contribution": "무선할당과 실험설계의 통계적 원리를 체계화하여 현대 실험연구 방법론의 기초를 놓았다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "FOUND_COR_020"},
+      {"name_ko": "사례연구", "name_en": "Case Study", "id": "FOUND_CST_019"},
+      {"name_ko": "역학연구", "name_en": "Epidemiological Study", "id": "FOUND_EPI_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실험의 3요소: 조작(manipulation) + 통제(control) + 무선할당(randomization)",
+      "differential": "실험연구는 인과관계를 밝힐 수 있지만, 윤리적 이유로 이상심리학에서 적용에 한계가 있다.",
+      "key_point": "이상심리학에서 병인(etiology) 연구에 직접 실험이 어려운 경우 유사실험설계를 사용한다.",
+      "common_mistake": "통제 집단 없이 치료 효과를 주장하는 오류 — 무선할당 통제집단이 있어야 내적 타당도가 확보된다."
+    }
+  },
+  {
+    "id": "FOUND_EPI_029",
+    "terminology": "역학연구 (Epidemiological Study)",
+    "terminology_ko": "역학연구",
+    "terminology_en": "Epidemiological Study",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "인구 집단에서 정신장애의 분포, 빈도, 위험 요인, 보호 요인을 조사하는 연구방법으로, 유병률과 발생률 산출 및 공중보건 정책 수립에 활용된다.",
+    "definition_en": "A research method investigating the distribution, frequency, risk factors, and protective factors of mental disorders in populations, used to calculate prevalence and incidence and inform public health policy.",
+    "significance": "정신장애의 거시적 패턴을 파악하고 고위험 집단을 식별하여 예방 전략 수립의 과학적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "로널드 케슬러", "name_en": "Ronald Kessler", "contribution": "미국 전국공존이환조사(NCS)를 통해 정신장애의 유병률과 공존이환 패턴을 대규모로 밝혀냈다."},
+      {"name_ko": "리 로빈스", "name_en": "Lee Robins", "contribution": "역학적 수집지역 연구(ECA)를 주도하여 미국 정신장애 역학연구의 토대를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "유병률", "name_en": "Prevalence", "id": "FOUND_PRV_027"},
+      {"name_ko": "발생률", "name_en": "Incidence", "id": "FOUND_INC_030"},
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "FOUND_COR_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역학(Epidemiology) = epi(위에) + demos(사람들) = 인구 집단 위에서 바라보는 관점",
+      "differential": "역학연구는 인구 집단 수준의 분포를, 사례연구는 개인 수준의 심층 이해를 목표로 한다.",
+      "key_point": "NCS(National Comorbidity Survey)와 ECA(Epidemiologic Catchment Area) 연구가 대표적 정신장애 역학연구이다.",
+      "common_mistake": "역학연구가 인과관계를 입증할 수 있다고 보는 오류 — 대부분 상관적 자료만 제공한다."
+    }
+  },
+  {
+    "id": "FOUND_INC_030",
+    "terminology": "발생률 (Incidence)",
+    "terminology_ko": "발생률",
+    "terminology_en": "Incidence",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "일정 기간 동안 특정 인구 집단에서 새롭게 발생한 정신장애 사례의 비율로, 장애의 발생 위험을 추정하는 데 사용된다.",
+    "definition_en": "The proportion of new cases of a mental disorder that develop in a specific population during a defined period, used to estimate the risk of developing the disorder.",
+    "significance": "예방 프로그램의 효과 평가와 위험 요인 변화의 모니터링에 핵심적인 역학 지표이다.",
+    "key_researchers": [
+      {"name_ko": "로널드 케슬러", "name_en": "Ronald Kessler", "contribution": "NCS 연구를 통해 정신장애의 발생 시기와 새로운 사례 발생 패턴을 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "유병률", "name_en": "Prevalence", "id": "FOUND_PRV_027"},
+      {"name_ko": "역학연구", "name_en": "Epidemiological Study", "id": "FOUND_EPI_029"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "발생률 = '새로' 생긴 사례만 세기 (이전 환자 제외)",
+      "differential": "발생률은 '새로운' 사례만 포함하고, 유병률은 '기존+새로운' 사례 모두 포함한다.",
+      "key_point": "발생률이 일정한데 유병률이 증가하면, 이환 기간(duration)이 길어졌음을 의미한다.",
+      "common_mistake": "발생률과 유병률을 구분하지 못하는 것 — 발생률 = 신규, 유병률 = 전체."
+    }
+  },
+  {
+    "id": "FOUND_ETH_031",
+    "terminology": "사전동의 (Informed Consent)",
+    "terminology_ko": "사전동의",
+    "terminology_en": "Informed Consent",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "연구 참여자나 내담자에게 절차, 위험, 이점, 대안 등을 충분히 설명한 후 자발적 동의를 받는 윤리 원칙으로, 자율성 존중의 핵심이다.",
+    "definition_en": "An ethical principle requiring that research participants or clients receive adequate information about procedures, risks, benefits, and alternatives before providing voluntary consent, fundamental to respecting autonomy.",
+    "significance": "임상심리학 연구와 실천의 가장 기본적인 윤리적 요구사항으로, 참여자의 권리 보호와 전문가 책임의 근간이 된다.",
+    "key_researchers": [
+      {"name_ko": "톰 뷰캐넌", "name_en": "Tom Beauchamp", "contribution": "벨몬트 보고서와 생명의료윤리 4원칙(자율성 존중, 선행, 악행금지, 정의)을 정립하여 사전동의의 윤리적 기초를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "FOUND_CON_032"},
+      {"name_ko": "치료 거부권", "name_en": "Right to Refuse Treatment", "id": "FOUND_RRT_033"},
+      {"name_ko": "사례연구", "name_en": "Case Study", "id": "FOUND_CST_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Informed(충분히 알린) + Consent(동의) = 알고서 동의하기",
+      "differential": "사전동의는 자발적 의사결정이고, 치료 거부권은 이미 시작된 치료를 중단할 권리이다.",
+      "key_point": "능력(competence), 정보(information), 자발성(voluntariness)의 3요소가 갖추어져야 유효한 사전동의이다.",
+      "common_mistake": "동의서에 서명만 받으면 충분하다고 보는 것 — 이해 가능한 설명과 자발적 참여가 핵심이다."
+    }
+  },
+  {
+    "id": "FOUND_CON_032",
+    "terminology": "비밀보장 (Confidentiality)",
+    "terminology_ko": "비밀보장",
+    "terminology_en": "Confidentiality",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "치료 과정에서 내담자가 공개한 개인정보를 치료자가 무단으로 외부에 공개하지 않을 의무로, 치료적 신뢰관계의 필수 조건이다.",
+    "definition_en": "The therapist's obligation not to disclose a client's personal information shared during treatment without authorization, an essential condition for a trustworthy therapeutic relationship.",
+    "significance": "내담자가 안심하고 자신의 문제를 개방할 수 있는 치료 환경을 보장하는 근본적 윤리 원칙이다.",
+    "key_researchers": [
+      {"name_ko": "미국심리학회", "name_en": "American Psychological Association", "contribution": "APA 윤리강령에서 비밀보장의 원칙과 예외 조건(타해 위험 등)을 명시하여 실천 기준을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사전동의", "name_en": "Informed Consent", "id": "FOUND_ETH_031"},
+      {"name_ko": "치료 거부권", "name_en": "Right to Refuse Treatment", "id": "FOUND_RRT_033"},
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "FOUND_ABN_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비밀보장의 예외: 자해/타해 위험, 아동학대 신고 의무, 법원 명령",
+      "differential": "비밀보장은 치료자의 의무이고, 특권적 의사소통(privileged communication)은 법적 보호이다.",
+      "key_point": "타라소프 판례(Tarasoff case)에서 타해 위험 시 비밀보장의 예외인 '경고 의무'가 확립되었다.",
+      "common_mistake": "비밀보장이 절대적이라고 이해하는 것 — 타해 위험, 아동학대 의무 신고 등의 법적 예외가 있다."
+    }
+  },
+  {
+    "id": "FOUND_RRT_033",
+    "terminology": "치료 거부권 (Right to Refuse Treatment)",
+    "terminology_ko": "치료 거부권",
+    "terminology_en": "Right to Refuse Treatment",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "정신장애 환자가 자신에게 시행되는 치료(특히 약물치료나 전기경련치료)를 거부할 수 있는 법적 권리로, 자율성 존중의 원칙에 기반한다.",
+    "definition_en": "The legal right of a person with a mental disorder to refuse treatment (particularly medication or electroconvulsive therapy), grounded in the principle of respect for autonomy.",
+    "significance": "비자발적 입원 환자의 인권 보호에 핵심적이며, 치료 효과와 환자 자율성 간의 윤리적 균형 문제를 제기한다.",
+    "key_researchers": [
+      {"name_ko": "브루스 엔니스", "name_en": "Bruce Ennis", "contribution": "정신장애인의 시민권 운동을 이끌며 비자발적 입원과 치료 강제의 법적 한계를 확립하는 데 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사전동의", "name_en": "Informed Consent", "id": "FOUND_ETH_031"},
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "FOUND_CON_032"},
+      {"name_ko": "탈시설화", "name_en": "Deinstitutionalization", "id": "FOUND_DEI_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "치료 거부권 = 환자의 '자율성(autonomy)' 보장",
+      "differential": "치료 거부권은 치료를 '거절'할 권리이고, 사전동의는 치료에 '동의'하기 전 정보를 받을 권리이다.",
+      "key_point": "비자발적 입원 환자도 원칙적으로 치료 거부권이 있으며, 강제 치료는 엄격한 법적 절차를 거쳐야 한다.",
+      "common_mistake": "비자발적 입원이 곧 치료 동의를 의미한다고 보는 오류 — 입원과 치료 동의는 별개의 법적 문제이다."
+    }
+  },
+  {
+    "id": "FOUND_GEN_034",
+    "terminology": "유전적 소인 (Genetic Predisposition)",
+    "terminology_ko": "유전적 소인",
+    "terminology_en": "Genetic Predisposition",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "특정 정신장애에 걸릴 가능성을 높이는 유전적 요인으로, 장애 자체가 유전되는 것이 아니라 취약성이 유전되며 환경과의 상호작용을 통해 발현된다.",
+    "definition_en": "Genetic factors that increase the likelihood of developing a particular mental disorder, where vulnerability rather than the disorder itself is inherited and expressed through interaction with environmental factors.",
+    "significance": "쌍생아 연구와 입양 연구를 통해 정신장애의 유전적 기여도를 밝히는 핵심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "어빙 고트스만", "name_en": "Irving Gottesman", "contribution": "조현병의 쌍생아 연구를 통해 유전적 기여도를 입증하고 다유전자 역치 모형을 제안했다."},
+      {"name_ko": "케네스 켄들러", "name_en": "Kenneth Kendler", "contribution": "쌍생아 등록부를 활용하여 다양한 정신장애의 유전적·환경적 기여도를 분리 추정했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"},
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_011"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCH_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유전적 소인 = 유전되는 것은 '장애'가 아니라 '취약성'",
+      "differential": "유전적 소인은 가능성(취약성)의 유전이고, 단일 유전자 질환은 결정적 유전이다. 대부분 정신장애는 다유전자적이다.",
+      "key_point": "일란성 쌍생아의 일치율이 100%가 아닌 것은 환경 요인의 중요성을 보여준다.",
+      "common_mistake": "유전적 소인이 있으면 반드시 발병한다고 보는 유전결정론적 오류 — 환경과의 상호작용이 필수적이다."
+    }
+  },
+  {
+    "id": "FOUND_EPI_035",
+    "terminology": "후성유전학 (Epigenetics)",
+    "terminology_ko": "후성유전학",
+    "terminology_en": "Epigenetics",
+    "category": "FOUND",
+    "category_name": "이상심리학 기초와 모형 (Foundations and Models)",
+    "definition": "DNA 서열 자체의 변화 없이 환경 요인에 의해 유전자 발현이 조절되는 기전을 연구하는 학문으로, 스트레스 경험이 유전자 발현에 영향을 미쳐 정신장애 취약성을 변화시킬 수 있음을 보여준다.",
+    "definition_en": "The study of mechanisms by which gene expression is regulated by environmental factors without changes to the DNA sequence itself, demonstrating that stress experiences can alter gene expression and modify vulnerability to mental disorders.",
+    "significance": "유전과 환경의 상호작용을 분자 수준에서 설명하며, 취약성-스트레스 모형에 생물학적 기반을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "마이클 미니", "name_en": "Michael Meaney", "contribution": "쥐 어미의 양육행동이 새끼의 스트레스 반응 유전자(GR)의 메틸화에 영향을 미침을 발견했다."},
+      {"name_ko": "모셰 시지프", "name_en": "Moshe Szyf", "contribution": "미니와 협력하여 초기 환경이 후성유전적 변화를 통해 행동에 지속적 영향을 미치는 기전을 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "유전적 소인", "name_en": "Genetic Predisposition", "id": "FOUND_GEN_034"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"},
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "후성유전 = DNA는 그대로, '스위치(on/off)'만 바뀜",
+      "differential": "후성유전학은 유전자 '발현' 변화이고, 돌연변이는 유전자 '서열' 변화이다.",
+      "key_point": "후성유전적 변화는 세대 간 전달될 수 있어, 부모의 스트레스 경험이 자녀에게 영향을 미칠 수 있다.",
+      "common_mistake": "후성유전적 변화를 유전자 변이로 혼동하는 것 — DNA 서열 변화 없이 발현만 조절된다."
+    }
+  }
+]

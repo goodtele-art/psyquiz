@@ -1,0 +1,946 @@
+[
+  {
+    "id": "SUBST_SUD_001",
+    "terminology": "물질사용장애 (Substance Use Disorder)",
+    "terminology_ko": "물질사용장애",
+    "terminology_en": "Substance Use Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "물질 사용으로 인한 임상적으로 유의한 손상이나 고통을 초래하는 문제적 패턴으로, DSM-5에서 11개 진단 기준 중 2개 이상 충족 시 진단하며 경도(2~3), 중등도(4~5), 중증(6+)으로 분류한다.",
+    "definition_en": "A problematic pattern of substance use leading to clinically significant impairment or distress, diagnosed when 2+ of 11 DSM-5 criteria are met, classified as mild (2-3), moderate (4-5), or severe (6+).",
+    "significance": "DSM-5에서 이전의 '남용'과 '의존' 구분을 통합한 새로운 진단 체계로, 중독의 연속체적 관점을 반영한다.",
+    "key_researchers": [
+      {"name_ko": "조지 코브", "name_en": "George Koob", "contribution": "물질사용장애의 3단계 순환 모형(폭식/중독→금단/부정적 정동→집착/예측)을 제안"},
+      {"name_ko": "노라 볼코우", "name_en": "Nora Volkow", "contribution": "NIDA 소장으로서 중독을 뇌질환으로 재개념화하고 신경영상 연구를 선도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_010"},
+      {"name_ko": "금단", "name_en": "Withdrawal", "id": "SUBST_WDR_011"},
+      {"name_ko": "갈망", "name_en": "Craving", "id": "SUBST_CRV_012"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [
+      {"name": "경도(Mild)", "description": "11개 기준 중 2~3개 충족"},
+      {"name": "중등도(Moderate)", "description": "11개 기준 중 4~5개 충족"},
+      {"name": "중증(Severe)", "description": "11개 기준 중 6개 이상 충족"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SUD 11기준: 통제상실(4) + 사회적 손상(3) + 위험사용(2) + 약리학(2: 내성, 금단)",
+      "differential": "DSM-IV의 남용(1+기준)과 의존(3+기준) 구분이 DSM-5에서 통합됨",
+      "key_point": "갈망(craving)이 DSM-5에서 새로 추가된 기준이며, 법적 문제는 삭제됨",
+      "common_mistake": "내성과 금단이 있어야만 진단 가능하다는 오해 — 내성·금단 없이도 2개 기준 충족 시 진단 가능"
+    }
+  },
+  {
+    "id": "SUBST_ALC_002",
+    "terminology": "알코올 사용장애 (Alcohol Use Disorder)",
+    "terminology_ko": "알코올 사용장애",
+    "terminology_en": "Alcohol Use Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "알코올 사용의 문제적 패턴으로 임상적으로 유의한 손상이나 고통을 초래하며, 통제 상실, 갈망, 내성, 금단 등의 증상이 나타나는 가장 흔한 물질사용장애이다.",
+    "definition_en": "A problematic pattern of alcohol use causing clinically significant impairment or distress, featuring loss of control, craving, tolerance, and withdrawal, the most prevalent substance use disorder.",
+    "significance": "전 세계적으로 가장 높은 유병률을 보이는 물질사용장애로, 간경변, 뇌손상, 태아알코올스펙트럼장애 등 다양한 신체적·사회적 합병증을 야기한다.",
+    "key_researchers": [
+      {"name_ko": "엘빈 모튼 젤리넥", "name_en": "E. Morton Jellinek", "contribution": "알코올리즘의 질병 모형을 정립하고 음주 문제의 단계 모형(알파~엡실론형)을 제안"},
+      {"name_ko": "조지 베일런트", "name_en": "George Vaillant", "contribution": "알코올 사용장애의 장기 종단 연구를 통해 자연 경과와 예후 인자를 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "금단", "name_en": "Withdrawal", "id": "SUBST_WDR_011"},
+      {"name_ko": "태아알코올스펙트럼장애", "name_en": "Fetal Alcohol Spectrum Disorder", "id": "SUBST_FAS_029"},
+      {"name_ko": "이중진단", "name_en": "Dual Diagnosis", "id": "SUBST_DUL_028"},
+      {"name_ko": "12단계 프로그램", "name_en": "12-Step Program", "id": "SUBST_TSP_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "알코올 금단의 심각한 합병증: 진전섬망(delirium tremens, DTs) — 치료하지 않으면 사망 가능",
+      "differential": "사회적 음주와 알코올 사용장애의 구분은 '통제 상실'과 '기능 손상' 유무가 핵심",
+      "key_point": "GABA 수용체를 활성화(억제 증가)하고 글루타메이트 수용체를 차단(흥분 감소)하는 기제",
+      "common_mistake": "매일 마셔야만 알코올 사용장애라는 오해 — 간헐적 폭음(binge drinking)도 해당될 수 있음"
+    }
+  },
+  {
+    "id": "SUBST_OPI_003",
+    "terminology": "오피오이드 사용장애 (Opioid Use Disorder)",
+    "terminology_ko": "오피오이드 사용장애",
+    "terminology_en": "Opioid Use Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "오피오이드(헤로인, 모르핀, 옥시코돈, 펜타닐 등)의 문제적 사용 패턴으로, 강력한 신체적 의존과 금단 증상을 특징으로 하며, 과다복용에 의한 호흡억제로 사망 위험이 높다.",
+    "definition_en": "A problematic pattern of opioid use (heroin, morphine, oxycodone, fentanyl), characterized by strong physical dependence and withdrawal, with high mortality risk from respiratory depression due to overdose.",
+    "significance": "미국의 오피오이드 위기(opioid crisis)를 통해 처방약 남용의 위험과 공중보건적 대응의 중요성이 부각되었다.",
+    "key_researchers": [
+      {"name_ko": "노라 볼코우", "name_en": "Nora Volkow", "contribution": "오피오이드 위기의 신경과학적 기반과 정책적 대응의 필요성을 강조"},
+      {"name_ko": "빈센트 돌", "name_en": "Vincent Dole", "contribution": "메타돈 유지 치료(methadone maintenance treatment)를 개발하여 오피오이드 의존의 약물치료를 개척"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "약물보조치료", "name_en": "Medication-Assisted Treatment", "id": "SUBST_MAT_025"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_010"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"}
+    ],
+    "sub_types": [
+      {"name": "헤로인(Heroin)", "description": "불법 오피오이드, 정맥주사·흡입으로 사용"},
+      {"name": "처방 오피오이드", "description": "옥시코돈, 하이드로코돈 등 통증관리 약물의 남용"},
+      {"name": "펜타닐(Fentanyl)", "description": "합성 오피오이드, 모르핀보다 50~100배 강력, 과량 사망의 주요 원인"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "오피오이드 3대 위험: (1)호흡억제, (2)빠른 내성 발달, (3)극심한 금단 증상",
+      "differential": "알코올 금단은 과흥분(발작), 오피오이드 금단은 독감 유사 증상(구토, 설사, 근육통, 불안)",
+      "key_point": "날록손(Narcan)이 오피오이드 과량 시 응급 해독제로 사용됨",
+      "common_mistake": "처방 오피오이드는 안전하다는 오해 — 처방약도 남용하면 의존과 사망 위험 동일"
+    }
+  },
+  {
+    "id": "SUBST_CAN_004",
+    "terminology": "대마 사용장애 (Cannabis Use Disorder)",
+    "terminology_ko": "대마 사용장애",
+    "terminology_en": "Cannabis Use Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "대마(마리화나)의 문제적 사용 패턴으로, THC(테트라히드로칸나비놀)가 주요 향정신 성분이며, 동기 감소, 인지 저하, 청소년기 사용 시 정신병 위험 증가가 우려된다.",
+    "definition_en": "A problematic pattern of cannabis (marijuana) use, with THC (tetrahydrocannabinol) as the primary psychoactive component, associated with amotivation, cognitive impairment, and increased psychosis risk with adolescent use.",
+    "significance": "전 세계적으로 가장 많이 사용되는 불법 물질이며, 합법화 추세에도 불구하고 청소년 뇌 발달에 미치는 영향이 우려된다.",
+    "key_researchers": [
+      {"name_ko": "라파엘 메슐람", "name_en": "Raphael Mechoulam", "contribution": "THC를 분리·구조 결정하고 내인성 카나비노이드(안안다마이드) 발견에 기여"},
+      {"name_ko": "로빈 머레이", "name_en": "Robin Murray", "contribution": "대마 사용과 정신병 발병 위험의 연관성을 역학 연구로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "게이트웨이 가설", "name_en": "Gateway Hypothesis", "id": "SUBST_GWH_020"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCZ_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대마의 주성분 THC = Tetrahydrocannabinol, 내인성 카나비노이드 시스템에 작용",
+      "differential": "알코올은 GABA 작용, 대마는 CB1 카나비노이드 수용체 작용 — 기제가 다름",
+      "key_point": "청소년기 대마 사용은 조현병 발병 위험을 2~4배 높이는 것으로 보고됨",
+      "common_mistake": "'자연 식물이므로 안전하다'는 오해 — 고농도 THC 제품의 정신병 위험이 특히 높음"
+    }
+  },
+  {
+    "id": "SUBST_STI_005",
+    "terminology": "각성제 사용장애 (Stimulant Use Disorder)",
+    "terminology_ko": "각성제 사용장애",
+    "terminology_en": "Stimulant Use Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "코카인, 암페타민, 메스암페타민 등 각성제의 문제적 사용 패턴으로, 도파민 방출을 급격히 증가시켜 강렬한 쾌감과 에너지 증가를 유발하지만, 심혈관 합병증과 정신병적 증상의 위험이 있다.",
+    "definition_en": "A problematic pattern of stimulant use (cocaine, amphetamine, methamphetamine) that rapidly increases dopamine release causing intense euphoria and energy, with risks of cardiovascular complications and psychotic symptoms.",
+    "significance": "도파민 보상 체계를 직접 자극하여 가장 강력한 심리적 의존을 유발하며, 중독의 신경생물학적 기제를 이해하는 핵심 모형이다.",
+    "key_researchers": [
+      {"name_ko": "로이 와이즈", "name_en": "Roy Wise", "contribution": "도파민 쾌락 가설(dopamine pleasure hypothesis)을 제안하여 각성제 보상 기제를 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "코카인", "name_en": "Cocaine", "id": "SUBST_COC_006"},
+      {"name_ko": "암페타민", "name_en": "Amphetamine", "id": "SUBST_AMP_007"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "도파민 가설", "name_en": "Dopamine Hypothesis", "id": "SCHIZO_DOP_019"}
+    ],
+    "sub_types": [
+      {"name": "코카인형", "description": "도파민 재흡수 차단, 짧은 반감기로 반복 사용"},
+      {"name": "암페타민형", "description": "도파민 방출 촉진, 긴 지속시간"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "각성제 = 도파민 '폭탄' — 보상회로를 직접·강력하게 자극",
+      "differential": "코카인은 도파민 '재흡수 차단', 암페타민은 도파민 '방출 촉진' — 기제가 다름",
+      "key_point": "강렬한 심리적 의존(갈망)이 핵심이며, 신체적 금단보다 심리적 금단이 두드러짐",
+      "common_mistake": "각성제에 신체적 금단이 없다고 오해 — 피로, 과식, 과수면 등 금단 증상 존재"
+    }
+  },
+  {
+    "id": "SUBST_COC_006",
+    "terminology": "코카인 (Cocaine)",
+    "terminology_ko": "코카인",
+    "terminology_en": "Cocaine",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "코카나무 잎에서 추출하는 강력한 각성제로, 시냅스에서 도파민, 노르에피네프린, 세로토닌의 재흡수를 차단하여 강렬한 쾌감과 각성을 유발하지만, 심장마비와 뇌졸중의 위험이 있다.",
+    "definition_en": "A powerful stimulant extracted from coca leaves that blocks synaptic reuptake of dopamine, norepinephrine, and serotonin, producing intense euphoria and alertness but risking heart attack and stroke.",
+    "significance": "도파민 재흡수 억제 기제의 발견을 통해 중독의 신경화학적 이해에 획기적 기여를 하였다.",
+    "key_researchers": [
+      {"name_ko": "마이클 쿠하르", "name_en": "Michael Kuhar", "contribution": "코카인의 도파민 수송체(DAT) 결합 기제를 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "각성제 사용장애", "name_en": "Stimulant Use Disorder", "id": "SUBST_STI_005"},
+      {"name_ko": "암페타민", "name_en": "Amphetamine", "id": "SUBST_AMP_007"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "복측피개영역", "name_en": "Ventral Tegmental Area", "id": "SUBST_VTA_018"}
+    ],
+    "sub_types": [
+      {"name": "코카인 분말(Powder)", "description": "비강 흡입이 일반적, 작용 시작 3~5분"},
+      {"name": "크랙(Crack)", "description": "흡연형, 작용 시작 8~10초로 매우 빠름, 의존성 매우 높음"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "코카인 = 도파민 '재흡수 차단제(reuptake blocker)' — 시냅스 내 도파민 농도 증가",
+      "differential": "암페타민은 도파민 '방출 촉진', 코카인은 도파민 '재흡수 차단' — 기제 차이",
+      "key_point": "크랙(crack) 형태가 가장 빠르게 작용하고 가장 의존성이 높음",
+      "common_mistake": "코카인에 신체적 의존이 없다는 오해 — 심한 피로, 우울, 과수면 등 금단 증상 존재"
+    }
+  },
+  {
+    "id": "SUBST_AMP_007",
+    "terminology": "암페타민 (Amphetamine)",
+    "terminology_ko": "암페타민",
+    "terminology_en": "Amphetamine",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "도파민과 노르에피네프린의 방출을 촉진하는 합성 각성제로, 메스암페타민(필로폰)이 가장 강력한 형태이며, 장기 사용 시 정신병적 증상(편집증, 환각)을 유발할 수 있다.",
+    "definition_en": "A synthetic stimulant that promotes release of dopamine and norepinephrine, with methamphetamine being its most potent form, capable of inducing psychotic symptoms (paranoia, hallucinations) with chronic use.",
+    "significance": "암페타민 유발 정신병이 도파민 가설의 초기 근거가 되었으며, ADHD 치료제로도 사용되어 용량과 맥락의 중요성을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "아르비드 칼슨", "name_en": "Arvid Carlsson", "contribution": "암페타민의 도파민 방출 촉진 기제를 발견하여 도파민 가설의 근거를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "각성제 사용장애", "name_en": "Stimulant Use Disorder", "id": "SUBST_STI_005"},
+      {"name_ko": "코카인", "name_en": "Cocaine", "id": "SUBST_COC_006"},
+      {"name_ko": "도파민 가설", "name_en": "Dopamine Hypothesis", "id": "SCHIZO_DOP_019"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "NEURO_ADH_001"}
+    ],
+    "sub_types": [
+      {"name": "암페타민(Amphetamine)", "description": "ADHD 치료제(Adderall)로도 사용되는 각성제"},
+      {"name": "메스암페타민(Methamphetamine)", "description": "더 강력한 형태, 불법 약물로 남용 (필로폰)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "암페타민 = 도파민 '방출 촉진제(releaser)' — 코카인의 '재흡수 차단'과 기제 다름",
+      "differential": "코카인(반감기 ~1시간) vs 메스암페타민(반감기 ~12시간) — 지속시간 차이 큼",
+      "key_point": "장기 고용량 사용 시 '암페타민 정신병' — 조현병과 유사한 편집증, 환각 유발",
+      "common_mistake": "ADHD 치료용 암페타민과 남용을 동일시 — 치료 용량과 남용 용량·경로가 다름"
+    }
+  },
+  {
+    "id": "SUBST_SED_008",
+    "terminology": "진정제/수면제/항불안제 사용장애 (Sedative, Hypnotic, Anxiolytic Use Disorder)",
+    "terminology_ko": "진정제/수면제/항불안제 사용장애",
+    "terminology_en": "Sedative, Hypnotic, Anxiolytic Use Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "벤조디아제핀(디아제팜, 알프라졸람 등), 바르비투레이트 등 CNS 억제제의 문제적 사용 패턴으로, GABA 수용체를 활성화하여 진정·불안 감소 효과를 내며, 알코올과 교차내성이 있다.",
+    "definition_en": "A problematic pattern of using CNS depressants such as benzodiazepines (diazepam, alprazolam) and barbiturates, which activate GABA receptors for sedation and anxiety reduction, with cross-tolerance to alcohol.",
+    "significance": "처방약 남용의 대표적 사례로, 알코올과의 교차내성 및 병용 시 치명적 호흡억제의 위험이 있다.",
+    "key_researchers": [
+      {"name_ko": "레오 스턴바흐", "name_en": "Leo Sternbach", "contribution": "최초의 벤조디아제핀(클로르디아제폭사이드, Librium)을 합성하여 항불안제 시대를 개막"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"},
+      {"name_ko": "교차내성", "name_en": "Cross-Tolerance", "id": "SUBST_CRT_013"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"}
+    ],
+    "sub_types": [
+      {"name": "벤조디아제핀", "description": "디아제팜, 알프라졸람, 로라제팜 등 현대 항불안제"},
+      {"name": "바르비투레이트", "description": "페노바르비탈 등 구세대 진정제, 과량 치사율 높음"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "진정제·수면제·항불안제 = 모두 GABA 수용체를 활성화하는 CNS 억제제",
+      "differential": "오피오이드는 뮤(μ) 수용체, 진정제는 GABA 수용체 — 작용 수용체가 다름",
+      "key_point": "알코올과 교차내성이 있어 병용 시 치명적이며, 금단 시 발작 위험이 있음",
+      "common_mistake": "의사가 처방했으므로 안전하다는 오해 — 장기 사용 시 의존 발생 위험 높음"
+    }
+  },
+  {
+    "id": "SUBST_HAL_009",
+    "terminology": "환각제 (Hallucinogens)",
+    "terminology_ko": "환각제",
+    "terminology_en": "Hallucinogens",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "지각, 사고, 감정의 현저한 변화를 유발하는 물질 집단으로, LSD, 실로시빈, 메스칼린 등 고전적 환각제(세로토닌 작용)와 PCP, 케타민 등 해리성 환각제(글루타메이트 작용)를 포함한다.",
+    "definition_en": "A group of substances producing marked alterations in perception, thought, and emotion, including classic hallucinogens (LSD, psilocybin, mescaline; serotonergic) and dissociative hallucinogens (PCP, ketamine; glutamatergic).",
+    "significance": "의식과 지각의 신경기제를 연구하는 도구이며, 최근 실로시빈의 치료적 잠재력(우울증, PTSD)이 재조명되고 있다.",
+    "key_researchers": [
+      {"name_ko": "알버트 호프만", "name_en": "Albert Hofmann", "contribution": "LSD(리세르그산 디에틸아미드)를 합성하고 그 환각 효과를 발견"},
+      {"name_ko": "롤랜드 그리피스", "name_en": "Roland Griffiths", "contribution": "실로시빈의 치료적 잠재력(말기 환자 불안, 우울증)을 현대 임상시험으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "글루타메이트 가설", "name_en": "Glutamate Hypothesis", "id": "SCHIZO_GLU_020"},
+      {"name_ko": "환시", "name_en": "Visual Hallucination", "id": "SCHIZO_VHL_010"}
+    ],
+    "sub_types": [
+      {"name": "고전적 환각제", "description": "LSD, 실로시빈, 메스칼린 — 5-HT2A 세로토닌 수용체 작용"},
+      {"name": "해리성 환각제", "description": "PCP, 케타민 — NMDA 글루타메이트 수용체 차단"},
+      {"name": "MDMA(엑스터시)", "description": "세로토닌 방출 촉진, 공감 증가 효과 — 별도 범주로 분류되기도 함"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "고전적 환각제 = 세로토닌(5-HT2A), 해리성 환각제 = 글루타메이트(NMDA 차단)",
+      "differential": "고전적 환각제는 주로 시각 왜곡, 해리성 환각제는 해리·이인증이 더 두드러짐",
+      "key_point": "대부분 신체적 의존(내성·금단)을 거의 유발하지 않으나 심리적 위험(bad trip)은 존재",
+      "common_mistake": "모든 환각제가 같은 기제로 작용한다는 오해 — 세로토닌계와 글루타메이트계로 나뉨"
+    }
+  },
+  {
+    "id": "SUBST_TOL_010",
+    "terminology": "내성 (Tolerance)",
+    "terminology_ko": "내성",
+    "terminology_en": "Tolerance",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "동일한 효과를 얻기 위해 점점 더 많은 양의 물질이 필요하거나, 동일한 양의 물질로는 이전과 같은 효과를 얻지 못하는 현상으로, 신경적응(neuroadaptation)의 결과이다.",
+    "definition_en": "A phenomenon where increasingly larger amounts of a substance are needed for the same effect, or the same amount produces diminished effect, resulting from neuroadaptation.",
+    "significance": "물질 의존의 핵심 지표 중 하나이며, 수용체 하향조절(downregulation) 등 신경적응 기제를 반영한다.",
+    "key_researchers": [
+      {"name_ko": "하워드 시겔", "name_en": "Howard Siegel", "contribution": "조건화된 내성(conditioned tolerance)과 환경 단서의 역할을 실험적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "금단", "name_en": "Withdrawal", "id": "SUBST_WDR_011"},
+      {"name_ko": "교차내성", "name_en": "Cross-Tolerance", "id": "SUBST_CRT_013"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [
+      {"name": "약물역동학적 내성", "description": "약물 대사가 빨라져 혈중 농도가 낮아짐"},
+      {"name": "약물역학적 내성", "description": "수용체가 둔감해져 같은 농도에 반응이 감소"},
+      {"name": "행동 내성", "description": "약물 효과 하에서 기능 수행을 학습함"},
+      {"name": "조건화된 내성", "description": "약물 사용 환경 단서가 보상 반응을 약화시킴"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "내성 = '더 많이 필요' 또는 '같은 양으로 효과 감소'",
+      "differential": "내성은 '더 많이 필요', 금단은 '없으면 고통' — 둘 다 신경적응의 표현",
+      "key_point": "내성 발달은 물질에 따라 다른 속도 — 오피오이드는 빠르고, 알코올은 상대적으로 느림",
+      "common_mistake": "내성이 있으면 물질이 안전하다는 오해 — 내성은 과량 사용과 사망 위험을 높임"
+    }
+  },
+  {
+    "id": "SUBST_WDR_011",
+    "terminology": "금단 (Withdrawal)",
+    "terminology_ko": "금단",
+    "terminology_en": "Withdrawal",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "장기간 사용하던 물질을 중단하거나 감량할 때 나타나는 물질 특이적 신체적·심리적 증상 군으로, 대체로 해당 물질의 효과와 반대되는 반동(rebound) 현상이 나타난다.",
+    "definition_en": "A cluster of substance-specific physical and psychological symptoms occurring upon cessation or reduction of prolonged substance use, generally manifesting as rebound effects opposite to the substance's acute effects.",
+    "significance": "물질 의존의 핵심 생리적 지표이며, 알코올·벤조디아제핀 금단은 치명적일 수 있어 의료적 관리가 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "조지 코브", "name_en": "George Koob", "contribution": "금단의 부정적 정동 상태(negative affect)가 중독 순환의 핵심 동력임을 이론화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_010"},
+      {"name_ko": "갈망", "name_en": "Craving", "id": "SUBST_CRV_012"},
+      {"name_ko": "해독", "name_en": "Detoxification", "id": "SUBST_DET_026"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [
+      {"name": "알코올 금단", "description": "떨림, 발한, 불안, 발작, 진전섬망(DTs) — 치명적 가능"},
+      {"name": "오피오이드 금단", "description": "근육통, 구토, 설사, 불안, 동공확대 — 불쾌하지만 보통 비치명적"},
+      {"name": "벤조디아제핀 금단", "description": "불안, 불면, 발작 — 알코올 금단과 유사, 치명적 가능"},
+      {"name": "각성제 금단", "description": "피로, 우울, 과식, 과수면 — '충돌(crash)' 상태"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "금단 = 물질 효과의 '반대' — 억제제(알코올) 중단 시 과흥분(발작), 각성제 중단 시 피로",
+      "differential": "치명적 금단: 알코올, 벤조디아제핀 (발작 위험) / 비치명적 금단: 오피오이드, 각성제",
+      "key_point": "알코올·벤조 금단은 의료 응급상황이 될 수 있어 반드시 의학적 관리 필요",
+      "common_mistake": "오피오이드 금단이 가장 위험하다는 오해 — 실제로는 알코올·벤조 금단이 더 치명적"
+    }
+  },
+  {
+    "id": "SUBST_CRV_012",
+    "terminology": "갈망 (Craving)",
+    "terminology_ko": "갈망",
+    "terminology_en": "Craving",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "물질을 사용하고자 하는 강렬하고 참기 어려운 욕구 또는 충동으로, DSM-5에서 물질사용장애의 새로운 진단 기준으로 추가되었으며, 재발의 가장 강력한 예측인자 중 하나이다.",
+    "definition_en": "An intense and difficult-to-resist desire or urge to use a substance, added as a new diagnostic criterion in DSM-5, and one of the strongest predictors of relapse.",
+    "significance": "주관적 경험으로서의 갈망이 DSM-5에 공식 포함됨으로써 중독의 심리적 차원이 강조되었다.",
+    "key_researchers": [
+      {"name_ko": "안토니오 구디아니", "name_en": "Antonio Verdejo-García", "contribution": "갈망의 인지적·정서적 기제와 전전두엽 조절 실패와의 관계를 연구"},
+      {"name_ko": "안나 로즈 칠드레스", "name_en": "Anna Rose Childress", "contribution": "약물 단서(cue)에 의한 갈망의 신경기전을 뇌영상 연구로 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "재발방지모형", "name_en": "Relapse Prevention Model", "id": "SUBST_RPM_024"},
+      {"name_ko": "금단", "name_en": "Withdrawal", "id": "SUBST_WDR_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "갈망 = DSM-5에서 '새로 추가된' 기준, 재발의 가장 강력한 예측인자",
+      "differential": "금단은 물질 부재 시 나타나는 생리적 증상, 갈망은 물질 사용 욕구라는 주관적 경험",
+      "key_point": "약물 관련 단서(사람, 장소, 도구)에 의해 촉발되는 '단서-유발 갈망(cue-induced craving)'이 핵심",
+      "common_mistake": "갈망이 순수한 의지력으로 통제 가능하다는 오해 — 신경생물학적 기반이 있는 강력한 충동"
+    }
+  },
+  {
+    "id": "SUBST_CRT_013",
+    "terminology": "교차내성 (Cross-Tolerance)",
+    "terminology_ko": "교차내성",
+    "terminology_en": "Cross-Tolerance",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "한 물질에 대한 내성이 약리학적으로 유사한 다른 물질에 대한 내성으로 전이되는 현상으로, 알코올-벤조디아제핀, 헤로인-모르핀 등 같은 수용체 계열 물질 간에 나타난다.",
+    "definition_en": "A phenomenon where tolerance to one substance transfers to another pharmacologically similar substance, occurring between substances acting on the same receptor system, such as alcohol-benzodiazepines or heroin-morphine.",
+    "significance": "물질 간 상호작용과 대체 사용의 위험성을 이해하는 데 중요하며, 치료적 대체(메타돈)의 원리이기도 하다.",
+    "key_researchers": [
+      {"name_ko": "해롤드 칼란트", "name_en": "Harold Kalant", "contribution": "알코올과 벤조디아제핀의 교차내성과 교차의존의 기제를 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_010"},
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"},
+      {"name_ko": "진정제 사용장애", "name_en": "Sedative Use Disorder", "id": "SUBST_SED_008"},
+      {"name_ko": "약물보조치료", "name_en": "Medication-Assisted Treatment", "id": "SUBST_MAT_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교차내성 = '한 물질의 내성이 다른 물질로 건너감(cross-over)'",
+      "differential": "교차내성(다른 물질에 내성 전이) vs 교차의존(다른 물질로 금단 예방 가능)",
+      "key_point": "알코올 금단 시 벤조디아제핀을 투여하는 것이 교차내성/교차의존의 치료적 활용",
+      "common_mistake": "교차내성이 모든 약물 간에 나타난다고 오해 — 같은 수용체 계열에서만 발생"
+    }
+  },
+  {
+    "id": "SUBST_NIC_014",
+    "terminology": "담배/니코틴 사용장애 (Tobacco/Nicotine Use Disorder)",
+    "terminology_ko": "담배/니코틴 사용장애",
+    "terminology_en": "Tobacco/Nicotine Use Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "담배(니코틴)의 문제적 사용 패턴으로, 니코틴이 뇌의 니코틴성 아세틸콜린 수용체에 작용하여 도파민 방출을 촉진하며, 빠른 내성 발달과 강력한 금단 증상이 특징적이다.",
+    "definition_en": "A problematic pattern of tobacco (nicotine) use, where nicotine acts on nicotinic acetylcholine receptors to promote dopamine release, characterized by rapid tolerance development and strong withdrawal symptoms.",
+    "significance": "전 세계적으로 예방 가능한 사망의 최대 원인이며, 물질 중 가장 높은 의존 발생률을 보인다.",
+    "key_researchers": [
+      {"name_ko": "닐 베노위츠", "name_en": "Neal Benowitz", "contribution": "니코틴 약물역학 연구를 통해 니코틴 의존의 생물학적 기제와 금연 치료 전략을 발전"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_010"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "동기강화상담", "name_en": "Motivational Interviewing", "id": "SUBST_MIA_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "니코틴 = 니코틴성 아세틸콜린 수용체(nAChR) 작용 → 도파민 간접 방출",
+      "differential": "각성제는 도파민을 직접 방출/차단, 니코틴은 아세틸콜린 수용체를 통해 간접적으로 도파민 방출",
+      "key_point": "물질 중 의존 발생률이 가장 높으며(사용자의 약 32%가 의존), 금연 성공률은 매우 낮음",
+      "common_mistake": "니코틴 자체가 암을 유발한다는 오해 — 암을 유발하는 것은 타르 등 담배의 다른 성분"
+    }
+  },
+  {
+    "id": "SUBST_GMB_015",
+    "terminology": "도박장애 (Gambling Disorder)",
+    "terminology_ko": "도박장애",
+    "terminology_en": "Gambling Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "반복적이고 문제적인 도박 행동으로 임상적으로 유의한 고통이나 손상을 초래하며, DSM-5에서 물질 관련 장애와 같은 장에 '행동중독(behavioral addiction)'으로 유일하게 포함된 비물질 장애이다.",
+    "definition_en": "Persistent and problematic gambling behavior causing clinically significant distress or impairment, the only non-substance disorder included as a 'behavioral addiction' alongside substance-related disorders in DSM-5.",
+    "significance": "물질 없이도 보상회로를 활성화하여 중독이 발생할 수 있음을 입증하는 핵심 사례로, 행동중독 개념의 타당성을 지지한다.",
+    "key_researchers": [
+      {"name_ko": "존 그랜트", "name_en": "Jon Grant", "contribution": "도박장애의 신경생물학적 기반과 약물치료 가능성을 연구"},
+      {"name_ko": "마크 포텐자", "name_en": "Marc Potenza", "contribution": "도박장애의 뇌영상 연구를 통해 물질중독과의 신경생물학적 유사성을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인터넷 게임 장애", "name_en": "Internet Gaming Disorder", "id": "SUBST_IGD_016"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "충동성", "name_en": "Impulsivity", "id": "PERSON_IMP_016"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도박장애 = DSM-5의 '유일한' 공식 행동중독",
+      "differential": "물질사용장애는 외부 물질에 의한 중독, 도박장애는 행동 자체에 의한 중독",
+      "key_point": "물질중독과 동일한 보상회로(중변연계 도파민) 활성 패턴을 보이는 것이 분류의 근거",
+      "common_mistake": "도박장애를 단순한 '의지력 부족'으로 치부 — 물질중독과 유사한 뇌 기전이 관여"
+    }
+  },
+  {
+    "id": "SUBST_IGD_016",
+    "terminology": "인터넷 게임 장애 (Internet Gaming Disorder)",
+    "terminology_ko": "인터넷 게임 장애",
+    "terminology_en": "Internet Gaming Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "지속적이고 반복적인 인터넷 게임 사용으로 인해 통제 상실, 다른 활동에 대한 흥미 상실, 부정적 결과에도 불구한 지속 사용 등이 나타나는 상태로, DSM-5 섹션 III에 추가 연구 필요 상태로 포함되었다.",
+    "definition_en": "A condition involving persistent and recurrent internet gaming use leading to loss of control, diminished interest in other activities, and continued use despite negative consequences, included in DSM-5 Section III as requiring further study.",
+    "significance": "디지털 시대의 새로운 행동중독 가능성을 제기하며, 특히 청소년 인구에서의 공중보건적 우려가 크다.",
+    "key_researchers": [
+      {"name_ko": "블라디미르 포제냐크", "name_en": "Vladimir Poznyak", "contribution": "WHO ICD-11에 게임장애(gaming disorder)를 공식 진단으로 포함시키는 작업을 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "도박장애", "name_en": "Gambling Disorder", "id": "SUBST_GMB_015"},
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "충동성", "name_en": "Impulsivity", "id": "PERSON_IMP_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "IGD = Internet Gaming Disorder, DSM-5 '섹션 III'(추가 연구 필요), ICD-11에는 공식 포함",
+      "differential": "도박장애(DSM-5 공식 진단)와 달리 인터넷 게임 장애는 아직 '추가 연구 필요' 상태",
+      "key_point": "ICD-11에서는 이미 gaming disorder로 공식 포함되어 DSM과 차이",
+      "common_mistake": "이미 DSM-5 공식 진단이라는 오해 — 아직 섹션 III의 '추가 연구 필요' 범주"
+    }
+  },
+  {
+    "id": "SUBST_RWC_017",
+    "terminology": "보상회로 (Reward Circuit)",
+    "terminology_ko": "보상회로",
+    "terminology_en": "Reward Circuit",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "복측피개영역(VTA)에서 측좌핵(NAc)과 전전두엽으로 이어지는 중변연계/중피질 도파민 경로로, 쾌감과 동기의 신경 기반이며, 모든 남용 물질이 이 회로의 도파민 신호를 증가시킨다.",
+    "definition_en": "The mesolimbic/mesocortical dopamine pathway from ventral tegmental area (VTA) to nucleus accumbens (NAc) and prefrontal cortex, the neural basis of pleasure and motivation, with all drugs of abuse increasing dopamine signaling in this circuit.",
+    "significance": "모든 중독 물질의 공통 신경 경로로, 중독의 신경생물학적 통합 모형의 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "제임스 올즈", "name_en": "James Olds", "contribution": "1954년 뇌 자극 보상(brain stimulation reward) 실험으로 뇌 내 보상 시스템의 존재를 최초 입증"},
+      {"name_ko": "볼프람 슐츠", "name_en": "Wolfram Schultz", "contribution": "도파민 뉴런의 보상 예측 오류(reward prediction error) 신호를 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "복측피개영역", "name_en": "Ventral Tegmental Area", "id": "SUBST_VTA_018"},
+      {"name_ko": "측좌핵", "name_en": "Nucleus Accumbens", "id": "SUBST_NAC_019"},
+      {"name_ko": "도파민 가설", "name_en": "Dopamine Hypothesis", "id": "SCHIZO_DOP_019"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "보상회로 = VTA → NAc(측좌핵) → PFC(전전두엽), 도파민이 매개",
+      "differential": "자연 보상(음식, 성)은 적응적 도파민 신호, 약물 보상은 비정상적으로 강력한 도파민 신호",
+      "key_point": "약물은 자연 보상보다 2~10배 강한 도파민 방출을 유발하여 뇌를 '하이재킹'함",
+      "common_mistake": "도파민이 '쾌감' 자체라는 오해 — 도파민은 '원함(wanting)'이지 '좋아함(liking)'이 아님"
+    }
+  },
+  {
+    "id": "SUBST_VTA_018",
+    "terminology": "복측피개영역 (Ventral Tegmental Area, VTA)",
+    "terminology_ko": "복측피개영역",
+    "terminology_en": "Ventral Tegmental Area",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "중뇌에 위치한 도파민 뉴런의 주요 기원지로, 측좌핵과 전전두엽으로 도파민을 투사하여 보상, 동기, 학습을 매개하며, 모든 남용 물질의 작용 표적이 되는 핵심 뇌 구조이다.",
+    "definition_en": "A major origin of dopamine neurons in the midbrain that projects dopamine to the nucleus accumbens and prefrontal cortex, mediating reward, motivation, and learning, and a key brain structure targeted by all drugs of abuse.",
+    "significance": "보상회로의 시작점으로서 중독의 신경해부학적 이해의 핵심 구조이며, 약물 작용 기제 연구의 주요 표적이다.",
+    "key_researchers": [
+      {"name_ko": "로이 와이즈", "name_en": "Roy Wise", "contribution": "VTA 도파민 뉴런이 보상의 신경 기반임을 체계적으로 연구"},
+      {"name_ko": "제임스 올즈", "name_en": "James Olds", "contribution": "뇌 자극 보상 실험을 통해 VTA를 포함한 보상 영역을 최초로 확인"}
+    ],
+    "related_concepts": [
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "측좌핵", "name_en": "Nucleus Accumbens", "id": "SUBST_NAC_019"},
+      {"name_ko": "도파민 가설", "name_en": "Dopamine Hypothesis", "id": "SCHIZO_DOP_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "VTA = 보상회로의 '출발점', 도파민 뉴런의 고향",
+      "differential": "흑질(substantia nigra)의 도파민은 운동 조절, VTA의 도파민은 보상·동기 담당",
+      "key_point": "VTA에서 측좌핵으로의 투사 = 중변연계 경로(mesolimbic pathway) = 보상의 핵심 경로",
+      "common_mistake": "VTA가 쾌감의 유일한 뇌 영역이라는 오해 — 보상 네트워크의 일부일 뿐"
+    }
+  },
+  {
+    "id": "SUBST_NAC_019",
+    "terminology": "측좌핵 (Nucleus Accumbens, NAc)",
+    "terminology_ko": "측좌핵",
+    "terminology_en": "Nucleus Accumbens",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "복측 선조체에 위치한 뇌 구조로, VTA로부터 도파민 투사를 받아 보상의 쾌감과 동기를 처리하는 핵심 영역이며, 남용 물질에 의해 도파민 방출이 비정상적으로 증가하는 주요 표적이다.",
+    "definition_en": "A brain structure in the ventral striatum receiving dopamine projections from VTA, processing reward pleasure and motivation, the primary target where drugs of abuse abnormally increase dopamine release.",
+    "significance": "보상과 동기 처리의 핵심 허브로, 중독에서의 도파민 과잉 방출의 직접적 표적이며 갈망의 신경 기반이다.",
+    "key_researchers": [
+      {"name_ko": "테리 로빈슨", "name_en": "Terry Robinson", "contribution": "측좌핵의 도파민 감작(sensitization)이 '원함(wanting)'의 신경 기반임을 제안 (인센티브 현저성 이론)"},
+      {"name_ko": "켄트 베리지", "name_en": "Kent Berridge", "contribution": "로빈슨과 함께 '원함(wanting)'과 '좋아함(liking)'의 신경 해부학적 분리를 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "복측피개영역", "name_en": "Ventral Tegmental Area", "id": "SUBST_VTA_018"},
+      {"name_ko": "갈망", "name_en": "Craving", "id": "SUBST_CRV_012"}
+    ],
+    "sub_types": [
+      {"name": "핵심부(Core)", "description": "조건화된 강화와 운동 출력에 관여"},
+      {"name": "껍질부(Shell)", "description": "새로운 보상의 즉각적 쾌감 처리에 관여"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "NAc = 보상회로의 '목적지', 쾌감의 허브",
+      "differential": "VTA는 도파민의 '출발지', NAc은 도파민의 '도착지'이자 보상 처리의 핵심",
+      "key_point": "코카인은 NAc에서 도파민 재흡수를 직접 차단하여 도파민 농도를 급격히 높임",
+      "common_mistake": "측좌핵이 쾌감만 담당한다는 오해 — '원함(wanting)'과 동기 부여에도 핵심적 역할"
+    }
+  },
+  {
+    "id": "SUBST_GWH_020",
+    "terminology": "게이트웨이 가설 (Gateway Hypothesis)",
+    "terminology_ko": "게이트웨이 가설",
+    "terminology_en": "Gateway Hypothesis",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "담배, 알코올, 대마 등 '합법적' 또는 '경미한' 물질의 사용이 이후 코카인, 헤로인 등 '강한' 불법 물질 사용으로 진행되는 관문(gateway) 역할을 한다는 가설이다.",
+    "definition_en": "A hypothesis proposing that use of 'legal' or 'milder' substances such as tobacco, alcohol, and cannabis serves as a gateway leading to subsequent use of 'harder' illegal substances like cocaine and heroin.",
+    "significance": "약물 사용의 발달적 순서를 설명하는 영향력 있는 가설이나, 인과관계가 아닌 상관관계일 수 있다는 비판도 존재한다.",
+    "key_researchers": [
+      {"name_ko": "데니스 칸델", "name_en": "Denise Kandel", "contribution": "약물 사용의 단계적 진행 모형을 종단연구로 제안하여 게이트웨이 가설의 실증적 근거를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대마 사용장애", "name_en": "Cannabis Use Disorder", "id": "SUBST_CAN_004"},
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"},
+      {"name_ko": "담배/니코틴 사용장애", "name_en": "Tobacco/Nicotine Use Disorder", "id": "SUBST_NIC_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "게이트웨이 = '관문' — 약한 물질이 강한 물질로의 '문'을 열어줌",
+      "differential": "공통 원인 모형(common liability model)은 게이트웨이 효과가 아닌 공통된 유전·환경 요인을 강조",
+      "key_point": "순서적 진행 패턴은 관찰되나, '경미한 물질 → 반드시 강한 물질' 인과관계는 입증되지 않음",
+      "common_mistake": "대마를 피우면 반드시 헤로인을 하게 된다는 식의 결정론적 해석"
+    }
+  },
+  {
+    "id": "SUBST_MIA_021",
+    "terminology": "동기강화상담 (Motivational Interviewing, MI)",
+    "terminology_ko": "동기강화상담",
+    "terminology_en": "Motivational Interviewing",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "내담자 중심적이고 지시적인 상담 방법으로, 양가감정(ambivalence)을 탐색하고 해결하여 행동 변화에 대한 내적 동기를 강화하는 것을 목표로 하며, 물질사용장애 치료에 효과적이다.",
+    "definition_en": "A client-centered, directive counseling method that explores and resolves ambivalence to enhance intrinsic motivation for behavioral change, effective in treating substance use disorders.",
+    "significance": "저항을 최소화하고 내적 동기를 이끌어내는 비대결적 접근으로, 물질사용장애를 포함한 다양한 건강 행동 변화에 널리 적용된다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 밀러", "name_en": "William R. Miller", "contribution": "동기강화상담(MI)을 개발하고 알코올 사용장애 치료에 대한 효과를 입증"},
+      {"name_ko": "스티브 롤닉", "name_en": "Stephen Rollnick", "contribution": "밀러와 함께 MI의 원리와 기법을 체계화하고 건강 행동 변화 영역으로 확장"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "재발방지모형", "name_en": "Relapse Prevention Model", "id": "SUBST_RPM_024"},
+      {"name_ko": "12단계 프로그램", "name_en": "12-Step Program", "id": "SUBST_TSP_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MI의 4원리: RULE = Resist(교정반사 억제), Understand(공감), Listen(반영적 경청), Empower(역량 강화)",
+      "differential": "CBT는 인지 재구조화, MI는 양가감정 탐색과 내적 동기 강화가 핵심",
+      "key_point": "변화에 대한 내담자 자신의 '변화대화(change talk)'를 이끌어내는 것이 핵심 기법",
+      "common_mistake": "MI가 단순한 '공감적 경청'이라는 오해 — 방향성 있는(directive) 상담으로 전략적 기법이 필요"
+    }
+  },
+  {
+    "id": "SUBST_TSP_022",
+    "terminology": "12단계 프로그램 (12-Step Program)",
+    "terminology_ko": "12단계 프로그램",
+    "terminology_en": "12-Step Program",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "알코올 중독자 모임(AA)에서 시작된 자조(self-help) 회복 프로그램으로, 무력감 인정, 더 큰 힘(higher power)에 대한 의지, 도덕적 점검, 보상 등 12개 단계를 통한 영적·행동적 회복을 추구한다.",
+    "definition_en": "A self-help recovery program originating from Alcoholics Anonymous (AA), pursuing spiritual and behavioral recovery through 12 steps including admitting powerlessness, reliance on a higher power, moral inventory, and amends.",
+    "significance": "전 세계적으로 가장 널리 이용되는 중독 회복 프로그램이며, 동료 지지(peer support)의 치료적 가치를 입증한다.",
+    "key_researchers": [
+      {"name_ko": "빌 윌슨", "name_en": "Bill Wilson", "contribution": "알코올 중독자 모임(AA)을 공동 창립하고 12단계 회복 프로그램의 원리를 정립"},
+      {"name_ko": "밥 스미스", "name_en": "Bob Smith", "contribution": "윌슨과 함께 AA를 공동 창립한 의사로, 의학적 관점과 영적 회복의 통합에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"},
+      {"name_ko": "절주 vs 단주", "name_en": "Moderation vs Abstinence", "id": "SUBST_MVA_027"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [
+      {"name": "AA(Alcoholics Anonymous)", "description": "알코올 중독 회복 모임"},
+      {"name": "NA(Narcotics Anonymous)", "description": "약물 중독 회복 모임"},
+      {"name": "GA(Gamblers Anonymous)", "description": "도박 중독 회복 모임"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "12단계의 핵심: (1)무력감 인정 → (2)더 큰 힘 의지 → (4)도덕적 점검 → (8~9)보상 → (12)나눔",
+      "differential": "전문 치료(CBT, MI)는 증거기반 심리치료, 12단계는 자조·동료지지 기반 회복 프로그램",
+      "key_point": "완전한 단주(abstinence)를 목표로 하며, '절주(controlled drinking)'는 인정하지 않음",
+      "common_mistake": "12단계 프로그램이 종교적이라는 오해 — '영적(spiritual)'이지 특정 종교를 강요하지 않음"
+    }
+  },
+  {
+    "id": "SUBST_CBT_023",
+    "terminology": "인지행동치료 (Cognitive-Behavioral Therapy for Substance Use)",
+    "terminology_ko": "인지행동치료",
+    "terminology_en": "Cognitive-Behavioral Therapy for Substance Use",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "물질사용장애에 적용되는 인지행동치료로, 물질 사용과 관련된 역기능적 사고와 행동 패턴을 수정하고, 대처 기술을 훈련하며, 고위험 상황을 관리하는 능력을 강화한다.",
+    "definition_en": "Cognitive-behavioral therapy applied to substance use disorders that modifies dysfunctional thought and behavior patterns related to substance use, trains coping skills, and enhances high-risk situation management.",
+    "significance": "물질사용장애에 대한 가장 넓은 근거 기반을 가진 심리치료로, 재발방지모형과 결합하여 장기적 회복을 지원한다.",
+    "key_researchers": [
+      {"name_ko": "캐슬린 캐롤", "name_en": "Kathleen Carroll", "contribution": "코카인 사용장애에 대한 CBT 매뉴얼을 개발하고 RCT를 통한 효과를 입증"},
+      {"name_ko": "아론 벡", "name_en": "Aaron Beck", "contribution": "물질 남용에 대한 인지치료 모형을 제안하고 관련 치료 매뉴얼을 저술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "재발방지모형", "name_en": "Relapse Prevention Model", "id": "SUBST_RPM_024"},
+      {"name_ko": "동기강화상담", "name_en": "Motivational Interviewing", "id": "SUBST_MIA_021"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [
+      {"name": "기능분석", "description": "물질 사용의 선행요인, 행동, 결과를 분석"},
+      {"name": "대처기술훈련", "description": "고위험 상황에서 물질 대신 사용할 적응적 전략 학습"},
+      {"name": "인지 재구조화", "description": "물질 사용을 허용하는 사고(permissive thoughts)에 도전"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "중독 CBT의 3요소: 기능분석 + 대처기술훈련 + 인지재구조화",
+      "differential": "MI는 동기 형성 단계, CBT는 실제 행동 변화와 기술 습득 단계",
+      "key_point": "허용적 인지('한 잔 정도는 괜찮아')에 대한 인지 재구조화가 핵심",
+      "common_mistake": "CBT만으로 충분하다는 오해 — MI, 약물치료, 사회적 지지와 병행이 가장 효과적"
+    }
+  },
+  {
+    "id": "SUBST_RPM_024",
+    "terminology": "재발방지모형 (Relapse Prevention Model)",
+    "terminology_ko": "재발방지모형",
+    "terminology_en": "Relapse Prevention Model",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "중독 재발을 고위험 상황, 대처 반응 부재, 자기효능감 저하, 금욕위반효과(abstinence violation effect)의 연쇄로 설명하는 인지행동적 모형으로, 재발을 예방하고 관리하는 구체적 전략을 제공한다.",
+    "definition_en": "A cognitive-behavioral model explaining addiction relapse as a chain of high-risk situations, inadequate coping, decreased self-efficacy, and the abstinence violation effect, providing specific strategies for relapse prevention and management.",
+    "significance": "재발을 실패가 아닌 학습 기회로 재개념화하여 중독 치료의 패러다임을 전환하였다.",
+    "key_researchers": [
+      {"name_ko": "앨런 말랫", "name_en": "G. Alan Marlatt", "contribution": "재발방지모형(RP)을 개발하고 금욕위반효과(AVE) 개념을 제시하여 중독 치료를 혁신"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지행동치료", "name_en": "CBT for Substance Use", "id": "SUBST_CBT_023"},
+      {"name_ko": "갈망", "name_en": "Craving", "id": "SUBST_CRV_012"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "재발 연쇄: 고위험 상황 → 대처 실패 → 자기효능감↓ → 일회 사용(lapse) → AVE → 재발(relapse)",
+      "differential": "12단계(단주 실패=재발)와 달리 RP모형은 일회성 실수(lapse)와 완전 재발(relapse)을 구분",
+      "key_point": "금욕위반효과(AVE): '한 번 마셨으니 끝장이다'라는 전부-아니면-전무 사고가 재발을 가속화",
+      "common_mistake": "재발이 치료 실패를 의미한다고 생각 — RP 모형에서는 재발이 학습과 성장의 기회"
+    }
+  },
+  {
+    "id": "SUBST_MAT_025",
+    "terminology": "약물보조치료 (Medication-Assisted Treatment, MAT)",
+    "terminology_ko": "약물보조치료",
+    "terminology_en": "Medication-Assisted Treatment",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "약물(메타돈, 부프레노르핀, 날트렉손 등)을 심리사회적 치료와 병행하여 물질사용장애를 치료하는 통합적 접근으로, 갈망 감소, 금단 방지, 재발 예방 효과가 입증되었다.",
+    "definition_en": "An integrated approach combining medications (methadone, buprenorphine, naltrexone) with psychosocial treatment for substance use disorders, with demonstrated effects on craving reduction, withdrawal prevention, and relapse prevention.",
+    "significance": "오피오이드 사용장애 치료의 금본위(gold standard)이며, 사망률을 유의하게 감소시키는 근거기반 치료이다.",
+    "key_researchers": [
+      {"name_ko": "빈센트 돌", "name_en": "Vincent Dole", "contribution": "메타돈 유지 치료(MMT)를 개발하여 오피오이드 의존의 약물 치료 시대를 개척"},
+      {"name_ko": "마리 니스원더", "name_en": "Marie Nyswander", "contribution": "돌과 함께 메타돈 유지 치료의 효과를 최초로 체계적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "오피오이드 사용장애", "name_en": "Opioid Use Disorder", "id": "SUBST_OPI_003"},
+      {"name_ko": "갈망", "name_en": "Craving", "id": "SUBST_CRV_012"},
+      {"name_ko": "해독", "name_en": "Detoxification", "id": "SUBST_DET_026"},
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"}
+    ],
+    "sub_types": [
+      {"name": "메타돈(Methadone)", "description": "장시간 작용 오피오이드 효현제, 금단 예방과 갈망 감소"},
+      {"name": "부프레노르핀(Buprenorphine)", "description": "부분 효현제, 메타돈보다 과량 위험 낮음"},
+      {"name": "날트렉손(Naltrexone)", "description": "오피오이드 길항제, 알코올 의존에도 사용"},
+      {"name": "디설피람(Disulfiram)", "description": "알코올 대사를 차단하여 음주 시 불쾌 반응 유발 (혐오요법)"},
+      {"name": "아캄프로세이트(Acamprosate)", "description": "글루타메이트 조절, 알코올 갈망 감소"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "오피오이드 MAT: 메타돈(효현제)+부프레노르핀(부분효현제)+날트렉손(길항제)",
+      "differential": "메타돈(완전효현, 의존 유지)과 날트렉손(길항, 차단)은 정반대 기제",
+      "key_point": "MAT + 심리사회적 치료의 병행이 가장 효과적이며, 약물만 단독 사용은 권장되지 않음",
+      "common_mistake": "'약물로 약물 치료'하는 것이 '중독 대체'라는 오해 — MAT는 근거기반 치료"
+    }
+  },
+  {
+    "id": "SUBST_DET_026",
+    "terminology": "해독 (Detoxification)",
+    "terminology_ko": "해독",
+    "terminology_en": "Detoxification",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "물질 사용을 안전하게 중단하면서 금단 증상을 의학적으로 관리하는 과정으로, 치료의 시작 단계이지 치료 자체는 아니며, 알코올과 벤조디아제핀 해독은 생명을 위협하는 금단을 예방하기 위해 의료적 관리가 필수적이다.",
+    "definition_en": "The process of safely discontinuing substance use while medically managing withdrawal symptoms, the beginning stage of treatment but not treatment itself, with medical supervision essential for alcohol and benzodiazepine detox to prevent life-threatening withdrawal.",
+    "significance": "안전한 금단 관리를 통해 이후 본격적 치료(심리치료, MAT)에 참여할 수 있는 기반을 마련하는 필수적 첫 단계이다.",
+    "key_researchers": [
+      {"name_ko": "제롬 제피", "name_en": "Jerome Jaffe", "contribution": "미국 최초의 마약 정책 책임자로서 해독과 메타돈 치료의 체계적 도입에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "금단", "name_en": "Withdrawal", "id": "SUBST_WDR_011"},
+      {"name_ko": "약물보조치료", "name_en": "Medication-Assisted Treatment", "id": "SUBST_MAT_025"},
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"}
+    ],
+    "sub_types": [
+      {"name": "의학적 해독(Medical Detox)", "description": "입원 또는 외래에서 약물을 이용한 금단 관리"},
+      {"name": "사회적 해독(Social Detox)", "description": "약물 없이 지지적 환경에서 금단 관리 (경증에 적합)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "해독 = 치료의 '입구(gate)'이지 '출구(goal)'가 아님",
+      "differential": "해독은 신체적 안정화, 재활은 심리사회적 회복 — 해독만으로는 재발 방지 불가",
+      "key_point": "해독 후 지속적 치료 없이 방치하면 재발률이 매우 높음",
+      "common_mistake": "해독만 하면 치료가 끝났다는 오해 — 해독은 시작일 뿐, 이후 장기 치료가 필수"
+    }
+  },
+  {
+    "id": "SUBST_MVA_027",
+    "terminology": "절주 vs 단주 (Moderation vs Abstinence)",
+    "terminology_ko": "절주 vs 단주",
+    "terminology_en": "Moderation vs Abstinence",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "중독 회복의 목표를 완전한 물질 중단(단주/abstinence)으로 할 것인지, 통제된 사용(절주/moderation)으로 할 것인지에 대한 논쟁으로, 전통적 접근(AA)은 단주를, 일부 근거기반 접근은 절주를 대안으로 제시한다.",
+    "definition_en": "A debate on whether addiction recovery should aim for complete substance cessation (abstinence) or controlled use (moderation), with traditional approaches (AA) advocating abstinence while some evidence-based approaches offer moderation as an alternative.",
+    "significance": "중독 치료의 목표 설정에 관한 근본적 논쟁으로, 환자의 동기와 치료 참여에 중요한 함의를 가진다.",
+    "key_researchers": [
+      {"name_ko": "마크 소벨", "name_en": "Mark Sobell", "contribution": "통제 음주(controlled drinking)가 일부 알코올 문제 환자에게 가능한 목표임을 연구"},
+      {"name_ko": "린다 소벨", "name_en": "Linda Sobell", "contribution": "마크 소벨과 함께 행동적 자기통제 훈련(BSCT) 프로그램 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "12단계 프로그램", "name_en": "12-Step Program", "id": "SUBST_TSP_022"},
+      {"name_ko": "동기강화상담", "name_en": "Motivational Interviewing", "id": "SUBST_MIA_021"},
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "단주(abstinence) = '한 잔도 안 됨' vs 절주(moderation) = '통제된 양만'",
+      "differential": "AA/12단계는 무조건 단주, 행동적 접근은 경증에서 절주 가능성 인정",
+      "key_point": "중증 알코올 사용장애에는 단주가 권장되나, 경증에는 절주도 현실적 목표가 될 수 있음",
+      "common_mistake": "절주가 모든 알코올 문제에 적용 가능하다는 오해 — 중증에서는 단주가 적절"
+    }
+  },
+  {
+    "id": "SUBST_DUL_028",
+    "terminology": "이중진단/공병 (Dual Diagnosis/Comorbidity)",
+    "terminology_ko": "이중진단/공병",
+    "terminology_en": "Dual Diagnosis/Comorbidity",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "물질사용장애와 다른 정신장애(우울증, 불안장애, PTSD, 조현병 등)가 동시에 존재하는 상태로, 각 장애가 서로를 악화시키며 통합적 치료가 필수적이다.",
+    "definition_en": "The co-occurrence of a substance use disorder with another mental disorder (depression, anxiety, PTSD, schizophrenia), where each disorder worsens the other, requiring integrated treatment.",
+    "significance": "물질사용장애 환자의 약 50%가 다른 정신장애를 동반하며, 통합 치료 없이는 양쪽 모두의 예후가 불량하다.",
+    "key_researchers": [
+      {"name_ko": "대럴 레지에", "name_en": "Darrel Regier", "contribution": "ECA 연구(Epidemiologic Catchment Area)를 통해 물질사용-정신장애 동반이환율을 대규모로 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"},
+      {"name_ko": "PTSD", "name_en": "PTSD", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCZ_001"}
+    ],
+    "sub_types": [
+      {"name": "자기치료(Self-Medication)", "description": "정신장애 증상 완화를 위해 물질을 사용하는 경우"},
+      {"name": "물질유발성(Substance-Induced)", "description": "물질 사용이 정신장애 증상을 유발하는 경우"},
+      {"name": "공통 원인(Common Cause)", "description": "유전·환경 요인이 두 장애 모두의 원인인 경우"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "이중진단 = 물질 + 정신 = 두 가지 진단이 동시에",
+      "differential": "물질유발성 정신장애(물질이 원인)와 독립적 정신장애+물질사용장애(공존)를 구분 필요",
+      "key_point": "순차적 치료(한 장애 먼저)보다 통합적 치료(두 장애 동시에)가 더 효과적",
+      "common_mistake": "물질 문제를 먼저 해결한 후 정신장애를 치료해야 한다는 오해 — 통합적 동시 치료가 권장"
+    }
+  },
+  {
+    "id": "SUBST_FAS_029",
+    "terminology": "태아알코올스펙트럼장애 (Fetal Alcohol Spectrum Disorder, FASD)",
+    "terminology_ko": "태아알코올스펙트럼장애",
+    "terminology_en": "Fetal Alcohol Spectrum Disorder",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "임신 중 알코올 노출로 인한 선천적 장애의 스펙트럼으로, 특징적 안면 이형(짧은 안검열, 평탄한 인중, 얇은 상순), 성장 지연, 중추신경계 이상(지적 장애, ADHD, 학습장애)을 포함한다.",
+    "definition_en": "A spectrum of congenital disorders caused by prenatal alcohol exposure, including characteristic facial dysmorphology (short palpebral fissures, smooth philtrum, thin upper lip), growth retardation, and CNS abnormalities (intellectual disability, ADHD, learning disabilities).",
+    "significance": "완전히 예방 가능한(100% preventable) 선천적 지적 장애의 주요 원인으로, 임신 중 음주의 위험성을 알리는 공중보건적 중요성이 크다.",
+    "key_researchers": [
+      {"name_ko": "케네스 존스", "name_en": "Kenneth Jones", "contribution": "1973년 태아알코올증후군(FAS)을 최초로 공식 기술하고 명명"},
+      {"name_ko": "데이비드 스미스", "name_en": "David Smith", "contribution": "존스와 함께 FAS의 특징적 안면 이형과 발달 이상을 체계적으로 보고"}
+    ],
+    "related_concepts": [
+      {"name_ko": "알코올 사용장애", "name_en": "Alcohol Use Disorder", "id": "SUBST_ALC_002"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "NEURO_ADH_001"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [
+      {"name": "태아알코올증후군(FAS)", "description": "가장 심한 형태 — 안면이형+성장지연+CNS 이상 모두 존재"},
+      {"name": "부분 FAS(pFAS)", "description": "일부 안면 특징과 CNS 이상"},
+      {"name": "알코올 관련 신경발달장애(ARND)", "description": "안면 이형 없이 CNS/행동 이상만 존재"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "FASD의 3대 특징: 안면이형(Face) + 성장지연(Growth) + 뇌손상(Brain) = FGB",
+      "differential": "다른 유전 증후군(다운증후군, 윌리엄스증후군)과의 안면 특징 감별이 필요",
+      "key_point": "임신 중 '안전한 음주량'은 없으며, 100% 예방 가능한 장애",
+      "common_mistake": "'소량의 음주는 안전하다'는 오해 — 안전한 최소 음주량은 확립되지 않았음"
+    }
+  },
+  {
+    "id": "SUBST_SID_030",
+    "terminology": "물질유발성 장애 (Substance-Induced Disorders)",
+    "terminology_ko": "물질유발성 장애",
+    "terminology_en": "Substance-Induced Disorders",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "물질의 중독(intoxication) 또는 금단(withdrawal) 중에 나타나는 정신과적 증상(정신병, 우울, 불안 등)으로, 독립적 정신장애와 감별이 필요하며, 물질 중단 후 보통 1개월 내에 소실된다.",
+    "definition_en": "Psychiatric symptoms (psychosis, depression, anxiety) occurring during substance intoxication or withdrawal, requiring differentiation from independent mental disorders, and typically resolving within one month of substance cessation.",
+    "significance": "물질이 정신증상을 직접 유발할 수 있음을 보여주며, 정확한 진단을 위해 물질 사용력의 철저한 평가가 필수적임을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "DSM 체계에서 물질유발성 장애와 독립적 정신장애의 감별 기준을 정교화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"},
+      {"name_ko": "이중진단", "name_en": "Dual Diagnosis", "id": "SUBST_DUL_028"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCZ_001"}
+    ],
+    "sub_types": [
+      {"name": "물질유발 정신병적 장애", "description": "코카인, 암페타민, 대마 등에 의한 환각·망상"},
+      {"name": "물질유발 우울장애", "description": "알코올, 각성제 금단 시의 우울 증상"},
+      {"name": "물질유발 불안장애", "description": "카페인, 각성제, 대마 등에 의한 불안 증상"},
+      {"name": "물질중독 섬망", "description": "물질 중독 시 나타나는 의식 변화와 인지 장해"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "물질유발 = 물질이 '원인', 물질 중단 후 보통 1개월 내 소실",
+      "differential": "독립적 정신장애는 물질 중단 후에도 지속, 물질유발성 장애는 1개월 내 소실",
+      "key_point": "시간적 관계가 감별의 핵심 — 물질 사용 시작 전부터 증상이 있었는지가 중요",
+      "common_mistake": "물질유발 정신병을 조현병으로 오진하는 오류 — 약물 선별검사와 시간적 관계 확인 필수"
+    }
+  },
+  {
+    "id": "SUBST_PHR_031",
+    "terminology": "약물의 약리학적 작용 (Pharmacological Actions of Drugs)",
+    "terminology_ko": "약물의 약리학적 작용",
+    "terminology_en": "Pharmacological Actions of Drugs",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "남용 물질이 뇌의 신경전달물질 체계에 미치는 약리학적 효과로, 도파민(보상), GABA(억제), 글루타메이트(흥분), 세로토닌(기분), 오피오이드(통증/쾌감) 수용체 등에 대한 효현(agonist), 길항(antagonist), 재흡수 차단, 방출 촉진 등의 기제를 포함한다.",
+    "definition_en": "The pharmacological effects of abused substances on brain neurotransmitter systems, including agonist, antagonist, reuptake inhibition, and release facilitation mechanisms on dopamine (reward), GABA (inhibition), glutamate (excitation), serotonin (mood), and opioid (pain/pleasure) receptors.",
+    "significance": "각 물질의 작용 기제를 이해하면 중독의 신경생물학, 치료 약물의 기제, 교차내성과 약물 상호작용을 통합적으로 이해할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "솔로몬 스나이더", "name_en": "Solomon Snyder", "contribution": "오피오이드 수용체를 최초로 확인하고 신경전달물질 수용체 연구의 기초를 마련"},
+      {"name_ko": "캔더스 퍼트", "name_en": "Candace Pert", "contribution": "스나이더와 함께 오피오이드 수용체의 존재를 실험적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_010"},
+      {"name_ko": "교차내성", "name_en": "Cross-Tolerance", "id": "SUBST_CRT_013"},
+      {"name_ko": "도파민 가설", "name_en": "Dopamine Hypothesis", "id": "SCHIZO_DOP_019"}
+    ],
+    "sub_types": [
+      {"name": "효현제(Agonist)", "description": "수용체에 결합하여 자연 신경전달물질의 효과를 모방"},
+      {"name": "길항제(Antagonist)", "description": "수용체에 결합하나 효과를 차단 (예: 날트렉손)"},
+      {"name": "재흡수 억제제", "description": "시냅스에서 신경전달물질의 재흡수를 차단 (예: 코카인)"},
+      {"name": "방출 촉진제", "description": "시냅스 전 뉴런에서 신경전달물질 방출을 증가 (예: 암페타민)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "주요 약물-수용체 대응: 알코올=GABA↑, 코카인=DA재흡수↓, 암페타민=DA방출↑, 오피오이드=μ수용체, 대마=CB1, 니코틴=nAChR",
+      "differential": "효현제(활성화)와 길항제(차단)는 정반대 작용 — 헤로인(효현)과 날트렉손(길항)이 예시",
+      "key_point": "모든 남용 물질의 최종 공통 경로(final common pathway)는 보상회로의 도파민 증가",
+      "common_mistake": "각 물질이 완전히 다른 기제로 작용한다고 오해 — 최종 경로는 도파민 보상회로로 수렴"
+    }
+  },
+  {
+    "id": "SUBST_RNF_032",
+    "terminology": "강화와 중독 (Reinforcement and Addiction)",
+    "terminology_ko": "강화와 중독",
+    "terminology_en": "Reinforcement and Addiction",
+    "category": "SUBST",
+    "category_name": "물질관련 및 중독 장애 (Substance and Addictive Disorders)",
+    "definition": "물질 사용이 정적 강화(쾌감 획득)와 부적 강화(불쾌 제거)를 통해 반복·유지되는 학습 기제로, 중독의 초기에는 정적 강화가, 만성기에는 금단 회피를 위한 부적 강화가 주요 동력이 된다.",
+    "definition_en": "A learning mechanism where substance use is repeated and maintained through positive reinforcement (pleasure acquisition) and negative reinforcement (distress removal), with positive reinforcement dominant early and negative reinforcement (withdrawal avoidance) dominant in chronic addiction.",
+    "significance": "행동주의적 관점에서 중독의 발달과 유지를 설명하며, 코브의 3단계 순환 모형의 이론적 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "조지 코브", "name_en": "George Koob", "contribution": "정적 강화에서 부적 강화로의 전환이 중독의 만성화 핵심 기제임을 이론화"},
+      {"name_ko": "로이 와이즈", "name_en": "Roy Wise", "contribution": "약물의 정적 강화 효과가 도파민 보상계를 통해 매개됨을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "보상회로", "name_en": "Reward Circuit", "id": "SUBST_RWC_017"},
+      {"name_ko": "갈망", "name_en": "Craving", "id": "SUBST_CRV_012"},
+      {"name_ko": "금단", "name_en": "Withdrawal", "id": "SUBST_WDR_011"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [
+      {"name": "정적 강화(Positive Reinforcement)", "description": "쾌감·흥분 획득으로 물질 사용이 증가"},
+      {"name": "부적 강화(Negative Reinforcement)", "description": "금단·불쾌감 제거로 물질 사용이 증가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "초기 = 정적 강화(쾌감 추구), 만성기 = 부적 강화(고통 회피), 전환이 핵심",
+      "differential": "정적 강화는 '좋은 것을 추가', 부적 강화는 '나쁜 것을 제거' — 처벌이 아님",
+      "key_point": "중독이 진행될수록 쾌감은 감소하고 금단 회피(부적 강화)가 주된 사용 동기가 됨",
+      "common_mistake": "부적 강화를 '처벌'로 오해 — 부적 강화는 불쾌한 자극의 '제거'로 행동을 증가시킴"
+    }
+  }
+]

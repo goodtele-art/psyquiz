@@ -1,0 +1,931 @@
+[
+  {
+    "id": "TRAUMA_PTS_001",
+    "terminology": "외상 후 스트레스장애 (Post-Traumatic Stress Disorder)",
+    "terminology_ko": "외상 후 스트레스장애",
+    "terminology_en": "Post-Traumatic Stress Disorder",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "실제 또는 위협적인 죽음, 심각한 부상, 성폭력에 노출된 후 침습적 재경험, 회피, 인지와 기분의 부정적 변화, 과각성이 1개월 이상 지속되는 장애이다.",
+    "definition_en": "A disorder following exposure to actual or threatened death, serious injury, or sexual violence, characterized by intrusive re-experiencing, avoidance, negative alterations in cognition and mood, and hyperarousal lasting more than one month.",
+    "significance": "DSM-5에서 불안장애 범주에서 분리되어 외상 관련 장애의 독립 범주로 재분류되었으며, 전쟁·재난·폭력 피해자의 정신건강에서 핵심 진단이다.",
+    "key_researchers": [
+      {"name_ko": "주디스 허먼", "name_en": "Judith Herman", "contribution": "외상의 심리적 영향에 관한 기념비적 저서 'Trauma and Recovery'를 통해 복합 PTSD 개념을 제안"},
+      {"name_ko": "베셀 반 데어 콜크", "name_en": "Bessel van der Kolk", "contribution": "외상의 신체적 기억 저장 기제와 신체 기반 치료의 중요성을 강조"},
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "PTSD의 정서처리이론과 지속노출치료(PE) 프로토콜을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "급성 스트레스장애", "name_en": "Acute Stress Disorder", "id": "TRAUMA_ASD_002"},
+      {"name_ko": "복합 PTSD", "name_en": "Complex PTSD", "id": "TRAUMA_CPT_006"},
+      {"name_ko": "지속노출치료", "name_en": "Prolonged Exposure", "id": "TRAUMA_PET_020"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSV_008"}
+    ],
+    "sub_types": [
+      {"name": "해리 하위유형", "description": "이인증이나 비현실감이 두드러지게 동반되는 유형"},
+      {"name": "지연 발현형", "description": "외상 사건 후 6개월 이상 경과 후에 진단 기준을 충족하는 유형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PTSD 4대 증상군: 침습(Intrusion) + 회피(Avoidance) + 인지·기분변화(Cognition) + 과각성(Arousal) = IACA",
+      "differential": "급성 스트레스장애는 3일~1개월 지속되나, PTSD는 1개월 이상 지속될 때 진단한다",
+      "key_point": "DSM-5에서 불안장애에서 분리되어 독립 범주로 재분류되었으며, 4개 증상군(침습·회피·인지기분변화·과각성)으로 확장되었다",
+      "common_mistake": "PTSD가 전쟁 참전용사에게만 발생한다고 오해하면 안 된다. 성폭력, 사고, 자연재해 등 다양한 외상에서 발생한다"
+    }
+  },
+  {
+    "id": "TRAUMA_ASD_002",
+    "terminology": "급성 스트레스장애 (Acute Stress Disorder)",
+    "terminology_ko": "급성 스트레스장애",
+    "terminology_en": "Acute Stress Disorder",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 사건 후 3일에서 1개월 사이에 침습적 증상, 부정적 기분, 해리, 회피, 과각성 증상이 나타나는 장애이다.",
+    "definition_en": "A disorder occurring between 3 days and 1 month after a traumatic event, characterized by intrusion symptoms, negative mood, dissociation, avoidance, and arousal symptoms.",
+    "significance": "PTSD로의 진행을 예측하는 조기 지표로서 중요하며, 조기 개입의 필요성을 판단하는 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "리처드 브라이언트", "name_en": "Richard Bryant", "contribution": "급성 스트레스장애의 진단 타당성과 PTSD 예측력을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"},
+      {"name_ko": "위기 개입", "name_en": "Crisis Intervention", "id": "TRAUMA_CRI_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ASD = Acute(급성, 3일~1개월) vs PTSD = Post(후, 1개월 이후)",
+      "differential": "PTSD는 외상 후 1개월 이상 지속될 때 진단하나, ASD는 3일~1개월 사이의 급성기 반응이다",
+      "key_point": "ASD 진단 시 해리 증상이 포함되어 있으며, ASD 환자의 약 50%가 이후 PTSD로 진행한다",
+      "common_mistake": "ASD가 반드시 PTSD로 진행한다고 오해하면 안 된다. 약 50%만 PTSD로 진행하며 나머지는 자연 회복된다"
+    }
+  },
+  {
+    "id": "TRAUMA_ADJ_003",
+    "terminology": "적응장애 (Adjustment Disorder)",
+    "terminology_ko": "적응장애",
+    "terminology_en": "Adjustment Disorder",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "확인 가능한 스트레스 요인에 대한 반응으로 정서적 또는 행동적 증상이 발생하되, 다른 특정 정신장애의 진단 기준을 충족하지 않는 상태이다.",
+    "definition_en": "Emotional or behavioral symptoms developing in response to an identifiable stressor that do not meet the criteria for another specific mental disorder.",
+    "significance": "임상적으로 가장 흔하게 진단되는 장애 중 하나이며, 다른 특정 진단에 해당하지 않는 스트레스 반응의 '잔여' 진단으로서의 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "제프리 스트레인", "name_en": "Jeffrey Strain", "contribution": "적응장애의 진단 신뢰도와 타당도를 체계적으로 연구하고 진단 기준 개선을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSV_008"}
+    ],
+    "sub_types": [
+      {"name": "우울 기분 동반", "description": "우울감, 눈물, 절망감이 주된 증상"},
+      {"name": "불안 동반", "description": "초조함, 걱정, 신경과민이 주된 증상"},
+      {"name": "혼합 불안과 우울 기분 동반", "description": "우울감과 불안이 모두 두드러짐"},
+      {"name": "품행 장해 동반", "description": "행동 문제가 주된 증상(규칙 위반 등)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "적응장애 = 스트레스원 확인 가능 + 증상은 다른 진단 기준 미충족 + 6개월 이내 발생",
+      "differential": "주요우울장애는 스트레스원 없이도 진단 가능하나, 적응장애는 반드시 확인 가능한 스트레스원이 있어야 한다",
+      "key_point": "스트레스 요인 발생 후 3개월 이내에 증상이 시작되며, 스트레스 요인 종료 후 6개월 이내에 해소되어야 한다",
+      "common_mistake": "적응장애를 경미한 문제로 과소평가하면 안 된다. 자살 위험이 있으며 적절한 개입이 필요하다"
+    }
+  },
+  {
+    "id": "TRAUMA_RAD_004",
+    "terminology": "반응성 애착장애 (Reactive Attachment Disorder)",
+    "terminology_ko": "반응성 애착장애",
+    "terminology_en": "Reactive Attachment Disorder",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "초기 양육 환경에서의 심각한 방임이나 학대로 인해 양육자에 대한 애착 형성이 억제되어, 사회적 상호작용에서 일관된 정서적 위축을 보이는 장애이다.",
+    "definition_en": "A disorder resulting from severe neglect or abuse in early caregiving, characterized by inhibited attachment formation and consistent emotional withdrawal in social interactions.",
+    "significance": "초기 아동기의 불충분한 양육이 애착 발달에 미치는 심각한 영향을 보여주며, DSM-5에서 외상 관련 장애로 재분류되었다.",
+    "key_researchers": [
+      {"name_ko": "찰스 제네", "name_en": "Charles Zeanah", "contribution": "반응성 애착장애의 진단 기준 정립과 평가 도구 개발에 핵심적으로 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "탈억제 사회적 유대감 장애", "name_en": "Disinhibited Social Engagement Disorder", "id": "TRAUMA_DSE_005"},
+      {"name_ko": "역경적 아동기 경험", "name_en": "Adverse Childhood Experiences", "id": "TRAUMA_ACE_028"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RAD = 억제형(위축) → 양육자에게 다가가지 않음 (DSED와 반대)",
+      "differential": "탈억제 사회적 유대감 장애(DSED)는 낯선 사람에게도 무분별하게 접근하나, RAD는 양육자에게도 위축되고 접근하지 않는다",
+      "key_point": "5세 이전에 발생해야 하며, 충분한 양육을 받을 수 있는 환경이 제공되면 개선될 수 있다",
+      "common_mistake": "RAD를 자폐스펙트럼장애와 혼동하면 안 된다. RAD는 부적절한 양육 환경이 원인이며, 적절한 양육 환경에서 개선된다"
+    }
+  },
+  {
+    "id": "TRAUMA_DSE_005",
+    "terminology": "탈억제 사회적 유대감 장애 (Disinhibited Social Engagement Disorder)",
+    "terminology_ko": "탈억제 사회적 유대감 장애",
+    "terminology_en": "Disinhibited Social Engagement Disorder",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "초기 양육 환경의 심각한 결핍으로 인해 낯선 성인에게 무분별하게 접근하고 과도한 친밀감을 보이는 등 탈억제된 사회적 행동 패턴을 보이는 장애이다.",
+    "definition_en": "A disorder resulting from severe early caregiving deficiency, characterized by disinhibited social behavior patterns including indiscriminate approach to unfamiliar adults and excessive familiarity.",
+    "significance": "시설 양육 아동 연구에서 확인된 독특한 애착 문제로, RAD와 달리 적절한 양육 환경이 제공되어도 지속될 수 있다.",
+    "key_researchers": [
+      {"name_ko": "찰스 제네", "name_en": "Charles Zeanah", "contribution": "DSED의 RAD와의 차별적 특성과 예후 차이를 체계적으로 규명"},
+      {"name_ko": "마이클 러터", "name_en": "Michael Rutter", "contribution": "루마니아 고아원 연구를 통해 시설 양육이 애착 발달에 미치는 영향을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반응성 애착장애", "name_en": "Reactive Attachment Disorder", "id": "TRAUMA_RAD_004"},
+      {"name_ko": "역경적 아동기 경험", "name_en": "Adverse Childhood Experiences", "id": "TRAUMA_ACE_028"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DSED = 탈억제형(무분별) → 낯선 사람에게도 쉽게 다가감 (RAD와 반대)",
+      "differential": "RAD는 억제형으로 사회적 위축을 보이나, DSED는 탈억제형으로 낯선 사람에게도 무분별하게 접근한다",
+      "key_point": "RAD와 달리 적절한 양육 환경이 제공되어도 증상이 지속될 수 있어 예후가 다르다",
+      "common_mistake": "DSED를 단순히 사교적인 성격이나 ADHD의 충동성으로 오해하면 안 된다. 초기 양육 결핍이라는 특정 원인이 있다"
+    }
+  },
+  {
+    "id": "TRAUMA_CPT_006",
+    "terminology": "복합 PTSD (Complex PTSD)",
+    "terminology_ko": "복합 PTSD",
+    "terminology_en": "Complex PTSD",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "반복적이고 장기적인 대인관계 외상(아동학대, 가정폭력 등)에 노출된 후 PTSD 증상에 더해 정서조절 곤란, 부정적 자기개념, 관계 장해가 추가로 나타나는 상태이다.",
+    "definition_en": "A condition following repeated and prolonged interpersonal trauma (child abuse, domestic violence) featuring PTSD symptoms plus emotional dysregulation, negative self-concept, and relational disturbance.",
+    "significance": "ICD-11에 공식 진단으로 포함되었으며, 단순 PTSD와 구별되는 치료 접근(단계적 치료)이 필요한 독립적 진단 개체이다.",
+    "key_researchers": [
+      {"name_ko": "주디스 허먼", "name_en": "Judith Herman", "contribution": "복합 PTSD 개념을 최초로 제안(1992)하여 만성적·반복적 외상의 독특한 영향을 이론화"},
+      {"name_ko": "마릴렌 클루아트레", "name_en": "Marylene Cloitre", "contribution": "복합 PTSD의 단계적 치료(STAIR/NT) 프로토콜을 개발하고 효과를 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "대인관계 외상", "name_en": "Interpersonal Trauma", "id": "TRAUMA_IPT_033"},
+      {"name_ko": "경계선성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_001"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "복합 PTSD = PTSD + DSO(자기조직화 장해: 정서조절↓, 자기개념↓, 관계↓)",
+      "differential": "경계선성격장애와 증상이 중첩되나, 복합 PTSD는 명확한 외상 이력과 관련되며 정체성 혼란보다 부정적 자기개념이 핵심이다",
+      "key_point": "ICD-11에는 공식 진단으로 포함되었으나, DSM-5에는 아직 독립 진단으로 포함되지 않았다",
+      "common_mistake": "복합 PTSD를 단순히 심각한 PTSD로 간주하면 안 된다. 자기조직화 장해(DSO)라는 질적으로 다른 증상 차원이 추가된다"
+    }
+  },
+  {
+    "id": "TRAUMA_PGD_007",
+    "terminology": "지속애도장애 (Prolonged Grief Disorder)",
+    "terminology_ko": "지속애도장애",
+    "terminology_en": "Prolonged Grief Disorder",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "가까운 사람의 사망 후 강렬한 그리움, 몰두, 정서적 고통이 비정상적으로 오랜 기간 지속되어 일상 기능에 심각한 장해를 초래하는 상태이다.",
+    "definition_en": "A condition in which intense yearning, preoccupation, and emotional distress following the death of a close person persist for an abnormally prolonged period, causing significant functional impairment.",
+    "significance": "DSM-5-TR에서 새로 추가된 진단으로, 정상 애도와 병적 애도의 경계를 구분하는 임상적 기준을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "홀리 프리거슨", "name_en": "Holly Prigerson", "contribution": "지속애도장애의 진단 기준을 최초로 개발하고 실증적으로 검증"},
+      {"name_ko": "캐서린 쉬어", "name_en": "Katherine Shear", "contribution": "복잡한 애도에 대한 전문 심리치료(Complicated Grief Treatment)를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"},
+      {"name_ko": "적응장애", "name_en": "Adjustment Disorder", "id": "TRAUMA_ADJ_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PGD 핵심: 강렬한 그리움 + 사별 후 12개월(성인) 또는 6개월(아동) 이상 지속",
+      "differential": "주요우울장애는 광범위한 흥미 상실과 무가치감이 핵심이나, 지속애도장애는 고인에 대한 강렬한 그리움과 몰두가 핵심이다",
+      "key_point": "DSM-5-TR에서 새로 추가된 진단으로, 성인은 사별 후 12개월, 아동은 6개월 이상 지속 시 진단한다",
+      "common_mistake": "정상적인 애도 반응을 지속애도장애로 병리화하면 안 된다. 기간과 기능 손상 정도가 진단의 핵심이다"
+    }
+  },
+  {
+    "id": "TRAUMA_INR_008",
+    "terminology": "침습적 재경험 (Intrusive Re-experiencing)",
+    "terminology_ko": "침습적 재경험",
+    "terminology_en": "Intrusive Re-experiencing",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 사건이 원치 않게 반복적으로 기억, 꿈, 플래시백 등의 형태로 재경험되며, 외상 관련 단서에 대해 심리적·생리적 반응이 유발되는 PTSD의 핵심 증상군이다.",
+    "definition_en": "A core PTSD symptom cluster in which the traumatic event is involuntarily re-experienced through recurrent memories, dreams, flashbacks, with psychological and physiological reactions to trauma-related cues.",
+    "significance": "PTSD의 4대 증상군 중 가장 특이적인 증상으로, 외상 기억의 부적절한 저장과 인출 기제를 반영한다.",
+    "key_researchers": [
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "침습적 재경험이 외상 기억의 부적절한 정서 처리를 반영한다는 이론을 제안"},
+      {"name_ko": "아닉 에일러스", "name_en": "Anke Ehlers", "contribution": "침습적 기억의 인지적 기제와 지각적 점화(perceptual priming)의 역할을 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "플래시백", "name_en": "Flashback", "id": "TRAUMA_FLB_009"},
+      {"name_ko": "외상 기억", "name_en": "Trauma Memory", "id": "TRAUMA_TME_015"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [
+      {"name": "침습적 기억", "description": "외상 사건에 대한 원치 않는 반복적 기억"},
+      {"name": "외상 관련 악몽", "description": "외상 내용이 반복되는 괴로운 꿈"},
+      {"name": "플래시백", "description": "외상이 현재 일어나고 있는 것처럼 느끼는 해리적 반응"},
+      {"name": "심리적·생리적 반응", "description": "외상 단서에 대한 강렬한 심리적 고통과 생리적 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "재경험의 4가지 형태: 기억(Memory), 악몽(Nightmare), 플래시백(Flashback), 단서반응(Cue reaction) = MNFC",
+      "differential": "강박사고는 비합리적 침습적 사고이나, 침습적 재경험은 실제 경험한 외상 사건의 기억이 침입하는 것이다",
+      "key_point": "침습적 재경험은 외상 기억이 맥락 정보 없이 감각적·정서적으로 저장된 결과로 설명된다",
+      "common_mistake": "침습적 재경험을 단순한 불쾌한 기억으로 축소하면 안 된다. 플래시백에서는 외상이 현재 일어나는 것처럼 생생하게 경험된다"
+    }
+  },
+  {
+    "id": "TRAUMA_FLB_009",
+    "terminology": "플래시백 (Flashback)",
+    "terminology_ko": "플래시백",
+    "terminology_en": "Flashback",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 사건이 현재 다시 일어나고 있는 것처럼 행동하거나 느끼는 해리적 반응으로, 감각적 생생함과 현실감을 동반한다.",
+    "definition_en": "A dissociative reaction in which the person feels or acts as if the traumatic event is recurring in the present, accompanied by sensory vividness and a sense of reality.",
+    "significance": "PTSD의 가장 극적이고 특이적인 증상으로, 외상 기억이 시간적 맥락 없이 현재의 지각으로 경험되는 기억 처리 이상을 반영한다.",
+    "key_researchers": [
+      {"name_ko": "아닉 에일러스", "name_en": "Anke Ehlers", "contribution": "플래시백의 인지 기제로서 '현재 위협감(sense of current threat)'과 지각적 기억의 역할을 규명"},
+      {"name_ko": "에밀리 홈즈", "name_en": "Emily Holmes", "contribution": "플래시백의 실험적 유발과 예방에 관한 연구로 시공간 과제(테트리스)의 효과를 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "침습적 재경험", "name_en": "Intrusive Re-experiencing", "id": "TRAUMA_INR_008"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"},
+      {"name_ko": "외상 기억", "name_en": "Trauma Memory", "id": "TRAUMA_TME_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "플래시백 = 과거의 외상이 현재의 '생방송'처럼 재생되는 해리적 경험",
+      "differential": "침습적 기억은 과거 사건으로 인식하면서 떠올리는 것이나, 플래시백은 현재 일어나고 있다고 느끼는 해리적 상태이다",
+      "key_point": "현재 일어나고 있다는 시간감각의 상실이 핵심이며, 해리적 반응의 일종으로 분류된다",
+      "common_mistake": "플래시백을 단순히 생생한 기억으로 축소하면 안 된다. 시간감각을 잃고 외상이 현재 재발하는 것으로 경험하는 해리 현상이다"
+    }
+  },
+  {
+    "id": "TRAUMA_NTM_010",
+    "terminology": "악몽 (Trauma-Related Nightmares)",
+    "terminology_ko": "외상 관련 악몽",
+    "terminology_en": "Trauma-Related Nightmares",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 사건의 내용이 반복적으로 꿈에 나타나거나 외상과 관련된 정서가 꿈에 반영되어 각성 후 강한 고통을 유발하는 수면 장해이다.",
+    "definition_en": "A sleep disturbance in which the content of the traumatic event repeatedly appears in dreams or trauma-related affect is reflected in dreams, causing significant distress upon awakening.",
+    "significance": "PTSD 환자의 약 70%가 경험하는 매우 흔한 증상으로, 수면 질 저하를 통해 전반적 증상 악화에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "배리 크라코", "name_en": "Barry Krakow", "contribution": "악몽에 대한 심상시연치료(IRT: Imagery Rehearsal Therapy)를 개발하여 PTSD 악몽 치료에 혁신을 가져옴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "침습적 재경험", "name_en": "Intrusive Re-experiencing", "id": "TRAUMA_INR_008"},
+      {"name_ko": "과각성", "name_en": "Hyperarousal", "id": "TRAUMA_HYP_013"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "외상 악몽의 치료: IRT(심상시연치료) = 깨어 있을 때 악몽의 내용을 새 시나리오로 바꿔 시연",
+      "differential": "일반적 악몽은 내용이 다양하나, 외상 관련 악몽은 특정 외상 사건의 내용이 반복적으로 재현된다",
+      "key_point": "PTSD 환자의 약 70%가 경험하며, 심상시연치료(IRT)가 효과적인 전문 치료법이다",
+      "common_mistake": "외상 악몽을 단순한 수면 문제로 치부하면 안 된다. PTSD의 핵심 침습 증상이며 전문적 치료가 필요하다"
+    }
+  },
+  {
+    "id": "TRAUMA_AVO_011",
+    "terminology": "회피 (Avoidance in PTSD)",
+    "terminology_ko": "회피",
+    "terminology_en": "Avoidance in PTSD",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 사건과 관련된 기억, 생각, 감정, 장소, 사람, 활동 등을 의도적으로 피하려는 지속적인 노력으로, PTSD의 두 번째 증상군이다.",
+    "definition_en": "Persistent efforts to deliberately avoid memories, thoughts, feelings, places, people, and activities associated with the traumatic event, constituting the second symptom cluster of PTSD.",
+    "significance": "회피는 단기적으로 불안을 감소시키지만 장기적으로 외상 기억의 처리를 방해하여 PTSD를 유지시키며, 노출치료의 핵심 치료 대상이다.",
+    "key_researchers": [
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "회피가 외상 기억의 정서적 처리를 방해하여 PTSD를 유지시킨다는 정서처리이론을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "정서적 마비", "name_en": "Emotional Numbing", "id": "TRAUMA_NUM_012"},
+      {"name_ko": "지속노출치료", "name_en": "Prolonged Exposure", "id": "TRAUMA_PET_020"}
+    ],
+    "sub_types": [
+      {"name": "내적 회피", "description": "외상 관련 기억, 생각, 감정을 피하려는 노력"},
+      {"name": "외적 회피", "description": "외상과 관련된 사람, 장소, 대화, 활동, 상황을 피하는 행동"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PTSD 회피 = 내적(기억·생각·감정) + 외적(사람·장소·활동)의 이중 회피",
+      "differential": "회피성 성격장애는 광범위한 사회적 회피이나, PTSD의 회피는 외상 관련 자극에 특이적이다",
+      "key_point": "DSM-5에서 PTSD의 회피는 독립적 증상군(B군)으로, 내적 회피와 외적 회피 중 최소 1개 이상이 필요하다",
+      "common_mistake": "회피를 자발적 선택으로 간주하면 안 된다. 외상 생존자에게는 자동적이고 압도적인 반응이다"
+    }
+  },
+  {
+    "id": "TRAUMA_NUM_012",
+    "terminology": "정서적 마비 (Emotional Numbing)",
+    "terminology_ko": "정서적 마비",
+    "terminology_en": "Emotional Numbing",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "긍정적 정서를 경험하기 어렵고, 타인과의 정서적 연결이 차단되며, 세상이나 미래에 대한 관심과 기대가 현저히 감소하는 PTSD의 인지·기분 변화 증상이다.",
+    "definition_en": "A PTSD symptom involving difficulty experiencing positive emotions, disconnection from others, and markedly diminished interest and expectations about the world and future.",
+    "significance": "PTSD의 '인지와 기분의 부정적 변화' 증상군의 핵심 요소로, 대인관계 기능 저하와 삶의 질 감소에 가장 직접적으로 기여한다.",
+    "key_researchers": [
+      {"name_ko": "테렌스 킨", "name_en": "Terence Keane", "contribution": "정서적 마비가 PTSD의 회피와는 구별되는 독립적 차원임을 요인분석으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "회피", "name_en": "Avoidance in PTSD", "id": "TRAUMA_AVO_011"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정서적 마비 = 감정의 '마취' → 고통도 줄지만 기쁨도 느끼지 못함",
+      "differential": "우울증의 무쾌감증(anhedonia)은 광범위한 흥미 상실이나, PTSD의 정서적 마비는 외상 이후 대인관계와 정서적 연결의 차단이 핵심이다",
+      "key_point": "DSM-5에서 PTSD의 '인지와 기분의 부정적 변화(D군)'에 포함되며, 이전 DSM-IV의 회피 군에서 분리되었다",
+      "common_mistake": "정서적 마비를 우울증으로만 설명하면 안 된다. PTSD 특유의 외상 후 정서적 단절 현상이다"
+    }
+  },
+  {
+    "id": "TRAUMA_HYP_013",
+    "terminology": "과각성 (Hyperarousal)",
+    "terminology_ko": "과각성",
+    "terminology_en": "Hyperarousal",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 후 자율신경계가 지속적으로 과활성화되어 수면 장해, 과민성, 집중 곤란, 과도한 경계, 놀람반응 등이 나타나는 PTSD의 네 번째 증상군이다.",
+    "definition_en": "The fourth PTSD symptom cluster involving persistent autonomic hyperactivation manifested as sleep disturbance, irritability, concentration difficulty, hypervigilance, and exaggerated startle response.",
+    "significance": "외상 후 위협 탐지 시스템이 지속적으로 활성화된 상태를 반영하며, 신체 건강 문제(심혈관계 등)와의 연관성이 주목된다.",
+    "key_researchers": [
+      {"name_ko": "레이첼 예후다", "name_en": "Rachel Yehuda", "contribution": "PTSD에서 HPA축 이상과 코르티솔 반응의 변화를 통한 과각성 기제를 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "놀람반응", "name_en": "Startle Response", "id": "TRAUMA_STR_014"},
+      {"name_ko": "투쟁-도피-동결 반응", "name_en": "Fight-Flight-Freeze Response", "id": "TRAUMA_FFF_031"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과각성 5대 증상: 수면↓, 과민성↑, 집중↓, 경계↑, 놀람↑ = SICHE",
+      "differential": "범불안장애의 과각성은 광범위한 걱정에 의한 것이나, PTSD의 과각성은 외상 사건 이후 시작된 위협 감지 시스템의 과활성화이다",
+      "key_point": "DSM-5에서 과각성(E군)에 무모한/자기파괴적 행동이 새로운 증상으로 추가되었다",
+      "common_mistake": "과각성을 단순히 불안이 많은 상태로 축소하면 안 된다. 위협 탐지 시스템의 지속적 과활성화라는 신경생물학적 기반이 있다"
+    }
+  },
+  {
+    "id": "TRAUMA_STR_014",
+    "terminology": "놀람반응 (Exaggerated Startle Response)",
+    "terminology_ko": "놀람반응",
+    "terminology_en": "Exaggerated Startle Response",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "예기치 않은 소리나 움직임 등의 자극에 대해 과도하고 지속적인 놀람 반응을 보이는 것으로, PTSD 과각성 증상군의 하나이다.",
+    "definition_en": "An excessive and persistent startle reaction to unexpected stimuli such as sounds or movements, one of the hyperarousal symptoms in PTSD.",
+    "significance": "편도체 과활성화와 전전두엽 억제 감소를 반영하는 신경생물학적 지표로, PTSD의 생물학적 기반을 보여주는 객관적 측정 가능한 증상이다.",
+    "key_researchers": [
+      {"name_ko": "스콧 오르", "name_en": "Scott Orr", "contribution": "PTSD에서 놀람반응의 과도한 크기와 습관화 저하를 실험적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "과각성", "name_en": "Hyperarousal", "id": "TRAUMA_HYP_013"},
+      {"name_ko": "투쟁-도피-동결 반응", "name_en": "Fight-Flight-Freeze Response", "id": "TRAUMA_FFF_031"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "놀람반응 = 위험 경보 시스템의 '감도'가 너무 높게 설정된 상태",
+      "differential": "정상적 놀람반응은 빠르게 습관화되나, PTSD에서는 습관화가 지연되어 반복 자극에도 과도한 반응이 지속된다",
+      "key_point": "PTSD에서는 놀람반응의 습관화(habituation)가 저하되어, 반복적 자극에도 반응이 감소하지 않는다",
+      "common_mistake": "놀람반응을 단순한 겁이 많은 성격으로 치부하면 안 된다. 신경생물학적 변화를 반영하는 PTSD 증상이다"
+    }
+  },
+  {
+    "id": "TRAUMA_TME_015",
+    "terminology": "외상 기억 (Trauma Memory)",
+    "terminology_ko": "외상 기억",
+    "terminology_en": "Trauma Memory",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 사건에 대한 기억이 맥락 정보 없이 감각적·정서적 요소 위주로 단편적으로 저장되어, 시간순서 없이 현재 경험처럼 침습적으로 인출되는 기억 현상이다.",
+    "definition_en": "A memory phenomenon in which traumatic event memories are fragmentarily stored with sensory-emotional elements without contextual information, intrusively retrieved as present experiences without temporal order.",
+    "significance": "PTSD의 침습적 재경험을 설명하는 핵심 기억 이론으로, 노출치료의 목표가 외상 기억을 맥락화하고 통합하는 것임을 뒷받침한다.",
+    "key_researchers": [
+      {"name_ko": "아닉 에일러스", "name_en": "Anke Ehlers", "contribution": "외상 기억의 부적절한 맥락화(poor contextualization)가 침습적 재경험의 핵심 기제라는 인지모형을 제안"},
+      {"name_ko": "크리스 브루인", "name_en": "Chris Brewin", "contribution": "이중표상이론(dual representation theory)을 통해 외상 기억의 두 가지 시스템을 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "침습적 재경험", "name_en": "Intrusive Re-experiencing", "id": "TRAUMA_INR_008"},
+      {"name_ko": "플래시백", "name_en": "Flashback", "id": "TRAUMA_FLB_009"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"},
+      {"name_ko": "해리성 기억상실", "name_en": "Dissociative Amnesia", "id": "SOMDIS_DAM_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "외상 기억 = 편집 안 된 '날것의 영상' → 시간·장소 태그 없이 감각 그대로 저장",
+      "differential": "일반 자전적 기억은 시간적 맥락과 함께 서술적으로 인출되나, 외상 기억은 맥락 없이 감각적으로 침입한다",
+      "key_point": "치료의 핵심은 단편적 감각 기억을 시간적 맥락이 있는 서술적 기억(narrative memory)으로 통합하는 것이다",
+      "common_mistake": "외상 기억이 항상 완전히 억압된다고 생각하면 안 된다. 오히려 침습적으로 과도하게 활성화되는 것이 핵심 문제이다"
+    }
+  },
+  {
+    "id": "TRAUMA_DIS_016",
+    "terminology": "해리 (Dissociation)",
+    "terminology_ko": "해리",
+    "terminology_en": "Dissociation",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "의식, 기억, 정체감, 감정, 지각, 행동, 신체 표상의 정상적 통합이 붕괴되거나 불연속되는 경험으로, 외상에 대한 방어 기제로 작용한다.",
+    "definition_en": "An experience of disruption or discontinuity in the normal integration of consciousness, memory, identity, emotion, perception, behavior, and body representation, functioning as a defense against trauma.",
+    "significance": "PTSD의 해리 하위유형 인정은 외상 반응의 다양성을 보여주며, 해리 수준에 따라 치료 접근(안정화 우선)이 달라진다.",
+    "key_researchers": [
+      {"name_ko": "베셀 반 데어 콜크", "name_en": "Bessel van der Kolk", "contribution": "외상 후 해리 반응의 신경생물학적 기제와 신체적 영향을 체계적으로 연구"},
+      {"name_ko": "온노 반 데어 하트", "name_en": "Onno van der Hart", "contribution": "구조적 해리 이론을 통해 외상 관련 해리의 체계적 분류를 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "이인증", "name_en": "Depersonalization", "id": "TRAUMA_DEP_017"},
+      {"name_ko": "비현실감", "name_en": "Derealization", "id": "TRAUMA_DER_018"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_004"},
+      {"name_ko": "플래시백", "name_en": "Flashback", "id": "TRAUMA_FLB_009"}
+    ],
+    "sub_types": [
+      {"name": "이인증", "description": "자기 자신에서 분리된 느낌, 관찰자가 된 느낌"},
+      {"name": "비현실감", "description": "주변 환경이 비현실적이거나 꿈 같은 느낌"},
+      {"name": "해리성 기억상실", "description": "외상 사건에 대한 중요한 측면을 기억하지 못함"},
+      {"name": "정체감 해리", "description": "자기 정체감의 분리나 변화를 경험"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "해리 = 압도적 외상에 대한 '정신적 비상구' → 의식의 통합이 깨짐",
+      "differential": "불안은 위협에 대한 과활성화 반응이나, 해리는 위협에 대한 비활성화(shutdown) 반응이다",
+      "key_point": "DSM-5에서 PTSD의 해리 하위유형(이인증/비현실감)이 공식적으로 인정되었다",
+      "common_mistake": "해리를 꾀병이나 연기로 오해하면 안 된다. 외상에 대한 불수의적 신경생물학적 방어 반응이다"
+    }
+  },
+  {
+    "id": "TRAUMA_DEP_017",
+    "terminology": "이인증 (Depersonalization)",
+    "terminology_ko": "이인증",
+    "terminology_en": "Depersonalization",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "자기 자신의 사고, 감정, 감각, 신체로부터 분리되거나 외부 관찰자가 된 것처럼 느끼는 해리적 경험이다.",
+    "definition_en": "A dissociative experience of feeling detached from one's own thoughts, feelings, sensations, or body, as if being an outside observer of oneself.",
+    "significance": "PTSD 해리 하위유형의 두 가지 핵심 증상 중 하나로, 과활성화(과각성)와 대비되는 비활성화 반응을 나타낸다.",
+    "key_researchers": [
+      {"name_ko": "루스 라니어스", "name_en": "Ruth Lanius", "contribution": "PTSD 해리 하위유형에서 이인증의 신경생물학적 기반(전전두엽 과활성화)을 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비현실감", "name_en": "Derealization", "id": "TRAUMA_DER_018"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이인증 = De(분리) + Person(자기) + alization → 자기 자신에서 분리된 느낌",
+      "differential": "이인증은 자기 자신에서 분리된 느낌이고, 비현실감은 외부 세계에서 분리된 느낌이다",
+      "key_point": "현실검증력은 유지된다. 즉, '분리된 것 같다'고 느끼면서도 실제로 분리되지 않았음을 인식한다",
+      "common_mistake": "이인증을 정신증적 증상으로 오해하면 안 된다. 현실검증력이 유지되는 해리적 경험이다"
+    }
+  },
+  {
+    "id": "TRAUMA_DER_018",
+    "terminology": "비현실감 (Derealization)",
+    "terminology_ko": "비현실감",
+    "terminology_en": "Derealization",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "주변 환경이 비현실적이거나 꿈 같거나, 왜곡되거나, 멀리 떨어져 있는 것처럼 느끼는 해리적 경험이다.",
+    "definition_en": "A dissociative experience in which surroundings feel unreal, dreamlike, distorted, or distant, as if separated from the external world.",
+    "significance": "이인증과 함께 PTSD 해리 하위유형의 핵심 증상이며, 압도적 외상에 대한 과억제(over-modulation) 반응을 반영한다.",
+    "key_researchers": [
+      {"name_ko": "루스 라니어스", "name_en": "Ruth Lanius", "contribution": "비현실감이 정서 과억제(overmodulation)의 산물임을 신경영상 연구로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "이인증", "name_en": "Depersonalization", "id": "TRAUMA_DEP_017"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비현실감 = De(분리) + Real(현실) + ization → 현실 세계에서 분리된 느낌",
+      "differential": "이인증이 '내가 나 같지 않다'이면, 비현실감은 '세상이 진짜 같지 않다'이다",
+      "key_point": "과각성(과활성화)과 대비되는 비활성화(shutdown) 반응으로, PTSD 해리 하위유형에서 관찰된다",
+      "common_mistake": "비현실감을 정신증의 현실왜곡과 혼동하면 안 된다. 비현실감에서는 '세상이 비현실적으로 느껴진다'는 주관적 경험이며 현실검증력은 유지된다"
+    }
+  },
+  {
+    "id": "TRAUMA_EMD_019",
+    "terminology": "안구운동 민감소실 및 재처리 (EMDR)",
+    "terminology_ko": "안구운동 민감소실 및 재처리",
+    "terminology_en": "Eye Movement Desensitization and Reprocessing",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 기억을 떠올리면서 치료자의 손가락을 따라 눈을 좌우로 움직이는 양측성 자극을 통해 외상 기억의 재처리를 촉진하는 심리치료법이다.",
+    "definition_en": "A psychotherapy that facilitates reprocessing of trauma memories through bilateral stimulation, typically side-to-side eye movements following the therapist's finger, while recalling traumatic memories.",
+    "significance": "PTSD 치료에서 노출치료와 동등한 효과를 보이는 근거 기반 치료법으로, WHO와 APA 모두 1차 치료로 권고하고 있다.",
+    "key_researchers": [
+      {"name_ko": "프랜신 샤피로", "name_en": "Francine Shapiro", "contribution": "EMDR을 최초로 개발(1987)하고 8단계 프로토콜을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 기억", "name_en": "Trauma Memory", "id": "TRAUMA_TME_015"},
+      {"name_ko": "지속노출치료", "name_en": "Prolonged Exposure", "id": "TRAUMA_PET_020"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "EMDR 8단계: 병력→준비→평가→민감소실→주입→신체검색→종결→재평가",
+      "differential": "지속노출치료(PE)는 외상 기억에 대한 장시간 노출이 핵심이나, EMDR은 양측성 자극을 통한 기억 재처리가 핵심이다",
+      "key_point": "안구운동이라는 양측성 자극의 작용 기제에 대해서는 논쟁이 있으나, 전체 치료 패키지의 효과는 충분히 입증되었다",
+      "common_mistake": "EMDR의 효과가 안구운동에만 기인한다고 단정하면 안 된다. 노출, 인지 재구조화 등 다중 요소가 작용한다"
+    }
+  },
+  {
+    "id": "TRAUMA_PET_020",
+    "terminology": "지속노출치료 (Prolonged Exposure)",
+    "terminology_ko": "지속노출치료",
+    "terminology_en": "Prolonged Exposure",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 기억에 대한 상상적 노출(imaginal exposure)과 회피하던 상황에 대한 실제 노출(in vivo exposure)을 체계적으로 반복하여 외상 기억의 정서적 처리를 촉진하는 치료법이다.",
+    "definition_en": "A therapy that systematically facilitates emotional processing of trauma memories through repeated imaginal exposure to the trauma memory and in vivo exposure to avoided situations.",
+    "significance": "PTSD 치료에서 가장 강력한 경험적 근거를 가진 심리치료법으로, Foa의 정서처리이론에 기반한다.",
+    "key_researchers": [
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "지속노출치료(PE)의 프로토콜을 개발하고 대규모 효과 연구를 수행"},
+      {"name_ko": "바바라 로스바움", "name_en": "Barbara Rothbaum", "contribution": "PE의 효과를 다양한 외상 유형과 문화에서 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 기억", "name_en": "Trauma Memory", "id": "TRAUMA_TME_015"},
+      {"name_ko": "회피", "name_en": "Avoidance in PTSD", "id": "TRAUMA_AVO_011"},
+      {"name_ko": "EMDR", "name_en": "EMDR", "id": "TRAUMA_EMD_019"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PE의 2대 요소: 상상 노출(외상 기억 반복 회상) + 실제 노출(회피 상황 직면)",
+      "differential": "인지처리치료(CPT)는 외상 관련 인지 왜곡의 수정에 초점을 맞추나, PE는 외상 기억에 대한 직접적 노출과 정서 처리에 초점을 맞춘다",
+      "key_point": "Foa의 정서처리이론에 기반하며, 치료 중 외상 기억의 '습관화'와 '정서적 처리'가 핵심 치료 기제이다",
+      "common_mistake": "지속노출치료가 환자를 재외상화시킨다고 오해하면 안 된다. 안전한 치료 환경에서 체계적으로 진행된다"
+    }
+  },
+  {
+    "id": "TRAUMA_CPR_021",
+    "terminology": "인지처리치료 (Cognitive Processing Therapy)",
+    "terminology_ko": "인지처리치료",
+    "terminology_en": "Cognitive Processing Therapy",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 경험에 대한 인지적 왜곡(고착점)을 확인하고 소크라테스식 질문을 통해 수정하여, 외상 관련 신념의 변화를 촉진하는 인지행동치료법이다.",
+    "definition_en": "A cognitive-behavioral therapy that identifies cognitive distortions (stuck points) about the traumatic experience and modifies them through Socratic questioning to promote change in trauma-related beliefs.",
+    "significance": "PE와 함께 PTSD 치료의 양대 근거 기반 치료법으로, 인지적 접근을 선호하는 환자에게 대안을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "패트리샤 레식", "name_en": "Patricia Resick", "contribution": "인지처리치료(CPT)를 개발하고 성폭력 생존자를 대상으로 효과를 최초로 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지속노출치료", "name_en": "Prolonged Exposure", "id": "TRAUMA_PET_020"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CPT의 핵심 = '고착점(stuck points)' 찾기 → 소크라테스식 질문으로 인지 수정",
+      "differential": "PE는 외상 기억에 대한 직접 노출이 핵심이나, CPT는 외상 관련 인지 왜곡(고착점)의 수정이 핵심이다",
+      "key_point": "안전, 신뢰, 통제, 존중, 친밀감의 5개 주제에서 나타나는 인지 왜곡(고착점)을 다룬다",
+      "common_mistake": "CPT를 일반적 인지치료와 동일시하면 안 된다. 외상 특화된 인지적 접근으로 고착점 개념이 고유하다"
+    }
+  },
+  {
+    "id": "TRAUMA_TFC_022",
+    "terminology": "외상초점 인지행동치료 (Trauma-Focused CBT)",
+    "terminology_ko": "외상초점 인지행동치료",
+    "terminology_en": "Trauma-Focused Cognitive Behavioral Therapy",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상을 경험한 아동·청소년과 그 보호자를 대상으로 개발된 근거 기반 인지행동치료로, 심리교육, 이완, 정서조절, 인지처리, 외상 서술을 포함한다.",
+    "definition_en": "An evidence-based cognitive-behavioral therapy designed for children and adolescents who have experienced trauma and their caregivers, including psychoeducation, relaxation, emotion regulation, cognitive processing, and trauma narrative.",
+    "significance": "아동 외상 치료에서 가장 강력한 경험적 근거를 가진 치료법으로, 보호자의 적극적 참여가 포함된다는 특징이 있다.",
+    "key_researchers": [
+      {"name_ko": "주디스 코헨", "name_en": "Judith Cohen", "contribution": "아동·청소년을 위한 외상초점 CBT(TF-CBT)를 개발하고 다수의 RCT를 통해 효과를 입증"},
+      {"name_ko": "앤소니 마나리노", "name_en": "Anthony Mannarino", "contribution": "TF-CBT의 공동 개발자로서 아동 성학대 외상 치료에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지처리치료", "name_en": "Cognitive Processing Therapy", "id": "TRAUMA_CPR_021"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "역경적 아동기 경험", "name_en": "Adverse Childhood Experiences", "id": "TRAUMA_ACE_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TF-CBT의 PRACTICE: 심리교육, 이완, 정서표현, 인지대처, 외상서술, 실제 통합, 부모 공동, 안전 향상",
+      "differential": "성인 대상 PE/CPT와 달리, TF-CBT는 보호자의 치료 참여와 아동 발달 수준에 맞춘 개입이 핵심이다",
+      "key_point": "아동 외상 치료의 금본위(gold standard)로, 보호자가 치료의 적극적 참여자가 된다",
+      "common_mistake": "아동에게 성인 대상 외상 치료(PE, CPT)를 그대로 적용해도 된다고 생각하면 안 된다. 아동에게는 TF-CBT가 1차 선택이다"
+    }
+  },
+  {
+    "id": "TRAUMA_DEB_023",
+    "terminology": "심리적 디브리핑 (Psychological Debriefing)",
+    "terminology_ko": "심리적 디브리핑",
+    "terminology_en": "Psychological Debriefing",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상 사건 직후 생존자들에게 사건에 대해 상세히 이야기하고 정서를 표현하도록 촉진하는 단회기 위기 개입 기법이다.",
+    "definition_en": "A single-session crisis intervention technique that encourages trauma survivors to talk in detail about the event and express their emotions shortly after the traumatic experience.",
+    "significance": "한때 널리 시행되었으나 PTSD 예방 효과가 없고 오히려 해로울 수 있다는 연구 결과가 축적되어, 현재는 권장되지 않는 대표적 사례이다.",
+    "key_researchers": [
+      {"name_ko": "제프리 미첼", "name_en": "Jeffrey Mitchell", "contribution": "위기사건 스트레스 디브리핑(CISD) 모델을 개발하여 초기 위기 개입의 체계를 마련"},
+      {"name_ko": "사이먼 웨셀리", "name_en": "Simon Wessely", "contribution": "심리적 디브리핑의 비효과성과 잠재적 유해성에 대한 메타분석을 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "위기 개입", "name_en": "Crisis Intervention", "id": "TRAUMA_CRI_024"},
+      {"name_ko": "급성 스트레스장애", "name_en": "Acute Stress Disorder", "id": "TRAUMA_ASD_002"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "디브리핑 = '좋은 의도, 나쁜 결과' → 증거 기반 실천의 중요성을 보여주는 사례",
+      "differential": "심리적 응급처치(PFA)는 안전·안정·연결에 초점을 맞추나, 디브리핑은 외상 경험의 상세한 재술에 초점을 맞추어 역효과를 낸다",
+      "key_point": "PTSD 예방에 효과가 없으며 오히려 해로울 수 있어 현재 대부분의 가이드라인에서 권장하지 않는다",
+      "common_mistake": "외상 직후에 사건을 상세히 이야기하는 것이 항상 도움이 된다고 생각하면 안 된다. 시기상조의 노출은 해로울 수 있다"
+    }
+  },
+  {
+    "id": "TRAUMA_CRI_024",
+    "terminology": "위기 개입 (Crisis Intervention)",
+    "terminology_ko": "위기 개입",
+    "terminology_en": "Crisis Intervention",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "외상이나 위기 상황 직후 즉각적인 심리적 안정화, 안전 확보, 기본 욕구 충족, 사회적 연결을 제공하여 급성기 고통을 경감시키는 단기 개입이다.",
+    "definition_en": "A short-term intervention immediately following trauma or crisis that provides psychological stabilization, safety, basic needs, and social connection to reduce acute distress.",
+    "significance": "심리적 응급처치(PFA)로 대표되는 현대적 위기 개입은 디브리핑의 실패에서 교훈을 얻어 안정화와 연결에 초점을 맞춘다.",
+    "key_researchers": [
+      {"name_ko": "패트리샤 왓슨", "name_en": "Patricia Watson", "contribution": "심리적 응급처치(PFA) 프로토콜의 개발과 보급에 핵심적으로 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "심리적 디브리핑", "name_en": "Psychological Debriefing", "id": "TRAUMA_DEB_023"},
+      {"name_ko": "급성 스트레스장애", "name_en": "Acute Stress Disorder", "id": "TRAUMA_ASD_002"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "TRAUMA_RES_029"}
+    ],
+    "sub_types": [
+      {"name": "심리적 응급처치(PFA)", "description": "안전, 진정, 효능감, 연결, 희망의 5대 원칙에 기반한 위기 개입"},
+      {"name": "위기 상담", "description": "위기 상황에서 단기적 문제 해결과 정서적 지지를 제공"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PFA 5대 원칙: 안전(Safety), 진정(Calming), 효능감(Efficacy), 연결(Connection), 희망(Hope) = SCECH",
+      "differential": "디브리핑은 외상 재술을 촉진하나, PFA는 안정화와 기본 욕구 충족에 초점을 맞춘다",
+      "key_point": "심리적 응급처치(PFA)는 외상 경험의 상세한 재술을 강요하지 않고 안전·안정·연결에 초점을 맞춘다",
+      "common_mistake": "위기 개입에서 외상 경험을 상세히 탐색하려고 하면 안 된다. 급성기에는 안정화가 우선이다"
+    }
+  },
+  {
+    "id": "TRAUMA_MOR_025",
+    "terminology": "도덕적 손상 (Moral Injury)",
+    "terminology_ko": "도덕적 손상",
+    "terminology_en": "Moral Injury",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "자신이 깊이 가지고 있는 도덕적 신념이나 윤리적 기준을 위반하는 사건을 목격, 저지르거나 방지하지 못한 경험으로 인한 심리적 고통이다.",
+    "definition_en": "Psychological distress resulting from witnessing, perpetrating, or failing to prevent events that violate one's deeply held moral beliefs or ethical standards.",
+    "significance": "전통적 PTSD 모형(공포 기반)으로 설명되지 않는 외상 후 수치심, 죄책감, 분노의 원인을 설명하는 비교적 새로운 개념이다.",
+    "key_researchers": [
+      {"name_ko": "조너선 셰이", "name_en": "Jonathan Shay", "contribution": "도덕적 손상 개념을 전쟁 참전용사 맥락에서 최초로 제안"},
+      {"name_ko": "브렛 리츠", "name_en": "Brett Litz", "contribution": "도덕적 손상의 개념적 모형과 측정 도구를 개발하여 실증적 연구의 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "이차적 외상 스트레스", "name_en": "Secondary Traumatic Stress", "id": "TRAUMA_STS_026"},
+      {"name_ko": "복합 PTSD", "name_en": "Complex PTSD", "id": "TRAUMA_CPT_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도덕적 손상 = '공포'가 아닌 '수치심·죄책감'이 핵심 정서인 외상",
+      "differential": "전통적 PTSD는 생명 위협에 대한 공포가 핵심이나, 도덕적 손상은 도덕적 위반에 대한 수치심과 죄책감이 핵심이다",
+      "key_point": "공포 기반 외상과 달리 수치심과 죄책감이 핵심 정서이며, 공포 소거 기반 치료(PE)만으로는 충분하지 않을 수 있다",
+      "common_mistake": "도덕적 손상을 PTSD와 동일시하면 안 된다. 공포가 아닌 도덕적 정서(수치심, 죄책감)가 중심이라는 점에서 구별된다"
+    }
+  },
+  {
+    "id": "TRAUMA_STS_026",
+    "terminology": "이차적 외상 스트레스 (Secondary Traumatic Stress)",
+    "terminology_ko": "이차적 외상 스트레스",
+    "terminology_en": "Secondary Traumatic Stress",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "직접 외상을 경험하지 않았으나 외상 생존자를 돌보거나 그들의 이야기를 듣는 과정에서 PTSD와 유사한 증상이 발생하는 현상이다.",
+    "definition_en": "A phenomenon in which PTSD-like symptoms develop in individuals who did not directly experience trauma but were exposed to it through caring for or hearing the stories of trauma survivors.",
+    "significance": "정신건강 전문가, 응급구조사, 간호사 등 도움 제공자의 직업적 위험 요인으로, 전문가의 자기돌봄과 슈퍼비전의 중요성을 뒷받침한다.",
+    "key_researchers": [
+      {"name_ko": "찰스 피글리", "name_en": "Charles Figley", "contribution": "'동정 피로(compassion fatigue)' 개념을 제안하고 이차적 외상의 체계적 연구를 개척"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "세대간 외상", "name_en": "Intergenerational Trauma", "id": "TRAUMA_IGT_027"},
+      {"name_ko": "도덕적 손상", "name_en": "Moral Injury", "id": "TRAUMA_MOR_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이차적 외상 = '공감의 비용' → 타인의 외상에 공감하다가 자신도 외상화됨",
+      "differential": "소진(burnout)은 만성적 업무 스트레스에 의한 전반적 탈진이나, 이차적 외상 스트레스는 타인의 외상 노출로 인한 PTSD 유사 증상이다",
+      "key_point": "DSM-5에서 PTSD 진단 기준 A(외상 노출)에 '직업적 노출'이 포함되어 간접 외상의 영향이 공식 인정되었다",
+      "common_mistake": "이차적 외상 스트레스를 단순한 직업적 스트레스나 소진과 동일시하면 안 된다. PTSD와 유사한 특이적 증상 프로필을 보인다"
+    }
+  },
+  {
+    "id": "TRAUMA_IGT_027",
+    "terminology": "세대간 외상 (Intergenerational Trauma)",
+    "terminology_ko": "세대간 외상",
+    "terminology_en": "Intergenerational Trauma",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "부모나 조부모가 경험한 외상의 심리적·생물학적 영향이 직접 외상을 경험하지 않은 후속 세대에게 전달되는 현상이다.",
+    "definition_en": "A phenomenon in which the psychological and biological effects of trauma experienced by parents or grandparents are transmitted to subsequent generations who did not directly experience the trauma.",
+    "significance": "후성유전학적 기제(코르티솔 반응의 세대간 전달)와 양육 행동을 통한 외상의 세대간 전달은 외상의 장기적·사회적 영향을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "레이첼 예후다", "name_en": "Rachel Yehuda", "contribution": "홀로코스트 생존자의 자녀에서 HPA축 변화를 발견하여 후성유전적 외상 전달의 근거를 제공"},
+      {"name_ko": "마리아 옐로 호스 브레이브 하트", "name_en": "Maria Yellow Horse Brave Heart", "contribution": "원주민 공동체에서의 역사적 외상(historical trauma) 개념을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "역경적 아동기 경험", "name_en": "Adverse Childhood Experiences", "id": "TRAUMA_ACE_028"},
+      {"name_ko": "이차적 외상 스트레스", "name_en": "Secondary Traumatic Stress", "id": "TRAUMA_STS_026"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "세대간 외상 전달 경로: 후성유전(코르티솔 변화) + 양육행동(불안정 애착) + 가족 내러티브",
+      "differential": "이차적 외상 스트레스는 타인의 외상 이야기에 노출되어 발생하나, 세대간 외상은 부모의 외상이 생물학적·행동적으로 자녀에게 전달된다",
+      "key_point": "후성유전학적 기제(DNA 메틸화 등)를 통해 외상의 생물학적 영향이 세대를 넘어 전달될 수 있다",
+      "common_mistake": "세대간 외상을 단순히 '외상 이야기를 듣고 자란 것'으로 축소하면 안 된다. 후성유전적 변화를 포함하는 생물학적 경로가 있다"
+    }
+  },
+  {
+    "id": "TRAUMA_ACE_028",
+    "terminology": "역경적 아동기 경험 (Adverse Childhood Experiences)",
+    "terminology_ko": "역경적 아동기 경험",
+    "terminology_en": "Adverse Childhood Experiences",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "아동기에 경험한 학대, 방임, 가정 내 역기능(부모의 약물남용, 정신질환, 이혼, 가정폭력 등)을 포괄하는 부정적 경험으로, 누적될수록 성인기 건강 문제가 증가한다.",
+    "definition_en": "Negative experiences in childhood encompassing abuse, neglect, and household dysfunction (parental substance abuse, mental illness, divorce, domestic violence), with cumulative exposure increasing adult health problems.",
+    "significance": "ACE 점수가 높을수록 성인기 정신·신체 건강 문제, 사회적 문제의 위험이 용량-반응적으로 증가한다는 대규모 역학 연구의 핵심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "빈센트 펠리티", "name_en": "Vincent Felitti", "contribution": "ACE 연구를 최초로 설계하고 수행하여 아동기 역경과 성인 건강의 관계를 입증"},
+      {"name_ko": "로버트 안다", "name_en": "Robert Anda", "contribution": "CDC와 협력하여 대규모 ACE 연구를 수행하고 공중보건적 함의를 도출"}
+    ],
+    "related_concepts": [
+      {"name_ko": "세대간 외상", "name_en": "Intergenerational Trauma", "id": "TRAUMA_IGT_027"},
+      {"name_ko": "복합 PTSD", "name_en": "Complex PTSD", "id": "TRAUMA_CPT_006"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "TRAUMA_RES_029"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSV_008"}
+    ],
+    "sub_types": [
+      {"name": "학대", "description": "신체적, 정서적, 성적 학대"},
+      {"name": "방임", "description": "신체적, 정서적 방임"},
+      {"name": "가정 역기능", "description": "부모 약물남용, 정신질환, 가정폭력, 이혼, 수감"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ACE 10문항: 학대 3(신체·정서·성) + 방임 2(신체·정서) + 가정역기능 5",
+      "differential": "외상은 특정 사건을 가리키나, ACE는 아동기 부정적 경험의 누적적 영향을 측정하는 역학적 개념이다",
+      "key_point": "ACE 점수와 성인기 건강 문제 사이에는 용량-반응(dose-response) 관계가 있다. ACE 4점 이상은 위험이 크게 증가한다",
+      "common_mistake": "ACE 점수가 높다고 반드시 정신장애가 발생한다고 단정하면 안 된다. 보호 요인과 회복탄력성이 결과를 조절한다"
+    }
+  },
+  {
+    "id": "TRAUMA_RES_029",
+    "terminology": "회복탄력성 (Resilience)",
+    "terminology_ko": "회복탄력성",
+    "terminology_en": "Resilience",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "심각한 역경, 외상, 위협에 직면하여도 긍정적 적응을 유지하거나 빠르게 회복하는 역동적 과정이며, 고정된 특성이 아닌 발달 가능한 능력이다.",
+    "definition_en": "A dynamic process of maintaining positive adaptation or recovering quickly in the face of significant adversity, trauma, or threat, a developable capacity rather than a fixed trait.",
+    "significance": "외상 경험 후 대부분의 사람이 PTSD가 아닌 회복 경로를 따른다는 연구 결과는 강점 기반 접근과 예방적 개입의 중요성을 뒷받침한다.",
+    "key_researchers": [
+      {"name_ko": "조지 보나노", "name_en": "George Bonanno", "contribution": "외상 후 회복탄력성이 가장 흔한 반응 경로임을 대규모 종단 연구로 입증"},
+      {"name_ko": "앤 매스턴", "name_en": "Ann Masten", "contribution": "'평범한 마법(ordinary magic)' 개념을 통해 회복탄력성이 특별한 능력이 아닌 보편적 적응 과정임을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 성장", "name_en": "Post-Traumatic Growth", "id": "TRAUMA_PTG_030"},
+      {"name_ko": "역경적 아동기 경험", "name_en": "Adverse Childhood Experiences", "id": "TRAUMA_ACE_028"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "회복탄력성 = '고무공'처럼 튀어오르는 능력 → 고정 특성이 아닌 발달 가능한 과정",
+      "differential": "외상 후 성장은 외상 이전 수준을 넘어서는 긍정적 변화이나, 회복탄력성은 외상 이전 기능 수준으로의 빠른 복귀이다",
+      "key_point": "외상 경험 후 가장 흔한 경로는 PTSD가 아닌 회복탄력성(약 65%)이라는 점이 중요하다",
+      "common_mistake": "회복탄력성을 특별한 소수만 가진 고유한 능력으로 간주하면 안 된다. Masten은 이를 '평범한 마법'이라 표현했다"
+    }
+  },
+  {
+    "id": "TRAUMA_PTG_030",
+    "terminology": "외상 후 성장 (Post-Traumatic Growth)",
+    "terminology_ko": "외상 후 성장",
+    "terminology_en": "Post-Traumatic Growth",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "매우 도전적인 삶의 위기와의 투쟁을 통해 외상 이전 수준을 넘어서는 긍정적 심리적 변화를 경험하는 현상이다.",
+    "definition_en": "A phenomenon of positive psychological change experienced as a result of the struggle with highly challenging life crises, exceeding pre-trauma levels of functioning.",
+    "significance": "외상의 긍정적 결과 가능성을 조명하여 병리 중심 관점을 보완하며, 의미 만들기(meaning-making)의 치료적 중요성을 뒷받침한다.",
+    "key_researchers": [
+      {"name_ko": "리처드 테데스키", "name_en": "Richard Tedeschi", "contribution": "외상 후 성장 개념을 최초로 체계화하고 측정도구(PTGI)를 개발"},
+      {"name_ko": "로렌스 칼훈", "name_en": "Lawrence Calhoun", "contribution": "외상 후 성장의 이론적 모형을 공동 개발하고 5개 성장 영역을 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "TRAUMA_RES_029"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "역경적 아동기 경험", "name_en": "Adverse Childhood Experiences", "id": "TRAUMA_ACE_028"}
+    ],
+    "sub_types": [
+      {"name": "대인관계 향상", "description": "타인과의 관계가 더 깊어지고 친밀해짐"},
+      {"name": "새로운 가능성 발견", "description": "삶에서 새로운 경로나 기회를 발견"},
+      {"name": "개인적 강점 인식", "description": "자신의 강점과 능력에 대한 새로운 인식"},
+      {"name": "영적 변화", "description": "실존적·영적 의미의 깊어짐"},
+      {"name": "삶에 대한 감사", "description": "삶의 가치와 의미에 대한 깊어진 감사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PTG 5대 영역: 관계(Relating), 가능성(Opportunities), 강점(Strength), 영성(Spiritual), 감사(Appreciation) = ROSSA",
+      "differential": "회복탄력성은 외상 이전 수준으로의 복귀이나, 외상 후 성장은 외상 이전보다 더 높은 수준의 심리적 기능을 달성하는 것이다",
+      "key_point": "PTG는 외상의 고통 자체가 아닌, 고통과의 '투쟁(struggle)' 과정에서 발생한다",
+      "common_mistake": "외상 후 성장을 PTSD의 부재로 간주하면 안 된다. PTSD 증상과 성장이 공존할 수 있다"
+    }
+  },
+  {
+    "id": "TRAUMA_FFF_031",
+    "terminology": "투쟁-도피-동결 반응 (Fight-Flight-Freeze Response)",
+    "terminology_ko": "투쟁-도피-동결 반응",
+    "terminology_en": "Fight-Flight-Freeze Response",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "위협에 직면했을 때 활성화되는 자율신경계의 생존 반응으로, 맞서 싸우거나(투쟁), 도망치거나(도피), 얼어붙는(동결) 세 가지 패턴으로 나타난다.",
+    "definition_en": "An autonomic nervous system survival response activated when facing threat, manifesting in three patterns: confronting the threat (fight), escaping (flight), or immobilizing (freeze).",
+    "significance": "PTSD의 과각성 증상과 해리 반응을 이해하는 진화적 기반을 제공하며, 외상 반응이 의지적 선택이 아닌 생존 본능임을 설명한다.",
+    "key_researchers": [
+      {"name_ko": "월터 캐넌", "name_en": "Walter Cannon", "contribution": "투쟁-도피(fight-flight) 반응을 최초로 기술하여 스트레스 생리학의 기초를 마련"},
+      {"name_ko": "스티븐 포지스", "name_en": "Stephen Porges", "contribution": "다미주신경이론(polyvagal theory)을 통해 동결 반응의 신경생물학적 기제를 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "과각성", "name_en": "Hyperarousal", "id": "TRAUMA_HYP_013"},
+      {"name_ko": "해리", "name_en": "Dissociation", "id": "TRAUMA_DIS_016"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [
+      {"name": "투쟁(Fight)", "description": "위협에 맞서 공격적으로 대응하는 교감신경 활성화 반응"},
+      {"name": "도피(Flight)", "description": "위협으로부터 도망치는 교감신경 활성화 반응"},
+      {"name": "동결(Freeze)", "description": "움직이지 못하고 얼어붙는 배쪽 미주신경 반응"},
+      {"name": "복종(Fawn)", "description": "위협에 순응하고 상대를 달래는 사회적 생존 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "3F+1F: Fight(싸우기), Flight(도망치기), Freeze(얼어붙기) + Fawn(순응하기)",
+      "differential": "투쟁/도피는 교감신경 과활성화(과각성)이나, 동결은 부교감신경(배쪽미주신경)의 비활성화(해리)이다",
+      "key_point": "동결(freeze) 반응은 의지적 선택이 아닌 불수의적 신경반응이며, 이것이 외상 생존자의 자기비난을 이해하는 데 중요하다",
+      "common_mistake": "동결 반응을 겁쟁이의 선택으로 오해하면 안 된다. 불수의적 신경생물학적 생존 반응이다"
+    }
+  },
+  {
+    "id": "TRAUMA_NAT_032",
+    "terminology": "자연재해 외상 (Natural Disaster Trauma)",
+    "terminology_ko": "자연재해 외상",
+    "terminology_en": "Natural Disaster Trauma",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "지진, 홍수, 태풍, 산불 등 자연재해로 인한 심리적 외상으로, 지역사회 전체가 영향을 받으며 물리적 파괴와 상실이 동반된다.",
+    "definition_en": "Psychological trauma resulting from natural disasters such as earthquakes, floods, hurricanes, and wildfires, affecting entire communities with accompanying physical destruction and loss.",
+    "significance": "대규모 집단 외상의 대표적 유형으로, 개인치료뿐 아니라 지역사회 기반 개입과 공중보건적 접근이 필요하다.",
+    "key_researchers": [
+      {"name_ko": "수잔 노렌-호크세마", "name_en": "Susan Nolen-Hoeksema", "contribution": "자연재해 이후 반추가 심리적 적응에 미치는 부정적 영향을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "TRAUMA_RES_029"},
+      {"name_ko": "위기 개입", "name_en": "Crisis Intervention", "id": "TRAUMA_CRI_024"},
+      {"name_ko": "대인관계 외상", "name_en": "Interpersonal Trauma", "id": "TRAUMA_IPT_033"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자연재해 외상의 특징: 집단적 + 물리적 파괴 + 비의도적(가해자 없음)",
+      "differential": "대인관계 외상은 인간에 의한 의도적 가해로 신뢰 훼손이 핵심이나, 자연재해 외상은 가해자가 없어 대인 신뢰 훼손이 덜하다",
+      "key_point": "자연재해 외상은 대인관계 외상보다 PTSD 발생률이 상대적으로 낮고 회복이 빠른 경향이 있다",
+      "common_mistake": "자연재해 외상이 대인관계 외상보다 항상 덜 심각하다고 단정하면 안 된다. 개인차가 크며 심각한 PTSD로 이어질 수 있다"
+    }
+  },
+  {
+    "id": "TRAUMA_IPT_033",
+    "terminology": "대인관계 외상 (Interpersonal Trauma)",
+    "terminology_ko": "대인관계 외상",
+    "terminology_en": "Interpersonal Trauma",
+    "category": "TRAUMA",
+    "category_name": "외상 및 스트레스 관련 장애 (Trauma and Stressor-Related Disorders)",
+    "definition": "성폭력, 아동학대, 가정폭력, 전쟁범죄 등 다른 인간에 의해 의도적으로 가해진 외상으로, 대인 신뢰의 근본적 훼손을 수반한다.",
+    "definition_en": "Trauma intentionally inflicted by another human being, such as sexual assault, child abuse, domestic violence, and war crimes, involving fundamental betrayal of interpersonal trust.",
+    "significance": "자연재해 외상보다 PTSD 발생률이 높고 복합 PTSD로 이어질 가능성이 크며, 인간에 대한 기본적 신뢰 훼손이 치료의 핵심 과제가 된다.",
+    "key_researchers": [
+      {"name_ko": "제니퍼 프레이드", "name_en": "Jennifer Freyd", "contribution": "배반 외상이론(betrayal trauma theory)을 제안하여 가해자와의 관계가 외상 반응에 미치는 영향을 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "복합 PTSD", "name_en": "Complex PTSD", "id": "TRAUMA_CPT_006"},
+      {"name_ko": "자연재해 외상", "name_en": "Natural Disaster Trauma", "id": "TRAUMA_NAT_032"},
+      {"name_ko": "역경적 아동기 경험", "name_en": "Adverse Childhood Experiences", "id": "TRAUMA_ACE_028"},
+      {"name_ko": "외상 후 스트레스장애", "name_en": "Post-Traumatic Stress Disorder", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [
+      {"name": "성폭력", "description": "강간, 성추행 등 성적 가해"},
+      {"name": "아동학대", "description": "신체적, 정서적, 성적 학대 및 방임"},
+      {"name": "가정폭력", "description": "친밀한 파트너에 의한 반복적 폭력"},
+      {"name": "전쟁/고문", "description": "전쟁, 테러, 고문 등 조직적 폭력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "대인관계 외상 = 인간에 의한 외상 → '배반(betrayal)'이 핵심 상처",
+      "differential": "자연재해 외상은 가해자가 없어 신뢰 훼손이 적으나, 대인관계 외상은 인간에 대한 기본적 신뢰가 훼손된다",
+      "key_point": "대인관계 외상은 자연재해보다 PTSD 발생률이 높고 복합 PTSD로 이어질 가능성이 더 크다",
+      "common_mistake": "모든 외상을 동일하게 취급하면 안 된다. 대인관계 외상은 신뢰 훼손이라는 고유한 치료 과제를 가진다"
+    }
+  }
+]

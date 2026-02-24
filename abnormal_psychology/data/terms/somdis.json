@@ -1,0 +1,875 @@
+[
+  {
+    "id": "SOMDIS_SSD_001",
+    "terminology": "신체증상장애 (Somatic Symptom Disorder)",
+    "terminology_ko": "신체증상장애",
+    "terminology_en": "Somatic Symptom Disorder",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "하나 이상의 고통스러운 신체 증상이 존재하며, 그 증상에 대한 과도한 사고, 감정, 행동이 동반되어 일상 기능에 심각한 지장을 초래하는 장애로, DSM-5에서 기존 신체화장애를 대체한 진단이다.",
+    "definition_en": "A disorder characterized by one or more distressing somatic symptoms accompanied by excessive thoughts, feelings, or behaviors related to those symptoms, causing significant disruption to daily functioning. It replaced somatization disorder in DSM-5.",
+    "significance": "의학적으로 설명되지 않는 신체 증상에 대한 심리학적 이해의 핵심 진단으로, 심신 상호작용과 의료 이용 패턴 연구에 중요한 위치를 차지한다.",
+    "key_researchers": [
+      {"name_ko": "아서 바스키", "name_en": "Arthur Barsky", "contribution": "신체감각 증폭(somatosensory amplification) 개념을 제안하여 신체증상장애의 인지적 메커니즘을 설명했다."},
+      {"name_ko": "로버트 켈너", "name_en": "Robert Kellner", "contribution": "신체화와 건강염려증의 체계적 연구를 수행하고 치료적 접근법을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "질병불안장애", "name_en": "Illness Anxiety Disorder", "id": "SOMDIS_IAD_002"},
+      {"name_ko": "신체화", "name_en": "Somatization", "id": "SOMDIS_SOM_016"},
+      {"name_ko": "알렉시서미아", "name_en": "Alexithymia", "id": "SOMDIS_ALX_015"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [
+      {"name": "통증이 우세한 경우", "description": "신체 증상이 주로 통증으로 나타나는 양상"},
+      {"name": "지속적 경우", "description": "증상이 6개월 이상 지속되는 양상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SSD = Somatic(신체) + Symptom(증상) + Disorder(장애) — 증상 자체보다 '증상에 대한 과도한 반응'이 핵심",
+      "differential": "신체증상장애는 실제 신체 증상이 있고 그에 대한 과도한 반응이 특징인 반면, 질병불안장애는 신체 증상이 경미하거나 없는데도 심각한 질병에 대한 불안이 핵심이다.",
+      "key_point": "DSM-5에서 '의학적으로 설명 불가능'이라는 기준을 제거하고, 증상에 대한 과도한 심리적 반응을 진단의 핵심으로 전환했다.",
+      "common_mistake": "신체증상장애 환자가 꾀병을 부린다고 오해하지만, 이들의 고통은 진실하며 의도적으로 증상을 만들어내는 것이 아니다."
+    }
+  },
+  {
+    "id": "SOMDIS_IAD_002",
+    "terminology": "질병불안장애 (Illness Anxiety Disorder)",
+    "terminology_ko": "질병불안장애",
+    "terminology_en": "Illness Anxiety Disorder",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "심각한 질병에 걸렸거나 걸릴 것이라는 과도한 불안과 걱정이 지속되며, 신체 증상이 경미하거나 존재하지 않음에도 건강에 대한 과도한 집착과 행동을 보이는 장애이다.",
+    "definition_en": "A disorder characterized by persistent excessive anxiety and preoccupation about having or acquiring a serious illness, despite minimal or absent somatic symptoms, accompanied by excessive health-related behaviors.",
+    "significance": "기존의 건강염려증(hypochondriasis) 개념을 재구성한 진단으로, 건강 불안의 인지-행동적 모형 발전에 기여했다.",
+    "key_researchers": [
+      {"name_ko": "힐러리 와렉", "name_en": "Hilary Warwick", "contribution": "건강 불안의 인지행동 모형을 개발하고 CBT 치료 프로토콜을 체계화했다."},
+      {"name_ko": "폴 살코브스키스", "name_en": "Paul Salkovskis", "contribution": "건강 불안에서 안전추구행동과 재확인추구의 역할을 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"},
+      {"name_ko": "히포콘드리아시스", "name_en": "Hypochondriasis", "id": "SOMDIS_HYP_017"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"}
+    ],
+    "sub_types": [
+      {"name": "의료추구형", "description": "빈번하게 의료기관을 방문하고 검사를 받으려는 유형"},
+      {"name": "의료회피형", "description": "두려움으로 인해 의료기관 방문을 피하는 유형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "IAD = Illness(질병) + Anxiety(불안) + Disorder(장애) — '증상 없는 질병 공포'",
+      "differential": "질병불안장애는 신체 증상이 거의 없는데 질병 자체에 대한 불안이 핵심이고, 신체증상장애는 실제 신체 증상이 있고 그에 대한 과도한 반응이 핵심이다.",
+      "key_point": "DSM-5에서 건강염려증(hypochondriasis)을 폐지하고 질병불안장애와 신체증상장애로 재분류했다.",
+      "common_mistake": "질병불안장애를 단순한 '걱정'으로 가볍게 여기지만, 심각한 기능 손상과 의료 자원 과다 이용을 초래할 수 있다."
+    }
+  },
+  {
+    "id": "SOMDIS_CVD_003",
+    "terminology": "전환장애 (Conversion Disorder)",
+    "terminology_ko": "전환장애",
+    "terminology_en": "Conversion Disorder",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "수의적 운동 또는 감각 기능에 영향을 미치는 하나 이상의 증상이 신경학적 또는 기타 의학적 질환과 부합하지 않으며, 심리적 갈등이나 스트레스와 관련된 기능적 신경학적 증상장애이다.",
+    "definition_en": "A disorder involving one or more symptoms affecting voluntary motor or sensory function that are incompatible with recognized neurological or medical conditions, also known as Functional Neurological Symptom Disorder.",
+    "significance": "프로이트의 히스테리 연구에서 시작된 역사적 진단으로, 심리적 갈등이 신체 증상으로 전환되는 과정에 대한 이해를 발전시켰다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "히스테리(전환장애)를 무의식적 갈등의 신체적 표현으로 해석하고 '전환(conversion)' 용어를 만들었다."},
+      {"name_ko": "장 마르탱 샤르코", "name_en": "Jean-Martin Charcot", "contribution": "살페트리에르 병원에서 히스테리의 체계적 임상 연구를 수행하고 최면과의 관계를 연구했다."},
+      {"name_ko": "조지프 브로이어", "name_en": "Josef Breuer", "contribution": "안나 O 사례를 통해 카타르시스 기법을 개발하고 히스테리의 심리학적 치료를 개척했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "라벨 무관심", "name_en": "La Belle Indifférence", "id": "SOMDIS_LBI_012"},
+      {"name_ko": "심인성 비간질 발작", "name_en": "Psychogenic Non-Epileptic Seizures", "id": "SOMDIS_PNS_020"},
+      {"name_ko": "일차적 이득", "name_en": "Primary Gain", "id": "SOMDIS_PGN_014"},
+      {"name_ko": "정신분석모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_003"}
+    ],
+    "sub_types": [
+      {"name": "운동 증상형", "description": "마비, 근력 약화, 비정상적 운동 등"},
+      {"name": "감각 증상형", "description": "시력 상실, 청력 상실, 감각 이상 등"},
+      {"name": "발작형", "description": "심인성 비간질 발작"},
+      {"name": "혼합형", "description": "운동, 감각, 발작 증상이 복합적으로 나타남"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "전환(Conversion) = 심리적 갈등 → 신체 증상으로 '전환' — 프로이트가 명명",
+      "differential": "전환장애는 신경학적 증상(마비, 시력상실 등)이 의학적 소견과 불일치하는 것이 특징이고, 신체증상장애는 실제 신체 증상에 대한 과도한 심리적 반응이 특징이다.",
+      "key_point": "DSM-5에서 '기능적 신경학적 증상장애(Functional Neurological Symptom Disorder)'로 부제를 추가하여 심리적 원인을 전제하지 않는 방향으로 변화했다.",
+      "common_mistake": "전환장애 환자가 의도적으로 증상을 만든다고 생각하지만, 꾀병(malingering)과 달리 증상은 무의식적으로 발생한다."
+    }
+  },
+  {
+    "id": "SOMDIS_FCD_004",
+    "terminology": "인위성장애 (Factitious Disorder)",
+    "terminology_ko": "인위성장애",
+    "terminology_en": "Factitious Disorder",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "명백한 외적 보상 없이 환자 역할을 하려는 동기에서 의도적으로 신체적 또는 심리적 증상을 만들어내거나 가장하는 장애로, 이전에 뮌하우젠 증후군으로 알려져 있었다.",
+    "definition_en": "A disorder in which an individual intentionally produces or feigns physical or psychological symptoms, motivated by the desire to assume the sick role rather than by external rewards, formerly known as Munchausen syndrome.",
+    "significance": "의도적 기만과 질병 행동의 경계에 위치한 독특한 진단으로, 환자 역할에 대한 심리적 동기와 의료 체계 내 기만적 행동의 이해에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "리처드 애셔", "name_en": "Richard Asher", "contribution": "1951년 뮌하우젠 증후군(Munchausen syndrome)을 최초로 기술하여 인위성장애의 개념적 기틀을 마련했다."},
+      {"name_ko": "마크 펠드먼", "name_en": "Marc Feldman", "contribution": "인위성장애와 인터넷 기반 뮌하우젠(Munchausen by Internet)에 대한 포괄적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "타인에게 부과된 인위성장애", "name_en": "Factitious Disorder Imposed on Another", "id": "SOMDIS_FCA_005"},
+      {"name_ko": "꾀병", "name_en": "Malingering", "id": "SOMDIS_MAL_006"},
+      {"name_ko": "환자역할", "name_en": "Sick Role", "id": "SOMDIS_SRL_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인위성(Factitious) = '만들어낸(fabricated)' 증상 — 외적 보상 없이 환자 역할 자체가 목적",
+      "differential": "인위성장애는 환자 역할 자체가 동기인 반면, 꾀병(malingering)은 금전적·법적 이득 등 외적 보상이 동기이다.",
+      "key_point": "DSM-5에서는 인위성장애를 신체증상 관련 장애 범주에 포함시키며, 의도적 증상 생성이 핵심 특징이다.",
+      "common_mistake": "인위성장애를 꾀병과 혼동하지만, 인위성장애의 동기는 외적 보상이 아닌 환자 역할 수행 자체에 있다."
+    }
+  },
+  {
+    "id": "SOMDIS_FCA_005",
+    "terminology": "타인에게 부과된 인위성장애 (Factitious Disorder Imposed on Another)",
+    "terminology_ko": "타인에게 부과된 인위성장애",
+    "terminology_en": "Factitious Disorder Imposed on Another",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "돌보는 사람이 의도적으로 다른 사람(주로 자녀)에게 신체적 또는 심리적 증상을 유발하거나 가장하여 대리인을 통한 환자 역할을 수행하는 장애로, 이전에 대리 뮌하우젠 증후군으로 불렸다.",
+    "definition_en": "A disorder in which a caregiver intentionally produces or feigns physical or psychological symptoms in another person (typically a child), performing the sick role through a proxy, formerly known as Munchausen syndrome by proxy.",
+    "significance": "아동 학대의 특수한 형태로서 법적·윤리적 함의가 크며, 의료 체계 내에서 발견과 개입이 어려운 독특한 형태의 학대이다.",
+    "key_researchers": [
+      {"name_ko": "로이 메도우", "name_en": "Roy Meadow", "contribution": "1977년 대리 뮌하우젠 증후군(Munchausen syndrome by proxy)을 최초로 기술하여 이 장애의 임상적 인식을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인위성장애", "name_en": "Factitious Disorder", "id": "SOMDIS_FCD_004"},
+      {"name_ko": "의도적 증상 생성", "name_en": "Intentional Symptom Production", "id": "SOMDIS_ISP_021"},
+      {"name_ko": "꾀병", "name_en": "Malingering", "id": "SOMDIS_MAL_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FDIA = Factitious Disorder Imposed on Another — '대리(by proxy)' 뮌하우젠, 가해자는 돌보는 사람",
+      "differential": "인위성장애는 자기 자신에게 증상을 만들어내지만, 타인에게 부과된 인위성장애는 다른 사람(주로 자녀)에게 증상을 유발한다.",
+      "key_point": "DSM-5에서 진단은 가해자(돌보는 사람)에게 부여되며, 피해자가 아닌 가해자가 진단의 대상이다.",
+      "common_mistake": "이 진단이 피해자에게 부여된다고 오해하지만, 실제로는 증상을 유발하는 가해자(돌보는 사람)에게 부여된다."
+    }
+  },
+  {
+    "id": "SOMDIS_MAL_006",
+    "terminology": "꾀병 (Malingering)",
+    "terminology_ko": "꾀병",
+    "terminology_en": "Malingering",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "금전적 보상, 병역 회피, 법적 책임 면제 등 명확한 외적 동기에 의해 의도적으로 신체적 또는 심리적 증상을 가장하거나 과장하는 행위로, 정신장애가 아닌 V코드(임상적 주의가 필요한 상태)로 분류된다.",
+    "definition_en": "The intentional production or feigning of physical or psychological symptoms motivated by clear external incentives such as financial compensation, avoidance of military service, or legal liability exemption, classified as a V-code rather than a mental disorder.",
+    "significance": "법의심리학과 임상 평가에서 중요한 개념으로, 증상 타당도 평가와 진위 감별의 필요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "리처드 로저스", "name_en": "Richard Rogers", "contribution": "꾀병 탐지를 위한 구조화된 면접도구(SIRS)를 개발하여 체계적 평가 방법론을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인위성장애", "name_en": "Factitious Disorder", "id": "SOMDIS_FCD_004"},
+      {"name_ko": "증상타당도검사", "name_en": "Symptom Validity Test", "id": "SOMDIS_SVT_028"},
+      {"name_ko": "이차적 이득", "name_en": "Secondary Gain", "id": "SOMDIS_SGN_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "꾀병 = '외적 보상'이 동기 — 돈, 회피, 면제 등 실질적 이득 추구",
+      "differential": "꾀병은 외적 보상(돈, 법적 면제)이 동기이고, 인위성장애는 환자 역할 자체가 동기이며, 전환장애는 무의식적 과정이다.",
+      "key_point": "꾀병은 정신장애가 아닌 V코드로 분류되며, 의도적이고 외적 동기가 있다는 점이 다른 신체증상 관련 장애와 구별된다.",
+      "common_mistake": "꾀병을 정신장애로 분류하는 오류를 범하기 쉽지만, DSM-5에서는 정신장애가 아닌 '임상적 주의가 필요한 상태'로 분류한다."
+    }
+  },
+  {
+    "id": "SOMDIS_PFM_007",
+    "terminology": "심리적 요인이 의학적 상태에 영향 (Psychological Factors Affecting Other Medical Conditions)",
+    "terminology_ko": "심리적 요인이 의학적 상태에 영향",
+    "terminology_en": "Psychological Factors Affecting Other Medical Conditions",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "진단받은 의학적 상태가 존재하며, 심리적 또는 행동적 요인이 그 의학적 상태의 경과, 치료, 위험 요인에 부정적 영향을 미치는 경우를 지칭하는 진단이다.",
+    "definition_en": "A diagnosis applied when a medical condition is present and psychological or behavioral factors adversely affect the course, treatment, or risk factors of that medical condition.",
+    "significance": "심신의학(psychosomatic medicine)의 핵심 개념으로, 심리적 요인이 실제 의학적 질환에 미치는 영향을 공식 진단으로 인정한다.",
+    "key_researchers": [
+      {"name_ko": "프란츠 알렉산더", "name_en": "Franz Alexander", "contribution": "심신의학의 선구자로서 특정 심리적 갈등이 특정 신체 질환과 연결된다는 특이성 가설을 제안했다."},
+      {"name_ko": "조지 엥겔", "name_en": "George Engel", "contribution": "생물심리사회 모형을 제안하여 질병에서 심리적·사회적 요인의 역할을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"},
+      {"name_ko": "신체화", "name_en": "Somatization", "id": "SOMDIS_SOM_016"},
+      {"name_ko": "생물의학적 모형", "name_en": "Biomedical Model", "id": "FOUND_BIO_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PFAOMC = 심리적 요인 → 의학적 상태 악화 — '마음이 몸에 영향'의 공식 진단",
+      "differential": "이 진단은 실제 의학적 질환이 존재하고 심리적 요인이 이를 악화시키는 경우이고, 신체증상장애는 증상에 대한 과도한 심리적 반응이 문제이다.",
+      "key_point": "실제 의학적 상태가 반드시 존재해야 하며, 심리적 요인이 그 상태의 발생이 아닌 경과나 치료에 영향을 미친다는 점이 핵심이다.",
+      "common_mistake": "모든 심신 관련 문제를 이 진단으로 분류하는 오류가 있으나, 의학적 상태가 확인되어야 하며 심리적 요인의 부정적 영향이 입증되어야 한다."
+    }
+  },
+  {
+    "id": "SOMDIS_DID_008",
+    "terminology": "해리성 정체감장애 (Dissociative Identity Disorder)",
+    "terminology_ko": "해리성 정체감장애",
+    "terminology_en": "Dissociative Identity Disorder",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "두 개 이상의 구별되는 인격 상태(정체감)가 존재하며, 각 정체감이 행동, 의식, 기억, 지각, 인지, 감각-운동 기능의 통제를 번갈아 맡고, 일상적 사건에 대한 반복적 기억 공백이 동반되는 장애이다.",
+    "definition_en": "A disorder characterized by the presence of two or more distinct personality states (identities) that alternately take control of behavior, consciousness, memory, perception, cognition, and sensory-motor functioning, accompanied by recurrent gaps in recall of everyday events.",
+    "significance": "이상심리학에서 가장 논쟁적인 진단 중 하나로, 외상과 해리의 관계, 기억의 본질, 의식의 통합에 대한 중요한 이론적·임상적 논의를 촉발한다.",
+    "key_researchers": [
+      {"name_ko": "코넬리아 윌버", "name_en": "Cornelia Wilbur", "contribution": "시빌(Sybil) 사례의 치료자로서 다중인격장애에 대한 대중적·임상적 관심을 촉발했다."},
+      {"name_ko": "리처드 클러프트", "name_en": "Richard Kluft", "contribution": "DID의 진단 기준과 치료 프로토콜을 체계화하고 자연사적 연구를 수행했다."},
+      {"name_ko": "엘리자베스 호웰", "name_en": "Elizabeth Howell", "contribution": "관계적 해리 이론을 발전시켜 DID의 외상-해리 모형을 확장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리성 기억상실", "name_en": "Dissociative Amnesia", "id": "SOMDIS_DAM_009"},
+      {"name_ko": "해리의 연속체", "name_en": "Dissociative Continuum", "id": "SOMDIS_DCN_022"},
+      {"name_ko": "외상-해리 모형", "name_en": "Trauma-Dissociation Model", "id": "SOMDIS_TDM_024"},
+      {"name_ko": "PTSD", "name_en": "PTSD", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DID = Dissociative Identity Disorder — 과거 '다중인격장애(MPD)'에서 명칭 변경, '해리된 정체감'이 핵심",
+      "differential": "DID는 두 개 이상의 구별되는 정체감이 교대로 나타나는 반면, 해리성 기억상실은 정체감 교대 없이 기억 공백만 나타난다.",
+      "key_point": "DID의 존재 자체가 논쟁적이며, 외상-해리 모형(실제 외상의 결과)과 사회인지모형(사회적 역할 학습의 결과) 간 대립이 있다.",
+      "common_mistake": "DID를 조현병과 혼동하는 경우가 많으나, 조현병은 인격 분열이 아닌 현실 접촉의 상실이 특징이다."
+    }
+  },
+  {
+    "id": "SOMDIS_DAM_009",
+    "terminology": "해리성 기억상실 (Dissociative Amnesia)",
+    "terminology_ko": "해리성 기억상실",
+    "terminology_en": "Dissociative Amnesia",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "신경학적 또는 의학적 원인 없이 중요한 자전적 정보, 특히 외상적이거나 스트레스가 심한 사건에 대한 기억을 회상하지 못하는 장애로, 통상적인 망각으로 설명할 수 없는 수준의 기억 상실이다.",
+    "definition_en": "A disorder characterized by an inability to recall important autobiographical information, typically of a traumatic or stressful nature, that is not attributable to neurological or medical conditions and is too extensive to be explained by ordinary forgetfulness.",
+    "significance": "기억과 의식의 해리적 분리를 보여주는 핵심 진단으로, 외상 기억의 처리와 회복에 대한 이론적 논쟁의 중심에 있다.",
+    "key_researchers": [
+      {"name_ko": "피에르 자네", "name_en": "Pierre Janet", "contribution": "해리(dissociation) 개념을 최초로 체계화하고, 외상 경험이 의식에서 분리되는 과정을 이론화했다."},
+      {"name_ko": "대니얼 섀터", "name_en": "Daniel Schacter", "contribution": "기억의 7가지 죄(Seven Sins of Memory)를 통해 해리성 기억상실의 인지적 메커니즘을 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리성 둔주", "name_en": "Dissociative Fugue", "id": "SOMDIS_DFG_010"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"},
+      {"name_ko": "PTSD", "name_en": "PTSD", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [
+      {"name": "국소적 기억상실", "description": "특정 기간의 사건을 기억하지 못함"},
+      {"name": "선택적 기억상실", "description": "특정 기간 중 일부 사건만 기억하지 못함"},
+      {"name": "전반적 기억상실", "description": "전체 생애 기억을 상실"},
+      {"name": "체계적 기억상실", "description": "특정 범주의 정보만 기억하지 못함"},
+      {"name": "연속적 기억상실", "description": "특정 시점 이후의 새로운 사건을 기억하지 못함"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "해리성 기억상실 = 외상 관련 기억의 '차단' — 뇌 손상 없이 발생하는 심인성 기억 상실",
+      "differential": "해리성 기억상실은 심리적 원인에 의한 기억 상실이고, 기질성 기억상실은 뇌 손상이나 신경학적 원인에 의한 것이다.",
+      "key_point": "주로 외상적 사건과 관련된 자전적 기억이 선택적으로 상실되며, 절차적 기억이나 일반 지식은 보존된다.",
+      "common_mistake": "해리성 기억상실과 일반적인 망각을 혼동하지만, 해리성 기억상실은 중요한 개인 정보의 광범위한 상실을 특징으로 한다."
+    }
+  },
+  {
+    "id": "SOMDIS_DFG_010",
+    "terminology": "해리성 둔주 (Dissociative Fugue)",
+    "terminology_ko": "해리성 둔주",
+    "terminology_en": "Dissociative Fugue",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "갑자기 집이나 직장에서 예기치 않게 떠나며 자신의 과거 일부 또는 전부를 회상하지 못하고, 때로 새로운 정체감을 형성하기도 하는 해리성 기억상실의 특수한 형태이다.",
+    "definition_en": "A specific form of dissociative amnesia involving sudden, unexpected travel away from home or work with inability to recall some or all of one's past, sometimes accompanied by assumption of a new identity.",
+    "significance": "해리 현상의 극단적 형태로서, 정체감과 기억의 통합이 완전히 붕괴될 수 있음을 보여주는 극적인 임상 사례이다.",
+    "key_researchers": [
+      {"name_ko": "피에르 자네", "name_en": "Pierre Janet", "contribution": "해리 현상의 체계적 분류에서 둔주를 독립적 현상으로 기술한 초기 연구자이다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리성 기억상실", "name_en": "Dissociative Amnesia", "id": "SOMDIS_DAM_009"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"},
+      {"name_ko": "해리의 연속체", "name_en": "Dissociative Continuum", "id": "SOMDIS_DCN_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "둔주(Fugue) = 라틴어 fuga(도주) — 기억 상실 + 갑작스러운 여행/이동",
+      "differential": "해리성 둔주는 기억 상실과 함께 물리적 이동(여행)이 동반되는 반면, 단순 해리성 기억상실은 이동 없이 기억 공백만 나타난다.",
+      "key_point": "DSM-5에서 독립 진단이 아닌 해리성 기억상실의 하위 명시자(specifier)로 변경되었다.",
+      "common_mistake": "해리성 둔주를 의도적인 가출이나 도주와 혼동하지만, 둔주 상태에서는 의식적 계획 없이 자동적으로 이동한다."
+    }
+  },
+  {
+    "id": "SOMDIS_DPD_011",
+    "terminology": "이인증/비현실감 장애 (Depersonalization/Derealization Disorder)",
+    "terminology_ko": "이인증/비현실감 장애",
+    "terminology_en": "Depersonalization/Derealization Disorder",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "자신의 정신 과정이나 신체에서 분리되어 외부 관찰자처럼 느끼는 이인증, 또는 주변 환경이 비현실적이거나 꿈속 같이 느껴지는 비현실감이 지속적이거나 반복적으로 경험되는 장애이다.",
+    "definition_en": "A disorder characterized by persistent or recurrent experiences of depersonalization (feeling detached from one's mental processes or body as if an outside observer) or derealization (feeling that surroundings are unreal or dreamlike).",
+    "significance": "해리 현상 중 가장 흔한 형태로, 정상적 해리 경험과 병적 해리의 경계를 이해하는 데 중요한 진단이다.",
+    "key_researchers": [
+      {"name_ko": "모린 시에라", "name_en": "Mauricio Sierra", "contribution": "이인증의 신경생물학적 모형을 제안하고 체계적 임상 연구를 수행했다."},
+      {"name_ko": "도퓨 시멘", "name_en": "Daphne Simeon", "contribution": "이인증 장애의 역학, 신경생물학, 치료에 대한 포괄적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리의 연속체", "name_en": "Dissociative Continuum", "id": "SOMDIS_DCN_022"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"},
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PD_002"}
+    ],
+    "sub_types": [
+      {"name": "이인증 우세형", "description": "자신에게서 분리된 느낌이 주된 증상"},
+      {"name": "비현실감 우세형", "description": "주변 환경이 비현실적으로 느껴지는 것이 주된 증상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "이인증 = 자신으로부터 분리(de-person), 비현실감 = 현실로부터 분리(de-real)",
+      "differential": "이인증/비현실감 장애에서는 현실검증력이 유지되어 '비현실적이라는 것을 안다'는 점에서 정신병적 장애와 구별된다.",
+      "key_point": "이인증/비현실감 경험 자체는 일반 인구의 50%까지 보고될 정도로 흔하지만, 장애로 진단되려면 지속적이고 심각한 고통이나 기능 손상이 있어야 한다.",
+      "common_mistake": "이인증을 정신병적 증상으로 오해하지만, 이 장애에서는 현실검증력이 유지된다."
+    }
+  },
+  {
+    "id": "SOMDIS_LBI_012",
+    "terminology": "라벨 무관심 (La Belle Indifférence)",
+    "terminology_ko": "라벨 무관심",
+    "terminology_en": "La Belle Indifférence",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "심각한 신체적 증상(예: 마비, 시력 상실)에도 불구하고 이에 대해 부적절할 정도로 무관심하거나 태연한 태도를 보이는 현상으로, 전통적으로 전환장애와 연관되어 기술되었다.",
+    "definition_en": "A phenomenon in which an individual shows an inappropriate lack of concern or indifference toward serious physical symptoms such as paralysis or blindness, traditionally associated with conversion disorder.",
+    "significance": "전환장애의 고전적 특징으로 기술되어 왔으나, 진단적 특이성에 대한 논쟁이 있어 임상적 판단에 주의가 필요하다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "히스테리 환자의 증상에 대한 무관심을 일차적 이득과 연결하여 해석했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"},
+      {"name_ko": "일차적 이득", "name_en": "Primary Gain", "id": "SOMDIS_PGN_014"},
+      {"name_ko": "이차적 이득", "name_en": "Secondary Gain", "id": "SOMDIS_SGN_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "La Belle Indifférence = '아름다운 무관심' — 심각한 증상에 대해 놀라울 정도로 태연함",
+      "differential": "라벨 무관심은 전환장애에서 보이는 증상에 대한 무관심이고, 무감동(apathy)은 정서적 반응 전반의 감소이다.",
+      "key_point": "전통적으로 전환장애의 특징으로 여겨졌으나, 연구에 따르면 실제 신경학적 질환 환자에서도 관찰되어 진단적 특이성이 낮다.",
+      "common_mistake": "라벨 무관심이 전환장애의 필수 증상이라고 생각하지만, 모든 전환장애 환자에서 나타나는 것은 아니며 진단 기준에 포함되지 않는다."
+    }
+  },
+  {
+    "id": "SOMDIS_SGN_013",
+    "terminology": "이차적 이득 (Secondary Gain)",
+    "terminology_ko": "이차적 이득",
+    "terminology_en": "Secondary Gain",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "질병이나 증상을 통해 얻게 되는 외적 이득으로, 타인의 관심과 동정, 책임 회피, 경제적 보상 등이 포함되며, 증상 유지에 기여할 수 있는 강화 요인이다.",
+    "definition_en": "External benefits obtained through illness or symptoms, including attention and sympathy from others, avoidance of responsibilities, and financial compensation, serving as reinforcing factors that may contribute to symptom maintenance.",
+    "significance": "증상의 발생이 아닌 유지와 악화를 설명하는 핵심 개념으로, 치료 계획 수립과 꾀병 감별에 중요한 고려 사항이다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "일차적 이득과 이차적 이득의 개념을 구분하여 히스테리 증상의 동기적 측면을 분석했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "일차적 이득", "name_en": "Primary Gain", "id": "SOMDIS_PGN_014"},
+      {"name_ko": "꾀병", "name_en": "Malingering", "id": "SOMDIS_MAL_006"},
+      {"name_ko": "환자역할", "name_en": "Sick Role", "id": "SOMDIS_SRL_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이차적 이득 = '외부'에서 오는 보상 — 관심, 동정, 보상금, 책임 면제",
+      "differential": "일차적 이득은 내적 갈등 해소(무의식적)이고, 이차적 이득은 외적 보상(관심, 보상금 등)이다.",
+      "key_point": "이차적 이득은 의식적일 수도 무의식적일 수도 있으며, 증상의 원인이 아닌 유지 요인으로 작용한다.",
+      "common_mistake": "이차적 이득이 있다고 해서 꾀병이라고 단정하는 오류를 범하기 쉽지만, 이차적 이득은 진짜 질병에서도 나타날 수 있다."
+    }
+  },
+  {
+    "id": "SOMDIS_PGN_014",
+    "terminology": "일차적 이득 (Primary Gain)",
+    "terminology_ko": "일차적 이득",
+    "terminology_en": "Primary Gain",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "심리적 갈등이나 불안이 신체 증상으로 전환됨으로써 내적 고통이 감소되는 무의식적 과정으로, 정신분석 이론에서 전환장애의 발생 기제를 설명하는 핵심 개념이다.",
+    "definition_en": "An unconscious process in which internal distress is reduced through the conversion of psychological conflict or anxiety into somatic symptoms, serving as a key concept in psychoanalytic theory to explain the development of conversion disorder.",
+    "significance": "정신분석적 관점에서 증상 형성의 동기적 측면을 설명하며, 신체 증상의 심리적 기능에 대한 이해를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "히스테리에서 무의식적 갈등이 신체 증상으로 전환되어 불안이 감소되는 과정을 일차적 이득으로 개념화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이차적 이득", "name_en": "Secondary Gain", "id": "SOMDIS_SGN_013"},
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"},
+      {"name_ko": "정신분석모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "일차적 이득 = '내부'의 갈등 해소 — 불안한 마음 → 신체 증상으로 전환 → 불안 감소",
+      "differential": "일차적 이득은 무의식적 내적 갈등 해소이고, 이차적 이득은 외적 보상(관심, 동정)이다.",
+      "key_point": "일차적 이득은 완전히 무의식적 과정이며, 의도적 증상 생성(꾀병, 인위성장애)과는 근본적으로 다르다.",
+      "common_mistake": "일차적 이득을 의식적인 동기로 오해하지만, 이는 전적으로 무의식적 수준에서 작동하는 과정이다."
+    }
+  },
+  {
+    "id": "SOMDIS_ALX_015",
+    "terminology": "알렉시서미아 (Alexithymia)",
+    "terminology_ko": "알렉시서미아",
+    "terminology_en": "Alexithymia",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "자신의 감정을 인식하고 언어로 표현하는 능력이 현저히 부족한 상태로, 정서적 경험과 신체 감각을 구분하기 어려워하며, 이러한 특성이 신체화 증상과 밀접하게 관련된다.",
+    "definition_en": "A state characterized by marked difficulty in identifying and verbally expressing one's emotions, with trouble distinguishing emotional experiences from bodily sensations, closely related to somatization symptoms.",
+    "significance": "감정 처리 능력의 결핍이 신체 증상으로의 전환과 관련되는 메커니즘을 이해하는 데 핵심적인 구성개념이다.",
+    "key_researchers": [
+      {"name_ko": "피터 시프네오스", "name_en": "Peter Sifneos", "contribution": "1972년 알렉시서미아(alexithymia) 용어를 최초로 만들고, 감정 인식 및 표현 장애를 체계적으로 기술했다."},
+      {"name_ko": "그레임 테일러", "name_en": "Graeme Taylor", "contribution": "토론토 알렉시서미아 척도(TAS-20)를 개발하여 알렉시서미아의 표준적 측정 도구를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체화", "name_en": "Somatization", "id": "SOMDIS_SOM_016"},
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"},
+      {"name_ko": "심리적 요인이 의학적 상태에 영향", "name_en": "Psychological Factors Affecting Other Medical Conditions", "id": "SOMDIS_PFM_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Alexithymia = a(없다) + lexis(말) + thymos(감정) — '감정에 대한 말이 없는' 상태",
+      "differential": "알렉시서미아는 감정 인식·표현의 어려움이고, 감정둔마(flat affect)는 감정 표현의 감소이며, 무쾌감증(anhedonia)은 즐거움 경험의 상실이다.",
+      "key_point": "알렉시서미아는 독립적 진단이 아니라 성격 특질로서, 여러 정신장애와 신체 질환에서 공통적으로 관찰되는 취약 요인이다.",
+      "common_mistake": "알렉시서미아를 감정이 없는 상태로 오해하지만, 실제로는 감정을 경험하되 이를 인식하고 표현하는 데 어려움이 있는 것이다."
+    }
+  },
+  {
+    "id": "SOMDIS_SOM_016",
+    "terminology": "신체화 (Somatization)",
+    "terminology_ko": "신체화",
+    "terminology_en": "Somatization",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "심리적 고통이나 갈등이 신체적 증상으로 표현되는 과정으로, 의학적으로 충분히 설명되지 않는 다양한 신체 증상을 반복적으로 호소하는 경향을 포괄하는 광범위한 개념이다.",
+    "definition_en": "The process by which psychological distress or conflict is expressed through physical symptoms, encompassing a broad tendency to repeatedly present various somatic symptoms that are not fully explained medically.",
+    "significance": "심리적 고통의 신체적 표현이라는 심신 상호작용의 핵심 메커니즘으로, 문화적 맥락에서 정서 표현의 대안적 경로를 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "즈비그니에프 리피도스키", "name_en": "Zbigniew Lipowski", "contribution": "신체화의 현대적 정의를 제안하고 심리적 고통의 신체적 표현으로서의 신체화 개념을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"},
+      {"name_ko": "알렉시서미아", "name_en": "Alexithymia", "id": "SOMDIS_ALX_015"},
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "신체화 = 마음의 고통 → 몸의 증상으로 전환 — soma(신체)로의 변환",
+      "differential": "신체화는 심리적 고통이 신체 증상으로 나타나는 일반적 과정이고, 신체증상장애는 이를 충족하는 구체적 DSM-5 진단이다.",
+      "key_point": "신체화는 특히 감정 표현이 문화적으로 억압된 사회에서 더 흔하게 관찰되며, 문화적 맥락을 고려한 이해가 필요하다.",
+      "common_mistake": "신체화를 의도적인 것으로 오해하지만, 이는 무의식적 과정으로 환자가 진정으로 고통스러운 신체 증상을 경험한다."
+    }
+  },
+  {
+    "id": "SOMDIS_HYP_017",
+    "terminology": "히포콘드리아시스 (Hypochondriasis)",
+    "terminology_ko": "히포콘드리아시스",
+    "terminology_en": "Hypochondriasis",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "DSM-IV에서 사용되던 진단으로, 심각한 질병에 대한 과도한 두려움과 집착이 의학적 확인에도 불구하고 지속되는 상태였으며, DSM-5에서 신체증상장애와 질병불안장애로 재분류되었다.",
+    "definition_en": "A DSM-IV diagnosis characterized by excessive fear and preoccupation with having a serious illness that persists despite medical reassurance, reclassified into Somatic Symptom Disorder and Illness Anxiety Disorder in DSM-5.",
+    "significance": "건강 불안 연구의 역사적 출발점으로, 현대 진단 체계의 변화(DSM-IV → DSM-5)를 이해하는 데 필수적인 개념이다.",
+    "key_researchers": [
+      {"name_ko": "아서 바스키", "name_en": "Arthur Barsky", "contribution": "히포콘드리아시스의 인지적 메커니즘을 연구하고 신체감각 증폭 이론을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "질병불안장애", "name_en": "Illness Anxiety Disorder", "id": "SOMDIS_IAD_002"},
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Hypochondriasis = hypo(아래) + chondria(갈비뼈) — 고대에 갈비뼈 아래 내장이 질병의 원천이라 믿었던 데서 유래",
+      "differential": "히포콘드리아시스는 DSM-IV 진단으로, DSM-5에서 질병불안장애(증상 없이 질병 불안)와 신체증상장애(증상 + 과도한 반응)로 나뉘었다.",
+      "key_point": "히포콘드리아시스 환자의 약 75%는 DSM-5에서 신체증상장애로, 25%는 질병불안장애로 재분류된다.",
+      "common_mistake": "히포콘드리아시스가 여전히 현행 DSM-5 진단이라고 생각하는 오류가 있다."
+    }
+  },
+  {
+    "id": "SOMDIS_BRQ_018",
+    "terminology": "브리케 증후군 (Briquet's Syndrome)",
+    "terminology_ko": "브리케 증후군",
+    "terminology_en": "Briquet's Syndrome",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "다양한 신체 기관에 걸쳐 여러 가지 설명되지 않는 신체 증상을 만성적으로 호소하는 상태의 역사적 명칭으로, DSM-III에서 신체화장애(somatization disorder)로 공식화되었고, 이후 DSM-5에서 신체증상장애로 대체되었다.",
+    "definition_en": "A historical term for the chronic presentation of multiple unexplained somatic symptoms across various organ systems, formalized as Somatization Disorder in DSM-III and later replaced by Somatic Symptom Disorder in DSM-5.",
+    "significance": "신체증상 관련 장애의 진단적 발전 과정을 보여주는 역사적 개념으로, 히스테리에서 현대 진단까지의 변천을 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "폴 브리케", "name_en": "Paul Briquet", "contribution": "1859년 430명의 히스테리 환자에 대한 체계적 임상 연구를 수행하여 히스테리의 의학적 기술을 확립했다."},
+      {"name_ko": "사무엘 거즈", "name_en": "Samuel Guze", "contribution": "세인트루이스 학파의 일원으로 브리케 증후군의 진단 기준을 체계화하고 신뢰도 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"},
+      {"name_ko": "신체화", "name_en": "Somatization", "id": "SOMDIS_SOM_016"},
+      {"name_ko": "히포콘드리아시스", "name_en": "Hypochondriasis", "id": "SOMDIS_HYP_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "브리케 = 프랑스 의사 Paul Briquet — 히스테리의 체계적 연구 → 신체화장애 → 신체증상장애로 진화",
+      "differential": "브리케 증후군(신체화장애)은 다양한 신체 계통에 걸친 만성적 다중 증상이 특징이고, 전환장애는 특정 신경학적 증상(마비 등)에 국한된다.",
+      "key_point": "역사적 용어로서, 히스테리 → 브리케 증후군 → 신체화장애(DSM-III) → 신체증상장애(DSM-5)의 진단적 변천을 보여준다.",
+      "common_mistake": "브리케 증후군이 현행 진단이라고 착각하지만, 이미 DSM-5에서 신체증상장애로 대체되었다."
+    }
+  },
+  {
+    "id": "SOMDIS_MPI_019",
+    "terminology": "대중 심인성 질환 (Mass Psychogenic Illness)",
+    "terminology_ko": "대중 심인성 질환",
+    "terminology_en": "Mass Psychogenic Illness",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "환경적 독소나 감염원 없이 집단 내에서 유사한 신체 증상(두통, 어지러움, 메스꺼움 등)이 급속히 전파되는 현상으로, 집단 히스테리라고도 불리며 사회적 전염과 암시 가능성이 관여한다.",
+    "definition_en": "A phenomenon in which similar physical symptoms (headache, dizziness, nausea, etc.) spread rapidly through a group without identifiable environmental toxins or infectious agents, also called mass hysteria, involving social contagion and suggestibility.",
+    "significance": "사회적 전염과 암시가 신체 증상을 유발할 수 있음을 보여주는 현상으로, 집단 심리와 신체화의 접점을 연구하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "사이먼 웨슬리", "name_en": "Simon Wessely", "contribution": "대중 심인성 질환의 역학과 사회적 메커니즘에 대한 체계적 검토를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체화", "name_en": "Somatization", "id": "SOMDIS_SOM_016"},
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"},
+      {"name_ko": "야인증", "name_en": "Nocebo Effect", "id": "SOMDIS_NCB_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MPI = Mass(대중) + Psychogenic(심인성) + Illness(질환) — '집단 히스테리'의 현대적 용어",
+      "differential": "대중 심인성 질환은 실제 독소나 감염원 없이 심리적·사회적 전염으로 확산되는 반면, 실제 감염병은 병원체가 확인된다.",
+      "key_point": "스트레스 상황에서 더 흔하며, 밀폐된 환경(학교, 공장)에서 주로 발생하고, 여성에서 더 빈번하게 보고된다.",
+      "common_mistake": "대중 심인성 질환의 증상을 가짜로 취급하지만, 당사자들이 경험하는 증상은 실제로 고통스럽다."
+    }
+  },
+  {
+    "id": "SOMDIS_PNS_020",
+    "terminology": "심인성 비간질 발작 (Psychogenic Non-Epileptic Seizures)",
+    "terminology_ko": "심인성 비간질 발작",
+    "terminology_en": "Psychogenic Non-Epileptic Seizures",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "간질 발작과 유사한 행동적 발현을 보이지만, 뇌파(EEG)에서 간질 활동이 관찰되지 않는 삽화로, 전환장애의 발작형 하위 유형으로 분류되며 심리적 요인에 의해 발생한다.",
+    "definition_en": "Episodes resembling epileptic seizures in behavioral manifestation but without epileptic activity on EEG, classified as the seizure subtype of conversion disorder and caused by psychological factors.",
+    "significance": "간질과의 감별진단이 중요한 임상적 과제이며, 불필요한 항경련제 투여를 방지하고 적절한 심리 치료로 연결하는 데 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "마크 라이팅", "name_en": "Markus Reuber", "contribution": "심인성 비간질 발작의 진단, 기제, 치료에 대한 포괄적 연구를 수행하고 임상 지침을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"},
+      {"name_ko": "라벨 무관심", "name_en": "La Belle Indifférence", "id": "SOMDIS_LBI_012"},
+      {"name_ko": "해리", "name_en": "Dissociative Continuum", "id": "SOMDIS_DCN_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PNES = Psychogenic Non-Epileptic Seizures — '간질 아닌 발작', EEG 정상이 감별 핵심",
+      "differential": "PNES는 뇌파(EEG)에서 간질 활동이 없고, 눈감김·점진적 시작·좌우 비대칭 운동 등의 임상적 단서가 있으며, 진짜 간질은 EEG 이상과 발작 후 혼돈이 특징이다.",
+      "key_point": "비디오-EEG 모니터링이 감별 진단의 골드 스탠다드이며, 약 20-30%의 간질 환자에서 PNES가 공존할 수 있다.",
+      "common_mistake": "PNES를 꾀병으로 단정하지만, 대부분의 PNES 환자는 의도적으로 증상을 만들어내는 것이 아니다."
+    }
+  },
+  {
+    "id": "SOMDIS_ISP_021",
+    "terminology": "의도적 증상 생성 (Intentional Symptom Production)",
+    "terminology_ko": "의도적 증상 생성",
+    "terminology_en": "Intentional Symptom Production",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "개인이 의식적으로 신체적 또는 심리적 증상을 만들어내거나 과장하는 행위로, 인위성장애(환자 역할 동기)와 꾀병(외적 보상 동기)을 포괄하는 상위 개념이다.",
+    "definition_en": "The conscious act of producing or exaggerating physical or psychological symptoms, an overarching concept encompassing both factitious disorder (motivated by sick role) and malingering (motivated by external rewards).",
+    "significance": "의도적 기만과 비의도적 증상 표현을 구분하는 핵심 축으로, 임상 평가에서 증상의 진위를 판단하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "리처드 로저스", "name_en": "Richard Rogers", "contribution": "의도적 증상 생성의 감별진단 모형과 평가 도구를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인위성장애", "name_en": "Factitious Disorder", "id": "SOMDIS_FCD_004"},
+      {"name_ko": "꾀병", "name_en": "Malingering", "id": "SOMDIS_MAL_006"},
+      {"name_ko": "증상타당도검사", "name_en": "Symptom Validity Test", "id": "SOMDIS_SVT_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "의도적 증상 생성 = 꾀병 + 인위성장애 — 둘 다 '의식적'으로 증상을 만듦, 동기만 다름",
+      "differential": "의도적 증상 생성(인위성장애, 꾀병)은 의식적 과정이고, 전환장애나 신체증상장애는 무의식적 과정이다.",
+      "key_point": "의도적 증상 생성의 감별에서 핵심은 동기 판별이며, 환자 역할 자체가 목적(인위성장애)인지 외적 보상이 목적(꾀병)인지를 구분해야 한다.",
+      "common_mistake": "모든 의학적으로 설명 불가능한 증상을 의도적 증상 생성으로 여기는 오류가 있으나, 대부분은 무의식적 과정이다."
+    }
+  },
+  {
+    "id": "SOMDIS_DCN_022",
+    "terminology": "해리의 연속체 (Dissociative Continuum)",
+    "terminology_ko": "해리의 연속체",
+    "terminology_en": "Dissociative Continuum",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "해리 경험이 일상적 백일몽이나 몰입과 같은 정상적 수준에서부터 해리성 기억상실, 이인증, 해리성 정체감장애와 같은 병리적 수준까지 연속선상에 분포한다는 개념적 틀이다.",
+    "definition_en": "A conceptual framework proposing that dissociative experiences exist on a continuum ranging from normal levels such as everyday daydreaming and absorption to pathological levels such as dissociative amnesia, depersonalization, and dissociative identity disorder.",
+    "significance": "정상과 병리적 해리의 관계를 이해하는 이론적 틀로, 해리 현상의 보편성과 특이성을 동시에 설명한다.",
+    "key_researchers": [
+      {"name_ko": "에브 칼슨", "name_en": "Eve Carlson", "contribution": "해리 경험 척도(DES)를 개발하여 해리의 연속체를 실증적으로 측정하는 도구를 제공했다."},
+      {"name_ko": "프랭크 퍼트넘", "name_en": "Frank Putnam", "contribution": "아동기 외상과 해리의 관계를 연구하고 해리의 발달적 모형을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"},
+      {"name_ko": "이인증/비현실감 장애", "name_en": "Depersonalization/Derealization Disorder", "id": "SOMDIS_DPD_011"},
+      {"name_ko": "해리성 기억상실", "name_en": "Dissociative Amnesia", "id": "SOMDIS_DAM_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "해리 연속체: 백일몽(정상) → 이인증 → 기억상실 → DID(병리) — 정도의 차이",
+      "differential": "연속체 모형은 해리가 정상-병리 사이의 차원적 현상이라고 보는 반면, 유형론적 관점은 병리적 해리가 질적으로 다른 현상이라고 본다.",
+      "key_point": "해리 경험 척도(DES)로 측정하며, 일반 인구에서도 상당한 수준의 해리 경험이 보고되어 연속체 모형을 지지한다.",
+      "common_mistake": "모든 해리 경험이 병리적이라고 오해하지만, 백일몽이나 몰입 같은 정상적 해리 경험은 누구나 한다."
+    }
+  },
+  {
+    "id": "SOMDIS_SHM_023",
+    "terminology": "자기최면모형 (Self-Hypnosis Model)",
+    "terminology_ko": "자기최면모형",
+    "terminology_en": "Self-Hypnosis Model",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "해리 증상이 높은 최면 감수성을 가진 개인이 스트레스 상황에서 자발적으로 최면과 유사한 상태에 들어감으로써 발생한다는 이론적 모형이다.",
+    "definition_en": "A theoretical model proposing that dissociative symptoms arise when highly hypnotizable individuals spontaneously enter hypnosis-like states during stressful situations.",
+    "significance": "해리와 최면의 관계를 설명하는 핵심 이론으로, 전환장애와 해리장애의 기제 이해에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "어니스트 힐가드", "name_en": "Ernest Hilgard", "contribution": "신해리 이론(neo-dissociation theory)을 제안하여 최면과 해리의 관계를 체계적으로 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리의 연속체", "name_en": "Dissociative Continuum", "id": "SOMDIS_DCN_022"},
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기최면모형 = 높은 최면 감수성 + 스트레스 → 자발적 최면 상태 → 해리 증상",
+      "differential": "자기최면모형은 해리를 최면적 과정으로 보는 반면, 외상-해리 모형은 외상에 대한 방어적 반응으로 본다.",
+      "key_point": "해리장애 환자들이 일반 인구보다 최면 감수성이 높다는 연구 결과가 이 모형을 지지한다.",
+      "common_mistake": "자기최면모형이 해리를 의도적 행위로 설명한다고 오해하지만, 자기최면은 자발적이고 무의식적인 과정이다."
+    }
+  },
+  {
+    "id": "SOMDIS_TDM_024",
+    "terminology": "외상-해리 모형 (Trauma-Dissociation Model)",
+    "terminology_ko": "외상-해리 모형",
+    "terminology_en": "Trauma-Dissociation Model",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "해리장애가 아동기 심각한 외상(특히 반복적 학대)에 대한 방어적 반응으로 발생한다는 이론적 모형으로, 외상의 고통을 의식으로부터 차단하기 위해 해리가 사용된다고 본다.",
+    "definition_en": "A theoretical model proposing that dissociative disorders develop as a defensive response to severe childhood trauma (especially repeated abuse), with dissociation used to block the pain of trauma from consciousness.",
+    "significance": "해리장애의 병인론에서 가장 영향력 있는 모형으로, 외상 치료와 해리 증상 관리의 이론적 기반을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "프랭크 퍼트넘", "name_en": "Frank Putnam", "contribution": "아동기 외상과 해리의 관계에 대한 종단 연구를 수행하고 발달적 해리 모형을 제안했다."},
+      {"name_ko": "베셀 반 데어 콜크", "name_en": "Bessel van der Kolk", "contribution": "외상이 뇌와 신체에 미치는 영향을 연구하고 외상-해리 연결의 신경생물학적 근거를 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사회인지모형", "name_en": "Sociocognitive Model", "id": "SOMDIS_SCM_025"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"},
+      {"name_ko": "PTSD", "name_en": "PTSD", "id": "TRAUMA_PTS_001"},
+      {"name_ko": "복합PTSD", "name_en": "Complex PTSD", "id": "TRAUMA_CPT_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "외상-해리 모형: 아동기 외상 → 방어적 해리 → 해리장애 발전",
+      "differential": "외상-해리 모형은 DID가 실제 외상의 결과라고 보는 반면, 사회인지모형은 DID가 사회적 학습과 암시의 산물이라고 본다.",
+      "key_point": "DID 환자의 높은 아동기 외상 보고율이 이 모형을 지지하지만, 회상 편향의 가능성도 고려해야 한다.",
+      "common_mistake": "외상-해리 모형이 모든 외상 경험자가 해리장애를 발전시킨다고 주장하는 것으로 오해하지만, 외상은 필요조건이지 충분조건이 아니다."
+    }
+  },
+  {
+    "id": "SOMDIS_SCM_025",
+    "terminology": "사회인지모형 (Sociocognitive Model)",
+    "terminology_ko": "사회인지모형",
+    "terminology_en": "Sociocognitive Model",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "해리성 정체감장애(DID)가 외상의 산물이 아니라, 사회적 기대, 치료자의 암시, 미디어 노출, 역할 수행 등에 의해 형성되는 사회문화적 현상이라는 비판적 이론 모형이다.",
+    "definition_en": "A critical theoretical model proposing that Dissociative Identity Disorder is not a product of trauma but a sociocultural phenomenon shaped by social expectations, therapist suggestion, media exposure, and role enactment.",
+    "significance": "DID에 대한 가장 영향력 있는 대안 이론으로, 암시 가능성과 의원성 효과에 대한 중요한 경고를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "니콜라스 스패노스", "name_en": "Nicholas Spanos", "contribution": "DID가 사회적 역할 수행의 결과라는 사회인지적 관점을 제안하고 실험적 증거를 제시했다."},
+      {"name_ko": "스콧 릴리엔펠드", "name_en": "Scott Lilienfeld", "contribution": "DID 진단의 과학적 근거를 비판적으로 검토하고 사회인지모형의 경험적 지지를 정리했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상-해리 모형", "name_en": "Trauma-Dissociation Model", "id": "SOMDIS_TDM_024"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회인지모형: 미디어 + 치료자 암시 + 사회적 기대 → DID '형성' — 외상이 아닌 사회적 맥락이 원인",
+      "differential": "사회인지모형은 DID가 사회적으로 구성된다고 보고, 외상-해리 모형은 실제 외상에 대한 방어적 반응이라고 본다.",
+      "key_point": "DID 진단율이 북미에 편중되어 있고, 미디어 노출 후 급증한 역학적 패턴이 이 모형을 지지하는 근거로 제시된다.",
+      "common_mistake": "사회인지모형이 DID 환자의 고통이 가짜라고 주장하는 것으로 오해하지만, 이 모형은 증상 형성 과정의 메커니즘에 대한 대안적 설명이다."
+    }
+  },
+  {
+    "id": "SOMDIS_GNS_026",
+    "terminology": "간서증후군 (Ganser Syndrome)",
+    "terminology_ko": "간서증후군",
+    "terminology_en": "Ganser Syndrome",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "근사 답변(approximate answers 또는 Vorbeireden)을 특징으로 하는 희귀한 해리 상태로, 간단한 질문에 대해 거의 맞지만 정확하지 않은 답변을 하며, 의식의 흐릿함, 환각, 신체 전환 증상이 동반될 수 있다.",
+    "definition_en": "A rare dissociative state characterized by approximate answers (Vorbeireden), where individuals give nearly correct but inaccurate responses to simple questions, potentially accompanied by clouding of consciousness, hallucinations, and somatic conversion symptoms.",
+    "significance": "해리와 꾀병의 경계에 위치한 논쟁적 진단으로, 법의학적 맥락에서 특히 중요하게 다루어진다.",
+    "key_researchers": [
+      {"name_ko": "지그베르트 간서", "name_en": "Sigbert Ganser", "contribution": "1898년 수감자들에서 관찰된 근사 답변 현상을 최초로 기술하여 이 증후군의 명칭이 되었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리성 기억상실", "name_en": "Dissociative Amnesia", "id": "SOMDIS_DAM_009"},
+      {"name_ko": "꾀병", "name_en": "Malingering", "id": "SOMDIS_MAL_006"},
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "간서 = 근사 답변 — '2+2=?' → '5'라고 답함 (틀리지만 근접, 질문을 이해하고 있음)",
+      "differential": "간서증후군은 근사 답변이 특징이고, 꾀병은 의도적 기만이며, 해리성 기억상실은 기억 공백이 특징이다.",
+      "key_point": "수감자나 법적 상황에서 주로 보고되며, 진정한 해리 상태인지 꾀병인지의 감별이 임상적 과제이다.",
+      "common_mistake": "간서증후군을 단순한 꾀병으로 치부하지만, 많은 사례에서 진정한 해리 상태의 특성이 관찰된다."
+    }
+  },
+  {
+    "id": "SOMDIS_BII_027",
+    "terminology": "신체 완전성 정체감 장애 (Body Integrity Identity Disorder)",
+    "terminology_ko": "신체 완전성 정체감 장애",
+    "terminology_en": "Body Integrity Identity Disorder",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "건강한 사지나 신체 부위가 자신의 신체 이미지와 불일치한다고 느끼며, 해당 부위의 절단을 강렬하게 원하는 드문 상태로, ICD-11에서 새롭게 분류된 진단이다.",
+    "definition_en": "A rare condition in which a healthy limb or body part is perceived as incongruent with one's body image, accompanied by an intense desire for amputation of that body part, newly classified in ICD-11.",
+    "significance": "신체 이미지와 정체감의 관계를 극단적으로 보여주는 상태로, 신체 표상의 신경학적 기반에 대한 연구를 촉진한다.",
+    "key_researchers": [
+      {"name_ko": "피터 브루거", "name_en": "Peter Brugger", "contribution": "신체 완전성 정체감 장애의 신경학적 기반을 연구하고 대뇌 우반구 두정엽의 역할을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "SOMDIS_CVD_003"},
+      {"name_ko": "신체변형장애", "name_en": "Body Dysmorphic Disorder", "id": "OBSESS_BDD_002"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BIID = Body Integrity Identity Disorder — '내 몸의 이 부분은 내 것이 아니다'는 느낌",
+      "differential": "BIID는 건강한 사지를 제거하고 싶은 욕구인 반면, 신체변형장애(BDD)는 지각된 외모 결함에 대한 집착이다.",
+      "key_point": "ICD-11에서 공식 진단으로 포함되었으며, 두정엽의 신체 표상 이상이 관여하는 것으로 제안된다.",
+      "common_mistake": "BIID를 정신병적 망상이나 자해 행위로 분류하는 오류가 있으나, 이는 신체 이미지-정체감 불일치의 독특한 장애이다."
+    }
+  },
+  {
+    "id": "SOMDIS_SVT_028",
+    "terminology": "증상타당도검사 (Symptom Validity Test)",
+    "terminology_ko": "증상타당도검사",
+    "terminology_en": "Symptom Validity Test",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "보고된 증상이나 인지적 손상의 진위를 평가하기 위해 설계된 심리평가 도구로, 우연 수준 이하의 수행이 의도적 증상 과장이나 꾀병을 시사하는 지표로 활용된다.",
+    "definition_en": "A psychological assessment tool designed to evaluate the authenticity of reported symptoms or cognitive impairment, where below-chance performance serves as an indicator of intentional symptom exaggeration or malingering.",
+    "significance": "법의학적 평가와 장애 판정에서 증상의 진위를 객관적으로 판단하는 핵심 도구로, 근거 기반 평가의 중요한 구성요소이다.",
+    "key_researchers": [
+      {"name_ko": "제리 스위트", "name_en": "Jerry Sweet", "contribution": "신경심리학적 평가에서 증상 타당도 검사의 활용과 해석 기준을 체계화했다."},
+      {"name_ko": "폴 그린", "name_en": "Paul Green", "contribution": "Word Memory Test(WMT) 등 대표적인 증상 타당도 검사를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "꾀병", "name_en": "Malingering", "id": "SOMDIS_MAL_006"},
+      {"name_ko": "의도적 증상 생성", "name_en": "Intentional Symptom Production", "id": "SOMDIS_ISP_021"},
+      {"name_ko": "심리검사", "name_en": "Psychological Testing", "id": "ASSESS_PST_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SVT: 우연 수준(50%) '이하' 수행 → 의도적 오답 시사 — 진짜 손상이면 최소 우연 수준은 맞힘",
+      "differential": "증상타당도검사는 증상 진위 판별 도구이고, 일반 심리검사는 능력이나 성격 측정 도구이다.",
+      "key_point": "강제 선택 형식에서 우연 수준(50%) 이하의 수행은 정답을 알면서 의도적으로 틀린 답을 선택했음을 강하게 시사한다.",
+      "common_mistake": "SVT에서 낮은 점수가 자동으로 꾀병을 확정한다고 오해하지만, 종합적 임상 판단의 일부로 사용해야 한다."
+    }
+  },
+  {
+    "id": "SOMDIS_NCB_029",
+    "terminology": "노시보 효과 (Nocebo Effect)",
+    "terminology_ko": "노시보 효과",
+    "terminology_en": "Nocebo Effect",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "비활성 물질이나 처치임에도 부정적 기대나 부정적 암시로 인해 실제 부작용이나 증상 악화가 발생하는 현상으로, 위약 효과(placebo effect)의 반대 개념이다.",
+    "definition_en": "A phenomenon in which negative expectations or suggestions cause actual adverse effects or symptom worsening despite receiving an inert substance or treatment, the opposite of the placebo effect.",
+    "significance": "기대와 암시가 신체 증상을 유발할 수 있음을 보여주는 현상으로, 신체증상장애의 발생 기제와 의료 커뮤니케이션의 중요성을 시사한다.",
+    "key_researchers": [
+      {"name_ko": "파브리치오 베네데티", "name_en": "Fabrizio Benedetti", "contribution": "노시보 효과의 신경생물학적 메커니즘을 연구하고 콜레시스토키닌(CCK)의 역할을 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체화", "name_en": "Somatization", "id": "SOMDIS_SOM_016"},
+      {"name_ko": "대중 심인성 질환", "name_en": "Mass Psychogenic Illness", "id": "SOMDIS_MPI_019"},
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Nocebo = '해를 끼칠 것이다(I shall harm)' — Placebo(기쁘게 할 것이다)의 반대",
+      "differential": "노시보 효과는 부정적 기대 → 부정적 결과이고, 플라시보 효과는 긍정적 기대 → 긍정적 결과이다.",
+      "key_point": "노시보 효과는 콜레시스토키닌(CCK)과 HPA 축 활성화가 관여하며, 실제 신체적 변화를 초래할 수 있다.",
+      "common_mistake": "노시보 효과를 단순한 심리적 착각으로 여기지만, 실제 생리적 변화(통증 증가, 면역 변화 등)가 동반된다."
+    }
+  },
+  {
+    "id": "SOMDIS_SRL_030",
+    "terminology": "환자역할 (Sick Role)",
+    "terminology_ko": "환자역할",
+    "terminology_en": "Sick Role",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "탈콧 파슨스가 제안한 사회학적 개념으로, 아픈 사람이 사회적으로 인정받는 특정 권리(일상 의무 면제)와 의무(치료 추구)를 부여받는 사회적 역할이며, 인위성장애의 동기적 기반이 된다.",
+    "definition_en": "A sociological concept proposed by Talcott Parsons in which a sick person is socially granted certain rights (exemption from daily obligations) and duties (seeking treatment), serving as the motivational basis for factitious disorder.",
+    "significance": "질병 행동의 사회적 차원을 이해하는 핵심 개념으로, 인위성장애와 의료 이용 패턴의 이론적 배경을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "탈콧 파슨스", "name_en": "Talcott Parsons", "contribution": "1951년 환자역할(sick role) 개념을 제안하여 질병의 사회학적 분석 틀을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인위성장애", "name_en": "Factitious Disorder", "id": "SOMDIS_FCD_004"},
+      {"name_ko": "이차적 이득", "name_en": "Secondary Gain", "id": "SOMDIS_SGN_013"},
+      {"name_ko": "일차적 이득", "name_en": "Primary Gain", "id": "SOMDIS_PGN_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "환자역할 = 파슨스의 4가지: 권리(의무 면제, 비난 면제) + 의무(치료 추구, 회복 노력)",
+      "differential": "환자역할은 사회적으로 인정되는 정당한 역할이고, 인위성장애는 이 역할을 의도적으로 획득하려는 병리적 행동이다.",
+      "key_point": "파슨스의 환자역할은 4가지 요소로 구성된다: (1) 일상 의무 면제, (2) 질병에 대한 비난 면제, (3) 회복을 위해 노력할 의무, (4) 전문적 도움을 구할 의무.",
+      "common_mistake": "환자역할을 단순히 아픈 것과 동일시하지만, 이는 권리와 의무를 포함하는 사회적으로 구조화된 역할이다."
+    }
+  },
+  {
+    "id": "SOMDIS_SSA_031",
+    "terminology": "신체감각 증폭 (Somatosensory Amplification)",
+    "terminology_ko": "신체감각 증폭",
+    "terminology_en": "Somatosensory Amplification",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "정상적인 신체 감각을 비정상적으로 강하고 해로우며 고통스러운 것으로 경험하는 경향으로, 신체증상장애와 질병불안장애의 인지적 메커니즘으로 제안된 개념이다.",
+    "definition_en": "A tendency to experience normal bodily sensations as abnormally intense, harmful, and distressing, proposed as a cognitive mechanism underlying somatic symptom disorder and illness anxiety disorder.",
+    "significance": "신체증상 관련 장애의 인지적 취약 요인을 설명하는 핵심 개념으로, 인지행동치료의 치료 표적이 된다.",
+    "key_researchers": [
+      {"name_ko": "아서 바스키", "name_en": "Arthur Barsky", "contribution": "신체감각 증폭(somatosensory amplification) 개념을 최초로 제안하고 SSAS 척도를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "SOMDIS_SSD_001"},
+      {"name_ko": "질병불안장애", "name_en": "Illness Anxiety Disorder", "id": "SOMDIS_IAD_002"},
+      {"name_ko": "인지모형", "name_en": "Cognitive Model", "id": "FOUND_COG_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "신체감각 증폭 = 정상 감각의 '볼륨 업' — 작은 신체 신호를 크게 증폭하여 해석",
+      "differential": "신체감각 증폭은 감각 자체의 과대 지각이고, 파국화(catastrophizing)는 감각에 대한 최악의 해석이다. 둘 다 신체증상장애에 기여한다.",
+      "key_point": "주의 집중 → 신체 감각 탐지 증가 → 불안 → 추가 주의 집중의 악순환이 핵심 메커니즘이다.",
+      "common_mistake": "신체감각 증폭을 의도적 과장으로 오해하지만, 이는 자동적이고 무의식적인 인지 과정이다."
+    }
+  },
+  {
+    "id": "SOMDIS_DES_032",
+    "terminology": "해리 경험 척도 (Dissociative Experiences Scale)",
+    "terminology_ko": "해리 경험 척도",
+    "terminology_en": "Dissociative Experiences Scale",
+    "category": "SOMDIS",
+    "category_name": "신체증상 및 해리장애 (Somatic and Dissociative Disorders)",
+    "definition": "해리 경험의 빈도와 강도를 측정하는 28문항의 자기보고식 척도로, 해리성 정체감장애를 포함한 해리장애의 선별과 연구에 가장 널리 사용되는 표준화된 측정 도구이다.",
+    "definition_en": "A 28-item self-report scale measuring the frequency and intensity of dissociative experiences, the most widely used standardized measurement tool for screening and research on dissociative disorders including Dissociative Identity Disorder.",
+    "significance": "해리 현상의 정량적 측정을 가능하게 한 핵심 도구로, 해리의 연속체 모형의 실증적 검증에 기여했다.",
+    "key_researchers": [
+      {"name_ko": "에브 칼슨", "name_en": "Eve Carlson", "contribution": "DES를 공동 개발하여 해리 경험의 표준적 측정 도구를 제공했다."},
+      {"name_ko": "프랭크 퍼트넘", "name_en": "Frank Putnam", "contribution": "DES를 공동 개발하고 다양한 임상 집단에서의 타당도를 검증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리의 연속체", "name_en": "Dissociative Continuum", "id": "SOMDIS_DCN_022"},
+      {"name_ko": "해리성 정체감장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_008"},
+      {"name_ko": "심리검사", "name_en": "Psychological Testing", "id": "ASSESS_PST_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DES = Dissociative Experiences Scale — 28문항, 0~100% 척도, 해리장애 선별의 표준",
+      "differential": "DES는 해리 경험 전반을 측정하는 자기보고 척도이고, SCID-D는 해리장애를 진단하는 구조화된 면접 도구이다.",
+      "key_point": "DES 점수 30점 이상이 해리장애의 임상적 절단점으로 제안되며, DID 환자는 평균 40~50점 범위를 보인다.",
+      "common_mistake": "DES 점수만으로 해리장애를 진단할 수 있다고 오해하지만, DES는 선별 도구이며 진단은 임상적 면접을 통해 이루어진다."
+    }
+  }
+]

@@ -1,0 +1,870 @@
+[
+  {
+    "id": "SEXUAL_SRC_001",
+    "terminology": "성반응주기 (Sexual Response Cycle)",
+    "terminology_ko": "성반응주기",
+    "terminology_en": "Sexual Response Cycle",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성적 흥분에서 해소까지의 생리적·심리적 반응 과정으로, Masters와 Johnson이 제안한 4단계 모형(흥분기-고조기-절정기-해소기)이 대표적이며, 성기능장애 이해의 기본 틀이 된다.",
+    "definition_en": "The physiological and psychological process from sexual arousal to resolution, with the four-phase model (excitement-plateau-orgasm-resolution) proposed by Masters and Johnson serving as the foundational framework for understanding sexual dysfunctions.",
+    "significance": "성기능장애의 진단과 분류의 기본 틀로, 각 단계에서의 기능 이상이 특정 성기능장애와 연결된다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 매스터스", "name_en": "William Masters", "contribution": "Virginia Johnson과 함께 성반응의 생리학적 연구를 수행하고 4단계 성반응주기 모형을 제안했다."},
+      {"name_ko": "버지니아 존슨", "name_en": "Virginia Johnson", "contribution": "William Masters와 함께 인간 성반응에 대한 실험실 연구를 수행하고 성치료 기법을 개발했다."},
+      {"name_ko": "헬렌 카플란", "name_en": "Helen Singer Kaplan", "contribution": "성반응주기에 욕구(desire) 단계를 추가하여 3단계 모형(욕구-흥분-절정)을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"},
+      {"name_ko": "남성 발기장애", "name_en": "Erectile Disorder", "id": "SEXUAL_ERD_002"},
+      {"name_ko": "여성 성적 관심/흥분장애", "name_en": "Female Sexual Interest/Arousal Disorder", "id": "SEXUAL_FSA_003"}
+    ],
+    "sub_types": [
+      {"name": "흥분기(Excitement)", "description": "성적 자극에 대한 초기 생리적 반응(혈관 충혈, 근긴장 증가)"},
+      {"name": "고조기(Plateau)", "description": "흥분이 최고조에 이르기 직전의 고조된 상태"},
+      {"name": "절정기(Orgasm)", "description": "성적 쾌감의 최고점, 근육 수축과 긴장 해소"},
+      {"name": "해소기(Resolution)", "description": "신체가 비흥분 상태로 돌아가는 단계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "성반응주기 4단계: 흥분(E) → 고조(P) → 절정(O) → 해소(R) — Kaplan은 욕구(D)를 추가",
+      "differential": "Masters & Johnson 모형은 4단계(흥분-고조-절정-해소)이고, Kaplan 모형은 3단계(욕구-흥분-절정)이다.",
+      "key_point": "DSM-5의 성기능장애 분류는 주로 Kaplan의 3단계(욕구-흥분-절정)에 기반하여 각 단계의 장애를 구분한다.",
+      "common_mistake": "성반응주기가 모든 사람에게 동일하게 적용된다고 오해하지만, 개인차가 크며 특히 여성의 성반응은 선형적이지 않을 수 있다."
+    }
+  },
+  {
+    "id": "SEXUAL_ERD_002",
+    "terminology": "남성 발기장애 (Erectile Disorder)",
+    "terminology_ko": "남성 발기장애",
+    "terminology_en": "Erectile Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성행위 시 발기를 획득하거나 유지하는 데 현저한 어려움이 반복적으로 나타나는 성기능장애로, 최소 6개월 이상 지속되어야 하며, 심리적 요인과 의학적 요인이 모두 관여할 수 있다.",
+    "definition_en": "A sexual dysfunction characterized by recurrent marked difficulty obtaining or maintaining an erection during sexual activity, lasting at least 6 months, with both psychological and medical factors potentially involved.",
+    "significance": "가장 흔한 남성 성기능장애 중 하나로, 수행 불안과 생물학적 요인의 상호작용을 이해하는 핵심 진단이다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 매스터스", "name_en": "William Masters", "contribution": "성기능장애의 심리적 치료를 개척하고 발기장애에서 수행 불안의 역할을 규명했다."},
+      {"name_ko": "레이먼드 로젠", "name_en": "Raymond Rosen", "contribution": "발기기능 국제지수(IIEF)를 개발하여 발기장애의 표준적 평가를 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성반응주기", "name_en": "Sexual Response Cycle", "id": "SEXUAL_SRC_001"},
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"},
+      {"name_ko": "남성 성욕감퇴장애", "name_en": "Male Hypoactive Sexual Desire Disorder", "id": "SEXUAL_MHD_008"}
+    ],
+    "sub_types": [
+      {"name": "평생형", "description": "첫 성경험부터 지속적으로 존재"},
+      {"name": "후천형", "description": "정상 기능 이후에 발생"},
+      {"name": "전반형", "description": "모든 상황에서 나타남"},
+      {"name": "상황형", "description": "특정 상황에서만 나타남"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "발기장애: 수행 불안 → 자기관찰(spectatoring) → 흥분 억제 → 발기 실패 → 불안 강화의 악순환",
+      "differential": "발기장애는 흥분기(발기) 문제이고, 조기 사정은 절정기 조절 문제이며, 지연 사정은 절정 도달 지연 문제이다.",
+      "key_point": "야간 발기(NPT) 검사를 통해 심인성과 기질성을 감별할 수 있다. 야간 발기가 정상이면 심인성 가능성이 높다.",
+      "common_mistake": "발기장애가 모두 심리적 원인이라고 오해하지만, 혈관 질환, 당뇨, 약물 부작용 등 의학적 원인이 40-50%를 차지한다."
+    }
+  },
+  {
+    "id": "SEXUAL_FSA_003",
+    "terminology": "여성 성적 관심/흥분장애 (Female Sexual Interest/Arousal Disorder)",
+    "terminology_ko": "여성 성적 관심/흥분장애",
+    "terminology_en": "Female Sexual Interest/Arousal Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성적 관심이나 흥분이 현저하게 감소하거나 부재하여, 성적 환상·사고 결여, 성적 활동의 시작·수용 감소, 성적 쾌감·흥분 감소 중 3가지 이상이 최소 6개월 지속되는 장애이다.",
+    "definition_en": "A disorder characterized by markedly diminished or absent sexual interest or arousal, with at least three of the following persisting for at least 6 months: absent sexual fantasies/thoughts, reduced initiation/receptivity to sexual activity, or reduced sexual pleasure/excitement.",
+    "significance": "DSM-5에서 여성 성욕감퇴장애와 여성 흥분장애를 통합한 진단으로, 여성 성반응의 복잡성을 반영한 변화이다.",
+    "key_researchers": [
+      {"name_ko": "로지마리 바손", "name_en": "Rosemary Basson", "contribution": "여성의 순환적 성반응 모형을 제안하여 여성 성적 관심의 비선형적 특성을 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성반응주기", "name_en": "Sexual Response Cycle", "id": "SEXUAL_SRC_001"},
+      {"name_ko": "여성 극치감장애", "name_en": "Female Orgasmic Disorder", "id": "SEXUAL_FOD_006"},
+      {"name_ko": "성교통증/삽입장애", "name_en": "Genito-Pelvic Pain/Penetration Disorder", "id": "SEXUAL_GPP_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FSIAD = DSM-IV의 HSDD(성욕감퇴) + FSAD(흥분장애) 통합 — 여성에서 욕구와 흥분이 분리 불가하기 때문",
+      "differential": "여성 성적 관심/흥분장애는 성적 관심·흥분의 감소이고, 여성 극치감장애는 흥분은 가능하나 절정 도달에 어려움이 있는 것이다.",
+      "key_point": "DSM-5에서 여성의 성욕(desire)과 흥분(arousal)이 밀접하게 연결되어 있다는 Basson의 순환적 모형을 반영하여 통합 진단이 만들어졌다.",
+      "common_mistake": "여성의 성적 관심이 남성처럼 자발적이어야 한다고 오해하지만, 많은 여성에서 성적 관심은 관계적 맥락에서 반응적으로 나타난다."
+    }
+  },
+  {
+    "id": "SEXUAL_DEJ_004",
+    "terminology": "지연 사정 (Delayed Ejaculation)",
+    "terminology_ko": "지연 사정",
+    "terminology_en": "Delayed Ejaculation",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "파트너와의 성행위 중 사정의 현저한 지연이나 드물게 또는 전혀 사정하지 못하는 상태가 최소 6개월 이상 반복적으로 나타나며 임상적 고통을 유발하는 성기능장애이다.",
+    "definition_en": "A sexual dysfunction characterized by marked delay in or infrequent or absence of ejaculation during partnered sexual activity, recurring for at least 6 months and causing clinically significant distress.",
+    "significance": "가장 덜 연구된 남성 성기능장애로, 심리적 요인과 신경학적 요인의 복합적 상호작용을 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "마르셀 발트하세스", "name_en": "Marcel Waldinger", "contribution": "사정 장애의 신경생물학적 이론을 발전시키고 체계적인 분류 기준을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "조기 사정", "name_en": "Premature Ejaculation", "id": "SEXUAL_PEJ_005"},
+      {"name_ko": "성반응주기", "name_en": "Sexual Response Cycle", "id": "SEXUAL_SRC_001"},
+      {"name_ko": "남성 발기장애", "name_en": "Erectile Disorder", "id": "SEXUAL_ERD_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지연 사정 = 절정기 도달 지연 — '너무 오래 걸리거나 전혀 안 됨'이 핵심",
+      "differential": "지연 사정은 사정까지 과도하게 긴 시간이 걸리는 것이고, 조기 사정은 원하는 것보다 너무 빨리 사정하는 것이다.",
+      "key_point": "SSRI 항우울제의 부작용으로 흔히 나타나며, 이 부작용을 역이용하여 조기 사정 치료에 SSRI를 사용하기도 한다.",
+      "common_mistake": "지연 사정이 남성의 성적 능력이 뛰어나다는 의미로 오해하지만, 이는 고통과 관계 문제를 유발하는 성기능장애이다."
+    }
+  },
+  {
+    "id": "SEXUAL_PEJ_005",
+    "terminology": "조기 사정 (Premature Ejaculation)",
+    "terminology_ko": "조기 사정",
+    "terminology_en": "Premature Ejaculation",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "질 삽입 약 1분 이내에 원치 않는 사정이 반복적으로 발생하며, 사정 시점을 조절할 수 없고 부정적 결과(고통, 좌절, 성행위 회피)를 초래하는 성기능장애이다.",
+    "definition_en": "A sexual dysfunction characterized by recurrent ejaculation occurring within approximately 1 minute of vaginal penetration, with inability to delay ejaculation and negative consequences including distress, frustration, and avoidance of sexual activity.",
+    "significance": "가장 흔한 남성 성기능장애로, 세로토닌 신경전달 체계의 역할을 포함한 생물심리사회적 이해가 발전하고 있다.",
+    "key_researchers": [
+      {"name_ko": "마르셀 발트하세스", "name_en": "Marcel Waldinger", "contribution": "조기 사정의 신경생물학적 이론(세로토닌 가설)을 제안하고 사정잠복시간(IELT) 연구를 수행했다."},
+      {"name_ko": "제임스 세만즈", "name_en": "James Semans", "contribution": "조기 사정의 행동 치료 기법(정지-시작 기법)을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "지연 사정", "name_en": "Delayed Ejaculation", "id": "SEXUAL_DEJ_004"},
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"},
+      {"name_ko": "인지행동적 성치료", "name_en": "Cognitive-Behavioral Sex Therapy", "id": "SEXUAL_CBS_031"}
+    ],
+    "sub_types": [
+      {"name": "평생형", "description": "첫 성경험부터 지속적으로 존재"},
+      {"name": "후천형", "description": "정상 사정 후 발생"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PE: 삽입 ~1분 이내 사정 + 조절 불능 + 고통 — 가장 흔한 남성 성기능장애",
+      "differential": "조기 사정은 사정이 너무 빠른 것(절정 타이밍 문제)이고, 발기장애는 발기를 유지하지 못하는 것(흥분 문제)이다.",
+      "key_point": "치료 접근: 행동 기법(정지-시작법, 압착법) + 약물(SSRI, 국소 마취제) + 인지치료의 통합이 효과적이다.",
+      "common_mistake": "조기 사정이 단순히 경험 부족 때문이라고 오해하지만, 세로토닌 체계의 생물학적 기반이 있는 경우가 많다."
+    }
+  },
+  {
+    "id": "SEXUAL_FOD_006",
+    "terminology": "여성 극치감장애 (Female Orgasmic Disorder)",
+    "terminology_ko": "여성 극치감장애",
+    "terminology_en": "Female Orgasmic Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "충분한 성적 흥분에도 불구하고 극치감(오르가즘)의 현저한 지연, 빈도 감소, 강도 감소, 또는 부재가 최소 6개월 이상 반복적으로 나타나며 임상적 고통을 유발하는 성기능장애이다.",
+    "definition_en": "A sexual dysfunction characterized by marked delay in, infrequency of, reduced intensity of, or absence of orgasm despite adequate sexual stimulation, recurring for at least 6 months and causing clinically significant distress.",
+    "significance": "여성 성건강의 핵심 이슈로, 성교육과 성적 자기탐색의 중요성을 강조하는 진단이다.",
+    "key_researchers": [
+      {"name_ko": "줄리아 헤이먼", "name_en": "Julia Heiman", "contribution": "여성 성적 흥분과 극치감의 심리생리학적 연구를 수행하여 여성 극치감장애의 이해를 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "여성 성적 관심/흥분장애", "name_en": "Female Sexual Interest/Arousal Disorder", "id": "SEXUAL_FSA_003"},
+      {"name_ko": "성반응주기", "name_en": "Sexual Response Cycle", "id": "SEXUAL_SRC_001"},
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FOD = 충분한 흥분에도 극치감 도달 실패 — 흥분기는 정상, 절정기에 문제",
+      "differential": "여성 극치감장애는 흥분은 가능하나 절정에 도달하지 못하는 것이고, 여성 성적 관심/흥분장애는 성적 관심·흥분 자체가 결여된 것이다.",
+      "key_point": "약 10-15%의 여성이 어떤 상황에서도 극치감을 경험하지 못하며, 직접 지시 자위 훈련(directed masturbation)이 가장 효과적인 치료이다.",
+      "common_mistake": "모든 여성이 성교를 통해 극치감에 도달해야 한다고 오해하지만, 약 70%의 여성은 삽입 성교만으로는 극치감에 도달하지 못한다."
+    }
+  },
+  {
+    "id": "SEXUAL_GPP_007",
+    "terminology": "성교통증/삽입장애 (Genito-Pelvic Pain/Penetration Disorder)",
+    "terminology_ko": "성교통증/삽입장애",
+    "terminology_en": "Genito-Pelvic Pain/Penetration Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "질 삽입이나 성교 시 반복적으로 현저한 통증, 두려움, 또는 골반저근 긴장이 나타나는 장애로, DSM-5에서 성교통증(dyspareunia)과 질경련(vaginismus)을 통합한 진단이다.",
+    "definition_en": "A disorder characterized by recurrent marked pain, fear, or pelvic floor muscle tension during vaginal intercourse or penetration, combining the DSM-IV diagnoses of dyspareunia and vaginismus in DSM-5.",
+    "significance": "성교통증과 질경련의 임상적 중복을 인정한 통합 진단으로, 통증-두려움-회피의 악순환 모형에 대한 이해를 발전시켰다.",
+    "key_researchers": [
+      {"name_ko": "소피 버그롱", "name_en": "Sophie Bergeron", "contribution": "성교통증의 통증-두려움-회피 모형을 발전시키고 다학제적 치료 접근을 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "여성 성적 관심/흥분장애", "name_en": "Female Sexual Interest/Arousal Disorder", "id": "SEXUAL_FSA_003"},
+      {"name_ko": "성반응주기", "name_en": "Sexual Response Cycle", "id": "SEXUAL_SRC_001"},
+      {"name_ko": "인지행동적 성치료", "name_en": "Cognitive-Behavioral Sex Therapy", "id": "SEXUAL_CBS_031"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "GPPPD = 성교통(Dyspareunia) + 질경련(Vaginismus) 통합 — 통증-두려움-긴장-회피의 악순환",
+      "differential": "GPPPD는 삽입 시 통증·두려움·긴장이 핵심이고, 여성 성적 관심/흥분장애는 성적 관심이나 흥분의 감소가 핵심이다.",
+      "key_point": "DSM-5에서 성교통증과 질경련이 통합된 이유는 두 장애가 임상적으로 구분이 어렵고 통증-두려움-회피라는 공통 기제를 공유하기 때문이다.",
+      "common_mistake": "성교통증이 모두 심리적 원인이라고 오해하지만, 외음부 전정통(vulvodynia) 등 의학적 원인이 동반되는 경우가 흔하다."
+    }
+  },
+  {
+    "id": "SEXUAL_MHD_008",
+    "terminology": "남성 성욕감퇴장애 (Male Hypoactive Sexual Desire Disorder)",
+    "terminology_ko": "남성 성욕감퇴장애",
+    "terminology_en": "Male Hypoactive Sexual Desire Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성적 환상, 사고, 성적 활동에 대한 욕구가 지속적으로 또는 반복적으로 결핍되거나 부재하여 임상적 고통을 유발하는 남성 성기능장애로, 최소 6개월 이상 지속되어야 한다.",
+    "definition_en": "A male sexual dysfunction characterized by persistently or recurrently deficient or absent sexual fantasies, thoughts, and desire for sexual activity causing clinically significant distress, lasting at least 6 months.",
+    "significance": "DSM-5에서 남성에게만 적용되는 독립 진단으로, 테스토스테론 수치와 심리적 요인의 상호작용을 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "헬렌 카플란", "name_en": "Helen Singer Kaplan", "contribution": "성욕(desire) 단계를 성반응주기에 추가하여 성욕감퇴장애의 개념적 토대를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "남성 발기장애", "name_en": "Erectile Disorder", "id": "SEXUAL_ERD_002"},
+      {"name_ko": "성반응주기", "name_en": "Sexual Response Cycle", "id": "SEXUAL_SRC_001"},
+      {"name_ko": "호르몬 치료", "name_en": "Hormonal Treatment", "id": "SEXUAL_HRM_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MHSDD = 남성 + 성욕 감소 — 성적 환상·사고·욕구의 결핍이 핵심",
+      "differential": "남성 성욕감퇴장애는 욕구 자체가 없는 것이고, 발기장애는 욕구는 있으나 발기가 안 되는 것이다.",
+      "key_point": "DSM-5에서 남녀 성욕감퇴를 분리하여 남성에만 MHSDD를 적용하고, 여성은 FSIAD로 통합한 이유는 남녀 성욕의 질적 차이를 반영한 것이다.",
+      "common_mistake": "성욕 감퇴가 반드시 호르몬 문제라고 단정하지만, 우울증, 관계 갈등, 약물 부작용 등 다양한 심리사회적 요인이 관여한다."
+    }
+  },
+  {
+    "id": "SEXUAL_VOY_009",
+    "terminology": "관음장애 (Voyeuristic Disorder)",
+    "terminology_ko": "관음장애",
+    "terminology_en": "Voyeuristic Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "동의하지 않은 타인이 옷을 벗거나 성행위를 하는 것을 관찰하여 반복적이고 강렬한 성적 흥분을 경험하며, 이러한 충동에 따라 행동하거나 이로 인해 임상적 고통이나 기능 손상이 초래되는 변태성욕장애이다.",
+    "definition_en": "A paraphilic disorder involving recurrent, intense sexual arousal from observing unsuspecting persons who are undressing or engaging in sexual activity, with the individual acting on these urges or experiencing clinically significant distress or functional impairment.",
+    "significance": "가장 흔한 변태성욕 중 하나로, 동의의 부재와 타인의 사생활 침해라는 법적·윤리적 문제를 포함한다.",
+    "key_researchers": [
+      {"name_ko": "커트 프런드", "name_en": "Kurt Freund", "contribution": "변태성욕의 구성과 분류에 대한 기본적 연구를 수행하고 음경 체적 측정법(phallometry)을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "노출장애", "name_en": "Exhibitionistic Disorder", "id": "SEXUAL_EXH_010"},
+      {"name_ko": "마찰도착장애", "name_en": "Frotteuristic Disorder", "id": "SEXUAL_FRT_011"},
+      {"name_ko": "소아성애장애", "name_en": "Pedophilic Disorder", "id": "SEXUAL_PED_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관음장애: voyeur(관찰자) — 동의 없이 타인의 은밀한 행동을 관찰하여 성적 흥분",
+      "differential": "관음장애는 동의 없이 타인을 '관찰'하는 것이고, 노출장애는 동의 없이 자신의 성기를 '노출'하는 것이다.",
+      "key_point": "DSM-5에서 변태성욕(paraphilia)과 변태성욕장애(paraphilic disorder)를 구분하여, 성적 공상만으로는 장애 진단을 하지 않고 행동화나 고통이 있어야 한다.",
+      "common_mistake": "포르노그래피 시청을 관음장애와 혼동하지만, 관음장애는 동의하지 않은 실제 타인의 관찰이 핵심이다."
+    }
+  },
+  {
+    "id": "SEXUAL_EXH_010",
+    "terminology": "노출장애 (Exhibitionistic Disorder)",
+    "terminology_ko": "노출장애",
+    "terminology_en": "Exhibitionistic Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "동의하지 않은 타인에게 자신의 성기를 노출함으로써 반복적이고 강렬한 성적 흥분을 경험하며, 이러한 충동에 따라 행동하거나 이로 인해 임상적 고통이 초래되는 변태성욕장애이다.",
+    "definition_en": "A paraphilic disorder involving recurrent, intense sexual arousal from exposing one's genitals to unsuspecting persons, with the individual acting on these urges or experiencing clinically significant distress.",
+    "significance": "법적 성범죄와 직결되는 변태성욕장애로, 성범죄 위험 평가와 예방에 중요한 진단이다.",
+    "key_researchers": [
+      {"name_ko": "론 랭지뱅", "name_en": "Ron Langevin", "contribution": "노출장애를 포함한 변태성욕의 다차원적 평가와 치료에 대한 포괄적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관음장애", "name_en": "Voyeuristic Disorder", "id": "SEXUAL_VOY_009"},
+      {"name_ko": "마찰도착장애", "name_en": "Frotteuristic Disorder", "id": "SEXUAL_FRT_011"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "노출장애: exhibitionist(노출광) — 동의 없이 성기 노출 → 상대의 놀라는 반응에서 성적 흥분",
+      "differential": "노출장애는 자신의 성기를 동의 없이 노출하는 것이고, 관음장애는 타인의 은밀한 행동을 동의 없이 관찰하는 것이다.",
+      "key_point": "노출장애에서 성적 흥분의 핵심은 대상의 놀라거나 충격받는 반응이며, 실제 성적 접촉을 목표로 하지 않는 경우가 많다.",
+      "common_mistake": "노출장애자가 반드시 다른 성범죄로 발전한다고 단정하지만, 대부분의 노출장애자는 비접촉 범죄에 머문다."
+    }
+  },
+  {
+    "id": "SEXUAL_FRT_011",
+    "terminology": "마찰도착장애 (Frotteuristic Disorder)",
+    "terminology_ko": "마찰도착장애",
+    "terminology_en": "Frotteuristic Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "동의하지 않은 타인에게 자신의 몸(특히 성기)을 접촉하거나 문지르는 것에서 반복적이고 강렬한 성적 흥분을 경험하는 변태성욕장애로, 주로 혼잡한 공공장소에서 발생한다.",
+    "definition_en": "A paraphilic disorder involving recurrent, intense sexual arousal from touching or rubbing one's body (especially genitals) against an unsuspecting person, typically occurring in crowded public places.",
+    "significance": "공공장소에서의 성범죄와 관련되며, 피해자의 심리적 영향과 법적 대응의 필요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "커트 프런드", "name_en": "Kurt Freund", "contribution": "마찰도착을 포함한 구애장애(courtship disorder) 이론을 제안하여 관련 변태성욕의 통합적 이해를 시도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관음장애", "name_en": "Voyeuristic Disorder", "id": "SEXUAL_VOY_009"},
+      {"name_ko": "노출장애", "name_en": "Exhibitionistic Disorder", "id": "SEXUAL_EXH_010"},
+      {"name_ko": "충동성과 공격성", "name_en": "Impulsivity and Aggression", "id": "SEXUAL_IMP_032"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "마찰도착(Frotteurism): frotteur(문지르는 사람) — 혼잡한 장소에서 동의 없이 접촉/마찰",
+      "differential": "마찰도착장애는 동의 없는 접촉/마찰이 핵심이고, 성적 마조히즘/사디즘은 합의된 또는 비합의된 상황에서의 통증/굴욕이 핵심이다.",
+      "key_point": "Freund의 구애장애 이론에 따르면, 관음-노출-마찰도착-가학적 강간은 정상 구애 순서의 왜곡된 형태이다.",
+      "common_mistake": "마찰도착이 사소한 일탈로 취급되기 쉽지만, 피해자에게 심각한 심리적 영향을 미치는 성범죄이다."
+    }
+  },
+  {
+    "id": "SEXUAL_SMZ_012",
+    "terminology": "성적 마조히즘장애 (Sexual Masochism Disorder)",
+    "terminology_ko": "성적 마조히즘장애",
+    "terminology_en": "Sexual Masochism Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "굴욕, 구속, 고통 경험으로부터 반복적이고 강렬한 성적 흥분을 느끼며, 이로 인해 임상적 고통이나 기능 손상이 초래되는 변태성욕장애이다.",
+    "definition_en": "A paraphilic disorder involving recurrent, intense sexual arousal from being humiliated, bound, or made to suffer, causing clinically significant distress or functional impairment.",
+    "significance": "변태성욕의 진단에서 정상적 성적 다양성과 병리의 경계를 구분하는 중요한 논의를 촉발한다.",
+    "key_researchers": [
+      {"name_ko": "리하르트 폰 크라프트에빙", "name_en": "Richard von Krafft-Ebing", "contribution": "『성의 정신병리학(Psychopathia Sexualis, 1886)』에서 마조히즘을 포함한 성적 일탈을 최초로 체계적으로 분류했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성적 사디즘장애", "name_en": "Sexual Sadism Disorder", "id": "SEXUAL_SSD_013"},
+      {"name_ko": "관음장애", "name_en": "Voyeuristic Disorder", "id": "SEXUAL_VOY_009"},
+      {"name_ko": "충동성과 공격성", "name_en": "Impulsivity and Aggression", "id": "SEXUAL_IMP_032"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "마조히즘 = 소설가 자허마조흐(Sacher-Masoch)에서 유래 — 고통받는 것에서 성적 흥분",
+      "differential": "성적 마조히즘은 자신이 고통·굴욕을 받는 것이고, 성적 사디즘은 타인에게 고통·굴욕을 가하는 것이다.",
+      "key_point": "DSM-5는 변태성욕(paraphilia)과 변태성욕장애(disorder)를 구분하여, 합의된 BDSM 자체는 장애가 아니며 고통이나 기능 손상이 있을 때만 진단한다.",
+      "common_mistake": "합의된 BDSM 활동을 자동으로 성적 마조히즘장애로 진단하는 오류가 있으나, 장애 진단에는 임상적 고통이 필수이다."
+    }
+  },
+  {
+    "id": "SEXUAL_SSD_013",
+    "terminology": "성적 사디즘장애 (Sexual Sadism Disorder)",
+    "terminology_ko": "성적 사디즘장애",
+    "terminology_en": "Sexual Sadism Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "타인에게 신체적·심리적 고통을 가함으로써 반복적이고 강렬한 성적 흥분을 경험하며, 동의하지 않은 타인에게 이를 행사하거나 이로 인해 임상적 고통이 초래되는 변태성욕장애이다.",
+    "definition_en": "A paraphilic disorder involving recurrent, intense sexual arousal from inflicting physical or psychological suffering on another person, enacted upon a non-consenting person or causing clinically significant distress.",
+    "significance": "성범죄 및 성폭력과 밀접하게 관련되는 변태성욕장애로, 위험성 평가와 법의학적 평가에서 중요하다.",
+    "key_researchers": [
+      {"name_ko": "리하르트 폰 크라프트에빙", "name_en": "Richard von Krafft-Ebing", "contribution": "사디즘 용어를 마르키 드 사드의 이름에서 가져와 성적 일탈 분류에 포함시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성적 마조히즘장애", "name_en": "Sexual Masochism Disorder", "id": "SEXUAL_SMZ_012"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_002"},
+      {"name_ko": "충동성과 공격성", "name_en": "Impulsivity and Aggression", "id": "SEXUAL_IMP_032"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사디즘 = 마르키 드 사드(Marquis de Sade)에서 유래 — 타인에게 고통을 가하는 것에서 성적 흥분",
+      "differential": "성적 사디즘은 타인에게 고통을 가하여 흥분하는 것이고, 성적 마조히즘은 자신이 고통을 받아 흥분하는 것이다.",
+      "key_point": "비동의 대상에게 가학적 행동을 실행하면 행동화 기준으로 장애가 진단되며, 이는 법적 성범죄에 해당한다.",
+      "common_mistake": "성적 사디즘장애자가 모두 성범죄자라고 단정하지만, 합의된 관계 내에서의 가학적 행위는 동의가 있을 때 범죄가 아니다."
+    }
+  },
+  {
+    "id": "SEXUAL_FTD_014",
+    "terminology": "물품성도착장애 (Fetishistic Disorder)",
+    "terminology_ko": "물품성도착장애",
+    "terminology_en": "Fetishistic Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "비생식 신체 부위나 무생물 대상(신발, 속옷 등)에 대한 반복적이고 강렬한 성적 흥분이 있으며, 이로 인해 임상적 고통이나 사회적·직업적 기능 손상이 초래되는 변태성욕장애이다.",
+    "definition_en": "A paraphilic disorder involving recurrent, intense sexual arousal from nonliving objects or non-genital body parts, causing clinically significant distress or impairment in social or occupational functioning.",
+    "significance": "성적 흥분의 학습 과정과 조건형성의 역할을 이해하는 데 중요한 진단이다.",
+    "key_researchers": [
+      {"name_ko": "앨프레드 비네", "name_en": "Alfred Binet", "contribution": "1887년 '페티시즘(fetishism)' 용어를 성적 맥락에서 최초로 사용하고 학습 이론적 설명을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "복장도착장애", "name_en": "Transvestic Disorder", "id": "SEXUAL_TVD_016"},
+      {"name_ko": "관음장애", "name_en": "Voyeuristic Disorder", "id": "SEXUAL_VOY_009"},
+      {"name_ko": "인지행동적 성치료", "name_en": "Cognitive-Behavioral Sex Therapy", "id": "SEXUAL_CBS_031"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "물품성도착: 특정 물건(신발, 속옷) 또는 비생식기 부위(발)에 성적 흥분 — 고전적 조건형성 설명",
+      "differential": "물품성도착장애는 무생물이나 비생식기 부위에 대한 성적 흥분이고, 복장도착장애는 이성의 의복을 착용하는 것에 대한 성적 흥분이다.",
+      "key_point": "물품성도착의 발생은 고전적 조건형성으로 설명되며, 초기 성적 경험에서 특정 대상과 성적 흥분이 연합된 결과로 본다.",
+      "common_mistake": "모든 페티시가 병리적이라고 오해하지만, 기능 손상이나 고통이 없으면 변태성욕(paraphilia)이지 장애(disorder)가 아니다."
+    }
+  },
+  {
+    "id": "SEXUAL_PED_015",
+    "terminology": "소아성애장애 (Pedophilic Disorder)",
+    "terminology_ko": "소아성애장애",
+    "terminology_en": "Pedophilic Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "사춘기 전 아동(일반적으로 13세 이하)에 대한 반복적이고 강렬한 성적 흥분이 최소 6개월 이상 지속되며, 이에 따라 행동하거나 대인관계 어려움을 초래하는 변태성욕장애로, 가해자는 최소 16세 이상이고 대상보다 5세 이상 연장이어야 한다.",
+    "definition_en": "A paraphilic disorder characterized by recurrent, intense sexual arousal to prepubescent children (generally age 13 or younger) for at least 6 months, acted upon or causing interpersonal difficulty, with the perpetrator being at least 16 years old and 5 years older than the target.",
+    "significance": "아동 성학대의 핵심 위험 요인으로, 아동 보호와 성범죄 예방 정책의 과학적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "제임스 캔터", "name_en": "James Cantor", "contribution": "소아성애의 신경발달적 기원을 연구하고 뇌 영상 연구를 통해 백질 구조 이상을 발견했다."},
+      {"name_ko": "커트 프런드", "name_en": "Kurt Freund", "contribution": "음경 체적 측정법(phallometry)을 이용하여 소아성애의 객관적 평가 방법을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관음장애", "name_en": "Voyeuristic Disorder", "id": "SEXUAL_VOY_009"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_002"},
+      {"name_ko": "호르몬 치료", "name_en": "Hormonal Treatment", "id": "SEXUAL_HRM_030"}
+    ],
+    "sub_types": [
+      {"name": "배타적 유형", "description": "아동에게만 성적으로 끌리는 유형"},
+      {"name": "비배타적 유형", "description": "아동과 성인 모두에게 성적으로 끌리는 유형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "소아성애 진단 기준: (1) 사춘기 전 아동 대상 (2) 6개월+ (3) 16세+ (4) 대상보다 5세+",
+      "differential": "소아성애장애는 사춘기 전 아동에 대한 지속적 성적 끌림이고, 아동 성학대는 법적 행위 개념으로 소아성애가 아닌 사람도 범할 수 있다.",
+      "key_point": "소아성애(pedophilia)와 아동 성학대(child sexual abuse)는 다른 개념이다. 모든 성학대자가 소아성애자는 아니며, 모든 소아성애자가 성학대를 저지르지는 않는다.",
+      "common_mistake": "소아성애자와 아동 성학대범을 동일시하지만, 상당수의 아동 성학대는 소아성애가 아닌 상황적 요인(접근성, 반사회성)에 의해 발생한다."
+    }
+  },
+  {
+    "id": "SEXUAL_TVD_016",
+    "terminology": "복장도착장애 (Transvestic Disorder)",
+    "terminology_ko": "복장도착장애",
+    "terminology_en": "Transvestic Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "이성의 의복을 착용(cross-dressing)하는 것에서 반복적이고 강렬한 성적 흥분을 경험하며, 이로 인해 임상적 고통이나 사회적·직업적 기능 손상이 초래되는 변태성욕장애이다.",
+    "definition_en": "A paraphilic disorder involving recurrent, intense sexual arousal from cross-dressing, causing clinically significant distress or impairment in social or occupational functioning.",
+    "significance": "성적 흥분과 성별 정체성의 관계를 이해하는 데 중요하며, 성별불쾌감과의 감별이 필요한 진단이다.",
+    "key_researchers": [
+      {"name_ko": "레이 블랜차드", "name_en": "Ray Blanchard", "contribution": "복장도착과 자기여성애(autogynephilia) 개념을 제안하여 성적 흥분과 성별 정체성의 관계를 이론화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "물품성도착장애", "name_en": "Fetishistic Disorder", "id": "SEXUAL_FTD_014"},
+      {"name_ko": "성별불쾌감", "name_en": "Gender Dysphoria", "id": "SEXUAL_GDY_017"},
+      {"name_ko": "관음장애", "name_en": "Voyeuristic Disorder", "id": "SEXUAL_VOY_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "복장도착: cross-dressing → 성적 흥분 — 성별 정체성이 아닌 '성적 흥분'이 핵심",
+      "differential": "복장도착장애는 이성 의복 착용에서 성적 흥분을 얻는 것이고, 성별불쾌감은 타고난 성별에 대한 불일치감이다.",
+      "key_point": "DSM-5에서 복장도착장애는 이성애 남성에게 주로 적용되며, 성별불쾌감과 물품성도착 명시자를 동반할 수 있다.",
+      "common_mistake": "복장도착을 성별불쾌감이나 트랜스젠더 정체성과 혼동하지만, 복장도착장애의 핵심은 이성 의복 착용에 의한 '성적 흥분'이다."
+    }
+  },
+  {
+    "id": "SEXUAL_GDY_017",
+    "terminology": "성별불쾌감 (Gender Dysphoria)",
+    "terminology_ko": "성별불쾌감",
+    "terminology_en": "Gender Dysphoria",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "경험하거나 표현하는 성별과 지정 성별 사이의 현저한 불일치가 최소 6개월 이상 지속되며, 이로 인해 임상적으로 유의미한 고통이나 사회적·직업적 기능 손상이 동반되는 상태이다.",
+    "definition_en": "A condition characterized by marked incongruence between experienced or expressed gender and assigned gender lasting at least 6 months, accompanied by clinically significant distress or impairment in social or occupational functioning.",
+    "significance": "DSM-5에서 성정체감장애(GID)를 대체한 진단으로, 비병리화(depathologization) 움직임과 트랜스젠더 건강 서비스 접근의 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "해리 벤저민", "name_en": "Harry Benjamin", "contribution": "트랜스섹슈얼리즘 개념을 정립하고 호르몬 치료의 선구적 역할을 하여 성별 전환 의료의 기틀을 마련했다."},
+      {"name_ko": "켄 주커", "name_en": "Kenneth Zucker", "contribution": "아동·청소년 성별불쾌감의 진단과 평가에 대한 포괄적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "복장도착장애", "name_en": "Transvestic Disorder", "id": "SEXUAL_TVD_016"},
+      {"name_ko": "호르몬 치료", "name_en": "Hormonal Treatment", "id": "SEXUAL_HRM_030"},
+      {"name_ko": "성적 지남력", "name_en": "Sexual Orientation", "id": "SEXUAL_SOR_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성별불쾌감 = '내가 느끼는 성별 ≠ 지정 성별' + 고통/기능손상",
+      "differential": "성별불쾌감은 성별 정체성과 지정 성별의 불일치에 대한 고통이고, 복장도착장애는 이성 의복 착용에 의한 성적 흥분이다.",
+      "key_point": "DSM-5에서 '성정체감장애(GID)'에서 '성별불쾌감(Gender Dysphoria)'으로 명칭이 변경되어 비병리화 방향으로 전환했다.",
+      "common_mistake": "성별불쾌감과 성적 지남력(동성애 등)을 혼동하지만, 성별 정체성(gender identity)과 성적 지남력(sexual orientation)은 독립된 차원이다."
+    }
+  },
+  {
+    "id": "SEXUAL_IED_018",
+    "terminology": "간헐적 폭발장애 (Intermittent Explosive Disorder)",
+    "terminology_ko": "간헐적 폭발장애",
+    "terminology_en": "Intermittent Explosive Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "촉발 상황에 비해 심각하게 불균형한 공격적 충동 폭발이 반복적으로 나타나는 충동조절장애로, 언어적·물리적 공격이 갑자기 발생하고 빠르게 소진되며, 행동 후 후회나 당혹감을 경험한다.",
+    "definition_en": "An impulse-control disorder characterized by recurrent outbursts of aggressive impulses grossly out of proportion to the provocation, with sudden verbal or physical aggression that rapidly dissipates, followed by regret or embarrassment.",
+    "significance": "충동적 공격성의 핵심 진단으로, 세로토닌 체계 이상과 전두엽-변연계 회로의 역할을 연구하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "에밀 코카로", "name_en": "Emil Coccaro", "contribution": "간헐적 폭발장애의 진단 기준을 체계화하고 세로토닌 기능 저하와 충동적 공격성의 관계를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "품행장애", "name_en": "Conduct Disorder", "id": "SEXUAL_CDR_022"},
+      {"name_ko": "적대적 반항장애", "name_en": "Oppositional Defiant Disorder", "id": "SEXUAL_ODD_021"},
+      {"name_ko": "충동성과 공격성", "name_en": "Impulsivity and Aggression", "id": "SEXUAL_IMP_032"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "IED = '감정 폭탄' — 사소한 촉발 → 과도한 폭발 → 빠른 소진 → 후회",
+      "differential": "IED는 삽화적이고 반응적인 충동적 공격이고, 반사회적 성격장애의 공격성은 계획적·도구적인 경우가 많다.",
+      "key_point": "DSM-5에서 공격 빈도 기준이 추가되어, 언어적 공격은 주 2회×3개월 또는 물리적 공격은 12개월 내 3회 이상으로 명시되었다.",
+      "common_mistake": "IED를 단순한 '화 조절 문제'로 가볍게 여기지만, 세로토닌 기능 저하와 전전두엽-편도체 연결 이상이 관여하는 신경생물학적 기반이 있다."
+    }
+  },
+  {
+    "id": "SEXUAL_KLP_019",
+    "terminology": "도벽증 (Kleptomania)",
+    "terminology_ko": "도벽증",
+    "terminology_en": "Kleptomania",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "개인적으로 필요하지 않거나 금전적 가치가 없는 물건을 훔치려는 충동에 반복적으로 저항하지 못하는 충동조절장애로, 절도 직전의 긴장 고조와 절도 시의 쾌감·안도감이 특징이다.",
+    "definition_en": "An impulse-control disorder characterized by recurrent failure to resist urges to steal objects not needed for personal use or monetary value, with rising tension before the theft and pleasure or relief at the time of committing it.",
+    "significance": "충동조절장애의 대표적 유형으로, 충동-행동-보상 순환과 행동 중독 모형의 이해에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "존 그랜트", "name_en": "Jon Grant", "contribution": "도벽증의 역학, 신경생물학, 약물 치료에 대한 체계적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "방화증", "name_en": "Pyromania", "id": "SEXUAL_PYR_020"},
+      {"name_ko": "간헐적 폭발장애", "name_en": "Intermittent Explosive Disorder", "id": "SEXUAL_IED_018"},
+      {"name_ko": "강박장애", "name_en": "OCD", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도벽증 3단계: 긴장 고조 → 절도 행위(쾌감/안도) → 죄책감/수치심",
+      "differential": "도벽증은 불필요한 물건을 충동적으로 훔치는 것이고, 일반 절도는 물건이 필요하거나 금전적 이득을 위한 것이다.",
+      "key_point": "도벽증 환자가 훔치는 물건은 대개 필요 없고 가치가 낮으며, 쉽게 구매할 수 있는 것이다. 핵심은 물건이 아닌 충동-긴장-해소의 순환이다.",
+      "common_mistake": "도벽증을 단순한 절도 습관으로 치부하지만, 충동 조절의 실패이며 기분장애와 높은 공존율을 보인다."
+    }
+  },
+  {
+    "id": "SEXUAL_PYR_020",
+    "terminology": "방화증 (Pyromania)",
+    "terminology_ko": "방화증",
+    "terminology_en": "Pyromania",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "의도적이고 계획적인 방화를 반복적으로 저지르는 충동조절장애로, 불에 대한 매혹과 호기심, 방화 전 긴장 또는 정서적 각성, 방화 시 쾌감·안도감이 특징이며, 금전적·정치적·복수 동기가 없어야 한다.",
+    "definition_en": "An impulse-control disorder involving deliberate and purposeful fire setting on more than one occasion, characterized by fascination with fire, tension or emotional arousal before the act, and pleasure or relief when setting fires, without monetary, political, or revenge motives.",
+    "significance": "매우 드문 순수 충동조절장애로, 불에 대한 매혹과 충동 조절 실패의 관계를 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "제프리 건", "name_en": "Jeffrey Geller", "contribution": "방화 행동의 분류 체계와 방화증의 진단 기준에 대한 체계적 검토를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "도벽증", "name_en": "Kleptomania", "id": "SEXUAL_KLP_019"},
+      {"name_ko": "간헐적 폭발장애", "name_en": "Intermittent Explosive Disorder", "id": "SEXUAL_IED_018"},
+      {"name_ko": "품행장애", "name_en": "Conduct Disorder", "id": "SEXUAL_CDR_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "방화증: 불에 대한 매혹 + 충동 조절 실패 — 금전·복수·정치적 동기 '없음'이 필수",
+      "differential": "방화증은 충동적·쾌감 추구적 방화이고, 반사회적 방화는 의도적·도구적 목적(보험금, 복수)이 있는 방화이다.",
+      "key_point": "실제 방화증 진단은 매우 드물며, 대부분의 방화범은 방화증이 아닌 다른 동기(반사회성, 복수, 보험 사기 등)에 의한 것이다.",
+      "common_mistake": "모든 방화범이 방화증이라고 오해하지만, 순수한 방화증은 전체 방화 사건의 극소수에 불과하다."
+    }
+  },
+  {
+    "id": "SEXUAL_ODD_021",
+    "terminology": "적대적 반항장애 (Oppositional Defiant Disorder)",
+    "terminology_ko": "적대적 반항장애",
+    "terminology_en": "Oppositional Defiant Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "최소 6개월 이상 분노/과민한 기분, 논쟁적/반항적 행동, 보복심의 패턴이 지속되며, 권위적 인물에 대한 반복적인 반항과 적대적 행동으로 사회적·학업적 기능에 유의미한 손상을 초래하는 파괴적 행동장애이다.",
+    "definition_en": "A disruptive behavior disorder characterized by a persistent pattern of angry/irritable mood, argumentative/defiant behavior, and vindictiveness for at least 6 months, with repeated defiance and hostile behavior toward authority figures causing significant social or academic impairment.",
+    "significance": "품행장애와 반사회적 성격장애로의 발달적 경로의 전구체로 연구되며, 조기 개입의 중요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "러셀 바클리", "name_en": "Russell Barkley", "contribution": "ODD와 ADHD의 관계를 연구하고 발달적 경로에서 ODD의 위치를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "품행장애", "name_en": "Conduct Disorder", "id": "SEXUAL_CDR_022"},
+      {"name_ko": "간헐적 폭발장애", "name_en": "Intermittent Explosive Disorder", "id": "SEXUAL_IED_018"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "NEURO_ADH_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ODD의 3가지 차원: (1) 분노/과민 기분 (2) 논쟁적/반항적 행동 (3) 보복심",
+      "differential": "ODD는 반항과 적대적 기분이 핵심이고 심각한 규칙 위반은 없는 반면, 품행장애는 타인의 권리를 침해하는 심각한 규칙 위반이 특징이다.",
+      "key_point": "ODD의 분노/과민 기분 차원은 우울·불안으로, 반항적 행동 차원은 품행장애·반사회성으로 발전할 위험이 있다.",
+      "common_mistake": "ODD를 정상적인 반항기와 혼동하지만, ODD는 발달적으로 부적절한 수준의 지속적 패턴이며 기능 손상을 초래한다."
+    }
+  },
+  {
+    "id": "SEXUAL_CDR_022",
+    "terminology": "품행장애 (Conduct Disorder)",
+    "terminology_ko": "품행장애",
+    "terminology_en": "Conduct Disorder",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "타인의 기본적 권리를 침해하거나 연령에 적합한 사회적 규범·규칙을 반복적으로 위반하는 지속적 행동 패턴으로, 사람과 동물에 대한 공격, 재산 파괴, 사기/절도, 심각한 규칙 위반이 포함된다.",
+    "definition_en": "A persistent pattern of behavior violating others' basic rights or age-appropriate social norms and rules, including aggression toward people and animals, destruction of property, deceit/theft, and serious rule violations.",
+    "significance": "성인기 반사회적 성격장애의 가장 강력한 예측 인자로, 발달정신병리학적 관점에서 조기 개입의 핵심 대상이다.",
+    "key_researchers": [
+      {"name_ko": "테리 모핏", "name_en": "Terrie Moffitt", "contribution": "품행 문제의 두 가지 발달 경로(생애지속형 vs. 청소년기한정형)를 제안한 발달적 분류법을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "적대적 반항장애", "name_en": "Oppositional Defiant Disorder", "id": "SEXUAL_ODD_021"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_002"},
+      {"name_ko": "간헐적 폭발장애", "name_en": "Intermittent Explosive Disorder", "id": "SEXUAL_IED_018"},
+      {"name_ko": "충동성과 공격성", "name_en": "Impulsivity and Aggression", "id": "SEXUAL_IMP_032"}
+    ],
+    "sub_types": [
+      {"name": "아동기 발현형", "description": "10세 이전에 최소 1가지 증상 발현 — 더 심각하고 지속적"},
+      {"name": "청소년기 발현형", "description": "10세 이전 증상 없음 — 예후가 상대적으로 양호"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "품행장애 4범주: (1) 사람·동물 공격 (2) 재산 파괴 (3) 사기·절도 (4) 규칙 위반 — 15가지 기준 중 3개+",
+      "differential": "품행장애는 타인의 권리 침해와 심각한 규칙 위반이 핵심이고, ODD는 적대적 기분과 반항이 핵심이며 권리 침해는 없다.",
+      "key_point": "DSM-5에서 '제한된 친사회적 정서(limited prosocial emotions)' 명시자가 추가되어, 냉담-무정서 특성(CU traits)이 있는 고위험 하위집단을 식별한다.",
+      "common_mistake": "모든 품행장애 아동이 반사회적 성인이 된다고 단정하지만, Moffitt에 따르면 청소년기한정형은 성인기에 대부분 자연 소멸된다."
+    }
+  },
+  {
+    "id": "SEXUAL_CUT_023",
+    "terminology": "냉담-무정서 특성 (Callous-Unemotional Traits)",
+    "terminology_ko": "냉담-무정서 특성",
+    "terminology_en": "Callous-Unemotional Traits",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "타인의 감정에 대한 공감 부족, 죄책감이나 양심의 가책 결여, 정서적 냉담함, 수행에 대한 무관심을 포함하는 성격 특성군으로, 품행장애의 더 심각하고 지속적인 형태와 관련된다.",
+    "definition_en": "A cluster of personality traits including lack of empathy for others' feelings, absence of guilt or remorse, emotional callousness, and unconcern about performance, associated with more severe and persistent forms of conduct disorder.",
+    "significance": "DSM-5에서 품행장애의 '제한된 친사회적 정서' 명시자의 기반이 되는 개념으로, 사이코패시의 발달적 전구체로 연구된다.",
+    "key_researchers": [
+      {"name_ko": "폴 프릭", "name_en": "Paul Frick", "contribution": "아동기 냉담-무정서 특성의 개념을 체계화하고 품행장애의 하위유형 분류에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "품행장애", "name_en": "Conduct Disorder", "id": "SEXUAL_CDR_022"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_002"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CU 특성: Callous(냉담) + Unemotional(무정서) — 공감 부족, 죄책감 부재, 정서적 냉담",
+      "differential": "CU 특성은 공감과 죄책감의 결핍이 핵심이고, 일반 품행장애는 반드시 공감 결핍을 포함하지 않는다.",
+      "key_point": "CU 특성이 높은 품행장애 아동은 위험 신호에 대한 반응성이 낮고, 처벌 기반 훈육보다 보상 기반 접근이 더 효과적이다.",
+      "common_mistake": "CU 특성이 변화 불가능하다고 단정하지만, 조기 개입(따뜻한 양육, 보상 중심 접근)으로 개선될 수 있다."
+    }
+  },
+  {
+    "id": "SEXUAL_SXE_024",
+    "terminology": "성교육 (Sex Education)",
+    "terminology_ko": "성교육",
+    "terminology_en": "Sex Education",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "인간의 성에 대한 포괄적인 교육으로, 생식 건강, 성적 동의, 성적 다양성, 관계 기술, 안전한 성행위 등을 포함하며, 성기능장애와 성관련 문제의 예방에 기여하는 심리교육적 접근이다.",
+    "definition_en": "Comprehensive education about human sexuality including reproductive health, sexual consent, sexual diversity, relationship skills, and safe sexual practices, serving as a psychoeducational approach contributing to prevention of sexual dysfunctions and sex-related problems.",
+    "significance": "성기능장애의 예방과 치료에서 정확한 성 지식 제공이 핵심적 역할을 하며, 포괄적 성교육이 성 건강 향상에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 매스터스", "name_en": "William Masters", "contribution": "과학적 성 연구에 기반한 성교육의 필요성을 대중에게 알렸다."},
+      {"name_ko": "메리 칼데론", "name_en": "Mary Calderone", "contribution": "미국 SIECUS(성교육·정보 위원회)를 설립하여 포괄적 성교육 운동을 선도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성반응주기", "name_en": "Sexual Response Cycle", "id": "SEXUAL_SRC_001"},
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"},
+      {"name_ko": "성적 지남력", "name_en": "Sexual Orientation", "id": "SEXUAL_SOR_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "포괄적 성교육 = 생식 건강 + 동의 + 다양성 + 관계 기술 + 안전 — '금욕 전용' 교육의 대안",
+      "differential": "포괄적 성교육은 다양한 주제를 과학적으로 다루는 반면, 금욕 전용 교육은 결혼 전 성관계 자제만을 강조한다.",
+      "key_point": "연구에 따르면 포괄적 성교육이 금욕 전용 교육보다 성관련 위험 행동 감소와 성 건강 향상에 더 효과적이다.",
+      "common_mistake": "성교육이 성적 행동을 조장한다고 오해하지만, 연구는 오히려 성교육이 안전한 성행위를 촉진하고 위험 행동을 감소시킨다는 것을 보여준다."
+    }
+  },
+  {
+    "id": "SEXUAL_STH_025",
+    "terminology": "성치료 (Sex Therapy)",
+    "terminology_ko": "성치료",
+    "terminology_en": "Sex Therapy",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성기능장애의 치료를 위한 전문화된 심리치료 접근으로, 성교육, 행동 기법(감각집중훈련), 인지 재구조화, 의사소통 훈련 등을 통합하여 성적 문제를 해결하는 구조화된 치료이다.",
+    "definition_en": "A specialized psychotherapeutic approach for treating sexual dysfunctions, integrating sex education, behavioral techniques (sensate focus), cognitive restructuring, and communication training in a structured treatment format.",
+    "significance": "Masters와 Johnson이 개척한 성기능장애 치료의 핵심 분야로, 생물심리사회적 접근의 통합적 적용을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 매스터스", "name_en": "William Masters", "contribution": "Virginia Johnson과 함께 현대 성치료를 개척하고 감각집중훈련을 핵심 기법으로 발전시켰다."},
+      {"name_ko": "헬렌 카플란", "name_en": "Helen Singer Kaplan", "contribution": "정신역동적 접근과 행동 기법을 통합한 성치료 모형을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"},
+      {"name_ko": "인지행동적 성치료", "name_en": "Cognitive-Behavioral Sex Therapy", "id": "SEXUAL_CBS_031"},
+      {"name_ko": "성교육", "name_en": "Sex Education", "id": "SEXUAL_SXE_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성치료 = Masters & Johnson의 유산 — 감각집중 + 성교육 + 의사소통 + 인지재구조화",
+      "differential": "성치료는 성기능장애에 특화된 치료이고, 일반 심리치료는 성적 문제를 직접 다루지 않을 수 있다.",
+      "key_point": "현대 성치료는 약물치료(PDE5 억제제 등)와 심리치료의 통합적 접근을 지향한다.",
+      "common_mistake": "성치료가 성적 대리인과의 행위를 포함한다고 오해하지만, 현대 근거 기반 성치료는 교육과 심리치료 기법에 기반한다."
+    }
+  },
+  {
+    "id": "SEXUAL_PAR_026",
+    "terminology": "변태성욕 (Paraphilia)",
+    "terminology_ko": "변태성욕",
+    "terminology_en": "Paraphilia",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "비전형적인 대상, 상황, 행동, 또는 개인에 대한 강렬하고 지속적인 성적 관심으로, 그 자체로는 정신장애가 아니며 개인의 고통이나 타인에 대한 해가 동반될 때만 변태성욕장애로 진단된다.",
+    "definition_en": "An intense and persistent sexual interest in atypical objects, situations, activities, or individuals, which is not a mental disorder in itself and is diagnosed as a paraphilic disorder only when accompanied by personal distress or harm to others.",
+    "significance": "DSM-5에서 변태성욕(paraphilia)과 변태성욕장애(paraphilic disorder)를 구분하여 정상적 성적 다양성과 병리의 경계를 재정립했다.",
+    "key_researchers": [
+      {"name_ko": "존 머니", "name_en": "John Money", "contribution": "변태성욕(paraphilia) 용어를 현대적 맥락에서 재정립하고 성적 일탈의 체계적 분류를 시도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관음장애", "name_en": "Voyeuristic Disorder", "id": "SEXUAL_VOY_009"},
+      {"name_ko": "물품성도착장애", "name_en": "Fetishistic Disorder", "id": "SEXUAL_FTD_014"},
+      {"name_ko": "소아성애장애", "name_en": "Pedophilic Disorder", "id": "SEXUAL_PED_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Paraphilia(변태성욕) ≠ Paraphilic Disorder(변태성욕장애) — 고통이나 해가 있어야 '장애'",
+      "differential": "변태성욕은 비전형적 성적 관심 자체이고, 변태성욕장애는 그 관심이 고통이나 타인 해를 초래할 때의 진단이다.",
+      "key_point": "DSM-5의 핵심적 변화로, 비전형적 성적 관심만으로는 장애가 아니며, 고통·기능 손상·타인 해 중 하나가 있어야 장애로 진단한다.",
+      "common_mistake": "비전형적 성적 관심이 있으면 자동으로 정신장애라고 오해하지만, DSM-5는 고통이나 해가 없는 변태성욕은 장애로 분류하지 않는다."
+    }
+  },
+  {
+    "id": "SEXUAL_SPT_027",
+    "terminology": "자기관찰 (Spectatoring)",
+    "terminology_ko": "자기관찰",
+    "terminology_en": "Spectatoring",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성행위 중 자신의 성적 수행을 마치 외부 관찰자처럼 평가적으로 모니터링하는 인지 과정으로, 성적 흥분을 방해하고 수행 불안을 유발하여 성기능장애를 유지시키는 핵심 메커니즘이다.",
+    "definition_en": "A cognitive process of evaluatively monitoring one's own sexual performance as if an outside observer during sexual activity, interfering with arousal and generating performance anxiety, a key mechanism maintaining sexual dysfunction.",
+    "significance": "Masters와 Johnson이 규명한 성기능장애의 핵심 유지 기제로, 감각집중훈련의 치료 표적이 된다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 매스터스", "name_en": "William Masters", "contribution": "자기관찰(spectatoring) 개념을 최초로 기술하여 수행 불안-성기능장애의 악순환 모형을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"},
+      {"name_ko": "남성 발기장애", "name_en": "Erectile Disorder", "id": "SEXUAL_ERD_002"},
+      {"name_ko": "인지행동적 성치료", "name_en": "Cognitive-Behavioral Sex Therapy", "id": "SEXUAL_CBS_031"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Spectatoring = 성행위 중 '관중석에 앉아 자신을 평가' — 쾌감 대신 평가 → 불안 → 기능장애",
+      "differential": "자기관찰은 성행위 중 자신의 수행을 모니터링하는 것이고, 관음장애는 타인의 은밀한 행위를 관찰하는 것이다.",
+      "key_point": "자기관찰은 주의를 성적 감각에서 수행 평가로 전환하여 흥분을 방해하며, 감각집중훈련은 주의를 다시 감각으로 되돌리는 것이 목표이다.",
+      "common_mistake": "자기관찰이 의식적 선택이라고 오해하지만, 이는 자동적이고 습관적인 인지 패턴이다."
+    }
+  },
+  {
+    "id": "SEXUAL_SNF_028",
+    "terminology": "감각집중훈련 (Sensate Focus)",
+    "terminology_ko": "감각집중훈련",
+    "terminology_en": "Sensate Focus",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "Masters와 Johnson이 개발한 성치료 핵심 기법으로, 성적 수행 압박 없이 신체적 감각에 주의를 집중하는 점진적 접촉 훈련을 통해 수행 불안과 자기관찰을 감소시키고 성적 쾌감을 회복하는 행동 기법이다.",
+    "definition_en": "A core sex therapy technique developed by Masters and Johnson involving gradual physical touching exercises focused on bodily sensations without sexual performance pressure, reducing performance anxiety and spectatoring while restoring sexual pleasure.",
+    "significance": "거의 모든 성기능장애 치료에 적용되는 기본 기법으로, 자기관찰을 감소시키고 감각적 인식을 증진시키는 가장 널리 사용되는 행동 치료이다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 매스터스", "name_en": "William Masters", "contribution": "Virginia Johnson과 함께 감각집중훈련을 개발하여 성치료의 표준적 기법으로 확립했다."},
+      {"name_ko": "버지니아 존슨", "name_en": "Virginia Johnson", "contribution": "감각집중훈련의 단계별 프로토콜을 공동 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "자기관찰", "name_en": "Spectatoring", "id": "SEXUAL_SPT_027"},
+      {"name_ko": "성치료", "name_en": "Sex Therapy", "id": "SEXUAL_STH_025"},
+      {"name_ko": "남성 발기장애", "name_en": "Erectile Disorder", "id": "SEXUAL_ERD_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "감각집중훈련 단계: (1) 비성적 접촉 → (2) 성기 포함 접촉(성교 금지) → (3) 점진적 성교 도입",
+      "differential": "감각집중훈련은 감각에 집중하여 수행 불안을 줄이는 기법이고, 체계적 둔감화는 불안 위계에 따라 점진적으로 노출하는 기법이다.",
+      "key_point": "핵심 원칙은 '성교 금지(ban on intercourse)' 지시로 수행 압박을 제거하고, 감각적 쾌감 자체에 주의를 집중하게 하는 것이다.",
+      "common_mistake": "감각집중훈련이 단순히 전희(foreplay)와 같다고 오해하지만, 이는 성적 수행 목표를 제거하고 감각 인식에 초점을 맞추는 치료적 기법이다."
+    }
+  },
+  {
+    "id": "SEXUAL_SOR_029",
+    "terminology": "성적 지남력 (Sexual Orientation)",
+    "terminology_ko": "성적 지남력",
+    "terminology_en": "Sexual Orientation",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "특정 성별의 사람에 대한 지속적인 성적·정서적 끌림의 패턴으로, 이성애, 동성애, 양성애 등의 스펙트럼을 포함하며, 생물학적·환경적 요인의 복합적 상호작용에 의해 결정된다.",
+    "definition_en": "A persistent pattern of sexual and emotional attraction toward persons of a particular gender, existing on a spectrum including heterosexuality, homosexuality, and bisexuality, determined by complex interactions of biological and environmental factors.",
+    "significance": "동성애가 1973년 DSM에서 삭제된 역사적 사건은 정신장애 분류의 가치판단적 측면에 대한 중요한 논의를 촉발했다.",
+    "key_researchers": [
+      {"name_ko": "앨프리드 킨지", "name_en": "Alfred Kinsey", "contribution": "킨지 보고서(1948, 1953)를 통해 성적 지남력의 연속성(0-6 척도)을 제안하고 성행동의 다양성을 실증적으로 밝혔다."},
+      {"name_ko": "에블린 후커", "name_en": "Evelyn Hooker", "contribution": "동성애 남성과 이성애 남성의 심리적 적응에 차이가 없음을 입증하여 동성애 비병리화의 과학적 근거를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성별불쾌감", "name_en": "Gender Dysphoria", "id": "SEXUAL_GDY_017"},
+      {"name_ko": "성교육", "name_en": "Sex Education", "id": "SEXUAL_SXE_024"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "킨지 척도: 0(완전 이성애)~6(완전 동성애) — 성적 지남력은 이분법이 아닌 연속체",
+      "differential": "성적 지남력(sexual orientation)은 끌림의 방향이고, 성별 정체성(gender identity)은 자신이 경험하는 성별이며, 이 둘은 독립적 차원이다.",
+      "key_point": "1973년 APA가 DSM-II에서 동성애를 삭제한 것은 과학적 증거에 기반한 결정으로, 정신장애 분류의 역사적 전환점이다.",
+      "common_mistake": "성적 지남력이 선택이나 학습의 결과라고 오해하지만, 연구는 유전적·호르몬적·신경발달적 요인의 복합적 역할을 지지한다."
+    }
+  },
+  {
+    "id": "SEXUAL_HRM_030",
+    "terminology": "호르몬 치료 (Hormonal Treatment)",
+    "terminology_ko": "호르몬 치료",
+    "terminology_en": "Hormonal Treatment",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성관련 장애에서 호르몬 수준을 조절하여 증상을 치료하는 약물학적 접근으로, 테스토스테론 보충(성기능장애), 항안드로겐 약물(변태성욕장애), 성별 확인 호르몬 치료(성별불쾌감) 등이 포함된다.",
+    "definition_en": "A pharmacological approach to treating sex-related disorders by modulating hormone levels, including testosterone supplementation (sexual dysfunctions), anti-androgen medications (paraphilic disorders), and gender-affirming hormone therapy (gender dysphoria).",
+    "significance": "성관련 장애의 생물학적 치료에서 핵심적 역할을 하며, 특히 성범죄자의 화학적 거세에 대한 윤리적 논쟁을 촉발한다.",
+    "key_researchers": [
+      {"name_ko": "존 브래드포드", "name_en": "John Bradford", "contribution": "변태성욕장애에 대한 항안드로겐 치료의 효과와 프로토콜에 대한 체계적 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "남성 성욕감퇴장애", "name_en": "Male Hypoactive Sexual Desire Disorder", "id": "SEXUAL_MHD_008"},
+      {"name_ko": "소아성애장애", "name_en": "Pedophilic Disorder", "id": "SEXUAL_PED_015"},
+      {"name_ko": "성별불쾌감", "name_en": "Gender Dysphoria", "id": "SEXUAL_GDY_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "호르몬 치료 3가지 맥락: (1) 성기능장애→테스토스테론 보충 (2) 변태성욕→항안드로겐 (3) 성별불쾌감→성별 확인 호르몬",
+      "differential": "호르몬 치료는 내분비적 조절이고, 성치료는 심리행동적 접근이며, 둘은 보완적으로 사용될 수 있다.",
+      "key_point": "항안드로겐 약물(MPA, CPA, GnRH 작용제)은 성범죄 재범 감소에 효과적이나, 윤리적 쟁점(자율성, 동의)이 동반된다.",
+      "common_mistake": "호르몬 치료가 성적 일탈을 '치유'한다고 오해하지만, 약물 중단 시 효과가 소실되므로 심리사회적 치료와의 병행이 필수적이다."
+    }
+  },
+  {
+    "id": "SEXUAL_CBS_031",
+    "terminology": "인지행동적 성치료 (Cognitive-Behavioral Sex Therapy)",
+    "terminology_ko": "인지행동적 성치료",
+    "terminology_en": "Cognitive-Behavioral Sex Therapy",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "성기능장애의 유지 요인인 역기능적 성적 신념, 수행 불안, 자기관찰 등의 인지적 요인과 행동적 회피 패턴을 통합적으로 다루는 구조화된 심리치료 접근이다.",
+    "definition_en": "A structured psychotherapeutic approach that integrates cognitive factors (dysfunctional sexual beliefs, performance anxiety, spectatoring) and behavioral avoidance patterns maintaining sexual dysfunctions.",
+    "significance": "현대 성치료의 주류 접근으로, 인지적 왜곡 수정과 행동 기법(감각집중, 노출)을 통합하여 효과를 극대화한다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 맥케이브", "name_en": "Marita McCabe", "contribution": "성기능장애에 대한 인지행동적 접근의 효과를 체계적으로 연구하고 치료 매뉴얼을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "감각집중훈련", "name_en": "Sensate Focus", "id": "SEXUAL_SNF_028"},
+      {"name_ko": "자기관찰", "name_en": "Spectatoring", "id": "SEXUAL_SPT_027"},
+      {"name_ko": "성치료", "name_en": "Sex Therapy", "id": "SEXUAL_STH_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CBT 성치료 = 인지(역기능적 성적 신념 수정) + 행동(감각집중, 단계적 노출) + 교육(성교육)",
+      "differential": "인지행동적 성치료는 현재의 유지 요인에 초점을 맞추고, 정신역동적 성치료는 무의식적 갈등과 과거 경험을 탐색한다.",
+      "key_point": "성적 신화(sexual myths)와 역기능적 신념의 수정이 핵심 구성요소이며, '반드시 삽입 성교가 있어야 한다' 등의 비합리적 신념을 다룬다.",
+      "common_mistake": "성치료가 단순한 기술 훈련이라고 오해하지만, CBT 성치료는 깊은 인지적 변화와 관계 패턴의 재구성을 포함한다."
+    }
+  },
+  {
+    "id": "SEXUAL_IMP_032",
+    "terminology": "충동성과 공격성 (Impulsivity and Aggression)",
+    "terminology_ko": "충동성과 공격성",
+    "terminology_en": "Impulsivity and Aggression",
+    "category": "SEXUAL",
+    "category_name": "성관련 및 충동조절 장애 (Sexual and Impulse-Control Disorders)",
+    "definition": "결과를 고려하지 않고 즉각적으로 행동하는 충동성과, 타인이나 대상에 대해 의도적으로 해를 가하는 공격성의 연관으로, 충동조절장애의 핵심 구성요소이며 세로토닌 기능 저하와 밀접하게 관련된다.",
+    "definition_en": "The association between impulsivity (acting immediately without considering consequences) and aggression (intentionally causing harm to others or objects), a core component of impulse-control disorders closely linked to serotonergic dysfunction.",
+    "significance": "충동조절장애의 공통적 기저 메커니즘으로, 약물치료(SSRI)와 심리사회적 치료의 표적이 되는 핵심 차원이다.",
+    "key_researchers": [
+      {"name_ko": "에밀 코카로", "name_en": "Emil Coccaro", "contribution": "충동적 공격성의 세로토닌 가설을 체계화하고 약물학적 치료 접근을 개발했다."},
+      {"name_ko": "어니스트 바렛", "name_en": "Ernest Barratt", "contribution": "충동성의 다차원적 측정 도구(BIS-11)를 개발하여 충동성 연구의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "간헐적 폭발장애", "name_en": "Intermittent Explosive Disorder", "id": "SEXUAL_IED_018"},
+      {"name_ko": "품행장애", "name_en": "Conduct Disorder", "id": "SEXUAL_CDR_022"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_002"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_003"}
+    ],
+    "sub_types": [
+      {"name": "충동적 공격성", "description": "도발에 대한 반응적이고 통제 불능한 공격"},
+      {"name": "도구적 공격성", "description": "목적 달성을 위한 계획적이고 의도적인 공격"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "충동적 공격 = '뜨거운(hot)' 공격(반응적), 도구적 공격 = '차가운(cold)' 공격(계획적)",
+      "differential": "충동적 공격성은 세로토닌 기능 저하와 관련되고, 도구적 공격성은 사이코패시적 특성과 더 관련된다.",
+      "key_point": "세로토닌 기능 저하 → 전전두엽 억제 기능 감소 → 편도체 과활성 → 충동적 공격 폭발의 신경생물학적 경로가 규명되어 있다.",
+      "common_mistake": "모든 공격성이 충동적이라고 오해하지만, 도구적(계획적) 공격성은 충동 조절과 무관하게 발생한다."
+    }
+  }
+]

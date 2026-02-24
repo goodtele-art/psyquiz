@@ -1,0 +1,872 @@
+[
+  {
+    "id": "ANXIETY_GAD_001",
+    "terminology": "범불안장애 (Generalized Anxiety Disorder)",
+    "terminology_ko": "범불안장애",
+    "terminology_en": "Generalized Anxiety Disorder",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "다양한 상황과 활동에 대해 과도하고 통제하기 어려운 걱정이 최소 6개월 이상 지속되며, 근육 긴장, 피로, 집중 곤란, 수면 장애 등의 신체 증상이 동반되는 장애이다.",
+    "definition_en": "A disorder characterized by excessive, uncontrollable worry about various situations and activities lasting at least 6 months, accompanied by physical symptoms such as muscle tension, fatigue, difficulty concentrating, and sleep disturbance.",
+    "significance": "불안장애 중 가장 만성적이고 광범위한 걱정을 특징으로 하며, 다른 불안장애 및 우울장애와의 높은 공병률을 보인다.",
+    "key_researchers": [
+      {"name_ko": "톰 보르코벡", "name_en": "Tom Borkovec", "contribution": "GAD의 걱정을 인지적 회피로 개념화하고, 걱정이 정서적 처리를 방해한다는 회피이론을 제안했다."},
+      {"name_ko": "미셸 뒤가", "name_en": "Michel Dugas", "contribution": "불확실성에 대한 인내력 부족(IU)이 GAD의 핵심 취약성 요인임을 밝혔다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"},
+      {"name_ko": "불안 민감성", "name_en": "Anxiety Sensitivity", "id": "ANXIETY_ASE_015"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "MOOD_MDD_001"},
+      {"name_ko": "GAD-7", "name_en": "GAD-7", "id": "ANXIETY_G7_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "GAD = '만성 걱정병': 특정 대상 없이 '이것저것' 모두 걱정",
+      "differential": "GAD는 다양한 주제에 대한 만성적 걱정이고, 사회불안장애는 사회적 상황에 한정된 불안이며, 특정공포증은 특정 대상에 한정된다.",
+      "key_point": "핵심 특징은 '통제 불가능한 걱정'이며, 6개월 이상의 기간 기준이 있다.",
+      "common_mistake": "일상적 걱정과 GAD를 혼동하는 것 — GAD의 걱정은 과도하고 통제 불가능하며 기능 손상을 초래한다."
+    }
+  },
+  {
+    "id": "ANXIETY_PAN_002",
+    "terminology": "공황장애 (Panic Disorder)",
+    "terminology_ko": "공황장애",
+    "terminology_en": "Panic Disorder",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "반복적이고 예기치 않은 공황발작이 발생하며, 추가 발작에 대한 지속적 걱정이나 발작과 관련된 행동 변화(회피 등)가 최소 1개월 이상 지속되는 장애이다.",
+    "definition_en": "A disorder characterized by recurrent, unexpected panic attacks followed by at least one month of persistent worry about additional attacks or significant behavioral changes related to the attacks.",
+    "significance": "불안장애 중 가장 급성이고 극적인 증상을 보이며, 광장공포증과 흔히 동반되어 심각한 기능 제한을 초래할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "도널드 클라인", "name_en": "Donald Klein", "contribution": "공황장애를 범불안과 구분되는 독립적 질환으로 규명하고, 이미프라민의 항공황 효과를 발견했다."},
+      {"name_ko": "데이비드 클라크", "name_en": "David M. Clark", "contribution": "공황장애의 인지모형을 제안하여 신체감각의 파국적 오해석이 공황을 유발함을 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황발작", "name_en": "Panic Attack", "id": "ANXIETY_PAT_003"},
+      {"name_ko": "광장공포증", "name_en": "Agoraphobia", "id": "ANXIETY_AGO_006"},
+      {"name_ko": "Clark의 공황 인지모형", "name_en": "Clark's Cognitive Model of Panic", "id": "ANXIETY_CLK_016"},
+      {"name_ko": "예기불안", "name_en": "Anticipatory Anxiety", "id": "ANXIETY_ANT_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공황장애 = 예기치 않은 공황발작 + 발작에 대한 걱정/행동 변화(1개월+)",
+      "differential": "공황장애는 '예기치 않은' 공황발작이 핵심이고, 사회불안이나 특정공포증에서의 공황은 '특정 상황에 의해 촉발'된다.",
+      "key_point": "공황발작 자체는 여러 장애에서 나타날 수 있지만, 공황'장애'는 예기치 않은 발작이 반복되어야 한다.",
+      "common_mistake": "공황발작이 있으면 모두 공황장애라고 진단하는 것 — 공황발작은 다양한 장애에서 나타날 수 있다."
+    }
+  },
+  {
+    "id": "ANXIETY_PAT_003",
+    "terminology": "공황발작 (Panic Attack)",
+    "terminology_ko": "공황발작",
+    "terminology_en": "Panic Attack",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "갑작스럽게 시작되어 수분 내에 절정에 이르는 극심한 공포나 불편감의 삽화로, 심장 박동 증가, 발한, 호흡 곤란, 가슴 통증, 어지러움, 죽음에 대한 공포 등 최소 4가지 이상의 증상이 동반된다.",
+    "definition_en": "An episode of sudden, intense fear or discomfort that peaks within minutes, accompanied by at least four symptoms including heart pounding, sweating, shortness of breath, chest pain, dizziness, and fear of dying.",
+    "significance": "DSM-5에서 독립적 진단이 아닌 '지정자(specifier)'로 분류되며, 공황장애 이외의 여러 정신장애에서도 나타날 수 있다.",
+    "key_researchers": [
+      {"name_ko": "도널드 클라인", "name_en": "Donald Klein", "contribution": "자발적 공황발작을 별개의 임상 현상으로 식별하고, 질식 경보 가설(suffocation alarm hypothesis)을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"},
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "ANXIETY_FFF_024"},
+      {"name_ko": "Clark의 공황 인지모형", "name_en": "Clark's Cognitive Model of Panic", "id": "ANXIETY_CLK_016"},
+      {"name_ko": "불안 민감성", "name_en": "Anxiety Sensitivity", "id": "ANXIETY_ASE_015"}
+    ],
+    "sub_types": [
+      {"name": "예기치 않은 공황발작 (Unexpected)", "description": "명확한 촉발 요인 없이 갑자기 발생하는 공황발작"},
+      {"name": "예기된 공황발작 (Expected)", "description": "특정 공포 대상이나 상황에 의해 촉발되는 공황발작"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "공황발작 13가지 증상: 심계항진, 발한, 떨림, 호흡곤란, 질식감, 흉통, 오심, 어지러움, 비현실감, 통제상실 공포, 죽음 공포, 감각이상, 한열감",
+      "differential": "공황발작은 '증상 삽화'이고, 공황장애는 '진단명'이다. 공황발작 자체는 진단이 아니다.",
+      "key_point": "갑작스러운 시작과 수분 내 절정이 핵심이며, 13가지 증상 중 4가지 이상이 필요하다.",
+      "common_mistake": "공황발작이 심장마비와 같다고 생각하는 것 — 신체적으로 위험하지 않지만 주관적으로는 극심한 공포를 경험한다."
+    }
+  },
+  {
+    "id": "ANXIETY_SOC_004",
+    "terminology": "사회불안장애 (Social Anxiety Disorder)",
+    "terminology_ko": "사회불안장애",
+    "terminology_en": "Social Anxiety Disorder",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "타인에게 부정적으로 평가받는 것에 대한 현저한 공포나 불안으로, 사회적 상황이나 수행 상황을 회피하거나 극심한 불안 속에서 견디며, 이러한 패턴이 6개월 이상 지속된다.",
+    "definition_en": "Marked fear or anxiety about being negatively evaluated by others, leading to avoidance or endurance of social or performance situations with intense anxiety, persisting for at least 6 months.",
+    "significance": "가장 흔한 불안장애 중 하나로, 대인관계와 직업적 기능에 심각한 영향을 미치며 만성적 경과를 보인다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 클라크", "name_en": "David M. Clark", "contribution": "사회불안장애의 인지모형을 제안하여 자기 초점적 주의와 안전행동의 역할을 설명했다."},
+      {"name_ko": "리처드 하이머그", "name_en": "Richard Heimberg", "contribution": "사회불안장애의 집단 인지행동치료 프로토콜을 개발하여 근거 기반 치료를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"},
+      {"name_ko": "안전행동", "name_en": "Safety Behaviors", "id": "ANXIETY_SAF_022"},
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "ANXIETY_AVO_029"},
+      {"name_ko": "회피성 성격장애", "name_en": "Avoidant Personality Disorder", "id": "PERSON_APD_002"}
+    ],
+    "sub_types": [
+      {"name": "수행형 (Performance Only)", "description": "발표, 공연 등 수행 상황에 한정된 사회불안"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "사회불안 = 타인의 '부정적 평가'에 대한 공포가 핵심",
+      "differential": "사회불안장애는 '부정적 평가에 대한 공포'가 핵심이고, 회피성 성격장애는 '거절에 대한 민감성'과 더 광범위한 회피 패턴이 특징이다.",
+      "key_point": "DSM-5에서 '수행형(performance only)' 지정자가 추가되어, 발표 불안만 있는 경우를 구분한다.",
+      "common_mistake": "수줍음(shyness)과 사회불안장애를 동일시하는 것 — 사회불안장애는 임상적으로 유의한 기능 손상을 초래한다."
+    }
+  },
+  {
+    "id": "ANXIETY_SPH_005",
+    "terminology": "특정공포증 (Specific Phobia)",
+    "terminology_ko": "특정공포증",
+    "terminology_en": "Specific Phobia",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "특정 대상이나 상황(동물, 높이, 주사, 피, 비행 등)에 대해 현실적 위험에 비해 과도한 공포와 불안을 경험하며, 이를 적극적으로 회피하는 장애이다.",
+    "definition_en": "A disorder involving excessive fear and anxiety about a specific object or situation (animals, heights, injections, blood, flying) disproportionate to actual danger, with active avoidance of the feared stimulus.",
+    "significance": "가장 흔한 불안장애이지만 도움을 구하는 비율이 가장 낮으며, 공포 조건화 모형의 핵심 연구 대상이다.",
+    "key_researchers": [
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "리틀 앨버트 실험을 통해 공포가 고전적 조건형성으로 학습될 수 있음을 최초로 입증했다."},
+      {"name_ko": "수전 미넥카", "name_en": "Susan Mineka", "contribution": "공포의 관찰학습과 준비성(preparedness) 이론을 통해 특정 공포가 진화적으로 준비된 것임을 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공포 조건화", "name_en": "Fear Conditioning", "id": "ANXIETY_FRC_028"},
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "ANXIETY_SYD_018"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_019"},
+      {"name_ko": "편도체", "name_en": "Amygdala", "id": "ANXIETY_AMY_026"}
+    ],
+    "sub_types": [
+      {"name": "동물형 (Animal Type)", "description": "동물이나 곤충에 대한 공포"},
+      {"name": "자연환경형 (Natural Environment Type)", "description": "높이, 폭풍, 물에 대한 공포"},
+      {"name": "혈액-주사-부상형 (Blood-Injection-Injury Type)", "description": "피, 주사, 의료 시술에 대한 공포"},
+      {"name": "상황형 (Situational Type)", "description": "비행기, 엘리베이터, 밀폐공간에 대한 공포"},
+      {"name": "기타형 (Other Type)", "description": "구토, 질식, 소리 등에 대한 공포"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "특정공포증 5가지 유형: 동물, 자연환경, 혈액-주사, 상황, 기타",
+      "differential": "특정공포증은 특정 대상에 한정된 공포이고, 광장공포증은 탈출 곤란한 상황에 대한 공포이다.",
+      "key_point": "혈액-주사-부상형은 다른 공포증과 달리 혈관미주신경성 실신(vasovagal syncope) 반응을 보이는 특이성이 있다.",
+      "common_mistake": "일상적 불안(예: 거미를 싫어하는 것)과 특정공포증을 혼동하는 것 — 공포증은 과도하고 비합리적이며 기능 손상을 초래한다."
+    }
+  },
+  {
+    "id": "ANXIETY_AGO_006",
+    "terminology": "광장공포증 (Agoraphobia)",
+    "terminology_ko": "광장공포증",
+    "terminology_en": "Agoraphobia",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "대중교통, 넓은 공간, 밀폐된 공간, 줄서기, 혼자 외출하기 등 도움을 받기 어렵거나 탈출이 곤란한 상황에 대한 현저한 공포와 회피를 특징으로 하는 장애이다.",
+    "definition_en": "A disorder characterized by marked fear and avoidance of situations where help may be unavailable or escape may be difficult, such as public transportation, open spaces, enclosed places, standing in lines, or being outside alone.",
+    "significance": "DSM-5에서 공황장애와 독립적인 진단으로 분리되었으며, 가장 심각한 기능 제한을 초래하는 불안장애 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "칼 웨스트팔", "name_en": "Carl Westphal", "contribution": "1871년 광장공포증(Agoraphobia)이라는 용어를 처음 사용하고 그 임상 양상을 기술했다."},
+      {"name_ko": "데이비드 바를로", "name_en": "David H. Barlow", "contribution": "광장공포증의 발달에서 공황과 회피의 관계를 정교화하고 통합적 치료 프로토콜을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"},
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "ANXIETY_AVO_029"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_019"},
+      {"name_ko": "안전행동", "name_en": "Safety Behaviors", "id": "ANXIETY_SAF_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Agora(광장) + Phobia(공포) = 넓은 곳의 공포가 아닌 '탈출 곤란한 상황'의 공포",
+      "differential": "광장공포증은 '탈출/도움 곤란' 상황의 회피이고, 사회불안장애는 '부정적 평가' 상황의 회피이다.",
+      "key_point": "DSM-5에서 공황장애와 별도의 진단으로 분리되었으며, 공황 없이도 광장공포증이 진단될 수 있다.",
+      "common_mistake": "광장공포증을 단순히 '넓은 공간에 대한 공포'로 이해하는 것 — 핵심은 탈출이 곤란한 다양한 상황에 대한 공포이다."
+    }
+  },
+  {
+    "id": "ANXIETY_SEP_007",
+    "terminology": "분리불안장애 (Separation Anxiety Disorder)",
+    "terminology_ko": "분리불안장애",
+    "terminology_en": "Separation Anxiety Disorder",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "애착 대상과의 분리에 대한 발달 수준에 비해 과도하고 부적절한 공포와 불안을 특징으로 하며, 아동기뿐만 아니라 성인기에도 발생할 수 있는 장애이다.",
+    "definition_en": "A disorder characterized by excessive and developmentally inappropriate fear and anxiety about separation from attachment figures, occurring in both childhood and adulthood.",
+    "significance": "DSM-5에서 아동기 장애에서 불안장애 장으로 이동하여 성인 분리불안도 공식 진단이 가능해졌다.",
+    "key_researchers": [
+      {"name_ko": "존 볼비", "name_en": "John Bowlby", "contribution": "애착이론을 통해 분리불안의 발달적 기원과 안전 기지(secure base) 개념을 제시했다."},
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "낯선 상황 실험으로 애착 유형을 분류하고 불안정 애착과 분리불안의 관계를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"},
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"},
+      {"name_ko": "광장공포증", "name_en": "Agoraphobia", "id": "ANXIETY_AGO_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "분리불안 = 애착 대상과 '떨어지면' 과도한 불안 (아동+성인 모두 가능)",
+      "differential": "분리불안장애는 '애착 대상과의 분리'에 대한 불안이고, 범불안장애는 '다양한 주제'에 대한 걱정이다.",
+      "key_point": "DSM-5에서 성인 분리불안장애가 공식 인정되었으며, 아동의 기간 기준은 4주, 성인은 6개월이다.",
+      "common_mistake": "분리불안을 아동에게만 국한시키는 것 — DSM-5에서는 성인 분리불안장애도 진단할 수 있다."
+    }
+  },
+  {
+    "id": "ANXIETY_MUT_008",
+    "terminology": "선택적 함묵증 (Selective Mutism)",
+    "terminology_ko": "선택적 함묵증",
+    "terminology_en": "Selective Mutism",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "말할 수 있는 능력이 있음에도 불구하고, 특정 사회적 상황(주로 학교)에서 일관되게 말하지 못하는 장애로, 사회불안과 높은 관련성을 보인다.",
+    "definition_en": "A disorder in which a child consistently fails to speak in specific social situations (typically school) despite having the ability to speak, showing high association with social anxiety.",
+    "significance": "DSM-5에서 불안장애 범주에 포함되어, 불안의 극단적 표현형으로서의 성격이 인정되었다.",
+    "key_researchers": [
+      {"name_ko": "마게 쿰프리스", "name_en": "Maggie Kumpulainen", "contribution": "선택적 함묵증과 사회불안장애의 관계를 연구하여 불안 기반 개입의 근거를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ANXIETY_SOC_004"},
+      {"name_ko": "분리불안장애", "name_en": "Separation Anxiety Disorder", "id": "ANXIETY_SEP_007"},
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "ANXIETY_AVO_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선택적 함묵 = 집에서는 말하지만 학교에서는 '선택적으로' 말하지 못함",
+      "differential": "선택적 함묵증은 특정 상황에서만 말하지 못하는 것이고, 언어장애는 모든 상황에서 언어 능력이 부족한 것이다.",
+      "key_point": "불안이 핵심 기제이므로, 말을 강요하는 것이 아니라 불안을 줄이는 접근이 효과적이다.",
+      "common_mistake": "선택적 함묵증을 '의도적 거부'나 '반항'으로 해석하는 것 — 불안에 의한 행동 억제이다."
+    }
+  },
+  {
+    "id": "ANXIETY_BEC_009",
+    "terminology": "불안의 인지모형 (Beck's Cognitive Model of Anxiety)",
+    "terminology_ko": "불안의 인지모형",
+    "terminology_en": "Beck's Cognitive Model of Anxiety",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "벡의 인지이론에 기반하여, 위협에 대한 과대평가와 대처 능력의 과소평가라는 인지적 편향이 불안의 핵심 유지 기제라고 설명하는 모형이다.",
+    "definition_en": "A model based on Beck's cognitive theory explaining that cognitive biases involving overestimation of threat and underestimation of coping ability are core maintaining mechanisms of anxiety.",
+    "significance": "인지행동치료에서 불안장애를 치료하는 핵심 이론적 틀로, 인지 재구성의 직접적 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "불안장애에서 위협 과대평가, 대처능력 과소평가, 자동적 사고의 역할을 체계화했다."},
+      {"name_ko": "게리 에머리", "name_en": "Gary Emery", "contribution": "벡과 함께 불안장애의 인지치료를 체계적으로 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지 모형", "name_en": "Cognitive Model", "id": "FOUND_COG_014"},
+      {"name_ko": "인지적 왜곡", "name_en": "Cognitive Distortions", "id": "FOUND_CDI_025"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"},
+      {"name_ko": "Clark의 공황 인지모형", "name_en": "Clark's Cognitive Model of Panic", "id": "ANXIETY_CLK_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "벡의 불안 공식: 위협 과대평가 ÷ 대처능력 과소평가 = 불안",
+      "differential": "벡의 인지모형은 위협 평가에 초점을 맞추고, Barlow의 모형은 정서 조절과 통제감에 초점을 맞춘다.",
+      "key_point": "위험(danger)의 과대평가와 자원(resource)의 과소평가라는 이중 인지 편향이 핵심이다.",
+      "common_mistake": "불안의 인지모형이 실제 위협을 무시한다고 생각하는 것 — 위협에 대한 '비합리적/과도한' 평가를 다루는 것이다."
+    }
+  },
+  {
+    "id": "ANXIETY_LRN_010",
+    "terminology": "불안의 학습모형 (Learning Model of Anxiety)",
+    "terminology_ko": "불안의 학습모형",
+    "terminology_en": "Learning Model of Anxiety",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "고전적 조건형성으로 공포가 습득되고, 조작적 조건형성(부적 강화)에 의해 회피행동이 유지된다는 모워의 이요인이론에 기반한 불안장애 설명 모형이다.",
+    "definition_en": "A model explaining anxiety disorders based on Mowrer's two-factor theory: fear is acquired through classical conditioning and avoidance behavior is maintained through operant conditioning (negative reinforcement).",
+    "significance": "노출치료의 이론적 기반이 되며, 공포증의 발생과 유지 기제를 학습 원리로 설명하는 핵심 모형이다.",
+    "key_researchers": [
+      {"name_ko": "오빌 모워", "name_en": "O. Hobart Mowrer", "contribution": "이요인이론(two-factor theory)을 제안하여 공포의 습득(고전적 조건형성)과 유지(조작적 조건형성)를 통합적으로 설명했다."},
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "리틀 앨버트 실험에서 공포의 고전적 조건형성을 실험적으로 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동주의 모형", "name_en": "Behavioral Model", "id": "FOUND_BEH_013"},
+      {"name_ko": "공포 조건화", "name_en": "Fear Conditioning", "id": "ANXIETY_FRC_028"},
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "ANXIETY_AVO_029"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이요인: 1요인=고전적 조건형성(공포 습득) + 2요인=조작적 조건형성(회피 유지)",
+      "differential": "학습모형은 외부 경험에 의한 공포 습득을, 인지모형은 내적 사고에 의한 불안 유지를 강조한다.",
+      "key_point": "회피가 불안을 일시적으로 줄여주지만(부적 강화), 장기적으로 공포를 유지·강화한다.",
+      "common_mistake": "모든 공포증이 직접 경험(조건형성)으로만 생긴다고 보는 것 — 관찰학습이나 정보 전달로도 공포가 형성될 수 있다."
+    }
+  },
+  {
+    "id": "ANXIETY_TVB_011",
+    "terminology": "Barlow의 삼중취약성모형 (Barlow's Triple Vulnerability Model)",
+    "terminology_ko": "Barlow의 삼중취약성모형",
+    "terminology_en": "Barlow's Triple Vulnerability Model",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "불안장애의 발생을 세 가지 취약성의 상호작용으로 설명하는 모형으로, 일반적 생물학적 취약성, 일반적 심리적 취약성(통제감 부족), 특정 심리적 취약성(특정 학습 경험)을 포함한다.",
+    "definition_en": "A model explaining the development of anxiety disorders through the interaction of three vulnerabilities: generalized biological vulnerability, generalized psychological vulnerability (diminished sense of control), and specific psychological vulnerability (specific learning experiences).",
+    "significance": "불안장애의 발병에 생물학적, 심리적, 학습적 요인을 통합적으로 설명하여, 취약성-스트레스 모형의 구체적 적용이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 바를로", "name_en": "David H. Barlow", "contribution": "삼중취약성모형을 제안하여 불안장애의 발병 기전을 생물·심리·학습의 세 수준에서 통합적으로 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"},
+      {"name_ko": "불안 민감성", "name_en": "Anxiety Sensitivity", "id": "ANXIETY_ASE_015"},
+      {"name_ko": "유전적 소인", "name_en": "Genetic Predisposition", "id": "FOUND_GEN_034"},
+      {"name_ko": "공포 조건화", "name_en": "Fear Conditioning", "id": "ANXIETY_FRC_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "3중 취약성: (1)생물학적(유전) + (2)심리적(통제감↓) + (3)특정 학습(조건형성 경험)",
+      "differential": "삼중취약성모형은 '왜 불안장애가 생기는가'를 설명하고, 인지모형은 '어떻게 불안이 유지되는가'를 설명한다.",
+      "key_point": "세 번째 취약성(특정 학습 경험)이 어떤 불안장애가 발생하는지를 결정한다(예: 뱀 공포 vs. 사회불안).",
+      "common_mistake": "세 가지 취약성 중 하나만으로 불안장애가 발생한다고 보는 것 — 세 가지의 '상호작용'이 필요하다."
+    }
+  },
+  {
+    "id": "ANXIETY_FRC_012",
+    "terminology": "불안의 생리적 증상 (Physiological Symptoms of Anxiety)",
+    "terminology_ko": "불안의 생리적 증상",
+    "terminology_en": "Physiological Symptoms of Anxiety",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "불안 반응에 동반되는 자율신경계 활성화 증상으로, 심박 증가, 발한, 근육 긴장, 호흡 곤란, 소화 불량, 떨림, 어지러움 등이 있으며, 투쟁-도피 반응의 일부이다.",
+    "definition_en": "Autonomic nervous system activation symptoms accompanying anxiety responses, including increased heart rate, sweating, muscle tension, shortness of breath, digestive issues, trembling, and dizziness, as part of the fight-or-flight response.",
+    "significance": "불안의 신체적 표현을 이해하면 심신 관계를 파악하고, 이완 기법 등 신체 기반 치료의 근거를 마련할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "월터 캐넌", "name_en": "Walter Cannon", "contribution": "투쟁-도피 반응을 처음 기술하여 불안의 생리적 기제의 토대를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "ANXIETY_FFF_024"},
+      {"name_ko": "HPA축", "name_en": "HPA Axis", "id": "ANXIETY_HPA_025"},
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "ANXIETY_REL_030"},
+      {"name_ko": "공황발작", "name_en": "Panic Attack", "id": "ANXIETY_PAT_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "불안의 신체 증상 = 자율신경계(교감신경)의 '과활성화'",
+      "differential": "불안의 생리적 증상은 정상적인 스트레스 반응의 과잉이지, 신체 질환과는 다르다(감별진단 필요).",
+      "key_point": "공황발작에서는 이러한 생리적 증상이 극단적으로 나타나 심장마비로 오인되기도 한다.",
+      "common_mistake": "불안의 신체 증상을 신체 질환의 증거로 해석하는 것 — 이것이 공황장애의 악순환을 유지하는 핵심 오류이다."
+    }
+  },
+  {
+    "id": "ANXIETY_SSR_013",
+    "terminology": "선택적 세로토닌 재흡수 억제제 (SSRI)",
+    "terminology_ko": "선택적 세로토닌 재흡수 억제제",
+    "terminology_en": "Selective Serotonin Reuptake Inhibitor",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "시냅스에서 세로토닌의 재흡수를 선택적으로 차단하여 세로토닌 수준을 증가시키는 항우울제 계열의 약물로, 불안장애의 일차 약물치료로 권고된다.",
+    "definition_en": "A class of antidepressant medications that selectively block serotonin reuptake at synapses to increase serotonin levels, recommended as first-line pharmacotherapy for anxiety disorders.",
+    "significance": "불안장애와 우울장애 모두에 효과적인 일차 약물치료로, 벤조디아제핀보다 의존성 위험이 낮다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웡", "name_en": "David Wong", "contribution": "최초의 SSRI인 플루옥세틴(프로작)을 개발하여 정신약물학에 혁명을 일으켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "벤조디아제핀", "name_en": "Benzodiazepine", "id": "ANXIETY_BZD_014"},
+      {"name_ko": "신경전달물질", "name_en": "Neurotransmitter", "id": "FOUND_NTR_023"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SSRI = Selective(선택적) Serotonin(세로토닌) Reuptake(재흡수) Inhibitor(억제제)",
+      "differential": "SSRI는 세로토닌에 선택적이고, SNRI는 세로토닌과 노르에피네프린 모두에 작용한다.",
+      "key_point": "효과 발현에 2~4주가 걸리며, 초기에 불안이 일시적으로 악화될 수 있다.",
+      "common_mistake": "SSRI가 즉각적 효과를 나타낸다고 기대하는 것 — 치료 효과가 나타나기까지 수주가 필요하다."
+    }
+  },
+  {
+    "id": "ANXIETY_BZD_014",
+    "terminology": "벤조디아제핀 (Benzodiazepine)",
+    "terminology_ko": "벤조디아제핀",
+    "terminology_en": "Benzodiazepine",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "GABA 수용체에 작용하여 억제성 신경전달을 증진시키는 항불안약으로, 빠른 효과를 보이지만 의존성, 내성, 금단 증상의 위험이 있어 단기 사용이 권고된다.",
+    "definition_en": "An anxiolytic medication that enhances inhibitory neurotransmission by acting on GABA receptors, providing rapid effects but carrying risks of dependence, tolerance, and withdrawal symptoms, recommended for short-term use only.",
+    "significance": "즉각적 불안 감소 효과가 있어 급성 불안 관리에 유용하지만, 장기 사용 시 의존성 문제로 신중한 처방이 필요하다.",
+    "key_researchers": [
+      {"name_ko": "레오 스턴바흐", "name_en": "Leo Sternbach", "contribution": "1955년 최초의 벤조디아제핀인 클로르디아제폭사이드(Librium)를 합성하여 현대 항불안 약물의 시대를 열었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "SSRI", "name_en": "SSRI", "id": "ANXIETY_SSR_013"},
+      {"name_ko": "신경전달물질", "name_en": "Neurotransmitter", "id": "FOUND_NTR_023"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "SUBST_TOL_003"},
+      {"name_ko": "금단", "name_en": "Withdrawal", "id": "SUBST_WDR_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "벤조디아제핀 = GABA 증진 → 빠른 효과 but 의존성 위험",
+      "differential": "벤조디아제핀은 즉각적이지만 의존성 위험이 있고, SSRI는 느리지만 의존성이 낮다.",
+      "key_point": "대표적 약물: 디아제팜(Valium), 알프라졸람(Xanax), 로라제팜(Ativan), 클로나제팜(Klonopin).",
+      "common_mistake": "벤조디아제핀을 불안장애의 장기 치료로 사용하는 것 — 단기 사용이나 SSRI 효과 발현 대기 시 일시적 사용이 적절하다."
+    }
+  },
+  {
+    "id": "ANXIETY_ASE_015",
+    "terminology": "불안 민감성 (Anxiety Sensitivity)",
+    "terminology_ko": "불안 민감성",
+    "terminology_en": "Anxiety Sensitivity",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "불안 관련 신체감각(심장 두근거림, 어지러움 등)이 해로운 결과를 초래할 것이라는 두려움으로, '불안에 대한 불안(fear of anxiety)'이라고도 하며 공황장애의 주요 위험 요인이다.",
+    "definition_en": "The fear that anxiety-related bodily sensations (heart pounding, dizziness) will lead to harmful consequences, also known as 'fear of anxiety,' a major risk factor for panic disorder.",
+    "significance": "공황장애 발병의 인지적 취약성 요인으로, 불안 민감성이 높을수록 신체감각에 대한 파국적 해석이 증가한다.",
+    "key_researchers": [
+      {"name_ko": "스티븐 레이스", "name_en": "Steven Reiss", "contribution": "불안 민감성 개념을 처음 제안하고, 불안 민감성 지표(ASI)를 개발하여 측정 가능하게 했다."},
+      {"name_ko": "리처드 맥낼리", "name_en": "Richard McNally", "contribution": "불안 민감성과 공황장애의 관계를 실험적으로 규명하여 인지적 취약성 연구를 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"},
+      {"name_ko": "Clark의 공황 인지모형", "name_en": "Clark's Cognitive Model of Panic", "id": "ANXIETY_CLK_016"},
+      {"name_ko": "Barlow의 삼중취약성모형", "name_en": "Barlow's Triple Vulnerability Model", "id": "ANXIETY_TVB_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "불안 민감성 = '불안의 불안': 심장이 뛰면 → '심장마비인가?' → 더 불안 → 악순환",
+      "differential": "불안 민감성은 불안 '증상'에 대한 두려움이고, 특성 불안은 전반적인 불안 '성향'이다.",
+      "key_point": "불안 민감성은 공황장애뿐만 아니라 PTSD, 물질사용장애 등 다양한 장애의 위험 요인이기도 하다.",
+      "common_mistake": "불안 민감성과 특성 불안을 동일시하는 것 — 불안 민감성은 불안의 '결과'를 두려워하는 것이고, 특성 불안은 전반적 불안 수준이다."
+    }
+  },
+  {
+    "id": "ANXIETY_CLK_016",
+    "terminology": "Clark의 공황 인지모형 (Clark's Cognitive Model of Panic)",
+    "terminology_ko": "Clark의 공황 인지모형",
+    "terminology_en": "Clark's Cognitive Model of Panic",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "정상적인 신체감각을 임박한 재앙(심장마비, 미치는 것 등)으로 파국적으로 오해석하면 불안이 증가하고, 이것이 다시 신체감각을 증폭시키는 악순환이 공황발작을 유발한다는 모형이다.",
+    "definition_en": "A model proposing that catastrophic misinterpretation of normal bodily sensations as signs of imminent catastrophe (heart attack, going insane) increases anxiety, which amplifies physical sensations in a vicious cycle that triggers panic attacks.",
+    "significance": "공황장애의 인지적 기제를 설명하는 가장 영향력 있는 모형으로, 인지치료의 직접적 이론적 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 클라크", "name_en": "David M. Clark", "contribution": "1986년 공황장애의 인지모형을 발표하여 신체감각의 파국적 오해석이 공황의 핵심 기제임을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"},
+      {"name_ko": "공황발작", "name_en": "Panic Attack", "id": "ANXIETY_PAT_003"},
+      {"name_ko": "불안 민감성", "name_en": "Anxiety Sensitivity", "id": "ANXIETY_ASE_015"},
+      {"name_ko": "안전행동", "name_en": "Safety Behaviors", "id": "ANXIETY_SAF_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Clark 모형의 악순환: 신체감각 → 파국적 오해석 → 불안 증가 → 신체감각 증폭 → 공황",
+      "differential": "Clark 모형은 신체감각의 '파국적 오해석'에 초점을 맞추고, Barlow 모형은 '통제감 상실'에 초점을 맞춘다.",
+      "key_point": "치료의 핵심은 신체감각의 파국적 해석을 현실적 해석으로 수정하는 인지 재구성이다.",
+      "common_mistake": "Clark 모형이 공황의 생물학적 요인을 완전히 무시한다고 보는 것 — 신체감각은 실제로 존재하며, 이에 대한 '해석'이 핵심이다."
+    }
+  },
+  {
+    "id": "ANXIETY_EXP_017",
+    "terminology": "노출치료 (Exposure Therapy)",
+    "terminology_ko": "노출치료",
+    "terminology_en": "Exposure Therapy",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "공포나 불안을 유발하는 자극에 안전한 환경에서 반복적으로 노출시켜 공포 반응을 감소시키는 행동치료 기법으로, 습관화와 소거 학습이 핵심 기제이다.",
+    "definition_en": "A behavioral therapy technique that reduces fear responses through repeated, safe exposure to anxiety-provoking stimuli, with habituation and extinction learning as core mechanisms.",
+    "significance": "불안장애의 가장 효과적인 근거 기반 치료법으로, 모든 불안장애에 대한 치료의 핵심 구성요소이다.",
+    "key_researchers": [
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "정서처리이론을 제안하여 노출치료의 기제를 공포구조(fear structure)의 수정으로 설명했다."},
+      {"name_ko": "미셸 크라스크", "name_en": "Michelle Craske", "contribution": "억제학습 모형을 제안하여 노출치료에서 습관화보다 새로운 학습의 중요성을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "ANXIETY_SYD_018"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"},
+      {"name_ko": "불안의 학습모형", "name_en": "Learning Model of Anxiety", "id": "ANXIETY_LRN_010"},
+      {"name_ko": "PTSD", "name_en": "PTSD", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [
+      {"name": "체내감각 노출 (Interoceptive Exposure)", "description": "의도적으로 신체감각을 유발하여 공황 증상에 대한 공포를 감소시키는 기법"},
+      {"name": "실제 노출 (In Vivo Exposure)", "description": "실제 공포 상황이나 대상에 직접 노출하는 기법"},
+      {"name": "상상 노출 (Imaginal Exposure)", "description": "상상 속에서 공포 장면을 생생하게 떠올리는 기법"},
+      {"name": "가상현실 노출 (Virtual Reality Exposure)", "description": "가상현실 기술을 이용한 노출 기법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "노출치료 유형: In Vivo(실제), Imaginal(상상), Interoceptive(체내감각), VR(가상현실)",
+      "differential": "노출치료는 직접 대면(단번에 또는 점진적)이고, 체계적 둔감화는 이완과 점진적 노출의 결합이다.",
+      "key_point": "최신 이론(억제학습 모형)에서는 공포가 '소거'되는 것이 아니라 새로운 안전 학습이 추가되는 것이라고 본다.",
+      "common_mistake": "노출치료가 단순히 '공포 자극에 무조건 노출'시키는 것이라고 보는 것 — 체계적이고 치료적인 맥락에서 이루어진다."
+    }
+  },
+  {
+    "id": "ANXIETY_SYD_018",
+    "terminology": "체계적 둔감화 (Systematic Desensitization)",
+    "terminology_ko": "체계적 둔감화",
+    "terminology_en": "Systematic Desensitization",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "이완 훈련과 공포 자극의 점진적 노출을 결합한 행동치료 기법으로, 불안 위계를 구성하여 낮은 단계부터 이완 상태에서 노출하며, 상호억제 원리에 기반한다.",
+    "definition_en": "A behavioral therapy technique combining relaxation training with gradual exposure to feared stimuli, constructing an anxiety hierarchy and exposing from the lowest level while relaxed, based on the principle of reciprocal inhibition.",
+    "significance": "최초의 체계적인 행동치료 기법으로, 노출 기반 치료의 기원이며 현대 불안 치료의 기반을 마련했다.",
+    "key_researchers": [
+      {"name_ko": "조셉 울프", "name_en": "Joseph Wolpe", "contribution": "1958년 상호억제 원리에 기반하여 체계적 둔감화를 개발하고, 불안장애의 행동치료 시대를 열었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_017"},
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "ANXIETY_REL_030"},
+      {"name_ko": "행동주의 모형", "name_en": "Behavioral Model", "id": "FOUND_BEH_013"},
+      {"name_ko": "특정공포증", "name_en": "Specific Phobia", "id": "ANXIETY_SPH_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체계적 둔감화 3단계: (1)이완훈련 → (2)불안 위계 구성 → (3)점진적 노출+이완",
+      "differential": "체계적 둔감화는 이완과 노출을 결합하고, 홍수법(flooding)은 이완 없이 최고 강도의 자극에 바로 노출한다.",
+      "key_point": "상호억제(reciprocal inhibition): 이완과 불안은 동시에 존재할 수 없다는 원리에 기반한다.",
+      "common_mistake": "체계적 둔감화가 현대에는 사용되지 않는다고 보는 것 — 여전히 특정 상황에서 효과적으로 사용된다."
+    }
+  },
+  {
+    "id": "ANXIETY_EXP_019",
+    "terminology": "노출 및 반응방지 (Exposure and Response Prevention, ERP)",
+    "terminology_ko": "노출 및 반응방지",
+    "terminology_en": "Exposure and Response Prevention",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "강박장애의 핵심 치료법으로, 강박사고를 유발하는 자극에 노출시키면서 강박행동(의식)의 수행을 의도적으로 방지하여 불안의 자연 소멸을 경험하게 하는 기법이다.",
+    "definition_en": "A core treatment for OCD that exposes patients to stimuli triggering obsessive thoughts while intentionally preventing compulsive rituals, allowing natural anxiety reduction to occur.",
+    "significance": "강박장애에 대한 가장 효과적인 심리치료로, 노출치료의 특수한 적용 형태이다.",
+    "key_researchers": [
+      {"name_ko": "빅터 마이어", "name_en": "Victor Meyer", "contribution": "1966년 노출 및 반응방지를 강박장애 치료에 최초로 적용하여 행동치료의 효과를 입증했다."},
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "ERP를 체계화하고 정서처리이론으로 기제를 설명하여 강박장애 치료의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_017"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ERP = Exposure(노출) + Response Prevention(반응방지) = 강박 자극에 노출하되 의식 수행을 막기",
+      "differential": "일반 노출치료는 회피행동 감소에 초점, ERP는 '강박행동(의식)' 방지에 특화된 기법이다.",
+      "key_point": "핵심은 강박행동을 하지 않아도 불안이 자연적으로 감소한다는 것을 체험하게 하는 것이다.",
+      "common_mistake": "ERP에서 모든 강박행동을 처음부터 완전히 차단해야 한다고 보는 것 — 점진적 접근이 일반적이다."
+    }
+  },
+  {
+    "id": "ANXIETY_CBT_020",
+    "terminology": "인지행동치료 (Cognitive-Behavioral Therapy, CBT)",
+    "terminology_ko": "인지행동치료",
+    "terminology_en": "Cognitive-Behavioral Therapy",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "비합리적 사고와 부적응적 행동 패턴을 동시에 다루는 구조화된 단기 심리치료로, 인지 재구성과 행동 기법(노출, 행동 실험)을 통합하여 불안 증상을 감소시킨다.",
+    "definition_en": "A structured, short-term psychotherapy addressing both irrational thoughts and maladaptive behavior patterns, integrating cognitive restructuring and behavioral techniques (exposure, behavioral experiments) to reduce anxiety symptoms.",
+    "significance": "불안장애에 대해 가장 광범위한 경험적 근거를 가진 심리치료로, 약물치료와 동등하거나 우월한 효과를 보인다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "인지치료를 개발하여 인지행동치료의 인지적 구성요소의 기반을 마련했다."},
+      {"name_ko": "데이비드 바를로", "name_en": "David H. Barlow", "contribution": "불안장애에 대한 통합적 CBT 프로토콜(Unified Protocol)을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지 모형", "name_en": "Cognitive Model", "id": "FOUND_COG_014"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_017"},
+      {"name_ko": "인지적 왜곡", "name_en": "Cognitive Distortions", "id": "FOUND_CDI_025"},
+      {"name_ko": "SSRI", "name_en": "SSRI", "id": "ANXIETY_SSR_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CBT = Cognitive(인지 재구성) + Behavioral(행동 변화) + Therapy(구조화된 치료)",
+      "differential": "CBT는 현재의 사고와 행동에 초점을 맞추고, 정신분석은 과거 무의식에, 인본주의는 자기실현에 초점을 맞춘다.",
+      "key_point": "보통 12~20회기의 구조화된 단기 치료이며, 가정과제(homework)가 핵심 구성요소이다.",
+      "common_mistake": "CBT가 '긍정적으로 생각하기'라고 단순화하는 것 — 실제로는 비합리적 사고를 현실적 사고로 교정하는 것이다."
+    }
+  },
+  {
+    "id": "ANXIETY_SAF_022",
+    "terminology": "안전행동 (Safety Behaviors)",
+    "terminology_ko": "안전행동",
+    "terminology_en": "Safety Behaviors",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "두려운 결과를 예방하기 위해 불안 상황에서 수행하는 미묘한 회피적 행동으로, 단기적으로 불안을 줄이지만 장기적으로 공포 신념을 유지시키는 역할을 한다.",
+    "definition_en": "Subtle avoidant behaviors performed in anxiety-provoking situations to prevent feared outcomes, reducing anxiety in the short term but maintaining fear beliefs in the long term.",
+    "significance": "인지행동치료에서 핵심적으로 다루는 유지 요인으로, 안전행동의 중단이 치료 효과를 극대화한다.",
+    "key_researchers": [
+      {"name_ko": "폴 살코프스키스", "name_en": "Paul Salkovskis", "contribution": "안전행동 개념을 정립하고, 이것이 공포 신념의 반증 기회를 차단하여 불안을 유지시킴을 설명했다."},
+      {"name_ko": "데이비드 클라크", "name_en": "David M. Clark", "contribution": "사회불안장애와 공황장애에서 안전행동의 역할을 실험적으로 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "ANXIETY_AVO_029"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ANXIETY_SOC_004"},
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "안전행동 예시: 발표 중 메모를 꽉 쥐기, 출구 가까이 앉기, 항상 약 가지고 다니기",
+      "differential": "안전행동은 상황 '내'에서의 미묘한 회피이고, 회피행동은 상황 '자체'를 피하는 것이다.",
+      "key_point": "안전행동이 없어도 두려운 결과가 발생하지 않는다는 경험이 치료적 변화의 핵심이다.",
+      "common_mistake": "안전행동이 효과적인 대처전략이라고 보는 것 — 단기적으로 안심을 주지만 장기적으로 불안을 유지·강화한다."
+    }
+  },
+  {
+    "id": "ANXIETY_ANT_023",
+    "terminology": "예기불안 (Anticipatory Anxiety)",
+    "terminology_ko": "예기불안",
+    "terminology_en": "Anticipatory Anxiety",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "두려운 상황이나 사건이 발생하기 전에 경험하는 불안으로, '불안에 대한 불안'의 형태를 취하며 공황장애, 사회불안, 광장공포증의 회피행동을 촉진한다.",
+    "definition_en": "Anxiety experienced before a feared situation or event occurs, taking the form of 'anxiety about anxiety' and promoting avoidance behavior in panic disorder, social anxiety, and agoraphobia.",
+    "significance": "불안 악순환의 핵심 연결고리로, 예기불안이 회피행동을 유발하고 이것이 다시 불안을 강화하는 악순환을 형성한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 바를로", "name_en": "David H. Barlow", "contribution": "예기불안이 공황장애의 유지에서 핵심적 역할을 한다는 모형을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ANXIETY_PAN_002"},
+      {"name_ko": "회피행동", "name_en": "Avoidance Behavior", "id": "ANXIETY_AVO_029"},
+      {"name_ko": "안전행동", "name_en": "Safety Behaviors", "id": "ANXIETY_SAF_022"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "예기불안 = 아직 일어나지 않은 일에 대한 '미리 걱정하기'",
+      "differential": "예기불안은 미래의 특정 상황에 대한 불안이고, 범불안은 다양한 주제에 대한 만성적 걱정이다.",
+      "key_point": "공황장애에서 다음 발작에 대한 예기불안이 일상 기능을 심각하게 제한하는 주요 요인이다.",
+      "common_mistake": "예기불안을 단순한 걱정으로 치부하는 것 — 예기불안은 회피행동의 직접적 원인이 되어 기능을 크게 제한한다."
+    }
+  },
+  {
+    "id": "ANXIETY_FFF_024",
+    "terminology": "투쟁-도피 반응 (Fight-or-Flight Response)",
+    "terminology_ko": "투쟁-도피 반응",
+    "terminology_en": "Fight-or-Flight Response",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "위협을 감지했을 때 교감신경계가 활성화되어 심박 증가, 혈류 재분배, 호흡 촉진, 근육 긴장 등 신체를 전투나 도피에 대비시키는 진화적 생존 반응이다.",
+    "definition_en": "An evolutionary survival response in which the sympathetic nervous system activates upon detecting threat, increasing heart rate, redistributing blood flow, accelerating breathing, and tensing muscles to prepare for fighting or fleeing.",
+    "significance": "불안의 생리적 기반을 이해하는 핵심 개념으로, 불안장애에서 이 반응이 부적절하게 활성화되는 것으로 설명된다.",
+    "key_researchers": [
+      {"name_ko": "월터 캐넌", "name_en": "Walter Cannon", "contribution": "1915년 투쟁-도피 반응의 개념을 최초로 제안하여 스트레스에 대한 신체적 반응의 기초를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "HPA축", "name_en": "HPA Axis", "id": "ANXIETY_HPA_025"},
+      {"name_ko": "편도체", "name_en": "Amygdala", "id": "ANXIETY_AMY_026"},
+      {"name_ko": "공황발작", "name_en": "Panic Attack", "id": "ANXIETY_PAT_003"},
+      {"name_ko": "불안의 생리적 증상", "name_en": "Physiological Symptoms of Anxiety", "id": "ANXIETY_FRC_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Fight(싸우기) or Flight(도망가기) = 위협 시 교감신경 '전투모드' 가동",
+      "differential": "투쟁-도피 반응은 급성 위협 대비이고, HPA축 반응은 지속적 스트레스에 대한 느린 호르몬 반응이다.",
+      "key_point": "공황발작은 실제 위협 없이 투쟁-도피 반응이 '오발동(false alarm)'하는 것으로 이해할 수 있다.",
+      "common_mistake": "투쟁-도피 반응 자체가 병적이라고 보는 것 — 이것은 정상적 생존 기제이며, 부적절한 활성화가 문제이다."
+    }
+  },
+  {
+    "id": "ANXIETY_HPA_025",
+    "terminology": "HPA축 (Hypothalamic-Pituitary-Adrenal Axis)",
+    "terminology_ko": "HPA축",
+    "terminology_en": "Hypothalamic-Pituitary-Adrenal Axis",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "시상하부-뇌하수체-부신으로 이어지는 스트레스 반응 체계로, CRH → ACTH → 코르티솔의 연쇄를 통해 스트레스에 대한 장기적 신체 반응을 조절한다.",
+    "definition_en": "The hypothalamic-pituitary-adrenal stress response system that regulates long-term bodily responses to stress through the cascade of CRH → ACTH → cortisol.",
+    "significance": "만성 스트레스와 불안장애의 생물학적 기반으로, HPA축의 조절 이상이 다양한 정신장애와 관련된다.",
+    "key_researchers": [
+      {"name_ko": "한스 셀리에", "name_en": "Hans Selye", "contribution": "일반적응증후군(GAS)을 제안하여 스트레스에 대한 신체의 체계적 반응을 최초로 개념화했다."},
+      {"name_ko": "브루스 맥이웬", "name_en": "Bruce McEwen", "contribution": "알로스타틱 부하(allostatic load) 개념을 제안하여 만성 스트레스의 누적 효과를 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "ANXIETY_FFF_024"},
+      {"name_ko": "편도체", "name_en": "Amygdala", "id": "ANXIETY_AMY_026"},
+      {"name_ko": "취약성-스트레스 모형", "name_en": "Diathesis-Stress Model", "id": "FOUND_DSM_018"},
+      {"name_ko": "PTSD", "name_en": "PTSD", "id": "TRAUMA_PTS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HPA축 연쇄: H(시상하부→CRH) → P(뇌하수체→ACTH) → A(부신→코르티솔)",
+      "differential": "투쟁-도피(교감신경)는 초 단위의 빠른 반응이고, HPA축은 분~시간 단위의 느린 호르몬 반응이다.",
+      "key_point": "만성 스트레스로 HPA축이 과활성화되면 코르티솔이 지속적으로 상승하여 면역기능 저하, 해마 손상 등이 발생한다.",
+      "common_mistake": "HPA축이 불안의 유일한 생물학적 기제라고 보는 것 — 편도체, 세로토닌 등 다른 기제도 중요하다."
+    }
+  },
+  {
+    "id": "ANXIETY_AMY_026",
+    "terminology": "편도체의 역할 (Role of the Amygdala)",
+    "terminology_ko": "편도체의 역할",
+    "terminology_en": "Role of the Amygdala",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "측두엽 내 아몬드 모양의 구조물로, 공포 자극의 감지, 공포 학습, 공포 기억의 저장에 핵심적인 역할을 하며, 불안장애에서 과활성화되는 것으로 밝혀졌다.",
+    "definition_en": "An almond-shaped structure within the temporal lobe that plays a central role in detecting fear stimuli, fear learning, and storing fear memories, found to be hyperactive in anxiety disorders.",
+    "significance": "공포 처리의 신경학적 허브로서, 불안장애의 신경생물학적 이해에 핵심적이며 노출치료의 기제와도 관련된다.",
+    "key_researchers": [
+      {"name_ko": "조지프 르두", "name_en": "Joseph LeDoux", "contribution": "공포 조건화에서 편도체의 역할을 밝히고, '낮은 도로(low road)'와 '높은 도로(high road)' 공포 처리 경로를 제안했다."},
+      {"name_ko": "마이클 데이비스", "name_en": "Michael Davis", "contribution": "편도체가 공포 학습과 소거에서 하는 역할을 동물 모델을 통해 체계적으로 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "ANXIETY_FFF_024"},
+      {"name_ko": "HPA축", "name_en": "HPA Axis", "id": "ANXIETY_HPA_025"},
+      {"name_ko": "공포 조건화", "name_en": "Fear Conditioning", "id": "ANXIETY_FRC_028"},
+      {"name_ko": "신경영상", "name_en": "Neuroimaging", "id": "ASSESS_NIM_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편도체 = 뇌의 '경보 시스템': 위험 신호 감지 → 공포 반응 촉발",
+      "differential": "편도체는 공포의 '빠른 탐지'를, 전전두엽은 공포의 '조절과 억제'를 담당한다.",
+      "key_point": "LeDoux의 두 경로: 감각→편도체(fast/low road, 즉각 반응) vs. 감각→피질→편도체(slow/high road, 정교한 평가).",
+      "common_mistake": "편도체가 공포'만' 담당한다고 보는 것 — 보상, 사회적 정보 처리 등 다른 정서 기능에도 관여한다."
+    }
+  },
+  {
+    "id": "ANXIETY_G7_027",
+    "terminology": "GAD-7 (범불안장애 7문항 척도)",
+    "terminology_ko": "GAD-7",
+    "terminology_en": "Generalized Anxiety Disorder 7-item Scale",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "7개 문항으로 지난 2주간의 불안 증상 심각도를 측정하는 간편한 자기보고식 선별 도구로, 일차 진료와 연구에서 널리 사용된다.",
+    "definition_en": "A brief 7-item self-report screening tool measuring anxiety symptom severity over the past two weeks, widely used in primary care and research settings.",
+    "significance": "간결하면서도 양호한 심리측정적 속성을 가져 일차 진료에서의 불안 선별에 가장 널리 사용되는 도구이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "2006년 GAD-7을 개발하여 일차 진료에서 사용할 수 있는 간편하고 타당한 불안 선별 도구를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"},
+      {"name_ko": "벡 불안 척도", "name_en": "Beck Anxiety Inventory", "id": "ASSESS_BAI_014"},
+      {"name_ko": "PHQ-9", "name_en": "PHQ-9", "id": "ASSESS_BDI_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "GAD-7: 7문항, 0~21점, 절단점 10점으로 불안 선별",
+      "differential": "GAD-7은 불안의 인지적·심리적 증상 위주이고, BAI는 불안의 신체적 증상 위주이다.",
+      "key_point": "0~4점 최소, 5~9점 경도, 10~14점 중등도, 15~21점 중증으로 분류한다.",
+      "common_mistake": "GAD-7이 범불안장애만 선별한다고 보는 것 — 사회불안장애, 공황장애 등 다른 불안장애도 선별 가능하다."
+    }
+  },
+  {
+    "id": "ANXIETY_FRC_028",
+    "terminology": "공포 조건화 (Fear Conditioning)",
+    "terminology_ko": "공포 조건화",
+    "terminology_en": "Fear Conditioning",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "중성 자극이 공포를 유발하는 자극과 반복적으로 짝지어져, 중성 자극만으로도 공포 반응이 유발되게 되는 고전적 조건형성의 한 유형이다.",
+    "definition_en": "A type of classical conditioning in which a neutral stimulus becomes paired with a fear-inducing stimulus, eventually eliciting a fear response to the neutral stimulus alone.",
+    "significance": "공포증과 불안장애의 발생 기제를 설명하는 핵심 실험 패러다임이며, 노출치료의 소거 학습 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "리틀 앨버트 실험에서 공포 조건화를 인간에게 최초로 입증하여 공포증의 학습적 기원을 보여주었다."},
+      {"name_ko": "조지프 르두", "name_en": "Joseph LeDoux", "contribution": "편도체가 공포 조건화의 핵심 신경 기반임을 밝혀 공포의 신경과학적 이해를 혁신했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "불안의 학습모형", "name_en": "Learning Model of Anxiety", "id": "ANXIETY_LRN_010"},
+      {"name_ko": "편도체", "name_en": "Amygdala", "id": "ANXIETY_AMY_026"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_017"},
+      {"name_ko": "특정공포증", "name_en": "Specific Phobia", "id": "ANXIETY_SPH_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "리틀 앨버트: 흰쥐(CS) + 큰 소리(US) → 흰쥐만 보아도 공포(CR)",
+      "differential": "공포 조건화는 공포의 '습득' 과정이고, 소거(extinction)는 조건화된 공포의 '감소' 과정이다.",
+      "key_point": "소거된 공포가 자발적 회복, 갱신 효과 등으로 재출현할 수 있어, 완전한 '삭제'가 아닌 '새로운 학습'이다.",
+      "common_mistake": "공포 조건화가 모든 공포의 유일한 원인이라고 보는 것 — 준비성, 관찰학습, 정보 전달도 공포 습득의 경로이다."
+    }
+  },
+  {
+    "id": "ANXIETY_AVO_029",
+    "terminology": "회피행동 (Avoidance Behavior)",
+    "terminology_ko": "회피행동",
+    "terminology_en": "Avoidance Behavior",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "불안이나 공포를 유발하는 상황, 장소, 활동을 적극적으로 피하는 행동으로, 부적 강화에 의해 유지되며 불안장애의 핵심 유지 기제이다.",
+    "definition_en": "The active avoidance of situations, places, or activities that trigger anxiety or fear, maintained by negative reinforcement and serving as a core maintaining mechanism of anxiety disorders.",
+    "significance": "단기적으로 불안을 줄여주지만 장기적으로 공포를 유지·강화하는 역설적 기제로, 치료의 핵심 표적이다.",
+    "key_researchers": [
+      {"name_ko": "오빌 모워", "name_en": "O. Hobart Mowrer", "contribution": "이요인이론에서 회피가 부적 강화에 의해 유지됨을 설명하여 회피행동의 기제를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "안전행동", "name_en": "Safety Behaviors", "id": "ANXIETY_SAF_022"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "ANXIETY_EXP_017"},
+      {"name_ko": "불안의 학습모형", "name_en": "Learning Model of Anxiety", "id": "ANXIETY_LRN_010"},
+      {"name_ko": "광장공포증", "name_en": "Agoraphobia", "id": "ANXIETY_AGO_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "회피의 역설: 피하면 불안이 줄지만(부적 강화), 공포는 오히려 강화된다",
+      "differential": "회피행동은 불안 상황을 '완전히 피하는' 것이고, 안전행동은 상황에 참여하면서 '미묘하게 피하는' 것이다.",
+      "key_point": "노출치료의 핵심 원리는 회피를 중단하고 공포 자극에 직면하여 소거 학습을 촉진하는 것이다.",
+      "common_mistake": "회피를 효과적인 대처전략으로 보는 것 — 회피는 불안을 줄이는 것이 아니라 공포의 범위를 점점 확대시킨다."
+    }
+  },
+  {
+    "id": "ANXIETY_REL_030",
+    "terminology": "이완훈련 (Relaxation Training)",
+    "terminology_ko": "이완훈련",
+    "terminology_en": "Relaxation Training",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "점진적 근육이완법, 복식호흡, 자율훈련법 등을 통해 자율신경계의 이완 반응을 유도하는 기법으로, 불안의 신체적 증상을 감소시키는 데 효과적이다.",
+    "definition_en": "Techniques such as progressive muscle relaxation, diaphragmatic breathing, and autogenic training that induce a relaxation response in the autonomic nervous system, effective in reducing physical symptoms of anxiety.",
+    "significance": "체계적 둔감화의 필수 구성요소이며, 독립적인 스트레스 관리 기법으로도 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "에드먼드 제이콥슨", "name_en": "Edmund Jacobson", "contribution": "1920년대 점진적 근육이완법(PMR)을 개발하여 근육 이완을 통한 불안 감소의 기초를 마련했다."},
+      {"name_ko": "허버트 벤슨", "name_en": "Herbert Benson", "contribution": "이완 반응(relaxation response) 개념을 제안하여 이완의 생리적 기제를 과학적으로 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "ANXIETY_SYD_018"},
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "ANXIETY_FFF_024"},
+      {"name_ko": "불안의 생리적 증상", "name_en": "Physiological Symptoms of Anxiety", "id": "ANXIETY_FRC_012"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"}
+    ],
+    "sub_types": [
+      {"name": "점진적 근육이완법 (PMR)", "description": "근육군을 순서대로 긴장-이완하여 전체 이완을 유도하는 기법"},
+      {"name": "복식호흡 (Diaphragmatic Breathing)", "description": "횡격막을 이용한 느리고 깊은 호흡으로 부교감신경을 활성화하는 기법"},
+      {"name": "자율훈련법 (Autogenic Training)", "description": "자기암시를 통해 무거움, 따뜻함 등의 이완 감각을 유도하는 기법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "이완훈련 = 교감신경(흥분) ↓, 부교감신경(이완) ↑ = '브레이크' 작동",
+      "differential": "이완훈련은 신체적 이완에 초점을 맞추고, 인지 재구성은 사고 변화에 초점을 맞춘다.",
+      "key_point": "점진적 근육이완법(PMR)이 가장 널리 사용되며, 16개 근육군에서 4~7개 근육군으로 점차 축소하여 연습한다.",
+      "common_mistake": "이완훈련이 노출치료를 대체할 수 있다고 보는 것 — 이완은 보조 기법이며 공포 감소의 핵심은 노출이다."
+    }
+  },
+  {
+    "id": "ANXIETY_PRE_031",
+    "terminology": "준비성 이론 (Preparedness Theory)",
+    "terminology_ko": "준비성 이론",
+    "terminology_en": "Preparedness Theory",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "진화적으로 생존에 위협이 되었던 자극(뱀, 높이, 밀폐공간 등)에 대해 공포가 더 쉽게 학습되고 소거가 어렵다는 이론으로, 공포증의 비무작위적 분포를 설명한다.",
+    "definition_en": "A theory proposing that fear is more easily learned and harder to extinguish for stimuli that posed evolutionary survival threats (snakes, heights, enclosed spaces), explaining the non-random distribution of phobias.",
+    "significance": "공포증이 특정 대상(뱀, 거미, 높이)에 편중되는 현상을 설명하며, 학습이론과 진화심리학을 연결하는 다리 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그만", "name_en": "Martin Seligman", "contribution": "1971년 준비성 개념을 공포와 공포증에 적용하여, 진화적 준비가 공포 학습에 미치는 영향을 이론화했다."},
+      {"name_ko": "아르네 외만", "name_en": "Arne Öhman", "contribution": "진화적으로 관련된 자극(뱀, 거미)에 대한 공포 조건화가 더 빠르고 소거가 어려움을 실험적으로 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공포 조건화", "name_en": "Fear Conditioning", "id": "ANXIETY_FRC_028"},
+      {"name_ko": "특정공포증", "name_en": "Specific Phobia", "id": "ANXIETY_SPH_005"},
+      {"name_ko": "불안의 학습모형", "name_en": "Learning Model of Anxiety", "id": "ANXIETY_LRN_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "준비성 = 진화적 위험 자극(뱀·거미·높이)에 대해 공포가 '준비'되어 있다",
+      "differential": "준비성 이론은 '무엇을' 두려워하는지(내용), 학습모형은 '어떻게' 공포가 형성되는지(과정)를 설명한다.",
+      "key_point": "현대에 흔한 위험(자동차, 전기)보다 진화적 위험(뱀, 높이)에 대한 공포증이 더 흔한 이유를 설명한다.",
+      "common_mistake": "준비성이 공포를 '결정'한다고 보는 것 — 준비성은 공포 학습의 '용이성'을 높이는 것이지, 공포를 불가피하게 만드는 것은 아니다."
+    }
+  },
+  {
+    "id": "ANXIETY_IU_032",
+    "terminology": "불확실성에 대한 인내력 부족 (Intolerance of Uncertainty)",
+    "terminology_ko": "불확실성에 대한 인내력 부족",
+    "terminology_en": "Intolerance of Uncertainty",
+    "category": "ANXIETY",
+    "category_name": "불안장애 (Anxiety Disorders)",
+    "definition": "불확실한 상황이나 결과에 대해 과도하게 위협적으로 반응하는 인지적 경향으로, 범불안장애의 핵심 인지적 취약성 요인으로 규명되었다.",
+    "definition_en": "A cognitive tendency to respond excessively to uncertain situations or outcomes as threatening, identified as a core cognitive vulnerability factor for generalized anxiety disorder.",
+    "significance": "범불안장애의 만성적 걱정을 설명하는 핵심 개념으로, 걱정을 통해 불확실성을 감소시키려는 비효과적 시도로 이해된다.",
+    "key_researchers": [
+      {"name_ko": "미셸 뒤가", "name_en": "Michel Dugas", "contribution": "불확실성에 대한 인내력 부족이 GAD의 핵심 취약성임을 밝히고, 이를 표적으로 하는 치료 프로토콜을 개발했다."},
+      {"name_ko": "마크 프리스턴", "name_en": "Mark Freeston", "contribution": "불확실성에 대한 인내력 부족 척도(IUS)를 개발하여 이 구성개념의 측정을 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "ANXIETY_CBT_020"},
+      {"name_ko": "불안의 인지모형", "name_en": "Beck's Cognitive Model of Anxiety", "id": "ANXIETY_BEC_009"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "IU = '모르는 것을 못 참는' 성향 → 끊임없이 걱정으로 확인하려 함",
+      "differential": "불확실성에 대한 인내력 부족은 '불확실한 미래'에 대한 것이고, 불안 민감성은 '불안 증상 자체'에 대한 것이다.",
+      "key_point": "IU가 높은 사람은 불확실성 자체를 위협으로 인식하여, 확률이 낮은 부정적 결과도 크게 걱정한다.",
+      "common_mistake": "걱정이 불확실성을 실제로 감소시킨다고 보는 것 — 걱정은 불확실성을 줄이지 못하며 오히려 불안을 강화한다."
+    }
+  }
+]

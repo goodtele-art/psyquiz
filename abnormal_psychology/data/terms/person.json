@@ -1,0 +1,920 @@
+[
+  {
+    "id": "PERSON_GEN_001",
+    "terminology": "성격장애 일반 기준 (General Personality Disorder Criteria)",
+    "terminology_ko": "성격장애 일반 기준",
+    "terminology_en": "General Personality Disorder Criteria",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "내적 경험과 행동의 지속적 패턴이 개인이 속한 문화적 기대에서 현저히 벗어나며, 인지, 정동, 대인관계 기능, 충동 조절 중 2개 이상의 영역에서 나타나고 광범위하고 경직된 양상이다.",
+    "definition_en": "An enduring pattern of inner experience and behavior that deviates markedly from cultural expectations, manifested in two or more areas of cognition, affectivity, interpersonal functioning, and impulse control, and is pervasive and inflexible.",
+    "significance": "10개 성격장애 모두에 공통으로 적용되는 상위 진단 기준으로, 성격장애 진단의 출발점이자 핵심 개념적 틀을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀런", "name_en": "Theodore Millon", "contribution": "성격장애의 분류 체계와 이론적 모형을 정교화하여 DSM 성격장애 체계의 기초를 마련"},
+      {"name_ko": "토머스 위디거", "name_en": "Thomas Widiger", "contribution": "성격장애의 범주적 모형과 차원적 모형의 비교 연구를 통해 분류 체계 개선에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"},
+      {"name_ko": "대안적 DSM-5 모형", "name_en": "Alternative DSM-5 Model", "id": "PERSON_AMP_004"},
+      {"name_ko": "자아동조적", "name_en": "Ego-Syntonic", "id": "PERSON_EGO_032"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성격장애 4영역: 인지(Cognition), 정동(Affectivity), 대인관계(Interpersonal), 충동(Impulse) — CAII",
+      "differential": "임상 장애(Axis I)는 삽화적, 성격장애는 지속적·광범위한 패턴",
+      "key_point": "청소년기 또는 초기 성인기부터 시작되며, 시간이 지나도 안정적으로 지속됨",
+      "common_mistake": "일시적 스트레스 반응이나 발달 단계의 정상적 변화를 성격장애로 오진하는 경우"
+    }
+  },
+  {
+    "id": "PERSON_CLA_002",
+    "terminology": "A군 성격장애 (Cluster A Personality Disorders)",
+    "terminology_ko": "A군 성격장애",
+    "terminology_en": "Cluster A Personality Disorders",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "기이하고 괴상한(odd/eccentric) 행동 양상을 특징으로 하는 성격장애 군집으로, 편집성, 조현성, 조현형 성격장애가 포함되며, 조현병 스펙트럼과 유전적 관련성이 있다.",
+    "definition_en": "A cluster of personality disorders characterized by odd or eccentric behaviors, including paranoid, schizoid, and schizotypal personality disorders, with genetic links to the schizophrenia spectrum.",
+    "significance": "조현병 스펙트럼과의 유전적·현상학적 연관성을 보여주며, 정신병적 장애의 경증 표현형으로 이해할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀런", "name_en": "Theodore Millon", "contribution": "성격장애의 군집 분류 체계를 이론적으로 정교화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"},
+      {"name_ko": "편집성 성격장애", "name_en": "Paranoid Personality Disorder", "id": "PERSON_PPD_005"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCZ_001"}
+    ],
+    "sub_types": [
+      {"name": "편집성 성격장애", "description": "타인의 동기를 불신하고 의심하는 패턴"},
+      {"name": "조현성 성격장애", "description": "사회적 관계에 무관심하고 감정 표현이 제한"},
+      {"name": "조현형 성격장애", "description": "기이한 사고·행동과 대인관계 결함"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "A군 = 'Awkward'(기이한) — 편집(Paranoid), 조현(Schizoid), 조현형(Schizotypal)",
+      "differential": "B군(극적·감정적)과 C군(불안·두려움)과 달리 A군은 '기이하고 괴상한' 특성",
+      "key_point": "조현병 환자의 가족에서 A군 성격장애 유병률이 높아 유전적 관련성 시사",
+      "common_mistake": "A군 성격장애를 조현병과 동일시하는 오류 — 현실 검증력은 대체로 유지됨"
+    }
+  },
+  {
+    "id": "PERSON_CLB_003",
+    "terminology": "B군 성격장애 (Cluster B Personality Disorders)",
+    "terminology_ko": "B군 성격장애",
+    "terminology_en": "Cluster B Personality Disorders",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "극적이고 감정적이며 변덕스러운(dramatic/erratic) 행동 양상을 특징으로 하는 성격장애 군집으로, 반사회적, 경계선, 히스트리오닉, 자기애성 성격장애가 포함된다.",
+    "definition_en": "A cluster of personality disorders characterized by dramatic, emotional, and erratic behaviors, including antisocial, borderline, histrionic, and narcissistic personality disorders.",
+    "significance": "임상에서 가장 자주 접하고 가장 많은 대인관계 문제를 야기하는 군집으로, 치료적 도전이 크다.",
+    "key_researchers": [
+      {"name_ko": "오토 컨버그", "name_en": "Otto Kernberg", "contribution": "경계선 인격 구조(borderline personality organization) 개념을 정립하여 B군 장애 이해의 정신역동적 기초를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "A군 성격장애", "name_en": "Cluster A Personality Disorders", "id": "PERSON_CLA_002"},
+      {"name_ko": "C군 성격장애", "name_en": "Cluster C Personality Disorders", "id": "PERSON_CLC_018"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_009"}
+    ],
+    "sub_types": [
+      {"name": "반사회적 성격장애", "description": "타인의 권리를 무시하고 위반하는 패턴"},
+      {"name": "경계선 성격장애", "description": "불안정한 대인관계, 자기상, 정동 및 충동성"},
+      {"name": "히스트리오닉 성격장애", "description": "과도한 감정 표현과 관심 추구"},
+      {"name": "자기애성 성격장애", "description": "과대성, 찬사 욕구, 공감 부족"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "B군 = 'Bad boys and drama'(극적·감정적) — 반사회, 경계선, 히스트리오닉, 자기애",
+      "differential": "A군(기이), B군(극적·감정적), C군(불안·두려움)으로 구분",
+      "key_point": "B군은 타인에게 미치는 영향이 크고, 치료 중 역전이(countertransference) 문제가 빈번",
+      "common_mistake": "B군 성격장애 환자들의 행동을 '의도적 조작'으로만 해석하는 오류"
+    }
+  },
+  {
+    "id": "PERSON_AMP_004",
+    "terminology": "대안적 DSM-5 모형 (Alternative DSM-5 Model for Personality Disorders, AMPD)",
+    "terminology_ko": "대안적 DSM-5 모형",
+    "terminology_en": "Alternative DSM-5 Model for Personality Disorders",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "기존 범주적 성격장애 모형의 한계를 보완하기 위해 DSM-5 섹션 III에 포함된 차원적 모형으로, 성격 기능 수준(기준 A)과 병리적 성격 특성(기준 B, 5개 영역)을 평가한다.",
+    "definition_en": "A dimensional model included in DSM-5 Section III to complement limitations of the categorical model, assessing level of personality functioning (Criterion A) and pathological personality traits (Criterion B, 5 domains).",
+    "significance": "범주적 분류의 한계(동일 진단 내 이질성, 진단 간 높은 동반이환)를 극복하기 위한 차원적 접근의 대표적 시도이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 크루거", "name_en": "Robert Krueger", "contribution": "성격 병리의 차원적 모형과 5개 특성 영역(부정적 정동성 등)을 체계화"},
+      {"name_ko": "토머스 위디거", "name_en": "Thomas Widiger", "contribution": "FFM(5요인 모형)과 성격장애의 관계를 연구하여 차원적 분류의 이론적 근거 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "성격장애 일반 기준", "name_en": "General Personality Disorder Criteria", "id": "PERSON_GEN_001"},
+      {"name_ko": "성격 특성 차원", "name_en": "Personality Trait Dimensions", "id": "PERSON_PTD_025"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "ASSESS_DSM_001"}
+    ],
+    "sub_types": [
+      {"name": "기준 A: 성격 기능 수준", "description": "자기(정체성, 자기지향성)와 대인관계(공감, 친밀감)의 손상 정도"},
+      {"name": "기준 B: 병리적 성격 특성", "description": "부정적 정동성, 이탈성, 적대성, 탈억제, 정신병질의 5영역"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "AMPD의 기준 A(기능 수준) + 기준 B(특성 5영역: 부정적정동, 이탈, 적대, 탈억제, 정신병질)",
+      "differential": "기존 모형(범주적: 있다/없다)과 달리 AMPD(차원적: 정도의 차이)로 평가",
+      "key_point": "DSM-5 섹션 III에 '추가 연구 필요'로 포함되어 있으며, ICD-11은 이미 차원적 모형 채택",
+      "common_mistake": "AMPD가 이미 DSM-5의 공식 진단 체계를 대체했다고 오해 — 아직 '대안 모형' 수준"
+    }
+  },
+  {
+    "id": "PERSON_PPD_005",
+    "terminology": "편집성 성격장애 (Paranoid Personality Disorder)",
+    "terminology_ko": "편집성 성격장애",
+    "terminology_en": "Paranoid Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "타인의 동기를 악의적인 것으로 해석하는 광범위한 불신과 의심의 패턴으로, 배우자의 부정 의심, 원한 지속, 충성심 의심, 숨겨진 의미 읽기 등이 특징적이다.",
+    "definition_en": "A pervasive pattern of distrust and suspiciousness interpreting others' motives as malevolent, characterized by suspicion of spousal infidelity, grudge-holding, questioning loyalty, and reading hidden meanings.",
+    "significance": "대인관계에서의 불신이 자기충족적 예언으로 작용하여 고립을 심화시키는 악순환 기제를 보여준다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀런", "name_en": "Theodore Millon", "contribution": "편집성 성격의 능동적-독립적 대처 스타일을 이론화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "A군 성격장애", "name_en": "Cluster A Personality Disorders", "id": "PERSON_CLA_002"},
+      {"name_ko": "피해망상", "name_en": "Persecutory Delusion", "id": "SCHIZO_PDL_012"},
+      {"name_ko": "조현형 성격장애", "name_en": "Schizotypal Personality Disorder", "id": "PERSON_STP_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편집성 = '편집증(paranoia)' 수준의 의심, 그러나 망상 수준은 아님",
+      "differential": "망상장애(피해형)는 체계적 망상, 편집성 성격장애는 광범위한 불신·의심 패턴",
+      "key_point": "타인의 충성심을 끊임없이 시험하고, 배신의 증거를 찾으며, 원한을 오래 지속함",
+      "common_mistake": "조현병의 피해망상과 혼동 — 편집성 성격장애는 현실 검증력이 유지됨"
+    }
+  },
+  {
+    "id": "PERSON_SZD_006",
+    "terminology": "조현성 성격장애 (Schizoid Personality Disorder)",
+    "terminology_ko": "조현성 성격장애",
+    "terminology_en": "Schizoid Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "사회적 관계에 대한 욕구가 전반적으로 결여되어 있으며, 감정 표현의 범위가 제한되고, 친밀한 관계를 원하지 않고 혼자 하는 활동을 선호하는 지속적 패턴이다.",
+    "definition_en": "A pervasive pattern of detachment from social relationships with a restricted range of emotional expression, preferring solitary activities and lacking desire for close relationships.",
+    "significance": "사회적 무관심과 감정적 냉담의 극단적 형태를 보여주며, 내향성의 병리적 수준을 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "로널드 페어베언", "name_en": "Ronald Fairbairn", "contribution": "조현성(schizoid) 성격 구조를 대상관계 이론적 관점에서 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "A군 성격장애", "name_en": "Cluster A Personality Disorders", "id": "PERSON_CLA_002"},
+      {"name_ko": "조현형 성격장애", "name_en": "Schizotypal Personality Disorder", "id": "PERSON_STP_007"},
+      {"name_ko": "회피성 성격장애", "name_en": "Avoidant Personality Disorder", "id": "PERSON_AVD_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조현'성' = 관계 '무관심' — 사회적 관계를 원하지 않음",
+      "differential": "회피성은 관계를 '원하지만 두려워함', 조현성은 관계를 '원하지 않음'",
+      "key_point": "감정적 냉담과 사회적 무관심이 핵심이며, 칭찬이나 비판에도 무관심",
+      "common_mistake": "회피성 성격장애와 혼동 — 핵심 차이는 관계에 대한 '욕구' 유무"
+    }
+  },
+  {
+    "id": "PERSON_STP_007",
+    "terminology": "조현형 성격장애 (Schizotypal Personality Disorder)",
+    "terminology_ko": "조현형 성격장애",
+    "terminology_en": "Schizotypal Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "기이한 사고(마술적 사고, 관계사고), 지각 왜곡, 괴상한 행동과 외모, 그리고 심한 사회적 불편감과 대인관계 결함을 특징으로 하는 성격장애로, 조현병 스펙트럼에 포함된다.",
+    "definition_en": "A personality disorder characterized by odd thinking (magical thinking, ideas of reference), perceptual distortions, eccentric behavior and appearance, and severe social discomfort with interpersonal deficits, included in the schizophrenia spectrum.",
+    "significance": "조현병 스펙트럼의 경증 표현형으로, 조현병의 유전적 기반과 정신병 발병 위험을 연구하는 데 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "래리 시버", "name_en": "Larry Siever", "contribution": "조현형 성격장애를 조현병 스펙트럼 장애의 일부로 위치시키는 실증적 연구를 수행"},
+      {"name_ko": "폴 메엘", "name_en": "Paul Meehl", "contribution": "조현형(schizotypy) 개념을 제안하고 조현병 취약성의 연속체적 관점을 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "A군 성격장애", "name_en": "Cluster A Personality Disorders", "id": "PERSON_CLA_002"},
+      {"name_ko": "조현성 성격장애", "name_en": "Schizoid Personality Disorder", "id": "PERSON_SZD_006"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "SCHIZO_SCZ_001"},
+      {"name_ko": "관계망상", "name_en": "Delusion of Reference", "id": "SCHIZO_RDL_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조현'형' = 조현병의 '형태(type)'를 닮은 성격 — 기이한 사고+행동+외모",
+      "differential": "조현성은 사회적 무관심만, 조현형은 인지·지각 왜곡까지 동반",
+      "key_point": "ICD-11에서는 성격장애가 아닌 조현병 스펙트럼 장애로 분류",
+      "common_mistake": "조현성(schizoid)과 조현형(schizotypal)을 혼동 — 조현형만 인지/지각 왜곡이 있음"
+    }
+  },
+  {
+    "id": "PERSON_SPY_008",
+    "terminology": "사이코패시 (Psychopathy)",
+    "terminology_ko": "사이코패시",
+    "terminology_en": "Psychopathy",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "대인관계에서의 교활함, 과대한 자기가치감, 병리적 거짓말, 감정적 냉담, 공감과 죄책감의 결여, 충동적·무책임한 생활방식을 특징으로 하는 성격 구성개념으로, DSM 공식 진단은 아니다.",
+    "definition_en": "A personality construct characterized by interpersonal manipulation, grandiose self-worth, pathological lying, emotional callousness, deficient empathy and guilt, and impulsive/irresponsible lifestyle, not an official DSM diagnosis.",
+    "significance": "범죄심리학과 법정심리학의 핵심 개념으로, 폭력 재범 위험 평가에 가장 강력한 예측인자 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 헤어", "name_en": "Robert Hare", "contribution": "사이코패시 체크리스트(PCL-R)를 개발하여 사이코패시 평가의 표준 도구로 확립"},
+      {"name_ko": "허비 클레클리", "name_en": "Hervey Cleckley", "contribution": "'정신적 건강의 가면(The Mask of Sanity)'에서 사이코패시의 16가지 핵심 특성을 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_009"},
+      {"name_ko": "PCL-R", "name_en": "PCL-R", "id": "PERSON_PCL_015"},
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"}
+    ],
+    "sub_types": [
+      {"name": "1요인(대인관계/정동)", "description": "교활함, 과대성, 냉담, 공감 부족"},
+      {"name": "2요인(생활방식/반사회적)", "description": "충동성, 무책임, 행동 문제, 반사회적 행위"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "사이코패시 = 공감 없이 조작하는 사람, PCL-R로 측정",
+      "differential": "반사회적 성격장애(APD)는 행동 기준 중심, 사이코패시는 성격 특성 중심",
+      "key_point": "APD 진단 받은 사람 중 일부만 사이코패시 기준 충족, 사이코패시가 더 좁은 개념",
+      "common_mistake": "반사회적 성격장애와 사이코패시를 동일시하는 오류 — APD는 더 넓은 범주"
+    }
+  },
+  {
+    "id": "PERSON_APD_009",
+    "terminology": "반사회적 성격장애 (Antisocial Personality Disorder)",
+    "terminology_ko": "반사회적 성격장애",
+    "terminology_en": "Antisocial Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "타인의 권리를 무시하고 침해하는 광범위한 패턴으로, 법규 위반, 속임수, 충동성, 공격성, 무책임함, 양심의 가책 결여가 특징이며, 15세 이전 품행장애의 증거가 필수적이다.",
+    "definition_en": "A pervasive pattern of disregard for and violation of the rights of others, featuring law-breaking, deceitfulness, impulsivity, aggressiveness, irresponsibility, and lack of remorse, requiring evidence of conduct disorder before age 15.",
+    "significance": "법의학적 맥락에서 가장 중요한 성격장애로, 범죄 재발과 치료 저항성과 관련이 깊다.",
+    "key_researchers": [
+      {"name_ko": "리 로빈스", "name_en": "Lee Robins", "contribution": "아동기 품행장애가 성인기 반사회적 성격장애로 이어지는 발달 경로를 종단연구로 입증"},
+      {"name_ko": "로버트 헤어", "name_en": "Robert Hare", "contribution": "반사회적 성격장애와 사이코패시의 관계를 규명하고 감별 기준을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"},
+      {"name_ko": "사이코패시", "name_en": "Psychopathy", "id": "PERSON_SPY_008"},
+      {"name_ko": "PCL-R", "name_en": "PCL-R", "id": "PERSON_PCL_015"},
+      {"name_ko": "물질사용장애", "name_en": "Substance Use Disorder", "id": "SUBST_SUD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "APD 진단 조건: 18세 이상 + 15세 이전 품행장애 증거 필수",
+      "differential": "사이코패시는 성격 특성(공감 부족, 냉담) 중심, APD는 행동(법규 위반, 공격성) 중심",
+      "key_point": "18세 이상이어야 진단 가능하며, 15세 이전 품행장애 병력이 반드시 있어야 함",
+      "common_mistake": "연쇄살인범=반사회적 성격장애라는 도식적 이해 — 대부분은 범죄자가 아님"
+    }
+  },
+  {
+    "id": "PERSON_BPD_010",
+    "terminology": "경계선 성격장애 (Borderline Personality Disorder)",
+    "terminology_ko": "경계선 성격장애",
+    "terminology_en": "Borderline Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "대인관계, 자기상, 정동의 불안정성과 현저한 충동성이 광범위하게 나타나는 패턴으로, 유기불안, 반복적 자해, 만성적 공허감, 부적절한 분노, 일시적 해리 증상이 특징적이다.",
+    "definition_en": "A pervasive pattern of instability in interpersonal relationships, self-image, and affect with marked impulsivity, featuring abandonment fears, recurrent self-harm, chronic emptiness, inappropriate anger, and transient dissociative symptoms.",
+    "significance": "성격장애 중 가장 많이 연구되고 근거기반 치료(DBT, MBT 등)가 개발된 장애로, 자해·자살 위험이 높아 임상적으로 매우 중요하다.",
+    "key_researchers": [
+      {"name_ko": "오토 컨버그", "name_en": "Otto Kernberg", "contribution": "경계선 인격 구조(borderline personality organization) 개념과 전이초점치료(TFP) 개발"},
+      {"name_ko": "마샤 리네한", "name_en": "Marsha Linehan", "contribution": "변증법적 행동치료(DBT)를 개발하여 경계선 성격장애의 근거기반 치료를 확립"},
+      {"name_ko": "존 건더슨", "name_en": "John Gunderson", "contribution": "경계선 성격장애의 진단 기준과 임상적 특성을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"},
+      {"name_ko": "변증법적 행동치료", "name_en": "Dialectical Behavior Therapy", "id": "PERSON_DBT_022"},
+      {"name_ko": "자살", "name_en": "Suicide", "id": "MOOD_SUI_006"},
+      {"name_ko": "해리성 정체감 장애", "name_en": "Dissociative Identity Disorder", "id": "SOMDIS_DID_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BPD 9기준 키워드: 유기불안, 불안정한관계, 정체감장해, 충동성, 자해, 정동불안정, 공허감, 분노, 해리",
+      "differential": "양극성장애의 기분변동은 일~주 단위, BPD의 정동불안정은 시간~일 단위로 빠르게 변화",
+      "key_point": "자살시도율 약 75%, 자살사망률 약 10%로 자살 위험이 매우 높은 장애",
+      "common_mistake": "BPD의 감정 변화를 양극성장애와 혼동 — BPD는 대인관계 맥락에서 급변, 양극성은 자발적 순환"
+    }
+  },
+  {
+    "id": "PERSON_HPD_011",
+    "terminology": "히스트리오닉 성격장애 (Histrionic Personality Disorder)",
+    "terminology_ko": "히스트리오닉 성격장애",
+    "terminology_en": "Histrionic Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "과도한 감정 표현과 주의를 끌려는 광범위한 패턴으로, 자신이 관심의 중심이 되지 못하면 불편해하며, 피상적이고 빠르게 변하는 감정, 유혹적 행동, 인상주의적 언어가 특징적이다.",
+    "definition_en": "A pervasive pattern of excessive emotionality and attention-seeking, featuring discomfort when not the center of attention, superficial and rapidly shifting emotions, seductive behavior, and impressionistic speech.",
+    "significance": "과도한 감정표현과 관계의 피상성이 대인관계 문제를 야기하며, 신체화 증상과의 관련성이 역사적으로 중요하다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀런", "name_en": "Theodore Millon", "contribution": "히스트리오닉 성격의 능동적-의존적 패턴을 이론적으로 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"},
+      {"name_ko": "자기애성 성격장애", "name_en": "Narcissistic Personality Disorder", "id": "PERSON_NPD_012"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "히스트리오닉 = '무대 위의 배우' — 항상 관심의 중심에 서고 싶어함",
+      "differential": "자기애성은 '찬사·존경' 욕구, 히스트리오닉은 '관심·주목' 욕구가 핵심",
+      "key_point": "감정이 진정성 있어 보이지만 실제로는 피상적이고 빠르게 변화함",
+      "common_mistake": "히스트리오닉 성격장애를 외향적 성격의 극단으로만 보는 오류 — 기능 손상이 핵심"
+    }
+  },
+  {
+    "id": "PERSON_NPD_012",
+    "terminology": "자기애성 성격장애 (Narcissistic Personality Disorder)",
+    "terminology_ko": "자기애성 성격장애",
+    "terminology_en": "Narcissistic Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "과대성(공상 또는 행동), 찬사에 대한 욕구, 공감의 결여가 광범위하게 나타나는 패턴으로, 특별한 대우 기대, 대인관계 착취, 특권의식, 질투가 특징적이다.",
+    "definition_en": "A pervasive pattern of grandiosity (in fantasy or behavior), need for admiration, and lack of empathy, featuring expectations of special treatment, interpersonal exploitation, entitlement, and envy.",
+    "significance": "과대적 자기(grandiose self)와 취약한 자기(vulnerable self)의 이중 구조를 통해 자기(self) 심리학의 핵심 개념을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "하인즈 코헛", "name_en": "Heinz Kohut", "contribution": "자기심리학(self psychology)을 창시하여 자기애적 성격의 발달과 치료에 대한 이해를 혁신"},
+      {"name_ko": "오토 컨버그", "name_en": "Otto Kernberg", "contribution": "자기애적 성격의 대상관계 이론적 이해와 전이초점치료(TFP)를 통한 치료 접근 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"},
+      {"name_ko": "자기애적 취약성/과대성", "name_en": "Narcissistic Vulnerability/Grandiosity", "id": "PERSON_NVG_013"},
+      {"name_ko": "히스트리오닉 성격장애", "name_en": "Histrionic Personality Disorder", "id": "PERSON_HPD_011"},
+      {"name_ko": "과대망상", "name_en": "Grandiose Delusion", "id": "SCHIZO_GDL_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "나르시시즘의 3요소: 과대성(Grandiosity), 찬사욕구(Admiration need), 공감결여(Empathy deficit) — GAE",
+      "differential": "과대망상(조현병)은 현실과 괴리된 확고한 믿음, 자기애성은 과장된 자기평가 수준",
+      "key_point": "DSM의 과대적(overt) 자기애만 기술하나, 취약적(covert) 자기애도 임상적으로 중요",
+      "common_mistake": "자기애성 성격장애를 단순히 '자만심이 강한 사람'으로 이해하는 것"
+    }
+  },
+  {
+    "id": "PERSON_NVG_013",
+    "terminology": "자기애적 취약성/과대성 (Narcissistic Vulnerability/Grandiosity)",
+    "terminology_ko": "자기애적 취약성/과대성",
+    "terminology_en": "Narcissistic Vulnerability/Grandiosity",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "자기애의 두 가지 핵심 차원으로, 과대적 자기애(grandiose narcissism)는 자신감·착취적 태도가 두드러지고, 취약적 자기애(vulnerable narcissism)는 수치심·과민성·방어적 태도가 두드러진다.",
+    "definition_en": "Two core dimensions of narcissism: grandiose narcissism features confidence and exploitativeness, while vulnerable narcissism features shame, hypersensitivity, and defensiveness.",
+    "significance": "DSM의 단일한 자기애 모형을 넘어 자기애의 이질성을 보여주며, 임상적 다양성과 치료 접근의 차별화를 위한 중요한 구분이다.",
+    "key_researchers": [
+      {"name_ko": "아론 핀커스", "name_en": "Aaron Pincus", "contribution": "과대적-취약적 자기애의 이중 구조를 실증적으로 연구하고 병리적 자기애 척도(PNI) 개발"},
+      {"name_ko": "하인즈 코헛", "name_en": "Heinz Kohut", "contribution": "자기애적 취약성의 발달적 기원(자기대상 실패)을 이론화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자기애성 성격장애", "name_en": "Narcissistic Personality Disorder", "id": "PERSON_NPD_012"},
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"}
+    ],
+    "sub_types": [
+      {"name": "과대적 자기애(Grandiose)", "description": "착취적, 자신감, 주의 추구, 특권의식이 두드러짐"},
+      {"name": "취약적 자기애(Vulnerable)", "description": "수치심, 과민성, 회피, 방어적 과대성이 두드러짐"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "과대적 = '겉으로 강한' 자기애, 취약적 = '속으로 약한' 자기애",
+      "differential": "과대적 자기애는 외현적(overt), 취약적 자기애는 내현적(covert)으로도 불림",
+      "key_point": "같은 사람이 상황에 따라 과대적↔취약적 상태를 오가는 진동(oscillation)이 가능",
+      "common_mistake": "DSM이 과대적 특성만 기술하므로 취약적 자기애가 존재하지 않는다고 오해"
+    }
+  },
+  {
+    "id": "PERSON_EMU_014",
+    "terminology": "불안정한 대인관계 (Unstable Interpersonal Relationships)",
+    "terminology_ko": "불안정한 대인관계",
+    "terminology_en": "Unstable Interpersonal Relationships",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "이상화(idealization)와 평가절하(devaluation) 사이를 극단적으로 오가는 불안정한 대인관계 패턴으로, 경계선 성격장애의 핵심 특징이며 분열(splitting) 방어기제와 관련된다.",
+    "definition_en": "An unstable interpersonal pattern marked by extreme oscillation between idealization and devaluation, a core feature of borderline personality disorder related to the splitting defense mechanism.",
+    "significance": "이상화-평가절하의 극단적 전환은 치료 관계에서도 나타나며, 치료자의 역전이 관리에 핵심적 과제가 된다.",
+    "key_researchers": [
+      {"name_ko": "오토 컨버그", "name_en": "Otto Kernberg", "contribution": "분열(splitting)을 경계선 인격 구조의 핵심 방어기제로 규정하고 대인관계 불안정성을 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "변증법적 행동치료", "name_en": "Dialectical Behavior Therapy", "id": "PERSON_DBT_022"},
+      {"name_ko": "스키마 치료", "name_en": "Schema Therapy", "id": "PERSON_SCT_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이상화↔평가절하 = '완벽한 사람'↔'최악의 사람', 중간이 없음",
+      "differential": "의존성 성격장애의 관계 불안정은 '매달림', 경계선은 '이상화-평가절하 진동'",
+      "key_point": "분열(splitting) 방어기제가 근본 기제 — 대상을 전적으로 좋거나 전적으로 나쁘게 봄",
+      "common_mistake": "단순한 '관계 갈등'과 혼동 — 경계선의 불안정성은 극단적이고 빠른 전환이 특징"
+    }
+  },
+  {
+    "id": "PERSON_PCL_015",
+    "terminology": "PCL-R (사이코패시 체크리스트 수정판)",
+    "terminology_ko": "PCL-R",
+    "terminology_en": "Psychopathy Checklist-Revised",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "반구조화 면접과 기록 검토를 통해 사이코패시를 평가하는 20항목 임상 평가 도구로, 각 항목을 0~2점으로 평정하며, 총점 30점(40점 만점) 이상을 사이코패시 기준으로 사용한다.",
+    "definition_en": "A 20-item clinical rating instrument assessing psychopathy through semi-structured interview and file review, with each item rated 0-2 and a total score of 30 (out of 40) used as the psychopathy threshold.",
+    "significance": "사이코패시 연구와 법의학적 위험 평가의 골드 스탠다드 도구로, 폭력 재범 예측에 가장 높은 타당도를 보인다.",
+    "key_researchers": [
+      {"name_ko": "로버트 헤어", "name_en": "Robert Hare", "contribution": "PCL 및 PCL-R을 개발하여 사이코패시 측정의 표준 도구를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사이코패시", "name_en": "Psychopathy", "id": "PERSON_SPY_008"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_009"},
+      {"name_ko": "심리검사", "name_en": "Psychological Testing", "id": "ASSESS_PST_005"}
+    ],
+    "sub_types": [
+      {"name": "요인 1: 대인관계/정동", "description": "교활함, 과대한 자기가치감, 피상적 매력, 공감 결여"},
+      {"name": "요인 2: 생활방식/반사회적", "description": "충동성, 무책임, 기생적 생활, 초기 행동 문제"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PCL-R = Psychopathy Checklist-Revised, 20항목, 0~2점, 총 40점 만점",
+      "differential": "MMPI 같은 자기보고식과 달리 PCL-R은 면접+기록검토 기반 임상가 평정 도구",
+      "key_point": "미국 기준 30점(유럽은 25점)이 사이코패시 절단점으로 사용됨",
+      "common_mistake": "자기보고식 검사로 오해 — PCL-R은 반드시 훈련된 전문가의 면접 평정 필요"
+    }
+  },
+  {
+    "id": "PERSON_IMP_016",
+    "terminology": "충동성 (Impulsivity)",
+    "terminology_ko": "충동성",
+    "terminology_en": "Impulsivity",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "행동의 결과를 충분히 고려하지 않고 즉각적으로 행동하는 경향으로, 경계선 성격장애에서 자해, 물질 남용, 과식, 무모한 운전, 충동 소비 등 다양한 형태로 나타난다.",
+    "definition_en": "A tendency to act immediately without adequate consideration of consequences, manifesting in borderline personality disorder as self-harm, substance abuse, binge eating, reckless driving, and impulsive spending.",
+    "significance": "경계선 성격장애와 반사회적 성격장애를 관통하는 범진단적 특성으로, 세로토닌 기능 저하와 전두엽 억제 기능 결함과 관련된다.",
+    "key_researchers": [
+      {"name_ko": "어니스트 바렛", "name_en": "Ernest Barratt", "contribution": "충동성의 다차원적 구조를 제안하고 바렛 충동성 척도(BIS)를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "반사회적 성격장애", "name_en": "Antisocial Personality Disorder", "id": "PERSON_APD_009"},
+      {"name_ko": "간헐적 폭발장애", "name_en": "Intermittent Explosive Disorder", "id": "SEXUAL_IED_003"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "NEURO_ADH_001"}
+    ],
+    "sub_types": [
+      {"name": "운동 충동성", "description": "생각 없이 행동하는 경향"},
+      {"name": "주의 충동성", "description": "인지적 불안정성과 주의 집중 곤란"},
+      {"name": "비계획 충동성", "description": "미래를 계획하지 못하는 경향"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "충동성 = '먼저 행동, 나중에 생각' (Act first, think later)",
+      "differential": "조증의 충동성은 기분 고양과 동반, 성격장애의 충동성은 기분과 독립적으로 지속",
+      "key_point": "세로토닌 기능 저하 및 전전두엽 억제 기능 결함과 관련된 생물학적 기반이 있음",
+      "common_mistake": "충동성을 단순히 '성격'의 문제로만 보는 것 — 신경생물학적 기반이 있는 특성"
+    }
+  },
+  {
+    "id": "PERSON_SHR_017",
+    "terminology": "자해 행동 (Self-Harm Behavior)",
+    "terminology_ko": "자해 행동",
+    "terminology_en": "Self-Harm Behavior",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "자살 의도 없이 고의적으로 자신의 신체에 손상을 입히는 행동으로, 손목 긋기, 화상, 타박 등이 포함되며, 경계선 성격장애에서 감정 조절의 수단으로 자주 나타난다.",
+    "definition_en": "Deliberate self-inflicted bodily damage without suicidal intent, including cutting, burning, and bruising, frequently occurring in borderline personality disorder as a means of emotional regulation.",
+    "significance": "비자살적 자해(NSSI)는 감정 조절의 부적응적 전략으로 이해되며, 자살 위험의 예측인자이기도 하다.",
+    "key_researchers": [
+      {"name_ko": "매슈 녹", "name_en": "Matthew Nock", "contribution": "비자살적 자해(NSSI)의 기능적 모형(자동강화, 사회강화)을 체계화"},
+      {"name_ko": "마샤 리네한", "name_en": "Marsha Linehan", "contribution": "자해를 감정 조절 부전의 표현으로 개념화하고 DBT를 통한 치료 접근 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "자살", "name_en": "Suicide", "id": "MOOD_SUI_006"},
+      {"name_ko": "변증법적 행동치료", "name_en": "Dialectical Behavior Therapy", "id": "PERSON_DBT_022"}
+    ],
+    "sub_types": [
+      {"name": "자동강화(intrapersonal)", "description": "불쾌한 감정을 감소시키기 위한 자해"},
+      {"name": "사회강화(interpersonal)", "description": "타인의 관심·도움을 얻기 위한 자해"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "NSSI(Non-Suicidal Self-Injury) = 자살 의도 '없는' 자기 손상",
+      "differential": "자살시도는 죽으려는 의도, NSSI는 감정 조절·고통 경감이 목적",
+      "key_point": "단기적으로 부정적 감정을 감소시키는 기능(부적 강화)이 있어 반복됨",
+      "common_mistake": "모든 자해를 자살시도로 간주하거나, 반대로 '관심 끌기'로 경시하는 오류"
+    }
+  },
+  {
+    "id": "PERSON_CLC_018",
+    "terminology": "C군 성격장애 (Cluster C Personality Disorders)",
+    "terminology_ko": "C군 성격장애",
+    "terminology_en": "Cluster C Personality Disorders",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "불안하고 두려운(anxious/fearful) 행동 양상을 특징으로 하는 성격장애 군집으로, 회피성, 의존성, 강박성 성격장애가 포함되며, 불안장애와의 동반이환율이 높다.",
+    "definition_en": "A cluster of personality disorders characterized by anxious or fearful behaviors, including avoidant, dependent, and obsessive-compulsive personality disorders, with high comorbidity rates with anxiety disorders.",
+    "significance": "불안이 핵심 정서로 작용하며, 불안장애와의 경계가 모호하여 범주적 분류의 한계를 보여준다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀런", "name_en": "Theodore Millon", "contribution": "C군 성격장애의 회피적·순응적·강박적 대처 스타일을 이론적으로 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "A군 성격장애", "name_en": "Cluster A Personality Disorders", "id": "PERSON_CLA_002"},
+      {"name_ko": "B군 성격장애", "name_en": "Cluster B Personality Disorders", "id": "PERSON_CLB_003"},
+      {"name_ko": "회피성 성격장애", "name_en": "Avoidant Personality Disorder", "id": "PERSON_AVD_019"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ANXIETY_GAD_001"}
+    ],
+    "sub_types": [
+      {"name": "회피성 성격장애", "description": "사회적 억제, 부적절감, 부정적 평가에 대한 과민"},
+      {"name": "의존성 성격장애", "description": "돌봄 받으려는 과도한 욕구에서 비롯된 복종적 행동"},
+      {"name": "강박성 성격장애", "description": "질서, 완벽주의, 통제에 대한 과도한 집착"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "C군 = 'Cowardly'(두려운) — 회피(Avoidant), 의존(Dependent), 강박(Obsessive-Compulsive)",
+      "differential": "A군(기이), B군(극적), C군(불안·두려움)으로 구분",
+      "key_point": "C군은 불안장애와 가장 많이 동반이환되며, 특히 회피성-사회불안장애 관계가 밀접",
+      "common_mistake": "C군 성격장애를 단순한 불안장애로 오해 — 성격의 지속적 패턴이라는 점이 다름"
+    }
+  },
+  {
+    "id": "PERSON_AVD_019",
+    "terminology": "회피성 성격장애 (Avoidant Personality Disorder)",
+    "terminology_ko": "회피성 성격장애",
+    "terminology_en": "Avoidant Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "사회적 억제, 부적절감, 부정적 평가에 대한 과민성의 광범위한 패턴으로, 거부당할 확신이 없으면 관계를 맺지 않으려 하며, 비판이나 수치에 대한 두려움으로 새로운 활동을 회피한다.",
+    "definition_en": "A pervasive pattern of social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation, avoiding relationships unless certain of acceptance and shunning new activities due to fear of criticism or shame.",
+    "significance": "사회불안장애와의 연속선 상에 위치한다는 논쟁이 있으며, 성격장애와 임상 장애의 경계를 연구하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀런", "name_en": "Theodore Millon", "contribution": "회피성 성격장애를 1969년 최초로 기술하고 DSM-III 편입에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "C군 성격장애", "name_en": "Cluster C Personality Disorders", "id": "PERSON_CLC_018"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ANXIETY_SAD_003"},
+      {"name_ko": "조현성 성격장애", "name_en": "Schizoid Personality Disorder", "id": "PERSON_SZD_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "회피성 = 관계를 '원하지만 두려워서 피하는' 성격",
+      "differential": "조현성은 관계를 '원하지 않음', 회피성은 관계를 '원하지만 두려워함'",
+      "key_point": "사회불안장애의 심한 형태인지 별개 장애인지 논쟁이 지속 중",
+      "common_mistake": "사회불안장애와 완전히 동일시하는 오류 — 회피성은 자기상(부적절감)이 더 핵심"
+    }
+  },
+  {
+    "id": "PERSON_DPD_020",
+    "terminology": "의존성 성격장애 (Dependent Personality Disorder)",
+    "terminology_ko": "의존성 성격장애",
+    "terminology_en": "Dependent Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "돌봄을 받으려는 과도한 욕구에서 비롯되는 복종적이고 매달리는 행동의 광범위한 패턴으로, 의사결정을 타인에게 위임하고, 불일치 표현을 못하며, 분리불안이 현저하다.",
+    "definition_en": "A pervasive pattern of submissive and clinging behavior stemming from an excessive need to be taken care of, featuring delegation of decisions, inability to express disagreement, and marked separation anxiety.",
+    "significance": "건강하지 않은 대인관계 의존의 극단적 형태를 보여주며, 학대적 관계에서 벗어나지 못하는 기제를 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "로버트 보넬리", "name_en": "Robert Bornstein", "contribution": "의존성 성격의 인지·동기적 구성요소를 연구하고 건강한 의존과 병리적 의존의 구분을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "C군 성격장애", "name_en": "Cluster C Personality Disorders", "id": "PERSON_CLC_018"},
+      {"name_ko": "회피성 성격장애", "name_en": "Avoidant Personality Disorder", "id": "PERSON_AVD_019"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "의존성 = '혼자서는 아무것도 못 하는' 느낌, 타인에게 매달림",
+      "differential": "경계선의 유기불안은 분노·자해와 함께, 의존성의 분리불안은 복종·순응과 함께 나타남",
+      "key_point": "관계가 끝나면 즉시 다른 보호자적 관계를 찾는 것이 특징적",
+      "common_mistake": "의존적 성격을 문화적 요인(집단주의 문화)과 구분하지 못하는 오류"
+    }
+  },
+  {
+    "id": "PERSON_OCP_021",
+    "terminology": "강박성 성격장애 (Obsessive-Compulsive Personality Disorder)",
+    "terminology_ko": "강박성 성격장애",
+    "terminology_en": "Obsessive-Compulsive Personality Disorder",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "질서, 완벽주의, 정신적·대인관계적 통제에 대한 과도한 집착의 광범위한 패턴으로, 유연성·개방성·효율성이 희생되며, 세부사항에 몰두하고 과업 완성에 어려움을 겪는다.",
+    "definition_en": "A pervasive pattern of preoccupation with orderliness, perfectionism, and mental/interpersonal control at the expense of flexibility, openness, and efficiency, with excessive focus on details and difficulty completing tasks.",
+    "significance": "완벽주의의 병리적 형태를 보여주며, 직업 기능은 유지되지만 대인관계와 삶의 질이 심각하게 저하되는 역설을 나타낸다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀런", "name_en": "Theodore Millon", "contribution": "강박성 성격의 순응적-통제적 대처 스타일을 이론적으로 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "C군 성격장애", "name_en": "Cluster C Personality Disorders", "id": "PERSON_CLC_018"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"},
+      {"name_ko": "회피성 성격장애", "name_en": "Avoidant Personality Disorder", "id": "PERSON_AVD_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "OCPD vs OCD: OCPD는 '성격', OCD는 '불안장애' — 전혀 다른 장애",
+      "differential": "OCD는 침투적 강박사고+의례행동(자아이질적), OCPD는 완벽주의+통제(자아동조적)",
+      "key_point": "OCPD는 자기 성격이 문제라고 인식하지 못하는 자아동조적(ego-syntonic) 특성",
+      "common_mistake": "강박성 성격장애(OCPD)와 강박장애(OCD)를 같은 것으로 혼동하는 오류"
+    }
+  },
+  {
+    "id": "PERSON_DBT_022",
+    "terminology": "변증법적 행동치료 (Dialectical Behavior Therapy, DBT)",
+    "terminology_ko": "변증법적 행동치료",
+    "terminology_en": "Dialectical Behavior Therapy",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "경계선 성격장애를 위해 개발된 근거기반 심리치료로, 수용(acceptance)과 변화(change)의 변증법적 균형을 핵심으로 하며, 마음챙김, 감정조절, 대인관계 효율성, 고통감내의 4가지 기술 모듈을 포함한다.",
+    "definition_en": "An evidence-based psychotherapy developed for borderline personality disorder, centered on the dialectical balance of acceptance and change, incorporating four skill modules: mindfulness, emotion regulation, interpersonal effectiveness, and distress tolerance.",
+    "significance": "경계선 성격장애에 대한 최초의 근거기반 치료로, 자해·자살시도 감소에 강력한 효과가 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "마샤 리네한", "name_en": "Marsha Linehan", "contribution": "변증법적 행동치료(DBT)를 개발하고 경계선 성격장애 치료의 효과를 RCT로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "자해 행동", "name_en": "Self-Harm Behavior", "id": "PERSON_SHR_017"},
+      {"name_ko": "스키마 치료", "name_en": "Schema Therapy", "id": "PERSON_SCT_023"},
+      {"name_ko": "멘탈라이제이션 기반 치료", "name_en": "Mentalization-Based Treatment", "id": "PERSON_MBT_024"}
+    ],
+    "sub_types": [
+      {"name": "마음챙김(Mindfulness)", "description": "현재 순간에 비판단적으로 주의를 기울이는 기술"},
+      {"name": "감정조절(Emotion Regulation)", "description": "감정을 인식하고 적응적으로 조절하는 기술"},
+      {"name": "대인관계 효율성(Interpersonal Effectiveness)", "description": "관계에서 자기주장하고 존중받는 기술"},
+      {"name": "고통감내(Distress Tolerance)", "description": "위기 순간에 행동하지 않고 버티는 기술"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "DBT의 4모듈: 마(마음챙김)+감(감정조절)+대(대인관계)+고(고통감내)",
+      "differential": "CBT는 인지 재구조화 중심, DBT는 수용(acceptance)과 변화의 균형이 핵심",
+      "key_point": "개인치료 + 집단기술훈련 + 전화코칭 + 치료자 자문팀의 4가지 요소로 구성",
+      "common_mistake": "DBT를 단순히 CBT의 변형으로 오해 — 변증법적 철학과 수용 강조가 핵심 차이"
+    }
+  },
+  {
+    "id": "PERSON_SCT_023",
+    "terminology": "스키마 치료 (Schema Therapy)",
+    "terminology_ko": "스키마 치료",
+    "terminology_en": "Schema Therapy",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "초기 부적응 도식(EMS)을 수정하는 것을 목표로 하는 통합적 치료 접근으로, 인지행동치료, 애착이론, 게슈탈트 기법, 정신역동적 요소를 결합하여 성격장애를 치료한다.",
+    "definition_en": "An integrative therapeutic approach aimed at modifying early maladaptive schemas (EMS), combining cognitive-behavioral therapy, attachment theory, gestalt techniques, and psychodynamic elements to treat personality disorders.",
+    "significance": "경계선 성격장애에 대한 효과가 RCT로 입증되었으며, 어린 시절 경험과 성인기 성격병리의 연결을 체계적으로 다룬다.",
+    "key_researchers": [
+      {"name_ko": "제프리 영", "name_en": "Jeffrey Young", "contribution": "스키마 치료를 개발하고 18개 초기 부적응 도식(EMS)과 도식 모드(schema modes) 개념을 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "초기부적응도식", "name_en": "Early Maladaptive Schemas", "id": "PERSON_EMS_026"},
+      {"name_ko": "변증법적 행동치료", "name_en": "Dialectical Behavior Therapy", "id": "PERSON_DBT_022"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "도식/핵심신념", "name_en": "Schema/Core Belief", "id": "PERSON_SCB_027"}
+    ],
+    "sub_types": [
+      {"name": "인지적 기법", "description": "도식에 도전하고 증거를 검토하는 인지 재구조화"},
+      {"name": "경험적 기법", "description": "의자기법, 심상 재각본화 등 정서적 체험 기법"},
+      {"name": "행동 패턴 끊기", "description": "도식 유지 행동을 변화시키는 행동 실험"},
+      {"name": "치료적 관계", "description": "제한적 재양육(limited reparenting)을 통한 교정적 정서 경험"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "스키마 치료의 3기법: 인지(Cognitive) + 경험(Experiential) + 행동(Behavioral) + 관계(Relationship)",
+      "differential": "CBT가 현재의 자동적 사고에 초점이라면, 스키마 치료는 어린 시절 형성된 깊은 도식에 초점",
+      "key_point": "제한적 재양육(limited reparenting) — 치료자가 환자의 충족되지 못한 핵심 욕구를 부분적으로 충족",
+      "common_mistake": "스키마 치료를 단순 CBT로 이해하는 오류 — 정서적·관계적 요소가 핵심적"
+    }
+  },
+  {
+    "id": "PERSON_MBT_024",
+    "terminology": "멘탈라이제이션 기반 치료 (Mentalization-Based Treatment, MBT)",
+    "terminology_ko": "멘탈라이제이션 기반 치료",
+    "terminology_en": "Mentalization-Based Treatment",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "자신과 타인의 행동을 정신상태(생각, 감정, 욕구, 의도)의 관점에서 이해하는 능력(멘탈라이제이션)을 향상시키는 것을 목표로 하는 정신역동적 치료로, 경계선 성격장애에 효과적이다.",
+    "definition_en": "A psychodynamic treatment aimed at enhancing the ability to understand one's own and others' behavior in terms of mental states (thoughts, feelings, desires, intentions)—mentalization—effective for borderline personality disorder.",
+    "significance": "애착이론과 정신분석의 통합적 관점에서 경계선 성격장애의 핵심 결함(멘탈라이제이션 실패)을 직접 다루는 치료 접근이다.",
+    "key_researchers": [
+      {"name_ko": "피터 포나기", "name_en": "Peter Fonagy", "contribution": "멘탈라이제이션 개념을 정립하고 MBT를 개발, 경계선 성격장애 치료 효과를 RCT로 입증"},
+      {"name_ko": "앤서니 베이트먼", "name_en": "Anthony Bateman", "contribution": "포나기와 함께 MBT의 임상 매뉴얼을 개발하고 치료 효과 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "변증법적 행동치료", "name_en": "Dialectical Behavior Therapy", "id": "PERSON_DBT_022"},
+      {"name_ko": "불안정한 대인관계", "name_en": "Unstable Interpersonal Relationships", "id": "PERSON_EMU_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "멘탈라이제이션 = '마음 읽기(mind-reading)' 능력 — 자신과 타인의 마음 상태 이해",
+      "differential": "DBT는 기술 훈련 중심, MBT는 치료 관계 내에서 멘탈라이제이션 향상 중심",
+      "key_point": "경계선 환자의 정서적 각성이 높아지면 멘탈라이제이션 능력이 급격히 저하됨",
+      "common_mistake": "멘탈라이제이션을 단순한 공감과 동일시 — 공감보다 넓은 개념(자기 이해 포함)"
+    }
+  },
+  {
+    "id": "PERSON_PTD_025",
+    "terminology": "성격 특성 차원 (Personality Trait Dimensions)",
+    "terminology_ko": "성격 특성 차원",
+    "terminology_en": "Personality Trait Dimensions",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "성격을 몇 가지 기본 차원(특성)의 연속체적 조합으로 이해하는 접근으로, 5요인 모형(FFM: 신경증적 경향, 외향성, 개방성, 우호성, 성실성)이 가장 널리 사용되며, AMPD의 기초가 된다.",
+    "definition_en": "An approach understanding personality as a combination of continuous basic dimensions (traits), with the Five-Factor Model (FFM: neuroticism, extraversion, openness, agreeableness, conscientiousness) being most widely used and foundational to the AMPD.",
+    "significance": "범주적 진단의 한계를 극복하고 정상-병리 연속체를 설명할 수 있는 차원적 성격 모형의 기초이다.",
+    "key_researchers": [
+      {"name_ko": "폴 코스타", "name_en": "Paul Costa", "contribution": "로버트 매크레이와 함께 5요인 모형(FFM)을 정교화하고 NEO-PI-R을 개발"},
+      {"name_ko": "로버트 매크레이", "name_en": "Robert McCrae", "contribution": "코스타와 함께 5요인 모형의 보편성과 안정성을 다문화 연구로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대안적 DSM-5 모형", "name_en": "Alternative DSM-5 Model", "id": "PERSON_AMP_004"},
+      {"name_ko": "성격의 차원 모형", "name_en": "Dimensional Model of Personality", "id": "PERSON_DIM_030"},
+      {"name_ko": "기질과 성격", "name_en": "Temperament and Character", "id": "PERSON_TAC_029"}
+    ],
+    "sub_types": [
+      {"name": "신경증적 경향(Neuroticism)", "description": "부정적 정서 경험 경향성"},
+      {"name": "외향성(Extraversion)", "description": "사회적 활동성과 긍정 정서 경향"},
+      {"name": "개방성(Openness)", "description": "새로운 경험과 사고에 대한 수용성"},
+      {"name": "우호성(Agreeableness)", "description": "타인에 대한 협조성과 신뢰"},
+      {"name": "성실성(Conscientiousness)", "description": "조직화, 목표지향성, 자기통제"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "FFM 5요인: OCEAN = Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+      "differential": "범주적 모형(있다/없다)과 달리 차원적 모형은 정도의 차이(연속체)로 평가",
+      "key_point": "성격장애는 FFM 5요인의 극단적 변이로 설명 가능 (예: BPD = 높은 신경증+낮은 우호성)",
+      "common_mistake": "5요인이 성격장애를 완전히 설명한다고 오해 — 상호작용과 기능 수준도 고려 필요"
+    }
+  },
+  {
+    "id": "PERSON_EMS_026",
+    "terminology": "초기부적응도식 (Early Maladaptive Schemas, EMS)",
+    "terminology_ko": "초기부적응도식",
+    "terminology_en": "Early Maladaptive Schemas",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "어린 시절 핵심 정서 욕구가 충족되지 못한 경험에서 형성된 자기와 세상에 대한 부적응적 인지·정서적 패턴으로, 5개 영역, 18개 도식으로 구성되며 성인기 성격병리의 기반이 된다.",
+    "definition_en": "Maladaptive cognitive-emotional patterns about self and world formed from unmet core emotional needs in childhood, organized into 5 domains and 18 schemas, underlying adult personality pathology.",
+    "significance": "어린 시절 경험과 성인기 성격장애를 연결하는 핵심 구성개념으로, 스키마 치료의 이론적 기초이다.",
+    "key_researchers": [
+      {"name_ko": "제프리 영", "name_en": "Jeffrey Young", "contribution": "18개 초기 부적응 도식과 5개 영역(단절/거부, 자율성 손상, 한계 손상, 타인지향, 과잉경계)을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스키마 치료", "name_en": "Schema Therapy", "id": "PERSON_SCT_023"},
+      {"name_ko": "도식/핵심신념", "name_en": "Schema/Core Belief", "id": "PERSON_SCB_027"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"}
+    ],
+    "sub_types": [
+      {"name": "단절/거부 영역", "description": "유기, 불신/학대, 정서적 결핍, 결함/수치심, 사회적 고립 도식"},
+      {"name": "자율성/수행 손상 영역", "description": "의존/무능, 취약성, 융합/미발달된 자기, 실패 도식"},
+      {"name": "한계 손상 영역", "description": "특권의식/과대성, 부족한 자기통제 도식"},
+      {"name": "타인지향 영역", "description": "복종, 자기희생, 인정추구 도식"},
+      {"name": "과잉경계/억제 영역", "description": "부정/비관, 감정억제, 엄격한 기준, 처벌 도식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "EMS 5영역: 단거(단절/거부), 자손(자율성 손상), 한손(한계 손상), 타지(타인지향), 과억(과잉경계)",
+      "differential": "자동적 사고(표층)와 달리 초기부적응도식은 가장 깊은 수준의 인지 구조(심층)",
+      "key_point": "Young의 YSQ(Young Schema Questionnaire)로 측정하며, 성격장애 환자에서 특정 도식이 활성화됨",
+      "common_mistake": "도식을 단순한 '생각'으로 오해 — 인지+정서+신체감각+기억이 결합된 복합 구조"
+    }
+  },
+  {
+    "id": "PERSON_SCB_027",
+    "terminology": "도식/핵심신념 (Schema/Core Belief)",
+    "terminology_ko": "도식/핵심신념",
+    "terminology_en": "Schema/Core Belief",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "자기, 타인, 세상에 대한 가장 근본적이고 깊은 수준의 인지적 구조로, 정보 처리와 해석을 안내하며, 성격장애에서는 부적응적 도식이 경직되고 자기영속적으로 작용한다.",
+    "definition_en": "The most fundamental and deep-level cognitive structures about self, others, and the world that guide information processing and interpretation, operating as rigid and self-perpetuating maladaptive schemas in personality disorders.",
+    "significance": "인지치료와 스키마 치료에서 치료의 궁극적 표적이 되는 인지 구조로, 성격장애의 지속성을 설명하는 핵심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron Beck", "contribution": "핵심신념(core belief) 개념을 인지치료 이론의 중심에 배치하고 성격장애의 인지적 이해를 제안"},
+      {"name_ko": "제프리 영", "name_en": "Jeffrey Young", "contribution": "벡의 핵심신념 개념을 확장하여 18개 초기부적응도식(EMS)으로 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "초기부적응도식", "name_en": "Early Maladaptive Schemas", "id": "PERSON_EMS_026"},
+      {"name_ko": "스키마 치료", "name_en": "Schema Therapy", "id": "PERSON_SCT_023"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"}
+    ],
+    "sub_types": [
+      {"name": "자기에 대한 핵심신념", "description": "예: '나는 결함이 있다', '나는 무능하다'"},
+      {"name": "타인에 대한 핵심신념", "description": "예: '타인은 위험하다', '타인은 나를 버릴 것이다'"},
+      {"name": "세상에 대한 핵심신념", "description": "예: '세상은 위험하다', '세상은 불공평하다'"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "인지의 3수준: 자동적 사고(표층) → 중간신념(규칙/가정) → 핵심신념/도식(심층)",
+      "differential": "자동적 사고는 상황적이고 변화 가능, 핵심신념/도식은 안정적이고 변화 저항적",
+      "key_point": "성격장애의 핵심신념은 '자아동조적'이어서 환자 자신이 문제로 인식하기 어려움",
+      "common_mistake": "핵심신념을 '사실'로 취급하는 오류 — 초기 경험에서 형성된 '해석 틀'이지 객관적 사실이 아님"
+    }
+  },
+  {
+    "id": "PERSON_CEF_028",
+    "terminology": "만성적 공허감 (Chronic Emptiness)",
+    "terminology_ko": "만성적 공허감",
+    "terminology_en": "Chronic Emptiness",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "지속적이고 만연한 내적 공허함, 무의미감, 존재의 텅 빈 느낌으로, 경계선 성격장애의 핵심 증상 중 하나이며, 자극추구 행동이나 자해의 동기가 되기도 한다.",
+    "definition_en": "A persistent and pervasive sense of inner emptiness, meaninglessness, and existential void, a core symptom of borderline personality disorder that may motivate stimulus-seeking behavior or self-harm.",
+    "significance": "정동 불안정이나 충동성보다 안정적으로 지속되는 특성으로, 경계선 성격장애의 가장 본질적인 경험으로 간주되기도 한다.",
+    "key_researchers": [
+      {"name_ko": "존 건더슨", "name_en": "John Gunderson", "contribution": "만성적 공허감을 경계선 성격장애의 핵심 특성으로 규정하고 진단 기준에 포함시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "자해 행동", "name_en": "Self-Harm Behavior", "id": "PERSON_SHR_017"},
+      {"name_ko": "충동성", "name_en": "Impulsivity", "id": "PERSON_IMP_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공허감 = '마음에 구멍이 난 느낌' — 채워도 채워도 채워지지 않는 빈 느낌",
+      "differential": "우울증의 슬픔은 감정이 '있는' 상태, 공허감은 감정 자체가 '없는' 느낌",
+      "key_point": "자극추구(물질, 성관계, 자해 등)가 공허감을 일시적으로 완화하려는 시도일 수 있음",
+      "common_mistake": "공허감을 우울감과 동일시 — 공허감은 슬픔보다는 '아무것도 느끼지 못함'에 가까움"
+    }
+  },
+  {
+    "id": "PERSON_TAC_029",
+    "terminology": "기질과 성격 (Temperament and Character)",
+    "terminology_ko": "기질과 성격",
+    "terminology_en": "Temperament and Character",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "클로닌저의 심리생물학적 성격 모형으로, 기질(유전적·자동적: 자극추구, 위험회피, 보상의존, 인내력)과 성격(환경적·의식적: 자기지향성, 협조성, 자기초월)의 7차원으로 성격을 설명한다.",
+    "definition_en": "Cloninger's psychobiological personality model explaining personality through 7 dimensions: temperament (genetic/automatic: novelty seeking, harm avoidance, reward dependence, persistence) and character (environmental/conscious: self-directedness, cooperativeness, self-transcendence).",
+    "significance": "생물학적 기질과 환경적 성격의 구분을 통해 성격장애의 기질적 기반과 발달적 경로를 통합적으로 이해할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 클로닌저", "name_en": "C. Robert Cloninger", "contribution": "기질 및 성격 검사(TCI)를 개발하고 7차원 심리생물학적 성격 모형을 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "성격 특성 차원", "name_en": "Personality Trait Dimensions", "id": "PERSON_PTD_025"},
+      {"name_ko": "성격의 차원 모형", "name_en": "Dimensional Model of Personality", "id": "PERSON_DIM_030"},
+      {"name_ko": "성격장애 일반 기준", "name_en": "General Personality Disorder Criteria", "id": "PERSON_GEN_001"}
+    ],
+    "sub_types": [
+      {"name": "자극추구(Novelty Seeking)", "description": "새로운 자극에 대한 흥분과 탐색 경향 (기질)"},
+      {"name": "위험회피(Harm Avoidance)", "description": "위험 신호에 대한 억제 반응 경향 (기질)"},
+      {"name": "자기지향성(Self-Directedness)", "description": "자기 결정과 목표지향 능력 (성격)"},
+      {"name": "협조성(Cooperativeness)", "description": "타인과의 공감 및 협력 능력 (성격)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "기질(T) 4차원: 자극추구, 위험회피, 보상의존, 인내력 / 성격(C) 3차원: 자기지향, 협조, 자기초월",
+      "differential": "FFM(5요인)은 기질-성격 구분 없이 특성을 나열, TCI는 생물학적 기질과 환경적 성격을 구분",
+      "key_point": "성격장애 환자는 낮은 자기지향성+낮은 협조성이 공통적 (성격 차원의 미성숙)",
+      "common_mistake": "기질을 '바꿀 수 없는 것'으로, 성격을 '쉽게 바꿀 수 있는 것'으로 이분법적으로 보는 오류"
+    }
+  },
+  {
+    "id": "PERSON_DIM_030",
+    "terminology": "성격의 차원 모형 (Dimensional Model of Personality)",
+    "terminology_ko": "성격의 차원 모형",
+    "terminology_en": "Dimensional Model of Personality",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "성격장애를 정상 성격 특성의 극단적 변이로 보는 관점으로, 범주적 분류(있다/없다) 대신 연속적 차원에서 정도의 차이로 성격 병리를 이해하며, ICD-11이 이 모형을 공식 채택하였다.",
+    "definition_en": "A perspective viewing personality disorders as extreme variants of normal personality traits, understanding personality pathology as a matter of degree on continuous dimensions rather than categorical classification, officially adopted by ICD-11.",
+    "significance": "범주적 진단의 한계(높은 동반이환, 진단 내 이질성, 역치 효과)를 극복하는 패러다임 전환을 대표한다.",
+    "key_researchers": [
+      {"name_ko": "토머스 위디거", "name_en": "Thomas Widiger", "contribution": "FFM 기반 성격장애의 차원적 이해를 체계적으로 연구하고 옹호"},
+      {"name_ko": "리 안나 클라크", "name_en": "Lee Anna Clark", "contribution": "SNAP(Schedule for Nonadaptive and Adaptive Personality)을 개발하여 차원적 성격 평가를 발전"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대안적 DSM-5 모형", "name_en": "Alternative DSM-5 Model", "id": "PERSON_AMP_004"},
+      {"name_ko": "성격 특성 차원", "name_en": "Personality Trait Dimensions", "id": "PERSON_PTD_025"},
+      {"name_ko": "기질과 성격", "name_en": "Temperament and Character", "id": "PERSON_TAC_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "차원(dimensional) = 연속체(스펙트럼) vs 범주(categorical) = 있다/없다",
+      "differential": "범주 모형은 '정상 vs 장애' 구분, 차원 모형은 '정도의 차이'로 접근",
+      "key_point": "ICD-11은 이미 차원적 모형으로 전환 — 성격장애를 경도/중등도/중증으로 평가",
+      "common_mistake": "차원적 모형이 범주 모형을 '완전히 대체'한다고 오해 — DSM-5는 아직 범주 모형 유지"
+    }
+  },
+  {
+    "id": "PERSON_EDI_031",
+    "terminology": "정서 불안정 (Affective Instability)",
+    "terminology_ko": "정서 불안정",
+    "terminology_en": "Affective Instability",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "기분이 수 시간~수일 단위로 극적이고 빠르게 변화하는 패턴으로, 주로 대인관계 맥락에서 촉발되며, 경계선 성격장애의 핵심 특징 중 하나이다.",
+    "definition_en": "A pattern of dramatic and rapid mood fluctuations within hours to days, typically triggered by interpersonal contexts, representing a core feature of borderline personality disorder.",
+    "significance": "양극성장애의 기분변동과 감별이 중요하며, 감정 조절 치료의 핵심 표적이 된다.",
+    "key_researchers": [
+      {"name_ko": "하비 코니그스버그", "name_en": "Harvey Koenigsberg", "contribution": "경계선 성격장애의 정서 불안정을 실시간 생태학적 순간평가(EMA)로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "PERSON_BPD_010"},
+      {"name_ko": "양극성 I형 장애", "name_en": "Bipolar I Disorder", "id": "MOOD_BPI_002"},
+      {"name_ko": "변증법적 행동치료", "name_en": "Dialectical Behavior Therapy", "id": "PERSON_DBT_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BPD의 정서 = '감정 롤러코스터' — 시간~일 단위의 빠른 기분 변화",
+      "differential": "양극성장애의 기분 순환은 일~주 단위이고 자율적, BPD의 정서 불안정은 시간 단위이고 대인관계 촉발",
+      "key_point": "기분의 기저선이 불쾌(dysphoria)인 경우가 많고, 긍정 정서보다 부정 정서 쪽으로 편향",
+      "common_mistake": "BPD의 정서 불안정을 양극성장애로 오진하는 경우가 매우 흔함"
+    }
+  },
+  {
+    "id": "PERSON_EGO_032",
+    "terminology": "자아동조적 (Ego-Syntonic)",
+    "terminology_ko": "자아동조적",
+    "terminology_en": "Ego-Syntonic",
+    "category": "PERSON",
+    "category_name": "성격장애 (Personality Disorders)",
+    "definition": "자신의 생각, 감정, 행동 패턴이 자기 자신의 가치관·정체성과 조화롭다고 느끼는 상태로, 성격장애의 핵심 특성이며 치료 동기와 병식의 주요 장벽이 된다.",
+    "definition_en": "A state in which one's thoughts, feelings, and behavioral patterns are experienced as consistent with one's own values and identity, a core feature of personality disorders that serves as a major barrier to treatment motivation and insight.",
+    "significance": "성격장애 환자가 자신의 문제를 인식하지 못하는 이유를 설명하며, 자아이질적(ego-dystonic) 임상장애와의 핵심 차이를 보여준다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "자아동조적(ego-syntonic)과 자아이질적(ego-dystonic) 개념을 최초로 구분하여 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "성격장애 일반 기준", "name_en": "General Personality Disorder Criteria", "id": "PERSON_GEN_001"},
+      {"name_ko": "강박성 성격장애", "name_en": "Obsessive-Compulsive Personality Disorder", "id": "PERSON_OCP_021"},
+      {"name_ko": "강박장애", "name_en": "Obsessive-Compulsive Disorder", "id": "OBSESS_OCD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자아동조(ego-syntonic) = '나답다'고 느낌, 자아이질(ego-dystonic) = '내가 아닌 것 같다'고 느낌",
+      "differential": "OCD(자아이질적: 강박사고가 괴롭다) vs OCPD(자아동조적: 완벽주의가 당연하다)",
+      "key_point": "자아동조적 특성 때문에 성격장애 환자는 자발적으로 치료를 찾지 않는 경향이 있음",
+      "common_mistake": "자아동조적이면 치료 불가능하다고 오해 — 어려울 뿐이지 불가능하지 않음"
+    }
+  }
+]
