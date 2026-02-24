@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "PERSON_MMPI2_001",
+    "terminology": "MMPI-2 (Minnesota Multiphasic Personality Inventory-2)",
+    "terminology_ko": "MMPI-2",
+    "terminology_en": "Minnesota Multiphasic Personality Inventory-2",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Hathaway와 McKinley가 개발한 MMPI의 개정판으로, 567개 문항의 진위형 자기보고식 성격검사이다. 정신병리 선별과 성격 특성 평가에 가장 널리 사용되는 객관적 검사로, 타당도척도와 임상척도를 통해 프로파일을 해석한다.",
+    "definition_en": "A revised edition of the original MMPI developed by Hathaway and McKinley, consisting of 567 true-false self-report items. It is the most widely used objective personality test for screening psychopathology and assessing personality characteristics, interpreted through validity and clinical scale profiles.",
+    "significance": "전 세계적으로 가장 많이 연구되고 사용되는 객관적 성격검사로, 임상장면에서 정신병리 선별, 치료 계획, 법적 평가 등 다양한 목적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "원판 MMPI를 개발하여 경험적 준거집단법에 기반한 성격검사의 토대를 마련"},
+      {"name_ko": "J.C. 맥킨리", "name_en": "J.C. McKinley", "contribution": "Hathaway와 공동으로 MMPI를 개발하여 임상척도 체계를 구축"},
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2 재표준화 위원회를 이끌어 현대적 규준과 새로운 척도를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-Restructured Form", "id": "PERSON_MMPI2RF_002"},
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"},
+      {"name_ko": "임상척도", "name_en": "Clinical Scales", "id": "PERSON_CLIN_005"},
+      {"name_ko": "코드타입", "name_en": "Code Type", "id": "PERSON_CODE_009"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "타당도척도",
+        "name_en": "Validity Scales",
+        "definition": "수검자의 검사 태도와 반응 신뢰성을 평가하는 척도군"
+      },
+      {
+        "name_ko": "임상척도",
+        "name_en": "Clinical Scales",
+        "definition": "10개 주요 정신병리 차원을 측정하는 핵심 척도군"
+      },
+      {
+        "name_ko": "내용척도",
+        "name_en": "Content Scales",
+        "definition": "문항 내용에 기반하여 특정 증상 영역을 측정하는 척도군"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "MMPI-2 = 567문항, 진위형, 경험적 준거집단법의 대표 검사",
+      "differential": "MMPI-2는 567문항의 전통적 버전이고, MMPI-2-RF는 338문항으로 축소된 재구성판이다.",
+      "key_point": "경험적 준거집단법으로 개발되어 문항의 표면 내용이 아닌 준거집단 변별력에 기반한다.",
+      "common_mistake": "MMPI-2를 성격 '유형'을 분류하는 검사로 오해하는 것 - 실제로는 정신병리 차원을 측정하는 검사이다."
+    }
+  },
+  {
+    "id": "PERSON_MMPI2RF_002",
+    "terminology": "MMPI-2-RF (MMPI-2-Restructured Form)",
+    "terminology_ko": "MMPI-2-RF",
+    "terminology_en": "MMPI-2-Restructured Form",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Ben-Porath와 Tellegen이 MMPI-2에서 338문항을 선별하여 재구성한 검사로, 재구성임상척도(RC)를 핵심으로 하며 의기소침(Demoralization) 요인을 분리하여 척도 간 변별력을 높였다.",
+    "definition_en": "A restructured version of the MMPI-2 developed by Ben-Porath and Tellegen, consisting of 338 items with Restructured Clinical (RC) scales as its core, separating the Demoralization factor to improve discriminant validity among scales.",
+    "significance": "기존 MMPI-2 임상척도의 높은 상호상관 문제를 해결하고, 보다 순수한 핵심 구성개념을 측정하여 해석의 명확성을 향상시켰다.",
+    "key_researchers": [
+      {"name_ko": "요시 벤-포라스", "name_en": "Yossef Ben-Porath", "contribution": "MMPI-2-RF를 개발하고 재구성임상척도 체계를 설계"},
+      {"name_ko": "아우케 텔레건", "name_en": "Auke Tellegen", "contribution": "MMPI-2-RF의 이론적 기초인 의기소침 요인 분리 모델을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"},
+      {"name_ko": "MMPI-3", "name_en": "MMPI-3", "id": "PERSON_MMPI3_003"},
+      {"name_ko": "재구성임상척도", "name_en": "Restructured Clinical Scales", "id": "PERSON_RC_010"},
+      {"name_ko": "의기소침", "name_en": "Demoralization", "id": "PERSON_DEMO_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "상위차원척도",
+        "name_en": "Higher-Order Scales",
+        "definition": "정서적/내재화, 사고, 행동화/외현화 문제의 3개 상위 차원"
+      },
+      {
+        "name_ko": "특정문제척도",
+        "name_en": "Specific Problems Scales",
+        "definition": "세분화된 임상 문제를 측정하는 23개 척도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "RF = Restructured Form, 338문항, RC척도 중심",
+      "differential": "MMPI-2는 567문항에 전통 임상척도, MMPI-2-RF는 338문항에 RC척도가 핵심이다.",
+      "key_point": "의기소침(Demoralization)을 분리하여 임상척도 간 변별타당도를 향상시킨 것이 핵심 혁신이다.",
+      "common_mistake": "MMPI-2-RF를 단순히 MMPI-2의 단축형으로 보는 것 - 실제로는 이론적으로 재구성된 별개의 체계이다."
+    }
+  },
+  {
+    "id": "PERSON_MMPI3_003",
+    "terminology": "MMPI-3 (Minnesota Multiphasic Personality Inventory-3)",
+    "terminology_ko": "MMPI-3",
+    "terminology_en": "Minnesota Multiphasic Personality Inventory-3",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "2020년에 Ben-Porath와 Tellegen이 출판한 MMPI 시리즈의 최신판으로, 335문항으로 구성되며 MMPI-2-RF의 구조를 유지하면서 현대적 규준과 새로운 문항을 포함한다.",
+    "definition_en": "The latest edition of the MMPI series published in 2020 by Ben-Porath and Tellegen, consisting of 335 items that maintain the MMPI-2-RF structure while incorporating updated norms and new items.",
+    "significance": "현대 사회의 다양한 인구통계학적 특성을 반영한 규준을 제공하고, 시대에 맞지 않는 문항을 교체하여 검사의 현대적 적용성을 강화하였다.",
+    "key_researchers": [
+      {"name_ko": "요시 벤-포라스", "name_en": "Yossef Ben-Porath", "contribution": "MMPI-3를 개발하여 현대적 규준과 새로운 척도 체계를 구축"},
+      {"name_ko": "아우케 텔레건", "name_en": "Auke Tellegen", "contribution": "MMPI-3의 심리측정적 기초와 척도 재구성 이론을 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"},
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-Restructured Form", "id": "PERSON_MMPI2RF_002"},
+      {"name_ko": "재구성임상척도", "name_en": "Restructured Clinical Scales", "id": "PERSON_RC_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MMPI-3 = 2020년 출판, 335문항, MMPI-2-RF 구조 계승",
+      "differential": "MMPI-3는 MMPI-2-RF의 구조를 유지하되 문항과 규준을 현대화한 것이고, MMPI-2는 전통적 임상척도 체계를 유지한다.",
+      "key_point": "MMPI-2-RF의 척도 구조(RC, 상위차원, 특정문제 등)를 계승하면서 규준 표본을 현대화했다.",
+      "common_mistake": "MMPI-3를 MMPI-2의 직접적 후속판으로 보는 것 - 실제로는 MMPI-2-RF의 후속이다."
+    }
+  },
+  {
+    "id": "PERSON_VALID_004",
+    "terminology": "타당도척도 (Validity Scales)",
+    "terminology_ko": "타당도척도",
+    "terminology_en": "Validity Scales",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI 계열 검사에서 수검자의 검사 태도, 반응 일관성, 과장/축소 경향 등을 평가하여 프로파일의 해석 가능성을 판단하는 척도군이다. L, F, K 등 여러 척도로 구성된다.",
+    "definition_en": "A set of scales in the MMPI family that assess the test-taker's response attitude, consistency, and tendencies toward exaggeration or minimization, determining the interpretability of the clinical profile.",
+    "significance": "자기보고식 검사의 가장 큰 한계인 반응 왜곡을 체계적으로 탐지할 수 있게 하여, 임상적 해석의 신뢰성을 보장하는 핵심 장치이다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "원판 MMPI에서 L, F, K 타당도척도의 기본 구조를 설계"},
+      {"name_ko": "폴 미얼", "name_en": "Paul Meehl", "contribution": "K교정 방법을 개발하여 방어적 태도의 영향을 보정하는 체계를 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "L척도", "name_en": "L Scale", "id": "PERSON_L_006"},
+      {"name_ko": "F척도", "name_en": "F Scale", "id": "PERSON_F_007"},
+      {"name_ko": "K척도", "name_en": "K Scale", "id": "PERSON_K_008"},
+      {"name_ko": "VRIN척도", "name_en": "VRIN Scale", "id": "PERSON_VRIN_027"},
+      {"name_ko": "TRIN척도", "name_en": "TRIN Scale", "id": "PERSON_TRIN_028"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "비일관성 탐지 척도",
+        "name_en": "Inconsistency Detection Scales",
+        "definition": "무선반응이나 고정반응 등 비일관적 응답 패턴을 탐지하는 척도(VRIN, TRIN)"
+      },
+      {
+        "name_ko": "과대보고 탐지 척도",
+        "name_en": "Over-reporting Detection Scales",
+        "definition": "증상 과장이나 꾀병을 탐지하는 척도(F, Fb, Fp)"
+      },
+      {
+        "name_ko": "과소보고 탐지 척도",
+        "name_en": "Under-reporting Detection Scales",
+        "definition": "방어적 태도나 증상 축소를 탐지하는 척도(L, K, S)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "타당도척도 = 검사 태도의 '거짓말 탐지기'",
+      "differential": "타당도척도는 '검사 태도'를 평가하고, 임상척도는 '정신병리'를 평가한다.",
+      "key_point": "타당도척도가 유효 범위를 벗어나면 임상척도의 해석 자체가 불가능해진다.",
+      "common_mistake": "타당도척도를 검사의 '타당도(validity)'와 혼동하는 것 - 여기서 타당도는 수검자 반응의 신뢰성을 의미한다."
+    }
+  },
+  {
+    "id": "PERSON_CLIN_005",
+    "terminology": "임상척도 (Clinical Scales)",
+    "terminology_ko": "임상척도",
+    "terminology_en": "Clinical Scales",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI-2의 10개 핵심 척도로, 각각 특정 정신병리 집단과 정상집단을 변별하기 위해 경험적 준거집단법으로 개발되었다. Hs(건강염려증), D(우울증), Hy(히스테리), Pd(반사회성), Mf(남성성-여성성), Pa(편집증), Pt(강박증), Sc(조현병), Ma(경조증), Si(내향성)로 구성된다.",
+    "definition_en": "The ten core scales of the MMPI-2, each developed through empirical criterion keying to discriminate between specific clinical groups and normal individuals: Hs, D, Hy, Pd, Mf, Pa, Pt, Sc, Ma, and Si.",
+    "significance": "정신병리의 다차원적 프로파일을 제공하여, 단일 진단이 아닌 전반적 심리적 기능 수준과 성격 특성 패턴을 이해할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "경험적 준거집단법으로 10개 임상척도를 개발"},
+      {"name_ko": "J.C. 맥킨리", "name_en": "J.C. McKinley", "contribution": "Hathaway와 공동으로 임상척도의 준거집단 선정과 문항 개발을 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"},
+      {"name_ko": "코드타입", "name_en": "Code Type", "id": "PERSON_CODE_009"},
+      {"name_ko": "재구성임상척도", "name_en": "Restructured Clinical Scales", "id": "PERSON_RC_010"},
+      {"name_ko": "프로파일 해석", "name_en": "Profile Interpretation", "id": "PERSON_PROF_012"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "신경증 3요소",
+        "name_en": "Neurotic Triad",
+        "definition": "Hs(1), D(2), Hy(3)로 구성된 신경증적 양상을 반영하는 척도군"
+      },
+      {
+        "name_ko": "정신병 4요소",
+        "name_en": "Psychotic Tetrad",
+        "definition": "Pa(6), Pt(7), Sc(8), Ma(9)로 구성된 심각한 정신병리를 반영하는 척도군"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "임상척도 번호: 1Hs 2D 3Hy 4Pd 5Mf 6Pa 7Pt 8Sc 9Ma 0Si",
+      "differential": "임상척도는 경험적 준거집단법으로 개발되었고, 내용척도는 합리적/내용 기반으로 개발되었다.",
+      "key_point": "임상척도는 단독 해석보다 2~3개 척도의 상승 패턴(코드타입)으로 해석하는 것이 더 정확하다.",
+      "common_mistake": "척도명이 곧 진단명이라고 생각하는 것 - 예를 들어 Sc 상승이 반드시 조현병을 의미하지는 않는다."
+    }
+  },
+  {
+    "id": "PERSON_L_006",
+    "terminology": "L척도 (L Scale / Lie Scale)",
+    "terminology_ko": "L척도",
+    "terminology_en": "L Scale (Lie Scale)",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI의 타당도척도 중 하나로, 사회적으로 바람직하지만 대부분의 사람들이 인정하기 어려운 사소한 결점을 부인하는 경향을 측정한다. 높은 점수는 자신을 지나치게 긍정적으로 보이려는 순박한 방어 태도를 시사한다.",
+    "definition_en": "A validity scale of the MMPI that measures the tendency to deny common human faults and present oneself in an unrealistically favorable light. High scores suggest a naive defensive posture of self-presentation.",
+    "significance": "수검자의 방어적 태도를 가장 직접적으로 반영하는 척도로, 특히 교육 수준이 높은 수검자의 정교한 방어와 구별되는 순박한 방어를 탐지한다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "원판 MMPI에서 L척도를 개발하여 순박한 긍정 왜곡을 탐지하는 체계를 마련"},
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2에서 L척도의 해석 지침을 체계화하고 점수 범위별 의미를 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"},
+      {"name_ko": "K척도", "name_en": "K Scale", "id": "PERSON_K_008"},
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSON_SD_025"},
+      {"name_ko": "반응편향", "name_en": "Response Bias", "id": "PERSON_RB_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "L = Lie = 거짓말 척도, '나는 완벽한 사람' 식의 순박한 방어",
+      "differential": "L척도는 순박한(naive) 방어, K척도는 정교한(sophisticated) 방어를 탐지한다.",
+      "key_point": "L척도 상승은 교육 수준이 낮은 수검자에서 흔하며, 고학력자의 L 상승은 의도적 왜곡 가능성이 더 높다.",
+      "common_mistake": "L척도 상승을 곧바로 '거짓말'로 판단하는 것 - 실제로는 자기이해 부족이나 엄격한 도덕관을 반영할 수도 있다."
+    }
+  },
+  {
+    "id": "PERSON_F_007",
+    "terminology": "F척도 (F Scale / Infrequency Scale)",
+    "terminology_ko": "F척도",
+    "terminology_en": "F Scale (Infrequency Scale)",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI의 타당도척도 중 하나로, 정상 표본에서 10% 미만이 응답한 비전형적 문항들로 구성된다. 높은 점수는 심각한 정신병리, 증상 과장(꾀병), 무선반응, 또는 독특한 사고방식을 시사한다.",
+    "definition_en": "A validity scale of the MMPI composed of items endorsed by fewer than 10% of the normative sample. High scores suggest severe psychopathology, symptom exaggeration (malingering), random responding, or an unusual mindset.",
+    "significance": "과대보고와 무선반응을 탐지하는 핵심 척도로, 프로파일의 해석 가능 여부를 판단하는 첫 번째 관문 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "정상집단의 비전형 응답 패턴에 기반하여 F척도를 개발"},
+      {"name_ko": "로저 그린", "name_en": "Roger Greene", "contribution": "F척도의 상승 원인(정신병리 vs. 과장 vs. 무선반응)을 감별하는 해석 전략을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"},
+      {"name_ko": "L척도", "name_en": "L Scale", "id": "PERSON_L_006"},
+      {"name_ko": "VRIN척도", "name_en": "VRIN Scale", "id": "PERSON_VRIN_027"},
+      {"name_ko": "반응편향", "name_en": "Response Bias", "id": "PERSON_RB_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "F = Faking bad 또는 inFrequency, 정상인이 거의 응답하지 않는 문항",
+      "differential": "F척도는 과대보고(faking bad)를 탐지하고, L/K척도는 과소보고(faking good)를 탐지한다.",
+      "key_point": "F척도 극단적 상승 시 무선반응, 꾀병, 심각한 병리 중 어느 것인지 VRIN/TRIN과 함께 감별해야 한다.",
+      "common_mistake": "F척도 상승을 무조건 꾀병으로 판단하는 것 - 실제로 심각한 병리를 가진 환자도 F가 상승할 수 있다."
+    }
+  },
+  {
+    "id": "PERSON_K_008",
+    "terminology": "K척도 (K Scale / Correction Scale)",
+    "terminology_ko": "K척도",
+    "terminology_en": "K Scale (Correction Scale)",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI의 타당도척도 중 하나로, 정신과 환자임에도 정상 프로파일을 보인 사람들과 정상인을 변별하기 위해 개발되었다. 정교한 방어적 태도를 측정하며, 일부 임상척도에 K교정값을 가산하여 방어성의 영향을 보정한다.",
+    "definition_en": "A validity scale of the MMPI developed to discriminate between psychiatric patients who produced normal profiles and actual normals. It measures sophisticated defensiveness and is used to add correction values to certain clinical scales.",
+    "significance": "L척도가 탐지하지 못하는 정교한 방어를 측정하고, 임상척도 점수를 교정하여 보다 정확한 프로파일 해석을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "폴 미얼", "name_en": "Paul Meehl", "contribution": "K교정 방법을 개발하여 방어적 수검자의 임상척도 점수를 보정하는 체계를 제안"},
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "Meehl과 공동으로 K척도를 개발하고 K교정 가중치를 산출"}
+    ],
+    "related_concepts": [
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"},
+      {"name_ko": "L척도", "name_en": "L Scale", "id": "PERSON_L_006"},
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSON_SD_025"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "K = Korrection(교정), 정교한 방어와 임상척도 교정의 이중 기능",
+      "differential": "L척도는 순박한 방어(학력 낮은 수검자), K척도는 정교한 방어(학력 높은 수검자)를 주로 탐지한다.",
+      "key_point": "K교정은 Hs, Pd, Pt, Sc, Ma 등 5개 임상척도에 적용되며, MMPI-2-RF에서는 K교정을 사용하지 않는다.",
+      "common_mistake": "K척도 상승을 무조건 부정적으로 보는 것 - 적절한 수준의 K 상승은 건강한 자아 강도를 반영할 수 있다."
+    }
+  },
+  {
+    "id": "PERSON_CODE_009",
+    "terminology": "코드타입 (Code Type)",
+    "terminology_ko": "코드타입",
+    "terminology_en": "Code Type",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI-2 임상척도 프로파일에서 가장 높이 상승한 2~3개 척도의 조합을 말하며, 특정 성격 특성과 정신병리 패턴에 대한 경험적 해석 정보를 제공한다. 예를 들어 2-7 코드타입은 우울과 불안의 혼합을 시사한다.",
+    "definition_en": "A combination of the two or three most elevated clinical scales on the MMPI-2 profile, providing empirically based interpretive information about specific personality characteristics and psychopathology patterns.",
+    "significance": "단일 척도 해석보다 풍부한 임상 정보를 제공하며, 수십 년간 축적된 경험적 연구를 통해 각 코드타입의 행동 상관물이 잘 확립되어 있다.",
+    "key_researchers": [
+      {"name_ko": "알렉스 콜드웰", "name_en": "Alex Caldwell", "contribution": "코드타입별 상세한 해석 보고서 체계를 개발"},
+      {"name_ko": "W. 그랜트 달스트롬", "name_en": "W. Grant Dahlstrom", "contribution": "코드타입 연구의 체계적 정리와 해석 가이드라인을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상척도", "name_en": "Clinical Scales", "id": "PERSON_CLIN_005"},
+      {"name_ko": "프로파일 해석", "name_en": "Profile Interpretation", "id": "PERSON_PROF_012"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "2점 코드타입",
+        "name_en": "Two-Point Code Type",
+        "definition": "가장 높은 2개 임상척도의 조합으로, 가장 널리 사용되는 해석 단위"
+      },
+      {
+        "name_ko": "3점 코드타입",
+        "name_en": "Three-Point Code Type",
+        "definition": "가장 높은 3개 임상척도의 조합으로, 보다 세분화된 프로파일 해석에 사용"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "코드타입 = 상승한 척도 번호의 조합 (예: 2-7 = 우울+불안)",
+      "differential": "코드타입은 MMPI-2의 전통적 해석 방식이고, MMPI-2-RF는 RC척도 개별 해석을 권장한다.",
+      "key_point": "잘 정의된(well-defined) 코드타입은 상승 척도와 나머지 척도 간 T점수 차이가 5점 이상이어야 한다.",
+      "common_mistake": "코드타입의 순서가 항상 중요하다고 생각하는 것 - 2-7과 7-2는 대부분 유사하게 해석된다."
+    }
+  },
+  {
+    "id": "PERSON_RC_010",
+    "terminology": "재구성임상척도 (Restructured Clinical Scales, RC)",
+    "terminology_ko": "재구성임상척도",
+    "terminology_en": "Restructured Clinical Scales (RC)",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Tellegen 등이 기존 MMPI-2 임상척도에서 공통 요인인 의기소침(Demoralization)을 분리하고 각 척도의 핵심 구성개념을 추출하여 재구성한 9개 척도이다. RCd(의기소침)부터 RC9(경조증적 상태)까지로 구성된다.",
+    "definition_en": "Nine scales developed by Tellegen et al. by separating the common Demoralization factor from the original MMPI-2 clinical scales and extracting the core construct of each scale, ranging from RCd (Demoralization) to RC9 (Hypomanic Activation).",
+    "significance": "기존 임상척도의 높은 상호상관과 해석적 모호성 문제를 해결하여, 각 척도가 보다 순수하게 고유한 구성개념을 측정하도록 개선하였다.",
+    "key_researchers": [
+      {"name_ko": "아우케 텔레건", "name_en": "Auke Tellegen", "contribution": "의기소침 요인 분리 이론과 재구성임상척도의 심리측정적 기초를 제안"},
+      {"name_ko": "요시 벤-포라스", "name_en": "Yossef Ben-Porath", "contribution": "RC척도의 개발과 타당화 연구를 주도"},
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "RC척도를 MMPI-2에 통합하고 임상 적용을 위한 해석 지침을 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "의기소침", "name_en": "Demoralization", "id": "PERSON_DEMO_011"},
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-Restructured Form", "id": "PERSON_MMPI2RF_002"},
+      {"name_ko": "임상척도", "name_en": "Clinical Scales", "id": "PERSON_CLIN_005"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "RCd (의기소침)",
+        "name_en": "RCd (Demoralization)",
+        "definition": "전반적인 불행감과 삶에 대한 불만족을 측정하는 공통 요인 척도"
+      },
+      {
+        "name_ko": "RC1~RC9",
+        "name_en": "RC1 through RC9",
+        "definition": "각 임상척도에서 의기소침을 제거한 후 남은 핵심 구성개념을 측정하는 척도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "RC = Restructured Clinical, RCd(의기소침) + RC1~RC9 = 총 9개",
+      "differential": "임상척도는 의기소침 요인이 혼재되어 상호상관이 높고, RC척도는 이를 분리하여 변별력이 높다.",
+      "key_point": "RCd(Demoralization)는 모든 임상척도에 공통된 전반적 불쾌감 요인으로, 이를 분리한 것이 RC척도의 핵심 혁신이다.",
+      "common_mistake": "RC척도를 기존 임상척도의 단순한 '약어'로 보는 것 - 실제로는 구성개념 자체가 재구성되었다."
+    }
+  },
+  {
+    "id": "PERSON_DEMO_011",
+    "terminology": "의기소침 (Demoralization)",
+    "terminology_ko": "의기소침",
+    "terminology_en": "Demoralization",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI-2 임상척도들에 공통적으로 존재하는 전반적인 불행감, 불만족, 무력감의 정서적 요인이다. Tellegen이 임상척도의 높은 상호상관의 주요 원인으로 규명하였으며, MMPI-2-RF에서 RCd 척도로 독립 측정된다.",
+    "definition_en": "A pervasive emotional factor of general unhappiness, dissatisfaction, and helplessness common across MMPI-2 clinical scales. Identified by Tellegen as the primary cause of high intercorrelations among clinical scales, measured independently as the RCd scale in MMPI-2-RF.",
+    "significance": "임상척도 간 높은 상호상관의 원인을 규명하고, 이를 분리함으로써 각 척도의 고유한 구성개념을 더 순수하게 측정할 수 있게 한 이론적 돌파구이다.",
+    "key_researchers": [
+      {"name_ko": "아우케 텔레건", "name_en": "Auke Tellegen", "contribution": "의기소침을 임상척도의 공통 요인으로 규명하고 분리 방법론을 제안"},
+      {"name_ko": "요시 벤-포라스", "name_en": "Yossef Ben-Porath", "contribution": "의기소침 개념을 RCd 척도로 구현하여 독립 측정 가능하게 함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "재구성임상척도", "name_en": "Restructured Clinical Scales", "id": "PERSON_RC_010"},
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-Restructured Form", "id": "PERSON_MMPI2RF_002"},
+      {"name_ko": "임상척도", "name_en": "Clinical Scales", "id": "PERSON_CLIN_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "의기소침(Demoralization) = 모든 임상척도를 오염시키는 '공통 불행감 요인'",
+      "differential": "의기소침은 특정 장애가 아닌 전반적 불쾌감이고, 우울(D척도)은 특정 우울 증상을 측정한다.",
+      "key_point": "의기소침의 분리가 MMPI-2-RF와 RC척도 개발의 핵심 이론적 근거이다.",
+      "common_mistake": "의기소침을 우울증과 동일시하는 것 - 의기소침은 우울 외에도 불안, 분노, 무력감 등을 포괄하는 비특이적 요인이다."
+    }
+  },
+  {
+    "id": "PERSON_PROF_012",
+    "terminology": "프로파일 해석 (Profile Interpretation)",
+    "terminology_ko": "프로파일 해석",
+    "terminology_en": "Profile Interpretation",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI 계열 검사에서 여러 척도 점수를 그래프로 나타낸 프로파일의 전체적 패턴(상승, 기울기, 형태)을 분석하여 수검자의 심리적 특성과 병리를 종합적으로 해석하는 방법이다.",
+    "definition_en": "A method of interpreting MMPI-family test results by analyzing the overall pattern of multiple scale scores displayed graphically, including elevations, slopes, and configurations, to comprehensively understand the examinee's psychological characteristics.",
+    "significance": "단일 척도 점수가 아닌 여러 척도의 상대적 관계와 전체적 패턴을 고려하므로, 개인의 복잡한 심리적 특성을 보다 정확하게 파악할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "W. 그랜트 달스트롬", "name_en": "W. Grant Dahlstrom", "contribution": "MMPI 프로파일 해석의 체계적 방법론과 해석 매뉴얼을 개발"},
+      {"name_ko": "로저 그린", "name_en": "Roger Greene", "contribution": "MMPI-2 프로파일 해석의 표준 지침서를 저술하여 임상가들의 해석 기준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "코드타입", "name_en": "Code Type", "id": "PERSON_CODE_009"},
+      {"name_ko": "임상척도", "name_en": "Clinical Scales", "id": "PERSON_CLIN_005"},
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "단계적 해석",
+        "name_en": "Sequential Interpretation",
+        "definition": "타당도척도 → 임상척도 → 내용/보충척도 순서로 체계적으로 해석하는 방법"
+      },
+      {
+        "name_ko": "컴퓨터 해석",
+        "name_en": "Computer-Based Interpretation",
+        "definition": "알고리즘에 기반한 자동화된 프로파일 해석 보고서 생성 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "프로파일 해석 = 척도 '숲'을 보는 해석 (개별 '나무'가 아닌)",
+      "differential": "프로파일 해석은 여러 척도의 패턴을 종합적으로 보고, 개별 척도 해석은 단일 척도에 초점을 맞춘다.",
+      "key_point": "반드시 타당도척도를 먼저 확인한 후 임상척도를 해석해야 하며, 이 순서를 지키는 것이 정확한 해석의 기본이다.",
+      "common_mistake": "프로파일에서 가장 높은 단일 척도만 주목하는 것 - 전체 패턴과 상대적 고저를 함께 보아야 한다."
+    }
+  },
+  {
+    "id": "PERSON_MBTI_013",
+    "terminology": "MBTI (Myers-Briggs Type Indicator)",
+    "terminology_ko": "MBTI",
+    "terminology_en": "Myers-Briggs Type Indicator",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Carl Jung의 심리유형론에 기반하여 Isabel Myers와 Katharine Briggs가 개발한 성격유형 검사로, 외향-내향(E-I), 감각-직관(S-N), 사고-감정(T-F), 판단-인식(J-P)의 4가지 선호 차원을 조합하여 16가지 성격유형으로 분류한다.",
+    "definition_en": "A personality type indicator developed by Isabel Myers and Katharine Briggs based on Carl Jung's theory of psychological types, classifying individuals into 16 types through four preference dimensions: Extraversion-Introversion, Sensing-Intuition, Thinking-Feeling, and Judging-Perceiving.",
+    "significance": "전 세계적으로 가장 널리 사용되는 성격유형 검사로, 특히 상담, 교육, 조직 개발 장면에서 자기이해와 대인관계 증진 도구로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "이사벨 마이어스", "name_en": "Isabel Briggs Myers", "contribution": "Jung의 유형론을 실용적 검사 도구로 개발하여 MBTI를 완성"},
+      {"name_ko": "캐서린 브릭스", "name_en": "Katharine Cook Briggs", "contribution": "Jung의 유형론을 미국에 소개하고 MBTI 개발의 이론적 토대를 마련"},
+      {"name_ko": "칼 융", "name_en": "Carl Gustav Jung", "contribution": "심리유형론(Psychological Types)을 제안하여 MBTI의 이론적 기초를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강제선택형", "name_en": "Forced-Choice Format", "id": "PERSON_FC_023"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"},
+      {"name_ko": "16PF", "name_en": "16PF", "id": "PERSON_16PF_014"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "4가지 선호 차원",
+        "name_en": "Four Preference Dimensions",
+        "definition": "E-I(에너지 방향), S-N(인식 기능), T-F(판단 기능), J-P(생활 양식)의 양극 차원"
+      },
+      {
+        "name_ko": "16가지 성격유형",
+        "name_en": "16 Personality Types",
+        "definition": "4차원의 조합으로 산출되는 ISTJ, ENFP 등 16가지 유형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "MBTI = 4차원(E-I, S-N, T-F, J-P) x 2 = 16유형",
+      "differential": "MBTI는 성격 '유형'을 분류하는 유형론적 검사이고, NEO-PI-R은 성격 '특질'의 연속적 수준을 측정하는 특질론적 검사이다.",
+      "key_point": "MBTI는 정상 성격의 선호를 분류하는 도구이지, 정신병리를 진단하는 검사가 아니다.",
+      "common_mistake": "MBTI 유형이 고정적이라고 생각하는 것 - 재검사 시 유형이 변할 수 있으며 이는 검사의 신뢰도 한계이다."
+    }
+  },
+  {
+    "id": "PERSON_16PF_014",
+    "terminology": "16PF (16 Personality Factors Questionnaire)",
+    "terminology_ko": "16PF",
+    "terminology_en": "16 Personality Factors Questionnaire",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Raymond Cattell이 요인분석을 통해 도출한 16개 기본 성격요인을 측정하는 객관적 성격검사이다. 어휘적 접근과 요인분석적 방법론을 결합하여 성격의 기본 구조를 체계적으로 측정한다.",
+    "definition_en": "An objective personality test measuring 16 primary personality factors derived by Raymond Cattell through factor analysis. It combines the lexical approach with factor-analytic methodology to systematically measure the basic structure of personality.",
+    "significance": "성격심리학에서 요인분석적 접근을 성격검사에 최초로 체계적으로 적용한 선구적 도구로, 후속 성격검사 개발의 모델이 되었다.",
+    "key_researchers": [
+      {"name_ko": "레이몬드 캐텔", "name_en": "Raymond Cattell", "contribution": "어휘적 접근과 요인분석으로 16개 기본 성격요인을 도출하고 16PF를 개발"},
+      {"name_ko": "허버트 에버", "name_en": "Herbert Eber", "contribution": "Cattell과 함께 16PF의 초기 버전을 공동 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "요인분석적 검사구성", "name_en": "Factor-Analytic Test Construction", "id": "PERSON_FA_022"},
+      {"name_ko": "NEO-PI-R", "name_en": "NEO-PI-R", "id": "PERSON_NEO_015"},
+      {"name_ko": "5요인 모델", "name_en": "Five-Factor Model", "id": "PERSON_FFM_016"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "1차 요인",
+        "name_en": "Primary Factors",
+        "definition": "온정성, 추론력, 정서안정성 등 16개 기본 성격 차원"
+      },
+      {
+        "name_ko": "2차 요인",
+        "name_en": "Global Factors",
+        "definition": "1차 요인들의 상위 수준 요인으로, 5요인 모델과 대응되는 외향성, 불안 등의 광역 요인"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "16PF = Cattell + 요인분석 + 16개 기본 성격요인",
+      "differential": "16PF는 16개 세분화된 요인을, NEO-PI-R은 5개 광역 요인(Big Five)을 측정한다.",
+      "key_point": "16PF의 2차 요인(글로벌 요인)은 Big Five 모델과 상당히 유사한 구조를 보인다.",
+      "common_mistake": "16PF가 16개 '유형'을 분류한다고 생각하는 것 - 실제로는 16개 연속적 '차원'을 측정한다."
+    }
+  },
+  {
+    "id": "PERSON_NEO_015",
+    "terminology": "NEO-PI-R (NEO Personality Inventory-Revised)",
+    "terminology_ko": "NEO-PI-R",
+    "terminology_en": "NEO Personality Inventory-Revised",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Costa와 McCrae가 개발한 5요인 모델(Big Five)에 기반한 성격검사로, 신경증(N), 외향성(E), 개방성(O), 친화성(A), 성실성(C) 5개 영역과 각 영역별 6개 하위요인(총 30개)을 240문항으로 측정한다.",
+    "definition_en": "A personality inventory developed by Costa and McCrae based on the Five-Factor Model (Big Five), measuring five domains (Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness) and six facets per domain (30 total) with 240 items.",
+    "significance": "5요인 모델의 대표적 측정 도구로, 정상 성격의 개인차를 포괄적이고 체계적으로 평가하며 성격 연구의 표준 도구로 자리잡았다.",
+    "key_researchers": [
+      {"name_ko": "폴 코스타", "name_en": "Paul T. Costa Jr.", "contribution": "McCrae와 공동으로 NEO-PI-R을 개발하고 5요인 모델의 경험적 기반을 확립"},
+      {"name_ko": "로버트 맥크레이", "name_en": "Robert R. McCrae", "contribution": "Costa와 공동으로 5요인 모델을 정립하고 문화 간 보편성을 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "5요인 모델", "name_en": "Five-Factor Model", "id": "PERSON_FFM_016"},
+      {"name_ko": "16PF", "name_en": "16PF", "id": "PERSON_16PF_014"},
+      {"name_ko": "요인분석적 검사구성", "name_en": "Factor-Analytic Test Construction", "id": "PERSON_FA_022"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "5개 영역(도메인)",
+        "name_en": "Five Domains",
+        "definition": "N(신경증), E(외향성), O(개방성), A(친화성), C(성실성)의 광역 성격 차원"
+      },
+      {
+        "name_ko": "30개 하위요인(패싯)",
+        "name_en": "Thirty Facets",
+        "definition": "각 영역을 세분화하는 6개씩의 하위 차원 (예: N1 불안, N2 적대감 등)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "NEO-PI-R = OCEAN(O, C, E, A, N) x 6 facets = 30 하위요인, 240문항",
+      "differential": "NEO-PI-R은 정상 성격의 특질을 측정하고, MMPI-2는 정신병리를 측정한다.",
+      "key_point": "5개 영역(domain)과 30개 하위요인(facet)의 위계적 구조로, 광역~세부 수준의 성격 평가가 가능하다.",
+      "common_mistake": "NEO-PI-R의 N(Neuroticism)을 '신경증 진단'으로 해석하는 것 - 정상 범위의 정서적 불안정성 특질이다."
+    }
+  },
+  {
+    "id": "PERSON_FFM_016",
+    "terminology": "5요인 모델 (Five-Factor Model / Big Five)",
+    "terminology_ko": "5요인 모델",
+    "terminology_en": "Five-Factor Model (Big Five)",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "성격의 기본 구조가 개방성(Openness), 성실성(Conscientiousness), 외향성(Extraversion), 친화성(Agreeableness), 신경증(Neuroticism)의 5가지 광역 차원으로 구성된다는 성격 이론이다. 다양한 문화권에서 반복적으로 확인된 가장 강력한 성격 구조 모델이다.",
+    "definition_en": "A personality theory proposing that the basic structure of personality consists of five broad dimensions: Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. It is the most robust model of personality structure, replicated across diverse cultures.",
+    "significance": "성격심리학에서 가장 널리 수용되는 분류 체계로, NEO-PI-R 등 주요 성격검사의 이론적 기반이 되며 임상, 산업, 교육 등 다양한 응용 분야에서 활용된다.",
+    "key_researchers": [
+      {"name_ko": "폴 코스타", "name_en": "Paul T. Costa Jr.", "contribution": "McCrae와 공동으로 5요인 모델을 정립하고 NEO-PI-R로 측정 도구를 개발"},
+      {"name_ko": "로버트 맥크레이", "name_en": "Robert R. McCrae", "contribution": "5요인 모델의 문화 간 보편성과 생물학적 기반을 검증"},
+      {"name_ko": "루이스 골드버그", "name_en": "Lewis Goldberg", "contribution": "어휘적 접근(lexical approach)으로 Big Five 구조를 독립적으로 확인하고 명칭을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "NEO-PI-R", "name_en": "NEO-PI-R", "id": "PERSON_NEO_015"},
+      {"name_ko": "16PF", "name_en": "16PF", "id": "PERSON_16PF_014"},
+      {"name_ko": "요인분석적 검사구성", "name_en": "Factor-Analytic Test Construction", "id": "PERSON_FA_022"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "OCEAN",
+        "name_en": "OCEAN",
+        "definition": "5요인의 머리글자: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "OCEAN = O(개방성) C(성실성) E(외향성) A(친화성) N(신경증)",
+      "differential": "5요인 모델은 성격의 '차원적(dimensional)' 접근이고, MBTI는 '유형적(typological)' 접근이다.",
+      "key_point": "5요인 모델은 다양한 문화권과 언어에서 반복 검증된 범문화적 보편성을 가진 유일한 성격 구조 모델이다.",
+      "common_mistake": "Big Five를 MBTI의 4차원과 동일시하는 것 - 이론적 기반과 측정 방법이 근본적으로 다르다."
+    }
+  },
+  {
+    "id": "PERSON_PAI_017",
+    "terminology": "PAI (Personality Assessment Inventory)",
+    "terminology_ko": "PAI",
+    "terminology_en": "Personality Assessment Inventory",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Leslie Morey가 개발한 344문항의 자기보고식 성격 및 정신병리 평가 도구로, 4점 리커트 척도를 사용한다. 타당도척도, 임상척도, 치료고려척도, 대인관계척도의 4개 척도군으로 구성되며, 구성개념 타당화 접근으로 개발되었다.",
+    "definition_en": "A 344-item self-report measure of personality and psychopathology developed by Leslie Morey using a 4-point Likert scale. It comprises four scale groups: validity, clinical, treatment consideration, and interpersonal scales, developed through a construct validation approach.",
+    "significance": "MMPI-2의 대안으로 개발되어, 보다 현대적인 검사 구성 방법론과 낮은 읽기 수준으로 광범위한 임상 집단에 적용 가능하다.",
+    "key_researchers": [
+      {"name_ko": "레슬리 모레이", "name_en": "Leslie C. Morey", "contribution": "PAI를 개발하여 구성개념 타당화에 기반한 현대적 성격검사의 모델을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"},
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "임상척도",
+        "name_en": "Clinical Scales",
+        "definition": "신체호소, 불안, 우울, 조증, 편집증 등 11개 임상 영역을 측정"
+      },
+      {
+        "name_ko": "치료고려척도",
+        "name_en": "Treatment Consideration Scales",
+        "definition": "공격성, 자살관념, 치료거부 등 치료 계획에 관련된 5개 척도"
+      },
+      {
+        "name_ko": "대인관계척도",
+        "name_en": "Interpersonal Scales",
+        "definition": "지배성과 온정성의 2개 대인관계 차원을 측정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "PAI = Morey, 344문항, 4점 리커트, 구성개념 타당화 접근",
+      "differential": "PAI는 4점 리커트 척도로 증상 심각도를 반영하고, MMPI-2는 진위형으로 유무만 판단한다.",
+      "key_point": "PAI는 경험적 준거집단법이 아닌 구성개념 타당화 접근으로 개발되어, 척도 내용과 측정 구성개념이 직접적으로 대응된다.",
+      "common_mistake": "PAI를 MMPI-2의 단축형으로 보는 것 - 개발 방법론과 척도 구성이 근본적으로 다른 독립적 검사이다."
+    }
+  },
+  {
+    "id": "PERSON_TCI_018",
+    "terminology": "TCI (Temperament and Character Inventory)",
+    "terminology_ko": "TCI",
+    "terminology_en": "Temperament and Character Inventory",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "C. Robert Cloninger가 자신의 심리생물학적 성격 모델에 기반하여 개발한 성격검사로, 기질(temperament) 4차원(자극추구, 위험회피, 사회적 민감성, 인내력)과 성격(character) 3차원(자율성, 연대감, 자기초월)을 측정한다.",
+    "definition_en": "A personality inventory developed by C. Robert Cloninger based on his psychobiological model of personality, measuring four temperament dimensions (Novelty Seeking, Harm Avoidance, Reward Dependence, Persistence) and three character dimensions (Self-Directedness, Cooperativeness, Self-Transcendence).",
+    "significance": "생물학적 기질과 환경적 성격 발달을 통합한 이론적 모델에 기반하여, 성격장애의 이해와 치료에 특히 유용한 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "C. 로버트 클로닌저", "name_en": "C. Robert Cloninger", "contribution": "심리생물학적 성격 모델을 제안하고 TCI를 개발하여 기질-성격 이원 구조를 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "5요인 모델", "name_en": "Five-Factor Model", "id": "PERSON_FFM_016"},
+      {"name_ko": "NEO-PI-R", "name_en": "NEO-PI-R", "id": "PERSON_NEO_015"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "기질 차원",
+        "name_en": "Temperament Dimensions",
+        "definition": "유전적, 생물학적으로 결정되는 4가지 자동적 정서 반응 경향: 자극추구(NS), 위험회피(HA), 사회적 민감성(RD), 인내력(P)"
+      },
+      {
+        "name_ko": "성격 차원",
+        "name_en": "Character Dimensions",
+        "definition": "자기개념의 성숙을 반영하는 3가지 차원: 자율성(SD), 연대감(CO), 자기초월(ST)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "TCI = Cloninger, 기질 4(NS, HA, RD, P) + 성격 3(SD, CO, ST) = 7차원",
+      "differential": "TCI는 기질(생물학적)과 성격(환경적)을 구분하고, NEO-PI-R은 이를 구분하지 않는다.",
+      "key_point": "기질은 유전적으로 결정되어 비교적 안정적이고, 성격은 경험에 의해 발달하며 성격장애와 직접 관련된다.",
+      "common_mistake": "TCI의 기질(temperament)과 성격(character)을 동의어로 취급하는 것 - TCI에서 이 둘은 구분되는 개념이다."
+    }
+  },
+  {
+    "id": "PERSON_CPI_019",
+    "terminology": "CPI (California Psychological Inventory)",
+    "terminology_ko": "CPI",
+    "terminology_en": "California Psychological Inventory",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Harrison Gough가 개발한 정상 성인의 대인관계적 행동과 사회적 적응을 평가하는 객관적 성격검사이다. MMPI와 유사한 진위형 문항을 사용하되, 병리가 아닌 정상 성격의 사회적 측면에 초점을 맞춘다.",
+    "definition_en": "An objective personality test developed by Harrison Gough to assess interpersonal behavior and social adjustment in normal adults. It uses true-false items similar to the MMPI but focuses on social aspects of normal personality rather than pathology.",
+    "significance": "정상 성격의 사회적 행동 측면을 측정하는 대표적 검사로, 인사 선발, 교육, 상담 등 비임상 장면에서 폭넓게 활용된다.",
+    "key_researchers": [
+      {"name_ko": "해리슨 가우", "name_en": "Harrison Gough", "contribution": "CPI를 개발하여 정상 성격의 대인관계적 측면을 체계적으로 측정하는 도구를 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"},
+      {"name_ko": "경험적 준거집단법", "name_en": "Empirical Criterion Keying", "id": "PERSON_ECK_021"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "folk concepts 척도",
+        "name_en": "Folk Concepts Scales",
+        "definition": "일반인들도 이해할 수 있는 일상적 성격 개념(지배성, 사회성 등)을 측정하는 척도"
+      },
+      {
+        "name_ko": "구조모형",
+        "name_en": "Structural Model",
+        "definition": "내면성/외향성, 규범수용/독립성의 2축으로 분류하는 입체적 성격 모형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "CPI = Gough, 정상 성격, 대인관계/사회적 적응 초점",
+      "differential": "CPI는 정상인의 사회적 행동을, MMPI는 정신병리를 주로 측정한다.",
+      "key_point": "CPI는 folk concepts(일상적 성격 개념)를 측정하여 비전문가도 이해하기 쉬운 해석을 제공한다.",
+      "common_mistake": "CPI를 MMPI의 단축형이나 변형으로 보는 것 - 일부 문항은 공유하지만 측정 목적과 대상 집단이 다르다."
+    }
+  },
+  {
+    "id": "PERSON_SR_020",
+    "terminology": "자기보고식 검사 (Self-Report Inventory)",
+    "terminology_ko": "자기보고식 검사",
+    "terminology_en": "Self-Report Inventory",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "수검자가 자신의 성격, 행동, 감정, 태도 등에 대한 문항을 읽고 스스로 응답하는 형식의 검사 방법이다. 구조화된 문항과 표준화된 채점 절차를 사용하여 객관적 점수를 산출한다.",
+    "definition_en": "A testing method in which examinees read items about their own personality, behavior, emotions, and attitudes and respond by themselves. It produces objective scores through structured items and standardized scoring procedures.",
+    "significance": "대규모 집단에 효율적으로 실시할 수 있고, 채점의 객관성이 보장되며, 풍부한 규준 자료를 활용할 수 있는 가장 보편적인 성격 평가 방법이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 우드워스", "name_en": "Robert S. Woodworth", "contribution": "최초의 자기보고식 성격검사인 Personal Data Sheet(1917)를 개발"},
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "MMPI 개발을 통해 자기보고식 검사의 표준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반응편향", "name_en": "Response Bias", "id": "PERSON_RB_024"},
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSON_SD_025"},
+      {"name_ko": "강제선택형", "name_en": "Forced-Choice Format", "id": "PERSON_FC_023"},
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "진위형",
+        "name_en": "True-False Format",
+        "definition": "문항에 대해 참/거짓으로만 응답하는 형식 (예: MMPI-2)"
+      },
+      {
+        "name_ko": "리커트형",
+        "name_en": "Likert-Type Format",
+        "definition": "동의 정도를 여러 단계로 평정하는 형식 (예: PAI의 4점 척도)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "자기보고 = Self-Report = 수검자가 직접 응답 + 구조화된 문항 + 객관적 채점",
+      "differential": "자기보고식은 수검자가 직접 응답하고, 투사검사는 모호한 자극에 대한 반응을 전문가가 해석한다.",
+      "key_point": "자기보고식 검사의 최대 한계는 반응 왜곡(faking)이며, 이를 보완하기 위해 타당도척도를 함께 사용한다.",
+      "common_mistake": "자기보고식 검사 결과를 '객관적 사실'로 받아들이는 것 - 수검자의 자기인식과 보고 의향에 의존한다."
+    }
+  },
+  {
+    "id": "PERSON_ECK_021",
+    "terminology": "경험적 준거집단법 (Empirical Criterion Keying)",
+    "terminology_ko": "경험적 준거집단법",
+    "terminology_en": "Empirical Criterion Keying",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "검사 문항의 선정 기준을 문항 내용의 논리적 적절성이 아닌, 특정 준거집단(예: 우울증 환자)과 정상집단 간의 실제 응답 차이에 두는 검사 구성 방법이다. MMPI가 대표적으로 이 방법으로 개발되었다.",
+    "definition_en": "A test construction method in which item selection is based not on logical content relevance but on actual response differences between a specific criterion group (e.g., depressed patients) and a normal group. The MMPI is the most representative test developed using this method.",
+    "significance": "문항 표면 내용에 의존하지 않으므로 수검자가 검사 의도를 파악하기 어렵고, 예측타당도가 높은 경험적 기반의 검사를 구성할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "MMPI 개발에서 경험적 준거집단법을 체계적으로 적용한 선구자"},
+      {"name_ko": "해리슨 가우", "name_en": "Harrison Gough", "contribution": "CPI 개발에서 경험적 준거집단법을 정상 성격 영역에 확장 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"},
+      {"name_ko": "요인분석적 검사구성", "name_en": "Factor-Analytic Test Construction", "id": "PERSON_FA_022"},
+      {"name_ko": "CPI", "name_en": "CPI", "id": "PERSON_CPI_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "경험적 준거집단법 = '환자 vs 정상' 실제 응답 차이로 문항 선정",
+      "differential": "경험적 준거집단법은 실제 응답 차이로, 요인분석적 방법은 통계적 요인 구조로, 합리적 방법은 전문가 판단으로 문항을 선정한다.",
+      "key_point": "문항 내용이 논리적으로 관련되지 않아도 집단을 변별하면 포함되므로, 표면 타당도가 낮을 수 있다.",
+      "common_mistake": "경험적 준거집단법이 문항 내용을 전혀 고려하지 않는다고 생각하는 것 - 초기 문항 풀 구성 시에는 내용적 고려도 포함된다."
+    }
+  },
+  {
+    "id": "PERSON_FA_022",
+    "terminology": "요인분석적 검사구성 (Factor-Analytic Test Construction)",
+    "terminology_ko": "요인분석적 검사구성",
+    "terminology_en": "Factor-Analytic Test Construction",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "요인분석 통계 기법을 활용하여 다수의 문항 응답에서 잠재적인 공통 요인을 추출하고, 같은 요인에 높은 부하량을 보이는 문항들로 척도를 구성하는 검사 개발 방법이다. 16PF와 NEO-PI-R이 대표적이다.",
+    "definition_en": "A test development method that uses factor analysis to extract latent common factors from numerous item responses and constructs scales from items with high factor loadings on the same factor. The 16PF and NEO-PI-R are representative examples.",
+    "significance": "통계적으로 동질적인 문항들로 척도를 구성하여 내적 일관성이 높고 구성개념 타당도가 우수한 검사를 개발할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "레이몬드 캐텔", "name_en": "Raymond Cattell", "contribution": "요인분석을 성격검사 개발에 최초로 체계적으로 적용하여 16PF를 개발"},
+      {"name_ko": "폴 코스타", "name_en": "Paul T. Costa Jr.", "contribution": "요인분석적 방법으로 5요인 모델을 정립하고 NEO-PI-R을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "16PF", "name_en": "16PF", "id": "PERSON_16PF_014"},
+      {"name_ko": "NEO-PI-R", "name_en": "NEO-PI-R", "id": "PERSON_NEO_015"},
+      {"name_ko": "경험적 준거집단법", "name_en": "Empirical Criterion Keying", "id": "PERSON_ECK_021"},
+      {"name_ko": "5요인 모델", "name_en": "Five-Factor Model", "id": "PERSON_FFM_016"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "탐색적 요인분석",
+        "name_en": "Exploratory Factor Analysis",
+        "definition": "사전 가설 없이 자료에서 요인 구조를 탐색하는 방법 (16PF 초기 개발에 사용)"
+      },
+      {
+        "name_ko": "확인적 요인분석",
+        "name_en": "Confirmatory Factor Analysis",
+        "definition": "이론적으로 가정된 요인 구조의 적합도를 통계적으로 검증하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "요인분석적 구성 = 통계로 '숨은 요인' 찾아서 척도 만들기",
+      "differential": "요인분석적 방법은 통계적 요인 구조에 기반하고, 경험적 준거집단법은 집단 간 변별력에 기반한다.",
+      "key_point": "같은 요인에 높은 부하량을 가진 문항들로 척도를 구성하므로 내적 일관성(신뢰도)이 높다.",
+      "common_mistake": "요인분석 결과가 유일한 '정답'이라고 생각하는 것 - 회전 방법과 요인 수에 따라 다른 결과가 나올 수 있다."
+    }
+  },
+  {
+    "id": "PERSON_FC_023",
+    "terminology": "강제선택형 (Forced-Choice Format)",
+    "terminology_ko": "강제선택형",
+    "terminology_en": "Forced-Choice Format",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "사회적 바람직성이 유사한 두 개 이상의 진술문 중에서 자신에게 더 해당되는 것을 반드시 선택하도록 하는 문항 형식이다. 사회적 바람직성 편향을 줄이기 위해 고안되었으며, MBTI와 Edwards PPS가 대표적 사례이다.",
+    "definition_en": "An item format that requires the respondent to choose the most applicable statement from two or more alternatives matched for social desirability. Designed to reduce social desirability bias, exemplified by the MBTI and Edwards PPS.",
+    "significance": "사회적 바람직성에 의한 반응 왜곡을 통제하여 보다 정확한 성격 측정을 가능하게 하며, 자기보고식 검사의 핵심적 한계를 보완하는 문항 형식이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 에드워즈", "name_en": "Allen Edwards", "contribution": "Edwards Personal Preference Schedule에서 강제선택형을 체계적으로 사용하여 사회적 바람직성 통제를 시도"},
+      {"name_ko": "이사벨 마이어스", "name_en": "Isabel Briggs Myers", "contribution": "MBTI에서 강제선택형을 활용하여 성격 선호의 양극적 측정을 구현"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSON_SD_025"},
+      {"name_ko": "반응편향", "name_en": "Response Bias", "id": "PERSON_RB_024"},
+      {"name_ko": "MBTI", "name_en": "MBTI", "id": "PERSON_MBTI_013"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "강제선택 = '둘 다 좋거나 둘 다 나빠도 반드시 하나를 선택'",
+      "differential": "강제선택형은 사회적 바람직성이 유사한 선택지 중 고르게 하고, 리커트형은 동의 정도를 자유롭게 평정하게 한다.",
+      "key_point": "사회적 바람직성은 통제하지만, 일부 수검자에게 불쾌감을 주고 검사-재검사 신뢰도가 낮아질 수 있다는 한계가 있다.",
+      "common_mistake": "강제선택형이 사회적 바람직성을 완전히 제거한다고 생각하는 것 - 실제로는 줄여줄 뿐 완전히 통제하지는 못한다."
+    }
+  },
+  {
+    "id": "PERSON_RB_024",
+    "terminology": "반응편향 (Response Bias)",
+    "terminology_ko": "반응편향",
+    "terminology_en": "Response Bias",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "자기보고식 검사에서 문항 내용과 무관하게 특정 방향으로 응답하려는 체계적 경향으로, 사회적 바람직성, 묵인편향, 극단반응, 중앙경향 등이 포함된다. 검사 결과의 타당성을 위협하는 주요 오차 요인이다.",
+    "definition_en": "A systematic tendency to respond in a particular direction regardless of item content in self-report tests, including social desirability, acquiescence, extreme responding, and central tendency. It is a major source of error threatening test result validity.",
+    "significance": "자기보고식 검사의 가장 근본적인 한계로, 이를 탐지하고 통제하기 위한 다양한 방법(타당도척도, 강제선택형 등)이 개발되었다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "반응세트(response set) 개념을 체계화하여 검사 반응의 오류 요인을 규명"},
+      {"name_ko": "앨런 에드워즈", "name_en": "Allen Edwards", "contribution": "사회적 바람직성이 자기보고식 검사에 미치는 영향을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSON_SD_025"},
+      {"name_ko": "묵인편향", "name_en": "Acquiescence Bias", "id": "PERSON_ACQ_026"},
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "반응양식",
+        "name_en": "Response Style",
+        "definition": "비교적 안정적인 개인의 반응 특성 (예: 항상 극단적으로 응답하는 경향)"
+      },
+      {
+        "name_ko": "반응세트",
+        "name_en": "Response Set",
+        "definition": "특정 검사 상황에서 일시적으로 나타나는 반응 경향 (예: 취업 면접 시 좋게 보이려는 경향)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "반응편향 = 문항 '내용'이 아닌 '형식'이나 '상황'에 의한 체계적 오류",
+      "differential": "반응양식(style)은 안정적 개인 특성이고, 반응세트(set)는 상황적 일시적 경향이다.",
+      "key_point": "반응편향은 검사의 구성개념 타당도를 직접적으로 위협하므로, 타당도척도로 탐지하는 것이 필수적이다.",
+      "common_mistake": "반응편향을 의도적 왜곡(faking)과 동일시하는 것 - 많은 반응편향은 무의식적으로 발생한다."
+    }
+  },
+  {
+    "id": "PERSON_SD_025",
+    "terminology": "사회적 바람직성 (Social Desirability)",
+    "terminology_ko": "사회적 바람직성",
+    "terminology_en": "Social Desirability",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "자기보고식 검사에서 사회적으로 바람직하거나 승인받는 방향으로 응답하려는 경향으로, 자기기만(self-deception)과 인상관리(impression management)의 두 요소로 구성된다.",
+    "definition_en": "The tendency to respond in a socially desirable or approved direction in self-report tests, composed of two components: self-deception and impression management.",
+    "significance": "자기보고식 성격검사에서 가장 보편적이고 강력한 반응편향으로, 이를 통제하지 않으면 검사 결과의 타당성이 심각하게 저하된다.",
+    "key_researchers": [
+      {"name_ko": "앨런 에드워즈", "name_en": "Allen Edwards", "contribution": "사회적 바람직성이 성격검사 응답에 미치는 영향을 최초로 체계적으로 연구"},
+      {"name_ko": "더글라스 폴허스", "name_en": "Delroy Paulhus", "contribution": "사회적 바람직성을 자기기만과 인상관리로 구분하는 이요인 모델을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반응편향", "name_en": "Response Bias", "id": "PERSON_RB_024"},
+      {"name_ko": "L척도", "name_en": "L Scale", "id": "PERSON_L_006"},
+      {"name_ko": "K척도", "name_en": "K Scale", "id": "PERSON_K_008"},
+      {"name_ko": "강제선택형", "name_en": "Forced-Choice Format", "id": "PERSON_FC_023"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "자기기만",
+        "name_en": "Self-Deception",
+        "definition": "자신의 긍정적 특성에 대한 과장된 믿음으로, 무의식적으로 자신을 좋게 보는 경향"
+      },
+      {
+        "name_ko": "인상관리",
+        "name_en": "Impression Management",
+        "definition": "타인에게 좋은 인상을 주기 위해 의도적으로 응답을 왜곡하는 경향"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "사회적 바람직성 = '남들이 좋다고 하는 방향으로 응답' = 자기기만 + 인상관리",
+      "differential": "자기기만은 무의식적 자기과대평가이고, 인상관리는 의도적 응답 왜곡이다.",
+      "key_point": "MMPI에서 L척도는 순박한 사회적 바람직성을, K척도는 정교한 사회적 바람직성을 반영한다.",
+      "common_mistake": "사회적 바람직성이 항상 의도적인 거짓말이라고 생각하는 것 - 자기기만 요소는 본인도 인식하지 못하는 무의식적 과정이다."
+    }
+  },
+  {
+    "id": "PERSON_ACQ_026",
+    "terminology": "묵인편향 (Acquiescence Bias)",
+    "terminology_ko": "묵인편향",
+    "terminology_en": "Acquiescence Bias",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "문항의 내용과 무관하게 '예' 또는 '동의'로 응답하려는 체계적 경향이다. 주로 교육 수준이 낮거나 권위에 순종적인 수검자에서 나타나며, 균형 문항(balanced items) 사용으로 통제할 수 있다.",
+    "definition_en": "A systematic tendency to respond 'yes' or 'agree' regardless of item content. It is more common among examinees with lower education levels or those who are deferential to authority, and can be controlled by using balanced items.",
+    "significance": "진위형이나 리커트형 검사에서 결과를 왜곡할 수 있는 주요 반응편향으로, MMPI-2의 TRIN척도가 이를 탐지하기 위해 개발되었다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "묵인반응세트(acquiescence response set) 개념을 체계화"},
+      {"name_ko": "잭 블록", "name_en": "Jack Block", "contribution": "묵인편향의 영향과 통제 방법에 관한 비판적 분석을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반응편향", "name_en": "Response Bias", "id": "PERSON_RB_024"},
+      {"name_ko": "TRIN척도", "name_en": "TRIN Scale", "id": "PERSON_TRIN_028"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Inventory", "id": "PERSON_SR_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "묵인편향 = '네네' 편향, 무조건 '예'로 답하는 경향",
+      "differential": "묵인편향은 '예'에 편향되고, 부인편향(nay-saying)은 '아니오'에 편향된다.",
+      "key_point": "긍정 문항과 부정 문항을 균형 있게 배치(balanced keying)하면 묵인편향의 영향을 줄일 수 있다.",
+      "common_mistake": "묵인편향을 사회적 바람직성과 혼동하는 것 - 묵인편향은 내용과 무관한 '예' 경향이고, 사회적 바람직성은 내용을 고려한 긍정적 왜곡이다."
+    }
+  },
+  {
+    "id": "PERSON_VRIN_027",
+    "terminology": "VRIN척도 (Variable Response Inconsistency Scale)",
+    "terminology_ko": "VRIN척도",
+    "terminology_en": "Variable Response Inconsistency Scale (VRIN)",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI-2의 타당도척도 중 하나로, 내용이 유사하거나 반대인 문항 쌍에 대한 응답의 일관성을 평가하여 무선반응(random responding)을 탐지한다. 높은 점수는 수검자가 문항 내용을 읽지 않고 무작위로 응답했을 가능성을 시사한다.",
+    "definition_en": "A validity scale of the MMPI-2 that evaluates response consistency across pairs of items with similar or opposite content to detect random responding. High scores suggest the examinee may have responded randomly without reading item content.",
+    "significance": "F척도 상승의 원인이 무선반응인지 실제 병리인지를 감별하는 핵심 척도로, 프로파일 해석의 전제 조건인 반응 일관성을 평가한다.",
+    "key_researchers": [
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2 재표준화 과정에서 VRIN척도를 개발하여 무선반응 탐지 체계를 마련"},
+      {"name_ko": "요시 벤-포라스", "name_en": "Yossef Ben-Porath", "contribution": "VRIN척도의 해석 지침과 절단점을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "TRIN척도", "name_en": "TRIN Scale", "id": "PERSON_TRIN_028"},
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"},
+      {"name_ko": "F척도", "name_en": "F Scale", "id": "PERSON_F_007"},
+      {"name_ko": "반응편향", "name_en": "Response Bias", "id": "PERSON_RB_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "VRIN = Variable(변동적) Response Inconsistency, '이것저것 모순되게 응답'하는 무선반응 탐지",
+      "differential": "VRIN은 무선적 비일관성(random inconsistency)을, TRIN은 고정적 비일관성(fixed inconsistency: 전부 예/전부 아니오)을 탐지한다.",
+      "key_point": "F척도가 높을 때 VRIN이 함께 높으면 무선반응, VRIN이 정상이면 실제 병리나 의도적 과장을 의심한다.",
+      "common_mistake": "VRIN 상승을 의도적 왜곡으로 해석하는 것 - VRIN은 주로 부주의하거나 읽기 어려움으로 인한 무선반응을 반영한다."
+    }
+  },
+  {
+    "id": "PERSON_TRIN_028",
+    "terminology": "TRIN척도 (True Response Inconsistency Scale)",
+    "terminology_ko": "TRIN척도",
+    "terminology_en": "True Response Inconsistency Scale (TRIN)",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI-2의 타당도척도 중 하나로, 내용이 반대인 문항 쌍에 대해 둘 다 '그렇다' 또는 둘 다 '아니다'로 응답하는 고정반응 경향(묵인/부인 편향)을 탐지한다.",
+    "definition_en": "A validity scale of the MMPI-2 that detects fixed responding tendencies (acquiescence or nay-saying bias) by identifying pairs of items with opposite content that are both endorsed as 'true' or both as 'false.'",
+    "significance": "묵인편향과 부인편향이라는 고정반응 양식을 직접적으로 측정하여, 반응 일관성의 또 다른 측면을 평가하고 프로파일 타당성을 확인한다.",
+    "key_researchers": [
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2에 TRIN척도를 추가하여 고정반응 탐지 기능을 강화"},
+      {"name_ko": "요시 벤-포라스", "name_en": "Yossef Ben-Porath", "contribution": "TRIN척도의 점수 해석 체계와 방향성 표기(T/F) 방법을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "VRIN척도", "name_en": "VRIN Scale", "id": "PERSON_VRIN_027"},
+      {"name_ko": "묵인편향", "name_en": "Acquiescence Bias", "id": "PERSON_ACQ_026"},
+      {"name_ko": "타당도척도", "name_en": "Validity Scales", "id": "PERSON_VALID_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TRIN = True Response Inconsistency, '전부 참' 또는 '전부 거짓'으로 찍는 고정반응 탐지",
+      "differential": "TRIN은 일관된 방향의 고정반응(전부 예/전부 아니오)을, VRIN은 무작위적 비일관반응을 탐지한다.",
+      "key_point": "TRIN 점수 방향이 T이면 묵인편향(전부 '그렇다'), F이면 부인편향(전부 '아니다')을 의미한다.",
+      "common_mistake": "TRIN과 VRIN이 같은 것을 측정한다고 생각하는 것 - TRIN은 '고정된' 패턴, VRIN은 '무작위' 패턴의 비일관성이다."
+    }
+  },
+  {
+    "id": "PERSON_HL_029",
+    "terminology": "Harris-Lingoes 소척도 (Harris-Lingoes Subscales)",
+    "terminology_ko": "Harris-Lingoes 소척도",
+    "terminology_en": "Harris-Lingoes Subscales",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "Robert Harris와 Jesse Lingoes가 MMPI 임상척도의 문항 내용을 분석하여 내용적으로 동질적인 하위 문항군으로 분류한 소척도이다. 6개 임상척도(D, Hy, Pd, Pa, Sc, Ma)에 대해 총 28개(MMPI-2에서 31개)의 소척도를 제공한다.",
+    "definition_en": "Subscales developed by Robert Harris and Jesse Lingoes by analyzing the item content of MMPI clinical scales and classifying items into content-homogeneous subgroups. They provide 28 (31 in MMPI-2) subscales for six clinical scales (D, Hy, Pd, Pa, Sc, Ma).",
+    "significance": "이질적인 임상척도의 상승 원인을 세분화하여 파악할 수 있게 하여, 프로파일 해석의 깊이와 정확성을 높인다.",
+    "key_researchers": [
+      {"name_ko": "로버트 해리스", "name_en": "Robert Harris", "contribution": "MMPI 임상척도의 내용 분석을 통해 소척도 체계를 최초로 개발"},
+      {"name_ko": "제시 링고스", "name_en": "Jesse Lingoes", "contribution": "Harris와 공동으로 소척도를 개발하고 체계적으로 분류"}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상척도", "name_en": "Clinical Scales", "id": "PERSON_CLIN_005"},
+      {"name_ko": "프로파일 해석", "name_en": "Profile Interpretation", "id": "PERSON_PROF_012"},
+      {"name_ko": "내용척도", "name_en": "Content Scales", "id": "PERSON_CONT_030"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "D 소척도",
+        "name_en": "D Subscales",
+        "definition": "D1(주관적 우울), D2(정신운동 지연), D3(신체기능 장애), D4(둔감), D5(반추) 등"
+      },
+      {
+        "name_ko": "Sc 소척도",
+        "name_en": "Sc Subscales",
+        "definition": "Sc1(사회적 소외), Sc2(정서적 소외), Sc3(자아통합결여-인지), Sc4(자아통합결여-의지), Sc5(자아통합결여-억제결여), Sc6(기이한 감각경험)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Harris-Lingoes = 임상척도를 '내용'으로 쪼갠 소척도, 6개 임상척도에 대해 존재",
+      "differential": "Harris-Lingoes 소척도는 임상척도를 내용적으로 세분화하고, 내용척도는 전체 문항을 내용 영역별로 재분류한다.",
+      "key_point": "임상척도가 상승했을 때 어떤 내용 영역이 상승에 기여했는지 파악하여 보다 구체적인 해석이 가능하다.",
+      "common_mistake": "Harris-Lingoes 소척도를 독립적으로 해석하는 것 - 해당 임상척도가 상승했을 때만 보조적으로 참고해야 한다."
+    }
+  },
+  {
+    "id": "PERSON_CONT_030",
+    "terminology": "내용척도 (Content Scales)",
+    "terminology_ko": "내용척도",
+    "terminology_en": "Content Scales",
+    "category": "PERSON",
+    "category_name": "성격검사 (객관적) (Objective Personality Tests)",
+    "definition": "MMPI-2에서 James Butcher 등이 문항의 표면 내용을 분석하여 동질적인 내용 영역별로 구성한 15개 척도이다. 불안(ANX), 공포(FRS), 강박(OBS), 우울(DEP), 건강염려(HEA) 등 수검자가 직접 보고한 증상과 관심사를 체계적으로 평가한다.",
+    "definition_en": "Fifteen scales constructed by James Butcher and colleagues for the MMPI-2 by analyzing manifest item content and grouping items into homogeneous content domains, including Anxiety, Fears, Obsessiveness, Depression, and Health Concerns, systematically assessing symptoms and concerns directly reported by examinees.",
+    "significance": "경험적 준거집단법으로 개발된 임상척도와 달리 문항 내용이 척도명과 직접적으로 대응하므로, 수검자의 자기보고 내용을 명확하게 파악할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2 내용척도의 개발을 주도하여 합리적-통계적 방법을 적용"},
+      {"name_ko": "존 그레이엄", "name_en": "John Graham", "contribution": "내용척도의 해석 지침을 체계화하고 임상 활용 방법을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상척도", "name_en": "Clinical Scales", "id": "PERSON_CLIN_005"},
+      {"name_ko": "Harris-Lingoes 소척도", "name_en": "Harris-Lingoes Subscales", "id": "PERSON_HL_029"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSON_MMPI2_001"},
+      {"name_ko": "프로파일 해석", "name_en": "Profile Interpretation", "id": "PERSON_PROF_012"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "내재화 관련 척도",
+        "name_en": "Internalizing Content Scales",
+        "definition": "ANX(불안), FRS(공포), OBS(강박), DEP(우울), HEA(건강염려) 등 내적 경험 관련 척도"
+      },
+      {
+        "name_ko": "외현화 관련 척도",
+        "name_en": "Externalizing Content Scales",
+        "definition": "ANG(분노), CYN(냉소), ASP(반사회적 특성) 등 외적 행동 관련 척도"
+      },
+      {
+        "name_ko": "일반 문제 척도",
+        "name_en": "General Problem Scales",
+        "definition": "TPA(A유형 행동), LSE(낮은 자존감), SOD(사회적 불편감), FAM(가정문제), WRK(직업 곤란), TRT(부정적 치료지표)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "내용척도 = 문항 '내용'이 곧 척도명, 15개, Butcher 개발",
+      "differential": "내용척도는 문항 내용(표면 타당도)에 기반하고, 임상척도는 경험적 변별력(준거타당도)에 기반한다.",
+      "key_point": "내용척도는 수검자의 의식적 자기보고를 반영하므로 방어적 태도에 취약하지만, 해석이 직관적이고 명확하다.",
+      "common_mistake": "내용척도가 임상척도를 대체할 수 있다고 생각하는 것 - 둘은 상호보완적이며 함께 해석해야 한다."
+    }
+  }
+]

@@ -1,0 +1,986 @@
+[
+  {
+    "id": "CONSCIOUS_CONSC_001",
+    "terminology": "의식 (Consciousness)",
+    "terminology_ko": "의식",
+    "terminology_en": "Consciousness",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "자기 자신과 환경을 인식하는 주관적 자각 상태이다. 감각, 사고, 감정 등 내적 경험과 외부 세계에 대한 알아차림을 포괄한다.",
+    "definition_en": "The subjective state of awareness of oneself and the environment. It encompasses the awareness of internal experiences such as sensations, thoughts, and emotions, as well as the external world.",
+    "significance": "의식은 심리학에서 가장 근본적인 연구 주제 중 하나로, Wilhelm Wundt가 구성주의 심리학에서 의식의 구조를 분석한 이래 인지과학과 신경과학의 핵심 탐구 대상이 되었다. 의식의 본질에 관한 연구는 주의, 수면, 약물 등 다양한 하위 영역과 직결된다.",
+    "key_researchers": [
+      {"name_ko": "빌헬름 분트", "name_en": "Wilhelm Wundt", "contribution": "최초의 심리학 실험실을 설립하고 내성법을 통해 의식의 구조를 분석하고자 하였다."},
+      {"name_ko": "윌리엄 제임스", "name_en": "William James", "contribution": "'의식의 흐름(stream of consciousness)' 개념을 제안하여, 의식이 고정된 요소가 아닌 연속적 흐름임을 강조하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "잠재의식", "name_en": "Subconscious", "id": "CONSCIOUS_SUBCO_002"},
+      {"name_ko": "무의식", "name_en": "Unconscious", "id": "CONSCIOUS_UNCON_003"},
+      {"name_ko": "변성의식상태", "name_en": "Altered States of Consciousness", "id": "CONSCIOUS_ASC_024"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "초점 의식",
+        "name_en": "Focal Awareness",
+        "description": "주의를 기울이고 있는 대상에 대한 명확한 자각 상태"
+      },
+      {
+        "name_ko": "주변 의식",
+        "name_en": "Peripheral Awareness",
+        "description": "초점 밖에 있지만 희미하게 인식되는 자각 상태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "의식 = '알아차림(awareness)'. Conscious의 어원은 라틴어 'conscius'(함께 알다)이다.",
+      "differential": "의식은 현재 자각하는 경험 전체이고, 주의(attention)는 그중 특정 자극에 집중하는 과정이다.",
+      "key_point": "William James는 의식을 고정된 상태가 아닌 끊임없이 흘러가는 '의식의 흐름'으로 묘사하였다.",
+      "common_mistake": "의식을 단순히 '깨어 있는 상태'로만 이해하는 것. 의식은 자각의 수준과 내용을 모두 포함하는 넓은 개념이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SUBCO_002",
+    "terminology": "잠재의식 (Subconscious)",
+    "terminology_ko": "잠재의식",
+    "terminology_en": "Subconscious",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "현재 의식적으로 자각하고 있지는 않지만 주의를 기울이면 의식으로 떠올릴 수 있는 정신 활동의 수준이다. 자동화된 습관, 배경 사고 등이 이에 해당한다.",
+    "definition_en": "A level of mental activity that is not currently in conscious awareness but can be brought into awareness with directed attention. Automated habits and background thoughts belong to this level.",
+    "significance": "잠재의식은 의식과 무의식 사이의 중간 수준으로, 일상에서 자동화된 행동(예: 운전 중 무의식적 조작)이 가능한 이유를 설명한다. 현대 인지심리학에서는 자동 처리(automatic processing)의 기반으로 연구된다.",
+    "key_researchers": [
+      {"name_ko": "피에르 자네", "name_en": "Pierre Janet", "contribution": "잠재의식(subconscious) 개념을 체계적으로 사용하여 해리 현상과 자동적 행동을 설명하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"},
+      {"name_ko": "무의식", "name_en": "Unconscious", "id": "CONSCIOUS_UNCON_003"},
+      {"name_ko": "선택적 주의", "name_en": "Selective Attention", "id": "CONSCIOUS_SELAT_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "잠재의식 = '잠자고(잠재) 있지만 깨울 수 있는 의식'. Sub(아래) + conscious(의식) = 의식 바로 아래.",
+      "differential": "잠재의식은 노력하면 의식으로 가져올 수 있지만, 무의식은 일반적으로 직접 접근이 불가능하다.",
+      "key_point": "Freud는 잠재의식이라는 용어 대신 '전의식(preconscious)'을 선호하였다. 잠재의식과 전의식은 유사한 개념이다.",
+      "common_mistake": "잠재의식과 무의식을 같은 것으로 혼동하는 것. 잠재의식은 접근 가능하지만 무의식은 접근이 어렵다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_UNCON_003",
+    "terminology": "무의식 (Unconscious)",
+    "terminology_ko": "무의식",
+    "terminology_en": "Unconscious",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "의식적 자각 밖에 있으며 일반적인 노력으로는 의식으로 가져올 수 없는 정신 과정의 영역이다. 억압된 기억, 근본적 욕구, 자동적 정보 처리 등이 포함된다.",
+    "definition_en": "A realm of mental processes that lies outside conscious awareness and generally cannot be brought into consciousness through ordinary effort. It includes repressed memories, fundamental drives, and automatic information processing.",
+    "significance": "Freud는 무의식이 인간 행동의 가장 강력한 동기를 포함한다고 주장하여 정신분석학의 기초를 놓았다. 현대 심리학에서는 암묵 기억, 점화 효과, 맹시(blindsight) 등의 연구를 통해 무의식적 정보 처리의 존재가 실험적으로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "정신분석학을 창시하여 무의식이 인간 행동과 정신질환의 근본적 원인임을 주장하였다."},
+      {"name_ko": "칼 융", "name_en": "Carl Jung", "contribution": "개인 무의식 외에 집단무의식(collective unconscious) 개념을 제안하여 무의식의 범위를 확장하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"},
+      {"name_ko": "잠재의식", "name_en": "Subconscious", "id": "CONSCIOUS_SUBCO_002"},
+      {"name_ko": "역치하 자극", "name_en": "Subliminal Stimulus", "id": "CONSCIOUS_SUBLM_030"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "개인 무의식",
+        "name_en": "Personal Unconscious",
+        "description": "개인의 억압된 경험과 잊힌 기억으로 구성된 무의식 영역 (Jung의 분류)"
+      },
+      {
+        "name_ko": "집단무의식",
+        "name_en": "Collective Unconscious",
+        "description": "인류 전체가 공유하는 원형(archetype)을 포함하는 보편적 무의식 (Jung의 개념)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "무의식 = '빙산의 수면 아래 부분'. Freud는 의식은 빙산의 일각이고 무의식이 대부분을 차지한다고 비유하였다.",
+      "differential": "무의식은 자각 밖에 있고 직접 접근이 어렵지만, 잠재의식(전의식)은 노력하면 의식으로 가져올 수 있다.",
+      "key_point": "현대 심리학에서 무의식적 처리는 점화(priming), 암묵 학습 등의 실험을 통해 Freud와는 다른 방식으로 입증되었다.",
+      "common_mistake": "무의식 = Freud의 성적 억압이라고만 한정하는 것. 현대적 무의식 개념은 자동적 인지 처리까지 포괄한다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_CIRCAD_004",
+    "terminology": "일주기 리듬 (Circadian Rhythm)",
+    "terminology_ko": "일주기 리듬",
+    "terminology_en": "Circadian Rhythm",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "약 24시간을 주기로 반복되는 생물학적 리듬으로, 수면-각성 주기, 체온, 호르몬 분비 등 신체의 다양한 기능을 조절한다.",
+    "definition_en": "A biological rhythm that repeats approximately every 24 hours, regulating various bodily functions including the sleep-wake cycle, body temperature, and hormone secretion.",
+    "significance": "일주기 리듬은 시상하부의 시교차상핵(SCN)에 의해 조절되며, 빛이 주요 동조 인자(zeitgeber)로 작용한다. 시차적응(jet lag), 교대 근무 장애, 계절성 정동 장애 등 다양한 현상을 이해하는 핵심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "미셸 시프레", "name_en": "Michel Siffre", "contribution": "동굴 격리 실험을 통해 외부 시간 단서 없이도 약 25시간의 내인성 일주기 리듬이 유지됨을 입증하였다."},
+      {"name_ko": "제프리 홀", "name_en": "Jeffrey Hall", "contribution": "Michael Rosbash, Michael Young과 함께 일주기 리듬의 분자적 메커니즘을 밝혀 2017년 노벨 생리의학상을 수상하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "수면주기", "name_en": "Sleep Cycle", "id": "CONSCIOUS_SLCYC_006"},
+      {"name_ko": "렘수면", "name_en": "REM Sleep", "id": "CONSCIOUS_REM_005"},
+      {"name_ko": "불면증", "name_en": "Insomnia", "id": "CONSCIOUS_INSOM_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Circadian = 'circa(약) + diem(하루)' = '약 하루'. 24시간 주기 생체시계.",
+      "differential": "일주기 리듬은 약 24시간 주기이고, 초일주기 리듬(ultradian rhythm)은 24시간보다 짧은 주기(예: 90분 수면주기)이다.",
+      "key_point": "시교차상핵(SCN)이 생체시계의 중추이며, 빛이 가장 강력한 동조 인자(zeitgeber)이다.",
+      "common_mistake": "일주기 리듬이 정확히 24시간이라고 생각하는 것. 실제로는 약 24.2시간이며, 빛에 의해 매일 24시간으로 재설정된다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_REM_005",
+    "terminology": "렘수면 (REM Sleep)",
+    "terminology_ko": "렘수면",
+    "terminology_en": "REM Sleep",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "빠른 안구 운동(Rapid Eye Movement)이 나타나는 수면 단계로, 생생한 꿈이 주로 발생하며 뇌파가 각성 시와 유사하게 활성화된다. 신체 근육은 일시적으로 마비된다.",
+    "definition_en": "A sleep stage characterized by rapid eye movements, during which vivid dreaming primarily occurs and brain waves resemble those of waking. Voluntary muscles are temporarily paralyzed.",
+    "significance": "REM 수면은 기억 공고화, 정서 조절, 학습에 핵심적 역할을 한다. REM 수면 중 뇌는 낮 동안의 경험을 재조직하며, REM 수면 박탈은 집중력 저하, 정서 불안정 등을 초래한다.",
+    "key_researchers": [
+      {"name_ko": "유진 아세린스키", "name_en": "Eugene Aserinsky", "contribution": "Nathaniel Kleitman과 함께 수면 중 빠른 안구 운동(REM)을 최초로 발견하였다(1953)."},
+      {"name_ko": "나다니엘 클라이트먼", "name_en": "Nathaniel Kleitman", "contribution": "수면 연구의 아버지로 불리며, Aserinsky와 함께 REM 수면을 발견하였다."},
+      {"name_ko": "윌리엄 디멘트", "name_en": "William Dement", "contribution": "REM 수면과 꿈의 관계를 체계적으로 연구하고 수면의학 분야를 개척하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "비렘수면", "name_en": "NREM Sleep", "id": "CONSCIOUS_NREM_007"},
+      {"name_ko": "수면주기", "name_en": "Sleep Cycle", "id": "CONSCIOUS_SLCYC_006"},
+      {"name_ko": "자각몽", "name_en": "Lucid Dreaming", "id": "CONSCIOUS_LUCID_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "REM = Rapid Eye Movement. 'R'은 '꿈(dReam)'의 R로 기억하면 좋다.",
+      "differential": "REM 수면은 뇌가 활성화되지만 신체는 마비되고, 비렘수면은 뇌 활동이 감소하지만 신체 움직임이 가능하다.",
+      "key_point": "REM 수면은 밤이 갈수록 길어지며, 수면 후반부에 가장 많이 나타난다. REM 중 근육 마비는 꿈 행동을 방지한다.",
+      "common_mistake": "REM 수면만 꿈이 나타난다고 생각하는 것. 비렘수면에서도 꿈이 발생하지만 덜 생생하다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SLCYC_006",
+    "terminology": "수면주기 (Sleep Cycle)",
+    "terminology_ko": "수면주기",
+    "terminology_en": "Sleep Cycle",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "비렘수면(NREM 1~3단계)과 렘수면(REM)이 순차적으로 반복되는 약 90분 주기의 수면 패턴이다. 하룻밤에 보통 4~5회 반복된다.",
+    "definition_en": "A roughly 90-minute cyclical pattern of sleep in which NREM stages (1 through 3) and REM sleep occur sequentially. This cycle typically repeats 4 to 5 times per night.",
+    "significance": "수면주기를 이해하면 수면의 구조와 질을 평가할 수 있다. 초반 주기에는 서파수면(깊은 수면)의 비중이 크고, 후반 주기에는 REM 수면의 비중이 커져 꿈이 많아진다. 수면주기의 교란은 다양한 수면장애의 원인이 된다.",
+    "key_researchers": [
+      {"name_ko": "나다니엘 클라이트먼", "name_en": "Nathaniel Kleitman", "contribution": "수면 단계와 주기적 패턴을 체계적으로 기술하여 현대 수면 연구의 기틀을 마련하였다."},
+      {"name_ko": "윌리엄 디멘트", "name_en": "William Dement", "contribution": "수면주기의 구조와 REM-NREM 교대 패턴을 상세히 기술하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "렘수면", "name_en": "REM Sleep", "id": "CONSCIOUS_REM_005"},
+      {"name_ko": "비렘수면", "name_en": "NREM Sleep", "id": "CONSCIOUS_NREM_007"},
+      {"name_ko": "서파수면", "name_en": "Slow-Wave Sleep", "id": "CONSCIOUS_SWS_020"},
+      {"name_ko": "수면 방추파", "name_en": "Sleep Spindle", "id": "CONSCIOUS_SPNDL_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수면주기 = '90분 엘리베이터'. NREM 1층→2층→3층(깊은 수면)→다시 올라와서→REM(꿈의 층)을 반복.",
+      "differential": "수면주기는 약 90분의 초일주기 리듬(ultradian rhythm)이고, 수면-각성 주기는 약 24시간의 일주기 리듬이다.",
+      "key_point": "하룻밤에 4~5회 반복되며, 초반 주기는 깊은 수면(서파수면)이, 후반 주기는 REM 수면이 우세하다.",
+      "common_mistake": "수면주기가 항상 동일하다고 생각하는 것. 밤이 깊어질수록 REM 수면은 길어지고 서파수면은 줄어든다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_NREM_007",
+    "terminology": "비렘수면 (NREM Sleep)",
+    "terminology_ko": "비렘수면",
+    "terminology_en": "NREM Sleep",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "빠른 안구 운동이 나타나지 않는 수면 단계의 총칭으로, N1(입면기), N2(경수면), N3(서파수면, 깊은 수면)의 세 단계로 구분된다. 전체 수면의 약 75~80%를 차지한다.",
+    "definition_en": "A collective term for sleep stages without rapid eye movements, divided into three stages: N1 (light sleep onset), N2 (light sleep), and N3 (slow-wave sleep, deep sleep). It comprises approximately 75-80% of total sleep.",
+    "significance": "비렘수면은 신체 회복, 성장호르몬 분비, 면역 기능 강화에 핵심적 역할을 한다. 특히 N3(서파수면)은 신체적 피로 회복과 선언적 기억의 공고화에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 렉트샤펜", "name_en": "Allan Rechtschaffen", "contribution": "Anthony Kales와 함께 수면 단계 분류의 표준 체계(R&K 매뉴얼)를 확립하였다(1968)."},
+      {"name_ko": "앤서니 케일스", "name_en": "Anthony Kales", "contribution": "Rechtschaffen과 함께 수면 단계 채점 기준을 표준화하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "렘수면", "name_en": "REM Sleep", "id": "CONSCIOUS_REM_005"},
+      {"name_ko": "서파수면", "name_en": "Slow-Wave Sleep", "id": "CONSCIOUS_SWS_020"},
+      {"name_ko": "수면 방추파", "name_en": "Sleep Spindle", "id": "CONSCIOUS_SPNDL_019"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "N1 (입면기)",
+        "name_en": "N1 (Sleep Onset)",
+        "description": "각성에서 수면으로 전환되는 가장 얕은 수면 단계로, 세타파가 나타나며 5~10분 지속된다"
+      },
+      {
+        "name_ko": "N2 (경수면)",
+        "name_en": "N2 (Light Sleep)",
+        "description": "수면 방추파와 K-복합체가 나타나는 단계로, 전체 수면의 약 50%를 차지한다"
+      },
+      {
+        "name_ko": "N3 (서파수면)",
+        "name_en": "N3 (Slow-Wave Sleep)",
+        "description": "델타파가 우세한 가장 깊은 수면 단계로, 신체 회복과 성장호르몬 분비가 집중적으로 이루어진다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "NREM = Non-REM. 'N'은 단계 번호와 함께 N1, N2, N3으로 기억. 숫자가 클수록 깊은 수면.",
+      "differential": "NREM은 뇌 활동이 점진적으로 감소하고 신체 회복이 주 기능이지만, REM은 뇌가 활성화되고 정서/기억 처리가 주 기능이다.",
+      "key_point": "N2 단계가 전체 수면의 약 50%로 가장 큰 비중을 차지하며, N3(서파수면)은 수면 전반부에 집중된다.",
+      "common_mistake": "비렘수면이 '쉬는 수면'이라서 덜 중요하다고 생각하는 것. 서파수면은 신체 회복과 기억 공고화에 필수적이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SLDEBT_008",
+    "terminology": "수면 부채 (Sleep Debt)",
+    "terminology_ko": "수면 부채",
+    "terminology_en": "Sleep Debt",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "필요한 수면량을 충족하지 못해 누적된 수면 부족 상태이다. 수면 부채가 쌓이면 인지 능력, 주의력, 정서 조절이 저하되며, 짧은 낮잠으로는 완전히 해소되지 않는다.",
+    "definition_en": "A cumulative state of sleep insufficiency resulting from not meeting one's required sleep amount. Accumulated sleep debt impairs cognitive function, attention, and emotional regulation, and cannot be fully resolved by brief naps.",
+    "significance": "수면 부채 연구는 현대 사회에서 만성적 수면 부족의 심각성을 과학적으로 입증하였다. 수면 부채는 사고 위험 증가, 면역력 저하, 비만, 심혈관 질환 등과 관련되어 공중보건의 중요 의제이다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 디멘트", "name_en": "William Dement", "contribution": "수면 부채(sleep debt) 개념을 대중화하고, 수면 부족의 누적 효과를 체계적으로 연구하였다."},
+      {"name_ko": "데이비드 딩게스", "name_en": "David Dinges", "contribution": "수면 제한 실험을 통해 만성적 수면 부족이 인지 수행에 미치는 누적 효과를 실증하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "불면증", "name_en": "Insomnia", "id": "CONSCIOUS_INSOM_009"},
+      {"name_ko": "일주기 리듬", "name_en": "Circadian Rhythm", "id": "CONSCIOUS_CIRCAD_004"},
+      {"name_ko": "기면증", "name_en": "Narcolepsy", "id": "CONSCIOUS_NARCO_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수면 부채 = '잠의 빚'. 빚은 갚지 않으면 이자처럼 누적되어 인지 능력의 파산을 초래한다.",
+      "differential": "수면 부채는 누적된 수면 부족량이고, 불면증은 수면을 취하기 어려운 수면장애이다.",
+      "key_point": "하루 6시간 수면을 2주 지속하면 이틀 밤을 완전히 새운 것과 비슷한 인지 저하가 나타난다.",
+      "common_mistake": "주말에 몰아서 자면 수면 부채가 완전히 해소된다고 생각하는 것. 만성 수면 부채는 쉽게 회복되지 않는다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_INSOM_009",
+    "terminology": "불면증 (Insomnia)",
+    "terminology_ko": "불면증",
+    "terminology_en": "Insomnia",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "잠들기 어렵거나, 수면을 유지하기 어렵거나, 너무 일찍 깨어나는 것이 반복되는 수면장애이다. 주간 기능 저하를 동반할 때 임상적으로 진단된다.",
+    "definition_en": "A sleep disorder characterized by persistent difficulty initiating sleep, maintaining sleep, or early morning awakening, accompanied by daytime functional impairment.",
+    "significance": "불면증은 가장 흔한 수면장애로 성인의 약 10~15%가 만성 불면증을 경험한다. 불안, 우울증과 높은 공병률을 보이며, 인지행동치료(CBT-I)가 약물치료보다 장기적으로 효과적인 치료법으로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "찰스 모린", "name_en": "Charles Morin", "contribution": "불면증에 대한 인지행동치료(CBT-I)의 효과를 체계적으로 연구하고 표준화하였다."},
+      {"name_ko": "아서 스필먼", "name_en": "Arthur Spielman", "contribution": "불면증의 3P 모형(소인-촉발-지속 요인)을 제안하여 만성 불면증의 발달 과정을 설명하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "수면 부채", "name_en": "Sleep Debt", "id": "CONSCIOUS_SLDEBT_008"},
+      {"name_ko": "수면무호흡증", "name_en": "Sleep Apnea", "id": "CONSCIOUS_APNEA_010"},
+      {"name_ko": "일주기 리듬", "name_en": "Circadian Rhythm", "id": "CONSCIOUS_CIRCAD_004"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "입면 불면증",
+        "name_en": "Sleep-Onset Insomnia",
+        "description": "잠들기까지 30분 이상 걸리는 유형으로, 불안과 관련이 깊다"
+      },
+      {
+        "name_ko": "수면 유지 불면증",
+        "name_en": "Sleep Maintenance Insomnia",
+        "description": "자주 깨거나 다시 잠들기 어려운 유형으로, 우울증과 관련이 깊다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "불면증 = '不眠(잠 못 자는) 症'. Insomnia의 'In'(없다) + 'somnia'(잠) = 잠이 없는 상태.",
+      "differential": "불면증은 잠을 자려고 해도 못 자는 것이고, 수면 부채는 스스로 수면 시간을 줄여서 생기는 부족이다.",
+      "key_point": "불면증의 가장 효과적인 장기 치료법은 약물이 아닌 인지행동치료(CBT-I)이다.",
+      "common_mistake": "불면증 환자에게 수면제가 최선의 치료라고 생각하는 것. 수면제는 단기적 효과만 있고 의존 위험이 있다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_APNEA_010",
+    "terminology": "수면무호흡증 (Sleep Apnea)",
+    "terminology_ko": "수면무호흡증",
+    "terminology_en": "Sleep Apnea",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "수면 중 기도가 반복적으로 막히거나 호흡 조절 중추의 이상으로 호흡이 일시적으로 정지되는 수면장애이다. 코골이, 주간 졸음, 피로를 유발한다.",
+    "definition_en": "A sleep disorder in which breathing repeatedly stops during sleep due to airway obstruction or impaired central respiratory control. It causes snoring, daytime sleepiness, and fatigue.",
+    "significance": "수면무호흡증은 고혈압, 심장질환, 뇌졸중의 위험을 높이는 심각한 건강 문제이다. 폐쇄성 수면무호흡은 성인의 약 2~9%에서 발생하며, 비만이 주요 위험 요인이다. CPAP(지속적 양압 환기)이 표준 치료법이다.",
+    "key_researchers": [
+      {"name_ko": "콜린 설리번", "name_en": "Colin Sullivan", "contribution": "폐쇄성 수면무호흡증 치료를 위한 CPAP(지속적 양압 환기) 장치를 개발하였다(1981)."}
+    ],
+    "related_concepts": [
+      {"name_ko": "불면증", "name_en": "Insomnia", "id": "CONSCIOUS_INSOM_009"},
+      {"name_ko": "수면 부채", "name_en": "Sleep Debt", "id": "CONSCIOUS_SLDEBT_008"},
+      {"name_ko": "기면증", "name_en": "Narcolepsy", "id": "CONSCIOUS_NARCO_018"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "폐쇄성 수면무호흡",
+        "name_en": "Obstructive Sleep Apnea (OSA)",
+        "description": "인후부 근육의 이완으로 기도가 물리적으로 막히는 가장 흔한 유형"
+      },
+      {
+        "name_ko": "중추성 수면무호흡",
+        "name_en": "Central Sleep Apnea",
+        "description": "뇌의 호흡 조절 중추가 호흡 근육에 적절한 신호를 보내지 못하는 유형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Apnea = 'a(없다) + pnea(호흡)' = 호흡이 없는 상태. 수면 중 숨이 멈추는 것.",
+      "differential": "수면무호흡증은 호흡 정지가 핵심이고, 불면증은 잠들기 어려운 것이 핵심이다.",
+      "key_point": "폐쇄성 수면무호흡의 표준 치료는 CPAP이며, 비만이 가장 큰 위험 요인이다.",
+      "common_mistake": "수면무호흡증을 단순한 코골이로 무시하는 것. 치료하지 않으면 심혈관 질환 위험이 크게 높아진다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_HYPNO_011",
+    "terminology": "최면 (Hypnosis)",
+    "terminology_ko": "최면",
+    "terminology_en": "Hypnosis",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "암시에 대한 반응성이 높아진 상태에서 주의가 집중되고 주변 자각이 감소하는 사회적 상호작용 또는 의식 상태이다. 통증 관리, 습관 변화 등에 임상적으로 활용된다.",
+    "definition_en": "A social interaction or state of consciousness in which attention is focused, peripheral awareness is reduced, and responsiveness to suggestion is heightened. It is clinically used for pain management and habit change.",
+    "significance": "최면은 의식의 본질과 암시의 힘에 대한 중요한 연구 도구이다. Hilgard의 해리 이론과 사회인지 이론 사이의 논쟁은 최면의 본질에 대한 이해를 심화시켰으며, 현대 의학에서는 통증 관리와 심리치료에 근거 기반 기법으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "어니스트 힐가드", "name_en": "Ernest Hilgard", "contribution": "최면의 해리 이론(dissociation theory)을 제안하여 최면 상태에서 의식이 분리된다고 주장하였다."},
+      {"name_ko": "니콜라스 스패노스", "name_en": "Nicholas Spanos", "contribution": "최면의 사회인지 이론을 제안하여 최면이 특별한 의식 상태가 아닌 사회적 역할 수행이라고 주장하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "변성의식상태", "name_en": "Altered States of Consciousness", "id": "CONSCIOUS_ASC_024"},
+      {"name_ko": "명상", "name_en": "Meditation", "id": "CONSCIOUS_MEDIT_012"},
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Hypnosis = 그리스 수면의 신 'Hypnos'에서 유래. 하지만 최면은 수면이 아닌 집중된 각성 상태이다.",
+      "differential": "최면은 암시에 의한 집중 상태이고, 명상은 자기 주도적 주의 훈련이다. 둘 다 변성의식상태이지만 기제가 다르다.",
+      "key_point": "최면에 대한 두 이론: 해리 이론(Hilgard) - 의식 분리 / 사회인지 이론(Spanos) - 역할 수행.",
+      "common_mistake": "최면에 걸리면 의지를 완전히 잃는다고 생각하는 것. 최면 상태에서도 자신의 가치관에 반하는 행동은 거부할 수 있다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_MEDIT_012",
+    "terminology": "명상 (Meditation)",
+    "terminology_ko": "명상",
+    "terminology_en": "Meditation",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "주의를 조절하는 체계적인 정신 훈련으로, 특정 대상에 집중하거나 현재 경험을 비판단적으로 관찰함으로써 평온함과 자각을 증진시키는 수련이다.",
+    "definition_en": "A systematic mental practice of regulating attention by focusing on a specific object or non-judgmentally observing present-moment experience, promoting calmness and heightened awareness.",
+    "significance": "명상은 스트레스 감소, 주의력 향상, 정서 조절 개선 등 다양한 심리적 효과가 과학적으로 입증되었다. 마음챙김 명상(MBSR)은 불안, 우울, 만성 통증 치료에 효과적이며, 뇌영상 연구에서 전전두엽 피질의 두께 증가와 편도체 활동 감소가 확인되었다.",
+    "key_researchers": [
+      {"name_ko": "존 카밧진", "name_en": "Jon Kabat-Zinn", "contribution": "마음챙김 기반 스트레스 감소(MBSR) 프로그램을 개발하여 명상의 임상적 활용을 개척하였다."},
+      {"name_ko": "리처드 데이비슨", "name_en": "Richard Davidson", "contribution": "명상이 뇌 구조와 기능에 미치는 영향을 신경과학적으로 연구하여, 명상 훈련이 신경가소성을 촉진함을 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "최면", "name_en": "Hypnosis", "id": "CONSCIOUS_HYPNO_011"},
+      {"name_ko": "변성의식상태", "name_en": "Altered States of Consciousness", "id": "CONSCIOUS_ASC_024"},
+      {"name_ko": "선택적 주의", "name_en": "Selective Attention", "id": "CONSCIOUS_SELAT_028"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "집중 명상",
+        "name_en": "Focused Attention Meditation",
+        "description": "호흡이나 만트라 등 특정 대상에 주의를 집중하는 명상 방식"
+      },
+      {
+        "name_ko": "열린 관찰 명상",
+        "name_en": "Open Monitoring Meditation",
+        "description": "특정 대상 없이 현재 경험을 비판단적으로 관찰하는 마음챙김 명상"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "명상 = '밝을 명(明) + 생각할 상(想)' = 밝게 생각하기. 주의를 조절하여 마음을 밝히는 훈련.",
+      "differential": "명상은 자기 주도적 주의 훈련이고, 최면은 외부 암시에 의한 주의 집중이다.",
+      "key_point": "마음챙김 명상(MBSR)은 전전두엽 피질 두께 증가, 편도체 활동 감소 등 뇌의 구조적/기능적 변화를 유도한다.",
+      "common_mistake": "명상을 단순히 '아무 생각 안 하는 것'으로 이해하는 것. 명상은 주의를 능동적으로 조절하는 적극적 과정이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_TOLER_013",
+    "terminology": "내성 (Tolerance)",
+    "terminology_ko": "내성",
+    "terminology_en": "Tolerance",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "약물을 반복적으로 사용함에 따라 동일한 효과를 얻기 위해 점점 더 많은 양이 필요해지는 현상이다. 신체가 약물에 적응하여 반응성이 감소한 결과이다.",
+    "definition_en": "A phenomenon in which repeated use of a substance leads to a diminished response, requiring progressively larger doses to achieve the same effect. It results from the body's adaptation to the substance.",
+    "significance": "내성은 약물 의존과 중독으로 이어지는 핵심 메커니즘이다. 내성이 발달하면 사용량이 증가하여 과다복용의 위험이 높아진다. 교차내성 현상은 유사한 약물군에 대한 치료 전략 수립에 중요한 고려 사항이다.",
+    "key_researchers": [
+      {"name_ko": "루이스 세이델", "name_en": "Louis Seiden", "contribution": "약물 내성의 신경약리학적 메커니즘을 연구하여 수용체 하향조절의 역할을 규명하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "의존", "name_en": "Dependence", "id": "CONSCIOUS_DEPEN_014"},
+      {"name_ko": "금단증상", "name_en": "Withdrawal Symptoms", "id": "CONSCIOUS_WDRWL_026"},
+      {"name_ko": "교차내성", "name_en": "Cross-Tolerance", "id": "CONSCIOUS_CRTOL_027"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "약리학적 내성",
+        "name_en": "Pharmacological Tolerance",
+        "description": "약물 대사가 빨라지거나 수용체 수가 감소하여 발생하는 생물학적 적응"
+      },
+      {
+        "name_ko": "행동적 내성",
+        "name_en": "Behavioral Tolerance",
+        "description": "약물 효과에도 불구하고 행동을 보상적으로 조절하여 기능을 유지하는 학습된 적응"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "내성 = '내(耐, 견디다) + 성(性)' = 약물을 견디는 성질이 생기는 것. 같은 양으로는 효과가 부족해진다.",
+      "differential": "내성은 '더 많이 필요해지는 것'이고, 의존은 '없으면 안 되는 것'이다. 내성이 의존으로 이어질 수 있다.",
+      "key_point": "내성은 수용체 하향조절(down-regulation)로 발생하며, 약물 사용 중단 후 내성이 사라진 상태에서 이전 용량을 투여하면 과다복용 위험이 있다.",
+      "common_mistake": "내성이 생겼다는 것이 약물에 더 강해졌다는 의미라고 생각하는 것. 오히려 중독과 과다복용의 위험이 높아진 상태이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_DEPEN_014",
+    "terminology": "의존 (Dependence)",
+    "terminology_ko": "의존",
+    "terminology_en": "Dependence",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "약물을 지속적으로 사용하여 신체적 또는 심리적으로 약물 없이는 정상적 기능을 유지하기 어려운 상태이다. 약물 중단 시 금단증상이 나타나는 것이 주요 특징이다.",
+    "definition_en": "A state in which continued substance use has made the body or mind unable to function normally without the substance. The hallmark is the emergence of withdrawal symptoms upon cessation.",
+    "significance": "의존은 약물 남용(substance abuse)에서 물질사용장애(substance use disorder)로의 전환을 이해하는 핵심 개념이다. 신체적 의존과 심리적 의존의 구분은 치료 전략 수립에 중요하며, 많은 약물이 두 가지 의존을 모두 유발한다.",
+    "key_researchers": [
+      {"name_ko": "조지 쿱", "name_en": "George Koob", "contribution": "약물 의존의 신경생물학적 메커니즘을 연구하여, 보상 회로와 스트레스 회로의 불균형이 의존을 유발함을 밝혔다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "CONSCIOUS_TOLER_013"},
+      {"name_ko": "금단증상", "name_en": "Withdrawal Symptoms", "id": "CONSCIOUS_WDRWL_026"},
+      {"name_ko": "억제제", "name_en": "Depressant", "id": "CONSCIOUS_DEPRS_016"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "신체적 의존",
+        "name_en": "Physical Dependence",
+        "description": "약물 중단 시 신체적 금단증상(떨림, 발한, 구역 등)이 나타나는 상태"
+      },
+      {
+        "name_ko": "심리적 의존",
+        "name_en": "Psychological Dependence",
+        "description": "약물에 대한 강렬한 갈망과 정서적 필요가 있는 상태로, 신체적 증상 없이도 발생 가능"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "의존 = 약물에 '의지하여 존재'하는 상태. 약물이 없으면 정상 기능이 불가능해진다.",
+      "differential": "의존은 약물 없이 기능할 수 없는 상태이고, 내성은 같은 효과를 위해 더 많은 양이 필요한 현상이다.",
+      "key_point": "신체적 의존은 금단증상으로 확인되며, 심리적 의존은 갈망(craving)으로 나타난다. 많은 약물이 두 유형 모두 유발한다.",
+      "common_mistake": "카페인이나 처방약에는 의존이 생기지 않는다고 생각하는 것. 카페인도 신체적 의존(두통 등 금단증상)을 유발할 수 있다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_HALLUC_015",
+    "terminology": "환각제 (Hallucinogen)",
+    "terminology_ko": "환각제",
+    "terminology_en": "Hallucinogen",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "지각, 사고, 감정을 현저하게 왜곡시켜 환각이나 비현실적 경험을 유발하는 약물군이다. LSD, 실로시빈(psilocybin), 메스칼린 등이 대표적이다.",
+    "definition_en": "A class of drugs that significantly distort perception, thought, and emotion, producing hallucinations and surreal experiences. LSD, psilocybin, and mescaline are representative examples.",
+    "significance": "환각제는 세로토닌 수용체(특히 5-HT2A)에 작용하여 의식의 본질에 대한 신경과학적 연구에 중요한 도구가 되었다. 최근 실로시빈은 치료저항성 우울증과 PTSD에 대한 치료 가능성이 임상시험에서 보고되고 있다.",
+    "key_researchers": [
+      {"name_ko": "앨버트 호프만", "name_en": "Albert Hofmann", "contribution": "LSD(리세르그산 디에틸아미드)를 합성하고 그 환각 효과를 최초로 발견하였다(1943)."},
+      {"name_ko": "티머시 리어리", "name_en": "Timothy Leary", "contribution": "하버드 대학에서 실로시빈 실험을 수행하여 환각제의 의식 확장 가능성을 연구하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "변성의식상태", "name_en": "Altered States of Consciousness", "id": "CONSCIOUS_ASC_024"},
+      {"name_ko": "억제제", "name_en": "Depressant", "id": "CONSCIOUS_DEPRS_016"},
+      {"name_ko": "각성제", "name_en": "Stimulant", "id": "CONSCIOUS_STIML_017"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "고전적 환각제",
+        "name_en": "Classic Hallucinogens",
+        "description": "세로토닌 수용체에 작용하는 LSD, 실로시빈, 메스칼린 등"
+      },
+      {
+        "name_ko": "해리성 환각제",
+        "name_en": "Dissociative Hallucinogens",
+        "description": "NMDA 수용체를 차단하는 PCP, 케타민 등으로, 신체와 환경으로부터의 분리감을 유발"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Hallucinogen = 'hallucination(환각) + gen(만들다)' = 환각을 만드는 물질.",
+      "differential": "환각제는 지각을 왜곡하고, 억제제는 신경계를 둔화시키며, 각성제는 신경계를 활성화한다.",
+      "key_point": "환각제는 주로 세로토닌(5-HT2A) 수용체에 작용하며, 신체적 의존보다 심리적 효과가 강하다.",
+      "common_mistake": "대마(마리화나)를 환각제로만 분류하는 것. 대마는 환각제, 억제제, 각성제의 특성을 모두 가진 복합 약물이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_DEPRS_016",
+    "terminology": "억제제 (Depressant)",
+    "terminology_ko": "억제제",
+    "terminology_en": "Depressant",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "중추신경계의 활동을 억제하여 신경 기능을 둔화시키는 약물군이다. 불안 감소, 이완, 졸음을 유발하며, 알코올, 바르비투르산염, 벤조디아제핀 등이 포함된다.",
+    "definition_en": "A class of drugs that inhibit central nervous system activity, slowing neural function. They produce anxiety reduction, relaxation, and drowsiness. Examples include alcohol, barbiturates, and benzodiazepines.",
+    "significance": "억제제는 GABA 수용체를 활성화시켜 신경 전달을 억제한다. 가장 널리 사용되는 억제제인 알코올은 판단력 저하, 운동 기능 장애, 기억 상실을 유발하며, 과다 복용 시 호흡 억제로 사망에 이를 수 있다.",
+    "key_researchers": [
+      {"name_ko": "어네스트 노블", "name_en": "Ernest Noble", "contribution": "알코올이 뇌의 도파민 보상 시스템에 미치는 영향과 알코올 의존의 유전적 취약성을 연구하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "각성제", "name_en": "Stimulant", "id": "CONSCIOUS_STIML_017"},
+      {"name_ko": "환각제", "name_en": "Hallucinogen", "id": "CONSCIOUS_HALLUC_015"},
+      {"name_ko": "의존", "name_en": "Dependence", "id": "CONSCIOUS_DEPEN_014"},
+      {"name_ko": "마약성 진통제", "name_en": "Opioid", "id": "CONSCIOUS_OPIOD_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "알코올",
+        "name_en": "Alcohol",
+        "description": "가장 흔히 사용되는 억제제로, 낮은 용량에서는 탈억제로 인해 흥분 행동이 나타남"
+      },
+      {
+        "name_ko": "바르비투르산염",
+        "name_en": "Barbiturates",
+        "description": "수면 유도와 불안 감소에 사용되었으나, 높은 의존성과 과다복용 위험 때문에 사용이 줄어듦"
+      },
+      {
+        "name_ko": "벤조디아제핀",
+        "name_en": "Benzodiazepines",
+        "description": "바르비투르산염보다 안전한 항불안제로, 발리움(Valium), 자낙스(Xanax) 등이 대표적"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Depressant = 'depress(억누르다)' = 신경계를 눌러서 둔화시키는 약물. '기분의 우울(depression)'과 혼동하지 말 것.",
+      "differential": "억제제는 신경계를 '둔화'시키고, 각성제는 신경계를 '활성화'시킨다. 억제제 = 브레이크, 각성제 = 엑셀.",
+      "key_point": "알코올은 억제제이지만, 낮은 용량에서 '흥분'하는 이유는 억제 기능을 먼저 억제(탈억제)하기 때문이다.",
+      "common_mistake": "억제제를 기분을 우울하게 만드는 약물로 오해하는 것. 억제제는 '중추신경계 기능'을 억제하는 것이지 기분이 아니다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_STIML_017",
+    "terminology": "각성제 (Stimulant)",
+    "terminology_ko": "각성제",
+    "terminology_en": "Stimulant",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "중추신경계의 활동을 촉진하여 각성, 에너지, 주의력을 높이는 약물군이다. 카페인, 니코틴, 암페타민, 코카인 등이 포함된다.",
+    "definition_en": "A class of drugs that enhance central nervous system activity, increasing arousal, energy, and attention. Examples include caffeine, nicotine, amphetamines, and cocaine.",
+    "significance": "각성제는 도파민과 노르에피네프린의 활성을 증가시켜 보상 회로를 강하게 자극한다. ADHD 치료에 역설적으로 사용되며(메틸페니데이트), 남용 시 심혈관 문제, 정신증, 심한 의존을 유발할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "로버트 히스", "name_en": "Robert Heath", "contribution": "뇌의 쾌락 중추를 연구하여 각성제가 도파민 보상 경로에 미치는 영향의 신경학적 기반을 제공하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "억제제", "name_en": "Depressant", "id": "CONSCIOUS_DEPRS_016"},
+      {"name_ko": "환각제", "name_en": "Hallucinogen", "id": "CONSCIOUS_HALLUC_015"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "CONSCIOUS_TOLER_013"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "카페인",
+        "name_en": "Caffeine",
+        "description": "세계에서 가장 널리 사용되는 각성제로, 아데노신 수용체를 차단하여 졸음을 억제한다"
+      },
+      {
+        "name_ko": "암페타민",
+        "name_en": "Amphetamines",
+        "description": "도파민과 노르에피네프린 방출을 촉진하는 강력한 각성제로, ADHD 치료제(예: 애더럴)로 사용"
+      },
+      {
+        "name_ko": "코카인",
+        "name_en": "Cocaine",
+        "description": "도파민 재흡수를 차단하여 강한 쾌감을 유발하는 불법 각성제"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Stimulant = 'stimulate(자극하다)' = 신경계를 자극하여 깨워주는 약물. 커피(카페인)가 대표적.",
+      "differential": "각성제는 신경계를 '활성화'시키고, 억제제는 신경계를 '둔화'시킨다.",
+      "key_point": "카페인은 아데노신 수용체 차단으로, 코카인은 도파민 재흡수 차단으로, 암페타민은 도파민 방출 촉진으로 작용한다.",
+      "common_mistake": "ADHD에 각성제를 처방하면 더 흥분할 것이라고 생각하는 것. 각성제가 전전두엽의 주의 조절 기능을 활성화하여 오히려 집중력이 개선된다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_NARCO_018",
+    "terminology": "기면증 (Narcolepsy)",
+    "terminology_ko": "기면증",
+    "terminology_en": "Narcolepsy",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "주간에 갑작스럽고 억제할 수 없는 수면 발작이 반복되는 신경학적 수면장애이다. 탈력발작(cataplexy), 수면 마비, 입면 시 환각 등을 동반할 수 있다.",
+    "definition_en": "A neurological sleep disorder characterized by recurring, uncontrollable episodes of sudden sleep during the day. It may be accompanied by cataplexy, sleep paralysis, and hypnagogic hallucinations.",
+    "significance": "기면증은 시상하부에서 오렉신(하이포크레틴)을 생산하는 신경세포의 소실과 관련이 있다. 이 발견은 수면-각성 조절의 신경생물학적 메커니즘을 이해하는 데 핵심적 기여를 하였으며, 오렉신 수용체를 표적으로 하는 새로운 치료제 개발로 이어졌다.",
+    "key_researchers": [
+      {"name_ko": "에마뉘엘 미뇨", "name_en": "Emmanuel Mignot", "contribution": "기면증이 오렉신(하이포크레틴) 결핍과 관련됨을 발견하여 질환의 생물학적 기반을 규명하였다."},
+      {"name_ko": "마사시 야나기사와", "name_en": "Masashi Yanagisawa", "contribution": "오렉신(하이포크레틴) 신경펩타이드를 발견하여 수면-각성 조절 기제의 이해에 기여하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "렘수면", "name_en": "REM Sleep", "id": "CONSCIOUS_REM_005"},
+      {"name_ko": "수면 부채", "name_en": "Sleep Debt", "id": "CONSCIOUS_SLDEBT_008"},
+      {"name_ko": "수면무호흡증", "name_en": "Sleep Apnea", "id": "CONSCIOUS_APNEA_010"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "제1형 기면증",
+        "name_en": "Narcolepsy Type 1",
+        "description": "탈력발작을 동반하며 오렉신 수치가 저하된 유형"
+      },
+      {
+        "name_ko": "제2형 기면증",
+        "name_en": "Narcolepsy Type 2",
+        "description": "탈력발작 없이 과도한 주간 졸림증만 나타나며 오렉신 수치가 정상인 유형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Narcolepsy = 'narco(마비, 졸음) + lepsy(발작)' = 졸음 발작. 기면증의 '기(嗜)'는 탐닉한다는 뜻, '면(眠)'은 잠.",
+      "differential": "기면증은 신경학적 질환으로 갑작스러운 수면 발작이 특징이고, 수면무호흡증은 호흡 장애로 인한 수면 분절이 특징이다.",
+      "key_point": "기면증의 핵심 원인은 오렉신(하이포크레틴) 생산 신경세포의 소실이다. 탈력발작은 강한 감정에 의해 유발된다.",
+      "common_mistake": "기면증을 단순한 졸림이나 게으름으로 오해하는 것. 기면증은 오렉신 신경세포 손상에 의한 신경학적 질환이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SPNDL_019",
+    "terminology": "수면 방추파 (Sleep Spindle)",
+    "terminology_ko": "수면 방추파",
+    "terminology_en": "Sleep Spindle",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "NREM 수면 2단계(N2)에서 나타나는 12~14Hz의 짧은(0.5~2초) 빠른 뇌파 폭발이다. 시상에서 생성되며 외부 자극으로부터 수면을 보호하는 역할을 한다.",
+    "definition_en": "Brief (0.5-2 second) bursts of rapid brain wave activity at 12-14 Hz that occur during NREM stage 2 (N2) sleep. Generated by the thalamus, they help protect sleep from external stimuli.",
+    "significance": "수면 방추파는 기억 공고화, 특히 선언적 기억과 절차적 기억의 야간 공고화에 중요한 역할을 한다. 수면 방추파의 밀도는 지능 및 학습 능력과 양의 상관을 보이며, 수면의 질을 평가하는 중요한 지표이다.",
+    "key_researchers": [
+      {"name_ko": "미르체아 스테리아데", "name_en": "Mircea Steriade", "contribution": "수면 방추파의 시상-피질 생성 메커니즘을 규명하여 수면 중 뇌파 활동의 신경 기전을 밝혔다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "비렘수면", "name_en": "NREM Sleep", "id": "CONSCIOUS_NREM_007"},
+      {"name_ko": "서파수면", "name_en": "Slow-Wave Sleep", "id": "CONSCIOUS_SWS_020"},
+      {"name_ko": "수면주기", "name_en": "Sleep Cycle", "id": "CONSCIOUS_SLCYC_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "방추파 = '방추(실패) 모양'의 뇌파. EEG에서 가운데가 두텁고 양 끝이 가늘어 방추(spindle)처럼 보인다.",
+      "differential": "수면 방추파는 N2에서 나타나는 빠른 파동이고, 서파(델타파)는 N3에서 나타나는 느린 고진폭 파동이다.",
+      "key_point": "수면 방추파는 시상에서 생성되어 외부 자극을 차단하고, 기억 공고화를 촉진한다. 방추파 밀도는 학습 능력과 상관된다.",
+      "common_mistake": "수면 방추파가 잠이 깨려는 신호라고 오해하는 것. 오히려 외부 소음으로부터 수면을 보호하는 역할을 한다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SWS_020",
+    "terminology": "서파수면 (Slow-Wave Sleep)",
+    "terminology_ko": "서파수면",
+    "terminology_en": "Slow-Wave Sleep",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "NREM 수면 3단계(N3)에 해당하는 가장 깊은 수면 단계로, 0.5~2Hz의 고진폭 델타파가 특징적이다. 이 단계에서 깨우면 강한 수면 관성(sleep inertia)이 나타난다.",
+    "definition_en": "The deepest stage of sleep, corresponding to NREM stage 3 (N3), characterized by high-amplitude delta waves at 0.5-2 Hz. Awakening from this stage produces significant sleep inertia.",
+    "significance": "서파수면은 신체 회복, 성장호르몬 분비, 면역 강화, 선언적 기억 공고화에 필수적이다. 노화에 따라 서파수면이 감소하며, 이는 노인의 기억력 저하 및 건강 문제와 관련된다. 몽유병과 야경증은 이 단계에서 발생한다.",
+    "key_researchers": [
+      {"name_ko": "매슈 워커", "name_en": "Matthew Walker", "contribution": "서파수면이 기억 공고화와 정서 처리에 미치는 역할을 연구하고, 수면 부족의 위험성을 대중에게 알렸다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "비렘수면", "name_en": "NREM Sleep", "id": "CONSCIOUS_NREM_007"},
+      {"name_ko": "수면 방추파", "name_en": "Sleep Spindle", "id": "CONSCIOUS_SPNDL_019"},
+      {"name_ko": "몽유병", "name_en": "Sleepwalking", "id": "CONSCIOUS_SLWLK_021"},
+      {"name_ko": "야경증", "name_en": "Night Terror", "id": "CONSCIOUS_NTERR_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "서파(徐波) = '느린(徐) 파동(波)'. Slow-Wave = 느린 파동. 뇌가 아주 느리고 크게 파동치는 깊은 수면.",
+      "differential": "서파수면(N3)은 델타파가 우세한 가장 깊은 수면이고, N2는 수면 방추파가 특징인 얕은 수면이다.",
+      "key_point": "서파수면은 성장호르몬 분비의 70~80%가 이루어지는 시기이며, 수면 전반부에 집중된다. 몽유병과 야경증이 이 단계에서 발생한다.",
+      "common_mistake": "가장 깊은 수면(서파수면)에서 꿈을 꾼다고 생각하는 것. 생생한 꿈은 주로 REM 수면에서 발생한다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SLWLK_021",
+    "terminology": "몽유병 (Sleepwalking)",
+    "terminology_ko": "몽유병",
+    "terminology_en": "Sleepwalking",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "서파수면(N3) 중에 의식 없이 일어나 걸어 다니거나 복잡한 행동을 하는 수면장애이다. 사건 후 기억하지 못하는 것이 특징이며, 아동기에 가장 흔하다.",
+    "definition_en": "A sleep disorder occurring during slow-wave sleep (N3) in which the person rises and walks or performs complex behaviors without conscious awareness. The individual typically has no memory of the episode. It is most common in childhood.",
+    "significance": "몽유병은 NREM 사건수면(parasomnia)의 대표적 유형으로, 서파수면에서 불완전한 각성이 일어나 운동 피질은 활성화되지만 의식적 자각은 부재한 상태이다. 유전적 요인이 강하며 수면 박탈, 스트레스, 발열이 유발 요인이다.",
+    "key_researchers": [
+      {"name_ko": "안토니오 자디라", "name_en": "Antonio Zadra", "contribution": "몽유병의 유발 요인과 불완전 각성 메커니즘을 연구하여 사건수면의 이해에 기여하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "서파수면", "name_en": "Slow-Wave Sleep", "id": "CONSCIOUS_SWS_020"},
+      {"name_ko": "야경증", "name_en": "Night Terror", "id": "CONSCIOUS_NTERR_022"},
+      {"name_ko": "비렘수면", "name_en": "NREM Sleep", "id": "CONSCIOUS_NREM_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "몽유병 = '꿈(夢)속에서 유(遊, 돌아다닌다)'. Sleepwalking = 'sleep(수면) + walking(걷기)'.",
+      "differential": "몽유병은 서파수면(NREM)에서 발생하고 꿈 내용과 무관하지만, REM 수면 행동 장애는 REM 수면 중 꿈을 행동으로 옮기는 것이다.",
+      "key_point": "몽유병은 서파수면(N3)에서 발생하며 REM 수면의 꿈과는 관련이 없다. 아동의 약 15%가 경험하며 대부분 성장하면 호전된다.",
+      "common_mistake": "몽유병 환자를 깨우면 위험하다는 속설. 깨우는 것이 위험한 것이 아니라, 혼란 상태에서의 부상이 위험한 것이다. 안전하게 침대로 안내하는 것이 최선이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_NTERR_022",
+    "terminology": "야경증 (Night Terror)",
+    "terminology_ko": "야경증",
+    "terminology_en": "Night Terror",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "서파수면(N3) 중에 갑자기 공포에 질려 비명을 지르고 격렬한 자율신경 반응(빠른 심박, 발한)을 보이는 수면장애이다. 사건 후 기억이 없으며 아동기에 흔하다.",
+    "definition_en": "A sleep disorder occurring during slow-wave sleep (N3) characterized by sudden episodes of intense fear with screaming and vigorous autonomic responses (rapid heart rate, sweating). The individual has no memory of the event and it is common in childhood.",
+    "significance": "야경증은 몽유병과 마찬가지로 NREM 사건수면에 속하며, 서파수면에서의 불완전 각성으로 발생한다. 악몽(nightmare)과 달리 REM 수면이 아닌 깊은 수면에서 발생하며, 꿈 내용을 보고하지 않는다는 점에서 구별된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 피셔", "name_en": "Charles Fisher", "contribution": "수면 중 공포 반응의 생리학적 특성을 연구하여 야경증과 악몽의 차이를 체계적으로 규명하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "서파수면", "name_en": "Slow-Wave Sleep", "id": "CONSCIOUS_SWS_020"},
+      {"name_ko": "몽유병", "name_en": "Sleepwalking", "id": "CONSCIOUS_SLWLK_021"},
+      {"name_ko": "비렘수면", "name_en": "NREM Sleep", "id": "CONSCIOUS_NREM_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "야경증 = '밤(夜)에 놀란다(驚)'. Night Terror = 밤의 공포. 서파수면에서 갑자기 비명을 지른다.",
+      "differential": "야경증은 서파수면(N3)에서 발생하고 사건 기억이 없지만, 악몽(nightmare)은 REM 수면에서 발생하고 꿈 내용을 기억한다.",
+      "key_point": "야경증 vs 악몽: 야경증 = NREM, 기억 없음, 격렬한 자율신경 반응 / 악몽 = REM, 꿈 기억, 각성 후 의식 명료.",
+      "common_mistake": "야경증을 '무서운 꿈(악몽)'과 같은 것으로 혼동하는 것. 야경증은 깊은 수면에서 발생하며 꿈 내용이 없다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_LUCID_023",
+    "terminology": "자각몽 (Lucid Dreaming)",
+    "terminology_ko": "자각몽",
+    "terminology_en": "Lucid Dreaming",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "꿈을 꾸는 동안 자신이 꿈을 꾸고 있음을 자각하는 상태이다. 자각몽 상태에서는 꿈의 내용을 의도적으로 조절할 수 있는 경우도 있다.",
+    "definition_en": "A state of dreaming in which the dreamer is aware that they are dreaming. In a lucid dream, the dreamer may sometimes be able to deliberately control the dream content.",
+    "significance": "자각몽은 의식의 본질을 탐구하는 독특한 창을 제공한다. 잠들어 있으면서도 메타인지(자기 상태에 대한 인식)가 가능하다는 점에서 의식-무의식의 경계에 대한 이론적 논의에 기여한다. 악몽 치료와 창의성 연구에 활용 가능성이 연구되고 있다.",
+    "key_researchers": [
+      {"name_ko": "스티븐 라버지", "name_en": "Stephen LaBerge", "contribution": "자각몽의 과학적 연구를 개척하여, REM 수면 중 미리 약속된 안구 운동 신호를 통해 자각몽의 실재를 실험적으로 입증하였다."},
+      {"name_ko": "키스 허른", "name_en": "Keith Hearne", "contribution": "LaBerge와 독립적으로 자각몽 중 안구 운동 신호를 이용한 의사소통 실험을 수행하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "렘수면", "name_en": "REM Sleep", "id": "CONSCIOUS_REM_005"},
+      {"name_ko": "변성의식상태", "name_en": "Altered States of Consciousness", "id": "CONSCIOUS_ASC_024"},
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자각몽 = '자각(自覺, 스스로 깨닫다) + 몽(夢, 꿈)' = 꿈속에서 꿈임을 깨닫는 것. Lucid = 맑은, 명료한.",
+      "differential": "자각몽은 꿈속에서 '꿈임을 아는' 것이고, 일반 꿈은 꿈인지 모르는 상태이다. 자각몽은 REM 수면 중 발생한다.",
+      "key_point": "LaBerge는 자각몽 중 미리 약속된 안구 운동 패턴을 실행하게 하여, 의식적 자각이 REM 수면 중에도 가능함을 증명하였다.",
+      "common_mistake": "자각몽을 수면과 무관한 공상이나 백일몽과 혼동하는 것. 자각몽은 실제 REM 수면 중에 발생하는 수면 현상이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_ASC_024",
+    "terminology": "변성의식상태 (Altered States of Consciousness)",
+    "terminology_ko": "변성의식상태",
+    "terminology_en": "Altered States of Consciousness",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "일상적 깨어 있는 의식과 질적으로 다른 의식 상태의 총칭이다. 수면, 최면, 명상, 약물 사용, 감각 차단 등에 의해 유발될 수 있다.",
+    "definition_en": "A general term for states of consciousness that are qualitatively different from ordinary waking awareness. They can be induced by sleep, hypnosis, meditation, substance use, or sensory deprivation.",
+    "significance": "변성의식상태 연구는 의식의 다양한 층위와 유연성을 보여준다. 서로 다른 유발 요인(약물, 명상, 수면)이 유사한 의식 변화를 일으킬 수 있다는 점은 의식의 신경 기반에 대한 중요한 단서를 제공하며, 임상적 활용(명상 치료, 환각제 보조 치료 등)에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "찰스 타트", "name_en": "Charles Tart", "contribution": "변성의식상태(ASC)의 체계적 분류와 연구를 개척하여 이 분야의 과학적 기틀을 마련하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "최면", "name_en": "Hypnosis", "id": "CONSCIOUS_HYPNO_011"},
+      {"name_ko": "명상", "name_en": "Meditation", "id": "CONSCIOUS_MEDIT_012"},
+      {"name_ko": "환각제", "name_en": "Hallucinogen", "id": "CONSCIOUS_HALLUC_015"},
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "약물 유도 변성의식",
+        "name_en": "Drug-Induced ASC",
+        "description": "환각제, 억제제, 각성제 등 약물에 의해 유발되는 의식 변화"
+      },
+      {
+        "name_ko": "비약물 유도 변성의식",
+        "name_en": "Non-Drug-Induced ASC",
+        "description": "명상, 최면, 감각 차단, 극한 운동 등에 의해 유발되는 의식 변화"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "변성의식 = '변(變, 바뀐) + 성(性, 성질) + 의식' = 성질이 바뀐 의식. ASC = Altered States of Consciousness.",
+      "differential": "변성의식상태는 의식의 질적 변화를 포괄하는 상위 개념이며, 최면, 명상, 약물 효과 등은 그 하위 유형이다.",
+      "key_point": "변성의식상태는 병리적 상태만이 아니다. 수면, 명상, 몰입(flow) 등도 일상적인 변성의식상태에 해당한다.",
+      "common_mistake": "변성의식상태를 반드시 약물이나 비정상적 경험과만 연결짓는 것. 수면과 꿈도 대표적 변성의식상태이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_OPIOD_025",
+    "terminology": "마약성 진통제 (Opioid)",
+    "terminology_ko": "마약성 진통제",
+    "terminology_en": "Opioid",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "뇌와 신체의 오피오이드 수용체에 결합하여 통증을 감소시키고 쾌감을 유발하는 약물군이다. 모르핀, 헤로인, 옥시코돈, 펜타닐 등이 포함되며, 강한 의존성을 지닌다.",
+    "definition_en": "A class of drugs that bind to opioid receptors in the brain and body, reducing pain and producing euphoria. Examples include morphine, heroin, oxycodone, and fentanyl. They carry a high risk of dependence.",
+    "significance": "오피오이드는 내인성 엔도르핀 시스템을 모방하여 강력한 진통과 쾌감을 제공하지만, 높은 내성과 의존성 위험이 있다. 미국의 오피오이드 위기(opioid crisis)는 처방 진통제 남용에서 시작되어 심각한 공중보건 문제가 되었다.",
+    "key_researchers": [
+      {"name_ko": "캔더스 퍼트", "name_en": "Candace Pert", "contribution": "Solomon Snyder와 함께 뇌의 오피오이드 수용체를 발견하여 통증과 쾌감의 신경화학적 기전을 규명하였다(1973)."},
+      {"name_ko": "솔로몬 스나이더", "name_en": "Solomon Snyder", "contribution": "Pert와 함께 오피오이드 수용체를 발견하여 약물 작용 메커니즘의 이해에 기여하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "억제제", "name_en": "Depressant", "id": "CONSCIOUS_DEPRS_016"},
+      {"name_ko": "의존", "name_en": "Dependence", "id": "CONSCIOUS_DEPEN_014"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "CONSCIOUS_TOLER_013"},
+      {"name_ko": "금단증상", "name_en": "Withdrawal Symptoms", "id": "CONSCIOUS_WDRWL_026"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "천연 오피오이드",
+        "name_en": "Natural Opioids",
+        "description": "양귀비에서 추출된 모르핀, 코데인 등"
+      },
+      {
+        "name_ko": "합성 오피오이드",
+        "name_en": "Synthetic Opioids",
+        "description": "화학적으로 합성된 펜타닐, 메타돈 등으로, 모르핀보다 수십~수백 배 강력"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Opioid = 'opium(아편)에서 유래'. 양귀비 → 아편 → 모르핀 → 헤로인으로 이어지는 약물 계열.",
+      "differential": "오피오이드는 오피오이드 수용체에 작용하여 통증을 차단하고, 억제제(예: 알코올)는 GABA 수용체를 활성화하여 신경계를 둔화시킨다.",
+      "key_point": "오피오이드는 내인성 엔도르핀을 모방하며, 내성이 빠르게 발달하여 과다복용 위험이 높다. 과다복용 시 호흡 억제가 치명적이다.",
+      "common_mistake": "처방된 진통제(예: 옥시코돈)는 안전하다고 생각하는 것. 처방 오피오이드도 남용하면 헤로인과 동일한 수준의 의존을 유발한다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_WDRWL_026",
+    "terminology": "금단증상 (Withdrawal Symptoms)",
+    "terminology_ko": "금단증상",
+    "terminology_en": "Withdrawal Symptoms",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "의존이 형성된 약물의 사용을 갑자기 중단하거나 감량할 때 나타나는 신체적, 심리적 불편 증상이다. 약물의 효과와 반대 방향의 증상이 나타나는 것이 특징이다.",
+    "definition_en": "Physical and psychological discomfort symptoms that occur when a substance on which dependence has formed is abruptly discontinued or reduced. Symptoms typically manifest as the opposite of the drug's effects.",
+    "significance": "금단증상의 존재는 신체적 의존의 핵심 증거이다. Solomon의 상대 과정 이론은 약물 효과와 반대되는 보상적 반응이 금단의 메커니즘이라고 설명하며, 금단증상의 심각성(예: 알코올 금단 시 진전섬망)은 의료적 관리가 필수적임을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "리처드 솔로몬", "name_en": "Richard Solomon", "contribution": "상대 과정 이론(Opponent-Process Theory)을 제안하여 약물 사용 후 반대 방향의 보상적 반응이 금단을 유발함을 설명하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "의존", "name_en": "Dependence", "id": "CONSCIOUS_DEPEN_014"},
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "CONSCIOUS_TOLER_013"},
+      {"name_ko": "마약성 진통제", "name_en": "Opioid", "id": "CONSCIOUS_OPIOD_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "신체적 금단",
+        "name_en": "Physical Withdrawal",
+        "description": "떨림, 발한, 구역, 경련, 발열 등 신체적 증상이 주를 이루는 금단 (알코올, 오피오이드 등)"
+      },
+      {
+        "name_ko": "심리적 금단",
+        "name_en": "Psychological Withdrawal",
+        "description": "불안, 우울, 갈망, 초조함 등 정서적 증상이 주를 이루는 금단 (코카인, 대마 등)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "금단 = '끊을 금(禁) + 끊을 단(斷)' = 약물을 끊었을 때. Withdrawal = 약물을 '철수'시키면 나타나는 반응.",
+      "differential": "금단증상은 약물 '중단' 후 나타나고, 부작용(side effect)은 약물 '사용 중'에 나타난다.",
+      "key_point": "금단증상은 대체로 약물 효과의 반대 방향으로 나타난다. 예: 억제제(알코올) 금단 → 과각성, 경련 / 각성제 금단 → 피로, 우울.",
+      "common_mistake": "모든 약물의 금단증상이 같다고 생각하는 것. 알코올과 벤조디아제핀의 금단은 생명을 위협할 수 있지만, 카페인 금단은 비교적 경미하다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_CRTOL_027",
+    "terminology": "교차내성 (Cross-Tolerance)",
+    "terminology_ko": "교차내성",
+    "terminology_en": "Cross-Tolerance",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "한 약물에 대한 내성이 형성되면 유사한 작용 메커니즘을 가진 다른 약물에 대해서도 내성이 나타나는 현상이다. 같은 수용체 계열에 작용하는 약물 간에 발생한다.",
+    "definition_en": "A phenomenon in which tolerance to one substance extends to other substances with similar mechanisms of action. It occurs between drugs that act on the same receptor systems.",
+    "significance": "교차내성은 약물 치료와 남용 관리에 중요한 임상적 함의를 가진다. 예를 들어, 알코올에 내성이 있는 사람은 바르비투르산염에도 내성을 보이므로 마취 용량 조절이 필요하다. 또한 LSD와 실로시빈 간의 교차내성은 이들이 같은 수용체에 작용함을 시사한다.",
+    "key_researchers": [
+      {"name_ko": "해럴드 칼런트", "name_en": "Harold Kalant", "contribution": "교차내성과 교차의존의 약리학적 메커니즘을 연구하여 약물 상호작용의 이해에 기여하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "내성", "name_en": "Tolerance", "id": "CONSCIOUS_TOLER_013"},
+      {"name_ko": "억제제", "name_en": "Depressant", "id": "CONSCIOUS_DEPRS_016"},
+      {"name_ko": "환각제", "name_en": "Hallucinogen", "id": "CONSCIOUS_HALLUC_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교차내성 = '교차(交叉, 서로 넘나드는) + 내성' = 내성이 약물 간에 교차하여 넘어간다.",
+      "differential": "교차내성은 내성이 다른 약물로 '전이'되는 것이고, 단순 내성은 한 약물에 대한 반응 감소이다.",
+      "key_point": "교차내성의 대표적 예: 알코올 ↔ 바르비투르산염 ↔ 벤조디아제핀 (모두 GABA 수용체 작용), LSD ↔ 실로시빈 (모두 5-HT2A 수용체 작용).",
+      "common_mistake": "교차내성이 모든 약물 간에 발생한다고 생각하는 것. 동일한 수용체 계열에 작용하는 약물 간에만 교차내성이 나타난다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SELAT_028",
+    "terminology": "선택적 주의 (Selective Attention)",
+    "terminology_ko": "선택적 주의",
+    "terminology_en": "Selective Attention",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "여러 자극 중 특정 자극에 의식적 주의를 집중하고 나머지 자극은 무시하는 능력이다. 제한된 인지 자원을 효율적으로 배분하는 핵심 기제이다.",
+    "definition_en": "The ability to focus conscious attention on a specific stimulus among many while ignoring others. It is a core mechanism for efficiently allocating limited cognitive resources.",
+    "significance": "선택적 주의는 의식적 경험의 범위를 결정하는 핵심 과정이다. Broadbent의 초기 선택 모형에서 시작된 주의 연구는 Treisman의 감쇠 모형, Deutsch의 후기 선택 모형 등으로 발전하였으며, 비주의 맹시(inattentional blindness) 연구로 의식과 주의의 관계가 재조명되었다.",
+    "key_researchers": [
+      {"name_ko": "도널드 브로드벤트", "name_en": "Donald Broadbent", "contribution": "여과기 모형(Filter Model)을 제안하여 선택적 주의가 처리 초기에 정보를 여과한다고 주장하였다(1958)."},
+      {"name_ko": "앤 트레이스만", "name_en": "Anne Treisman", "contribution": "감쇠 모형(Attenuation Model)을 제안하여 무시된 정보도 약화되어 처리된다고 수정하였다."},
+      {"name_ko": "대니얼 사이먼스", "name_en": "Daniel Simons", "contribution": "Christopher Chabris와 함께 보이지 않는 고릴라 실험으로 비주의 맹시를 극적으로 시연하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "칵테일파티 효과", "name_en": "Cocktail Party Effect", "id": "CONSCIOUS_CKTL_029"},
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"},
+      {"name_ko": "역치하 자극", "name_en": "Subliminal Stimulus", "id": "CONSCIOUS_SUBLM_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선택적 주의 = '스포트라이트'. 무대 위 많은 배우 중 조명이 비추는 한 명에게만 주의를 집중하는 것.",
+      "differential": "선택적 주의는 특정 자극에 '집중'하는 것이고, 분할 주의(divided attention)는 여러 자극에 '동시에' 주의를 나누는 것이다.",
+      "key_point": "Broadbent의 여과기 모형(초기 선택) vs Treisman의 감쇠 모형(약화) vs Deutsch의 후기 선택 모형의 차이를 구분해야 한다.",
+      "common_mistake": "선택적 주의에서 무시된 정보가 전혀 처리되지 않는다고 생각하는 것. Treisman의 감쇠 모형에 따르면 무시된 정보도 약화되어 일부 처리된다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_CKTL_029",
+    "terminology": "칵테일파티 효과 (Cocktail Party Effect)",
+    "terminology_ko": "칵테일파티 효과",
+    "terminology_en": "Cocktail Party Effect",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "소음이 가득한 환경에서도 자신의 이름이나 관심 있는 정보가 언급되면 자동적으로 주의가 전환되는 현상이다. 선택적 주의의 대표적 예시이다.",
+    "definition_en": "The phenomenon of automatically shifting attention when one's name or personally relevant information is mentioned in a noisy environment. It is a classic example of selective attention.",
+    "significance": "칵테일파티 효과는 무시된 채널의 정보도 어느 정도 처리된다는 증거로, Broadbent의 엄격한 여과기 모형에 대한 반론이 되었다. Treisman의 감쇠 모형은 이 현상을 설명하기 위해 제안되었으며, 주의와 의식의 관계를 이해하는 데 핵심적 사례이다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 콜린 체리", "name_en": "Edward Colin Cherry", "contribution": "양이 분리 청취(dichotic listening) 실험을 통해 칵테일파티 효과를 최초로 과학적으로 기술하였다(1953)."},
+      {"name_ko": "나빌 모레이", "name_en": "Neville Moray", "contribution": "양이 분리 청취 실험에서 무시된 채널의 자기 이름이 탐지됨을 실증하여 칵테일파티 효과를 확인하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "선택적 주의", "name_en": "Selective Attention", "id": "CONSCIOUS_SELAT_028"},
+      {"name_ko": "잠재의식", "name_en": "Subconscious", "id": "CONSCIOUS_SUBCO_002"},
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "칵테일파티 효과 = 시끄러운 파티에서도 누가 내 이름을 부르면 들린다! 수많은 대화 중 '나'에게 관련된 정보에 귀가 쏠린다.",
+      "differential": "칵테일파티 효과는 무시된 정보의 일부 처리를 보여주고, 비주의 맹시는 주의하지 않은 시각 자극을 못 보는 것을 보여준다.",
+      "key_point": "Cherry의 양이 분리 청취 실험이 원조이며, 이 현상은 Broadbent의 초기 선택 모형에 대한 도전이 되었다.",
+      "common_mistake": "칵테일파티 효과가 의식적으로 모든 대화를 동시에 듣는 것이라고 생각하는 것. 실제로는 무시된 채널의 특정 자극(자기 이름)에만 자동 반응하는 것이다."
+    }
+  },
+  {
+    "id": "CONSCIOUS_SUBLM_030",
+    "terminology": "역치하 자극 (Subliminal Stimulus)",
+    "terminology_ko": "역치하 자극",
+    "terminology_en": "Subliminal Stimulus",
+    "category": "CONSCIOUS",
+    "category_name": "의식 (Consciousness)",
+    "definition": "의식적으로 지각할 수 있는 절대 역치(absolute threshold) 아래의 자극으로, 자각하지 못하지만 행동이나 판단에 미묘한 영향을 미칠 수 있다.",
+    "definition_en": "A stimulus below the absolute threshold of conscious perception that cannot be consciously detected but may subtly influence behavior or judgment.",
+    "significance": "역치하 자극은 의식적 자각 없이도 정보가 처리될 수 있는지를 검증하는 핵심 연구 주제이다. 역치하 점화(subliminal priming) 연구에서 미약하지만 측정 가능한 효과가 확인되었으나, 역치하 광고가 행동을 크게 변화시킨다는 주장은 과학적으로 지지되지 않는다.",
+    "key_researchers": [
+      {"name_ko": "필립 메리클", "name_en": "Philip Merikle", "contribution": "역치하 지각의 실재를 엄격한 실험 방법론으로 검증하여, 의식적 자각 없이도 정보 처리가 가능함을 입증하였다."},
+      {"name_ko": "앤서니 마르셀", "name_en": "Anthony Marcel", "contribution": "역치하 점화 실험을 통해 의식적 지각 없이도 의미적 처리가 이루어짐을 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "무의식", "name_en": "Unconscious", "id": "CONSCIOUS_UNCON_003"},
+      {"name_ko": "선택적 주의", "name_en": "Selective Attention", "id": "CONSCIOUS_SELAT_028"},
+      {"name_ko": "의식", "name_en": "Consciousness", "id": "CONSCIOUS_CONSC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역치하 = '역치(threshold) 아래(下)'. Subliminal = 'sub(아래) + limen(역치)' = 역치 아래. 의식의 문턱 아래 자극.",
+      "differential": "역치하 자극은 절대 역치 '아래'여서 자각할 수 없고, 역치상 자극(supraliminal)은 역치 '위'여서 자각 가능하다.",
+      "key_point": "역치하 점화는 실험실에서 미약한 효과가 확인되지만, 역치하 광고가 소비 행동을 크게 바꾼다는 속설은 과학적 근거가 부족하다.",
+      "common_mistake": "영화관에서 역치하 메시지를 삽입하면 관객의 행동을 조종할 수 있다는 속설(Vicary의 팝콘 실험). 이 실험은 조작된 것으로 밝혀졌다."
+    }
+  }
+]

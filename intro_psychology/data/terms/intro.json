@@ -1,0 +1,921 @@
+[
+  {
+    "id": "INTRO_PSY_001",
+    "terminology": "심리학 (Psychology)",
+    "terminology_ko": "심리학",
+    "terminology_en": "Psychology",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "행동과 정신과정을 과학적으로 연구하는 학문으로, 관찰 가능한 행동뿐만 아니라 사고, 감정, 지각 등 내적 과정까지 포함한다.",
+    "definition_en": "The scientific study of behavior and mental processes, encompassing not only observable behavior but also internal processes such as thoughts, feelings, and perceptions.",
+    "significance": "모든 심리학 하위 분야의 토대가 되는 학문 정의로, 과학적 방법론을 통해 인간의 마음과 행동을 이해하고자 하는 체계적 노력을 대표한다.",
+    "key_researchers": [
+      {"name_ko": "빌헬름 분트", "name_en": "Wilhelm Wundt", "contribution": "1879년 최초의 심리학 실험실을 라이프치히 대학에 설립하여 심리학을 독립적인 과학으로 정립했다."},
+      {"name_ko": "윌리엄 제임스", "name_en": "William James", "contribution": "미국 심리학의 아버지로, 'Principles of Psychology'를 저술하여 심리학의 학문적 기틀을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조주의", "name_en": "Structuralism", "id": "INTRO_STRU_002"},
+      {"name_ko": "기능주의", "name_en": "Functionalism", "id": "INTRO_FUNC_003"},
+      {"name_ko": "내성법", "name_en": "Introspection", "id": "INTRO_INTR_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Psyche(영혼) + Logos(학문) = 마음의 학문",
+      "differential": "정신의학(Psychiatry)은 의학 분야로 치료에 초점을 두지만, 심리학은 행동과 정신과정의 과학적 연구에 초점을 둔다.",
+      "key_point": "심리학은 '행동'과 '정신과정' 모두를 연구 대상으로 한다는 점이 핵심이다.",
+      "common_mistake": "심리학을 마음을 읽는 학문이나 상담만 하는 학문으로 오해하는 경우가 많으나, 과학적 방법론에 기반한 광범위한 학문이다."
+    }
+  },
+  {
+    "id": "INTRO_STRU_002",
+    "terminology": "구조주의 (Structuralism)",
+    "terminology_ko": "구조주의",
+    "terminology_en": "Structuralism",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "의식 경험을 가장 기본적인 요소로 분해하여 그 구조를 밝히고자 한 초기 심리학 학파로, 내성법을 주된 연구 방법으로 사용했다.",
+    "definition_en": "An early school of psychology that sought to identify the basic elements of conscious experience by breaking it down into its simplest components, primarily using the method of introspection.",
+    "significance": "심리학을 철학에서 분리하여 독립적 과학으로 출발시킨 최초의 학파로, 체계적 실험 방법의 도입이라는 역사적 의의가 있다.",
+    "key_researchers": [
+      {"name_ko": "빌헬름 분트", "name_en": "Wilhelm Wundt", "contribution": "구조주의의 창시자로, 의식 경험의 기본 요소를 분석하기 위해 실험적 내성법을 도입했다."},
+      {"name_ko": "에드워드 티치너", "name_en": "Edward Titchener", "contribution": "분트의 제자로, 구조주의라는 용어를 만들고 미국에서 이 학파를 체계적으로 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능주의", "name_en": "Functionalism", "id": "INTRO_FUNC_003"},
+      {"name_ko": "내성법", "name_en": "Introspection", "id": "INTRO_INTR_008"},
+      {"name_ko": "심리학", "name_en": "Psychology", "id": "INTRO_PSY_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구조(Structure)를 분석 = 의식의 기본 요소를 쪼개서 분석",
+      "differential": "구조주의는 의식의 '구조(무엇)'에, 기능주의는 의식의 '기능(왜, 어떻게)'에 관심을 둔다.",
+      "key_point": "내성법이라는 방법론적 한계로 인해 쇠퇴했지만, 심리학을 과학으로 정립한 역사적 의의가 크다.",
+      "common_mistake": "분트가 '구조주의'라는 용어를 직접 사용한 것이 아니라, 제자 티치너가 명명했다."
+    }
+  },
+  {
+    "id": "INTRO_FUNC_003",
+    "terminology": "기능주의 (Functionalism)",
+    "terminology_ko": "기능주의",
+    "terminology_en": "Functionalism",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "의식의 구조보다 기능에 초점을 맞추어, 정신과정이 유기체의 환경 적응에 어떻게 기여하는지를 연구한 심리학 학파이다.",
+    "definition_en": "A school of psychology that focused on the function rather than structure of consciousness, studying how mental processes help organisms adapt to their environment.",
+    "significance": "다윈의 진화론에 영향을 받아 심리학의 연구 범위를 확장하였으며, 응용심리학과 교육심리학 발전의 토대가 되었다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 제임스", "name_en": "William James", "contribution": "기능주의의 핵심 인물로, 의식의 흐름(stream of consciousness) 개념을 제시하고 실용적 관점을 강조했다."},
+      {"name_ko": "존 듀이", "name_en": "John Dewey", "contribution": "기능주의를 교육 분야에 적용하여 진보적 교육운동의 이론적 기반을 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조주의", "name_en": "Structuralism", "id": "INTRO_STRU_002"},
+      {"name_ko": "진화심리학", "name_en": "Evolutionary Psychology", "id": "INTRO_EVOL_021"},
+      {"name_ko": "심리학", "name_en": "Psychology", "id": "INTRO_PSY_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기능(Function) = '왜' 그런 마음이 존재하는가에 초점",
+      "differential": "구조주의가 의식의 '내용'을 분석한 반면, 기능주의는 의식의 '목적과 기능'을 탐구했다.",
+      "key_point": "다윈의 자연선택 이론에 영향을 받아 적응적 기능을 강조한 점이 핵심이다.",
+      "common_mistake": "기능주의가 하나의 통합된 이론 체계였다고 오해하기 쉽지만, 실제로는 다양한 관점의 느슨한 연합이었다."
+    }
+  },
+  {
+    "id": "INTRO_BEHV_004",
+    "terminology": "행동주의 (Behaviorism)",
+    "terminology_ko": "행동주의",
+    "terminology_en": "Behaviorism",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "관찰 가능한 행동만을 심리학의 연구 대상으로 삼고, 자극과 반응의 관계를 통해 행동을 설명하고자 한 심리학 학파이다.",
+    "definition_en": "A school of psychology that defines psychology as the scientific study of observable behavior, explaining behavior through stimulus-response relationships while rejecting the study of unobservable mental processes.",
+    "significance": "심리학을 주관적 내성에서 객관적 과학으로 전환시키는 데 기여했으며, 학습이론 및 행동치료의 발전에 결정적 역할을 했다.",
+    "key_researchers": [
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "행동주의의 창시자로, 1913년 '행동주의자가 본 심리학' 선언문을 발표하여 관찰 가능한 행동만을 연구 대상으로 주장했다."},
+      {"name_ko": "버러스 스키너", "name_en": "B.F. Skinner", "contribution": "급진적 행동주의를 발전시키고, 조작적 조건형성의 원리를 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조주의", "name_en": "Structuralism", "id": "INTRO_STRU_002"},
+      {"name_ko": "인지심리학", "name_en": "Cognitive Psychology", "id": "INTRO_COGN_007"},
+      {"name_ko": "조작적 정의", "name_en": "Operational Definition", "id": "INTRO_OPDF_020"}
+    ],
+    "sub_types": [
+      {
+        "id": "INTRO_BEHV_SUB_01",
+        "name": "고전적 행동주의 (Classical Behaviorism)",
+        "name_ko": "고전적 행동주의",
+        "name_en": "Classical Behaviorism",
+        "definition": "왓슨이 주창한 초기 행동주의로, 모든 행동을 자극-반응(S-R) 관계로 설명한다."
+      },
+      {
+        "id": "INTRO_BEHV_SUB_02",
+        "name": "급진적 행동주의 (Radical Behaviorism)",
+        "name_ko": "급진적 행동주의",
+        "name_en": "Radical Behaviorism",
+        "definition": "스키너가 발전시킨 행동주의로, 사적 사건(private events)도 행동으로 간주하되 내적 원인으로 보지 않는다."
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Behavior(행동)만 본다 = 관찰 가능한 것만 과학적 연구 대상",
+      "differential": "행동주의는 관찰 가능한 '행동'에만, 인지심리학은 관찰 불가능한 '정신과정'에도 관심을 둔다.",
+      "key_point": "왓슨(1913)의 선언이 시작점이며, 스키너의 조작적 조건형성으로 정점에 이르렀다.",
+      "common_mistake": "스키너의 급진적 행동주의는 내적 사건의 '존재'를 부정한 것이 아니라, 그것이 행동의 '원인'이라는 설명을 거부한 것이다."
+    }
+  },
+  {
+    "id": "INTRO_PSYA_005",
+    "terminology": "정신분석 (Psychoanalysis)",
+    "terminology_ko": "정신분석",
+    "terminology_en": "Psychoanalysis",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "무의식적 동기와 갈등이 인간의 행동, 사고, 감정을 결정한다고 보는 이론 체계이자 치료법으로, 자유연상, 꿈의 해석 등을 통해 무의식을 탐색한다.",
+    "definition_en": "A theory and therapeutic approach that emphasizes the role of unconscious motives and conflicts in determining behavior, thoughts, and feelings, using techniques such as free association and dream interpretation to explore the unconscious.",
+    "significance": "무의식의 개념을 체계화하여 심리학, 정신의학, 문화 전반에 걸쳐 지대한 영향을 미쳤으며, 심리치료의 기원이 되었다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "정신분석의 창시자로, 무의식, 이드-자아-초자아 구조, 심리성적 발달단계 등의 핵심 개념을 제시했다."},
+      {"name_ko": "카를 융", "name_en": "Carl Jung", "contribution": "분석심리학을 창시하여 집단무의식과 원형 개념을 도입했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인본주의 심리학", "name_en": "Humanistic Psychology", "id": "INTRO_HUMN_006"},
+      {"name_ko": "행동주의", "name_en": "Behaviorism", "id": "INTRO_BEHV_004"},
+      {"name_ko": "사례연구", "name_en": "Case Study", "id": "INTRO_CASE_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Psycho(마음) + Analysis(분석) = 무의식의 마음을 분석",
+      "differential": "행동주의가 관찰 가능한 행동에 초점을 둔 반면, 정신분석은 관찰 불가능한 무의식적 과정에 초점을 둔다.",
+      "key_point": "프로이트가 제시한 '무의식'의 개념이 핵심이며, 과학적 검증 가능성에 대한 비판이 주요 논쟁점이다.",
+      "common_mistake": "정신분석을 단순한 상담 기법으로 오해하기 쉽지만, 인간 본성에 대한 포괄적 이론 체계이다."
+    }
+  },
+  {
+    "id": "INTRO_HUMN_006",
+    "terminology": "인본주의 심리학 (Humanistic Psychology)",
+    "terminology_ko": "인본주의 심리학",
+    "terminology_en": "Humanistic Psychology",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "인간의 자유의지, 자아실현 욕구, 개인적 성장 가능성을 강조하며, 행동주의와 정신분석에 대한 대안으로 등장한 '제3세력' 심리학이다.",
+    "definition_en": "A psychological perspective emphasizing free will, self-actualization, and personal growth potential, emerging as the 'third force' in psychology as an alternative to behaviorism and psychoanalysis.",
+    "significance": "인간의 긍정적 측면과 잠재력에 주목하여 상담심리학, 긍정심리학의 발전에 기여했으며, 내담자 중심 치료의 기반이 되었다.",
+    "key_researchers": [
+      {"name_ko": "에이브러햄 매슬로", "name_en": "Abraham Maslow", "contribution": "욕구위계이론과 자아실현(self-actualization) 개념을 제시하여 인본주의 심리학의 이론적 토대를 마련했다."},
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심 치료(person-centered therapy)를 개발하고, 무조건적 긍정적 존중의 중요성을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신분석", "name_en": "Psychoanalysis", "id": "INTRO_PSYA_005"},
+      {"name_ko": "행동주의", "name_en": "Behaviorism", "id": "INTRO_BEHV_004"},
+      {"name_ko": "심리학", "name_en": "Psychology", "id": "INTRO_PSY_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "제3세력: (1)정신분석 → (2)행동주의 → (3)인본주의",
+      "differential": "정신분석이 무의식적 갈등을, 행동주의가 환경적 조건을 강조한 반면, 인본주의는 의식적 경험과 자유의지를 강조한다.",
+      "key_point": "'제3세력(third force)'으로서 행동주의와 정신분석 모두에 대한 반발로 등장했다는 역사적 맥락이 핵심이다.",
+      "common_mistake": "인본주의가 과학적 연구를 완전히 거부한 것은 아니지만, 주관적 경험 강조로 인해 실증 연구가 상대적으로 부족하다는 비판을 받는다."
+    }
+  },
+  {
+    "id": "INTRO_COGN_007",
+    "terminology": "인지심리학 (Cognitive Psychology)",
+    "terminology_ko": "인지심리학",
+    "terminology_en": "Cognitive Psychology",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "지각, 기억, 사고, 언어, 문제해결 등 정신적 과정을 과학적으로 연구하는 심리학 분야로, 인간의 마음을 정보처리 체계로 이해한다.",
+    "definition_en": "The scientific study of mental processes including perception, memory, thinking, language, and problem-solving, understanding the human mind as an information-processing system.",
+    "significance": "1950~60년대 '인지 혁명'을 통해 행동주의의 한계를 극복하고 현대 심리학의 지배적 패러다임이 되었으며, 인지과학의 핵심 분야이다.",
+    "key_researchers": [
+      {"name_ko": "울릭 나이서", "name_en": "Ulric Neisser", "contribution": "1967년 'Cognitive Psychology'를 출간하여 인지심리학이라는 분야의 이름과 정체성을 확립했다."},
+      {"name_ko": "노엄 촘스키", "name_en": "Noam Chomsky", "contribution": "스키너의 언어행동론을 비판하여 인지 혁명의 촉발에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동주의", "name_en": "Behaviorism", "id": "INTRO_BEHV_004"},
+      {"name_ko": "내성법", "name_en": "Introspection", "id": "INTRO_INTR_008"},
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인지(Cognition) = 정보를 처리하는 마음의 과정",
+      "differential": "행동주의가 '블랙박스' 내부를 무시한 반면, 인지심리학은 자극과 반응 사이의 '정신과정'을 과학적으로 연구한다.",
+      "key_point": "1950~60년대 '인지 혁명(cognitive revolution)'을 통해 행동주의를 대체한 패러다임이라는 점이 핵심이다.",
+      "common_mistake": "인지심리학은 내성법으로의 회귀가 아니라, 실험적 방법으로 정신과정을 '간접적으로' 연구한다는 점에서 구조주의와 다르다."
+    }
+  },
+  {
+    "id": "INTRO_INTR_008",
+    "terminology": "내성법 (Introspection)",
+    "terminology_ko": "내성법",
+    "terminology_en": "Introspection",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "자신의 의식적 경험을 체계적으로 관찰하고 보고하는 연구 방법으로, 구조주의 심리학의 주된 연구 도구였다.",
+    "definition_en": "A research method involving the systematic observation and reporting of one's own conscious experiences, used as the primary tool of structuralist psychology.",
+    "significance": "심리학 초기에 의식 연구의 유일한 방법이었으나, 주관성과 재현 불가능성이라는 한계로 인해 행동주의 대두의 계기가 되었다.",
+    "key_researchers": [
+      {"name_ko": "빌헬름 분트", "name_en": "Wilhelm Wundt", "contribution": "훈련된 관찰자에 의한 실험적 내성법을 도입하여 의식의 요소를 분석하고자 했다."},
+      {"name_ko": "에드워드 티치너", "name_en": "Edward Titchener", "contribution": "분석적 내성법을 더욱 엄격하게 체계화하여 의식 경험의 기본 요소를 분류하고자 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조주의", "name_en": "Structuralism", "id": "INTRO_STRU_002"},
+      {"name_ko": "행동주의", "name_en": "Behaviorism", "id": "INTRO_BEHV_004"},
+      {"name_ko": "심리학", "name_en": "Psychology", "id": "INTRO_PSY_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내성(內省) = 안(內)을 살핀다(省) = 자기 마음속을 들여다봄",
+      "differential": "내성법은 '주관적 자기보고'에 의존하는 반면, 실험법은 '객관적 관찰과 측정'에 기반한다.",
+      "key_point": "주관성, 비재현성이라는 방법론적 한계가 행동주의 등장의 직접적 계기가 되었다.",
+      "common_mistake": "내성법은 단순한 자기성찰이 아니라, 훈련된 관찰자가 통제된 조건에서 수행하는 '체계적 방법'이었다."
+    }
+  },
+  {
+    "id": "INTRO_INDV_009",
+    "terminology": "독립변인 (Independent Variable)",
+    "terminology_ko": "독립변인",
+    "terminology_en": "Independent Variable",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "실험에서 연구자가 의도적으로 조작하거나 변화시키는 변인으로, 종속변인에 미치는 효과를 검증하기 위해 체계적으로 변경된다.",
+    "definition_en": "The variable in an experiment that the researcher deliberately manipulates or changes to examine its effect on the dependent variable.",
+    "significance": "실험 설계의 핵심 요소로, 독립변인의 적절한 조작이 인과관계 추론의 전제조건이 된다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald A. Fisher", "contribution": "현대 실험설계법과 통계적 추론의 기틀을 마련하여 변인 통제의 체계적 방법론을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "종속변인", "name_en": "Dependent Variable", "id": "INTRO_DEPV_010"},
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"},
+      {"name_ko": "통제집단", "name_en": "Control Group", "id": "INTRO_CTRL_011"},
+      {"name_ko": "조작적 정의", "name_en": "Operational Definition", "id": "INTRO_OPDF_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "독립변인 = 연구자가 '독립적으로' 조작하는 변인 (원인)",
+      "differential": "독립변인은 연구자가 '조작'하는 것이고, 종속변인은 그에 따라 '측정'되는 것이다.",
+      "key_point": "독립변인은 '원인'에 해당하며, 연구자가 능동적으로 조작한다는 점이 핵심이다.",
+      "common_mistake": "상관연구에서는 변인을 직접 조작하지 않으므로 엄밀한 의미의 독립변인이 아니다. 이 경우 '예측변인(predictor variable)'이라는 용어가 더 적절하다."
+    }
+  },
+  {
+    "id": "INTRO_DEPV_010",
+    "terminology": "종속변인 (Dependent Variable)",
+    "terminology_ko": "종속변인",
+    "terminology_en": "Dependent Variable",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "실험에서 독립변인의 변화에 따라 측정되는 반응 또는 결과 변인으로, 독립변인의 효과를 반영한다.",
+    "definition_en": "The variable in an experiment that is measured as a response or outcome, reflecting the effect of the independent variable.",
+    "significance": "연구 가설의 검증 결과를 직접 보여주는 측정치로, 정확하고 신뢰로운 측정이 연구의 질을 좌우한다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald A. Fisher", "contribution": "실험설계에서 변인 간 관계를 체계적으로 분석하는 분산분석(ANOVA) 등의 방법을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "독립변인", "name_en": "Independent Variable", "id": "INTRO_INDV_009"},
+      {"name_ko": "조작적 정의", "name_en": "Operational Definition", "id": "INTRO_OPDF_020"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "INTRO_RELI_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "종속변인 = 독립변인에 '종속'되어 변하는 변인 (결과)",
+      "differential": "종속변인은 '측정'하는 것이고, 독립변인은 '조작'하는 것이다.",
+      "key_point": "종속변인의 조작적 정의가 명확해야 측정이 정확하고, 연구 결과의 해석이 타당해진다.",
+      "common_mistake": "종속변인이 여러 개인 경우, 각각에 대해 별도의 분석이 필요하며 다중비교 문제에 유의해야 한다."
+    }
+  },
+  {
+    "id": "INTRO_CTRL_011",
+    "terminology": "통제집단 (Control Group)",
+    "terminology_ko": "통제집단",
+    "terminology_en": "Control Group",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "실험에서 독립변인의 처치를 받지 않는 비교 집단으로, 실험집단과 비교하여 독립변인의 효과를 평가하는 기준선을 제공한다.",
+    "definition_en": "The group in an experiment that does not receive the experimental treatment, serving as a baseline for comparison to evaluate the effect of the independent variable.",
+    "significance": "실험 결과가 독립변인에 의한 것인지 다른 요인에 의한 것인지를 구분하는 데 필수적인 비교 기준을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald A. Fisher", "contribution": "실험설계에서 통제집단의 필요성을 통계적으로 정당화하고 무선화(randomization) 원리를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "실험집단", "name_en": "Experimental Group", "id": "INTRO_EXPG_012"},
+      {"name_ko": "무선배정", "name_en": "Random Assignment", "id": "INTRO_RAND_013"},
+      {"name_ko": "위약효과", "name_en": "Placebo Effect", "id": "INTRO_PLAC_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "통제(Control) = 처치 없이 '통제'된 상태의 기준선",
+      "differential": "통제집단은 처치를 받지 '않는' 집단이고, 실험집단은 처치를 '받는' 집단이다.",
+      "key_point": "통제집단이 없으면 실험 결과가 처치 효과인지 자연적 변화인지 구분할 수 없다.",
+      "common_mistake": "통제집단에 아무것도 하지 않는 것이 아니라, 위약(placebo) 처치를 하는 경우도 많다."
+    }
+  },
+  {
+    "id": "INTRO_EXPG_012",
+    "terminology": "실험집단 (Experimental Group)",
+    "terminology_ko": "실험집단",
+    "terminology_en": "Experimental Group",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "실험에서 독립변인의 처치를 받는 집단으로, 통제집단과 비교하여 처치의 효과를 검증하는 데 사용된다.",
+    "definition_en": "The group in an experiment that receives the experimental treatment, used to test the effect of the treatment by comparison with the control group.",
+    "significance": "독립변인의 효과를 직접 검증하는 대상 집단으로, 통제집단과의 체계적 비교를 통해 인과관계를 추론할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald A. Fisher", "contribution": "실험집단과 통제집단의 비교를 위한 통계적 검증 방법론을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통제집단", "name_en": "Control Group", "id": "INTRO_CTRL_011"},
+      {"name_ko": "독립변인", "name_en": "Independent Variable", "id": "INTRO_INDV_009"},
+      {"name_ko": "무선배정", "name_en": "Random Assignment", "id": "INTRO_RAND_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실험집단 = 실험 처치를 '실제로' 받는 집단",
+      "differential": "실험집단은 독립변인의 처치를 '받고', 통제집단은 받지 '않는다'.",
+      "key_point": "실험집단과 통제집단은 독립변인 처치 여부만 다르고 나머지 조건은 동일해야 한다.",
+      "common_mistake": "실험 설계에 따라 실험집단이 여러 개일 수 있다(예: 저용량, 고용량 집단 등)."
+    }
+  },
+  {
+    "id": "INTRO_RAND_013",
+    "terminology": "무선배정 (Random Assignment)",
+    "terminology_ko": "무선배정",
+    "terminology_en": "Random Assignment",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "연구 참여자를 실험집단과 통제집단에 무작위로 배정하는 절차로, 집단 간 사전 차이를 최소화하여 내적 타당도를 확보한다.",
+    "definition_en": "The procedure of assigning participants to experimental and control groups by chance, minimizing pre-existing differences between groups to ensure internal validity.",
+    "significance": "혼입변인의 영향을 통제하여 인과관계 추론을 가능하게 하는 실험 설계의 핵심 원리이다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald A. Fisher", "contribution": "무선화(randomization)의 통계적 원리를 확립하여 현대 실험설계의 기초를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "실험집단", "name_en": "Experimental Group", "id": "INTRO_EXPG_012"},
+      {"name_ko": "통제집단", "name_en": "Control Group", "id": "INTRO_CTRL_011"},
+      {"name_ko": "표본", "name_en": "Sample", "id": "INTRO_SAMP_017"},
+      {"name_ko": "이중맹검법", "name_en": "Double-Blind Procedure", "id": "INTRO_DBLB_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "무선(Random) 배정 = '무'작위로 '선'택하여 배정",
+      "differential": "무선배정(random assignment)은 집단 '배정'의 무작위화이고, 무선표집(random sampling)은 표본 '선발'의 무작위화이다.",
+      "key_point": "무선배정은 '내적 타당도'를, 무선표집은 '외적 타당도(일반화 가능성)'를 높인다.",
+      "common_mistake": "무선배정(random assignment)과 무선표집(random sampling)을 혼동하는 것이 가장 흔한 실수이다."
+    }
+  },
+  {
+    "id": "INTRO_CORR_014",
+    "terminology": "상관연구 (Correlational Study)",
+    "terminology_ko": "상관연구",
+    "terminology_en": "Correlational Study",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "두 변인 간의 관련성(상관관계)의 방향과 강도를 측정하는 연구 방법으로, 변인을 직접 조작하지 않고 자연적으로 발생하는 관계를 관찰한다.",
+    "definition_en": "A research method that measures the direction and strength of the relationship (correlation) between two variables without manipulating them, observing naturally occurring relationships.",
+    "significance": "윤리적 또는 현실적으로 실험이 불가능한 상황에서 변인 간 관계를 파악할 수 있게 하며, 예측에 유용하다.",
+    "key_researchers": [
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "피어슨 상관계수(r)를 개발하여 두 변인 간의 선형 관계를 수량화하는 방법을 제공했다."},
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "회귀와 상관의 기본 개념을 도입하여 상관연구의 기초를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"},
+      {"name_ko": "독립변인", "name_en": "Independent Variable", "id": "INTRO_INDV_009"},
+      {"name_ko": "통계적 유의성", "name_en": "Statistical Significance", "id": "INTRO_STAT_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "상관 = '서로(相) 관련(關)' → 관련성만 확인, 인과관계는 NO",
+      "differential": "상관연구는 변인 간 '관계'만 파악하고 '인과관계'를 추론할 수 없지만, 실험법은 인과관계 추론이 가능하다.",
+      "key_point": "'상관은 인과가 아니다(Correlation does not imply causation)'는 대원칙을 반드시 기억해야 한다.",
+      "common_mistake": "높은 상관이 발견되면 인과관계가 있다고 결론짓는 오류를 범하기 쉽다. 제3변인의 존재 가능성을 항상 고려해야 한다."
+    }
+  },
+  {
+    "id": "INTRO_DBLB_015",
+    "terminology": "이중맹검법 (Double-Blind Procedure)",
+    "terminology_ko": "이중맹검법",
+    "terminology_en": "Double-Blind Procedure",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "연구 참여자와 연구자 모두가 각 참여자의 실험/통제 집단 배정 여부를 모르게 하는 실험 절차로, 기대 효과와 실험자 편향을 통제한다.",
+    "definition_en": "An experimental procedure in which neither the participants nor the researchers know which participants are in the experimental or control group, controlling for expectancy effects and experimenter bias.",
+    "significance": "위약효과와 실험자 편향을 동시에 통제하여 연구 결과의 내적 타당도를 높이는 가장 강력한 방법 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "오스틴 브래드포드 힐", "name_en": "Austin Bradford Hill", "contribution": "임상시험에서 이중맹검법의 체계적 적용을 확립하여 연구 방법론의 표준을 높였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "위약효과", "name_en": "Placebo Effect", "id": "INTRO_PLAC_016"},
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"},
+      {"name_ko": "무선배정", "name_en": "Random Assignment", "id": "INTRO_RAND_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이중(Double) 맹검(Blind) = 두 쪽 다 눈을 가림 → 참여자도 연구자도 모름",
+      "differential": "단일맹검법은 참여자만 모르지만, 이중맹검법은 참여자와 연구자 '모두' 모른다.",
+      "key_point": "참여자의 기대효과(위약효과)와 연구자의 편향(실험자 효과)을 '동시에' 통제한다.",
+      "common_mistake": "이중맹검이 항상 가능한 것은 아니다. 예를 들어 심리치료 연구에서는 치료자가 치료 방법을 알 수밖에 없다."
+    }
+  },
+  {
+    "id": "INTRO_PLAC_016",
+    "terminology": "위약효과 (Placebo Effect)",
+    "terminology_ko": "위약효과",
+    "terminology_en": "Placebo Effect",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "치료 효과가 없는 가짜 처치(위약)를 받았음에도 참여자의 기대나 믿음으로 인해 실제 증상이 호전되는 현상이다.",
+    "definition_en": "A phenomenon in which participants experience real improvement in symptoms after receiving an inert treatment (placebo), due to their expectations or beliefs about the treatment.",
+    "significance": "인간의 기대와 신념이 실제 신체적, 심리적 변화를 일으킬 수 있음을 보여주며, 이를 통제하는 것이 과학적 연구의 필수 과제이다.",
+    "key_researchers": [
+      {"name_ko": "헨리 비처", "name_en": "Henry K. Beecher", "contribution": "1955년 'The Powerful Placebo'를 발표하여 위약효과의 보편성과 중요성을 학술적으로 부각시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이중맹검법", "name_en": "Double-Blind Procedure", "id": "INTRO_DBLB_015"},
+      {"name_ko": "통제집단", "name_en": "Control Group", "id": "INTRO_CTRL_011"},
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "위약(Placebo, '기쁘게 하리라') = 가짜 약인데 효과가 나타남",
+      "differential": "위약효과는 참여자의 '기대'에서 비롯되고, 실험자 효과는 연구자의 '기대'에서 비롯된다.",
+      "key_point": "위약효과를 통제하기 위해 통제집단에 위약을 투여하고, 이중맹검법을 사용한다.",
+      "common_mistake": "위약효과가 '가짜 효과'라고 생각하기 쉽지만, 참여자가 경험하는 증상 개선은 실제로 발생한다."
+    }
+  },
+  {
+    "id": "INTRO_SAMP_017",
+    "terminology": "표본 (Sample)",
+    "terminology_ko": "표본",
+    "terminology_en": "Sample",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "연구를 위해 모집단에서 선택된 하위 집합으로, 이 표본에서 얻은 결과를 모집단 전체로 일반화하고자 한다.",
+    "definition_en": "A subset selected from a population for the purpose of research, from which findings are intended to be generalized to the broader population.",
+    "significance": "모집단 전체를 연구하는 것이 현실적으로 불가능하기 때문에 표본 추출은 모든 연구의 기본이며, 표본의 대표성이 연구 결과의 일반화 가능성을 결정한다.",
+    "key_researchers": [
+      {"name_ko": "예지 네이만", "name_en": "Jerzy Neyman", "contribution": "표본조사 이론을 체계화하고, 신뢰구간 개념을 도입하여 표본에서 모집단을 추론하는 방법론을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "무선배정", "name_en": "Random Assignment", "id": "INTRO_RAND_013"},
+      {"name_ko": "타당도", "name_en": "Validity", "id": "INTRO_VALD_019"},
+      {"name_ko": "통계적 유의성", "name_en": "Statistical Significance", "id": "INTRO_STAT_028"}
+    ],
+    "sub_types": [
+      {
+        "id": "INTRO_SAMP_SUB_01",
+        "name": "무선표본 (Random Sample)",
+        "name_ko": "무선표본",
+        "name_en": "Random Sample",
+        "definition": "모집단의 모든 구성원이 표본에 선발될 동등한 확률을 갖는 표본 추출 방법이다."
+      },
+      {
+        "id": "INTRO_SAMP_SUB_02",
+        "name": "편의표본 (Convenience Sample)",
+        "name_ko": "편의표본",
+        "name_en": "Convenience Sample",
+        "definition": "접근이 용이한 대상을 선발하는 비확률 표집 방법으로, 대표성이 제한될 수 있다."
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "표본(Sample) = 모집단(Population)의 '작은 대표'",
+      "differential": "표본은 '일부'이고, 모집단은 연구자가 일반화하고자 하는 '전체'이다.",
+      "key_point": "대표성 있는 표본을 위해서는 무선표집(random sampling)이 이상적이다.",
+      "common_mistake": "무선표집(random sampling)과 무선배정(random assignment)은 다른 개념이다. 전자는 표본 '선발', 후자는 집단 '배정'에 관한 것이다."
+    }
+  },
+  {
+    "id": "INTRO_RELI_018",
+    "terminology": "신뢰도 (Reliability)",
+    "terminology_ko": "신뢰도",
+    "terminology_en": "Reliability",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "측정 도구가 동일한 대상을 반복 측정했을 때 일관된 결과를 산출하는 정도로, 측정의 안정성과 일관성을 나타낸다.",
+    "definition_en": "The degree to which a measurement instrument yields consistent results when repeatedly measuring the same target, indicating the stability and consistency of measurement.",
+    "significance": "타당한 측정의 필수 전제 조건으로, 신뢰도가 낮으면 타당도도 확보할 수 없다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "고전검사이론(CTT)을 발전시키고, 스피어만-브라운 공식 등 신뢰도 추정 방법을 개발했다."},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "크론바흐 알파 계수를 개발하여 내적 일관성 신뢰도 추정의 표준 방법을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "타당도", "name_en": "Validity", "id": "INTRO_VALD_019"},
+      {"name_ko": "조작적 정의", "name_en": "Operational Definition", "id": "INTRO_OPDF_020"},
+      {"name_ko": "종속변인", "name_en": "Dependent Variable", "id": "INTRO_DEPV_010"}
+    ],
+    "sub_types": [
+      {
+        "id": "INTRO_RELI_SUB_01",
+        "name": "검사-재검사 신뢰도 (Test-Retest Reliability)",
+        "name_ko": "검사-재검사 신뢰도",
+        "name_en": "Test-Retest Reliability",
+        "definition": "동일한 검사를 동일한 대상에게 시간 간격을 두고 두 번 실시하여 두 점수 간의 상관으로 추정하는 신뢰도이다."
+      },
+      {
+        "id": "INTRO_RELI_SUB_02",
+        "name": "내적 일관성 신뢰도 (Internal Consistency Reliability)",
+        "name_ko": "내적 일관성 신뢰도",
+        "name_en": "Internal Consistency Reliability",
+        "definition": "검사 문항들이 동일한 구성개념을 얼마나 일관되게 측정하는지를 나타내는 신뢰도로, 크론바흐 알파 등으로 추정한다."
+      },
+      {
+        "id": "INTRO_RELI_SUB_03",
+        "name": "평정자 간 신뢰도 (Inter-Rater Reliability)",
+        "name_ko": "평정자 간 신뢰도",
+        "name_en": "Inter-Rater Reliability",
+        "definition": "두 명 이상의 평정자가 동일 대상을 평가할 때 평정 결과의 일치도를 나타내는 신뢰도이다."
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "신뢰(Trust) = 일관(Consistent) → 반복해도 같은 결과 = 신뢰할 수 있는 측정",
+      "differential": "신뢰도는 '일관성(consistency)'의 문제이고, 타당도는 '정확성(accuracy)'의 문제이다.",
+      "key_point": "신뢰도는 타당도의 '필요조건'이지만 '충분조건'은 아니다. 즉, 신뢰도가 높아도 타당도가 낮을 수 있다.",
+      "common_mistake": "신뢰도가 높으면 자동으로 타당도도 높다고 착각하는 경우가 많다. 신뢰롭게 '잘못된 것'을 측정할 수도 있다."
+    }
+  },
+  {
+    "id": "INTRO_VALD_019",
+    "terminology": "타당도 (Validity)",
+    "terminology_ko": "타당도",
+    "terminology_en": "Validity",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "측정 도구나 연구가 측정하고자 하는 것을 실제로 정확하게 측정하는 정도로, 연구 결과의 의미와 해석의 적절성을 나타낸다.",
+    "definition_en": "The degree to which a measurement instrument or study actually measures what it intends to measure, indicating the appropriateness of the meaning and interpretation of research results.",
+    "significance": "연구 결과의 의미와 적용 가능성을 결정하는 가장 중요한 기준으로, 내적 타당도와 외적 타당도 모두 확보해야 한다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "구성타당도 개념을 체계화하고, 타당도를 단일 수치가 아닌 지속적 검증 과정으로 재개념화했다."},
+      {"name_ko": "도널드 캠벨", "name_en": "Donald Campbell", "contribution": "내적 타당도와 외적 타당도의 구분을 명확히 하고, 타당도 위협 요인을 체계적으로 분류했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "INTRO_RELI_018"},
+      {"name_ko": "조작적 정의", "name_en": "Operational Definition", "id": "INTRO_OPDF_020"},
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"}
+    ],
+    "sub_types": [
+      {
+        "id": "INTRO_VALD_SUB_01",
+        "name": "내적 타당도 (Internal Validity)",
+        "name_ko": "내적 타당도",
+        "name_en": "Internal Validity",
+        "definition": "연구에서 독립변인의 조작이 종속변인의 변화를 실제로 유발했다고 확신할 수 있는 정도이다."
+      },
+      {
+        "id": "INTRO_VALD_SUB_02",
+        "name": "외적 타당도 (External Validity)",
+        "name_ko": "외적 타당도",
+        "name_en": "External Validity",
+        "definition": "연구 결과를 다른 상황, 사람, 시간으로 일반화할 수 있는 정도이다."
+      },
+      {
+        "id": "INTRO_VALD_SUB_03",
+        "name": "구성타당도 (Construct Validity)",
+        "name_ko": "구성타당도",
+        "name_en": "Construct Validity",
+        "definition": "측정 도구가 이론적 구성개념을 실제로 측정하고 있는 정도이다."
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "타당(Valid) = 과녁의 '중심'을 맞추는 것 → 측정하려는 것을 '정확히' 측정",
+      "differential": "신뢰도는 '일관성(과녁에 모여 있음)'이고, 타당도는 '정확성(과녁 중심에 맞음)'이다.",
+      "key_point": "내적 타당도(인과관계)와 외적 타당도(일반화)의 구분이 시험에서 자주 출제된다.",
+      "common_mistake": "타당도가 높으면 신뢰도도 높지만, 신뢰도가 높다고 타당도가 높은 것은 아니다(과녁 비유)."
+    }
+  },
+  {
+    "id": "INTRO_OPDF_020",
+    "terminology": "조작적 정의 (Operational Definition)",
+    "terminology_ko": "조작적 정의",
+    "terminology_en": "Operational Definition",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "추상적 개념을 측정 가능한 절차나 조작으로 구체적으로 정의하는 것으로, 연구에서 변인을 어떻게 측정하거나 조작할 것인지를 명시한다.",
+    "definition_en": "The concrete definition of an abstract concept in terms of measurable procedures or operations, specifying how variables will be measured or manipulated in research.",
+    "significance": "연구의 재현 가능성과 객관성을 보장하는 핵심 절차로, 다른 연구자가 동일한 방법으로 변인을 측정할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "퍼시 브리지먼", "name_en": "Percy Bridgman", "contribution": "조작주의(operationism)를 제안하여, 과학적 개념은 그것을 측정하는 조작으로 정의되어야 한다고 주장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "독립변인", "name_en": "Independent Variable", "id": "INTRO_INDV_009"},
+      {"name_ko": "종속변인", "name_en": "Dependent Variable", "id": "INTRO_DEPV_010"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "INTRO_RELI_018"},
+      {"name_ko": "타당도", "name_en": "Validity", "id": "INTRO_VALD_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조작적(Operational) = '조작(操作, 실제 행하는 절차)'으로 정의",
+      "differential": "개념적 정의는 사전적/이론적 설명이고, 조작적 정의는 '어떻게 측정할 것인가'에 대한 구체적 절차이다.",
+      "key_point": "예: '불안'의 조작적 정의 → '상태-특성 불안 척도(STAI)의 총점'으로 구체화.",
+      "common_mistake": "하나의 개념에 대해 여러 조작적 정의가 가능하다. 예를 들어 '공격성'을 관찰된 때리기 횟수, 자기보고 척도 점수, 호르몬 수치 등으로 다양하게 정의할 수 있다."
+    }
+  },
+  {
+    "id": "INTRO_EVOL_021",
+    "terminology": "진화심리학 (Evolutionary Psychology)",
+    "terminology_ko": "진화심리학",
+    "terminology_en": "Evolutionary Psychology",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "자연선택의 원리를 적용하여 인간의 심리적 특성과 행동이 적응적 기능을 위해 진화했다고 설명하는 심리학적 관점이다.",
+    "definition_en": "A psychological perspective that applies principles of natural selection to explain human psychological traits and behaviors as having evolved for adaptive functions.",
+    "significance": "인간 행동의 보편적 패턴을 진화적 맥락에서 설명함으로써, 짝짓기 전략, 공포, 사회적 행동 등에 대한 새로운 이해를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "레다 코스미데스", "name_en": "Leda Cosmides", "contribution": "존 투비와 함께 진화심리학의 이론적 틀을 체계화하고, 인간 마음이 영역 특수적 모듈로 구성된다고 주장했다."},
+      {"name_ko": "데이비드 버스", "name_en": "David Buss", "contribution": "진화심리학적 관점에서 인간의 짝짓기 전략, 질투, 공격성에 대한 실증 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능주의", "name_en": "Functionalism", "id": "INTRO_FUNC_003"},
+      {"name_ko": "심리학", "name_en": "Psychology", "id": "INTRO_PSY_001"},
+      {"name_ko": "관찰법", "name_en": "Observational Method", "id": "INTRO_OBSV_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진화(Evolution) + 심리학 = 다윈의 자연선택으로 마음을 설명",
+      "differential": "기능주의가 심리적 기능의 '개인적 적응'에 초점을 두었다면, 진화심리학은 '종의 진화적 적응'에 초점을 둔다.",
+      "key_point": "인간의 심리 기제가 현재 환경이 아닌 '진화적 적응 환경(EEA)'에서 형성되었다는 점이 핵심 전제이다.",
+      "common_mistake": "진화심리학이 모든 행동을 유전으로 결정된다고 주장하는 것이 아니라, 유전과 환경의 상호작용을 전제로 한다."
+    }
+  },
+  {
+    "id": "INTRO_EXPM_022",
+    "terminology": "실험법 (Experimental Method)",
+    "terminology_ko": "실험법",
+    "terminology_en": "Experimental Method",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "독립변인을 체계적으로 조작하고, 외생변인을 통제하면서, 종속변인의 변화를 측정하여 변인 간 인과관계를 검증하는 연구 방법이다.",
+    "definition_en": "A research method that systematically manipulates independent variables while controlling extraneous variables and measuring changes in dependent variables to test causal relationships.",
+    "significance": "인과관계를 추론할 수 있는 유일한 연구 방법으로, 과학적 심리학의 핵심 방법론이다.",
+    "key_researchers": [
+      {"name_ko": "빌헬름 분트", "name_en": "Wilhelm Wundt", "contribution": "심리학에 실험법을 최초로 도입하여 심리학을 실험과학으로 정립했다."},
+      {"name_ko": "로널드 피셔", "name_en": "Ronald A. Fisher", "contribution": "현대 실험설계의 통계적 기초를 확립하고, 무선화와 요인 설계 등의 방법론을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "독립변인", "name_en": "Independent Variable", "id": "INTRO_INDV_009"},
+      {"name_ko": "종속변인", "name_en": "Dependent Variable", "id": "INTRO_DEPV_010"},
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "INTRO_CORR_014"},
+      {"name_ko": "무선배정", "name_en": "Random Assignment", "id": "INTRO_RAND_013"}
+    ],
+    "sub_types": [
+      {
+        "id": "INTRO_EXPM_SUB_01",
+        "name": "실험실 실험 (Laboratory Experiment)",
+        "name_ko": "실험실 실험",
+        "name_en": "Laboratory Experiment",
+        "definition": "통제된 실험실 환경에서 수행하는 실험으로, 내적 타당도가 높지만 외적 타당도가 제한될 수 있다."
+      },
+      {
+        "id": "INTRO_EXPM_SUB_02",
+        "name": "현장 실험 (Field Experiment)",
+        "name_ko": "현장 실험",
+        "name_en": "Field Experiment",
+        "definition": "자연스러운 환경에서 수행하는 실험으로, 외적 타당도는 높지만 변인 통제가 어려울 수 있다."
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "실험 = 조작(Manipulate) + 통제(Control) + 측정(Measure) → 인과관계",
+      "differential": "실험법은 변인을 '조작'하여 인과관계를 검증하고, 상관연구는 변인을 '관찰'하여 관련성만 파악한다.",
+      "key_point": "인과관계 추론이 가능한 유일한 방법이며, 이를 위해 조작, 통제, 무선배정이 필수적이다.",
+      "common_mistake": "준실험(quasi-experiment)은 무선배정이 없으므로 엄밀한 의미의 실험이 아니며, 인과 추론에 제한이 있다."
+    }
+  },
+  {
+    "id": "INTRO_OBSV_023",
+    "terminology": "관찰법 (Observational Method)",
+    "terminology_ko": "관찰법",
+    "terminology_en": "Observational Method",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "연구자가 행동을 자연 상태에서 체계적으로 관찰하고 기록하는 연구 방법으로, 변인을 조작하지 않고 있는 그대로의 행동을 연구한다.",
+    "definition_en": "A research method in which the researcher systematically observes and records behavior in natural settings without manipulating variables, studying behavior as it naturally occurs.",
+    "significance": "실제 환경에서의 자연스러운 행동을 연구할 수 있어 외적 타당도가 높으며, 실험이 불가능하거나 비윤리적인 주제에 대한 연구를 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "제인 구달", "name_en": "Jane Goodall", "contribution": "침팬지의 자연관찰 연구를 통해 자연적 관찰법의 과학적 가치를 입증했다."},
+      {"name_ko": "콘라트 로렌츠", "name_en": "Konrad Lorenz", "contribution": "동물행동의 자연관찰을 통해 각인(imprinting) 등의 현상을 발견하고 동물행동학을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"},
+      {"name_ko": "사례연구", "name_en": "Case Study", "id": "INTRO_CASE_024"},
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "INTRO_CORR_014"}
+    ],
+    "sub_types": [
+      {
+        "id": "INTRO_OBSV_SUB_01",
+        "name": "자연관찰 (Naturalistic Observation)",
+        "name_ko": "자연관찰",
+        "name_en": "Naturalistic Observation",
+        "definition": "자연적 환경에서 연구 대상의 행동을 관찰자가 개입 없이 관찰하고 기록하는 방법이다."
+      },
+      {
+        "id": "INTRO_OBSV_SUB_02",
+        "name": "참여관찰 (Participant Observation)",
+        "name_ko": "참여관찰",
+        "name_en": "Participant Observation",
+        "definition": "연구자가 관찰 대상 집단에 직접 참여하면서 행동을 관찰하는 방법이다."
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "관찰 = '보기만' 한다 → 조작 없이 있는 그대로",
+      "differential": "관찰법은 변인을 '조작하지 않고' 행동을 관찰하지만, 실험법은 변인을 '조작'하여 효과를 검증한다.",
+      "key_point": "외적 타당도는 높지만, 인과관계를 추론할 수 없고 관찰자 편향의 위험이 있다.",
+      "common_mistake": "자연관찰에서 연구자의 존재가 관찰 대상의 행동을 변화시킬 수 있다(반응성, reactivity)."
+    }
+  },
+  {
+    "id": "INTRO_CASE_024",
+    "terminology": "사례연구 (Case Study)",
+    "terminology_ko": "사례연구",
+    "terminology_en": "Case Study",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "하나의 개인, 집단, 또는 사건을 심층적으로 조사하는 연구 방법으로, 면담, 관찰, 검사 등 다양한 자료를 종합하여 분석한다.",
+    "definition_en": "A research method involving an in-depth investigation of a single individual, group, or event, combining various sources of data such as interviews, observations, and tests.",
+    "significance": "드문 현상이나 독특한 사례에 대한 풍부하고 상세한 정보를 제공하며, 새로운 가설 생성의 원천이 된다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "안나 O., 꼬마 한스 등의 임상 사례 연구를 통해 정신분석 이론을 발전시켰다."},
+      {"name_ko": "폴 브로카", "name_en": "Paul Broca", "contribution": "환자 탕(Tan)의 사례 연구를 통해 언어 산출과 좌반구 전두엽의 관계를 발견했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관찰법", "name_en": "Observational Method", "id": "INTRO_OBSV_023"},
+      {"name_ko": "정신분석", "name_en": "Psychoanalysis", "id": "INTRO_PSYA_005"},
+      {"name_ko": "종단연구", "name_en": "Longitudinal Study", "id": "INTRO_LONG_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사례(Case) = 한 건(件)을 깊이 파고든다",
+      "differential": "사례연구는 소수 사례의 '심층' 분석이고, 실험/조사 연구는 다수 참여자의 '체계적' 분석이다.",
+      "key_point": "풍부한 질적 정보를 제공하지만, 일반화의 한계와 연구자의 주관적 해석 개입 가능성이 있다.",
+      "common_mistake": "사례연구의 결과를 일반화하는 오류를 범하기 쉽다. 한 사례에서 발견된 것이 모든 사람에게 적용되지 않을 수 있다."
+    }
+  },
+  {
+    "id": "INTRO_LONG_025",
+    "terminology": "종단연구 (Longitudinal Study)",
+    "terminology_ko": "종단연구",
+    "terminology_en": "Longitudinal Study",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "동일한 참여자 집단을 장기간에 걸쳐 반복적으로 관찰하거나 측정하여 시간에 따른 변화와 발달을 추적하는 연구 방법이다.",
+    "definition_en": "A research method that repeatedly observes or measures the same group of participants over an extended period to track changes and development over time.",
+    "significance": "개인 내 변화의 궤적을 직접 추적할 수 있는 유일한 방법으로, 발달심리학과 건강심리학에서 특히 중요하다.",
+    "key_researchers": [
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "1921년부터 영재 아동을 성인기까지 추적한 터먼 연구를 수행하여 대표적 종단연구의 사례를 남겼다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "횡단연구", "name_en": "Cross-Sectional Study", "id": "INTRO_CRSS_026"},
+      {"name_ko": "사례연구", "name_en": "Case Study", "id": "INTRO_CASE_024"},
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "INTRO_CORR_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "종단(縱斷) = 세로(縱)로 자르기 = 시간축을 따라 '같은 사람'을 추적",
+      "differential": "종단연구는 '같은 사람'을 시간에 걸쳐 추적하고, 횡단연구는 '다른 연령대'를 한 시점에 비교한다.",
+      "key_point": "개인 내 변화를 직접 관찰할 수 있지만, 시간과 비용이 많이 들고 참여자 탈락(attrition)의 문제가 있다.",
+      "common_mistake": "종단연구가 반드시 수십 년에 걸칠 필요는 없으며, 수주~수개월의 단기 종단연구도 가능하다."
+    }
+  },
+  {
+    "id": "INTRO_CRSS_026",
+    "terminology": "횡단연구 (Cross-Sectional Study)",
+    "terminology_ko": "횡단연구",
+    "terminology_en": "Cross-Sectional Study",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "서로 다른 연령이나 특성을 가진 집단을 동일한 시점에서 비교하여 차이를 분석하는 연구 방법이다.",
+    "definition_en": "A research method that compares groups of different ages or characteristics at a single point in time to analyze differences.",
+    "significance": "종단연구에 비해 시간과 비용이 적게 들어 발달적 차이를 효율적으로 연구할 수 있는 현실적 대안이다.",
+    "key_researchers": [
+      {"name_ko": "K. 워너 샤이", "name_en": "K. Warner Schaie", "contribution": "시애틀 종단연구에서 횡단적 설계와 종단적 설계를 결합한 순차설계(sequential design)를 활용하여 지능 발달을 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "종단연구", "name_en": "Longitudinal Study", "id": "INTRO_LONG_025"},
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "INTRO_CORR_014"},
+      {"name_ko": "표본", "name_en": "Sample", "id": "INTRO_SAMP_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "횡단(橫斷) = 가로(橫)로 자르기 = 한 시점에서 '다른 집단'을 비교",
+      "differential": "횡단연구는 '한 시점'에 다른 집단을 비교하고, 종단연구는 '여러 시점'에 같은 집단을 추적한다.",
+      "key_point": "동시대 효과(cohort effect)를 통제할 수 없어, 연령 차이가 실제 발달적 변화인지 세대 차이인지 구분하기 어렵다.",
+      "common_mistake": "횡단연구에서 발견된 연령 집단 간 차이를 자동으로 '발달적 변화'로 해석하는 것은 동시대 효과를 무시한 오류이다."
+    }
+  },
+  {
+    "id": "INTRO_ETHC_027",
+    "terminology": "연구 윤리 (Research Ethics)",
+    "terminology_ko": "연구 윤리",
+    "terminology_en": "Research Ethics",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "연구 참여자의 권리와 복지를 보호하기 위한 도덕적 원칙과 규범의 체계로, 충분한 설명에 근거한 동의, 비밀보장, 해로움 최소화 등을 포함한다.",
+    "definition_en": "A system of moral principles and standards designed to protect the rights and welfare of research participants, including informed consent, confidentiality, and minimization of harm.",
+    "significance": "과거 비윤리적 연구(밀그램 실험, 터스키기 매독 연구 등)의 반성에서 발전했으며, 현대 연구의 필수 전제조건으로서 기관생명윤리위원회(IRB) 심의를 통해 제도화되었다.",
+    "key_researchers": [
+      {"name_ko": "미국심리학회(APA)", "name_en": "American Psychological Association", "contribution": "심리학 연구의 윤리 강령을 제정하고 지속적으로 개정하여 연구 윤리의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "실험법", "name_en": "Experimental Method", "id": "INTRO_EXPM_022"},
+      {"name_ko": "이중맹검법", "name_en": "Double-Blind Procedure", "id": "INTRO_DBLB_015"},
+      {"name_ko": "관찰법", "name_en": "Observational Method", "id": "INTRO_OBSV_023"}
+    ],
+    "sub_types": [
+      {
+        "id": "INTRO_ETHC_SUB_01",
+        "name": "충분한 설명에 근거한 동의 (Informed Consent)",
+        "name_ko": "충분한 설명에 근거한 동의",
+        "name_en": "Informed Consent",
+        "definition": "연구 참여 전에 연구의 목적, 절차, 위험, 자유로운 철회 권리 등을 충분히 설명하고 자발적 동의를 구하는 절차이다."
+      },
+      {
+        "id": "INTRO_ETHC_SUB_02",
+        "name": "사후 설명 (Debriefing)",
+        "name_ko": "사후 설명",
+        "name_en": "Debriefing",
+        "definition": "연구 종료 후 참여자에게 연구의 실제 목적과 절차를 설명하고, 속임이 있었을 경우 이를 밝히는 절차이다."
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "윤리 = 참여자 보호의 3대 원칙: 동의(Consent), 비밀(Confidentiality), 최소피해(Minimize harm)",
+      "differential": "연구 윤리는 연구 수행 과정에서의 '참여자 보호'에, 출판 윤리는 연구 결과의 '정직한 보고'에 관한 것이다.",
+      "key_point": "충분한 설명에 근거한 동의(informed consent), 속임 최소화, 사후설명(debriefing), 비밀보장이 핵심 원칙이다.",
+      "common_mistake": "연구 윤리가 연구를 '제한'하는 것이 아니라, 참여자를 '보호'하면서 과학 발전을 가능하게 하는 것이다."
+    }
+  },
+  {
+    "id": "INTRO_STAT_028",
+    "terminology": "통계적 유의성 (Statistical Significance)",
+    "terminology_ko": "통계적 유의성",
+    "terminology_en": "Statistical Significance",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "관찰된 연구 결과가 우연에 의한 것일 확률이 매우 낮아(보통 p < .05), 실제 효과가 존재한다고 판단하는 통계적 기준이다.",
+    "definition_en": "A statistical criterion indicating that the probability of observed results occurring by chance alone is very low (typically p < .05), suggesting a real effect exists.",
+    "significance": "연구 결과의 신뢰성을 판단하는 핵심 기준으로, 심리학 연구에서 가설 검증의 표준적 방법으로 사용된다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald A. Fisher", "contribution": "p값과 유의수준의 개념을 도입하여 통계적 유의성 검증의 기틀을 마련했다."},
+      {"name_ko": "예지 네이만", "name_en": "Jerzy Neyman", "contribution": "에곤 피어슨과 함께 가설검증 이론을 체계화하여 제1종/제2종 오류의 개념을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "표본", "name_en": "Sample", "id": "INTRO_SAMP_017"},
+      {"name_ko": "표준편차", "name_en": "Standard Deviation", "id": "INTRO_STDE_029"},
+      {"name_ko": "메타분석", "name_en": "Meta-Analysis", "id": "INTRO_META_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "p < .05 = 우연에 의한 확률이 5% 미만 → '유의미한' 결과",
+      "differential": "통계적 유의성은 '효과의 존재'를 말하고, 효과크기(effect size)는 '효과의 크기'를 말한다.",
+      "key_point": "통계적으로 유의하다고 해서 반드시 실질적으로 중요한 것은 아니다(통계적 유의성 vs. 실질적 유의성).",
+      "common_mistake": "p값은 효과의 '크기'를 나타내는 것이 아니라, 귀무가설이 참일 때 관찰된 결과(또는 더 극단적 결과)가 나올 확률이다."
+    }
+  },
+  {
+    "id": "INTRO_STDE_029",
+    "terminology": "표준편차 (Standard Deviation)",
+    "terminology_ko": "표준편차",
+    "terminology_en": "Standard Deviation",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "데이터의 산포도를 나타내는 통계량으로, 각 관찰값이 평균에서 얼마나 떨어져 있는지를 나타내는 평균적 편차이다.",
+    "definition_en": "A statistical measure of the spread of data, representing the average deviation of each observation from the mean, indicating how much scores typically differ from the average.",
+    "significance": "연구 결과의 변산성을 이해하고, 정규분포에서의 상대적 위치를 해석하며, 통계적 검증의 기초가 되는 핵심 통계량이다.",
+    "key_researchers": [
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "표준편차라는 용어를 도입하고, 이를 기술통계학의 핵심 개념으로 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통계적 유의성", "name_en": "Statistical Significance", "id": "INTRO_STAT_028"},
+      {"name_ko": "표본", "name_en": "Sample", "id": "INTRO_SAMP_017"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "INTRO_RELI_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표준편차 = 평균에서 '표준적으로' 얼마나 '편차(벗어남)'가 있는지",
+      "differential": "표준편차는 원래 단위와 동일한 단위를 사용하고, 분산(variance)은 편차를 제곱한 값이다.",
+      "key_point": "정규분포에서 평균 ± 1SD에 약 68%, ± 2SD에 약 95%, ± 3SD에 약 99.7%의 데이터가 포함된다.",
+      "common_mistake": "표준편차가 작다고 반드시 좋은 것이 아니며, 연구 맥락에 따라 해석이 달라진다."
+    }
+  },
+  {
+    "id": "INTRO_META_030",
+    "terminology": "메타분석 (Meta-Analysis)",
+    "terminology_ko": "메타분석",
+    "terminology_en": "Meta-Analysis",
+    "category": "INTRO",
+    "category_name": "심리학의 본질과 연구방법 (Introduction & Research Methods)",
+    "definition": "동일 주제에 대한 다수의 독립적 연구 결과를 통계적으로 종합하여 전반적인 효과크기를 산출하는 양적 연구 방법이다.",
+    "definition_en": "A quantitative research method that statistically combines the results of multiple independent studies on the same topic to calculate an overall effect size.",
+    "significance": "개별 연구의 한계를 극복하고 누적된 증거를 종합적으로 평가할 수 있어, 근거기반 심리학(evidence-based psychology)의 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "진 글래스", "name_en": "Gene V. Glass", "contribution": "1976년 '메타분석(meta-analysis)'이라는 용어를 처음 사용하고, 심리치료 효과에 대한 최초의 대규모 메타분석을 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통계적 유의성", "name_en": "Statistical Significance", "id": "INTRO_STAT_028"},
+      {"name_ko": "표본", "name_en": "Sample", "id": "INTRO_SAMP_017"},
+      {"name_ko": "상관연구", "name_en": "Correlational Study", "id": "INTRO_CORR_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "메타(Meta, '초월') + 분석 = 연구들을 '초월'하여 종합 분석",
+      "differential": "문헌고찰(literature review)은 연구들을 '서술적'으로 정리하지만, 메타분석은 '통계적'으로 종합한다.",
+      "key_point": "효과크기(effect size)를 통합하여 전반적 결론을 도출하며, 개별 연구의 표본크기 한계를 극복한다.",
+      "common_mistake": "메타분석의 질은 포함된 개별 연구의 질에 의존한다. 질 낮은 연구들을 모아도 질 높은 결론이 나오지 않는다(GIGO: Garbage In, Garbage Out)."
+    }
+  }
+]

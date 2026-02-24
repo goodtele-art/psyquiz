@@ -1,0 +1,977 @@
+[
+  {
+    "id": "RELI_REL_001",
+    "terminology": "신뢰도 (Reliability)",
+    "terminology_ko": "신뢰도",
+    "terminology_en": "Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "동일한 대상을 동일한 검사 또는 동등한 검사로 반복 측정했을 때 얻어지는 점수의 일관성(consistency) 정도를 나타내는 개념이다.",
+    "definition_en": "The degree to which a test consistently yields the same or similar scores when administered repeatedly to the same individuals under comparable conditions.",
+    "significance": "심리검사의 필수 요건으로, 신뢰도가 확보되지 않으면 타당도도 보장될 수 없으며, 검사 결과의 해석과 의사결정의 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "고전검사이론과 신뢰도 개념의 기초를 확립하고 진점수 모형을 제안"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "내적 일관성 신뢰도 계수인 Cronbach's alpha를 개발하여 신뢰도 추정을 일반화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "타당도", "name_en": "Validity", "id": "VALI_VAL_001"},
+      {"name_ko": "신뢰도 계수", "name_en": "Reliability Coefficient", "id": "RELI_RC_002"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "RELI_SEM_014"},
+      {"name_ko": "고전검사이론", "name_en": "Classical Test Theory", "id": "RELI_CTT_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "안정성 계수",
+        "name_en": "Stability Coefficient",
+        "definition": "검사-재검사를 통해 시간적 안정성을 평가하는 신뢰도"
+      },
+      {
+        "name_ko": "동등성 계수",
+        "name_en": "Equivalence Coefficient",
+        "definition": "동형검사 간 동등성을 평가하는 신뢰도"
+      },
+      {
+        "name_ko": "내적 일관성 계수",
+        "name_en": "Internal Consistency Coefficient",
+        "definition": "단일 검사 내 문항 간 동질성을 평가하는 신뢰도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "신뢰도 = 일관성(Consistency) = 반복 시 동일 결과",
+      "differential": "신뢰도는 측정의 '일관성'이고, 타당도는 측정의 '정확성'이다. 신뢰도가 높아도 타당도가 낮을 수 있다.",
+      "key_point": "신뢰도는 타당도의 필요조건이지만 충분조건은 아니다. 즉, 신뢰도 없이 타당도는 불가능하지만 신뢰도가 높다고 반드시 타당한 것은 아니다.",
+      "common_mistake": "신뢰도가 높으면 자동으로 타당도도 높다고 생각하는 오류 — 체중계가 항상 2kg 더 측정하면 신뢰도는 높지만 타당도는 낮다."
+    }
+  },
+  {
+    "id": "RELI_RC_002",
+    "terminology": "신뢰도 계수 (Reliability Coefficient)",
+    "terminology_ko": "신뢰도 계수",
+    "terminology_en": "Reliability Coefficient",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "검사 점수의 일관성 정도를 0에서 1 사이의 수치로 나타낸 상관계수로, 1에 가까울수록 측정오차가 적고 신뢰도가 높음을 의미한다.",
+    "definition_en": "A numerical index ranging from 0 to 1 that quantifies the consistency or reproducibility of test scores, where values closer to 1 indicate less measurement error and higher reliability.",
+    "significance": "검사의 품질을 판단하는 핵심 지표로, 검사 선택 및 해석에서 반드시 보고되어야 하며, 검사 매뉴얼에 필수적으로 포함된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "상관계수를 활용한 신뢰도 추정 방법의 토대를 마련"},
+      {"name_ko": "루이스 거트만", "name_en": "Louis Guttman", "contribution": "신뢰도 계수의 하한(lower bound)에 관한 체계적 이론을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RELI_REL_001"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "RELI_SEM_014"},
+      {"name_ko": "진점수 분산", "name_en": "True Score Variance", "id": "RELI_TS_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "rxx = σ²T / σ²X (진점수 분산 / 관찰점수 분산)",
+      "differential": "신뢰도 계수는 상관계수의 일종이지만, 두 변인 간 관계가 아니라 동일 구인의 반복 측정 간 일관성을 나타낸다.",
+      "key_point": "신뢰도 계수는 추정 방법(재검사, 동형, 내적 일관성 등)에 따라 값이 달라지므로, 어떤 방법으로 산출되었는지를 반드시 확인해야 한다.",
+      "common_mistake": "신뢰도 계수가 '검사 자체'의 고정된 속성이라고 보는 것 — 실제로는 특정 표본과 조건에서의 추정치이다."
+    }
+  },
+  {
+    "id": "RELI_TRT_003",
+    "terminology": "검사-재검사 신뢰도 (Test-Retest Reliability)",
+    "terminology_ko": "검사-재검사 신뢰도",
+    "terminology_en": "Test-Retest Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "동일한 검사를 동일한 집단에게 일정 시간 간격을 두고 두 번 실시한 후, 두 검사 점수 간의 상관계수(안정성 계수)로 신뢰도를 추정하는 방법이다.",
+    "definition_en": "A method of estimating reliability by administering the same test to the same group on two separate occasions and computing the correlation (stability coefficient) between the two sets of scores.",
+    "significance": "검사 점수의 시간적 안정성(temporal stability)을 평가하는 가장 직접적인 방법으로, 특질검사와 같이 안정적인 구인을 측정하는 검사에 특히 적합하다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "검사-재검사 방법을 통한 신뢰도 추정의 이론적 기초를 수립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "안정성 계수", "name_en": "Stability Coefficient", "id": "RELI_REL_001"},
+      {"name_ko": "연습효과", "name_en": "Practice Effect", "id": "RELI_PE_019"},
+      {"name_ko": "이월효과", "name_en": "Carryover Effect", "id": "RELI_CE_020"},
+      {"name_ko": "동형검사 신뢰도", "name_en": "Alternate Forms Reliability", "id": "RELI_AF_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "같은 시험, 같은 사람, 다른 시간 → 안정성 계수",
+      "differential": "검사-재검사는 '시간적 안정성'을, 동형검사는 '형태 간 동등성'을, 내적 일관성은 '문항 간 동질성'을 평가한다.",
+      "key_point": "검사 간격이 너무 짧으면 연습효과/기억효과로 신뢰도가 과대추정되고, 너무 길면 실제 변화로 인해 과소추정될 수 있다.",
+      "common_mistake": "검사-재검사 신뢰도가 모든 검사에 적합하다고 생각하는 것 — 상태불안처럼 변동하는 구인에는 부적합하다."
+    }
+  },
+  {
+    "id": "RELI_AF_004",
+    "terminology": "동형검사 신뢰도 (Alternate Forms Reliability)",
+    "terminology_ko": "동형검사 신뢰도",
+    "terminology_en": "Alternate Forms Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "내용과 난이도가 동등하게 구성된 두 가지 형태의 검사를 동일 집단에게 실시하고, 두 검사 점수 간의 상관계수(동등성 계수)로 신뢰도를 추정하는 방법이다.",
+    "definition_en": "A method of estimating reliability by administering two equivalent forms of a test to the same group and computing the correlation (equivalence coefficient) between the two sets of scores.",
+    "significance": "검사-재검사 방법의 연습효과와 기억효과 문제를 극복하며, 검사 내용의 동등성을 검증할 수 있어 표준화 검사에서 중요하게 활용된다.",
+    "key_researchers": [
+      {"name_ko": "로버트 손다이크", "name_en": "Robert Thorndike", "contribution": "동형검사 제작의 원칙과 동등성 검증 방법을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사-재검사 신뢰도", "name_en": "Test-Retest Reliability", "id": "RELI_TRT_003"},
+      {"name_ko": "동등성 계수", "name_en": "Equivalence Coefficient", "id": "RELI_REL_001"},
+      {"name_ko": "반분 신뢰도", "name_en": "Split-Half Reliability", "id": "RELI_SH_005"},
+      {"name_ko": "문항 표집", "name_en": "Item Sampling", "id": "RELI_IS_021"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "즉시 동형검사",
+        "name_en": "Immediate Alternate Forms",
+        "definition": "두 동형검사를 시간 간격 없이 연속으로 실시하여 동등성만 평가하는 방법"
+      },
+      {
+        "name_ko": "지연 동형검사",
+        "name_en": "Delayed Alternate Forms",
+        "definition": "두 동형검사를 일정 시간 간격을 두고 실시하여 안정성과 동등성을 동시에 평가하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "동형 = 다른 문항, 같은 구인 → 동등성 계수",
+      "differential": "동형검사는 '다른 문항 세트'를 사용하므로 기억효과 제거, 검사-재검사는 '같은 문항'이므로 기억효과 발생 가능.",
+      "key_point": "진정한 동형검사를 제작하는 것은 실질적으로 매우 어렵고 비용이 많이 들어, 실제로는 내적 일관성 방법이 더 많이 사용된다.",
+      "common_mistake": "동형검사와 유사검사(comparable forms)를 혼동하는 것 — 동형검사는 통계적으로 동등한 평균, 분산, 문항 특성을 가져야 한다."
+    }
+  },
+  {
+    "id": "RELI_SH_005",
+    "terminology": "반분 신뢰도 (Split-Half Reliability)",
+    "terminology_ko": "반분 신뢰도",
+    "terminology_en": "Split-Half Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "단일 검사를 한 번만 실시한 후, 검사 문항을 두 부분(주로 홀수-짝수)으로 나누어 두 반검사 점수 간의 상관계수를 구하고, 이를 전체 검사 신뢰도로 교정하는 방법이다.",
+    "definition_en": "A method of estimating reliability from a single test administration by dividing test items into two halves (typically odd-even), computing the correlation between half-test scores, and correcting for full test length.",
+    "significance": "한 번의 검사 실시만으로 신뢰도를 추정할 수 있어 실용적이며, 재검사나 동형검사가 어려운 상황에서 효율적인 대안이 된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "반분 신뢰도의 기본 개념과 교정 공식(Spearman-Brown)을 공동 개발"},
+      {"name_ko": "윌리엄 브라운", "name_en": "William Brown", "contribution": "스피어만과 독립적으로 Spearman-Brown 교정 공식을 동시에 발표"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Spearman-Brown 교정 공식", "name_en": "Spearman-Brown Prophecy Formula", "id": "RELI_SB_006"},
+      {"name_ko": "내적 일관성", "name_en": "Internal Consistency", "id": "RELI_IC_007"},
+      {"name_ko": "동형검사 신뢰도", "name_en": "Alternate Forms Reliability", "id": "RELI_AF_004"},
+      {"name_ko": "Cronbach's alpha", "name_en": "Cronbach's Alpha", "id": "RELI_CA_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반분 = 한 검사를 반으로 쪼개서 동형검사처럼 사용 → Spearman-Brown으로 교정",
+      "differential": "반분 신뢰도는 '한 가지 분할 방법'의 결과이고, Cronbach's α는 '가능한 모든 반분 신뢰도의 평균'이다.",
+      "key_point": "반분 방법에 따라(홀짝, 전반/후반, 무선 분할) 신뢰도 추정치가 달라질 수 있으므로, 홀수-짝수 분할이 가장 일반적으로 권장된다.",
+      "common_mistake": "문항을 전반부/후반부로 나누는 것이 적절하다고 생각하는 것 — 피로, 연습효과로 인해 과소추정될 수 있다."
+    }
+  },
+  {
+    "id": "RELI_SB_006",
+    "terminology": "Spearman-Brown 교정 공식 (Spearman-Brown Prophecy Formula)",
+    "terminology_ko": "Spearman-Brown 교정 공식",
+    "terminology_en": "Spearman-Brown Prophecy Formula",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "반분 신뢰도에서 절반 길이 검사의 상관계수를 전체 검사 길이의 신뢰도로 교정하는 공식으로, 검사 길이 변화에 따른 신뢰도 변화를 예측하는 데 사용된다.",
+    "definition_en": "A formula used to correct the split-half correlation to estimate the reliability of the full-length test, and more generally to predict how changes in test length affect reliability.",
+    "significance": "반분 신뢰도의 과소추정 문제를 해결하고, 검사 길이 변경 시 신뢰도 변화를 사전에 예측할 수 있어 검사 개발과 수정에 핵심적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "1910년 반분 상관을 전체 검사 신뢰도로 교정하는 공식을 발표"},
+      {"name_ko": "윌리엄 브라운", "name_en": "William Brown", "contribution": "1910년 스피어만과 독립적으로 동일한 교정 공식을 발표"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반분 신뢰도", "name_en": "Split-Half Reliability", "id": "RELI_SH_005"},
+      {"name_ko": "검사 길이와 신뢰도", "name_en": "Test Length and Reliability", "id": "RELI_TL_022"},
+      {"name_ko": "신뢰도 계수", "name_en": "Reliability Coefficient", "id": "RELI_RC_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공식: rxx = 2r_half / (1 + r_half), 일반화: rn = nr / [1 + (n-1)r]",
+      "differential": "Spearman-Brown은 '검사 길이'에 따른 신뢰도 예측이고, 감쇠 교정(attenuation correction)은 '비신뢰도'로 인한 상관 과소추정의 교정이다.",
+      "key_point": "검사 길이를 2배로 늘리면 신뢰도가 증가하지만, 수확체감의 법칙이 적용되어 일정 수준 이상에서는 증가폭이 줄어든다.",
+      "common_mistake": "이 공식이 모든 경우에 적용 가능하다고 생각하는 것 — 추가 문항이 기존 문항과 동질적이어야 공식이 유효하다."
+    }
+  },
+  {
+    "id": "RELI_IC_007",
+    "terminology": "내적 일관성 (Internal Consistency)",
+    "terminology_ko": "내적 일관성",
+    "terminology_en": "Internal Consistency",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "단일 검사를 한 번만 실시하여 검사 내 문항들이 동일한 구인을 얼마나 일관되게 측정하고 있는지, 즉 문항 간 동질성(homogeneity)의 정도를 평가하는 신뢰도 추정 방법이다.",
+    "definition_en": "A method of estimating reliability from a single test administration that assesses the degree to which all items on a test measure the same construct, reflecting inter-item homogeneity.",
+    "significance": "한 번의 검사 실시만으로 추정 가능하여 가장 널리 사용되는 신뢰도 추정 방법이며, 검사가 단일 구인을 측정하는지 평가하는 데 중요한 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "Cronbach's alpha를 개발하여 내적 일관성 추정의 일반적 방법을 제시"},
+      {"name_ko": "쿠더", "name_en": "G. Frederic Kuder", "contribution": "Richardson과 함께 이분 문항의 내적 일관성 공식(KR-20, KR-21)을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Cronbach's alpha", "name_en": "Cronbach's Alpha", "id": "RELI_CA_008"},
+      {"name_ko": "KR-20", "name_en": "Kuder-Richardson Formula 20", "id": "RELI_KR20_009"},
+      {"name_ko": "반분 신뢰도", "name_en": "Split-Half Reliability", "id": "RELI_SH_005"},
+      {"name_ko": "문항-전체 상관", "name_en": "Item-Total Correlation", "id": "RELI_ITC_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내적 일관성 = 문항들이 같은 것을 재고 있는가? = 문항 간 동질성",
+      "differential": "내적 일관성은 '문항 간 동질성'을, 검사-재검사 신뢰도는 '시간적 안정성'을 평가한다. 둘은 서로 다른 오차원을 다룬다.",
+      "key_point": "내적 일관성이 높다고 해서 시간적 안정성이 높은 것은 아니며, 다차원 검사(여러 하위척도)에서는 전체 내적 일관성이 낮게 나올 수 있다.",
+      "common_mistake": "내적 일관성이 높으면 '모든 종류의 신뢰도'가 높다고 일반화하는 것 — 내적 일관성은 문항 간 동질성만 반영한다."
+    }
+  },
+  {
+    "id": "RELI_CA_008",
+    "terminology": "크론바흐 알파 (Cronbach's Alpha)",
+    "terminology_ko": "크론바흐 알파",
+    "terminology_en": "Cronbach's Alpha",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "다분 문항(예: 리커트 척도)으로 구성된 검사의 내적 일관성 신뢰도를 추정하는 계수로, 가능한 모든 반분 신뢰도의 평균과 수학적으로 동등한 값이다.",
+    "definition_en": "A coefficient for estimating the internal consistency reliability of tests with polytomous items (e.g., Likert scales), mathematically equivalent to the average of all possible split-half reliabilities.",
+    "significance": "심리학 연구에서 가장 널리 보고되는 신뢰도 계수로, 사실상 내적 일관성 신뢰도의 표준 지표이며, 연구 논문의 필수 보고 요소이다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "1951년 계수 알파(coefficient alpha)를 발표하여 내적 일관성 추정의 일반 공식을 제시"},
+      {"name_ko": "루이스 거트만", "name_en": "Louis Guttman", "contribution": "신뢰도 하한 공식(λ3)을 제안, Cronbach's α와 수학적으로 동등한 공식을 독립적으로 도출"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내적 일관성", "name_en": "Internal Consistency", "id": "RELI_IC_007"},
+      {"name_ko": "KR-20", "name_en": "Kuder-Richardson Formula 20", "id": "RELI_KR20_009"},
+      {"name_ko": "반분 신뢰도", "name_en": "Split-Half Reliability", "id": "RELI_SH_005"},
+      {"name_ko": "문항-전체 상관", "name_en": "Item-Total Correlation", "id": "RELI_ITC_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "α = (k/(k-1)) × (1 - Σσ²i/σ²X), k=문항수, σ²i=문항분산, σ²X=전체분산",
+      "differential": "Cronbach's α는 다분 문항용이고, KR-20은 이분 문항(맞다/틀리다)에만 적용되는 특수한 경우이다.",
+      "key_point": "α ≥ .70이면 수용 가능, .80 이상이면 양호, .90 이상이면 우수하지만, 임상적 의사결정에는 .90 이상을 권장한다.",
+      "common_mistake": "α가 높으면 검사가 단일차원이라고 단정하는 것 — α는 문항 수에도 영향을 받으며, 다차원이어도 문항 수가 많으면 높게 나올 수 있다."
+    }
+  },
+  {
+    "id": "RELI_KR20_009",
+    "terminology": "KR-20 (Kuder-Richardson Formula 20)",
+    "terminology_ko": "KR-20",
+    "terminology_en": "Kuder-Richardson Formula 20",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "이분 문항(맞다/틀리다)으로 구성된 검사의 내적 일관성 신뢰도를 추정하는 공식으로, 각 문항의 난이도(p, q)를 이용하여 산출한다.",
+    "definition_en": "A formula for estimating the internal consistency reliability of tests composed of dichotomous (right/wrong) items, using item difficulty values (p and q) for each item.",
+    "significance": "이분 채점 검사(성취도검사, 적성검사 등)에서 가장 적합한 내적 일관성 신뢰도 추정 방법으로, Cronbach's α의 이분 문항 특수 사례이다.",
+    "key_researchers": [
+      {"name_ko": "쿠더", "name_en": "G. Frederic Kuder", "contribution": "Richardson과 함께 1937년 이분 문항의 내적 일관성 공식 시리즈를 발표"},
+      {"name_ko": "리처드슨", "name_en": "M. W. Richardson", "contribution": "Kuder와 함께 KR-20 및 KR-21 공식을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Cronbach's alpha", "name_en": "Cronbach's Alpha", "id": "RELI_CA_008"},
+      {"name_ko": "KR-21", "name_en": "Kuder-Richardson Formula 21", "id": "RELI_KR21_010"},
+      {"name_ko": "내적 일관성", "name_en": "Internal Consistency", "id": "RELI_IC_007"},
+      {"name_ko": "문항 난이도", "name_en": "Item Difficulty", "id": "ITEM_DIF_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "KR-20 = (k/(k-1)) × (1 - Σpq/σ²X), p=정답률, q=1-p",
+      "differential": "KR-20은 각 문항의 난이도(p, q)를 개별적으로 계산하지만, KR-21은 모든 문항의 난이도가 동일하다고 가정하여 평균 난이도만 사용한다.",
+      "key_point": "KR-20은 이분 문항에 대한 Cronbach's α와 수학적으로 동일한 값을 산출하며, 리커트 척도에는 적용할 수 없다.",
+      "common_mistake": "KR-20을 다분 문항(리커트 척도)에 적용하려는 것 — 다분 문항에는 Cronbach's α를 사용해야 한다."
+    }
+  },
+  {
+    "id": "RELI_KR21_010",
+    "terminology": "KR-21 (Kuder-Richardson Formula 21)",
+    "terminology_ko": "KR-21",
+    "terminology_en": "Kuder-Richardson Formula 21",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "모든 문항의 난이도가 동일하다는 가정하에, 총점의 평균과 분산만으로 이분 문항 검사의 내적 일관성 신뢰도를 간편하게 추정하는 공식이다.",
+    "definition_en": "A simplified formula for estimating internal consistency reliability of dichotomous tests under the assumption of equal item difficulty, requiring only the test mean and variance.",
+    "significance": "개별 문항 난이도 정보 없이도 간편하게 산출할 수 있어 예비 분석이나 빠른 신뢰도 추정에 유용하지만, KR-20보다 항상 같거나 낮은 값을 산출한다.",
+    "key_researchers": [
+      {"name_ko": "쿠더", "name_en": "G. Frederic Kuder", "contribution": "문항 난이도 균등 가정 하의 간편 공식을 Richardson과 함께 개발"},
+      {"name_ko": "리처드슨", "name_en": "M. W. Richardson", "contribution": "KR-21의 수학적 유도 및 KR-20과의 관계를 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "KR-20", "name_en": "Kuder-Richardson Formula 20", "id": "RELI_KR20_009"},
+      {"name_ko": "Cronbach's alpha", "name_en": "Cronbach's Alpha", "id": "RELI_CA_008"},
+      {"name_ko": "내적 일관성", "name_en": "Internal Consistency", "id": "RELI_IC_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "KR-21 = (k/(k-1)) × (1 - M(k-M)/(kσ²X)), M=평균, k=문항수",
+      "differential": "KR-21 ≤ KR-20 ≤ α (다분문항) — KR-21은 문항 난이도 균등 가정으로 인해 항상 보수적(낮은) 추정치를 제공한다.",
+      "key_point": "문항 난이도가 실제로 불균등할 경우 KR-21은 신뢰도를 과소추정하므로, 정확한 추정이 필요하면 KR-20을 사용해야 한다.",
+      "common_mistake": "KR-21이 KR-20과 동일한 값을 산출한다고 생각하는 것 — 문항 난이도가 완전히 동일할 때만 같은 값이 나온다."
+    }
+  },
+  {
+    "id": "RELI_CTT_011",
+    "terminology": "고전검사이론 (Classical Test Theory, CTT)",
+    "terminology_ko": "고전검사이론",
+    "terminology_en": "Classical Test Theory (CTT)",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "관찰점수(X)는 진점수(T)와 오차점수(E)의 합(X = T + E)이라는 기본 가정에 기반하여, 검사 점수의 신뢰도와 측정오차를 설명하는 심리측정학의 기본 이론 체계이다.",
+    "definition_en": "A foundational psychometric framework based on the assumption that an observed score (X) is the sum of a true score (T) and an error score (E), providing the basis for understanding test reliability and measurement error.",
+    "significance": "현대 심리검사의 신뢰도, 타당도, 문항분석의 이론적 기초를 제공하며, 100년 이상 심리측정학의 지배적 패러다임으로 기능해 왔다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "1904년 진점수 이론의 기초를 수립하고 측정오차의 개념을 공식화"},
+      {"name_ko": "멜빈 노빅", "name_en": "Melvin Novick", "contribution": "Lord와 함께 CTT의 공리적 체계를 수립한 저서 'Statistical Theories of Mental Test Scores'(1968) 발표"},
+      {"name_ko": "프레드릭 로드", "name_en": "Frederic Lord", "contribution": "CTT를 체계적으로 정리하고 문항반응이론(IRT)으로의 발전을 이끔"}
+    ],
+    "related_concepts": [
+      {"name_ko": "진점수", "name_en": "True Score", "id": "RELI_TS_012"},
+      {"name_ko": "오차점수", "name_en": "Error Score", "id": "RELI_ES_013"},
+      {"name_ko": "관찰점수", "name_en": "Observed Score", "id": "RELI_OS_015"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "RELI_SEM_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CTT 핵심 공식: X = T + E (관찰 = 진 + 오차)",
+      "differential": "CTT는 검사 수준의 분석(전체 점수 기반)이고, 문항반응이론(IRT)은 문항 수준의 분석(개별 문항 기반)이다.",
+      "key_point": "CTT의 핵심 가정: (1) E(X) = T, (2) 오차와 진점수는 무상관, (3) 서로 다른 검사의 오차끼리 무상관이다.",
+      "common_mistake": "진점수를 '실제 능력'과 동일시하는 것 — 진점수는 동일 검사를 무한 반복했을 때의 평균으로, 이론적 구인일 뿐이다."
+    }
+  },
+  {
+    "id": "RELI_TS_012",
+    "terminology": "진점수 (True Score)",
+    "terminology_ko": "진점수",
+    "terminology_en": "True Score",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "동일한 검사를 동일한 개인에게 무한히 반복 실시했을 때 얻어지는 관찰점수들의 기댓값(평균)으로, 측정오차가 제거된 이론적 점수이다.",
+    "definition_en": "The expected value (mean) of an individual's observed scores if the same test were administered an infinite number of times, representing the score free of measurement error.",
+    "significance": "고전검사이론의 핵심 개념으로, 신뢰도는 관찰점수 분산 중 진점수 분산이 차지하는 비율(rxx = σ²T/σ²X)로 정의되며, 모든 측정의 궁극적 목표는 진점수의 추정이다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "진점수 개념을 최초로 공식화하고 X = T + E 모형을 제안"},
+      {"name_ko": "해롤드 굴릭센", "name_en": "Harold Gulliksen", "contribution": "저서 'Theory of Mental Tests'(1950)에서 진점수이론을 체계적으로 정리"}
+    ],
+    "related_concepts": [
+      {"name_ko": "관찰점수", "name_en": "Observed Score", "id": "RELI_OS_015"},
+      {"name_ko": "오차점수", "name_en": "Error Score", "id": "RELI_ES_013"},
+      {"name_ko": "고전검사이론", "name_en": "Classical Test Theory", "id": "RELI_CTT_011"},
+      {"name_ko": "신뢰도 계수", "name_en": "Reliability Coefficient", "id": "RELI_RC_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진점수 = 무한 반복의 평균 = E(X) = T",
+      "differential": "진점수는 '이론적 구인'이고 관찰점수는 '실제 얻은 점수'이며, 그 차이가 오차점수이다.",
+      "key_point": "진점수는 직접 관찰할 수 없는 잠재변수이며, 관찰점수를 통해 추정할 수밖에 없다. 신뢰도가 높을수록 관찰점수가 진점수에 가까워진다.",
+      "common_mistake": "진점수를 피검자의 '참된 능력'이나 '실제 점수'와 혼동하는 것 — 진점수는 특정 검사에 대한 이론적 기댓값일 뿐이다."
+    }
+  },
+  {
+    "id": "RELI_ES_013",
+    "terminology": "오차점수 (Error Score)",
+    "terminology_ko": "오차점수",
+    "terminology_en": "Error Score",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "관찰점수와 진점수 간의 차이(E = X - T)로, 측정 과정에서 발생하는 무선적 요인에 의한 점수 변동분을 나타낸다.",
+    "definition_en": "The difference between the observed score and the true score (E = X - T), representing the random fluctuation in scores due to unsystematic factors in the measurement process.",
+    "significance": "측정오차의 존재와 크기를 이해하는 것은 검사 결과의 해석에 필수적이며, 오차 분산을 줄이는 것이 검사 개발의 핵심 목표이다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "오차점수 개념을 고전검사이론의 기본 구성요소로 공식화"},
+      {"name_ko": "프레드릭 로드", "name_en": "Frederic Lord", "contribution": "오차 분산과 신뢰도의 관계를 수학적으로 정교화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "진점수", "name_en": "True Score", "id": "RELI_TS_012"},
+      {"name_ko": "관찰점수", "name_en": "Observed Score", "id": "RELI_OS_015"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "RELI_SEM_014"},
+      {"name_ko": "고전검사이론", "name_en": "Classical Test Theory", "id": "RELI_CTT_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "무선오차",
+        "name_en": "Random Error",
+        "definition": "예측 불가능하고 비체계적인 요인(피로, 추측, 주의산만 등)에 의한 오차로, 신뢰도에 영향을 미친다"
+      },
+      {
+        "name_ko": "체계적 오차",
+        "name_en": "Systematic Error",
+        "definition": "일정한 방향으로 점수를 변동시키는 오차(검사 편향, 구인과 무관한 난이도 등)로, 타당도에 영향을 미친다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "E = X - T, 오차는 무선적이고 평균은 0 → E(E) = 0",
+      "differential": "무선오차는 신뢰도를 낮추지만 평균에 영향을 주지 않으며, 체계적 오차는 신뢰도에 영향 없이 타당도를 낮춘다.",
+      "key_point": "CTT에서 오차점수의 기본 가정: (1) 기댓값은 0, (2) 진점수와 무상관, (3) 다른 검사의 오차와 무상관이다.",
+      "common_mistake": "모든 측정오차가 무선적이라고 가정하는 것 — 체계적 오차는 CTT의 진점수에 포함되어 감지되지 않는다."
+    }
+  },
+  {
+    "id": "RELI_SEM_014",
+    "terminology": "측정의 표준오차 (Standard Error of Measurement, SEM)",
+    "terminology_ko": "측정의 표준오차",
+    "terminology_en": "Standard Error of Measurement (SEM)",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "동일한 개인이 동일한 검사를 반복 수행했을 때 관찰점수들의 표준편차로, 개인 점수에 포함된 측정오차의 크기를 나타내는 지표이다.",
+    "definition_en": "The standard deviation of observed scores that would be obtained if the same individual took the same test repeatedly, indicating the amount of measurement error associated with an individual's score.",
+    "significance": "개인 점수의 해석에 필수적인 지표로, 신뢰구간을 설정하여 진점수가 존재할 가능성이 있는 범위를 추정하는 데 사용된다.",
+    "key_researchers": [
+      {"name_ko": "프레드릭 로드", "name_en": "Frederic Lord", "contribution": "SEM의 이론적 기초를 정립하고 점수 해석에서의 활용 방법을 제안"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "SEM을 활용한 점수 해석 프레임워크를 실용적으로 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "신뢰도 계수", "name_en": "Reliability Coefficient", "id": "RELI_RC_002"},
+      {"name_ko": "신뢰구간", "name_en": "Confidence Interval", "id": "RELI_CI_016"},
+      {"name_ko": "오차점수", "name_en": "Error Score", "id": "RELI_ES_013"},
+      {"name_ko": "진점수", "name_en": "True Score", "id": "RELI_TS_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SEM = σX × √(1 - rxx), σX=표준편차, rxx=신뢰도",
+      "differential": "SEM은 '개인 점수의 오차 범위'를 나타내고, 신뢰도 계수는 '집단 점수의 일관성'을 나타낸다. 둘은 역의 관계이다.",
+      "key_point": "신뢰도가 높을수록 SEM은 작아지고, SEM이 작을수록 개인 점수의 정밀도가 높다. 95% 신뢰구간 = X ± 1.96 × SEM이다.",
+      "common_mistake": "SEM과 표준오차(SE)를 혼동하는 것 — SEM은 측정의 정밀도, SE(표본평균의 표준오차)는 표본 추출의 변동성이다."
+    }
+  },
+  {
+    "id": "RELI_OS_015",
+    "terminology": "관찰점수 (Observed Score)",
+    "terminology_ko": "관찰점수",
+    "terminology_en": "Observed Score",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "피검자가 검사를 실시하여 실제로 얻은 점수로, 진점수와 오차점수의 합(X = T + E)으로 구성된다.",
+    "definition_en": "The actual score obtained by an examinee on a test, composed of the sum of the true score and the error score (X = T + E).",
+    "significance": "심리검사에서 직접 관찰할 수 있는 유일한 점수로, 진점수를 추정하기 위한 출발점이 되며, 모든 검사 해석의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "관찰점수를 진점수와 오차점수의 합으로 분해하는 모형을 최초로 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "진점수", "name_en": "True Score", "id": "RELI_TS_012"},
+      {"name_ko": "오차점수", "name_en": "Error Score", "id": "RELI_ES_013"},
+      {"name_ko": "고전검사이론", "name_en": "Classical Test Theory", "id": "RELI_CTT_011"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "RELI_SEM_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관찰점수 X = 진점수 T + 오차점수 E, 우리가 실제로 보는 점수",
+      "differential": "관찰점수는 실제 측정값이고, 진점수는 이론적 기댓값이다. 관찰점수에는 항상 오차가 포함되어 있다.",
+      "key_point": "관찰점수의 분산 = 진점수 분산 + 오차 분산 (σ²X = σ²T + σ²E), 신뢰도 = σ²T / σ²X이다.",
+      "common_mistake": "관찰점수를 피검자의 '진짜 능력'으로 해석하는 것 — 반드시 SEM을 고려한 신뢰구간으로 해석해야 한다."
+    }
+  },
+  {
+    "id": "RELI_CI_016",
+    "terminology": "신뢰구간 (Confidence Interval)",
+    "terminology_ko": "신뢰구간",
+    "terminology_en": "Confidence Interval",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "측정의 표준오차(SEM)를 이용하여 진점수가 포함될 가능성이 있는 점수 범위를 확률적으로 설정한 구간으로, 검사 점수 해석의 불확실성을 반영한다.",
+    "definition_en": "A range of scores around an observed score, constructed using the SEM, within which the true score is expected to fall with a specified probability, reflecting the uncertainty in test score interpretation.",
+    "significance": "단일 점수의 정밀도 한계를 인정하고, 점수를 점(point)이 아닌 범위(band)로 해석하게 하여 과도한 해석과 잘못된 의사결정을 방지한다.",
+    "key_researchers": [
+      {"name_ko": "프레드릭 로드", "name_en": "Frederic Lord", "contribution": "SEM 기반 신뢰구간을 검사 점수 해석에 적용하는 방법을 체계화"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "검사 점수의 밴드 해석을 실용적 검사 활용에 도입"}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "RELI_SEM_014"},
+      {"name_ko": "관찰점수", "name_en": "Observed Score", "id": "RELI_OS_015"},
+      {"name_ko": "진점수", "name_en": "True Score", "id": "RELI_TS_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "68% CI = X ± 1×SEM, 95% CI = X ± 1.96×SEM, 99% CI = X ± 2.58×SEM",
+      "differential": "SEM 기반 신뢰구간은 '개인 점수의 정밀도'를, 통계적 신뢰구간은 '모수 추정의 정밀도'를 나타낸다.",
+      "key_point": "두 사람의 점수를 비교할 때, 신뢰구간이 겹치면 의미 있는 차이가 아닐 수 있으므로 신뢰구간을 활용한 밴드 해석이 중요하다.",
+      "common_mistake": "95% 신뢰구간을 '진점수가 이 범위에 있을 확률이 95%'로 해석하는 것 — 정확히는 '이런 방식으로 구간을 구성하면 100번 중 95번 진점수를 포함한다'이다."
+    }
+  },
+  {
+    "id": "RELI_IRR_017",
+    "terminology": "평정자간 신뢰도 (Inter-Rater Reliability)",
+    "terminology_ko": "평정자간 신뢰도",
+    "terminology_en": "Inter-Rater Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "두 명 이상의 평정자(채점자)가 동일한 대상이나 수행을 독립적으로 평가했을 때, 평정 결과 간의 일치도 또는 일관성을 나타내는 신뢰도이다.",
+    "definition_en": "The degree of agreement or consistency among two or more independent raters who evaluate the same targets or performances, indicating scorer reliability.",
+    "significance": "주관적 판단이 개입되는 검사(면접, 수행평가, 행동관찰, 투사검사 등)에서 채점의 객관성과 일관성을 입증하는 핵심 근거이다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 코헨", "name_en": "Jacob Cohen", "contribution": "우연 일치를 교정한 평정자간 일치도 지표인 Cohen's Kappa를 개발"},
+      {"name_ko": "조지프 플라이스", "name_en": "Joseph Fleiss", "contribution": "3명 이상 평정자를 위한 Fleiss' Kappa를 개발하여 다중 평정자 신뢰도 평가를 가능하게 함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Cohen's Kappa", "name_en": "Cohen's Kappa", "id": "RELI_CK_023"},
+      {"name_ko": "평정자내 신뢰도", "name_en": "Intra-Rater Reliability", "id": "RELI_INTRA_024"},
+      {"name_ko": "급내상관계수", "name_en": "Intraclass Correlation Coefficient", "id": "RELI_ICC_025"},
+      {"name_ko": "채점자 훈련", "name_en": "Rater Training", "id": "RELI_RT_026"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "평정자간 일치도",
+        "name_en": "Inter-Rater Agreement",
+        "definition": "평정자들이 동일한 등급이나 점수를 부여한 정도(절대적 일치)"
+      },
+      {
+        "name_ko": "평정자간 일관성",
+        "name_en": "Inter-Rater Consistency",
+        "definition": "평정자들의 상대적 순위 부여가 일관된 정도(상대적 일치)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "평정자간 = 서로 다른 채점자가 같은 점수를 주는가?",
+      "differential": "평정자간 신뢰도(inter)는 '다른 평정자 간'의 일치이고, 평정자내 신뢰도(intra)는 '같은 평정자'의 시간적 일관성이다.",
+      "key_point": "단순 일치율(%)은 우연 일치를 고려하지 않으므로 부적절하며, Cohen's Kappa나 ICC를 사용해야 한다.",
+      "common_mistake": "단순 일치율(percent agreement)만으로 평정자간 신뢰도를 보고하는 것 — 우연 일치를 교정한 Kappa가 더 적절하다."
+    }
+  },
+  {
+    "id": "RELI_ITC_018",
+    "terminology": "문항-전체 상관 (Item-Total Correlation)",
+    "terminology_ko": "문항-전체 상관",
+    "terminology_en": "Item-Total Correlation",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "개별 문항 점수와 전체 검사 총점(해당 문항 점수를 제외한 교정 총점 사용 권장) 간의 상관계수로, 문항이 전체 검사와 얼마나 일관되게 측정하는지를 나타내는 문항변별도 지표이다.",
+    "definition_en": "The correlation between an individual item score and the total test score (preferably corrected by excluding that item), indicating how consistently an item measures in line with the overall test.",
+    "significance": "내적 일관성 신뢰도에 기여하지 않는 불량 문항을 식별하는 핵심 지표로, 문항 분석과 검사 개발에서 필수적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "해롤드 굴릭센", "name_en": "Harold Gulliksen", "contribution": "문항-전체 상관을 문항 분석의 핵심 지표로 체계화"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "문항-전체 상관과 Cronbach's α 간의 관계를 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Cronbach's alpha", "name_en": "Cronbach's Alpha", "id": "RELI_CA_008"},
+      {"name_ko": "내적 일관성", "name_en": "Internal Consistency", "id": "RELI_IC_007"},
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_001"},
+      {"name_ko": "교정된 문항-전체 상관", "name_en": "Corrected Item-Total Correlation", "id": "RELI_CITC_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문항-전체 상관 높다 = 그 문항이 전체 검사와 같은 것을 잰다 = 좋은 문항",
+      "differential": "문항-전체 상관은 '내적 일관성'의 문항 수준 지표이고, 문항 난이도는 '정답률'을 나타내는 별개의 지표이다.",
+      "key_point": "교정된 문항-전체 상관(해당 문항을 총점에서 제외)이 .30 미만이면 문항 수정 또는 삭제를 고려하며, 음수이면 반드시 삭제해야 한다.",
+      "common_mistake": "비교정 문항-전체 상관을 사용하면 해당 문항이 총점에 포함되어 상관이 인위적으로 높아지는 문제가 있다."
+    }
+  },
+  {
+    "id": "RELI_PE_019",
+    "terminology": "연습효과 (Practice Effect)",
+    "terminology_ko": "연습효과",
+    "terminology_en": "Practice Effect",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "동일한 검사 또는 유사한 검사를 반복 실시할 때, 검사 내용에 대한 친숙성이나 전략 학습으로 인해 두 번째 이후 점수가 체계적으로 상승하는 현상이다.",
+    "definition_en": "A systematic increase in scores upon retesting with the same or similar test, due to familiarity with test content, format, or strategies gained from prior exposure.",
+    "significance": "검사-재검사 신뢰도를 과대추정하게 만드는 주요 위협 요인으로, 반복 검사 설계와 재검사 간격 결정에서 반드시 고려해야 한다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "연습효과가 신뢰도 추정에 미치는 영향을 체계적으로 분석하고 대응 방안을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사-재검사 신뢰도", "name_en": "Test-Retest Reliability", "id": "RELI_TRT_003"},
+      {"name_ko": "이월효과", "name_en": "Carryover Effect", "id": "RELI_CE_020"},
+      {"name_ko": "동형검사 신뢰도", "name_en": "Alternate Forms Reliability", "id": "RELI_AF_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "연습 → 익숙 → 점수 상승 → 신뢰도 과대추정",
+      "differential": "연습효과는 '검사 경험으로 인한 점수 상승'이고, 이월효과는 '이전 검사 경험이 후속 검사에 미치는 더 넓은 영향(피로, 동기변화 포함)'이다.",
+      "key_point": "연습효과를 줄이려면 충분한 재검사 간격을 두거나, 동형검사를 사용하거나, 연습효과가 적은 검사를 선택해야 한다.",
+      "common_mistake": "재검사 시 점수 상승을 모두 '실제 능력 향상'으로 해석하는 것 — 연습효과에 의한 인위적 상승일 수 있다."
+    }
+  },
+  {
+    "id": "RELI_CE_020",
+    "terminology": "이월효과 (Carryover Effect)",
+    "terminology_ko": "이월효과",
+    "terminology_en": "Carryover Effect",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "이전 검사 실시의 경험(기억, 피로, 동기 변화, 태도 변화 등)이 후속 검사 수행에 체계적으로 영향을 미치는 현상으로, 연습효과를 포함하는 더 넓은 개념이다.",
+    "definition_en": "A broader phenomenon where experience from a prior test administration (memory, fatigue, motivation, attitude changes) systematically influences performance on a subsequent test, encompassing practice effects.",
+    "significance": "검사-재검사 신뢰도와 동형검사 신뢰도 추정에서 체계적 오염원이 되며, 반복측정 설계에서 순서효과(order effect)와 함께 통제해야 할 주요 요인이다.",
+    "key_researchers": [
+      {"name_ko": "도널드 캠벨", "name_en": "Donald Campbell", "contribution": "반복측정 설계에서 이월효과를 포함한 다양한 내적 타당도 위협 요인을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "연습효과", "name_en": "Practice Effect", "id": "RELI_PE_019"},
+      {"name_ko": "검사-재검사 신뢰도", "name_en": "Test-Retest Reliability", "id": "RELI_TRT_003"},
+      {"name_ko": "동형검사 신뢰도", "name_en": "Alternate Forms Reliability", "id": "RELI_AF_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이월 = 이전 경험이 넘어온다 → 기억, 피로, 동기, 태도 모두 포함",
+      "differential": "연습효과는 '점수 상승'에 초점을 맞추고, 이월효과는 '상승이든 하락이든' 이전 경험의 모든 체계적 영향을 포괄한다.",
+      "key_point": "이월효과를 통제하기 위해 역균형화(counterbalancing), 충분한 시간 간격, 동형검사 사용 등의 방법을 적용한다.",
+      "common_mistake": "이월효과가 항상 점수를 높이는 방향으로만 작용한다고 생각하는 것 — 피로나 동기 저하로 점수가 낮아질 수도 있다."
+    }
+  },
+  {
+    "id": "RELI_IS_021",
+    "terminology": "문항 표집 (Item Sampling)",
+    "terminology_ko": "문항 표집",
+    "terminology_en": "Item Sampling",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "검사에 포함된 문항들이 측정하고자 하는 내용 영역에서 표본으로 추출된 것이라는 관점으로, 문항 표집의 차이는 동형검사 신뢰도와 내적 일관성의 오차원이 된다.",
+    "definition_en": "The perspective that test items are a sample drawn from a larger domain of possible items, where differences in item sampling constitute a source of measurement error affecting alternate forms reliability and internal consistency.",
+    "significance": "검사 점수의 일반화 가능성을 이해하는 데 핵심적이며, 동형검사 간 차이와 내적 일관성 변동의 원인을 설명하는 개념적 틀을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "일반화가능도 이론에서 문항 표집을 오차원의 하나로 체계화"},
+      {"name_ko": "로버트 손다이크", "name_en": "Robert Thorndike", "contribution": "내용 영역 표집과 검사 구성의 관계를 체계적으로 정리"}
+    ],
+    "related_concepts": [
+      {"name_ko": "동형검사 신뢰도", "name_en": "Alternate Forms Reliability", "id": "RELI_AF_004"},
+      {"name_ko": "내적 일관성", "name_en": "Internal Consistency", "id": "RELI_IC_007"},
+      {"name_ko": "일반화가능도 이론", "name_en": "Generalizability Theory", "id": "RELI_GT_028"},
+      {"name_ko": "검사 길이와 신뢰도", "name_en": "Test Length and Reliability", "id": "RELI_TL_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문항 = 내용 영역의 표본, 다른 문항을 뽑으면 다른 점수 → 오차원",
+      "differential": "문항 표집 오차는 '어떤 문항을 선택했느냐'에 따른 변동이고, 시간 표집 오차는 '언제 측정했느냐'에 따른 변동이다.",
+      "key_point": "문항 수를 늘리면 문항 표집 오차가 줄어들어 신뢰도가 향상되며, 이것이 Spearman-Brown 공식의 근거가 된다.",
+      "common_mistake": "검사 문항이 내용 영역을 완벽하게 대표한다고 가정하는 것 — 문항은 항상 가능한 문항 풀의 일부 표본이다."
+    }
+  },
+  {
+    "id": "RELI_TL_022",
+    "terminology": "검사 길이와 신뢰도 (Test Length and Reliability)",
+    "terminology_ko": "검사 길이와 신뢰도",
+    "terminology_en": "Test Length and Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "검사의 문항 수(길이)와 신뢰도 간의 관계로, 동질적인 문항을 추가하면 신뢰도가 증가하지만 수확체감의 법칙에 따라 증가폭이 점차 줄어드는 현상이다.",
+    "definition_en": "The relationship between the number of items (test length) and reliability, where adding homogeneous items increases reliability but with diminishing returns as test length grows.",
+    "significance": "검사 개발에서 실용성(시간, 피로)과 신뢰도 간의 최적 균형점을 결정하는 데 핵심적이며, Spearman-Brown 공식을 통해 필요한 문항 수를 예측할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "검사 길이와 신뢰도의 관계를 수학적으로 공식화(Spearman-Brown 공식)"},
+      {"name_ko": "해롤드 굴릭센", "name_en": "Harold Gulliksen", "contribution": "검사 길이가 신뢰도에 미치는 영향을 다양한 조건에서 체계적으로 분석"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Spearman-Brown 교정 공식", "name_en": "Spearman-Brown Prophecy Formula", "id": "RELI_SB_006"},
+      {"name_ko": "문항 표집", "name_en": "Item Sampling", "id": "RELI_IS_021"},
+      {"name_ko": "신뢰도 계수", "name_en": "Reliability Coefficient", "id": "RELI_RC_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문항 수 ↑ → 신뢰도 ↑ (단, 수확체감 적용, 동질 문항 조건)",
+      "differential": "문항을 '추가'하면 신뢰도가 높아지지만, 문항의 '질'이 낮으면 오히려 낮아질 수 있다. 양(quantity)과 질(quality) 모두 중요하다.",
+      "key_point": "Spearman-Brown 일반화 공식으로 목표 신뢰도 달성에 필요한 문항 수를 계산할 수 있다: n = rdesired(1-rold) / rold(1-rdesired).",
+      "common_mistake": "문항을 무한정 늘리면 신뢰도가 1에 도달한다고 생각하는 것 — 수확체감으로 일정 수준 이후에는 피로효과가 신뢰도를 낮출 수 있다."
+    }
+  },
+  {
+    "id": "RELI_CK_023",
+    "terminology": "코헨의 카파 (Cohen's Kappa)",
+    "terminology_ko": "코헨의 카파",
+    "terminology_en": "Cohen's Kappa",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "두 명의 평정자가 범주형 자료를 평정할 때, 우연에 의한 일치를 교정한 후의 실제 일치도를 나타내는 통계 지표로, -1에서 1 사이의 값을 갖는다.",
+    "definition_en": "A statistical measure of inter-rater agreement for categorical data that corrects for chance agreement, yielding values between -1 and 1 where 1 indicates perfect agreement beyond chance.",
+    "significance": "단순 일치율의 한계를 극복하여 평정자간 신뢰도를 더 정확하게 평가하는 표준 지표로, 진단 분류나 행동 코딩에서 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 코헨", "name_en": "Jacob Cohen", "contribution": "1960년 우연 일치를 교정한 명목척도 평정자간 일치도 지표(κ)를 개발"},
+      {"name_ko": "조지프 플라이스", "name_en": "Joseph Fleiss", "contribution": "Cohen's Kappa의 해석 기준을 제안하고 다중 평정자용으로 확장(Fleiss' Kappa)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평정자간 신뢰도", "name_en": "Inter-Rater Reliability", "id": "RELI_IRR_017"},
+      {"name_ko": "급내상관계수", "name_en": "Intraclass Correlation Coefficient", "id": "RELI_ICC_025"},
+      {"name_ko": "가중 카파", "name_en": "Weighted Kappa", "id": "RELI_WK_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "κ = (Po - Pe) / (1 - Pe), Po=관찰일치율, Pe=우연일치율",
+      "differential": "Cohen's Kappa는 '명목척도'에 사용하고, 가중 카파(Weighted Kappa)는 '순서척도'에 사용하며, ICC는 '연속척도'에 사용한다.",
+      "key_point": "해석 기준(Landis & Koch): .00-.20 약간 일치, .21-.40 보통, .41-.60 상당, .61-.80 높음, .81-1.00 거의 완벽.",
+      "common_mistake": "단순 일치율(percent agreement)과 Kappa를 동일시하는 것 — Kappa는 우연 일치를 교정하므로 항상 단순 일치율보다 낮다."
+    }
+  },
+  {
+    "id": "RELI_INTRA_024",
+    "terminology": "평정자내 신뢰도 (Intra-Rater Reliability)",
+    "terminology_ko": "평정자내 신뢰도",
+    "terminology_en": "Intra-Rater Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "동일한 평정자가 동일한 대상을 서로 다른 시점에 독립적으로 평가했을 때, 평정 결과 간의 일관성을 나타내는 신뢰도이다.",
+    "definition_en": "The degree of consistency with which a single rater evaluates the same targets on two or more separate occasions, reflecting the temporal stability of that rater's judgments.",
+    "significance": "개별 평정자의 판단이 시간에 걸쳐 안정적인지를 검증하여, 주관적 평가의 신뢰성을 확보하고 평정자 훈련의 효과를 평가하는 데 활용된다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 코헨", "name_en": "Jacob Cohen", "contribution": "평정자 일치도 연구의 기초를 마련하여 평정자내 신뢰도 평가 방법론에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평정자간 신뢰도", "name_en": "Inter-Rater Reliability", "id": "RELI_IRR_017"},
+      {"name_ko": "검사-재검사 신뢰도", "name_en": "Test-Retest Reliability", "id": "RELI_TRT_003"},
+      {"name_ko": "채점자 훈련", "name_en": "Rater Training", "id": "RELI_RT_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "평정자내 = 같은 채점자가 다른 시점에 같은 점수를 주는가?",
+      "differential": "평정자내(intra)는 '한 사람의 시간적 일관성'이고, 평정자간(inter)은 '여러 사람 간의 일치성'이다.",
+      "key_point": "평정자간 신뢰도가 높아도 각 평정자의 평정자내 신뢰도가 낮을 수 있으므로, 두 가지를 모두 평가하는 것이 바람직하다.",
+      "common_mistake": "평정자간 신뢰도만 보고하면 충분하다고 생각하는 것 — 평정자내 신뢰도도 별도로 확인해야 채점의 일관성을 완전히 검증할 수 있다."
+    }
+  },
+  {
+    "id": "RELI_ICC_025",
+    "terminology": "급내상관계수 (Intraclass Correlation Coefficient, ICC)",
+    "terminology_ko": "급내상관계수",
+    "terminology_en": "Intraclass Correlation Coefficient (ICC)",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "동일한 대상에 대한 여러 측정값(평정자, 시점 등) 간의 일치도를 평가하는 상관계수로, 연속형 자료의 평정자간 신뢰도를 추정하는 데 가장 적합한 지표이다.",
+    "definition_en": "A correlation coefficient that assesses the agreement among multiple measurements (raters, occasions) of the same targets, most appropriate for evaluating inter-rater reliability with continuous data.",
+    "significance": "Pearson 상관계수의 한계(절대적 일치를 반영하지 못함)를 극복하며, 연속형 평정 자료의 신뢰도 분석에서 표준적으로 사용된다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald Fisher", "contribution": "급내상관계수의 통계적 기초를 확립하고 분산분석과의 관계를 정립"},
+      {"name_ko": "패트릭 슈라우트", "name_en": "Patrick Shrout", "contribution": "Fleiss와 함께 ICC의 6가지 유형을 분류하고 적용 조건을 명확화(1979)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평정자간 신뢰도", "name_en": "Inter-Rater Reliability", "id": "RELI_IRR_017"},
+      {"name_ko": "Cohen's Kappa", "name_en": "Cohen's Kappa", "id": "RELI_CK_023"},
+      {"name_ko": "일반화가능도 이론", "name_en": "Generalizability Theory", "id": "RELI_GT_028"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "ICC(1,1)",
+        "name_en": "ICC(1,1)",
+        "definition": "각 대상이 서로 다른 평정자 세트에 의해 평정되는 일원 무선 모형의 단일 측정 ICC"
+      },
+      {
+        "name_ko": "ICC(2,1)",
+        "name_en": "ICC(2,1)",
+        "definition": "모든 대상이 동일한 평정자 세트에 의해 평정되는 이원 무선 모형의 단일 측정 ICC"
+      },
+      {
+        "name_ko": "ICC(3,1)",
+        "name_en": "ICC(3,1)",
+        "definition": "동일한 고정 평정자 세트가 모든 대상을 평정하는 이원 혼합 모형의 단일 측정 ICC"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "ICC = 집단 간 분산 / (집단 간 분산 + 집단 내 분산), ANOVA 기반",
+      "differential": "Pearson r은 상대적 순위의 일관성만 반영하지만, ICC는 절대적 일치도까지 반영할 수 있다.",
+      "key_point": "Shrout & Fleiss(1979)의 분류에 따라 연구 설계(무선/고정 평정자, 단일/평균 측정)에 맞는 ICC 유형을 선택해야 한다.",
+      "common_mistake": "ICC 유형을 구분하지 않고 사용하는 것 — 일치도(agreement)와 일관성(consistency) 중 어느 것을 측정할지에 따라 다른 ICC를 선택해야 한다."
+    }
+  },
+  {
+    "id": "RELI_RT_026",
+    "terminology": "채점자 훈련 (Rater Training)",
+    "terminology_ko": "채점자 훈련",
+    "terminology_en": "Rater Training",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "평정자간 신뢰도를 향상시키기 위해 평정자에게 채점 기준, 평정 척도 사용법, 오류 유형(후광효과, 관대화 등)에 대한 체계적 교육을 실시하는 과정이다.",
+    "definition_en": "A systematic process of educating raters on scoring criteria, scale usage, and common rating errors (halo, leniency, etc.) to improve inter-rater reliability and reduce rater bias.",
+    "significance": "주관적 판단이 포함되는 모든 검사에서 채점의 객관성과 일관성을 확보하는 핵심 절차로, 평정자 오류를 줄이고 신뢰도를 높이는 데 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "게리 레이섬", "name_en": "Gary Latham", "contribution": "행동관찰 평정에서 채점자 훈련의 효과를 실증적으로 연구"},
+      {"name_ko": "후안 보르만", "name_en": "Walter Borman", "contribution": "채점자 훈련 유형(오류훈련, 준거기반훈련)의 효과를 비교 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평정자간 신뢰도", "name_en": "Inter-Rater Reliability", "id": "RELI_IRR_017"},
+      {"name_ko": "평정자내 신뢰도", "name_en": "Intra-Rater Reliability", "id": "RELI_INTRA_024"},
+      {"name_ko": "후광효과", "name_en": "Halo Effect", "id": "BIAS_HALO_001"},
+      {"name_ko": "관대화 오류", "name_en": "Leniency Error", "id": "BIAS_LEN_001"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "오류훈련",
+        "name_en": "Rater Error Training",
+        "definition": "평정 과정에서 발생하는 전형적 오류(후광, 관대화, 중심화 등)를 인식하고 회피하도록 교육하는 방법"
+      },
+      {
+        "name_ko": "준거기반훈련",
+        "name_en": "Frame-of-Reference Training",
+        "definition": "구체적인 행동 기준점(anchor)과 채점 준거를 공유하여 평정자들이 동일한 기준으로 평가하도록 교육하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "채점자 훈련 = 채점 기준 공유 + 오류 인식 → 평정자간 신뢰도 향상",
+      "differential": "오류훈련은 '무엇을 피해야 하는지'를, 준거기반훈련은 '어떻게 평가해야 하는지'를 교육한다. 준거기반훈련이 더 효과적이라는 연구가 많다.",
+      "key_point": "효과적인 채점자 훈련은 평정 기준의 명확한 조작적 정의, 모범 사례 연습, 피드백을 포함해야 한다.",
+      "common_mistake": "한 번의 훈련으로 충분하다고 생각하는 것 — 시간이 지나면 평정자 표류(rater drift)가 발생하므로 주기적 재훈련이 필요하다."
+    }
+  },
+  {
+    "id": "RELI_CITC_027",
+    "terminology": "교정된 문항-전체 상관 (Corrected Item-Total Correlation)",
+    "terminology_ko": "교정된 문항-전체 상관",
+    "terminology_en": "Corrected Item-Total Correlation",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "해당 문항의 점수를 총점에서 제외한 교정 총점과 해당 문항 점수 간의 상관계수로, 비교정 문항-전체 상관의 인위적 과대추정을 방지한 지표이다.",
+    "definition_en": "The correlation between an individual item score and the total test score computed after excluding that item, preventing the artificial inflation inherent in uncorrected item-total correlations.",
+    "significance": "문항 분석에서 내적 일관성에 기여하지 않는 문항을 식별하는 표준 지표로, 검사 개발과 문항 수정에서 필수적으로 보고된다.",
+    "key_researchers": [
+      {"name_ko": "해롤드 굴릭센", "name_en": "Harold Gulliksen", "contribution": "교정된 문항-전체 상관의 이론적 근거와 실용적 가치를 체계화"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "교정된 문항-전체 상관과 알파 계수 변화량의 관계를 분석"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항-전체 상관", "name_en": "Item-Total Correlation", "id": "RELI_ITC_018"},
+      {"name_ko": "Cronbach's alpha", "name_en": "Cronbach's Alpha", "id": "RELI_CA_008"},
+      {"name_ko": "내적 일관성", "name_en": "Internal Consistency", "id": "RELI_IC_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교정 = 해당 문항을 총점에서 빼고 상관 계산 → 더 정확한 변별도",
+      "differential": "비교정 문항-전체 상관은 해당 문항이 총점에 포함되어 자기상관이 발생하고, 교정 문항-전체 상관은 이를 제거한다.",
+      "key_point": "교정된 문항-전체 상관이 .30 미만이면 문항 수정을 고려하고, .20 미만이면 삭제를 고려한다. SPSS 등에서 기본 출력되는 지표이다.",
+      "common_mistake": "비교정 문항-전체 상관만으로 문항을 판단하는 것 — 문항 수가 적은 검사에서는 비교정 값이 크게 과대추정될 수 있다."
+    }
+  },
+  {
+    "id": "RELI_GT_028",
+    "terminology": "일반화가능도 이론 (Generalizability Theory, G Theory)",
+    "terminology_ko": "일반화가능도 이론",
+    "terminology_en": "Generalizability Theory (G Theory)",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "고전검사이론(CTT)의 단일 오차원 한계를 극복하여, 다양한 오차원(평정자, 문항, 시점 등)을 동시에 분석하고 각 오차원의 기여도를 분리하여 추정하는 확장된 신뢰도 이론이다.",
+    "definition_en": "An extension of CTT that overcomes the limitation of a single error source by simultaneously analyzing multiple sources of error (raters, items, occasions, etc.) and partitioning their relative contributions to total score variance.",
+    "significance": "CTT가 한 번에 하나의 오차원만 다루는 한계를 극복하여, 복잡한 측정 상황에서 다양한 오차원을 종합적으로 이해하고 최적의 측정 조건을 설계할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "1972년 Gleser 등과 함께 일반화가능도 이론을 체계적으로 정립한 저서를 발표"},
+      {"name_ko": "골딘 글레서", "name_en": "Goldine Gleser", "contribution": "Cronbach와 함께 G 이론의 수학적 기초와 응용을 개발"},
+      {"name_ko": "로버트 브레넌", "name_en": "Robert Brennan", "contribution": "G 이론의 실용적 적용과 소프트웨어 개발에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고전검사이론", "name_en": "Classical Test Theory", "id": "RELI_CTT_011"},
+      {"name_ko": "오차점수", "name_en": "Error Score", "id": "RELI_ES_013"},
+      {"name_ko": "급내상관계수", "name_en": "Intraclass Correlation Coefficient", "id": "RELI_ICC_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "일반화가능도 연구 (G study)",
+        "name_en": "Generalizability Study",
+        "definition": "다양한 오차원(국면)의 분산 성분을 추정하여 각 오차원의 상대적 기여도를 파악하는 연구"
+      },
+      {
+        "name_ko": "결정 연구 (D study)",
+        "name_en": "Decision Study",
+        "definition": "G study 결과를 바탕으로 최적의 측정 조건(평정자 수, 문항 수 등)을 결정하는 연구"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "G이론 = CTT의 확장 = 여러 오차원을 동시에 분리 = G연구(분산추정) + D연구(최적설계)",
+      "differential": "CTT는 하나의 신뢰도 계수로 하나의 오차원만 반영하지만, G이론은 여러 오차원을 동시에 분석하여 각각의 기여도를 추정한다.",
+      "key_point": "G이론의 핵심 개념: 국면(facet), 일반화가능도 계수(G coefficient), 의존도 계수(D coefficient), 분산 성분이다.",
+      "common_mistake": "G이론이 CTT를 대체한다고 생각하는 것 — G이론은 CTT의 확장이며, 간단한 상황에서는 CTT로도 충분하다."
+    }
+  },
+  {
+    "id": "RELI_WK_029",
+    "terminology": "가중 카파 (Weighted Kappa)",
+    "terminology_ko": "가중 카파",
+    "terminology_en": "Weighted Kappa",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "순서척도 자료의 평정자간 일치도를 평가할 때, 불일치의 정도에 따라 차등적인 가중치를 부여하여 Cohen's Kappa를 확장한 일치도 지표이다.",
+    "definition_en": "An extension of Cohen's Kappa for ordinal data that assigns differential weights to disagreements based on their severity, giving partial credit for near-agreements rather than treating all disagreements equally.",
+    "significance": "순서척도에서 '1단계 차이'와 '3단계 차이'를 동일하게 취급하는 비가중 Kappa의 한계를 극복하여, 보다 정교한 평정자간 일치도 평가가 가능하다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 코헨", "name_en": "Jacob Cohen", "contribution": "1968년 순서척도 자료에 대한 가중 카파를 개발하여 불일치 수준을 차등 반영"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Cohen's Kappa", "name_en": "Cohen's Kappa", "id": "RELI_CK_023"},
+      {"name_ko": "평정자간 신뢰도", "name_en": "Inter-Rater Reliability", "id": "RELI_IRR_017"},
+      {"name_ko": "급내상관계수", "name_en": "Intraclass Correlation Coefficient", "id": "RELI_ICC_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "선형 가중 카파",
+        "name_en": "Linear Weighted Kappa",
+        "definition": "불일치 범주 간 거리에 비례하여 가중치를 부여하는 방식"
+      },
+      {
+        "name_ko": "이차 가중 카파",
+        "name_en": "Quadratic Weighted Kappa",
+        "definition": "불일치 범주 간 거리의 제곱에 비례하여 가중치를 부여하는 방식으로, ICC와 수학적으로 동등"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "가중 카파 = 불일치 정도에 따라 차등 벌점 → 순서척도에 적합",
+      "differential": "비가중 Kappa는 '일치 vs. 불일치'만 구분하고, 가중 Kappa는 '얼마나 다른가'를 반영한다. 이차 가중 Kappa는 ICC와 동등하다.",
+      "key_point": "이차(quadratic) 가중 카파는 급내상관계수(ICC)와 수학적으로 동등하므로, 순서척도에서 두 지표를 상호교환적으로 사용할 수 있다.",
+      "common_mistake": "순서척도 자료에 비가중 Kappa를 적용하는 것 — 비가중 Kappa는 명목척도용이며, 순서 정보를 무시한다."
+    }
+  },
+  {
+    "id": "RELI_RR_030",
+    "terminology": "점수 범위 제한과 신뢰도 (Range Restriction and Reliability)",
+    "terminology_ko": "점수 범위 제한과 신뢰도",
+    "terminology_en": "Range Restriction and Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "검사 대상 집단의 점수 분포 범위가 좁아질 경우(예: 선발된 집단만 대상으로 할 때) 점수의 변산성이 감소하여 신뢰도 계수가 낮아지는 현상이다.",
+    "definition_en": "A phenomenon where restricting the range of scores in a sample (e.g., testing only a selected group) reduces score variability, thereby attenuating the reliability coefficient.",
+    "significance": "신뢰도 계수의 해석에서 반드시 고려해야 할 요인으로, 특정 집단의 신뢰도가 낮더라도 검사 자체의 문제가 아니라 표본의 동질성 때문일 수 있음을 이해해야 한다.",
+    "key_researchers": [
+      {"name_ko": "카를 피어슨", "name_en": "Karl Pearson", "contribution": "범위 제한이 상관계수에 미치는 영향(감쇠)을 수학적으로 분석"},
+      {"name_ko": "프레드릭 로드", "name_en": "Frederic Lord", "contribution": "범위 제한이 신뢰도와 타당도에 미치는 영향을 검사이론의 맥락에서 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "신뢰도 계수", "name_en": "Reliability Coefficient", "id": "RELI_RC_002"},
+      {"name_ko": "진점수 분산", "name_en": "True Score Variance", "id": "RELI_TS_012"},
+      {"name_ko": "검사 길이와 신뢰도", "name_en": "Test Length and Reliability", "id": "RELI_TL_022"},
+      {"name_ko": "집단 이질성", "name_en": "Group Heterogeneity", "id": "RELI_GH_031"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "범위 제한 → 분산 감소 → 상관 감소 → 신뢰도 감소",
+      "differential": "범위 제한은 신뢰도를 '감소'시키고, 집단 이질성 증가는 신뢰도를 '증가'시킨다. 둘은 분산의 크기에 대한 반대 방향의 효과이다.",
+      "key_point": "선발된 집단(예: 대학 입학자)만을 대상으로 구한 신뢰도는 전체 지원자 집단의 신뢰도보다 낮게 나타나므로, 검사 매뉴얼의 표본 특성을 확인해야 한다.",
+      "common_mistake": "특정 집단에서 신뢰도가 낮게 나왔다고 검사 자체가 불량하다고 결론짓는 것 — 범위 제한이 원인일 수 있다."
+    }
+  },
+  {
+    "id": "RELI_GH_031",
+    "terminology": "집단 이질성과 신뢰도 (Group Heterogeneity and Reliability)",
+    "terminology_ko": "집단 이질성과 신뢰도",
+    "terminology_en": "Group Heterogeneity and Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "검사를 실시하는 집단의 특성(능력, 배경 등)이 이질적일수록 점수의 변산성이 커지고, 그 결과 신뢰도 계수가 높아지는 현상이다.",
+    "definition_en": "The phenomenon where greater heterogeneity in the characteristics of the tested group increases score variability, resulting in higher reliability coefficients.",
+    "significance": "신뢰도 계수가 표본 특성에 의존한다는 것을 보여주며, 서로 다른 집단에서 얻은 신뢰도를 비교할 때 집단의 이질성을 반드시 고려해야 함을 시사한다.",
+    "key_researchers": [
+      {"name_ko": "해롤드 굴릭센", "name_en": "Harold Gulliksen", "contribution": "집단 변산성과 신뢰도 계수의 관계를 체계적으로 분석"},
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "신뢰도에 영향을 미치는 집단 특성 요인을 교과서적으로 정리"}
+    ],
+    "related_concepts": [
+      {"name_ko": "점수 범위 제한과 신뢰도", "name_en": "Range Restriction and Reliability", "id": "RELI_RR_030"},
+      {"name_ko": "신뢰도 계수", "name_en": "Reliability Coefficient", "id": "RELI_RC_002"},
+      {"name_ko": "표준편차", "name_en": "Standard Deviation", "id": "STAT_SD_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이질적 집단 = 넓은 분산 = 높은 신뢰도, 동질적 집단 = 좁은 분산 = 낮은 신뢰도",
+      "differential": "집단 이질성은 '진점수 분산 증가'를 통해 신뢰도를 높이고, 범위 제한은 '진점수 분산 감소'를 통해 신뢰도를 낮춘다.",
+      "key_point": "검사 매뉴얼에 보고된 신뢰도는 특정 표본에서 얻은 것이므로, 검사를 사용하려는 대상 집단의 이질성 수준이 유사한지 확인해야 한다.",
+      "common_mistake": "매뉴얼에 보고된 높은 신뢰도가 모든 집단에 동일하게 적용된다고 가정하는 것 — 동질적 집단에서는 낮아질 수 있다."
+    }
+  },
+  {
+    "id": "RELI_TD_032",
+    "terminology": "검사 난이도와 신뢰도 (Test Difficulty and Reliability)",
+    "terminology_ko": "검사 난이도와 신뢰도",
+    "terminology_en": "Test Difficulty and Reliability",
+    "category": "RELI",
+    "category_name": "신뢰도 (Reliability)",
+    "definition": "검사의 전반적인 난이도 수준이 신뢰도에 미치는 영향으로, 검사가 지나치게 쉽거나 어려우면 점수 분포가 한쪽으로 치우쳐(천장/바닥 효과) 변산성이 줄어들어 신뢰도가 낮아지는 현상이다.",
+    "definition_en": "The effect of overall test difficulty on reliability, where excessively easy or difficult tests produce skewed score distributions (ceiling/floor effects) with reduced variability, thereby lowering reliability.",
+    "significance": "최적의 신뢰도를 확보하기 위해 검사 난이도가 대상 집단에 적합해야 하며, 중간 수준의 난이도가 점수 분산을 최대화하여 신뢰도를 높인다는 원칙의 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "프레드릭 로드", "name_en": "Frederic Lord", "contribution": "문항 난이도와 검사의 측정 정밀도 간 관계를 체계적으로 분석"},
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "검사 난이도가 신뢰도에 미치는 영향을 교과서적으로 정리"}
+    ],
+    "related_concepts": [
+      {"name_ko": "점수 범위 제한과 신뢰도", "name_en": "Range Restriction and Reliability", "id": "RELI_RR_030"},
+      {"name_ko": "집단 이질성과 신뢰도", "name_en": "Group Heterogeneity and Reliability", "id": "RELI_GH_031"},
+      {"name_ko": "천장효과", "name_en": "Ceiling Effect", "id": "STAT_CE_001"},
+      {"name_ko": "바닥효과", "name_en": "Floor Effect", "id": "STAT_FE_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "너무 쉬움/어려움 → 모두 비슷한 점수 → 분산 감소 → 신뢰도 감소",
+      "differential": "검사 난이도는 '천장/바닥 효과'를 통해 신뢰도에 영향을 주고, 검사 길이는 '문항 수 변화'를 통해 신뢰도에 영향을 준다.",
+      "key_point": "이분 문항 검사에서 평균 난이도가 .50(정답률 50%)일 때 점수 분산이 최대화되어 신뢰도가 가장 높아지는 경향이 있다.",
+      "common_mistake": "어려운 검사가 '좋은 검사'라고 생각하는 것 — 지나치게 어려우면 바닥효과로 변별력과 신뢰도가 모두 떨어진다."
+    }
+  }
+]

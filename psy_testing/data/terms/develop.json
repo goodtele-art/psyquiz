@@ -1,0 +1,795 @@
+[
+  {
+    "id": "DEVELOP_BSID_001",
+    "terminology": "Bayley 영유아발달검사 (Bayley Scales of Infant and Toddler Development)",
+    "terminology_ko": "Bayley 영유아발달검사",
+    "terminology_en": "Bayley Scales of Infant and Toddler Development (BSID)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "생후 1~42개월 영유아의 인지, 언어, 운동, 사회-정서, 적응행동 발달을 종합적으로 평가하는 개별 실시형 표준화 발달검사로, 영유아 발달평가의 국제적 표준(gold standard)으로 간주된다.",
+    "definition_en": "An individually administered standardized assessment measuring cognitive, language, motor, social-emotional, and adaptive behavior development in infants and toddlers aged 1–42 months, considered the international gold standard for infant developmental assessment.",
+    "significance": "영유아 발달지체 및 발달장애의 조기 발견과 진단에 핵심적 역할을 하며, 조기개입 프로그램의 효과 평가에도 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "낸시 베일리", "name_en": "Nancy Bayley", "contribution": "1933년 최초의 영아발달검사를 개발하고 종단연구를 통해 영유아 발달 측정의 기초를 확립"},
+      {"name_ko": "글렌 엘더", "name_en": "Glen Elder", "contribution": "생애 발달적 관점에서 Bayley 검사의 종단적 예측타당도 연구에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Denver 발달선별검사", "name_en": "Denver Developmental Screening Test", "id": "DEVELOP_DDST_002"},
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"},
+      {"name_ko": "영유아 인지평가", "name_en": "Infant Cognitive Assessment", "id": "DEVELOP_ICA_017"},
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"}
+    ],
+    "sub_types": [
+      {"name": "인지척도 (Cognitive Scale)", "description": "감각운동 발달, 탐색, 조작, 대상 관련성, 개념 형성, 기억 등을 측정"},
+      {"name": "언어척도 (Language Scale)", "description": "수용 언어와 표현 언어의 발달 수준을 각각 평가"},
+      {"name": "운동척도 (Motor Scale)", "description": "대근육 운동과 소근육 운동의 발달을 측정"},
+      {"name": "사회-정서척도 (Social-Emotional Scale)", "description": "양육자 보고식으로 사회-정서 발달 이정표 달성 여부를 평가"},
+      {"name": "적응행동척도 (Adaptive Behavior Scale)", "description": "일상생활 기능 수행 능력을 양육자 보고로 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Bayley = Baby(영아) + 5개 척도(인지·언어·운동·사회정서·적응행동)",
+      "differential": "Bayley는 종합적 '진단검사'이고, Denver(DDST)는 간편한 '선별검사'이다.",
+      "key_point": "BSID-III(3판)부터 인지척도와 운동척도가 분리되고 사회-정서, 적응행동 척도가 추가되어 5개 영역 체계가 확립되었다.",
+      "common_mistake": "Bayley 검사의 영아기 점수가 이후 IQ를 정확히 예측한다고 생각하는 것 — 영아기 발달지수와 아동기 IQ 간 상관은 중간 수준에 불과하다."
+    }
+  },
+  {
+    "id": "DEVELOP_DDST_002",
+    "terminology": "Denver 발달선별검사 (Denver Developmental Screening Test)",
+    "terminology_ko": "Denver 발달선별검사",
+    "terminology_en": "Denver Developmental Screening Test (DDST)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "출생부터 6세까지의 아동을 대상으로 개인사회성, 미세운동-적응, 언어, 전체운동의 4개 영역에서 발달 지연 가능성을 선별하는 간편 발달선별검사이다.",
+    "definition_en": "A brief developmental screening tool for children from birth to 6 years, assessing four domains—personal-social, fine motor-adaptive, language, and gross motor—to identify children at risk for developmental delays.",
+    "significance": "전 세계적으로 가장 널리 사용되는 발달선별검사 중 하나로, 1차 의료기관에서 발달지체 아동의 조기 발견에 핵심적 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 프랑켄버그", "name_en": "William K. Frankenburg", "contribution": "1967년 Denver 발달선별검사(DDST)를 개발하고 1992년 Denver-II로 개정"},
+      {"name_ko": "조시아 돕스", "name_en": "Josiah B. Dodds", "contribution": "Frankenburg와 함께 DDST의 원판 개발에 공동 참여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선별검사 vs 진단검사", "name_en": "Screening vs Diagnostic Testing", "id": "DEVELOP_SVD_009"},
+      {"name_ko": "Bayley 영유아발달검사", "name_en": "Bayley Scales of Infant Development", "id": "DEVELOP_BSID_001"},
+      {"name_ko": "K-ASQ", "name_en": "Korean Ages and Stages Questionnaires", "id": "DEVELOP_KASQ_014"},
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"}
+    ],
+    "sub_types": [
+      {"name": "Denver-II", "description": "1992년 개정판으로 125개 문항, 규준 표본 확대 및 문항 개선"},
+      {"name": "Denver-II 약식형", "description": "12개 핵심 문항으로 구성된 사전 선별용 약식 버전"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Denver = 4D (4개 Domain): 개인사회성, 미세운동, 언어, 전체운동",
+      "differential": "Denver는 '선별'검사(pass/fail)이고, Bayley는 '진단'검사(발달지수 산출)이다.",
+      "key_point": "Denver-II 결과는 '정상', '의심', '검사불능'으로 분류되며 진단적 판단이 아닌 추가 평가 의뢰 여부를 결정하는 도구이다.",
+      "common_mistake": "Denver 검사 결과로 발달장애를 확진할 수 있다고 생각하는 것 — 선별검사는 진단검사가 아니다."
+    }
+  },
+  {
+    "id": "DEVELOP_VABS_003",
+    "terminology": "Vineland 적응행동척도 (Vineland Adaptive Behavior Scales)",
+    "terminology_ko": "Vineland 적응행동척도",
+    "terminology_en": "Vineland Adaptive Behavior Scales (VABS)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "출생~90세를 대상으로 의사소통, 일상생활기술, 사회화, 운동기술의 4개 영역과 부적응행동을 측정하는 반구조화 면담 기반의 적응행동 평가도구이다.",
+    "definition_en": "A semi-structured interview-based assessment measuring adaptive behavior across four domains—communication, daily living skills, socialization, and motor skills—plus maladaptive behavior, for individuals from birth to age 90.",
+    "significance": "지적장애 진단의 필수 요건인 적응행동 결손을 객관적으로 평가하는 대표적 도구이며, 자폐스펙트럼장애 및 발달장애의 기능 수준 파악에 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "에드가 돌", "name_en": "Edgar A. Doll", "contribution": "1935년 Vineland 사회성숙도검사 원판을 개발하여 적응행동 측정의 선구자 역할"},
+      {"name_ko": "사라 스패로우", "name_en": "Sara S. Sparrow", "contribution": "Vineland Adaptive Behavior Scales를 현대적으로 개정(1984, 2005)하여 표준화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "적응행동", "name_en": "Adaptive Behavior", "id": "DEVELOP_AB_010"},
+      {"name_ko": "사회성숙도검사", "name_en": "Social Maturity Scale", "id": "DEVELOP_SMS_019"},
+      {"name_ko": "지적장애 평가", "name_en": "Intellectual Disability Assessment", "id": "DEVELOP_IDA_013"},
+      {"name_ko": "자폐스펙트럼 검사", "name_en": "Autism Spectrum Assessment", "id": "DEVELOP_ASD_007"}
+    ],
+    "sub_types": [
+      {"name": "면담형 (Interview Edition)", "description": "양육자 또는 보호자와의 반구조화 면담을 통해 정보를 수집하는 방식"},
+      {"name": "부모/양육자 평정형 (Parent/Caregiver Rating Form)", "description": "양육자가 직접 체크리스트를 작성하는 방식"},
+      {"name": "교사 평정형 (Teacher Rating Form)", "description": "교육 환경에서 교사가 평정하는 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Vineland = VABS → 4영역: 의사소통(C), 일상생활(D), 사회화(S), 운동(M)",
+      "differential": "Vineland는 '적응행동'을 측정하고, 지능검사는 '인지능력'을 측정한다 — 지적장애 진단에는 두 가지 모두 필요하다.",
+      "key_point": "VABS-3(3판)에서 규준이 업데이트되고 부적응행동 척도가 강화되었으며, DSM-5 지적장애 진단 기준에 맞춰 구조가 조정되었다.",
+      "common_mistake": "Vineland가 지능을 측정한다고 생각하는 것 — Vineland는 지능이 아닌 실제 일상생활 기능(적응행동)을 측정한다."
+    }
+  },
+  {
+    "id": "DEVELOP_CBCL_004",
+    "terminology": "K-CBCL 아동행동체크리스트 (Korean Child Behavior Checklist)",
+    "terminology_ko": "K-CBCL (아동행동체크리스트)",
+    "terminology_en": "Korean Child Behavior Checklist (K-CBCL)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "부모가 아동·청소년(1.5~18세)의 정서 및 행동 문제를 평정하는 표준화된 체크리스트로, 내재화·외현화 문제와 DSM 진단 기준 척도를 포함하는 ASEBA 체계의 핵심 도구이다.",
+    "definition_en": "A standardized parent-report checklist assessing emotional and behavioral problems in children and adolescents aged 1.5–18, encompassing internalizing/externalizing problems and DSM-oriented scales as a core instrument of the ASEBA system.",
+    "significance": "전 세계적으로 가장 광범위하게 사용되는 아동·청소년 행동평가 도구로, 임상 현장과 연구에서 정서행동 문제의 선별 및 치료 효과 평가에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "토머스 아켄바크", "name_en": "Thomas M. Achenbach", "contribution": "ASEBA(Achenbach System of Empirically Based Assessment) 체계를 개발하고 CBCL을 전 세계 표준 도구로 확립"},
+      {"name_ko": "오경자", "name_en": "Kyung-Ja Oh", "contribution": "CBCL의 한국 표준화(K-CBCL)를 수행하고 한국 아동·청소년 규준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "ADHD 평가도구", "name_en": "ADHD Assessment Tool (Conners)", "id": "DEVELOP_CONN_005"},
+      {"name_ko": "적응행동", "name_en": "Adaptive Behavior", "id": "DEVELOP_AB_010"},
+      {"name_ko": "발달장애", "name_en": "Developmental Disability", "id": "DEVELOP_DVDIS_012"},
+      {"name_ko": "자폐스펙트럼 검사", "name_en": "Autism Spectrum Assessment", "id": "DEVELOP_ASD_007"}
+    ],
+    "sub_types": [
+      {"name": "CBCL 1.5-5 (유아용)", "description": "1.5~5세 유아의 정서행동 문제를 부모가 평정하는 99문항 척도"},
+      {"name": "CBCL 6-18 (아동청소년용)", "description": "6~18세 아동·청소년의 정서행동 문제를 부모가 평정하는 113문항 척도"},
+      {"name": "YSR (자기보고형)", "description": "11~18세 청소년이 직접 자신의 정서행동 문제를 보고하는 자기보고 양식"},
+      {"name": "TRF (교사보고형)", "description": "교사가 아동의 학교 내 행동을 평정하는 교사보고 양식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CBCL = Child Behavior CheckList → 내재화(불안/우울) + 외현화(공격/비행) 이원 구조",
+      "differential": "CBCL은 '광범위' 정서행동 문제를 선별하고, Conners는 'ADHD'에 특화된 평가 도구이다.",
+      "key_point": "CBCL은 경험적 증거에 기반한(empirically based) 증후군 척도와 DSM 기준 척도를 모두 제공하여 차원적 접근과 범주적 접근을 통합한다.",
+      "common_mistake": "CBCL 결과만으로 DSM 진단을 내릴 수 있다고 생각하는 것 — CBCL은 선별 및 참고용이며 임상적 진단은 별도 평가가 필요하다."
+    }
+  },
+  {
+    "id": "DEVELOP_CONN_005",
+    "terminology": "ADHD 평가도구: Conners 평정척도 (Conners Rating Scales)",
+    "terminology_ko": "ADHD 평가도구 (Conners 평정척도)",
+    "terminology_en": "Conners Rating Scales",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "주의력결핍 과잉행동장애(ADHD) 증상의 평가에 특화된 다중정보원 평정척도 체계로, 부모용, 교사용, 자기보고용 양식을 통해 부주의, 과잉행동/충동성, 학습 문제 등을 측정한다.",
+    "definition_en": "A multi-informant rating scale system specialized for assessing ADHD symptoms, with parent, teacher, and self-report forms measuring inattention, hyperactivity/impulsivity, learning problems, and related behavioral concerns.",
+    "significance": "ADHD 진단과 치료 효과 모니터링에 가장 널리 사용되는 표준화 평가도구로, 다중정보원 자료 수집의 모범적 사례이다.",
+    "key_researchers": [
+      {"name_ko": "키스 코너스", "name_en": "C. Keith Conners", "contribution": "1969년 최초의 Conners 평정척도를 개발하고 이후 Conners-3, Conners-4로 개정하며 ADHD 평가의 국제 표준을 확립"},
+      {"name_ko": "러셀 바클리", "name_en": "Russell A. Barkley", "contribution": "ADHD의 실행기능 결핍 모델을 제안하여 Conners 척도의 이론적 해석 틀을 풍부화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-CBCL", "name_en": "Korean Child Behavior Checklist", "id": "DEVELOP_CBCL_004"},
+      {"name_ko": "학습장애 검사", "name_en": "Learning Disability Assessment", "id": "DEVELOP_LD_006"},
+      {"name_ko": "선별검사 vs 진단검사", "name_en": "Screening vs Diagnostic Testing", "id": "DEVELOP_SVD_009"},
+      {"name_ko": "교육심리평가", "name_en": "Educational Psychological Assessment", "id": "DEVELOP_EPA_021"}
+    ],
+    "sub_types": [
+      {"name": "Conners 부모용 (CPRS)", "description": "부모가 가정에서 관찰한 아동의 ADHD 증상과 행동 문제를 평정"},
+      {"name": "Conners 교사용 (CTRS)", "description": "교사가 학교 환경에서 관찰한 아동의 ADHD 증상과 학업 문제를 평정"},
+      {"name": "Conners 자기보고용 (CSR)", "description": "청소년이 자신의 ADHD 증상을 직접 평정하는 자기보고 양식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Conners = C. Keith Conners가 만든 ADHD 전문 평정척도, 부모+교사+자기보고 3종",
+      "differential": "Conners는 ADHD에 특화된 도구이고, CBCL은 광범위한 정서행동 문제를 포괄하는 도구이다.",
+      "key_point": "Conners-4에서는 DSM-5 ADHD 진단 기준에 맞춰 척도가 업데이트되었으며, ADHD 지표(ADHD Index)가 선별 목적으로 제공된다.",
+      "common_mistake": "Conners 척도 결과만으로 ADHD를 확진할 수 있다고 생각하는 것 — 임상 면담, 관찰, 다른 검사와 통합하여 진단해야 한다."
+    }
+  },
+  {
+    "id": "DEVELOP_LD_006",
+    "terminology": "학습장애 검사 (Learning Disability Assessment)",
+    "terminology_ko": "학습장애 검사",
+    "terminology_en": "Learning Disability Assessment",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "읽기, 쓰기, 수학 등 특정 학업 영역에서 기대 수준과 실제 성취 간의 유의미한 차이를 확인하기 위한 종합적 평가 과정으로, 지능검사와 학업성취도검사의 비교를 핵심으로 한다.",
+    "definition_en": "A comprehensive evaluation process to identify significant discrepancies between expected and actual achievement in specific academic areas such as reading, writing, and mathematics, primarily involving comparison of intelligence and academic achievement test scores.",
+    "significance": "특수교육 적격성 판별과 개별화 교육계획 수립의 근거를 제공하며, 적성-성취 불일치 모델에서 중재반응 모델(RTI)로의 패러다임 전환이 진행 중이다.",
+    "key_researchers": [
+      {"name_ko": "사무엘 커크", "name_en": "Samuel Kirk", "contribution": "1963년 '학습장애(learning disability)'라는 용어를 최초로 제안하고 개념을 체계화"},
+      {"name_ko": "잭 플레처", "name_en": "Jack M. Fletcher", "contribution": "학습장애 진단에서 불일치 모델의 문제점을 지적하고 RTI 기반 접근의 이론적 근거를 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "학업성취 진단", "name_en": "Academic Achievement Diagnosis", "id": "DEVELOP_AAD_022"},
+      {"name_ko": "특수교육 적격성", "name_en": "Special Education Eligibility", "id": "DEVELOP_SEE_023"},
+      {"name_ko": "ADHD 평가도구", "name_en": "Conners Rating Scales", "id": "DEVELOP_CONN_005"},
+      {"name_ko": "개별화교육프로그램", "name_en": "Individualized Education Program", "id": "DEVELOP_IEP_024"}
+    ],
+    "sub_types": [
+      {"name": "읽기장애 평가 (Reading Disability Assessment)", "description": "음운 인식, 해독, 유창성, 읽기 이해 등 읽기의 하위 과정을 평가"},
+      {"name": "쓰기장애 평가 (Writing Disability Assessment)", "description": "철자, 작문 구성, 필기 능력 등 쓰기의 하위 과정을 평가"},
+      {"name": "수학장애 평가 (Math Disability Assessment)", "description": "수 감각, 연산, 수학적 추론 등 수학의 하위 과정을 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "학습장애 평가 = 지능(기대 수준) vs 성취(실제 수준)의 '불일치' 확인",
+      "differential": "학습장애는 지능은 정상이나 특정 학업 영역이 부진한 것이고, 지적장애는 전반적 인지 능력이 저하된 것이다.",
+      "key_point": "IDEA 2004 이후 미국에서는 불일치 모델 대신 RTI(중재반응) 모델이 학습장애 판별의 주류가 되고 있다.",
+      "common_mistake": "학습장애를 지적장애나 환경적 불이익으로 인한 학업 부진과 혼동하는 것 — 학습장애는 이러한 요인을 배제한 후 진단한다."
+    }
+  },
+  {
+    "id": "DEVELOP_ASD_007",
+    "terminology": "자폐스펙트럼 검사: ADOS와 ADI-R (Autism Diagnostic Observation Schedule & Autism Diagnostic Interview-Revised)",
+    "terminology_ko": "자폐스펙트럼 검사 (ADOS, ADI-R)",
+    "terminology_en": "Autism Diagnostic Observation Schedule (ADOS) & Autism Diagnostic Interview-Revised (ADI-R)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "자폐스펙트럼장애(ASD)의 진단을 위한 표준화된 평가 도구로, ADOS-2는 반구조화 관찰 평가이고 ADI-R은 양육자 대상 반구조화 면담이며, 두 도구를 함께 사용하여 ASD 진단의 정확성을 극대화한다.",
+    "definition_en": "Standardized assessment tools for diagnosing autism spectrum disorder (ASD), where ADOS-2 is a semi-structured observational assessment and ADI-R is a semi-structured caregiver interview, used together to maximize diagnostic accuracy.",
+    "significance": "ASD 진단의 국제적 표준 도구(gold standard)로, 관찰과 면담이라는 두 가지 상보적 방법을 결합하여 진단 정확성을 높인다.",
+    "key_researchers": [
+      {"name_ko": "캐서린 로드", "name_en": "Catherine Lord", "contribution": "ADOS와 ADOS-2를 개발하고 ASD 진단 평가 체계의 국제 표준을 확립"},
+      {"name_ko": "마이클 러터", "name_en": "Michael Rutter", "contribution": "ADI-R을 공동 개발하고 자폐증의 진단 기준과 분류 체계 발전에 기여"},
+      {"name_ko": "앤 르 쿠터", "name_en": "Ann Le Couteur", "contribution": "ADI-R의 공동 개발자로 양육자 면담 기반 ASD 평가의 체계화에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달장애", "name_en": "Developmental Disability", "id": "DEVELOP_DVDIS_012"},
+      {"name_ko": "Vineland 적응행동척도", "name_en": "Vineland Adaptive Behavior Scales", "id": "DEVELOP_VABS_003"},
+      {"name_ko": "사회성숙도검사", "name_en": "Social Maturity Scale", "id": "DEVELOP_SMS_019"},
+      {"name_ko": "언어발달 평가", "name_en": "Language Development Assessment", "id": "DEVELOP_LDA_018"}
+    ],
+    "sub_types": [
+      {"name": "ADOS-2 모듈 1 (Module 1)", "description": "구문을 일관되게 사용하지 않는 영유아 및 아동 대상"},
+      {"name": "ADOS-2 모듈 2 (Module 2)", "description": "구문을 사용하지만 유창하지 않은 아동 대상"},
+      {"name": "ADOS-2 모듈 3 (Module 3)", "description": "언어가 유창한 아동 및 청소년 대상"},
+      {"name": "ADOS-2 모듈 4 (Module 4)", "description": "언어가 유창한 청소년 및 성인 대상"},
+      {"name": "ADOS-2 유아 모듈 (Toddler Module)", "description": "12~30개월 유아를 대상으로 한 ASD 조기 선별 모듈"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ADOS = 직접 '관찰'(Observation), ADI-R = 부모 '면담'(Interview) → 관찰+면담 = ASD 진단 gold standard",
+      "differential": "ADOS-2는 검사자가 아동을 직접 관찰하는 도구이고, ADI-R은 양육자로부터 발달력을 면담으로 수집하는 도구이다.",
+      "key_point": "ADOS-2는 언어 수준에 따라 모듈을 선택하여 실시하며, ASD 진단에서 ADOS-2와 ADI-R을 함께 사용할 때 진단 정확도가 가장 높다.",
+      "common_mistake": "ADOS만으로 ASD 진단이 충분하다고 생각하는 것 — ADI-R과 함께 사용하고, 지능검사 및 적응행동 평가 등 종합적 평가가 필요하다."
+    }
+  },
+  {
+    "id": "DEVELOP_DEVA_008",
+    "terminology": "발달검사 (Developmental Assessment)",
+    "terminology_ko": "발달검사",
+    "terminology_en": "Developmental Assessment",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "영유아 및 아동의 인지, 언어, 운동, 사회-정서, 적응행동 등 주요 발달 영역의 현재 기능 수준을 체계적으로 평가하여 발달 지연이나 장애를 확인하는 포괄적 평가 과정이다.",
+    "definition_en": "A systematic evaluation of an infant's or child's current functional level across major developmental domains including cognitive, language, motor, social-emotional, and adaptive behavior to identify developmental delays or disabilities.",
+    "significance": "조기 발견과 조기개입의 출발점으로, 정확한 발달 수준 파악을 통해 적절한 치료 계획과 교육 배치 결정의 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "아놀드 게젤", "name_en": "Arnold Gesell", "contribution": "체계적 관찰에 기반한 발달 이정표 개념을 확립하고 최초의 발달검사 도구를 개발"},
+      {"name_ko": "낸시 베일리", "name_en": "Nancy Bayley", "contribution": "영유아 발달의 체계적 측정 방법론을 확립하고 종단 연구를 통해 발달검사의 과학적 기반을 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선별검사 vs 진단검사", "name_en": "Screening vs Diagnostic Testing", "id": "DEVELOP_SVD_009"},
+      {"name_ko": "Bayley 영유아발달검사", "name_en": "Bayley Scales", "id": "DEVELOP_BSID_001"},
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"},
+      {"name_ko": "조기개입", "name_en": "Early Intervention", "id": "DEVELOP_EI_025"}
+    ],
+    "sub_types": [
+      {"name": "규준참조 발달검사 (Norm-Referenced)", "description": "동일 연령 규준 집단과 비교하여 발달 수준을 평가하는 검사"},
+      {"name": "준거참조 발달검사 (Criterion-Referenced)", "description": "특정 발달 이정표 달성 여부에 초점을 맞추는 검사"},
+      {"name": "교육과정 기반 발달평가 (Curriculum-Based)", "description": "교육 프로그램의 목표를 기준으로 발달 수준을 평가하는 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "발달검사 = 5대 영역(인지, 언어, 운동, 사회정서, 적응행동)의 '현재 수준' 종합 평가",
+      "differential": "발달검사는 '현재 기능 수준'을 평가하고, 지능검사는 '인지 능력'에 초점을 맞춘다 — 영유아기에는 발달검사가 더 적합하다.",
+      "key_point": "발달검사는 선별검사(brief screening)와 종합진단검사(comprehensive diagnostic)의 두 단계로 진행하는 것이 표준 절차이다.",
+      "common_mistake": "발달검사를 지능검사와 동일시하는 것 — 영유아기 발달검사 결과가 이후 IQ를 정확하게 예측하지는 못한다."
+    }
+  },
+  {
+    "id": "DEVELOP_SVD_009",
+    "terminology": "선별검사 vs 진단검사 (Screening vs Diagnostic Testing)",
+    "terminology_ko": "선별검사 vs 진단검사",
+    "terminology_en": "Screening vs Diagnostic Testing",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "선별검사는 발달 위험군을 빠르고 간편하게 식별하여 추가 평가를 의뢰하는 1차 도구이고, 진단검사는 발달 문제의 유무와 유형을 정밀하게 확인하여 진단적 판단을 내리는 2차 도구이다.",
+    "definition_en": "Screening tests are brief, first-level tools designed to quickly identify individuals at risk for developmental problems and refer them for further evaluation, while diagnostic tests are comprehensive, second-level tools that precisely confirm the presence and type of developmental issues.",
+    "significance": "효율적인 발달평가 체계를 위해 두 검사의 목적과 한계를 명확히 구분하는 것이 필수적이며, 선별검사의 민감도와 특이도 균형이 공중보건적으로 중요하다.",
+    "key_researchers": [
+      {"name_ko": "프랜시스 글래스코", "name_en": "Frances Page Glascoe", "contribution": "발달 선별의 표준화 방법론을 체계화하고 Parents' Evaluation of Developmental Status(PEDS)를 개발"},
+      {"name_ko": "윌리엄 프랑켄버그", "name_en": "William K. Frankenburg", "contribution": "Denver 발달선별검사를 통해 대규모 발달 선별 체계의 모델을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Denver 발달선별검사", "name_en": "Denver Developmental Screening Test", "id": "DEVELOP_DDST_002"},
+      {"name_ko": "Bayley 영유아발달검사", "name_en": "Bayley Scales", "id": "DEVELOP_BSID_001"},
+      {"name_ko": "K-ASQ", "name_en": "Korean Ages and Stages Questionnaires", "id": "DEVELOP_KASQ_014"},
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선별 = '그물'(넓게 걸러냄), 진단 = '현미경'(정밀 확인) → 2단계 평가 체계",
+      "differential": "선별검사는 빠르고 간편하나 진단력이 낮고(민감도 중시), 진단검사는 정밀하나 시간과 비용이 크다(특이도 중시).",
+      "key_point": "선별검사에서는 민감도(sensitivity)가 특이도(specificity)보다 더 중요하다 — 위험 아동을 놓치지 않는 것이 우선이다.",
+      "common_mistake": "선별검사 결과를 진단적 결론으로 사용하는 것 — 선별검사에서 '양성'이 나온 아동은 반드시 종합 진단검사를 받아야 한다."
+    }
+  },
+  {
+    "id": "DEVELOP_AB_010",
+    "terminology": "적응행동 (Adaptive Behavior)",
+    "terminology_ko": "적응행동",
+    "terminology_en": "Adaptive Behavior",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "개인이 일상생활에서 독립적으로 기능하기 위해 필요한 개념적, 사회적, 실제적 기술의 집합으로, 의사소통, 자기관리, 가정생활, 사회성, 지역사회 활용 등을 포함한다.",
+    "definition_en": "The collection of conceptual, social, and practical skills that individuals need to function independently in daily life, encompassing communication, self-care, home living, social skills, and community use.",
+    "significance": "지적장애 진단에 IQ와 함께 필수적으로 평가되는 영역으로, DSM-5와 AAIDD 모두 적응행동 결손을 지적장애의 핵심 진단 기준으로 규정한다.",
+    "key_researchers": [
+      {"name_ko": "에드가 돌", "name_en": "Edgar A. Doll", "contribution": "적응행동(사회적 역량)의 개념을 처음으로 조작적으로 정의하고 Vineland 사회성숙도검사를 개발"},
+      {"name_ko": "미국 지적·발달장애 협회", "name_en": "AAIDD", "contribution": "적응행동을 개념적·사회적·실제적 기술의 3영역으로 체계화하고 지적장애 진단 기준에 포함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Vineland 적응행동척도", "name_en": "Vineland Adaptive Behavior Scales", "id": "DEVELOP_VABS_003"},
+      {"name_ko": "지적장애 평가", "name_en": "Intellectual Disability Assessment", "id": "DEVELOP_IDA_013"},
+      {"name_ko": "사회성숙도검사", "name_en": "Social Maturity Scale", "id": "DEVELOP_SMS_019"},
+      {"name_ko": "발달장애", "name_en": "Developmental Disability", "id": "DEVELOP_DVDIS_012"}
+    ],
+    "sub_types": [
+      {"name": "개념적 기술 (Conceptual Skills)", "description": "언어, 읽기쓰기, 금전 개념, 자기조절 등 인지적·학업적 기술"},
+      {"name": "사회적 기술 (Social Skills)", "description": "대인관계, 사회적 책임감, 규칙 준수, 자존감, 속임수에 대한 대처 등"},
+      {"name": "실제적 기술 (Practical Skills)", "description": "일상생활 활동, 직업 기술, 건강 관리, 이동, 안전 관리 등"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "적응행동 3영역 = CSP (Conceptual, Social, Practical)",
+      "differential": "적응행동은 '실제 일상 기능'을 반영하고, 지능은 '인지적 잠재력'을 반영한다 — 높은 IQ라도 적응행동이 낮을 수 있다.",
+      "key_point": "DSM-5에서 지적장애의 심각도(경도·중등도·고도·최고도)는 IQ가 아닌 적응행동의 결손 수준에 따라 결정된다.",
+      "common_mistake": "적응행동이 지능과 동의어라고 생각하는 것 — 적응행동은 지능검사로 측정되지 않으며 별도의 적응행동 평가가 필요하다."
+    }
+  },
+  {
+    "id": "DEVELOP_DD_011",
+    "terminology": "발달지체 (Developmental Delay)",
+    "terminology_ko": "발달지체",
+    "terminology_en": "Developmental Delay",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "아동이 인지, 신체, 의사소통, 사회-정서, 적응행동 중 하나 이상의 발달 영역에서 연령 기대 수준에 비해 유의미하게 뒤처져 있는 상태로, 일반적으로 평균에서 1.5~2.0 표준편차 이하의 수행을 기준으로 한다.",
+    "definition_en": "A condition in which a child performs significantly below age expectations in one or more developmental domains—cognitive, physical, communication, social-emotional, or adaptive behavior—typically defined as performance 1.5 to 2.0 standard deviations below the mean.",
+    "significance": "조기개입 서비스의 적격성을 판별하는 핵심 기준이며, 어린 연령에서 특정 장애 진단이 어려울 때 사용하는 잠정적 분류로서 서비스 제공의 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "마이클 셰비츠", "name_en": "Michael Shevell", "contribution": "발달지체의 평가 프로토콜과 원인별 분류 체계를 체계화"},
+      {"name_ko": "폴 립킨", "name_en": "Paul H. Lipkin", "contribution": "발달지체의 조기 선별과 의뢰 가이드라인 수립에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달장애", "name_en": "Developmental Disability", "id": "DEVELOP_DVDIS_012"},
+      {"name_ko": "조기개입", "name_en": "Early Intervention", "id": "DEVELOP_EI_025"},
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"},
+      {"name_ko": "선별검사 vs 진단검사", "name_en": "Screening vs Diagnostic Testing", "id": "DEVELOP_SVD_009"}
+    ],
+    "sub_types": [
+      {"name": "전반적 발달지체 (Global Developmental Delay)", "description": "두 개 이상의 발달 영역에서 유의미한 지체를 보이는 상태"},
+      {"name": "영역특이적 발달지체 (Domain-Specific Delay)", "description": "언어, 운동 등 특정 한 영역에서만 지체를 보이는 상태"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "발달지체 = '아직 도달하지 못한 것'(delay) → 따라잡을 가능성이 있다는 함의",
+      "differential": "발달지체(delay)는 일시적이고 따라잡을 수 있는 상태를 암시하고, 발달장애(disability)는 만성적이고 영구적인 상태를 의미한다.",
+      "key_point": "미국 IDEA법에서 3~9세 아동에게 '발달지체'를 특수교육 적격성 범주로 허용하여, 어린 아동에게 특정 장애 꼬리표를 붙이지 않고도 서비스를 제공할 수 있다.",
+      "common_mistake": "발달지체와 발달장애를 동의어로 사용하는 것 — 발달지체는 잠정적 분류이고, 발달장애는 만성적 장애 진단이다."
+    }
+  },
+  {
+    "id": "DEVELOP_DVDIS_012",
+    "terminology": "발달장애 (Developmental Disability)",
+    "terminology_ko": "발달장애",
+    "terminology_en": "Developmental Disability",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "22세 이전에 발생하며 인지, 언어, 운동, 행동 등 주요 발달 영역에서 실질적 기능 제한을 초래하는 만성적이고 심각한 장애의 집합으로, 지적장애, 자폐스펙트럼장애, 뇌성마비 등을 포함한다.",
+    "definition_en": "A group of chronic, severe conditions originating before age 22 that cause substantial functional limitations in major developmental domains including cognition, language, mobility, and behavior, encompassing intellectual disability, autism spectrum disorder, cerebral palsy, and others.",
+    "significance": "장기적인 지원 서비스 체계의 구축과 자원 배분의 근거가 되며, 평생에 걸친 종합적 지원 계획 수립에 필수적인 진단 분류이다.",
+    "key_researchers": [
+      {"name_ko": "미국 발달장애 협의회", "name_en": "U.S. Administration on Developmental Disabilities", "contribution": "발달장애의 법적 정의와 서비스 체계의 기틀을 확립 (Developmental Disabilities Act)"},
+      {"name_ko": "로버트 셰일록", "name_en": "Robert L. Schalock", "contribution": "발달장애의 지원 모델과 삶의 질 개념 틀을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"},
+      {"name_ko": "지적장애 평가", "name_en": "Intellectual Disability Assessment", "id": "DEVELOP_IDA_013"},
+      {"name_ko": "자폐스펙트럼 검사", "name_en": "Autism Spectrum Assessment", "id": "DEVELOP_ASD_007"},
+      {"name_ko": "적응행동", "name_en": "Adaptive Behavior", "id": "DEVELOP_AB_010"}
+    ],
+    "sub_types": [
+      {"name": "지적장애 (Intellectual Disability)", "description": "일반적 지적 기능과 적응행동의 유의미한 결손을 특징으로 하는 발달장애"},
+      {"name": "자폐스펙트럼장애 (Autism Spectrum Disorder)", "description": "사회적 의사소통 결함과 제한적·반복적 행동 패턴을 특징으로 하는 발달장애"},
+      {"name": "뇌성마비 (Cerebral Palsy)", "description": "비진행성 뇌 손상으로 인한 운동 및 자세 장애를 특징으로 하는 발달장애"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "발달장애 = 22세 이전 발생 + 만성적 + 실질적 기능 제한 → 3가지 핵심 요건",
+      "differential": "발달장애(disability)는 만성적·영구적 상태이고, 발달지체(delay)는 연령에 따라 해소될 가능성이 있는 상태이다.",
+      "key_point": "발달장애는 단일 진단이 아닌 여러 장애를 포괄하는 우산 용어(umbrella term)이며, 각 하위 장애에 대한 개별적 평가가 필요하다.",
+      "common_mistake": "발달장애를 지적장애와 동의어로 사용하는 것 — 발달장애는 지적장애보다 넓은 범주로 자폐, 뇌성마비 등을 포함한다."
+    }
+  },
+  {
+    "id": "DEVELOP_IDA_013",
+    "terminology": "지적장애 평가 (Intellectual Disability Assessment)",
+    "terminology_ko": "지적장애 평가",
+    "terminology_en": "Intellectual Disability Assessment",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "지적장애(지적발달장애) 진단을 위해 표준화된 지능검사와 적응행동 평가를 종합적으로 실시하여, IQ 약 70 이하와 적응행동의 유의미한 결손이 발달기(18세 이전)에 시작되었음을 확인하는 평가 과정이다.",
+    "definition_en": "A comprehensive evaluation process for diagnosing intellectual disability involving standardized intelligence testing and adaptive behavior assessment to confirm an IQ of approximately 70 or below and significant adaptive behavior deficits with onset during the developmental period (before age 18).",
+    "significance": "특수교육 적격성, 복지 서비스 수급, 법적 판단 등 다양한 영역에서 핵심적 결정 근거를 제공하며, DSM-5에서 심각도 수준이 적응행동에 의해 결정됨에 따라 적응행동 평가의 중요성이 더욱 강조되었다.",
+    "key_researchers": [
+      {"name_ko": "미국 지적·발달장애 협회", "name_en": "AAIDD (American Association on Intellectual and Developmental Disabilities)", "contribution": "지적장애의 진단 기준과 분류 체계를 지속적으로 개정하며 국제 표준을 제시"},
+      {"name_ko": "로버트 셰일록", "name_en": "Robert L. Schalock", "contribution": "지적장애의 다차원적 지원 모델을 개발하고 적응행동 기반 심각도 분류 체계를 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "적응행동", "name_en": "Adaptive Behavior", "id": "DEVELOP_AB_010"},
+      {"name_ko": "Vineland 적응행동척도", "name_en": "Vineland Adaptive Behavior Scales", "id": "DEVELOP_VABS_003"},
+      {"name_ko": "발달장애", "name_en": "Developmental Disability", "id": "DEVELOP_DVDIS_012"},
+      {"name_ko": "특수교육 적격성", "name_en": "Special Education Eligibility", "id": "DEVELOP_SEE_023"}
+    ],
+    "sub_types": [
+      {"name": "경도 지적장애 (Mild)", "description": "IQ 약 50-70, 학업 기술 습득 가능, 성인기에 최소한의 지원으로 독립생활 가능"},
+      {"name": "중등도 지적장애 (Moderate)", "description": "IQ 약 35-49, 기본적 자기관리 기술 습득 가능, 중간 수준의 지원 필요"},
+      {"name": "고도 지적장애 (Severe)", "description": "IQ 약 20-34, 제한된 의사소통, 광범위한 지원 필요"},
+      {"name": "최고도 지적장애 (Profound)", "description": "IQ 20 미만, 전반적 지원 필요, 감각운동 기능 중심의 생활"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "지적장애 진단 3요건 = IQ 70 이하 + 적응행동 결손 + 발달기(18세 전) 발생",
+      "differential": "지적장애는 '전반적' 인지 기능 저하이고, 학습장애는 '특정 학업 영역'만 부진하면서 전반적 지능은 정상인 상태이다.",
+      "key_point": "DSM-5에서 지적장애 심각도는 IQ 점수가 아닌 적응행동(개념적·사회적·실제적)의 결손 수준에 따라 결정된다.",
+      "common_mistake": "IQ 70 이하이면 자동으로 지적장애라고 진단하는 것 — 적응행동 결손과 발달기 발생 조건도 반드시 충족해야 한다."
+    }
+  },
+  {
+    "id": "DEVELOP_KASQ_014",
+    "terminology": "K-ASQ 영유아 발달선별검사 (Korean Ages and Stages Questionnaires)",
+    "terminology_ko": "K-ASQ (영유아 발달선별)",
+    "terminology_en": "Korean Ages and Stages Questionnaires (K-ASQ)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "부모가 작성하는 영유아 발달선별 도구로, 의사소통, 대근육운동, 소근육운동, 문제해결, 개인-사회성의 5개 영역에서 발달 지연 위험을 선별하며, 한국 영유아 규준으로 표준화되었다.",
+    "definition_en": "A parent-completed developmental screening tool assessing five domains—communication, gross motor, fine motor, problem solving, and personal-social—to identify infants and toddlers at risk for developmental delays, standardized with Korean normative data.",
+    "significance": "한국의 영유아 건강검진 체계에서 공식 발달 선별도구로 채택되어 전국적 수준의 조기 선별 시스템 구축에 기여하고 있다.",
+    "key_researchers": [
+      {"name_ko": "제인 스콰이어스", "name_en": "Jane Squires", "contribution": "ASQ(Ages and Stages Questionnaires) 원판을 개발하여 부모보고형 발달선별의 패러다임을 확립"},
+      {"name_ko": "은백린", "name_en": "Baik-Lin Eun", "contribution": "ASQ의 한국 표준화(K-ASQ)를 수행하고 한국 영유아 건강검진 체계에 도입"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Denver 발달선별검사", "name_en": "Denver Developmental Screening Test", "id": "DEVELOP_DDST_002"},
+      {"name_ko": "선별검사 vs 진단검사", "name_en": "Screening vs Diagnostic Testing", "id": "DEVELOP_SVD_009"},
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"},
+      {"name_ko": "조기개입", "name_en": "Early Intervention", "id": "DEVELOP_EI_025"}
+    ],
+    "sub_types": [
+      {"name": "ASQ-3 (3판)", "description": "1~66개월 영유아를 대상으로 21개 연령 간격별 설문지를 제공하는 발달선별 도구"},
+      {"name": "ASQ:SE-2 (사회-정서)", "description": "사회-정서 발달에 특화된 선별 도구로, ASQ-3와 병행하여 사용"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "K-ASQ = 부모가 '직접' 작성 + 5개 영역 + 한국 규준 → 영유아 건강검진 공식 도구",
+      "differential": "K-ASQ는 '부모보고형' 선별검사이고, Denver는 '검사자 직접 실시형' 선별검사이다.",
+      "key_point": "K-ASQ는 부모가 직접 작성하므로 비용 효율적이나, 부모의 보고 정확도에 의존하는 한계가 있어 결과 해석 시 주의가 필요하다.",
+      "common_mistake": "K-ASQ를 진단 도구로 사용하는 것 — K-ASQ는 선별 도구이며, 양성 결과 시 Bayley 등 종합 진단검사로 의뢰해야 한다."
+    }
+  },
+  {
+    "id": "DEVELOP_GSEL_015",
+    "terminology": "Gesell 발달검사 (Gesell Developmental Schedules)",
+    "terminology_ko": "Gesell 발달검사",
+    "terminology_en": "Gesell Developmental Schedules",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "4주~6세 아동을 대상으로 적응행동, 대운동, 소운동, 언어, 개인-사회성의 5개 영역에서 발달 이정표 달성 여부를 관찰하여 발달연령(developmental age)과 발달지수(DQ)를 산출하는 최초의 체계적 발달검사이다.",
+    "definition_en": "The first systematic developmental assessment for children aged 4 weeks to 6 years, evaluating milestone attainment across five domains—adaptive, gross motor, fine motor, language, and personal-social—to yield developmental age and developmental quotient (DQ).",
+    "significance": "발달 이정표(developmental milestone) 개념과 성숙이론에 기반한 발달평가의 기초를 확립한 역사적 도구로, 이후 모든 발달검사의 원형이 되었다.",
+    "key_researchers": [
+      {"name_ko": "아놀드 게젤", "name_en": "Arnold Gesell", "contribution": "체계적 관찰과 영화 촬영을 통해 영유아 발달 이정표를 최초로 기록하고 발달검사의 기틀을 마련"},
+      {"name_ko": "캐서린 아마트루다", "name_en": "Catherine Amatruda", "contribution": "Gesell과 함께 발달 진단학(Developmental Diagnosis)을 체계화하고 임상 적용을 확대"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"},
+      {"name_ko": "Bayley 영유아발달검사", "name_en": "Bayley Scales", "id": "DEVELOP_BSID_001"},
+      {"name_ko": "Mullen 발달척도", "name_en": "Mullen Scales of Early Learning", "id": "DEVELOP_MSEL_016"},
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Gesell = '성숙이론'의 아버지 → 발달 이정표 관찰 기반의 '최초' 발달검사",
+      "differential": "Gesell 검사는 성숙이론에 기반한 관찰 중심이고, Bayley 검사는 표준화된 과제 수행을 통한 점수 산출에 중점을 둔다.",
+      "key_point": "Gesell의 발달지수(DQ = 발달연령/생활연령 × 100)는 비율IQ와 동일한 공식이며, 동일한 한계(성인기 이후 부적절)를 갖는다.",
+      "common_mistake": "Gesell 발달검사가 현재에도 널리 사용된다고 생각하는 것 — 현대에는 Bayley-III 등 새로운 표준화 검사로 대체되었다."
+    }
+  },
+  {
+    "id": "DEVELOP_MSEL_016",
+    "terminology": "Mullen 발달척도 (Mullen Scales of Early Learning)",
+    "terminology_ko": "Mullen 발달척도",
+    "terminology_en": "Mullen Scales of Early Learning (MSEL)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "출생~68개월 영유아를 대상으로 시각수용, 소근육, 수용언어, 표현언어, 대근육의 5개 척도를 통해 초기 학습 능력을 평가하는 개별 실시형 발달검사이다.",
+    "definition_en": "An individually administered developmental test assessing early learning abilities in infants and toddlers from birth to 68 months through five scales: visual reception, fine motor, receptive language, expressive language, and gross motor.",
+    "significance": "자폐스펙트럼장애 아동의 인지 발달 평가에 특히 널리 사용되며, ADOS-2와 함께 ASD 연구와 임상에서 핵심 평가도구로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "아일린 멀렌", "name_en": "Eileen M. Mullen", "contribution": "영유아의 초기 학습 능력을 다영역적으로 측정하는 MSEL을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Bayley 영유아발달검사", "name_en": "Bayley Scales", "id": "DEVELOP_BSID_001"},
+      {"name_ko": "영유아 인지평가", "name_en": "Infant Cognitive Assessment", "id": "DEVELOP_ICA_017"},
+      {"name_ko": "자폐스펙트럼 검사", "name_en": "Autism Spectrum Assessment", "id": "DEVELOP_ASD_007"},
+      {"name_ko": "언어발달 평가", "name_en": "Language Development Assessment", "id": "DEVELOP_LDA_018"}
+    ],
+    "sub_types": [
+      {"name": "시각수용 척도 (Visual Reception)", "description": "시각적 처리, 패턴 인식, 시각적 기억 등 비언어적 인지 능력을 측정"},
+      {"name": "소근육 척도 (Fine Motor)", "description": "눈-손 협응, 조작 능력, 쓰기 준비 기술을 측정"},
+      {"name": "수용언어 척도 (Receptive Language)", "description": "언어 이해, 청각적 기억, 지시 따르기 능력을 측정"},
+      {"name": "표현언어 척도 (Expressive Language)", "description": "언어 표현, 어휘, 구문 사용 능력을 측정"},
+      {"name": "대근육 척도 (Gross Motor)", "description": "자세 조절, 이동, 대근육 활동 능력을 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Mullen = 5개 척도(시각, 소근육, 수용언어, 표현언어, 대근육) + ELC(초기학습종합점수)",
+      "differential": "Mullen은 '학습 능력'에 초점을 맞추고, Bayley는 '전반적 발달'에 초점을 맞추며, Mullen은 특히 ASD 연구에서 선호된다.",
+      "key_point": "MSEL의 초기학습종합점수(Early Learning Composite, ELC)는 대근육 척도를 제외한 4개 척도로 산출되며, ASD 아동의 인지 수준 지표로 자주 사용된다.",
+      "common_mistake": "MSEL의 ELC를 IQ와 동일시하는 것 — ELC는 지능지수가 아닌 초기 학습 종합 능력의 지표이다."
+    }
+  },
+  {
+    "id": "DEVELOP_ICA_017",
+    "terminology": "영유아 인지평가 (Infant Cognitive Assessment)",
+    "terminology_ko": "영유아 인지평가",
+    "terminology_en": "Infant Cognitive Assessment",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "영유아(0~3세)의 인지 발달 수준을 측정하는 평가로, 감각운동 능력, 대상영속성, 수단-목적 관계, 인과관계 이해, 기억, 문제해결 등 초기 인지 기능을 평가하여 인지적 발달지체를 확인한다.",
+    "definition_en": "Assessment of cognitive development in infants and toddlers (0–3 years), evaluating early cognitive functions such as sensorimotor abilities, object permanence, means-end relationships, causality understanding, memory, and problem solving to identify cognitive developmental delays.",
+    "significance": "영유아기 인지 발달 수준의 정확한 파악은 조기개입의 방향을 결정하는 데 핵심적이며, 전통적 지능검사가 적용 불가능한 연령대에서 인지 능력을 추정할 수 있는 유일한 방법이다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "감각운동기 인지 발달 단계를 체계화하여 영유아 인지평가의 이론적 기반을 제공"},
+      {"name_ko": "이나 우지기리스", "name_en": "Ina Uzgiris", "contribution": "피아제 이론에 기반한 영아 인지 발달 평가 척도(Uzgiris-Hunt Scales)를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Bayley 영유아발달검사", "name_en": "Bayley Scales", "id": "DEVELOP_BSID_001"},
+      {"name_ko": "Mullen 발달척도", "name_en": "Mullen Scales", "id": "DEVELOP_MSEL_016"},
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"},
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"}
+    ],
+    "sub_types": [
+      {"name": "Bayley-III 인지척도", "description": "영유아 인지 발달의 가장 널리 사용되는 표준화 평가 도구"},
+      {"name": "Uzgiris-Hunt 서수적 발달척도", "description": "피아제 감각운동기 6단계에 기반한 준거참조 인지 평가 도구"},
+      {"name": "Fagan 영아지능검사 (FTII)", "description": "시각적 재인 기억(novelty preference)에 기반한 영아 인지 능력 평가 도구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "영유아 인지 = 감각운동(Piaget) + 대상영속성 + 문제해결 → 전통적 IQ검사 불가 연령대의 인지 추정",
+      "differential": "영유아 인지평가는 감각운동 과제 기반이고, 아동기 지능검사는 언어·추론 과제 기반이다.",
+      "key_point": "영유아기 인지 평가의 예측타당도는 중간 수준이며, 습관화(habituation)와 새로운 자극 선호(novelty preference) 패러다임이 이후 IQ를 더 잘 예측한다는 연구 결과가 있다.",
+      "common_mistake": "영유아기 발달지수(DQ)가 이후 IQ를 정확하게 예측한다고 생각하는 것 — 발달의 불연속성으로 인해 예측력은 제한적이다."
+    }
+  },
+  {
+    "id": "DEVELOP_LDA_018",
+    "terminology": "언어발달 평가 (Language Development Assessment)",
+    "terminology_ko": "언어발달 평가",
+    "terminology_en": "Language Development Assessment",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "아동의 수용언어(이해)와 표현언어(산출) 능력을 체계적으로 평가하여 언어발달 지체나 장애의 유무와 유형을 확인하는 과정으로, 표준화 검사, 언어 표본 분석, 관찰 등 다양한 방법을 사용한다.",
+    "definition_en": "A systematic process of evaluating a child's receptive (comprehension) and expressive (production) language abilities to identify the presence and type of language delays or disorders, using methods including standardized tests, language sample analysis, and observation.",
+    "significance": "언어발달은 인지, 사회성, 학업 성취와 밀접하게 연관되어 있어, 언어발달 평가는 전반적 발달 평가의 핵심 구성요소이며 조기개입의 주요 대상 영역이다.",
+    "key_researchers": [
+      {"name_ko": "로렌스 레너드", "name_en": "Laurence B. Leonard", "contribution": "특정 언어 장애(SLI)의 특성을 규명하고 언어발달 평가의 이론적 기반을 강화"},
+      {"name_ko": "엘리자베스 페나", "name_en": "Elizabeth D. Pena", "contribution": "다문화 아동의 언어 평가에서 동적 평가(dynamic assessment) 접근을 개발하여 문화적 공정성을 향상"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Mullen 발달척도", "name_en": "Mullen Scales", "id": "DEVELOP_MSEL_016"},
+      {"name_ko": "자폐스펙트럼 검사", "name_en": "Autism Spectrum Assessment", "id": "DEVELOP_ASD_007"},
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"},
+      {"name_ko": "학습장애 검사", "name_en": "Learning Disability Assessment", "id": "DEVELOP_LD_006"}
+    ],
+    "sub_types": [
+      {"name": "표준화 언어검사 (Standardized Language Tests)", "description": "PPVT, REVT 등 규준참조 언어 검사로 수용·표현 언어 수준을 측정"},
+      {"name": "언어 표본 분석 (Language Sample Analysis)", "description": "자발적 발화 표본을 수집하여 MLU, 어휘 다양도, 구문 복잡도 등을 분석"},
+      {"name": "동적 평가 (Dynamic Assessment)", "description": "검사-교수-재검사 패러다임으로 학습 잠재력과 언어 학습 가능성을 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "언어발달 평가 = 수용(이해) + 표현(산출) → 두 축의 불균형 패턴이 진단적 단서",
+      "differential": "언어지체(language delay)는 늦되 정상 순서를 따르는 것이고, 언어장애(language disorder)는 비정상적 패턴을 보이는 것이다.",
+      "key_point": "PPVT(수용어휘력검사)만으로 전반적 언어 능력을 판단할 수 없으며, 표현언어와 화용론적 기능도 함께 평가해야 한다.",
+      "common_mistake": "이중언어 아동의 언어발달 지연을 언어장애로 오진하는 것 — 이중언어 환경의 특성을 반드시 고려해야 한다."
+    }
+  },
+  {
+    "id": "DEVELOP_SMS_019",
+    "terminology": "사회성숙도검사 (Social Maturity Scale)",
+    "terminology_ko": "사회성숙도검사",
+    "terminology_en": "Social Maturity Scale",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "개인의 사회적 능력과 자립 수준을 측정하는 검사로, 자기관리, 이동, 작업, 의사소통, 자기지시, 사회화의 6개 영역에서 적응행동의 발달 정도를 평가하여 사회연령(SA)과 사회지수(SQ)를 산출한다.",
+    "definition_en": "A test measuring an individual's social competence and self-sufficiency level, evaluating adaptive behavior development across six domains—self-help, locomotion, occupation, communication, self-direction, and socialization—to yield social age (SA) and social quotient (SQ).",
+    "significance": "한국에서 적응행동 평가의 대표적 도구로 오랜 기간 사용되어 왔으며, 지적장애 진단과 특수교육 배치 결정에 활용되는 전통적 검사이다.",
+    "key_researchers": [
+      {"name_ko": "에드가 돌", "name_en": "Edgar A. Doll", "contribution": "1935년 Vineland 사회성숙도검사를 개발하여 사회적 역량의 체계적 측정을 최초로 시도"},
+      {"name_ko": "김승국", "name_en": "Seung-Kook Kim", "contribution": "한국판 사회성숙도검사(SMS)를 표준화하여 한국 현장에 보급"}
+    ],
+    "related_concepts": [
+      {"name_ko": "적응행동", "name_en": "Adaptive Behavior", "id": "DEVELOP_AB_010"},
+      {"name_ko": "Vineland 적응행동척도", "name_en": "Vineland Adaptive Behavior Scales", "id": "DEVELOP_VABS_003"},
+      {"name_ko": "지적장애 평가", "name_en": "Intellectual Disability Assessment", "id": "DEVELOP_IDA_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회성숙도검사 = Doll의 원판 → 6개 영역 → SA(사회연령)/SQ(사회지수) 산출",
+      "differential": "사회성숙도검사는 사회연령/사회지수를 산출하는 전통적 도구이고, Vineland-3는 적응행동 종합점수를 산출하는 현대적 도구이다.",
+      "key_point": "한국에서는 김승국 표준화 SMS가 오랫동안 사용되었으나, 현대적으로는 K-Vineland-II가 더 권장되는 추세이다.",
+      "common_mistake": "사회성숙도검사의 사회지수(SQ)를 지능지수(IQ)와 동일시하는 것 — SQ는 사회적 적응 수준을 나타내며 인지 능력과는 다른 구인이다."
+    }
+  },
+  {
+    "id": "DEVELOP_SRT_020",
+    "terminology": "학습준비도검사 (School Readiness Test)",
+    "terminology_ko": "학습준비도검사",
+    "terminology_en": "School Readiness Test",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "취학 전 아동이 초등학교 교육과정에 참여하기 위해 필요한 인지적, 언어적, 사회-정서적, 운동적 기술의 준비 정도를 평가하는 검사로, 학교 적응 및 학업 성공 가능성을 예측한다.",
+    "definition_en": "A test assessing the degree to which preschool children possess the cognitive, linguistic, social-emotional, and motor skills needed to participate in elementary school curricula, predicting school adjustment and academic success potential.",
+    "significance": "취학 유예, 교육적 배치, 조기 입학 결정의 근거를 제공하며, 학교 적응에 어려움이 예상되는 아동에 대한 조기 지원 계획의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "아놀드 게젤", "name_en": "Arnold Gesell", "contribution": "발달적 성숙도에 기반한 학습준비도 개념을 최초로 체계화"},
+      {"name_ko": "마리온 다우니", "name_en": "Marion Monroe", "contribution": "읽기 준비도 평가의 기초를 확립하고 읽기 준비도 검사를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "교육심리평가", "name_en": "Educational Psychological Assessment", "id": "DEVELOP_EPA_021"},
+      {"name_ko": "학업성취 진단", "name_en": "Academic Achievement Diagnosis", "id": "DEVELOP_AAD_022"},
+      {"name_ko": "학습장애 검사", "name_en": "Learning Disability Assessment", "id": "DEVELOP_LD_006"},
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"}
+    ],
+    "sub_types": [
+      {"name": "인지적 준비도 (Cognitive Readiness)", "description": "주의집중, 기억, 분류, 서열화, 수 개념 등 학습에 필요한 인지 기술 평가"},
+      {"name": "언어적 준비도 (Language Readiness)", "description": "어휘, 문장 이해, 음운 인식 등 읽기·쓰기 학습의 전제 기술 평가"},
+      {"name": "사회-정서적 준비도 (Social-Emotional Readiness)", "description": "규칙 따르기, 또래 상호작용, 감정 조절 등 학교 적응에 필요한 사회적 기술 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "학습준비도 = '학교 갈 준비 됐나?' → 인지 + 언어 + 사회정서 + 운동 기술의 종합 평가",
+      "differential": "학습준비도검사는 '학교 적응 가능성'을 평가하고, 지능검사는 '인지적 잠재력'을 평가한다.",
+      "key_point": "학습준비도의 관점이 '성숙주의적 관점'(아동이 준비될 때까지 기다림)에서 '환경주의적 관점'(환경을 조성하여 준비시킴)으로 전환되고 있다.",
+      "common_mistake": "학습준비도를 고정된 능력으로 보는 것 — 학습준비도는 경험과 교육에 의해 향상될 수 있는 역동적 개념이다."
+    }
+  },
+  {
+    "id": "DEVELOP_EPA_021",
+    "terminology": "교육심리평가 (Educational Psychological Assessment)",
+    "terminology_ko": "교육심리평가",
+    "terminology_en": "Educational Psychological Assessment",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "학생의 인지 능력, 학업 성취, 정서-행동 상태, 적응 기능 등을 종합적으로 평가하여 학습 문제의 원인을 파악하고, 적절한 교육적 배치와 개입 전략을 수립하기 위한 다학문적 평가 과정이다.",
+    "definition_en": "A multidisciplinary evaluation process that comprehensively assesses a student's cognitive abilities, academic achievement, emotional-behavioral status, and adaptive functioning to identify causes of learning difficulties and develop appropriate educational placement and intervention strategies.",
+    "significance": "특수교육 적격성 판별, 학습 부진 원인 분석, 교육적 권고 도출의 과학적 근거를 제공하며, 증거기반 교육 실천의 핵심 절차이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 카우프만", "name_en": "Alan S. Kaufman", "contribution": "지능검사의 교육적 해석 방법을 체계화하고 인지처리과정과 학업 성취의 연계 모델을 개발"},
+      {"name_ko": "에드워드 셰이위츠", "name_en": "Sally Shaywitz", "contribution": "읽기 장애의 신경생물학적 기초를 밝히고 교육심리평가에서 읽기 능력 평가의 중요성을 강조"}
+    ],
+    "related_concepts": [
+      {"name_ko": "학습장애 검사", "name_en": "Learning Disability Assessment", "id": "DEVELOP_LD_006"},
+      {"name_ko": "특수교육 적격성", "name_en": "Special Education Eligibility", "id": "DEVELOP_SEE_023"},
+      {"name_ko": "개별화교육프로그램", "name_en": "Individualized Education Program", "id": "DEVELOP_IEP_024"},
+      {"name_ko": "학업성취 진단", "name_en": "Academic Achievement Diagnosis", "id": "DEVELOP_AAD_022"}
+    ],
+    "sub_types": [
+      {"name": "인지능력 평가", "description": "지능검사, 인지처리 검사 등을 통한 학생의 인지적 강점과 약점 분석"},
+      {"name": "학업성취 평가", "description": "읽기, 쓰기, 수학 등 학업 영역별 현재 수행 수준 측정"},
+      {"name": "정서-행동 평가", "description": "불안, 우울, ADHD 등 학습에 영향을 미치는 정서행동 요인 파악"},
+      {"name": "적응기능 평가", "description": "일상생활 및 학교생활에서의 적응 수준 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "교육심리평가 = 인지 + 학업 + 정서행동 + 적응 → 4개 영역의 '종합 진단' 후 교육적 권고 도출",
+      "differential": "교육심리평가는 '학습 문제의 원인 파악과 교육적 개입'이 목적이고, 임상심리평가는 '정신건강 진단과 치료 계획'이 목적이다.",
+      "key_point": "교육심리평가는 단일 검사가 아닌 다양한 검사와 정보원을 통합하는 과정(process)이며, 평가 결과는 반드시 교육적 권고로 연결되어야 한다.",
+      "common_mistake": "교육심리평가를 지능검사만으로 대체할 수 있다고 생각하는 것 — 학업 성취, 정서행동, 적응기능까지 종합 평가해야 한다."
+    }
+  },
+  {
+    "id": "DEVELOP_AAD_022",
+    "terminology": "학업성취 진단 (Academic Achievement Diagnosis)",
+    "terminology_ko": "학업성취 진단",
+    "terminology_en": "Academic Achievement Diagnosis",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "학생의 읽기, 쓰기, 수학 등 핵심 학업 영역에서의 현재 수행 수준을 표준화 검사로 측정하고, 기대 수준과의 차이를 분석하여 학습 곤란의 구체적 패턴과 원인을 확인하는 평가 과정이다.",
+    "definition_en": "An evaluation process measuring a student's current performance level in core academic areas such as reading, writing, and mathematics through standardized tests, analyzing discrepancies from expected levels to identify specific patterns and causes of learning difficulties.",
+    "significance": "학습장애 진단, 교육과정 수정, 개별화 교육계획(IEP) 목표 설정의 객관적 근거를 제공하며, 중재반응(RTI) 모델에서 진전도 모니터링의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "리처드 우드콕", "name_en": "Richard W. Woodcock", "contribution": "Woodcock-Johnson 검사 배터리를 개발하여 학업 성취와 인지 능력의 통합 평가 모델을 확립"},
+      {"name_ko": "잭 플레처", "name_en": "Jack M. Fletcher", "contribution": "학업성취 진단에서 불일치 모델의 한계를 실증적으로 규명하고 RTI 기반 접근으로의 전환을 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "학습장애 검사", "name_en": "Learning Disability Assessment", "id": "DEVELOP_LD_006"},
+      {"name_ko": "교육심리평가", "name_en": "Educational Psychological Assessment", "id": "DEVELOP_EPA_021"},
+      {"name_ko": "특수교육 적격성", "name_en": "Special Education Eligibility", "id": "DEVELOP_SEE_023"},
+      {"name_ko": "개별화교육프로그램", "name_en": "Individualized Education Program", "id": "DEVELOP_IEP_024"}
+    ],
+    "sub_types": [
+      {"name": "읽기 성취 진단", "description": "음운 해독, 읽기 유창성, 읽기 이해 등 읽기의 하위 구성요소별 수준을 평가"},
+      {"name": "수학 성취 진단", "description": "수 감각, 연산, 수학적 추론, 문제 해결 등 수학의 하위 구성요소별 수준을 평가"},
+      {"name": "쓰기 성취 진단", "description": "철자, 문장 구성, 작문, 필기 등 쓰기의 하위 구성요소별 수준을 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "학업성취 진단 = '현재 어디에 있는가' (성취 수준) vs '어디에 있어야 하는가' (기대 수준)의 비교",
+      "differential": "학업성취 진단은 '현재 학업 수준'을 측정하고, 학습준비도검사는 '학업 시작을 위한 준비 정도'를 평가한다.",
+      "key_point": "대표적 학업성취 검사인 WJ-IV Achievement, WIAT-IV는 대응하는 인지검사(WJ-IV Cognitive, WISC-V)와 함께 사용하여 능력-성취 비교가 가능하다.",
+      "common_mistake": "학교 내 기말고사 성적을 표준화된 학업성취 진단과 동일시하는 것 — 표준화 검사만이 규준 비교를 통한 객관적 진단을 가능하게 한다."
+    }
+  },
+  {
+    "id": "DEVELOP_SEE_023",
+    "terminology": "특수교육 적격성 (Special Education Eligibility)",
+    "terminology_ko": "특수교육 적격성",
+    "terminology_en": "Special Education Eligibility",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "장애가 있는 학생이 특수교육 서비스를 받을 자격이 있는지를 판별하는 과정으로, 법적으로 정해진 장애 범주에 해당하고 그 장애가 교육적 수행에 부정적 영향을 미치는지를 종합적으로 평가하여 결정한다.",
+    "definition_en": "The process of determining whether a student with a disability qualifies for special education services by comprehensively evaluating whether the student meets criteria for a legally defined disability category and whether that disability adversely affects educational performance.",
+    "significance": "장애 학생의 무상 적절한 공교육(FAPE) 보장의 관문으로, 적격성 판별의 정확성과 공정성이 학생의 교육적 권리를 직접 좌우한다.",
+    "key_researchers": [
+      {"name_ko": "미국 의회", "name_en": "U.S. Congress", "contribution": "1975년 EAHCA(현 IDEA)를 제정하여 장애 아동의 무상 적절한 공교육 권리와 특수교육 적격성 절차를 법제화"},
+      {"name_ko": "대니얼 래프란카", "name_en": "Daniel J. Reschly", "contribution": "특수교육 적격성 판별에서 비차별적 평가와 문화적 공정성의 중요성을 강조하고 RTI 모델 도입을 촉진"}
+    ],
+    "related_concepts": [
+      {"name_ko": "개별화교육프로그램", "name_en": "Individualized Education Program", "id": "DEVELOP_IEP_024"},
+      {"name_ko": "학습장애 검사", "name_en": "Learning Disability Assessment", "id": "DEVELOP_LD_006"},
+      {"name_ko": "교육심리평가", "name_en": "Educational Psychological Assessment", "id": "DEVELOP_EPA_021"},
+      {"name_ko": "지적장애 평가", "name_en": "Intellectual Disability Assessment", "id": "DEVELOP_IDA_013"}
+    ],
+    "sub_types": [
+      {"name": "학습장애 (Learning Disability)", "description": "읽기, 쓰기, 수학 등 특정 학업 영역에서의 유의미한 어려움"},
+      {"name": "지적장애 (Intellectual Disability)", "description": "전반적 인지 기능과 적응행동의 유의미한 제한"},
+      {"name": "정서행동장애 (Emotional-Behavioral Disorder)", "description": "학업 수행에 부정적 영향을 미치는 심각한 정서 또는 행동 문제"},
+      {"name": "자폐스펙트럼장애 (Autism Spectrum Disorder)", "description": "사회적 의사소통과 상호작용의 결함 및 제한적·반복적 행동 패턴"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "특수교육 적격성 = 장애 범주 충족 + 교육적 수행에 '부정적 영향' → 두 조건 모두 필요",
+      "differential": "적격성 판별은 '서비스 받을 자격'을 결정하는 법적 절차이고, 임상 진단은 '장애의 유무'를 판단하는 의학적 절차이다.",
+      "key_point": "IDEA에서 정한 13개 장애 범주(미국) 또는 장애인등에 대한 특수교육법의 장애 유형(한국)에 해당해야 특수교육 대상자로 선정된다.",
+      "common_mistake": "임상적 진단이 곧 특수교육 적격성을 보장한다고 생각하는 것 — 임상 진단이 있어도 교육적 필요가 입증되어야 적격성이 인정된다."
+    }
+  },
+  {
+    "id": "DEVELOP_IEP_024",
+    "terminology": "개별화교육프로그램 (Individualized Education Program, IEP)",
+    "terminology_ko": "개별화교육프로그램 (IEP)",
+    "terminology_en": "Individualized Education Program (IEP)",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "특수교육 대상 학생 개인의 현재 수행 수준, 연간 목표, 특수교육 서비스, 관련 서비스, 배치 등을 구체적으로 명시한 법적 문서로, 다학문 팀에 의해 매년 작성되고 검토된다.",
+    "definition_en": "A legally binding document specifying a special education student's current performance levels, annual goals, special education services, related services, and placement, developed and reviewed annually by a multidisciplinary team.",
+    "significance": "특수교육 대상 학생에 대한 맞춤형 교육 보장의 핵심 도구이며, 심리검사 결과가 IEP 목표 설정과 교육적 의사결정에 직접 반영되는 접점이다.",
+    "key_researchers": [
+      {"name_ko": "미국 의회", "name_en": "U.S. Congress", "contribution": "IDEA법을 통해 모든 특수교육 대상 학생에 대한 IEP 작성을 법적으로 의무화"},
+      {"name_ko": "바텔 배트먼", "name_en": "Bateman, Barbara", "contribution": "법적으로 적절한 IEP 작성의 실무 지침과 연간 목표 설정 방법론을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "특수교육 적격성", "name_en": "Special Education Eligibility", "id": "DEVELOP_SEE_023"},
+      {"name_ko": "교육심리평가", "name_en": "Educational Psychological Assessment", "id": "DEVELOP_EPA_021"},
+      {"name_ko": "학업성취 진단", "name_en": "Academic Achievement Diagnosis", "id": "DEVELOP_AAD_022"},
+      {"name_ko": "조기개입", "name_en": "Early Intervention", "id": "DEVELOP_EI_025"}
+    ],
+    "sub_types": [
+      {"name": "개별화가족서비스계획 (IFSP)", "description": "0~3세 장애 영유아를 위한 가족 중심의 조기개입 계획서 (IEP의 영유아 버전)"},
+      {"name": "전환계획 (Transition Plan)", "description": "16세 이상 학생의 졸업 후 직업, 교육, 독립생활 전환을 위한 계획"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "IEP = 현재 수준 + 연간 목표 + 서비스 + 배치 → 매년 '팀'이 작성하는 '법적' 문서",
+      "differential": "IEP는 학령기 특수교육 대상자를 위한 계획이고, IFSP는 0~3세 영유아를 위한 가족 중심 조기개입 계획이다.",
+      "key_point": "IEP 팀에는 반드시 부모, 일반교사, 특수교사, 학교 대표, 평가 전문가가 포함되어야 하며, 부모의 참여와 동의가 법적으로 보장된다.",
+      "common_mistake": "IEP를 교사 혼자 작성하는 문서로 생각하는 것 — IEP는 다학문 팀이 공동으로 작성하며 부모 참여가 필수적이다."
+    }
+  },
+  {
+    "id": "DEVELOP_EI_025",
+    "terminology": "조기개입 (Early Intervention)",
+    "terminology_ko": "조기개입",
+    "terminology_en": "Early Intervention",
+    "category": "DEVELOP",
+    "category_name": "발달/교육검사 (Developmental & Educational Testing)",
+    "definition": "발달지체나 장애가 확인되었거나 위험이 있는 영유아(0~3세)와 그 가족에게 제공되는 체계적인 치료, 교육, 지원 서비스로, 뇌의 가소성이 높은 시기에 최적의 발달을 촉진하는 것이 목적이다.",
+    "definition_en": "Systematic therapeutic, educational, and support services provided to infants and toddlers (0–3 years) with identified or at-risk developmental delays or disabilities and their families, aimed at promoting optimal development during the period of highest brain plasticity.",
+    "significance": "발달의 결정적 시기(critical period)에 적절한 개입을 제공함으로써 이후의 장애 심각도를 감소시키고, 2차적 문제 발생을 예방하며, 장기적 교육 비용을 절감하는 효과가 있다.",
+    "key_researchers": [
+      {"name_ko": "사무엘 커크", "name_en": "Samuel Kirk", "contribution": "조기 교육 중재가 지적 발달에 미치는 긍정적 효과를 실증적으로 입증"},
+      {"name_ko": "잭 숀코프", "name_en": "Jack P. Shonkoff", "contribution": "초기 아동 발달에 대한 신경과학적 근거를 종합하여 조기개입의 과학적 기반을 강화 (Harvard Center on the Developing Child)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달지체", "name_en": "Developmental Delay", "id": "DEVELOP_DD_011"},
+      {"name_ko": "발달검사", "name_en": "Developmental Assessment", "id": "DEVELOP_DEVA_008"},
+      {"name_ko": "개별화교육프로그램", "name_en": "Individualized Education Program", "id": "DEVELOP_IEP_024"},
+      {"name_ko": "K-ASQ", "name_en": "Korean Ages and Stages Questionnaires", "id": "DEVELOP_KASQ_014"}
+    ],
+    "sub_types": [
+      {"name": "가정 방문 프로그램 (Home-Based)", "description": "전문가가 가정을 방문하여 자연스러운 환경에서 중재를 제공하는 방식"},
+      {"name": "센터 기반 프로그램 (Center-Based)", "description": "전문 기관에서 체계적인 치료와 교육을 제공하는 방식"},
+      {"name": "가족 중심 중재 (Family-Centered Intervention)", "description": "가족을 중재의 핵심 주체로 보고 부모 교육과 가족 역량 강화에 초점을 맞추는 접근"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "조기개입 = '0~3세' + '뇌 가소성' + '가족 중심' → IFSP(개별화가족서비스계획)로 구현",
+      "differential": "조기개입(0~3세)은 IFSP에 기반하고, 학령기 특수교육(3세~)은 IEP에 기반한다.",
+      "key_point": "조기개입의 효과는 비용-편익 분석에서도 입증되어, 투입 1달러당 7~12달러의 사회적 편익이 발생한다는 연구가 있다(Perry Preschool Project).",
+      "common_mistake": "조기개입이 아동에 대한 직접 치료만을 의미한다고 생각하는 것 — 현대적 조기개입은 가족 역량 강화와 자연적 환경에서의 학습을 강조한다."
+    }
+  }
+]

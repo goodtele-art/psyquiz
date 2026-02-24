@@ -1,0 +1,993 @@
+[
+  {
+    "id": "DEVELOP_MATURATION_001",
+    "terminology": "성숙 (Maturation)",
+    "terminology_ko": "성숙",
+    "terminology_en": "Maturation",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "유전적으로 결정된 생물학적 성장 과정으로, 학습이나 경험과 무관하게 일정한 순서와 시기에 따라 나타나는 신체적·심리적 변화를 말한다.",
+    "definition_en": "A biologically driven process of growth determined by genetics, involving physical and psychological changes that unfold in an orderly sequence and timing regardless of learning or experience.",
+    "significance": "발달에서 유전(자연)과 환경(양육)의 상대적 기여를 이해하는 데 핵심적인 개념이며, 특정 능력이 나타나는 시기와 준비도를 설명한다.",
+    "key_researchers": [
+      {"name_ko": "아놀드 게젤", "name_en": "Arnold Gesell", "contribution": "성숙이론을 체계화하고 아동발달의 규범적 이정표를 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정적 시기", "name_en": "Critical Period", "id": "DEVELOP_CRITPRD_020"},
+      {"name_ko": "기질", "name_en": "Temperament", "id": "DEVELOP_TEMPER_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성숙 = 생물학적 시계에 따라 자연스럽게 '익어가는' 과정",
+      "differential": "학습은 경험에 의한 변화이고, 성숙은 유전적 프로그램에 의한 변화이다",
+      "key_point": "성숙은 환경 자극 없이도 유전적 설계에 따라 진행되는 발달 과정이다",
+      "common_mistake": "성숙과 발달을 동일시하는 오류 — 발달은 성숙과 학습을 모두 포함하는 상위 개념이다"
+    }
+  },
+  {
+    "id": "DEVELOP_TEMPER_002",
+    "terminology": "기질 (Temperament)",
+    "terminology_ko": "기질",
+    "terminology_en": "Temperament",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "출생 시부터 나타나는 개인의 정서적 반응성과 자기조절 양식의 생물학적 기반으로, 활동수준, 정서성, 사회성 등에서의 개인차를 반영한다.",
+    "definition_en": "The biologically based individual differences in emotional reactivity and self-regulation present from birth, reflected in variations in activity level, emotionality, and sociability.",
+    "significance": "기질은 이후 성격 발달의 생물학적 토대가 되며, 양육 환경과의 상호작용(적합도 모델)을 통해 적응에 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "알렉산더 토머스", "name_en": "Alexander Thomas", "contribution": "뉴욕종단연구(NYLS)를 통해 순한 아이, 까다로운 아이, 느린 아이 세 유형을 분류하였다"},
+      {"name_ko": "스텔라 체스", "name_en": "Stella Chess", "contribution": "토머스와 함께 기질의 9개 차원과 적합도(goodness-of-fit) 모델을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착", "name_en": "Attachment", "id": "DEVELOP_ATTACH_003"},
+      {"name_ko": "성숙", "name_en": "Maturation", "id": "DEVELOP_MATURATION_001"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "순한 기질",
+        "name_en": "Easy temperament",
+        "definition": "규칙적인 생체리듬, 긍정적 정서, 새로운 상황에 대한 적응이 빠른 유형"
+      },
+      {
+        "name_ko": "까다로운 기질",
+        "name_en": "Difficult temperament",
+        "definition": "불규칙적 생체리듬, 부정적 정서, 새로운 자극에 강하게 반응하는 유형"
+      },
+      {
+        "name_ko": "느린 기질",
+        "name_en": "Slow-to-warm-up temperament",
+        "definition": "낮은 활동수준, 초기에 약한 부정적 반응을 보이나 반복 노출 후 서서히 적응하는 유형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "기질 = 태어날 때부터 가지고 나오는 성격의 '씨앗'",
+      "differential": "기질은 생물학적·선천적인 반면, 성격은 기질과 환경의 상호작용으로 형성된 후천적 산물이다",
+      "key_point": "토머스와 체스의 세 가지 기질 유형(순한, 까다로운, 느린)을 구분할 수 있어야 한다",
+      "common_mistake": "기질이 고정불변하다고 오해 — 기질은 비교적 안정적이나 환경과의 상호작용으로 조절 가능하다"
+    }
+  },
+  {
+    "id": "DEVELOP_ATTACH_003",
+    "terminology": "애착 (Attachment)",
+    "terminology_ko": "애착",
+    "terminology_en": "Attachment",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "영아와 주 양육자 사이에 형성되는 강하고 지속적인 정서적 유대로, 영아의 생존과 정서 조절에 기여하며 이후 대인관계의 내적 작동 모델을 형성한다.",
+    "definition_en": "A strong, enduring emotional bond between an infant and primary caregiver that contributes to the infant's survival and emotional regulation, forming an internal working model for later relationships.",
+    "significance": "애착의 질은 이후 정서 발달, 사회적 관계, 자아 개념 형성에 광범위한 영향을 미치며, 발달심리학의 가장 핵심적 주제 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "존 볼비", "name_en": "John Bowlby", "contribution": "애착이론을 창시하고 내적 작동 모델 개념을 제안하였다"},
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "낯선 상황 실험(Strange Situation)을 통해 애착 유형을 체계적으로 분류하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "낯가림", "name_en": "Stranger Anxiety", "id": "DEVELOP_STRANG_004"},
+      {"name_ko": "안전기지", "name_en": "Secure Base", "id": "DEVELOP_SECBASE_005"},
+      {"name_ko": "안전애착", "name_en": "Secure Attachment", "id": "DEVELOP_SECATT_021"},
+      {"name_ko": "불안정애착", "name_en": "Insecure Attachment", "id": "DEVELOP_INSATT_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "애착 = 아기가 양육자에게 '달라붙는' 정서적 끈",
+      "differential": "애착은 특정 대상에 대한 지속적 정서 유대이고, 의존은 도움이 필요한 일시적 상태이다",
+      "key_point": "볼비의 애착이론과 에인스워스의 낯선 상황 실험을 연결하여 이해해야 한다",
+      "common_mistake": "애착이 영아기에만 중요하다는 오해 — 애착은 전 생애에 걸쳐 대인관계에 영향을 미친다"
+    }
+  },
+  {
+    "id": "DEVELOP_STRANG_004",
+    "terminology": "낯가림 (Stranger Anxiety)",
+    "terminology_ko": "낯가림",
+    "terminology_en": "Stranger Anxiety",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "생후 6~8개월경 나타나는 낯선 사람에 대한 두려움과 불안 반응으로, 영아가 친숙한 양육자와 낯선 사람을 구별할 수 있게 되었음을 의미한다.",
+    "definition_en": "Fear and anxiety toward unfamiliar people that typically emerges around 6-8 months of age, indicating the infant's ability to distinguish between familiar caregivers and strangers.",
+    "significance": "낯가림은 인지 발달(재인 기억)과 애착 형성의 지표로, 정상적인 사회정서 발달의 이정표이다.",
+    "key_researchers": [
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "낯선 상황 실험에서 낯가림 반응을 애착 유형 평가에 활용하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착", "name_en": "Attachment", "id": "DEVELOP_ATTACH_003"},
+      {"name_ko": "대상영속성", "name_en": "Object Permanence", "id": "DEVELOP_OBJPER_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "낯가림 = 낯선 얼굴 → 울음 (6~8개월)",
+      "differential": "낯가림은 낯선 사람에 대한 반응이고, 분리불안은 양육자와의 분리에 대한 반응이다",
+      "key_point": "생후 6~8개월에 시작되어 12~15개월에 최고조에 달한 후 점차 감소한다",
+      "common_mistake": "낯가림을 부정적 발달 신호로 오해 — 실제로는 정상적인 인지·정서 발달의 증거이다"
+    }
+  },
+  {
+    "id": "DEVELOP_SECBASE_005",
+    "terminology": "안전기지 (Secure Base)",
+    "terminology_ko": "안전기지",
+    "terminology_en": "Secure Base",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "영아가 환경을 탐색할 때 심리적 안정감의 원천이 되는 애착 대상으로, 영아는 안전기지를 기점으로 탐색과 귀환을 반복하며 세상을 배워간다.",
+    "definition_en": "The attachment figure who serves as a source of psychological security from which the infant ventures out to explore the environment and returns to for comfort and reassurance.",
+    "significance": "안전기지 개념은 애착과 탐색 행동의 균형을 설명하며, 안정 애착이 건강한 발달의 토대가 되는 이유를 보여준다.",
+    "key_researchers": [
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "안전기지 현상을 체계적으로 관찰·기술하고 애착 이론에 통합하였다"},
+      {"name_ko": "존 볼비", "name_en": "John Bowlby", "contribution": "애착 대상이 안전기지 역할을 한다는 이론적 틀을 제공하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착", "name_en": "Attachment", "id": "DEVELOP_ATTACH_003"},
+      {"name_ko": "안전애착", "name_en": "Secure Attachment", "id": "DEVELOP_SECATT_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "안전기지 = 엄마라는 '베이스캠프'에서 출발해 세상 탐험",
+      "differential": "안전기지는 양육자의 기능적 역할이고, 애착은 아이와 양육자 간의 관계적 유대이다",
+      "key_point": "안정 애착 영아만이 양육자를 효과적인 안전기지로 활용하여 적극적 탐색 행동을 보인다",
+      "common_mistake": "안전기지가 물리적 장소를 뜻한다는 오해 — 사람(애착 대상)이 안전기지이다"
+    }
+  },
+  {
+    "id": "DEVELOP_SCHEMA_006",
+    "terminology": "도식 (Schema)",
+    "terminology_ko": "도식",
+    "terminology_en": "Schema",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "피아제 이론에서 세상을 이해하고 상호작용하기 위해 사용하는 정신적 구조 또는 틀로, 경험을 조직하고 해석하는 데 사용된다.",
+    "definition_en": "In Piaget's theory, a mental structure or framework used to organize and interpret experiences, serving as the building blocks of intellectual development.",
+    "significance": "도식은 피아제 인지발달이론의 기본 단위로, 동화와 조절을 통한 인지 발달 과정을 이해하는 출발점이다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "도식 개념을 제안하고 이를 인지발달이론의 핵심 구성 요소로 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "동화", "name_en": "Assimilation", "id": "DEVELOP_ASSIM_007"},
+      {"name_ko": "조절", "name_en": "Accommodation", "id": "DEVELOP_ACCOM_008"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "행동 도식",
+        "name_en": "Behavioral schema",
+        "definition": "감각운동기에 주로 사용되는 행동 패턴 기반의 도식(예: 빨기, 잡기)"
+      },
+      {
+        "name_ko": "인지 도식",
+        "name_en": "Cognitive schema",
+        "definition": "전조작기 이후 발달하는 개념적·상징적 사고의 틀"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "도식 = 세상을 이해하는 '정신적 서랍장' — 새 경험을 기존 서랍에 넣거나(동화), 서랍을 고치거나(조절)",
+      "differential": "도식은 정적인 지식 구조이고, 동화·조절은 도식이 변화하는 동적 과정이다",
+      "key_point": "피아제의 도식은 감각운동적 행동에서 시작해 점차 추상적·개념적 표상으로 발달한다",
+      "common_mistake": "도식을 단순한 '개념'과 혼동 — 도식은 행동 패턴부터 추상적 사고까지 포괄하는 조직화된 정신 구조이다"
+    }
+  },
+  {
+    "id": "DEVELOP_ASSIM_007",
+    "terminology": "동화 (Assimilation)",
+    "terminology_ko": "동화",
+    "terminology_en": "Assimilation",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "새로운 경험이나 정보를 기존의 도식에 맞추어 해석하고 통합하는 인지 과정으로, 기존 인지 구조를 변경하지 않고 새 정보를 흡수한다.",
+    "definition_en": "The cognitive process of interpreting and incorporating new experiences or information into existing schemas without modifying the current cognitive structure.",
+    "significance": "동화는 인지적 안정성을 유지하는 기능을 하며, 조절과 함께 인지 발달의 두 가지 핵심 적응 기제를 구성한다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "동화와 조절의 균형(평형화)을 통한 인지 발달 모델을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "도식", "name_en": "Schema", "id": "DEVELOP_SCHEMA_006"},
+      {"name_ko": "조절", "name_en": "Accommodation", "id": "DEVELOP_ACCOM_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "동화 = '네 모양 블록'을 기존 '네모 구멍'에 끼워 넣기",
+      "differential": "동화는 기존 도식에 맞추는 것이고, 조절은 도식 자체를 바꾸는 것이다",
+      "key_point": "아이가 처음 본 동물을 모두 '멍멍이'라 부르는 것이 동화의 전형적 예시이다",
+      "common_mistake": "동화와 조절을 순차적 과정으로 오해 — 두 과정은 동시에 일어나며 서로 보완적이다"
+    }
+  },
+  {
+    "id": "DEVELOP_ACCOM_008",
+    "terminology": "조절 (Accommodation)",
+    "terminology_ko": "조절",
+    "terminology_en": "Accommodation",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "기존 도식으로는 새로운 경험을 설명할 수 없을 때, 도식을 수정하거나 새로운 도식을 만들어 적응하는 인지 과정이다.",
+    "definition_en": "The cognitive process of modifying existing schemas or creating new ones when existing schemas cannot adequately explain new experiences.",
+    "significance": "조절은 인지 구조의 질적 변화를 이끌며, 동화와의 균형(평형화)이 인지 발달의 원동력이 된다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "조절을 인지 발달의 핵심 적응 기제로 설명하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "도식", "name_en": "Schema", "id": "DEVELOP_SCHEMA_006"},
+      {"name_ko": "동화", "name_en": "Assimilation", "id": "DEVELOP_ASSIM_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조절 = 새 열쇠에 맞게 '자물쇠(도식)를 바꾸는' 과정",
+      "differential": "동화는 새 정보를 기존 틀에 맞추고, 조절은 틀 자체를 새 정보에 맞게 변형한다",
+      "key_point": "고양이를 처음 보고 '멍멍이'라 불렀다가(동화), 나중에 '고양이'라는 새 범주를 만드는 것(조절)이 전형적 예시이다",
+      "common_mistake": "조절을 단순 수정으로 이해 — 조절은 기존 도식의 근본적 재구조화나 새 도식 생성을 포함한다"
+    }
+  },
+  {
+    "id": "DEVELOP_SENSMO_009",
+    "terminology": "감각운동기 (Sensorimotor Stage)",
+    "terminology_ko": "감각운동기",
+    "terminology_en": "Sensorimotor Stage",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "피아제 인지발달의 첫 단계(출생~2세)로, 영아가 감각 경험과 운동 활동을 통해 세상을 이해하며, 이 시기 말에 대상영속성과 표상적 사고가 출현한다.",
+    "definition_en": "The first stage of Piaget's cognitive development (birth to age 2), during which infants understand the world through sensory experiences and motor actions, culminating in the emergence of object permanence and representational thought.",
+    "significance": "감각운동기는 이후 모든 인지 발달의 토대가 되며, 영아가 반사적 행동에서 의도적·상징적 사고로 전환하는 과정을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "자신의 세 자녀에 대한 체계적 관찰을 통해 감각운동기의 6개 하위 단계를 기술하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대상영속성", "name_en": "Object Permanence", "id": "DEVELOP_OBJPER_013"},
+      {"name_ko": "전조작기", "name_en": "Preoperational Stage", "id": "DEVELOP_PREOP_010"},
+      {"name_ko": "도식", "name_en": "Schema", "id": "DEVELOP_SCHEMA_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "감각운동기 = 0~2세, 감각(보고 듣고) + 운동(만지고 빨고)으로 세상을 배우는 시기",
+      "differential": "감각운동기는 감각·운동적 경험에 의존하고, 전조작기는 상징적 표상을 사용한다",
+      "key_point": "감각운동기의 핵심 성취는 대상영속성의 획득이다",
+      "common_mistake": "감각운동기의 영아를 완전히 수동적 존재로 오해 — 영아는 능동적으로 환경을 탐색한다"
+    }
+  },
+  {
+    "id": "DEVELOP_PREOP_010",
+    "terminology": "전조작기 (Preoperational Stage)",
+    "terminology_ko": "전조작기",
+    "terminology_en": "Preoperational Stage",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "피아제 인지발달의 두 번째 단계(2~7세)로, 상징적 사고와 언어가 급격히 발달하지만, 논리적 조작 능력이 아직 형성되지 않아 자기중심성과 보존개념 실패 등의 특성을 보인다.",
+    "definition_en": "The second stage of Piaget's cognitive development (ages 2-7), characterized by rapid growth in symbolic thought and language, but limited by egocentrism, lack of conservation, and inability to perform logical operations.",
+    "significance": "전조작기는 상징적 표상 능력의 출현과 논리적 사고의 한계를 동시에 보여주며, 아동의 사고가 질적으로 성인과 다름을 입증한다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "전조작기 아동의 사고 특성(자기중심성, 물활론, 비가역성 등)을 체계적으로 규명하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자기중심성", "name_en": "Egocentrism", "id": "DEVELOP_EGOCEN_015"},
+      {"name_ko": "보존개념", "name_en": "Conservation", "id": "DEVELOP_CONSERV_014"},
+      {"name_ko": "감각운동기", "name_en": "Sensorimotor Stage", "id": "DEVELOP_SENSMO_009"},
+      {"name_ko": "구체적 조작기", "name_en": "Concrete Operational Stage", "id": "DEVELOP_CONCOP_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "전개념적 사고기",
+        "name_en": "Preconceptual thought",
+        "definition": "2~4세, 상징 기능이 출현하나 개념이 불완전하여 물활론, 인공론적 사고를 보인다"
+      },
+      {
+        "name_ko": "직관적 사고기",
+        "name_en": "Intuitive thought",
+        "definition": "4~7세, 논리가 아닌 직관에 의존하며 겉보기에 따라 판단한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "전조작기 = 2~7세, 말은 하지만 '논리(조작)'가 아직 '전(前)' 단계",
+      "differential": "전조작기는 상징적 사고는 가능하나 논리적 조작이 불가하고, 구체적 조작기는 구체적 사물에 대해 논리적 사고가 가능하다",
+      "key_point": "자기중심성, 물활론, 보존개념 실패가 이 시기의 핵심 특성이다",
+      "common_mistake": "'전조작기'의 '전'을 '이전에 조작을 했다'로 오해 — '조작 이전' 즉 아직 논리적 조작이 불가능한 단계라는 뜻이다"
+    }
+  },
+  {
+    "id": "DEVELOP_CONCOP_011",
+    "terminology": "구체적 조작기 (Concrete Operational Stage)",
+    "terminology_ko": "구체적 조작기",
+    "terminology_en": "Concrete Operational Stage",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "피아제 인지발달의 세 번째 단계(7~11세)로, 구체적이고 실제적인 대상에 대해 논리적 사고(보존, 분류, 서열화)가 가능해지지만, 추상적·가설적 사고는 아직 어렵다.",
+    "definition_en": "The third stage of Piaget's cognitive development (ages 7-11), in which children can think logically about concrete objects and events (conservation, classification, seriation) but struggle with abstract and hypothetical reasoning.",
+    "significance": "구체적 조작기는 아동이 직관적 사고에서 논리적 사고로 전환하는 결정적 시기이며, 학교 교육의 기초가 되는 인지 능력이 형성된다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "구체적 조작기의 핵심 인지 능력인 보존, 분류, 서열화 과제를 고안하여 이 단계의 특성을 밝혔다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "보존개념", "name_en": "Conservation", "id": "DEVELOP_CONSERV_014"},
+      {"name_ko": "전조작기", "name_en": "Preoperational Stage", "id": "DEVELOP_PREOP_010"},
+      {"name_ko": "형식적 조작기", "name_en": "Formal Operational Stage", "id": "DEVELOP_FORMOP_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구체적 조작기 = 7~11세, 눈앞에 '구체적'으로 있는 것에 대해서만 논리적 사고 가능",
+      "differential": "구체적 조작기는 실제 사물에 대한 논리가 가능하고, 형식적 조작기는 추상적·가설적 사고까지 가능하다",
+      "key_point": "보존개념의 획득, 분류와 서열화 능력의 발달이 이 시기의 핵심이다",
+      "common_mistake": "구체적 조작기 아동이 모든 논리적 사고가 가능하다고 오해 — 추상적·가설적 사고는 형식적 조작기에서야 가능하다"
+    }
+  },
+  {
+    "id": "DEVELOP_FORMOP_012",
+    "terminology": "형식적 조작기 (Formal Operational Stage)",
+    "terminology_ko": "형식적 조작기",
+    "terminology_en": "Formal Operational Stage",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "피아제 인지발달의 네 번째이자 마지막 단계(11세 이후)로, 추상적·가설적·체계적 사고가 가능해지며, 가설-연역적 추론과 명제적 사고가 나타난다.",
+    "definition_en": "The fourth and final stage of Piaget's cognitive development (age 11 onward), characterized by the ability to think abstractly, hypothetically, and systematically, including hypothetico-deductive reasoning and propositional thought.",
+    "significance": "형식적 조작기는 과학적 사고와 도덕적 추론 등 고차원 인지 능력의 토대가 되며, 청소년기 인지 발달의 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "형식적 조작기의 가설-연역적 추론 능력을 진자 과제 등으로 실험적으로 입증하였다"},
+      {"name_ko": "바벨 인헬더", "name_en": "Bärbel Inhelder", "contribution": "피아제와 함께 형식적 조작적 사고의 발달을 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구체적 조작기", "name_en": "Concrete Operational Stage", "id": "DEVELOP_CONCOP_011"},
+      {"name_ko": "청소년기 정체성 위기", "name_en": "Adolescent Identity Crisis", "id": "DEVELOP_IDCRISIS_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "형식적 조작기 = 11세+, 눈에 안 보이는 것도 논리적으로 생각 가능 ('만약에~라면' 사고)",
+      "differential": "구체적 조작기는 실제 사물에 국한되나, 형식적 조작기는 추상적·가설적 상황까지 논리적 사고 가능",
+      "key_point": "가설-연역적 추론과 체계적 문제 해결이 이 단계의 핵심 능력이다",
+      "common_mistake": "모든 성인이 형식적 조작에 도달한다는 오해 — 문화적·교육적 요인에 따라 도달하지 못하는 경우도 많다"
+    }
+  },
+  {
+    "id": "DEVELOP_OBJPER_013",
+    "terminology": "대상영속성 (Object Permanence)",
+    "terminology_ko": "대상영속성",
+    "terminology_en": "Object Permanence",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "물체가 시야에서 사라져도 계속 존재한다는 것을 이해하는 인지 능력으로, 피아제에 의하면 감각운동기(약 8~12개월) 동안 점진적으로 획득된다.",
+    "definition_en": "The cognitive understanding that objects continue to exist even when they are out of sight, gradually acquired during the sensorimotor stage (around 8-12 months) according to Piaget.",
+    "significance": "대상영속성은 표상적 사고의 시작을 알리는 중요한 인지적 이정표이며, 이후 상징 놀이와 언어 발달의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "대상영속성 개념을 제안하고 숨기기 과제를 통해 발달 단계를 밝혔다"},
+      {"name_ko": "르네 바이야르종", "name_en": "Renée Baillargeon", "contribution": "기대위반 패러다임을 사용하여 피아제보다 이른 시기에 대상영속성이 나타남을 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "감각운동기", "name_en": "Sensorimotor Stage", "id": "DEVELOP_SENSMO_009"},
+      {"name_ko": "낯가림", "name_en": "Stranger Anxiety", "id": "DEVELOP_STRANG_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대상영속성 = 까꿍 놀이! 엄마 얼굴이 가려져도 엄마가 없어진 게 아니라는 것을 아는 것",
+      "differential": "대상영속성은 물체의 존재에 대한 인지이고, 보존개념은 물체의 속성 불변에 대한 인지이다",
+      "key_point": "피아제는 8~12개월이라 했지만, 바이야르종의 연구에 의하면 3.5~5개월에도 원초적 형태가 존재한다",
+      "common_mistake": "대상영속성이 한 번에 완전히 획득된다는 오해 — 여러 하위 단계를 거쳐 점진적으로 완성된다"
+    }
+  },
+  {
+    "id": "DEVELOP_CONSERV_014",
+    "terminology": "보존개념 (Conservation)",
+    "terminology_ko": "보존개념",
+    "terminology_en": "Conservation",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "물체의 외형이 변해도 그 양, 수, 부피, 무게 등 본질적 속성은 변하지 않는다는 것을 이해하는 인지 능력으로, 구체적 조작기(7세 이후)에 획득된다.",
+    "definition_en": "The cognitive understanding that certain properties of objects (quantity, number, volume, weight) remain unchanged despite changes in their appearance, acquired during the concrete operational stage (after age 7).",
+    "significance": "보존개념의 획득은 아동의 사고가 지각적 특성에 좌우되는 직관적 단계를 벗어나 논리적 사고 단계로 진입했음을 나타낸다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "보존 과제(액체, 수, 무게 등)를 고안하여 인지 발달 단계를 실험적으로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구체적 조작기", "name_en": "Concrete Operational Stage", "id": "DEVELOP_CONCOP_011"},
+      {"name_ko": "전조작기", "name_en": "Preoperational Stage", "id": "DEVELOP_PREOP_010"},
+      {"name_ko": "자기중심성", "name_en": "Egocentrism", "id": "DEVELOP_EGOCEN_015"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "수 보존",
+        "name_en": "Number conservation",
+        "definition": "배열이 달라져도 수가 변하지 않음을 이해하는 것 (약 6~7세)"
+      },
+      {
+        "name_ko": "액체량 보존",
+        "name_en": "Liquid conservation",
+        "definition": "용기 모양이 바뀌어도 액체의 양이 변하지 않음을 이해하는 것 (약 7~8세)"
+      },
+      {
+        "name_ko": "무게 보존",
+        "name_en": "Weight conservation",
+        "definition": "형태가 변해도 무게가 변하지 않음을 이해하는 것 (약 9~10세)"
+      },
+      {
+        "name_ko": "부피 보존",
+        "name_en": "Volume conservation",
+        "definition": "형태가 변해도 부피가 변하지 않음을 이해하는 것 (약 11~12세)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "보존 = 같은 양의 물을 얇은 컵에 부어도 양은 '보존'된다!",
+      "differential": "보존개념은 속성의 불변에 대한 이해이고, 대상영속성은 물체 존재의 지속에 대한 이해이다",
+      "key_point": "보존개념은 한꺼번에 획득되지 않고 수→액체량→무게→부피 순서로 점진적으로 획득된다(수평적 격차)",
+      "common_mistake": "보존개념을 하나의 단일 능력으로 이해 — 실제로는 영역별로 다른 시기에 획득된다(수평적 격차)"
+    }
+  },
+  {
+    "id": "DEVELOP_EGOCEN_015",
+    "terminology": "자기중심성 (Egocentrism)",
+    "terminology_ko": "자기중심성",
+    "terminology_en": "Egocentrism",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "자신의 관점에서만 세상을 이해하고 다른 사람의 관점을 취하지 못하는 인지적 한계로, 피아제의 전조작기(2~7세) 아동에게서 두드러지게 나타난다.",
+    "definition_en": "The cognitive limitation of understanding the world only from one's own perspective and being unable to take another's viewpoint, particularly prominent in Piaget's preoperational stage (ages 2-7).",
+    "significance": "자기중심성은 전조작기 사고의 핵심적 한계를 보여주며, 이 한계의 극복이 이후 사회인지 발달(마음이론 등)의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "세 산 모형 과제(three-mountain task)를 통해 전조작기 아동의 자기중심성을 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전조작기", "name_en": "Preoperational Stage", "id": "DEVELOP_PREOP_010"},
+      {"name_ko": "마음이론", "name_en": "Theory of Mind", "id": "DEVELOP_TOM_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기중심성 = 아이가 전화로 '이거 봐!'라며 장난감을 보여주는 것 — 상대방이 못 본다는 걸 모름",
+      "differential": "자기중심성은 인지적 한계이지 이기적(selfish)이라는 도덕적 판단이 아니다",
+      "key_point": "피아제의 세 산 과제: 아동은 산 모형의 다른 쪽에서 보는 사람도 자신과 같은 장면을 본다고 답한다",
+      "common_mistake": "자기중심성을 '이기심'과 혼동 — 자기중심성은 타인의 시각을 취하는 인지 능력의 부재이지 도덕적 결함이 아니다"
+    }
+  },
+  {
+    "id": "DEVELOP_TOM_016",
+    "terminology": "마음이론 (Theory of Mind)",
+    "terminology_ko": "마음이론",
+    "terminology_en": "Theory of Mind",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "타인이 자신과는 다른 믿음, 의도, 감정, 지식을 가질 수 있음을 이해하는 인지 능력으로, 일반적으로 4~5세경에 발달한다.",
+    "definition_en": "The cognitive ability to understand that others may have beliefs, intentions, emotions, and knowledge different from one's own, typically developing around ages 4-5.",
+    "significance": "마음이론은 사회적 상호작용, 공감, 속임, 의사소통의 기초가 되며, 자폐스펙트럼장애의 핵심 결함으로 알려져 심리학과 발달정신병리학에서 중요하다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 프리맥", "name_en": "David Premack", "contribution": "침팬지 연구를 통해 '마음이론'이라는 용어를 최초로 사용하였다"},
+      {"name_ko": "가이 우드러프", "name_en": "Guy Woodruff", "contribution": "프리맥과 함께 마음이론 개념을 학계에 도입하였다"},
+      {"name_ko": "하인츠 비머", "name_en": "Heinz Wimmer", "contribution": "틀린 믿음 과제(false belief task)를 개발하여 마음이론의 발달을 실험적으로 검증하였다"},
+      {"name_ko": "요제프 퍼너", "name_en": "Josef Perner", "contribution": "비머와 함께 틀린 믿음 과제를 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자기중심성", "name_en": "Egocentrism", "id": "DEVELOP_EGOCEN_015"},
+      {"name_ko": "전조작기", "name_en": "Preoperational Stage", "id": "DEVELOP_PREOP_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "마음이론 = 틀린 믿음 과제 — '샐리가 공이 바구니에 있다고 생각할까, 상자에 있다고 생각할까?'",
+      "differential": "자기중심성은 타인 관점 이해의 실패이고, 마음이론은 타인의 정신 상태를 추론하는 능력이다",
+      "key_point": "틀린 믿음 과제(Sally-Anne task)를 통과하면 마음이론이 발달한 것으로 본다(약 4~5세)",
+      "common_mistake": "마음이론을 단일 능력으로 이해 — 실제로는 1차(타인의 믿음), 2차(타인이 제3자의 믿음에 대해 아는 것) 등 수준이 있다"
+    }
+  },
+  {
+    "id": "DEVELOP_ZPD_017",
+    "terminology": "근접발달영역 (Zone of Proximal Development, ZPD)",
+    "terminology_ko": "근접발달영역",
+    "terminology_en": "Zone of Proximal Development",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "아동이 혼자서는 해결할 수 없지만 성인이나 유능한 또래의 도움을 받으면 해결할 수 있는 과제의 범위로, 실제 발달 수준과 잠재적 발달 수준 사이의 영역이다.",
+    "definition_en": "The range of tasks that a child cannot yet perform independently but can accomplish with guidance from a more knowledgeable other, representing the gap between actual and potential developmental levels.",
+    "significance": "ZPD는 교육과 발달의 관계를 재정의하였으며, 교육이 발달을 이끌어야 한다는 비고츠키의 핵심 주장을 뒷받침한다. 비계(scaffolding) 교수법의 이론적 근거이다.",
+    "key_researchers": [
+      {"name_ko": "레프 비고츠키", "name_en": "Lev Vygotsky", "contribution": "근접발달영역 개념을 제안하여 사회적 상호작용이 인지 발달에 필수적임을 주장하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "도식", "name_en": "Schema", "id": "DEVELOP_SCHEMA_006"},
+      {"name_ko": "형식적 조작기", "name_en": "Formal Operational Stage", "id": "DEVELOP_FORMOP_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ZPD = 혼자는 못 하지만 '도움 받으면 할 수 있는' 영역 (비계 = 건물 짓는 임시 구조물처럼 도움을 제공)",
+      "differential": "ZPD는 비고츠키의 사회문화적 이론이고, 피아제의 인지발달 단계론은 개인의 내적 구성을 강조한다",
+      "key_point": "비고츠키는 교육이 발달을 '이끌어야' 한다고 주장하며, ZPD 내에서의 교수가 가장 효과적이라고 보았다",
+      "common_mistake": "ZPD를 고정된 영역으로 오해 — ZPD는 아동의 발달에 따라 계속 변화하는 동적 영역이다"
+    }
+  },
+  {
+    "id": "DEVELOP_IDENT_018",
+    "terminology": "정체성 (Identity)",
+    "terminology_ko": "정체성",
+    "terminology_en": "Identity",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "자기 자신에 대한 일관되고 통합된 감각으로, '나는 누구인가'에 대한 답을 포함하며, 에릭슨에 의하면 청소년기의 핵심 발달 과제이다.",
+    "definition_en": "A coherent and integrated sense of self, encompassing the answer to 'Who am I?', identified by Erikson as the central developmental task of adolescence.",
+    "significance": "정체성 형성은 이후 성인기의 친밀한 관계, 직업 선택, 가치관 확립의 기초가 되며, 정체성 혼란은 심리적 부적응의 원인이 될 수 있다.",
+    "key_researchers": [
+      {"name_ko": "에릭 에릭슨", "name_en": "Erik Erikson", "contribution": "정체성 대 역할 혼란(Identity vs. Role Confusion)을 청소년기의 핵심 심리사회적 위기로 제안하였다"},
+      {"name_ko": "제임스 마르시아", "name_en": "James Marcia", "contribution": "정체성 지위 이론(identity status theory)을 통해 정체성 형성의 네 가지 상태를 분류하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "에릭슨의 심리사회적 발달단계", "name_en": "Erikson's Psychosocial Stages", "id": "DEVELOP_ERIKSON_023"},
+      {"name_ko": "청소년기 정체성 위기", "name_en": "Adolescent Identity Crisis", "id": "DEVELOP_IDCRISIS_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정체성 = 청소년기 핵심 질문 '나는 누구인가?'에 대한 답 찾기",
+      "differential": "정체성은 자기 인식의 통합체이고, 자아개념(self-concept)은 자신에 대한 인지적 이해이다",
+      "key_point": "마르시아의 4가지 정체성 지위: 정체성 성취, 유예, 유실, 혼미를 구분할 수 있어야 한다",
+      "common_mistake": "정체성이 청소년기에 완성된다는 오해 — 정체성은 전 생애에 걸쳐 재구성될 수 있다"
+    }
+  },
+  {
+    "id": "DEVELOP_MORAL_019",
+    "terminology": "도덕발달 (Moral Development)",
+    "terminology_ko": "도덕발달",
+    "terminology_en": "Moral Development",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "옳고 그름에 대한 판단 능력과 도덕적 행동이 발달하는 과정으로, 콜버그는 전인습, 인습, 후인습의 세 수준으로 이를 체계화하였다.",
+    "definition_en": "The process through which the ability to judge right from wrong and engage in moral behavior develops, systematized by Kohlberg into three levels: preconventional, conventional, and postconventional.",
+    "significance": "도덕발달 이론은 교육, 법, 윤리 분야에 광범위한 영향을 미쳤으며, 인지 발달과 도덕적 추론의 관계를 밝히는 데 기여하였다.",
+    "key_researchers": [
+      {"name_ko": "로렌스 콜버그", "name_en": "Lawrence Kohlberg", "contribution": "하인츠 딜레마를 사용하여 도덕 추론의 세 수준 여섯 단계 이론을 제안하였다"},
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "타율적 도덕성에서 자율적 도덕성으로의 발달을 처음 기술하였다"},
+      {"name_ko": "캐럴 길리건", "name_en": "Carol Gilligan", "contribution": "콜버그의 이론이 남성 중심적임을 비판하고 돌봄의 윤리(ethics of care)를 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전인습적 도덕", "name_en": "Preconventional Morality", "id": "DEVELOP_PRECONV_024"},
+      {"name_ko": "인습적 도덕", "name_en": "Conventional Morality", "id": "DEVELOP_CONV_025"},
+      {"name_ko": "후인습적 도덕", "name_en": "Postconventional Morality", "id": "DEVELOP_POSTCONV_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도덕발달 = 콜버그의 하인츠 딜레마 — '약을 훔쳐야 할까?'에 대한 추론 수준의 변화",
+      "differential": "피아제는 도덕 판단의 2단계(타율→자율)를, 콜버그는 3수준 6단계를 제안하였다",
+      "key_point": "콜버그의 이론은 '무엇을' 결정했느냐가 아니라 '왜' 그렇게 결정했느냐(추론 과정)에 초점을 둔다",
+      "common_mistake": "도덕 발달 단계를 연령에 엄격히 대응시키는 오류 — 콜버그는 단계의 순서는 불변이나 연령은 가변적이라고 하였다"
+    }
+  },
+  {
+    "id": "DEVELOP_CRITPRD_020",
+    "terminology": "결정적 시기 (Critical Period)",
+    "terminology_ko": "결정적 시기",
+    "terminology_en": "Critical Period",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "특정 발달이 이루어지기 위해 적절한 환경 자극이 반드시 주어져야 하는 제한된 시간 창으로, 이 시기를 놓치면 해당 발달이 이루어지기 극히 어렵다.",
+    "definition_en": "A limited time window during which appropriate environmental stimulation must be provided for specific development to occur; if this period is missed, the development becomes extremely difficult to achieve.",
+    "significance": "결정적 시기 개념은 언어 습득, 시각 발달, 애착 형성 등에서 환경 자극의 시기적 중요성을 강조하며, 조기 개입의 이론적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "콘라트 로렌츠", "name_en": "Konrad Lorenz", "contribution": "거위의 각인(imprinting) 현상을 통해 결정적 시기의 존재를 처음 입증하였다"},
+      {"name_ko": "에릭 레너버그", "name_en": "Eric Lenneberg", "contribution": "언어 습득의 결정적 시기 가설을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "성숙", "name_en": "Maturation", "id": "DEVELOP_MATURATION_001"},
+      {"name_ko": "애착", "name_en": "Attachment", "id": "DEVELOP_ATTACH_003"},
+      {"name_ko": "태내기 위험요인", "name_en": "Teratogen", "id": "DEVELOP_TERATO_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "결정적 시기 = 열차가 지나가는 '시간표' — 놓치면 다음 열차가 없다",
+      "differential": "결정적 시기(critical period)는 절대적 제한을, 민감기(sensitive period)는 최적이지만 유연한 시기를 의미한다",
+      "key_point": "로렌츠의 각인 연구와 레너버그의 언어 습득 결정적 시기 가설이 대표적 사례이다",
+      "common_mistake": "결정적 시기와 민감기(sensitive period)를 혼동 — 민감기는 더 유연하여 시기를 놓쳐도 부분적 발달이 가능하다"
+    }
+  },
+  {
+    "id": "DEVELOP_SECATT_021",
+    "terminology": "안전애착 (Secure Attachment)",
+    "terminology_ko": "안전애착",
+    "terminology_en": "Secure Attachment",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "에인스워스의 낯선 상황 실험에서 분류된 애착 유형으로, 양육자를 안전기지로 활용하여 적극적으로 탐색하며, 분리 시 적절한 불안을 보이고 재회 시 쉽게 안정을 되찾는 유형이다.",
+    "definition_en": "An attachment pattern classified through Ainsworth's Strange Situation, in which the child uses the caregiver as a secure base for exploration, shows appropriate distress upon separation, and is easily comforted upon reunion.",
+    "significance": "안전애착은 가장 적응적인 애착 유형으로, 이후 높은 자존감, 긍정적 또래관계, 효과적 정서 조절과 연관된다.",
+    "key_researchers": [
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "낯선 상황 실험을 통해 안전애착(B유형)을 포함한 애착 유형 체계를 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착", "name_en": "Attachment", "id": "DEVELOP_ATTACH_003"},
+      {"name_ko": "불안정애착", "name_en": "Insecure Attachment", "id": "DEVELOP_INSATT_022"},
+      {"name_ko": "안전기지", "name_en": "Secure Base", "id": "DEVELOP_SECBASE_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "안전애착 = 엄마가 '안전한 기지' → 떨어지면 울지만 다시 만나면 금방 안정",
+      "differential": "안전애착은 분리-재회 시 적절한 반응을 보이고, 불안정애착은 과도하거나 부족한 반응을 보인다",
+      "key_point": "안전애착 아동의 양육자는 일관되고 민감한 반응성(sensitive responsiveness)을 보인다",
+      "common_mistake": "안전애착 아동은 분리 시 전혀 울지 않는다는 오해 — 적절한 분리 불안을 보이는 것이 정상이다"
+    }
+  },
+  {
+    "id": "DEVELOP_INSATT_022",
+    "terminology": "불안정애착 (Insecure Attachment)",
+    "terminology_ko": "불안정애착",
+    "terminology_en": "Insecure Attachment",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "에인스워스의 낯선 상황 실험에서 안전애착이 형성되지 않은 유형으로, 회피형, 저항/양가형, 혼란형(후에 추가)으로 구분되며, 양육자의 비일관적이거나 부적절한 반응과 관련된다.",
+    "definition_en": "Attachment patterns classified in Ainsworth's Strange Situation where secure attachment is not formed, including avoidant, resistant/ambivalent, and disorganized types (added later), associated with inconsistent or inappropriate caregiver responsiveness.",
+    "significance": "불안정애착은 이후 정서 조절 어려움, 대인관계 문제, 정신건강 취약성과 연관되며, 조기 개입의 필요성을 알리는 중요한 위험 요인이다.",
+    "key_researchers": [
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "회피형(A유형)과 저항/양가형(C유형)을 분류하였다"},
+      {"name_ko": "메리 메인", "name_en": "Mary Main", "contribution": "혼란형(D유형) 애착을 추가로 분류하고 성인 애착 면접(AAI)을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착", "name_en": "Attachment", "id": "DEVELOP_ATTACH_003"},
+      {"name_ko": "안전애착", "name_en": "Secure Attachment", "id": "DEVELOP_SECATT_021"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "회피형 애착",
+        "name_en": "Avoidant attachment (Type A)",
+        "definition": "분리 시 무관심하고 재회 시 양육자를 회피하는 유형"
+      },
+      {
+        "name_ko": "저항/양가형 애착",
+        "name_en": "Resistant/Ambivalent attachment (Type C)",
+        "definition": "분리 시 극도의 불안을 보이고 재회 시 접근과 저항을 동시에 나타내는 유형"
+      },
+      {
+        "name_ko": "혼란형 애착",
+        "name_en": "Disorganized attachment (Type D)",
+        "definition": "일관된 대처 전략이 없이 혼란스럽고 모순적인 행동을 보이는 유형, 학대·방임과 관련"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "불안정 = 회피(무관심), 저항(매달림+밀침), 혼란(갈팡질팡) — A, C, D 유형",
+      "differential": "회피형은 양육자에게 무관심, 저항형은 과도한 매달림, 혼란형은 비일관적 행동이 특징이다",
+      "key_point": "각 유형의 양육 특성: 회피형 — 거부적 양육, 저항형 — 비일관적 양육, 혼란형 — 학대/공포 유발",
+      "common_mistake": "불안정애착을 병리적 상태로 단정 — 불안정애착은 위험 요인이지 그 자체가 정신장애는 아니다"
+    }
+  },
+  {
+    "id": "DEVELOP_ERIKSON_023",
+    "terminology": "에릭슨의 심리사회적 발달단계 (Erikson's Psychosocial Stages)",
+    "terminology_ko": "에릭슨의 심리사회적 발달단계",
+    "terminology_en": "Erikson's Psychosocial Stages",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "에릭 에릭슨이 제안한 전 생애에 걸친 8단계의 심리사회적 발달 이론으로, 각 단계마다 고유한 위기(crisis)가 있으며 이를 성공적으로 해결하면 긍정적 자아 특질이 형성된다.",
+    "definition_en": "Erik Erikson's theory of eight psychosocial stages spanning the entire lifespan, each presenting a unique crisis whose successful resolution leads to the development of a positive ego quality.",
+    "significance": "에릭슨의 이론은 프로이트의 정신성적 발달이론을 전 생애로 확장하고, 사회적 맥락의 중요성을 강조한 최초의 전생애 발달 이론이다.",
+    "key_researchers": [
+      {"name_ko": "에릭 에릭슨", "name_en": "Erik Erikson", "contribution": "8단계 심리사회적 발달이론을 제안하고 정체성, 생성감 등의 핵심 개념을 도입하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정체성", "name_en": "Identity", "id": "DEVELOP_IDENT_018"},
+      {"name_ko": "청소년기 정체성 위기", "name_en": "Adolescent Identity Crisis", "id": "DEVELOP_IDCRISIS_029"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "1단계: 신뢰 대 불신 (영아기)",
+        "name_en": "Trust vs. Mistrust (Infancy)",
+        "definition": "양육자의 일관된 돌봄을 통해 세상에 대한 기본적 신뢰감을 형성하는 단계"
+      },
+      {
+        "name_ko": "2단계: 자율성 대 수치심 (유아기)",
+        "name_en": "Autonomy vs. Shame & Doubt (Early Childhood)",
+        "definition": "자기 통제와 독립심을 발달시키는 단계"
+      },
+      {
+        "name_ko": "3단계: 주도성 대 죄책감 (학령전기)",
+        "name_en": "Initiative vs. Guilt (Preschool Age)",
+        "definition": "목적 지향적 행동을 주도적으로 시작하는 능력을 발달시키는 단계"
+      },
+      {
+        "name_ko": "4단계: 근면성 대 열등감 (학령기)",
+        "name_en": "Industry vs. Inferiority (School Age)",
+        "definition": "학교와 사회에서 유능감을 개발하는 단계"
+      },
+      {
+        "name_ko": "5단계: 정체성 대 역할 혼란 (청소년기)",
+        "name_en": "Identity vs. Role Confusion (Adolescence)",
+        "definition": "자아 정체성을 확립하는 핵심적 단계"
+      },
+      {
+        "name_ko": "6단계: 친밀성 대 고립 (성인 초기)",
+        "name_en": "Intimacy vs. Isolation (Young Adulthood)",
+        "definition": "깊은 대인관계와 친밀한 유대를 형성하는 단계"
+      },
+      {
+        "name_ko": "7단계: 생성감 대 침체 (성인 중기)",
+        "name_en": "Generativity vs. Stagnation (Middle Adulthood)",
+        "definition": "다음 세대를 양육하고 사회에 기여하는 단계"
+      },
+      {
+        "name_ko": "8단계: 자아 통합 대 절망 (노년기)",
+        "name_en": "Ego Integrity vs. Despair (Late Adulthood)",
+        "definition": "삶을 돌아보며 의미와 만족감을 찾는 단계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "신자주근 정친생통 — 신뢰, 자율, 주도, 근면, 정체성, 친밀, 생성, 통합",
+      "differential": "프로이트는 성적 에너지(리비도) 중심의 아동기 5단계, 에릭슨은 사회적 위기 중심의 전생애 8단계",
+      "key_point": "각 단계의 위기는 긍정적/부정적 극 사이의 갈등이며, 건강한 발달은 양극의 균형된 해결이다",
+      "common_mistake": "위기(crisis)를 부정적 사건으로 오해 — 에릭슨의 '위기'는 전환점(turning point)이라는 의미이다"
+    }
+  },
+  {
+    "id": "DEVELOP_PRECONV_024",
+    "terminology": "전인습적 도덕 (Preconventional Morality)",
+    "terminology_ko": "전인습적 도덕",
+    "terminology_en": "Preconventional Morality",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "콜버그 도덕발달의 첫 번째 수준으로, 도덕 판단이 처벌 회피와 보상 추구 등 자기 이익에 기반하며, 주로 아동기에 나타난다.",
+    "definition_en": "The first level of Kohlberg's moral development, in which moral judgments are based on self-interest such as avoiding punishment and seeking rewards, typically seen in childhood.",
+    "significance": "전인습적 도덕은 도덕 추론의 가장 기초적 단계로, 외적 결과에 의존하는 도덕 판단의 특성을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "로렌스 콜버그", "name_en": "Lawrence Kohlberg", "contribution": "전인습 수준의 두 하위 단계(처벌 지향, 도구적 목적 지향)를 구분하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "도덕발달", "name_en": "Moral Development", "id": "DEVELOP_MORAL_019"},
+      {"name_ko": "인습적 도덕", "name_en": "Conventional Morality", "id": "DEVELOP_CONV_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "1단계: 처벌과 복종 지향",
+        "name_en": "Stage 1: Punishment and Obedience Orientation",
+        "definition": "처벌을 피하기 위해 규칙을 따르며, 권위에 복종하는 것이 옳다고 판단하는 단계"
+      },
+      {
+        "name_ko": "2단계: 도구적 목적과 교환 지향",
+        "name_en": "Stage 2: Instrumental Purpose and Exchange",
+        "definition": "자신의 이익을 충족하는 것이 올바르며, '네가 나에게 해주면 나도 해줄게'식의 상호 교환 논리"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "전인습 = '벌 받을까 봐' (1단계) + '나한테 뭐가 이득이지?' (2단계)",
+      "differential": "전인습은 자기 이익 중심, 인습은 사회적 기대·법률 중심, 후인습은 보편적 원리 중심이다",
+      "key_point": "콜버그의 하인츠 딜레마에서 '감옥에 갈까 봐 훔치면 안 된다'는 전인습적 추론이다",
+      "common_mistake": "전인습적 도덕이 '비도덕적'이라는 오해 — 도덕 추론의 초기 단계이지 도덕성의 부재가 아니다"
+    }
+  },
+  {
+    "id": "DEVELOP_CONV_025",
+    "terminology": "인습적 도덕 (Conventional Morality)",
+    "terminology_ko": "인습적 도덕",
+    "terminology_en": "Conventional Morality",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "콜버그 도덕발달의 두 번째 수준으로, 도덕 판단이 사회적 기대, 타인의 승인, 법과 질서의 유지에 기반하며, 청소년기와 성인기에 가장 흔하다.",
+    "definition_en": "The second level of Kohlberg's moral development, in which moral judgments are based on social expectations, others' approval, and maintenance of law and order, most common in adolescence and adulthood.",
+    "significance": "인습적 도덕은 대다수 성인의 도덕 추론 수준이며, 사회적 규범과 법률의 내면화를 반영한다.",
+    "key_researchers": [
+      {"name_ko": "로렌스 콜버그", "name_en": "Lawrence Kohlberg", "contribution": "인습 수준의 두 하위 단계(대인관계 기대, 사회 체계와 양심)를 구분하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "도덕발달", "name_en": "Moral Development", "id": "DEVELOP_MORAL_019"},
+      {"name_ko": "전인습적 도덕", "name_en": "Preconventional Morality", "id": "DEVELOP_PRECONV_024"},
+      {"name_ko": "후인습적 도덕", "name_en": "Postconventional Morality", "id": "DEVELOP_POSTCONV_026"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "3단계: 대인관계 기대와 동조 지향",
+        "name_en": "Stage 3: Interpersonal Expectations and Conformity",
+        "definition": "'착한 아이'가 되기 위해 타인의 기대에 부응하고 승인을 얻으려는 단계"
+      },
+      {
+        "name_ko": "4단계: 사회 체계와 양심 지향",
+        "name_en": "Stage 4: Social System and Conscience",
+        "definition": "법과 사회질서를 유지하는 것이 옳다고 판단하며, 의무와 권위를 존중하는 단계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "인습 = '좋은 사람이 되려고' (3단계) + '법을 지켜야 하니까' (4단계)",
+      "differential": "인습적 도덕은 사회적 기준을 그대로 수용하고, 후인습적 도덕은 사회 규범 너머의 보편 원리를 추구한다",
+      "key_point": "대부분의 성인은 인습적 수준에 머물며, 후인습적 수준에 도달하는 사람은 소수이다",
+      "common_mistake": "'인습적'이라는 명칭 때문에 부정적으로 이해 — 사회 유지에 필요한 건전한 도덕 추론 수준이다"
+    }
+  },
+  {
+    "id": "DEVELOP_POSTCONV_026",
+    "terminology": "후인습적 도덕 (Postconventional Morality)",
+    "terminology_ko": "후인습적 도덕",
+    "terminology_en": "Postconventional Morality",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "콜버그 도덕발달의 세 번째이자 최상위 수준으로, 도덕 판단이 사회적 계약, 개인의 권리, 보편적 윤리 원칙에 기반하며, 법보다 상위의 도덕 원리를 인식한다.",
+    "definition_en": "The third and highest level of Kohlberg's moral development, in which moral judgments are based on social contracts, individual rights, and universal ethical principles, recognizing moral principles that transcend law.",
+    "significance": "후인습적 도덕은 시민 불복종, 인권 운동 등 사회 변혁의 도덕적 기반을 설명하며, 가장 성숙한 도덕 추론을 대표한다.",
+    "key_researchers": [
+      {"name_ko": "로렌스 콜버그", "name_en": "Lawrence Kohlberg", "contribution": "후인습 수준의 두 하위 단계(사회계약, 보편적 윤리원칙)를 이론화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "도덕발달", "name_en": "Moral Development", "id": "DEVELOP_MORAL_019"},
+      {"name_ko": "인습적 도덕", "name_en": "Conventional Morality", "id": "DEVELOP_CONV_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "5단계: 사회계약과 개인 권리 지향",
+        "name_en": "Stage 5: Social Contract and Individual Rights",
+        "definition": "법은 사회적 합의에 의한 것이며, 개인의 권리가 침해될 때 법을 변경할 수 있다고 보는 단계"
+      },
+      {
+        "name_ko": "6단계: 보편적 윤리 원칙 지향",
+        "name_en": "Stage 6: Universal Ethical Principles",
+        "definition": "정의, 평등, 인간 존엄 등 보편적 도덕 원칙에 따라 판단하며, 필요시 법에 불복종할 수 있다고 보는 단계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "후인습 = '합의는 바뀔 수 있어' (5단계) + '정의가 법보다 우선' (6단계)",
+      "differential": "인습적은 사회 규칙 준수, 후인습적은 규칙 너머의 보편적 원리에 따른 판단이다",
+      "key_point": "마틴 루터 킹 Jr.의 시민 불복종은 후인습적 도덕 추론(6단계)의 대표적 사례이다",
+      "common_mistake": "6단계에 도달해야 '도덕적'이라는 오해 — 콜버그 자신도 6단계의 실증적 존재에 대해 회의적이었다"
+    }
+  },
+  {
+    "id": "DEVELOP_PRENDEV_027",
+    "terminology": "태아기 발달 (Prenatal Development)",
+    "terminology_ko": "태아기 발달",
+    "terminology_en": "Prenatal Development",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "수정에서 출생까지의 약 38주간의 발달 과정으로, 발아기(수정~2주), 배아기(2~8주), 태아기(8주~출생)의 세 단계로 구분된다.",
+    "definition_en": "The approximately 38-week developmental process from conception to birth, divided into three periods: germinal (conception to 2 weeks), embryonic (2-8 weeks), and fetal (8 weeks to birth).",
+    "significance": "태내 환경은 이후 발달의 생물학적 토대를 형성하며, 기형유발물질 등 태내 위험요인이 발달에 미치는 영향에 대한 이해는 예방적 개입에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "K. L. 무어", "name_en": "Keith L. Moore", "contribution": "태내 발달의 단계별 형태학적 변화를 체계적으로 기술하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "태내기 위험요인", "name_en": "Teratogen", "id": "DEVELOP_TERATO_028"},
+      {"name_ko": "결정적 시기", "name_en": "Critical Period", "id": "DEVELOP_CRITPRD_020"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "발아기",
+        "name_en": "Germinal period",
+        "definition": "수정~2주, 수정란의 세포 분열과 자궁벽 착상이 이루어지는 시기"
+      },
+      {
+        "name_ko": "배아기",
+        "name_en": "Embryonic period",
+        "definition": "2~8주, 주요 기관과 신체 구조가 형성되는 시기로 기형유발물질에 가장 취약하다"
+      },
+      {
+        "name_ko": "태아기",
+        "name_en": "Fetal period",
+        "definition": "8주~출생, 기관의 성숙과 성장이 이루어지며 생존 가능성이 점차 높아지는 시기"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "태내 3단계: 발(발아)배(배아)태(태아) — 수정 → 착상 → 기관형성 → 성장",
+      "differential": "배아기는 기관 형성기(기형유발물질에 가장 취약), 태아기는 성장·성숙기이다",
+      "key_point": "배아기(2~8주)가 기형유발물질에 가장 취약한 시기이다",
+      "common_mistake": "태아기와 태내기를 혼용 — '태내기(prenatal period)'는 전체 기간, '태아기(fetal period)'는 8주 이후만을 지칭한다"
+    }
+  },
+  {
+    "id": "DEVELOP_TERATO_028",
+    "terminology": "태내기 위험요인 / 기형유발물질 (Teratogen)",
+    "terminology_ko": "태내기 위험요인",
+    "terminology_en": "Teratogen",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "태내 발달 중 구조적·기능적 이상을 유발할 수 있는 환경적 요인으로, 약물, 알코올, 감염, 방사선, 환경오염물질 등이 포함되며, 노출 시기와 양에 따라 영향이 달라진다.",
+    "definition_en": "An environmental agent that can cause structural or functional abnormalities during prenatal development, including drugs, alcohol, infections, radiation, and environmental pollutants, with effects varying by timing and dosage of exposure.",
+    "significance": "기형유발물질에 대한 이해는 태내 위험 예방과 건강한 임신 관리의 과학적 근거를 제공하며, 태아알코올스펙트럼장애(FASD) 등의 예방에 직결된다.",
+    "key_researchers": [
+      {"name_ko": "렌즈 & 맥브라이드", "name_en": "Lenz & McBride", "contribution": "1960년대 탈리도마이드 사건을 통해 약물의 기형유발 효과를 최초로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "태아기 발달", "name_en": "Prenatal Development", "id": "DEVELOP_PRENDEV_027"},
+      {"name_ko": "결정적 시기", "name_en": "Critical Period", "id": "DEVELOP_CRITPRD_020"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "태아알코올스펙트럼장애 (FASD)",
+        "name_en": "Fetal Alcohol Spectrum Disorders",
+        "definition": "임신 중 알코올 노출로 인한 안면 기형, 인지 장애, 행동 문제를 포함하는 증후군"
+      },
+      {
+        "name_ko": "약물성 기형유발",
+        "name_en": "Drug-induced teratogenesis",
+        "definition": "탈리도마이드, 특정 항경련제 등 약물에 의한 선천적 기형 유발"
+      },
+      {
+        "name_ko": "감염성 기형유발",
+        "name_en": "Infectious teratogenesis",
+        "definition": "풍진, 거대세포바이러스, 지카바이러스 등 태내 감염에 의한 발달 이상"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "테라토젠 = '테라(기형)'를 유발하는 '젠(물질/요인)'",
+      "differential": "기형유발물질은 환경적 위험요인이고, 유전적 이상은 내적 요인에 의한 발달 문제이다",
+      "key_point": "배아기(2~8주)가 기형유발물질에 가장 취약하며, 같은 물질도 노출 시기에 따라 영향이 다르다",
+      "common_mistake": "소량의 알코올은 안전하다는 오해 — 안전한 음주량의 역치는 확립되지 않았으므로 임신 중 금주가 권장된다"
+    }
+  },
+  {
+    "id": "DEVELOP_IDCRISIS_029",
+    "terminology": "청소년기 정체성 위기 (Adolescent Identity Crisis)",
+    "terminology_ko": "청소년기 정체성 위기",
+    "terminology_en": "Adolescent Identity Crisis",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "청소년기에 '나는 누구인가'라는 질문과 씨름하며 다양한 역할, 가치, 신념을 탐색하고 시험해보는 심리적 과정으로, 에릭슨의 5단계(정체성 대 역할 혼란)에 해당한다.",
+    "definition_en": "The psychological process during adolescence of grappling with the question 'Who am I?', exploring and experimenting with various roles, values, and beliefs, corresponding to Erikson's fifth stage (Identity vs. Role Confusion).",
+    "significance": "정체성 위기는 건강한 자아 정체성 형성의 필수적 과정이며, 이 시기의 적절한 탐색과 해결이 성인기 적응의 토대가 된다.",
+    "key_researchers": [
+      {"name_ko": "에릭 에릭슨", "name_en": "Erik Erikson", "contribution": "청소년기 정체성 위기를 정상적 발달 과정으로 개념화하였다"},
+      {"name_ko": "제임스 마르시아", "name_en": "James Marcia", "contribution": "탐색과 전념의 두 차원으로 4가지 정체성 지위(성취, 유예, 유실, 혼미)를 분류하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정체성", "name_en": "Identity", "id": "DEVELOP_IDENT_018"},
+      {"name_ko": "에릭슨의 심리사회적 발달단계", "name_en": "Erikson's Psychosocial Stages", "id": "DEVELOP_ERIKSON_023"},
+      {"name_ko": "형식적 조작기", "name_en": "Formal Operational Stage", "id": "DEVELOP_FORMOP_012"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "정체성 성취",
+        "name_en": "Identity Achievement",
+        "definition": "충분한 탐색 후 자신의 가치와 목표에 전념한 상태 (마르시아)"
+      },
+      {
+        "name_ko": "정체성 유예",
+        "name_en": "Identity Moratorium",
+        "definition": "적극적으로 탐색 중이나 아직 전념에 이르지 못한 상태"
+      },
+      {
+        "name_ko": "정체성 유실",
+        "name_en": "Identity Foreclosure",
+        "definition": "탐색 없이 부모나 권위자의 가치를 그대로 수용하여 전념한 상태"
+      },
+      {
+        "name_ko": "정체성 혼미",
+        "name_en": "Identity Diffusion",
+        "definition": "탐색도 전념도 하지 않은 상태로, 방향감 없이 표류하는 상태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "마르시아의 4지위: 탐색(O/X) x 전념(O/X) = 성취(OO), 유예(OX), 유실(XO), 혼미(XX)",
+      "differential": "정체성 유예(탐색 중)와 정체성 혼미(탐색도 안 함)를 혼동하지 말 것",
+      "key_point": "정체성 '위기'는 병리가 아니라 건강한 발달의 필수적 전환점이다",
+      "common_mistake": "정체성 유실을 건강한 상태로 오해 — 탐색 없는 전념은 이후 정체성 재위기(identity crisis)의 가능성이 높다"
+    }
+  },
+  {
+    "id": "DEVELOP_AGING_030",
+    "terminology": "노화와 인지 (Aging and Cognition)",
+    "terminology_ko": "노화와 인지",
+    "terminology_en": "Aging and Cognition",
+    "category": "DEVELOP",
+    "category_name": "발달심리 (Developmental Psychology)",
+    "definition": "노화에 따른 인지 기능의 변화로, 유동성 지능(처리 속도, 작업기억)은 감퇴하는 반면 결정성 지능(어휘, 일반지식)은 비교적 유지되거나 향상되는 패턴을 보인다.",
+    "definition_en": "Cognitive changes associated with aging, characterized by a pattern in which fluid intelligence (processing speed, working memory) declines while crystallized intelligence (vocabulary, general knowledge) is relatively maintained or even improves.",
+    "significance": "노화와 인지 연구는 성공적 노화의 조건을 밝히고, 치매 등 병리적 노화와 정상 노화를 구분하는 기준을 제공하며, 전생애 발달의 관점을 완성한다.",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "유동성 지능과 결정성 지능의 구분을 제안하였다"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "캐텔의 이론을 발전시켜 노화에 따른 유동성·결정성 지능의 차별적 변화를 실증하였다"},
+      {"name_ko": "폴 발테스", "name_en": "Paul Baltes", "contribution": "전생애 발달 관점과 보상을 수반한 선택적 최적화(SOC) 모델을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "에릭슨의 심리사회적 발달단계", "name_en": "Erikson's Psychosocial Stages", "id": "DEVELOP_ERIKSON_023"},
+      {"name_ko": "결정적 시기", "name_en": "Critical Period", "id": "DEVELOP_CRITPRD_020"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "유동성 지능",
+        "name_en": "Fluid intelligence",
+        "definition": "새로운 문제를 해결하는 능력으로, 처리 속도와 작업기억에 의존하며 20대 이후 점진적으로 감퇴한다"
+      },
+      {
+        "name_ko": "결정성 지능",
+        "name_en": "Crystallized intelligence",
+        "definition": "축적된 지식과 경험에 기반한 능력으로, 노년기까지 비교적 유지되거나 증가한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "노화 = 유동성(물처럼 흐르는 능력) ↓ + 결정성(결정처럼 굳건한 지식) ↑ 또는 유지",
+      "differential": "정상 노화는 유동성 지능의 점진적 감퇴이고, 치매는 결정성 지능을 포함한 전반적·급격한 인지 저하이다",
+      "key_point": "발테스의 SOC 모델: 노인은 선택(Selection), 최적화(Optimization), 보상(Compensation)을 통해 기능 저하에 적응한다",
+      "common_mistake": "노화하면 모든 인지 능력이 동일하게 저하된다는 오해 — 유동성과 결정성 지능은 서로 다른 노화 궤적을 보인다"
+    }
+  }
+]

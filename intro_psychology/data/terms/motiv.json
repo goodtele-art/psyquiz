@@ -1,0 +1,864 @@
+[
+  {
+    "id": "MOTIV_MOTIV_001",
+    "terminology": "동기 (Motivation)",
+    "terminology_ko": "동기",
+    "terminology_en": "Motivation",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "행동을 시작하고, 방향을 정하며, 지속시키는 내적 상태 또는 과정. 생물학적 욕구, 심리적 욕구, 환경적 요인 등이 복합적으로 작용한다.",
+    "definition_en": "An internal state or process that initiates, directs, and sustains behavior. It involves a complex interplay of biological needs, psychological desires, and environmental factors.",
+    "significance": "심리학의 핵심 주제로, 인간 행동의 '왜'를 설명하는 기초 개념이다. 학습, 임상, 산업/조직 심리학 등 거의 모든 분야에 적용된다.",
+    "key_researchers": [
+      {"name_ko": "에이브러햄 매슬로", "name_en": "Abraham Maslow", "contribution": "욕구위계이론을 통해 동기의 단계적 구조를 제시"},
+      {"name_ko": "클라크 헐", "name_en": "Clark Hull", "contribution": "추동감소이론으로 동기의 생물학적 기반을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "추동감소이론", "name_en": "Drive-Reduction Theory", "id": "MOTIV_DRT_003"},
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "외재적 동기", "name_en": "Extrinsic Motivation", "id": "MOTIV_EXTMOT_008"}
+    ],
+    "sub_types": [
+      {"name_ko": "생리적 동기", "name_en": "Physiological Motivation", "description": "생존에 필수적인 생물학적 욕구에 기반한 동기"},
+      {"name_ko": "심리적 동기", "name_en": "Psychological Motivation", "description": "사회적 소속감, 성취감 등 심리적 욕구에 기반한 동기"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "동기 = 動(움직일 동) + 機(틀 기) → 행동을 움직이게 하는 기제",
+      "differential": "동기(행동의 원인)와 정서(행동에 수반되는 감정 상태)를 구분할 것",
+      "key_point": "동기는 행동의 시작, 방향, 지속이라는 세 가지 기능을 수행한다",
+      "common_mistake": "동기를 단순히 '의지력'과 동일시하는 오류 — 동기는 생물학적, 심리적, 사회적 요인의 복합체이다"
+    }
+  },
+  {
+    "id": "MOTIV_INSTINCT_002",
+    "terminology": "본능 (Instinct)",
+    "terminology_ko": "본능",
+    "terminology_en": "Instinct",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "학습 없이 타고나는 고정된 행동 양식으로, 종(species) 전체에 공통적으로 나타나는 복잡한 행동 패턴. 초기 동기 이론에서 행동의 근본 원인으로 제시되었다.",
+    "definition_en": "An innate, fixed pattern of behavior that is universal within a species and occurs without prior learning. Early motivation theories proposed instincts as the fundamental cause of all behavior.",
+    "significance": "윌리엄 제임스와 윌리엄 맥두걸이 인간 행동을 본능으로 설명하려 했으나, 본능 목록이 무한히 늘어나는 순환논리 문제로 쇠퇴하고 추동이론 등으로 대체되었다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 제임스", "name_en": "William James", "contribution": "인간의 본능 목록을 체계적으로 정리하려 시도"},
+      {"name_ko": "윌리엄 맥두걸", "name_en": "William McDougall", "contribution": "18가지 본능 목록을 제안하여 인간 행동을 설명하려 함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "추동감소이론", "name_en": "Drive-Reduction Theory", "id": "MOTIV_DRT_003"},
+      {"name_ko": "동기", "name_en": "Motivation", "id": "MOTIV_MOTIV_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "본능이론 → '본래 타고난 능력'으로 행동을 설명",
+      "differential": "본능(선천적, 종 전체에 공통)과 습관(후천적, 개인차 존재)을 구분",
+      "key_point": "본능이론은 '왜?'에 대한 답이 되지 못하는 순환논리(tautology) 문제로 비판받았다",
+      "common_mistake": "현대 심리학에서 본능이론이 완전히 폐기된 것은 아니며, 진화심리학에서 부분적으로 계승된다"
+    }
+  },
+  {
+    "id": "MOTIV_DRT_003",
+    "terminology": "추동감소이론 (Drive-Reduction Theory)",
+    "terminology_ko": "추동감소이론",
+    "terminology_en": "Drive-Reduction Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "생리적 욕구가 충족되지 않으면 내적 긴장 상태인 추동(drive)이 발생하고, 유기체는 이 추동을 감소시키기 위해 행동한다는 이론. 항상성(homeostasis) 개념에 기반한다.",
+    "definition_en": "A theory proposing that unmet physiological needs create an internal tension state called a drive, and organisms are motivated to engage in behaviors that reduce this drive. Based on the concept of homeostasis.",
+    "significance": "클라크 헐이 체계화한 이론으로, 동기의 생물학적 기반을 설명하는 데 기여했다. 그러나 호기심이나 탐험 동기처럼 긴장을 증가시키는 행동을 설명하지 못하는 한계가 있다.",
+    "key_researchers": [
+      {"name_ko": "클라크 헐", "name_en": "Clark Hull", "contribution": "추동감소이론을 체계적으로 정립, 수학적 행동 공식 제안"},
+      {"name_ko": "월터 캐논", "name_en": "Walter Cannon", "contribution": "항상성(homeostasis) 개념을 도입하여 추동이론의 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "항상성", "name_en": "Homeostasis", "id": "MOTIV_HOMEO_004"},
+      {"name_ko": "각성이론", "name_en": "Arousal Theory", "id": "MOTIV_AROUSAL_017"},
+      {"name_ko": "본능", "name_en": "Instinct", "id": "MOTIV_INSTINCT_002"}
+    ],
+    "sub_types": [
+      {"name_ko": "일차 추동", "name_en": "Primary Drive", "description": "배고픔, 갈증 등 생물학적 욕구에서 비롯되는 추동"},
+      {"name_ko": "이차 추동", "name_en": "Secondary Drive", "description": "학습을 통해 일차 추동과 연합된 추동 (예: 돈)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "추동(Drive) = 밀어내는 힘. 배고프면(욕구) → 긴장(추동) → 먹기(행동) → 긴장 해소",
+      "differential": "추동감소이론(내적 밀기, push)과 유인이론(외적 끌기, pull)을 대비하여 이해",
+      "key_point": "추동감소이론은 항상성에 기반하며, 일차 추동과 이차 추동을 구분한다",
+      "common_mistake": "추동감소이론이 모든 동기를 설명할 수 있다고 오해 — 호기심이나 스릴 추구 같은 각성 증가 행동은 설명하지 못한다"
+    }
+  },
+  {
+    "id": "MOTIV_HOMEO_004",
+    "terminology": "항상성 (Homeostasis)",
+    "terminology_ko": "항상성",
+    "terminology_en": "Homeostasis",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "신체가 체온, 혈당, 수분 등 내적 환경을 일정한 균형 상태로 유지하려는 자동 조절 경향. 추동감소이론의 핵심 개념으로, 균형이 깨지면 이를 회복하려는 동기가 발생한다.",
+    "definition_en": "The body's automatic tendency to maintain a constant and balanced internal environment (e.g., temperature, blood sugar, hydration). A core concept of drive-reduction theory; when balance is disrupted, motivation arises to restore it.",
+    "significance": "생리학에서 유래한 개념이 심리학의 동기 이론에 적용된 대표적 사례이다. 생물학적 동기뿐 아니라 심리적 균형 유지로도 확장 해석된다.",
+    "key_researchers": [
+      {"name_ko": "월터 캐논", "name_en": "Walter Cannon", "contribution": "항상성 개념을 공식적으로 명명하고 체계화"},
+      {"name_ko": "클로드 베르나르", "name_en": "Claude Bernard", "contribution": "내부 환경(milieu intérieur)의 안정성 개념을 최초 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "추동감소이론", "name_en": "Drive-Reduction Theory", "id": "MOTIV_DRT_003"},
+      {"name_ko": "체중설정점", "name_en": "Set Point Theory", "id": "MOTIV_SETPT_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "항상성 = '항상 같은 성질'을 유지 → 체내 온도계처럼 자동 조절",
+      "differential": "항상성(생리적 균형 유지)과 적응(환경 변화에 대한 반응)을 구분",
+      "key_point": "항상성은 추동감소이론의 생물학적 기반이 되는 개념이다",
+      "common_mistake": "항상성이 완벽한 균형을 의미한다고 오해 — 실제로는 일정 범위 내의 동적 균형이다"
+    }
+  },
+  {
+    "id": "MOTIV_HIERARCHY_005",
+    "terminology": "욕구위계이론 (Hierarchy of Needs)",
+    "terminology_ko": "욕구위계이론",
+    "terminology_en": "Hierarchy of Needs",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "매슬로가 제안한 이론으로, 인간의 욕구가 생리적 욕구 → 안전 욕구 → 소속과 사랑의 욕구 → 존경 욕구 → 자아실현 욕구의 5단계 위계로 구성되며, 하위 욕구가 충족되어야 상위 욕구로 이행한다고 본다.",
+    "definition_en": "Maslow's theory proposing that human needs are arranged in a five-level hierarchy: physiological → safety → belongingness and love → esteem → self-actualization. Lower-level needs must be substantially met before higher-level needs become motivating.",
+    "significance": "인본주의 심리학의 대표 이론으로, 동기의 다층적 구조를 제시하여 교육, 경영, 상담 등 다양한 분야에 광범위하게 적용된다. 다만 문화적 보편성과 엄격한 위계 순서에 대한 비판도 존재한다.",
+    "key_researchers": [
+      {"name_ko": "에이브러햄 매슬로", "name_en": "Abraham Maslow", "contribution": "욕구위계이론 창시자, 인본주의 심리학의 핵심 인물"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자아실현", "name_en": "Self-Actualization", "id": "MOTIV_SELFACT_006"},
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "소속동기", "name_en": "Need for Affiliation", "id": "MOTIV_AFFIL_025"}
+    ],
+    "sub_types": [
+      {"name_ko": "결핍 욕구", "name_en": "Deficiency Needs (D-needs)", "description": "생리적, 안전, 소속, 존경 욕구 — 결핍 시 동기 유발"},
+      {"name_ko": "성장 욕구", "name_en": "Being Needs (B-needs)", "description": "자아실현 욕구 — 성장과 잠재력 실현을 위한 동기"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "피라미드 아래서 위로: 밥(생리) → 집(안전) → 친구(소속) → 칭찬(존경) → 꿈(자아실현)",
+      "differential": "매슬로의 위계이론(단계적)과 알더퍼의 ERG이론(동시 추구 가능)을 비교",
+      "key_point": "5단계 순서와 결핍욕구/성장욕구 구분을 정확히 기억할 것",
+      "common_mistake": "하위 욕구가 100% 충족되어야 상위 욕구로 이행한다고 오해 — 매슬로는 '대체로 충족'이면 된다고 했다"
+    }
+  },
+  {
+    "id": "MOTIV_SELFACT_006",
+    "terminology": "자아실현 (Self-Actualization)",
+    "terminology_ko": "자아실현",
+    "terminology_en": "Self-Actualization",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "자신의 잠재력을 최대한 발휘하고 실현하려는 욕구. 매슬로 욕구위계의 최상위 단계로, 창의성, 문제 해결, 도덕성 발달 등으로 표현된다.",
+    "definition_en": "The desire to fulfill one's potential and become the best version of oneself. It is the highest level in Maslow's hierarchy, expressed through creativity, problem-solving, and moral development.",
+    "significance": "인본주의 심리학의 핵심 개념으로, 인간을 결핍 존재가 아닌 성장 존재로 보는 관점을 제공한다. 긍정심리학의 이론적 기초가 되었다.",
+    "key_researchers": [
+      {"name_ko": "에이브러햄 매슬로", "name_en": "Abraham Maslow", "contribution": "자아실현 개념을 욕구위계의 정점으로 위치시킴"},
+      {"name_ko": "쿠르트 골드슈타인", "name_en": "Kurt Goldstein", "contribution": "자아실현(self-actualization) 용어의 원래 제안자"}
+    ],
+    "related_concepts": [
+      {"name_ko": "욕구위계이론", "name_en": "Hierarchy of Needs", "id": "MOTIV_HIERARCHY_005"},
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "자기결정이론", "name_en": "Self-Determination Theory", "id": "MOTIV_SDT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자아실현 = 나(자아)의 꿈을 현실(실현)로 → 욕구위계의 꼭대기",
+      "differential": "자아실현(매슬로, 잠재력 발휘)과 자기효능감(반두라, 과제 수행 능력에 대한 믿음)을 구분",
+      "key_point": "매슬로에 따르면 자아실현에 도달하는 사람은 소수이며, '절정경험(peak experience)'을 동반한다",
+      "common_mistake": "자아실현이 이기적인 목표 달성을 의미한다고 오해 — 실제로는 타인에 대한 배려와 도덕성을 포함한다"
+    }
+  },
+  {
+    "id": "MOTIV_INTMOT_007",
+    "terminology": "내재적 동기 (Intrinsic Motivation)",
+    "terminology_ko": "내재적 동기",
+    "terminology_en": "Intrinsic Motivation",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "활동 자체에서 오는 즐거움, 흥미, 만족감에 의해 행동이 유발되는 동기. 외부 보상이 아닌 활동 그 자체가 목적이다.",
+    "definition_en": "Motivation driven by the inherent enjoyment, interest, or satisfaction derived from the activity itself, rather than by external rewards or pressures.",
+    "significance": "교육과 직업 심리학에서 핵심적인 개념으로, 내재적 동기가 높을수록 창의성, 학습의 질, 지속성이 향상된다. 자기결정이론의 중심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 데시", "name_en": "Edward Deci", "contribution": "내재적 동기 연구의 선구자, 자기결정이론 공동 창시"},
+      {"name_ko": "리처드 라이언", "name_en": "Richard Ryan", "contribution": "데시와 함께 자기결정이론을 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외재적 동기", "name_en": "Extrinsic Motivation", "id": "MOTIV_EXTMOT_008"},
+      {"name_ko": "자기결정이론", "name_en": "Self-Determination Theory", "id": "MOTIV_SDT_019"},
+      {"name_ko": "과잉정당화효과", "name_en": "Overjustification Effect", "id": "MOTIV_OVERJUST_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내재적 = 내(안)에서 재(미)있어서 적(극적)으로 → 스스로 즐거워서 하는 것",
+      "differential": "내재적 동기(활동 자체가 보상)와 외재적 동기(외부 보상이 목적)의 구분이 핵심",
+      "key_point": "외부 보상이 내재적 동기를 감소시킬 수 있다 (과잉정당화효과)",
+      "common_mistake": "내재적 동기와 외재적 동기가 항상 대립한다고 오해 — 실제로는 공존할 수 있다"
+    }
+  },
+  {
+    "id": "MOTIV_EXTMOT_008",
+    "terminology": "외재적 동기 (Extrinsic Motivation)",
+    "terminology_ko": "외재적 동기",
+    "terminology_en": "Extrinsic Motivation",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "활동 외부의 보상(돈, 성적, 칭찬, 처벌 회피 등)을 얻기 위해 행동이 유발되는 동기. 활동 자체가 아닌 결과가 목적이다.",
+    "definition_en": "Motivation driven by external rewards (money, grades, praise) or avoidance of punishment, rather than by the inherent satisfaction of the activity itself.",
+    "significance": "행동수정, 교육, 조직 관리 등에서 광범위하게 활용되지만, 내재적 동기를 약화시킬 수 있다는 점에서 적용에 주의가 필요하다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 데시", "name_en": "Edward Deci", "contribution": "외재적 보상이 내재적 동기를 약화시키는 현상을 실험적으로 입증"},
+      {"name_ko": "마크 레퍼", "name_en": "Mark Lepper", "contribution": "과잉정당화효과 실험을 통해 외재적 보상의 역효과를 증명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "과잉정당화효과", "name_en": "Overjustification Effect", "id": "MOTIV_OVERJUST_020"},
+      {"name_ko": "자기결정이론", "name_en": "Self-Determination Theory", "id": "MOTIV_SDT_019"}
+    ],
+    "sub_types": [
+      {"name_ko": "외적 조절", "name_en": "External Regulation", "description": "순수하게 외부 보상/처벌에 의해 행동하는 단계"},
+      {"name_ko": "내사된 조절", "name_en": "Introjected Regulation", "description": "죄책감이나 자존심에 의해 부분적으로 내면화된 동기"},
+      {"name_ko": "확인된 조절", "name_en": "Identified Regulation", "description": "활동의 가치를 인식하고 수용한 동기"},
+      {"name_ko": "통합된 조절", "name_en": "Integrated Regulation", "description": "자기 정체성과 가치관에 완전히 통합된 외재적 동기"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "외재적 = 밖(외)에 있(재)는 적(당한) 보상 → 보상을 위해 하는 것",
+      "differential": "외재적 동기도 내면화 정도에 따라 4단계로 나뉜다 (자기결정이론의 연속선)",
+      "key_point": "외재적 동기가 반드시 나쁜 것은 아니며, 내면화 정도에 따라 자율적일 수 있다",
+      "common_mistake": "외재적 동기는 항상 효과적이라고 오해 — 과잉정당화효과로 내재적 동기를 감소시킬 수 있다"
+    }
+  },
+  {
+    "id": "MOTIV_SELFEFF_009",
+    "terminology": "자기효능감 (Self-Efficacy)",
+    "terminology_ko": "자기효능감",
+    "terminology_en": "Self-Efficacy",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "특정 과제를 성공적으로 수행할 수 있다는 자신의 능력에 대한 믿음. 자기효능감이 높을수록 도전적인 목표를 설정하고 역경에서도 지속적으로 노력한다.",
+    "definition_en": "An individual's belief in their capacity to successfully perform a specific task. Higher self-efficacy leads to setting more challenging goals and persisting through adversity.",
+    "significance": "반두라의 사회인지이론의 핵심 개념으로, 학업 성취, 건강 행동, 직업 수행 등을 예측하는 강력한 변인이다. 자존감(전반적 자기 평가)과 구분된다.",
+    "key_researchers": [
+      {"name_ko": "앨버트 반두라", "name_en": "Albert Bandura", "contribution": "자기효능감 개념을 창시하고 사회인지이론 내에서 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "성취동기", "name_en": "Achievement Motivation", "id": "MOTIV_ACHMOT_015"},
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "자기결정이론", "name_en": "Self-Determination Theory", "id": "MOTIV_SDT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기효능감 = '나는 이것을 할 수 있다'는 믿음 (Can I do it?)",
+      "differential": "자기효능감(특정 과제에 대한 능력 믿음)과 자존감(자기 자신에 대한 전반적 평가)을 구분",
+      "key_point": "자기효능감의 4가지 원천: 성공 경험, 대리 경험, 언어적 설득, 정서적 각성",
+      "common_mistake": "자기효능감이 높으면 모든 영역에서 자신감이 높다고 오해 — 자기효능감은 과제 특수적(task-specific)이다"
+    }
+  },
+  {
+    "id": "MOTIV_EMOTION_010",
+    "terminology": "정서 (Emotion)",
+    "terminology_ko": "정서",
+    "terminology_en": "Emotion",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "특정 자극이나 상황에 대한 반응으로 발생하는 주관적 경험, 생리적 각성, 인지적 평가, 행동 표현이 결합된 복합적인 심리 상태.",
+    "definition_en": "A complex psychological state involving a subjective experience, physiological arousal, cognitive appraisal, and behavioral expression, arising in response to a specific stimulus or situation.",
+    "significance": "정서는 적응적 기능(위험 회피, 사회적 소통), 동기적 기능(행동 유발), 인지적 기능(의사결정 보조)을 수행하며, 심리학의 핵심 연구 주제이다.",
+    "key_researchers": [
+      {"name_ko": "폴 에크먼", "name_en": "Paul Ekman", "contribution": "기본 정서와 미세표정의 보편성 연구"},
+      {"name_ko": "리처드 라자루스", "name_en": "Richard Lazarus", "contribution": "정서의 인지적 평가이론 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "기본 정서", "name_en": "Basic Emotions", "id": "MOTIV_BASICEMO_014"},
+      {"name_ko": "제임스-랑게 이론", "name_en": "James-Lange Theory", "id": "MOTIV_JL_011"},
+      {"name_ko": "정서지능", "name_en": "Emotional Intelligence", "id": "MOTIV_EI_029"}
+    ],
+    "sub_types": [
+      {"name_ko": "일차 정서", "name_en": "Primary Emotion", "description": "기본적이고 보편적인 정서 (기쁨, 슬픔, 분노, 공포 등)"},
+      {"name_ko": "이차 정서", "name_en": "Secondary Emotion", "description": "일차 정서가 결합되거나 인지적으로 정교화된 복합 정서 (죄책감, 수치심, 질투 등)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "정서의 3요소: 주관적 경험 + 생리적 각성 + 행동 표현",
+      "differential": "정서(emotion, 단기적·특정 대상)와 기분(mood, 장기적·비특정적)을 구분",
+      "key_point": "정서 이론의 핵심 쟁점은 생리적 각성, 인지적 평가, 주관적 경험의 순서와 관계이다",
+      "common_mistake": "정서와 기분(mood)을 동일시하는 오류 — 정서는 특정 대상에 대한 단기적 반응이다"
+    }
+  },
+  {
+    "id": "MOTIV_JL_011",
+    "terminology": "제임스-랑게 이론 (James-Lange Theory)",
+    "terminology_ko": "제임스-랑게 이론",
+    "terminology_en": "James-Lange Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "정서적 자극이 먼저 신체적 반응(생리적 각성과 행동)을 일으키고, 이 신체 반응을 인식함으로써 정서 경험이 발생한다는 이론. '울기 때문에 슬프다'로 요약된다.",
+    "definition_en": "A theory proposing that emotional stimuli first trigger physiological and behavioral responses, and the conscious experience of emotion arises from perceiving these bodily changes. Summarized as 'We feel sad because we cry.'",
+    "significance": "정서 연구의 출발점이 된 고전 이론으로, 신체 반응이 정서 경험에 선행한다는 주장은 이후 안면피드백가설 등에 영향을 주었다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 제임스", "name_en": "William James", "contribution": "정서의 신체적 기원을 주장한 이론 제안 (1884)"},
+      {"name_ko": "카를 랑게", "name_en": "Carl Lange", "contribution": "제임스와 독립적으로 유사한 이론 제안, 혈관 변화에 초점"}
+    ],
+    "related_concepts": [
+      {"name_ko": "캐논-바드 이론", "name_en": "Cannon-Bard Theory", "id": "MOTIV_CB_012"},
+      {"name_ko": "샤흐터-싱어 이론", "name_en": "Schachter-Singer Theory", "id": "MOTIV_SS_013"},
+      {"name_ko": "안면피드백가설", "name_en": "Facial Feedback Hypothesis", "id": "MOTIV_FFH_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "제임스-랑게 = '몸이 먼저' → 곰을 봄 → 심장 뜀(신체 반응) → '나 무섭구나'(정서 경험)",
+      "differential": "제임스-랑게(신체→정서)와 캐논-바드(동시 발생)와 샤흐터-싱어(각성+인지 해석)를 비교",
+      "key_point": "신체 반응이 정서 경험에 선행한다는 점이 핵심 — '울기 때문에 슬프다'",
+      "common_mistake": "제임스-랑게 이론이 인지의 역할을 완전히 부정한다고 오해 — 신체 반응의 '인식'이라는 인지 과정은 포함한다"
+    }
+  },
+  {
+    "id": "MOTIV_CB_012",
+    "terminology": "캐논-바드 이론 (Cannon-Bard Theory)",
+    "terminology_ko": "캐논-바드 이론",
+    "terminology_en": "Cannon-Bard Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "정서적 자극이 시상(thalamus)을 통해 대뇌피질과 자율신경계에 동시에 전달되어, 정서 경험과 신체 반응이 동시에(independently) 발생한다는 이론.",
+    "definition_en": "A theory proposing that emotional stimuli are processed through the thalamus, which simultaneously sends signals to the cerebral cortex (producing emotional experience) and the autonomic nervous system (producing physiological arousal), so that emotional experience and bodily response occur simultaneously and independently.",
+    "significance": "제임스-랑게 이론에 대한 비판으로 등장했으며, 정서의 신경학적 기반(시상의 역할)에 주목한 최초의 이론 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "월터 캐논", "name_en": "Walter Cannon", "contribution": "제임스-랑게 이론을 비판하고 시상의 역할을 강조"},
+      {"name_ko": "필립 바드", "name_en": "Philip Bard", "contribution": "캐논의 동물 실험 연구를 확장하여 이론을 정교화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "제임스-랑게 이론", "name_en": "James-Lange Theory", "id": "MOTIV_JL_011"},
+      {"name_ko": "샤흐터-싱어 이론", "name_en": "Schachter-Singer Theory", "id": "MOTIV_SS_013"},
+      {"name_ko": "정서", "name_en": "Emotion", "id": "MOTIV_EMOTION_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "캐논-바드 = '동시에' → 곰을 봄 → 심장 뜀 + '무섭다' 동시 발생",
+      "differential": "캐논-바드(동시 발생)는 제임스-랑게(신체→정서)에 대한 반론으로 등장",
+      "key_point": "시상(thalamus)이 핵심 역할을 하며, 정서 경험과 신체 반응이 동시적이고 독립적이다",
+      "common_mistake": "캐논-바드 이론이 신체 반응의 중요성을 완전히 부정한다고 오해 — 신체 반응은 발생하되 정서 경험의 원인은 아니라는 것"
+    }
+  },
+  {
+    "id": "MOTIV_SS_013",
+    "terminology": "샤흐터-싱어 이론 / 2요인 이론 (Schachter-Singer Two-Factor Theory)",
+    "terminology_ko": "샤흐터-싱어 이론 / 2요인 이론",
+    "terminology_en": "Schachter-Singer Two-Factor Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "정서 경험은 생리적 각성(1요인)과 그 각성에 대한 인지적 해석/명명(2요인)의 두 가지 요인이 결합하여 발생한다는 이론. 동일한 각성도 상황에 따라 다른 정서로 해석될 수 있다.",
+    "definition_en": "A theory proposing that emotional experience results from the combination of physiological arousal (factor 1) and cognitive labeling/interpretation of that arousal (factor 2). The same arousal can be interpreted as different emotions depending on the situational context.",
+    "significance": "정서에 인지적 요인을 도입한 획기적인 이론으로, 에피네프린 주사 실험(1962)으로 유명하다. 정서의 구성주의적 관점의 기초가 되었다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 샤흐터", "name_en": "Stanley Schachter", "contribution": "2요인 이론 제안 및 에피네프린 주사 실험 수행"},
+      {"name_ko": "제롬 싱어", "name_en": "Jerome Singer", "contribution": "샤흐터와 함께 고전적인 정서 실험 공동 설계"}
+    ],
+    "related_concepts": [
+      {"name_ko": "제임스-랑게 이론", "name_en": "James-Lange Theory", "id": "MOTIV_JL_011"},
+      {"name_ko": "캐논-바드 이론", "name_en": "Cannon-Bard Theory", "id": "MOTIV_CB_012"},
+      {"name_ko": "정서의 인지적 평가", "name_en": "Cognitive Appraisal of Emotion", "id": "MOTIV_COGAPP_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "2요인 = 각성(몸) + 명명(머리) → 심장이 뛰는데(각성), 왜 뛰지?(인지 해석) → 정서 결정",
+      "differential": "2요인 이론은 제임스-랑게(신체만)와 캐논-바드(동시)를 절충 — 각성 + 인지 해석의 조합",
+      "key_point": "에피네프린 주사 실험: 동일한 생리적 각성도 상황(행복한 조건 vs 화난 조건)에 따라 다른 정서로 경험됨",
+      "common_mistake": "2요인 이론에서 각성이 먼저 오고 인지가 나중이라고 순서를 고정하는 오류 — 핵심은 두 요인의 '결합'이다"
+    }
+  },
+  {
+    "id": "MOTIV_BASICEMO_014",
+    "terminology": "기본 정서 (Basic Emotions)",
+    "terminology_ko": "기본 정서",
+    "terminology_en": "Basic Emotions",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "문화와 관계없이 보편적으로 나타나는 선천적인 정서. 에크먼은 행복, 슬픔, 분노, 공포, 혐오, 놀라움의 6가지를 기본 정서로 제안했다.",
+    "definition_en": "Innate emotions that appear universally across cultures. Ekman proposed six basic emotions: happiness, sadness, anger, fear, disgust, and surprise.",
+    "significance": "정서의 보편성과 진화적 기원을 입증한 중요한 연구 결과이다. 다만, 기본 정서의 수와 종류, 문화적 보편성에 대한 논쟁이 지속되고 있다.",
+    "key_researchers": [
+      {"name_ko": "폴 에크먼", "name_en": "Paul Ekman", "contribution": "교차 문화 연구를 통해 6가지 기본 정서의 보편적 표정을 입증"},
+      {"name_ko": "캐럴 이자드", "name_en": "Carroll Izard", "contribution": "차별적 정서 이론(Differential Emotions Theory)을 통해 10가지 기본 정서를 제안"},
+      {"name_ko": "로버트 플루칙", "name_en": "Robert Plutchik", "contribution": "정서의 바퀴(Wheel of Emotions) 모델로 8가지 기본 정서를 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정서", "name_en": "Emotion", "id": "MOTIV_EMOTION_010"},
+      {"name_ko": "미세표정", "name_en": "Microexpression", "id": "MOTIV_MICROEXP_028"},
+      {"name_ko": "안면피드백가설", "name_en": "Facial Feedback Hypothesis", "id": "MOTIV_FFH_026"}
+    ],
+    "sub_types": [
+      {"name_ko": "행복", "name_en": "Happiness", "description": "긍정적 사건에 대한 쾌감과 만족감"},
+      {"name_ko": "슬픔", "name_en": "Sadness", "description": "상실이나 실패에 대한 고통스러운 정서"},
+      {"name_ko": "분노", "name_en": "Anger", "description": "좌절이나 위협에 대한 적대적 정서"},
+      {"name_ko": "공포", "name_en": "Fear", "description": "위험이나 위협에 대한 회피 정서"},
+      {"name_ko": "혐오", "name_en": "Disgust", "description": "오염이나 불쾌한 대상에 대한 거부 정서"},
+      {"name_ko": "놀라움", "name_en": "Surprise", "description": "예상치 못한 사건에 대한 순간적 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "기본 정서 6가지: '행슬분공혐놀' → 행복, 슬픔, 분노, 공포, 혐오, 놀라움",
+      "differential": "에크먼(6가지)과 플루칙(8가지)과 이자드(10가지)의 기본 정서 수 차이에 주의",
+      "key_point": "에크먼은 교차 문화 연구(파푸아뉴기니 포레 부족 등)를 통해 표정의 보편성을 입증했다",
+      "common_mistake": "기본 정서가 6가지로 '확정'되었다고 오해 — 연구자에 따라 수가 다르며 여전히 논쟁 중이다"
+    }
+  },
+  {
+    "id": "MOTIV_ACHMOT_015",
+    "terminology": "성취동기 (Achievement Motivation)",
+    "terminology_ko": "성취동기",
+    "terminology_en": "Achievement Motivation",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "어려운 과제를 수행하고, 높은 기준을 달성하며, 타인보다 뛰어나고자 하는 욕구. 성취동기가 높은 사람은 적절히 도전적인 과제를 선호하고 피드백을 적극적으로 활용한다.",
+    "definition_en": "The desire to accomplish difficult tasks, meet high standards of excellence, and surpass others. Individuals high in achievement motivation prefer moderately challenging tasks and actively seek performance feedback.",
+    "significance": "머레이가 개념을 제안하고 맥클리랜드가 체계화한 이론으로, 교육과 산업/조직 심리학에서 중요한 개인차 변인이다.",
+    "key_researchers": [
+      {"name_ko": "헨리 머레이", "name_en": "Henry Murray", "contribution": "성취 욕구(need for achievement, nAch) 개념을 최초 제안, TAT 개발"},
+      {"name_ko": "데이비드 맥클리랜드", "name_en": "David McClelland", "contribution": "성취동기이론을 체계화하고 TAT를 이용한 측정 연구 수행"},
+      {"name_ko": "존 앳킨슨", "name_en": "John Atkinson", "contribution": "기대-가치 모델을 통해 성취동기를 수학적으로 모형화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "MOTIV_SELFEFF_009"},
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "소속동기", "name_en": "Need for Affiliation", "id": "MOTIV_AFFIL_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "nAch = need for Achievement → 성취를 향한 욕구",
+      "differential": "성취동기(탁월한 수행 지향)와 소속동기(관계 지향)와 권력동기(영향력 지향)를 비교",
+      "key_point": "성취동기가 높은 사람은 너무 쉽거나 너무 어려운 과제가 아닌 중간 난이도를 선호한다",
+      "common_mistake": "성취동기가 높은 사람이 항상 가장 어려운 과제를 선택한다고 오해 — 실제로는 적절히 도전적인(50% 성공 확률) 과제를 선호"
+    }
+  },
+  {
+    "id": "MOTIV_EATING_016",
+    "terminology": "섭식장애 (Eating Disorders)",
+    "terminology_ko": "섭식장애",
+    "terminology_en": "Eating Disorders",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "음식 섭취와 관련된 행동, 사고, 정서에 심각한 장해가 있는 정신 장애. 신경성 식욕부진증, 신경성 폭식증, 폭식장애 등이 포함되며, 생물학적·심리적·사회문화적 요인이 복합적으로 작용한다.",
+    "definition_en": "Mental disorders characterized by severe disturbances in eating behaviors, thoughts, and emotions. Includes anorexia nervosa, bulimia nervosa, and binge-eating disorder, caused by a complex interplay of biological, psychological, and sociocultural factors.",
+    "significance": "동기심리학에서 생리적 동기(배고픔)가 심리적·사회문화적 요인에 의해 왜곡되는 대표적 사례이다. 사망률이 높은 심각한 정신 장애이다.",
+    "key_researchers": [
+      {"name_ko": "힐데 브루흐", "name_en": "Hilde Bruch", "contribution": "섭식장애의 심리적 기제에 대한 선구적 임상 연구"},
+      {"name_ko": "제럴드 러셀", "name_en": "Gerald Russell", "contribution": "신경성 폭식증(bulimia nervosa)을 독립 진단 범주로 최초 기술 (1979)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비만", "name_en": "Obesity", "id": "MOTIV_OBESITY_022"},
+      {"name_ko": "체중설정점", "name_en": "Set Point Theory", "id": "MOTIV_SETPT_023"},
+      {"name_ko": "항상성", "name_en": "Homeostasis", "id": "MOTIV_HOMEO_004"}
+    ],
+    "sub_types": [
+      {"name_ko": "신경성 식욕부진증", "name_en": "Anorexia Nervosa", "description": "극단적인 음식 제한과 체중 증가에 대한 강렬한 두려움이 특징"},
+      {"name_ko": "신경성 폭식증", "name_en": "Bulimia Nervosa", "description": "폭식 후 구토, 하제 사용 등 보상 행동이 반복되는 장애"},
+      {"name_ko": "폭식장애", "name_en": "Binge-Eating Disorder", "description": "반복적 폭식이 있으나 보상 행동이 없는 장애"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "섭식장애 3대 유형: 거식(Anorexia) - 폭식+구토(Bulimia) - 폭식만(Binge-Eating)",
+      "differential": "식욕부진증(체중 감소 추구)과 폭식증(정상 체중 유지 시도)과 폭식장애(체중 증가 경향)를 구분",
+      "key_point": "섭식장애는 생물학적(유전, 세로토닌), 심리적(완벽주의, 통제감), 사회문화적(마른 체형 이상화) 요인의 상호작용",
+      "common_mistake": "섭식장애가 단순한 다이어트 문제라고 오해 — 심각한 정신 장애이며 의학적 합병증과 높은 사망률을 동반한다"
+    }
+  },
+  {
+    "id": "MOTIV_AROUSAL_017",
+    "terminology": "각성이론 (Arousal Theory)",
+    "terminology_ko": "각성이론",
+    "terminology_en": "Arousal Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "인간은 최적의 각성 수준을 유지하려는 동기를 가지며, 각성이 너무 낮으면 자극을 추구하고 너무 높으면 자극을 회피한다는 이론. 추동감소이론이 설명하지 못하는 자극 추구 행동을 설명한다.",
+    "definition_en": "A theory proposing that people are motivated to maintain an optimal level of arousal; when arousal is too low, they seek stimulation, and when too high, they avoid it. Explains stimulus-seeking behaviors that drive-reduction theory cannot account for.",
+    "significance": "추동감소이론의 한계를 보완하는 동기 이론으로, 감각추구(sensation seeking) 연구 및 여키스-도슨 법칙과 연결된다.",
+    "key_researchers": [
+      {"name_ko": "도널드 헵", "name_en": "Donald Hebb", "contribution": "최적 각성 수준 개념을 제안하여 각성이론의 기초를 마련"},
+      {"name_ko": "마빈 저커먼", "name_en": "Marvin Zuckerman", "contribution": "감각추구(Sensation Seeking) 특성을 연구하여 개인차를 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "추동감소이론", "name_en": "Drive-Reduction Theory", "id": "MOTIV_DRT_003"},
+      {"name_ko": "여키스-도슨 법칙", "name_en": "Yerkes-Dodson Law", "id": "MOTIV_YD_021"},
+      {"name_ko": "동기", "name_en": "Motivation", "id": "MOTIV_MOTIV_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "각성이론 = 너무 심심해도, 너무 긴장해도 안 됨 → '딱 적당한' 각성 수준을 추구",
+      "differential": "각성이론(최적 각성 추구)과 추동감소이론(긴장 감소 추구)의 차이점을 명확히",
+      "key_point": "추동감소이론은 긴장 감소만 설명하지만, 각성이론은 긴장 증가(스릴, 호기심)도 설명한다",
+      "common_mistake": "최적 각성 수준이 모든 사람에게 동일하다고 오해 — 감각추구 성향 등 개인차가 크다"
+    }
+  },
+  {
+    "id": "MOTIV_INCENTIVE_018",
+    "terminology": "유인이론 (Incentive Theory)",
+    "terminology_ko": "유인이론",
+    "terminology_en": "Incentive Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "행동은 내적 추동(push)이 아니라 외부 자극(유인, incentive)의 끌어당김(pull)에 의해 동기화된다는 이론. 보상의 가치와 기대가 행동의 방향을 결정한다.",
+    "definition_en": "A theory proposing that behavior is motivated by the pull of external stimuli (incentives) rather than internal drives (push). The value and expectation of rewards determine the direction of behavior.",
+    "significance": "추동감소이론의 내적 결핍 중심 관점을 보완하며, 목표 지향적 행동과 환경적 요인의 역할을 강조한다. 행동경제학과 조직심리학의 보상 체계 설계에 영향을 주었다.",
+    "key_researchers": [
+      {"name_ko": "클라크 헐", "name_en": "Clark Hull", "contribution": "유인 개념을 추동이론에 통합하려 시도 (SER = D × H × K)"},
+      {"name_ko": "케네스 스펜스", "name_en": "Kenneth Spence", "contribution": "유인동기(K)의 역할을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "추동감소이론", "name_en": "Drive-Reduction Theory", "id": "MOTIV_DRT_003"},
+      {"name_ko": "외재적 동기", "name_en": "Extrinsic Motivation", "id": "MOTIV_EXTMOT_008"},
+      {"name_ko": "동기", "name_en": "Motivation", "id": "MOTIV_MOTIV_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "긍정적 유인", "name_en": "Positive Incentive", "description": "접근 행동을 유발하는 보상적 자극 (음식, 칭찬 등)"},
+      {"name_ko": "부정적 유인", "name_en": "Negative Incentive", "description": "회피 행동을 유발하는 혐오적 자극 (처벌, 고통 등)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "유인이론 = '당근'이 앞에서 끌어당김 (pull) ↔ 추동이론 = '채찍'이 뒤에서 밀어냄 (push)",
+      "differential": "유인이론(외부→내부, pull)과 추동감소이론(내부→외부, push)의 방향성 차이",
+      "key_point": "유인이론은 동일한 생리 상태에서도 유인 가치에 따라 행동이 달라질 수 있음을 설명한다",
+      "common_mistake": "유인이론이 외재적 동기와 동일하다고 오해 — 유인에는 내적 만족(내재적 유인)도 포함될 수 있다"
+    }
+  },
+  {
+    "id": "MOTIV_SDT_019",
+    "terminology": "자기결정이론 (Self-Determination Theory)",
+    "terminology_ko": "자기결정이론",
+    "terminology_en": "Self-Determination Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "인간에게는 자율성(autonomy), 유능감(competence), 관계성(relatedness)이라는 세 가지 기본 심리 욕구가 있으며, 이 욕구가 충족될 때 내재적 동기와 심리적 안녕이 증진된다는 이론.",
+    "definition_en": "A theory proposing that humans have three basic psychological needs — autonomy, competence, and relatedness — and that satisfaction of these needs promotes intrinsic motivation and psychological well-being.",
+    "significance": "동기의 질적 차이(자율적 vs. 통제적)를 강조한 현대 동기이론의 대표적 프레임워크로, 교육, 건강, 스포츠, 조직 등 다양한 분야에 적용된다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 데시", "name_en": "Edward Deci", "contribution": "자기결정이론 공동 창시자, 인지적 평가이론(CET) 제안"},
+      {"name_ko": "리처드 라이언", "name_en": "Richard Ryan", "contribution": "데시와 함께 자기결정이론을 발전, 유기적 통합이론(OIT) 정교화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "외재적 동기", "name_en": "Extrinsic Motivation", "id": "MOTIV_EXTMOT_008"},
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "MOTIV_SELFEFF_009"}
+    ],
+    "sub_types": [
+      {"name_ko": "인지적 평가이론", "name_en": "Cognitive Evaluation Theory (CET)", "description": "외부 사건이 내재적 동기에 미치는 영향을 설명하는 하위 이론"},
+      {"name_ko": "유기적 통합이론", "name_en": "Organismic Integration Theory (OIT)", "description": "외재적 동기의 내면화 과정을 연속선으로 설명하는 하위 이론"},
+      {"name_ko": "기본 심리 욕구이론", "name_en": "Basic Psychological Needs Theory (BPNT)", "description": "자율성, 유능감, 관계성의 충족과 심리적 안녕의 관계를 설명"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SDT의 3대 욕구: 자(자율성) + 유(유능감) + 관(관계성) = '자유관'",
+      "differential": "자기결정이론(3가지 기본 욕구)과 욕구위계이론(5단계 위계)을 비교",
+      "key_point": "핵심은 동기의 양(얼마나)이 아니라 질(얼마나 자율적인가)이다",
+      "common_mistake": "자기결정이론이 외재적 동기를 전부 부정한다고 오해 — 외재적 동기도 내면화 수준에 따라 긍정적일 수 있다"
+    }
+  },
+  {
+    "id": "MOTIV_OVERJUST_020",
+    "terminology": "과잉정당화효과 (Overjustification Effect)",
+    "terminology_ko": "과잉정당화효과",
+    "terminology_en": "Overjustification Effect",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "원래 내재적으로 동기화된 활동에 외부 보상을 제공하면, 보상 제거 후 해당 활동에 대한 내재적 동기가 감소하는 현상. 행동의 원인을 내적 흥미에서 외적 보상으로 재귀인하기 때문에 발생한다.",
+    "definition_en": "The phenomenon where providing external rewards for an intrinsically motivated activity decreases intrinsic motivation after the reward is removed, because the person re-attributes the cause of behavior from internal interest to external reward.",
+    "significance": "교육 현장에서의 보상 사용에 대한 중요한 시사점을 제공한다. 레퍼 등의 '마커펜 연구'가 대표적이며, 보상의 역설(paradox of reward)로 불린다.",
+    "key_researchers": [
+      {"name_ko": "마크 레퍼", "name_en": "Mark Lepper", "contribution": "마커펜 연구(아이들에게 그림 그리기 보상)를 통해 과잉정당화효과를 실증"},
+      {"name_ko": "에드워드 데시", "name_en": "Edward Deci", "contribution": "퍼즐 실험을 통해 금전 보상이 내재적 동기를 감소시킴을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내재적 동기", "name_en": "Intrinsic Motivation", "id": "MOTIV_INTMOT_007"},
+      {"name_ko": "외재적 동기", "name_en": "Extrinsic Motivation", "id": "MOTIV_EXTMOT_008"},
+      {"name_ko": "자기결정이론", "name_en": "Self-Determination Theory", "id": "MOTIV_SDT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과잉정당화 = '과하게 정당한 이유를 붙이면' 원래의 즐거움이 사라진다",
+      "differential": "과잉정당화효과는 '기대된 유형적 보상'에서 주로 발생 — 예상치 못한 보상이나 칭찬은 해당 안 됨",
+      "key_point": "레퍼의 마커펜 연구: 그림 그리기를 좋아하는 아이들에게 상을 약속하자, 나중에 상 없이는 그림을 덜 그리게 됨",
+      "common_mistake": "모든 외적 보상이 내재적 동기를 감소시킨다고 오해 — 예기치 않은 보상이나 구두 칭찬은 내재적 동기를 오히려 증가시킬 수 있다"
+    }
+  },
+  {
+    "id": "MOTIV_YD_021",
+    "terminology": "여키스-도슨 법칙 (Yerkes-Dodson Law)",
+    "terminology_ko": "여키스-도슨 법칙",
+    "terminology_en": "Yerkes-Dodson Law",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "각성 수준과 수행 간의 관계를 나타내는 법칙. 적절한 수준의 각성에서 수행이 최고이며(역U자 곡선), 과제 난이도에 따라 최적 각성 수준이 달라진다. 쉬운 과제는 높은 각성, 어려운 과제는 낮은 각성에서 최적 수행이 나온다.",
+    "definition_en": "A law describing the relationship between arousal and performance as an inverted U-curve: performance peaks at moderate arousal levels. The optimal arousal level varies with task difficulty — easy tasks benefit from higher arousal, while difficult tasks require lower arousal.",
+    "significance": "시험 불안, 스포츠 수행, 직무 스트레스 등 다양한 맥락에서 각성과 수행의 관계를 설명하는 데 널리 활용되는 기본 원리이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 여키스", "name_en": "Robert Yerkes", "contribution": "도슨과 함께 쥐 실험을 통해 각성-수행 관계를 발견 (1908)"},
+      {"name_ko": "존 도슨", "name_en": "John Dodson", "contribution": "여키스와 함께 과제 난이도에 따른 최적 각성 수준 차이를 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "각성이론", "name_en": "Arousal Theory", "id": "MOTIV_AROUSAL_017"},
+      {"name_ko": "추동감소이론", "name_en": "Drive-Reduction Theory", "id": "MOTIV_DRT_003"},
+      {"name_ko": "성취동기", "name_en": "Achievement Motivation", "id": "MOTIV_ACHMOT_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역U자 곡선: 각성 너무 낮으면(졸림) ↓수행, 적당하면 ↑최고 수행, 너무 높으면(패닉) ↓수행",
+      "differential": "역U자 곡선의 정점은 과제 난이도에 따라 이동한다는 점이 핵심 구분",
+      "key_point": "어려운 과제일수록 최적 각성 수준은 낮고, 쉬운 과제일수록 최적 각성 수준은 높다",
+      "common_mistake": "최적 각성 수준이 항상 '중간'이라고 오해 — 과제 특성에 따라 최적점이 달라진다"
+    }
+  },
+  {
+    "id": "MOTIV_OBESITY_022",
+    "terminology": "비만 (Obesity)",
+    "terminology_ko": "비만",
+    "terminology_en": "Obesity",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "체질량지수(BMI)가 30 이상인 상태로, 유전, 신경화학(렙틴·그렐린), 심리적 요인(정서적 식이), 환경적 요인(식품 접근성)이 복합적으로 작용하여 발생한다.",
+    "definition_en": "A condition defined by a BMI of 30 or above, resulting from a complex interaction of genetic factors, neurochemistry (leptin, ghrelin), psychological factors (emotional eating), and environmental factors (food availability).",
+    "significance": "동기심리학에서 배고픔의 생리적·심리적 조절 실패를 보여주는 주요 주제이다. 체중설정점 이론, 외부신호이론 등과 연결된다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 샤흐터", "name_en": "Stanley Schachter", "contribution": "비만의 외부성 가설(externality hypothesis) 제안 — 비만인은 외부 음식 단서에 더 민감"},
+      {"name_ko": "제프리 프리드먼", "name_en": "Jeffrey Friedman", "contribution": "렙틴(leptin) 호르몬 발견으로 체중 조절의 생물학적 기제 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "체중설정점", "name_en": "Set Point Theory", "id": "MOTIV_SETPT_023"},
+      {"name_ko": "섭식장애", "name_en": "Eating Disorders", "id": "MOTIV_EATING_016"},
+      {"name_ko": "항상성", "name_en": "Homeostasis", "id": "MOTIV_HOMEO_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비만의 다요인 모델: 유전 × 호르몬(렙틴·그렐린) × 심리(정서적 식이) × 환경(식품 접근성)",
+      "differential": "비만(BMI 30+, 의학적 상태)과 섭식장애(정신 장애, 폭식장애 등)를 구분",
+      "key_point": "렙틴(포만 신호)과 그렐린(배고픔 신호)의 역할을 기억할 것",
+      "common_mistake": "비만이 단순히 의지력 부족 때문이라고 오해 — 유전, 호르몬, 환경의 복합 요인이다"
+    }
+  },
+  {
+    "id": "MOTIV_SETPT_023",
+    "terminology": "체중설정점 (Set Point Theory)",
+    "terminology_ko": "체중설정점",
+    "terminology_en": "Set Point Theory",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "신체에 유전적으로 결정된 기본 체중 범위(설정점)가 있어, 시상하부가 대사율과 식욕을 조절하여 이 범위를 유지하려 한다는 이론. 다이어트 후 체중이 다시 돌아오는 현상을 설명한다.",
+    "definition_en": "A theory proposing that the body has a genetically predetermined weight range (set point), and the hypothalamus regulates metabolism and appetite to maintain this range. Explains why weight tends to return to baseline after dieting.",
+    "significance": "다이어트의 장기적 실패와 요요 현상을 설명하는 생물학적 기제로, 비만 치료 전략 수립에 중요한 시사점을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "리처드 키시", "name_en": "Richard Keesey", "contribution": "동물 실험을 통해 체중설정점 이론의 경험적 근거를 제공"},
+      {"name_ko": "테리 파울리", "name_en": "Terry Powley", "contribution": "시상하부의 체중 조절 기전과 설정점 개념을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "항상성", "name_en": "Homeostasis", "id": "MOTIV_HOMEO_004"},
+      {"name_ko": "비만", "name_en": "Obesity", "id": "MOTIV_OBESITY_022"},
+      {"name_ko": "섭식장애", "name_en": "Eating Disorders", "id": "MOTIV_EATING_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "설정점 = 체내 체중 '온도계' → 설정 온도처럼 신체가 특정 체중을 유지하려 함",
+      "differential": "설정점이론(유전적 고정)과 안정점이론(settling point, 환경과 상호작용하여 변동 가능)을 비교",
+      "key_point": "시상하부가 대사율과 식욕을 조절하여 설정점을 유지한다",
+      "common_mistake": "설정점이 절대 변하지 않는다고 오해 — 장기적 생활 습관 변화로 어느 정도 조정 가능하다는 안정점 이론도 있다"
+    }
+  },
+  {
+    "id": "MOTIV_SEXMOT_024",
+    "terminology": "성동기 (Sexual Motivation)",
+    "terminology_ko": "성동기",
+    "terminology_en": "Sexual Motivation",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "성적 행동을 유발하고 방향 짓는 동기. 생물학적 요인(호르몬: 테스토스테론, 에스트로겐), 심리적 요인(성적 환상, 자극에 대한 인지적 평가), 사회문화적 요인(성 규범, 가치관)이 복합적으로 작용한다.",
+    "definition_en": "The motivation that drives and directs sexual behavior, involving a complex interaction of biological factors (hormones: testosterone, estrogen), psychological factors (sexual fantasies, cognitive appraisal), and sociocultural factors (sexual norms, values).",
+    "significance": "생존 동기(배고픔, 갈증)와 달리 생리적 결핍이 아니더라도 발생하는 특수한 동기로, 인간의 성적 행동은 호르몬 외에 심리적·문화적 요인에 크게 영향받는다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 마스터스", "name_en": "William Masters", "contribution": "존슨과 함께 인간 성 반응 주기(흥분→고조→절정→해소)를 과학적으로 연구"},
+      {"name_ko": "버지니아 존슨", "name_en": "Virginia Johnson", "contribution": "마스터스와 함께 성 반응에 대한 최초의 체계적 실험 연구 수행"},
+      {"name_ko": "앨프리드 킨제이", "name_en": "Alfred Kinsey", "contribution": "대규모 설문 조사를 통해 인간 성행동의 다양성을 과학적으로 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "호르몬과 동기", "name_en": "Hormones and Motivation", "id": "MOTIV_HORMONE_030"},
+      {"name_ko": "동기", "name_en": "Motivation", "id": "MOTIV_MOTIV_001"},
+      {"name_ko": "각성이론", "name_en": "Arousal Theory", "id": "MOTIV_AROUSAL_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성 반응 주기 4단계: 흥분(Excitement) → 고조(Plateau) → 절정(Orgasm) → 해소(Resolution) = 'EPOR'",
+      "differential": "성동기는 항상성(homeostatic) 동기가 아닌 비항상성(non-homeostatic) 동기이다",
+      "key_point": "인간의 성동기는 동물과 달리 호르몬보다 심리적·사회적 요인의 영향이 크다",
+      "common_mistake": "성동기가 순전히 생물학적이라고 오해 — 인간의 성동기는 인지, 학습, 문화적 요인에 크게 좌우된다"
+    }
+  },
+  {
+    "id": "MOTIV_AFFIL_025",
+    "terminology": "소속동기 (Need for Affiliation)",
+    "terminology_ko": "소속동기",
+    "terminology_en": "Need for Affiliation",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "타인과 친밀한 관계를 형성하고 유지하며, 사회적 집단에 소속되고자 하는 욕구. 사회적 고립은 신체적·심리적 건강에 부정적 영향을 미친다.",
+    "definition_en": "The desire to form and maintain close interpersonal relationships and belong to social groups. Social isolation has detrimental effects on both physical and psychological health.",
+    "significance": "매슬로의 욕구위계에서 3단계(소속과 사랑의 욕구)에 해당하며, 볼비의 애착이론, 소속 욕구의 진화적 기원과도 연결된다. 사회적 배제 연구에서 핵심 변인이다.",
+    "key_researchers": [
+      {"name_ko": "헨리 머레이", "name_en": "Henry Murray", "contribution": "소속 욕구(nAff)를 인간의 기본 심리적 욕구 목록에 포함"},
+      {"name_ko": "로이 바우마이스터", "name_en": "Roy Baumeister", "contribution": "소속 욕구(need to belong)가 인간의 근본적 동기임을 이론적으로 정립"},
+      {"name_ko": "마크 리어리", "name_en": "Mark Leary", "contribution": "바우마이스터와 함께 소속 욕구의 보편성과 중요성을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "욕구위계이론", "name_en": "Hierarchy of Needs", "id": "MOTIV_HIERARCHY_005"},
+      {"name_ko": "성취동기", "name_en": "Achievement Motivation", "id": "MOTIV_ACHMOT_015"},
+      {"name_ko": "자기결정이론", "name_en": "Self-Determination Theory", "id": "MOTIV_SDT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소속동기 = '어딘가에 속하고 싶은' 마음 → 매슬로 3단계, 자기결정이론의 관계성",
+      "differential": "소속동기(관계 형성 욕구)와 성취동기(탁월성 추구)와 권력동기(영향력 추구)를 구분 (머레이/맥클리랜드)",
+      "key_point": "소속 욕구가 좌절되면 불안, 우울, 공격성이 증가한다는 연구 결과가 있다",
+      "common_mistake": "소속동기가 단순한 외향성이나 사교성과 같다고 오해 — 내향적인 사람도 소속 욕구를 가진다"
+    }
+  },
+  {
+    "id": "MOTIV_FFH_026",
+    "terminology": "안면피드백가설 (Facial Feedback Hypothesis)",
+    "terminology_ko": "안면피드백가설",
+    "terminology_en": "Facial Feedback Hypothesis",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "얼굴 표정이 정서 경험에 영향을 미친다는 가설. 웃는 표정을 지으면 실제로 기분이 좋아지고, 찡그리면 기분이 나빠질 수 있다. 제임스-랑게 이론의 연장선에 있다.",
+    "definition_en": "The hypothesis that facial expressions can influence emotional experience. Smiling can make you feel happier, while frowning can worsen your mood. An extension of the James-Lange theory.",
+    "significance": "신체 반응이 정서에 미치는 영향을 보여주는 대표적 연구 주제이다. 스트랙의 펜 물기 실험이 유명하지만, 재현 논쟁이 있었다.",
+    "key_researchers": [
+      {"name_ko": "실반 톰킨스", "name_en": "Silvan Tomkins", "contribution": "안면 피드백의 이론적 기초를 제안한 정서-표정 연구의 선구자"},
+      {"name_ko": "프리츠 스트랙", "name_en": "Fritz Strack", "contribution": "펜 물기 실험(1988)으로 안면피드백가설을 실험적으로 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "제임스-랑게 이론", "name_en": "James-Lange Theory", "id": "MOTIV_JL_011"},
+      {"name_ko": "기본 정서", "name_en": "Basic Emotions", "id": "MOTIV_BASICEMO_014"},
+      {"name_ko": "미세표정", "name_en": "Microexpression", "id": "MOTIV_MICROEXP_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "안면피드백 = 얼굴이 뇌에 피드백 → '웃으면 복이 온다'의 심리학적 근거",
+      "differential": "안면피드백가설(표정→정서)과 정서 표현 규칙(사회적 규칙에 따라 표정 조절)을 구분",
+      "key_point": "스트랙의 펜 물기 실험: 이빨로 펜을 무는 그룹(웃는 근육 활성화)이 만화를 더 재미있다고 평가",
+      "common_mistake": "안면피드백효과가 완전히 입증된 사실이라고 오해 — 대규모 재현 연구에서 논쟁이 지속되고 있다"
+    }
+  },
+  {
+    "id": "MOTIV_COGAPP_027",
+    "terminology": "정서의 인지적 평가 (Cognitive Appraisal of Emotion)",
+    "terminology_ko": "정서의 인지적 평가",
+    "terminology_en": "Cognitive Appraisal of Emotion",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "정서는 사건 자체가 아니라 사건에 대한 개인의 인지적 평가(해석)에 의해 결정된다는 이론. 라자루스는 1차 평가(위협 여부)와 2차 평가(대처 자원)를 구분했다.",
+    "definition_en": "A theory proposing that emotions are determined not by events themselves but by the individual's cognitive appraisal (interpretation) of events. Lazarus distinguished primary appraisal (threat assessment) from secondary appraisal (coping resources).",
+    "significance": "정서에 인지의 역할을 강조한 대표적 이론으로, 인지행동치료(CBT)의 이론적 기반이 된다. 자이언스의 정서 선행론(감정이 인지보다 먼저)과 논쟁을 벌였다.",
+    "key_researchers": [
+      {"name_ko": "리처드 라자루스", "name_en": "Richard Lazarus", "contribution": "인지적 평가이론을 정립하고 1차/2차 평가를 구분"},
+      {"name_ko": "로버트 자이언스", "name_en": "Robert Zajonc", "contribution": "정서가 인지 없이도 발생할 수 있다고 주장하여 라자루스와 논쟁 (affective primacy)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "샤흐터-싱어 이론", "name_en": "Schachter-Singer Theory", "id": "MOTIV_SS_013"},
+      {"name_ko": "정서", "name_en": "Emotion", "id": "MOTIV_EMOTION_010"},
+      {"name_ko": "정서지능", "name_en": "Emotional Intelligence", "id": "MOTIV_EI_029"}
+    ],
+    "sub_types": [
+      {"name_ko": "1차 평가", "name_en": "Primary Appraisal", "description": "사건이 자신에게 위협적인지, 유익한지, 무관한지를 평가"},
+      {"name_ko": "2차 평가", "name_en": "Secondary Appraisal", "description": "자신의 대처 자원과 능력이 충분한지를 평가"},
+      {"name_ko": "재평가", "name_en": "Reappraisal", "description": "새로운 정보에 기반하여 초기 평가를 수정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "라자루스: 사건 → '이게 위험한가?'(1차) → '내가 대처할 수 있나?'(2차) → 정서 결정",
+      "differential": "라자루스(인지가 정서에 선행)와 자이언스(정서가 인지에 선행)의 논쟁을 이해",
+      "key_point": "같은 사건도 인지적 평가에 따라 다른 정서를 유발한다 — '해석이 정서를 결정한다'",
+      "common_mistake": "인지적 평가가 항상 의식적이고 느린 과정이라고 오해 — 자동적이고 무의식적인 평가도 가능하다"
+    }
+  },
+  {
+    "id": "MOTIV_MICROEXP_028",
+    "terminology": "미세표정 (Microexpression)",
+    "terminology_ko": "미세표정",
+    "terminology_en": "Microexpression",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "1/25초에서 1/5초 사이에 나타났다 사라지는 매우 짧은 얼굴 표정으로, 감추려는 진짜 감정을 무의식적으로 드러낸다. 의식적으로 통제하기 어렵다.",
+    "definition_en": "A very brief facial expression lasting between 1/25 and 1/5 of a second that reveals a concealed emotion involuntarily. It is extremely difficult to consciously control.",
+    "significance": "거짓말 탐지, 범죄 수사, 임상 면담 등에서 비언어적 단서로 주목받는다. 다만, 미세표정만으로 거짓말을 정확히 탐지할 수 있다는 주장에는 과학적 논쟁이 있다.",
+    "key_researchers": [
+      {"name_ko": "폴 에크먼", "name_en": "Paul Ekman", "contribution": "미세표정 연구의 선구자, FACS(얼굴 움직임 부호화 체계) 개발"},
+      {"name_ko": "월리스 프리슨", "name_en": "Wallace Friesen", "contribution": "에크먼과 함께 FACS를 공동 개발하고 미세표정을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "기본 정서", "name_en": "Basic Emotions", "id": "MOTIV_BASICEMO_014"},
+      {"name_ko": "안면피드백가설", "name_en": "Facial Feedback Hypothesis", "id": "MOTIV_FFH_026"},
+      {"name_ko": "정서", "name_en": "Emotion", "id": "MOTIV_EMOTION_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "미세표정 = '마이크로(micro) + 표정' → 1초도 안 되는 순간 나타나는 진짜 감정",
+      "differential": "미세표정(무의식적, 1/25~1/5초)과 일반 표정(의식적 조절 가능, 더 오래 지속)을 구분",
+      "key_point": "FACS(Facial Action Coding System)는 얼굴 근육의 움직임을 체계적으로 분류하는 도구이다",
+      "common_mistake": "미세표정 읽기로 확실하게 거짓말을 탐지할 수 있다고 오해 — 맥락 없이 표정만으로는 정확도가 제한적이다"
+    }
+  },
+  {
+    "id": "MOTIV_EI_029",
+    "terminology": "정서지능 (Emotional Intelligence)",
+    "terminology_ko": "정서지능",
+    "terminology_en": "Emotional Intelligence",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "자신과 타인의 정서를 정확히 인식하고, 이해하며, 조절하고, 효과적으로 활용하는 능력. 살로비와 메이어가 학술적으로 정의하고, 골먼이 대중화시켰다.",
+    "definition_en": "The ability to accurately perceive, understand, regulate, and effectively utilize emotions in oneself and others. Academically defined by Salovey and Mayer, and popularized by Goleman.",
+    "significance": "전통적 지능(IQ)만으로는 설명하지 못하는 사회적 성공, 리더십, 대인관계 능력을 설명하는 개념으로, 교육과 조직 분야에서 큰 관심을 받고 있다.",
+    "key_researchers": [
+      {"name_ko": "피터 살로비", "name_en": "Peter Salovey", "contribution": "메이어와 함께 정서지능의 학술적 개념을 최초 제안 (1990)"},
+      {"name_ko": "존 메이어", "name_en": "John Mayer", "contribution": "살로비와 함께 정서지능의 4가지 영역(인식, 활용, 이해, 조절) 모델 제안"},
+      {"name_ko": "대니얼 골먼", "name_en": "Daniel Goleman", "contribution": "《Emotional Intelligence》(1995) 출간으로 정서지능 개념을 대중화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정서", "name_en": "Emotion", "id": "MOTIV_EMOTION_010"},
+      {"name_ko": "정서의 인지적 평가", "name_en": "Cognitive Appraisal of Emotion", "id": "MOTIV_COGAPP_027"},
+      {"name_ko": "미세표정", "name_en": "Microexpression", "id": "MOTIV_MICROEXP_028"}
+    ],
+    "sub_types": [
+      {"name_ko": "정서 인식", "name_en": "Perceiving Emotions", "description": "자신과 타인의 정서를 정확하게 인식하는 능력"},
+      {"name_ko": "정서 활용", "name_en": "Using Emotions", "description": "사고와 문제 해결에 정서를 효과적으로 활용하는 능력"},
+      {"name_ko": "정서 이해", "name_en": "Understanding Emotions", "description": "정서의 의미, 변화, 복합성을 이해하는 능력"},
+      {"name_ko": "정서 조절", "name_en": "Managing Emotions", "description": "자신과 타인의 정서를 적절히 조절하는 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "정서지능 4영역: 인(인식) → 활(활용) → 이(이해) → 조(조절) = '인활이조'",
+      "differential": "살로비-메이어 모델(능력 기반, 4영역)과 골먼 모델(혼합 모델, 5영역)의 차이를 구분",
+      "key_point": "정서지능은 IQ와 독립적으로 학업 성취, 직무 성과, 대인관계 질을 예측한다",
+      "common_mistake": "정서지능이 IQ보다 중요하다고 과장하는 오류 — 둘 다 중요하며 상호보완적이다"
+    }
+  },
+  {
+    "id": "MOTIV_HORMONE_030",
+    "terminology": "호르몬과 동기 (Hormones and Motivation)",
+    "terminology_ko": "호르몬과 동기",
+    "terminology_en": "Hormones and Motivation",
+    "category": "MOTIV",
+    "category_name": "동기와 정서 (Motivation & Emotion)",
+    "definition": "호르몬은 내분비계를 통해 분비되어 동기와 행동에 영향을 미치는 화학적 전달 물질이다. 렙틴(포만), 그렐린(배고픔), 테스토스테론(성동기/공격성), 옥시토신(사회적 유대), 코르티솔(스트레스 반응) 등이 동기의 생물학적 기반을 형성한다.",
+    "definition_en": "Hormones are chemical messengers secreted through the endocrine system that influence motivation and behavior. Leptin (satiety), ghrelin (hunger), testosterone (sexual motivation/aggression), oxytocin (social bonding), and cortisol (stress response) form the biological basis of motivation.",
+    "significance": "동기의 생물학적 기반을 이해하는 데 필수적인 주제이다. 호르몬은 동기를 직접 유발하기보다 행동의 역치(threshold)를 조절하여 동기에 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "제프리 프리드먼", "name_en": "Jeffrey Friedman", "contribution": "렙틴(leptin) 발견으로 체중 조절의 호르몬 기전 규명"},
+      {"name_ko": "코지마 마사유키", "name_en": "Masayuki Kojima", "contribution": "그렐린(ghrelin) 발견으로 배고픔의 호르몬 조절 기전 규명"},
+      {"name_ko": "수 카터", "name_en": "C. Sue Carter", "contribution": "옥시토신과 사회적 유대/짝결합(pair bonding)의 관계를 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "성동기", "name_en": "Sexual Motivation", "id": "MOTIV_SEXMOT_024"},
+      {"name_ko": "비만", "name_en": "Obesity", "id": "MOTIV_OBESITY_022"},
+      {"name_ko": "항상성", "name_en": "Homeostasis", "id": "MOTIV_HOMEO_004"}
+    ],
+    "sub_types": [
+      {"name_ko": "렙틴", "name_en": "Leptin", "description": "지방세포에서 분비되어 포만감을 신호하고 음식 섭취를 억제하는 호르몬"},
+      {"name_ko": "그렐린", "name_en": "Ghrelin", "description": "위에서 분비되어 배고픔을 신호하고 음식 섭취를 촉진하는 호르몬"},
+      {"name_ko": "테스토스테론", "name_en": "Testosterone", "description": "성동기, 공격성, 지배 행동에 관여하는 성호르몬"},
+      {"name_ko": "옥시토신", "name_en": "Oxytocin", "description": "사회적 유대, 신뢰, 애착에 관여하는 호르몬"},
+      {"name_ko": "코르티솔", "name_en": "Cortisol", "description": "스트레스 반응에 관여하며 에너지 동원을 촉진하는 호르몬"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "주요 호르몬: 렙틴(배부름) ↔ 그렐린(배고픔), 옥시토신(사랑), 테스토스테론(성/공격), 코르티솔(스트레스)",
+      "differential": "렙틴(포만 신호, 지방세포)과 그렐린(배고픔 신호, 위)의 반대 기능을 구분",
+      "key_point": "호르몬은 동기를 '유발'하기보다 행동의 역치를 '조절'한다",
+      "common_mistake": "테스토스테론이 공격성을 직접 '유발'한다고 오해 — 실제로는 사회적 맥락에서 지배 행동의 역치를 낮추는 역할을 한다"
+    }
+  }
+]

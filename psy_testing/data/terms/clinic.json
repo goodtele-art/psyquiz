@@ -1,0 +1,773 @@
+[
+  {
+    "id": "CLINIC_CINT_001",
+    "terminology": "임상면접 (Clinical Interview)",
+    "terminology_ko": "임상면접",
+    "terminology_en": "Clinical Interview",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "임상가가 내담자와 직접 대면하여 심리적 문제, 병력, 생활사 등의 정보를 수집하고 진단적 판단을 내리기 위해 수행하는 체계적 면담 과정이다.",
+    "definition_en": "A systematic face-to-face interaction between a clinician and a client designed to gather information about psychological problems, history, and life circumstances for diagnostic decision-making.",
+    "significance": "심리평가의 가장 기본적이고 필수적인 방법으로, 검사 결과만으로는 파악하기 어려운 맥락적 정보와 행동 관찰을 제공하며 모든 심리평가의 출발점이 된다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "내담자 중심 면접 기법을 개발하여 공감적 경청과 무조건적 긍정적 존중의 원리를 확립"},
+      {"name_ko": "게리 그로스-마르나", "name_en": "Gary Groth-Marnat", "contribution": "심리평가에서 면접의 통합적 역할과 체계적 절차를 정리하여 임상면접의 표준화에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "CLINIC_STRI_002"},
+      {"name_ko": "반구조화 면담", "name_en": "Semi-Structured Interview", "id": "CLINIC_SEMI_003"},
+      {"name_ko": "비구조화 면담", "name_en": "Unstructured Interview", "id": "CLINIC_UNST_004"},
+      {"name_ko": "라포 형성", "name_en": "Rapport Building", "id": "CLINIC_RAPP_013"}
+    ],
+    "sub_types": [
+      {"name_ko": "접수면접", "name_en": "Intake Interview", "definition": "초기 의뢰 사유와 기본 정보를 수집하는 첫 면접"},
+      {"name_ko": "진단면접", "name_en": "Diagnostic Interview", "definition": "특정 진단 기준에 따라 정신장애를 평가하는 면접"},
+      {"name_ko": "위기면접", "name_en": "Crisis Interview", "definition": "자살 시도 등 응급 상황에서 즉각적 개입을 위한 면접"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "임상면접 = 심리평가의 '출발점', 대면 + 정보수집 + 진단판단",
+      "differential": "임상면접은 직접 대면 상호작용이고, 자기보고식 검사는 표준화된 질문지에 의한 간접적 평가이다.",
+      "key_point": "면접은 단순한 대화가 아니라 목적지향적이고 체계적인 전문적 활동이다.",
+      "common_mistake": "임상면접을 비공식적인 대화로 오해하는 것 — 실제로는 목적과 구조를 갖춘 전문적 평가 활동이다."
+    }
+  },
+  {
+    "id": "CLINIC_STRI_002",
+    "terminology": "구조화 면담 (Structured Interview)",
+    "terminology_ko": "구조화 면담",
+    "terminology_en": "Structured Interview",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "미리 정해진 질문 목록, 질문 순서, 채점 기준을 엄격히 따르는 표준화된 면담 형식으로, 면접자 간 신뢰도를 최대화하기 위해 설계되었다. 대표적으로 SCID(Structured Clinical Interview for DSM)가 있다.",
+    "definition_en": "A standardized interview format with predetermined questions, fixed order, and explicit scoring criteria designed to maximize inter-rater reliability. The SCID (Structured Clinical Interview for DSM) is a prominent example.",
+    "significance": "비구조화 면담의 낮은 신뢰도 문제를 해결하기 위해 개발되었으며, 연구와 임상 장면에서 진단의 일관성을 확보하는 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III 개발을 주도하고 구조화 면담의 필요성을 제기하여 진단 신뢰도 향상에 기여"},
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "SCID-5를 개발하여 DSM-5 진단 기준에 맞는 구조화 면담 체계를 확립"},
+      {"name_ko": "재닛 윌리엄스", "name_en": "Janet Williams", "contribution": "SCID의 초기 버전 개발에 참여하여 구조화 면담의 표준화에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반구조화 면담", "name_en": "Semi-Structured Interview", "id": "CLINIC_SEMI_003"},
+      {"name_ko": "비구조화 면담", "name_en": "Unstructured Interview", "id": "CLINIC_UNST_004"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "CLINIC_CINT_001"},
+      {"name_ko": "진단적 면담", "name_en": "Diagnostic Interview", "id": "CLINIC_DIAG_015"}
+    ],
+    "sub_types": [
+      {"name_ko": "SCID-5-CV", "name_en": "SCID-5 Clinician Version", "definition": "DSM-5 기반 주요 정신장애를 진단하기 위한 임상가용 구조화 면담"},
+      {"name_ko": "SCID-5-PD", "name_en": "SCID-5 Personality Disorders", "definition": "DSM-5 성격장애 진단을 위한 구조화 면담"},
+      {"name_ko": "CIDI", "name_en": "Composite International Diagnostic Interview", "definition": "WHO가 개발한 역학조사용 구조화 면담 도구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "구조화 = 정해진 질문 + 정해진 순서 + 정해진 채점 = 높은 신뢰도",
+      "differential": "구조화 면담은 질문과 순서가 고정되고, 반구조화 면담은 핵심 질문은 있으나 탐색적 질문이 허용된다.",
+      "key_point": "SCID(Structured Clinical Interview for DSM)가 가장 대표적인 구조화 면담 도구이다.",
+      "common_mistake": "구조화 면담이 유연성이 전혀 없다고 오해하는 것 — SCID도 추가 탐색(skip-out) 구조를 포함한다."
+    }
+  },
+  {
+    "id": "CLINIC_SEMI_003",
+    "terminology": "반구조화 면담 (Semi-Structured Interview)",
+    "terminology_ko": "반구조화 면담",
+    "terminology_en": "Semi-Structured Interview",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "핵심 질문과 평가 영역은 미리 정해져 있으나, 면접자가 내담자의 반응에 따라 추가 질문이나 탐색적 질문을 융통성 있게 할 수 있는 면담 형식이다.",
+    "definition_en": "An interview format with predetermined core questions and assessment domains, but allowing the interviewer flexibility to ask follow-up or exploratory questions based on the client's responses.",
+    "significance": "구조화 면담의 표준화된 신뢰도와 비구조화 면담의 임상적 유연성을 균형 있게 결합한 형식으로, 임상 실제에서 가장 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 쉬한", "name_en": "David Sheehan", "contribution": "MINI(Mini International Neuropsychiatric Interview)를 개발하여 효율적인 반구조화 진단면담 도구를 제공"},
+      {"name_ko": "장 이노걸", "name_en": "Jean Endicott", "contribution": "SADS(Schedule for Affective Disorders and Schizophrenia)를 공동개발하여 반구조화 면담의 초기 모델을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "CLINIC_STRI_002"},
+      {"name_ko": "비구조화 면담", "name_en": "Unstructured Interview", "id": "CLINIC_UNST_004"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "CLINIC_CINT_001"},
+      {"name_ko": "정보 수집", "name_en": "Information Gathering", "id": "CLINIC_INFO_014"}
+    ],
+    "sub_types": [
+      {"name_ko": "MINI", "name_en": "Mini International Neuropsychiatric Interview", "definition": "주요 정신장애를 약 15~20분 내에 선별하는 간편 반구조화 면담"},
+      {"name_ko": "SADS", "name_en": "Schedule for Affective Disorders and Schizophrenia", "definition": "기분장애와 조현병 진단을 위한 초기 반구조화 면담 도구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "반구조화 = 핵심 질문(구조) + 추가 탐색(유연) = 가장 실용적",
+      "differential": "반구조화 면담은 핵심 틀이 있으면서 유연하고, 비구조화 면담은 사전 틀이 전혀 없다.",
+      "key_point": "임상 실제에서 가장 많이 사용되는 면담 형식이며, MINI가 대표적인 도구이다.",
+      "common_mistake": "반구조화 면담을 구조화 면담의 간략한 버전으로 오해하는 것 — 실제로는 유연성이라는 질적 차이가 있다."
+    }
+  },
+  {
+    "id": "CLINIC_UNST_004",
+    "terminology": "비구조화 면담 (Unstructured Interview)",
+    "terminology_ko": "비구조화 면담",
+    "terminology_en": "Unstructured Interview",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "사전에 정해진 질문 목록이나 순서 없이, 면접자가 내담자의 반응과 임상적 판단에 따라 자유롭게 질문하고 탐색하는 면담 형식이다.",
+    "definition_en": "An interview format without predetermined questions or fixed order, in which the interviewer freely explores topics based on the client's responses and clinical judgment.",
+    "significance": "내담자 고유의 경험과 맥락을 깊이 있게 탐색할 수 있지만, 면접자 간 신뢰도가 낮고 확증 편향에 취약하여 진단 목적보다는 초기 탐색이나 치료적 맥락에서 주로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "비지시적 면접 기법을 체계화하여 내담자 중심의 비구조화 면담 접근을 발전시킴"},
+      {"name_ko": "해리 설리번", "name_en": "Harry Stack Sullivan", "contribution": "대인관계적 면접 이론을 발전시켜 면담에서의 관계적 역동을 강조"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "CLINIC_STRI_002"},
+      {"name_ko": "반구조화 면담", "name_en": "Semi-Structured Interview", "id": "CLINIC_SEMI_003"},
+      {"name_ko": "라포 형성", "name_en": "Rapport Building", "id": "CLINIC_RAPP_013"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "CLINIC_JUDG_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비구조화 = 자유로운 탐색, 최대 유연성, 최저 신뢰도",
+      "differential": "비구조화 면담은 면접자 재량이 최대이고, 구조화 면담은 면접자 재량이 최소이다.",
+      "key_point": "임상적 유연성은 높지만, 확증 편향과 낮은 면접자 간 신뢰도가 주요 한계점이다.",
+      "common_mistake": "비구조화 면담이 '계획 없는' 면담이라고 생각하는 것 — 비구조화여도 목적의식과 전문성이 요구된다."
+    }
+  },
+  {
+    "id": "CLINIC_MSE_005",
+    "terminology": "정신상태검사 (Mental Status Examination, MSE)",
+    "terminology_ko": "정신상태검사",
+    "terminology_en": "Mental Status Examination",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "면접 시점에서 내담자의 외양, 행동, 기분, 정동, 사고 과정과 내용, 지각, 인지 기능, 병식, 판단력 등을 체계적으로 평가하는 임상 절차이다. 의학에서의 신체검사에 해당하는 정신의학적 평가이다.",
+    "definition_en": "A systematic clinical procedure for evaluating a client's appearance, behavior, mood, affect, thought process and content, perception, cognition, insight, and judgment at the time of the interview, analogous to a physical examination in medicine.",
+    "significance": "정신건강 전문가가 현재 정신 기능의 전반적 상태를 신속하게 평가하는 표준화된 틀을 제공하며, 진단과 치료 계획의 핵심 기초자료가 된다.",
+    "key_researchers": [
+      {"name_ko": "아돌프 마이어", "name_en": "Adolf Meyer", "contribution": "정신의학에서 체계적 정신상태검사의 틀을 확립하고 정신생물학적 접근을 주창"},
+      {"name_ko": "마샬 폴스타인", "name_en": "Marshal Folstein", "contribution": "간이정신상태검사(MMSE)를 개발하여 인지 기능의 표준화된 선별을 가능하게 함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "CLINIC_CINT_001"},
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "CLINIC_BOBS_006"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "CLINIC_JUDG_024"},
+      {"name_ko": "진단적 면담", "name_en": "Diagnostic Interview", "id": "CLINIC_DIAG_015"}
+    ],
+    "sub_types": [
+      {"name_ko": "외양과 행동", "name_en": "Appearance and Behavior", "definition": "복장, 위생, 자세, 눈맞춤, 정신운동 활동 등의 관찰 평가"},
+      {"name_ko": "사고 과정과 내용", "name_en": "Thought Process and Content", "definition": "사고의 논리성, 속도, 망상, 강박, 자살사고 등의 평가"},
+      {"name_ko": "기분과 정동", "name_en": "Mood and Affect", "definition": "주관적 감정 상태(기분)와 관찰된 정서 표현(정동)의 평가"},
+      {"name_ko": "인지와 병식", "name_en": "Cognition and Insight", "definition": "지남력, 기억력, 집중력, 병식과 판단력의 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "MSE = 외양, 행동, 기분/정동, 사고(과정+내용), 지각, 인지, 병식/판단력의 '현재 스냅샷'",
+      "differential": "MSE는 면접 '시점'의 정신 기능을 평가하고, 병력 청취는 '과거~현재'의 경과를 평가한다.",
+      "key_point": "MMSE(Mini-Mental State Examination)는 MSE의 인지 기능 영역만 간편하게 선별하는 도구이다.",
+      "common_mistake": "MSE(정신상태검사)와 MMSE(간이정신상태검사)를 혼동하는 것 — MSE는 포괄적 임상평가이고, MMSE는 인지 기능 선별 도구이다."
+    }
+  },
+  {
+    "id": "CLINIC_BOBS_006",
+    "terminology": "행동관찰 (Behavioral Observation)",
+    "terminology_ko": "행동관찰",
+    "terminology_en": "Behavioral Observation",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "자연적 또는 통제된 환경에서 개인의 행동을 체계적으로 관찰하고 기록하여 행동의 빈도, 강도, 지속시간, 맥락을 파악하는 평가 방법이다.",
+    "definition_en": "An assessment method involving systematic observation and recording of an individual's behavior in natural or controlled settings to determine the frequency, intensity, duration, and context of behavior.",
+    "significance": "자기보고에 의존하지 않고 실제 행동을 직접 측정하므로 자기보고의 왜곡을 보완하며, 특히 아동, 발달장애, 자기보고가 어려운 대상에서 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "B.F. 스키너", "name_en": "B.F. Skinner", "contribution": "조작적 조건화 이론에 기반한 행동 관찰과 기록의 과학적 방법론을 확립"},
+      {"name_ko": "시드니 비주", "name_en": "Sidney Bijou", "contribution": "아동 행동관찰에 응용행동분석 원리를 적용하여 발달적 행동평가의 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "체계적 행동관찰", "name_en": "Systematic Behavioral Observation", "id": "CLINIC_SYSO_018"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "CLINIC_BASS_007"},
+      {"name_ko": "빈도기록", "name_en": "Frequency Recording", "id": "CLINIC_FREQ_019"},
+      {"name_ko": "ABC 분석", "name_en": "ABC Analysis", "id": "CLINIC_ABC_021"}
+    ],
+    "sub_types": [
+      {"name_ko": "자연적 관찰", "name_en": "Naturalistic Observation", "definition": "일상 환경에서 행동을 있는 그대로 관찰하는 방법"},
+      {"name_ko": "통제된 관찰", "name_en": "Controlled Observation", "definition": "실험실이나 구조화된 상황에서 행동을 관찰하는 방법"},
+      {"name_ko": "참여 관찰", "name_en": "Participant Observation", "definition": "관찰자가 대상의 환경에 참여하면서 관찰하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동관찰 = 직접 보고 기록, 자기보고의 보완, FIDC(빈도-강도-지속시간-맥락)",
+      "differential": "행동관찰은 외현적 행동을 '직접' 측정하고, 자기보고식 평가는 내적 경험을 '간접' 측정한다.",
+      "key_point": "관찰자 편향, 반응성(관찰되는 것을 아는 효과), 관찰자 간 일치도가 주요 방법론적 쟁점이다.",
+      "common_mistake": "행동관찰이 항상 자연적 상황에서만 이루어진다고 생각하는 것 — 통제된 환경에서의 구조화된 관찰도 포함된다."
+    }
+  },
+  {
+    "id": "CLINIC_BASS_007",
+    "terminology": "행동평가 (Behavioral Assessment)",
+    "terminology_ko": "행동평가",
+    "terminology_en": "Behavioral Assessment",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "행동주의 원리에 기반하여 관찰 가능한 행동과 그 환경적 맥락을 체계적으로 평가하는 접근으로, 행동의 선행사건, 행동 자체, 결과를 분석하여 중재 계획을 수립한다.",
+    "definition_en": "A systematic approach based on behavioral principles to assess observable behavior and its environmental context, analyzing antecedents, behavior, and consequences to develop intervention plans.",
+    "significance": "전통적 성격 평가가 내적 특성에 초점을 두는 반면, 행동평가는 환경과 행동의 기능적 관계에 초점을 맞추어 구체적이고 측정 가능한 중재 목표를 설정할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "마빈 골드프리드", "name_en": "Marvin Goldfried", "contribution": "행동평가의 개념적 틀을 정립하고 전통적 평가와의 차이를 체계적으로 구분"},
+      {"name_ko": "미셀 허슨", "name_en": "Michel Hersen", "contribution": "행동평가의 방법론을 체계화하고 다양한 행동평가 기법의 표준화에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "CLINIC_BOBS_006"},
+      {"name_ko": "기능적 행동분석", "name_en": "Functional Behavioral Analysis", "id": "CLINIC_FBA_008"},
+      {"name_ko": "ABC 분석", "name_en": "ABC Analysis", "id": "CLINIC_ABC_021"},
+      {"name_ko": "자기감찰", "name_en": "Self-Monitoring", "id": "CLINIC_SMON_022"}
+    ],
+    "sub_types": [
+      {"name_ko": "행동면접", "name_en": "Behavioral Interview", "definition": "문제 행동의 선행요인, 결과, 유지 요인을 파악하기 위한 면담"},
+      {"name_ko": "행동 체크리스트", "name_en": "Behavioral Checklist", "definition": "특정 행동의 유무를 체계적으로 점검하는 평정 도구"},
+      {"name_ko": "역할놀이 평가", "name_en": "Role-Play Assessment", "definition": "모의 상황에서 행동 반응을 관찰하여 사회적 기술 등을 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동평가 = 관찰 가능 행동 + 환경 맥락 + 기능 분석 → 중재 계획",
+      "differential": "행동평가는 환경-행동 관계(기능)에 초점을 두고, 전통적 평가는 내적 특성(구조)에 초점을 둔다.",
+      "key_point": "SORC 모델(자극-유기체-반응-결과)이 행동평가의 핵심 분석 틀이다.",
+      "common_mistake": "행동평가가 단순히 행동을 '관찰'하는 것이라고 오해하는 것 — 실제로는 환경적 맥락에서 행동의 '기능'을 분석하는 것이다."
+    }
+  },
+  {
+    "id": "CLINIC_FBA_008",
+    "terminology": "기능적 행동분석 (Functional Behavioral Analysis, FBA)",
+    "terminology_ko": "기능적 행동분석",
+    "terminology_en": "Functional Behavioral Analysis",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "문제행동이 어떤 기능(목적)을 수행하는지를 파악하기 위해 선행사건, 행동, 결과의 관계를 체계적으로 분석하는 과정으로, 행동의 유지 원인을 규명하여 효과적 중재를 설계한다.",
+    "definition_en": "A systematic process of identifying the function (purpose) that a problem behavior serves by analyzing the relationships among antecedents, behavior, and consequences, used to design effective interventions based on behavioral maintenance factors.",
+    "significance": "문제행동의 표면적 형태가 아닌 기능을 이해함으로써 대체행동 교수 등 보다 효과적이고 윤리적인 중재를 가능하게 하며, IDEA 법안에 의해 미국 학교에서 의무화되었다.",
+    "key_researchers": [
+      {"name_ko": "브라이언 이와타", "name_en": "Brian Iwata", "contribution": "실험적 기능분석(functional analysis) 방법론을 개발하여 문제행동의 기능을 체계적으로 규명하는 절차를 확립"},
+      {"name_ko": "에드워드 카", "name_en": "Edward Carr", "contribution": "자해행동의 동기적 분석을 통해 행동의 기능적 등가 개념을 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "ABC 분석", "name_en": "ABC Analysis", "id": "CLINIC_ABC_021"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "CLINIC_BASS_007"},
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "CLINIC_BOBS_006"},
+      {"name_ko": "체계적 행동관찰", "name_en": "Systematic Behavioral Observation", "id": "CLINIC_SYSO_018"}
+    ],
+    "sub_types": [
+      {"name_ko": "간접 기능평가", "name_en": "Indirect Functional Assessment", "definition": "면접, 질문지, 평정척도를 통해 행동의 기능을 추정하는 방법"},
+      {"name_ko": "직접 관찰 기능평가", "name_en": "Descriptive Functional Assessment", "definition": "자연 환경에서 ABC 관찰을 통해 행동-환경 관계를 기술하는 방법"},
+      {"name_ko": "실험적 기능분석", "name_en": "Experimental Functional Analysis", "definition": "체계적으로 환경 조건을 조작하여 행동의 기능을 검증하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "FBA = 왜(기능) 그 행동을 하는가? → 선행-행동-결과 분석 → 중재 설계",
+      "differential": "FBA는 행동의 '기능(왜)'을 분석하고, 일반 행동관찰은 행동의 '형태(무엇)'를 기록한다.",
+      "key_point": "Iwata 등(1982/1994)의 실험적 기능분석이 FBA 방법론의 기준점(gold standard)이다.",
+      "common_mistake": "FBA를 단순한 ABC 기록으로 한정하는 것 — FBA는 간접, 직접, 실험적 방법을 모두 포함하는 포괄적 과정이다."
+    }
+  },
+  {
+    "id": "CLINIC_BDI_009",
+    "terminology": "BDI (벡 우울 척도, Beck Depression Inventory)",
+    "terminology_ko": "BDI",
+    "terminology_en": "Beck Depression Inventory",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "Aaron Beck이 개발한 21문항의 자기보고식 우울 증상 평가 척도로, 지난 2주간의 우울 증상(정서적, 인지적, 신체적)의 심각도를 0~3점으로 평정하여 총점 0~63점 범위로 산출한다.",
+    "definition_en": "A 21-item self-report inventory developed by Aaron Beck that measures the severity of depressive symptoms (affective, cognitive, and somatic) over the past two weeks, rated on a 0-3 scale yielding a total score of 0-63.",
+    "significance": "우울증의 선별과 심각도 평가에 가장 널리 사용되는 자기보고식 도구로, 인지치료의 치료 반응 모니터링에도 핵심적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "1961년 원판 BDI를 개발하고, 이후 BDI-II(1996)로 개정하여 DSM-IV 진단 기준에 맞게 업데이트"},
+      {"name_ko": "로버트 스티어", "name_en": "Robert Steer", "contribution": "Beck과 함께 BDI-II의 개발과 심리측정적 검증에 공동 참여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "BAI", "name_en": "Beck Anxiety Inventory", "id": "CLINIC_BAI_010"},
+      {"name_ko": "SCL-90-R", "name_en": "Symptom Checklist-90-Revised", "id": "CLINIC_SCL_012"},
+      {"name_ko": "자살위험성 평가", "name_en": "Suicide Risk Assessment", "id": "CLINIC_SURA_017"},
+      {"name_ko": "자기감찰", "name_en": "Self-Monitoring", "id": "CLINIC_SMON_022"}
+    ],
+    "sub_types": [
+      {"name_ko": "BDI-II", "name_en": "Beck Depression Inventory-II", "definition": "1996년 개정판으로 DSM-IV 우울증 진단 기준에 맞게 문항을 수정"},
+      {"name_ko": "BDI-FS", "name_en": "BDI-Fast Screen", "definition": "7문항으로 축소된 의료장면용 간편 선별 도구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "BDI = Beck + Depression + 21문항 + 0~63점 + 지난 2주",
+      "differential": "BDI는 '우울' 증상만 측정하고, BAI는 '불안' 증상만 측정하며, SCL-90-R은 9개 증상 차원을 '포괄적으로' 측정한다.",
+      "key_point": "현재 표준은 BDI-II(1996)이며, DSM-IV 우울증 기준에 맞게 수면과 식욕 문항이 수정되었다.",
+      "common_mistake": "BDI를 우울증 '진단' 도구로 오해하는 것 — BDI는 증상 '심각도'를 평가하는 선별 도구이지 진단 도구가 아니다."
+    }
+  },
+  {
+    "id": "CLINIC_BAI_010",
+    "terminology": "BAI (벡 불안 척도, Beck Anxiety Inventory)",
+    "terminology_ko": "BAI",
+    "terminology_en": "Beck Anxiety Inventory",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "Aaron Beck이 개발한 21문항의 자기보고식 불안 증상 평가 척도로, 지난 1주간의 불안 증상(특히 신체적 증상)을 0~3점으로 평정하여 우울과 변별되는 불안 고유의 증상을 측정한다.",
+    "definition_en": "A 21-item self-report inventory developed by Aaron Beck that measures anxiety symptoms (particularly somatic symptoms) over the past week, rated on a 0-3 scale, designed to discriminate anxiety from depression.",
+    "significance": "우울 증상과의 변별이 어려운 기존 불안 척도의 한계를 극복하기 위해 개발되었으며, 공황장애 등 신체적 불안 증상의 평가에 특히 유용하다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "1988년 BAI를 개발하여 우울과 변별되는 불안 측정 도구를 최초로 제시"},
+      {"name_ko": "게리 에머리", "name_en": "Gary Emery", "contribution": "Beck의 불안 인지 모델 발전에 공동 기여하여 BAI의 이론적 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "BDI", "name_en": "Beck Depression Inventory", "id": "CLINIC_BDI_009"},
+      {"name_ko": "STAI", "name_en": "State-Trait Anxiety Inventory", "id": "CLINIC_STAI_011"},
+      {"name_ko": "SCL-90-R", "name_en": "Symptom Checklist-90-Revised", "id": "CLINIC_SCL_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BAI = Beck + Anxiety + 21문항 + 지난 1주 + 신체적 불안 강조",
+      "differential": "BAI는 불안의 '신체적 증상'을 강조하고, STAI는 '상태-특성' 차원의 인지적 불안도 포함한다.",
+      "key_point": "BAI는 우울과의 변별을 위해 신체적 불안 증상에 가중치를 두었으나, 이로 인해 범불안장애 등의 인지적 불안은 과소측정될 수 있다.",
+      "common_mistake": "BAI가 모든 유형의 불안을 동일하게 잘 측정한다고 오해하는 것 — 신체적 불안에 편향되어 인지적 걱정(worry) 중심의 불안은 상대적으로 덜 반영된다."
+    }
+  },
+  {
+    "id": "CLINIC_STAI_011",
+    "terminology": "STAI (상태-특성 불안 척도, State-Trait Anxiety Inventory)",
+    "terminology_ko": "STAI",
+    "terminology_en": "State-Trait Anxiety Inventory",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "Spielberger가 개발한 40문항(각 20문항)의 자기보고식 불안 척도로, 현재 느끼는 일시적 불안(상태불안)과 불안을 느끼는 일반적 성향(특성불안)을 구분하여 측정한다.",
+    "definition_en": "A 40-item self-report anxiety scale developed by Spielberger consisting of two 20-item subscales that separately measure transient state anxiety (how one feels now) and dispositional trait anxiety (general tendency to feel anxious).",
+    "significance": "불안을 상태와 특성으로 구분하는 Spielberger의 이론에 기반하여, 치료 효과 평가(상태불안 변화)와 불안 취약성 파악(특성불안)을 동시에 가능하게 한 대표적 불안 측정 도구이다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스필버거", "name_en": "Charles D. Spielberger", "contribution": "상태-특성 불안 이론을 제안하고 STAI를 개발하여 불안 연구의 표준 도구를 확립"},
+      {"name_ko": "리처드 고서치", "name_en": "Richard Gorsuch", "contribution": "STAI의 초기 개발과 심리측정적 검증에 공동 참여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "BAI", "name_en": "Beck Anxiety Inventory", "id": "CLINIC_BAI_010"},
+      {"name_ko": "BDI", "name_en": "Beck Depression Inventory", "id": "CLINIC_BDI_009"},
+      {"name_ko": "SCL-90-R", "name_en": "Symptom Checklist-90-Revised", "id": "CLINIC_SCL_012"}
+    ],
+    "sub_types": [
+      {"name_ko": "상태불안 척도(S-Anxiety)", "name_en": "State Anxiety Scale", "definition": "현재 느끼는 일시적 불안 수준을 측정하는 20문항"},
+      {"name_ko": "특성불안 척도(T-Anxiety)", "name_en": "Trait Anxiety Scale", "definition": "불안을 느끼는 일반적 성향을 측정하는 20문항"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "STAI = State(지금) + Trait(평소) + 각 20문항 = 총 40문항 by Spielberger",
+      "differential": "STAI는 상태/특성을 '구분'하여 측정하고, BAI는 이 구분 없이 최근 불안 '증상'만 측정한다.",
+      "key_point": "상태불안은 상황에 따라 변동하므로 치료 효과 측정에, 특성불안은 안정적이므로 불안 취약성 파악에 사용된다.",
+      "common_mistake": "STAI의 특성불안이 변하지 않는 고정적 특성이라고 오해하는 것 — 장기적 치료를 통해 특성불안도 변화할 수 있다."
+    }
+  },
+  {
+    "id": "CLINIC_SCL_012",
+    "terminology": "SCL-90-R (간이정신진단검사, Symptom Checklist-90-Revised)",
+    "terminology_ko": "SCL-90-R",
+    "terminology_en": "Symptom Checklist-90-Revised",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "Derogatis가 개발한 90문항의 자기보고식 다차원 정신건강 선별 도구로, 9개 증상 차원(신체화, 강박, 대인예민, 우울, 불안, 적대감, 공포불안, 편집증, 정신증)과 3개 전체 지표를 통해 정신병리의 전반적 양상을 평가한다.",
+    "definition_en": "A 90-item self-report multidimensional mental health screening tool developed by Derogatis that assesses nine symptom dimensions (somatization, obsessive-compulsive, interpersonal sensitivity, depression, anxiety, hostility, phobic anxiety, paranoid ideation, psychoticism) and three global indices.",
+    "significance": "단일 도구로 다양한 정신병리 차원을 포괄적으로 선별할 수 있어 임상 연구와 치료 효과 평가에 광범위하게 활용되는 효율적인 선별 도구이다.",
+    "key_researchers": [
+      {"name_ko": "레너드 데로가티스", "name_en": "Leonard Derogatis", "contribution": "원판 SCL-90과 개정판 SCL-90-R을 개발하여 다차원 증상 선별의 표준 도구를 확립"},
+      {"name_ko": "로널드 립먼", "name_en": "Ronald Lipman", "contribution": "Hopkins Symptom Checklist에서 SCL-90으로의 발전에 기여한 초기 연구자"}
+    ],
+    "related_concepts": [
+      {"name_ko": "BDI", "name_en": "Beck Depression Inventory", "id": "CLINIC_BDI_009"},
+      {"name_ko": "BAI", "name_en": "Beck Anxiety Inventory", "id": "CLINIC_BAI_010"},
+      {"name_ko": "STAI", "name_en": "State-Trait Anxiety Inventory", "id": "CLINIC_STAI_011"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "CLINIC_MSE_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "전체심각도지수(GSI)", "name_en": "Global Severity Index", "definition": "전반적 정신건강 수준을 나타내는 가장 대표적인 전체 지표"},
+      {"name_ko": "양성증상합계(PST)", "name_en": "Positive Symptom Total", "definition": "0이 아닌 응답을 한 문항의 수로 증상의 범위를 나타냄"},
+      {"name_ko": "양성증상고통지수(PSDI)", "name_en": "Positive Symptom Distress Index", "definition": "보고된 증상의 평균 강도를 나타내는 지표"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SCL-90-R = 90문항, 9차원(신-강-대-우-불-적-공-편-정) + 3전체지표(GSI, PST, PSDI)",
+      "differential": "SCL-90-R은 9개 증상 차원을 '포괄적으로' 선별하고, BDI/BAI는 '단일 증상'만 깊이 측정한다.",
+      "key_point": "GSI(전체심각도지수)가 가장 중요한 전체 지표이며, 연구에서 단일 지표 사용 시 GSI를 보고한다.",
+      "common_mistake": "SCL-90-R을 진단 도구로 사용하려는 것 — 이것은 '선별' 도구이며 정식 진단을 위해서는 구조화 면담이 필요하다."
+    }
+  },
+  {
+    "id": "CLINIC_RAPP_013",
+    "terminology": "라포 형성 (Rapport Building)",
+    "terminology_ko": "라포 형성",
+    "terminology_en": "Rapport Building",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "면접자와 내담자 사이에 신뢰, 존중, 편안함에 기반한 협력적 관계를 구축하는 과정으로, 효과적인 임상면접과 정확한 정보 수집의 선행 조건이다.",
+    "definition_en": "The process of establishing a cooperative relationship between interviewer and client based on trust, respect, and comfort, serving as a prerequisite for effective clinical interviewing and accurate information gathering.",
+    "significance": "라포가 형성되지 않으면 내담자가 민감한 정보를 공개하지 않거나 방어적으로 반응하여 평가의 타당성이 저하되므로, 모든 임상면접의 핵심적 첫 단계이다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "무조건적 긍정적 존중, 공감적 이해, 진실성의 3가지 핵심 조건을 제시하여 치료적 관계의 기초를 확립"},
+      {"name_ko": "에드워드 보딘", "name_en": "Edward Bordin", "contribution": "작업동맹(working alliance) 개념을 정립하여 치료적 관계의 3요소(과제, 목표, 유대)를 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "CLINIC_CINT_001"},
+      {"name_ko": "정보 수집", "name_en": "Information Gathering", "id": "CLINIC_INFO_014"},
+      {"name_ko": "비구조화 면담", "name_en": "Unstructured Interview", "id": "CLINIC_UNST_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "라포 = 신뢰 + 존중 + 편안함 → Rogers의 3조건(공감, 무조건적 존중, 진실성)",
+      "differential": "라포는 면접에서의 '관계의 질'이고, 작업동맹(working alliance)은 치료에서의 '협력적 합의'를 포함하는 더 넓은 개념이다.",
+      "key_point": "라포는 면접 초기에만 형성되는 것이 아니라 면접 전 과정에서 유지하고 심화해야 하는 지속적 과정이다.",
+      "common_mistake": "라포를 단순한 '친절함'이나 '호감'으로 오해하는 것 — 전문적 신뢰와 존중에 기반한 목적지향적 관계이다."
+    }
+  },
+  {
+    "id": "CLINIC_INFO_014",
+    "terminology": "정보 수집 (Information Gathering)",
+    "terminology_ko": "정보 수집",
+    "terminology_en": "Information Gathering",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "임상면접에서 내담자의 주 호소, 현병력, 과거력, 가족력, 발달력, 사회력 등 진단과 사례개념화에 필요한 포괄적 정보를 체계적으로 수집하는 과정이다.",
+    "definition_en": "The systematic process of collecting comprehensive information during clinical interviews, including chief complaint, present illness, past history, family history, developmental history, and social history needed for diagnosis and case conceptualization.",
+    "significance": "정확한 진단과 효과적인 치료 계획 수립의 기초가 되며, 수집 영역의 누락 없이 체계적으로 이루어져야 평가의 타당성이 확보된다.",
+    "key_researchers": [
+      {"name_ko": "게리 그로스-마르나", "name_en": "Gary Groth-Marnat", "contribution": "심리평가에서의 체계적 정보 수집 절차와 통합적 보고서 작성법을 정리"},
+      {"name_ko": "앨런 카플란", "name_en": "Allan Kaplan", "contribution": "정신의학적 병력 청취(psychiatric history taking)의 체계적 모델을 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "CLINIC_CINT_001"},
+      {"name_ko": "라포 형성", "name_en": "Rapport Building", "id": "CLINIC_RAPP_013"},
+      {"name_ko": "진단적 면담", "name_en": "Diagnostic Interview", "id": "CLINIC_DIAG_015"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "CLINIC_MSE_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "주 호소", "name_en": "Chief Complaint", "definition": "내담자가 도움을 구하게 된 핵심 문제를 내담자 자신의 말로 기술한 것"},
+      {"name_ko": "현병력", "name_en": "History of Present Illness", "definition": "현재 문제의 발생, 경과, 악화/완화 요인에 대한 시간순 기술"},
+      {"name_ko": "과거 정신과력", "name_en": "Past Psychiatric History", "definition": "이전 정신건강 문제, 치료, 입원 경험에 대한 기록"},
+      {"name_ko": "가족력", "name_en": "Family History", "definition": "가족 구성원의 정신건강 문제와 유전적 소인에 대한 정보"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "정보 수집 = 주호소 → 현병력 → 과거력 → 가족력 → 발달력 → 사회력 (순서대로)",
+      "differential": "정보 수집은 면접에서의 '내용(무엇을 물을 것인가)'이고, 면담 구조화는 '형식(어떻게 물을 것인가)'이다.",
+      "key_point": "내담자의 주 호소를 먼저 경청한 후 체계적으로 영역을 확장하는 깔때기형 접근이 효과적이다.",
+      "common_mistake": "정보 수집 시 체크리스트만 기계적으로 따르는 것 — 내담자의 반응에 따라 유연하게 탐색해야 한다."
+    }
+  },
+  {
+    "id": "CLINIC_DIAG_015",
+    "terminology": "진단적 면담 (Diagnostic Interview)",
+    "terminology_ko": "진단적 면담",
+    "terminology_en": "Diagnostic Interview",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "DSM-5 또는 ICD-11 등 표준화된 진단 분류 체계의 기준에 따라 정신장애의 유무와 유형을 체계적으로 평가하기 위한 목적으로 수행되는 면담이다.",
+    "definition_en": "An interview conducted systematically to evaluate the presence and type of mental disorders according to standardized diagnostic classification criteria such as DSM-5 or ICD-11.",
+    "significance": "정확한 진단은 적절한 치료 계획과 예후 판단의 전제 조건이며, 진단적 면담은 구조화 면담 도구의 사용을 통해 진단의 신뢰도와 타당도를 높인다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III에서 조작적 진단 기준을 도입하여 진단적 면담의 표준화를 가능하게 함"},
+      {"name_ko": "리 로빈스", "name_en": "Lee Robins", "contribution": "DIS(Diagnostic Interview Schedule)를 개발하여 비임상가도 사용할 수 있는 구조화 진단면담 도구를 창안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면담", "name_en": "Structured Interview", "id": "CLINIC_STRI_002"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "CLINIC_MSE_005"},
+      {"name_ko": "정보 수집", "name_en": "Information Gathering", "id": "CLINIC_INFO_014"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "CLINIC_JUDG_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진단적 면담 = DSM/ICD 기준 + 체계적 평가 → 정신장애 진단",
+      "differential": "진단적 면담은 '진단 분류'가 목적이고, 사례개념화 면담은 '개인의 문제 이해와 치료 계획'이 목적이다.",
+      "key_point": "진단의 신뢰도를 높이기 위해 SCID, MINI 등 구조화/반구조화 면담 도구를 함께 사용하는 것이 권장된다.",
+      "common_mistake": "임상면접만으로 진단이 완료된다고 생각하는 것 — 정확한 진단을 위해 심리검사, 행동관찰, 다중 정보원 등이 보완적으로 필요하다."
+    }
+  },
+  {
+    "id": "CLINIC_CRIS_016",
+    "terminology": "위기면접 (Crisis Interview)",
+    "terminology_ko": "위기면접",
+    "terminology_en": "Crisis Interview",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "자살 시도, 자해, 급성 정신증 삽화, 폭력 위험 등 긴급한 심리적 위기 상황에서 즉각적 안전 확보와 안정화를 목적으로 수행되는 시간 제한적이고 목표지향적인 면접이다.",
+    "definition_en": "A time-limited and goal-directed interview conducted in acute psychological crisis situations such as suicide attempts, self-harm, acute psychotic episodes, or violence risk, aimed at immediate safety and stabilization.",
+    "significance": "생명의 위험이 있는 응급 상황에서 안전을 확보하고 즉각적 개입 방향을 결정하는 임상적으로 가장 긴급하고 중요한 면접 유형이다.",
+    "key_researchers": [
+      {"name_ko": "에릭 린데만", "name_en": "Erich Lindemann", "contribution": "코코넛 그로브 화재 연구를 통해 위기 개입의 초기 이론적 기초를 확립"},
+      {"name_ko": "제럴드 캐플란", "name_en": "Gerald Caplan", "contribution": "예방정신의학에서 위기 이론(crisis theory)을 발전시켜 위기 개입의 개념적 틀을 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자살위험성 평가", "name_en": "Suicide Risk Assessment", "id": "CLINIC_SURA_017"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "CLINIC_CINT_001"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "CLINIC_JUDG_024"},
+      {"name_ko": "라포 형성", "name_en": "Rapport Building", "id": "CLINIC_RAPP_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "위기면접 = 긴급 상황 + 즉각적 안전 확보 + 안정화 → 시간 제한적, 목표지향적",
+      "differential": "위기면접은 '즉각적 안전 확보'가 최우선이고, 일반 진단면접은 '정확한 진단'이 목적이다.",
+      "key_point": "위기면접에서는 자살/타해 위험성 평가가 최우선이며, 포괄적 진단은 안정화 이후에 시행한다.",
+      "common_mistake": "위기면접에서 포괄적 정보 수집을 시도하는 것 — 위기 상황에서는 안전 관련 정보에만 초점을 맞춰야 한다."
+    }
+  },
+  {
+    "id": "CLINIC_SURA_017",
+    "terminology": "자살위험성 평가 (Suicide Risk Assessment)",
+    "terminology_ko": "자살위험성 평가",
+    "terminology_en": "Suicide Risk Assessment",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "내담자의 자살사고, 자살 계획, 자살 의도, 과거 시도력, 위험 요인과 보호 요인을 체계적으로 평가하여 자살 위험 수준을 판단하고 적절한 개입 수준을 결정하는 임상 과정이다.",
+    "definition_en": "A clinical process of systematically evaluating suicidal ideation, plans, intent, past attempts, risk factors, and protective factors to determine the level of suicide risk and appropriate intervention.",
+    "significance": "자살은 예방 가능한 사망 원인이므로, 모든 정신건강 전문가에게 자살위험성 평가 능력은 필수적이며, 이 평가의 질이 내담자의 생명과 직결된다.",
+    "key_researchers": [
+      {"name_ko": "에드윈 슈나이드만", "name_en": "Edwin Shneidman", "contribution": "자살학(suicidology)을 학문으로 확립하고 심리적 고통(psychache) 개념을 제안"},
+      {"name_ko": "마샤 리네한", "name_en": "Marsha Linehan", "contribution": "변증법적 행동치료(DBT)를 개발하여 자살 고위험군에 대한 근거기반 치료법을 확립"},
+      {"name_ko": "토마스 조이너", "name_en": "Thomas Joiner", "contribution": "자살의 대인관계 이론(좌절된 소속감, 지각된 짐됨, 습득된 자살 능력)을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "위기면접", "name_en": "Crisis Interview", "id": "CLINIC_CRIS_016"},
+      {"name_ko": "BDI", "name_en": "Beck Depression Inventory", "id": "CLINIC_BDI_009"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "CLINIC_JUDG_024"},
+      {"name_ko": "구조화된 전문적 판단", "name_en": "Structured Professional Judgment", "id": "CLINIC_SPJ_025"}
+    ],
+    "sub_types": [
+      {"name_ko": "BSS(벡 자살사고 척도)", "name_en": "Beck Scale for Suicide Ideation", "definition": "자살사고의 강도와 구체성을 평가하는 19문항 도구"},
+      {"name_ko": "C-SSRS(컬럼비아 자살심각도 평정척도)", "name_en": "Columbia Suicide Severity Rating Scale", "definition": "자살사고와 행동의 심각도를 체계적으로 평정하는 면접 도구"},
+      {"name_ko": "SAD PERSONS", "name_en": "SAD PERSONS Scale", "definition": "10가지 자살 위험 요인의 두문자어를 이용한 간편 선별 도구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "자살위험성 평가 = 사고 + 계획 + 의도 + 과거 시도 + 위험/보호 요인 → 개입 수준 결정",
+      "differential": "자살위험성 '평가'는 위험 수준을 판단하는 과정이고, 자살위험성 '관리'는 평가 결과에 따른 개입과 모니터링 과정이다.",
+      "key_point": "자살 계획의 구체성, 치명적 수단의 접근성, 과거 시도력이 가장 강력한 위험 예측 요인이다.",
+      "common_mistake": "자살에 대해 직접 물으면 자살 위험이 높아진다고 오해하는 것 — 연구에 따르면 직접적 질문이 오히려 안도감과 도움을 제공한다."
+    }
+  },
+  {
+    "id": "CLINIC_SYSO_018",
+    "terminology": "체계적 행동관찰 (Systematic Behavioral Observation)",
+    "terminology_ko": "체계적 행동관찰",
+    "terminology_en": "Systematic Behavioral Observation",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "관찰 대상 행동을 조작적으로 정의하고, 표준화된 관찰 절차, 기록 방법, 코딩 체계를 사용하여 행동 데이터를 수량화하는 구조화된 관찰 방법이다.",
+    "definition_en": "A structured observation method that operationally defines target behaviors and uses standardized observation procedures, recording methods, and coding systems to quantify behavioral data.",
+    "significance": "비체계적 관찰의 주관성과 편향을 최소화하고, 객관적이고 반복 가능한 행동 데이터를 산출함으로써 행동평가의 과학적 엄밀성을 확보한다.",
+    "key_researchers": [
+      {"name_ko": "토드 리슬리", "name_en": "Todd Risley", "contribution": "응용행동분석에서 자연 환경 기반의 체계적 관찰 방법론을 발전시킴"},
+      {"name_ko": "몬트로스 울프", "name_en": "Montrose Wolf", "contribution": "행동수정 프로그램에서 체계적 행동 기록과 데이터 기반 의사결정 절차를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "CLINIC_BOBS_006"},
+      {"name_ko": "빈도기록", "name_en": "Frequency Recording", "id": "CLINIC_FREQ_019"},
+      {"name_ko": "간격기록", "name_en": "Interval Recording", "id": "CLINIC_INTV_020"},
+      {"name_ko": "기능적 행동분석", "name_en": "Functional Behavioral Analysis", "id": "CLINIC_FBA_008"}
+    ],
+    "sub_types": [
+      {"name_ko": "사건기록", "name_en": "Event Recording", "definition": "행동 발생 시마다 빈도를 기록하는 방법"},
+      {"name_ko": "시간표집", "name_en": "Time Sampling", "definition": "정해진 시간 간격에서 행동 유무를 기록하는 방법"},
+      {"name_ko": "지속시간 기록", "name_en": "Duration Recording", "definition": "행동이 지속되는 시간을 기록하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "체계적 관찰 = 조작적 정의 + 표준화된 절차 + 코딩 체계 = 수량화된 데이터",
+      "differential": "체계적 관찰은 '표준화된 절차'로 객관적 데이터를 산출하고, 비체계적 관찰은 '인상적 기술'에 의존한다.",
+      "key_point": "관찰자 간 일치도(IOA: Interobserver Agreement)를 반드시 확인하여 관찰 데이터의 신뢰도를 검증해야 한다.",
+      "common_mistake": "체계적 관찰이 기계적이고 맥락을 무시한다고 오해하는 것 — 잘 설계된 체계적 관찰은 맥락 변인도 코딩에 포함한다."
+    }
+  },
+  {
+    "id": "CLINIC_FREQ_019",
+    "terminology": "빈도기록 (Frequency Recording)",
+    "terminology_ko": "빈도기록",
+    "terminology_en": "Frequency Recording",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "관찰 기간 동안 목표 행동이 발생할 때마다 횟수를 기록하는 행동 측정 방법으로, 시작과 끝이 명확하고 지속시간이 비교적 일정한 이산적(discrete) 행동에 적합하다.",
+    "definition_en": "A behavioral measurement method that records the number of times a target behavior occurs during an observation period, most suitable for discrete behaviors with clear onset and offset and relatively consistent duration.",
+    "significance": "가장 단순하고 직관적인 행동 기록 방법으로, 관찰 기간이 일정할 때 행동의 발생률(rate)을 산출하여 중재 효과를 평가하는 기초 데이터를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "오그든 린즐리", "name_en": "Ogden Lindsley", "contribution": "정밀교수법(Precision Teaching)에서 행동 빈도를 분당 비율(celeration)로 기록하는 체계를 개발"},
+      {"name_ko": "B.F. 스키너", "name_en": "B.F. Skinner", "contribution": "반응률(rate of responding)을 행동의 기본 측정 단위로 확립하여 빈도기록의 이론적 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "간격기록", "name_en": "Interval Recording", "id": "CLINIC_INTV_020"},
+      {"name_ko": "체계적 행동관찰", "name_en": "Systematic Behavioral Observation", "id": "CLINIC_SYSO_018"},
+      {"name_ko": "자기감찰", "name_en": "Self-Monitoring", "id": "CLINIC_SMON_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "빈도기록 = 발생할 때마다 카운트, 이산적 행동에 적합, 관찰 시간 일정해야 비교 가능",
+      "differential": "빈도기록은 행동 '횟수'를, 지속시간 기록은 행동이 '얼마나 오래' 지속되는지를 측정한다.",
+      "key_point": "관찰 시간이 일정하지 않으면 빈도(횟수)보다 비율(rate = 횟수/시간)로 산출해야 비교가 가능하다.",
+      "common_mistake": "지속시간이 길고 가변적인 행동(예: 울기)에 빈도기록을 적용하는 것 — 이런 행동에는 지속시간 기록이 더 적합하다."
+    }
+  },
+  {
+    "id": "CLINIC_INTV_020",
+    "terminology": "간격기록 (Interval Recording)",
+    "terminology_ko": "간격기록",
+    "terminology_en": "Interval Recording",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "관찰 시간을 균등한 간격(예: 10초, 30초)으로 나누고, 각 간격 내에서 목표 행동의 발생 여부를 기록하는 시간표집 기반의 행동 측정 방법이다.",
+    "definition_en": "A time-sampling behavioral measurement method that divides the observation period into equal intervals (e.g., 10 or 30 seconds) and records whether the target behavior occurs within each interval.",
+    "significance": "빈도기록이 어려운 고빈도 행동이나 지속시간이 가변적인 행동의 측정에 유용하며, 관찰자 훈련이 비교적 용이하여 교육 및 임상 장면에서 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "돈 베어", "name_en": "Donald Baer", "contribution": "응용행동분석에서 간격기록법의 체계적 적용 절차를 확립"},
+      {"name_ko": "토드 리슬리", "name_en": "Todd Risley", "contribution": "간격기록을 활용한 아동 행동 관찰 연구 방법론을 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "빈도기록", "name_en": "Frequency Recording", "id": "CLINIC_FREQ_019"},
+      {"name_ko": "체계적 행동관찰", "name_en": "Systematic Behavioral Observation", "id": "CLINIC_SYSO_018"},
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "CLINIC_BOBS_006"}
+    ],
+    "sub_types": [
+      {"name_ko": "전체간격기록", "name_en": "Whole-Interval Recording", "definition": "간격 전체에 걸쳐 행동이 지속되었을 때만 발생으로 기록 (과소추정 경향)"},
+      {"name_ko": "부분간격기록", "name_en": "Partial-Interval Recording", "definition": "간격 중 어느 시점에서든 행동이 발생하면 발생으로 기록 (과대추정 경향)"},
+      {"name_ko": "순간시간표집", "name_en": "Momentary Time Sampling", "definition": "각 간격이 끝나는 순간에만 행동 유무를 기록 (가장 편리하지만 간헐적 행동 놓칠 수 있음)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "간격기록 = 시간을 쪼개서 발생 여부 기록, 전체(과소) vs 부분(과대) vs 순간(편리)",
+      "differential": "전체간격기록은 행동 지속시간을 과소추정하고, 부분간격기록은 행동 발생을 과대추정한다.",
+      "key_point": "순간시간표집(MTS)은 관찰자 부담이 가장 적어 교실 상황에서 많이 사용되지만, 짧은 행동은 놓칠 수 있다.",
+      "common_mistake": "전체간격기록과 부분간격기록의 추정 편향 방향을 혼동하는 것 — 전체는 과소, 부분은 과대이다."
+    }
+  },
+  {
+    "id": "CLINIC_ABC_021",
+    "terminology": "ABC 분석 (ABC Analysis)",
+    "terminology_ko": "ABC 분석",
+    "terminology_en": "ABC Analysis",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "선행사건(Antecedent), 행동(Behavior), 결과(Consequence)의 순서적 관계를 기록하고 분석하여 문제행동의 유발 요인과 유지 요인을 파악하는 행동평가의 핵심 기법이다.",
+    "definition_en": "A core behavioral assessment technique that records and analyzes the sequential relationship of Antecedent, Behavior, and Consequence to identify triggering and maintaining factors of problem behavior.",
+    "significance": "행동의 기능을 이해하기 위한 가장 기본적인 분석 틀로, 기능적 행동분석의 기초가 되며 효과적인 행동 중재 계획 수립에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "B.F. 스키너", "name_en": "B.F. Skinner", "contribution": "3항 수반성(three-term contingency) 개념을 정립하여 ABC 분석의 이론적 기초를 확립"},
+      {"name_ko": "시드니 비주", "name_en": "Sidney Bijou", "contribution": "아동 행동에 ABC 분석을 체계적으로 적용하여 기술적 행동분석 방법론을 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능적 행동분석", "name_en": "Functional Behavioral Analysis", "id": "CLINIC_FBA_008"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "CLINIC_BASS_007"},
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "CLINIC_BOBS_006"},
+      {"name_ko": "체계적 행동관찰", "name_en": "Systematic Behavioral Observation", "id": "CLINIC_SYSO_018"}
+    ],
+    "sub_types": [
+      {"name_ko": "ABC 서술기록", "name_en": "ABC Narrative Recording", "definition": "자연 환경에서 선행-행동-결과를 시간순으로 서술하는 기록 방법"},
+      {"name_ko": "ABC 체크리스트", "name_en": "ABC Checklist", "definition": "미리 정의된 선행사건과 결과 목록에서 해당 항목을 체크하는 구조화된 기록"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ABC = Antecedent(전에 무슨 일이?) → Behavior(무엇을 했나?) → Consequence(그 후 무슨 일이?) → 행동의 기능 파악",
+      "differential": "ABC 분석은 행동의 '맥락적 연쇄'를 기술하고, 기능적 행동분석은 이를 포함하여 행동의 '기능'을 종합적으로 규명한다.",
+      "key_point": "Skinner의 3항 수반성(SD → R → SR)에 기반하며, 결과(C)가 행동을 강화하거나 약화하는 기제를 파악하는 것이 핵심이다.",
+      "common_mistake": "ABC 분석에서 결과(C)를 단순히 '이후 사건'으로만 기록하는 것 — 결과가 행동을 유지/강화하는 기능적 관계를 파악해야 한다."
+    }
+  },
+  {
+    "id": "CLINIC_SMON_022",
+    "terminology": "자기감찰 (Self-Monitoring)",
+    "terminology_ko": "자기감찰",
+    "terminology_en": "Self-Monitoring",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "개인이 자신의 행동, 사고, 감정, 생리적 반응을 체계적으로 관찰하고 기록하는 자기보고 기반의 행동평가 방법으로, 평가와 중재의 이중 기능을 가진다.",
+    "definition_en": "A self-report behavioral assessment method in which individuals systematically observe and record their own behaviors, thoughts, emotions, or physiological responses, serving the dual function of assessment and intervention.",
+    "significance": "외부 관찰자가 접근하기 어려운 사적 사건(사고, 감정)을 기록할 수 있으며, 기록 행위 자체가 행동 변화를 유발하는 반응성(reactivity) 효과로 치료적 가치도 있다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 칸퍼", "name_en": "Frederick Kanfer", "contribution": "자기조절 모델에서 자기감찰의 이론적 역할을 정립하고 자기관리 치료 접근을 체계화"},
+      {"name_ko": "로저 넬슨", "name_en": "Rosemery Nelson-Gray", "contribution": "자기감찰의 반응성 효과와 정확성에 관한 체계적 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "생태학적 순간평가", "name_en": "Ecological Momentary Assessment", "id": "CLINIC_EMA_023"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "CLINIC_BASS_007"},
+      {"name_ko": "빈도기록", "name_en": "Frequency Recording", "id": "CLINIC_FREQ_019"},
+      {"name_ko": "ABC 분석", "name_en": "ABC Analysis", "id": "CLINIC_ABC_021"}
+    ],
+    "sub_types": [
+      {"name_ko": "행동일지", "name_en": "Behavior Diary", "definition": "특정 행동의 발생 시점, 상황, 반응을 일지 형태로 기록"},
+      {"name_ko": "사고기록지", "name_en": "Thought Record", "definition": "인지치료에서 자동적 사고와 관련 감정을 기록하는 구조화된 양식"},
+      {"name_ko": "식사일지", "name_en": "Food Diary", "definition": "섭식 행동, 양, 시간, 상황을 기록하여 섭식 패턴을 분석"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "자기감찰 = 자기가 자기를 관찰+기록, 평가(데이터) + 치료(반응성) 이중 기능",
+      "differential": "자기감찰은 '자기 자신'이 관찰하고 기록하고, 행동관찰은 '외부 관찰자'가 기록한다.",
+      "key_point": "반응성(reactivity) — 자기감찰 행위 자체가 목표 행동을 변화시키는 효과가 있어, 이는 평가의 한계이자 치료적 장점이다.",
+      "common_mistake": "자기감찰의 반응성 효과가 항상 긍정적이라고 오해하는 것 — 반응성은 시간이 지나면 감소하며, 방향도 예측하기 어렵다."
+    }
+  },
+  {
+    "id": "CLINIC_EMA_023",
+    "terminology": "생태학적 순간평가 (Ecological Momentary Assessment, EMA)",
+    "terminology_ko": "생태학적 순간평가",
+    "terminology_en": "Ecological Momentary Assessment",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "일상생활 환경(생태학적)에서 실시간 또는 준실시간으로(순간) 반복적으로 행동, 감정, 증상 등을 수집하는 평가 방법으로, 스마트폰 등 모바일 기술을 활용하여 회고 편향을 최소화한다.",
+    "definition_en": "An assessment method that repeatedly collects data on behaviors, emotions, and symptoms in real-time or near-real-time in naturalistic settings (ecological), using mobile technology such as smartphones to minimize retrospective recall bias.",
+    "significance": "전통적 자기보고의 회고 편향 문제를 극복하고 실제 생활 맥락에서의 경험을 포착하여, 증상의 일상적 변동 패턴과 상황-행동 관계를 정밀하게 분석할 수 있는 혁신적 방법이다.",
+    "key_researchers": [
+      {"name_ko": "소울 시프만", "name_en": "Saul Shiffman", "contribution": "EMA 방법론을 체계화하고 흡연, 물질사용 연구에서 EMA의 활용 모델을 확립"},
+      {"name_ko": "아서 스톤", "name_en": "Arthur Stone", "contribution": "경험표집법(ESM)과 EMA의 방법론적 기초를 정립하고 통증 연구에서 EMA를 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자기감찰", "name_en": "Self-Monitoring", "id": "CLINIC_SMON_022"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "CLINIC_BASS_007"},
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "CLINIC_BOBS_006"}
+    ],
+    "sub_types": [
+      {"name_ko": "시간 기반 EMA", "name_en": "Time-Based EMA", "definition": "정해진 시간이나 무작위 시점에 알림을 보내 응답을 수집하는 방식"},
+      {"name_ko": "사건 기반 EMA", "name_en": "Event-Based EMA", "definition": "특정 사건(예: 음주, 공황 발작) 발생 시 즉시 기록하는 방식"},
+      {"name_ko": "수동적 EMA", "name_en": "Passive EMA", "definition": "센서를 통해 활동량, 수면, 위치 등을 자동으로 수집하는 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "EMA = Ecological(실제 환경) + Momentary(그 순간) + Assessment(평가) → 회고 편향 최소화",
+      "differential": "EMA는 '실시간' 반복 평가로 회고 편향을 줄이고, 전통적 자기보고는 '회고적' 보고로 기억 왜곡에 취약하다.",
+      "key_point": "EMA는 Csikszentmihalyi의 경험표집법(ESM)에서 발전한 것으로, 모바일 기술의 발전과 함께 급속히 확산되고 있다.",
+      "common_mistake": "EMA를 단순한 스마트폰 설문으로 오해하는 것 — EMA는 반복 측정, 생태학적 맥락, 실시간 수집이라는 방법론적 원칙을 갖춘 평가 전략이다."
+    }
+  },
+  {
+    "id": "CLINIC_JUDG_024",
+    "terminology": "임상적 판단 (Clinical Judgment)",
+    "terminology_ko": "임상적 판단",
+    "terminology_en": "Clinical Judgment",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "임상가가 면접, 관찰, 검사 결과 등 다양한 정보를 통합하여 진단, 예후, 치료 방향에 대해 전문적 결론을 도출하는 인지적 의사결정 과정이다.",
+    "definition_en": "A cognitive decision-making process in which clinicians integrate diverse information from interviews, observations, and test results to reach professional conclusions about diagnosis, prognosis, and treatment direction.",
+    "significance": "모든 심리평가의 최종 단계로서 검사 데이터를 의미 있는 임상적 결론으로 전환하는 핵심 과정이나, 인지적 편향에 취약하므로 구조화된 의사결정 보조 도구의 활용이 권장된다.",
+    "key_researchers": [
+      {"name_ko": "폴 밀", "name_en": "Paul Meehl", "contribution": "『임상적 예측 대 통계적 예측(1954)』에서 통계적 예측의 우월성을 입증하여 임상적 판단의 한계를 제기"},
+      {"name_ko": "하워드 가너", "name_en": "Howard Garb", "contribution": "임상적 판단의 인지적 편향과 한계를 체계적으로 연구하고 판단 개선 전략을 제안"},
+      {"name_ko": "로빈 도스", "name_en": "Robyn Dawes", "contribution": "임상적 의사결정에서 기저율 무시 등 체계적 오류를 규명하고 근거기반 의사결정을 옹호"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화된 전문적 판단", "name_en": "Structured Professional Judgment", "id": "CLINIC_SPJ_025"},
+      {"name_ko": "진단적 면담", "name_en": "Diagnostic Interview", "id": "CLINIC_DIAG_015"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "CLINIC_MSE_005"},
+      {"name_ko": "자살위험성 평가", "name_en": "Suicide Risk Assessment", "id": "CLINIC_SURA_017"}
+    ],
+    "sub_types": [
+      {"name_ko": "임상적 예측", "name_en": "Clinical Prediction", "definition": "임상가의 주관적 종합에 의한 예측 (비구조화)"},
+      {"name_ko": "통계적/보험계리적 예측", "name_en": "Statistical/Actuarial Prediction", "definition": "경험적 공식이나 알고리즘에 의한 예측 (구조화)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "임상적 판단 = 정보 통합 → 전문적 결론, Meehl 경고: 통계적 예측이 대체로 우월!",
+      "differential": "임상적 판단은 임상가의 '주관적 종합'이고, 통계적/보험계리적 판단은 '경험적 공식'에 기반한다.",
+      "key_point": "Meehl(1954)은 통계적 예측이 임상적 예측보다 우월하거나 최소한 동등함을 보여주었고, 이 결론은 이후 연구에서도 반복 확인되었다.",
+      "common_mistake": "경험이 많은 임상가의 직관적 판단이 항상 정확하다고 가정하는 것 — 확증 편향, 기저율 무시, 가용성 휴리스틱 등에 의해 체계적 오류가 발생한다."
+    }
+  },
+  {
+    "id": "CLINIC_SPJ_025",
+    "terminology": "구조화된 전문적 판단 (Structured Professional Judgment, SPJ)",
+    "terminology_ko": "구조화된 전문적 판단",
+    "terminology_en": "Structured Professional Judgment",
+    "category": "CLINIC",
+    "category_name": "임상면접과 행동평가 (Clinical Interview & Behavioral Assessment)",
+    "definition": "경험적으로 검증된 위험 요인 목록과 체계적 평가 절차를 활용하되, 최종 판단은 임상가의 전문적 종합에 맡기는 의사결정 접근으로, 순수한 임상적 판단과 보험계리적 판단의 절충 모델이다.",
+    "definition_en": "A decision-making approach that utilizes empirically validated risk factor checklists and systematic assessment procedures while leaving the final judgment to the clinician's professional synthesis, representing a compromise between pure clinical and actuarial judgment.",
+    "significance": "비구조화된 임상적 판단의 편향 문제와 경직된 보험계리적 판단의 한계를 모두 보완하여, 특히 폭력 위험성 평가와 성범죄 재범 위험 평가에서 최선의 실무(best practice)로 권장된다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 웹스터", "name_en": "Christopher Webster", "contribution": "HCR-20(Historical Clinical Risk Management-20)을 개발하여 SPJ 모델의 대표적 도구를 확립"},
+      {"name_ko": "스티븐 하트", "name_en": "Stephen Hart", "contribution": "SPJ 접근의 이론적 틀을 정교화하고 SVR-20 등 다양한 SPJ 도구 개발에 기여"},
+      {"name_ko": "케빈 더글라스", "name_en": "Kevin Douglas", "contribution": "HCR-20의 메타분석적 검증을 주도하여 SPJ의 예측 타당도를 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "CLINIC_JUDG_024"},
+      {"name_ko": "자살위험성 평가", "name_en": "Suicide Risk Assessment", "id": "CLINIC_SURA_017"},
+      {"name_ko": "진단적 면담", "name_en": "Diagnostic Interview", "id": "CLINIC_DIAG_015"},
+      {"name_ko": "위기면접", "name_en": "Crisis Interview", "id": "CLINIC_CRIS_016"}
+    ],
+    "sub_types": [
+      {"name_ko": "HCR-20", "name_en": "Historical Clinical Risk Management-20", "definition": "20개 항목(역사적 10 + 임상적 5 + 위험관리 5)으로 폭력 위험성을 평가하는 SPJ 도구"},
+      {"name_ko": "SVR-20", "name_en": "Sexual Violence Risk-20", "definition": "성폭력 재범 위험 요인 20개를 평가하는 SPJ 도구"},
+      {"name_ko": "SARA", "name_en": "Spousal Assault Risk Assessment", "definition": "배우자 폭력 위험성을 평가하는 SPJ 도구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SPJ = 구조화된(경험적 목록) + 전문적(임상가 종합) + 판단 = 임상적+통계적 판단의 절충",
+      "differential": "SPJ는 경험적 위험 요인 목록을 '참고'하되 최종 판단은 임상가에게 맡기고, 보험계리적 판단은 공식이 최종 결론을 '결정'한다.",
+      "key_point": "HCR-20이 SPJ의 가장 대표적인 도구이며, 폭력 위험성 평가에서 높은 예측 타당도가 메타분석으로 입증되었다.",
+      "common_mistake": "SPJ를 단순히 체크리스트를 합산하는 방법으로 오해하는 것 — SPJ에서 항목 점수의 기계적 합산은 의미가 없으며, 임상가의 전문적 종합이 핵심이다."
+    }
+  }
+]

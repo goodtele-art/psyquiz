@@ -1,0 +1,715 @@
+[
+  {
+    "id": "ETHICS_FAIR_001",
+    "terminology": "검사 공정성 (Test Fairness)",
+    "terminology_ko": "검사 공정성",
+    "terminology_en": "Test Fairness",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사가 다양한 집단(성별, 인종, 문화 등)에 대해 동등하게 타당하고 편향 없이 기능하며, 검사 결과의 사용이 모든 집단에게 공평한 결과를 가져오는 정도이다.",
+    "definition_en": "The degree to which a test functions equivalently and without bias across diverse groups (gender, race, culture), and the extent to which test use leads to equitable outcomes for all groups.",
+    "significance": "검사의 기술적 우수성만으로는 불충분하며, 사회적 공정성이 확보되어야 검사 사용의 윤리적 정당성이 보장된다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "검사 공정성의 다차원적 개념을 정립하고 문화적 맥락의 중요성을 강조"},
+      {"name_ko": "세실 레이놀즈", "name_en": "Cecil Reynolds", "contribution": "검사 편향의 통계적 탐지 방법론을 체계화하고 편향 vs 공정성의 구분을 명확히 함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "ETHICS_BIAS_002"},
+      {"name_ko": "차별적 문항 기능", "name_en": "Differential Item Functioning", "id": "ETHICS_DIF_003"},
+      {"name_ko": "불리한 영향", "name_en": "Adverse Impact", "id": "ETHICS_AI_004"},
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "측정 공정성", "name_en": "Measurement Fairness", "definition": "검사가 모든 집단에서 동일한 심리 구성개념을 동일하게 측정하는 정도"},
+      {"name_ko": "예측 공정성", "name_en": "Predictive Fairness", "definition": "검사 점수가 모든 집단의 준거를 동등하게 예측하는 정도"},
+      {"name_ko": "결과 공정성", "name_en": "Outcome Fairness", "definition": "검사 사용의 결과가 집단 간에 공평한 정도"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "공정성 3차원: 측정(같은 것 측정) + 예측(같은 정확도) + 결과(같은 기회)",
+      "differential": "검사 공정성은 '사회적·윤리적 판단'이고, 검사 편향은 '통계적으로 검증 가능한 기술적 속성'이다.",
+      "key_point": "공정성은 단일 기준이 아니라 측정, 예측, 결과의 다차원적 개념으로 이해해야 한다.",
+      "common_mistake": "집단 간 점수 차이가 곧 편향이라고 단정하는 것 — 점수 차이와 편향은 다른 개념이다."
+    }
+  },
+  {
+    "id": "ETHICS_BIAS_002",
+    "terminology": "검사 편향 (Test Bias)",
+    "terminology_ko": "검사 편향",
+    "terminology_en": "Test Bias",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사가 동일한 능력을 가진 서로 다른 집단의 구성원에게 체계적으로 다른 의미를 갖거나 다른 예측력을 보이는 통계적 속성이다.",
+    "definition_en": "A statistical property in which a test systematically yields different meanings or different predictive accuracy for members of different groups who possess the same level of the construct being measured.",
+    "significance": "검사의 과학적 공정성을 평가하는 핵심 기준으로, 편향이 존재하면 특정 집단에게 부당한 이익이나 불이익을 초래한다.",
+    "key_researchers": [
+      {"name_ko": "세실 레이놀즈", "name_en": "Cecil Reynolds", "contribution": "검사 편향의 체계적 탐지 방법론을 개발하고 편향 연구를 종합적으로 정리"},
+      {"name_ko": "아서 젠슨", "name_en": "Arthur Jensen", "contribution": "지능검사의 문화적 편향에 관한 논쟁을 체계적으로 검토하고 통계적 접근을 강조"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "차별적 문항 기능", "name_en": "Differential Item Functioning", "id": "ETHICS_DIF_003"},
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"},
+      {"name_ko": "불리한 영향", "name_en": "Adverse Impact", "id": "ETHICS_AI_004"}
+    ],
+    "sub_types": [
+      {"name_ko": "구인 편향", "name_en": "Construct Bias", "definition": "검사가 집단에 따라 다른 구성개념을 측정하는 편향"},
+      {"name_ko": "방법 편향", "name_en": "Method Bias", "definition": "검사 실시 방법이 집단에 따라 차별적으로 영향을 미치는 편향"},
+      {"name_ko": "문항 편향", "name_en": "Item Bias", "definition": "특정 문항이 집단에 따라 차별적으로 기능하는 편향"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "편향 = 같은 능력인데 다른 점수 = 측정의 '불공평한 자'",
+      "differential": "편향은 '통계적 개념'(같은 능력 → 다른 점수)이고, 공정성은 '가치 판단적 개념'(사회적 형평)이다.",
+      "key_point": "집단 간 평균 점수 차이 자체는 편향의 증거가 아니다 — 편향은 동일 능력 수준에서의 차이를 의미한다.",
+      "common_mistake": "집단 간 점수 차이를 곧바로 편향으로 해석하는 것 — 편향은 반드시 통계적 방법으로 검증해야 한다."
+    }
+  },
+  {
+    "id": "ETHICS_DIF_003",
+    "terminology": "차별적 문항 기능 (Differential Item Functioning)",
+    "terminology_ko": "차별적 문항 기능",
+    "terminology_en": "Differential Item Functioning",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "동일한 능력 수준을 가진 서로 다른 집단(성별, 인종 등)의 수검자가 특정 문항에서 체계적으로 다른 정답률을 보이는 현상이다.",
+    "definition_en": "A phenomenon in which examinees from different groups (gender, race, etc.) with the same ability level show systematically different probabilities of answering a particular item correctly.",
+    "significance": "문항 수준에서 편향을 탐지하는 핵심 방법론으로, 문항 개발과 검사 개정 과정에서 편향 문항을 식별하여 제거하는 데 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "폴 홀랜드", "name_en": "Paul Holland", "contribution": "DIF의 통계적 정의를 엄밀히 확립하고 Mantel-Haenszel 방법의 DIF 탐지 적용을 체계화"},
+      {"name_ko": "하워드 와이너", "name_en": "Howard Wainer", "contribution": "DIF 탐지의 IRT 기반 방법론을 발전시키고 DIF 연구의 실제적 적용을 촉진"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "ETHICS_BIAS_002"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "균일 DIF", "name_en": "Uniform DIF", "definition": "모든 능력 수준에서 일관된 방향으로 나타나는 DIF"},
+      {"name_ko": "비균일 DIF", "name_en": "Non-uniform DIF", "definition": "능력 수준에 따라 DIF의 방향이 달라지는 경우"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "DIF = 같은 능력 + 다른 집단 = 다른 정답률 = 문항의 '편파 심판'",
+      "differential": "DIF는 '문항 수준'의 편향이고, 검사 편향은 '검사 전체 수준'의 편향이다.",
+      "key_point": "DIF 탐지의 대표적 방법은 Mantel-Haenszel법(범주형)과 IRT 방법(모수적)이다.",
+      "common_mistake": "DIF가 있는 문항이 반드시 편향된 문항이라고 단정하는 것 — DIF는 편향의 필요조건이지 충분조건이 아니다."
+    }
+  },
+  {
+    "id": "ETHICS_AI_004",
+    "terminology": "불리한 영향 (Adverse Impact)",
+    "terminology_ko": "불리한 영향",
+    "terminology_en": "Adverse Impact",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "선발 절차의 결과 특정 보호 집단(인종, 성별 등)의 선발률이 다수 집단에 비해 체계적으로 낮아지는 차별적 결과를 의미한다.",
+    "definition_en": "A discriminatory outcome of a selection procedure in which the selection rate for a protected group (race, gender, etc.) is substantially lower than that of the majority group.",
+    "significance": "고용차별법에서 핵심적 개념으로, 불리한 영향이 입증되면 고용주는 선발 도구의 직무 관련성을 증명해야 하는 법적 부담을 진다.",
+    "key_researchers": [
+      {"name_ko": "모리스 스탬프", "name_en": "Morris Stamp", "contribution": "4/5(80%) 규칙을 EEOC 지침에 도입하여 불리한 영향의 실무적 판단 기준을 확립"},
+      {"name_ko": "프랭크 슈미트", "name_en": "Frank Schmidt", "contribution": "선발 도구의 타당도와 불리한 영향의 관계를 분석하여 형평성-효용 딜레마를 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "ETHICS_BIAS_002"},
+      {"name_ko": "4/5 규칙", "name_en": "Four-Fifths Rule", "id": "ETHICS_45_006"},
+      {"name_ko": "긍정적 조치", "name_en": "Affirmative Action", "id": "ETHICS_AA_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Adverse Impact = 선발률 차이 = 소수 집단 선발률 < 다수 집단 × 80%",
+      "differential": "불리한 영향은 '결과의 차별'(차별적 처우와 무관한 결과)이고, 의도적 차별은 '과정의 차별'이다.",
+      "key_point": "불리한 영향은 차별의 의도 유무와 관계없이 결과만으로 판단한다.",
+      "common_mistake": "불리한 영향이 곧 위법이라고 단정하는 것 — 직무 관련성이 입증되면 정당화될 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_CB_005",
+    "terminology": "문화적 편향 (Cultural Bias)",
+    "terminology_ko": "문화적 편향",
+    "terminology_en": "Cultural Bias",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사 내용, 언어, 형식이 특정 문화권의 가치, 경험, 지식에 유리하게 편향되어 다른 문화권 수검자에게 불리하게 작용하는 현상이다.",
+    "definition_en": "A phenomenon in which test content, language, or format is biased toward the values, experiences, and knowledge of a particular culture, disadvantaging examinees from other cultural backgrounds.",
+    "significance": "다문화 사회에서 검사의 보편적 적용 가능성을 위협하는 핵심 쟁점으로, 검사의 교차문화적 타당성 확보가 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스턴버그", "name_en": "Robert Sternberg", "contribution": "지능의 문화적 맥락 의존성을 주장하며 기존 지능검사의 문화적 편향을 비판"},
+      {"name_ko": "포바 판데이", "name_en": "Fons van de Vijver", "contribution": "교차문화 검사의 동등성 평가와 편향 탐지 방법론을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "ETHICS_BIAS_002"},
+      {"name_ko": "문화 공정 검사", "name_en": "Culture-Fair Test", "id": "ETHICS_CFT_008"},
+      {"name_ko": "검사 번역과 적응", "name_en": "Test Translation and Adaptation", "id": "ETHICS_TTA_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문화적 편향 = 특정 문화의 '안경'으로 모든 사람을 보는 것",
+      "differential": "문화적 편향은 '문화적 경험 차이'에 의한 편향이고, 언어적 편향은 '언어 이해력 차이'에 의한 편향이다.",
+      "key_point": "Cattell의 Culture-Fair Intelligence Test는 문화적 편향을 줄이기 위해 비언어적 과제만으로 구성되었다.",
+      "common_mistake": "비언어적 검사라면 문화적 편향이 없다고 가정하는 것 — 비언어적 검사도 검사 경험, 동기 등에서 문화 차이의 영향을 받는다."
+    }
+  },
+  {
+    "id": "ETHICS_45_006",
+    "terminology": "4/5 규칙 (Four-Fifths Rule)",
+    "terminology_ko": "4/5 규칙",
+    "terminology_en": "Four-Fifths Rule",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "소수 집단의 선발률이 다수 집단 선발률의 80%(4/5) 미만일 때 불리한 영향(adverse impact)이 존재하는 것으로 판단하는 실무적 기준이다.",
+    "definition_en": "A practical guideline stating that adverse impact exists when the selection rate for a minority group is less than 80% (four-fifths) of the selection rate for the majority group.",
+    "significance": "미국 EEOC(고용기회균등위원회)의 통일 지침에 명시된 불리한 영향의 1차 판단 기준으로, 고용차별 소송의 출발점이 된다.",
+    "key_researchers": [
+      {"name_ko": "EEOC 통일지침 위원회", "name_en": "EEOC Uniform Guidelines Committee", "contribution": "1978년 고용인 선발절차에 관한 통일 지침(UGESP)에서 4/5 규칙을 공식 채택"}
+    ],
+    "related_concepts": [
+      {"name_ko": "불리한 영향", "name_en": "Adverse Impact", "id": "ETHICS_AI_004"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "긍정적 조치", "name_en": "Affirmative Action", "id": "ETHICS_AA_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "4/5 = 80% = 소수 선발률 ÷ 다수 선발률 < 0.80 → adverse impact",
+      "differential": "4/5 규칙은 '결과 비교의 기준선'이고, 통계적 유의성 검정은 '확률적 판단'이다.",
+      "key_point": "4/5 규칙은 간편한 실무 기준이지만, 표본 크기가 작을 때는 부정확할 수 있다.",
+      "common_mistake": "4/5 규칙을 절대적 법적 기준으로 오해하는 것 — 실무적 지침이며 법원은 다른 통계적 증거도 고려한다."
+    }
+  },
+  {
+    "id": "ETHICS_AA_007",
+    "terminology": "긍정적 조치 (Affirmative Action)",
+    "terminology_ko": "긍정적 조치",
+    "terminology_en": "Affirmative Action",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "역사적으로 차별받아 온 집단의 대표성을 높이기 위해 채용, 승진, 교육 등에서 적극적으로 기회를 확대하는 정책이다.",
+    "definition_en": "A policy that actively expands opportunities for historically disadvantaged groups in hiring, promotion, and education to increase their representation.",
+    "significance": "검사 사용과 선발 결정에서의 형평성 확보를 위한 사회적 장치로, 능력주의와 형평성 간의 긴장을 반영하는 핵심 쟁점이다.",
+    "key_researchers": [
+      {"name_ko": "린든 존슨", "name_en": "Lyndon B. Johnson", "contribution": "1965년 행정명령 11246에 서명하여 연방 계약 업체의 긍정적 조치를 의무화"},
+      {"name_ko": "프랭크 슈미트", "name_en": "Frank Schmidt", "contribution": "긍정적 조치가 선발의 효용(utility)에 미치는 영향을 분석"}
+    ],
+    "related_concepts": [
+      {"name_ko": "불리한 영향", "name_en": "Adverse Impact", "id": "ETHICS_AI_004"},
+      {"name_ko": "4/5 규칙", "name_en": "Four-Fifths Rule", "id": "ETHICS_45_006"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "AA = Affirmative Action = 역사적 불이익 → 적극적 기회 확대",
+      "differential": "긍정적 조치는 '기회의 확대'이고, 역차별은 '다수 집단에 대한 부당한 불이익'이다.",
+      "key_point": "미국 대법원은 Gratz v. Bollinger(2003)에서 할당제는 위헌이나 전체적 고려는 합헌으로 판결했다.",
+      "common_mistake": "긍정적 조치를 자격 미달자를 선발하는 것으로 오해 — 목표는 동등한 자격 보유자 중 다양성 확대이다."
+    }
+  },
+  {
+    "id": "ETHICS_CFT_008",
+    "terminology": "문화 공정 검사 (Culture-Fair Test)",
+    "terminology_ko": "문화 공정 검사",
+    "terminology_en": "Culture-Fair Test",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "언어, 문화적 지식, 교육 경험의 영향을 최소화하도록 설계된 검사로, 주로 비언어적 과제나 도형 추리를 활용한다.",
+    "definition_en": "A test designed to minimize the influence of language, cultural knowledge, and educational experience, typically using nonverbal tasks or figural reasoning.",
+    "significance": "다문화 환경에서 인지능력을 보다 공정하게 측정하려는 시도로, 문화적 편향 논쟁에 대한 실천적 대안이다.",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "Culture Fair Intelligence Test(CFIT)를 개발하여 문화 공정 지능측정의 선구적 모델을 제시"},
+      {"name_ko": "존 레이븐", "name_en": "John Raven", "contribution": "Raven's Progressive Matrices를 개발하여 비언어적 추론 검사의 대표적 모형을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "검사 번역과 적응", "name_en": "Test Translation and Adaptation", "id": "ETHICS_TTA_009"}
+    ],
+    "sub_types": [
+      {"name_ko": "문화 자유 검사", "name_en": "Culture-Free Test", "definition": "문화의 영향이 전혀 없는 검사(이론적 이상)"},
+      {"name_ko": "문화 공정 검사", "name_en": "Culture-Fair Test", "definition": "문화의 영향을 최소화한 검사(현실적 목표)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Culture-Fair = 도형 + 추리 = 언어 최소화 = 문화 중립(에 가까운)",
+      "differential": "Culture-Free는 '문화 영향 제로'(달성 불가능)이고, Culture-Fair는 '문화 영향 최소화'(현실적 목표)이다.",
+      "key_point": "Raven's Matrices와 Cattell의 CFIT가 대표적인 문화 공정 검사이다.",
+      "common_mistake": "비언어적 검사면 완전히 문화 공정하다고 가정하는 것 — 검사 동기, 친숙도, 전략 사용에서도 문화 차이가 존재한다."
+    }
+  },
+  {
+    "id": "ETHICS_TTA_009",
+    "terminology": "검사 번역과 적응 (Test Translation and Adaptation)",
+    "terminology_ko": "검사 번역과 적응",
+    "terminology_en": "Test Translation and Adaptation",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "한 언어/문화권에서 개발된 검사를 다른 언어/문화권에서 사용할 수 있도록 번역하고 문화적 맥락에 맞게 수정하는 과정이다.",
+    "definition_en": "The process of translating and culturally modifying a test developed in one language/culture for use in another language/culture.",
+    "significance": "단순 번역만으로는 동등한 측정이 보장되지 않으며, 체계적인 적응 절차를 통해 교차문화적 측정 동등성을 확보해야 한다.",
+    "key_researchers": [
+      {"name_ko": "로날드 함블턴", "name_en": "Ronald Hambleton", "contribution": "ITC(International Test Commission) 검사 적응 지침을 주도적으로 개발"},
+      {"name_ko": "포바 판데이", "name_en": "Fons van de Vijver", "contribution": "교차문화 검사 적응의 편향과 동등성 평가 프레임워크를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"},
+      {"name_ko": "문화 공정 검사", "name_en": "Culture-Fair Test", "id": "ETHICS_CFT_008"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "역번역", "name_en": "Back Translation", "definition": "번역된 검사를 다시 원어로 번역하여 원본과 비교하는 방법"},
+      {"name_ko": "문화적 해석", "name_en": "Cultural Decentering", "definition": "원문과 번역문을 동시에 수정하여 양 문화에 동등하게 적합하게 만드는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "적응 = 번역(Translation) + 문화 수정(Adaptation) = 단순 번역 이상",
+      "differential": "검사 '번역'은 언어만 바꾸는 것이고, 검사 '적응'은 문화적 맥락까지 조정하는 것이다.",
+      "key_point": "ITC 지침은 역번역(back translation)을 포함한 체계적 절차를 권고한다.",
+      "common_mistake": "직역으로 충분하다고 생각하는 것 — 문항의 난이도, 문화적 적절성, 구인 동등성 모두 검증해야 한다."
+    }
+  },
+  {
+    "id": "ETHICS_IC_010",
+    "terminology": "사전 동의 (Informed Consent)",
+    "terminology_ko": "사전 동의",
+    "terminology_en": "Informed Consent",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "수검자에게 검사의 목적, 절차, 결과의 사용 방법, 비밀보장의 한계 등을 충분히 설명하고 자발적 동의를 얻는 윤리적 절차이다.",
+    "definition_en": "An ethical procedure of fully informing the examinee about the purpose, procedures, use of results, and limits of confidentiality of the test and obtaining voluntary agreement to participate.",
+    "significance": "수검자의 자율성과 권리를 보호하는 가장 기본적인 윤리 원칙으로, APA 윤리 강령의 핵심 요건이다.",
+    "key_researchers": [
+      {"name_ko": "APA 윤리위원회", "name_en": "APA Ethics Committee", "contribution": "심리학자의 윤리 원칙과 행동 강령에서 사전 동의의 요건과 절차를 명시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "ETHICS_CONF_011"},
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"},
+      {"name_ko": "검사 결과 피드백", "name_en": "Test Feedback", "id": "ETHICS_FB_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사전 동의 = 설명(Informed) + 동의(Consent) = '알고 나서 결정'",
+      "differential": "사전 동의는 '검사 전 정보 제공 및 동의'이고, 피드백은 '검사 후 결과 설명'이다.",
+      "key_point": "사전 동의는 검사 목적, 절차, 비밀보장 한계, 결과 사용을 포함해야 완전하다.",
+      "common_mistake": "서면 동의서만 받으면 충분하다고 생각하는 것 — 수검자의 이해를 확인하는 것이 핵심이다."
+    }
+  },
+  {
+    "id": "ETHICS_CONF_011",
+    "terminology": "비밀보장 (Confidentiality)",
+    "terminology_ko": "비밀보장",
+    "terminology_en": "Confidentiality",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사 결과와 수검자의 개인 정보를 허가 없이 제3자에게 공개하지 않을 전문적 의무이다.",
+    "definition_en": "The professional obligation not to disclose test results and personal information of examinees to third parties without authorization.",
+    "significance": "수검자의 사생활을 보호하고 검사 상황에서의 신뢰를 유지하는 핵심 원칙으로, 이를 위반하면 법적·윤리적 책임이 발생한다.",
+    "key_researchers": [
+      {"name_ko": "APA 윤리위원회", "name_en": "APA Ethics Committee", "contribution": "비밀보장의 윤리적 원칙과 예외 상황(자타해 위험 등)을 구체적으로 규정"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사전 동의", "name_en": "Informed Consent", "id": "ETHICS_IC_010"},
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"},
+      {"name_ko": "검사 보안", "name_en": "Test Security", "id": "ETHICS_SEC_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비밀보장 = 수검자 정보 = 잠금 + 열쇠(동의)가 있어야 공개",
+      "differential": "비밀보장은 '결과의 비공개 의무'이고, 검사 보안은 '검사 자료의 보호'이다.",
+      "key_point": "비밀보장의 예외: 자타해 위험, 아동학대 신고 의무, 법원 명령 등 법적 의무가 있는 경우.",
+      "common_mistake": "비밀보장이 절대적이라고 생각하는 것 — 자타해 위험 등 예외 상황이 있다."
+    }
+  },
+  {
+    "id": "ETHICS_APA_012",
+    "terminology": "APA 윤리 코드 (APA Ethics Code)",
+    "terminology_ko": "APA 윤리 코드",
+    "terminology_en": "APA Ethics Code",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "미국심리학회(APA)가 제정한 심리학자의 윤리 원칙과 행동 강령으로, 심리검사의 개발, 실시, 채점, 해석, 보고에 관한 윤리 기준을 포함한다.",
+    "definition_en": "The ethical principles and code of conduct established by the American Psychological Association (APA) that includes ethical standards for the development, administration, scoring, interpretation, and reporting of psychological tests.",
+    "significance": "심리검사 전문가의 윤리적 의사결정의 기본 틀을 제공하며, 검사 관련 윤리 위반 시 법적·전문적 제재의 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "미국심리학회", "name_en": "American Psychological Association", "contribution": "1953년 최초 윤리 강령 제정 이후 지속적으로 개정하여 현행 2017년판 유지"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사전 동의", "name_en": "Informed Consent", "id": "ETHICS_IC_010"},
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "ETHICS_CONF_011"},
+      {"name_ko": "검사 자격", "name_en": "Test User Qualifications", "id": "ETHICS_TUQ_015"},
+      {"name_ko": "검사 결과 피드백", "name_en": "Test Feedback", "id": "ETHICS_FB_013"}
+    ],
+    "sub_types": [
+      {"name_ko": "일반 원칙", "name_en": "General Principles", "definition": "이상적 지향(선행, 충실, 성실, 공정, 존엄)을 기술하는 비강제 원칙"},
+      {"name_ko": "윤리 기준", "name_en": "Ethical Standards", "definition": "구체적 행동 규범으로 위반 시 제재의 근거가 되는 강제 기준"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "APA 5원칙: 선행(Beneficence) + 충실(Fidelity) + 성실(Integrity) + 공정(Justice) + 존엄(Dignity)",
+      "differential": "일반 원칙은 '이상적 지향'(비강제)이고, 윤리 기준은 '행동 규범'(강제)이다.",
+      "key_point": "APA 윤리 강령 제9장(Assessment)이 심리검사 관련 윤리 기준을 구체적으로 다룬다.",
+      "common_mistake": "APA 윤리 코드가 법적 강제력을 갖는다고 오해 — 전문 단체의 자율 규범이며 법과는 별도이다."
+    }
+  },
+  {
+    "id": "ETHICS_FB_013",
+    "terminology": "검사 결과 피드백 (Test Feedback)",
+    "terminology_ko": "검사 결과 피드백",
+    "terminology_en": "Test Feedback",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사 실시 후 수검자에게 검사 결과의 의미, 해석, 한계를 이해 가능한 방식으로 설명하는 전문적 과정이다.",
+    "definition_en": "A professional process of explaining the meaning, interpretation, and limitations of test results to the examinee in an understandable manner after test administration.",
+    "significance": "수검자의 알 권리를 보장하고 검사 결과의 오용을 방지하며, 검사의 치료적·교육적 가치를 극대화한다.",
+    "key_researchers": [
+      {"name_ko": "스티븐 핀", "name_en": "Stephen Finn", "contribution": "치료적 평가(Therapeutic Assessment) 모델을 개발하여 피드백 자체를 치료적 개입으로 활용"},
+      {"name_ko": "콘스탄스 피셔", "name_en": "Constance Fischer", "contribution": "협력적 평가(Collaborative Assessment) 접근을 발전시켜 수검자 참여형 피드백 모델을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사전 동의", "name_en": "Informed Consent", "id": "ETHICS_IC_010"},
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "ETHICS_CONF_011"},
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"}
+    ],
+    "sub_types": [
+      {"name_ko": "치료적 평가 피드백", "name_en": "Therapeutic Assessment Feedback", "definition": "피드백 과정 자체를 치료적 개입으로 활용하는 접근"},
+      {"name_ko": "구두 피드백", "name_en": "Oral Feedback", "definition": "면대면으로 결과를 설명하는 방식"},
+      {"name_ko": "서면 보고서", "name_en": "Written Report", "definition": "공식 문서로 결과를 정리하여 전달하는 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "피드백 = 결과 설명 + 의미 해석 + 한계 고지 = '수검자의 알 권리'",
+      "differential": "피드백은 '검사 후 결과 설명'이고, 사전 동의는 '검사 전 정보 제공'이다.",
+      "key_point": "Stephen Finn의 치료적 평가에서는 피드백 자체가 내담자 변화를 촉진하는 개입이 된다.",
+      "common_mistake": "수치만 전달하면 충분하다고 생각하는 것 — 결과의 의미와 한계를 이해 가능한 수준으로 설명해야 한다."
+    }
+  },
+  {
+    "id": "ETHICS_SEC_014",
+    "terminology": "검사 보안 (Test Security)",
+    "terminology_ko": "검사 보안",
+    "terminology_en": "Test Security",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사 자료(문항, 채점 기준, 매뉴얼)가 미허가 접근이나 유출로부터 보호되어 검사의 타당성과 유용성이 유지되도록 하는 절차와 정책이다.",
+    "definition_en": "Procedures and policies that protect test materials (items, scoring criteria, manuals) from unauthorized access or disclosure to maintain test validity and utility.",
+    "significance": "검사 문항이 유출되면 검사의 타당도가 심각하게 손상되므로, 검사 보안은 검사 품질 유지의 필수 조건이다.",
+    "key_researchers": [
+      {"name_ko": "미국심리학회", "name_en": "American Psychological Association", "contribution": "검사 보안에 관한 윤리 기준과 실무 지침을 제정"},
+      {"name_ko": "국제검사위원회", "name_en": "International Test Commission", "contribution": "검사 보안의 국제 지침을 개발하여 전 세계적 기준을 수립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "ETHICS_CONF_011"},
+      {"name_ko": "검사 자격", "name_en": "Test User Qualifications", "id": "ETHICS_TUQ_015"},
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "검사 보안 = 문항 보호 + 유출 방지 = 타당도 유지의 '자물쇠'",
+      "differential": "검사 보안은 '검사 자료의 물리적·디지털 보호'이고, 비밀보장은 '수검자 정보의 보호'이다.",
+      "key_point": "인터넷 시대에 검사 문항 유출이 심각한 문제가 되어 컴퓨터 기반 적응검사(CAT) 등 대안이 활용된다.",
+      "common_mistake": "검사 보안과 비밀보장을 혼동하는 것 — 보안은 '검사 자료'를, 비밀보장은 '수검자 정보'를 보호한다."
+    }
+  },
+  {
+    "id": "ETHICS_TUQ_015",
+    "terminology": "검사 자격 (Test User Qualifications)",
+    "terminology_ko": "검사 자격",
+    "terminology_en": "Test User Qualifications",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "심리검사를 적절하게 선택, 실시, 채점, 해석하기 위해 검사 사용자가 갖추어야 하는 전문적 훈련, 교육, 자격 요건이다.",
+    "definition_en": "The professional training, education, and credential requirements that test users must possess to appropriately select, administer, score, and interpret psychological tests.",
+    "significance": "검사의 오용과 결과의 잘못된 해석을 방지하기 위한 핵심 안전장치로, 검사 출판사와 전문 학회가 자격 수준을 규정한다.",
+    "key_researchers": [
+      {"name_ko": "미국심리학회", "name_en": "American Psychological Association", "contribution": "검사 사용자의 자격 요건에 관한 가이드라인을 제정하여 전문성 기준을 확립"},
+      {"name_ko": "국제검사위원회", "name_en": "International Test Commission", "contribution": "검사 사용에 관한 국제 지침을 개발하여 자격 요건의 국제적 기준을 수립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"},
+      {"name_ko": "검사 보안", "name_en": "Test Security", "id": "ETHICS_SEC_014"},
+      {"name_ko": "사전 동의", "name_en": "Informed Consent", "id": "ETHICS_IC_010"}
+    ],
+    "sub_types": [
+      {"name_ko": "수준 A", "name_en": "Level A", "definition": "기본 교육만으로 실시 가능한 검사(성격 질문지 등)"},
+      {"name_ko": "수준 B", "name_en": "Level B", "definition": "심리학 관련 석사 이상 훈련이 필요한 검사(지능검사 등)"},
+      {"name_ko": "수준 C", "name_en": "Level C", "definition": "박사 수준 임상 훈련이 필요한 검사(투사검사 등)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "자격 수준 A→B→C = 난이도 상승 = 더 많은 훈련 필요",
+      "differential": "수준 A는 '기본'(질문지), 수준 B는 '중간'(지능검사), 수준 C는 '고급'(투사검사)이다.",
+      "key_point": "WAIS, K-WISC 같은 개인용 지능검사는 수준 B 이상, Rorschach는 수준 C 자격이 필요하다.",
+      "common_mistake": "자격 수준을 무시하고 훈련 없이 검사를 실시하는 것 — 결과의 오해석과 수검자 피해를 초래할 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_STDS_016",
+    "terminology": "검사 표준 (Standards for Testing)",
+    "terminology_ko": "검사 표준",
+    "terminology_en": "Standards for Testing",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "APA, AERA, NCME가 공동으로 제정한 '교육 및 심리 검사 표준(Standards for Educational and Psychological Testing)'으로, 검사 개발, 평가, 사용의 기술적·윤리적 기준을 포괄한다.",
+    "definition_en": "The 'Standards for Educational and Psychological Testing' jointly published by APA, AERA, and NCME, providing comprehensive technical and ethical criteria for test development, evaluation, and use.",
+    "significance": "심리검사 분야의 '바이블'로 불리며, 검사의 기술적 품질과 윤리적 사용에 관한 가장 권위 있는 기준서이다.",
+    "key_researchers": [
+      {"name_ko": "AERA/APA/NCME 합동위원회", "name_en": "AERA/APA/NCME Joint Committee", "contribution": "1966년 초판 이후 지속 개정하여 2014년 현행판(7판)을 출판"}
+    ],
+    "related_concepts": [
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"},
+      {"name_ko": "검사 자격", "name_en": "Test User Qualifications", "id": "ETHICS_TUQ_015"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "검사 표준 = AERA + APA + NCME = 3대 학회 공동 = 검사의 '헌법'",
+      "differential": "검사 표준은 '기술적·윤리적 기준서'이고, APA 윤리 코드는 '전문가 행동 강령'이다.",
+      "key_point": "2014년판은 공정성(fairness)을 독립된 장으로 신설하여 검사 형평성 문제를 강화했다.",
+      "common_mistake": "검사 표준을 법적 강제 규정으로 오해하는 것 — 전문적 합의 기준이며 법원에서 참조 자료로 활용된다."
+    }
+  },
+  {
+    "id": "ETHICS_RES_017",
+    "terminology": "검사 결과의 책임 있는 사용 (Responsible Use of Test Results)",
+    "terminology_ko": "검사 결과의 책임 있는 사용",
+    "terminology_en": "Responsible Use of Test Results",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사 결과를 해석하고 활용할 때 검사의 목적, 한계, 측정의 표준오차를 고려하며, 단일 검사 점수만으로 중요한 결정을 내리지 않는 윤리적 사용 원칙이다.",
+    "definition_en": "The ethical principle of considering the test's purpose, limitations, and standard error of measurement when interpreting and utilizing test results, and not making important decisions based on a single test score alone.",
+    "significance": "검사 점수의 과대해석이나 부적절한 사용을 방지하여 수검자의 권리와 복지를 보호하는 핵심 윤리 원칙이다.",
+    "key_researchers": [
+      {"name_ko": "사무엘 메식", "name_en": "Samuel Messick", "contribution": "타당도의 통합적 개념을 제안하며 검사 결과 사용의 사회적 결과까지 타당도에 포함시킴"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "검사 사용의 사회적 책임과 가치 판단의 역할을 강조"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 결과 피드백", "name_en": "Test Feedback", "id": "ETHICS_FB_013"},
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"},
+      {"name_ko": "사전 동의", "name_en": "Informed Consent", "id": "ETHICS_IC_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "책임 있는 사용 = 한계 인정 + 다중 자료 + 측정 오차 고려",
+      "differential": "책임 있는 사용은 '결과 해석의 윤리'이고, 검사 공정성은 '검사 자체의 형평성'이다.",
+      "key_point": "Messick은 검사 사용의 사회적 결과(consequential validity)까지 타당도의 일부로 보았다.",
+      "common_mistake": "단일 검사 점수(예: IQ 점수)만으로 중요한 결정(배치, 진단)을 내리는 것."
+    }
+  },
+  {
+    "id": "ETHICS_PRIV_018",
+    "terminology": "프라이버시권 (Right to Privacy)",
+    "terminology_ko": "프라이버시권",
+    "terminology_en": "Right to Privacy",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "수검자가 자신의 개인 정보와 심리적 특성에 대한 정보를 통제할 수 있는 권리로, 검사가 수검자의 사적 영역을 부당하게 침해해서는 안 된다는 원칙이다.",
+    "definition_en": "The right of examinees to control information about their personal characteristics and psychological attributes, based on the principle that testing should not unduly intrude upon their private domain.",
+    "significance": "심리검사의 침습적 특성에 대한 윤리적 제한을 설정하며, 특히 고용 장면에서 직무 무관한 개인 정보 수집을 제한하는 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "알란 웨스틴", "name_en": "Alan Westin", "contribution": "정보 프라이버시의 개념적 틀을 확립하여 심리검사 맥락의 프라이버시 논의에 기반을 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사전 동의", "name_en": "Informed Consent", "id": "ETHICS_IC_010"},
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "ETHICS_CONF_011"},
+      {"name_ko": "APA 윤리 코드", "name_en": "APA Ethics Code", "id": "ETHICS_APA_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "프라이버시 = '내 정보는 내가 통제' = 부당한 심리 침입 금지",
+      "differential": "프라이버시는 '정보 수집 자체의 제한'이고, 비밀보장은 '수집된 정보의 보호'이다.",
+      "key_point": "고용 장면에서 직무와 무관한 개인 정보(성적 지향, 종교 등)를 검사하는 것은 프라이버시 침해이다.",
+      "common_mistake": "프라이버시와 비밀보장을 동일시하는 것 — 프라이버시는 수집 단계, 비밀보장은 보관/공개 단계의 문제이다."
+    }
+  },
+  {
+    "id": "ETHICS_LABEL_019",
+    "terminology": "낙인 효과 (Labeling Effect)",
+    "terminology_ko": "낙인 효과",
+    "terminology_en": "Labeling Effect",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사 결과에 의해 부여된 진단명이나 분류 레이블이 개인에 대한 타인의 기대와 대우, 그리고 자기 자신의 행동에 부정적 영향을 미치는 현상이다.",
+    "definition_en": "A phenomenon in which diagnostic labels or classification categories assigned through testing negatively influence others' expectations and treatment of the individual, as well as the individual's own behavior.",
+    "significance": "검사 결과의 사회적 결과를 고려해야 하는 핵심 윤리 쟁점으로, 특히 교육 배치와 임상 진단에서 주의가 필요하다.",
+    "key_researchers": [
+      {"name_ko": "토마스 사스", "name_en": "Thomas Szasz", "contribution": "정신과 진단의 낙인 효과를 비판하며 정신질환 개념 자체에 의문을 제기"},
+      {"name_ko": "로버트 로젠탈", "name_en": "Robert Rosenthal", "contribution": "기대 효과(Pygmalion effect) 연구를 통해 레이블이 교사 기대와 학생 수행에 미치는 영향을 실증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 결과의 책임 있는 사용", "name_en": "Responsible Use of Test Results", "id": "ETHICS_RES_017"},
+      {"name_ko": "검사 결과 피드백", "name_en": "Test Feedback", "id": "ETHICS_FB_013"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "낙인 = 레이블(꼬리표) → 기대 변화 → 행동 변화 = '자기충족적 예언'",
+      "differential": "낙인 효과는 '레이블이 개인에 미치는 부정적 영향'이고, 피그말리온 효과는 '긍정적 기대가 수행을 높이는 효과'이다.",
+      "key_point": "Rosenthal의 Pygmalion 연구에서 교사의 기대가 학생의 IQ 변화에 영향을 미쳤다.",
+      "common_mistake": "진단명이 객관적 사실만을 반영한다고 믿는 것 — 진단명은 사회적 결과를 수반한다."
+    }
+  },
+  {
+    "id": "ETHICS_MUL_020",
+    "terminology": "다문화 평가 역량 (Multicultural Assessment Competence)",
+    "terminology_ko": "다문화 평가 역량",
+    "terminology_en": "Multicultural Assessment Competence",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "문화적 배경이 다양한 수검자에게 검사를 적절하게 실시하고 해석하기 위해 검사자가 갖추어야 하는 문화적 지식, 태도, 기술이다.",
+    "definition_en": "The cultural knowledge, attitudes, and skills that test administrators must possess to appropriately administer and interpret tests for examinees from diverse cultural backgrounds.",
+    "significance": "다문화 사회에서 검사의 윤리적이고 타당한 사용을 위한 필수 역량으로, 문화적 맥락을 무시한 평가는 부정확하고 비윤리적일 수 있다.",
+    "key_researchers": [
+      {"name_ko": "데럴드 윙 수", "name_en": "Derald Wing Sue", "contribution": "다문화 상담 역량 모델을 제안하여 문화적으로 유능한 심리 서비스의 기반을 확립"},
+      {"name_ko": "리처드 다나", "name_en": "Richard Dana", "contribution": "다문화 심리평가의 체계적 프레임워크를 개발하여 문화적 맥락을 반영한 평가 절차를 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"},
+      {"name_ko": "검사 번역과 적응", "name_en": "Test Translation and Adaptation", "id": "ETHICS_TTA_009"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "문화적 인식", "name_en": "Cultural Awareness", "definition": "자신의 문화적 가정과 편견에 대한 자각"},
+      {"name_ko": "문화적 지식", "name_en": "Cultural Knowledge", "definition": "다양한 문화 집단의 세계관, 가치, 경험에 대한 이해"},
+      {"name_ko": "문화적 기술", "name_en": "Cultural Skills", "definition": "문화적으로 적절한 평가 전략을 적용하는 실제 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "다문화 역량 = 인식(Awareness) + 지식(Knowledge) + 기술(Skills) = AKS",
+      "differential": "다문화 역량은 '검사자의 능력'이고, 문화 공정 검사는 '검사 도구의 속성'이다.",
+      "key_point": "Sue의 다문화 상담 역량 모델은 인식-지식-기술의 3차원 구조이다.",
+      "common_mistake": "표준화된 검사이면 문화에 관계없이 동일하게 적용할 수 있다고 가정하는 것."
+    }
+  },
+  {
+    "id": "ETHICS_CVAL_021",
+    "terminology": "결과 타당도 (Consequential Validity)",
+    "terminology_ko": "결과 타당도",
+    "terminology_en": "Consequential Validity",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "검사 점수의 해석과 사용이 가져오는 사회적 결과(긍정적·부정적)를 타당도 평가의 일부로 고려하는 개념이다.",
+    "definition_en": "The concept of including the social consequences (positive and negative) of test score interpretation and use as part of validity evaluation.",
+    "significance": "검사의 기술적 타당도만으로는 불충분하며, 검사 사용의 사회적 결과까지 포괄적으로 평가해야 한다는 통합적 타당도 개념의 핵심 요소이다.",
+    "key_researchers": [
+      {"name_ko": "사무엘 메식", "name_en": "Samuel Messick", "contribution": "타당도의 통합적 개념에서 결과적 측면(consequential aspect)을 타당도의 본질적 부분으로 포함시킴"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "검사 사용의 사회적 결과에 대한 책임을 강조하며 가치 판단의 역할을 논의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 결과의 책임 있는 사용", "name_en": "Responsible Use of Test Results", "id": "ETHICS_RES_017"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "불리한 영향", "name_en": "Adverse Impact", "id": "ETHICS_AI_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "결과 타당도 = '검사를 쓰면 사회에 어떤 영향?' = 타당도의 윤리적 차원",
+      "differential": "결과 타당도는 '사용의 사회적 영향'이고, 구인 타당도는 '검사가 측정하는 것의 정확성'이다.",
+      "key_point": "Messick(1989)은 결과적 근거를 타당도의 6가지 측면 중 하나로 포함시켰다.",
+      "common_mistake": "결과 타당도를 기존의 구인 타당도와 완전히 별개로 보는 것 — 통합적 타당도 개념의 일부이다."
+    }
+  },
+  {
+    "id": "ETHICS_COMP_022",
+    "terminology": "컴퓨터 기반 검사 윤리 (Ethics of Computer-Based Testing)",
+    "terminology_ko": "컴퓨터 기반 검사 윤리",
+    "terminology_en": "Ethics of Computer-Based Testing",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "컴퓨터와 인터넷을 활용한 검사 실시에서 발생하는 고유한 윤리적 쟁점(접근성, 동등성, 데이터 보안, 비대면 감독)을 다루는 윤리 영역이다.",
+    "definition_en": "An ethics domain addressing unique ethical issues (accessibility, equivalence, data security, remote proctoring) arising from test administration via computers and the internet.",
+    "significance": "디지털 전환 시대에 검사의 표준화와 공정성을 새로운 매체 환경에서 유지하기 위한 핵심 윤리 쟁점이다.",
+    "key_researchers": [
+      {"name_ko": "국제검사위원회", "name_en": "International Test Commission", "contribution": "인터넷 기반 검사에 관한 국제 지침을 개발하여 윤리적·기술적 기준을 수립"},
+      {"name_ko": "데이비드 바트람", "name_en": "Dave Bartram", "contribution": "온라인 검사의 동등성과 품질 보증에 관한 연구를 선도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 보안", "name_en": "Test Security", "id": "ETHICS_SEC_014"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "검사 표준", "name_en": "Standards for Testing", "id": "ETHICS_STDS_016"}
+    ],
+    "sub_types": [
+      {"name_ko": "컴퓨터 적응 검사(CAT)", "name_en": "Computerized Adaptive Testing", "definition": "수검자의 능력에 맞춰 문항을 실시간 선택하는 검사"},
+      {"name_ko": "원격 감독 검사", "name_en": "Remote Proctored Testing", "definition": "화상을 통해 비대면으로 감독하는 검사 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CBT 윤리 = 접근성 + 동등성 + 보안 + 감독 = 디지털 시대의 새로운 도전",
+      "differential": "CBT 윤리는 '매체 관련 윤리'이고, 전통적 검사 윤리는 '내용과 사용 관련 윤리'이다.",
+      "key_point": "ITC 지침은 온라인 검사의 동등성 검증, 데이터 보안, 접근성 보장을 핵심 요건으로 규정한다.",
+      "common_mistake": "지필 검사와 컴퓨터 검사가 자동으로 동등하다고 가정하는 것 — 매체 동등성은 반드시 검증해야 한다."
+    }
+  },
+  {
+    "id": "ETHICS_SCORE_023",
+    "terminology": "점수 조정 (Score Adjustment)",
+    "terminology_ko": "점수 조정",
+    "terminology_en": "Score Adjustment",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "집단 간 점수 차이를 보정하기 위해 특정 집단의 점수를 통계적으로 조정하는 방법으로, 집단 내 규준 적용, 밴딩(banding) 등의 기법이 포함된다.",
+    "definition_en": "Statistical methods of adjusting scores of specific groups to compensate for group differences, including within-group norming, banding, and other techniques.",
+    "significance": "선발의 형평성과 효용의 균형을 추구하는 핵심 쟁점으로, 인종별 규준(race norming) 사용은 미국에서 1991년 시민권법에 의해 금지되었다.",
+    "key_researchers": [
+      {"name_ko": "폴 사케트", "name_en": "Paul Sackett", "contribution": "점수 밴딩(banding)의 이론적 근거와 실무적 적용을 체계화"},
+      {"name_ko": "웨인 카시오", "name_en": "Wayne Cascio", "contribution": "선발 도구의 효용 분석에서 점수 조정의 비용-편익을 분석"}
+    ],
+    "related_concepts": [
+      {"name_ko": "불리한 영향", "name_en": "Adverse Impact", "id": "ETHICS_AI_004"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "긍정적 조치", "name_en": "Affirmative Action", "id": "ETHICS_AA_007"}
+    ],
+    "sub_types": [
+      {"name_ko": "집단 내 규준", "name_en": "Within-Group Norming", "definition": "각 집단 내에서 상대적 위치를 산출하여 비교하는 방법"},
+      {"name_ko": "점수 밴딩", "name_en": "Score Banding", "definition": "측정의 표준오차를 고려하여 점수 범위 내의 지원자를 동등하게 취급하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "점수 조정 = 집단 차이 보정 → 형평성 ↑ but 효용 ↓ = 딜레마",
+      "differential": "집단 내 규준은 '각 집단 내 비교'이고, 밴딩은 '측정 오차 범위 내 동등 취급'이다.",
+      "key_point": "미국 시민권법(1991)은 인종별 규준(race norming)을 명시적으로 금지했다.",
+      "common_mistake": "점수 조정을 무조건 역차별로 간주하는 것 — 밴딩은 측정의 표준오차라는 기술적 근거에 기반한다."
+    }
+  },
+  {
+    "id": "ETHICS_STER_024",
+    "terminology": "고정관념 위협 (Stereotype Threat)",
+    "terminology_ko": "고정관념 위협",
+    "terminology_en": "Stereotype Threat",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "자신이 속한 집단에 대한 부정적 고정관념이 활성화되면 수검자가 불안을 느끼고 실제 능력보다 낮은 수행을 보이는 현상이다.",
+    "definition_en": "A phenomenon in which the activation of negative stereotypes about one's group causes examinees to experience anxiety and perform below their actual ability level.",
+    "significance": "집단 간 검사 점수 차이의 일부를 설명할 수 있는 심리적 메커니즘으로, 검사 상황의 공정성에 중요한 함의를 갖는다.",
+    "key_researchers": [
+      {"name_ko": "클로드 스틸", "name_en": "Claude Steele", "contribution": "고정관념 위협의 개념을 제안하고 실험적으로 입증하여 집단 간 수행 차이의 상황적 원인을 밝힘"},
+      {"name_ko": "조슈아 아론슨", "name_en": "Joshua Aronson", "contribution": "Steele과 함께 고정관념 위협의 초기 실험 연구를 수행하고 완화 전략을 탐구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"},
+      {"name_ko": "낙인 효과", "name_en": "Labeling Effect", "id": "ETHICS_LABEL_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "고정관념 위협 = '우리 집단은 못한다는 말' → 불안 → 실제로 못함 = 자기충족적 예언",
+      "differential": "고정관념 위협은 '상황적 요인'(검사 맥락에서 활성화)이고, 검사 편향은 '검사 도구 자체의 속성'이다.",
+      "key_point": "Steele & Aronson(1995) 연구에서 검사를 '진단적'으로 설명하면 흑인 학생의 수행이 저하되었다.",
+      "common_mistake": "고정관념 위협이 '능력 자체의 차이'를 의미한다고 오해 — 실제로는 '상황이 유발하는 수행 저하'이다."
+    }
+  },
+  {
+    "id": "ETHICS_MINC_025",
+    "terminology": "소수 집단 검사 쟁점 (Minority Testing Issues)",
+    "terminology_ko": "소수 집단 검사 쟁점",
+    "terminology_en": "Minority Testing Issues",
+    "category": "ETHICS",
+    "category_name": "검사 윤리와 공정성 (Ethics, Bias, & Fairness)",
+    "definition": "인종적·민족적·언어적 소수 집단에 대한 심리검사의 적용에서 발생하는 공정성, 편향, 문화적 적절성, 법적·윤리적 쟁점의 총체이다.",
+    "definition_en": "The totality of fairness, bias, cultural appropriateness, and legal/ethical issues arising from the application of psychological tests to racial, ethnic, and linguistic minority groups.",
+    "significance": "미국 역사에서 검사의 차별적 사용(예: 이민 제한, 인종 분리)에 대한 반성에서 출발한 핵심 쟁점으로, 현대 검사 실무의 근본적 방향을 결정한다.",
+    "key_researchers": [
+      {"name_ko": "래리 래리 P. 판결", "name_en": "Larry P. v. Riles", "contribution": "1979년 연방법원이 흑인 학생의 특수학급 배치에 IQ 검사 사용을 금지한 획기적 판결"},
+      {"name_ko": "로버트 윌리엄스", "name_en": "Robert Williams", "contribution": "흑인 문화 기반의 BITCH(Black Intelligence Test of Cultural Homogeneity)를 개발하여 문화적 편향을 역으로 보여줌"}
+    ],
+    "related_concepts": [
+      {"name_ko": "불리한 영향", "name_en": "Adverse Impact", "id": "ETHICS_AI_004"},
+      {"name_ko": "문화적 편향", "name_en": "Cultural Bias", "id": "ETHICS_CB_005"},
+      {"name_ko": "고정관념 위협", "name_en": "Stereotype Threat", "id": "ETHICS_STER_024"},
+      {"name_ko": "다문화 평가 역량", "name_en": "Multicultural Assessment Competence", "id": "ETHICS_MUL_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소수 집단 쟁점 = 편향 + 공정성 + 문화 + 법 = 검사의 '사회적 책임'",
+      "differential": "소수 집단 쟁점은 '사회적·역사적 맥락'을 포함하는 포괄적 주제이고, 검사 편향은 '기술적 통계 분석'에 초점을 맞춘다.",
+      "key_point": "Larry P. v. Riles(1979)는 IQ 검사의 문화적 편향을 법적으로 인정한 획기적 판례이다.",
+      "common_mistake": "소수 집단 간 점수 차이를 능력 차이로 단순 해석하는 것 — 교육 기회, 문화적 편향, 고정관념 위협 등 다양한 요인을 고려해야 한다."
+    }
+  }
+]

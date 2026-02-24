@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "INTELL_INTEL_001",
+    "terminology": "지능 (Intelligence)",
+    "terminology_ko": "지능",
+    "terminology_en": "Intelligence",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "새로운 상황에 적응하고, 경험으로부터 학습하며, 추상적 사고를 활용하여 문제를 해결하는 정신적 능력의 총체이다",
+    "definition_en": "The global capacity to think rationally, act purposefully, adapt to new situations, learn from experience, and deal effectively with the environment",
+    "significance": "심리학의 핵심 구인 중 하나로, 학업 성취, 직업 수행, 건강 등 다양한 삶의 영역을 예측하는 가장 강력한 심리적 변인이다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "지능을 '합목적적으로 행동하고, 합리적으로 사고하며, 환경을 효과적으로 다루는 총체적 능력'으로 정의"},
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "최초의 실용적 지능검사를 개발하여 현대 지능 측정의 토대를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "일반지능", "name_en": "General Intelligence", "id": "INTELL_GFACT_003"},
+      {"name_ko": "정서지능", "name_en": "Emotional Intelligence", "id": "INTELL_EI_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지능 = 적응 + 학습 + 추상적 사고 + 문제해결",
+      "differential": "지능은 단일 능력이 아니라 여러 능력의 복합체라는 점에서 학자마다 정의가 다르다",
+      "key_point": "지능의 정의에 대한 학자 간 합의가 완전하지 않으며, 조작적 정의(검사가 측정하는 것)로 사용되기도 한다",
+      "common_mistake": "지능을 단순히 IQ 점수와 동일시하는 것 — IQ는 지능의 조작적 측정치일 뿐이다"
+    }
+  },
+  {
+    "id": "INTELL_IQ_002",
+    "terminology": "지능지수 (Intelligence Quotient, IQ)",
+    "terminology_ko": "지능지수",
+    "terminology_en": "Intelligence Quotient (IQ)",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "표준화된 지능검사를 통해 산출되는 수치로, 개인의 인지 능력 수준을 동일 연령 집단과 비교하여 나타낸 점수이다",
+    "definition_en": "A numerical score derived from standardized intelligence tests that represents an individual's cognitive ability level relative to the same-age population",
+    "significance": "교육 배치, 임상 진단(지적장애, 영재 판별), 연구에서 지능을 정량적으로 비교하는 가장 보편적인 지표이다",
+    "key_researchers": [
+      {"name_ko": "윌리엄 슈테른", "name_en": "William Stern", "contribution": "정신연령/생활연령의 비율로서 지능지수(IQ) 개념을 최초로 제안"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "비율 IQ 대신 편차 IQ 개념을 도입하여 현대적 IQ 산출 방식을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신연령", "name_en": "Mental Age", "id": "INTELL_MA_019"},
+      {"name_ko": "편차지능", "name_en": "Deviation IQ", "id": "INTELL_DIQ_020"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "INTELL_NORM_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "비율 IQ",
+        "name_en": "Ratio IQ",
+        "definition": "정신연령(MA) ÷ 생활연령(CA) × 100으로 산출하는 전통적 IQ 계산 방식"
+      },
+      {
+        "name_ko": "편차 IQ",
+        "name_en": "Deviation IQ",
+        "definition": "동일 연령 집단의 평균과 표준편차를 기준으로 상대적 위치를 나타내는 현대적 IQ 산출 방식"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "비율 IQ = MA/CA × 100, 편차 IQ = 평균 100 + 표준편차 15",
+      "differential": "비율 IQ는 아동에게만 적용 가능하고, 편차 IQ는 모든 연령에 적용 가능하다",
+      "key_point": "현대 지능검사는 모두 편차 IQ를 사용하며, 평균 100, 표준편차 15(웩슬러) 또는 16(스탠포드-비네)이다",
+      "common_mistake": "IQ가 절대적이고 불변하는 수치라고 생각하는 것 — 실제로는 상대적 위치를 나타내는 점수이다"
+    }
+  },
+  {
+    "id": "INTELL_GFACT_003",
+    "terminology": "일반지능 (General Intelligence, g factor)",
+    "terminology_ko": "일반지능",
+    "terminology_en": "General Intelligence (g factor)",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "모든 인지 과제 수행의 기저에 있는 공통적인 정신 능력으로, 다양한 지능검사 점수 간의 정적 상관을 설명하는 단일한 일반 요인이다",
+    "definition_en": "A single general factor of mental ability that underlies performance on all cognitive tasks, explaining the positive correlations observed among diverse intelligence test scores",
+    "significance": "스피어만이 요인분석을 통해 발견한 개념으로, 지능의 구조에 대한 논쟁(단일 vs. 다중)의 출발점이며, 현대 인지능력 연구의 핵심 구인이다",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "요인분석을 통해 g요인(일반지능)과 s요인(특수지능)의 2요인 이론을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "s요인", "name_en": "Specific Factor", "id": "INTELL_SFACT_022"},
+      {"name_ko": "요인분석", "name_en": "Factor Analysis", "id": "INTELL_FA_021"},
+      {"name_ko": "유동지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "g = general = 모든 인지과제에 공통으로 작용하는 '일반' 능력",
+      "differential": "g요인은 단일 일반 능력, 다중지능은 독립적인 여러 능력을 가정한다는 점에서 대립된다",
+      "key_point": "스피어만은 여러 검사 점수 간 정적 상관이 나타나는 이유를 g요인으로 설명했다",
+      "common_mistake": "g요인이 뇌의 특정 영역에 위치한다고 생각하는 것 — g는 통계적 추출 개념이다"
+    }
+  },
+  {
+    "id": "INTELL_MI_004",
+    "terminology": "다중지능 (Multiple Intelligences)",
+    "terminology_ko": "다중지능",
+    "terminology_en": "Multiple Intelligences",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "인간의 지능은 단일한 능력이 아니라 서로 독립적인 최소 8가지 유형의 지능으로 구성되어 있다는 이론이다",
+    "definition_en": "A theory proposing that intelligence is not a single general ability but consists of at least eight independent types of intelligence, each representing a different way of processing information",
+    "significance": "전통적 IQ 개념을 넘어 인간 능력의 다양성을 강조하며, 교육 현장에서 개별화 교육과 다양한 학습 스타일에 대한 인식을 확산시켰다",
+    "key_researchers": [
+      {"name_ko": "하워드 가드너", "name_en": "Howard Gardner", "contribution": "1983년 '마음의 틀(Frames of Mind)'에서 다중지능 이론을 제안, 이후 8가지 지능 유형을 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반지능", "name_en": "General Intelligence", "id": "INTELL_GFACT_003"},
+      {"name_ko": "삼원지능이론", "name_en": "Triarchic Theory", "id": "INTELL_TRI_005"},
+      {"name_ko": "정서지능", "name_en": "Emotional Intelligence", "id": "INTELL_EI_006"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "언어 지능",
+        "name_en": "Linguistic Intelligence",
+        "definition": "언어를 효과적으로 사용하는 능력 (예: 작가, 연설가)"
+      },
+      {
+        "name_ko": "논리-수학 지능",
+        "name_en": "Logical-Mathematical Intelligence",
+        "definition": "논리적 분석, 수학적 연산, 과학적 탐구 능력 (예: 과학자, 수학자)"
+      },
+      {
+        "name_ko": "음악 지능",
+        "name_en": "Musical Intelligence",
+        "definition": "음악적 패턴의 수행, 작곡, 감상 능력 (예: 음악가)"
+      },
+      {
+        "name_ko": "신체-운동감각 지능",
+        "name_en": "Bodily-Kinesthetic Intelligence",
+        "definition": "신체를 사용하여 문제를 해결하거나 표현하는 능력 (예: 운동선수, 무용가)"
+      },
+      {
+        "name_ko": "공간 지능",
+        "name_en": "Spatial Intelligence",
+        "definition": "공간적 세계를 정확히 지각하고 변형하는 능력 (예: 항해사, 건축가)"
+      },
+      {
+        "name_ko": "대인관계 지능",
+        "name_en": "Interpersonal Intelligence",
+        "definition": "타인의 의도, 동기, 욕구를 이해하는 능력 (예: 상담사, 교사)"
+      },
+      {
+        "name_ko": "자기이해 지능",
+        "name_en": "Intrapersonal Intelligence",
+        "definition": "자신의 감정, 동기, 강점, 약점을 이해하는 능력"
+      },
+      {
+        "name_ko": "자연탐구 지능",
+        "name_en": "Naturalist Intelligence",
+        "definition": "자연 세계의 패턴을 인식하고 분류하는 능력 (예: 생물학자)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "가드너의 8가지: 언(어), 논(리수학), 음(악), 신(체운동), 공(간), 대(인), 자(기이해), 자(연탐구)",
+      "differential": "다중지능은 서로 독립적인 8개 유형, 삼원지능은 3개 하위요소(분석/창의/실용)로 구분된다",
+      "key_point": "가드너는 전통적 IQ 검사가 언어와 논리-수학 지능만 측정한다고 비판했다",
+      "common_mistake": "다중지능 이론이 실증적으로 완전히 검증되었다고 생각하는 것 — 요인분석적 지지는 부족하다"
+    }
+  },
+  {
+    "id": "INTELL_TRI_005",
+    "terminology": "삼원지능이론 (Triarchic Theory of Intelligence)",
+    "terminology_ko": "삼원지능이론",
+    "terminology_en": "Triarchic Theory of Intelligence",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "지능은 분석적 지능, 창의적 지능, 실용적 지능의 세 가지 상호작용하는 하위요소로 구성된다는 이론이다",
+    "definition_en": "A theory proposing that intelligence comprises three interacting aspects: analytical intelligence, creative intelligence, and practical intelligence",
+    "significance": "전통적 IQ 검사가 분석적 지능만 측정한다는 한계를 지적하며, 창의성과 실용적 문제해결 능력도 지능의 핵심 요소임을 강조했다",
+    "key_researchers": [
+      {"name_ko": "로버트 스턴버그", "name_en": "Robert Sternberg", "contribution": "1985년 삼원지능이론을 제안하여 지능의 분석적, 창의적, 실용적 측면을 통합적으로 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "다중지능", "name_en": "Multiple Intelligences", "id": "INTELL_MI_004"},
+      {"name_ko": "일반지능", "name_en": "General Intelligence", "id": "INTELL_GFACT_003"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INTEL_001"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "분석적 지능",
+        "name_en": "Analytical Intelligence",
+        "definition": "문제를 분석하고, 비교하며, 평가하는 능력으로 전통적 IQ 검사가 주로 측정하는 영역"
+      },
+      {
+        "name_ko": "창의적 지능",
+        "name_en": "Creative Intelligence",
+        "definition": "새로운 상황에 대처하고 참신한 아이디어를 생성하는 능력"
+      },
+      {
+        "name_ko": "실용적 지능",
+        "name_en": "Practical Intelligence",
+        "definition": "일상생활의 문제를 해결하고 환경에 적응하는 능력, '거리의 지혜'라고도 불린다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "삼원 = 분석(Academic) + 창의(Creative) + 실용(Practical) → ACP",
+      "differential": "삼원지능은 3개 하위요소의 상호작용을 강조하고, 다중지능은 8개 독립 유형을 가정한다",
+      "key_point": "스턴버그는 실용적 지능(암묵적 지식)이 학교 밖에서의 성공을 더 잘 예측한다고 주장했다",
+      "common_mistake": "삼원지능의 세 요소가 완전히 독립적이라고 생각하는 것 — 실제로는 상호작용한다"
+    }
+  },
+  {
+    "id": "INTELL_EI_006",
+    "terminology": "정서지능 (Emotional Intelligence)",
+    "terminology_ko": "정서지능",
+    "terminology_en": "Emotional Intelligence",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "자신과 타인의 감정을 인식하고, 이해하며, 조절하고, 효과적으로 활용하는 능력이다",
+    "definition_en": "The ability to perceive, understand, manage, and effectively use emotions in oneself and others",
+    "significance": "IQ만으로 설명되지 않는 대인관계 성공, 리더십, 심리적 적응을 설명하며, 정서적 역량이 삶의 성공에 중요하다는 인식을 확산시켰다",
+    "key_researchers": [
+      {"name_ko": "피터 샐러베이", "name_en": "Peter Salovey", "contribution": "존 메이어와 함께 정서지능의 학술적 개념을 최초로 정의(1990)"},
+      {"name_ko": "존 메이어", "name_en": "John D. Mayer", "contribution": "샐러베이와 함께 정서지능의 4가지 능력 모형을 개발"},
+      {"name_ko": "대니얼 골먼", "name_en": "Daniel Goleman", "contribution": "1995년 저서 'Emotional Intelligence'로 정서지능 개념을 대중화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "다중지능", "name_en": "Multiple Intelligences", "id": "INTELL_MI_004"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INTEL_001"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "감정 인식",
+        "name_en": "Perceiving Emotions",
+        "definition": "자신과 타인의 감정을 정확히 지각하고 표현하는 능력"
+      },
+      {
+        "name_ko": "감정 활용",
+        "name_en": "Using Emotions",
+        "definition": "사고와 문제해결을 촉진하기 위해 감정을 활용하는 능력"
+      },
+      {
+        "name_ko": "감정 이해",
+        "name_en": "Understanding Emotions",
+        "definition": "감정의 원인과 변화 과정을 이해하는 능력"
+      },
+      {
+        "name_ko": "감정 조절",
+        "name_en": "Managing Emotions",
+        "definition": "자신과 타인의 감정을 효과적으로 조절하는 능력"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "정서지능 4요소: 인식 → 활용 → 이해 → 조절 (인활이조)",
+      "differential": "정서지능은 감정 처리 능력이고, 가드너의 대인관계/자기이해 지능과 관련되지만 별개의 구인이다",
+      "key_point": "학술적 정의(Salovey & Mayer)와 대중적 정의(Goleman)의 범위가 다르다는 점을 구분해야 한다",
+      "common_mistake": "정서지능이 IQ보다 항상 더 중요하다고 과장하는 것 — 실제 연구 결과는 그보다 제한적이다"
+    }
+  },
+  {
+    "id": "INTELL_GF_007",
+    "terminology": "유동지능 (Fluid Intelligence)",
+    "terminology_ko": "유동지능",
+    "terminology_en": "Fluid Intelligence",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "이전 학습이나 경험에 의존하지 않고 새로운 문제를 논리적으로 추론하고 해결하는 능력으로, 추상적 사고와 패턴 인식 능력을 반영한다",
+    "definition_en": "The ability to reason logically and solve novel problems independent of previously acquired knowledge, reflecting abstract thinking and pattern recognition",
+    "significance": "문화적 편향이 적은 지능의 핵심 요소로, 청소년기에 정점에 도달한 후 성인기 이후 점차 감소하는 발달적 패턴을 보인다",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "유동지능(Gf)과 결정지능(Gc)의 구분을 최초로 제안(1963)"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "캐텔의 이론을 발전시켜 유동-결정 지능의 발달적 변화 양상을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정지능", "name_en": "Crystallized Intelligence", "id": "INTELL_GC_008"},
+      {"name_ko": "일반지능", "name_en": "General Intelligence", "id": "INTELL_GFACT_003"},
+      {"name_ko": "레이번 행렬 추론 검사", "name_en": "Raven's Progressive Matrices", "id": "INTELL_CFTEST_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유동 = 흐르는 물처럼 유연한 사고 → 새로운 문제해결, 패턴 인식",
+      "differential": "유동지능은 새로운 문제해결 능력이고, 결정지능은 축적된 지식과 경험에 기반한 능력이다",
+      "key_point": "유동지능은 20대 이후 감소하지만, 결정지능은 노년기까지 유지되거나 증가할 수 있다",
+      "common_mistake": "유동지능이 떨어지면 전반적 지능이 반드시 저하된다고 생각하는 것 — 결정지능이 보상할 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_GC_008",
+    "terminology": "결정지능 (Crystallized Intelligence)",
+    "terminology_ko": "결정지능",
+    "terminology_en": "Crystallized Intelligence",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "교육과 경험을 통해 축적된 지식, 어휘력, 사실적 정보 등을 활용하는 능력으로, 문화적 학습의 산물이다",
+    "definition_en": "The ability to use acquired knowledge, vocabulary, and factual information accumulated through education and experience; it is a product of cultural learning",
+    "significance": "노년기까지 비교적 안정적으로 유지되거나 증가할 수 있어, 유동지능의 감소를 보상하는 역할을 한다",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "유동-결정 지능 이론에서 결정지능을 문화적 학습의 산물로 개념화"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "결정지능이 노화에 따라 비교적 안정적으로 유지됨을 실증적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유동지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_007"},
+      {"name_ko": "성취검사", "name_en": "Achievement Test", "id": "INTELL_ACHV_013"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INTEL_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "결정 = 결정(crystal)처럼 굳어진 지식 → 어휘, 상식, 학습된 기술",
+      "differential": "결정지능은 '무엇을 아는가(what)', 유동지능은 '어떻게 생각하는가(how)'의 차이",
+      "key_point": "결정지능은 어휘력 검사, 일반상식 검사 등으로 측정되며, 교육 수준과 높은 상관을 보인다",
+      "common_mistake": "결정지능이 단순 암기력과 같다고 생각하는 것 — 축적된 지식을 적용하는 능력도 포함한다"
+    }
+  },
+  {
+    "id": "INTELL_STAND_009",
+    "terminology": "표준화 (Standardization)",
+    "terminology_ko": "표준화",
+    "terminology_en": "Standardization",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "검사의 실시 절차, 채점 방법, 해석 기준을 통일하고, 대표적 표본(표준화 집단)의 수행 결과를 기준으로 규준(norms)을 설정하는 과정이다",
+    "definition_en": "The process of establishing uniform procedures for test administration, scoring, and interpretation, and developing norms based on a representative standardization sample",
+    "significance": "검사 결과의 객관적 비교를 가능하게 하며, 검사의 신뢰도와 타당도를 확보하기 위한 필수적 전제 조건이다",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "최초의 표준화된 지능검사를 개발하여 체계적 규준 설정의 모범을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "INTELL_NORM_011"},
+      {"name_ko": "검사-재검사 신뢰도", "name_en": "Test-Retest Reliability", "id": "INTELL_TRR_028"},
+      {"name_ko": "예측타당도", "name_en": "Predictive Validity", "id": "INTELL_PV_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표준화 = 절차 통일 + 규준 설정 → 공정한 비교의 토대",
+      "differential": "표준화는 검사 절차와 규준 설정 과정이고, 신뢰도/타당도는 검사 품질의 평가 기준이다",
+      "key_point": "표준화 집단이 대표성을 갖추어야 검사 결과를 일반화할 수 있다",
+      "common_mistake": "표준화된 검사가 반드시 편향이 없다고 생각하는 것 — 표준화 집단의 구성에 따라 편향이 존재할 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_REL_010",
+    "terminology": "신뢰도 (Reliability)",
+    "terminology_ko": "신뢰도",
+    "terminology_en": "Reliability",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "검사가 측정하고자 하는 것을 얼마나 일관되게 측정하는지를 나타내는 정도로, 동일한 조건에서 반복 측정 시 결과의 안정성을 의미한다",
+    "definition_en": "The degree to which a test consistently measures what it is intended to measure, reflecting the stability of scores across repeated measurements under the same conditions",
+    "significance": "타당도의 필수 전제조건으로, 신뢰도가 낮은 검사는 어떤 것도 정확히 측정할 수 없다",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "크론바흐 알파 계수를 개발하여 내적 일관성 신뢰도 측정 방법을 표준화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사-재검사 신뢰도", "name_en": "Test-Retest Reliability", "id": "INTELL_TRR_028"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "INTELL_SEM_027"},
+      {"name_ko": "타당도", "name_en": "Validity", "id": "INTELL_VAL_012"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "검사-재검사 신뢰도",
+        "name_en": "Test-Retest Reliability",
+        "definition": "동일한 검사를 동일 집단에게 시간 간격을 두고 두 번 실시하여 점수 간 상관을 산출"
+      },
+      {
+        "name_ko": "반분 신뢰도",
+        "name_en": "Split-Half Reliability",
+        "definition": "검사를 두 부분으로 나누어 각 부분 점수 간 상관을 산출"
+      },
+      {
+        "name_ko": "내적 일관성 신뢰도",
+        "name_en": "Internal Consistency Reliability",
+        "definition": "검사 문항들 간의 일관성을 측정 (예: 크론바흐 알파)"
+      },
+      {
+        "name_ko": "채점자 간 신뢰도",
+        "name_en": "Inter-Rater Reliability",
+        "definition": "두 명 이상의 채점자가 동일한 응답에 대해 부여한 점수 간의 일치도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "신뢰도 = 일관성(Consistency) → 같은 사람을 여러 번 재면 같은 결과가 나오는가?",
+      "differential": "신뢰도는 '일관성', 타당도는 '정확성' — 신뢰도가 높아도 타당도가 낮을 수 있다",
+      "key_point": "신뢰도는 타당도의 필요조건이지만 충분조건은 아니다",
+      "common_mistake": "신뢰도가 높으면 타당도도 자동으로 높다고 생각하는 것 — 일관되게 잘못 측정할 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_NORM_011",
+    "terminology": "정상분포 (Normal Distribution)",
+    "terminology_ko": "정상분포",
+    "terminology_en": "Normal Distribution",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "평균을 중심으로 좌우 대칭인 종 모양(bell curve)의 확률 분포로, 대부분의 사례가 평균 근처에 집중되고 극단값으로 갈수록 빈도가 줄어드는 분포이다",
+    "definition_en": "A symmetric, bell-shaped probability distribution in which most cases cluster around the mean and frequency decreases progressively toward the extremes",
+    "significance": "IQ 점수의 분포가 정상분포를 따르도록 설계되어 있어, 개인의 상대적 위치를 해석하고 지적장애/영재 판별의 기준을 설정하는 데 핵심적이다",
+    "key_researchers": [
+      {"name_ko": "카를 프리드리히 가우스", "name_en": "Carl Friedrich Gauss", "contribution": "정상분포의 수학적 공식을 정립하여 '가우스 분포'로도 불린다"},
+      {"name_ko": "아돌프 케틀레", "name_en": "Adolphe Quetelet", "contribution": "인간의 신체적·심리적 특성이 정상분포를 따른다는 것을 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STAND_009"},
+      {"name_ko": "편차지능", "name_en": "Deviation IQ", "id": "INTELL_DIQ_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "68-95-99.7 법칙: 평균 ±1SD에 68%, ±2SD에 95%, ±3SD에 99.7%",
+      "differential": "정상분포는 이론적 분포이고, 실제 데이터가 항상 완벽한 정상분포를 따르지는 않는다",
+      "key_point": "IQ 분포에서 평균 100, SD 15 기준으로 IQ 70 이하(약 2.2%)가 지적장애, 130 이상(약 2.2%)이 영재에 해당한다",
+      "common_mistake": "모든 심리적 특성이 정상분포를 따른다고 가정하는 것 — 일부 변인은 편포된 분포를 보인다"
+    }
+  },
+  {
+    "id": "INTELL_VAL_012",
+    "terminology": "타당도 (Validity)",
+    "terminology_ko": "타당도",
+    "terminology_en": "Validity",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "검사가 측정하고자 의도한 것을 실제로 얼마나 정확하게 측정하고 있는지의 정도이다",
+    "definition_en": "The degree to which a test actually measures what it is intended to measure",
+    "significance": "검사의 가장 중요한 속성으로, 검사 결과에 기반한 해석과 의사결정의 적절성을 좌우한다",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "구인타당도 개념의 체계화에 기여하고 타당도를 검사 점수 해석의 적절성으로 재정의"},
+      {"name_ko": "사무엘 메식", "name_en": "Samuel Messick", "contribution": "타당도를 단일한 통합적 개념으로 재개념화하여 현대 타당도 이론을 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "INTELL_REL_010"},
+      {"name_ko": "예측타당도", "name_en": "Predictive Validity", "id": "INTELL_PV_029"},
+      {"name_ko": "구인타당도", "name_en": "Construct Validity", "id": "INTELL_CV_030"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "내용타당도",
+        "name_en": "Content Validity",
+        "definition": "검사 문항이 측정하려는 내용 영역을 얼마나 충실히 대표하는지의 정도"
+      },
+      {
+        "name_ko": "준거타당도",
+        "name_en": "Criterion Validity",
+        "definition": "검사 점수가 외부 준거(기준)와 얼마나 관련되는지의 정도 (예측타당도와 공인타당도 포함)"
+      },
+      {
+        "name_ko": "구인타당도",
+        "name_en": "Construct Validity",
+        "definition": "검사가 이론적으로 정의된 심리적 구인을 실제로 측정하는지의 정도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "타당도 = 정확성(Accuracy) → 과녁의 중심을 맞추고 있는가?",
+      "differential": "신뢰도는 '같은 결과를 반복하는가(일관성)', 타당도는 '올바른 것을 측정하는가(정확성)'",
+      "key_point": "타당도 없는 신뢰도는 가능하지만, 신뢰도 없는 타당도는 불가능하다",
+      "common_mistake": "타당도를 한 가지 유형만으로 확인할 수 있다고 생각하는 것 — 다양한 증거의 축적이 필요하다"
+    }
+  },
+  {
+    "id": "INTELL_ACHV_013",
+    "terminology": "성취검사 (Achievement Test)",
+    "terminology_ko": "성취검사",
+    "terminology_en": "Achievement Test",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "특정 교육 과정이나 훈련을 통해 학습한 지식과 기술의 현재 수준을 측정하는 검사이다",
+    "definition_en": "A test designed to measure the current level of knowledge and skills acquired through specific educational programs or training",
+    "significance": "학업 성취 수준의 평가, 교육 프로그램의 효과 검증, 학생의 학습 진행도 모니터링에 활용된다",
+    "key_researchers": [],
+    "related_concepts": [
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "INTELL_APT_014"},
+      {"name_ko": "결정지능", "name_en": "Crystallized Intelligence", "id": "INTELL_GC_008"},
+      {"name_ko": "성취도 격차", "name_en": "Achievement Gap", "id": "INTELL_AG_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성취검사 = 과거에 '배운 것'을 측정 → 기말고사, 수능이 대표적 예",
+      "differential": "성취검사는 '이미 배운 것'을, 적성검사는 '앞으로의 잠재력'을 측정한다",
+      "key_point": "성취검사와 적성검사의 구분은 이론적이며, 실제로 두 검사는 상당한 중복이 있다",
+      "common_mistake": "성취검사가 순수하게 학습만 반영한다고 생각하는 것 — 지능, 동기 등도 영향을 미친다"
+    }
+  },
+  {
+    "id": "INTELL_APT_014",
+    "terminology": "적성검사 (Aptitude Test)",
+    "terminology_ko": "적성검사",
+    "terminology_en": "Aptitude Test",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "미래의 학습이나 수행 능력, 즉 잠재적 역량을 예측하기 위해 설계된 검사이다",
+    "definition_en": "A test designed to predict future learning ability or performance potential, measuring what an individual can learn to do rather than what has already been learned",
+    "significance": "교육 배치, 직업 선택, 진로 상담에서 개인의 잠재력을 예측하는 데 활용되며, 지능검사 자체가 넓은 의미의 적성검사에 해당한다",
+    "key_researchers": [],
+    "related_concepts": [
+      {"name_ko": "성취검사", "name_en": "Achievement Test", "id": "INTELL_ACHV_013"},
+      {"name_ko": "예측타당도", "name_en": "Predictive Validity", "id": "INTELL_PV_029"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INTEL_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "적성검사 = 미래 '잠재력' 예측 → 무엇을 배울 수 있는가?",
+      "differential": "적성검사는 미래 수행을 예측하고, 성취검사는 과거 학습 결과를 측정한다",
+      "key_point": "적성검사와 성취검사의 구분은 절대적이지 않다 — 과거 성취가 미래 적성을 예측하기도 한다",
+      "common_mistake": "적성검사가 타고난 능력만 측정한다고 생각하는 것 — 환경과 경험의 영향도 반영된다"
+    }
+  },
+  {
+    "id": "INTELL_ST_015",
+    "terminology": "고정관념 위협 (Stereotype Threat)",
+    "terminology_ko": "고정관념 위협",
+    "terminology_en": "Stereotype Threat",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "특정 집단에 대한 부정적 고정관념이 활성화될 때, 해당 집단 구성원이 그 고정관념을 확인시킬 수 있다는 불안감으로 인해 실제 수행이 저하되는 현상이다",
+    "definition_en": "A situational predicament in which individuals feel at risk of confirming a negative stereotype about their group, leading to anxiety and impaired performance on the stereotyped domain",
+    "significance": "집단 간 검사 점수 차이가 능력의 차이가 아닌 검사 상황의 심리적 요인에 의해 발생할 수 있음을 보여주어, 검사의 공정성 논의에 중요한 기여를 했다",
+    "key_researchers": [
+      {"name_ko": "클로드 스틸", "name_en": "Claude Steele", "contribution": "고정관념 위협 개념을 최초로 제안하고 실험적으로 입증(1995)"},
+      {"name_ko": "조슈아 애런슨", "name_en": "Joshua Aronson", "contribution": "스틸과 함께 아프리카계 미국인 학생들의 검사 수행에 대한 고정관념 위협 효과를 실험적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화공정 검사", "name_en": "Culture-Fair Test", "id": "INTELL_CFTEST_023"},
+      {"name_ko": "성취도 격차", "name_en": "Achievement Gap", "id": "INTELL_AG_024"},
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "INTELL_BIAS_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "고정관념 위협 = '나는 이 집단이니까 못할 거야'라는 불안 → 실제 수행 저하",
+      "differential": "고정관념 위협은 상황적·일시적 현상이고, 검사 편향은 검사 자체의 구조적 문제이다",
+      "key_point": "검사 전에 '이 검사는 인종/성별 차이가 없다'고 알려주면 고정관념 위협 효과가 줄어든다",
+      "common_mistake": "고정관념 위협이 모든 집단 간 점수 차이를 설명한다고 생각하는 것 — 설명력은 일부분이다"
+    }
+  },
+  {
+    "id": "INTELL_BIAS_016",
+    "terminology": "검사 편향 (Test Bias)",
+    "terminology_ko": "검사 편향",
+    "terminology_en": "Test Bias",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "검사가 특정 집단에게 체계적으로 유리하거나 불리하게 작용하여, 실제 능력과 무관한 점수 차이를 만들어내는 검사의 구조적 문제이다",
+    "definition_en": "A systematic error in a test that consistently favors or disadvantages particular groups, producing score differences unrelated to actual ability differences",
+    "significance": "검사의 공정성과 형평성 확보에 핵심적 문제로, 문항 편향 분석(DIF) 등의 통계적 방법을 통해 검증하고 최소화해야 한다",
+    "key_researchers": [
+      {"name_ko": "아서 젠슨", "name_en": "Arthur Jensen", "contribution": "검사 편향 논쟁을 촉발하여 지능검사의 문화적 공정성에 대한 학술적 논의를 활성화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정관념 위협", "name_en": "Stereotype Threat", "id": "INTELL_ST_015"},
+      {"name_ko": "문화공정 검사", "name_en": "Culture-Fair Test", "id": "INTELL_CFTEST_023"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STAND_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "검사 편향 = 검사 자체가 기울어진 운동장 → 특정 집단에게 불공정",
+      "differential": "검사 편향은 검사의 구조적 문제이고, 고정관념 위협은 검사 상황의 심리적 효과이다",
+      "key_point": "점수 차이가 존재하는 것 자체가 편향은 아니다 — 편향은 점수가 능력을 동등하게 예측하지 못할 때 성립한다",
+      "common_mistake": "집단 간 점수 차이가 곧 검사 편향이라고 생각하는 것 — 차이와 편향은 구분해야 한다"
+    }
+  },
+  {
+    "id": "INTELL_ID_017",
+    "terminology": "지적장애 (Intellectual Disability)",
+    "terminology_ko": "지적장애",
+    "terminology_en": "Intellectual Disability",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "발달기(18세 이전)에 시작되며, IQ 70 이하의 지적 기능과 적응행동(개념적, 사회적, 실용적 기술)의 유의미한 결함이 함께 나타나는 상태이다",
+    "definition_en": "A condition originating during the developmental period (before age 18), characterized by significant limitations in both intellectual functioning (IQ below approximately 70) and adaptive behavior across conceptual, social, and practical domains",
+    "significance": "DSM-5에서 '정신지체(Mental Retardation)'에서 '지적장애'로 명칭이 변경되었으며, 진단 시 IQ 점수뿐 아니라 적응행동 평가가 필수적이다",
+    "key_researchers": [],
+    "related_concepts": [
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "INTELL_NORM_011"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "영재성", "name_en": "Giftedness", "id": "INTELL_GIFT_018"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "경도 지적장애",
+        "name_en": "Mild Intellectual Disability",
+        "definition": "IQ 50-70 범위, 전체 지적장애의 약 85%를 차지하며 적절한 지원으로 독립적 생활 가능"
+      },
+      {
+        "name_ko": "중등도 지적장애",
+        "name_en": "Moderate Intellectual Disability",
+        "definition": "IQ 35-49 범위, 기본적 자기관리 가능하나 감독하에 생활"
+      },
+      {
+        "name_ko": "중도 지적장애",
+        "name_en": "Severe Intellectual Disability",
+        "definition": "IQ 20-34 범위, 일상생활에 상당한 도움이 필요"
+      },
+      {
+        "name_ko": "최중도 지적장애",
+        "name_en": "Profound Intellectual Disability",
+        "definition": "IQ 20 미만, 전반적인 생활 영역에서 지속적이고 집중적인 지원이 필요"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "지적장애 진단 = IQ 70 이하 + 적응행동 결함 + 18세 이전 발현 (3가지 모두 충족)",
+      "differential": "지적장애는 발달기 시작, 치매는 정상 발달 후 인지기능 퇴행이라는 점에서 다르다",
+      "key_point": "DSM-5에서는 중증도를 IQ 점수가 아닌 적응기능 수준에 따라 결정한다",
+      "common_mistake": "IQ 70 이하이면 자동으로 지적장애라고 생각하는 것 — 적응행동 결함과 발달기 발현도 필수이다"
+    }
+  },
+  {
+    "id": "INTELL_GIFT_018",
+    "terminology": "영재성 (Giftedness)",
+    "terminology_ko": "영재성",
+    "terminology_en": "Giftedness",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "한 가지 이상의 영역에서 뛰어난 능력이나 잠재력을 보이는 것으로, 전통적으로 IQ 130 이상(상위 약 2%)을 기준으로 하지만 현대에는 창의성, 과제집착력 등 다차원적 기준을 적용한다",
+    "definition_en": "Outstanding ability or potential in one or more domains, traditionally defined as an IQ of 130 or above (top ~2%), though modern conceptions incorporate creativity, task commitment, and multidimensional criteria",
+    "significance": "영재 교육 프로그램의 선발 기준과 교육 방법에 대한 논쟁을 촉발하며, 지능의 상한과 극단적 재능의 본질에 대한 이해를 돕는다",
+    "key_researchers": [
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "IQ 135 이상 영재 아동 1,528명을 대상으로 한 종단연구(Terman Study)를 수행"},
+      {"name_ko": "조셉 렌줄리", "name_en": "Joseph Renzulli", "contribution": "영재성의 세 고리 모형(능력, 과제집착력, 창의성)을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "INTELL_ID_017"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "INTELL_NORM_011"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "렌줄리의 세 고리: 평균 이상 능력 + 과제집착력 + 창의성 = 영재성",
+      "differential": "영재성은 높은 IQ만이 아니라 창의성과 동기도 포함하는 다차원적 개념이다",
+      "key_point": "터먼의 종단연구는 영재 아동이 대체로 건강하고 사회적으로 잘 적응한다는 것을 보여주었다",
+      "common_mistake": "영재가 모든 영역에서 뛰어나다고 생각하는 것 — 영역 특수적 영재성이 일반적이다"
+    }
+  },
+  {
+    "id": "INTELL_MA_019",
+    "terminology": "정신연령 (Mental Age)",
+    "terminology_ko": "정신연령",
+    "terminology_en": "Mental Age",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "특정 연령 집단의 평균적 아동이 해결할 수 있는 검사 문제의 수준으로 개인의 지적 발달 수준을 나타내는 개념으로, 비네-시몽 검사에서 최초로 사용되었다",
+    "definition_en": "A concept introduced in the Binet-Simon test representing an individual's intellectual developmental level, defined as the age level of problems that an average child of that age can solve",
+    "significance": "최초의 지능 측정 단위로서 역사적 의의가 크지만, 성인에게 적용하기 어렵다는 한계로 인해 현대에는 편차 IQ로 대체되었다",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "테오도르 시몽과 함께 정신연령 개념을 도입한 최초의 지능검사를 개발"},
+      {"name_ko": "테오도르 시몽", "name_en": "Théodore Simon", "contribution": "비네와 함께 비네-시몽 검사를 공동 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "비네-시몽 검사", "name_en": "Binet-Simon Test", "id": "INTELL_BS_025"},
+      {"name_ko": "편차지능", "name_en": "Deviation IQ", "id": "INTELL_DIQ_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정신연령 8세 = 평균적인 8세 아동 수준의 문제를 풀 수 있다",
+      "differential": "정신연령은 절대적 발달 수준이고, IQ는 동년배 대비 상대적 위치를 나타낸다",
+      "key_point": "정신연령은 아동에게는 유용하지만, 성인의 지적 수준을 구분하기에는 부적절하다",
+      "common_mistake": "정신연령이 높으면 IQ가 항상 높다고 생각하는 것 — 생활연령도 고려해야 한다 (MA 10, CA 10이면 IQ 100)"
+    }
+  },
+  {
+    "id": "INTELL_DIQ_020",
+    "terminology": "편차지능 (Deviation IQ)",
+    "terminology_ko": "편차지능",
+    "terminology_en": "Deviation IQ",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "동일 연령 집단의 평균(100)과 표준편차(15 또는 16)를 기준으로 개인의 상대적 위치를 나타내는 현대적 IQ 산출 방식이다",
+    "definition_en": "A modern method of calculating IQ that indicates an individual's relative position based on the mean (100) and standard deviation (15 or 16) of the same-age reference group",
+    "significance": "비율 IQ의 한계(성인 적용 불가, 연령별 IQ 변동성)를 극복하여 모든 연령에서 동일한 기준으로 비교할 수 있게 했다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "비율 IQ 대신 편차 IQ 개념을 최초로 도입하여 웩슬러 지능검사에 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신연령", "name_en": "Mental Age", "id": "INTELL_MA_019"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "INTELL_NORM_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편차 IQ = 100 + 15 × (개인점수 - 집단평균) / 표준편차",
+      "differential": "편차 IQ는 동년배 대비 상대적 위치이고, 비율 IQ는 정신연령/생활연령의 비율이다",
+      "key_point": "웩슬러 검사는 SD=15, 스탠포드-비네 5판은 SD=15(이전에는 SD=16)를 사용한다",
+      "common_mistake": "편차 IQ가 절대적 능력치라고 생각하는 것 — 동년배 집단 내의 상대적 순위이다"
+    }
+  },
+  {
+    "id": "INTELL_FA_021",
+    "terminology": "요인분석 (Factor Analysis)",
+    "terminology_ko": "요인분석",
+    "terminology_en": "Factor Analysis",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "다수의 관찰 변인들 간의 상관 패턴을 분석하여 그 기저에 있는 소수의 잠재 요인(공통 요인)을 추출하는 통계적 방법이다",
+    "definition_en": "A statistical method that analyzes patterns of correlations among multiple observed variables to identify a smaller number of underlying latent factors",
+    "significance": "스피어만의 g요인 발견, 서스톤의 기본정신능력 도출 등 지능의 구조를 밝히는 핵심 방법론으로, 심리검사 개발과 구인타당도 검증에 필수적이다",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "요인분석 기법을 개발하고 이를 통해 g요인을 추출"},
+      {"name_ko": "루이스 서스톤", "name_en": "Louis Thurstone", "contribution": "다중요인분석을 통해 7가지 기본정신능력(Primary Mental Abilities)을 도출"}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반지능", "name_en": "General Intelligence", "id": "INTELL_GFACT_003"},
+      {"name_ko": "s요인", "name_en": "Specific Factor", "id": "INTELL_SFACT_022"},
+      {"name_ko": "구인타당도", "name_en": "Construct Validity", "id": "INTELL_CV_030"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "탐색적 요인분석",
+        "name_en": "Exploratory Factor Analysis (EFA)",
+        "definition": "사전 가설 없이 데이터에서 요인 구조를 탐색하는 방법"
+      },
+      {
+        "name_ko": "확인적 요인분석",
+        "name_en": "Confirmatory Factor Analysis (CFA)",
+        "definition": "이론적으로 가정한 요인 구조가 데이터에 부합하는지 검증하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "요인분석 = 많은 변인 → 소수의 숨겨진 요인 추출 (데이터 축소)",
+      "differential": "요인분석은 변인 간 상관에서 잠재 요인을 추출하고, 군집분석은 사례(사람)를 유사 집단으로 분류한다",
+      "key_point": "스피어만은 요인분석으로 단일 g요인을, 서스톤은 다중요인을 추출하여 지능 구조 논쟁이 시작되었다",
+      "common_mistake": "요인분석이 인과관계를 증명한다고 생각하는 것 — 상관 패턴에 기반한 통계적 도구일 뿐이다"
+    }
+  },
+  {
+    "id": "INTELL_SFACT_022",
+    "terminology": "특수요인 (Specific Factor, s factor)",
+    "terminology_ko": "특수요인",
+    "terminology_en": "Specific Factor (s factor)",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "스피어만의 2요인 이론에서 특정 과제에만 고유하게 작용하는 능력 요인으로, 각 인지 과제에는 고유한 s요인이 존재한다",
+    "definition_en": "In Spearman's two-factor theory, a factor unique to a particular cognitive task; each specific test has its own s factor that contributes to performance only on that test",
+    "significance": "g요인과 함께 스피어만의 2요인 이론을 구성하며, 이후 서스톤의 기본정신능력, 캐텔의 유동-결정 지능 등 다요인 이론 발전의 토대가 되었다",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "일반지능(g)과 특수지능(s)의 2요인 이론을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반지능", "name_en": "General Intelligence", "id": "INTELL_GFACT_003"},
+      {"name_ko": "요인분석", "name_en": "Factor Analysis", "id": "INTELL_FA_021"},
+      {"name_ko": "다중지능", "name_en": "Multiple Intelligences", "id": "INTELL_MI_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "s = specific = 특정 과제에만 '특수하게' 작용하는 능력",
+      "differential": "g요인은 모든 과제에 공통, s요인은 각 과제에 고유하다",
+      "key_point": "스피어만은 g요인이 s요인보다 더 중요하다고 보았지만, 서스톤은 개별 능력(s와 유사)의 독립성을 강조했다",
+      "common_mistake": "s요인이 서스톤의 기본정신능력과 동일하다고 생각하는 것 — s는 과제 수준, 기본정신능력은 능력 군 수준이다"
+    }
+  },
+  {
+    "id": "INTELL_CFTEST_023",
+    "terminology": "문화공정 검사 (Culture-Fair Test)",
+    "terminology_ko": "문화공정 검사",
+    "terminology_en": "Culture-Fair Test",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "특정 문화적 배경이나 언어 능력의 영향을 최소화하도록 설계된 지능검사로, 주로 비언어적 과제(도형 추론, 패턴 완성 등)를 사용한다",
+    "definition_en": "An intelligence test designed to minimize the influence of specific cultural backgrounds and language abilities, typically using nonverbal tasks such as figural reasoning and pattern completion",
+    "significance": "문화적 다양성이 증가하는 사회에서 공정한 지능 평가를 위한 대안으로 개발되었으나, 완전히 문화적 영향을 제거하는 것은 불가능하다는 한계가 있다",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "Culture Fair Intelligence Test(CFIT)를 개발"},
+      {"name_ko": "존 레이번", "name_en": "John C. Raven", "contribution": "레이번 누진행렬검사(Raven's Progressive Matrices)를 개발하여 비언어적 지능 측정의 표준을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "INTELL_BIAS_016"},
+      {"name_ko": "유동지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_007"},
+      {"name_ko": "고정관념 위협", "name_en": "Stereotype Threat", "id": "INTELL_ST_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문화공정 = 언어 없이 도형/패턴으로 → 문화 편향 최소화",
+      "differential": "문화공정 검사는 유동지능 측정에 가깝고, 전통적 IQ 검사는 결정지능도 포함한다",
+      "key_point": "레이번 행렬 추론 검사가 대표적이며, 완전히 문화 무관한 검사는 존재하지 않는다",
+      "common_mistake": "문화공정 검사가 문화적 영향을 완전히 제거한다고 생각하는 것 — '최소화'할 뿐이다"
+    }
+  },
+  {
+    "id": "INTELL_AG_024",
+    "terminology": "성취도 격차 (Achievement Gap)",
+    "terminology_ko": "성취도 격차",
+    "terminology_en": "Achievement Gap",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "인종, 민족, 성별, 사회경제적 지위 등 집단 간에 나타나는 학업 성취나 표준화 검사 점수의 체계적 차이이다",
+    "definition_en": "Systematic differences in academic achievement or standardized test scores observed between groups defined by race, ethnicity, gender, or socioeconomic status",
+    "significance": "교육 형평성의 핵심 지표로, 유전-환경 논쟁, 검사 편향, 교육 기회의 불평등 등 복합적인 요인에 대한 논의를 촉발한다",
+    "key_researchers": [
+      {"name_ko": "제임스 콜먼", "name_en": "James Coleman", "contribution": "1966년 콜먼 보고서를 통해 교육 기회의 불평등과 성취도 격차의 관계를 최초로 대규모 조사"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정관념 위협", "name_en": "Stereotype Threat", "id": "INTELL_ST_015"},
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "INTELL_BIAS_016"},
+      {"name_ko": "유전-환경 논쟁", "name_en": "Nature-Nurture Debate", "id": "INTELL_NN_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성취도 격차 = 집단 간 검사 점수 차이 → 원인은 복합적(환경, 기회, 편향 등)",
+      "differential": "성취도 격차는 집단 수준의 현상이고, 검사 편향은 검사 자체의 속성이다",
+      "key_point": "성취도 격차는 집단 간 '평균'의 차이이며, 집단 내 변산이 집단 간 변산보다 항상 더 크다",
+      "common_mistake": "성취도 격차를 유전적 차이로만 설명하려는 것 — 환경적 요인(교육 기회, 빈곤, 차별)이 주된 원인이다"
+    }
+  },
+  {
+    "id": "INTELL_NN_025",
+    "terminology": "유전-환경 논쟁 (Nature-Nurture Debate)",
+    "terminology_ko": "유전-환경 논쟁",
+    "terminology_en": "Nature-Nurture Debate",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "지능이 주로 유전적 요인에 의해 결정되는지, 환경적 요인에 의해 결정되는지에 대한 오랜 학문적 논쟁으로, 현대에는 양자의 상호작용을 강조한다",
+    "definition_en": "The longstanding scholarly debate over whether intelligence is primarily determined by genetic or environmental factors; modern consensus emphasizes the interaction between both",
+    "significance": "지능 연구의 핵심 논쟁으로, 교육 정책, 사회 불평등 해소, 지능 향상 가능성에 대한 이해에 직결된다",
+    "key_researchers": [
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "유전적 결정론의 초기 주창자로 'nature vs. nurture' 용어를 대중화"},
+      {"name_ko": "아서 젠슨", "name_en": "Arthur Jensen", "contribution": "지능의 유전율이 약 80%라고 주장하여 논쟁을 촉발(1969)"},
+      {"name_ko": "에릭 터크하이머", "name_en": "Eric Turkheimer", "contribution": "사회경제적 지위에 따라 유전율이 달라진다는 것을 발견(유전-환경 상호작용)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "쌍생아 연구", "name_en": "Twin Studies", "id": "INTELL_TWIN_026"},
+      {"name_ko": "성취도 격차", "name_en": "Achievement Gap", "id": "INTELL_AG_024"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INTEL_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Nature(유전) + Nurture(양육/환경) → 현대 답: 상호작용(interaction)",
+      "differential": "유전율(heritability)은 집단 수준의 통계치이고, 개인의 지능이 얼마나 유전되었는지를 의미하지 않는다",
+      "key_point": "유전율이 높다는 것은 유전이 집단 내 변산의 많은 부분을 설명한다는 의미이지, 환경이 중요하지 않다는 의미가 아니다",
+      "common_mistake": "유전율 80%가 '지능의 80%가 유전에 의해 결정된다'는 의미로 해석하는 것 — 유전율은 집단의 변산 설명 비율이다"
+    }
+  },
+  {
+    "id": "INTELL_TWIN_026",
+    "terminology": "쌍생아 연구 (Twin Studies)",
+    "terminology_ko": "쌍생아 연구",
+    "terminology_en": "Twin Studies",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "일란성 쌍생아와 이란성 쌍생아의 유사성을 비교하여 특정 특성에 대한 유전과 환경의 상대적 기여도를 추정하는 연구 방법이다",
+    "definition_en": "A research method that compares the similarity between identical (monozygotic) and fraternal (dizygotic) twins to estimate the relative contributions of genetic and environmental factors to a particular trait",
+    "significance": "지능의 유전율 추정에 가장 중요한 증거를 제공하며, 따로 자란 일란성 쌍생아 연구는 유전적 영향의 강력한 증거로 활용된다",
+    "key_researchers": [
+      {"name_ko": "토머스 보처드", "name_en": "Thomas Bouchard", "contribution": "미네소타 쌍생아 연구(MISTRA)를 수행하여 따로 자란 일란성 쌍생아의 IQ 상관(약 .70)을 보고"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유전-환경 논쟁", "name_en": "Nature-Nurture Debate", "id": "INTELL_NN_025"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INTEL_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "일란성(MZ) > 이란성(DZ) 상관 → 유전적 영향 존재, 격차 크기 → 유전율 추정",
+      "differential": "쌍생아 연구는 유전율을 추정하고, 입양 연구는 공유 환경의 효과를 분리한다",
+      "key_point": "따로 자란 일란성 쌍생아의 IQ 상관은 약 .70으로, 같이 자란 이란성 쌍생아(.60)보다 높다",
+      "common_mistake": "쌍생아 연구가 유전과 환경을 완벽히 분리할 수 있다고 생각하는 것 — 가정(동일 환경 가정 등)의 한계가 있다"
+    }
+  },
+  {
+    "id": "INTELL_SEM_027",
+    "terminology": "측정의 표준오차 (Standard Error of Measurement)",
+    "terminology_ko": "측정의 표준오차",
+    "terminology_en": "Standard Error of Measurement (SEM)",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "개인의 검사 점수가 진점수(true score)로부터 얼마나 벗어날 수 있는지를 나타내는 통계치로, 검사 점수의 불확실성 범위를 추정한다",
+    "definition_en": "A statistic indicating how much an individual's observed test score may deviate from their true score, providing an estimate of the range of uncertainty around a test score",
+    "significance": "검사 점수를 단일 점수가 아닌 신뢰구간으로 해석해야 함을 보여주며, 임상적 판단과 교육적 배치에서 점수 해석의 신중함을 요구한다",
+    "key_researchers": [],
+    "related_concepts": [
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "INTELL_REL_010"},
+      {"name_ko": "검사-재검사 신뢰도", "name_en": "Test-Retest Reliability", "id": "INTELL_TRR_028"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STAND_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SEM = SD × √(1 - 신뢰도) → 신뢰도가 높을수록 SEM은 작아진다",
+      "differential": "표준편차는 집단 점수의 분산이고, SEM은 개인 점수의 측정 오차 범위이다",
+      "key_point": "IQ 점수 100, SEM 3이면, 95% 신뢰구간은 약 94-106 (100 ± 2×SEM)이다",
+      "common_mistake": "IQ 점수를 정확한 고정값으로 해석하는 것 — 항상 SEM을 고려한 범위로 해석해야 한다"
+    }
+  },
+  {
+    "id": "INTELL_TRR_028",
+    "terminology": "검사-재검사 신뢰도 (Test-Retest Reliability)",
+    "terminology_ko": "검사-재검사 신뢰도",
+    "terminology_en": "Test-Retest Reliability",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "동일한 검사를 동일한 집단에게 일정 시간 간격을 두고 두 번 실시한 뒤, 두 점수 간의 상관계수를 산출하여 검사의 시간적 안정성을 평가하는 방법이다",
+    "definition_en": "A method of assessing a test's temporal stability by administering the same test to the same group on two occasions separated by a time interval and calculating the correlation between the two sets of scores",
+    "significance": "검사 결과가 시간에 걸쳐 안정적인지를 확인하는 가장 직접적인 방법으로, 특히 지능검사와 같은 안정적 특성 측정에 중요하다",
+    "key_researchers": [],
+    "related_concepts": [
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "INTELL_REL_010"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "INTELL_SEM_027"},
+      {"name_ko": "타당도", "name_en": "Validity", "id": "INTELL_VAL_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "검사-재검사 = 같은 시험을 두 번 → 점수 상관이 높으면 안정적(신뢰로운)",
+      "differential": "검사-재검사는 시간적 안정성, 반분 신뢰도는 내적 일관성을 측정한다",
+      "key_point": "재검사 간격이 너무 짧으면 연습 효과, 너무 길면 실제 변화가 결과에 영향을 준다",
+      "common_mistake": "검사-재검사 신뢰도가 높으면 검사의 모든 측면이 신뢰롭다고 생각하는 것 — 시간적 안정성 한 측면만 평가한다"
+    }
+  },
+  {
+    "id": "INTELL_PV_029",
+    "terminology": "예측타당도 (Predictive Validity)",
+    "terminology_ko": "예측타당도",
+    "terminology_en": "Predictive Validity",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "검사 점수가 미래의 행동이나 수행을 얼마나 정확하게 예측하는지를 나타내는 타당도의 한 유형으로, 준거타당도의 하위 유형이다",
+    "definition_en": "A type of criterion validity indicating how accurately test scores predict future behavior or performance, assessed by correlating test scores with a criterion measured at a later time",
+    "significance": "지능검사가 학업 성취, 직업 수행 등 실제 결과를 얼마나 잘 예측하는지를 평가하는 핵심 지표이다",
+    "key_researchers": [],
+    "related_concepts": [
+      {"name_ko": "타당도", "name_en": "Validity", "id": "INTELL_VAL_012"},
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "INTELL_APT_014"},
+      {"name_ko": "구인타당도", "name_en": "Construct Validity", "id": "INTELL_CV_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "예측타당도 = 검사(지금) → 준거(미래) 상관 → 미래를 예측하는가?",
+      "differential": "예측타당도는 미래 준거와의 상관이고, 공인타당도는 현재 준거와의 동시적 상관이다",
+      "key_point": "IQ 검사의 학업 성취 예측타당도는 약 .50으로, 의미 있지만 완벽하지는 않다",
+      "common_mistake": "예측타당도가 높으면 모든 개인의 미래를 정확히 예측할 수 있다고 생각하는 것 — 집단 수준의 통계적 관계이다"
+    }
+  },
+  {
+    "id": "INTELL_CV_030",
+    "terminology": "구인타당도 (Construct Validity)",
+    "terminology_ko": "구인타당도",
+    "terminology_en": "Construct Validity",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "검사가 이론적으로 정의된 심리적 구인(construct)을 실제로 측정하고 있는지를 다양한 증거를 통해 검증하는 타당도의 유형이다",
+    "definition_en": "A type of validity that examines whether a test actually measures the theoretically defined psychological construct it is intended to measure, verified through multiple lines of evidence",
+    "significance": "지능검사가 '지능'이라는 추상적 구인을 실제로 측정하는지를 확인하는 가장 포괄적인 타당도 유형으로, 수렴타당도와 변별타당도를 포함한다",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "폴 밀과 함께 구인타당도의 개념적 틀을 정립(1955)"},
+      {"name_ko": "폴 밀", "name_en": "Paul Meehl", "contribution": "크론바흐와 함께 구인타당도 검증을 위한 법칙학적 네트워크(nomological network) 개념을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "타당도", "name_en": "Validity", "id": "INTELL_VAL_012"},
+      {"name_ko": "요인분석", "name_en": "Factor Analysis", "id": "INTELL_FA_021"},
+      {"name_ko": "예측타당도", "name_en": "Predictive Validity", "id": "INTELL_PV_029"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "수렴타당도",
+        "name_en": "Convergent Validity",
+        "definition": "동일한 구인을 측정하는 서로 다른 방법의 검사 점수 간 높은 상관"
+      },
+      {
+        "name_ko": "변별타당도",
+        "name_en": "Discriminant Validity",
+        "definition": "서로 다른 구인을 측정하는 검사 점수 간 낮은 상관"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "구인타당도 = 이 검사가 정말 '지능'을 재는가? → 수렴(같으면 높은 상관) + 변별(다르면 낮은 상관)",
+      "differential": "구인타당도는 이론적 구인과의 일치성이고, 내용타당도는 문항이 영역을 대표하는지의 문제이다",
+      "key_point": "구인타당도는 단일 연구로 확립되지 않으며, 다양한 증거(요인분석, 수렴/변별 타당도, 실험적 조작 등)의 축적이 필요하다",
+      "common_mistake": "하나의 상관계수로 구인타당도가 확립된다고 생각하는 것 — 다양한 증거의 종합이 필요하다"
+    }
+  },
+  {
+    "id": "INTELL_BS_025",
+    "terminology": "비네-시몽 검사 (Binet-Simon Test)",
+    "terminology_ko": "비네-시몽 검사",
+    "terminology_en": "Binet-Simon Test",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "1905년 프랑스의 비네와 시몽이 학습부진아를 선별하기 위해 개발한 최초의 실용적 지능검사로, 정신연령 개념을 사용하여 아동의 지적 수준을 평가했다",
+    "definition_en": "The first practical intelligence test, developed in 1905 by Binet and Simon in France to identify children who needed academic assistance, using the concept of mental age to assess children's intellectual level",
+    "significance": "현대 지능검사의 시초로서 역사적으로 가장 중요한 검사이며, 이후 스탠포드-비네 검사와 웩슬러 검사 등 모든 개인지능검사의 토대가 되었다",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "프랑스 교육부의 요청으로 학습부진아 선별을 위한 최초의 지능검사를 개발"},
+      {"name_ko": "테오도르 시몽", "name_en": "Théodore Simon", "contribution": "비네와 함께 검사를 공동 개발하고 표준화 작업을 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신연령", "name_en": "Mental Age", "id": "INTELL_MA_019"},
+      {"name_ko": "스탠포드-비네 검사", "name_en": "Stanford-Binet Test", "id": "INTELL_SB_026"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비네(1905, 프랑스) → 학습부진아 선별 → 정신연령 개념 도입 → 최초의 지능검사",
+      "differential": "비네-시몽 검사는 최초의 지능검사이고, 스탠포드-비네는 이를 미국에서 표준화한 것이다",
+      "key_point": "비네는 지능이 고정적이지 않으며 교육을 통해 향상될 수 있다고 믿었다",
+      "common_mistake": "비네가 지능의 유전적 결정을 주장했다고 생각하는 것 — 비네는 지능의 가변성과 교육의 중요성을 강조했다"
+    }
+  },
+  {
+    "id": "INTELL_SB_026",
+    "terminology": "스탠포드-비네 검사 (Stanford-Binet Intelligence Scales)",
+    "terminology_ko": "스탠포드-비네 검사",
+    "terminology_en": "Stanford-Binet Intelligence Scales",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "비네-시몽 검사를 미국 스탠포드 대학교의 터먼이 영어로 번역·표준화하고 비율 IQ를 도입한 개인 지능검사로, 현재 5판까지 개정되었다",
+    "definition_en": "An individual intelligence test adapted and standardized at Stanford University by Terman from the Binet-Simon test, introducing the ratio IQ; currently in its fifth edition",
+    "significance": "미국에서 최초로 표준화된 지능검사로, 비율 IQ 개념의 도입과 이후 수차례 개정을 통해 현대 지능 측정의 발전에 핵심적 역할을 했다",
+    "key_researchers": [
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "1916년 비네-시몽 검사를 미국에서 표준화하고 IQ 개념을 본격적으로 도입"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비네-시몽 검사", "name_en": "Binet-Simon Test", "id": "INTELL_BS_025"},
+      {"name_ko": "웩슬러 검사", "name_en": "Wechsler Intelligence Scales", "id": "INTELL_WAIS_027A"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "터먼(스탠포드) + 비네(프랑스) = 스탠포드-비네 → 1916년 미국 표준화, IQ 도입",
+      "differential": "스탠포드-비네는 단일 점수(IQ) 중심이었고, 웩슬러는 언어성/동작성 분리 점수를 제공한다",
+      "key_point": "현대 5판(SB5)은 유동추론, 지식, 양적추론, 시공간, 작업기억의 5개 요인을 측정한다",
+      "common_mistake": "스탠포드-비네가 여전히 비율 IQ를 사용한다고 생각하는 것 — 현대판은 편차 IQ를 사용한다"
+    }
+  },
+  {
+    "id": "INTELL_WAIS_027A",
+    "terminology": "웩슬러 지능검사 (Wechsler Intelligence Scales)",
+    "terminology_ko": "웩슬러 지능검사",
+    "terminology_en": "Wechsler Intelligence Scales",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "웩슬러가 개발한 세계에서 가장 널리 사용되는 개인용 지능검사 시리즈로, 연령대별로 WAIS(성인), WISC(아동), WPPSI(유아)로 구분된다",
+    "definition_en": "The world's most widely used individual intelligence test series developed by Wechsler, divided by age group into WAIS (adults), WISC (children), and WPPSI (preschoolers)",
+    "significance": "편차 IQ를 최초로 도입하고, 언어적 능력과 비언어적 능력을 분리 측정하는 체계를 확립하여 현대 지능검사의 표준이 되었다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1939년 웩슬러-벨뷰 검사를 시작으로 연령대별 지능검사 시리즈를 개발하고 편차 IQ를 도입"}
+    ],
+    "related_concepts": [
+      {"name_ko": "편차지능", "name_en": "Deviation IQ", "id": "INTELL_DIQ_020"},
+      {"name_ko": "스탠포드-비네 검사", "name_en": "Stanford-Binet Test", "id": "INTELL_SB_026"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "WAIS (웩슬러 성인 지능검사)",
+        "name_en": "Wechsler Adult Intelligence Scale",
+        "definition": "16세 이상 성인을 대상으로 한 지능검사, 현재 WAIS-IV까지 개정"
+      },
+      {
+        "name_ko": "WISC (웩슬러 아동 지능검사)",
+        "name_en": "Wechsler Intelligence Scale for Children",
+        "definition": "6-16세 아동을 대상으로 한 지능검사, 현재 WISC-V까지 개정"
+      },
+      {
+        "name_ko": "WPPSI (웩슬러 유아 지능검사)",
+        "name_en": "Wechsler Preschool and Primary Scale of Intelligence",
+        "definition": "2.5-7세 유아를 대상으로 한 지능검사"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "웩슬러 3종 세트: WPPSI(유아) → WISC(아동) → WAIS(성인), 모두 편차 IQ(평균100, SD15)",
+      "differential": "웩슬러는 언어/비언어 분리 측정이 강점이고, 스탠포드-비네는 단일 IQ 점수 중심이었다(현재는 유사해짐)",
+      "key_point": "WAIS-IV는 언어이해, 지각추론, 작업기억, 처리속도의 4개 지표 점수를 산출한다",
+      "common_mistake": "웩슬러 검사가 g요인만 측정한다고 생각하는 것 — 하위 지표별 프로파일 분석이 핵심이다"
+    }
+  },
+  {
+    "id": "INTELL_FLYNN_028A",
+    "terminology": "플린 효과 (Flynn Effect)",
+    "terminology_ko": "플린 효과",
+    "terminology_en": "Flynn Effect",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "전 세계적으로 세대가 지남에 따라 IQ 점수가 지속적으로 상승하는 현상으로, 10년당 약 3점씩 증가하는 추세가 관찰된다",
+    "definition_en": "The worldwide phenomenon of sustained increases in IQ scores over successive generations, with gains of approximately 3 points per decade observed across many countries",
+    "significance": "IQ 점수의 상승이 환경적 요인(교육, 영양, 건강 등)의 중요성을 시사하며, 지능검사의 정기적 재표준화가 필요함을 보여준다",
+    "key_researchers": [
+      {"name_ko": "제임스 플린", "name_en": "James Flynn", "contribution": "14개국의 IQ 데이터를 분석하여 세대 간 IQ 상승 현상을 체계적으로 문서화(1984, 1987)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STAND_009"},
+      {"name_ko": "유전-환경 논쟁", "name_en": "Nature-Nurture Debate", "id": "INTELL_NN_025"},
+      {"name_ko": "유동지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "플린 효과 = 세대 ↑ → IQ ↑ (10년에 약 3점) → 환경이 중요하다는 증거",
+      "differential": "플린 효과는 세대 간 IQ 상승 현상이고, 연습 효과는 개인의 반복 검사에 의한 점수 상승이다",
+      "key_point": "유동지능(비언어적 추론)에서의 상승이 결정지능보다 더 두드러지게 나타난다",
+      "common_mistake": "플린 효과가 사람들이 실제로 더 똑똑해졌다는 것을 의미한다고 단정하는 것 — 검사 점수 상승의 원인은 아직 논쟁 중이다"
+    }
+  },
+  {
+    "id": "INTELL_SAV_029A",
+    "terminology": "서번트 증후군 (Savant Syndrome)",
+    "terminology_ko": "서번트 증후군",
+    "terminology_en": "Savant Syndrome",
+    "category": "INTELL",
+    "category_name": "지능과 심리검사 (Intelligence & Testing)",
+    "definition": "전반적인 지적 능력은 낮거나 발달장애가 있으면서도 음악, 미술, 계산, 기억 등 특정 영역에서 놀라운 수준의 능력을 보이는 상태이다",
+    "definition_en": "A condition in which individuals with overall intellectual disabilities or developmental disorders demonstrate remarkable abilities in specific domains such as music, art, calculation, or memory",
+    "significance": "지능이 단일한 능력이 아니라 다양한 독립적 능력의 복합체일 수 있다는 증거를 제공하며, 다중지능 이론을 지지하는 사례로 자주 인용된다",
+    "key_researchers": [
+      {"name_ko": "대럴드 트레퍼트", "name_en": "Darold Treffert", "contribution": "서번트 증후군을 체계적으로 연구하고 분류하여 이 분야의 세계적 권위자로 인정"}
+    ],
+    "related_concepts": [
+      {"name_ko": "다중지능", "name_en": "Multiple Intelligences", "id": "INTELL_MI_004"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "INTELL_ID_017"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INTEL_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "서번트 = 전반적 능력↓ + 특정 능력↑↑↑ → 지능의 모듈적 특성 시사",
+      "differential": "서번트 증후군은 전반적 장애 + 특정 재능이고, 영재성은 전반적 또는 특정 영역의 높은 능력이다",
+      "key_point": "서번트 증후군은 자폐 스펙트럼 장애 환자의 약 10%에서 관찰되며, 남성에게 더 흔하다",
+      "common_mistake": "모든 자폐인이 서번트 능력을 가지고 있다고 생각하는 것 — 실제로는 소수에서만 관찰된다"
+    }
+  }
+]

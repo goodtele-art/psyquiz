@@ -1,0 +1,779 @@
+[
+  {
+    "id": "ACHIEVE_APT_001",
+    "terminology": "적성검사 (Aptitude Test)",
+    "terminology_ko": "적성검사",
+    "terminology_en": "Aptitude Test",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "미래의 학습이나 훈련을 통해 특정 기술이나 지식을 습득할 수 있는 잠재적 능력을 예측하기 위해 설계된 검사이다.",
+    "definition_en": "A test designed to predict an individual's potential to acquire specific skills or knowledge through future learning or training.",
+    "significance": "교육적 배치, 직업 선발, 진로 상담 등에서 개인의 미래 수행을 예측하는 핵심 도구로, 성취검사와 구분되는 예측적 기능을 수행한다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "적성과 성취의 구분이 절대적이지 않으며 연속선상에 있음을 밝혀 적성검사의 이론적 기반을 재정립했다."},
+      {"name_ko": "존 캐롤", "name_en": "John B. Carroll", "contribution": "인지능력의 3층 이론을 제안하여 적성의 다차원적 구조를 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "일반적성검사", "name_en": "General Aptitude Test Battery", "id": "ACHIEVE_GATB_005"},
+      {"name_ko": "차별적성검사", "name_en": "Differential Aptitude Tests", "id": "ACHIEVE_DAT_006"},
+      {"name_ko": "학업적성", "name_en": "Scholastic Aptitude", "id": "ACHIEVE_SAPT_016"}
+    ],
+    "sub_types": [
+      {"name": "일반적성검사 (General Aptitude Test)", "description": "다양한 직업이나 학업 영역에 걸쳐 광범위한 인지 능력을 측정하는 검사"},
+      {"name": "특수적성검사 (Special Aptitude Test)", "description": "음악, 미술, 기계, 사무 등 특정 영역의 잠재 능력을 측정하는 검사"},
+      {"name": "다요인적성검사 (Multiple Aptitude Test Battery)", "description": "여러 적성 요인을 동시에 측정하여 개인의 능력 프로파일을 제공하는 검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "적성(Aptitude) = '잠재력'의 예측, 성취(Achievement) = '현재 수준'의 측정",
+      "differential": "적성검사는 '미래 수행 가능성'을 예측하고, 성취도검사는 '과거 학습의 결과'를 측정한다.",
+      "key_point": "적성검사는 특정 훈련을 받기 전에 실시하여 미래 성공 가능성을 예측하는 데 목적이 있다.",
+      "common_mistake": "적성검사가 타고난 능력만을 측정한다고 오해하는 경우가 많으나, 실제로는 선천적 요인과 환경적 경험의 상호작용 결과를 반영한다."
+    }
+  },
+  {
+    "id": "ACHIEVE_ACH_002",
+    "terminology": "성취도검사 (Achievement Test)",
+    "terminology_ko": "성취도검사",
+    "terminology_en": "Achievement Test",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "특정 교육 프로그램이나 훈련 과정을 통해 학습된 지식, 기술, 능력의 현재 수준을 측정하는 검사이다.",
+    "definition_en": "A test that measures the current level of knowledge, skills, and competencies acquired through specific educational programs or training experiences.",
+    "significance": "교육 효과의 평가, 학생의 학습 수준 파악, 교육과정 개선 등에 필수적이며, 규준참조와 준거참조 해석 모두에 활용된다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 손다이크", "name_en": "Edward L. Thorndike", "contribution": "최초의 표준화된 성취도검사를 개발하고 교육 측정의 과학적 기초를 확립했다."},
+      {"name_ko": "벤저민 블룸", "name_en": "Benjamin Bloom", "contribution": "교육목표 분류학을 통해 성취도 측정의 다차원적 틀을 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "ACHIEVE_APT_001"},
+      {"name_ko": "준거참조검사", "name_en": "Criterion-Referenced Test", "id": "ACHIEVE_CRT_011"},
+      {"name_ko": "규준참조검사", "name_en": "Norm-Referenced Test", "id": "ACHIEVE_NRT_012"},
+      {"name_ko": "교육과정 기반 평가", "name_en": "Curriculum-Based Assessment", "id": "ACHIEVE_CBA_015"}
+    ],
+    "sub_types": [
+      {"name": "표준화 성취도검사 (Standardized Achievement Test)", "description": "전국적 규준을 가진 대규모 표준화 검사"},
+      {"name": "교사제작 성취도검사 (Teacher-Made Achievement Test)", "description": "특정 수업 목표에 맞춰 교사가 직접 제작한 검사"},
+      {"name": "종합 성취도검사 배터리 (Survey Achievement Test Battery)", "description": "여러 교과 영역을 포괄적으로 측정하는 검사 묶음"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "성취도 = '이미 배운 것'을 측정, 적성 = '앞으로 배울 수 있는 것'을 예측",
+      "differential": "성취도검사는 과거 학습 결과를 측정하고, 적성검사는 미래 학습 가능성을 예측한다. 그러나 이 구분은 연속적이다.",
+      "key_point": "성취도검사는 특정 교육과정이나 훈련 내용에 기반하므로 내용타당도가 특히 중요하다.",
+      "common_mistake": "성취도검사를 지능검사와 혼동하는 경우가 있으나, 성취도검사는 특정 교육 경험의 결과를 측정한다."
+    }
+  },
+  {
+    "id": "ACHIEVE_DIFF_003",
+    "terminology": "적성-성취 구분 (Aptitude-Achievement Distinction)",
+    "terminology_ko": "적성-성취 구분",
+    "terminology_en": "Aptitude-Achievement Distinction",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "적성검사가 미래 수행의 예측에, 성취도검사가 과거 학습의 결과 측정에 초점을 둔다는 전통적 구분으로, 현대에는 이 구분이 연속선상에 있다고 본다.",
+    "definition_en": "The traditional distinction that aptitude tests predict future performance while achievement tests measure past learning outcomes, though modern views consider this distinction as a continuum rather than a dichotomy.",
+    "significance": "검사의 목적과 해석을 명확히 하는 데 필수적이며, 학습장애 진단에서 적성-성취 불일치 모델의 이론적 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "적성과 성취의 구분이 절대적이 아닌 연속적임을 주장하며, 모든 인지검사가 선행 학습의 영향을 받는다고 밝혔다."},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "검사의 목적에 따라 동일한 검사가 적성검사로도, 성취도검사로도 사용될 수 있음을 논증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "ACHIEVE_APT_001"},
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "학습장애", "name_en": "Learning Disability", "id": "ACHIEVE_DIFF_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "적성↔성취는 '이분법'이 아닌 '연속선'이다 (Anastasi의 핵심 주장)",
+      "differential": "전통적으로 적성=잠재력, 성취=학습 결과이지만, 현대적 관점에서는 연속선상의 상대적 강조점 차이일 뿐이다.",
+      "key_point": "동일한 검사도 사용 목적에 따라 적성검사 또는 성취도검사로 기능할 수 있다.",
+      "common_mistake": "적성과 성취를 완전히 분리된 독립적 구성개념으로 취급하는 것이 흔한 오류이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_SAT_004",
+    "terminology": "SAT (Scholastic Assessment Test)",
+    "terminology_ko": "SAT",
+    "terminology_en": "Scholastic Assessment Test",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "미국 대학 입학 전형에 사용되는 대표적인 학업적성검사로, 독해·작문과 수학 영역의 추론 능력을 측정하며, College Board가 관리한다.",
+    "definition_en": "A widely used college admissions test in the United States that measures reasoning abilities in evidence-based reading and writing and mathematics, administered by the College Board.",
+    "significance": "전 세계에서 가장 널리 사용되는 대학 입학 적성검사로, 고등교육 접근성과 공정성에 관한 지속적 논쟁의 중심에 있다.",
+    "key_researchers": [
+      {"name_ko": "칼 브리검", "name_en": "Carl Brigham", "contribution": "1926년 최초의 SAT를 개발하였으며, 이후 자신의 초기 인종적 편향에 대해 비판적으로 재검토했다."},
+      {"name_ko": "헨리 채운시", "name_en": "Henry Chauncey", "contribution": "Educational Testing Service(ETS)를 설립하여 SAT의 대규모 시행 체계를 구축했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "ACT", "name_en": "American College Testing", "id": "ACHIEVE_ACT_007"},
+      {"name_ko": "GRE", "name_en": "Graduate Record Examinations", "id": "ACHIEVE_GRE_008"},
+      {"name_ko": "학업적성", "name_en": "Scholastic Aptitude", "id": "ACHIEVE_SAPT_016"},
+      {"name_ko": "규준참조검사", "name_en": "Norm-Referenced Test", "id": "ACHIEVE_NRT_012"}
+    ],
+    "sub_types": [
+      {"name": "SAT 독해·작문 (Evidence-Based Reading and Writing)", "description": "읽기 이해, 근거 기반 추론, 문법 및 표현력 측정"},
+      {"name": "SAT 수학 (Math)", "description": "대수, 문제 해결, 자료 분석, 고급 수학 능력 측정"},
+      {"name": "SAT 과목별 시험 (SAT Subject Tests)", "description": "특정 교과의 성취 수준을 측정하는 시험 (2021년 폐지)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SAT = Scholastic(학업) + Assessment(평가) + Test(검사) → 대학 입학을 위한 학업 추론력 평가",
+      "differential": "SAT는 추론 능력 중심이고, ACT는 교육과정 기반 성취도 중심이라는 것이 전통적 구분이나, 현재는 두 검사 모두 혼합적 성격을 갖는다.",
+      "key_point": "SAT는 원래 Scholastic Aptitude Test였으나, 적성과 성취의 구분 논란으로 명칭이 여러 번 변경되었다.",
+      "common_mistake": "SAT를 순수 적성검사로 간주하는 오류가 있으나, 실제로는 학교 교육의 영향을 크게 받는 혼합형 검사이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_GATB_005",
+    "terminology": "일반적성검사 (General Aptitude Test Battery, GATB)",
+    "terminology_ko": "일반적성검사",
+    "terminology_en": "General Aptitude Test Battery",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "미국 노동부가 개발한 다요인 적성검사 배터리로, 9개 적성 요인(일반학습능력, 언어, 수리, 공간, 형태지각, 사무지각, 운동협응, 손가락 민첩성, 손 민첩성)을 측정하여 직업 배치에 활용한다.",
+    "definition_en": "A multiple-aptitude test battery developed by the U.S. Department of Labor that measures nine aptitude factors including general learning ability, verbal, numerical, spatial, form perception, clerical perception, motor coordination, finger dexterity, and manual dexterity for vocational placement.",
+    "significance": "직업 상담과 배치에서 가장 광범위하게 사용된 적성검사 배터리로, 수천 개 직업에 대한 적성 프로파일과의 비교가 가능하다.",
+    "key_researchers": [
+      {"name_ko": "미국 노동부 고용안정국", "name_en": "U.S. Employment Service (USES)", "contribution": "1947년 GATB를 개발하고 지속적으로 개정하여 직업 배치의 표준 도구로 확립했다."},
+      {"name_ko": "존 헌터", "name_en": "John Hunter", "contribution": "메타분석을 통해 GATB의 일반학습능력(G) 요인이 다양한 직업에서 직무 수행을 예측함을 밝혔다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "ACHIEVE_APT_001"},
+      {"name_ko": "차별적성검사", "name_en": "Differential Aptitude Tests", "id": "ACHIEVE_DAT_006"},
+      {"name_ko": "직업적성", "name_en": "Vocational Aptitude", "id": "ACHIEVE_VAPT_017"},
+      {"name_ko": "Holland 자기탐색검사", "name_en": "Self-Directed Search", "id": "ACHIEVE_SDS_009"}
+    ],
+    "sub_types": [
+      {"name": "인지적 적성 (Cognitive Aptitudes)", "description": "일반학습능력(G), 언어(V), 수리(N), 공간(S) 요인 측정"},
+      {"name": "지각적 적성 (Perceptual Aptitudes)", "description": "형태지각(P), 사무지각(Q) 요인 측정"},
+      {"name": "정신운동 적성 (Psychomotor Aptitudes)", "description": "운동협응(K), 손가락 민첩성(F), 손 민첩성(M) 요인 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "GATB = 9개 적성 요인: G(일반), V(언어), N(수리), S(공간), P(형태), Q(사무), K(협응), F(손가락), M(손)",
+      "differential": "GATB는 직업 배치용 다요인 적성검사이고, DAT는 교육 및 직업 상담용 다요인 적성검사이다.",
+      "key_point": "GATB의 9개 적성 요인은 수천 개 직업의 적성 패턴(Occupational Aptitude Pattern)과 비교 가능하다.",
+      "common_mistake": "GATB의 G(일반학습능력)를 지능검사의 IQ와 동일시하는 오류가 있으나, G는 직업 수행 예측에 특화된 적성 요인이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_DAT_006",
+    "terminology": "차별적성검사 (Differential Aptitude Tests, DAT)",
+    "terminology_ko": "차별적성검사",
+    "terminology_en": "Differential Aptitude Tests",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "Bennett, Seashore, Wesman이 개발한 다요인 적성검사로, 언어추론, 수리능력, 추상추론, 지각속도와 정확성, 기계추론, 공간관계, 철자법, 언어사용의 8개 하위검사로 구성된다.",
+    "definition_en": "A multiple-aptitude test battery developed by Bennett, Seashore, and Wesman consisting of eight subtests: Verbal Reasoning, Numerical Ability, Abstract Reasoning, Perceptual Speed and Accuracy, Mechanical Reasoning, Space Relations, Spelling, and Language Usage.",
+    "significance": "중·고등학생의 교육적 및 직업적 상담에 가장 널리 사용된 다요인 적성검사로, 개인의 능력 프로파일을 통한 진로 지도에 핵심적 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "조지 베넷", "name_en": "George K. Bennett", "contribution": "기계추론 및 사무적성 측정의 전문가로 DAT의 주요 개발자이다."},
+      {"name_ko": "알렉산더 웨스만", "name_en": "Alexander G. Wesman", "contribution": "DAT의 언어적 하위검사를 설계하고 적성검사의 이론적 기반을 발전시켰다."},
+      {"name_ko": "해럴드 시쇼어", "name_en": "Harold G. Seashore", "contribution": "DAT의 지각 및 공간 하위검사 개발에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반적성검사", "name_en": "General Aptitude Test Battery", "id": "ACHIEVE_GATB_005"},
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "ACHIEVE_APT_001"},
+      {"name_ko": "직업적성", "name_en": "Vocational Aptitude", "id": "ACHIEVE_VAPT_017"}
+    ],
+    "sub_types": [
+      {"name": "언어추론 (Verbal Reasoning)", "description": "유추적 사고를 통해 언어적 추론 능력을 측정"},
+      {"name": "수리능력 (Numerical Ability)", "description": "수학적 추론과 계산 능력을 측정"},
+      {"name": "추상추론 (Abstract Reasoning)", "description": "비언어적 도형 패턴을 통한 추론 능력 측정"},
+      {"name": "기계추론 (Mechanical Reasoning)", "description": "물리적 원리와 기계적 관계에 대한 이해 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "DAT = 8개 하위검사: VR(언어추론), NA(수리), AR(추상), PSA(지각속도), MR(기계), SR(공간), SP(철자), LU(언어사용)",
+      "differential": "DAT는 학생 진로 상담 중심이고, GATB는 성인 직업 배치 중심이라는 점에서 주 대상과 목적이 다르다.",
+      "key_point": "DAT의 VR+NA 합산 점수는 학업적성의 우수한 예측 지표로 활용된다.",
+      "common_mistake": "DAT의 8개 하위검사 점수를 합산하여 단일 총점으로 해석하는 것은 잘못이며, 개별 하위검사의 프로파일 분석이 핵심이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_ACT_007",
+    "terminology": "ACT (American College Testing)",
+    "terminology_ko": "ACT",
+    "terminology_en": "American College Testing",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "미국 대학 입학에 사용되는 교육과정 기반 성취도검사로, 영어, 수학, 읽기, 과학추론의 4개 영역과 선택적 작문 영역으로 구성된다.",
+    "definition_en": "A curriculum-based achievement test used for U.S. college admissions, consisting of four sections—English, Mathematics, Reading, and Science Reasoning—plus an optional Writing section.",
+    "significance": "SAT와 함께 미국 대학 입학의 양대 표준화검사이며, 교육과정 기반 성취도를 측정한다는 점에서 SAT와 차별화된다.",
+    "key_researchers": [
+      {"name_ko": "에버렛 린드퀴스트", "name_en": "Everett Franklin Lindquist", "contribution": "1959년 ACT를 창안하여 교육과정 기반 대학 입학검사의 대안을 제시했다."},
+      {"name_ko": "테드 매클레이니", "name_en": "Ted McCarney", "contribution": "ACT의 초기 조직 구축과 전국적 시행 체계 수립에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "SAT", "name_en": "Scholastic Assessment Test", "id": "ACHIEVE_SAT_004"},
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "교육과정 기반 평가", "name_en": "Curriculum-Based Assessment", "id": "ACHIEVE_CBA_015"}
+    ],
+    "sub_types": [
+      {"name": "ACT 영어 (English)", "description": "문법, 용법, 수사법, 문장 구조 등 영어 능력 측정"},
+      {"name": "ACT 수학 (Mathematics)", "description": "대수, 기하, 삼각법 등 수학적 추론 능력 측정"},
+      {"name": "ACT 읽기 (Reading)", "description": "읽기 이해와 추론 능력 측정"},
+      {"name": "ACT 과학추론 (Science Reasoning)", "description": "과학적 자료 해석과 추론 능력 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ACT = 4영역(영어+수학+읽기+과학) + 선택(작문), 교육과정 기반",
+      "differential": "ACT는 교육과정 기반 성취도를 측정하고, SAT는 추론 능력을 측정한다는 것이 전통적 구분이다.",
+      "key_point": "ACT는 1959년 Lindquist가 SAT의 대안으로 개발했으며, 특히 중서부 지역에서 많이 사용된다.",
+      "common_mistake": "ACT를 SAT와 완전히 다른 유형의 검사로 취급하는 경향이 있으나, 두 검사의 예측타당도는 유사하다."
+    }
+  },
+  {
+    "id": "ACHIEVE_GRE_008",
+    "terminology": "GRE (Graduate Record Examinations)",
+    "terminology_ko": "GRE",
+    "terminology_en": "Graduate Record Examinations",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "대학원 입학에 사용되는 표준화검사로, 언어추론, 양적추론, 분석적 작문의 일반검사와 특정 학문 영역의 과목별 검사로 구성되며, ETS가 관리한다.",
+    "definition_en": "A standardized test for graduate school admissions administered by ETS, consisting of a General Test measuring verbal reasoning, quantitative reasoning, and analytical writing, and Subject Tests in specific academic disciplines.",
+    "significance": "전 세계 대학원 입학 전형에서 학업적 준비도를 평가하는 표준 도구로 사용되며, 대학원 수준의 학문적 추론 능력을 예측한다.",
+    "key_researchers": [
+      {"name_ko": "헨리 채운시", "name_en": "Henry Chauncey", "contribution": "ETS를 설립하여 GRE를 포함한 대규모 표준화검사 체계를 구축했다."},
+      {"name_ko": "윌버 라포인트", "name_en": "Wilbur Layton", "contribution": "GRE의 예측타당도 연구를 통해 대학원 입학검사로서의 효용성을 검증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "SAT", "name_en": "Scholastic Assessment Test", "id": "ACHIEVE_SAT_004"},
+      {"name_ko": "학업적성", "name_en": "Scholastic Aptitude", "id": "ACHIEVE_SAPT_016"},
+      {"name_ko": "규준참조검사", "name_en": "Norm-Referenced Test", "id": "ACHIEVE_NRT_012"}
+    ],
+    "sub_types": [
+      {"name": "GRE 일반검사 (General Test)", "description": "언어추론, 양적추론, 분석적 작문을 통한 일반적 학업 역량 측정"},
+      {"name": "GRE 과목별 검사 (Subject Tests)", "description": "심리학, 수학, 물리학 등 특정 학문 영역의 전문 지식 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "GRE = Graduate(대학원) + Record(기록) + Examinations(시험) → 대학원용 SAT",
+      "differential": "SAT는 학부 입학용이고, GRE는 대학원 입학용이며, 둘 다 ETS가 관리한다.",
+      "key_point": "GRE 일반검사는 언어추론(Verbal), 양적추론(Quantitative), 분석적 작문(Analytical Writing)의 3개 영역으로 구성된다.",
+      "common_mistake": "GRE를 특정 학문 분야의 지식만 측정하는 검사로 오해하는 경우가 있으나, 일반검사는 범학문적 추론 능력을 측정한다."
+    }
+  },
+  {
+    "id": "ACHIEVE_SDS_009",
+    "terminology": "Holland 자기탐색검사 (Self-Directed Search, SDS)",
+    "terminology_ko": "Holland 자기탐색검사",
+    "terminology_en": "Self-Directed Search",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "Holland의 RIASEC 직업 성격 이론에 기반하여 개인이 스스로 실시, 채점, 해석할 수 있도록 설계된 진로탐색 도구로, 6가지 유형(실재형, 탐구형, 예술형, 사회형, 진취형, 관습형)의 프로파일을 산출한다.",
+    "definition_en": "A career exploration instrument based on Holland's RIASEC theory of vocational personalities, designed for self-administration, self-scoring, and self-interpretation, producing a profile across six types: Realistic, Investigative, Artistic, Social, Enterprising, and Conventional.",
+    "significance": "전문가의 도움 없이 개인이 직접 진로 탐색을 할 수 있는 대표적 도구로, RIASEC 모델의 가장 직접적인 적용이다.",
+    "key_researchers": [
+      {"name_ko": "존 홀랜드", "name_en": "John L. Holland", "contribution": "RIASEC 직업 성격 이론을 개발하고, 그 이론에 기반한 자기탐색검사(SDS)를 1971년에 제작했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Strong 직업흥미검사", "name_en": "Strong Interest Inventory", "id": "ACHIEVE_SII_010"},
+      {"name_ko": "직업적성", "name_en": "Vocational Aptitude", "id": "ACHIEVE_VAPT_017"},
+      {"name_ko": "RIASEC 모델", "name_en": "RIASEC Model", "id": "ACHIEVE_RIASEC_018"}
+    ],
+    "sub_types": [
+      {"name": "활동 선호 (Activities)", "description": "다양한 직업 활동에 대한 좋아함/싫어함 평가"},
+      {"name": "유능감 (Competencies)", "description": "자신이 잘 할 수 있다고 느끼는 활동 평가"},
+      {"name": "직업 선호 (Occupations)", "description": "구체적 직업에 대한 흥미 평가"},
+      {"name": "자기평가 (Self-Estimates)", "description": "다양한 능력에 대한 자기 평정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SDS = Self(자기) + Directed(주도) + Search(탐색) → 자기주도적 진로탐색, RIASEC = 실(R)탐(I)예(A)사(S)진(E)관(C)",
+      "differential": "SDS는 자기실시·자기채점이 가능하지만, Strong 직업흥미검사(SII)는 전문가의 해석이 필요하다.",
+      "key_point": "SDS의 핵심은 RIASEC 6각형 모델에서 개인의 3글자 코드(예: RIA)를 산출하여 적합 직업을 탐색하는 것이다.",
+      "common_mistake": "SDS를 능력검사로 오해하는 경우가 있으나, 이는 직업 흥미와 성격 유형을 측정하는 도구이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_SII_010",
+    "terminology": "Strong 직업흥미검사 (Strong Interest Inventory, SII)",
+    "terminology_ko": "Strong 직업흥미검사",
+    "terminology_en": "Strong Interest Inventory",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "E.K. Strong Jr.가 개발한 대표적 직업흥미검사로, Holland의 일반직업주제(GOT), 기본흥미척도(BIS), 개인스타일척도(PSS), 직업척도(OS)를 통해 개인의 직업흥미 프로파일을 제공한다.",
+    "definition_en": "A prominent vocational interest inventory originally developed by E.K. Strong Jr. that provides career interest profiles through General Occupational Themes (GOT), Basic Interest Scales (BIS), Personal Style Scales (PSS), and Occupational Scales (OS).",
+    "significance": "90년 이상의 역사를 가진 가장 광범위하게 연구된 직업흥미검사로, 진로상담의 핵심 도구이며 경험적 타당도가 매우 높다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 스트롱", "name_en": "Edward K. Strong Jr.", "contribution": "1927년 Strong Vocational Interest Blank(SVIB)를 개발하여 직업흥미 측정의 선구자가 되었다."},
+      {"name_ko": "데이비드 캠벨", "name_en": "David P. Campbell", "contribution": "Strong-Campbell Interest Inventory(SCII)로 개정하여 Holland의 RIASEC 모델을 통합했다."},
+      {"name_ko": "조앤 해런", "name_en": "Jo-Ida C. Hansen", "contribution": "SII의 현대적 개정과 다문화적 적용 연구에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Holland 자기탐색검사", "name_en": "Self-Directed Search", "id": "ACHIEVE_SDS_009"},
+      {"name_ko": "RIASEC 모델", "name_en": "RIASEC Model", "id": "ACHIEVE_RIASEC_018"},
+      {"name_ko": "직업적성", "name_en": "Vocational Aptitude", "id": "ACHIEVE_VAPT_017"}
+    ],
+    "sub_types": [
+      {"name": "일반직업주제 (General Occupational Themes)", "description": "Holland RIASEC 6유형에 따른 전반적 흥미 패턴"},
+      {"name": "기본흥미척도 (Basic Interest Scales)", "description": "25~30개의 구체적 활동 영역에 대한 흥미 수준"},
+      {"name": "직업척도 (Occupational Scales)", "description": "특정 직업 종사자와의 흥미 유사성 비교"},
+      {"name": "개인스타일척도 (Personal Style Scales)", "description": "학습, 리더십, 모험성, 팀 지향성 등 개인 스타일 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SII의 4대 척도: GOT(일반주제) + BIS(기본흥미) + OS(직업) + PSS(개인스타일)",
+      "differential": "SII는 전문가 해석이 필요한 종합적 흥미검사이고, SDS는 자기실시·자기해석이 가능한 간이 도구이다.",
+      "key_point": "SII의 직업척도(OS)는 경험적 준거 집단법으로 개발되어, 특정 직업 종사자의 흥미 패턴과 개인의 흥미를 직접 비교한다.",
+      "common_mistake": "SII를 능력이나 적성검사로 혼동하는 오류가 있으나, 이는 '흥미'를 측정하는 검사이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_CRT_011",
+    "terminology": "준거참조검사 (Criterion-Referenced Test)",
+    "terminology_ko": "준거참조검사",
+    "terminology_en": "Criterion-Referenced Test",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "개인의 수행을 다른 수검자와의 상대적 비교가 아닌, 사전에 설정된 절대적 수행 기준(준거)에 비추어 해석하는 검사이다.",
+    "definition_en": "A test that interprets an individual's performance against a predetermined absolute standard or criterion of mastery, rather than comparing it to other examinees' scores.",
+    "significance": "학생이 특정 학습 목표를 달성했는지 여부를 판단하는 데 적합하며, 교수-학습 과정의 개선과 자격 인증에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 글레이저", "name_en": "Robert Glaser", "contribution": "1963년 준거참조측정의 개념을 최초로 제안하여 규준참조 중심의 검사 패러다임에 대안을 제시했다."},
+      {"name_ko": "제임스 포팸", "name_en": "W. James Popham", "contribution": "준거참조검사의 문항 작성과 해석 방법을 체계화하여 교육 현장에서의 활용을 확대했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준참조검사", "name_en": "Norm-Referenced Test", "id": "ACHIEVE_NRT_012"},
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "수행평가", "name_en": "Performance Assessment", "id": "ACHIEVE_PERF_020"},
+      {"name_ko": "교육과정 기반 평가", "name_en": "Curriculum-Based Assessment", "id": "ACHIEVE_CBA_015"}
+    ],
+    "sub_types": [
+      {"name": "숙달도검사 (Mastery Test)", "description": "특정 기준에 도달했는지(통과/미통과)를 판정하는 검사"},
+      {"name": "영역참조검사 (Domain-Referenced Test)", "description": "잘 정의된 내용 영역에서의 수행 수준을 측정하는 검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "준거참조 = '절대 기준'과 비교 (예: 70점 이상이면 합격), 규준참조 = '다른 사람'과 비교",
+      "differential": "준거참조검사는 절대적 기준 달성 여부를 판단하고, 규준참조검사는 상대적 위치를 파악한다.",
+      "key_point": "Glaser(1963)가 최초로 준거참조측정 개념을 제안했으며, 이는 교육목표 달성도 평가에 혁명적 전환을 가져왔다.",
+      "common_mistake": "준거참조검사에서 규준이 전혀 불필요하다고 생각하는 오류가 있으나, 분할점(cut score) 설정에는 규준 정보가 참고될 수 있다."
+    }
+  },
+  {
+    "id": "ACHIEVE_NRT_012",
+    "terminology": "규준참조검사 (Norm-Referenced Test)",
+    "terminology_ko": "규준참조검사",
+    "terminology_en": "Norm-Referenced Test",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "개인의 검사 수행을 표준화 표본(규준 집단)의 수행 분포와 비교하여 상대적 위치를 해석하는 검사이다.",
+    "definition_en": "A test that interprets an individual's performance by comparing it to the performance distribution of a standardization sample (norm group), determining relative standing.",
+    "significance": "개인의 상대적 위치를 파악하여 선발, 배치, 분류 등의 의사결정에 적합하며, 대부분의 표준화 심리검사가 이 방식을 사용한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 글레이저", "name_en": "Robert Glaser", "contribution": "규준참조와 준거참조 검사의 구분을 명확히 하여 각각의 적절한 활용 장면을 구분했다."},
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "규준의 유형과 해석 방법을 체계화하여 규준참조검사의 표준적 실무를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "준거참조검사", "name_en": "Criterion-Referenced Test", "id": "ACHIEVE_CRT_011"},
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "ACHIEVE_APT_001"},
+      {"name_ko": "SAT", "name_en": "Scholastic Assessment Test", "id": "ACHIEVE_SAT_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "규준참조 = 규준 집단 속에서 '나의 위치'는 어디인가? (백분위, 표준점수)",
+      "differential": "규준참조검사는 '누가 더 잘했나'에 초점이고, 준거참조검사는 '무엇을 할 수 있나'에 초점이다.",
+      "key_point": "규준참조검사의 결과는 백분위, 표준점수, 스테나인 등으로 표현되며, 규준의 대표성이 해석의 핵심이다.",
+      "common_mistake": "규준참조검사의 점수를 절대적 능력 수준으로 해석하는 오류가 있으나, 이는 항상 규준 집단에 상대적인 위치만을 나타낸다."
+    }
+  },
+  {
+    "id": "ACHIEVE_DIAG_013",
+    "terminology": "진단검사 (Diagnostic Test)",
+    "terminology_ko": "진단검사",
+    "terminology_en": "Diagnostic Test",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "학습자의 특정 학습 영역에서의 강점과 약점을 상세하게 파악하여, 교정적 교수를 위한 구체적 정보를 제공하는 목적으로 설계된 검사이다.",
+    "definition_en": "A test designed to identify specific strengths and weaknesses in a learner's knowledge and skills within particular academic areas, providing detailed information for remedial instruction.",
+    "significance": "학습장애 진단, 개별화 교육 프로그램(IEP) 수립, 교정교육 계획에 필수적인 정보를 제공하는 핵심 평가 도구이다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 윌슨", "name_en": "Frederick Wilson", "contribution": "진단적 읽기검사를 개발하여 읽기 장애의 세부 유형을 식별하는 체계를 확립했다."},
+      {"name_ko": "리처드 우드콕", "name_en": "Richard Woodcock", "contribution": "Woodcock-Johnson 검사를 통해 인지-학업 진단 모델을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "교육과정 기반 평가", "name_en": "Curriculum-Based Assessment", "id": "ACHIEVE_CBA_015"},
+      {"name_ko": "적성-성취 구분", "name_en": "Aptitude-Achievement Distinction", "id": "ACHIEVE_DIFF_003"}
+    ],
+    "sub_types": [
+      {"name": "읽기 진단검사 (Diagnostic Reading Test)", "description": "읽기의 하위 기술(해독, 유창성, 이해 등)별 강약점 파악"},
+      {"name": "수학 진단검사 (Diagnostic Math Test)", "description": "수학의 하위 영역별 개념 이해와 절차적 지식의 결함 확인"},
+      {"name": "쓰기 진단검사 (Diagnostic Writing Test)", "description": "작문, 철자, 문법 등 쓰기 기술의 세부 영역별 진단"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "진단검사 = 학습의 '강점과 약점'을 X-ray처럼 세밀하게 파악",
+      "differential": "성취도검사는 전반적 학습 수준을 측정하고, 진단검사는 특정 영역의 세부적 강약점을 식별한다.",
+      "key_point": "진단검사의 핵심 목적은 교정적 교수 계획 수립을 위한 구체적 정보 제공이다.",
+      "common_mistake": "진단검사를 일반 성취도검사처럼 전반적 성취 수준 파악에 사용하는 것은 목적에 맞지 않는 활용이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_WJ_014",
+    "terminology": "Woodcock-Johnson 검사 (Woodcock-Johnson Tests)",
+    "terminology_ko": "Woodcock-Johnson 검사",
+    "terminology_en": "Woodcock-Johnson Tests",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "인지능력과 학업성취를 동시에 측정하는 종합적 검사 배터리로, CHC 이론(Cattell-Horn-Carroll)에 기반하여 인지-성취 불일치 분석이 가능하다. 현재 제4판(WJ IV)까지 출간되었다.",
+    "definition_en": "A comprehensive test battery measuring both cognitive abilities and academic achievement based on Cattell-Horn-Carroll (CHC) theory, enabling cognitive-achievement discrepancy analysis. Currently in its fourth edition (WJ IV).",
+    "significance": "학습장애 진단에서 인지-성취 불일치 분석의 표준 도구로, CHC 이론의 실증적 적용을 대표하는 검사이다.",
+    "key_researchers": [
+      {"name_ko": "리처드 우드콕", "name_en": "Richard Woodcock", "contribution": "Woodcock-Johnson 검사 시리즈를 개발하여 인지-성취 통합 측정 모델을 확립했다."},
+      {"name_ko": "메리 존슨", "name_en": "Mary E. Bonner Johnson", "contribution": "Woodcock과 함께 WJ 초판을 공동 개발했다."},
+      {"name_ko": "케빈 맥그루", "name_en": "Kevin McGrew", "contribution": "CHC 이론을 WJ에 체계적으로 통합하여 제3판(WJ III)의 이론적 기반을 강화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "진단검사", "name_en": "Diagnostic Test", "id": "ACHIEVE_DIAG_013"},
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "적성-성취 구분", "name_en": "Aptitude-Achievement Distinction", "id": "ACHIEVE_DIFF_003"}
+    ],
+    "sub_types": [
+      {"name": "WJ 인지능력검사 (Tests of Cognitive Abilities)", "description": "CHC 이론에 기반한 7개 이상의 인지능력 요인 측정"},
+      {"name": "WJ 성취도검사 (Tests of Achievement)", "description": "읽기, 수학, 쓰기, 지식 영역의 학업 성취 수준 측정"},
+      {"name": "WJ 구술언어검사 (Tests of Oral Language)", "description": "구술 이해, 표현, 청각 처리 등의 언어 능력 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WJ = Woodcock + Johnson, CHC 이론 기반, 인지 + 성취의 '통합 배터리'",
+      "differential": "WJ는 인지와 성취를 동시에 측정하여 불일치 분석이 가능하고, WIAT는 성취도만 독립적으로 측정한다.",
+      "key_point": "WJ의 핵심 강점은 동일한 이론적 기반(CHC)으로 인지와 성취를 모두 측정하여 직접 비교가 가능하다는 점이다.",
+      "common_mistake": "WJ를 단순 성취도검사로만 인식하는 경우가 있으나, 인지능력검사와 구술언어검사를 포함하는 종합 배터리이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_CBA_015",
+    "terminology": "교육과정 기반 평가 (Curriculum-Based Assessment, CBA)",
+    "terminology_ko": "교육과정 기반 평가",
+    "terminology_en": "Curriculum-Based Assessment",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "학생이 실제로 배우고 있는 교육과정의 내용에서 직접 검사 문항을 추출하여, 학생의 학습 진전도를 반복적으로 모니터링하는 평가 방법이다.",
+    "definition_en": "An assessment approach that draws test items directly from the curriculum being taught to repeatedly monitor student progress in learning, providing ongoing data for instructional decision-making.",
+    "significance": "표준화 성취도검사의 한계를 보완하여 교수-학습 과정에 직접적이고 즉시적인 피드백을 제공하며, RTI(중재반응) 모델의 핵심 구성요소이다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 덴노", "name_en": "Stanley Deno", "contribution": "교육과정 기반 측정(CBM)을 개발하여 학습 진전도의 반복적 모니터링 방법을 체계화했다."},
+      {"name_ko": "제럴드 틴달", "name_en": "Gerald Tindal", "contribution": "CBM의 기술적 적합성과 실제 적용 방법에 대한 연구를 확대했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "진단검사", "name_en": "Diagnostic Test", "id": "ACHIEVE_DIAG_013"},
+      {"name_ko": "준거참조검사", "name_en": "Criterion-Referenced Test", "id": "ACHIEVE_CRT_011"},
+      {"name_ko": "수행평가", "name_en": "Performance Assessment", "id": "ACHIEVE_PERF_020"}
+    ],
+    "sub_types": [
+      {"name": "교육과정 기반 측정 (Curriculum-Based Measurement, CBM)", "description": "표준화된 절차로 반복 측정하여 학습 성장 곡선을 산출하는 방법"},
+      {"name": "교육과정 기반 평가-교수결정 (CBA-ID)", "description": "교수적 의사결정에 초점을 맞춘 비형식적 평가 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CBA = Curriculum(교육과정)에서 직접 문항 추출 → 반복 모니터링 → 교수 의사결정",
+      "differential": "CBA는 실제 교육과정에서 직접 문항을 추출하고, 표준화 성취도검사는 범교육과정적 내용을 측정한다.",
+      "key_point": "CBA의 핵심 원리는 '가르치는 내용을 검사한다(test what you teach)'이며, Deno의 CBM이 가장 체계적 형태이다.",
+      "common_mistake": "CBA를 단순히 교사가 만든 시험과 동일시하는 경우가 있으나, CBA는 체계적인 진전도 모니터링 절차를 포함한다."
+    }
+  },
+  {
+    "id": "ACHIEVE_SAPT_016",
+    "terminology": "학업적성 (Scholastic Aptitude)",
+    "terminology_ko": "학업적성",
+    "terminology_en": "Scholastic Aptitude",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "학교 교육과정에서의 학습 성공 가능성을 예측하는 인지적 능력으로, 언어적 추론, 수리적 추론, 독해력 등이 주요 구성요소이다.",
+    "definition_en": "Cognitive abilities that predict success in academic learning, with verbal reasoning, quantitative reasoning, and reading comprehension as primary components.",
+    "significance": "대학 입학, 교육적 배치, 영재 판별 등에서 미래 학업 수행을 예측하는 핵심 구성개념으로, SAT와 GRE의 이론적 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "칼 브리검", "name_en": "Carl Brigham", "contribution": "학업적성이라는 구성개념을 측정하기 위해 최초의 SAT를 개발했다."},
+      {"name_ko": "존 캐롤", "name_en": "John B. Carroll", "contribution": "학업적성을 학습에 필요한 시간과 연결하여 학교학습모형(Model of School Learning)을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "SAT", "name_en": "Scholastic Assessment Test", "id": "ACHIEVE_SAT_004"},
+      {"name_ko": "GRE", "name_en": "Graduate Record Examinations", "id": "ACHIEVE_GRE_008"},
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "ACHIEVE_APT_001"},
+      {"name_ko": "직업적성", "name_en": "Vocational Aptitude", "id": "ACHIEVE_VAPT_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "학업적성 = 학교에서 '얼마나 잘 배울 수 있을까'를 예측하는 인지 능력",
+      "differential": "학업적성은 학교 학습 성공 예측에 초점이고, 직업적성은 직업 수행 성공 예측에 초점이다.",
+      "key_point": "Carroll의 학교학습모형에서 학업적성은 '특정 학습 과제를 숙달하는 데 필요한 시간'으로 정의된다.",
+      "common_mistake": "학업적성을 지능과 동일시하는 경우가 있으나, 학업적성은 지능보다 좁은 개념으로 학교 학습에 특화된 인지 능력이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_VAPT_017",
+    "terminology": "직업적성 (Vocational Aptitude)",
+    "terminology_ko": "직업적성",
+    "terminology_en": "Vocational Aptitude",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "특정 직업 분야에서 성공적으로 수행할 수 있는 잠재적 능력으로, 인지적, 지각적, 정신운동적 능력을 포함하는 다차원적 구성개념이다.",
+    "definition_en": "The potential ability to perform successfully in a specific vocational field, a multidimensional construct encompassing cognitive, perceptual, and psychomotor abilities.",
+    "significance": "직업 선발, 배치, 진로상담에서 개인의 직업적 성공 가능성을 예측하는 핵심 개념으로, 산업/조직 심리학과 진로심리학의 교차점에 위치한다.",
+    "key_researchers": [
+      {"name_ko": "존 플래너건", "name_en": "John Flanagan", "contribution": "직무분석을 통한 직업적성 요인의 체계적 식별 방법을 발전시켰다."},
+      {"name_ko": "에드윈 기셀리", "name_en": "Edwin Ghiselli", "contribution": "직업적성검사의 타당도에 관한 메타분석적 연구를 수행하여 적성의 직업별 예측력을 검증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "학업적성", "name_en": "Scholastic Aptitude", "id": "ACHIEVE_SAPT_016"},
+      {"name_ko": "일반적성검사", "name_en": "General Aptitude Test Battery", "id": "ACHIEVE_GATB_005"},
+      {"name_ko": "Holland 자기탐색검사", "name_en": "Self-Directed Search", "id": "ACHIEVE_SDS_009"},
+      {"name_ko": "차별적성검사", "name_en": "Differential Aptitude Tests", "id": "ACHIEVE_DAT_006"}
+    ],
+    "sub_types": [
+      {"name": "인지적 직업적성 (Cognitive Vocational Aptitude)", "description": "언어, 수리, 추론 등 인지 능력 기반 직업 적성"},
+      {"name": "정신운동 직업적성 (Psychomotor Vocational Aptitude)", "description": "손 민첩성, 운동협응 등 신체적 기술 기반 직업 적성"},
+      {"name": "감각적 직업적성 (Sensory Vocational Aptitude)", "description": "시각, 청각 등 감각 능력 기반 직업 적성"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "직업적성 = 직업에서의 성공 가능성, GATB의 9요인이 대표적 측정 도구",
+      "differential": "직업적성은 특정 직업에서의 수행 가능성에 초점이고, 직업흥미는 특정 직업에 대한 선호도에 초점이다.",
+      "key_point": "직업적성은 단일 요인이 아닌 인지적, 지각적, 정신운동적 요인을 포함하는 다차원적 개념이다.",
+      "common_mistake": "직업적성과 직업흥미를 혼동하는 경우가 많으나, 흥미가 있다고 반드시 적성이 있는 것은 아니다."
+    }
+  },
+  {
+    "id": "ACHIEVE_RIASEC_018",
+    "terminology": "RIASEC 모델 (RIASEC Model)",
+    "terminology_ko": "RIASEC 모델",
+    "terminology_en": "RIASEC Model",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "Holland이 제안한 직업 성격 유형 이론으로, 사람과 직업 환경을 실재형(R), 탐구형(I), 예술형(A), 사회형(S), 진취형(E), 관습형(C)의 6가지 유형으로 분류하고, 개인-환경 적합도를 6각형 모델로 설명한다.",
+    "definition_en": "Holland's theory of vocational personalities classifying people and work environments into six types—Realistic, Investigative, Artistic, Social, Enterprising, and Conventional—and explaining person-environment fit through a hexagonal model.",
+    "significance": "직업심리학에서 가장 영향력 있는 이론 중 하나로, SDS, SII 등 주요 진로검사의 이론적 기반이 되며, 전 세계 진로상담에 광범위하게 적용된다.",
+    "key_researchers": [
+      {"name_ko": "존 홀랜드", "name_en": "John L. Holland", "contribution": "1959년 직업 선택 이론을 처음 발표하고, 6각형 RIASEC 모델을 지속적으로 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Holland 자기탐색검사", "name_en": "Self-Directed Search", "id": "ACHIEVE_SDS_009"},
+      {"name_ko": "Strong 직업흥미검사", "name_en": "Strong Interest Inventory", "id": "ACHIEVE_SII_010"},
+      {"name_ko": "직업적성", "name_en": "Vocational Aptitude", "id": "ACHIEVE_VAPT_017"}
+    ],
+    "sub_types": [
+      {"name": "실재형 (Realistic)", "description": "도구, 기계, 동물을 다루는 실제적·물리적 활동을 선호하는 유형"},
+      {"name": "탐구형 (Investigative)", "description": "과학적·분석적 탐구와 관찰, 연구를 선호하는 유형"},
+      {"name": "예술형 (Artistic)", "description": "창의적·표현적 활동과 비체계적 환경을 선호하는 유형"},
+      {"name": "사회형 (Social)", "description": "사람을 돕고 가르치는 활동과 대인관계를 선호하는 유형"},
+      {"name": "진취형 (Enterprising)", "description": "리더십, 설득, 경영 등 기업적 활동을 선호하는 유형"},
+      {"name": "관습형 (Conventional)", "description": "체계적·조직적 자료 관리와 규칙적 활동을 선호하는 유형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "RIASEC = 실(Realistic)탐(Investigative)예(Artistic)사(Social)진(Enterprising)관(Conventional) → 6각형 모델",
+      "differential": "RIASEC은 직업 성격 '유형 이론'이고, SDS와 SII는 이 이론을 '측정하는 도구'이다.",
+      "key_point": "6각형 모델에서 인접 유형은 유사성이 높고(예: R-I), 대각선 유형은 유사성이 낮다(예: R-S). 이를 일관성(consistency)이라 한다.",
+      "common_mistake": "RIASEC 유형을 고정적·배타적 범주로 이해하는 오류가 있으나, 실제로는 모든 사람이 6유형의 프로파일을 가진다."
+    }
+  },
+  {
+    "id": "ACHIEVE_ASVAB_019",
+    "terminology": "ASVAB (Armed Services Vocational Aptitude Battery)",
+    "terminology_ko": "ASVAB",
+    "terminology_en": "Armed Services Vocational Aptitude Battery",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "미국 국방부가 개발한 다요인 적성검사 배터리로, 군 입대 자격 판정 및 병과 배치에 사용되며, 일반과학, 산수추론, 단어지식, 문단이해 등 10개 하위검사로 구성된다.",
+    "definition_en": "A multiple-aptitude test battery developed by the U.S. Department of Defense for military enlistment qualification and job assignment, consisting of ten subtests including General Science, Arithmetic Reasoning, Word Knowledge, and Paragraph Comprehension.",
+    "significance": "세계 최대 규모의 적성검사 프로그램 중 하나로, 매년 수십만 명이 응시하며 군사 및 민간 진로상담에 모두 활용된다.",
+    "key_researchers": [
+      {"name_ko": "미국 국방부", "name_en": "U.S. Department of Defense", "contribution": "1968년 ASVAB를 개발하고 지속적으로 개정하여 군사 인사 선발의 표준 도구로 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반적성검사", "name_en": "General Aptitude Test Battery", "id": "ACHIEVE_GATB_005"},
+      {"name_ko": "차별적성검사", "name_en": "Differential Aptitude Tests", "id": "ACHIEVE_DAT_006"},
+      {"name_ko": "적성검사", "name_en": "Aptitude Test", "id": "ACHIEVE_APT_001"}
+    ],
+    "sub_types": [
+      {"name": "AFQT (Armed Forces Qualification Test)", "description": "산수추론, 수학지식, 단어지식, 문단이해 4개 하위검사로 구성된 군 입대 자격 판정 점수"},
+      {"name": "전문직군별 합성점수 (Composite Scores)", "description": "하위검사의 조합으로 산출되는 병과별 배치 적합성 점수"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ASVAB = Armed Services(군대) + Vocational(직업) + Aptitude(적성) + Battery(배터리) → 군 입대 다요인 적성검사",
+      "differential": "ASVAB는 군사 배치 목적이고, GATB는 민간 직업 배치 목적이지만, 둘 다 다요인 적성검사 배터리이다.",
+      "key_point": "ASVAB의 AFQT 점수는 군 입대 자격을 결정하며, 나머지 하위검사 조합은 구체적 병과 배치에 활용된다.",
+      "common_mistake": "ASVAB를 군사 지식이나 체력 검사로 오해하는 경우가 있으나, 이는 인지적 적성을 측정하는 검사이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_PERF_020",
+    "terminology": "수행평가 (Performance Assessment)",
+    "terminology_ko": "수행평가",
+    "terminology_en": "Performance Assessment",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "실제적인 과제 수행을 통해 학습자의 지식, 기술, 능력을 직접적으로 관찰하고 평가하는 방법으로, 선다형 검사의 한계를 보완한다.",
+    "definition_en": "An assessment method that directly observes and evaluates learners' knowledge, skills, and abilities through the performance of authentic tasks, addressing limitations of multiple-choice tests.",
+    "significance": "고차적 사고 능력과 실제 적용 능력을 측정할 수 있어 전통적 지필검사를 보완하며, 역량 중심 교육과정의 평가에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "그랜트 위긴스", "name_en": "Grant Wiggins", "contribution": "진정성 있는 평가(authentic assessment)의 개념을 제안하고 수행평가의 교육적 의의를 확립했다."},
+      {"name_ko": "리처드 스티긴스", "name_en": "Richard Stiggins", "contribution": "교실 기반 수행평가의 실행 방법과 채점기준(rubric) 개발을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "포트폴리오 평가", "name_en": "Portfolio Assessment", "id": "ACHIEVE_PORT_021"},
+      {"name_ko": "준거참조검사", "name_en": "Criterion-Referenced Test", "id": "ACHIEVE_CRT_011"},
+      {"name_ko": "교육과정 기반 평가", "name_en": "Curriculum-Based Assessment", "id": "ACHIEVE_CBA_015"},
+      {"name_ko": "루브릭", "name_en": "Rubric", "id": "ACHIEVE_RUBR_022"}
+    ],
+    "sub_types": [
+      {"name": "실험/실습 평가 (Lab/Practical Assessment)", "description": "실험 수행이나 실습 과제를 통한 직접적 기술 평가"},
+      {"name": "구술 평가 (Oral Assessment)", "description": "구두 발표, 면접, 토론 등을 통한 이해도 및 표현력 평가"},
+      {"name": "프로젝트 평가 (Project Assessment)", "description": "장기적 프로젝트 산출물을 통한 종합적 능력 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "수행평가 = '실제로 해보게 하여' 관찰·평가 (Show, Don't Tell)",
+      "differential": "수행평가는 실제 과제 수행을 관찰하고, 전통적 지필검사는 선택지를 고르는 간접적 방식이다.",
+      "key_point": "수행평가의 핵심은 '진정성(authenticity)'으로, 실제 생활이나 직업에서 요구되는 과제와 유사한 상황을 제시하는 것이다.",
+      "common_mistake": "수행평가가 객관적 채점이 불가능하다고 단정하는 경우가 있으나, 잘 구성된 루브릭을 사용하면 평가자 간 신뢰도를 확보할 수 있다."
+    }
+  },
+  {
+    "id": "ACHIEVE_PORT_021",
+    "terminology": "포트폴리오 평가 (Portfolio Assessment)",
+    "terminology_ko": "포트폴리오 평가",
+    "terminology_en": "Portfolio Assessment",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "학습자가 일정 기간에 걸쳐 산출한 다양한 학습 결과물(작품, 보고서, 자기반성문 등)을 체계적으로 수집하여 성장과 발달을 종합적으로 평가하는 방법이다.",
+    "definition_en": "An assessment method that systematically collects diverse learning artifacts (works, reports, self-reflections, etc.) produced by learners over a period of time to comprehensively evaluate growth and development.",
+    "significance": "학습 과정과 성장의 궤적을 파악할 수 있어 결과 중심 평가의 한계를 보완하며, 학습자의 자기주도적 성찰을 촉진한다.",
+    "key_researchers": [
+      {"name_ko": "데니스 울프", "name_en": "Dennie Wolf", "contribution": "포트폴리오 평가의 교육적 활용 모델을 개발하여 학생의 자기 성찰과 학습 과정 평가를 체계화했다."},
+      {"name_ko": "로버트 티어니", "name_en": "Robert Tierney", "contribution": "읽기·쓰기 포트폴리오 평가의 이론적 기반과 실행 방법을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "수행평가", "name_en": "Performance Assessment", "id": "ACHIEVE_PERF_020"},
+      {"name_ko": "교육과정 기반 평가", "name_en": "Curriculum-Based Assessment", "id": "ACHIEVE_CBA_015"},
+      {"name_ko": "루브릭", "name_en": "Rubric", "id": "ACHIEVE_RUBR_022"}
+    ],
+    "sub_types": [
+      {"name": "최우수작품 포트폴리오 (Showcase Portfolio)", "description": "학생의 최고 수준 작품을 선별하여 수집"},
+      {"name": "성장 포트폴리오 (Growth Portfolio)", "description": "시간에 따른 학습 발달과 변화를 보여주는 작품 수집"},
+      {"name": "과정 포트폴리오 (Process Portfolio)", "description": "초안에서 완성까지의 학습 과정 전체를 기록"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "포트폴리오 = '학습의 여정'을 보여주는 작품 모음집",
+      "differential": "포트폴리오 평가는 일정 기간의 성장을 종합적으로 평가하고, 수행평가는 특정 과제의 수행을 평가한다.",
+      "key_point": "포트폴리오 평가의 핵심 요소는 작품 선정의 체계성, 자기 반성(self-reflection), 그리고 명확한 평가 기준이다.",
+      "common_mistake": "포트폴리오를 단순히 작품을 모아놓은 파일로 간주하는 경우가 많으나, 체계적 선정, 반성적 글쓰기, 평가 기준이 필수적이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_RUBR_022",
+    "terminology": "루브릭 (Rubric)",
+    "terminology_ko": "루브릭",
+    "terminology_en": "Rubric",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "수행평가나 포트폴리오 등 주관적 평가에서 평가 기준과 수행 수준을 구체적으로 기술한 채점 지침으로, 평가의 일관성과 투명성을 확보하는 도구이다.",
+    "definition_en": "A scoring guide that describes specific evaluation criteria and performance levels for subjective assessments such as performance tasks and portfolios, ensuring consistency and transparency in evaluation.",
+    "significance": "수행평가의 채점 신뢰도를 높이고, 학습자에게 기대 수준을 명확히 전달하며, 자기평가와 동료평가의 기준을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "하이디 앤드레이드", "name_en": "Heidi Andrade", "contribution": "교육적 루브릭의 설계 원리와 학습 촉진 효과에 관한 연구를 체계적으로 수행했다."},
+      {"name_ko": "리처드 스티긴스", "name_en": "Richard Stiggins", "contribution": "교실 기반 평가에서 루브릭의 효과적 활용 방법을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "수행평가", "name_en": "Performance Assessment", "id": "ACHIEVE_PERF_020"},
+      {"name_ko": "포트폴리오 평가", "name_en": "Portfolio Assessment", "id": "ACHIEVE_PORT_021"},
+      {"name_ko": "준거참조검사", "name_en": "Criterion-Referenced Test", "id": "ACHIEVE_CRT_011"}
+    ],
+    "sub_types": [
+      {"name": "총체적 루브릭 (Holistic Rubric)", "description": "전체적 수행의 질을 단일 총점으로 평가하는 루브릭"},
+      {"name": "분석적 루브릭 (Analytic Rubric)", "description": "여러 평가 차원별로 개별적 점수를 부여하는 루브릭"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "루브릭 = 평가의 '기준표'(무엇을 + 얼마나 잘 = 몇 점)",
+      "differential": "총체적 루브릭은 전반적 인상으로 한 번에 채점하고, 분석적 루브릭은 기준별로 따로 채점한다.",
+      "key_point": "좋은 루브릭은 각 수행 수준의 차이를 명확하고 관찰 가능한 용어로 기술해야 한다.",
+      "common_mistake": "루브릭을 단순 체크리스트와 동일시하는 경우가 있으나, 루브릭은 수행의 질적 수준을 기술하는 반면 체크리스트는 요소의 유무만 확인한다."
+    }
+  },
+  {
+    "id": "ACHIEVE_WIAT_023",
+    "terminology": "WIAT (Wechsler Individual Achievement Test)",
+    "terminology_ko": "WIAT",
+    "terminology_en": "Wechsler Individual Achievement Test",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "Wechsler 지능검사와 공동 규준을 갖도록 설계된 개인용 성취도검사로, 읽기, 쓰기, 수학, 구술 언어 영역을 측정하여 능력-성취 불일치 분석에 활용된다.",
+    "definition_en": "An individually administered achievement test designed to share norms with Wechsler intelligence scales, measuring reading, writing, mathematics, and oral language for ability-achievement discrepancy analysis.",
+    "significance": "Wechsler 지능검사와의 공동 규준 체계를 통해 정확한 능력-성취 불일치 분석이 가능하여, 학습장애 진단의 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "Wechsler 지능검사 시리즈를 개발하여 WIAT의 이론적·규준적 기반을 제공했다."},
+      {"name_ko": "피어슨 에듀케이션", "name_en": "Pearson Education", "contribution": "WIAT의 개발과 지속적 개정을 담당하여 현재 WIAT-IV까지 출간했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Woodcock-Johnson 검사", "name_en": "Woodcock-Johnson Tests", "id": "ACHIEVE_WJ_014"},
+      {"name_ko": "성취도검사", "name_en": "Achievement Test", "id": "ACHIEVE_ACH_002"},
+      {"name_ko": "진단검사", "name_en": "Diagnostic Test", "id": "ACHIEVE_DIAG_013"},
+      {"name_ko": "적성-성취 구분", "name_en": "Aptitude-Achievement Distinction", "id": "ACHIEVE_DIFF_003"}
+    ],
+    "sub_types": [
+      {"name": "읽기 영역 (Reading)", "description": "단어 읽기, 유사 단어 해독, 읽기 이해, 구어 읽기 유창성 측정"},
+      {"name": "쓰기 영역 (Written Expression)", "description": "철자, 문장 구성, 에세이 작문 측정"},
+      {"name": "수학 영역 (Mathematics)", "description": "수학 문제 해결, 수 연산, 수학 유창성 측정"},
+      {"name": "구술 언어 영역 (Oral Language)", "description": "듣기 이해, 구어 표현 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WIAT = Wechsler(웩슬러) + Individual(개인) + Achievement(성취) + Test(검사) → 웩슬러 IQ와 짝을 이루는 성취도검사",
+      "differential": "WIAT는 Wechsler IQ 검사와 공동 규준을 가져 직접 비교가 가능하고, WJ는 CHC 이론 기반의 독립 배터리이다.",
+      "key_point": "WIAT의 가장 큰 강점은 WISC/WAIS와의 공동 규준을 통한 정확한 능력-성취 불일치 분석이다.",
+      "common_mistake": "WIAT를 Wechsler 지능검사의 일부로 오해하는 경우가 있으나, WIAT는 독립적인 성취도검사이다."
+    }
+  },
+  {
+    "id": "ACHIEVE_DISC_024",
+    "terminology": "능력-성취 불일치 모델 (Ability-Achievement Discrepancy Model)",
+    "terminology_ko": "능력-성취 불일치 모델",
+    "terminology_en": "Ability-Achievement Discrepancy Model",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "지능검사에서 측정된 인지적 능력 수준과 성취도검사에서 측정된 학업 성취 수준 간의 유의미한 차이를 기준으로 학습장애를 진단하는 전통적 모델이다.",
+    "definition_en": "A traditional model for diagnosing learning disabilities based on a significant discrepancy between cognitive ability measured by intelligence tests and academic achievement measured by achievement tests.",
+    "significance": "학습장애 진단의 전통적 접근법으로, 적성검사와 성취도검사의 결합 활용을 대표하는 모델이나, RTI 모델에 의해 점차 보완되고 있다.",
+    "key_researchers": [
+      {"name_ko": "사무엘 커크", "name_en": "Samuel Kirk", "contribution": "학습장애 개념을 처음 제안하고 능력-성취 불일치 기준의 초기 적용에 기여했다."},
+      {"name_ko": "잭 플레처", "name_en": "Jack Fletcher", "contribution": "불일치 모델의 진단적 타당도에 대한 비판적 연구를 수행하여 RTI 모델로의 전환을 촉진했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "적성-성취 구분", "name_en": "Aptitude-Achievement Distinction", "id": "ACHIEVE_DIFF_003"},
+      {"name_ko": "Woodcock-Johnson 검사", "name_en": "Woodcock-Johnson Tests", "id": "ACHIEVE_WJ_014"},
+      {"name_ko": "WIAT", "name_en": "Wechsler Individual Achievement Test", "id": "ACHIEVE_WIAT_023"},
+      {"name_ko": "RTI 모델", "name_en": "Response to Intervention", "id": "ACHIEVE_RTI_025"}
+    ],
+    "sub_types": [
+      {"name": "단순 차이 모델 (Simple Discrepancy Model)", "description": "IQ와 성취도 점수의 단순 차이가 일정 기준 이상인 경우 학습장애로 진단"},
+      {"name": "회귀 불일치 모델 (Regression Discrepancy Model)", "description": "IQ에서 예측되는 성취 수준과 실제 성취의 통계적 불일치를 분석하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "불일치 모델 = '지능은 높은데 성적은 낮다' → 학습장애 가능성",
+      "differential": "불일치 모델은 IQ-성취 차이에 기반하고, RTI 모델은 중재에 대한 반응(무반응)에 기반한다.",
+      "key_point": "불일치 모델의 가장 큰 비판은 진단을 위해 학업 실패가 충분히 축적될 때까지 기다려야 한다는 '실패 대기(wait-to-fail)' 문제이다.",
+      "common_mistake": "불일치 모델이 여전히 학습장애 진단의 유일한 방법이라고 생각하는 경우가 있으나, IDEA 2004 이후 RTI가 대안으로 인정된다."
+    }
+  },
+  {
+    "id": "ACHIEVE_RTI_025",
+    "terminology": "중재반응 모델 (Response to Intervention, RTI)",
+    "terminology_ko": "중재반응 모델",
+    "terminology_en": "Response to Intervention",
+    "category": "ACHIEVE",
+    "category_name": "적성과 성취검사 (Aptitude & Achievement Tests)",
+    "definition": "단계적으로 강도가 증가하는 교육적 중재를 제공하고, 각 단계에서의 학습 반응 정도를 모니터링하여 학습장애를 판별하는 다층적 예방 및 진단 모델이다.",
+    "definition_en": "A multi-tiered prevention and identification model that provides increasingly intensive educational interventions and monitors learning responses at each tier to identify learning disabilities.",
+    "significance": "능력-성취 불일치 모델의 '실패 대기' 문제를 해결하고, 조기 중재와 예방을 강조하는 현대적 학습장애 판별 접근법이다.",
+    "key_researchers": [
+      {"name_ko": "린 푹스", "name_en": "Lynn Fuchs", "contribution": "RTI의 실증적 기반을 구축하고, CBM을 활용한 진전도 모니터링 체계를 발전시켰다."},
+      {"name_ko": "더글라스 푹스", "name_en": "Douglas Fuchs", "contribution": "RTI의 다층 모델 구조와 학습장애 판별 기준에 관한 연구를 주도했다."},
+      {"name_ko": "잭 플레처", "name_en": "Jack Fletcher", "contribution": "RTI의 이론적 근거를 확립하고 불일치 모델과의 비교 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "능력-성취 불일치 모델", "name_en": "Ability-Achievement Discrepancy Model", "id": "ACHIEVE_DISC_024"},
+      {"name_ko": "교육과정 기반 평가", "name_en": "Curriculum-Based Assessment", "id": "ACHIEVE_CBA_015"},
+      {"name_ko": "진단검사", "name_en": "Diagnostic Test", "id": "ACHIEVE_DIAG_013"}
+    ],
+    "sub_types": [
+      {"name": "1층 (Tier 1): 보편적 선별", "description": "모든 학생을 대상으로 한 일반 교육과정 내 보편적 교수와 선별 검사"},
+      {"name": "2층 (Tier 2): 소집단 중재", "description": "선별에서 위험군으로 파악된 학생에 대한 소집단 보충 중재"},
+      {"name": "3층 (Tier 3): 집중 중재/진단", "description": "2층 중재에 반응하지 않는 학생에 대한 집중적 개별 중재 및 특수교육 의뢰"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "RTI = 3단계 피라미드: Tier 1(전체) → Tier 2(소집단) → Tier 3(집중/진단)",
+      "differential": "RTI는 중재에 대한 반응을 기반으로 판별하고, 불일치 모델은 검사 점수 차이를 기반으로 판별한다.",
+      "key_point": "RTI의 핵심 원리는 '적절한 교수에도 불구하고 진전이 없는 학생'을 학습장애로 판별하는 것이다.",
+      "common_mistake": "RTI를 단순히 불일치 모델의 대체물로 보는 경우가 있으나, RTI는 예방, 중재, 진단을 통합하는 포괄적 체계이다."
+    }
+  }
+]

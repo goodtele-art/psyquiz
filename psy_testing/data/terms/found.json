@@ -1,0 +1,948 @@
+[
+  {
+    "id": "FOUND_PST_001",
+    "terminology": "심리검사 (Psychological Test)",
+    "terminology_ko": "심리검사",
+    "terminology_en": "Psychological Test",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "개인의 행동 표본을 표준화된 조건 하에서 수집하여 심리적 특성을 측정하고 수량화하는 체계적 절차이다.",
+    "definition_en": "A standardized procedure for sampling behavior and describing it with categories or scores, used to measure psychological attributes under controlled conditions.",
+    "significance": "심리학의 과학적 기반을 제공하며, 임상 진단, 교육적 배치, 인사 선발 등 다양한 장면에서 객관적 의사결정을 가능하게 하는 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "심리검사의 체계적 분류와 심리측정 원리를 정립한 'Psychological Testing' 저서로 심리검사 분야를 확립했다."},
+      {"name_ko": "로널드 코헨", "name_en": "Ronald Jay Cohen", "contribution": "심리검사와 심리평가를 구분하고 현대적 심리검사 교육의 표준을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "심리평가", "name_en": "Psychological Assessment", "id": "FOUND_ASSE_002"},
+      {"name_ko": "심리측정학", "name_en": "Psychometrics", "id": "FOUND_PSYM_003"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"},
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"}
+    ],
+    "sub_types": [
+      {"name": "최대수행검사 (Maximum Performance Test)", "description": "능력이나 성취의 최대 수준을 측정하는 검사"},
+      {"name": "전형적 행동검사 (Typical Behavior Test)", "description": "일상적 행동 경향이나 성격 특성을 측정하는 검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "'표준화된 행동 표본' = 심리검사의 3대 핵심 키워드",
+      "differential": "심리검사(test)는 특정 도구를 통한 측정이고, 심리평가(assessment)는 검사 결과를 포함한 종합적 판단 과정이다.",
+      "key_point": "심리검사는 반드시 표준화된 절차, 객관적 채점, 규준 비교라는 세 가지 요건을 갖추어야 한다.",
+      "common_mistake": "심리검사와 심리평가를 동의어로 사용하는 것이 흔한 오류이다. 검사는 평가의 한 도구에 불과하다."
+    }
+  },
+  {
+    "id": "FOUND_ASSE_002",
+    "terminology": "심리평가 (Psychological Assessment)",
+    "terminology_ko": "심리평가",
+    "terminology_en": "Psychological Assessment",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "심리검사, 면접, 행동관찰, 기록 검토 등 다양한 정보원을 통합하여 개인의 심리적 특성에 대해 종합적으로 판단하는 전문적 과정이다.",
+    "definition_en": "A comprehensive process of integrating information from multiple sources, including psychological tests, interviews, behavioral observations, and record reviews, to form a professional judgment about an individual's psychological characteristics.",
+    "significance": "단일 검사 점수를 넘어 개인의 전체적인 심리적 기능을 이해할 수 있게 하며, 임상적 의사결정의 정확성을 높이는 핵심 과정이다.",
+    "key_researchers": [
+      {"name_ko": "게리 그로스-마르낫", "name_en": "Gary Groth-Marnat", "contribution": "'Handbook of Psychological Assessment'를 저술하여 심리평가의 통합적 접근을 체계화했다."},
+      {"name_ko": "로널드 코헨", "name_en": "Ronald Jay Cohen", "contribution": "심리평가를 검사와 구별되는 전문적 의사결정 과정으로 개념화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"},
+      {"name_ko": "검사 배터리", "name_en": "Test Battery", "id": "FOUND_BATT_020"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "FOUND_PST_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "평가 = 검사 + 면접 + 관찰 + 기록 (다중 정보원의 통합)",
+      "differential": "심리평가는 검사 결과뿐 아니라 면접, 관찰, 배경 정보를 모두 통합하는 상위 개념이다.",
+      "key_point": "심리평가에서 가장 중요한 것은 여러 정보원에서 얻은 자료를 '통합'하는 전문적 판단이다.",
+      "common_mistake": "심리평가를 단순히 심리검사를 실시하는 것과 동일시하는 오류가 빈번하다."
+    }
+  },
+  {
+    "id": "FOUND_PSYM_003",
+    "terminology": "심리측정학 (Psychometrics)",
+    "terminology_ko": "심리측정학",
+    "terminology_en": "Psychometrics",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "심리적 구성개념을 수량화하고 측정하는 이론과 기법을 연구하는 학문으로, 신뢰도, 타당도, 문항분석 등 검사의 질을 평가하는 통계적 방법론을 다룬다.",
+    "definition_en": "The science of measuring psychological constructs, encompassing theories and techniques for quantifying mental attributes including reliability, validity, item analysis, and other statistical methods for evaluating test quality.",
+    "significance": "심리검사가 과학적 도구로 인정받을 수 있는 이론적 기반을 제공하며, 검사 개발과 평가의 모든 단계에 핵심적 원리를 적용한다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "고전검사이론(CTT)의 수학적 기초를 확립하고 신뢰도 이론을 발전시켰다."},
+      {"name_ko": "루이스 서스턴", "name_en": "Louis Leon Thurstone", "contribution": "다요인 분석법을 개발하고 태도 측정의 심리측정학적 기법을 확립했다."},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "문항반응이론(IRT)을 발전시켜 현대 심리측정학의 새로운 패러다임을 열었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"},
+      {"name_ko": "고전검사이론", "name_en": "Classical Test Theory", "id": "FOUND_CTT_006"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Psyche(마음) + Metron(측정) = 마음을 측정하는 과학",
+      "differential": "심리측정학은 '측정의 이론과 기법'을 다루는 학문이고, 심리검사는 그 이론을 적용한 '도구'이다.",
+      "key_point": "심리측정학의 핵심 과제는 직접 관찰할 수 없는 심리적 구성개념을 어떻게 타당하고 신뢰롭게 수량화하는가이다.",
+      "common_mistake": "심리측정학을 단순한 통계 기법으로 축소하는 경향이 있으나, 측정의 철학적 기반부터 실제 적용까지 포괄하는 넓은 학문이다."
+    }
+  },
+  {
+    "id": "FOUND_STND_004",
+    "terminology": "표준화 (Standardization)",
+    "terminology_ko": "표준화",
+    "terminology_en": "Standardization",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "검사의 실시 조건, 채점 절차, 해석 기준을 일관되게 통일하여 모든 수검자에게 동일한 조건을 보장하는 과정이다.",
+    "definition_en": "The process of establishing uniform procedures for administering, scoring, and interpreting a test, ensuring that all examinees are assessed under consistent conditions.",
+    "significance": "검사 결과의 비교 가능성과 공정성을 보장하는 핵심 요건으로, 표준화 없이는 개인 간 점수 비교가 의미를 가질 수 없다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "표준화된 절차에 따른 지능검사를 최초로 개발하여 검사 표준화의 모범을 제시했다."},
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "Stanford-Binet 지능검사를 미국에서 대규모 표준화하여 규준 체계를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 매뉴얼", "name_en": "Test Manual", "id": "FOUND_MNUL_021"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"},
+      {"name_ko": "검사 실시", "name_en": "Test Administration", "id": "FOUND_ADMN_022"}
+    ],
+    "sub_types": [
+      {"name": "실시 표준화 (Administration Standardization)", "description": "검사 지시, 시간 제한, 환경 조건 등의 통일"},
+      {"name": "채점 표준화 (Scoring Standardization)", "description": "채점 기준과 절차의 객관적 통일"},
+      {"name": "해석 표준화 (Interpretation Standardization)", "description": "규준 참조를 통한 점수 해석 기준의 통일"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "표준화 = 실시(Administration) + 채점(Scoring) + 해석(Interpretation)의 통일",
+      "differential": "표준화는 '절차의 통일'이고, 규준(norms)은 표준화 표본에서 얻은 '비교 기준'이다.",
+      "key_point": "표준화의 목적은 검사 외적 변인의 영향을 최소화하여 개인 간 비교를 가능하게 하는 것이다.",
+      "common_mistake": "표준화를 규준 설정과 혼동하는 경우가 많다. 표준화는 절차의 통일이고, 규준은 그 결과물 중 하나이다."
+    }
+  },
+  {
+    "id": "FOUND_MEAS_005",
+    "terminology": "측정 (Measurement)",
+    "terminology_ko": "측정",
+    "terminology_en": "Measurement",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "일정한 규칙에 따라 대상이나 사건에 수치를 부여하는 과정으로, 심리학에서는 관찰 불가능한 심리적 속성을 수량화하는 것을 의미한다.",
+    "definition_en": "The process of assigning numbers to objects or events according to rules, in psychology referring specifically to the quantification of unobservable psychological attributes.",
+    "significance": "심리적 구성개념을 객관적으로 다룰 수 있게 하는 과학적 기반으로, 측정 없이는 체계적 연구와 실용적 의사결정이 불가능하다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 스티븐스", "name_en": "S. S. Stevens", "contribution": "측정 수준(명명, 서열, 등간, 비율)의 분류 체계를 확립했다."},
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "개인차의 체계적 측정을 최초로 시도하고 통계적 방법을 심리학에 도입했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정 수준", "name_en": "Scales of Measurement", "id": "FOUND_SCAL_007"},
+      {"name_ko": "심리측정학", "name_en": "Psychometrics", "id": "FOUND_PSYM_003"},
+      {"name_ko": "조작적 정의", "name_en": "Operational Definition", "id": "FOUND_OPDF_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "측정 = '규칙'에 따라 '수치'를 '대상'에 부여하는 것 (규-수-대)",
+      "differential": "측정(measurement)은 수치 부여 과정이고, 평가(assessment)는 측정 결과를 포함한 종합적 판단이다.",
+      "key_point": "심리측정에서 가장 큰 도전은 직접 관찰할 수 없는 잠재적 특성(latent trait)을 측정한다는 점이다.",
+      "common_mistake": "물리적 측정과 심리적 측정의 근본적 차이(직접 관찰 불가)를 간과하는 실수가 흔하다."
+    }
+  },
+  {
+    "id": "FOUND_CTT_006",
+    "terminology": "고전검사이론 (Classical Test Theory)",
+    "terminology_ko": "고전검사이론",
+    "terminology_en": "Classical Test Theory",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "관찰점수(X)는 진점수(T)와 오차점수(E)의 합(X=T+E)이라는 기본 가정에 기초한 측정 이론으로, 신뢰도와 타당도의 전통적 개념을 제공한다.",
+    "definition_en": "A measurement theory based on the fundamental assumption that an observed score (X) equals the sum of a true score (T) and error (E), expressed as X = T + E, providing the traditional framework for reliability and validity.",
+    "significance": "심리검사 이론의 근간으로, 신뢰도 추정, 측정의 표준오차, 검사 점수 해석의 기본 틀을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "1904년 고전검사이론의 기본 공식과 신뢰도 개념의 수학적 기초를 제시했다."},
+      {"name_ko": "해럴드 걸릭슨", "name_en": "Harold Gulliksen", "contribution": "'Theory of Mental Tests'(1950)로 고전검사이론을 체계적으로 정리하고 확장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "심리측정학", "name_en": "Psychometrics", "id": "FOUND_PSYM_003"},
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "FOUND_SEM_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "X = T + E (관찰 = 진 + 오차) — CTT의 핵심 공식",
+      "differential": "고전검사이론은 검사 수준 분석이고, 문항반응이론(IRT)은 문항 수준 분석이다.",
+      "key_point": "CTT의 핵심 가정: 오차는 무선적(random)이고 진점수와 상관이 없다.",
+      "common_mistake": "CTT에서 진점수를 개인의 '실제 능력'으로 오해하기 쉬우나, 이는 무한 반복 측정의 이론적 평균이다."
+    }
+  },
+  {
+    "id": "FOUND_SCAL_007",
+    "terminology": "측정 수준 (Scales of Measurement)",
+    "terminology_ko": "측정 수준",
+    "terminology_en": "Scales of Measurement",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "Stevens가 제안한 네 가지 측정 척도(명명, 서열, 등간, 비율)로, 수치에 부여되는 의미와 허용 가능한 수학적 연산이 수준에 따라 달라진다.",
+    "definition_en": "The four levels of measurement proposed by Stevens—nominal, ordinal, interval, and ratio—which determine the meaning of numbers and the mathematical operations permissible at each level.",
+    "significance": "측정 수준에 따라 적절한 통계 분석 방법이 결정되므로, 검사 점수의 올바른 해석과 분석을 위해 반드시 이해해야 하는 기본 개념이다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 스티븐스", "name_en": "S. S. Stevens", "contribution": "1946년 'On the Theory of Scales of Measurement'에서 네 가지 측정 수준을 체계적으로 분류했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "명명척도", "name_en": "Nominal Scale", "id": "FOUND_NOMI_008"},
+      {"name_ko": "서열척도", "name_en": "Ordinal Scale", "id": "FOUND_ORDI_009"},
+      {"name_ko": "등간척도", "name_en": "Interval Scale", "id": "FOUND_INTV_010"},
+      {"name_ko": "비율척도", "name_en": "Ratio Scale", "id": "FOUND_RATI_011"},
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"}
+    ],
+    "sub_types": [
+      {"name": "명명척도 (Nominal Scale)", "description": "분류만 가능, 수치에 양적 의미 없음"},
+      {"name": "서열척도 (Ordinal Scale)", "description": "순위 비교 가능, 간격 불균등"},
+      {"name": "등간척도 (Interval Scale)", "description": "동일 간격, 절대영점 없음"},
+      {"name": "비율척도 (Ratio Scale)", "description": "절대영점 존재, 비율 비교 가능"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "명서등비(NOIR): Nominal-Ordinal-Interval-Ratio, 갈수록 정보량 증가",
+      "differential": "등간척도는 0이 임의적(예: 온도 0°C)이고, 비율척도는 0이 절대적(예: 무게 0kg)이다.",
+      "key_point": "대부분의 심리검사 점수는 서열 또는 등간 수준이며, 비율 수준에 해당하는 심리 측정치는 매우 드물다.",
+      "common_mistake": "IQ 점수를 비율척도로 취급하여 'IQ 100은 IQ 50의 2배'라고 해석하는 것은 대표적 오류이다."
+    }
+  },
+  {
+    "id": "FOUND_NOMI_008",
+    "terminology": "명명척도 (Nominal Scale)",
+    "terminology_ko": "명명척도",
+    "terminology_en": "Nominal Scale",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "대상을 상호 배타적인 범주로 분류하기 위해 수치를 부여하는 가장 기초적인 측정 수준으로, 수치 간에 양적 의미나 순서가 없다.",
+    "definition_en": "The most basic level of measurement in which numbers are assigned to objects for classification into mutually exclusive categories, with no quantitative meaning or order implied.",
+    "significance": "성별, 진단명 등의 질적 변인을 수량화하는 기초 단계로, 빈도분석이나 카이제곱 검정과 같은 비모수 통계의 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 스티븐스", "name_en": "S. S. Stevens", "contribution": "측정 수준 분류 체계에서 명명척도를 가장 기초적인 측정 수준으로 정의했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정 수준", "name_en": "Scales of Measurement", "id": "FOUND_SCAL_007"},
+      {"name_ko": "서열척도", "name_en": "Ordinal Scale", "id": "FOUND_ORDI_009"},
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "명명(이름 붙이기) = 분류만 가능, 번호는 이름표일 뿐",
+      "differential": "명명척도는 분류만 가능하고, 서열척도부터 순서 비교가 가능하다.",
+      "key_point": "명명척도에서 숫자는 단지 범주를 나타내는 기호이므로, 사칙연산이 불가능하다.",
+      "common_mistake": "스포츠 선수의 등번호를 서열로 해석하는 것처럼, 명명척도의 숫자에 순서 의미를 부여하는 오류가 흔하다."
+    }
+  },
+  {
+    "id": "FOUND_ORDI_009",
+    "terminology": "서열척도 (Ordinal Scale)",
+    "terminology_ko": "서열척도",
+    "terminology_en": "Ordinal Scale",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "대상들 간의 상대적 순위나 서열을 나타내는 측정 수준으로, 순서 비교는 가능하지만 순위 간 간격이 동일하지 않다.",
+    "definition_en": "A level of measurement that arranges objects in a meaningful order or rank, allowing comparison of relative position but not equal intervals between ranks.",
+    "significance": "심리검사에서 백분위 점수가 대표적인 서열척도이며, 비모수 통계 방법의 적용 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 스티븐스", "name_en": "S. S. Stevens", "contribution": "측정 수준 분류에서 서열척도의 수학적 속성과 허용 연산을 명확히 규정했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정 수준", "name_en": "Scales of Measurement", "id": "FOUND_SCAL_007"},
+      {"name_ko": "명명척도", "name_en": "Nominal Scale", "id": "FOUND_NOMI_008"},
+      {"name_ko": "등간척도", "name_en": "Interval Scale", "id": "FOUND_INTV_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "서열 = 1등, 2등, 3등 (순서는 알지만 간격은 모름)",
+      "differential": "서열척도는 간격이 불균등하여 평균 산출이 부적절하고, 등간척도부터 평균이 의미 있다.",
+      "key_point": "백분위 점수는 서열척도이므로, 백분위 간의 차이가 동일한 능력 차이를 의미하지 않는다.",
+      "common_mistake": "백분위 90과 80의 차이가 50과 40의 차이와 같다고 해석하는 것은 서열척도의 속성을 무시한 오류이다."
+    }
+  },
+  {
+    "id": "FOUND_INTV_010",
+    "terminology": "등간척도 (Interval Scale)",
+    "terminology_ko": "등간척도",
+    "terminology_en": "Interval Scale",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "측정 단위 간의 간격이 동일하여 수치 간 차이 비교가 의미 있지만, 절대영점이 존재하지 않아 비율 비교는 불가능한 측정 수준이다.",
+    "definition_en": "A level of measurement with equal intervals between values, making differences meaningful, but lacking a true zero point, so ratio comparisons are not possible.",
+    "significance": "대부분의 표준화된 심리검사 점수(IQ, T점수 등)가 등간척도로 간주되며, 평균과 표준편차를 활용한 모수통계 분석이 가능하다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 스티븐스", "name_en": "S. S. Stevens", "contribution": "등간척도의 동일 간격 속성과 절대영점 부재를 명확히 정의했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정 수준", "name_en": "Scales of Measurement", "id": "FOUND_SCAL_007"},
+      {"name_ko": "서열척도", "name_en": "Ordinal Scale", "id": "FOUND_ORDI_009"},
+      {"name_ko": "비율척도", "name_en": "Ratio Scale", "id": "FOUND_RATI_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "등간 = 눈금 간격이 동일 (온도계처럼), 하지만 '진짜 0'은 없음",
+      "differential": "등간척도는 0이 임의적이고(0°C는 온도 없음이 아님), 비율척도는 0이 절대적이다(0kg는 무게 없음).",
+      "key_point": "IQ 점수는 등간척도로 취급되므로 IQ 120과 100의 차이는 100과 80의 차이와 동일하게 해석할 수 있다.",
+      "common_mistake": "등간척도에서 비율 비교를 하는 것(예: IQ 140은 IQ 70의 2배 지능)이 대표적 오류이다."
+    }
+  },
+  {
+    "id": "FOUND_RATI_011",
+    "terminology": "비율척도 (Ratio Scale)",
+    "terminology_ko": "비율척도",
+    "terminology_en": "Ratio Scale",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "절대영점이 존재하여 수치 간의 비율 비교가 가능한 가장 높은 수준의 측정 척도로, 모든 산술 연산이 허용된다.",
+    "definition_en": "The highest level of measurement with a true zero point, allowing meaningful ratio comparisons and all arithmetic operations.",
+    "significance": "반응시간, 오류 횟수 등 일부 심리학적 변인이 비율척도에 해당하며, 가장 풍부한 통계적 분석이 가능하다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 스티븐스", "name_en": "S. S. Stevens", "contribution": "비율척도를 측정 수준 위계의 최상위에 위치시키고 절대영점의 의미를 명확히 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정 수준", "name_en": "Scales of Measurement", "id": "FOUND_SCAL_007"},
+      {"name_ko": "등간척도", "name_en": "Interval Scale", "id": "FOUND_INTV_010"},
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비율 = '진짜 0'이 있어서 '2배, 3배' 비교가 의미 있음",
+      "differential": "등간척도와의 핵심 차이는 '절대영점의 유무'이다.",
+      "key_point": "대부분의 심리검사 점수는 비율척도가 아니므로, 점수 간 비율 해석은 부적절하다.",
+      "common_mistake": "심리검사 점수(IQ, 성격검사 점수 등)를 비율척도로 취급하여 배수 비교를 하는 실수가 흔하다."
+    }
+  },
+  {
+    "id": "FOUND_GALT_012",
+    "terminology": "프랜시스 골턴의 개인차 측정 (Galton's Individual Differences Measurement)",
+    "terminology_ko": "프랜시스 골턴의 개인차 측정",
+    "terminology_en": "Galton's Individual Differences Measurement",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "Francis Galton이 인체측정학적 방법을 통해 감각 변별력, 반응시간 등의 개인차를 체계적으로 측정하고 통계적으로 분석하려 한 선구적 시도이다.",
+    "definition_en": "Francis Galton's pioneering efforts to systematically measure individual differences in sensory discrimination, reaction time, and other anthropometric characteristics using statistical methods.",
+    "significance": "심리검사 역사의 출발점으로, 개인차 연구의 과학적 기반을 마련하고 상관계수, 회귀 등 현대 통계 기법의 발전에 기여했다.",
+    "key_researchers": [
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "1884년 국제보건박람회에 인체측정 연구소를 설치하고 9,000명 이상의 감각 능력과 신체적 특성을 측정했다."},
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "골턴의 연구를 이어받아 상관계수(Pearson r)를 공식화하고 통계적 방법론을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "심리측정학", "name_en": "Psychometrics", "id": "FOUND_PSYM_003"},
+      {"name_ko": "제임스 캐텔의 정신검사", "name_en": "Cattell's Mental Tests", "id": "FOUND_CATL_013"},
+      {"name_ko": "비네 지능검사", "name_en": "Binet Intelligence Test", "id": "FOUND_BINE_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Galton = 개인차의 아버지, 인체측정(Anthropometric) 연구소 운영",
+      "differential": "골턴은 감각·신체 측정 중심이었고, 비네는 고등 정신 기능(판단, 추리) 측정으로 전환한 점이 핵심 차이이다.",
+      "key_point": "골턴은 지능의 개인차가 감각 능력에서 비롯된다고 가정했으나, 이 가설은 후에 반증되었다.",
+      "common_mistake": "골턴의 측정이 현대적 지능검사의 직접적 선조라고 보는 것은 오류이다. 현대 지능검사는 비네의 접근에서 발전했다."
+    }
+  },
+  {
+    "id": "FOUND_CATL_013",
+    "terminology": "제임스 캐텔의 정신검사 (Cattell's Mental Tests)",
+    "terminology_ko": "제임스 캐텔의 정신검사",
+    "terminology_en": "Cattell's Mental Tests",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "James McKeen Cattell이 1890년 'Mental Tests and Measurements' 논문에서 처음 사용한 용어로, 반응시간, 감각 예민성 등을 측정하는 일련의 검사를 지칭한다.",
+    "definition_en": "A term first used by James McKeen Cattell in his 1890 paper 'Mental Tests and Measurements,' referring to a series of tests measuring reaction time, sensory acuity, and other basic processes.",
+    "significance": "'정신검사(mental test)'라는 용어를 학계에 최초로 도입하여 심리검사의 학문적 정체성 확립에 기여했다.",
+    "key_researchers": [
+      {"name_ko": "제임스 맥킨 캐텔", "name_en": "James McKeen Cattell", "contribution": "1890년 'mental test'라는 용어를 최초로 사용하고 개인차 측정을 위한 10가지 검사를 제안했다."},
+      {"name_ko": "클라크 위슬러", "name_en": "Clark Wissler", "contribution": "캐텔의 정신검사와 학업 성적 간 상관이 낮음을 밝혀 감각 중심 접근의 한계를 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "골턴의 개인차 측정", "name_en": "Galton's Individual Differences Measurement", "id": "FOUND_GALT_012"},
+      {"name_ko": "비네 지능검사", "name_en": "Binet Intelligence Test", "id": "FOUND_BINE_014"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Cattell = 'Mental Test'라는 용어의 창시자 (1890년)",
+      "differential": "캐텔은 감각·운동 과제 중심이었고, 비네는 판단·추리·이해 등 복잡한 인지 과제를 측정한 점이 다르다.",
+      "key_point": "위슬러의 연구로 캐텔의 감각 중심 접근이 학업 능력을 예측하지 못함이 밝혀져, 비네식 접근으로의 전환 계기가 되었다.",
+      "common_mistake": "James McKeen Cattell(심리검사)과 Raymond Cattell(성격 16PF)을 혼동하는 경우가 많다."
+    }
+  },
+  {
+    "id": "FOUND_BINE_014",
+    "terminology": "비네-시몽 지능검사 (Binet-Simon Intelligence Scale)",
+    "terminology_ko": "비네-시몽 지능검사",
+    "terminology_en": "Binet-Simon Intelligence Scale",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "1905년 Alfred Binet와 Theodore Simon이 학습 부진 아동을 판별하기 위해 개발한 최초의 실용적 지능검사로, 정신연령(mental age) 개념을 도입했다.",
+    "definition_en": "The first practical intelligence test developed by Alfred Binet and Theodore Simon in 1905 to identify children with learning difficulties, introducing the concept of mental age.",
+    "significance": "현대 지능검사의 직접적 기원으로, 고등 정신기능 측정이라는 패러다임 전환을 이루어 이후 모든 지능검사의 모범이 되었다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "판단, 이해, 추리 등 복잡한 인지 능력을 측정하는 지능검사를 최초로 개발했다."},
+      {"name_ko": "테오도르 시몽", "name_en": "Theodore Simon", "contribution": "비네와 함께 검사 문항을 개발하고 표준화하여 1905년, 1908년, 1911년 개정판을 발표했다."},
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "비네 검사를 미국에서 표준화하여 Stanford-Binet 검사로 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "골턴의 개인차 측정", "name_en": "Galton's Individual Differences Measurement", "id": "FOUND_GALT_012"},
+      {"name_ko": "정신연령", "name_en": "Mental Age", "id": "FOUND_MA_015"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "FOUND_IQ_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Binet 1905 = 최초의 '실용적' 지능검사, 프랑스 교육부 의뢰",
+      "differential": "골턴/캐텔의 감각 측정과 달리, 비네는 판단·추리·이해력 등 고등 정신기능을 측정 대상으로 전환했다.",
+      "key_point": "비네 검사는 프랑스 교육부의 의뢰로 학습 부진 아동 판별을 목적으로 개발되었다는 실용적 맥락이 중요하다.",
+      "common_mistake": "비네가 IQ라는 개념을 만들었다고 오해하기 쉬우나, IQ 개념은 Stern이, IQ 공식 적용은 Terman이 했다."
+    }
+  },
+  {
+    "id": "FOUND_MA_015",
+    "terminology": "정신연령 (Mental Age)",
+    "terminology_ko": "정신연령",
+    "terminology_en": "Mental Age",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "아동의 지적 능력 수준을 해당 연령 집단의 평균 수행과 비교하여 표현한 것으로, 비네 검사에서 아동이 통과한 문항이 해당하는 연령 수준을 의미한다.",
+    "definition_en": "A measure of intellectual ability expressed as the age level at which a child's performance corresponds, based on the average performance of children at each age level in the Binet test.",
+    "significance": "지능을 정량적으로 표현하는 최초의 방법으로, 이후 지능지수(IQ) 개념 발전의 토대가 되었다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "1908년 개정판에서 정신연령 개념을 도입하여 연령별 문항 배치 체계를 확립했다."},
+      {"name_ko": "윌리엄 슈테른", "name_en": "William Stern", "contribution": "정신연령을 생활연령으로 나누는 지능지수(IQ) 개념을 1912년에 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "비네-시몽 지능검사", "name_en": "Binet-Simon Intelligence Scale", "id": "FOUND_BINE_014"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "FOUND_IQ_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정신연령 = '몇 살 수준의 지능?' (연령으로 지능 표현)",
+      "differential": "정신연령은 절대적 수준(연령)이고, IQ는 정신연령과 생활연령의 비율이다.",
+      "key_point": "정신연령 개념은 성인에게 적용하기 어렵다는 한계가 있어, 편차 IQ로 대체되었다.",
+      "common_mistake": "정신연령이 성인에게도 동일하게 적용된다고 오해하는 것이 흔한 오류이다. 정신연령은 16세 이후 의미가 감소한다."
+    }
+  },
+  {
+    "id": "FOUND_IQ_016",
+    "terminology": "지능지수 (Intelligence Quotient, IQ)",
+    "terminology_ko": "지능지수",
+    "terminology_en": "Intelligence Quotient",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "원래 정신연령(MA)을 생활연령(CA)으로 나누고 100을 곱한 비율 IQ(MA/CA×100)로 시작되었으며, 현대에는 동일 연령 집단 내 상대적 위치를 나타내는 편차 IQ를 사용한다.",
+    "definition_en": "Originally calculated as the ratio of mental age to chronological age multiplied by 100 (MA/CA × 100), now replaced by the deviation IQ, which indicates relative standing within an age group based on a normal distribution.",
+    "significance": "지능의 수량적 표현 방법으로 교육적 배치, 임상 진단 등에 광범위하게 사용되며, 심리검사에서 가장 널리 알려진 개념이다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 슈테른", "name_en": "William Stern", "contribution": "1912년 정신연령/생활연령 비율로서의 지능지수 개념을 최초로 제안했다."},
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "Stern의 IQ 개념을 Stanford-Binet 검사에 처음 적용하여 IQ를 실용화했다."},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "비율 IQ의 한계를 극복한 편차 IQ 개념을 도입하여 현대적 IQ 체계를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신연령", "name_en": "Mental Age", "id": "FOUND_MA_015"},
+      {"name_ko": "비네-시몽 지능검사", "name_en": "Binet-Simon Intelligence Scale", "id": "FOUND_BINE_014"},
+      {"name_ko": "편차 IQ", "name_en": "Deviation IQ", "id": "FOUND_DIQ_017"}
+    ],
+    "sub_types": [
+      {"name": "비율 IQ (Ratio IQ)", "description": "MA/CA × 100으로 산출, 연령 간 비교에 한계"},
+      {"name": "편차 IQ (Deviation IQ)", "description": "평균 100, 표준편차 15의 정규분포 기반"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "비율 IQ: MA/CA × 100, 편차 IQ: 평균 100 + 표준편차 15",
+      "differential": "비율 IQ는 연령에 따라 IQ 의미가 달라지는 문제가 있고, 편차 IQ는 모든 연령에서 일관된 의미를 가진다.",
+      "key_point": "현대 지능검사(WAIS, K-WISC 등)는 모두 편차 IQ(평균 100, SD 15)를 사용한다.",
+      "common_mistake": "현대 IQ가 여전히 MA/CA×100으로 계산된다고 오해하는 것이 매우 흔한 오류이다."
+    }
+  },
+  {
+    "id": "FOUND_DIQ_017",
+    "terminology": "편차 IQ (Deviation IQ)",
+    "terminology_ko": "편차 IQ",
+    "terminology_en": "Deviation IQ",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "동일 연령 집단의 점수 분포에서 개인의 상대적 위치를 평균 100, 표준편차 15의 표준점수로 변환하여 나타낸 지능지수이다.",
+    "definition_en": "An IQ score derived by comparing an individual's performance to the score distribution of their age group, expressed as a standard score with a mean of 100 and standard deviation of 15.",
+    "significance": "비율 IQ의 한계(연령 간 비교 불가)를 극복하여 모든 연령에서 일관된 의미의 IQ 점수를 제공하는 현대적 표준이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1939년 Wechsler-Bellevue 지능검사에서 편차 IQ를 최초로 도입하여 현대적 IQ 체계를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "FOUND_IQ_016"},
+      {"name_ko": "정신연령", "name_en": "Mental Age", "id": "FOUND_MA_015"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편차 IQ = 평균 100, SD 15 → 68%가 85~115 사이",
+      "differential": "비율 IQ는 MA/CA 기반이고, 편차 IQ는 정규분포 기반 표준점수이다.",
+      "key_point": "편차 IQ에서 점수의 의미는 동일 연령 집단 내 상대적 위치로만 해석해야 한다.",
+      "common_mistake": "편차 IQ를 절대적 능력 수준으로 해석하는 것은 오류이다. 이는 동년배 집단 내 상대적 위치를 나타낸다."
+    }
+  },
+  {
+    "id": "FOUND_ARMY_018",
+    "terminology": "미 육군 알파/베타 검사 (Army Alpha/Beta Tests)",
+    "terminology_ko": "미 육군 알파/베타 검사",
+    "terminology_en": "Army Alpha/Beta Tests",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "제1차 세계대전 중 미군 신병의 지적 능력을 분류하기 위해 개발된 최초의 대규모 집단 지능검사로, Alpha는 문자 검사, Beta는 비문자 검사이다.",
+    "definition_en": "The first large-scale group intelligence tests developed during World War I to classify military recruits: Army Alpha was a verbal written test, and Army Beta was a nonverbal test for illiterate or non-English-speaking recruits.",
+    "significance": "집단검사의 실용성을 입증하여 심리검사의 대중화와 산업적 활용의 전기를 마련한 역사적 사건이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 여키스", "name_en": "Robert Yerkes", "contribution": "APA 회장으로서 군 지능검사 프로그램을 주도하고 Army Alpha/Beta 검사 개발을 총괄했다."},
+      {"name_ko": "아서 오티스", "name_en": "Arthur Otis", "contribution": "터먼의 제자로, 집단 실시가 가능한 객관식 형식의 지능검사를 고안하여 Army Alpha의 기초를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "집단검사", "name_en": "Group Test", "id": "FOUND_GRPT_024"},
+      {"name_ko": "비네-시몽 지능검사", "name_en": "Binet-Simon Intelligence Scale", "id": "FOUND_BINE_014"},
+      {"name_ko": "개인검사", "name_en": "Individual Test", "id": "FOUND_INDT_023"}
+    ],
+    "sub_types": [
+      {"name": "Army Alpha", "description": "문자 기반 집단 지능검사, 읽고 쓸 수 있는 병사 대상"},
+      {"name": "Army Beta", "description": "비문자(도형) 기반 집단 지능검사, 문맹이나 외국어 사용 병사 대상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WWI + Yerkes = Army Alpha(문자)/Beta(비문자), 170만 명 검사",
+      "differential": "Army Alpha는 언어적(verbal) 검사이고, Army Beta는 비언어적(nonverbal) 검사이다.",
+      "key_point": "약 170만 명의 병사에게 실시되어 집단검사의 효율성과 실용성을 입증한 최초의 대규모 사례이다.",
+      "common_mistake": "Army Alpha/Beta를 제2차 세계대전으로 잘못 아는 경우가 있으나, 이는 제1차 세계대전(1917~1918) 시기이다."
+    }
+  },
+  {
+    "id": "FOUND_SPDT_019",
+    "terminology": "속도검사 (Speed Test)",
+    "terminology_ko": "속도검사",
+    "terminology_en": "Speed Test",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "쉬운 문항으로 구성되어 있으며 엄격한 시간 제한 내에 얼마나 빠르게 많은 문항에 응답하는지를 측정하는 검사 유형이다.",
+    "definition_en": "A type of test composed of relatively easy items with a strict time limit, measuring how quickly an examinee can respond to as many items as possible.",
+    "significance": "사무 능력, 지각 속도 등 과제 수행의 신속성이 중요한 영역에서 핵심적인 측정 방법으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "속도검사와 역량검사의 구분을 체계화하고, 속도검사에서 신뢰도 추정의 특수한 문제를 지적했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "역량검사", "name_en": "Power Test", "id": "FOUND_PWRT_025"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"},
+      {"name_ko": "검사 유형", "name_en": "Types of Tests", "id": "FOUND_TYPE_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "속도검사 = 쉬운 문항 + 빡빡한 시간 (얼마나 빨리?)",
+      "differential": "속도검사는 '빠르기'를, 역량검사는 '난이도 극복 능력'을 측정한다.",
+      "key_point": "속도검사에서는 내적 일관성 신뢰도(KR-20, Cronbach α)가 인위적으로 높아지는 문제가 발생한다.",
+      "common_mistake": "속도검사에 Cronbach α를 적용하면 신뢰도가 과대추정되므로, 반분 신뢰도 등 대안적 방법을 사용해야 한다."
+    }
+  },
+  {
+    "id": "FOUND_BATT_020",
+    "terminology": "검사 배터리 (Test Battery)",
+    "terminology_ko": "검사 배터리",
+    "terminology_en": "Test Battery",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "특정 평가 목적을 위해 체계적으로 조합된 여러 개의 검사 또는 하위검사로 구성된 집합이다.",
+    "definition_en": "A collection of multiple tests or subtests systematically combined to serve a specific assessment purpose, providing a more comprehensive evaluation than any single test.",
+    "significance": "단일 검사로 측정하기 어려운 복합적 심리적 구성개념을 다면적으로 평가할 수 있게 해주는 종합적 접근법이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "언어성-동작성 하위검사로 구성된 지능검사 배터리를 개발하여 다면적 지능 평가의 모범을 제시했다."},
+      {"name_ko": "랠프 레이탄", "name_en": "Ralph Reitan", "contribution": "할스테드-레이탄 신경심리검사 배터리를 발전시켜 종합적 신경심리평가의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "심리평가", "name_en": "Psychological Assessment", "id": "FOUND_ASSE_002"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"},
+      {"name_ko": "검사 유형", "name_en": "Types of Tests", "id": "FOUND_TYPE_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Battery = 여러 검사의 '묶음' (WAIS의 하위검사들처럼)",
+      "differential": "검사 배터리는 체계적으로 조합된 검사 집합이고, 개별 검사는 단일 구성개념을 측정하는 독립 도구이다.",
+      "key_point": "검사 배터리의 장점은 다면적 평가가 가능하다는 것이고, 단점은 시간과 비용이 많이 든다는 것이다.",
+      "common_mistake": "여러 검사를 무작위로 모아놓은 것을 검사 배터리로 오해하지만, 배터리는 목적에 맞게 체계적으로 조합되어야 한다."
+    }
+  },
+  {
+    "id": "FOUND_MNUL_021",
+    "terminology": "검사 매뉴얼 (Test Manual)",
+    "terminology_ko": "검사 매뉴얼",
+    "terminology_en": "Test Manual",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "검사의 개발 과정, 실시 절차, 채점 방법, 규준 정보, 신뢰도와 타당도 증거를 체계적으로 기술한 공식 안내서이다.",
+    "definition_en": "An official guide that systematically documents a test's development process, administration procedures, scoring methods, normative data, and evidence of reliability and validity.",
+    "significance": "검사의 적절한 사용과 해석을 보장하는 핵심 문서로, APA 검사표준(Standards)에서 매뉴얼 제공을 필수 요건으로 규정하고 있다.",
+    "key_researchers": [
+      {"name_ko": "미국심리학회", "name_en": "American Psychological Association (APA)", "contribution": "'Standards for Educational and Psychological Testing'을 통해 검사 매뉴얼의 필수 포함 내용을 규정했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"},
+      {"name_ko": "검사 실시", "name_en": "Test Administration", "id": "FOUND_ADMN_022"},
+      {"name_ko": "검사의 윤리적 사용", "name_en": "Ethical Use of Tests", "id": "FOUND_ETHI_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "매뉴얼 = 개발 + 실시 + 채점 + 규준 + 신뢰도/타당도 (5대 요소)",
+      "differential": "검사 매뉴얼은 '기술적 정보'를 제공하고, 검사 실시 지침은 '구체적 실시 절차'에 초점을 둔다.",
+      "key_point": "검사를 선택할 때 매뉴얼에 충분한 신뢰도·타당도 증거가 제시되어 있는지 확인하는 것이 필수이다.",
+      "common_mistake": "검사 매뉴얼 없이 검사를 실시하거나, 매뉴얼의 지침을 무시하고 임의로 변형하여 실시하는 것은 심각한 오류이다."
+    }
+  },
+  {
+    "id": "FOUND_ADMN_022",
+    "terminology": "검사 실시 (Test Administration)",
+    "terminology_ko": "검사 실시",
+    "terminology_en": "Test Administration",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "검사 매뉴얼에 명시된 표준화된 절차에 따라 검사를 수검자에게 제시하고 반응을 수집하는 과정이다.",
+    "definition_en": "The process of presenting a test to examinees and collecting their responses according to standardized procedures specified in the test manual.",
+    "significance": "검사 실시의 일관성은 결과의 타당성과 비교 가능성을 보장하는 전제 조건이며, 실시 절차의 이탈은 점수의 의미를 왜곡할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "검사 실시 환경, 검사자-수검자 라포, 표준화된 지시의 중요성을 체계적으로 정리했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"},
+      {"name_ko": "검사 매뉴얼", "name_en": "Test Manual", "id": "FOUND_MNUL_021"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "FOUND_RAPP_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실시 = 환경 통제 + 표준 지시 + 라포 형성 + 시간 관리",
+      "differential": "검사 실시는 '검사를 주는 과정'이고, 검사 채점은 '반응을 점수화하는 과정'이다.",
+      "key_point": "검사 실시에서 검사자의 태도, 지시 방법, 물리적 환경 모두가 결과에 영향을 미칠 수 있다.",
+      "common_mistake": "표준화된 지시어를 검사자가 임의로 변형하거나, 시간 제한을 지키지 않는 것은 심각한 실시 오류이다."
+    }
+  },
+  {
+    "id": "FOUND_INDT_023",
+    "terminology": "개인검사 (Individual Test)",
+    "terminology_ko": "개인검사",
+    "terminology_en": "Individual Test",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "훈련된 검사자가 한 명의 수검자에게 일대일로 실시하는 검사로, 행동 관찰이 가능하고 유연한 상호작용을 통해 풍부한 임상 정보를 얻을 수 있다.",
+    "definition_en": "A test administered one-on-one by a trained examiner, allowing behavioral observation and flexible interaction to obtain rich clinical information.",
+    "significance": "임상 장면에서 심층적인 평가가 필요할 때 필수적이며, 수검자의 비언어적 반응과 과정 분석이 가능하다는 장점이 있다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "WAIS/WISC 시리즈를 통해 개인 지능검사의 표준을 확립했다."},
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "최초의 개인 지능검사인 비네-시몽 검사를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "집단검사", "name_en": "Group Test", "id": "FOUND_GRPT_024"},
+      {"name_ko": "검사 실시", "name_en": "Test Administration", "id": "FOUND_ADMN_022"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "개인검사 = 1:1 (검사자 1명 : 수검자 1명)",
+      "differential": "개인검사는 깊이 있고 유연하지만 시간과 비용이 많이 들고, 집단검사는 효율적이지만 개별 관찰이 제한된다.",
+      "key_point": "WAIS, WISC, Stanford-Binet 등 주요 지능검사는 모두 개인검사로, 숙련된 검사자가 필수이다.",
+      "common_mistake": "개인검사와 자기보고식 검사를 혼동하는 경우가 있다. 자기보고식 검사도 집단으로 실시할 수 있다."
+    }
+  },
+  {
+    "id": "FOUND_GRPT_024",
+    "terminology": "집단검사 (Group Test)",
+    "terminology_ko": "집단검사",
+    "terminology_en": "Group Test",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "다수의 수검자에게 동시에 실시할 수 있는 검사로, 시간과 비용의 효율성이 높아 대규모 선발이나 선별에 적합하다.",
+    "definition_en": "A test that can be administered simultaneously to multiple examinees, offering high efficiency in time and cost, making it suitable for large-scale screening and selection.",
+    "significance": "Army Alpha/Beta에서 기원하여 현대의 교육, 산업/조직 장면에서 대규모 인력 선발과 학업 성취 평가에 광범위하게 활용된다.",
+    "key_researchers": [
+      {"name_ko": "아서 오티스", "name_en": "Arthur Otis", "contribution": "객관식 형식의 집단 지능검사를 최초로 고안하여 Army Alpha의 기초를 제공했다."},
+      {"name_ko": "로버트 여키스", "name_en": "Robert Yerkes", "contribution": "제1차 세계대전에서 최초의 대규모 집단검사 프로그램을 운영했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "개인검사", "name_en": "Individual Test", "id": "FOUND_INDT_023"},
+      {"name_ko": "미 육군 알파/베타 검사", "name_en": "Army Alpha/Beta Tests", "id": "FOUND_ARMY_018"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단검사 = 1:多 (검사자 1명 : 수검자 여러 명), Army Alpha가 시초",
+      "differential": "집단검사는 효율적이지만 개별 행동 관찰이 제한적이고, 개인검사는 심층적이지만 비용이 높다.",
+      "key_point": "집단검사의 시초는 제1차 세계대전의 Army Alpha/Beta이며, 이후 교육·산업 장면으로 확산되었다.",
+      "common_mistake": "집단검사가 개인검사보다 열등하다고 판단하는 것은 오류이다. 목적에 따라 적절한 유형을 선택해야 한다."
+    }
+  },
+  {
+    "id": "FOUND_PWRT_025",
+    "terminology": "역량검사 (Power Test)",
+    "terminology_ko": "역량검사",
+    "terminology_en": "Power Test",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "쉬운 문항에서 어려운 문항으로 난이도가 점진적으로 증가하며, 충분한 시간이 주어져 수검자의 최대 능력 수준을 측정하는 검사이다.",
+    "definition_en": "A test with items arranged in order of increasing difficulty and generous time limits, designed to measure the maximum level of ability an examinee can demonstrate.",
+    "significance": "지능, 성취 등 개인의 최대 능력을 파악하는 데 적합하며, 대부분의 지능검사와 성취검사가 이 형식을 채택한다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "역량검사와 속도검사의 구분을 명확히 하고 각 유형에 적합한 신뢰도 추정 방법을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "속도검사", "name_en": "Speed Test", "id": "FOUND_SPDT_019"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"},
+      {"name_ko": "검사 유형", "name_en": "Types of Tests", "id": "FOUND_TYPE_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역량검사 = 어려운 문항 + 충분한 시간 (얼마나 어려운 것까지?)",
+      "differential": "역량검사는 '난이도 극복 능력'을, 속도검사는 '반응 속도'를 측정한다.",
+      "key_point": "순수한 역량검사와 순수한 속도검사는 이론적 극단이며, 실제 검사는 두 요소가 혼합되어 있다.",
+      "common_mistake": "역량검사에는 시간 제한이 전혀 없다고 오해하는 경우가 있으나, 실제로는 넉넉하지만 시간 제한이 있는 경우가 많다."
+    }
+  },
+  {
+    "id": "FOUND_OPDF_026",
+    "terminology": "조작적 정의 (Operational Definition)",
+    "terminology_ko": "조작적 정의",
+    "terminology_en": "Operational Definition",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "추상적인 심리적 구성개념을 관찰 가능하고 측정 가능한 구체적 행동이나 절차로 정의하는 방법이다.",
+    "definition_en": "A method of defining an abstract psychological construct in terms of specific, observable, and measurable behaviors or procedures.",
+    "significance": "심리적 구성개념의 과학적 측정을 가능하게 하는 기본 원리로, 검사 개발 시 측정 대상을 명확히 규정하는 데 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "퍼시 브리지먼", "name_en": "Percy Bridgman", "contribution": "조작주의(operationism) 철학을 제안하여 과학적 개념의 조작적 정의 원칙을 확립했다."},
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "관찰 가능한 행동에 초점을 둠으로써 심리학에서 조작적 정의의 필요성을 부각시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"},
+      {"name_ko": "구성개념", "name_en": "Construct", "id": "FOUND_CONS_027"},
+      {"name_ko": "심리측정학", "name_en": "Psychometrics", "id": "FOUND_PSYM_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조작적 정의 = 추상적 개념을 '측정 가능한 행동'으로 변환",
+      "differential": "개념적 정의(conceptual definition)는 이론적 의미이고, 조작적 정의는 측정 가능한 형태의 정의이다.",
+      "key_point": "예: 지능을 '지능검사에서 얻은 점수'로 정의하는 것이 조작적 정의의 대표적 사례이다.",
+      "common_mistake": "조작적 정의가 구성개념의 모든 측면을 완전히 포착한다고 가정하는 것은 오류이다."
+    }
+  },
+  {
+    "id": "FOUND_CONS_027",
+    "terminology": "구성개념 (Construct)",
+    "terminology_ko": "구성개념",
+    "terminology_en": "Construct",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "직접 관찰할 수 없지만 관찰 가능한 행동으로부터 추론되는 이론적 개념으로, 지능, 불안, 성격 특성 등이 대표적이다.",
+    "definition_en": "A theoretical concept that cannot be directly observed but is inferred from observable behaviors, such as intelligence, anxiety, and personality traits.",
+    "significance": "심리검사가 측정하고자 하는 핵심 대상으로, 구성개념의 명확한 정의 없이는 타당한 검사 개발이 불가능하다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "Paul Meehl과 함께 구성타당도(construct validity) 개념을 제안하여 구성개념 측정의 이론적 틀을 제공했다."},
+      {"name_ko": "폴 밀", "name_en": "Paul Meehl", "contribution": "Cronbach와 함께 1955년 구성타당도 개념을 발표하여 심리측정의 이론적 기반을 강화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "조작적 정의", "name_en": "Operational Definition", "id": "FOUND_OPDF_026"},
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구성개념 = '보이지 않지만 존재한다고 가정하는 것' (예: 지능, 불안)",
+      "differential": "구성개념은 이론적으로 '구성(construct)'한 개념이고, 변인(variable)은 실제 측정 가능한 값이다.",
+      "key_point": "심리검사의 궁극적 목표는 구성개념을 타당하게 측정하는 것이며, 이를 위해 구성타당도가 핵심이다.",
+      "common_mistake": "구성개념을 실재하는 물리적 실체로 오해하는 '구체화의 오류(reification)'를 범하기 쉽다."
+    }
+  },
+  {
+    "id": "FOUND_TYPE_028",
+    "terminology": "검사 유형 분류 (Classification of Tests)",
+    "terminology_ko": "검사 유형 분류",
+    "terminology_en": "Classification of Tests",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "심리검사를 실시 방식, 측정 내용, 반응 형식, 해석 기준 등 다양한 차원에 따라 체계적으로 분류하는 것이다.",
+    "definition_en": "The systematic categorization of psychological tests along various dimensions, including administration method, content measured, response format, and interpretive framework.",
+    "significance": "검사의 특성과 용도를 이해하고 적절한 검사를 선택하는 데 필수적인 기본 틀을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "'Psychological Testing'에서 심리검사의 체계적 분류 체계를 확립했다."},
+      {"name_ko": "로버트 그레고리", "name_en": "Robert Gregory", "contribution": "심리검사 유형의 다차원적 분류와 각 유형의 장단점을 포괄적으로 정리했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "속도검사", "name_en": "Speed Test", "id": "FOUND_SPDT_019"},
+      {"name_ko": "역량검사", "name_en": "Power Test", "id": "FOUND_PWRT_025"},
+      {"name_ko": "개인검사", "name_en": "Individual Test", "id": "FOUND_INDT_023"},
+      {"name_ko": "집단검사", "name_en": "Group Test", "id": "FOUND_GRPT_024"},
+      {"name_ko": "객관적 검사", "name_en": "Objective Test", "id": "FOUND_OBJT_029"}
+    ],
+    "sub_types": [
+      {"name": "실시 방식별 (By Administration)", "description": "개인검사 vs 집단검사"},
+      {"name": "시간 제한별 (By Time Limit)", "description": "속도검사 vs 역량검사"},
+      {"name": "반응 형식별 (By Response Format)", "description": "객관적 검사 vs 투사적 검사"},
+      {"name": "해석 기준별 (By Interpretive Framework)", "description": "규준참조검사 vs 준거참조검사"},
+      {"name": "측정 내용별 (By Content)", "description": "능력검사 vs 성격검사 vs 흥미검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "분류 차원: 실시(개인/집단), 시간(속도/역량), 형식(객관/투사), 해석(규준/준거)",
+      "differential": "검사 유형 분류는 '어떤 차원으로 나누느냐'에 따라 다양하며, 하나의 검사가 여러 분류에 동시에 속할 수 있다.",
+      "key_point": "같은 검사도 분류 차원에 따라 다르게 범주화된다(예: WAIS는 개인검사이면서 역량검사이면서 규준참조검사).",
+      "common_mistake": "검사 분류 차원들이 상호 배타적이라고 생각하는 것은 오류이다. 하나의 검사는 여러 분류에 해당할 수 있다."
+    }
+  },
+  {
+    "id": "FOUND_OBJT_029",
+    "terminology": "객관적 검사와 투사적 검사 (Objective vs. Projective Tests)",
+    "terminology_ko": "객관적 검사와 투사적 검사",
+    "terminology_en": "Objective vs. Projective Tests",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "객관적 검사는 구조화된 자극과 표준화된 채점으로 수검자의 반응을 수량화하는 검사이고, 투사적 검사는 모호한 자극에 대한 자유로운 반응을 통해 무의식적 심리를 탐색하는 검사이다.",
+    "definition_en": "Objective tests use structured stimuli and standardized scoring to quantify responses, while projective tests use ambiguous stimuli to elicit free responses that reveal unconscious psychological processes.",
+    "significance": "검사 반응 형식의 가장 기본적인 이분법으로, 각 유형의 심리측정학적 장단점을 이해하는 것은 적절한 검사 선택의 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "잉크 반점을 이용한 투사적 검사(Rorschach test)를 1921년에 개발했다."},
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "경험적 준거 집단법으로 MMPI(객관적 성격검사)를 개발하여 객관적 검사의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 유형 분류", "name_en": "Classification of Tests", "id": "FOUND_TYPE_028"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"}
+    ],
+    "sub_types": [
+      {"name": "객관적 검사 (Objective Test)", "description": "MMPI, NEO-PI-R 등 구조화된 자기보고식 검사"},
+      {"name": "투사적 검사 (Projective Test)", "description": "Rorschach, TAT 등 모호한 자극에 대한 자유반응 검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "객관적 = 구조화/표준화(O for Organized), 투사적 = 모호/자유(P for Projecting unconscious)",
+      "differential": "객관적 검사는 신뢰도가 높지만 반응 왜곡에 취약하고, 투사적 검사는 풍부한 임상 정보를 주지만 신뢰도·타당도 논쟁이 있다.",
+      "key_point": "투사적 검사의 핵심 가정은 모호한 자극에 대한 반응이 무의식적 욕구·갈등을 반영한다는 투사 가설이다.",
+      "common_mistake": "투사적 검사가 과학적 근거가 전혀 없다고 단정하는 것은 오류이다. Rorschach의 Exner 체계는 상당한 경험적 지지를 받고 있다."
+    }
+  },
+  {
+    "id": "FOUND_ETHI_030",
+    "terminology": "심리검사의 윤리적 사용 (Ethical Use of Psychological Tests)",
+    "terminology_ko": "심리검사의 윤리적 사용",
+    "terminology_en": "Ethical Use of Psychological Tests",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "심리검사의 개발, 실시, 채점, 해석, 보고 전 과정에서 수검자의 권리 보호, 비밀 보장, 자격 있는 전문가에 의한 사용, 공정성 확보 등 윤리적 원칙을 준수하는 것이다.",
+    "definition_en": "Adherence to ethical principles throughout the entire process of test development, administration, scoring, interpretation, and reporting, including protecting examinee rights, maintaining confidentiality, ensuring use by qualified professionals, and ensuring fairness.",
+    "significance": "심리검사의 오용은 개인과 집단에 심각한 해를 끼칠 수 있으므로, 윤리적 사용은 전문가적 책임의 핵심이며 법적 요건이기도 하다.",
+    "key_researchers": [
+      {"name_ko": "미국심리학회", "name_en": "American Psychological Association (APA)", "contribution": "심리학자 윤리 강령과 검사 표준(Standards)을 통해 심리검사 윤리의 체계적 틀을 제공했다."},
+      {"name_ko": "사무엘 메식", "name_en": "Samuel Messick", "contribution": "검사 사용의 사회적 결과를 타당도의 일부로 포함시켜 검사 윤리의 이론적 기반을 확장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 매뉴얼", "name_en": "Test Manual", "id": "FOUND_MNUL_021"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"},
+      {"name_ko": "규준참조검사", "name_en": "Norm-Referenced Test", "id": "FOUND_NRMT_031"}
+    ],
+    "sub_types": [
+      {"name": "자격 요건 (Competence)", "description": "검사 사용자는 해당 검사에 대한 적절한 훈련과 자격을 갖추어야 함"},
+      {"name": "사전 동의 (Informed Consent)", "description": "수검자에게 검사 목적, 절차, 결과 활용에 대해 충분히 설명해야 함"},
+      {"name": "비밀 보장 (Confidentiality)", "description": "검사 결과의 비밀을 보장하고 적법한 경우에만 공개해야 함"},
+      {"name": "검사 보안 (Test Security)", "description": "검사 문항과 자료의 무단 유출을 방지해야 함"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "윤리 4원칙: 자격(Competence) + 동의(Consent) + 비밀(Confidentiality) + 보안(Security)",
+      "differential": "검사 윤리는 '사용 과정의 도덕적 원칙'이고, 검사 공정성(fairness)은 '검사 내용의 편향 여부'에 초점을 둔다.",
+      "key_point": "APA 윤리 강령과 'Standards for Educational and Psychological Testing'이 심리검사 윤리의 두 가지 핵심 지침이다.",
+      "common_mistake": "검사 결과를 자격이 없는 사람에게 무분별하게 공개하거나, 수검자의 동의 없이 검사를 실시하는 것은 심각한 윤리 위반이다."
+    }
+  },
+  {
+    "id": "FOUND_NRMT_031",
+    "terminology": "규준참조검사 (Norm-Referenced Test)",
+    "terminology_ko": "규준참조검사",
+    "terminology_en": "Norm-Referenced Test",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "개인의 검사 점수를 규준 집단의 점수 분포와 비교하여 상대적 위치를 해석하는 검사이다.",
+    "definition_en": "A test in which an individual's score is interpreted by comparing it to the score distribution of a normative group, indicating relative standing.",
+    "significance": "대부분의 표준화된 심리검사가 규준참조 방식을 채택하고 있으며, 개인의 상대적 강점과 약점을 파악하는 데 유용하다.",
+    "key_researchers": [
+      {"name_ko": "로버트 글레이저", "name_en": "Robert Glaser", "contribution": "1963년 규준참조검사와 준거참조검사의 구분을 최초로 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "준거참조검사", "name_en": "Criterion-Referenced Test", "id": "FOUND_CRMT_032"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "규준참조 = '다른 사람과 비교' (상위 몇 %?)",
+      "differential": "규준참조는 '다른 사람 대비 상대적 위치'를, 준거참조는 '기준 도달 여부'를 해석한다.",
+      "key_point": "규준참조검사의 해석은 규준 집단의 대표성에 크게 의존하므로, 규준의 적절성 확인이 필수이다.",
+      "common_mistake": "규준참조검사에서 점수 자체가 절대적 능력을 나타낸다고 해석하는 것은 오류이다. 항상 규준 집단 대비 상대적 위치이다."
+    }
+  },
+  {
+    "id": "FOUND_CRMT_032",
+    "terminology": "준거참조검사 (Criterion-Referenced Test)",
+    "terminology_ko": "준거참조검사",
+    "terminology_en": "Criterion-Referenced Test",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "개인의 점수를 다른 수검자와 비교하는 것이 아니라, 사전에 설정된 절대적 수행 기준(준거)에 도달했는지 여부로 해석하는 검사이다.",
+    "definition_en": "A test in which an individual's score is interpreted against a pre-established absolute performance standard or criterion, rather than by comparison with other examinees.",
+    "significance": "교육 평가와 자격 시험에서 필수적이며, 수검자가 특정 지식이나 기술을 숙달했는지를 판단하는 데 적합하다.",
+    "key_researchers": [
+      {"name_ko": "로버트 글레이저", "name_en": "Robert Glaser", "contribution": "1963년 준거참조검사의 개념을 최초로 제안하여 규준참조와의 구분을 확립했다."},
+      {"name_ko": "론 햄블턴", "name_en": "Ronald Hambleton", "contribution": "준거참조검사의 심리측정학적 기법과 절단점 설정 방법을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준참조검사", "name_en": "Norm-Referenced Test", "id": "FOUND_NRMT_031"},
+      {"name_ko": "심리검사", "name_en": "Psychological Test", "id": "FOUND_PST_001"},
+      {"name_ko": "검사 유형 분류", "name_en": "Classification of Tests", "id": "FOUND_TYPE_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "준거참조 = '기준에 도달했는가?' (합격/불합격, 숙달/미숙달)",
+      "differential": "규준참조는 '상대적 비교'이고, 준거참조는 '절대적 기준 도달 여부'이다.",
+      "key_point": "운전면허 시험이 준거참조검사의 전형적 예이다 — 다른 응시자 대비가 아닌 합격 기준 충족 여부가 중요하다.",
+      "common_mistake": "준거참조검사에서 '준거(criterion)'를 타당도의 준거(criterion validity)와 혼동하는 실수가 흔하다."
+    }
+  },
+  {
+    "id": "FOUND_RAPP_029",
+    "terminology": "라포 (Rapport)",
+    "terminology_ko": "라포",
+    "terminology_en": "Rapport",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "검사자와 수검자 간에 형성되는 신뢰와 협력의 관계로, 수검자가 편안하게 최선의 수행을 보일 수 있도록 하는 긍정적 상호작용이다.",
+    "definition_en": "A trusting and cooperative relationship between examiner and examinee that enables the examinee to feel comfortable and perform at their best during testing.",
+    "significance": "적절한 라포 형성은 검사 결과의 타당성을 보장하는 전제 조건으로, 특히 아동이나 임상 환자 대상 개인검사에서 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "검사 실시에서 라포 형성의 중요성과 구체적 방법을 체계적으로 기술했다."},
+      {"name_ko": "앨런 카우프만", "name_en": "Alan Kaufman", "contribution": "지능검사 실시에서 유연한 라포 형성과 검사 행동 관찰의 중요성을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 실시", "name_en": "Test Administration", "id": "FOUND_ADMN_022"},
+      {"name_ko": "개인검사", "name_en": "Individual Test", "id": "FOUND_INDT_023"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "FOUND_STND_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "라포 = 검사자와 수검자 사이의 '다리' (신뢰와 협력의 관계)",
+      "differential": "라포는 일반적 신뢰 관계이고, 치료적 동맹(therapeutic alliance)은 치료 맥락에서의 보다 깊은 관계를 의미한다.",
+      "key_point": "라포 형성은 중요하지만 표준화된 절차를 벗어나지 않는 범위 내에서 이루어져야 한다.",
+      "common_mistake": "라포를 위해 검사 지시를 변형하거나 추가 도움을 주는 것은 표준화를 위반하는 실수이다."
+    }
+  },
+  {
+    "id": "FOUND_SEM_033",
+    "terminology": "측정의 표준오차 (Standard Error of Measurement)",
+    "terminology_ko": "측정의 표준오차",
+    "terminology_en": "Standard Error of Measurement",
+    "category": "FOUND",
+    "category_name": "심리검사의 기초와 역사 (Foundations & History)",
+    "definition": "동일한 사람이 동일한 검사를 무한히 반복 실시했을 때 관찰점수가 진점수 주위로 분포하는 정도를 나타내는 통계량으로, SEM = SD√(1-r)로 산출한다.",
+    "definition_en": "A statistic indicating the degree to which observed scores would vary around the true score if the same person took the same test infinitely many times, calculated as SEM = SD√(1-r).",
+    "significance": "개인의 검사 점수가 가지는 불확실성을 수량화하여 신뢰구간을 설정하고, 점수 차이의 유의미성을 판단하는 데 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "고전검사이론의 틀 안에서 측정 오차의 수학적 기초를 확립했다."},
+      {"name_ko": "해럴드 걸릭슨", "name_en": "Harold Gulliksen", "contribution": "'Theory of Mental Tests'에서 측정의 표준오차 개념을 체계적으로 정리했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "고전검사이론", "name_en": "Classical Test Theory", "id": "FOUND_CTT_006"},
+      {"name_ko": "측정", "name_en": "Measurement", "id": "FOUND_MEAS_005"},
+      {"name_ko": "심리측정학", "name_en": "Psychometrics", "id": "FOUND_PSYM_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SEM = SD × √(1-r), 신뢰도(r)가 높을수록 SEM은 작아진다",
+      "differential": "SEM은 '개인 점수의 불확실성'이고, 평균의 표준오차(SE)는 '집단 평균의 불확실성'이다.",
+      "key_point": "SEM을 이용하여 95% 신뢰구간(점수 ± 1.96 × SEM)을 설정하면 진점수가 포함될 범위를 추정할 수 있다.",
+      "common_mistake": "SEM과 표준편차(SD)를 혼동하거나, 신뢰구간 없이 점수를 단일 값으로만 해석하는 것은 흔한 오류이다."
+    }
+  }
+]

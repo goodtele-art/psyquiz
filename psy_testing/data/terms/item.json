@@ -1,0 +1,947 @@
+[
+  {
+    "id": "ITEM_IA_001",
+    "terminology": "문항분석 (Item Analysis)",
+    "terminology_ko": "문항분석",
+    "terminology_en": "Item Analysis",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "개별 검사 문항의 통계적 특성(난이도, 변별도 등)을 분석하여 문항의 질을 평가하고, 불량 문항을 수정하거나 삭제하여 검사 전체의 심리측정적 품질을 향상시키는 절차이다.",
+    "definition_en": "A set of statistical procedures used to evaluate the quality of individual test items by examining their difficulty, discrimination, and other psychometric properties, with the goal of improving overall test quality.",
+    "significance": "검사 개발 과정에서 문항의 적절성을 객관적으로 판단하는 핵심 절차로, 예비검사 후 문항 선별과 수정의 기초 자료를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 에벨", "name_en": "Robert Ebel", "contribution": "문항분석의 체계적 절차와 문항변별도 기준을 정립"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "문항분석에 확률 모형을 도입하여 문항반응이론의 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항난이도", "name_en": "Item Difficulty", "id": "ITEM_DIFF_002"},
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "문항-전체 상관", "name_en": "Item-Total Correlation", "id": "ITEM_ITC_004"},
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "정량적 문항분석",
+        "name_en": "Quantitative Item Analysis",
+        "definition": "문항난이도, 변별도 등 통계적 지표를 사용하여 문항의 질을 평가하는 방법"
+      },
+      {
+        "name_ko": "정성적 문항분석",
+        "name_en": "Qualitative Item Analysis",
+        "definition": "전문가가 문항의 내용, 형식, 편향 가능성 등을 주관적으로 검토하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "문항분석 = 문항의 건강검진 (난이도 + 변별도 + 오답매력도)",
+      "differential": "문항분석은 '개별 문항'의 질을 평가하는 것이고, 검사분석은 '검사 전체'의 신뢰도·타당도를 평가하는 것이다.",
+      "key_point": "문항분석은 예비검사(pilot test) 실시 후에 수행하며, 그 결과에 따라 문항을 수정·삭제·유지 결정한다.",
+      "common_mistake": "문항분석을 검사 개발 완료 후에만 하는 것으로 오해하는 것 — 예비검사 단계에서 반드시 실시해야 한다."
+    }
+  },
+  {
+    "id": "ITEM_DIFF_002",
+    "terminology": "문항난이도 (Item Difficulty)",
+    "terminology_ko": "문항난이도",
+    "terminology_en": "Item Difficulty",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "특정 문항에 정답을 맞힌 피험자의 비율(p값)로 표현되며, 0에서 1 사이의 값을 가진다. 값이 클수록 쉬운 문항이고, 작을수록 어려운 문항이다.",
+    "definition_en": "The proportion of examinees who answer an item correctly (p-value), ranging from 0 to 1, where higher values indicate easier items and lower values indicate more difficult items.",
+    "significance": "문항의 적절한 난이도를 유지하는 것은 검사의 변별력을 극대화하는 데 필수적이며, 일반적으로 p = 0.50 근처에서 변별도가 최대가 된다.",
+    "key_researchers": [
+      {"name_ko": "로버트 에벨", "name_en": "Robert Ebel", "contribution": "문항난이도의 적정 범위와 검사 목적에 따른 최적 난이도 기준을 제시"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "문항난이도를 확률 모형 내에서 능력 모수와의 관계로 재정의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "난이도 모수", "name_en": "Difficulty Parameter", "id": "ITEM_BPAR_010"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "p값이 높으면 '쉬운' 문항 — p와 난이도는 반대 방향 (이름과 반대!)",
+      "differential": "CTT의 문항난이도(p값)는 집단 의존적이지만, IRT의 난이도 모수(b)는 집단 독립적이다.",
+      "key_point": "p = 0.50일 때 문항의 분산이 최대(0.25)이므로 변별력이 가장 높다. 다만 추측을 고려하면 최적 난이도는 (1+c)/2이다.",
+      "common_mistake": "p값이 높으면 '어려운' 문항이라고 착각하는 것 — p값은 정답률이므로 높을수록 쉬운 문항이다."
+    }
+  },
+  {
+    "id": "ITEM_DISC_003",
+    "terminology": "문항변별도 (Item Discrimination)",
+    "terminology_ko": "문항변별도",
+    "terminology_en": "Item Discrimination",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "해당 문항이 능력이 높은 피험자와 낮은 피험자를 얼마나 잘 구분하는지를 나타내는 지표로, 상위집단과 하위집단의 정답률 차이(D지수) 또는 문항-전체 상관으로 산출한다.",
+    "definition_en": "An index indicating how well an item differentiates between high-ability and low-ability examinees, typically computed as the difference in proportion correct between upper and lower groups (D-index) or as the item-total correlation.",
+    "significance": "변별도가 높은 문항은 검사의 측정 정밀도를 높이며, 변별도가 낮거나 부적인 문항은 검사의 질을 저하시키므로 수정 또는 삭제가 필요하다.",
+    "key_researchers": [
+      {"name_ko": "로버트 에벨", "name_en": "Robert Ebel", "contribution": "D지수 기반 문항변별도 산출법과 해석 기준을 체계화"},
+      {"name_ko": "트루먼 켈리", "name_en": "Truman Kelley", "contribution": "상위 27%-하위 27% 극단집단 비교법을 제안하여 변별도 분석의 표준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항난이도", "name_en": "Item Difficulty", "id": "ITEM_DIFF_002"},
+      {"name_ko": "문항-전체 상관", "name_en": "Item-Total Correlation", "id": "ITEM_ITC_004"},
+      {"name_ko": "변별도 모수", "name_en": "Discrimination Parameter", "id": "ITEM_APAR_011"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "D지수 = 상위 정답률 - 하위 정답률 (D ≥ 0.30이면 양호)",
+      "differential": "D지수는 상위-하위 집단 비교이고, 문항-전체 상관(rpbis)은 연속 점수와의 상관이다. 두 지표 모두 변별도를 나타내지만 산출 방식이 다르다.",
+      "key_point": "Ebel의 기준으로 D ≥ 0.40은 매우 우수, 0.30~0.39는 양호, 0.20~0.29는 수정 필요, 0.19 이하는 삭제 고려이다.",
+      "common_mistake": "변별도가 부적(D < 0)인 문항을 단순히 어려운 문항으로 해석하는 것 — 부적 변별도는 문항에 결함이 있음을 의미한다."
+    }
+  },
+  {
+    "id": "ITEM_ITC_004",
+    "terminology": "문항-전체 상관 (Item-Total Correlation)",
+    "terminology_ko": "문항-전체 상관",
+    "terminology_en": "Item-Total Correlation",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "개별 문항의 점수와 검사 전체 총점 간의 상관계수로, 해당 문항이 검사 전체가 측정하는 구인을 얼마나 잘 반영하는지를 나타내는 변별도 지표이다.",
+    "definition_en": "The correlation between scores on an individual item and the total test score, indicating how well the item measures the same construct as the overall test.",
+    "significance": "내적 일관성 신뢰도와 직결되는 지표로, 문항-전체 상관이 낮은 문항을 제거하면 Cronbach's alpha가 향상되어 검사의 동질성이 높아진다.",
+    "key_researchers": [
+      {"name_ko": "루이스 거트만", "name_en": "Louis Guttman", "contribution": "문항 동질성과 척도 구조에 관한 이론적 기초를 제공"},
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "내적 일관성 신뢰도와 문항-전체 상관의 관계를 이론적으로 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "교정된 문항-전체 상관", "name_en": "Corrected Item-Total Correlation", "id": "ITEM_CITC_005"},
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"},
+      {"name_ko": "점이연상관계수", "name_en": "Point-Biserial Correlation", "id": "ITEM_RPBIS_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문항-전체 상관 = 해당 문항과 총점이 얼마나 같은 방향인가",
+      "differential": "문항-전체 상관은 총점에 해당 문항 점수가 포함되어 있어 과대추정 가능 → 이를 보정한 것이 '교정된 문항-전체 상관'이다.",
+      "key_point": "일반적으로 0.30 이상이면 양호하며, 0.20 미만이면 문항 수정 또는 삭제를 고려한다.",
+      "common_mistake": "문항-전체 상관과 교정된 문항-전체 상관을 구분하지 않는 것 — 전자는 해당 문항 점수가 총점에 포함되어 과대추정된다."
+    }
+  },
+  {
+    "id": "ITEM_CITC_005",
+    "terminology": "교정된 문항-전체 상관 (Corrected Item-Total Correlation)",
+    "terminology_ko": "교정된 문항-전체 상관",
+    "terminology_en": "Corrected Item-Total Correlation",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "해당 문항의 점수를 총점에서 제외한 후 계산한 문항-전체 상관으로, 자기 자신과의 상관으로 인한 과대추정을 보정한 보다 정확한 변별도 지표이다.",
+    "definition_en": "The correlation between an individual item score and the total test score from which that item's score has been removed, providing a more accurate discrimination index by eliminating spurious inflation.",
+    "significance": "문항 수가 적은 검사에서 특히 중요한데, 문항 수가 적을수록 개별 문항이 총점에 미치는 영향이 커서 비교정 상관과의 차이가 크게 나타난다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "Alpha if item deleted와 함께 교정된 상관을 문항 선별 기준으로 활용하는 방법을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항-전체 상관", "name_en": "Item-Total Correlation", "id": "ITEM_ITC_004"},
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교정 = 해당 문항을 '빼고' 나서 상관 → 자기 상관 제거",
+      "differential": "비교정 상관은 해당 문항 점수가 총점에 포함되어 과대추정, 교정 상관은 해당 문항을 총점에서 제외하여 보다 순수한 변별도를 반영한다.",
+      "key_point": "문항 수가 적은 척도(10문항 이하)에서는 반드시 교정된 상관을 사용해야 하며, 문항 수가 많으면 두 값의 차이가 줄어든다.",
+      "common_mistake": "문항 수가 많은 검사에서 교정 여부가 중요하다고 생각하는 것 — 문항 수가 많을수록 차이가 미미해진다."
+    }
+  },
+  {
+    "id": "ITEM_ICC_006",
+    "terminology": "문항특성곡선 (Item Characteristic Curve, ICC)",
+    "terminology_ko": "문항특성곡선",
+    "terminology_en": "Item Characteristic Curve",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "문항반응이론에서 피험자의 능력 수준(θ)에 따라 해당 문항에 정답할 확률이 어떻게 변하는지를 S자 형태의 곡선으로 나타낸 그래프로, 문항의 난이도·변별도·추측 모수를 시각적으로 표현한다.",
+    "definition_en": "A graphical representation in IRT showing the probability of a correct response as a function of examinee ability (θ), typically forming an S-shaped (ogive) curve that reflects item difficulty, discrimination, and guessing parameters.",
+    "significance": "IRT에서 문항의 심리측정적 특성을 이해하는 핵심 도구이며, ICC를 통해 각 능력 수준에서의 문항 기능을 직관적으로 파악할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "ICC의 수학적 모형을 정립하고 정규누가함수(ogive) 모형을 제안"},
+      {"name_ko": "앨런 번바움", "name_en": "Allan Birnbaum", "contribution": "로지스틱 함수 기반 ICC 모형을 제안하여 계산의 편의성을 높임"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "난이도 모수", "name_en": "Difficulty Parameter", "id": "ITEM_BPAR_010"},
+      {"name_ko": "변별도 모수", "name_en": "Discrimination Parameter", "id": "ITEM_APAR_011"},
+      {"name_ko": "추측 모수", "name_en": "Guessing Parameter", "id": "ITEM_CPAR_012"},
+      {"name_ko": "문항정보함수", "name_en": "Item Information Function", "id": "ITEM_IIF_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ICC = S자 곡선 = 능력(x축) vs 정답확률(y축)",
+      "differential": "ICC는 '개별 문항'의 확률 곡선이고, 검사특성곡선(TCC)은 모든 문항의 ICC를 합산한 '검사 전체'의 곡선이다.",
+      "key_point": "ICC에서 b 모수는 정답확률 0.50에 해당하는 능력 수준, a 모수는 곡선의 기울기(경사도), c 모수는 하한 점근선(추측 확률)이다.",
+      "common_mistake": "ICC의 곡선이 가파를수록 난이도가 높다고 생각하는 것 — 가파른 기울기는 변별도(a)가 높다는 것이다."
+    }
+  },
+  {
+    "id": "ITEM_IRT_007",
+    "terminology": "문항반응이론 (Item Response Theory, IRT)",
+    "terminology_ko": "문항반응이론",
+    "terminology_en": "Item Response Theory",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "피험자의 잠재 능력(θ)과 문항 특성(난이도, 변별도, 추측도)의 관계를 확률 모형으로 설정하여, 피험자의 능력과 문항 모수를 독립적으로 추정하는 현대적 측정 이론이다.",
+    "definition_en": "A modern measurement framework that models the probability of a correct response as a mathematical function of examinee ability (θ) and item parameters (difficulty, discrimination, guessing), enabling sample-independent item calibration and item-independent ability estimation.",
+    "significance": "고전검사이론의 한계(집단 의존성, 검사 의존성)를 극복하며, 컴퓨터 적응검사, 문항 은행 구축, 검사 등화 등 현대 심리측정의 핵심 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "IRT의 수학적 기초를 확립하고 Applications of Item Response Theory를 저술"},
+      {"name_ko": "게오르그 라쉬", "name_en": "Georg Rasch", "contribution": "1모수 모형(Rasch model)을 개발하여 특수 객관성(specific objectivity) 개념을 도입"},
+      {"name_ko": "앨런 번바움", "name_en": "Allan Birnbaum", "contribution": "2모수 및 3모수 로지스틱 모형을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "Rasch 모형", "name_en": "Rasch Model", "id": "ITEM_RASCH_008"},
+      {"name_ko": "문항정보함수", "name_en": "Item Information Function", "id": "ITEM_IIF_013"},
+      {"name_ko": "컴퓨터 적응검사", "name_en": "Computerized Adaptive Testing", "id": "ITEM_CAT_020"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "1모수 모형 (1PL/Rasch)",
+        "name_en": "One-Parameter Logistic Model",
+        "definition": "난이도 모수(b)만 추정하며, 모든 문항의 변별도가 동일하다고 가정하는 가장 단순한 IRT 모형"
+      },
+      {
+        "name_ko": "2모수 모형 (2PL)",
+        "name_en": "Two-Parameter Logistic Model",
+        "definition": "난이도(b)와 변별도(a) 두 개의 모수를 추정하는 모형"
+      },
+      {
+        "name_ko": "3모수 모형 (3PL)",
+        "name_en": "Three-Parameter Logistic Model",
+        "definition": "난이도(b), 변별도(a), 추측도(c) 세 개의 모수를 추정하는 모형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "IRT의 3대 장점: 문항 불변성(item invariance), 능력 불변성(ability invariance), 문항 수준 정보",
+      "differential": "CTT는 검사 수준(총점 기반)의 분석이고, IRT는 문항 수준의 분석이다. CTT의 문항 통계치는 집단 의존적이지만 IRT의 모수는 이론적으로 집단 독립적이다.",
+      "key_point": "IRT의 핵심 가정: 일차원성(unidimensionality)과 지역독립성(local independence). 이 가정이 충족되어야 모수 추정이 정확하다.",
+      "common_mistake": "IRT가 CTT를 완전히 대체한다고 생각하는 것 — 표본이 작거나 가정 충족이 어려운 경우 CTT가 더 적합할 수 있다."
+    }
+  },
+  {
+    "id": "ITEM_RASCH_008",
+    "terminology": "Rasch 모형 (Rasch Model/1PL)",
+    "terminology_ko": "Rasch 모형",
+    "terminology_en": "Rasch Model",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "문항의 난이도(b) 하나의 모수만으로 정답 확률을 모형화하며, 모든 문항의 변별도가 동일하고 추측이 없다고 가정하는 가장 단순한 IRT 모형이다. P(θ) = 1 / [1 + e^-(θ-b)].",
+    "definition_en": "The simplest IRT model that uses only one item parameter (difficulty, b) to predict the probability of a correct response, assuming equal discrimination across all items and no guessing: P(θ) = 1 / [1 + e^-(θ-b)].",
+    "significance": "특수 객관성(specific objectivity)을 만족하는 유일한 모형으로, 능력과 난이도를 동일 척도 위에 위치시킬 수 있어 측정의 기본 단위를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "게오르그 라쉬", "name_en": "Georg Rasch", "contribution": "1960년 확률 모형을 제안하여 특수 객관성과 충분통계량 개념을 도입"},
+      {"name_ko": "벤자민 라이트", "name_en": "Benjamin Wright", "contribution": "Rasch 모형의 실용적 적용과 보급에 크게 기여하며 MESA와 Winsteps 개발에 참여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "난이도 모수", "name_en": "Difficulty Parameter", "id": "ITEM_BPAR_010"},
+      {"name_ko": "2모수 모형", "name_en": "Two-Parameter Model", "id": "ITEM_2PL_015"},
+      {"name_ko": "피험자 적합도", "name_en": "Person Fit", "id": "ITEM_PFIT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Rasch = 1PL = 난이도(b)만 = 가장 간결한(parsimonious) 모형",
+      "differential": "Rasch 모형은 데이터를 모형에 맞추는 '처방적(prescriptive)' 접근이고, 2PL/3PL은 모형을 데이터에 맞추는 '기술적(descriptive)' 접근이다.",
+      "key_point": "Rasch 모형에서 원점수(총점)는 능력의 충분통계량(sufficient statistic)이 되어, 원점수가 같으면 능력 추정치가 동일하다.",
+      "common_mistake": "Rasch 모형과 1PL 모형을 완전히 동일하다고 보는 것 — Rasch 학파는 철학적 차이를 강조하며 모형 적합이 필수라고 본다."
+    }
+  },
+  {
+    "id": "ITEM_RPBIS_009",
+    "terminology": "점이연상관계수 (Point-Biserial Correlation)",
+    "terminology_ko": "점이연상관계수",
+    "terminology_en": "Point-Biserial Correlation",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "이분 변인(정답/오답)과 연속 변인(총점) 간의 상관계수로, 문항분석에서 문항변별도를 산출하는 데 가장 널리 사용되는 통계 지표이다.",
+    "definition_en": "A correlation coefficient between a dichotomous variable (correct/incorrect) and a continuous variable (total score), widely used as an index of item discrimination in item analysis.",
+    "significance": "Pearson 적률상관계수의 특수한 경우로, 계산이 간편하면서도 문항의 변별력을 효과적으로 나타내어 고전적 문항분석의 표준 지표로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "적률상관계수를 개발하여 점이연상관의 수학적 기초를 제공"},
+      {"name_ko": "로버트 에벨", "name_en": "Robert Ebel", "contribution": "문항분석에서 점이연상관계수의 해석 기준과 활용법을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항-전체 상관", "name_en": "Item-Total Correlation", "id": "ITEM_ITC_004"},
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "교정된 문항-전체 상관", "name_en": "Corrected Item-Total Correlation", "id": "ITEM_CITC_005"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "점(point) = 자연적 이분 / 이연(biserial) = 이분+연속 → 정답(0/1)과 총점의 상관",
+      "differential": "점이연상관(rpbis)은 자연적 이분 변인에 적합하고, 이연상관(rbis)은 인위적으로 이분화된 연속 변인에 적합하다. rpbis < rbis 항상 성립.",
+      "key_point": "점이연상관계수는 문항난이도(p값)에 의해 최댓값이 제한되며, p = 0.50일 때 최대 절댓값을 가질 수 있다.",
+      "common_mistake": "점이연상관계수와 이연상관계수를 같은 것으로 보는 오류 — 이연상관은 연속 정규분포를 가정하며 항상 더 큰 값을 산출한다."
+    }
+  },
+  {
+    "id": "ITEM_BPAR_010",
+    "terminology": "난이도 모수 (Difficulty Parameter, b)",
+    "terminology_ko": "난이도 모수",
+    "terminology_en": "Difficulty Parameter",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT에서 피험자가 해당 문항에 정답할 확률이 0.50(또는 추측 확률을 고려한 중간값)이 되는 능력 수준(θ)의 값으로, 능력 척도와 동일한 단위로 표현된다.",
+    "definition_en": "In IRT, the point on the ability (θ) scale at which the probability of a correct response is 0.50 (or the midpoint between the guessing parameter and 1.0), expressed on the same metric as ability.",
+    "significance": "CTT의 p값과 달리 표본에 독립적인(sample-invariant) 문항 특성을 나타내므로, 서로 다른 집단에서 얻은 문항 모수를 비교할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "난이도 모수를 능력 척도 위에 위치시키는 IRT 모형을 체계화"},
+      {"name_ko": "게오르그 라쉬", "name_en": "Georg Rasch", "contribution": "난이도 모수만으로 충분한 1모수 모형을 통해 문항과 피험자의 직접 비교를 가능하게 함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항난이도", "name_en": "Item Difficulty", "id": "ITEM_DIFF_002"},
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "변별도 모수", "name_en": "Discrimination Parameter", "id": "ITEM_APAR_011"},
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "b = 변곡점의 θ값 = ICC가 0.50을 지나는 능력 수준",
+      "differential": "CTT의 난이도(p)는 정답률(0~1)이고, IRT의 b는 능력 척도값(-∞~+∞)이다. p가 높으면 쉬운 문항, b가 높으면 어려운 문항.",
+      "key_point": "b의 일반적 범위는 -3.0 ~ +3.0이며, b = 0이면 평균 능력 수준에 해당하는 난이도를 의미한다.",
+      "common_mistake": "b 모수가 높을수록 쉬운 문항이라고 착각하는 것 — CTT의 p값과 방향이 반대이다. b가 높으면 어려운 문항이다."
+    }
+  },
+  {
+    "id": "ITEM_APAR_011",
+    "terminology": "변별도 모수 (Discrimination Parameter, a)",
+    "terminology_ko": "변별도 모수",
+    "terminology_en": "Discrimination Parameter",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT에서 문항특성곡선의 변곡점에서의 기울기에 비례하는 모수로, 값이 클수록 능력 수준에 따른 정답 확률의 변화가 급격하여 해당 능력 범위에서 피험자를 잘 변별함을 의미한다.",
+    "definition_en": "An IRT parameter proportional to the slope of the item characteristic curve at its inflection point; higher values indicate steeper curves and better differentiation between examinees near the item's difficulty level.",
+    "significance": "변별도가 높은 문항은 해당 난이도 수준 근처에서 많은 정보를 제공하므로, 검사의 측정 정밀도를 결정하는 핵심 요소이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 번바움", "name_en": "Allan Birnbaum", "contribution": "2모수 로지스틱 모형에서 변별도 모수를 체계적으로 정의"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "변별도 모수와 문항정보함수의 관계를 이론적으로 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "난이도 모수", "name_en": "Difficulty Parameter", "id": "ITEM_BPAR_010"},
+      {"name_ko": "문항정보함수", "name_en": "Item Information Function", "id": "ITEM_IIF_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "a = 기울기(slope) = ICC가 가파를수록 변별도 높음",
+      "differential": "CTT의 D지수는 상위-하위 집단 비교이고, IRT의 a 모수는 ICC 기울기의 수학적 표현이다. a는 이론적으로 표본 독립적이다.",
+      "key_point": "a의 일반적 범위는 0.5 ~ 2.5이며, a < 0.5면 변별력 부족, a > 2.0이면 매우 높은 변별력을 의미한다. a가 부적이면 문항에 결함이 있다.",
+      "common_mistake": "a 모수가 높을수록 항상 좋은 문항이라고 생각하는 것 — 지나치게 높은 a는 모형 적합도 문제나 과적합을 시사할 수 있다."
+    }
+  },
+  {
+    "id": "ITEM_CPAR_012",
+    "terminology": "추측 모수 (Guessing Parameter, c)",
+    "terminology_ko": "추측 모수",
+    "terminology_en": "Guessing Parameter",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT의 3모수 모형에서 능력이 극히 낮은 피험자가 해당 문항에 정답할 확률의 하한(lower asymptote)을 나타내는 모수로, 선다형 문항에서 무작위 추측에 의한 정답 가능성을 반영한다.",
+    "definition_en": "In the 3PL IRT model, the lower asymptote of the item characteristic curve representing the probability that examinees with very low ability will answer correctly by guessing, particularly relevant for multiple-choice items.",
+    "significance": "선다형 문항이 포함된 검사에서 추측 효과를 고려하지 않으면 능력이 낮은 피험자의 능력을 과대추정하게 되므로, 정확한 능력 추정을 위해 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 번바움", "name_en": "Allan Birnbaum", "contribution": "3모수 로지스틱 모형에서 추측 모수를 공식화하여 하한 점근선을 도입"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "추측 모수의 추정 문제와 이에 대한 통계적 해결 방안을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "3모수 모형", "name_en": "Three-Parameter Model", "id": "ITEM_3PL_016"},
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "난이도 모수", "name_en": "Difficulty Parameter", "id": "ITEM_BPAR_010"},
+      {"name_ko": "변별도 모수", "name_en": "Discrimination Parameter", "id": "ITEM_APAR_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "c = 찍기 확률 = ICC의 바닥(floor) = 4지선다면 이론적으로 0.25",
+      "differential": "c 모수는 ICC의 하한 점근선이고, b 모수는 ICC의 변곡점, a 모수는 변곡점에서의 기울기이다.",
+      "key_point": "5지선다의 이론적 추측 확률은 0.20이지만, 실제 c 모수는 이보다 낮을 수도(일부 선택지가 명백히 오답) 높을 수도(부분 지식) 있다.",
+      "common_mistake": "c 모수가 항상 1/선택지 수와 같다고 보는 것 — 실제로는 오답 매력도에 따라 달라지며, 추정된 c는 이론적 확률과 다를 수 있다."
+    }
+  },
+  {
+    "id": "ITEM_IIF_013",
+    "terminology": "문항정보함수 (Item Information Function)",
+    "terminology_ko": "문항정보함수",
+    "terminology_en": "Item Information Function",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT에서 특정 능력 수준(θ)에서 문항이 제공하는 측정 정보량을 나타내는 함수로, I(θ) = a²P(θ)Q(θ) / [P(θ)]²으로 산출되며, 변별도가 높고 난이도가 해당 능력에 가까울수록 정보량이 크다.",
+    "definition_en": "A function in IRT that quantifies the amount of information an item provides at each ability level (θ), computed as I(θ) = a²P(θ)Q(θ), with maximum information occurring near the item's difficulty level for highly discriminating items.",
+    "significance": "문항 수준에서 측정의 정밀도를 평가할 수 있어, 검사 설계 시 목표 능력 범위에서 최대 정보를 제공하는 문항을 선별하는 데 활용된다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "문항정보함수의 수학적 정의와 검사 설계에서의 활용법을 정립"},
+      {"name_ko": "앨런 번바움", "name_en": "Allan Birnbaum", "contribution": "Fisher 정보 개념을 IRT에 적용하여 문항정보함수의 이론적 기초를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사정보함수", "name_en": "Test Information Function", "id": "ITEM_TIF_014"},
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "변별도 모수", "name_en": "Discrimination Parameter", "id": "ITEM_APAR_011"},
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "RELI_SEM_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정보함수 = 변별도의 제곱(a²)이 핵심 → 변별도가 2배면 정보는 4배",
+      "differential": "문항정보함수는 '개별 문항'의 정보량이고, 검사정보함수는 '모든 문항의 정보함수 합'이다.",
+      "key_point": "정보함수의 최댓값은 θ = b(난이도 수준)에서 나타나며, 정보량과 측정오차는 반비례 관계이다: SE(θ) = 1/√I(θ).",
+      "common_mistake": "문항정보량이 모든 능력 수준에서 동일하다고 생각하는 것 — 문항정보는 능력 수준에 따라 달라지며 b 근처에서 최대이다."
+    }
+  },
+  {
+    "id": "ITEM_TIF_014",
+    "terminology": "검사정보함수 (Test Information Function)",
+    "terminology_ko": "검사정보함수",
+    "terminology_en": "Test Information Function",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "검사에 포함된 모든 문항의 문항정보함수를 합산한 것으로, 각 능력 수준(θ)에서 검사 전체가 제공하는 측정 정보량(정밀도)을 나타낸다.",
+    "definition_en": "The sum of all item information functions in a test, indicating the total measurement precision the test provides at each ability level (θ).",
+    "significance": "검사가 어떤 능력 범위에서 가장 정밀하게 측정하는지를 보여주므로, 검사의 용도에 따른 최적 설계와 검사 비교의 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "검사정보함수를 통한 검사 설계 최적화 방법론을 제시"},
+      {"name_ko": "로날드 햄블턴", "name_en": "Ronald Hambleton", "contribution": "검사정보함수의 실용적 해석과 활용에 관한 가이드라인을 저술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항정보함수", "name_en": "Item Information Function", "id": "ITEM_IIF_013"},
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "컴퓨터 적응검사", "name_en": "Computerized Adaptive Testing", "id": "ITEM_CAT_020"},
+      {"name_ko": "검사 등화", "name_en": "Test Equating", "id": "ITEM_EQUA_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TIF = ΣI_i(θ) = 모든 문항정보의 '단순 합' (IRT의 가산성 원리)",
+      "differential": "CTT의 신뢰도는 모든 피험자에게 동일한 '하나의 값'이지만, TIF는 능력 수준별로 다른 정밀도를 보여준다.",
+      "key_point": "TIF의 역수의 제곱근이 능력 추정의 표준오차이므로, 정보가 많을수록 오차가 줄어든다: SE(θ) = 1/√TIF(θ).",
+      "common_mistake": "검사정보함수가 높은 검사가 모든 능력 범위에서 좋다고 보는 것 — TIF는 특정 능력 범위에서만 높을 수 있다."
+    }
+  },
+  {
+    "id": "ITEM_2PL_015",
+    "terminology": "2모수 로지스틱 모형 (Two-Parameter Logistic Model, 2PL)",
+    "terminology_ko": "2모수 로지스틱 모형",
+    "terminology_en": "Two-Parameter Logistic Model",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT에서 문항의 난이도(b)와 변별도(a) 두 개의 모수를 추정하는 모형으로, Rasch 모형보다 유연하게 문항 간 변별도 차이를 허용한다. P(θ) = 1 / [1 + e^-a(θ-b)].",
+    "definition_en": "An IRT model estimating two item parameters—difficulty (b) and discrimination (a)—allowing items to differ in their ability to distinguish among examinees: P(θ) = 1 / [1 + e^-a(θ-b)].",
+    "significance": "문항 간 변별도 차이를 모형화할 수 있어 Rasch 모형보다 현실적이며, 추측이 적은 자유반응형 또는 구성형 문항에 적합하다.",
+    "key_researchers": [
+      {"name_ko": "앨런 번바움", "name_en": "Allan Birnbaum", "contribution": "2모수 로지스틱 함수를 IRT 모형으로 정식화"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "2PL 모형의 모수 추정 방법(최대우도추정법)을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "Rasch 모형", "name_en": "Rasch Model", "id": "ITEM_RASCH_008"},
+      {"name_ko": "3모수 모형", "name_en": "Three-Parameter Model", "id": "ITEM_3PL_016"},
+      {"name_ko": "변별도 모수", "name_en": "Discrimination Parameter", "id": "ITEM_APAR_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "2PL = a(변별) + b(난이도) = Rasch에 기울기 추가",
+      "differential": "1PL은 모든 ICC가 평행(같은 기울기), 2PL은 ICC마다 기울기가 다르며 교차할 수 있다.",
+      "key_point": "2PL에서는 원점수가 능력의 충분통계량이 되지 않으므로, 동일 원점수라도 응답 패턴에 따라 능력 추정치가 달라질 수 있다.",
+      "common_mistake": "2PL이 항상 1PL보다 우수하다고 생각하는 것 — 모형 적합도 검증을 통해 데이터에 맞는 모형을 선택해야 한다."
+    }
+  },
+  {
+    "id": "ITEM_3PL_016",
+    "terminology": "3모수 로지스틱 모형 (Three-Parameter Logistic Model, 3PL)",
+    "terminology_ko": "3모수 로지스틱 모형",
+    "terminology_en": "Three-Parameter Logistic Model",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT에서 난이도(b), 변별도(a), 추측도(c) 세 개의 모수를 추정하는 모형으로, 선다형 문항에서 능력이 낮은 피험자의 추측 정답 가능성을 반영한다. P(θ) = c + (1-c) / [1 + e^-a(θ-b)].",
+    "definition_en": "An IRT model estimating three parameters—difficulty (b), discrimination (a), and pseudo-guessing (c)—to account for the probability of low-ability examinees answering correctly by chance: P(θ) = c + (1-c) / [1 + e^-a(θ-b)].",
+    "significance": "선다형 문항이 주를 이루는 대규모 표준화 검사에서 추측 효과를 모형화하여 보다 정확한 능력 추정을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "앨런 번바움", "name_en": "Allan Birnbaum", "contribution": "추측 모수를 포함한 3모수 로지스틱 모형을 정식화"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "3PL 모형의 모수 추정 문제와 베이지안 사전분포 활용법을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "추측 모수", "name_en": "Guessing Parameter", "id": "ITEM_CPAR_012"},
+      {"name_ko": "2모수 모형", "name_en": "Two-Parameter Model", "id": "ITEM_2PL_015"},
+      {"name_ko": "선다형", "name_en": "Multiple Choice", "id": "ITEM_MC_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "3PL = a + b + c = 변별 + 난이 + 추측 = ICC가 0이 아닌 c에서 시작",
+      "differential": "2PL의 ICC는 y축 0에서 시작하지만, 3PL의 ICC는 c(추측 확률)에서 시작한다.",
+      "key_point": "3PL은 추정해야 할 모수가 3개이므로 대표본(최소 1,000명 이상)이 필요하며, 표본이 작으면 c 모수 추정이 불안정하다.",
+      "common_mistake": "3PL이 가장 복잡하므로 항상 가장 좋다고 생각하는 것 — 모수가 많을수록 추정에 필요한 표본 크기가 커지고 추정 오차도 증가할 수 있다."
+    }
+  },
+  {
+    "id": "ITEM_DIF_017",
+    "terminology": "차별기능문항 (Differential Item Functioning, DIF)",
+    "terminology_ko": "차별기능문항",
+    "terminology_en": "Differential Item Functioning",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "동일한 능력 수준을 가진 서로 다른 집단(예: 성별, 인종)의 피험자가 특정 문항에 대해 서로 다른 정답 확률을 보이는 현상으로, 문항이 특정 집단에 유불리하게 작용할 가능성을 나타낸다.",
+    "definition_en": "A statistical phenomenon in which examinees from different groups (e.g., gender, ethnicity) who have the same ability level differ in their probability of answering an item correctly, indicating potential item bias.",
+    "significance": "검사 공정성(fairness)의 핵심 지표로, DIF가 검출된 문항은 전문가 검토를 통해 편향 여부를 판단하고 수정하거나 삭제해야 한다.",
+    "key_researchers": [
+      {"name_ko": "폴 홀랜드", "name_en": "Paul Holland", "contribution": "Mantel-Haenszel 방법을 DIF 검출에 적용하는 절차를 체계화"},
+      {"name_ko": "하워드 웨이너", "name_en": "Howard Wainer", "contribution": "DIF 검출의 다양한 통계적 방법론을 비교·연구"},
+      {"name_ko": "윌리엄 앵고프", "name_en": "William Angoff", "contribution": "문항 편향(item bias) 연구의 선구자로 DIF 개념의 발전에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항 편향", "name_en": "Item Bias", "id": "ITEM_BIAS_018"},
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "균등 DIF (Uniform DIF)",
+        "name_en": "Uniform DIF",
+        "definition": "모든 능력 수준에서 집단 간 차이가 일정한 방향과 크기로 나타나는 DIF (ICC가 교차하지 않음)"
+      },
+      {
+        "name_ko": "비균등 DIF (Non-uniform DIF)",
+        "name_en": "Non-uniform DIF",
+        "definition": "능력 수준에 따라 집단 간 차이의 방향이나 크기가 달라지는 DIF (ICC가 교차함)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "DIF = 같은 능력인데 다른 정답률 = 문항이 불공정할 수 있다는 신호",
+      "differential": "DIF는 통계적 현상이고, 문항 편향(item bias)은 DIF의 원인이 구인 무관 요인에 의한 것으로 판명된 경우이다. DIF가 있다고 반드시 편향은 아니다.",
+      "key_point": "DIF 검출 방법으로 Mantel-Haenszel(MH) 법, 로지스틱 회귀, IRT 기반 방법이 있으며, MH법이 가장 널리 사용된다.",
+      "common_mistake": "DIF와 문항 편향을 동일시하는 것 — DIF는 통계적 신호이고, 편향은 전문가 검토 후 판단하는 것이다."
+    }
+  },
+  {
+    "id": "ITEM_BIAS_018",
+    "terminology": "문항 편향 (Item Bias)",
+    "terminology_ko": "문항 편향",
+    "terminology_en": "Item Bias",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "DIF가 검출된 문항에서 집단 간 수행 차이의 원인이 측정하고자 하는 구인이 아닌 구인 무관 요인(예: 문화적 배경, 언어적 요소)에 의한 것으로 판명된 경우를 말한다.",
+    "definition_en": "A condition in which differential item functioning is attributable to construct-irrelevant factors (e.g., cultural background, linguistic elements) rather than the construct being measured, resulting in unfair advantage or disadvantage for a particular group.",
+    "significance": "편향된 문항은 검사의 구인타당도와 공정성을 위협하므로, 검사 개발 과정에서 전문가 검토와 DIF 분석을 통해 체계적으로 식별하고 제거해야 한다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 앵고프", "name_en": "William Angoff", "contribution": "문항 편향의 개념적 정의와 탐지 방법의 기초를 수립"},
+      {"name_ko": "세실 레이놀즈", "name_en": "Cecil Reynolds", "contribution": "검사 편향에 관한 포괄적 연구와 문화적 공정성 문제를 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "차별기능문항", "name_en": "Differential Item Functioning", "id": "ITEM_DIF_017"},
+      {"name_ko": "검사 공정성", "name_en": "Test Fairness", "id": "ETHICS_FAIR_001"},
+      {"name_ko": "구인타당도", "name_en": "Construct Validity", "id": "VALI_CV_001"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편향 = DIF + 구인 무관 원인 확인 = 통계적 분석 + 전문가 판단",
+      "differential": "DIF는 통계적 현상(집단 간 수행 차이)이고, 편향은 그 차이가 부당한(구인 무관) 원인에 의한 것이라는 판단이다.",
+      "key_point": "DIF가 있다고 자동으로 편향이 아니며, 전문가 패널의 내용 검토(content review)를 통해 편향 여부를 최종 판단한다.",
+      "common_mistake": "모든 DIF 문항을 편향으로 간주하여 무조건 삭제하는 것 — 집단 간 실제 능력 차이에 의한 DIF는 편향이 아니다."
+    }
+  },
+  {
+    "id": "ITEM_PFIT_019",
+    "terminology": "피험자 적합도 (Person Fit)",
+    "terminology_ko": "피험자 적합도",
+    "terminology_en": "Person Fit",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT 모형에서 개별 피험자의 응답 패턴이 모형에서 기대하는 패턴과 얼마나 일치하는지를 평가하는 통계치로, 부적합 응답은 부주의, 추측, 부정행위 등을 시사할 수 있다.",
+    "definition_en": "A statistical index evaluating the degree to which an individual examinee's response pattern conforms to the pattern expected by the IRT model, with misfit potentially indicating carelessness, guessing, cheating, or other aberrant response behaviors.",
+    "significance": "비정상적 응답 패턴을 가진 피험자를 식별하여 검사 결과의 타당성을 확보하고, 부정행위 탐지 등 검사 보안에도 활용된다.",
+    "key_researchers": [
+      {"name_ko": "롭 메이어드", "name_en": "Rob Meijer", "contribution": "피험자 적합도 통계치의 체계적 분류와 비교 연구를 수행"},
+      {"name_ko": "벤자민 라이트", "name_en": "Benjamin Wright", "contribution": "Rasch 모형에서 infit/outfit 적합도 통계치의 해석 기준을 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "Rasch 모형", "name_en": "Rasch Model", "id": "ITEM_RASCH_008"},
+      {"name_ko": "문항특성곡선", "name_en": "Item Characteristic Curve", "id": "ITEM_ICC_006"},
+      {"name_ko": "컴퓨터 적응검사", "name_en": "Computerized Adaptive Testing", "id": "ITEM_CAT_020"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "Infit (정보가중적합도)",
+        "name_en": "Infit (Information-weighted Fit)",
+        "definition": "피험자 능력에 가까운 난이도의 문항 응답에 더 큰 가중치를 두는 적합도 통계"
+      },
+      {
+        "name_ko": "Outfit (비가중적합도)",
+        "name_en": "Outfit (Unweighted Fit)",
+        "definition": "모든 문항 응답에 동일한 가중치를 부여하는 적합도 통계로, 극단적 응답에 민감"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Person fit = 응답 패턴이 모형 예측과 맞는가? 쉬운 문항은 맞고 어려운 문항은 틀리는 패턴이 정상",
+      "differential": "문항 적합도(item fit)는 문항이 모형에 적합한지를, 피험자 적합도는 개별 응답 패턴이 모형에 적합한지를 평가한다.",
+      "key_point": "Rasch 모형에서 infit/outfit MNSQ의 기대값은 1.0이며, 일반적으로 0.5~1.5 범위를 수용 가능한 적합으로 본다.",
+      "common_mistake": "피험자 적합도가 낮은(부적합한) 응답을 무조건 부정행위로 간주하는 것 — 동기 부족, 부주의 등 다양한 원인이 있다."
+    }
+  },
+  {
+    "id": "ITEM_CAT_020",
+    "terminology": "컴퓨터 적응검사 (Computerized Adaptive Testing, CAT)",
+    "terminology_ko": "컴퓨터 적응검사",
+    "terminology_en": "Computerized Adaptive Testing",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT에 기반하여 피험자의 응답에 따라 다음 문항을 실시간으로 선택하는 컴퓨터 기반 검사 방식으로, 각 피험자의 능력 수준에 최적화된 문항을 제시하여 적은 문항으로도 높은 측정 정밀도를 달성한다.",
+    "definition_en": "An IRT-based testing approach in which the computer selects each subsequent item in real time based on the examinee's previous responses, tailoring item difficulty to the individual's estimated ability to achieve high measurement precision with fewer items.",
+    "significance": "검사 효율성을 극대화하며, GRE, GMAT 등 대규모 표준화 검사에서 채택되고 있다. 검사 시간 단축, 보안 강화, 개인 맞춤 측정이 가능하다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "CAT의 이론적 기초를 제시하고 최적 문항 선택 알고리즘을 연구"},
+      {"name_ko": "데이비드 와이스", "name_en": "David Weiss", "contribution": "CAT 시스템의 실용적 구현과 종료 규칙(stopping rule)에 관한 연구를 선도"},
+      {"name_ko": "하워드 웨이너", "name_en": "Howard Wainer", "contribution": "CAT의 실용적 적용과 검사 공정성 문제를 종합적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "문항 은행", "name_en": "Item Bank", "id": "ITEM_BANK_021"},
+      {"name_ko": "문항정보함수", "name_en": "Item Information Function", "id": "ITEM_IIF_013"},
+      {"name_ko": "검사정보함수", "name_en": "Test Information Function", "id": "ITEM_TIF_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CAT = 맞추면 더 어려운 문항, 틀리면 더 쉬운 문항 → 능력에 수렴",
+      "differential": "CAT은 피험자마다 다른 문항 세트를 받지만, 고정형 검사(fixed-form test)는 모든 피험자가 동일한 문항을 받는다.",
+      "key_point": "CAT의 4대 요소: (1) 문항 은행, (2) 문항 선택 알고리즘(최대정보 기준), (3) 능력 추정 방법(MLE/EAP), (4) 종료 규칙(SE 기준/문항 수 제한).",
+      "common_mistake": "CAT에서 모든 피험자의 점수를 직접 비교할 수 있다고 생각하는 것 — 서로 다른 문항을 풀었으므로 IRT 능력 추정치(θ)로 비교해야 한다."
+    }
+  },
+  {
+    "id": "ITEM_BANK_021",
+    "terminology": "문항 은행 (Item Bank)",
+    "terminology_ko": "문항 은행",
+    "terminology_en": "Item Bank",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "IRT를 통해 문항 모수가 교정(calibration)되어 공통 척도에 배치된 대규모 문항 집합으로, 다양한 검사 형태 구성과 컴퓨터 적응검사의 기반이 된다.",
+    "definition_en": "A large collection of test items that have been calibrated using IRT and placed on a common scale, serving as the foundation for constructing multiple test forms and enabling computerized adaptive testing.",
+    "significance": "검사의 유연한 구성, 반복 사용 시 보안 유지, CAT 운영의 필수 인프라로, 현대 대규모 시험(GRE, TOEFL 등)의 핵심 자산이다.",
+    "key_researchers": [
+      {"name_ko": "프랭크 베이커", "name_en": "Frank Baker", "contribution": "문항 은행 구축의 이론적 기초와 문항 교정 절차를 체계화"},
+      {"name_ko": "로날드 햄블턴", "name_en": "Ronald Hambleton", "contribution": "문항 은행 운영과 유지 관리에 관한 실용적 가이드라인을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "컴퓨터 적응검사", "name_en": "Computerized Adaptive Testing", "id": "ITEM_CAT_020"},
+      {"name_ko": "검사 등화", "name_en": "Test Equating", "id": "ITEM_EQUA_022"},
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "검사 청사진", "name_en": "Test Blueprint", "id": "ITEM_BLUE_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문항 은행 = IRT로 교정된 문항의 '저장소' = 필요할 때 인출하여 검사 구성",
+      "differential": "문항 풀(item pool)은 단순한 문항 모음이지만, 문항 은행은 IRT로 교정되어 공통 척도에 배치된 체계적 문항 집합이다.",
+      "key_point": "문항 은행의 품질은 (1) 문항 수의 충분성, (2) 난이도 범위의 적절성, (3) 내용 영역의 균형, (4) 정기적인 문항 교체로 결정된다.",
+      "common_mistake": "문항 은행에 문항만 많으면 된다고 생각하는 것 — 난이도 분포, 내용 균형, 주기적 교정이 필수적이다."
+    }
+  },
+  {
+    "id": "ITEM_EQUA_022",
+    "terminology": "검사 등화 (Test Equating)",
+    "terminology_ko": "검사 등화",
+    "terminology_en": "Test Equating",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "서로 다른 검사 형태(form)의 점수를 공통 척도에 놓아 상호 비교 가능하게 만드는 통계적 절차로, 공통 문항(anchor items)이나 공통 피험자를 활용한다.",
+    "definition_en": "A statistical process of adjusting scores from different test forms onto a common scale to make them comparable, typically using anchor items or common examinees to establish the linkage.",
+    "significance": "시험 회차마다 다른 문항 세트가 출제될 때 점수의 공정한 비교를 보장하며, 자격시험, 대학입시 등 고부담 검사(high-stakes testing)에서 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "마이클 코엔", "name_en": "Michael Kolen", "contribution": "검사 등화의 이론과 실제를 체계화한 Test Equating, Scaling, and Linking의 대표 저자"},
+      {"name_ko": "로버트 브레넌", "name_en": "Robert Brennan", "contribution": "등화 방법론과 일반화가능도 이론의 통합적 관점을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항 은행", "name_en": "Item Bank", "id": "ITEM_BANK_021"},
+      {"name_ko": "문항반응이론", "name_en": "Item Response Theory", "id": "ITEM_IRT_007"},
+      {"name_ko": "검사정보함수", "name_en": "Test Information Function", "id": "ITEM_TIF_014"},
+      {"name_ko": "공통 문항 설계", "name_en": "Common Item Design", "id": "ITEM_BLUE_026"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "동등백분위 등화",
+        "name_en": "Equipercentile Equating",
+        "definition": "두 검사에서 동일 백분위에 해당하는 점수를 대응시키는 비선형 등화 방법"
+      },
+      {
+        "name_ko": "선형 등화",
+        "name_en": "Linear Equating",
+        "definition": "두 검사의 평균과 표준편차를 일치시키는 선형 변환 기반 등화 방법"
+      },
+      {
+        "name_ko": "IRT 등화",
+        "name_en": "IRT Equating",
+        "definition": "IRT 모수를 공통 척도에 배치하여 능력 추정치를 직접 비교하는 등화 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "등화 = 서로 다른 시험지의 점수를 '같은 잣대'에 올려놓기",
+      "differential": "등화(equating)는 동일 구인을 측정하는 동등한 검사 간의 점수 변환이고, 연계(linking)는 유사하지만 동등하지 않은 검사 간의 점수 연결이다.",
+      "key_point": "등화의 5대 조건: (1) 동일 구인 측정, (2) 동등한 신뢰도, (3) 형평성(equity), (4) 집단 불변성, (5) 대칭성(symmetry).",
+      "common_mistake": "단순히 평균을 맞추면 등화가 된다고 생각하는 것 — 점수 분포의 형태까지 고려해야 정확한 등화이다."
+    }
+  },
+  {
+    "id": "ITEM_MC_023",
+    "terminology": "선다형 문항 (Multiple-Choice Item)",
+    "terminology_ko": "선다형 문항",
+    "terminology_en": "Multiple-Choice Item",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "문두(stem)와 여러 개의 선택지(정답 하나와 오답지/매력적 오답)로 구성된 문항 형식으로, 객관적 채점이 가능하고 넓은 내용 범위를 효율적으로 측정할 수 있다.",
+    "definition_en": "An item format consisting of a stem (question or incomplete statement) and several response options (one correct answer and distractors), allowing objective scoring and efficient coverage of broad content domains.",
+    "significance": "심리검사와 교육평가에서 가장 널리 사용되는 문항 형식으로, 채점의 객관성, 광범위한 내용 표집, 높은 신뢰도를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 켈리", "name_en": "Frederick Kelly", "contribution": "1914년 최초의 표준화된 선다형 시험인 Kansas Silent Reading Test를 개발"},
+      {"name_ko": "토머스 헤이라드니크", "name_en": "Thomas Haladyna", "contribution": "선다형 문항 작성 원칙과 가이드라인을 체계적으로 정리"}
+    ],
+    "related_concepts": [
+      {"name_ko": "오답 매력도", "name_en": "Distractor Analysis", "id": "ITEM_DIST_024"},
+      {"name_ko": "추측 모수", "name_en": "Guessing Parameter", "id": "ITEM_CPAR_012"},
+      {"name_ko": "문항난이도", "name_en": "Item Difficulty", "id": "ITEM_DIFF_002"},
+      {"name_ko": "진위형 문항", "name_en": "True-False Item", "id": "ITEM_TF_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "최선답형",
+        "name_en": "Best-Answer Type",
+        "definition": "선택지 중 가장 적절한 답을 고르는 형식으로, 선택지 간 상대적 우열이 있음"
+      },
+      {
+        "name_ko": "정답형",
+        "name_en": "Correct-Answer Type",
+        "definition": "유일한 정답이 있고 나머지는 명백한 오답인 형식"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "선다형 = 문두(Stem) + 정답(Key) + 오답지(Distractors)",
+      "differential": "선다형은 재인(recognition)을 측정하고, 서술형/논문형은 회상(recall)과 구성(construction)을 측정한다.",
+      "key_point": "Haladyna의 문항 작성 원칙: 부정형 문두 회피, '위의 모두' 사용 금지, 선택지 길이 균등화, 문법적 단서 제거.",
+      "common_mistake": "선다형이 고차적 사고(분석, 평가)를 측정할 수 없다고 보는 것 — 잘 설계된 선다형은 Bloom의 상위 수준도 측정 가능하다."
+    }
+  },
+  {
+    "id": "ITEM_DIST_024",
+    "terminology": "오답 매력도 분석 (Distractor Analysis)",
+    "terminology_ko": "오답 매력도 분석",
+    "terminology_en": "Distractor Analysis",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "선다형 문항에서 각 오답지(distractor)를 선택한 피험자의 비율과 능력 수준을 분석하여, 오답지가 하위집단 피험자를 효과적으로 유인하는지(매력적인지) 평가하는 절차이다.",
+    "definition_en": "A procedure that examines the proportion and ability level of examinees selecting each distractor in a multiple-choice item to determine whether distractors are functioning effectively by attracting lower-ability examinees.",
+    "significance": "효과적인 오답지는 문항의 변별도를 높이고 추측에 의한 정답 가능성을 줄이므로, 오답 매력도 분석은 문항 질 개선의 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "토머스 헤이라드니크", "name_en": "Thomas Haladyna", "contribution": "오답지 작성 원칙과 매력도 분석 절차를 체계화"},
+      {"name_ko": "로버트 에벨", "name_en": "Robert Ebel", "contribution": "오답 매력도와 문항 변별도의 관계를 실증적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선다형 문항", "name_en": "Multiple-Choice Item", "id": "ITEM_MC_023"},
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "문항난이도", "name_en": "Item Difficulty", "id": "ITEM_DIFF_002"},
+      {"name_ko": "추측 모수", "name_en": "Guessing Parameter", "id": "ITEM_CPAR_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "좋은 오답지 = 하위집단은 끌리고, 상위집단은 안 끌리는 선택지",
+      "differential": "오답 매력도는 '각 오답지별' 분석이고, 문항변별도(D지수)는 '정답 기준'의 상하위 집단 비교이다.",
+      "key_point": "효과적인 오답지는 (1) 최소 5% 이상 선택되어야 하고, (2) 상위집단보다 하위집단에서 더 많이 선택되어야 하며, (3) 부적 변별도를 가져야 한다.",
+      "common_mistake": "아무도 선택하지 않는 오답지를 유지하는 것 — 비기능적 오답지는 실질 선택지 수를 줄여 추측 확률을 높인다."
+    }
+  },
+  {
+    "id": "ITEM_TF_025",
+    "terminology": "진위형 문항 (True-False Item)",
+    "terminology_ko": "진위형 문항",
+    "terminology_en": "True-False Item",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "제시된 진술에 대해 참(True) 또는 거짓(False)으로만 응답하는 이분 선택 문항 형식으로, 짧은 시간에 많은 문항을 출제할 수 있지만 추측 확률이 50%로 높다.",
+    "definition_en": "A dichotomous item format requiring examinees to judge whether a given statement is true or false, allowing efficient coverage of many items but with a high guessing probability of 50%.",
+    "significance": "넓은 내용 영역을 빠르게 평가할 수 있지만, 높은 추측률과 낮은 변별도로 인해 고부담 검사에서는 제한적으로 사용되며, 수정 진위형으로 보완한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 에벨", "name_en": "Robert Ebel", "contribution": "진위형 문항의 장단점을 분석하고 효과적인 작성 원칙을 제시"},
+      {"name_ko": "빅터 프리셀", "name_en": "Victor Frisbie", "contribution": "진위형 문항의 심리측정적 특성과 다른 문항 형식과의 비교 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선다형 문항", "name_en": "Multiple-Choice Item", "id": "ITEM_MC_023"},
+      {"name_ko": "문항난이도", "name_en": "Item Difficulty", "id": "ITEM_DIFF_002"},
+      {"name_ko": "추측 모수", "name_en": "Guessing Parameter", "id": "ITEM_CPAR_012"},
+      {"name_ko": "리커트 척도", "name_en": "Likert Scale", "id": "ITEM_LIK_027"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "단순 진위형",
+        "name_en": "Simple True-False",
+        "definition": "참/거짓만 판단하는 기본 형식"
+      },
+      {
+        "name_ko": "수정 진위형",
+        "name_en": "Modified True-False",
+        "definition": "거짓인 경우 틀린 부분을 밑줄 치고 올바르게 고쳐 쓰도록 요구하는 형식"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "진위형 = 추측 50% = 선다형(4지: 25%)보다 추측률 2배",
+      "differential": "진위형은 이분(dichotomous) 응답이고, 리커트형은 다분(polytomous) 응답이다. 진위형은 수행(능력)을, 리커트형은 태도를 측정하는 데 주로 사용한다.",
+      "key_point": "진위형의 최적 난이도는 p = 0.75(추측 확률 50% 고려)이며, 이중부정, 절대 표현(항상, 절대)은 피해야 한다.",
+      "common_mistake": "진위형이 선다형보다 열등하다고만 보는 것 — 정확히 설계되면 짧은 시간에 넓은 영역을 평가하는 데 효율적이다."
+    }
+  },
+  {
+    "id": "ITEM_BLUE_026",
+    "terminology": "검사 청사진 (Test Blueprint/Table of Specifications)",
+    "terminology_ko": "검사 청사진",
+    "terminology_en": "Test Blueprint",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "검사가 측정하고자 하는 내용 영역과 인지 수준(예: Bloom의 분류)의 이원분류표로, 각 영역별·수준별 문항 수와 배점을 사전에 계획한 검사 설계 문서이다.",
+    "definition_en": "A two-way table (content areas by cognitive levels) that specifies the number and weight of items for each cell, serving as the master plan for test construction to ensure content representativeness.",
+    "significance": "내용타당도(content validity)를 확보하는 핵심 도구로, 검사 청사진 없이 개발된 검사는 특정 영역의 과대·과소 대표 문제가 발생할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "벤자민 블룸", "name_en": "Benjamin Bloom", "contribution": "교육목표 분류학(Bloom's Taxonomy)을 개발하여 검사 청사진의 인지적 차원 기준을 제공"},
+      {"name_ko": "노먼 그론룬드", "name_en": "Norman Gronlund", "contribution": "검사 청사진 작성 절차와 교수목표-문항 연계 방법을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내용타당도", "name_en": "Content Validity", "id": "VALI_CONT_002"},
+      {"name_ko": "검사 개발 절차", "name_en": "Test Development Process", "id": "ITEM_DEV_028"},
+      {"name_ko": "문항 작성 원칙", "name_en": "Item Writing Guidelines", "id": "ITEM_WRITE_029"},
+      {"name_ko": "문항 은행", "name_en": "Item Bank", "id": "ITEM_BANK_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "청사진 = 이원분류표 = 행(내용 영역) × 열(인지 수준) = 설계도",
+      "differential": "검사 청사진은 '사전 계획'이고, 문항분석은 검사 실시 '사후 평가'이다. 청사진은 내용타당도를, 문항분석은 문항의 통계적 품질을 보장한다.",
+      "key_point": "검사 청사진의 행(내용 영역)과 열(인지 수준)의 비율은 교육과정이나 측정 목적에 근거하여 결정하며, 각 셀의 문항 수 합이 전체 문항 수가 된다.",
+      "common_mistake": "검사 청사진을 단순한 문항 목록으로 보는 것 — 반드시 내용 영역과 인지 수준의 이원 분류가 포함되어야 한다."
+    }
+  },
+  {
+    "id": "ITEM_LIK_027",
+    "terminology": "리커트 척도 (Likert Scale)",
+    "terminology_ko": "리커트 척도",
+    "terminology_en": "Likert Scale",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "진술문에 대한 동의 정도를 여러 단계(보통 5점 또는 7점)로 응답하게 하는 다분 반응 형식으로, 태도, 의견, 성격 특성 등 정의적 영역을 측정하는 데 가장 널리 사용되는 척도이다.",
+    "definition_en": "A polytomous response format in which respondents indicate their degree of agreement with a statement on a multi-point scale (typically 5 or 7 points), most widely used for measuring attitudes, opinions, and personality traits.",
+    "significance": "심리측정에서 가장 보편적인 자기보고식 응답 형식으로, 구성이 간편하고 다양한 구인 측정에 적용 가능하며 통계적 분석이 용이하다.",
+    "key_researchers": [
+      {"name_ko": "렌시스 리커트", "name_en": "Rensis Likert", "contribution": "1932년 태도 측정을 위한 총합평정법(method of summated ratings)을 개발"},
+      {"name_ko": "루이스 서스톤", "name_en": "Louis Thurstone", "contribution": "리커트 이전의 태도 측정 방법(등간격법)을 개발하여 리커트 척도 등장의 배경을 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "진위형 문항", "name_en": "True-False Item", "id": "ITEM_TF_025"},
+      {"name_ko": "선다형 문항", "name_en": "Multiple-Choice Item", "id": "ITEM_MC_023"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"},
+      {"name_ko": "검사 개발 절차", "name_en": "Test Development Process", "id": "ITEM_DEV_028"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "5점 리커트",
+        "name_en": "5-Point Likert",
+        "definition": "매우 반대~매우 동의의 5단계 응답 형식 (가장 보편적)"
+      },
+      {
+        "name_ko": "7점 리커트",
+        "name_en": "7-Point Likert",
+        "definition": "7단계 응답 형식으로 더 세밀한 변별이 가능하나 응답 부담이 증가"
+      },
+      {
+        "name_ko": "강제선택형 (짝수점)",
+        "name_en": "Forced-Choice (Even-Point)",
+        "definition": "중간 선택지를 제거하여 동의/반대 방향으로 응답을 강제하는 형식"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "리커트 = 렌시스 리커트(1932) = '전혀 아니다 ~ 매우 그렇다' = 총합평정법",
+      "differential": "리커트 척도는 '동의 정도'를 묻고, 의미차별법(Semantic Differential)은 '양극 형용사' 사이의 위치를 표시하게 한다.",
+      "key_point": "리커트 척도의 자료는 엄밀히 서열척도이지만, 실무적으로 등간척도로 간주하여 평균, 상관 등의 분석을 적용하는 것이 관행이다.",
+      "common_mistake": "리커트 척도 자료를 항상 등간척도로 취급할 수 있다고 단정하는 것 — 이는 실용적 관행이지 이론적 보장은 아니다."
+    }
+  },
+  {
+    "id": "ITEM_DEV_028",
+    "terminology": "검사 개발 절차 (Test Development Process)",
+    "terminology_ko": "검사 개발 절차",
+    "terminology_en": "Test Development Process",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "검사의 목적 설정에서 표준화·출판까지의 체계적 단계를 말하며, 구인 정의 → 검사 청사진 작성 → 문항 작성 → 전문가 검토 → 예비검사 → 문항분석 → 본검사 실시 → 규준 개발 → 매뉴얼 작성의 순서로 진행된다.",
+    "definition_en": "The systematic sequence of stages from defining the purpose and construct of a test through standardization and publication, including construct definition, blueprint creation, item writing, expert review, pilot testing, item analysis, norming, and manual preparation.",
+    "significance": "표준화된 검사 개발 절차를 따르는 것은 검사의 신뢰도, 타당도, 공정성을 보장하는 기본 요건이며, APA/AERA/NCME의 검사 표준에 의해 요구된다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "Psychological Testing 교과서에서 검사 개발의 표준적 절차를 체계적으로 기술"},
+      {"name_ko": "로버트 그레고리", "name_en": "Robert Gregory", "contribution": "검사 개발의 단계별 가이드라인과 품질 관리 절차를 상세히 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "검사 청사진", "name_en": "Test Blueprint", "id": "ITEM_BLUE_026"},
+      {"name_ko": "예비검사", "name_en": "Pilot Test", "id": "ITEM_PILOT_030"},
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"},
+      {"name_ko": "표준화 표본", "name_en": "Standardization Sample", "id": "ITEM_STDSAMP_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "개발 순서: 목적→구인→청사진→문항→검토→예비검사→분석→규준→매뉴얼",
+      "differential": "검사 '개발'은 새 검사를 만드는 전체 과정이고, 검사 '적응(adaptation)'은 기존 검사를 다른 문화/언어로 변환하는 과정이다.",
+      "key_point": "Standards for Educational and Psychological Testing(2014)은 검사 개발의 모든 단계에서의 품질 기준을 규정하는 핵심 문서이다.",
+      "common_mistake": "문항 작성 후 바로 본검사를 실시하는 것 — 예비검사(pilot)와 문항분석 단계를 생략하면 불량 문항이 포함될 수 있다."
+    }
+  },
+  {
+    "id": "ITEM_WRITE_029",
+    "terminology": "문항 작성 원칙 (Item Writing Guidelines)",
+    "terminology_ko": "문항 작성 원칙",
+    "terminology_en": "Item Writing Guidelines",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "양질의 검사 문항을 작성하기 위해 따라야 하는 체계적 원칙으로, 문두의 명확성, 선택지의 독립성, 문법적 단서 배제, 부정형 회피, 적절한 난이도 배분 등을 포함한다.",
+    "definition_en": "A systematic set of principles for writing high-quality test items, including clarity of stems, independence of options, elimination of grammatical cues, avoidance of negatives, and appropriate difficulty distribution.",
+    "significance": "문항의 질이 검사 전체의 심리측정적 품질을 결정하므로, 검사 개발자는 문항 작성 원칙을 숙지하고 전문가 검토를 통해 원칙 준수 여부를 확인해야 한다.",
+    "key_researchers": [
+      {"name_ko": "토머스 헤이라드니크", "name_en": "Thomas Haladyna", "contribution": "선다형 문항 작성의 31가지 원칙을 메타분석과 실증 연구를 기반으로 정립"},
+      {"name_ko": "스티븐 다울닝", "name_en": "Steven Downing", "contribution": "문항 작성 원칙의 실증적 근거를 체계적으로 검토하고 증거 기반 가이드라인을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선다형 문항", "name_en": "Multiple-Choice Item", "id": "ITEM_MC_023"},
+      {"name_ko": "오답 매력도 분석", "name_en": "Distractor Analysis", "id": "ITEM_DIST_024"},
+      {"name_ko": "검사 청사진", "name_en": "Test Blueprint", "id": "ITEM_BLUE_026"},
+      {"name_ko": "검사 개발 절차", "name_en": "Test Development Process", "id": "ITEM_DEV_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Haladyna 핵심 원칙: (1) 하나의 개념만, (2) 부정형 지양, (3) '위의 모두' 금지, (4) 선택지 길이 균등",
+      "differential": "문항 작성 원칙은 문항을 '만들 때'의 가이드라인이고, 문항분석은 문항을 '만든 후' 통계적으로 평가하는 절차이다.",
+      "key_point": "Haladyna & Downing(1989)의 메타분석에 따르면, 문항결함(item flaws)이 있는 문항은 난이도와 변별도가 유의하게 저하된다.",
+      "common_mistake": "문항 작성 원칙을 단순한 형식적 규칙으로 보는 것 — 각 원칙에는 심리측정적 근거가 있으며, 위반 시 측정 품질이 저하된다."
+    }
+  },
+  {
+    "id": "ITEM_PILOT_030",
+    "terminology": "예비검사 (Pilot Test)",
+    "terminology_ko": "예비검사",
+    "terminology_en": "Pilot Test",
+    "category": "ITEM",
+    "category_name": "문항분석과 검사개발 (Item Analysis & Test Development)",
+    "definition": "본검사 실시 전에 소규모 표본을 대상으로 검사를 시범 실시하여 문항의 질, 검사 시간, 지시문의 명확성 등을 사전에 점검하고 문항분석 자료를 수집하는 절차이다.",
+    "definition_en": "A preliminary administration of a test to a small sample before the main administration, conducted to evaluate item quality, test timing, clarity of instructions, and to collect data for item analysis.",
+    "significance": "불량 문항을 본검사 전에 발견하여 수정·삭제할 수 있게 하며, 검사의 실용성(practicality)과 심리측정적 품질을 사전에 확보하는 필수 절차이다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "검사 개발에서 예비검사의 역할과 실시 절차를 체계적으로 기술"},
+      {"name_ko": "로버트 그레고리", "name_en": "Robert Gregory", "contribution": "예비검사 표본 크기와 구성에 관한 실용적 가이드라인을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문항분석", "name_en": "Item Analysis", "id": "ITEM_IA_001"},
+      {"name_ko": "검사 개발 절차", "name_en": "Test Development Process", "id": "ITEM_DEV_028"},
+      {"name_ko": "문항변별도", "name_en": "Item Discrimination", "id": "ITEM_DISC_003"},
+      {"name_ko": "검사 청사진", "name_en": "Test Blueprint", "id": "ITEM_BLUE_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "예비검사 = 본검사의 '리허설' = 문항분석 데이터 확보",
+      "differential": "예비검사(pilot test)는 소규모 사전 시험이고, 표준화 검사(standardized test)는 대규모 규준 표본에 실시한 최종 검사이다.",
+      "key_point": "예비검사 표본은 최소 100~200명이 권장되며, 목표 모집단과 유사한 특성을 가져야 문항분석 결과의 일반화가 가능하다.",
+      "common_mistake": "예비검사를 생략하고 바로 본검사를 실시하는 것 — 예비검사 없이는 문항의 통계적 질을 사전에 확인할 수 없다."
+    }
+  }
+]

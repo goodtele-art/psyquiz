@@ -1,0 +1,744 @@
+[
+  {
+    "id": "INDUST_AC_001",
+    "terminology": "평가센터 (Assessment Center)",
+    "terminology_ko": "평가센터",
+    "terminology_en": "Assessment Center",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "다수의 평가자가 다양한 시뮬레이션 과제(역할극, 인바스켓, 집단토론 등)를 사용하여 후보자의 역량을 다차원적으로 평가하는 종합적 인사 평가 방법이다.",
+    "definition_en": "A comprehensive personnel evaluation method in which multiple assessors use a variety of simulation exercises (role plays, in-baskets, group discussions) to assess candidates' competencies across multiple dimensions.",
+    "significance": "관리직 선발과 승진에서 가장 높은 예측 타당도를 보이는 평가 방법 중 하나로, 실제 직무 상황을 모의하여 행동 기반 평가를 실현한다.",
+    "key_researchers": [
+      {"name_ko": "더글러스 브레이", "name_en": "Douglas Bray", "contribution": "AT&T 경영 진전 연구(Management Progress Study)에서 평가센터법을 최초로 대규모 산업 장면에 적용"},
+      {"name_ko": "조지 손턴", "name_en": "George Thornton III", "contribution": "평가센터의 구성 타당도와 예측 타당도에 관한 메타분석 연구를 수행하여 방법론적 기반을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인바스켓 검사", "name_en": "In-Basket Test", "id": "INDUST_IBT_019"},
+      {"name_ko": "역할극", "name_en": "Role Play", "id": "INDUST_RP_018"},
+      {"name_ko": "역량모델링", "name_en": "Competency Modeling", "id": "INDUST_CM_009"},
+      {"name_ko": "평가자 훈련", "name_en": "Assessor Training", "id": "INDUST_AT_013"}
+    ],
+    "sub_types": [
+      {"name_ko": "선발용 평가센터", "name_en": "Selection Assessment Center", "definition": "외부 채용이나 내부 승진 후보를 선발하기 위한 평가센터"},
+      {"name_ko": "개발용 평가센터", "name_en": "Developmental Assessment Center", "definition": "현재 역량 수준을 진단하고 개발 계획을 수립하기 위한 평가센터"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "AC = 다수 평가자 + 다수 과제 + 다수 역량 차원",
+      "differential": "평가센터는 다양한 시뮬레이션의 '종합 패키지'이고, 개별 시뮬레이션(인바스켓 등)은 그 구성 요소이다.",
+      "key_point": "평가센터의 핵심은 '다중 평가자-다중 방법-다중 차원'의 삼중 다중성이다.",
+      "common_mistake": "평가센터를 물리적 장소로 오해하는 것 — 실제로는 평가 '방법론'을 의미한다."
+    }
+  },
+  {
+    "id": "INDUST_360_002",
+    "terminology": "360도 평가 (360-Degree Feedback)",
+    "terminology_ko": "360도 평가",
+    "terminology_en": "360-Degree Feedback",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "상사, 동료, 부하, 고객 및 자기 자신 등 다양한 평가원으로부터 직무수행에 대한 피드백을 수집하는 다원적 평가 방법이다.",
+    "definition_en": "A multi-source evaluation method that collects performance feedback from supervisors, peers, subordinates, customers, and the individual being assessed.",
+    "significance": "단일 상사 평가의 편향을 보완하고 리더십 개발에 풍부한 정보를 제공하여, 현대 조직에서 가장 널리 사용되는 개발 목적의 평가 도구이다.",
+    "key_researchers": [
+      {"name_ko": "마크 에드워즈", "name_en": "Mark Edwards", "contribution": "360도 피드백의 체계적 설계와 실행 모델을 정립"},
+      {"name_ko": "앨런 처치", "name_en": "Allan Church", "contribution": "360도 피드백의 조직 개발 활용과 효과성 연구에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"},
+      {"name_ko": "후광효과", "name_en": "Halo Effect", "id": "INDUST_HE_014"},
+      {"name_ko": "관대화 경향", "name_en": "Leniency Bias", "id": "INDUST_LB_015"},
+      {"name_ko": "평가자 훈련", "name_en": "Assessor Training", "id": "INDUST_AT_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "360도 = 위(상사) + 옆(동료) + 아래(부하) + 밖(고객) + 나(자기)",
+      "differential": "360도 평가는 '다원적 피드백 수집'이고, 평가센터는 '시뮬레이션 기반 관찰 평가'이다.",
+      "key_point": "360도 피드백은 주로 '개발' 목적으로 사용하며, '인사 결정' 목적으로 사용 시 관대화와 정치적 편향이 증가한다.",
+      "common_mistake": "360도 평가를 인사 결정(승진, 보상)에 직접 사용하는 것이 적절하다고 오해하는 경우가 많다."
+    }
+  },
+  {
+    "id": "INDUST_SI_003",
+    "terminology": "구조화 면접 (Structured Interview)",
+    "terminology_ko": "구조화 면접",
+    "terminology_en": "Structured Interview",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "사전에 직무분석을 바탕으로 표준화된 질문, 질문 순서, 평가 기준을 설정하여 모든 지원자에게 동일한 조건으로 실시하는 채용 면접 방법이다.",
+    "definition_en": "A job interview method based on job analysis with standardized questions, fixed order, and predetermined rating scales applied uniformly to all applicants.",
+    "significance": "비구조화 면접에 비해 예측 타당도가 2배 이상 높으며(.51 vs .20~.38), 법적 방어가능성도 우수하여 현대 인사 선발의 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "마이클 캠피온", "name_en": "Michael Campion", "contribution": "구조화 면접의 15가지 구성 요소를 체계화하고 타당도 증진 방안을 제시"},
+      {"name_ko": "앨런 허프컷", "name_en": "Allen Huffcutt", "contribution": "면접 구조화 수준에 따른 타당도 변화를 메타분석으로 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비구조화 면접", "name_en": "Unstructured Interview", "id": "INDUST_UI_004"},
+      {"name_ko": "직무분석", "name_en": "Job Analysis", "id": "INDUST_JA_005"},
+      {"name_ko": "표준화 면접 채점", "name_en": "Standardized Interview Scoring", "id": "INDUST_SIS_022"},
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"}
+    ],
+    "sub_types": [
+      {"name_ko": "행동기술면접(BDI)", "name_en": "Behavior Description Interview", "definition": "과거 행동 경험을 질문하여 미래 행동을 예측하는 면접"},
+      {"name_ko": "상황면접(SI)", "name_en": "Situational Interview", "definition": "가상 상황을 제시하고 대처 방안을 질문하는 면접"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "구조화 = 같은 질문 + 같은 순서 + 같은 기준 = 공정 + 타당",
+      "differential": "구조화 면접은 표준화된 질문과 채점 기준이 있고, 비구조화 면접은 면접관 재량에 의존한다.",
+      "key_point": "구조화 면접의 예측 타당도는 .51로, 비구조화 면접(.20~.38)보다 현저히 높다.",
+      "common_mistake": "구조화 면접이 딱딱하고 비인간적이라는 편견이 있으나, 적절한 래포 형성과 병행 가능하다."
+    }
+  },
+  {
+    "id": "INDUST_UI_004",
+    "terminology": "비구조화 면접 (Unstructured Interview)",
+    "terminology_ko": "비구조화 면접",
+    "terminology_en": "Unstructured Interview",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "사전에 정해진 질문이나 평가 기준 없이 면접관의 재량에 따라 자유롭게 진행하는 채용 면접 방법이다.",
+    "definition_en": "A job interview conducted without predetermined questions or evaluation criteria, relying on the interviewer's discretion to guide the conversation.",
+    "significance": "면접관의 주관적 판단에 의존하여 예측 타당도가 낮고 다양한 평가 오류에 취약하지만, 실무에서 여전히 빈번히 사용된다.",
+    "key_researchers": [
+      {"name_ko": "리처드 에르베스트", "name_en": "Richard Arvey", "contribution": "면접 의사결정에서의 편향과 차별 문제를 체계적으로 연구"},
+      {"name_ko": "앨런 허프컷", "name_en": "Allen Huffcutt", "contribution": "면접 구조화 수준별 타당도를 비교 분석하여 비구조화 면접의 한계를 실증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INDUST_SI_003"},
+      {"name_ko": "후광효과", "name_en": "Halo Effect", "id": "INDUST_HE_014"},
+      {"name_ko": "확증 편향", "name_en": "Confirmation Bias", "id": "INDUST_HE_014"},
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비구조화 = 자유 질문 + 주관 평가 = 낮은 타당도 + 높은 편향",
+      "differential": "비구조화 면접은 면접관 재량이 크고, 구조화 면접은 표준화된 절차를 따른다.",
+      "key_point": "비구조화 면접의 예측 타당도(.20~.38)는 구조화 면접(.51)에 비해 현저히 낮다.",
+      "common_mistake": "비구조화 면접이 지원자를 더 잘 파악할 수 있다고 믿는 것 — 실제로는 면접관 편향이 더 크게 작용한다."
+    }
+  },
+  {
+    "id": "INDUST_JA_005",
+    "terminology": "직무분석 (Job Analysis)",
+    "terminology_ko": "직무분석",
+    "terminology_en": "Job Analysis",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "특정 직무를 구성하는 과업, 의무, 책임과 그 직무를 성공적으로 수행하는 데 필요한 지식, 기술, 능력(KSA)을 체계적으로 파악하는 과정이다.",
+    "definition_en": "A systematic process of identifying the tasks, duties, responsibilities, and knowledge, skills, and abilities (KSAs) required for successful performance of a particular job.",
+    "significance": "인사 선발, 교육, 직무 평가, 보상 체계의 기초가 되며, 선발 도구의 내용 타당도를 확보하기 위한 필수적 전제 조건이다.",
+    "key_researchers": [
+      {"name_ko": "시드니 파인", "name_en": "Sidney Fine", "contribution": "기능적 직무분석(FJA)을 개발하여 직무 행동을 데이터, 사람, 사물의 3차원으로 분류"},
+      {"name_ko": "어니스트 맥코믹", "name_en": "Ernest McCormick", "contribution": "직무분석질문지(PAQ)를 개발하여 직무분석의 표준화된 도구를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "역량모델링", "name_en": "Competency Modeling", "id": "INDUST_CM_009"},
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INDUST_SI_003"},
+      {"name_ko": "직무지식검사", "name_en": "Job Knowledge Test", "id": "INDUST_JKT_023"},
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"}
+    ],
+    "sub_types": [
+      {"name_ko": "과업지향 직무분석", "name_en": "Task-Oriented Job Analysis", "definition": "직무의 구체적 과업과 활동을 중심으로 기술"},
+      {"name_ko": "작업자지향 직무분석", "name_en": "Worker-Oriented Job Analysis", "definition": "직무 수행에 필요한 작업자의 특성(KSA)을 중심으로 기술"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "직무분석 = '무엇을 하는가'(과업) + '무엇이 필요한가'(KSA)",
+      "differential": "직무분석은 '현재 직무의 체계적 파악'이고, 역량모델링은 '미래 지향적 성공 요인' 중심이다.",
+      "key_point": "모든 인사 선발 도구의 내용 타당도는 직무분석에서 출발한다.",
+      "common_mistake": "직무분석과 직무기술서를 동일시하는 것 — 직무기술서는 직무분석의 산출물 중 하나이다."
+    }
+  },
+  {
+    "id": "INDUST_APT_006",
+    "terminology": "인적성검사 (Aptitude and Personality Test)",
+    "terminology_ko": "인적성검사",
+    "terminology_en": "Aptitude and Personality Test",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "채용 과정에서 지원자의 인지 능력(적성)과 성격 특성을 측정하여 직무 적합성을 예측하는 표준화된 검사이다.",
+    "definition_en": "A standardized test battery used in hiring to measure cognitive abilities (aptitude) and personality traits to predict job fit and performance.",
+    "significance": "대규모 채용에서 객관적이고 효율적인 스크리닝 도구로 활용되며, 한국 대기업 채용에서 필수적인 선발 도구이다.",
+    "key_researchers": [
+      {"name_ko": "존 헌터", "name_en": "John Hunter", "contribution": "일반 인지능력(g)이 직무수행의 가장 강력한 예측인이라는 메타분석 결과를 제시"},
+      {"name_ko": "프랭크 슈미트", "name_en": "Frank Schmidt", "contribution": "인지능력검사의 타당도 일반화 이론을 수립하여 직무 유형 간 타당도 전이를 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"},
+      {"name_ko": "직무분석", "name_en": "Job Analysis", "id": "INDUST_JA_005"},
+      {"name_ko": "성실성 검사", "name_en": "Integrity Test", "id": "INDUST_IT_020"},
+      {"name_ko": "상황판단검사", "name_en": "Situational Judgment Test", "id": "INDUST_SJT_012"}
+    ],
+    "sub_types": [
+      {"name_ko": "인지적성검사", "name_en": "Cognitive Aptitude Test", "definition": "언어, 수리, 추리 등 인지능력을 측정하는 검사"},
+      {"name_ko": "인성검사", "name_en": "Personality Inventory", "definition": "성격 5요인 등 성격 특성을 측정하는 검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "인적성 = 인성(성격) + 적성(능력) = 사람의 '됨됨이'와 '할 수 있음'",
+      "differential": "인적성검사는 '잠재적 능력과 성향'을 측정하고, 직무수행평가는 '실제 업무 결과'를 평가한다.",
+      "key_point": "일반 인지능력(g)은 거의 모든 직무에서 수행을 예측하는 가장 타당한 단일 예측인이다.",
+      "common_mistake": "인성검사만으로 직무수행을 예측할 수 있다고 믿는 것 — 인지능력검사와의 병용이 타당도를 높인다."
+    }
+  },
+  {
+    "id": "INDUST_OC_007",
+    "terminology": "조직몰입 척도 (Organizational Commitment Scale)",
+    "terminology_ko": "조직몰입 척도",
+    "terminology_en": "Organizational Commitment Scale",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "조직 구성원이 자신이 속한 조직에 대해 갖는 심리적 유대감, 동일시, 헌신의 정도를 측정하는 자기보고식 척도이다.",
+    "definition_en": "A self-report scale measuring the psychological bond, identification, and dedication an employee feels toward their organization.",
+    "significance": "조직몰입은 이직 의도, 결근, 직무수행의 주요 예측인으로, 조직 효과성 연구와 인사 관리의 핵심 변인이다.",
+    "key_researchers": [
+      {"name_ko": "존 메이어", "name_en": "John Meyer", "contribution": "정서적-지속적-규범적 몰입의 3요소 모델을 개발하여 조직몰입의 다차원적 구조를 확립"},
+      {"name_ko": "나탈리 앨런", "name_en": "Natalie Allen", "contribution": "Meyer와 함께 조직몰입 3요소 척도를 개발하고 타당화하여 측정 도구를 표준화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "직무만족 척도", "name_en": "Job Satisfaction Scale", "id": "INDUST_JS_008"},
+      {"name_ko": "조직시민행동", "name_en": "Organizational Citizenship Behavior", "id": "INDUST_OCB_024"},
+      {"name_ko": "직무스트레스 척도", "name_en": "Job Stress Scale", "id": "INDUST_JSS_025"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"}
+    ],
+    "sub_types": [
+      {"name_ko": "정서적 몰입", "name_en": "Affective Commitment", "definition": "조직에 대한 정서적 애착과 동일시에 기반한 몰입"},
+      {"name_ko": "지속적 몰입", "name_en": "Continuance Commitment", "definition": "이직 비용에 대한 인식에 기반한 몰입"},
+      {"name_ko": "규범적 몰입", "name_en": "Normative Commitment", "definition": "조직에 남아야 한다는 의무감에 기반한 몰입"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "조직몰입 3요소: 정서적(want to) + 지속적(need to) + 규범적(ought to)",
+      "differential": "조직몰입은 '조직에 대한 유대감'이고, 직무만족은 '직무 자체에 대한 태도'이다.",
+      "key_point": "정서적 몰입이 직무수행, 이직의도와 가장 강한 상관을 보이며, 지속적 몰입은 상관이 가장 약하다.",
+      "common_mistake": "조직몰입을 단일 차원으로 측정하는 것 — Meyer와 Allen의 3요소 모델이 표준이다."
+    }
+  },
+  {
+    "id": "INDUST_JS_008",
+    "terminology": "직무만족 척도 (Job Satisfaction Scale)",
+    "terminology_ko": "직무만족 척도",
+    "terminology_en": "Job Satisfaction Scale",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "직무의 다양한 측면(급여, 승진, 상사, 동료, 업무 자체 등)에 대한 구성원의 만족도를 측정하는 자기보고식 척도이다.",
+    "definition_en": "A self-report scale measuring an employee's satisfaction with various aspects of their job, including pay, promotion, supervision, coworkers, and the work itself.",
+    "significance": "조직심리학에서 가장 많이 연구된 직무 태도 변인으로, 이직, 결근, 직무수행, 조직시민행동 등 다양한 조직 결과와 관련된다.",
+    "key_researchers": [
+      {"name_ko": "패트리샤 스미스", "name_en": "Patricia Cain Smith", "contribution": "직무기술지표(JDI)를 개발하여 직무만족의 다차원적 측정 도구를 확립"},
+      {"name_ko": "폴 스펙터", "name_en": "Paul Spector", "contribution": "직무만족 설문지(JSS)를 개발하고 직무만족의 선행요인과 결과를 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "조직몰입 척도", "name_en": "Organizational Commitment Scale", "id": "INDUST_OC_007"},
+      {"name_ko": "직무스트레스 척도", "name_en": "Job Stress Scale", "id": "INDUST_JSS_025"},
+      {"name_ko": "조직시민행동", "name_en": "Organizational Citizenship Behavior", "id": "INDUST_OCB_024"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"}
+    ],
+    "sub_types": [
+      {"name_ko": "전반적 직무만족", "name_en": "Global Job Satisfaction", "definition": "직무 전체에 대한 종합적 만족도"},
+      {"name_ko": "측면별 직무만족", "name_en": "Facet Job Satisfaction", "definition": "급여, 승진, 상사 등 구체적 측면별 만족도"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "JDI 5가지 측면: 업무(Work) + 급여(Pay) + 승진(Promotion) + 상사(Supervision) + 동료(Coworkers)",
+      "differential": "직무만족은 '직무에 대한 태도'이고, 조직몰입은 '조직에 대한 유대감'이다.",
+      "key_point": "직무기술지표(JDI)는 가장 오래되고 널리 사용되는 직무만족 측정 도구이다.",
+      "common_mistake": "직무만족이 높으면 직무수행도 반드시 높다고 가정하는 것 — 둘의 상관은 .30 정도로 중간 수준이다."
+    }
+  },
+  {
+    "id": "INDUST_CM_009",
+    "terminology": "역량모델링 (Competency Modeling)",
+    "terminology_ko": "역량모델링",
+    "terminology_en": "Competency Modeling",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "조직의 전략 목표 달성에 필요한 핵심 역량(지식, 기술, 행동, 특성)을 체계적으로 파악하고 정의하는 과정이다.",
+    "definition_en": "A systematic process of identifying and defining the key competencies (knowledge, skills, behaviors, and characteristics) required for achieving organizational strategic goals.",
+    "significance": "채용, 교육, 평가, 승진 등 인사 관리의 전 영역에 통합적 기준을 제공하며, 조직의 전략적 목표와 인재 관리를 연결하는 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 맥클리랜드", "name_en": "David McClelland", "contribution": "역량 기반 선발의 개념을 제안하고 역량 평가의 이론적 기반을 확립"},
+      {"name_ko": "리처드 보야치스", "name_en": "Richard Boyatzis", "contribution": "'The Competent Manager'를 저술하여 관리자 역량 모델을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "직무분석", "name_en": "Job Analysis", "id": "INDUST_JA_005"},
+      {"name_ko": "평가센터", "name_en": "Assessment Center", "id": "INDUST_AC_001"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"}
+    ],
+    "sub_types": [
+      {"name_ko": "핵심역량", "name_en": "Core Competency", "definition": "조직 전체 구성원에게 공통적으로 요구되는 역량"},
+      {"name_ko": "직무역량", "name_en": "Functional Competency", "definition": "특정 직무나 직군에 고유하게 요구되는 역량"},
+      {"name_ko": "리더십역량", "name_en": "Leadership Competency", "definition": "관리자와 리더에게 요구되는 역량"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "역량모델링 = 조직 전략 → 필요 역량 → 인재 관리 통합 기준",
+      "differential": "역량모델링은 '전략적·미래지향적' 접근이고, 직무분석은 '현재 직무의 체계적 기술'이다.",
+      "key_point": "McClelland는 IQ보다 역량이 직무 성공을 더 잘 예측한다고 주장하며 역량 패러다임을 창시했다.",
+      "common_mistake": "역량모델링과 직무분석을 동일시하는 것 — 역량모델링은 전략적·미래지향적이고 직무분석은 분석적·현재지향적이다."
+    }
+  },
+  {
+    "id": "INDUST_SV_010",
+    "terminology": "선발 타당도 (Selection Validity)",
+    "terminology_ko": "선발 타당도",
+    "terminology_en": "Selection Validity",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "인사 선발 도구(검사, 면접 등)가 실제 직무수행을 얼마나 정확하게 예측하는지를 나타내는 정도로, 주로 선발 점수와 직무수행 준거 간의 상관으로 산출한다.",
+    "definition_en": "The degree to which a personnel selection tool (test, interview, etc.) accurately predicts actual job performance, typically computed as the correlation between selection scores and job performance criteria.",
+    "significance": "선발 도구의 효용성과 법적 정당성을 결정하는 핵심 지표로, 조직의 채용 의사결정 품질을 좌우한다.",
+    "key_researchers": [
+      {"name_ko": "프랭크 슈미트", "name_en": "Frank Schmidt", "contribution": "타당도 일반화(validity generalization) 이론을 수립하여 선발 도구의 타당도가 상황 간에 전이됨을 입증"},
+      {"name_ko": "존 헌터", "name_en": "John Hunter", "contribution": "선발 도구별 예측 타당도 메타분석을 수행하여 인지능력검사의 우수성을 실증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "예측적 타당도 연구", "name_en": "Predictive Validity Study", "id": "INDUST_PVS_011"},
+      {"name_ko": "직무분석", "name_en": "Job Analysis", "id": "INDUST_JA_005"},
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INDUST_SI_003"},
+      {"name_ko": "인적성검사", "name_en": "Aptitude and Personality Test", "id": "INDUST_APT_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선발 타당도 = 선발 점수 ↔ 직무수행 상관 = '예측 정확도'",
+      "differential": "선발 타당도는 '미래 직무수행 예측'이고, 내용 타당도는 '직무 내용 대표성'이다.",
+      "key_point": "Schmidt & Hunter 메타분석에 따르면, 일반 인지능력(.51) + 구조화 면접(.51)의 조합이 가장 높은 타당도를 보인다.",
+      "common_mistake": "타당도를 한 연구에서만 확인하면 충분하다고 믿는 것 — 타당도 일반화 연구가 필요하다."
+    }
+  },
+  {
+    "id": "INDUST_PVS_011",
+    "terminology": "예측적 타당도 연구 (Predictive Validity Study)",
+    "terminology_ko": "예측적 타당도 연구",
+    "terminology_en": "Predictive Validity Study",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "선발 검사를 실시한 후 일정 기간이 경과한 뒤 직무수행 준거를 수집하여, 검사 점수와 준거 간의 상관을 산출하는 타당도 연구 설계이다.",
+    "definition_en": "A validity study design in which selection test scores are collected first, then after a time interval, job performance criteria are gathered to compute the correlation between test scores and criteria.",
+    "significance": "선발 도구의 실제 예측력을 가장 정확하게 평가하는 방법이지만, 시간과 비용이 많이 소요되는 단점이 있다.",
+    "key_researchers": [
+      {"name_ko": "에드윈 기셀리", "name_en": "Edwin Ghiselli", "contribution": "다양한 직종에 걸친 선발 검사의 예측 타당도를 종합하여 직업별 타당도 패턴을 밝힘"},
+      {"name_ko": "프랭크 슈미트", "name_en": "Frank Schmidt", "contribution": "예측적 타당도 연구의 방법론적 인공산물(artifact)을 교정하는 메타분석 기법을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"},
+      {"name_ko": "인적성검사", "name_en": "Aptitude and Personality Test", "id": "INDUST_APT_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "예측적 = 검사 먼저 → 시간 경과 → 수행 나중 = 시간 순서대로",
+      "differential": "예측적 타당도는 '시간차를 두고' 검사와 준거를 수집하고, 동시적 타당도는 '같은 시점에' 수집한다.",
+      "key_point": "예측적 타당도 연구는 범위 제한(선발된 사람만 추적)으로 타당도가 과소추정될 수 있다.",
+      "common_mistake": "동시적 타당도와 예측적 타당도의 차이를 단순히 '시간 차이'로만 이해하는 것 — 표본 구성(현직자 vs 지원자)의 차이가 더 중요하다."
+    }
+  },
+  {
+    "id": "INDUST_SJT_012",
+    "terminology": "상황판단검사 (Situational Judgment Test)",
+    "terminology_ko": "상황판단검사",
+    "terminology_en": "Situational Judgment Test",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "직무 관련 상황을 제시하고 여러 가지 대처 방안 중에서 가장 적절한 행동을 선택하게 하여 실무적 판단력을 측정하는 검사이다.",
+    "definition_en": "A test presenting job-related scenarios and asking respondents to select the most appropriate course of action from multiple options, measuring practical judgment and decision-making.",
+    "significance": "인지능력검사보다 집단 간 차이가 적고 안면 타당도가 높으며, 암묵적 지식과 실무 판단력을 측정하여 선발의 형평성을 개선한다.",
+    "key_researchers": [
+      {"name_ko": "마이클 맥대니얼", "name_en": "Michael McDaniel", "contribution": "SJT의 구성개념 타당도와 예측 타당도에 관한 메타분석을 수행"},
+      {"name_ko": "제프 웨클리", "name_en": "Jeff Weekley", "contribution": "SJT의 채점 방식과 반응 형식에 따른 타당도 차이를 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INDUST_SI_003"},
+      {"name_ko": "인적성검사", "name_en": "Aptitude and Personality Test", "id": "INDUST_APT_006"},
+      {"name_ko": "평가센터", "name_en": "Assessment Center", "id": "INDUST_AC_001"},
+      {"name_ko": "직무지식검사", "name_en": "Job Knowledge Test", "id": "INDUST_JKT_023"}
+    ],
+    "sub_types": [
+      {"name_ko": "지식 기반 SJT", "name_en": "Knowledge-Based SJT", "definition": "가장 효과적인 대처를 선택하게 하는 형식"},
+      {"name_ko": "행동 경향 SJT", "name_en": "Behavioral Tendency SJT", "definition": "실제로 본인이 할 가능성이 높은 대처를 선택하게 하는 형식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SJT = 상황(Situation) + 판단(Judgment) = '이럴 때 어떻게?'",
+      "differential": "SJT는 '서면 상황 제시 후 선택'이고, 역할극은 '직접 상황을 연기'하는 차이가 있다.",
+      "key_point": "SJT는 인지능력검사보다 인종 간 점수 차이가 적어 선발의 형평성(adverse impact 감소)에 기여한다.",
+      "common_mistake": "SJT가 단순한 상식 검사라고 오해하는 것 — 실제로는 직무 관련 암묵적 지식을 측정한다."
+    }
+  },
+  {
+    "id": "INDUST_AT_013",
+    "terminology": "평가자 훈련 (Assessor Training)",
+    "terminology_ko": "평가자 훈련",
+    "terminology_en": "Assessor Training",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "평가센터나 인사 평가에서 평가자의 관찰, 기록, 분류, 평가 능력을 향상시키고 평가 오류를 줄이기 위한 체계적 교육 프로그램이다.",
+    "definition_en": "A systematic training program designed to improve assessors' observation, recording, classification, and evaluation skills and to reduce rating errors in assessment centers and personnel appraisals.",
+    "significance": "평가자 간 신뢰도와 평가의 정확성을 향상시키는 핵심 요소로, 평가센터법의 성공적 운영을 위한 필수 조건이다.",
+    "key_researchers": [
+      {"name_ko": "게리 래섬", "name_en": "Gary Latham", "contribution": "행동 관찰 척도(BOS)와 연계한 평가자 훈련 효과를 실증"},
+      {"name_ko": "케빈 머피", "name_en": "Kevin Murphy", "contribution": "평가자 인지 과정 모델을 제안하여 평가 정확성 향상의 이론적 기반을 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평가센터", "name_en": "Assessment Center", "id": "INDUST_AC_001"},
+      {"name_ko": "후광효과", "name_en": "Halo Effect", "id": "INDUST_HE_014"},
+      {"name_ko": "관대화 경향", "name_en": "Leniency Bias", "id": "INDUST_LB_015"},
+      {"name_ko": "중심화 경향", "name_en": "Central Tendency Bias", "id": "INDUST_CT_016"}
+    ],
+    "sub_types": [
+      {"name_ko": "평가 오류 훈련(RET)", "name_en": "Rater Error Training", "definition": "후광, 관대화 등 평가 오류를 인식하고 회피하도록 교육"},
+      {"name_ko": "평가 정확성 훈련(FOR)", "name_en": "Frame-of-Reference Training", "definition": "공통의 평가 기준 틀을 형성하여 평가 정확성을 향상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "평가자 훈련 = 오류 줄이기(RET) + 정확성 높이기(FOR)",
+      "differential": "평가 오류 훈련(RET)은 '오류 회피'에 초점을 두고, 준거틀 훈련(FOR)은 '정확한 기준 형성'에 초점을 둔다.",
+      "key_point": "FOR(Frame-of-Reference) 훈련이 RET(Rater Error Training)보다 평가 정확성 향상에 더 효과적이다.",
+      "common_mistake": "평가 오류 훈련만으로 평가 정확성이 향상된다고 믿는 것 — 오류 감소와 정확성 향상은 별개의 차원이다."
+    }
+  },
+  {
+    "id": "INDUST_HE_014",
+    "terminology": "후광효과 (Halo Effect)",
+    "terminology_ko": "후광효과",
+    "terminology_en": "Halo Effect",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "한 가지 두드러진 특성에 대한 인상이 다른 관련 없는 특성의 평가에까지 영향을 미쳐 전반적으로 긍정적 또는 부정적으로 평가하게 되는 체계적 오류이다.",
+    "definition_en": "A systematic error in which an impression of one salient characteristic influences the evaluation of other unrelated characteristics, resulting in uniformly positive or negative ratings.",
+    "significance": "인사 평가에서 가장 흔하게 발생하는 평가 오류로, 평가의 변별력을 저하시키고 인사 결정의 공정성을 훼손한다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 손다이크", "name_en": "Edward Thorndike", "contribution": "1920년 군인 평가 연구에서 후광효과를 최초로 체계적으로 기술하고 명명"},
+      {"name_ko": "솔로몬 애쉬", "name_en": "Solomon Asch", "contribution": "인상형성 연구에서 중심 특질의 후광효과를 실험적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "관대화 경향", "name_en": "Leniency Bias", "id": "INDUST_LB_015"},
+      {"name_ko": "중심화 경향", "name_en": "Central Tendency Bias", "id": "INDUST_CT_016"},
+      {"name_ko": "평가자 훈련", "name_en": "Assessor Training", "id": "INDUST_AT_013"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "후광 = 하나의 빛(좋은 특성)이 전체를 밝게(좋게) 보이게 함",
+      "differential": "후광효과는 '한 특성이 다른 특성에 영향'이고, 관대화는 '전반적으로 높게 평가하는 경향'이다.",
+      "key_point": "후광효과는 긍정적(angel effect)뿐 아니라 부정적(horn effect)으로도 작용한다.",
+      "common_mistake": "후광효과를 단순히 '좋게 보는 것'으로만 이해하는 것 — 부정적 후광(뿔 효과)도 포함한다."
+    }
+  },
+  {
+    "id": "INDUST_LB_015",
+    "terminology": "관대화 경향 (Leniency Bias)",
+    "terminology_ko": "관대화 경향",
+    "terminology_en": "Leniency Bias",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "평가자가 피평가자를 실제 수행 수준보다 체계적으로 높게 평가하는 경향으로, 평가 점수 분포가 상위에 편중되는 오류이다.",
+    "definition_en": "A systematic tendency of raters to evaluate ratees higher than their actual performance level, resulting in an upward skew of the rating distribution.",
+    "significance": "성과 차별화를 방해하고 보상 및 승진 결정의 공정성을 저하시키며, 저성과자에 대한 피드백 기회를 상실하게 만든다.",
+    "key_researchers": [
+      {"name_ko": "케빈 머피", "name_en": "Kevin Murphy", "contribution": "관대화 경향의 동기적 원인(갈등 회피, 사회적 바람직성)을 규명"},
+      {"name_ko": "제프리 칸", "name_en": "Jeffrey Kane", "contribution": "관대화의 측정 방법과 교정 기법을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "후광효과", "name_en": "Halo Effect", "id": "INDUST_HE_014"},
+      {"name_ko": "중심화 경향", "name_en": "Central Tendency Bias", "id": "INDUST_CT_016"},
+      {"name_ko": "평가자 훈련", "name_en": "Assessor Training", "id": "INDUST_AT_013"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관대화 = 모두에게 '후한 점수' → 상위 편중 분포",
+      "differential": "관대화는 '전반적으로 높게'이고, 중심화는 '전반적으로 중간에'이며, 엄격화는 '전반적으로 낮게' 평가한다.",
+      "key_point": "관대화는 평가자의 갈등 회피 동기나 피평가자와의 관계 유지 목적에서 발생하는 경우가 많다.",
+      "common_mistake": "관대화를 단순한 '착한 평가'로 보는 것 — 저성과자에게 개선 기회를 박탈하는 역효과가 있다."
+    }
+  },
+  {
+    "id": "INDUST_CT_016",
+    "terminology": "중심화 경향 (Central Tendency Bias)",
+    "terminology_ko": "중심화 경향",
+    "terminology_en": "Central Tendency Bias",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "평가자가 극단적인 점수를 피하고 중간 범위에 집중하여 평가하는 경향으로, 평가 점수의 분산이 지나치게 줄어드는 오류이다.",
+    "definition_en": "A tendency of raters to avoid extreme scores and cluster ratings around the midpoint, resulting in restricted variance in the rating distribution.",
+    "significance": "우수 수행자와 저조 수행자 간의 변별력을 감소시켜 인사 결정의 유용성을 저하시킨다.",
+    "key_researchers": [
+      {"name_ko": "로버트 귀언", "name_en": "Robert Guion", "contribution": "평가 오류의 유형과 원인을 체계적으로 분류하고 교정 방안을 제시"},
+      {"name_ko": "프랭크 란디", "name_en": "Frank Landy", "contribution": "직무수행 평가의 심리측정학적 속성과 평가 오류를 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "관대화 경향", "name_en": "Leniency Bias", "id": "INDUST_LB_015"},
+      {"name_ko": "후광효과", "name_en": "Halo Effect", "id": "INDUST_HE_014"},
+      {"name_ko": "평가자 훈련", "name_en": "Assessor Training", "id": "INDUST_AT_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "중심화 = 중간만 찍기 → 분산 축소 → 변별 불가",
+      "differential": "중심화는 '중간 집중'이고, 관대화는 '상위 편중'이며, 엄격화는 '하위 편중'이다.",
+      "key_point": "중심화 경향은 평가자가 피평가자를 잘 모르거나 평가에 자신이 없을 때 주로 발생한다.",
+      "common_mistake": "중심화를 '공정한 평가'로 오인하는 것 — 실제로는 차이를 무시하는 부정확한 평가이다."
+    }
+  },
+  {
+    "id": "INDUST_PA_017",
+    "terminology": "직무수행 평가 (Performance Appraisal)",
+    "terminology_ko": "직무수행 평가",
+    "terminology_en": "Performance Appraisal",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "조직 구성원의 직무수행 수준을 체계적으로 측정하고 평가하여 인사 결정(보상, 승진, 교육)과 피드백에 활용하는 공식적 과정이다.",
+    "definition_en": "A formal process of systematically measuring and evaluating employees' job performance for use in personnel decisions (compensation, promotion, training) and feedback.",
+    "significance": "조직의 인적 자원 관리에서 가장 핵심적인 과정으로, 보상, 승진, 교육 필요 분석, 해고 등 다양한 인사 결정의 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "게리 래섬", "name_en": "Gary Latham", "contribution": "행동 관찰 척도(BOS)와 목표 설정 이론을 수행 평가에 통합하여 적용"},
+      {"name_ko": "제임스 파르", "name_en": "James Farr", "contribution": "수행 평가의 인지 과정과 사회적 맥락을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "360도 평가", "name_en": "360-Degree Feedback", "id": "INDUST_360_002"},
+      {"name_ko": "후광효과", "name_en": "Halo Effect", "id": "INDUST_HE_014"},
+      {"name_ko": "관대화 경향", "name_en": "Leniency Bias", "id": "INDUST_LB_015"},
+      {"name_ko": "직무분석", "name_en": "Job Analysis", "id": "INDUST_JA_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "절대평가", "name_en": "Absolute Rating", "definition": "사전에 설정된 절대 기준에 따라 평가하는 방법"},
+      {"name_ko": "상대평가", "name_en": "Relative Rating", "definition": "피평가자 간 비교를 통해 순위나 등급을 매기는 방법"},
+      {"name_ko": "결과 중심 평가", "name_en": "Results-Based Appraisal", "definition": "목표 달성도 등 객관적 성과 지표로 평가하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "수행평가 3가지 용도: 관리적(보상/승진) + 개발적(피드백/교육) + 전략적(조직목표 연결)",
+      "differential": "직무수행 평가는 '현재 업무 성과'를 평가하고, 인적성검사는 '미래 잠재력'을 예측한다.",
+      "key_point": "수행 평가의 목적(관리적 vs 개발적)에 따라 평가자의 동기와 편향이 달라질 수 있다.",
+      "common_mistake": "단일 상사 평가만으로 직무수행을 종합적으로 파악할 수 있다고 믿는 것."
+    }
+  },
+  {
+    "id": "INDUST_RP_018",
+    "terminology": "역할극 (Role Play)",
+    "terminology_ko": "역할극",
+    "terminology_en": "Role Play",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "평가 대상자가 특정 직무 관련 상황에서 역할을 연기하며, 평가자가 대인관계 기술, 갈등 해결, 리더십 등의 역량을 직접 관찰하여 평가하는 시뮬레이션 기법이다.",
+    "definition_en": "A simulation technique in which the assessee enacts a role in a job-related scenario while assessors directly observe and evaluate competencies such as interpersonal skills, conflict resolution, and leadership.",
+    "significance": "평가센터의 핵심 구성 요소로, 대인 상호작용 역량을 실제 행동으로 관찰할 수 있어 자기보고식 검사의 한계를 보완한다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 모레노", "name_en": "Jacob Moreno", "contribution": "사이코드라마와 역할극 기법을 창안하여 역할 수행의 심리학적 기반을 확립"},
+      {"name_ko": "조지 손턴", "name_en": "George Thornton III", "contribution": "평가센터 맥락에서의 역할극 설계와 채점 기준을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평가센터", "name_en": "Assessment Center", "id": "INDUST_AC_001"},
+      {"name_ko": "인바스켓 검사", "name_en": "In-Basket Test", "id": "INDUST_IBT_019"},
+      {"name_ko": "역량모델링", "name_en": "Competency Modeling", "id": "INDUST_CM_009"}
+    ],
+    "sub_types": [
+      {"name_ko": "일대일 역할극", "name_en": "One-on-One Role Play", "definition": "평가자 또는 배역 담당자와 일대일로 상호작용하는 형식"},
+      {"name_ko": "집단 역할극", "name_en": "Group Role Play", "definition": "여러 참가자가 함께 참여하는 집단 상호작용 형식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "역할극 = 실제 상황 연기 + 행동 관찰 평가 = '말이 아닌 행동으로 보여줘'",
+      "differential": "역할극은 '직접 행동 연기'이고, SJT는 '서면으로 최선의 행동을 선택'하는 차이가 있다.",
+      "key_point": "역할극은 대인관계 역량을 가장 직접적으로 측정할 수 있는 시뮬레이션 기법이다.",
+      "common_mistake": "역할극의 결과를 일상 행동과 동일시하는 것 — 시뮬레이션 상황은 실제 상황과 다를 수 있다."
+    }
+  },
+  {
+    "id": "INDUST_IBT_019",
+    "terminology": "인바스켓 검사 (In-Basket Test)",
+    "terminology_ko": "인바스켓 검사",
+    "terminology_en": "In-Basket Test",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "가상의 관리자 역할에서 서류함에 쌓인 다양한 업무(메모, 이메일, 보고서 등)를 제한된 시간 내에 우선순위를 정하고 처리하게 하는 시뮬레이션 검사이다.",
+    "definition_en": "A simulation test in which the assessee assumes a managerial role and must prioritize and handle accumulated work items (memos, emails, reports) within a limited time period.",
+    "significance": "관리자의 의사결정, 우선순위 설정, 위임, 시간 관리 능력을 평가하는 대표적인 평가센터 과제이다.",
+    "key_researchers": [
+      {"name_ko": "노만 프레더릭센", "name_en": "Norman Frederiksen", "contribution": "인바스켓 검사를 최초로 개발하고 체계화하여 관리 역량 평가의 표준 도구로 확립"},
+      {"name_ko": "더글러스 브레이", "name_en": "Douglas Bray", "contribution": "AT&T 경영 진전 연구에서 인바스켓 검사를 평가센터의 핵심 요소로 포함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평가센터", "name_en": "Assessment Center", "id": "INDUST_AC_001"},
+      {"name_ko": "역할극", "name_en": "Role Play", "id": "INDUST_RP_018"},
+      {"name_ko": "역량모델링", "name_en": "Competency Modeling", "id": "INDUST_CM_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인바스켓 = In(들어온) + Basket(서류함) = 쌓인 업무를 어떻게 처리할 것인가?",
+      "differential": "인바스켓은 '서면 업무 처리 의사결정'이고, 역할극은 '대면 상호작용 역량' 평가이다.",
+      "key_point": "관리자의 계획, 조직, 의사결정, 위임 능력을 종합적으로 평가하는 시뮬레이션이다.",
+      "common_mistake": "인바스켓 검사를 단순한 문서 정리 과제로 오해하는 것 — 핵심은 우선순위 판단과 의사결정이다."
+    }
+  },
+  {
+    "id": "INDUST_IT_020",
+    "terminology": "성실성 검사 (Integrity Test)",
+    "terminology_ko": "성실성 검사",
+    "terminology_en": "Integrity Test",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "지원자의 정직성, 신뢰성, 도덕적 판단력을 측정하여 직장 내 절도, 규칙 위반 등 반생산적 업무 행동을 예측하기 위한 검사이다.",
+    "definition_en": "A test designed to measure applicants' honesty, trustworthiness, and ethical judgment to predict counterproductive work behaviors such as workplace theft and rule violations.",
+    "significance": "반생산적 업무 행동의 유의미한 예측인으로, 특히 현금 취급이나 보안이 중요한 직무에서 선발 도구로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "데니스 오네스", "name_en": "Deniz Ones", "contribution": "성실성 검사의 타당도에 대한 대규모 메타분석을 수행하여 예측 유용성을 입증"},
+      {"name_ko": "폴 사케트", "name_en": "Paul Sackett", "contribution": "성실성 검사의 구성개념과 측정 쟁점을 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인적성검사", "name_en": "Aptitude and Personality Test", "id": "INDUST_APT_006"},
+      {"name_ko": "조직시민행동", "name_en": "Organizational Citizenship Behavior", "id": "INDUST_OCB_024"},
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"}
+    ],
+    "sub_types": [
+      {"name_ko": "명시적 성실성 검사", "name_en": "Overt Integrity Test", "definition": "절도, 부정행위에 대한 태도와 과거 경험을 직접 질문하는 검사"},
+      {"name_ko": "성격 기반 성실성 검사", "name_en": "Personality-Based Integrity Test", "definition": "성격 특성을 통해 간접적으로 성실성을 추정하는 검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "성실성 검사 = '정직한가?'(overt) + '신뢰할 수 있는 성격인가?'(personality-based)",
+      "differential": "명시적 검사는 '직접 질문'하고, 성격 기반 검사는 '간접적으로 추론'한다.",
+      "key_point": "Ones et al. 메타분석에 따르면, 성실성 검사는 반생산적 업무 행동을 유의미하게 예측한다(r=.32).",
+      "common_mistake": "성실성 검사가 쉽게 속일 수 있다고 믿는 것 — 연구에 따르면 faking이 타당도에 미치는 영향은 제한적이다."
+    }
+  },
+  {
+    "id": "INDUST_DT_021",
+    "terminology": "약물검사 (Drug Testing)",
+    "terminology_ko": "약물검사",
+    "terminology_en": "Drug Testing",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "채용 전 또는 재직 중 약물 남용 여부를 생물학적 표본(소변, 혈액, 모발 등)을 통해 확인하는 선발 및 관리 도구이다.",
+    "definition_en": "A selection and management tool that detects substance abuse through biological specimens (urine, blood, hair) either pre-employment or during employment.",
+    "significance": "안전 민감 직무(운수, 의료 등)에서 필수적으로 시행되며, 직장 내 사고 예방과 생산성 유지에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "자크 노먼드", "name_en": "Jacques Normand", "contribution": "미국 우체국 약물검사 연구를 수행하여 약물검사의 예측 타당도를 실증"},
+      {"name_ko": "케빈 머피", "name_en": "Kevin Murphy", "contribution": "직장 내 약물검사의 정책적·윤리적 쟁점을 체계적으로 분석"}
+    ],
+    "related_concepts": [
+      {"name_ko": "성실성 검사", "name_en": "Integrity Test", "id": "INDUST_IT_020"},
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"}
+    ],
+    "sub_types": [
+      {"name_ko": "채용 전 약물검사", "name_en": "Pre-Employment Drug Testing", "definition": "입사 전 약물 사용 여부를 확인하는 검사"},
+      {"name_ko": "무작위 약물검사", "name_en": "Random Drug Testing", "definition": "재직 중 무작위로 실시하는 약물검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "약물검사 = 생물학적 검사(소변/혈액) + 안전 직무 = 물리적 측정",
+      "differential": "약물검사는 '생물학적 표본 분석'이고, 성실성 검사는 '자기보고식 심리 측정'이다.",
+      "key_point": "미국에서는 DOT(교통부) 규정에 따라 안전 민감 직무 종사자에 대한 약물검사가 의무화되어 있다.",
+      "common_mistake": "약물검사를 '심리검사'로 분류하는 것 — 약물검사는 생물학적 검사이나 인사 선발 도구로서 I/O 심리학에서 다룬다."
+    }
+  },
+  {
+    "id": "INDUST_SIS_022",
+    "terminology": "표준화 면접 채점 (Standardized Interview Scoring)",
+    "terminology_ko": "표준화 면접 채점",
+    "terminology_en": "Standardized Interview Scoring",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "구조화 면접에서 지원자의 응답을 사전에 개발된 행동 고정 평정 척도(BARS)나 채점 루브릭에 따라 일관되게 평가하는 체계적 채점 방법이다.",
+    "definition_en": "A systematic scoring method for structured interviews that uses pre-developed behaviorally anchored rating scales (BARS) or scoring rubrics to consistently evaluate applicant responses.",
+    "significance": "면접관 간 평가 일관성(신뢰도)을 확보하고 구조화 면접의 예측 타당도를 극대화하는 핵심 요소이다.",
+    "key_researchers": [
+      {"name_ko": "마이클 캠피온", "name_en": "Michael Campion", "contribution": "구조화 면접의 채점 체계 설계와 타당도 증진 방안을 제시"},
+      {"name_ko": "패트리시아 스미스", "name_en": "Patricia Cain Smith", "contribution": "행동 고정 평정 척도(BARS)를 개발하여 행동 기반 채점의 기반을 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INDUST_SI_003"},
+      {"name_ko": "평가자 훈련", "name_en": "Assessor Training", "id": "INDUST_AT_013"},
+      {"name_ko": "선발 타당도", "name_en": "Selection Validity", "id": "INDUST_SV_010"}
+    ],
+    "sub_types": [
+      {"name_ko": "BARS 채점", "name_en": "BARS Scoring", "definition": "행동 사례에 고정된 평정 척도로 채점"},
+      {"name_ko": "체크리스트 채점", "name_en": "Checklist Scoring", "definition": "핵심 행동 지표의 출현 여부를 확인하는 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "표준화 채점 = 사전 기준 + 행동 지표 + 일관된 적용 = 면접의 '객관적 시험지'",
+      "differential": "표준화 채점은 '행동 기반 기준'이고, 전반적 인상 평가는 '직관적 종합 판단'이다.",
+      "key_point": "채점의 표준화가 없으면 구조화 면접의 질문 표준화만으로는 타당도 향상에 한계가 있다.",
+      "common_mistake": "질문만 구조화하면 충분하다고 생각하는 것 — 채점 기준의 표준화가 동반되어야 완전한 구조화이다."
+    }
+  },
+  {
+    "id": "INDUST_JKT_023",
+    "terminology": "직무지식검사 (Job Knowledge Test)",
+    "terminology_ko": "직무지식검사",
+    "terminology_en": "Job Knowledge Test",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "특정 직무 수행에 필요한 전문 지식과 기술적 이해도를 객관적으로 측정하는 검사이다.",
+    "definition_en": "An objective test measuring the specialized knowledge and technical understanding required for performing a specific job.",
+    "significance": "직무 관련 내용 타당도가 높고 직무수행의 직접적 예측인으로서, 전문직과 기술직 선발에 특히 유용하다.",
+    "key_researchers": [
+      {"name_ko": "프랭크 슈미트", "name_en": "Frank Schmidt", "contribution": "직무지식검사의 타당도가 일반 인지능력에 의해 매개됨을 실증"},
+      {"name_ko": "존 헌터", "name_en": "John Hunter", "contribution": "인지능력→직무지식→직무수행의 인과 경로 모델을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인적성검사", "name_en": "Aptitude and Personality Test", "id": "INDUST_APT_006"},
+      {"name_ko": "직무분석", "name_en": "Job Analysis", "id": "INDUST_JA_005"},
+      {"name_ko": "상황판단검사", "name_en": "Situational Judgment Test", "id": "INDUST_SJT_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "직무지식검사 = '이 일을 아는가?' = 직무 특화된 지필 시험",
+      "differential": "직무지식검사는 '현재 알고 있는 지식'을 측정하고, 적성검사는 '학습 잠재력'을 측정한다.",
+      "key_point": "Hunter의 모델에 따르면, 인지능력이 직무지식을 매개하여 직무수행에 영향을 미친다.",
+      "common_mistake": "직무지식검사가 모든 직무에 동일하게 유용하다고 믿는 것 — 지식 집약적 직무에서 타당도가 더 높다."
+    }
+  },
+  {
+    "id": "INDUST_OCB_024",
+    "terminology": "조직시민행동 (Organizational Citizenship Behavior)",
+    "terminology_ko": "조직시민행동",
+    "terminology_en": "Organizational Citizenship Behavior",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "공식적 직무 요건에 포함되지 않지만 조직의 효과적 기능에 기여하는 자발적이고 재량적인 행동으로, 동료 돕기, 자발적 참여 등을 포함한다.",
+    "definition_en": "Voluntary, discretionary behaviors not formally required by the job but contributing to the effective functioning of the organization, including helping coworkers and voluntary participation.",
+    "significance": "공식적 직무수행 외에 조직 효과성에 기여하는 중요한 행동 영역으로, 현대 직무수행의 확장된 개념에서 핵심적 구성 요소이다.",
+    "key_researchers": [
+      {"name_ko": "데니스 오건", "name_en": "Dennis Organ", "contribution": "조직시민행동의 개념을 최초로 정의하고 5가지 차원(이타성, 양심성, 스포츠맨십, 예의, 시민 덕성)을 제시"},
+      {"name_ko": "필립 포드사코프", "name_en": "Philip Podsakoff", "contribution": "OCB의 측정 도구를 개발하고 선행요인과 결과에 대한 메타분석을 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"},
+      {"name_ko": "직무만족 척도", "name_en": "Job Satisfaction Scale", "id": "INDUST_JS_008"},
+      {"name_ko": "조직몰입 척도", "name_en": "Organizational Commitment Scale", "id": "INDUST_OC_007"}
+    ],
+    "sub_types": [
+      {"name_ko": "개인 지향 OCB (OCB-I)", "name_en": "OCB-Individual", "definition": "동료를 돕거나 배려하는 등 개인을 대상으로 하는 시민행동"},
+      {"name_ko": "조직 지향 OCB (OCB-O)", "name_en": "OCB-Organization", "definition": "규칙 준수, 자발적 참여 등 조직을 대상으로 하는 시민행동"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "OCB 5차원: 이타(Altruism) + 양심(Conscientiousness) + 스포츠맨십 + 예의(Courtesy) + 시민덕성(Civic Virtue)",
+      "differential": "OCB는 '자발적·재량적 행동'이고, 직무수행은 '공식적으로 요구되는 행동'이다.",
+      "key_point": "Organ은 OCB를 '직접 보상 체계에 의해 인정되지 않지만 조직 기능에 기여하는 행동'으로 정의했다.",
+      "common_mistake": "OCB를 수행 평가에 포함시키면 자발성이 사라져 본질이 변질될 수 있다는 점을 간과하는 것."
+    }
+  },
+  {
+    "id": "INDUST_JSS_025",
+    "terminology": "직무스트레스 척도 (Job Stress Scale)",
+    "terminology_ko": "직무스트레스 척도",
+    "terminology_en": "Job Stress Scale",
+    "category": "INDUST",
+    "category_name": "산업/조직 심리검사 (Industrial/Organizational Testing)",
+    "definition": "직무 환경에서 경험하는 스트레스의 원인(스트레서), 수준, 결과를 체계적으로 측정하는 자기보고식 척도이다.",
+    "definition_en": "A self-report scale systematically measuring the sources (stressors), levels, and consequences of stress experienced in the work environment.",
+    "significance": "근로자의 정신건강과 직무만족, 이직의도, 소진(번아웃)의 주요 예측인으로, 조직 건강 관리와 직무 재설계의 근거 자료를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 카라섹", "name_en": "Robert Karasek", "contribution": "직무요구-통제 모델(JDC)을 개발하여 직무스트레스의 이론적 틀을 확립"},
+      {"name_ko": "크리스티나 마슬라흐", "name_en": "Christina Maslach", "contribution": "직무 소진(번아웃)의 개념을 정의하고 Maslach Burnout Inventory(MBI)를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "직무만족 척도", "name_en": "Job Satisfaction Scale", "id": "INDUST_JS_008"},
+      {"name_ko": "조직몰입 척도", "name_en": "Organizational Commitment Scale", "id": "INDUST_OC_007"},
+      {"name_ko": "조직시민행동", "name_en": "Organizational Citizenship Behavior", "id": "INDUST_OCB_024"},
+      {"name_ko": "직무수행 평가", "name_en": "Performance Appraisal", "id": "INDUST_PA_017"}
+    ],
+    "sub_types": [
+      {"name_ko": "직무요구-통제 모델(JDC)", "name_en": "Job Demand-Control Model", "definition": "높은 요구 + 낮은 통제 = 최대 스트레스로 보는 모델"},
+      {"name_ko": "노력-보상 불균형 모델(ERI)", "name_en": "Effort-Reward Imbalance Model", "definition": "투입한 노력 대비 보상이 부족할 때 스트레스가 발생하는 모델"},
+      {"name_ko": "직무요구-자원 모델(JD-R)", "name_en": "Job Demands-Resources Model", "definition": "직무요구와 직무자원의 상호작용으로 소진과 몰입을 설명하는 모델"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "직무스트레스 핵심 모델: JDC(요구-통제) → ERI(노력-보상) → JD-R(요구-자원)",
+      "differential": "직무스트레스 척도는 '스트레스 원인과 수준'을 측정하고, MBI는 '스트레스 결과(소진)'를 측정한다.",
+      "key_point": "Karasek의 JDC 모델에서 가장 스트레스가 높은 조건은 '높은 요구 + 낮은 통제'의 조합이다.",
+      "common_mistake": "직무스트레스를 항상 부정적으로만 보는 것 — 적절한 수준의 스트레스(eustress)는 동기와 성과를 촉진할 수 있다."
+    }
+  }
+]

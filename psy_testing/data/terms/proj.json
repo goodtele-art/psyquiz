@@ -1,0 +1,863 @@
+[
+  {
+    "id": "PROJ_PT_001",
+    "terminology": "투사검사 (Projective Test)",
+    "terminology_ko": "투사검사",
+    "terminology_en": "Projective Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "비구조화되거나 모호한 자극을 제시하고 수검자의 반응을 분석하여 무의식적 욕구, 갈등, 성격 역동을 파악하는 심리검사 방법이다.",
+    "definition_en": "A method of personality assessment in which unstructured or ambiguous stimuli are presented to examinees, and their responses are analyzed to reveal unconscious needs, conflicts, and personality dynamics.",
+    "significance": "객관적 검사로는 파악하기 어려운 무의식적 심리과정과 성격의 역동적 측면을 탐색할 수 있어 임상장면에서 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "로런스 프랭크", "name_en": "Lawrence Frank", "contribution": "1939년 '투사법(projective methods)'이라는 용어를 최초로 명명하고 개념화"},
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "잉크반점검사를 개발하여 투사적 성격 평가의 선구자 역할"}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사 가설", "name_en": "Projective Hypothesis", "id": "PROJ_PH_002"},
+      {"name_ko": "로르샤흐 잉크반점검사", "name_en": "Rorschach Inkblot Test", "id": "PROJ_ROR_003"},
+      {"name_ko": "주제통각검사", "name_en": "Thematic Apperception Test", "id": "PROJ_TAT_009"}
+    ],
+    "sub_types": [
+      {"name_ko": "구성법", "name_en": "Construction Technique", "definition": "이야기나 그림을 만들어내는 방법 (TAT, CAT)"},
+      {"name_ko": "연상법", "name_en": "Association Technique", "definition": "자극에 대한 연상 반응을 분석 (Rorschach, 단어연상)"},
+      {"name_ko": "완성법", "name_en": "Completion Technique", "definition": "불완전한 자극을 완성하는 방법 (SCT)"},
+      {"name_ko": "표현법", "name_en": "Expressive Technique", "definition": "그림이나 놀이로 표현하는 방법 (HTP, DAP)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "투사 = 모호한 자극 + 자유로운 반응 → 무의식 탐색",
+      "differential": "투사검사는 비구조화 자극으로 자유 반응을 유도하고, 객관적 검사는 구조화된 문항에 선택 반응을 요구한다.",
+      "key_point": "Frank(1939)가 명명, 프로이트의 투사 방어기제 개념에서 유래하나 실제로는 더 넓은 의미로 사용된다.",
+      "common_mistake": "투사검사가 오직 무의식만 측정한다고 보는 것 — 의식적 사고와 지각 스타일도 반영된다."
+    }
+  },
+  {
+    "id": "PROJ_PH_002",
+    "terminology": "투사 가설 (Projective Hypothesis)",
+    "terminology_ko": "투사 가설",
+    "terminology_en": "Projective Hypothesis",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "개인이 모호한 자극에 반응할 때 자신의 욕구, 감정, 경험, 사고방식을 반응에 투사(projection)한다는 가정이다.",
+    "definition_en": "The assumption that when individuals respond to ambiguous stimuli, they project their own needs, feelings, experiences, and thought processes onto their responses.",
+    "significance": "모든 투사검사의 이론적 근거가 되는 핵심 가정으로, 모호한 자극일수록 개인의 내적 세계가 더 많이 드러난다고 본다.",
+    "key_researchers": [
+      {"name_ko": "로런스 프랭크", "name_en": "Lawrence Frank", "contribution": "투사 가설의 이론적 틀을 정립하고 투사법이라는 용어를 체계화"},
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "투사를 방어기제로 개념화하여 투사 가설의 정신분석적 기초를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"},
+      {"name_ko": "로르샤흐 잉크반점검사", "name_en": "Rorschach Inkblot Test", "id": "PROJ_ROR_003"},
+      {"name_ko": "주제통각검사", "name_en": "Thematic Apperception Test", "id": "PROJ_TAT_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "모호한 자극 → 내면 투사 → 성격 드러남",
+      "differential": "투사 가설은 이론적 '가정'이고, 투사검사는 이 가설에 기반한 '방법론'이다.",
+      "key_point": "자극이 모호할수록 수검자의 내적 세계가 더 많이 투사된다고 가정한다.",
+      "common_mistake": "투사 가설을 프로이트의 방어기제 '투사'와 동일시하는 것 — 투사 가설은 보다 넓은 개념이다."
+    }
+  },
+  {
+    "id": "PROJ_ROR_003",
+    "terminology": "로르샤흐 잉크반점검사 (Rorschach Inkblot Test)",
+    "terminology_ko": "로르샤흐 잉크반점검사",
+    "terminology_en": "Rorschach Inkblot Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "10장의 대칭적 잉크반점 카드를 제시하고 수검자가 무엇으로 보이는지 자유롭게 반응하게 하여 성격, 사고, 정서, 지각을 평가하는 투사검사이다.",
+    "definition_en": "A projective test using 10 symmetrical inkblot cards in which examinees describe what they perceive, with responses analyzed to assess personality, thinking, emotion, and perception.",
+    "significance": "가장 널리 연구되고 사용되는 투사검사로, 100년 이상의 역사를 가지며 사고장애, 정서조절, 자기개념 등 다양한 심리적 기능을 종합적으로 평가할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "1921년 잉크반점검사를 개발하고 『정신진단학(Psychodiagnostik)』을 출간"},
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "다양한 로르샤흐 체계를 통합한 종합체계(Comprehensive System)를 개발"},
+      {"name_ko": "그레고리 메이어", "name_en": "Gregory Meyer", "contribution": "R-PAS(Rorschach Performance Assessment System)를 개발하여 로르샤흐의 현대적 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Exner 종합체계", "name_en": "Exner Comprehensive System", "id": "PROJ_ECS_004"},
+      {"name_ko": "R-PAS", "name_en": "Rorschach Performance Assessment System", "id": "PROJ_RPAS_005"},
+      {"name_ko": "반응영역", "name_en": "Response Location", "id": "PROJ_LOC_006"},
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"}
+    ],
+    "sub_types": [
+      {"name_ko": "무채색 카드", "name_en": "Achromatic Cards", "definition": "흑백 또는 회색 톤의 잉크반점 (카드 I, IV, V, VI, VII)"},
+      {"name_ko": "유채색 카드", "name_en": "Chromatic Cards", "definition": "색채가 포함된 잉크반점 (카드 II, III, VIII, IX, X)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Rorschach = 10장 카드, 5장 무채색 + 5장 유채색(일부 혼합)",
+      "differential": "로르샤흐는 지각/구조적 분석 중심이고, TAT는 이야기/내용 분석 중심이다.",
+      "key_point": "10장의 카드 중 5장은 무채색, 2장은 적색 포함, 3장은 다색이다.",
+      "common_mistake": "로르샤흐를 단순한 '그림 맞추기'로 오해하는 것 — 실제로는 지각, 인지, 정서의 복합적 평가이다."
+    }
+  },
+  {
+    "id": "PROJ_ECS_004",
+    "terminology": "Exner 종합체계 (Exner Comprehensive System)",
+    "terminology_ko": "Exner 종합체계",
+    "terminology_en": "Exner Comprehensive System",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "John Exner가 기존의 다양한 로르샤흐 채점/해석 체계(Beck, Klopfer, Hertz, Piotrowski, Rapaport-Schafer)를 경험적으로 통합하여 개발한 표준화된 실시, 채점, 해석 체계이다.",
+    "definition_en": "A standardized system for administering, scoring, and interpreting the Rorschach developed by John Exner, empirically integrating five major earlier approaches (Beck, Klopfer, Hertz, Piotrowski, Rapaport-Schafer).",
+    "significance": "로르샤흐 검사의 과학적 신뢰성 논란을 해결하고자 경험적 연구에 기반한 통합 체계를 확립하여, 로르샤흐가 표준화된 심리검사로 인정받는 데 결정적 역할을 했다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "1974년 종합체계를 최초 발표하고 이후 지속적으로 규준과 채점 기준을 개정"}
+    ],
+    "related_concepts": [
+      {"name_ko": "로르샤흐 잉크반점검사", "name_en": "Rorschach Inkblot Test", "id": "PROJ_ROR_003"},
+      {"name_ko": "R-PAS", "name_en": "Rorschach Performance Assessment System", "id": "PROJ_RPAS_005"},
+      {"name_ko": "구조적 요약", "name_en": "Structural Summary", "id": "PROJ_STRS_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Exner CS = 5개 체계 통합 (Beck, Klopfer, Hertz, Piotrowski, Rapaport-Schafer)",
+      "differential": "Exner CS는 전통적 통합 체계이고, R-PAS는 CS의 한계를 보완한 최신 체계이다.",
+      "key_point": "1974년 발표, 5개 기존 체계의 경험적 통합, 표준화된 실시·채점·해석 절차 제공.",
+      "common_mistake": "Exner CS가 현재도 유일한 표준이라고 생각하는 것 — R-PAS가 후속 대안 체계로 발전했다."
+    }
+  },
+  {
+    "id": "PROJ_RPAS_005",
+    "terminology": "R-PAS (Rorschach Performance Assessment System)",
+    "terminology_ko": "R-PAS",
+    "terminology_en": "Rorschach Performance Assessment System",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "Exner 종합체계의 한계를 보완하기 위해 Meyer 등이 개발한 로르샤흐의 최신 실시·채점·해석 체계로, 국제 규준과 반응 최적화 실시법을 도입했다.",
+    "definition_en": "The latest Rorschach administration, scoring, and interpretation system developed by Meyer and colleagues to address limitations of the Exner CS, featuring international norms and R-optimized administration.",
+    "significance": "Exner 사후 규준 문제를 해결하고 국제적 메타분석에 기반한 새로운 규준을 제공하여 로르샤흐의 심리측정적 기반을 강화했다.",
+    "key_researchers": [
+      {"name_ko": "그레고리 메이어", "name_en": "Gregory Meyer", "contribution": "R-PAS의 주요 개발자로 국제 규준과 반응 최적화 실시법을 고안"},
+      {"name_ko": "도날드 비글리", "name_en": "Donald Viglione", "contribution": "R-PAS 개발에 참여하고 채점 신뢰도 연구를 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Exner 종합체계", "name_en": "Exner Comprehensive System", "id": "PROJ_ECS_004"},
+      {"name_ko": "로르샤흐 잉크반점검사", "name_en": "Rorschach Inkblot Test", "id": "PROJ_ROR_003"},
+      {"name_ko": "반응 최적화 실시", "name_en": "R-Optimized Administration", "id": "PROJ_ROPT_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "R-PAS = 로르샤흐의 '2세대' 체계, 국제 규준 + 반응 최적화",
+      "differential": "CS는 미국 규준 중심이고 R-PAS는 국제 규준 기반이다. R-PAS는 반응수를 2~3개로 최적화한다.",
+      "key_point": "2011년 발표, 국제 메타분석 규준, R-Optimized 실시(카드당 2~3개 반응 유도).",
+      "common_mistake": "R-PAS가 Exner CS와 완전히 다른 검사라고 생각하는 것 — 같은 10장 카드를 사용하며 채점·해석 체계가 다른 것이다."
+    }
+  },
+  {
+    "id": "PROJ_LOC_006",
+    "terminology": "반응영역 (Response Location)",
+    "terminology_ko": "반응영역",
+    "terminology_en": "Response Location",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 수검자가 반응할 때 잉크반점의 어느 부분을 사용했는지를 나타내는 채점 범주로, 전체반응(W), 일반부분반응(D), 특이부분반응(Dd)으로 분류된다.",
+    "definition_en": "A scoring category in the Rorschach indicating which part of the inkblot the examinee used: Whole (W), Common Detail (D), or Unusual Detail (Dd).",
+    "significance": "수검자의 인지적 접근 방식과 정보처리 스타일을 반영하며, W는 통합적 사고, D는 실제적·관습적 접근, Dd는 특이하거나 강박적 주의를 시사한다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "반응영역 분류의 기본 체계(W, D, Dd)를 최초로 제안"},
+      {"name_ko": "사무엘 벡", "name_en": "Samuel Beck", "contribution": "반응영역의 채점 기준을 체계화하고 D 영역의 빈도 기반 분류를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "형태질", "name_en": "Form Quality", "id": "PROJ_FQ_008"},
+      {"name_ko": "내용 범주", "name_en": "Content Categories", "id": "PROJ_CON_018"},
+      {"name_ko": "구조적 요약", "name_en": "Structural Summary", "id": "PROJ_STRS_011"}
+    ],
+    "sub_types": [
+      {"name_ko": "전체반응 (W)", "name_en": "Whole Response", "definition": "잉크반점 전체를 사용한 반응"},
+      {"name_ko": "일반부분반응 (D)", "name_en": "Common Detail", "definition": "흔히 사용되는 부분 영역에 대한 반응"},
+      {"name_ko": "특이부분반응 (Dd)", "name_en": "Unusual Detail", "definition": "드물게 사용되는 부분 영역에 대한 반응"},
+      {"name_ko": "공백반응 (S)", "name_en": "Space Response", "definition": "잉크가 없는 흰 공간을 사용한 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "W(전체) → D(일반부분) → Dd(특이부분) → S(공백)",
+      "differential": "반응영역(어디를 보았나)과 결정인(왜 그렇게 보았나)은 별개의 채점 범주이다.",
+      "key_point": "W%가 높으면 통합적 사고, D%가 높으면 실제적 접근, Dd%가 높으면 특이한 주의 패턴을 시사한다.",
+      "common_mistake": "W반응이 항상 좋은 것이라고 생각하는 것 — W의 질(DQ)도 함께 고려해야 한다."
+    }
+  },
+  {
+    "id": "PROJ_DET_007",
+    "terminology": "결정인 (Determinants)",
+    "terminology_ko": "결정인",
+    "terminology_en": "Determinants",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 수검자가 특정 반응을 한 이유, 즉 잉크반점의 어떤 특성(형태, 색채, 음영, 운동 등)이 반응을 결정했는지를 나타내는 채점 범주이다.",
+    "definition_en": "Scoring categories in the Rorschach indicating what features of the inkblot (form, color, shading, movement, etc.) determined the examinee's response.",
+    "significance": "수검자의 심리적 기능을 가장 풍부하게 반영하는 채점 요소로, 정서조절(색채), 내적 자원(운동), 상황적 스트레스(음영) 등의 핵심 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "형태, 운동, 색채 결정인의 기본 분류 체계를 최초로 제안"},
+      {"name_ko": "브루노 클로퍼", "name_en": "Bruno Klopfer", "contribution": "음영 결정인과 질감 반응 등 결정인 분류를 확장"}
+    ],
+    "related_concepts": [
+      {"name_ko": "운동반응", "name_en": "Movement Response", "id": "PROJ_MOV_015"},
+      {"name_ko": "색채반응", "name_en": "Color Response", "id": "PROJ_COL_016"},
+      {"name_ko": "음영반응", "name_en": "Shading Response", "id": "PROJ_SHAD_028"},
+      {"name_ko": "형태질", "name_en": "Form Quality", "id": "PROJ_FQ_008"}
+    ],
+    "sub_types": [
+      {"name_ko": "형태 (F)", "name_en": "Form", "definition": "잉크반점의 윤곽/모양에 의해 결정된 반응"},
+      {"name_ko": "운동 (M, FM, m)", "name_en": "Movement", "definition": "인간운동(M), 동물운동(FM), 무생물운동(m)"},
+      {"name_ko": "색채 (C, CF, FC)", "name_en": "Color", "definition": "순수색채(C), 색채-형태(CF), 형태-색채(FC)"},
+      {"name_ko": "음영 (T, V, Y)", "name_en": "Shading", "definition": "질감(T), 차원(V), 확산음영(Y)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "결정인 = '왜 그렇게 보였나?' (형태F, 운동M, 색채C, 음영T/V/Y)",
+      "differential": "반응영역은 '어디를', 결정인은 '왜를', 내용은 '무엇을' 나타낸다.",
+      "key_point": "FC>CF+C이면 정서 통제가 양호, CF+C>FC이면 충동적 정서 표출을 시사한다.",
+      "common_mistake": "결정인을 단독으로 해석하는 것 — 여러 결정인의 비율과 조합으로 해석해야 한다."
+    }
+  },
+  {
+    "id": "PROJ_FQ_008",
+    "terminology": "형태질 (Form Quality)",
+    "terminology_ko": "형태질",
+    "terminology_en": "Form Quality",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 수검자의 반응이 잉크반점의 실제 윤곽에 얼마나 적합한지를 평가하는 채점으로, 반응의 현실 검증력과 지각 정확성을 반영한다.",
+    "definition_en": "A Rorschach scoring assessing how well the examinee's response fits the actual contours of the inkblot, reflecting reality testing and perceptual accuracy.",
+    "significance": "현실 검증력(reality testing)의 핵심 지표로, 형태질이 낮은 반응(FQ-)의 비율이 높으면 지각적 왜곡과 사고장애를 시사한다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "형태질 분류를 4단계(+, o, u, -)로 체계화하고 빈도 기반 기준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "반응영역", "name_en": "Response Location", "id": "PROJ_LOC_006"},
+      {"name_ko": "사고장애지표", "name_en": "Thought Disorder Index", "id": "PROJ_THDI_023"}
+    ],
+    "sub_types": [
+      {"name_ko": "우수형태질 (FQ+)", "name_en": "Superior Form Quality", "definition": "정교하고 잘 맞는 반응"},
+      {"name_ko": "보통형태질 (FQo)", "name_en": "Ordinary Form Quality", "definition": "흔하고 적합한 반응"},
+      {"name_ko": "독특형태질 (FQu)", "name_en": "Unusual Form Quality", "definition": "드물지만 윤곽에 맞는 반응"},
+      {"name_ko": "부적합형태질 (FQ-)", "name_en": "Minus Form Quality", "definition": "윤곽에 맞지 않는 왜곡된 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "FQ: + (우수) > o (보통) > u (독특) > - (부적합)",
+      "differential": "FQ는 '지각의 정확성'이고, DQ는 '인지적 정교화 수준'이다.",
+      "key_point": "X-%(FQ- 비율)가 높으면 현실 검증력 저하를 시사하며, 정신증적 사고장애의 지표이다.",
+      "common_mistake": "FQu를 FQ-와 혼동하는 것 — u는 드물지만 윤곽에 맞는 반응이고, -는 맞지 않는 반응이다."
+    }
+  },
+  {
+    "id": "PROJ_TAT_009",
+    "terminology": "주제통각검사 (Thematic Apperception Test, TAT)",
+    "terminology_ko": "주제통각검사",
+    "terminology_en": "Thematic Apperception Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "모호한 대인관계 장면이 그려진 그림 카드를 제시하고 수검자에게 이야기를 만들게 하여 욕구, 갈등, 대인관계 패턴을 파악하는 투사검사이다.",
+    "definition_en": "A projective test presenting ambiguous interpersonal scenes on picture cards, asking examinees to create stories to reveal needs, conflicts, and interpersonal patterns.",
+    "significance": "내러티브(이야기) 분석을 통해 대인관계 도식, 정서적 주제, 방어기제를 평가할 수 있어 정신역동적 평가에서 핵심적으로 사용된다.",
+    "key_researchers": [
+      {"name_ko": "헨리 머레이", "name_en": "Henry Murray", "contribution": "1935년 TAT를 개발하고 욕구-압력(need-press) 이론에 기반한 해석 체계를 수립"},
+      {"name_ko": "크리스티나 모건", "name_en": "Christiana Morgan", "contribution": "Murray와 공동으로 TAT를 개발하고 초기 카드 도안을 제작"}
+    ],
+    "related_concepts": [
+      {"name_ko": "욕구-압력 분석", "name_en": "Need-Press Analysis", "id": "PROJ_NPA_021"},
+      {"name_ko": "아동용 통각검사", "name_en": "Children's Apperception Test", "id": "PROJ_CAT_019"},
+      {"name_ko": "투사 가설", "name_en": "Projective Hypothesis", "id": "PROJ_PH_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TAT = 그림 보고 이야기 만들기 → 욕구(need)와 환경압력(press) 분석",
+      "differential": "로르샤흐는 지각/구조적 분석이고, TAT는 내러티브/내용 분석이다.",
+      "key_point": "Murray의 욕구-압력(need-press) 이론에 기반, 31장 카드 중 보통 10~12장을 선택하여 실시한다.",
+      "common_mistake": "TAT에 단일 표준 채점 체계가 있다고 생각하는 것 — 실제로는 여러 해석 체계가 공존한다."
+    }
+  },
+  {
+    "id": "PROJ_ROPT_010",
+    "terminology": "반응 최적화 실시 (R-Optimized Administration)",
+    "terminology_ko": "반응 최적화 실시",
+    "terminology_en": "R-Optimized Administration",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "R-PAS에서 도입된 로르샤흐 실시 방법으로, 카드당 2~3개의 반응을 유도하여 총 반응수(R)를 일정 범위로 통제하는 절차이다.",
+    "definition_en": "A Rorschach administration procedure introduced in R-PAS that prompts 2-3 responses per card to control the total number of responses (R) within a target range.",
+    "significance": "총 반응수(R)의 변동이 다른 변인에 미치는 영향을 통제하여 검사의 심리측정적 정확성을 향상시킨다.",
+    "key_researchers": [
+      {"name_ko": "그레고리 메이어", "name_en": "Gregory Meyer", "contribution": "R-Optimized 실시법을 고안하여 반응수 통제 문제를 해결"},
+      {"name_ko": "도날드 비글리", "name_en": "Donald Viglione", "contribution": "R-Optimized 절차의 실용적 지침을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "R-PAS", "name_en": "Rorschach Performance Assessment System", "id": "PROJ_RPAS_005"},
+      {"name_ko": "Exner 종합체계", "name_en": "Exner Comprehensive System", "id": "PROJ_ECS_004"},
+      {"name_ko": "Lambda", "name_en": "Lambda", "id": "PROJ_LAM_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "R-Optimized = 카드당 2~3개 반응으로 R을 통제",
+      "differential": "Exner CS는 자유 반응(R 통제 없음)이고, R-PAS는 카드당 2~3개로 반응수를 최적화한다.",
+      "key_point": "반응이 1개면 추가 유도, 4개 이상이면 다음 카드로 넘어간다.",
+      "common_mistake": "반응 최적화가 수검자의 자유를 제한한다고 보는 것 — 실제로는 심리측정적 정확성을 높이기 위한 절차이다."
+    }
+  },
+  {
+    "id": "PROJ_STRS_011",
+    "terminology": "구조적 요약 (Structural Summary)",
+    "terminology_ko": "구조적 요약",
+    "terminology_en": "Structural Summary",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사의 채점 결과를 비율, 백분율, 파생점수 등으로 종합하여 정리한 양적 요약표로, 해석의 기초 자료가 된다.",
+    "definition_en": "A quantitative summary of Rorschach scoring results organized into ratios, percentages, and derived scores that serve as the basis for interpretation.",
+    "significance": "개별 반응의 내용 분석을 넘어 수검자의 인지, 정서, 자기지각, 대인관계 등의 심리적 기능을 체계적으로 파악할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "구조적 요약 체계를 개발하고 군집(cluster) 해석 전략을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Exner 종합체계", "name_en": "Exner Comprehensive System", "id": "PROJ_ECS_004"},
+      {"name_ko": "체험형", "name_en": "Experience Type", "id": "PROJ_EB_022"},
+      {"name_ko": "정서비율", "name_en": "Affective Ratio", "id": "PROJ_AFR_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구조적 요약 = 로르샤흐의 '성적표', 비율과 지표의 종합",
+      "differential": "구조적 요약은 양적 분석이고, 순서분석/내용분석은 질적 분석이다.",
+      "key_point": "핵심 영역: 통제(Controls), 정서(Affect), 인지적 중재(Cognitive Mediation), 관념화(Ideation), 자기지각(Self-Perception), 대인관계(Interpersonal).",
+      "common_mistake": "구조적 요약만으로 해석을 완료한다고 생각하는 것 — 내용분석과 순서분석도 함께 고려해야 한다."
+    }
+  },
+  {
+    "id": "PROJ_HTP_012",
+    "terminology": "집-나무-사람 검사 (House-Tree-Person Test, HTP)",
+    "terminology_ko": "집-나무-사람 검사",
+    "terminology_en": "House-Tree-Person Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "수검자에게 집, 나무, 사람을 차례로 그리게 한 후 그림의 특성과 사후 질문을 통해 성격, 자아상, 환경 지각을 평가하는 그림 투사검사이다.",
+    "definition_en": "A drawing projective test asking examinees to draw a house, tree, and person sequentially, then analyzing drawing features and post-drawing inquiry to assess personality, self-image, and environmental perception.",
+    "significance": "언어적 표현이 제한된 아동이나 저항이 강한 수검자에게도 적용 가능하며, 자아상과 환경에 대한 심리적 표상을 직관적으로 파악할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "존 벅", "name_en": "John Buck", "contribution": "1948년 HTP를 개발하고 그림의 구조적·내용적 해석 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인물화검사", "name_en": "Draw-A-Person Test", "id": "PROJ_DAP_013"},
+      {"name_ko": "동적가족화", "name_en": "Kinetic Family Drawing", "id": "PROJ_KFD_014"},
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HTP = House(환경), Tree(무의식적 자아), Person(의식적 자아상)",
+      "differential": "HTP는 집+나무+사람 3가지를 그리고, DAP는 사람만 그린다.",
+      "key_point": "집은 가정환경, 나무는 무의식적 자기상, 사람은 의식적 자기상과 대인관계를 반영한다고 해석한다.",
+      "common_mistake": "그림의 질(미술 실력)을 심리적 의미와 혼동하는 것 — 그림의 질이 아닌 구조적 특성을 해석한다."
+    }
+  },
+  {
+    "id": "PROJ_DAP_013",
+    "terminology": "인물화검사 (Draw-A-Person Test, DAP)",
+    "terminology_ko": "인물화검사",
+    "terminology_en": "Draw-A-Person Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "수검자에게 사람을 그리게 하여 신체상, 자아개념, 성격 특성을 파악하는 그림 투사검사로, Machover가 체계화했다.",
+    "definition_en": "A drawing projective test asking examinees to draw a person, used to assess body image, self-concept, and personality, systematized by Karen Machover.",
+    "significance": "비언어적이고 비위협적인 검사로 아동과 성인 모두에게 적용 가능하며, 신체상과 자기개념에 대한 투사적 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "카렌 마코버", "name_en": "Karen Machover", "contribution": "인물화검사의 투사적 해석 체계를 확립하고 신체 부위별 상징적 의미를 체계화"},
+      {"name_ko": "플로렌스 굿이너프", "name_en": "Florence Goodenough", "contribution": "인물화를 통한 아동 지능 측정법(Draw-A-Man Test)을 최초로 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "집-나무-사람 검사", "name_en": "House-Tree-Person Test", "id": "PROJ_HTP_012"},
+      {"name_ko": "동적가족화", "name_en": "Kinetic Family Drawing", "id": "PROJ_KFD_014"},
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DAP = Machover의 '사람 그리기' → 신체상·자기개념 투사",
+      "differential": "Goodenough의 DAM은 지능 평가용이고, Machover의 DAP는 성격/투사 평가용이다.",
+      "key_point": "보통 남자·여자 각 1명씩 그리게 하며, 그림의 크기, 위치, 세부묘사, 생략 등을 해석한다.",
+      "common_mistake": "DAP의 투사적 해석이 높은 타당도를 갖는다고 가정하는 것 — 신뢰도와 타당도에 대한 비판이 존재한다."
+    }
+  },
+  {
+    "id": "PROJ_KFD_014",
+    "terminology": "동적가족화 (Kinetic Family Drawing, KFD)",
+    "terminology_ko": "동적가족화",
+    "terminology_en": "Kinetic Family Drawing",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "가족 구성원이 무언가를 하고 있는 장면을 그리게 하여 가족 역동, 관계 패턴, 가족 내 갈등을 탐색하는 그림 투사검사이다.",
+    "definition_en": "A drawing projective test asking examinees to draw their family members doing something, used to explore family dynamics, relationship patterns, and intrafamily conflicts.",
+    "significance": "정적인 가족화와 달리 가족 구성원 간의 상호작용과 활동을 포함하여 보다 역동적인 가족관계 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 번스", "name_en": "Robert Burns", "contribution": "KFD를 개발하고 활동, 양식, 상징의 3가지 해석 차원을 제안"},
+      {"name_ko": "하바드 카우프만", "name_en": "S. Harvard Kaufman", "contribution": "Burns와 공동으로 KFD를 개발하고 해석 지침을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "집-나무-사람 검사", "name_en": "House-Tree-Person Test", "id": "PROJ_HTP_012"},
+      {"name_ko": "인물화검사", "name_en": "Draw-A-Person Test", "id": "PROJ_DAP_013"},
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "KFD = '가족이 뭔가 하고 있는 그림' → 가족 역동 탐색",
+      "differential": "정적가족화(가족만 그리기)와 달리 KFD는 활동을 포함하여 상호작용을 파악한다.",
+      "key_point": "인물 간 거리, 활동의 유형, 구획(compartmentalization), 생략된 가족 구성원 등을 해석한다.",
+      "common_mistake": "KFD의 해석을 객관적 점수로 환산할 수 있다고 생각하는 것 — 주로 임상적 판단에 의존한다."
+    }
+  },
+  {
+    "id": "PROJ_BGT_015",
+    "terminology": "벤더게슈탈트검사 (Bender-Gestalt Test, BGT)",
+    "terminology_ko": "벤더게슈탈트검사",
+    "terminology_en": "Bender-Gestalt Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "9개의 기하학적 도형을 하나씩 제시하고 따라 그리게 하여 시각-운동 통합 기능, 신경심리적 손상, 정서적 지표를 평가하는 검사이다.",
+    "definition_en": "A test presenting 9 geometric designs for copying, used to assess visual-motor integration, neuropsychological impairment, and emotional indicators.",
+    "significance": "간편하면서도 뇌손상 선별과 발달 수준 평가에 유용하며, 정서적 지표를 통한 투사적 해석도 가능하다.",
+    "key_researchers": [
+      {"name_ko": "로레타 벤더", "name_en": "Loretta Bender", "contribution": "1938년 Wertheimer의 게슈탈트 도형을 활용한 시각-운동 검사를 개발"},
+      {"name_ko": "엘리자베스 코피츠", "name_en": "Elizabeth Koppitz", "contribution": "아동용 BGT 발달 채점 체계와 정서적 지표를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "집-나무-사람 검사", "name_en": "House-Tree-Person Test", "id": "PROJ_HTP_012"},
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "BGT-II", "name_en": "Bender-Gestalt II", "definition": "2003년 개정판으로 추가 도형과 기억 단계를 포함"},
+      {"name_ko": "모사 단계", "name_en": "Copy Phase", "definition": "도형을 보고 따라 그리는 기본 실시 단계"},
+      {"name_ko": "기억 단계", "name_en": "Recall Phase", "definition": "도형을 제거한 후 기억에 의존하여 다시 그리는 단계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "BGT = 9개 도형 따라 그리기 → 시각-운동 통합 + 뇌손상 선별",
+      "differential": "BGT는 도형 모사(시각-운동)이고, HTP는 자유 그림(투사적 표현)이다.",
+      "key_point": "Koppitz 체계는 발달 채점(5~11세)과 정서적 지표(12개)를 제공한다.",
+      "common_mistake": "BGT만으로 뇌손상을 확진할 수 있다고 생각하는 것 — 선별 도구이며 신경심리 종합평가가 필요하다."
+    }
+  },
+  {
+    "id": "PROJ_MOV_016",
+    "terminology": "운동반응 (Movement Response)",
+    "terminology_ko": "운동반응",
+    "terminology_en": "Movement Response",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 잉크반점에 움직임을 지각하여 반응한 것으로, 인간운동(M), 동물운동(FM), 무생물운동(m)으로 분류된다.",
+    "definition_en": "Rorschach responses involving perceived movement in the inkblot, classified as Human Movement (M), Animal Movement (FM), and Inanimate Movement (m).",
+    "significance": "M반응은 내적 자원, 공감 능력, 사고의 풍부함을 반영하는 핵심 결정인으로, 지능 및 창의성과도 관련된다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "인간운동(M) 반응의 심리적 의미를 최초로 발견하고 내향성(introversion)과의 관계를 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "체험형", "name_en": "Experience Type", "id": "PROJ_EB_022"},
+      {"name_ko": "색채반응", "name_en": "Color Response", "id": "PROJ_COL_017"}
+    ],
+    "sub_types": [
+      {"name_ko": "인간운동 (M)", "name_en": "Human Movement", "definition": "인간 또는 인간과 유사한 존재의 운동을 지각한 반응"},
+      {"name_ko": "동물운동 (FM)", "name_en": "Animal Movement", "definition": "동물의 운동을 지각한 반응"},
+      {"name_ko": "무생물운동 (m)", "name_en": "Inanimate Movement", "definition": "폭발, 낙하 등 무생물의 운동을 지각한 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "M=인간운동(내적자원), FM=동물운동(욕구), m=무생물운동(스트레스)",
+      "differential": "M은 의도적·통제된 내적 활동이고, FM은 충족되지 않은 기본 욕구, m은 통제 밖의 스트레스를 시사한다.",
+      "key_point": "M반응의 수는 내적 자원과 공감 능력의 지표이며, 체험형(EB)에서 M:WSumC 비율로 해석한다.",
+      "common_mistake": "FM이 M과 같은 의미라고 생각하는 것 — FM은 미성숙한 욕구 표현이고 M은 성숙한 내적 자원이다."
+    }
+  },
+  {
+    "id": "PROJ_COL_017",
+    "terminology": "색채반응 (Color Response)",
+    "terminology_ko": "색채반응",
+    "terminology_en": "Color Response",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 잉크반점의 유채색에 의해 결정된 반응으로, 형태와의 결합 정도에 따라 FC, CF, C로 분류되며 정서 표현과 조절을 반영한다.",
+    "definition_en": "Rorschach responses determined by the chromatic color of the inkblot, classified as FC, CF, or C based on the degree of form integration, reflecting emotional expression and regulation.",
+    "significance": "색채와 형태의 결합 비율(FC:CF+C)은 정서 조절 능력의 핵심 지표로, FC 우세는 통제된 정서, C 우세는 충동적 정서를 시사한다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "색채반응과 정서성의 관계를 최초로 발견하고 외향성(extratension)과 연결"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "운동반응", "name_en": "Movement Response", "id": "PROJ_MOV_016"},
+      {"name_ko": "체험형", "name_en": "Experience Type", "id": "PROJ_EB_022"},
+      {"name_ko": "정서비율", "name_en": "Affective Ratio", "id": "PROJ_AFR_023"}
+    ],
+    "sub_types": [
+      {"name_ko": "형태-색채 (FC)", "name_en": "Form-Color", "definition": "형태가 일차적이고 색채가 이차적인 반응 — 조절된 정서"},
+      {"name_ko": "색채-형태 (CF)", "name_en": "Color-Form", "definition": "색채가 일차적이고 형태가 이차적인 반응 — 덜 조절된 정서"},
+      {"name_ko": "순수색채 (C)", "name_en": "Pure Color", "definition": "형태 없이 색채만으로 결정된 반응 — 충동적 정서"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "FC(조절) > CF(덜 조절) > C(충동적): 형태 결합이 줄수록 정서 통제 약화",
+      "differential": "색채반응은 유채색(빨강, 파랑 등)이고, 음영반응은 무채색 명암에 의한 것이다.",
+      "key_point": "FC:CF+C 비율에서 FC가 우세하면 정서 조절이 양호하고, CF+C가 우세하면 충동적 정서 표현을 시사한다.",
+      "common_mistake": "색채반응이 많으면 무조건 정서 문제라고 해석하는 것 — FC가 많은 것은 적절한 정서 표현이다."
+    }
+  },
+  {
+    "id": "PROJ_SPE_018",
+    "terminology": "특수점수 (Special Scores)",
+    "terminology_ko": "특수점수",
+    "terminology_en": "Special Scores",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 반응의 특이한 언어적·인지적 특성을 나타내는 추가 채점으로, 사고장애, 방어기제, 인지적 특이성을 반영한다.",
+    "definition_en": "Additional Rorschach scores reflecting unusual verbal or cognitive characteristics of responses, indicating thought disorder, defense mechanisms, or cognitive peculiarities.",
+    "significance": "사고장애의 유형과 심각도를 평가하는 핵심 지표로, 특히 정신증적 사고(DV, INCOM, FABCOM, CONTAM 등)의 감별에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 라파포트", "name_en": "David Rapaport", "contribution": "로르샤흐 언어화의 특이성을 사고장애 지표로 체계화"},
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "특수점수를 종합체계 내에서 표준화된 채점 기준으로 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "사고장애지표", "name_en": "Thought Disorder Index", "id": "PROJ_THDI_023"},
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "형태질", "name_en": "Form Quality", "id": "PROJ_FQ_008"}
+    ],
+    "sub_types": [
+      {"name_ko": "일탈언어화 (DV)", "name_en": "Deviant Verbalization", "definition": "신조어나 부적절한 어구 사용"},
+      {"name_ko": "부적합결합 (INCOM)", "name_en": "Incongruous Combination", "definition": "하나의 대상에 모순되는 속성을 결합"},
+      {"name_ko": "우화적 결합 (FABCOM)", "name_en": "Fabulized Combination", "definition": "별개의 대상을 비현실적으로 결합"},
+      {"name_ko": "오염반응 (CONTAM)", "name_en": "Contamination", "definition": "두 지각이 하나로 융합된 가장 심각한 사고장애 지표"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "DV < INCOM < FABCOM < CONTAM: 사고장애의 심각도 순서",
+      "differential": "DV/INCOM은 경미한(Level 1) 사고장애이고, FABCOM/CONTAM은 심각한(Level 2) 사고장애이다.",
+      "key_point": "WSum6(6가지 특수점수의 가중합)은 사고장애의 전반적 심각도를 나타내는 핵심 지표이다.",
+      "common_mistake": "특수점수가 1~2개 있으면 바로 사고장애라고 판단하는 것 — 정상인에게도 소수의 특수점수는 나타날 수 있다."
+    }
+  },
+  {
+    "id": "PROJ_CON_019",
+    "terminology": "내용 범주 (Content Categories)",
+    "terminology_ko": "내용 범주",
+    "terminology_en": "Content Categories",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 수검자가 보고한 반응의 내용(인간, 동물, 자연, 해부 등)을 분류하는 채점 범주이다.",
+    "definition_en": "Scoring categories classifying the content of Rorschach responses (human, animal, nature, anatomy, etc.).",
+    "significance": "수검자의 관심 영역, 대인관계 지향, 신체적 관심 등을 반영하며, 특히 H%(인간내용 비율)는 대인관계 관심의 지표이다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "내용 범주의 표준화된 분류 체계와 해석 지침을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "반응영역", "name_en": "Response Location", "id": "PROJ_LOC_006"},
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "평범반응", "name_en": "Popular Response", "id": "PROJ_POP_027"}
+    ],
+    "sub_types": [
+      {"name_ko": "인간 (H)", "name_en": "Human", "definition": "완전한 인간 형태를 보고한 반응"},
+      {"name_ko": "동물 (A)", "name_en": "Animal", "definition": "완전한 동물 형태를 보고한 반응"},
+      {"name_ko": "해부 (An)", "name_en": "Anatomy", "definition": "내부 장기나 해부학적 구조를 보고한 반응"},
+      {"name_ko": "자연 (Na)", "name_en": "Nature", "definition": "자연 현상이나 풍경을 보고한 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "내용 = '무엇을 보았나' (H=인간, A=동물, An=해부, Na=자연 등)",
+      "differential": "내용은 '무엇을', 반응영역은 '어디를', 결정인은 '왜를' 나타낸다.",
+      "key_point": "H%가 높으면 대인관계 관심이 크고, An+Xy가 높으면 신체적 관심이나 불안을 시사한다.",
+      "common_mistake": "내용의 상징적 의미를 과도하게 해석하는 것 — 구조적 변인과 함께 종합적으로 해석해야 한다."
+    }
+  },
+  {
+    "id": "PROJ_CAT_020",
+    "terminology": "아동용 통각검사 (Children's Apperception Test, CAT)",
+    "terminology_ko": "아동용 통각검사",
+    "terminology_en": "Children's Apperception Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "3~10세 아동을 대상으로 동물 캐릭터가 등장하는 10장의 그림 카드를 사용하여 이야기를 만들게 하는 투사검사이다.",
+    "definition_en": "A projective test for children aged 3-10 using 10 picture cards featuring animal characters, asking children to create stories.",
+    "significance": "TAT의 인간 자극이 아동에게 부적합할 수 있다는 점을 보완하여, 동물 캐릭터로 아동의 동일시와 투사를 촉진한다.",
+    "key_researchers": [
+      {"name_ko": "레오폴드 벨락", "name_en": "Leopold Bellak", "contribution": "CAT를 개발하고 아동의 발달 주제(급식, 수면, 형제관계 등)에 맞는 카드를 고안"},
+      {"name_ko": "소냐 벨락", "name_en": "Sonya Bellak", "contribution": "Leopold Bellak과 공동으로 CAT를 개발하고 실시 지침을 작성"}
+    ],
+    "related_concepts": [
+      {"name_ko": "주제통각검사", "name_en": "Thematic Apperception Test", "id": "PROJ_TAT_009"},
+      {"name_ko": "욕구-압력 분석", "name_en": "Need-Press Analysis", "id": "PROJ_NPA_021"},
+      {"name_ko": "투사 가설", "name_en": "Projective Hypothesis", "id": "PROJ_PH_002"}
+    ],
+    "sub_types": [
+      {"name_ko": "CAT-A", "name_en": "CAT-Animal", "definition": "동물 캐릭터 사용 (원판, 3~10세)"},
+      {"name_ko": "CAT-H", "name_en": "CAT-Human", "definition": "인간 캐릭터 사용 (10세 이상)"},
+      {"name_ko": "CAT-S", "name_en": "CAT-Supplement", "definition": "보충판 (특수 상황: 장애, 임신 등)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CAT = 아동용 TAT, 동물 캐릭터 10장, 3~10세",
+      "differential": "TAT는 인간 장면으로 청소년·성인용이고, CAT는 동물 장면으로 아동용이다.",
+      "key_point": "Bellak이 개발, 동물 캐릭터가 아동의 동일시를 촉진한다는 가정에 기반한다.",
+      "common_mistake": "CAT-H(인간 캐릭터)가 CAT-A보다 항상 좋다고 가정하는 것 — 연구에서는 큰 차이가 나타나지 않았다."
+    }
+  },
+  {
+    "id": "PROJ_NPA_021",
+    "terminology": "욕구-압력 분석 (Need-Press Analysis)",
+    "terminology_ko": "욕구-압력 분석",
+    "terminology_en": "Need-Press Analysis",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "Murray의 성격 이론에 기반한 TAT 해석 방법으로, 주인공의 욕구(need)와 환경적 압력(press)의 상호작용을 분석하여 성격 역동을 파악한다.",
+    "definition_en": "A TAT interpretation method based on Murray's personality theory, analyzing the interaction between the hero's needs and environmental press to understand personality dynamics.",
+    "significance": "TAT의 원래 이론적 기반으로, 이야기 속 주인공을 수검자의 투사로 보고 반복되는 욕구와 환경 주제를 통해 성격 패턴을 파악한다.",
+    "key_researchers": [
+      {"name_ko": "헨리 머레이", "name_en": "Henry Murray", "contribution": "욕구(need)와 환경압력(press)의 상호작용을 통한 성격 이해 이론을 수립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "주제통각검사", "name_en": "Thematic Apperception Test", "id": "PROJ_TAT_009"},
+      {"name_ko": "아동용 통각검사", "name_en": "Children's Apperception Test", "id": "PROJ_CAT_020"},
+      {"name_ko": "투사 가설", "name_en": "Projective Hypothesis", "id": "PROJ_PH_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Need(욕구) × Press(환경압력) = 주제(Thema) → TAT의 핵심",
+      "differential": "욕구(need)는 주인공의 내적 동기이고, 압력(press)은 주인공에게 작용하는 환경적 힘이다.",
+      "key_point": "Murray는 28가지 욕구(성취, 친화, 공격, 복종 등)를 체계적으로 분류했다.",
+      "common_mistake": "욕구-압력 분석이 TAT의 유일한 해석 방법이라고 생각하는 것 — 현대에는 대상관계, 방어기제 등 다양한 접근이 사용된다."
+    }
+  },
+  {
+    "id": "PROJ_EB_022",
+    "terminology": "체험형 (Experience Type, Erlebnistypus)",
+    "terminology_ko": "체험형",
+    "terminology_en": "Experience Type",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 인간운동반응(M)과 가중색채반응(WSumC)의 비율(EB = M:WSumC)로 나타내는 심리적 대처 양식의 지표이다.",
+    "definition_en": "A Rorschach index (EB = M:WSumC) representing psychological coping style, based on the ratio of Human Movement responses to Weighted Sum of Color responses.",
+    "significance": "개인의 문제해결 및 대처 양식이 내향형(사고 중심)인지 외향형(정서 중심)인지를 파악하는 핵심 구조 변인이다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "체험형(Erlebnistypus) 개념을 최초로 제안하여 내향형과 외향형의 구분을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "운동반응", "name_en": "Movement Response", "id": "PROJ_MOV_016"},
+      {"name_ko": "색채반응", "name_en": "Color Response", "id": "PROJ_COL_017"},
+      {"name_ko": "구조적 요약", "name_en": "Structural Summary", "id": "PROJ_STRS_011"}
+    ],
+    "sub_types": [
+      {"name_ko": "내향형", "name_en": "Introversive", "definition": "M>WSumC: 사고와 내적 자원에 의존하는 대처 양식"},
+      {"name_ko": "외향형", "name_en": "Extratensive", "definition": "WSumC>M: 정서와 외부 피드백에 의존하는 대처 양식"},
+      {"name_ko": "양향형", "name_en": "Ambitent", "definition": "M≈WSumC: 두 양식이 혼재된 불안정한 대처 양식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "EB = M:WSumC → 내향(M>C) vs 외향(C>M) vs 양향(M≈C)",
+      "differential": "체험형(EB)은 안정적 '대처 양식'이고, 체험실제(EA=M+WSumC)는 가용한 '심리적 자원의 총량'이다.",
+      "key_point": "양향형(Ambitent)은 비일관적 대처로 스트레스에 취약할 수 있다.",
+      "common_mistake": "내향형이 나쁘고 외향형이 좋다고 판단하는 것 — 둘 다 적응적인 대처 양식이다."
+    }
+  },
+  {
+    "id": "PROJ_AFR_023",
+    "terminology": "정서비율 (Affective Ratio, Afr)",
+    "terminology_ko": "정서비율",
+    "terminology_en": "Affective Ratio",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 유채색 카드(VIII+IX+X)의 반응 수를 무채색 카드(I~VII)의 반응 수로 나눈 비율로, 정서적 자극에 대한 관심과 개방성을 반영한다.",
+    "definition_en": "A Rorschach ratio of responses to chromatic cards (VIII+IX+X) divided by responses to achromatic cards (I-VII), reflecting interest in and openness to emotional stimulation.",
+    "significance": "정서적 자극에 대한 수용성과 처리 의지를 나타내며, Afr이 낮으면 정서적 자극 회피, 높으면 과도한 정서적 반응성을 시사한다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "Afr을 구조적 요약의 정서 군집에 포함시키고 해석 기준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "색채반응", "name_en": "Color Response", "id": "PROJ_COL_017"},
+      {"name_ko": "체험형", "name_en": "Experience Type", "id": "PROJ_EB_022"},
+      {"name_ko": "구조적 요약", "name_en": "Structural Summary", "id": "PROJ_STRS_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Afr = (VIII+IX+X) / (I~VII) → 정서 자극에 대한 관심도",
+      "differential": "Afr은 정서 자극에 대한 '관심/회피'이고, FC:CF+C 비율은 정서의 '조절 수준'이다.",
+      "key_point": "Afr이 .40 미만이면 정서 회피, .80 이상이면 정서 자극에 과도하게 매료됨을 시사한다.",
+      "common_mistake": "Afr이 높으면 정서적으로 건강하다고 해석하는 것 — 과도하게 높으면 정서에 압도될 수 있다."
+    }
+  },
+  {
+    "id": "PROJ_THDI_024",
+    "terminology": "사고장애지표 (Thought Disorder Index)",
+    "terminology_ko": "사고장애지표",
+    "terminology_en": "Thought Disorder Index",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 사고의 혼란과 비논리적 사고를 반영하는 특수점수의 가중합(WSum6)과 관련 지표들의 종합적 평가 체계이다.",
+    "definition_en": "A comprehensive assessment of thought disturbance in the Rorschach, based on the weighted sum of special scores (WSum6) and related indices reflecting cognitive slippage and illogical thinking.",
+    "significance": "조현병과 같은 정신증적 장애의 사고장애를 감별하는 핵심 지표로, 사고의 질적 손상 유형과 심각도를 정량적으로 평가한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 라파포트", "name_en": "David Rapaport", "contribution": "로르샤흐 언어화의 인지적 특이성을 사고장애 지표로 처음 체계화"},
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "6가지 특수점수의 가중합(WSum6)을 사고장애의 정량 지표로 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "특수점수", "name_en": "Special Scores", "id": "PROJ_SPE_018"},
+      {"name_ko": "형태질", "name_en": "Form Quality", "id": "PROJ_FQ_008"},
+      {"name_ko": "구조적 요약", "name_en": "Structural Summary", "id": "PROJ_STRS_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "WSum6 = 6가지 특수점수 × 가중치 → 사고장애 심각도",
+      "differential": "WSum6은 사고의 '질적 손상'이고, X-%(형태질)은 지각의 '정확성 손상'이다.",
+      "key_point": "Level 2 특수점수(심각)는 Level 1(경미)보다 높은 가중치를 부여받는다.",
+      "common_mistake": "WSum6이 높으면 반드시 조현병이라고 단정하는 것 — 다른 장애에서도 상승할 수 있으며 종합 평가가 필요하다."
+    }
+  },
+  {
+    "id": "PROJ_SCT_025",
+    "terminology": "문장완성검사 (Sentence Completion Test, SCT)",
+    "terminology_ko": "문장완성검사",
+    "terminology_en": "Sentence Completion Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "불완전한 문장의 시작 부분(어간)을 제시하고 수검자가 자유롭게 완성하게 하여 태도, 감정, 갈등을 탐색하는 반구조화된 투사검사이다.",
+    "definition_en": "A semi-structured projective test presenting incomplete sentence stems for examinees to complete freely, exploring attitudes, feelings, and conflicts.",
+    "significance": "실시와 채점이 비교적 간편하고, 의식적·전의식적 수준의 태도와 갈등을 효율적으로 파악할 수 있어 임상면접의 보조 도구로 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "줄리안 로터", "name_en": "Julian Rotter", "contribution": "가장 널리 사용되는 Rotter 불완전문장검사(RISB)를 개발"},
+      {"name_ko": "제인 뢰빙거", "name_en": "Jane Loevinger", "contribution": "Washington University Sentence Completion Test(WUSCT)를 개발하여 자아발달 수준을 측정"}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"},
+      {"name_ko": "연상검사", "name_en": "Word Association Test", "id": "PROJ_WAT_026"},
+      {"name_ko": "투사 가설", "name_en": "Projective Hypothesis", "id": "PROJ_PH_002"}
+    ],
+    "sub_types": [
+      {"name_ko": "Rotter 불완전문장검사 (RISB)", "name_en": "Rotter Incomplete Sentences Blank", "definition": "40개 어간으로 전반적 적응 수준을 평가"},
+      {"name_ko": "Loevinger WUSCT", "name_en": "Washington University SCT", "definition": "36개 어간으로 자아발달 수준을 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SCT = 문장 시작 → 자유 완성 → 태도/갈등 탐색",
+      "differential": "SCT는 문장 완성(반구조화)이고, 연상검사는 단어 자극에 대한 자유 연상(비구조화)이다.",
+      "key_point": "Rotter RISB는 전반적 적응 수준을 수량화할 수 있어 투사검사 중 비교적 객관적 채점이 가능하다.",
+      "common_mistake": "SCT가 무의식만 측정한다고 보는 것 — 실제로는 의식적·전의식적 수준의 태도를 주로 반영한다."
+    }
+  },
+  {
+    "id": "PROJ_WAT_026",
+    "terminology": "연상검사 (Word Association Test)",
+    "terminology_ko": "연상검사",
+    "terminology_en": "Word Association Test",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "자극 단어를 하나씩 제시하고 떠오르는 단어를 즉시 말하게 하여 반응 내용과 반응 시간을 분석함으로써 무의식적 갈등과 정서 복합체를 탐색하는 검사이다.",
+    "definition_en": "A test presenting stimulus words one at a time, asking examinees to respond immediately with the first word that comes to mind, analyzing response content and latency to explore unconscious conflicts and emotional complexes.",
+    "significance": "최초의 체계적 투사기법 중 하나로, 반응 시간의 지연이나 특이한 연상은 정서적 갈등 영역을 시사한다.",
+    "key_researchers": [
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "자유연상법의 선구적 실험을 수행"},
+      {"name_ko": "카를 융", "name_en": "Carl Jung", "contribution": "연상검사를 무의식적 콤플렉스 탐색의 임상 도구로 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문장완성검사", "name_en": "Sentence Completion Test", "id": "PROJ_SCT_025"},
+      {"name_ko": "투사 가설", "name_en": "Projective Hypothesis", "id": "PROJ_PH_002"},
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "단어 자극 → 즉시 연상 → 반응시간+내용 분석 = 콤플렉스 탐색",
+      "differential": "연상검사는 단어→단어(비구조화)이고, SCT는 문장시작→문장완성(반구조화)이다.",
+      "key_point": "Jung이 개발한 콤플렉스 지표: 반응 지연, 반복, 자극 단어 반복, 의미 없는 반응 등.",
+      "common_mistake": "연상검사가 현재 임상에서 널리 사용된다고 생각하는 것 — 역사적으로 중요하나 현대에는 제한적으로 사용된다."
+    }
+  },
+  {
+    "id": "PROJ_LAM_027",
+    "terminology": "Lambda (Lambda)",
+    "terminology_ko": "Lambda",
+    "terminology_en": "Lambda",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 순수형태반응(F)의 비율을 나타내는 지표로, 자극의 정서적·복합적 측면을 무시하고 단순화하려는 경향을 반영한다.",
+    "definition_en": "A Rorschach index representing the proportion of Pure Form (F) responses, reflecting the tendency to simplify stimuli by ignoring emotional and complex aspects.",
+    "significance": "Lambda가 높으면 상황을 지나치게 단순화하거나 정서적 관여를 회피하는 방어적 양식을 시사하며, 다른 변인 해석에도 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "Lambda를 구조적 요약의 핵심 통제 변인으로 확립하고 해석 기준을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "형태질", "name_en": "Form Quality", "id": "PROJ_FQ_008"},
+      {"name_ko": "체험형", "name_en": "Experience Type", "id": "PROJ_EB_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Lambda = F / (R-F) → 순수형태 비율 = 단순화 경향",
+      "differential": "Lambda는 '단순화 경향'(방어)이고, Afr은 '정서 자극에 대한 관심도'이다.",
+      "key_point": "Lambda > .99이면 과도한 단순화(회피적 양식)를 시사하며, 다른 변인이 왜곡될 수 있어 해석에 주의가 필요하다.",
+      "common_mistake": "Lambda가 높은 프로토콜을 일반 프로토콜과 동일하게 해석하는 것 — 높은 Lambda는 다른 변인의 신뢰성에 영향을 준다."
+    }
+  },
+  {
+    "id": "PROJ_POP_028",
+    "terminology": "평범반응 (Popular Response, P)",
+    "terminology_ko": "평범반응",
+    "terminology_en": "Popular Response",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 일반인의 약 1/3 이상이 보고하는 흔한 반응으로, 관습적 사고와 현실 지각의 적합성을 반영한다.",
+    "definition_en": "Common Rorschach responses reported by approximately one-third or more of the general population, reflecting conventional thinking and appropriate reality perception.",
+    "significance": "P반응의 수는 관습적·사회적으로 기대되는 지각을 할 수 있는 능력을 나타내며, P가 극히 적으면 현실 지각의 이탈을 시사한다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "평범반응의 빈도 기준을 경험적으로 확립하고 13개 P반응 목록을 정리"}
+    ],
+    "related_concepts": [
+      {"name_ko": "형태질", "name_en": "Form Quality", "id": "PROJ_FQ_008"},
+      {"name_ko": "내용 범주", "name_en": "Content Categories", "id": "PROJ_CON_019"},
+      {"name_ko": "구조적 요약", "name_en": "Structural Summary", "id": "PROJ_STRS_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "P = 인구의 1/3이 보고하는 반응 = 관습적 지각",
+      "differential": "P(평범반응)는 '내용의 흔함'이고, FQo(보통형태질)는 '형태의 적합성'이다.",
+      "key_point": "Exner CS에서 13개 P반응이 규정되어 있으며, P가 4개 미만이면 관습적 지각 능력 저하를 시사한다.",
+      "common_mistake": "P반응이 많을수록 무조건 좋다고 생각하는 것 — 지나치게 높으면 독창성 부족이나 과도한 순응을 시사할 수 있다."
+    }
+  },
+  {
+    "id": "PROJ_SHAD_029",
+    "terminology": "음영반응 (Shading Response)",
+    "terminology_ko": "음영반응",
+    "terminology_en": "Shading Response",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "로르샤흐 검사에서 잉크반점의 명암(밝고 어두운 음영)에 의해 결정된 반응으로, 질감(T), 차원(V), 확산음영(Y)으로 분류된다.",
+    "definition_en": "Rorschach responses determined by the light-dark shading features of the inkblot, classified as Texture (T), Vista (V), and Diffuse Shading (Y).",
+    "significance": "정서적 고통, 친밀감 욕구, 자기성찰 등 미묘한 심리적 상태를 반영하는 중요한 결정인으로, 질감(T)은 친밀감 욕구, 차원(V)은 자기비판을 시사한다.",
+    "key_researchers": [
+      {"name_ko": "브루노 클로퍼", "name_en": "Bruno Klopfer", "contribution": "음영 결정인을 세분화하여 질감, 차원, 확산음영의 구분을 최초로 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정인", "name_en": "Determinants", "id": "PROJ_DET_007"},
+      {"name_ko": "색채반응", "name_en": "Color Response", "id": "PROJ_COL_017"},
+      {"name_ko": "체험형", "name_en": "Experience Type", "id": "PROJ_EB_022"}
+    ],
+    "sub_types": [
+      {"name_ko": "질감반응 (T)", "name_en": "Texture", "definition": "촉각적 질감(부드러움, 거칠음)을 지각 — 친밀감 욕구"},
+      {"name_ko": "차원반응 (V)", "name_en": "Vista", "definition": "깊이감이나 원근감을 지각 — 자기성찰, 자기비판"},
+      {"name_ko": "확산음영 (Y)", "name_en": "Diffuse Shading", "definition": "구체적 형태 없이 명암만 지각 — 상황적 불안, 무력감"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "T(질감=친밀감), V(차원=자기비판), Y(확산=불안): 음영의 3가지 의미",
+      "differential": "음영반응은 무채색 명암이고, 색채반응은 유채색에 의한 결정인이다.",
+      "key_point": "T=0은 친밀감 욕구 부재/회피, T>1은 과도한 친밀감 갈망을 시사한다. V>0은 자기비판적 성찰을 나타낸다.",
+      "common_mistake": "음영반응을 모두 부정적으로 해석하는 것 — T=1은 건강한 친밀감 욕구의 지표이다."
+    }
+  },
+  {
+    "id": "PROJ_VALID_030",
+    "terminology": "투사검사의 타당도 논쟁 (Validity Controversy of Projective Tests)",
+    "terminology_ko": "투사검사의 타당도 논쟁",
+    "terminology_en": "Validity Controversy of Projective Tests",
+    "category": "PROJ",
+    "category_name": "투사검사 (Projective Tests)",
+    "definition": "투사검사, 특히 로르샤흐와 TAT의 심리측정적 타당도와 임상적 유용성에 대한 지속적인 학문적 논쟁으로, 과학적 근거와 임상 경험 사이의 갈등을 반영한다.",
+    "definition_en": "The ongoing academic debate about the psychometric validity and clinical utility of projective tests, particularly the Rorschach and TAT, reflecting tensions between scientific evidence and clinical experience.",
+    "significance": "심리검사의 과학적 기준과 임상적 실용성 사이의 긴장을 상징하는 중요한 논쟁으로, 근거기반실무(EBP)의 관점에서 투사검사의 미래를 결정짓는 핵심 이슈이다.",
+    "key_researchers": [
+      {"name_ko": "스콧 릴리엔펠드", "name_en": "Scott Lilienfeld", "contribution": "투사검사의 심리측정적 한계를 체계적으로 비판하고 과학적 근거 부족을 지적"},
+      {"name_ko": "그레고리 메이어", "name_en": "Gregory Meyer", "contribution": "메타분석을 통해 로르샤흐의 타당도를 옹호하고 R-PAS로 심리측정적 개선을 추진"}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사검사", "name_en": "Projective Test", "id": "PROJ_PT_001"},
+      {"name_ko": "R-PAS", "name_en": "Rorschach Performance Assessment System", "id": "PROJ_RPAS_005"},
+      {"name_ko": "투사 가설", "name_en": "Projective Hypothesis", "id": "PROJ_PH_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "타당도 논쟁: Lilienfeld(비판) vs Meyer(옹호) — 과학 vs 임상의 긴장",
+      "differential": "타당도 비판자들은 심리측정적 기준을, 옹호자들은 증분타당도와 임상적 유용성을 강조한다.",
+      "key_point": "Meyer et al.(2001) 메타분석은 로르샤흐의 타당도가 많은 자기보고식 검사와 비등하다고 보고했다.",
+      "common_mistake": "투사검사가 완전히 타당하지 않다고 일축하는 것 — 일부 변인(예: FQ-, WSum6)은 충분한 타당도 근거가 있다."
+    }
+  }
+]

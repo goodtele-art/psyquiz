@@ -1,0 +1,1051 @@
+[
+  {
+    "id": "NORMS_NRM_001",
+    "terminology": "규준 (Norms)",
+    "terminology_ko": "규준",
+    "terminology_en": "Norms",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "검사 점수를 해석하기 위한 기준 틀로, 표준화 표본(규준집단)의 점수 분포를 기반으로 개인의 상대적 위치를 파악할 수 있게 해주는 참조 체계이다.",
+    "definition_en": "A frame of reference based on the score distribution of a standardization sample that allows the interpretation of an individual's test score relative to a defined group.",
+    "significance": "심리검사의 원점수는 그 자체로는 의미가 없으므로, 규준을 통해 개인의 점수가 집단 내에서 어떤 위치인지 해석할 수 있게 된다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "심리검사의 규준 개념과 표준화 과정에 대한 체계적 정립에 기여"},
+      {"name_ko": "로널드 코헨", "name_en": "Ronald Jay Cohen", "contribution": "심리검사 및 평가 교과서에서 규준의 유형과 활용에 대한 포괄적 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준집단", "name_en": "Normative Group", "id": "NORMS_NGR_002"},
+      {"name_ko": "규준표", "name_en": "Norm Table", "id": "NORMS_NTB_003"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "NORMS_STD_004"},
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "발달규준",
+        "name_en": "Developmental Norms",
+        "definition": "연령이나 학년 등 발달 수준에 따라 구성된 규준으로, 연령등가점수와 학년등가점수가 대표적이다"
+      },
+      {
+        "name_ko": "집단 내 규준",
+        "name_en": "Within-Group Norms",
+        "definition": "동일 집단 내에서의 상대적 위치를 나타내는 규준으로, 백분위, 표준점수 등이 해당된다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "규준 = 기준(Reference) + 집단(Group) → 개인 점수의 '상대적 해석 기준'",
+      "differential": "규준은 '상대적 위치'를 알려주는 참조 체계이고, 준거(criterion)는 '절대적 기준'에 도달했는지를 판단하는 것이다",
+      "key_point": "규준 자체가 좋고 나쁨의 기준이 아니라, 특정 집단에서의 상대적 위치를 보여주는 것이다",
+      "common_mistake": "규준을 '정상'이나 '이상적 기준'과 혼동하는 것 — 규준은 단지 대표 표본의 점수 분포일 뿐이다"
+    }
+  },
+  {
+    "id": "NORMS_NGR_002",
+    "terminology": "규준집단 (Normative Group)",
+    "terminology_ko": "규준집단",
+    "terminology_en": "Normative Group",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "검사의 규준을 산출하기 위해 표준화 과정에서 검사를 실시한 대표적인 표본 집단으로, 개인의 점수를 비교·해석하는 기준이 된다.",
+    "definition_en": "A representative sample of individuals on whom the test was standardized, serving as the reference group against which an individual's score is compared and interpreted.",
+    "significance": "규준집단의 대표성이 검사 해석의 정확성을 좌우하므로, 연령·성별·지역·사회경제적 수준 등을 반영한 적절한 표집이 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "규준집단의 대표성 문제와 표집 방법에 대한 체계적 논의"},
+      {"name_ko": "수잔 어비나", "name_en": "Susana Urbina", "contribution": "Anastasi와 공저로 심리검사 규준과 표본 대표성에 대한 현대적 기술 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "NORMS_STD_004"},
+      {"name_ko": "참조집단", "name_en": "Reference Group", "id": "NORMS_REF_019"},
+      {"name_ko": "전국규준", "name_en": "National Norms", "id": "NORMS_NAT_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "규준집단 = '누구와 비교할 것인가'에 대한 답",
+      "differential": "규준집단은 표준화 시 실제로 검사를 받은 표본이고, 참조집단은 비교 대상으로 선택된 더 넓은 개념이다",
+      "key_point": "규준집단이 검사 대상 모집단을 대표하지 못하면 검사 해석이 왜곡된다",
+      "common_mistake": "규준집단이 클수록 항상 좋다고 생각하는 것 — 크기보다 대표성이 더 중요하다"
+    }
+  },
+  {
+    "id": "NORMS_NTB_003",
+    "terminology": "규준표 (Norm Table)",
+    "terminology_ko": "규준표",
+    "terminology_en": "Norm Table",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수를 환산점수(백분위, 표준점수 등)로 변환할 수 있도록 규준집단의 점수 분포를 정리한 표이다.",
+    "definition_en": "A table that presents the score distribution of the normative group, allowing conversion of raw scores to derived scores such as percentile ranks and standard scores.",
+    "significance": "검사 실시자가 원점수를 신속하고 정확하게 해석 가능한 환산점수로 변환하기 위해 반드시 참조해야 하는 핵심 도구이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 그레고리", "name_en": "Robert J. Gregory", "contribution": "심리검사 교과서에서 규준표의 구성과 활용에 대한 체계적 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"},
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"},
+      {"name_ko": "환산점수", "name_en": "Derived Score", "id": "NORMS_DRV_006"},
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "규준표 = 원점수 → 환산점수 '변환 사전'",
+      "differential": "규준표는 점수 변환 도구이고, 규준은 해석의 참조 체계 전체를 의미한다",
+      "key_point": "규준표는 연령별, 학년별 등으로 별도 제공되며, 적절한 규준표를 선택하는 것이 중요하다",
+      "common_mistake": "규준표 하나로 모든 연령·집단을 해석할 수 있다고 생각하는 것"
+    }
+  },
+  {
+    "id": "NORMS_STD_004",
+    "terminology": "표준화 (Standardization)",
+    "terminology_ko": "표준화",
+    "terminology_en": "Standardization",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "검사의 실시 절차, 채점 방법, 점수 해석 기준을 통일하고, 대표 표본에 실시하여 규준을 산출하는 체계적 과정이다.",
+    "definition_en": "The systematic process of establishing uniform procedures for test administration, scoring, and interpretation, and deriving norms by administering the test to a representative sample.",
+    "significance": "표준화를 통해 서로 다른 검사자, 장소, 시점에서도 동일한 조건으로 검사를 실시·해석할 수 있어 검사의 객관성과 비교 가능성이 확보된다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "최초의 표준화된 지능검사(비네-시몽 검사)를 개발하여 심리검사 표준화의 모범을 제시"},
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "스탠포드-비네 검사의 미국판 표준화를 수행하여 대규모 표준화의 선례를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"},
+      {"name_ko": "규준집단", "name_en": "Normative Group", "id": "NORMS_NGR_002"},
+      {"name_ko": "규준표", "name_en": "Norm Table", "id": "NORMS_NTB_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표준화 = 실시 절차 통일 + 규준 산출, 두 가지 의미를 모두 포함",
+      "differential": "표준화는 절차의 통일과 규준 산출을 모두 포함하는 과정이고, 규준은 그 결과물이다",
+      "key_point": "표준화에는 (1) 실시·채점 절차의 통일과 (2) 규준 산출이라는 두 가지 의미가 있다",
+      "common_mistake": "표준화를 단순히 규준 산출로만 이해하고, 실시 절차의 통일이라는 측면을 간과하는 것"
+    }
+  },
+  {
+    "id": "NORMS_RAW_005",
+    "terminology": "원점수 (Raw Score)",
+    "terminology_ko": "원점수",
+    "terminology_en": "Raw Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "검사에서 수검자가 획득한 변환 전의 최초 점수로, 정답 수, 총점 합산 등의 직접적 채점 결과이다.",
+    "definition_en": "The initial, unconverted score obtained directly from scoring a test, typically the number of correct answers or the sum of item scores.",
+    "significance": "원점수 자체는 의미 있는 해석이 어려우며, 규준이나 준거를 통해 환산점수로 변환해야 비로소 해석이 가능해진다.",
+    "key_researchers": [
+      {"name_ko": "로널드 코헨", "name_en": "Ronald Jay Cohen", "contribution": "원점수와 환산점수의 관계 및 변환 절차에 대한 교과서적 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "환산점수", "name_en": "Derived Score", "id": "NORMS_DRV_006"},
+      {"name_ko": "규준표", "name_en": "Norm Table", "id": "NORMS_NTB_003"},
+      {"name_ko": "척도변환", "name_en": "Scale Transformation", "id": "NORMS_SCT_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "원점수 = 가공 안 된 '날(raw)' 점수",
+      "differential": "원점수는 변환 전 점수이고, 환산점수(표준점수, 백분위 등)는 원점수를 변환한 결과이다",
+      "key_point": "원점수만으로는 개인 간 비교가 불가능하며, 규준 참조 변환이 필수적이다",
+      "common_mistake": "원점수가 높으면 무조건 잘한 것이라고 해석하는 것 — 검사 난이도와 규준에 따라 달라진다"
+    }
+  },
+  {
+    "id": "NORMS_DRV_006",
+    "terminology": "환산점수 (Derived Score)",
+    "terminology_ko": "환산점수",
+    "terminology_en": "Derived Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수를 규준이나 수학적 변환을 통해 변환한 점수로, 백분위, 표준점수, 등가점수 등 해석 가능한 형태의 점수이다.",
+    "definition_en": "A score obtained by converting a raw score through norms or mathematical transformation into an interpretable form, including percentile ranks, standard scores, and equivalent scores.",
+    "significance": "서로 다른 검사나 하위 척도 간 점수를 비교 가능하게 하고, 개인의 검사 결과를 의미 있게 전달할 수 있도록 한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 손다이크", "name_en": "Robert L. Thorndike", "contribution": "교육·심리 측정에서 환산점수의 유형과 활용에 대한 체계적 분류"}
+    ],
+    "related_concepts": [
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"},
+      {"name_ko": "표준점수", "name_en": "Standard Score", "id": "NORMS_SSC_009"},
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"},
+      {"name_ko": "선형변환", "name_en": "Linear Transformation", "id": "NORMS_LTR_017"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "규준참조 환산점수",
+        "name_en": "Norm-Referenced Derived Score",
+        "definition": "규준집단의 점수 분포를 기반으로 상대적 위치를 나타내는 점수 (예: 백분위, 표준점수)"
+      },
+      {
+        "name_ko": "내용참조 환산점수",
+        "name_en": "Content-Referenced Derived Score",
+        "definition": "특정 내용 영역의 숙달 정도를 나타내는 점수 (예: 숙달/미숙달 분류)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "환산점수 = 원점수에 '의미'를 입힌 점수",
+      "differential": "환산점수는 원점수를 변환한 포괄적 개념이고, 표준점수는 환산점수의 한 유형이다",
+      "key_point": "환산점수의 유형에는 백분위, Z점수, T점수, 스테나인, 편차IQ, 등가점수 등이 있다",
+      "common_mistake": "환산점수를 표준점수와 동일시하는 것 — 환산점수는 표준점수를 포함하는 더 넓은 개념이다"
+    }
+  },
+  {
+    "id": "NORMS_ZSC_007",
+    "terminology": "Z점수 (Z-Score)",
+    "terminology_ko": "Z점수",
+    "terminology_en": "Z-Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수에서 평균을 빼고 표준편차로 나눈 값으로, 평균이 0이고 표준편차가 1인 표준점수의 가장 기본적인 형태이다.",
+    "definition_en": "A standard score calculated by subtracting the mean from the raw score and dividing by the standard deviation, yielding a distribution with a mean of 0 and standard deviation of 1.",
+    "significance": "모든 표준점수 변환의 기초가 되며, 서로 다른 단위의 점수를 동일한 척도에서 비교할 수 있게 해주는 기본 변환이다.",
+    "key_researchers": [
+      {"name_ko": "카를 프리드리히 가우스", "name_en": "Carl Friedrich Gauss", "contribution": "정상분포(가우스분포)의 수학적 기초를 확립하여 Z점수 개념의 토대를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "T점수", "name_en": "T-Score", "id": "NORMS_TSC_008"},
+      {"name_ko": "표준점수", "name_en": "Standard Score", "id": "NORMS_SSC_009"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"},
+      {"name_ko": "선형변환", "name_en": "Linear Transformation", "id": "NORMS_LTR_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Z = (X - M) / SD → 평균 0, 표준편차 1",
+      "differential": "Z점수는 평균 0/SD 1이고, T점수는 평균 50/SD 10으로 변환한 것이다",
+      "key_point": "Z점수의 약 68%는 -1~+1 사이, 약 95%는 -2~+2 사이에 분포한다",
+      "common_mistake": "Z점수가 음수이면 나쁜 점수라고 단정하는 것 — 음수는 단지 평균 이하를 의미한다"
+    }
+  },
+  {
+    "id": "NORMS_TSC_008",
+    "terminology": "T점수 (T-Score)",
+    "terminology_ko": "T점수",
+    "terminology_en": "T-Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "평균을 50, 표준편차를 10으로 설정한 표준점수로, Z점수에 10을 곱하고 50을 더하여(T = 10Z + 50) 산출한다.",
+    "definition_en": "A standard score with a mean of 50 and a standard deviation of 10, calculated by the formula T = 10Z + 50, eliminating negative values and decimals.",
+    "significance": "음수와 소수점이 없어 의사소통과 보고가 용이하며, MMPI 등 대표적인 성격검사에서 널리 사용되는 점수 체계이다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 맥콜", "name_en": "William A. McCall", "contribution": "1922년 T점수(T-scale) 개념을 최초로 제안하여 표준점수의 실용적 변환 방법을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Z점수", "name_en": "Z-Score", "id": "NORMS_ZSC_007"},
+      {"name_ko": "표준점수", "name_en": "Standard Score", "id": "NORMS_SSC_009"},
+      {"name_ko": "선형변환", "name_en": "Linear Transformation", "id": "NORMS_LTR_017"},
+      {"name_ko": "비선형변환", "name_en": "Nonlinear Transformation", "id": "NORMS_NLT_018"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "선형 T점수",
+        "name_en": "Linear T-Score",
+        "definition": "Z점수에 단순 선형 변환(T = 10Z + 50)을 적용한 것으로, 원 분포의 형태를 그대로 유지한다"
+      },
+      {
+        "name_ko": "균일 T점수",
+        "name_en": "Uniform T-Score",
+        "definition": "MMPI-2에서 사용되는 비선형 변환 T점수로, 각 척도의 백분위가 동일한 T점수에서 동일하도록 변환한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "T = 10Z + 50 → T점수 50 = 평균, T점수 60 = 평균 + 1SD",
+      "differential": "선형 T점수는 분포 형태 유지, 균일 T점수(MMPI-2)는 백분위를 균일하게 만드는 비선형 변환이다",
+      "key_point": "MMPI에서 T점수 65 이상을 임상적으로 유의미한 상승으로 해석한다",
+      "common_mistake": "T점수와 t검정(t-test)의 t를 혼동하는 것 — 두 개는 완전히 다른 개념이다"
+    }
+  },
+  {
+    "id": "NORMS_SSC_009",
+    "terminology": "표준점수 (Standard Score)",
+    "terminology_ko": "표준점수",
+    "terminology_en": "Standard Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수를 평균과 표준편차를 기준으로 변환하여 집단 내 상대적 위치를 나타내는 점수의 총칭으로, Z점수, T점수, 편차IQ 등이 포함된다.",
+    "definition_en": "A broad category of scores that express an individual's distance from the mean in standard deviation units, including z-scores, T-scores, and deviation IQ scores.",
+    "significance": "서로 다른 검사나 척도의 점수를 공통 단위로 변환하여 비교할 수 있게 하며, 정상분포를 기반으로 한 확률적 해석을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "고전검사이론에서 표준점수 활용의 통계적 기초를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Z점수", "name_en": "Z-Score", "id": "NORMS_ZSC_007"},
+      {"name_ko": "T점수", "name_en": "T-Score", "id": "NORMS_TSC_008"},
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "NORMS_DIQ_012"},
+      {"name_ko": "환산점수", "name_en": "Derived Score", "id": "NORMS_DRV_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표준점수 = 평균과 SD 단위로 '표준화'된 점수의 총칭",
+      "differential": "표준점수는 상위 범주(Z, T, 편차IQ 포함)이고, Z점수는 가장 기본적인 표준점수 형태이다",
+      "key_point": "표준점수의 일반 공식: 변환점수 = 원하는SD × Z + 원하는평균",
+      "common_mistake": "표준점수를 Z점수와 동일시하는 것 — Z점수는 표준점수의 한 유형일 뿐이다"
+    }
+  },
+  {
+    "id": "NORMS_PCT_010",
+    "terminology": "백분위 (Percentile Rank)",
+    "terminology_ko": "백분위",
+    "terminology_en": "Percentile Rank",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "규준집단에서 특정 원점수 이하에 해당하는 사례의 백분율로, 개인의 상대적 위치를 0~100 사이의 값으로 나타낸 점수이다.",
+    "definition_en": "The percentage of scores in the normative group that fall at or below a given raw score, indicating an individual's relative standing on a scale from 0 to 100.",
+    "significance": "비전문가도 직관적으로 이해할 수 있는 가장 보편적인 환산점수이며, 검사 결과를 피검자나 보호자에게 설명할 때 가장 많이 사용된다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 손다이크", "name_en": "Edward L. Thorndike", "contribution": "교육 측정에서 백분위 점수의 실용적 활용을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"},
+      {"name_ko": "스테나인", "name_en": "Stanine", "id": "NORMS_STA_011"},
+      {"name_ko": "비선형변환", "name_en": "Nonlinear Transformation", "id": "NORMS_NLT_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "백분위 75 = '규준집단의 75%보다 같거나 높은 점수'",
+      "differential": "백분위는 '이하 비율'이고, 백분점수(percentile)는 특정 백분위에 해당하는 원점수 값이다",
+      "key_point": "백분위는 서열척도이므로 동간격이 아니다 — 50 근처에서는 조밀하고 양극단에서는 성긴 분포를 보인다",
+      "common_mistake": "백분위를 '맞은 비율(%)'과 혼동하는 것 — 백분위는 집단 내 상대적 위치이다"
+    }
+  },
+  {
+    "id": "NORMS_STA_011",
+    "terminology": "스테나인 (Stanine)",
+    "terminology_ko": "스테나인",
+    "terminology_en": "Stanine",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "표준9점수(Standard Nine)의 약칭으로, 정상분포를 1~9의 9개 구간으로 나눈 단일 자릿수 표준점수 체계이며, 평균 5, 표준편차 약 2이다.",
+    "definition_en": "An abbreviation for Standard Nine, a single-digit scoring system that divides the normal distribution into nine intervals, with a mean of 5 and a standard deviation of approximately 2.",
+    "significance": "단일 자릿수로 간편하게 표현되어 대규모 집단 선발이나 교육 현장에서 빠른 분류와 의사소통에 유용하다.",
+    "key_researchers": [
+      {"name_ko": "미국 공군 심리학자들", "name_en": "U.S. Army Air Forces Psychologists", "contribution": "제2차 세계대전 중 조종사 선발을 위해 스테나인 체계를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"},
+      {"name_ko": "스텐", "name_en": "Sten Score", "id": "NORMS_STN_013"},
+      {"name_ko": "표준점수", "name_en": "Standard Score", "id": "NORMS_SSC_009"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Stanine = Standard + Nine → 1~9, 평균 5, SD ≈ 2",
+      "differential": "스테나인은 1~9 (9점), 스텐은 1~10 (10점), 둘 다 정상분포를 구간으로 나눈 것이다",
+      "key_point": "스테나인 각 구간의 백분위 비율: 4%-7%-12%-17%-20%-17%-12%-7%-4%",
+      "common_mistake": "스테나인을 등간격으로 생각하는 것 — 중간 구간(5)이 가장 넓고 양 끝이 좁다"
+    }
+  },
+  {
+    "id": "NORMS_DIQ_012",
+    "terminology": "편차IQ (Deviation IQ)",
+    "terminology_ko": "편차IQ",
+    "terminology_en": "Deviation IQ",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "동일 연령 집단의 평균을 100, 표준편차를 15(웩슬러) 또는 16(스탠포드-비네)으로 설정하여 개인의 상대적 위치를 나타내는 현대적 IQ 산출 방식이다.",
+    "definition_en": "A modern method of expressing IQ scores based on the individual's relative standing in the age group, with a mean of 100 and a standard deviation of 15 (Wechsler) or 16 (Stanford-Binet).",
+    "significance": "비율IQ의 한계(성인에게 적용 불가, 연령별 변동성)를 극복하여 모든 연령에서 일관된 의미의 IQ 점수를 산출할 수 있게 하였다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1939년 웩슬러-벨뷰 지능검사에서 편차IQ 개념을 최초로 도입, 평균 100/SD 15 체계 확립"},
+      {"name_ko": "알렉산더 웩슬러", "name_en": "Alexander Wechsler", "contribution": "편차IQ의 통계적 정당화와 연령별 적용 가능성을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준점수", "name_en": "Standard Score", "id": "NORMS_SSC_009"},
+      {"name_ko": "Z점수", "name_en": "Z-Score", "id": "NORMS_ZSC_007"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"},
+      {"name_ko": "연령규준", "name_en": "Age Norms", "id": "NORMS_AGN_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편차IQ = 15Z + 100 (웩슬러), 16Z + 100 (스탠포드-비네)",
+      "differential": "비율IQ는 MA/CA × 100으로 아동에게만 적용 가능하지만, 편차IQ는 모든 연령에 적용 가능하다",
+      "key_point": "현대의 모든 주요 지능검사는 편차IQ를 사용하며, 웩슬러 체계(M=100, SD=15)가 표준이다",
+      "common_mistake": "편차IQ 100이 '보통 지능'이 아니라 '평균'이라는 것을 혼동 — 정확히 50번째 백분위이다"
+    }
+  },
+  {
+    "id": "NORMS_STN_013",
+    "terminology": "스텐 (Sten Score)",
+    "terminology_ko": "스텐",
+    "terminology_en": "Sten Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "Standard Ten의 약칭으로, 정상분포를 1~10의 10개 구간으로 나눈 표준점수 체계이며, 평균 5.5, 표준편차 2이다.",
+    "definition_en": "An abbreviation for Standard Ten, a scoring system that divides the normal distribution into ten intervals ranging from 1 to 10, with a mean of 5.5 and a standard deviation of 2.",
+    "significance": "카텔의 16PF 성격검사 등에서 사용되며, 스테나인보다 한 구간을 더 세분화하여 약간 더 정밀한 분류를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "레이몬드 카텔", "name_en": "Raymond B. Cattell", "contribution": "16PF 성격검사에서 스텐 점수 체계를 채택하여 성격 특성 프로파일 표현에 활용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스테나인", "name_en": "Stanine", "id": "NORMS_STA_011"},
+      {"name_ko": "표준점수", "name_en": "Standard Score", "id": "NORMS_SSC_009"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Sten = Standard + Ten → 1~10, 평균 5.5, SD = 2",
+      "differential": "스테나인은 1~9(평균 5), 스텐은 1~10(평균 5.5) — 스텐이 한 구간 더 많다",
+      "key_point": "카텔의 16PF에서 스텐 1~3은 저, 4~7은 중, 8~10은 고로 해석한다",
+      "common_mistake": "스텐을 스테나인과 동일한 것으로 혼동하는 것 — 구간 수와 평균이 다르다"
+    }
+  },
+  {
+    "id": "NORMS_NDI_014",
+    "terminology": "정상분포 (Normal Distribution)",
+    "terminology_ko": "정상분포",
+    "terminology_en": "Normal Distribution",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "평균을 중심으로 좌우 대칭인 종 모양의 연속 확률분포로, 대부분의 심리적 특성 측정값이 근사적으로 따르는 것으로 가정되는 이론적 분포이다.",
+    "definition_en": "A symmetrical, bell-shaped continuous probability distribution centered on the mean, which most psychological measurements are assumed to approximate.",
+    "significance": "표준점수, 백분위 등 대부분의 규준 체계가 정상분포를 전제로 하므로, 검사 점수의 해석과 표준화의 통계적 토대가 된다.",
+    "key_researchers": [
+      {"name_ko": "카를 프리드리히 가우스", "name_en": "Carl Friedrich Gauss", "contribution": "정상분포(가우스분포)의 수학적 정의를 완성"},
+      {"name_ko": "아돌프 케틀레", "name_en": "Adolphe Quetelet", "contribution": "정상분포를 인체 측정과 사회 현상에 최초로 적용하여 심리측정 활용의 토대를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준편차", "name_en": "Standard Deviation", "id": "NORMS_SDE_015"},
+      {"name_ko": "Z점수", "name_en": "Z-Score", "id": "NORMS_ZSC_007"},
+      {"name_ko": "평균", "name_en": "Mean", "id": "NORMS_MEA_025"},
+      {"name_ko": "비선형변환", "name_en": "Nonlinear Transformation", "id": "NORMS_NLT_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정상분포 = 종형 곡선, 68-95-99.7 법칙(±1SD, ±2SD, ±3SD)",
+      "differential": "정상분포는 이론적 분포이고, 실제 검사 점수 분포가 완벽히 정상분포인 경우는 드물다",
+      "key_point": "정상분포에서 평균=중앙값=최빈값이며, 표준편차가 분포의 폭을 결정한다",
+      "common_mistake": "검사 점수가 반드시 정상분포를 따른다고 가정하는 것 — 편포된 분포도 흔하다"
+    }
+  },
+  {
+    "id": "NORMS_SDE_015",
+    "terminology": "표준편차 (Standard Deviation)",
+    "terminology_ko": "표준편차",
+    "terminology_en": "Standard Deviation",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "각 점수와 평균 간 차이(편차)를 제곱하여 평균한 값의 제곱근으로, 점수 분포의 산포도를 나타내는 대표적 통계량이다.",
+    "definition_en": "The square root of the average squared deviation from the mean, representing the typical amount by which scores in a distribution differ from the mean.",
+    "significance": "표준점수 산출의 기본 단위이며, 검사 점수의 변산성을 이해하고 개인 점수의 상대적 위치를 해석하는 데 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "표준편차(standard deviation)라는 용어를 1894년 최초로 도입하고 공식화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"},
+      {"name_ko": "Z점수", "name_en": "Z-Score", "id": "NORMS_ZSC_007"},
+      {"name_ko": "평균", "name_en": "Mean", "id": "NORMS_MEA_025"},
+      {"name_ko": "표준오차", "name_en": "Standard Error", "id": "NORMS_SER_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SD = 평균에서 '전형적으로 얼마나 떨어져 있는가'",
+      "differential": "표준편차는 점수 분포의 산포도이고, 측정의 표준오차(SEM)는 개인 점수의 불확실성 범위이다",
+      "key_point": "정상분포에서 ±1SD = 68.26%, ±2SD = 95.44%, ±3SD = 99.74%",
+      "common_mistake": "표준편차와 표준오차를 혼동하는 것 — 표준편차는 분포, 표준오차는 측정 오류와 관련된다"
+    }
+  },
+  {
+    "id": "NORMS_SCT_016",
+    "terminology": "척도변환 (Scale Transformation)",
+    "terminology_ko": "척도변환",
+    "terminology_en": "Scale Transformation",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수를 다른 척도(Z점수, T점수, 백분위 등)로 변환하는 수학적 절차로, 점수의 해석 가능성과 비교 가능성을 높이는 과정이다.",
+    "definition_en": "A mathematical procedure for converting raw scores to a different scale (e.g., z-scores, T-scores, percentiles) to enhance interpretability and comparability.",
+    "significance": "서로 다른 검사 간 점수 비교, 프로파일 분석, 규준 기반 해석을 가능하게 하는 핵심 절차이다.",
+    "key_researchers": [
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic M. Lord", "contribution": "심리측정에서의 점수 변환과 척도화에 대한 이론적 기초를 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선형변환", "name_en": "Linear Transformation", "id": "NORMS_LTR_017"},
+      {"name_ko": "비선형변환", "name_en": "Nonlinear Transformation", "id": "NORMS_NLT_018"},
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"},
+      {"name_ko": "환산점수", "name_en": "Derived Score", "id": "NORMS_DRV_006"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "선형변환",
+        "name_en": "Linear Transformation",
+        "definition": "원점수에 일정한 상수를 더하거나 곱하여 변환하는 것으로, 원 분포의 형태를 변화시키지 않는다"
+      },
+      {
+        "name_ko": "비선형변환",
+        "name_en": "Nonlinear Transformation",
+        "definition": "원점수를 백분위 등을 매개로 변환하여 분포의 형태 자체를 변화시키는 것이다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "척도변환 = 원점수를 '의미 있는 언어'로 번역하는 과정",
+      "differential": "선형변환은 분포 형태 유지, 비선형변환은 분포 형태 변경 — 이것이 핵심 구분이다",
+      "key_point": "변환의 목적은 (1) 해석 용이성, (2) 검사 간 비교 가능성, (3) 부적절한 분포 형태 교정이다",
+      "common_mistake": "모든 척도변환이 점수의 의미를 바꾸지 않는다고 생각하는 것 — 비선형변환은 분포를 변화시킨다"
+    }
+  },
+  {
+    "id": "NORMS_LTR_017",
+    "terminology": "선형변환 (Linear Transformation)",
+    "terminology_ko": "선형변환",
+    "terminology_en": "Linear Transformation",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수에 상수를 더하거나 곱하는 변환(Y = aX + b)으로, 분포의 평균과 표준편차는 변하지만 분포의 형태(왜도, 첨도)는 변하지 않는다.",
+    "definition_en": "A transformation of the form Y = aX + b that changes the mean and standard deviation but preserves the shape (skewness, kurtosis) of the original distribution.",
+    "significance": "Z점수, T점수, 편차IQ 등 대부분의 표준점수가 선형변환을 통해 산출되며, 원 분포의 특성을 보존한다는 장점이 있다.",
+    "key_researchers": [
+      {"name_ko": "로널드 코헨", "name_en": "Ronald Jay Cohen", "contribution": "선형변환과 비선형변환의 구분 및 각각의 특성에 대한 교과서적 정리"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비선형변환", "name_en": "Nonlinear Transformation", "id": "NORMS_NLT_018"},
+      {"name_ko": "Z점수", "name_en": "Z-Score", "id": "NORMS_ZSC_007"},
+      {"name_ko": "T점수", "name_en": "T-Score", "id": "NORMS_TSC_008"},
+      {"name_ko": "척도변환", "name_en": "Scale Transformation", "id": "NORMS_SCT_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선형 = 직선(linear), 분포 모양 그대로, 평균·SD만 변경",
+      "differential": "선형변환은 분포 모양 유지, 비선형변환은 분포 모양 변경 — 이것이 근본적 차이이다",
+      "key_point": "선형변환 후에도 원점수 간의 상대적 거리 비율이 유지된다",
+      "common_mistake": "선형변환으로 편포된 분포를 정상분포로 만들 수 있다고 생각하는 것 — 불가능하다"
+    }
+  },
+  {
+    "id": "NORMS_NLT_018",
+    "terminology": "비선형변환 (Nonlinear Transformation)",
+    "terminology_ko": "비선형변환",
+    "terminology_en": "Nonlinear Transformation",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수를 백분위로 변환한 후 정상분포표를 이용하여 표준점수로 재변환하는 등, 분포의 형태 자체를 변화시키는 변환 방법이다.",
+    "definition_en": "A transformation method that alters the shape of the original distribution, typically by converting raw scores to percentile ranks and then to normalized standard scores using a normal distribution table.",
+    "significance": "원점수 분포가 정상분포를 따르지 않을 때 분포를 정상화(normalization)하여 표준점수 기반 해석을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "해롤드 걸릭슨", "name_en": "Harold Gulliksen", "contribution": "심리측정에서의 점수 정상화(normalization) 절차에 대한 이론적 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "선형변환", "name_en": "Linear Transformation", "id": "NORMS_LTR_017"},
+      {"name_ko": "정상화 표준점수", "name_en": "Normalized Standard Score", "id": "NORMS_NZS_027"},
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비선형 = '굽은' 변환, 분포 형태를 정상분포로 '교정'",
+      "differential": "선형변환은 형태 유지, 비선형변환은 형태 변경 — 정상화가 대표적 비선형변환이다",
+      "key_point": "절차: 원점수 → 백분위 → 정상분포표에서 Z값 → 원하는 표준점수로 변환",
+      "common_mistake": "비선형변환이 항상 정상분포를 만들어 준다고 생각하는 것 — 표본이 충분히 클 때만 효과적이다"
+    }
+  },
+  {
+    "id": "NORMS_REF_019",
+    "terminology": "참조집단 (Reference Group)",
+    "terminology_ko": "참조집단",
+    "terminology_en": "Reference Group",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "개인의 검사 점수를 비교·해석하기 위해 선택된 집단으로, 규준집단보다 넓은 개념이며 검사 목적에 따라 다르게 설정될 수 있다.",
+    "definition_en": "A group selected for comparing and interpreting an individual's test score, broader than the normative group and variable depending on the purpose of testing.",
+    "significance": "적절한 참조집단의 선택이 검사 해석의 타당성을 결정하며, 동일한 점수라도 참조집단에 따라 전혀 다르게 해석될 수 있다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "참조집단 선택의 중요성과 다양한 규준 유형에 대한 체계적 논의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준집단", "name_en": "Normative Group", "id": "NORMS_NGR_002"},
+      {"name_ko": "지역규준", "name_en": "Local Norms", "id": "NORMS_LOC_020"},
+      {"name_ko": "전국규준", "name_en": "National Norms", "id": "NORMS_NAT_021"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "참조집단 = '누구와 비교할 것인가'의 선택 문제",
+      "differential": "참조집단은 비교 대상의 포괄적 개념이고, 규준집단은 실제 표준화 시 검사를 받은 구체적 표본이다",
+      "key_point": "대학원 지원자의 GRE 점수는 전체 대학 졸업자 vs. 동일 전공 지원자 중 어떤 참조집단과 비교하느냐에 따라 해석이 달라진다",
+      "common_mistake": "참조집단을 규준집단과 동일시하는 것 — 참조집단은 더 넓고 유연한 개념이다"
+    }
+  },
+  {
+    "id": "NORMS_LOC_020",
+    "terminology": "지역규준 (Local Norms)",
+    "terminology_ko": "지역규준",
+    "terminology_en": "Local Norms",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "특정 지역, 학교, 기관 등 제한된 범위의 집단에서 산출한 규준으로, 해당 집단 내에서의 상대적 위치를 파악하기 위해 사용된다.",
+    "definition_en": "Norms derived from a specific, limited population such as a particular school, district, or institution, used to determine relative standing within that specific group.",
+    "significance": "전국규준이 해당 집단의 특성을 적절히 반영하지 못할 때 보완적으로 활용되며, 특정 맥락에서의 의사결정에 더 적절할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "로버트 그레고리", "name_en": "Robert J. Gregory", "contribution": "지역규준과 전국규준의 비교 및 각각의 적절한 활용 맥락에 대한 논의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전국규준", "name_en": "National Norms", "id": "NORMS_NAT_021"},
+      {"name_ko": "규준집단", "name_en": "Normative Group", "id": "NORMS_NGR_002"},
+      {"name_ko": "참조집단", "name_en": "Reference Group", "id": "NORMS_REF_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지역규준 = '우리 동네/학교' 기준의 비교",
+      "differential": "지역규준은 특정 집단 내 위치, 전국규준은 전국 단위의 상대적 위치를 나타낸다",
+      "key_point": "특정 학교의 교육과정 평가나 기관 내 선발에는 지역규준이 더 적절할 수 있다",
+      "common_mistake": "지역규준이 전국규준보다 항상 열등하다고 생각하는 것 — 목적에 따라 더 적절한 규준이 다르다"
+    }
+  },
+  {
+    "id": "NORMS_NAT_021",
+    "terminology": "전국규준 (National Norms)",
+    "terminology_ko": "전국규준",
+    "terminology_en": "National Norms",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "전국적으로 대표성 있는 표본에서 산출한 규준으로, 국가 전체 인구를 대표하는 점수 분포를 제공한다.",
+    "definition_en": "Norms derived from a nationally representative sample, providing a score distribution that represents the entire national population.",
+    "significance": "개인의 점수를 국가 전체 수준에서 해석할 수 있게 하며, 대부분의 표준화된 심리검사가 전국규준을 기본으로 제공한다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "전국규준의 대표성 확보를 위한 층화표집 방법의 중요성을 강조"},
+      {"name_ko": "수잔 어비나", "name_en": "Susana Urbina", "contribution": "전국규준의 시의성(timeliness)과 주기적 재표준화의 필요성을 논의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지역규준", "name_en": "Local Norms", "id": "NORMS_LOC_020"},
+      {"name_ko": "규준집단", "name_en": "Normative Group", "id": "NORMS_NGR_002"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "NORMS_STD_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "전국규준 = 나라 전체 대표 표본의 점수 분포",
+      "differential": "전국규준은 광범위한 비교가 가능하지만, 특정 지역이나 집단의 고유 특성을 반영하지 못할 수 있다",
+      "key_point": "전국규준은 인구 변화에 따라 구식이 될 수 있으므로 주기적인 재표준화가 필요하다 (플린효과 등)",
+      "common_mistake": "전국규준이 만들어진 시점과 현재 사이의 시간 차이를 고려하지 않는 것"
+    }
+  },
+  {
+    "id": "NORMS_AGN_022",
+    "terminology": "연령규준 (Age Norms)",
+    "terminology_ko": "연령규준",
+    "terminology_en": "Age Norms",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "동일 연령 집단의 평균 수행을 기준으로 구성된 규준으로, 특정 연령대에서의 전형적 수행 수준과 비교하여 개인의 점수를 해석할 수 있게 한다.",
+    "definition_en": "Norms based on the average performance of individuals within the same age group, allowing interpretation of an individual's score relative to typical performance for that age.",
+    "significance": "발달적 변화가 큰 특성(지능, 언어 능력 등)의 측정에서 필수적이며, 대부분의 지능검사와 발달검사가 연령규준을 사용한다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "정신연령 개념을 통해 최초의 연령 기반 규준 체계를 확립"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "웩슬러 지능검사에서 세밀한 연령대별 규준 체계를 구축"}
+    ],
+    "related_concepts": [
+      {"name_ko": "학년규준", "name_en": "Grade Norms", "id": "NORMS_GRN_023"},
+      {"name_ko": "연령등가점수", "name_en": "Age Equivalent", "id": "NORMS_AEQ_028"},
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "NORMS_DIQ_012"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "연령규준 = '같은 나이 또래와 비교'",
+      "differential": "연령규준은 생물학적 나이 기준, 학년규준은 교육 수준 기준 — 두 기준이 항상 일치하지는 않는다",
+      "key_point": "성인의 경우 연령규준의 연령 범위가 넓어지며(예: 20-24세, 25-34세), 노인기에는 더 세분화된다",
+      "common_mistake": "연령규준이 모든 특성에 적합하다고 생각하는 것 — 학업 성취 등은 학년규준이 더 적절할 수 있다"
+    }
+  },
+  {
+    "id": "NORMS_GRN_023",
+    "terminology": "학년규준 (Grade Norms)",
+    "terminology_ko": "학년규준",
+    "terminology_en": "Grade Norms",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "동일 학년 집단의 평균 수행을 기준으로 구성된 규준으로, 학업 성취도 검사 등에서 개인의 교육적 수행 수준을 비교·해석하는 데 사용된다.",
+    "definition_en": "Norms based on the average performance of students within the same grade level, primarily used for interpreting academic achievement test scores.",
+    "significance": "학업 성취 수준이 연령보다 학년(교육과정 노출)에 더 직접적으로 관련되는 경우에 적합하며, 학년등가점수의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "로버트 손다이크", "name_en": "Robert L. Thorndike", "contribution": "교육 측정에서 학년규준의 구성과 해석에 관한 체계적 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "연령규준", "name_en": "Age Norms", "id": "NORMS_AGN_022"},
+      {"name_ko": "학년등가점수", "name_en": "Grade Equivalent", "id": "NORMS_GEQ_029"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "학년규준 = '같은 학년 친구들과 비교'",
+      "differential": "학년규준은 학교 교육 수준 기준, 연령규준은 생물학적 나이 기준이다",
+      "key_point": "학년규준은 학업 성취 검사에 적합하지만, 지능검사에는 연령규준이 더 적절하다",
+      "common_mistake": "학년등가점수가 해당 학년의 교육과정을 이수했다는 의미로 해석하는 것"
+    }
+  },
+  {
+    "id": "NORMS_CEI_024",
+    "terminology": "천장효과 (Ceiling Effect)",
+    "terminology_ko": "천장효과",
+    "terminology_en": "Ceiling Effect",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "검사가 너무 쉬워서 다수의 수검자가 최고점 또는 그에 근접한 점수를 받아, 높은 능력 수준에서의 개인차를 변별하지 못하는 현상이다.",
+    "definition_en": "A phenomenon occurring when a test is too easy for the examinees, causing many to score at or near the maximum, thereby failing to differentiate among individuals at higher ability levels.",
+    "significance": "천장효과가 나타나면 상위 수준의 능력 차이를 변별할 수 없어 선발, 배치, 진단의 정확성이 저하되며, 검사의 유용성이 제한된다.",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "검사 난이도와 변별력의 관계에서 천장효과의 문제를 체계적으로 논의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "바닥효과", "name_en": "Floor Effect", "id": "NORMS_FLR_030"},
+      {"name_ko": "문항 난이도", "name_en": "Item Difficulty", "id": "NORMS_ITD_024"},
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "천장효과 = 점수가 '천장'에 부딪혀서 더 올라갈 수 없음",
+      "differential": "천장효과는 위쪽에서 변별 불가, 바닥효과는 아래쪽에서 변별 불가 — 서로 반대 방향이다",
+      "key_point": "영재 판별 시 일반 지능검사의 천장효과가 문제되며, 이를 위해 높은 천장의 검사가 필요하다",
+      "common_mistake": "천장효과를 수검자의 능력이 동일하다는 증거로 해석하는 것 — 검사의 한계일 뿐이다"
+    }
+  },
+  {
+    "id": "NORMS_MEA_025",
+    "terminology": "평균 (Mean)",
+    "terminology_ko": "평균",
+    "terminology_en": "Mean",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "모든 점수를 합산하여 사례 수로 나눈 값으로, 집단의 중심 경향을 나타내는 가장 보편적인 대표값이다.",
+    "definition_en": "The arithmetic average of all scores in a distribution, calculated by summing all values and dividing by the number of cases, representing the most commonly used measure of central tendency.",
+    "significance": "규준 산출과 표준점수 변환의 기준점이 되며, 표준편차와 함께 점수 분포를 기술하는 가장 기본적인 통계량이다.",
+    "key_researchers": [
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "기술통계에서 평균과 표준편차를 중심으로 한 분포 기술 체계를 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "중앙값", "name_en": "Median", "id": "NORMS_MED_026"},
+      {"name_ko": "표준편차", "name_en": "Standard Deviation", "id": "NORMS_SDE_015"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "평균 = ΣX / N, 모든 점수의 '무게 중심'",
+      "differential": "평균은 모든 점수에 영향받지만 극단값에 민감하고, 중앙값은 극단값에 강건하다",
+      "key_point": "정상분포에서 평균 = 중앙값 = 최빈값이지만, 편포 분포에서는 세 값이 다르다",
+      "common_mistake": "평균만으로 분포를 충분히 기술할 수 있다고 생각하는 것 — 반드시 표준편차와 함께 보고해야 한다"
+    }
+  },
+  {
+    "id": "NORMS_MED_026",
+    "terminology": "중앙값 (Median)",
+    "terminology_ko": "중앙값",
+    "terminology_en": "Median",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "점수를 크기 순서로 나열했을 때 정확히 중간에 위치하는 값으로, 분포의 50번째 백분위에 해당하는 중심경향 측정치이다.",
+    "definition_en": "The middle value in an ordered distribution of scores, corresponding to the 50th percentile, that divides the distribution into two equal halves.",
+    "significance": "극단값의 영향을 받지 않아 편포된 분포에서 평균보다 대표값으로 더 적절하며, 백분위 산출의 기준점이 된다.",
+    "key_researchers": [
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "통계적 분포의 중심경향 측정치로서 중앙값의 활용을 대중화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "평균", "name_en": "Mean", "id": "NORMS_MEA_025"},
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "중앙값 = 정중앙, 50번째 백분위, 극단값에 무덤덤",
+      "differential": "평균은 모든 값에 영향을 받지만, 중앙값은 순서만 고려하므로 이상치에 강건하다",
+      "key_point": "정상분포에서는 평균 = 중앙값이지만, 정적 편포에서는 평균 > 중앙값이다",
+      "common_mistake": "중앙값을 범위의 중간점(최대+최소)/2와 혼동하는 것 — 중앙값은 사례 수의 중간 위치이다"
+    }
+  },
+  {
+    "id": "NORMS_SER_027",
+    "terminology": "측정의 표준오차 (Standard Error of Measurement)",
+    "terminology_ko": "측정의 표준오차",
+    "terminology_en": "Standard Error of Measurement",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "동일한 검사를 반복 실시할 때 개인의 관찰 점수가 진점수 주위에서 변동하는 정도를 나타내는 통계량으로, SEM = SD√(1-r)로 산출된다.",
+    "definition_en": "A statistic indicating the amount of variation expected in an individual's observed scores around the true score upon repeated testing, calculated as SEM = SD√(1-r).",
+    "significance": "개인의 점수를 단일 점이 아닌 신뢰구간으로 해석할 수 있게 하여, 점수 해석의 정밀성과 겸손함을 확보하는 데 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "고전검사이론에서 진점수, 오차점수, 측정의 표준오차 개념의 수학적 기초를 확립"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic M. Lord", "contribution": "측정의 표준오차와 신뢰구간 해석에 대한 이론적 정교화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준편차", "name_en": "Standard Deviation", "id": "NORMS_SDE_015"},
+      {"name_ko": "신뢰구간", "name_en": "Confidence Interval", "id": "NORMS_COI_030"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SEM = SD√(1-r) → 신뢰도(r)가 높을수록 SEM이 작아진다",
+      "differential": "표준편차는 집단 내 점수 변산성, SEM은 개인 점수의 측정 오차 범위이다",
+      "key_point": "관찰점수 ± 1SEM 내에 진점수가 있을 확률은 약 68%, ± 2SEM이면 약 95%이다",
+      "common_mistake": "SEM이 0이면 완벽한 검사라고 생각하는 것 — SEM=0은 신뢰도가 1.00일 때만 가능하다"
+    }
+  },
+  {
+    "id": "NORMS_AEQ_028",
+    "terminology": "연령등가점수 (Age Equivalent)",
+    "terminology_ko": "연령등가점수",
+    "terminology_en": "Age Equivalent",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "수검자의 원점수가 해당하는 연령 집단의 평균 원점수와 같은 연령으로 표현한 점수로, '8세 6개월 수준' 등으로 표기된다.",
+    "definition_en": "A score expressed as the age at which the individual's raw score equals the average raw score for that age group, reported in years and months (e.g., 8 years, 6 months).",
+    "significance": "직관적 이해가 용이하여 보호자나 비전문가에게 결과를 전달할 때 유용하지만, 통계적 한계로 인해 전문적 해석에서는 주의가 필요하다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "정신연령(mental age) 개념을 통해 연령등가점수의 원형을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "학년등가점수", "name_en": "Grade Equivalent", "id": "NORMS_GEQ_029"},
+      {"name_ko": "연령규준", "name_en": "Age Norms", "id": "NORMS_AGN_022"},
+      {"name_ko": "환산점수", "name_en": "Derived Score", "id": "NORMS_DRV_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "연령등가 = '이 점수는 ~세 ~개월 아이의 평균과 같다'",
+      "differential": "연령등가점수는 발달 수준의 서열적 비교이고, 편차IQ는 동일 연령 내 상대적 위치를 나타낸다",
+      "key_point": "연령등가점수는 서열척도이므로 등간격이 아니며, 극단적 점수에서의 보간·외삽이 부정확하다",
+      "common_mistake": "연령등가 8세 = 8세와 동일한 인지 구조를 가졌다고 해석하는 것 — 단순히 평균 점수가 같을 뿐이다"
+    }
+  },
+  {
+    "id": "NORMS_GEQ_029",
+    "terminology": "학년등가점수 (Grade Equivalent)",
+    "terminology_ko": "학년등가점수",
+    "terminology_en": "Grade Equivalent",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "수검자의 원점수가 해당하는 학년 집단의 평균 원점수와 같은 학년으로 표현한 점수로, '5.3학년(5학년 3개월)' 등으로 표기된다.",
+    "definition_en": "A score expressed as the grade level at which the individual's raw score equals the average raw score for that grade, reported in grade and month (e.g., 5.3 for fifth grade, third month).",
+    "significance": "학업 성취 검사에서 직관적 해석이 가능하지만, 오해의 소지가 매우 크기 때문에 전문가 단체에서 사용 자제를 권고하고 있다.",
+    "key_researchers": [
+      {"name_ko": "로버트 손다이크", "name_en": "Robert L. Thorndike", "contribution": "학년등가점수의 해석상 문제점과 오용 가능성에 대한 비판적 논의를 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "연령등가점수", "name_en": "Age Equivalent", "id": "NORMS_AEQ_028"},
+      {"name_ko": "학년규준", "name_en": "Grade Norms", "id": "NORMS_GRN_023"},
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "학년등가 = '이 점수는 ~학년 ~개월 학생의 평균과 같다'",
+      "differential": "학년등가점수는 해석 오류가 많아 비판받지만, 백분위나 표준점수는 상대적으로 해석이 명확하다",
+      "key_point": "3학년 학생의 학년등가 6.0은 6학년 수준을 이수했다는 의미가 아니라, 3학년 내용에서 매우 높은 점수라는 의미이다",
+      "common_mistake": "학년등가 6.0인 3학년 학생을 6학년에 배치해야 한다고 해석하는 것 — 이는 점수의 오용이다"
+    }
+  },
+  {
+    "id": "NORMS_COI_030",
+    "terminology": "신뢰구간 (Confidence Interval)",
+    "terminology_ko": "신뢰구간",
+    "terminology_en": "Confidence Interval",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "개인의 진점수가 포함될 것으로 기대되는 점수 범위로, 관찰점수를 중심으로 측정의 표준오차를 이용하여 산출된다.",
+    "definition_en": "A range of scores within which an individual's true score is expected to fall with a specified probability, calculated using the observed score and the standard error of measurement.",
+    "significance": "검사 점수를 단일 고정 점수가 아닌 범위로 해석함으로써, 측정 오차를 고려한 겸손하고 정확한 검사 결과 보고를 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "예르지 네이만", "name_en": "Jerzy Neyman", "contribution": "신뢰구간 개념을 통계학에서 최초로 공식화(1937)"},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic M. Lord", "contribution": "심리측정에서의 신뢰구간 적용과 점수 해석에 대한 이론적 기초를 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "측정의 표준오차", "name_en": "Standard Error of Measurement", "id": "NORMS_SER_027"},
+      {"name_ko": "표준편차", "name_en": "Standard Deviation", "id": "NORMS_SDE_015"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "68% 신뢰구간",
+        "name_en": "68% Confidence Interval",
+        "definition": "관찰점수 ± 1SEM 범위로, 진점수가 이 범위 안에 있을 확률이 약 68%이다"
+      },
+      {
+        "name_ko": "95% 신뢰구간",
+        "name_en": "95% Confidence Interval",
+        "definition": "관찰점수 ± 1.96SEM 범위로, 진점수가 이 범위 안에 있을 확률이 약 95%이다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "95% 신뢰구간 = 관찰점수 ± 1.96 × SEM → '대략 ±2SEM'",
+      "differential": "신뢰구간은 개인 점수의 불확실성 범위이고, 표준편차는 집단 점수의 산포도이다",
+      "key_point": "현대 검사 보고에서는 단일 점수보다 신뢰구간 함께 보고가 권장된다 (예: IQ 105, 95% CI: 100-110)",
+      "common_mistake": "95% 신뢰구간을 '진점수가 이 범위 안에 있을 확률이 95%'로 해석하는 것 — 엄밀히는 빈도론적 해석이 필요하다"
+    }
+  },
+  {
+    "id": "NORMS_NZS_024",
+    "terminology": "정상화 표준점수 (Normalized Standard Score)",
+    "terminology_ko": "정상화 표준점수",
+    "terminology_en": "Normalized Standard Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "원점수를 백분위로 변환한 후 정상분포표를 이용하여 Z점수로 재변환하여 얻는 표준점수로, 원 분포가 정상분포가 아니더라도 정상분포 형태를 갖게 된다.",
+    "definition_en": "A standard score derived by converting raw scores to percentile ranks and then to z-scores using a normal distribution table, yielding a normally distributed score regardless of the original distribution shape.",
+    "significance": "원점수 분포가 편포되거나 정상분포에서 벗어날 때 정상분포 기반의 해석 체계를 적용할 수 있게 해주는 중요한 변환 방법이다.",
+    "key_researchers": [
+      {"name_ko": "해롤드 걸릭슨", "name_en": "Harold Gulliksen", "contribution": "심리측정에서의 점수 정상화 절차를 이론적으로 체계화"},
+      {"name_ko": "윌리엄 맥콜", "name_en": "William A. McCall", "contribution": "정상화 T점수를 제안하여 실용적 점수 변환 방법을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비선형변환", "name_en": "Nonlinear Transformation", "id": "NORMS_NLT_018"},
+      {"name_ko": "Z점수", "name_en": "Z-Score", "id": "NORMS_ZSC_007"},
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": "NORMS_NDI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정상화 = 원점수 → 백분위 → 정상분포 Z값 → '강제 정상분포'",
+      "differential": "일반 Z점수는 선형변환(분포 유지), 정상화 Z점수는 비선형변환(정상분포로 변환)이다",
+      "key_point": "표본이 충분히 크고 대표적일 때만 정상화가 의미가 있다",
+      "common_mistake": "선형 T점수와 정상화 T점수를 구분하지 못하는 것 — 원 분포가 정상분포이면 둘은 동일하다"
+    }
+  },
+  {
+    "id": "NORMS_FLE_025",
+    "terminology": "플린효과 (Flynn Effect)",
+    "terminology_ko": "플린효과",
+    "terminology_en": "Flynn Effect",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "세대에 걸쳐 IQ 검사 점수가 지속적으로 상승하는 현상으로, 대략 10년에 약 3점씩 상승하여 규준의 주기적 재표준화 필요성을 시사한다.",
+    "definition_en": "The well-documented observation that IQ test scores have been steadily rising across generations, averaging approximately 3 points per decade, necessitating periodic re-norming of intelligence tests.",
+    "significance": "오래된 규준을 사용하면 IQ가 과대추정되어 진단(예: 지적장애 판별)에 오류가 발생할 수 있으므로, 규준의 시의성(currency) 문제를 부각시킨다.",
+    "key_researchers": [
+      {"name_ko": "제임스 플린", "name_en": "James R. Flynn", "contribution": "전 세계 14개국의 IQ 검사 자료를 분석하여 세대 간 IQ 상승 현상을 체계적으로 문서화(1984, 1987)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전국규준", "name_en": "National Norms", "id": "NORMS_NAT_021"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "NORMS_STD_004"},
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "NORMS_DIQ_012"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Flynn = Fly(날다) → IQ 점수가 세대마다 '날아오른다', 10년에 약 3점",
+      "differential": "플린효과는 세대 간 점수 상승 현상이고, 연습효과는 동일 개인의 반복 시행 점수 상승이다",
+      "key_point": "오래된 규준 사용 시 IQ 과대추정 → 지적장애 판별에서 사형수의 IQ 관련 법적 쟁점과도 관련",
+      "common_mistake": "플린효과가 실제 지능의 상승을 의미한다고 단정하는 것 — 영양, 교육, 검사 친숙도 등 다양한 원인이 있다"
+    }
+  },
+  {
+    "id": "NORMS_FLR_026",
+    "terminology": "바닥효과 (Floor Effect)",
+    "terminology_ko": "바닥효과",
+    "terminology_en": "Floor Effect",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "검사가 너무 어려워서 다수의 수검자가 최저점 또는 그에 근접한 점수를 받아, 낮은 능력 수준에서의 개인차를 변별하지 못하는 현상이다.",
+    "definition_en": "A phenomenon occurring when a test is too difficult for the examinees, causing many to score at or near the minimum, thereby failing to differentiate among individuals at lower ability levels.",
+    "significance": "바닥효과가 나타나면 하위 수준의 능력 차이를 변별할 수 없어, 특히 지적장애의 중증도 분류나 발달 지연 평가에서 문제가 된다.",
+    "key_researchers": [
+      {"name_ko": "로버트 그레고리", "name_en": "Robert J. Gregory", "contribution": "천장효과와 바닥효과의 검사 개발 및 해석에서의 영향을 체계적으로 논의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "천장효과", "name_en": "Ceiling Effect", "id": "NORMS_CEI_024"},
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "바닥효과 = 점수가 '바닥'에 깔려서 더 내려갈 수 없음",
+      "differential": "바닥효과는 아래쪽에서 변별 불가, 천장효과는 위쪽에서 변별 불가이다",
+      "key_point": "영·유아용 발달 검사나 저연령용 지능검사에서 바닥효과가 나타나면 발달 지연의 정도를 정확히 평가할 수 없다",
+      "common_mistake": "바닥효과를 수검자의 능력이 0이라는 의미로 해석하는 것 — 검사의 측정 범위 한계일 뿐이다"
+    }
+  },
+  {
+    "id": "NORMS_NZS_027",
+    "terminology": "규준참조검사 (Norm-Referenced Test)",
+    "terminology_ko": "규준참조검사",
+    "terminology_en": "Norm-Referenced Test",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "개인의 검사 점수를 규준집단의 점수 분포와 비교하여 상대적 위치로 해석하는 검사로, 대부분의 표준화된 심리검사가 이에 해당한다.",
+    "definition_en": "A test in which an individual's score is interpreted by comparing it to the performance of a normative group, determining the individual's relative standing within that group.",
+    "significance": "개인 간 비교가 목적인 선발, 배치, 분류, 진단 상황에서 필수적이며, 심리검사의 가장 보편적인 해석 체계이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 글레이저", "name_en": "Robert Glaser", "contribution": "1963년 규준참조검사와 준거참조검사의 구분 개념을 최초로 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "준거참조검사", "name_en": "Criterion-Referenced Test", "id": "NORMS_CRT_028"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "NORMS_STD_004"},
+      {"name_ko": "백분위", "name_en": "Percentile Rank", "id": "NORMS_PCT_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "규준참조 = '남들과 비교해서 어디쯤인가'",
+      "differential": "규준참조는 '상대적 위치(누가 더 잘했나)', 준거참조는 '절대적 도달(기준에 도달했나)'이 초점이다",
+      "key_point": "대부분의 지능검사, 성격검사, 적성검사가 규준참조검사이다",
+      "common_mistake": "규준참조검사가 준거참조검사보다 항상 우월하다고 생각하는 것 — 검사 목적에 따라 적절한 유형이 다르다"
+    }
+  },
+  {
+    "id": "NORMS_CRT_028",
+    "terminology": "준거참조검사 (Criterion-Referenced Test)",
+    "terminology_ko": "준거참조검사",
+    "terminology_en": "Criterion-Referenced Test",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "미리 설정된 절대적 기준(준거)에 도달했는지 여부를 판단하는 검사로, 다른 수검자와의 비교가 아닌 특정 내용 영역의 숙달 정도를 평가한다.",
+    "definition_en": "A test designed to determine whether an individual has achieved a predetermined standard of performance, focusing on mastery of specific content rather than comparison to others.",
+    "significance": "교육 현장에서의 숙달도 평가, 자격증 시험, 최소 역량 판단 등에 적합하며, 규준참조와 보완적으로 사용된다.",
+    "key_researchers": [
+      {"name_ko": "로버트 글레이저", "name_en": "Robert Glaser", "contribution": "준거참조검사(criterion-referenced test) 개념을 1963년 최초 제안"},
+      {"name_ko": "제임스 포펌", "name_en": "W. James Popham", "contribution": "준거참조검사의 개발 절차와 교육적 활용에 대한 체계적 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준참조검사", "name_en": "Norm-Referenced Test", "id": "NORMS_NZS_027"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"},
+      {"name_ko": "환산점수", "name_en": "Derived Score", "id": "NORMS_DRV_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "준거참조 = '기준에 도달했나, 못했나'의 판단",
+      "differential": "준거참조는 '무엇을 할 수 있는가'에 초점, 규준참조는 '누구보다 잘/못했는가'에 초점이다",
+      "key_point": "운전면허 시험, 자격증 시험 등이 대표적 준거참조검사이다",
+      "common_mistake": "준거참조검사에는 규준이 전혀 필요 없다고 생각하는 것 — 절단점 설정 등에 규준 정보가 참고될 수 있다"
+    }
+  },
+  {
+    "id": "NORMS_BSC_029",
+    "terminology": "기저선점수 (Basal Score)",
+    "terminology_ko": "기저선점수",
+    "terminology_en": "Basal Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "개별 실시 검사에서 수검자가 특정 수의 연속 문항을 모두 맞힌 시작점으로, 이 수준 이하의 모든 문항은 맞힌 것으로 가정하는 규칙이다.",
+    "definition_en": "The level at which an examinee correctly answers a specified number of consecutive items in an individually administered test, below which all items are assumed to be correct.",
+    "significance": "검사 시간을 단축하고 수검자의 좌절감을 줄이면서 정확한 점수 산출을 가능하게 하는 개별 검사의 핵심 실시 규칙이다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "비네-시몽 검사에서 기저연령(basal age) 개념을 최초로 적용"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "웩슬러 지능검사에서 기저선-한계선 규칙을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "한계선점수", "name_en": "Ceiling Score", "id": "NORMS_CSC_030"},
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"},
+      {"name_ko": "연령규준", "name_en": "Age Norms", "id": "NORMS_AGN_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기저선 = '바닥(base)' → 이 아래는 다 맞았다고 가정하는 시작점",
+      "differential": "기저선은 '시작점(다 맞힌 수준)', 한계선은 '종료점(다 틀린 수준)'으로 서로 반대이다",
+      "key_point": "기저선이 확립되지 않으면 더 쉬운 문항으로 역행(reverse)하여 기저선을 찾아야 한다",
+      "common_mistake": "기저선 아래 문항을 실시하지 않았으므로 0점 처리하는 것 — 반대로 모두 정답으로 가정한다"
+    }
+  },
+  {
+    "id": "NORMS_CSC_030",
+    "terminology": "한계선점수 (Ceiling Score)",
+    "terminology_ko": "한계선점수",
+    "terminology_en": "Ceiling Score",
+    "category": "NORMS",
+    "category_name": "규준과 점수 해석 (Norms & Score Interpretation)",
+    "definition": "개별 실시 검사에서 수검자가 특정 수의 연속 문항을 모두 틀린 종료점으로, 이 수준 이상의 모든 문항은 틀린 것으로 가정하고 검사를 중단하는 규칙이다.",
+    "definition_en": "The level at which an examinee fails a specified number of consecutive items in an individually administered test, above which all items are assumed incorrect and testing is discontinued.",
+    "significance": "불필요한 어려운 문항 실시를 방지하여 수검자의 좌절감을 최소화하고, 검사 시간을 효율적으로 관리할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "웩슬러 지능검사에서 체계적인 중단 규칙(discontinue rule)을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "기저선점수", "name_en": "Basal Score", "id": "NORMS_BSC_029"},
+      {"name_ko": "천장효과", "name_en": "Ceiling Effect", "id": "NORMS_CEI_024"},
+      {"name_ko": "원점수", "name_en": "Raw Score", "id": "NORMS_RAW_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "한계선 = '한계(ceiling)' → 이 위는 다 틀렸다고 가정하고 중단",
+      "differential": "한계선점수는 실시 규칙(중단 기준)이고, 천장효과는 검사 자체의 난이도 한계 현상이다",
+      "key_point": "한계선에 도달하면 이후 문항을 실시하지 않고 모두 0점 처리한다",
+      "common_mistake": "한계선 규칙을 무시하고 모든 문항을 끝까지 실시하는 것 — 표준화된 실시 절차를 위반하게 된다"
+    }
+  }
+]

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="다양한 분야의 전문 용어를 게임으로 즐겁게 학습하는 플랫폼">
+  <title>PsyQuiz — 게임으로 배우는 전문 용어</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">본문 바로가기</a>
+
+  <!-- 다크모드 토글 (고정) -->
+  <button class="btn-theme-float" id="btn-theme" aria-label="다크모드 전환">
+    <span id="theme-icon">🌙</span>
+  </button>
+
+  <main id="main-content">
+
+    <!-- Hero 섹션 -->
+    <section class="hero">
+      <div class="hero-icon">🎓</div>
+      <h1 class="hero-title">PsyQuiz</h1>
+      <p class="hero-subtitle">다양한 분야의 전문 용어를 게임으로 즐겁게 학습하세요</p>
+      <div class="hero-features">
+        <div class="feature-chip">🎮 10종 게임</div>
+        <div class="feature-chip">📚 전문 용어</div>
+        <div class="feature-chip">📊 학습 추적</div>
+        <div class="feature-chip">🌙 다크모드</div>
+      </div>
+    </section>
+
+    <!-- 과목 섹션 -->
+    <section class="courses-section">
+
+      <!-- 분야: 심리학 -->
+      <div class="field-group">
+        <div class="field-header">
+          <span class="field-icon">🧠</span>
+          <div>
+            <h2 class="field-title">심리학</h2>
+            <span class="field-title-en">Psychology</span>
+          </div>
+          <span class="field-count">3개 과목</span>
+        </div>
+
+        <div class="course-grid">
+          <!-- 심리학개론 -->
+          <a href="./intro_psychology/" class="course-card" data-status="complete">
+            <div class="course-card-badge badge-complete">✅ 완료</div>
+            <div class="course-card-icon">🧠</div>
+            <h3 class="course-card-title">심리학개론</h3>
+            <p class="course-card-title-en">Introduction to Psychology</p>
+            <div class="course-card-meta">
+              <span>456개 용어</span>
+              <span>15개 카테고리</span>
+              <span>10종 게임</span>
+            </div>
+          </a>
+
+          <!-- 심리검사 -->
+          <a href="./psy_testing/" class="course-card" data-status="complete">
+            <div class="course-card-badge badge-complete">✅ 완료</div>
+            <div class="course-card-icon">📐</div>
+            <h3 class="course-card-title">심리검사</h3>
+            <p class="course-card-title-en">Psychological Testing</p>
+            <div class="course-card-meta">
+              <span>413개 용어</span>
+              <span>14개 카테고리</span>
+              <span>10종 게임</span>
+            </div>
+          </a>
+
+          <!-- 이상심리학 -->
+          <a href="./abnormal_psychology/" class="course-card" data-status="dev">
+            <div class="course-card-badge badge-dev">🔧 개발중</div>
+            <div class="course-card-icon">🩺</div>
+            <h3 class="course-card-title">이상심리학</h3>
+            <p class="course-card-title-en">Abnormal Psychology</p>
+            <div class="course-card-meta">
+              <span>13개 카테고리</span>
+              <span>10종 게임</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- 향후 분야 플레이스홀더 -->
+      <div class="field-group field-placeholder">
+        <div class="field-header">
+          <span class="field-icon">✨</span>
+          <div>
+            <h2 class="field-title">더 많은 분야</h2>
+            <span class="field-title-en">Coming Soon</span>
+          </div>
+        </div>
+        <p class="placeholder-text">교육학, 사회복지학, 상담학 등 다양한 분야의 과목이 추가될 예정입니다.<br>아래에서 원하시는 과목을 신청해 주세요!</p>
+      </div>
+
+    </section>
+
+    <!-- 신청 게시판 -->
+    <section class="request-section" id="request-section">
+      <h2 class="section-title">✋ 이런 과목도 만들어주세요!</h2>
+      <p class="section-desc">배우고 싶은 과목을 신청하면 다른 사용자들이 동의할 수 있습니다. 많은 동의를 받은 과목부터 우선 개발됩니다.</p>
+
+      <!-- 신청 입력 폼 -->
+      <form class="request-form" id="request-form">
+        <div class="form-row">
+          <label for="request-title" class="form-label">과목명</label>
+          <input type="text" id="request-title" class="form-input" placeholder="예: 발달심리학, 사회심리학, 교육심리학..." maxlength="50" required>
+        </div>
+        <div class="form-row">
+          <label for="request-desc" class="form-label">신청 사유 (선택)</label>
+          <textarea id="request-desc" class="form-textarea" placeholder="이 과목이 필요한 이유를 간단히 적어주세요..." maxlength="200" rows="2"></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-submit" id="btn-submit">
+          📮 신청하기
+        </button>
+      </form>
+
+      <!-- 신청 목록 -->
+      <div class="request-list" id="request-list">
+        <div class="request-loading" id="request-loading">불러오는 중...</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 PsyQuiz &mdash; 게임으로 배우는 전문 용어</p>
+  </footer>
+
+  <!-- Firebase SDK (compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

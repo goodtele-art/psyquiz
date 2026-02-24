@@ -1,0 +1,914 @@
+[
+  {
+    "id": "COGN_CONCEPT_001",
+    "terminology": "개념 (Concept)",
+    "terminology_ko": "개념",
+    "terminology_en": "Concept",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "공통된 속성을 가진 대상, 사건, 아이디어 등을 하나의 범주로 묶어주는 심적 표상으로, 사고의 기본 단위이다",
+    "definition_en": "A mental grouping of similar objects, events, ideas, or people that share common properties, serving as the building blocks of thinking",
+    "significance": "개념은 인지적 경제성을 제공하여, 매번 새로운 자극을 처음부터 분석하지 않고도 세상을 효율적으로 이해하고 범주화할 수 있게 한다",
+    "key_researchers": [
+      {"name_ko": "엘리너 로쉬", "name_en": "Eleanor Rosch", "contribution": "자연 범주의 내적 구조와 원형이론을 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "원형", "name_en": "Prototype", "id": "COGN_PROTO_002"},
+      {"name_ko": "범주화", "name_en": "Categorization", "id": "COGN_CATEG_003"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "자연 개념",
+        "name_en": "Natural Concept",
+        "definition": "일상 경험에서 자연스럽게 형성되며 경계가 모호한 개념"
+      },
+      {
+        "name_ko": "인공 개념",
+        "name_en": "Artificial Concept",
+        "definition": "명확한 규칙이나 특성에 의해 정의되는 개념"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "개념 = 생각의 폴더: 비슷한 것끼리 묶어 정리하는 머릿속 파일 시스템",
+      "differential": "개념은 범주 자체를 의미하고, 원형은 그 범주의 가장 전형적인 사례를 의미한다",
+      "key_point": "개념 형성은 추상화 과정이며, 사고의 효율성을 위해 필수적이다",
+      "common_mistake": "개념을 단순한 단어의 의미로 한정하는 것 — 개념은 언어 이전에도 존재하는 심적 표상이다"
+    }
+  },
+  {
+    "id": "COGN_PROTO_002",
+    "terminology": "원형 (Prototype)",
+    "terminology_ko": "원형",
+    "terminology_en": "Prototype",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "특정 범주를 가장 잘 대표하는 전형적인 사례로, 범주 판단의 기준점 역할을 한다",
+    "definition_en": "The best or most typical example of a particular category, used as a cognitive reference point for categorization judgments",
+    "significance": "원형이론은 인간이 범주를 고전적 정의가 아닌 유사성에 기반하여 판단한다는 것을 보여주며, 인지심리학의 범주화 연구에 핵심적 토대를 제공한다",
+    "key_researchers": [
+      {"name_ko": "엘리너 로쉬", "name_en": "Eleanor Rosch", "contribution": "원형이론을 제안하고, 범주 구성원 간 전형성 등급이 존재함을 실증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "개념", "name_en": "Concept", "id": "COGN_CONCEPT_001"},
+      {"name_ko": "전형성 효과", "name_en": "Typicality Effect", "id": "COGN_TYPIC_004"},
+      {"name_ko": "범주화", "name_en": "Categorization", "id": "COGN_CATEG_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'새'의 원형 = 참새(전형적) vs. 펭귄(비전형적)",
+      "differential": "원형은 '가장 전형적인 사례'이고, 본보기(exemplar)는 '실제 기억된 개별 사례'이다",
+      "key_point": "원형에 가까울수록 범주 판단이 빠르고 정확하다",
+      "common_mistake": "원형이 범주의 평균이라고 생각하는 것 — 원형은 가장 전형적인 사례이지 통계적 평균이 아니다"
+    }
+  },
+  {
+    "id": "COGN_CATEG_003",
+    "terminology": "범주화 (Categorization)",
+    "terminology_ko": "범주화",
+    "terminology_en": "Categorization",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "대상이나 사건을 공통 속성에 따라 범주로 분류하는 인지 과정으로, 복잡한 세상을 단순화하여 이해할 수 있게 한다",
+    "definition_en": "The cognitive process of classifying objects or events into categories based on shared features, simplifying the complexity of the world for efficient understanding",
+    "significance": "범주화는 인지적 경제성의 핵심으로, 새로운 자극을 기존 지식 구조에 연결하여 빠른 추론과 예측을 가능하게 한다",
+    "key_researchers": [
+      {"name_ko": "엘리너 로쉬", "name_en": "Eleanor Rosch", "contribution": "기본 수준 범주(basic-level category)의 인지적 우위를 밝혀냈다"},
+      {"name_ko": "제롬 브루너", "name_en": "Jerome Bruner", "contribution": "개념 형성 전략에 관한 초기 실험적 연구를 수행하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "개념", "name_en": "Concept", "id": "COGN_CONCEPT_001"},
+      {"name_ko": "원형", "name_en": "Prototype", "id": "COGN_PROTO_002"},
+      {"name_ko": "전형성 효과", "name_en": "Typicality Effect", "id": "COGN_TYPIC_004"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "상위 범주",
+        "name_en": "Superordinate Category",
+        "definition": "가장 넓은 범위의 범주 (예: 동물)"
+      },
+      {
+        "name_ko": "기본 수준 범주",
+        "name_en": "Basic-Level Category",
+        "definition": "일상적으로 가장 자주 사용되는 범주 (예: 개)"
+      },
+      {
+        "name_ko": "하위 범주",
+        "name_en": "Subordinate Category",
+        "definition": "가장 구체적인 범주 (예: 골든 리트리버)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "범주화 = 머릿속 서랍장 정리: 비슷한 것끼리 같은 서랍에",
+      "differential": "범주화는 '분류 과정'이고, 개념은 '분류의 결과물(심적 표상)'이다",
+      "key_point": "기본 수준 범주(예: '의자')가 인지적으로 가장 효율적이며 가장 먼저 습득된다",
+      "common_mistake": "범주화가 항상 의식적 과정이라고 생각하는 것 — 대부분 자동적으로 일어난다"
+    }
+  },
+  {
+    "id": "COGN_TYPIC_004",
+    "terminology": "전형성 효과 (Typicality Effect)",
+    "terminology_ko": "전형성 효과",
+    "terminology_en": "Typicality Effect",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "범주의 전형적인 구성원이 비전형적인 구성원보다 더 빠르고 정확하게 범주에 속하는 것으로 판단되는 현상이다",
+    "definition_en": "The phenomenon that typical members of a category are recognized more quickly and accurately as belonging to that category than atypical members",
+    "significance": "인간의 범주 표상이 고정된 정의가 아니라 등급화된 구조를 가지고 있음을 보여주며, 원형이론의 핵심 증거이다",
+    "key_researchers": [
+      {"name_ko": "엘리너 로쉬", "name_en": "Eleanor Rosch", "contribution": "범주 구성원의 전형성 등급을 실험적으로 측정하고 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "원형", "name_en": "Prototype", "id": "COGN_PROTO_002"},
+      {"name_ko": "범주화", "name_en": "Categorization", "id": "COGN_CATEG_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'새'라고 하면 참새가 먼저 떠오르는 이유 = 전형성 효과",
+      "differential": "전형성 효과는 '반응 속도/정확도의 차이'이고, 원형은 '가장 전형적인 사례 자체'이다",
+      "key_point": "전형적 구성원일수록 범주 판단이 빠르다 — 이는 범주 구조가 등급화되어 있음을 시사한다",
+      "common_mistake": "전형성이 빈도와 동일하다고 생각하는 것 — 빈도도 영향을 주지만 전형성은 속성의 대표성에 더 관련된다"
+    }
+  },
+  {
+    "id": "COGN_ALGO_005",
+    "terminology": "알고리즘 (Algorithm)",
+    "terminology_ko": "알고리즘",
+    "terminology_en": "Algorithm",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "문제 해결을 보장하는 체계적이고 논리적인 절차로, 모든 가능한 해결책을 단계적으로 탐색한다",
+    "definition_en": "A methodical, logical rule or procedure that guarantees solving a particular problem by exhaustively exploring all possible solutions step by step",
+    "significance": "알고리즘은 정확한 해답을 보장하지만 시간과 자원이 많이 소요되므로, 인간은 일상에서 이보다 휴리스틱에 더 많이 의존한다",
+    "key_researchers": [
+      {"name_ko": "앨런 뉴웰", "name_en": "Allen Newell", "contribution": "허버트 사이먼과 함께 인간의 문제 해결 과정을 정보처리 관점에서 분석하였다"},
+      {"name_ko": "허버트 사이먼", "name_en": "Herbert Simon", "contribution": "제한된 합리성 개념을 통해 인간이 알고리즘 대신 휴리스틱을 사용하는 이유를 설명하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발견법(휴리스틱)", "name_en": "Heuristic", "id": "COGN_HEUR_006"},
+      {"name_ko": "문제해결 전략", "name_en": "Problem-Solving Strategy", "id": "COGN_PROBSOLV_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "알고리즘 = 모든 열쇠를 하나씩 다 시도해서 반드시 문을 여는 방법",
+      "differential": "알고리즘은 해답을 '보장'하지만 느리고, 휴리스틱은 '빠르지만' 오류 가능성이 있다",
+      "key_point": "알고리즘 vs. 휴리스틱 비교는 시험 단골 문제이다",
+      "common_mistake": "알고리즘이 항상 효율적이라고 생각하는 것 — 복잡한 문제에서는 비현실적으로 오래 걸릴 수 있다"
+    }
+  },
+  {
+    "id": "COGN_HEUR_006",
+    "terminology": "발견법/휴리스틱 (Heuristic)",
+    "terminology_ko": "발견법(휴리스틱)",
+    "terminology_en": "Heuristic",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "빠른 판단과 의사결정을 가능하게 하는 간편한 심적 지름길로, 대체로 유용하지만 체계적 오류(편향)를 유발할 수 있다",
+    "definition_en": "A simple thinking strategy or mental shortcut that allows quick judgments and decisions; generally useful but can lead to systematic errors (biases)",
+    "significance": "인간이 제한된 인지 자원으로 복잡한 세상에서 효율적으로 판단하는 방식을 설명하며, 행동경제학과 의사결정 연구의 핵심 개념이다",
+    "key_researchers": [
+      {"name_ko": "다니엘 카너먼", "name_en": "Daniel Kahneman", "contribution": "아모스 트버스키와 함께 휴리스틱과 편향 연구 프로그램을 개척하였다"},
+      {"name_ko": "아모스 트버스키", "name_en": "Amos Tversky", "contribution": "카너먼과 함께 가용성, 대표성, 앵커링 휴리스틱을 체계적으로 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "알고리즘", "name_en": "Algorithm", "id": "COGN_ALGO_005"},
+      {"name_ko": "가용성 휴리스틱", "name_en": "Availability Heuristic", "id": "COGN_AVAIL_007"},
+      {"name_ko": "대표성 휴리스틱", "name_en": "Representativeness Heuristic", "id": "COGN_REPRES_008"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "가용성 휴리스틱",
+        "name_en": "Availability Heuristic",
+        "definition": "쉽게 떠오르는 사례에 기반하여 빈도나 확률을 판단하는 방법"
+      },
+      {
+        "name_ko": "대표성 휴리스틱",
+        "name_en": "Representativeness Heuristic",
+        "definition": "특정 원형이나 범주와의 유사성에 기반하여 판단하는 방법"
+      },
+      {
+        "name_ko": "앵커링과 조정",
+        "name_en": "Anchoring and Adjustment",
+        "definition": "초기 기준점에서 출발하여 불충분하게 조정하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "휴리스틱 = 심적 지름길(빠르지만 가끔 잘못된 길로)",
+      "differential": "휴리스틱은 '전략/지름길' 자체이고, 편향은 휴리스틱으로 인해 발생하는 '체계적 오류'이다",
+      "key_point": "카너먼과 트버스키가 제안한 3대 휴리스틱: 가용성, 대표성, 앵커링",
+      "common_mistake": "휴리스틱이 항상 나쁜 것이라고 생각하는 것 — 대부분의 상황에서는 효율적이고 적응적이다"
+    }
+  },
+  {
+    "id": "COGN_AVAIL_007",
+    "terminology": "가용성 휴리스틱 (Availability Heuristic)",
+    "terminology_ko": "가용성 휴리스틱",
+    "terminology_en": "Availability Heuristic",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "어떤 사건의 빈도나 확률을 판단할 때, 관련 사례가 기억에서 얼마나 쉽게 떠오르는지에 의존하는 판단 전략이다",
+    "definition_en": "The tendency to estimate the likelihood or frequency of an event based on how easily instances come to mind, rather than on actual statistical probability",
+    "significance": "미디어에 의해 과대 보도되는 사건(비행기 사고, 상어 공격 등)의 위험을 과대 추정하는 현상을 설명하며, 위험 인지 연구의 핵심이다",
+    "key_researchers": [
+      {"name_ko": "아모스 트버스키", "name_en": "Amos Tversky", "contribution": "카너먼과 함께 가용성 휴리스틱의 개념을 제안하고 실험적으로 입증하였다"},
+      {"name_ko": "다니엘 카너먼", "name_en": "Daniel Kahneman", "contribution": "가용성 휴리스틱이 빈도 판단에 미치는 체계적 편향을 규명하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발견법(휴리스틱)", "name_en": "Heuristic", "id": "COGN_HEUR_006"},
+      {"name_ko": "대표성 휴리스틱", "name_en": "Representativeness Heuristic", "id": "COGN_REPRES_008"},
+      {"name_ko": "프레이밍 효과", "name_en": "Framing Effect", "id": "COGN_FRAME_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "뉴스에서 비행기 사고를 많이 보면 → 비행기가 자동차보다 위험하다고 오판",
+      "differential": "가용성은 '떠올리기 쉬운 것'에 의존, 대표성은 '전형적인 것과의 유사성'에 의존한다",
+      "key_point": "생생하고 감정적인 사건일수록 가용성이 높아져 빈도를 과대 추정한다",
+      "common_mistake": "가용성 휴리스틱과 대표성 휴리스틱을 혼동하는 것 — 가용성은 '쉽게 떠오르는 정도', 대표성은 '전형과의 유사성'"
+    }
+  },
+  {
+    "id": "COGN_REPRES_008",
+    "terminology": "대표성 휴리스틱 (Representativeness Heuristic)",
+    "terminology_ko": "대표성 휴리스틱",
+    "terminology_en": "Representativeness Heuristic",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "대상이 특정 범주의 전형적인 구성원과 얼마나 유사한지에 기반하여 그 범주에 속할 확률을 판단하는 전략이다",
+    "definition_en": "The tendency to judge the probability that something belongs to a category by how well it matches the prototype of that category, often ignoring base-rate information",
+    "significance": "기저율 무시(base-rate neglect)와 결합 오류(conjunction fallacy) 등 체계적 판단 오류를 설명하며, 고정관념의 인지적 기제를 이해하는 데 기여한다",
+    "key_researchers": [
+      {"name_ko": "다니엘 카너먼", "name_en": "Daniel Kahneman", "contribution": "대표성 휴리스틱에 의한 기저율 무시 현상을 실험적으로 입증하였다"},
+      {"name_ko": "아모스 트버스키", "name_en": "Amos Tversky", "contribution": "린다 문제(Linda problem)로 결합 오류를 보여주었다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발견법(휴리스틱)", "name_en": "Heuristic", "id": "COGN_HEUR_006"},
+      {"name_ko": "가용성 휴리스틱", "name_en": "Availability Heuristic", "id": "COGN_AVAIL_007"},
+      {"name_ko": "확인 편향", "name_en": "Confirmation Bias", "id": "COGN_CONFBIAS_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "린다 문제: 린다가 은행원일 확률 vs. 페미니스트 은행원일 확률 → 후자가 더 높다고 오판",
+      "differential": "대표성은 '전형과의 유사성'에 의존, 가용성은 '기억에서 떠오르는 쉬움'에 의존한다",
+      "key_point": "대표성 휴리스틱은 기저율(base rate)을 무시하게 만든다",
+      "common_mistake": "대표성 판단이 항상 틀리다고 생각하는 것 — 전형성은 종종 실제 확률과 상관이 있다"
+    }
+  },
+  {
+    "id": "COGN_CONFBIAS_009",
+    "terminology": "확인 편향 (Confirmation Bias)",
+    "terminology_ko": "확인 편향",
+    "terminology_en": "Confirmation Bias",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "자신의 기존 신념이나 가설을 지지하는 정보를 선택적으로 탐색, 해석, 기억하고, 반대 증거는 무시하거나 과소평가하는 경향이다",
+    "definition_en": "The tendency to search for, interpret, favor, and recall information in a way that confirms one's preexisting beliefs or hypotheses, while giving disproportionately less attention to disconfirming evidence",
+    "significance": "과학적 사고, 의사결정, 정치적 판단 등 거의 모든 영역에 영향을 미치며, 비판적 사고 교육의 핵심 주제이다",
+    "key_researchers": [
+      {"name_ko": "피터 웨이슨", "name_en": "Peter Wason", "contribution": "웨이슨 선택 과제(Wason selection task)를 통해 확인 편향을 실험적으로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "과신 편향", "name_en": "Overconfidence Bias", "id": "COGN_OVERCONF_014"},
+      {"name_ko": "기능적 고착", "name_en": "Functional Fixedness", "id": "COGN_FUNCFIX_012"},
+      {"name_ko": "심적 고착", "name_en": "Mental Set", "id": "COGN_MENTSET_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내 생각이 맞다는 증거만 골라보는 '편식적 사고'",
+      "differential": "확인 편향은 '증거 탐색/해석의 편향'이고, 과신 편향은 '자기 판단에 대한 과도한 확신'이다",
+      "key_point": "과학적 방법론은 확인 편향을 극복하기 위해 반증(falsification)을 강조한다",
+      "common_mistake": "확인 편향이 의도적 행동이라고 생각하는 것 — 대부분 무의식적으로 작동한다"
+    }
+  },
+  {
+    "id": "COGN_ANCHOR_010",
+    "terminology": "고정효과/앵커링 (Anchoring Effect)",
+    "terminology_ko": "고정효과(앵커링)",
+    "terminology_en": "Anchoring Effect",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "처음에 제시된 정보(닻/기준점)에 과도하게 의존하여 이후의 판단이나 추정에서 불충분하게 조정하는 경향이다",
+    "definition_en": "The cognitive bias of relying too heavily on the first piece of information encountered (the 'anchor') when making subsequent judgments, leading to insufficient adjustment",
+    "significance": "협상, 가격 책정, 법적 판결 등 실생활의 다양한 의사결정에 큰 영향을 미치며, 행동경제학의 핵심 개념이다",
+    "key_researchers": [
+      {"name_ko": "아모스 트버스키", "name_en": "Amos Tversky", "contribution": "카너먼과 함께 앵커링과 조정 휴리스틱을 체계적으로 기술하였다"},
+      {"name_ko": "다니엘 카너먼", "name_en": "Daniel Kahneman", "contribution": "앵커링 효과의 메커니즘과 광범위한 영향을 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발견법(휴리스틱)", "name_en": "Heuristic", "id": "COGN_HEUR_006"},
+      {"name_ko": "프레이밍 효과", "name_en": "Framing Effect", "id": "COGN_FRAME_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "배의 닻(anchor)처럼 처음 정보에 '고정'되어 멀리 못 감",
+      "differential": "앵커링은 '초기 기준점에 고착'되는 것이고, 프레이밍은 '동일 정보의 제시 방식'에 영향받는 것이다",
+      "key_point": "앵커가 무관한 숫자(예: 무작위 숫자)여도 판단에 영향을 미친다",
+      "common_mistake": "앵커링이 관련 정보에서만 발생한다고 생각하는 것 — 완전히 무관한 숫자도 앵커 역할을 한다"
+    }
+  },
+  {
+    "id": "COGN_INSIGHT_011",
+    "terminology": "통찰 (Insight)",
+    "terminology_ko": "통찰",
+    "terminology_en": "Insight",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "문제 해결 과정에서 갑자기 해답이 떠오르는 순간적 깨달음으로, 문제의 구조를 새롭게 재구성하는 것을 수반한다",
+    "definition_en": "A sudden realization of the solution to a problem, often described as an 'aha' moment, involving a restructuring of the problem representation",
+    "significance": "형태주의 심리학에서 강조되었으며, 점진적 시행착오 학습과 대비되는 문제 해결 방식으로 창의성 연구의 중요한 주제이다",
+    "key_researchers": [
+      {"name_ko": "볼프강 쾰러", "name_en": "Wolfgang Köhler", "contribution": "침팬지의 문제 해결 실험을 통해 통찰 학습의 개념을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "창의성", "name_en": "Creativity", "id": "COGN_CREAT_019"},
+      {"name_ko": "기능적 고착", "name_en": "Functional Fixedness", "id": "COGN_FUNCFIX_012"},
+      {"name_ko": "심적 고착", "name_en": "Mental Set", "id": "COGN_MENTSET_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "쾰러의 침팬지: 막대를 이어 바나나를 따는 '아하!' 순간",
+      "differential": "통찰은 '갑작스러운 깨달음'이고, 알고리즘이나 휴리스틱은 '단계적 접근'이다",
+      "key_point": "통찰은 부화기(incubation period) 이후에 자주 발생한다",
+      "common_mistake": "통찰이 완전히 무의식적이라고 생각하는 것 — 사전 지식과 노력이 통찰의 기반이 된다"
+    }
+  },
+  {
+    "id": "COGN_FUNCFIX_012",
+    "terminology": "기능적 고착 (Functional Fixedness)",
+    "terminology_ko": "기능적 고착",
+    "terminology_en": "Functional Fixedness",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "대상의 통상적인 기능에만 고착되어, 새로운 용도나 방식으로 사용하는 것을 생각하지 못하는 인지적 제한이다",
+    "definition_en": "The tendency to perceive an object only in terms of its most common use, which impedes the ability to see it as having alternative functions needed for problem solving",
+    "significance": "창의적 문제 해결의 주요 장애물로 연구되며, 기능적 고착을 극복하는 능력이 창의성의 핵심 요소이다",
+    "key_researchers": [
+      {"name_ko": "칼 둥커", "name_en": "Karl Duncker", "contribution": "초 문제(candle problem)를 통해 기능적 고착 현상을 실험적으로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "심적 고착", "name_en": "Mental Set", "id": "COGN_MENTSET_017"},
+      {"name_ko": "통찰", "name_en": "Insight", "id": "COGN_INSIGHT_011"},
+      {"name_ko": "창의성", "name_en": "Creativity", "id": "COGN_CREAT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "둥커의 초 문제: 압정 상자를 '상자'로만 보고 선반으로 쓸 생각을 못 함",
+      "differential": "기능적 고착은 '사물의 용도'에 한정된 고착이고, 심적 고착은 '문제 해결 방법'에 대한 고착이다",
+      "key_point": "사물의 기존 기능에 대한 고정관념이 창의적 해결을 방해한다",
+      "common_mistake": "기능적 고착과 심적 고착(mental set)을 동일시하는 것 — 기능적 고착은 사물의 용도에 국한된 하위 유형이다"
+    }
+  },
+  {
+    "id": "COGN_FRAME_013",
+    "terminology": "프레이밍 효과 (Framing Effect)",
+    "terminology_ko": "프레이밍 효과",
+    "terminology_en": "Framing Effect",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "동일한 정보라도 제시되는 방식(틀, 프레임)에 따라 판단이나 의사결정이 달라지는 현상이다",
+    "definition_en": "The cognitive bias in which people react differently to a particular choice depending on how it is presented, even though the underlying information is objectively identical",
+    "significance": "합리적 선택이론의 한계를 드러내며, 광고, 의료 커뮤니케이션, 정치 등에서 정보 제시 방식의 중요성을 보여준다",
+    "key_researchers": [
+      {"name_ko": "다니엘 카너먼", "name_en": "Daniel Kahneman", "contribution": "트버스키와 함께 전망이론(Prospect Theory)에서 프레이밍 효과를 체계적으로 설명하였다"},
+      {"name_ko": "아모스 트버스키", "name_en": "Amos Tversky", "contribution": "아시아 질병 문제로 프레이밍 효과를 실험적으로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정효과(앵커링)", "name_en": "Anchoring Effect", "id": "COGN_ANCHOR_010"},
+      {"name_ko": "가용성 휴리스틱", "name_en": "Availability Heuristic", "id": "COGN_AVAIL_007"},
+      {"name_ko": "언어결정론", "name_en": "Linguistic Determinism", "id": "COGN_LINGDET_021"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "이득 프레임",
+        "name_en": "Gain Frame",
+        "definition": "긍정적 결과를 강조하는 제시 방식 (예: '200명이 살 것이다')"
+      },
+      {
+        "name_ko": "손실 프레임",
+        "name_en": "Loss Frame",
+        "definition": "부정적 결과를 강조하는 제시 방식 (예: '400명이 죽을 것이다')"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "같은 수술인데 '성공률 90%' vs. '사망률 10%' → 선택이 달라진다",
+      "differential": "프레이밍은 '같은 정보의 다른 제시 방식'이고, 앵커링은 '초기 기준점에 대한 고착'이다",
+      "key_point": "이득 프레임에서는 위험 회피적, 손실 프레임에서는 위험 추구적 선택을 하는 경향이 있다",
+      "common_mistake": "프레이밍 효과를 단순한 속임수로 치부하는 것 — 인간 인지의 근본적인 특성에서 비롯된다"
+    }
+  },
+  {
+    "id": "COGN_OVERCONF_014",
+    "terminology": "과신 편향 (Overconfidence Bias)",
+    "terminology_ko": "과신 편향",
+    "terminology_en": "Overconfidence Bias",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "자신의 지식, 판단, 예측의 정확성을 실제보다 과대평가하는 경향으로, 판단과 의사결정의 가장 보편적인 편향 중 하나이다",
+    "definition_en": "The tendency to overestimate the accuracy of one's knowledge, judgments, and predictions, often resulting in poorly calibrated confidence that exceeds actual performance",
+    "significance": "투자 실패, 프로젝트 계획 실패, 잘못된 진단 등 다양한 영역에서 부정적 결과를 초래하며, 메타인지 연구의 주요 주제이다",
+    "key_researchers": [
+      {"name_ko": "다니엘 카너먼", "name_en": "Daniel Kahneman", "contribution": "과신 편향이 전문가 판단에도 광범위하게 나타남을 보여주었다"},
+      {"name_ko": "필립 테틀록", "name_en": "Philip Tetlock", "contribution": "전문가의 정치적 예측이 비전문가와 크게 다르지 않음을 20년간의 종단 연구로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "확인 편향", "name_en": "Confirmation Bias", "id": "COGN_CONFBIAS_009"},
+      {"name_ko": "매몰비용 오류", "name_en": "Sunk Cost Fallacy", "id": "COGN_SUNK_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내가 90% 확신할 때, 실제 정답률은 70~75% 정도밖에 안 됨",
+      "differential": "과신 편향은 '자기 확신의 과대평가'이고, 확인 편향은 '확인 증거의 선택적 탐색'이다",
+      "key_point": "과신은 지식이 늘어나도 비례적으로 줄어들지 않으며, 전문가도 예외가 아니다",
+      "common_mistake": "과신이 자신감이 높은 사람에게만 나타난다고 생각하는 것 — 거의 모든 사람에게 보편적으로 나타난다"
+    }
+  },
+  {
+    "id": "COGN_SUNK_015",
+    "terminology": "매몰비용 오류 (Sunk Cost Fallacy)",
+    "terminology_ko": "매몰비용 오류",
+    "terminology_en": "Sunk Cost Fallacy",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "이미 투자한 시간, 비용, 노력을 회수할 수 없음에도 불구하고, 과거 투자를 근거로 비합리적인 결정을 계속 유지하는 오류이다",
+    "definition_en": "The tendency to continue an endeavor because of previously invested resources (time, money, effort) that cannot be recovered, rather than evaluating the current and future value of the decision",
+    "significance": "경제적 의사결정뿐 아니라 인간관계, 진로 선택 등 일상의 다양한 결정에서 나타나며, 합리적 의사결정을 방해하는 주요 요인이다",
+    "key_researchers": [
+      {"name_ko": "할 아크스", "name_en": "Hal Arkes", "contribution": "매몰비용 효과의 심리적 메커니즘을 체계적으로 연구하였다"},
+      {"name_ko": "리처드 탈러", "name_en": "Richard Thaler", "contribution": "행동경제학 관점에서 매몰비용 오류를 분석하고 일상 사례를 제시하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "과신 편향", "name_en": "Overconfidence Bias", "id": "COGN_OVERCONF_014"},
+      {"name_ko": "프레이밍 효과", "name_en": "Framing Effect", "id": "COGN_FRAME_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "재미없는 영화인데 '표 값이 아까워서' 끝까지 보는 것",
+      "differential": "매몰비용 오류는 '과거 투자에 대한 미련'이고, 고정효과는 '초기 정보에 대한 과의존'이다",
+      "key_point": "합리적 결정은 미래 가치만을 고려해야 하지만, 인간은 과거 투자에 끌려다닌다",
+      "common_mistake": "매몰비용 오류가 감정적 사람에게만 나타난다고 생각하는 것 — 훈련된 전문가에게도 나타난다"
+    }
+  },
+  {
+    "id": "COGN_CONV_016",
+    "terminology": "수렴적 사고 (Convergent Thinking)",
+    "terminology_ko": "수렴적 사고",
+    "terminology_en": "Convergent Thinking",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "주어진 정보를 종합하여 하나의 최적 해답에 도달하는 사고 방식으로, 논리적·분석적 추론을 중심으로 한다",
+    "definition_en": "A type of thinking that focuses on coming up with a single, correct solution to a problem by synthesizing information through logical and analytical reasoning",
+    "significance": "표준화 시험에서 측정하는 전통적 지능과 관련되며, 확산적 사고와 상호보완적으로 작용하여 효과적 문제 해결과 창의적 산출에 기여한다",
+    "key_researchers": [
+      {"name_ko": "조이 폴 길포드", "name_en": "J. P. Guilford", "contribution": "수렴적 사고와 확산적 사고의 구분을 제안하여 창의성 연구의 기틀을 마련하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "확산적 사고", "name_en": "Divergent Thinking", "id": "COGN_DIV_020"},
+      {"name_ko": "알고리즘", "name_en": "Algorithm", "id": "COGN_ALGO_005"},
+      {"name_ko": "창의성", "name_en": "Creativity", "id": "COGN_CREAT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수렴 = '하나로 모인다' → 정답이 하나인 문제에 적합",
+      "differential": "수렴적 사고는 '하나의 정답'을 찾고, 확산적 사고는 '여러 가능성'을 탐색한다",
+      "key_point": "길포드가 제안한 수렴적 vs. 확산적 사고 구분은 창의성 연구의 출발점이다",
+      "common_mistake": "수렴적 사고가 열등한 사고방식이라고 생각하는 것 — 정확한 문제 해결에 필수적이다"
+    }
+  },
+  {
+    "id": "COGN_MENTSET_017",
+    "terminology": "심적 고착/사고의 틀 (Mental Set)",
+    "terminology_ko": "심적 고착",
+    "terminology_en": "Mental Set",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "이전에 성공했던 문제 해결 방법에 고착되어 새로운 상황에서도 같은 방법을 적용하려는 경향으로, 유연한 사고를 방해할 수 있다",
+    "definition_en": "The tendency to approach a problem in a particular way, especially a way that has been successful in the past, which can hinder the ability to find more effective solutions in new situations",
+    "significance": "문제 해결의 장애물로 작용하며, 과거 성공 경험이 오히려 새로운 상황에서의 적응을 방해할 수 있음을 보여준다",
+    "key_researchers": [
+      {"name_ko": "아브라함 루친스", "name_en": "Abraham Luchins", "contribution": "물병 문제(water jar problem)를 통해 심적 고착 현상을 실험적으로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능적 고착", "name_en": "Functional Fixedness", "id": "COGN_FUNCFIX_012"},
+      {"name_ko": "통찰", "name_en": "Insight", "id": "COGN_INSIGHT_011"},
+      {"name_ko": "확인 편향", "name_en": "Confirmation Bias", "id": "COGN_CONFBIAS_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "루친스의 물병 문제: 복잡한 방법에 익숙해져서 간단한 방법을 못 보는 것",
+      "differential": "심적 고착은 '문제 해결 방법'에 대한 고착이고, 기능적 고착은 '사물의 용도'에 대한 고착이다",
+      "key_point": "심적 고착은 기능적 고착의 상위 개념으로, 더 넓은 범위의 사고 경직성을 포함한다",
+      "common_mistake": "심적 고착과 기능적 고착을 동의어로 사용하는 것 — 기능적 고착은 심적 고착의 한 유형이다"
+    }
+  },
+  {
+    "id": "COGN_PROBSOLV_018",
+    "terminology": "문제해결 전략 (Problem-Solving Strategies)",
+    "terminology_ko": "문제해결 전략",
+    "terminology_en": "Problem-Solving Strategies",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "문제를 효과적으로 해결하기 위해 사용하는 다양한 인지적 접근법으로, 알고리즘, 휴리스틱, 통찰, 시행착오 등이 포함된다",
+    "definition_en": "Various cognitive approaches used to solve problems effectively, including algorithms, heuristics, insight, trial and error, and means-ends analysis",
+    "significance": "인지심리학과 교육심리학의 핵심 연구 주제로, 효과적인 문제 해결 능력의 향상 방법에 대한 이해를 제공한다",
+    "key_researchers": [
+      {"name_ko": "앨런 뉴웰", "name_en": "Allen Newell", "contribution": "허버트 사이먼과 함께 일반 문제 해결자(GPS) 모형을 개발하였다"},
+      {"name_ko": "허버트 사이먼", "name_en": "Herbert Simon", "contribution": "문제 공간(problem space) 개념을 제안하고 수단-목표 분석을 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "알고리즘", "name_en": "Algorithm", "id": "COGN_ALGO_005"},
+      {"name_ko": "발견법(휴리스틱)", "name_en": "Heuristic", "id": "COGN_HEUR_006"},
+      {"name_ko": "통찰", "name_en": "Insight", "id": "COGN_INSIGHT_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "시행착오",
+        "name_en": "Trial and Error",
+        "definition": "가능한 해결책을 하나씩 시도하여 올바른 답을 찾는 방법"
+      },
+      {
+        "name_ko": "수단-목표 분석",
+        "name_en": "Means-Ends Analysis",
+        "definition": "현재 상태와 목표 상태의 차이를 줄이는 하위 목표를 설정하는 방법"
+      },
+      {
+        "name_ko": "역행적 작업",
+        "name_en": "Working Backward",
+        "definition": "목표 상태에서 출발하여 초기 상태로 거슬러 올라가는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "문제 해결 도구상자: 알고리즘(꼼꼼), 휴리스틱(빠른), 통찰(번뜩)",
+      "differential": "문제해결 전략은 '방법론의 총칭'이고, 알고리즘/휴리스틱은 각각 그 하위 유형이다",
+      "key_point": "뉴웰과 사이먼의 문제 공간 이론: 초기 상태 → 연산자 적용 → 목표 상태",
+      "common_mistake": "하나의 문제에 하나의 전략만 사용해야 한다고 생각하는 것 — 실제로는 여러 전략을 병행 사용한다"
+    }
+  },
+  {
+    "id": "COGN_CREAT_019",
+    "terminology": "창의성 (Creativity)",
+    "terminology_ko": "창의성",
+    "terminology_en": "Creativity",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "새롭고 유용한 아이디어, 산출물, 문제 해결 방법을 생성하는 능력으로, 확산적 사고, 유연성, 독창성을 핵심 요소로 포함한다",
+    "definition_en": "The ability to produce ideas, solutions, or products that are both novel and valuable, involving divergent thinking, flexibility, and originality as core components",
+    "significance": "지능과는 구분되는 독립적 인지 능력으로 연구되며, 교육과 혁신의 핵심 역량으로 중요성이 강조된다",
+    "key_researchers": [
+      {"name_ko": "조이 폴 길포드", "name_en": "J. P. Guilford", "contribution": "확산적 사고 개념을 통해 창의성 연구의 기틀을 마련하였다"},
+      {"name_ko": "로버트 스턴버그", "name_en": "Robert Sternberg", "contribution": "창의성의 투자이론(Investment Theory of Creativity)을 제안하였다"},
+      {"name_ko": "미하이 칙센트미하이", "name_en": "Mihaly Csikszentmihalyi", "contribution": "창의성의 체계 모형(systems model)과 몰입(flow) 개념을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "확산적 사고", "name_en": "Divergent Thinking", "id": "COGN_DIV_020"},
+      {"name_ko": "수렴적 사고", "name_en": "Convergent Thinking", "id": "COGN_CONV_016"},
+      {"name_ko": "통찰", "name_en": "Insight", "id": "COGN_INSIGHT_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "창의성 = 새로움(novelty) + 유용성(usefulness)",
+      "differential": "창의성은 '새롭고 유용한 산출'이고, 확산적 사고는 '여러 가능성을 생성하는 사고 과정'이다",
+      "key_point": "창의성은 지능의 문턱 가설(threshold hypothesis): IQ 약 120까지는 상관이 있지만 그 이상에서는 관계가 약해진다",
+      "common_mistake": "창의성이 타고나는 것이라고 생각하는 것 — 환경, 훈련, 동기 등이 모두 영향을 미친다"
+    }
+  },
+  {
+    "id": "COGN_DIV_020",
+    "terminology": "확산적 사고 (Divergent Thinking)",
+    "terminology_ko": "확산적 사고",
+    "terminology_en": "Divergent Thinking",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "하나의 문제에서 출발하여 다양한 방향으로 여러 가지 가능한 해결책을 생성하는 사고 방식으로, 창의성의 핵심 요소이다",
+    "definition_en": "A thought process used to generate creative ideas by exploring many possible solutions from a single starting point, considered a key component of creativity",
+    "significance": "창의성 측정(예: 토런스 창의성 검사)의 기본 개념이며, 유창성, 유연성, 독창성, 정교성으로 평가된다",
+    "key_researchers": [
+      {"name_ko": "조이 폴 길포드", "name_en": "J. P. Guilford", "contribution": "확산적 사고 개념을 제안하고 수렴적 사고와 구분하였다"},
+      {"name_ko": "엘리스 폴 토런스", "name_en": "E. Paul Torrance", "contribution": "토런스 창의적 사고 검사(TTCT)를 개발하여 확산적 사고를 측정하는 도구를 제공하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "수렴적 사고", "name_en": "Convergent Thinking", "id": "COGN_CONV_016"},
+      {"name_ko": "창의성", "name_en": "Creativity", "id": "COGN_CREAT_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "벽돌의 용도를 최대한 많이 생각해 보세요 → 확산적 사고 과제",
+      "differential": "확산적 사고는 '여러 답을 생성'하고, 수렴적 사고는 '하나의 정답을 수렴'한다",
+      "key_point": "확산적 사고의 4가지 평가 기준: 유창성(fluency), 유연성(flexibility), 독창성(originality), 정교성(elaboration)",
+      "common_mistake": "확산적 사고만이 창의성에 필요하다고 생각하는 것 — 수렴적 사고를 통한 평가와 정교화도 필수적이다"
+    }
+  },
+  {
+    "id": "COGN_LINGDET_021",
+    "terminology": "언어결정론 (Linguistic Determinism)",
+    "terminology_ko": "언어결정론",
+    "terminology_en": "Linguistic Determinism",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "언어가 사고를 결정한다는 가설로, 사피어-워프 가설의 강한 형태이다. 언어의 구조가 세상을 인식하고 사고하는 방식을 근본적으로 규정한다고 주장한다",
+    "definition_en": "The strong form of the Sapir-Whorf hypothesis, proposing that the structure of a language fundamentally determines its speakers' cognition and worldview",
+    "significance": "언어와 사고의 관계에 대한 근본적 질문을 제기하며, 현대 연구에서는 강한 형태는 부정되고 약한 형태(언어상대성)는 부분적으로 지지된다",
+    "key_researchers": [
+      {"name_ko": "벤저민 리 워프", "name_en": "Benjamin Lee Whorf", "contribution": "호피족 언어 연구를 통해 언어가 시간 개념에 미치는 영향을 주장하였다"},
+      {"name_ko": "에드워드 사피어", "name_en": "Edward Sapir", "contribution": "언어가 사고에 미치는 영향에 대한 이론적 기초를 제공하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어상대성 가설", "name_en": "Linguistic Relativity Hypothesis", "id": "COGN_LINGREL_022"},
+      {"name_ko": "비고츠키의 언어와 사고", "name_en": "Vygotsky's Language and Thought", "id": "COGN_VYGLAN_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사피어-워프 강한 형태: '언어 없이는 그 사고 자체가 불가능하다'",
+      "differential": "언어결정론(강한 형태)은 '언어가 사고를 결정한다', 언어상대성(약한 형태)은 '언어가 사고에 영향을 미친다'",
+      "key_point": "강한 형태(결정론)는 대체로 부정되었으나, 약한 형태(상대성)는 색채 인식 등의 연구에서 부분적으로 지지된다",
+      "common_mistake": "사피어-워프 가설이 완전히 반증되었다고 생각하는 것 — 약한 형태는 여전히 유효한 연구 주제이다"
+    }
+  },
+  {
+    "id": "COGN_LINGREL_022",
+    "terminology": "언어상대성 가설 (Linguistic Relativity Hypothesis)",
+    "terminology_ko": "언어상대성 가설",
+    "terminology_en": "Linguistic Relativity Hypothesis",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "사피어-워프 가설의 약한 형태로, 언어가 사고를 결정하지는 않지만 인식, 기억, 사고 과정에 영향을 미친다는 입장이다",
+    "definition_en": "The weaker form of the Sapir-Whorf hypothesis, proposing that language influences but does not determine thought, perception, and memory",
+    "significance": "색채 인식, 공간 인지, 시간 개념 등에서 언어에 따른 인지적 차이가 실험적으로 확인되어, 현대 인지언어학의 주요 연구 주제로 남아 있다",
+    "key_researchers": [
+      {"name_ko": "레라 보로디츠키", "name_en": "Lera Boroditsky", "contribution": "언어에 따른 시간·공간 인지의 차이를 현대적 실험 방법으로 입증하였다"},
+      {"name_ko": "존 루시", "name_en": "John Lucy", "contribution": "유카테크 마야어와 영어 화자의 물질 범주화 차이를 밝혀냈다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어결정론", "name_en": "Linguistic Determinism", "id": "COGN_LINGDET_021"},
+      {"name_ko": "음소", "name_en": "Phoneme", "id": "COGN_PHONE_023"},
+      {"name_ko": "의미론", "name_en": "Semantics", "id": "COGN_SEMAN_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "러시아어에는 '밝은 파랑'과 '짙은 파랑'이 별도 단어 → 색 구분이 더 빨라진다",
+      "differential": "언어상대성은 '영향'을 주장하고, 언어결정론은 '결정'을 주장한다 — 정도의 차이이다",
+      "key_point": "현대 연구에서는 강한 결정론은 부정되고, 약한 상대성은 부분적으로 지지된다",
+      "common_mistake": "언어상대성과 언어결정론을 같은 것으로 취급하는 것 — 강도에서 결정적 차이가 있다"
+    }
+  },
+  {
+    "id": "COGN_PHONE_023",
+    "terminology": "음소 (Phoneme)",
+    "terminology_ko": "음소",
+    "terminology_en": "Phoneme",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "언어에서 의미를 구별해주는 가장 작은 소리의 단위로, 음소의 변화만으로도 단어의 의미가 달라진다",
+    "definition_en": "The smallest unit of sound in a language that can distinguish one word from another; changing a phoneme changes the meaning of a word",
+    "significance": "음소는 언어의 가장 기본적인 구성 요소로, 언어 발달, 읽기 학습, 언어장애 연구의 기초가 된다",
+    "key_researchers": [
+      {"name_ko": "노엄 촘스키", "name_en": "Noam Chomsky", "contribution": "음운론의 체계적 분석에 기여하고, 언어 구조의 생성 원리를 제안하였다"},
+      {"name_ko": "모리스 할레", "name_en": "Morris Halle", "contribution": "촘스키와 함께 생성음운론의 기초를 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "형태소", "name_en": "Morpheme", "id": "COGN_MORPH_024"},
+      {"name_ko": "통사론", "name_en": "Syntax", "id": "COGN_SYNTAX_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'bat'과 'pat'의 차이 = 첫 음소(/b/ vs. /p/)만 다름",
+      "differential": "음소는 '소리의 최소 단위'이고, 형태소는 '의미의 최소 단위'이다",
+      "key_point": "영어에는 약 40개, 한국어에는 약 40개의 음소가 있다. 음소는 언어마다 다르다",
+      "common_mistake": "음소를 글자(letter)와 혼동하는 것 — 음소는 소리 단위이지 문자 단위가 아니다"
+    }
+  },
+  {
+    "id": "COGN_MORPH_024",
+    "terminology": "형태소 (Morpheme)",
+    "terminology_ko": "형태소",
+    "terminology_en": "Morpheme",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "언어에서 의미를 가지는 가장 작은 단위로, 더 이상 분해하면 의미를 잃게 되는 기본 의미 요소이다",
+    "definition_en": "The smallest unit of language that carries meaning; it cannot be broken down further without losing its semantic content",
+    "significance": "언어 구조의 기본 단위로서 어휘 발달, 문법 이해, 언어장애 진단에 핵심적 개념이다",
+    "key_researchers": [
+      {"name_ko": "레너드 블룸필드", "name_en": "Leonard Bloomfield", "contribution": "구조주의 언어학에서 형태소 분석의 체계적 방법론을 제시하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "음소", "name_en": "Phoneme", "id": "COGN_PHONE_023"},
+      {"name_ko": "통사론", "name_en": "Syntax", "id": "COGN_SYNTAX_025"},
+      {"name_ko": "의미론", "name_en": "Semantics", "id": "COGN_SEMAN_026"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "자유 형태소",
+        "name_en": "Free Morpheme",
+        "definition": "독립적으로 사용할 수 있는 형태소 (예: book, 나무)"
+      },
+      {
+        "name_ko": "구속 형태소",
+        "name_en": "Bound Morpheme",
+        "definition": "다른 형태소에 붙어야만 사용되는 형태소 (예: -ed, -s, -ing)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "'unbreakable' = un(부정) + break(부수다) + able(가능한) = 3개의 형태소",
+      "differential": "음소는 '의미 구별 소리 단위'이고, 형태소는 '의미를 가진 최소 단위'이다",
+      "key_point": "형태소는 음소와 달리 반드시 의미를 가진다 — 이것이 핵심 차이이다",
+      "common_mistake": "형태소를 음절과 혼동하는 것 — 음절은 소리의 단위이고, 형태소는 의미의 단위이다"
+    }
+  },
+  {
+    "id": "COGN_SYNTAX_025",
+    "terminology": "통사론/구문론 (Syntax)",
+    "terminology_ko": "통사론",
+    "terminology_en": "Syntax",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "문장에서 단어를 배열하여 의미 있는 구와 문장을 만드는 규칙 체계로, 언어의 문법 구조를 규정한다",
+    "definition_en": "The set of rules that govern how words are combined to form grammatically correct and meaningful phrases and sentences in a language",
+    "significance": "촘스키의 변형생성문법을 통해 인간 언어 능력의 보편적 구조가 제안되었으며, 언어 습득과 처리의 핵심 연구 영역이다",
+    "key_researchers": [
+      {"name_ko": "노엄 촘스키", "name_en": "Noam Chomsky", "contribution": "변형생성문법(Transformational-Generative Grammar)을 제안하여 통사론 연구를 혁신하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "음소", "name_en": "Phoneme", "id": "COGN_PHONE_023"},
+      {"name_ko": "형태소", "name_en": "Morpheme", "id": "COGN_MORPH_024"},
+      {"name_ko": "의미론", "name_en": "Semantics", "id": "COGN_SEMAN_026"},
+      {"name_ko": "언어습득장치(LAD)", "name_en": "Language Acquisition Device", "id": "COGN_LAD_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'개가 고양이를 쫓았다' vs. '고양이를 개가 쫓았다' — 어순(통사)이 의미를 결정한다",
+      "differential": "통사론은 '문장 구조/어순 규칙'이고, 의미론은 '단어와 문장의 의미 규칙'이다",
+      "key_point": "촘스키: 문법적으로 올바르지만 무의미한 문장이 가능하다 — 'Colorless green ideas sleep furiously'",
+      "common_mistake": "통사론과 의미론을 구분하지 못하는 것 — 문법적으로 맞아도 의미가 없을 수 있고, 그 반대도 가능하다"
+    }
+  },
+  {
+    "id": "COGN_SEMAN_026",
+    "terminology": "의미론 (Semantics)",
+    "terminology_ko": "의미론",
+    "terminology_en": "Semantics",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "단어, 구, 문장의 의미를 연구하는 언어학의 분야로, 언어 표현이 어떻게 의미를 전달하는지를 다룬다",
+    "definition_en": "The branch of linguistics concerned with the meaning of words, phrases, and sentences, studying how linguistic expressions convey meaning",
+    "significance": "언어 이해와 의사소통의 핵심 요소로, 자연언어처리, 언어 발달, 의미 기억 연구의 기초가 된다",
+    "key_researchers": [
+      {"name_ko": "페르디낭 드 소쉬르", "name_en": "Ferdinand de Saussure", "contribution": "기호학적 관점에서 기표(signifier)와 기의(signified)의 관계를 분석하여 의미 연구의 기초를 놓았다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "통사론", "name_en": "Syntax", "id": "COGN_SYNTAX_025"},
+      {"name_ko": "화용론", "name_en": "Pragmatics", "id": "COGN_PRAGMA_029"},
+      {"name_ko": "형태소", "name_en": "Morpheme", "id": "COGN_MORPH_024"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "어휘 의미론",
+        "name_en": "Lexical Semantics",
+        "definition": "개별 단어의 의미와 단어 간 의미 관계(동의어, 반의어 등)를 연구한다"
+      },
+      {
+        "name_ko": "문장 의미론",
+        "name_en": "Sentential Semantics",
+        "definition": "문장 전체의 의미와 진리 조건을 연구한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "의미론 = '무엇을 뜻하는가'를 연구하는 분야",
+      "differential": "의미론은 '단어/문장의 의미'를 다루고, 화용론은 '맥락에서의 사용과 의도'를 다룬다",
+      "key_point": "언어의 4대 구성 요소: 음소(소리) → 형태소(의미 단위) → 통사론(문법) → 의미론(의미)",
+      "common_mistake": "의미론과 화용론을 혼동하는 것 — '오늘 춥다'의 사전적 의미는 의미론, '창문 좀 닫아줘'라는 숨은 의도는 화용론"
+    }
+  },
+  {
+    "id": "COGN_VYGLAN_027",
+    "terminology": "비고츠키의 언어와 사고 (Vygotsky's Language and Thought)",
+    "terminology_ko": "비고츠키의 언어와 사고",
+    "terminology_en": "Vygotsky's Language and Thought",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "언어와 사고가 초기에는 독립적으로 발달하다가 약 2세경 합류하여 언어적 사고가 형성된다는 비고츠키의 이론으로, 내적 언어(inner speech)가 사고의 도구가 된다고 본다",
+    "definition_en": "Vygotsky's theory that language and thought develop independently in early life and merge around age two, with inner speech becoming a tool for thought and self-regulation",
+    "significance": "피아제의 자기중심적 언어 해석과 대비되며, 사회적 상호작용이 인지 발달의 핵심이라는 사회문화적 관점의 기초가 된다",
+    "key_researchers": [
+      {"name_ko": "레프 비고츠키", "name_en": "Lev Vygotsky", "contribution": "『사고와 언어(Thought and Language)』에서 언어와 사고의 발달적 관계를 체계적으로 이론화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어결정론", "name_en": "Linguistic Determinism", "id": "COGN_LINGDET_021"},
+      {"name_ko": "언어발달 단계", "name_en": "Stages of Language Development", "id": "COGN_LANGDEV_030"},
+      {"name_ko": "언어습득장치(LAD)", "name_en": "Language Acquisition Device", "id": "COGN_LAD_028"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "사적 언어",
+        "name_en": "Private Speech",
+        "definition": "아동이 자기 행동을 조절하기 위해 혼잣말하는 것으로, 이후 내적 언어로 내면화된다"
+      },
+      {
+        "name_ko": "내적 언어",
+        "name_en": "Inner Speech",
+        "definition": "사적 언어가 내면화된 것으로, 사고의 도구로 기능하는 소리 없는 언어"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "비고츠키: 아이의 혼잣말은 미숙함이 아니라 사고의 도구로 가는 과정",
+      "differential": "비고츠키는 자기중심적 말을 '사고 발달의 도구'로, 피아제는 '인지적 미성숙의 표현'으로 보았다",
+      "key_point": "언어 → 사고(비고츠키) vs. 사고 → 언어(피아제): 인과 방향이 핵심 차이이다",
+      "common_mistake": "비고츠키가 언어결정론을 지지했다고 오해하는 것 — 비고츠키는 언어와 사고의 '상호작용적 발달'을 강조했다"
+    }
+  },
+  {
+    "id": "COGN_LAD_028",
+    "terminology": "언어습득장치 (Language Acquisition Device, LAD)",
+    "terminology_ko": "언어습득장치(LAD)",
+    "terminology_en": "Language Acquisition Device (LAD)",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "촘스키가 제안한 언어 습득의 생득적 메커니즘으로, 아동이 보편문법(universal grammar)에 대한 선천적 지식을 가지고 태어난다는 가설이다",
+    "definition_en": "A hypothetical innate mechanism proposed by Chomsky that enables children to acquire language, based on the assumption that humans are born with an innate knowledge of universal grammar",
+    "significance": "행동주의적 언어 학습 이론(스키너)에 대한 강력한 반론으로, 생득론적 언어 습득 관점을 확립하였다",
+    "key_researchers": [
+      {"name_ko": "노엄 촘스키", "name_en": "Noam Chomsky", "contribution": "언어습득장치와 보편문법 개념을 제안하여, 언어가 학습이 아니라 생물학적으로 결정된 능력임을 주장하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "통사론", "name_en": "Syntax", "id": "COGN_SYNTAX_025"},
+      {"name_ko": "언어발달 단계", "name_en": "Stages of Language Development", "id": "COGN_LANGDEV_030"},
+      {"name_ko": "비고츠키의 언어와 사고", "name_en": "Vygotsky's Language and Thought", "id": "COGN_VYGLAN_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "촘스키 vs. 스키너: '언어는 타고나는 것(LAD)' vs. '언어는 강화로 배우는 것'",
+      "differential": "LAD는 '생득론적' 입장이고, 스키너의 언어 학습 이론은 '경험론적(행동주의)' 입장이다",
+      "key_point": "자극의 빈곤(poverty of the stimulus): 아동이 듣는 언어 입력만으로는 복잡한 문법 규칙을 학습하기 불가능하다는 것이 LAD의 핵심 논거이다",
+      "common_mistake": "LAD를 뇌의 특정 영역과 동일시하는 것 — LAD는 실체적 기관이 아니라 기능적 가설이다"
+    }
+  },
+  {
+    "id": "COGN_PRAGMA_029",
+    "terminology": "화용론 (Pragmatics)",
+    "terminology_ko": "화용론",
+    "terminology_en": "Pragmatics",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "언어가 사회적 맥락에서 실제로 어떻게 사용되는지를 연구하는 분야로, 발화의 의도, 함축, 대화 규칙 등을 다룬다",
+    "definition_en": "The branch of linguistics that studies how language is used in social contexts, including speaker intentions, conversational implicature, and discourse rules",
+    "significance": "언어의 문자적 의미를 넘어 맥락 의존적 의사소통을 이해하는 데 필수적이며, 자폐 스펙트럼 장애의 언어적 특성 이해에도 중요하다",
+    "key_researchers": [
+      {"name_ko": "폴 그라이스", "name_en": "Paul Grice", "contribution": "대화의 협력 원리(cooperative principle)와 대화 격률(conversational maxims)을 제안하였다"},
+      {"name_ko": "존 오스틴", "name_en": "John Austin", "contribution": "화행 이론(speech act theory)을 제안하여 발화의 수행적 기능을 분석하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "의미론", "name_en": "Semantics", "id": "COGN_SEMAN_026"},
+      {"name_ko": "통사론", "name_en": "Syntax", "id": "COGN_SYNTAX_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'여기 좀 춥지 않아?' = 사전적 질문이 아니라 '창문 닫아줘'라는 화용적 의미",
+      "differential": "의미론은 '사전적/문자적 의미'를 다루고, 화용론은 '맥락에서의 실제 의도와 해석'을 다룬다",
+      "key_point": "그라이스의 4대 대화 격률: 양(quantity), 질(quality), 관련성(relation), 태도(manner)",
+      "common_mistake": "화용론을 비언어적 의사소통과 혼동하는 것 — 화용론은 언어적 표현의 맥락적 사용에 관한 것이다"
+    }
+  },
+  {
+    "id": "COGN_LANGDEV_030",
+    "terminology": "언어발달 단계 (Stages of Language Development)",
+    "terminology_ko": "언어발달 단계",
+    "terminology_en": "Stages of Language Development",
+    "category": "COGN",
+    "category_name": "사고와 언어 (Thinking & Language)",
+    "definition": "아동의 언어 능력이 옹알이 → 한 단어 → 두 단어(전보문) → 복잡한 문장으로 보편적 순서를 따라 발달하는 과정이다",
+    "definition_en": "The universal progression of language acquisition in children, from babbling to one-word (holophrastic) stage, to two-word (telegraphic) stage, and finally to complex sentences",
+    "significance": "언어 발달의 보편적 순서는 언어 능력의 생물학적 기초를 지지하며, 언어 발달 지연의 조기 발견과 개입에 중요한 기준이 된다",
+    "key_researchers": [
+      {"name_ko": "로저 브라운", "name_en": "Roger Brown", "contribution": "아동의 평균 발화 길이(MLU)를 기준으로 언어 발달 단계를 체계화하였다"},
+      {"name_ko": "노엄 촘스키", "name_en": "Noam Chomsky", "contribution": "언어 발달의 보편적 순서가 생득적 언어 능력을 반영한다고 주장하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어습득장치(LAD)", "name_en": "Language Acquisition Device", "id": "COGN_LAD_028"},
+      {"name_ko": "비고츠키의 언어와 사고", "name_en": "Vygotsky's Language and Thought", "id": "COGN_VYGLAN_027"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "옹알이 단계",
+        "name_en": "Babbling Stage",
+        "definition": "약 4개월부터 시작되며, 모든 언어의 음소를 포함하는 소리를 산출한다"
+      },
+      {
+        "name_ko": "한 단어 단계 (전언어기)",
+        "name_en": "One-Word (Holophrastic) Stage",
+        "definition": "약 12개월경, 하나의 단어로 전체 문장의 의미를 전달한다"
+      },
+      {
+        "name_ko": "두 단어 단계 (전보문)",
+        "name_en": "Two-Word (Telegraphic) Stage",
+        "definition": "약 24개월경, 내용어만으로 구성된 짧은 문장을 산출한다 (예: '엄마 우유')"
+      },
+      {
+        "name_ko": "문법 폭발기",
+        "name_en": "Grammar Explosion",
+        "definition": "약 2-3세 이후 문법 규칙이 급격히 습득되어 복잡한 문장을 구성하기 시작한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "옹알이(4개월) → 한 단어(12개월) → 전보문(24개월) → 문법 폭발(2-3세)",
+      "differential": "전보문은 '기능어 생략'이 특징이고, 한 단어 단계는 '단어 하나로 문장 의미 전달'이 특징이다",
+      "key_point": "과잉규칙화(overregularization): 'goed', 'mouses' 같은 오류는 문법 규칙을 학습하고 있다는 증거이다",
+      "common_mistake": "아동의 문법 오류를 단순한 실수로 보는 것 — 과잉규칙화는 규칙을 능동적으로 적용하는 증거이다"
+    }
+  }
+]

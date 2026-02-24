@@ -1,0 +1,897 @@
+[
+  {
+    "id": "NEURO_MMSE_001",
+    "terminology": "간이정신상태검사 (Mini-Mental State Examination, MMSE)",
+    "terminology_ko": "간이정신상태검사",
+    "terminology_en": "Mini-Mental State Examination (MMSE)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "지남력, 기억력, 주의집중, 언어능력, 시공간 구성능력 등을 간단히 평가하는 30점 만점의 인지기능 선별검사로, 치매 선별에 가장 널리 사용된다.",
+    "definition_en": "A 30-point screening instrument that briefly assesses orientation, memory, attention, language, and visuospatial construction, most widely used for dementia screening.",
+    "significance": "임상 현장에서 인지기능 저하를 빠르게 선별할 수 있는 표준 도구로, 치매 진단의 첫 단계이자 치료 경과 모니터링에 활용된다.",
+    "key_researchers": [
+      {"name_ko": "마셜 폴스타인", "name_en": "Marshal Folstein", "contribution": "1975년 MMSE를 개발하여 인지기능 선별검사의 표준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "치매 선별", "name_en": "Dementia Screening", "id": "NEURO_DS_026"},
+      {"name_ko": "임상치매척도", "name_en": "Clinical Dementia Rating", "id": "NEURO_CDR_002"},
+      {"name_ko": "시계그리기검사", "name_en": "Clock Drawing Test", "id": "NEURO_CDT_013"},
+      {"name_ko": "지남력", "name_en": "Orientation", "id": "NEURO_MEM_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MMSE = 30점 만점, 24점 미만이면 인지장애 의심",
+      "differential": "MMSE는 선별검사이고, 종합신경심리검사 배터리는 정밀 진단용이다.",
+      "key_point": "교육 수준에 따라 절단점을 조정해야 하며, 한국에서는 K-MMSE가 표준화되어 사용된다.",
+      "common_mistake": "MMSE 점수만으로 치매를 확진할 수 있다고 생각하는 것 — 선별검사일 뿐 진단 도구가 아니다."
+    }
+  },
+  {
+    "id": "NEURO_CDR_002",
+    "terminology": "임상치매척도 (Clinical Dementia Rating, CDR)",
+    "terminology_ko": "임상치매척도",
+    "terminology_en": "Clinical Dementia Rating (CDR)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "기억, 지남력, 판단과 문제해결, 사회활동, 가정과 취미, 위생 및 몸치장의 6개 영역을 평가하여 치매의 중증도를 0(정상)~3(중증)으로 등급화하는 임상 평정 척도이다.",
+    "definition_en": "A clinical rating scale that evaluates six domains — memory, orientation, judgment, community affairs, home and hobbies, and personal care — to stage dementia severity from 0 (normal) to 3 (severe).",
+    "significance": "치매 중증도의 전 세계적 표준 평가 도구로, 치매 연구 및 임상시험에서 결과 변수로 가장 빈번히 사용된다.",
+    "key_researchers": [
+      {"name_ko": "존 모리스", "name_en": "John C. Morris", "contribution": "1993년 CDR의 신뢰도와 타당도를 체계적으로 검증하고 CDR-SB(Sum of Boxes)를 제안"},
+      {"name_ko": "찰스 휴즈", "name_en": "Charles P. Hughes", "contribution": "1982년 CDR을 최초로 개발하여 치매 중증도 평정 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "간이정신상태검사", "name_en": "MMSE", "id": "NEURO_MMSE_001"},
+      {"name_ko": "치매 선별", "name_en": "Dementia Screening", "id": "NEURO_DS_026"},
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"}
+    ],
+    "sub_types": [
+      {"name_ko": "CDR 0", "name_en": "CDR 0 (Normal)", "definition": "인지기능이 정상인 상태"},
+      {"name_ko": "CDR 0.5", "name_en": "CDR 0.5 (Questionable)", "definition": "경도인지장애(MCI) 수준의 의심 치매"},
+      {"name_ko": "CDR 1", "name_en": "CDR 1 (Mild)", "definition": "경도 치매"},
+      {"name_ko": "CDR 2", "name_en": "CDR 2 (Moderate)", "definition": "중등도 치매"},
+      {"name_ko": "CDR 3", "name_en": "CDR 3 (Severe)", "definition": "중증 치매"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CDR 0-0.5-1-2-3 = 정상-의심-경도-중등도-중증 (5단계)",
+      "differential": "CDR은 임상가 평정 척도이고, MMSE는 환자가 직접 수행하는 인지검사이다.",
+      "key_point": "CDR은 환자 면담과 보호자 면담을 모두 실시하여 평정하며, CDR-SB(Sum of Boxes)는 6개 영역 점수를 합산한 연속 변수이다.",
+      "common_mistake": "CDR 0.5를 치매로 분류하는 오류 — 0.5는 의심(questionable) 단계로 경도인지장애에 해당한다."
+    }
+  },
+  {
+    "id": "NEURO_TMT_003",
+    "terminology": "길 만들기 검사 (Trail Making Test, TMT)",
+    "terminology_ko": "길 만들기 검사",
+    "terminology_en": "Trail Making Test (TMT)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "Part A는 숫자를 순서대로 연결하여 시각적 탐색과 처리속도를 측정하고, Part B는 숫자와 글자를 번갈아 연결하여 인지적 유연성과 전환능력을 측정하는 신경심리검사이다.",
+    "definition_en": "A neuropsychological test in which Part A requires connecting numbers in sequence (measuring visual scanning and processing speed) and Part B requires alternating between numbers and letters (measuring cognitive flexibility and set-shifting).",
+    "significance": "전두엽 실행기능과 처리속도를 간편하게 측정할 수 있어 거의 모든 신경심리검사 배터리에 포함되며, 뇌손상 민감도가 매우 높다.",
+    "key_researchers": [
+      {"name_ko": "랠프 레이탄", "name_en": "Ralph Reitan", "contribution": "TMT를 할스테드-레이탄 배터리에 포함시키고 뇌손상 탐지에서의 유용성을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "주의력", "name_en": "Attention", "id": "NEURO_ATT_020"},
+      {"name_ko": "할스테드-레이탄 신경심리배터리", "name_en": "Halstead-Reitan Neuropsychological Battery", "id": "NEURO_HRB_007"},
+      {"name_ko": "위스콘신 카드분류검사", "name_en": "Wisconsin Card Sorting Test", "id": "NEURO_WCST_004"}
+    ],
+    "sub_types": [
+      {"name_ko": "TMT-A", "name_en": "Trail Making Test Part A", "definition": "숫자 1~25를 순서대로 연결; 시각적 탐색 및 처리속도 측정"},
+      {"name_ko": "TMT-B", "name_en": "Trail Making Test Part B", "definition": "숫자와 글자를 번갈아 연결(1-A-2-B...); 인지적 유연성 및 전환능력 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "TMT-A는 숫자만(단순속도), TMT-B는 숫자+글자 번갈아(전환능력)",
+      "differential": "TMT-A는 처리속도를, TMT-B는 실행기능(인지적 유연성)을 주로 반영한다.",
+      "key_point": "B/A 비율이 높을수록 실행기능 저하를 시사하며, B-A 차이 점수도 임상적으로 활용된다.",
+      "common_mistake": "TMT-A와 TMT-B가 동일한 기능을 측정한다고 생각하는 것 — Part B는 추가로 전환능력을 요구한다."
+    }
+  },
+  {
+    "id": "NEURO_WCST_004",
+    "terminology": "위스콘신 카드분류검사 (Wisconsin Card Sorting Test, WCST)",
+    "terminology_ko": "위스콘신 카드분류검사",
+    "terminology_en": "Wisconsin Card Sorting Test (WCST)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "카드를 색, 형태, 수의 세 가지 기준에 따라 분류하되 분류 규칙이 피드백 없이 변경되어, 개념 형성, 인지적 유연성, 보속 오류를 측정하는 전두엽 기능 검사이다.",
+    "definition_en": "A test of executive function in which cards are sorted by color, shape, or number with unannounced rule changes, measuring concept formation, cognitive flexibility, and perseverative errors.",
+    "significance": "전두엽, 특히 배외측 전전두피질의 실행기능 손상을 탐지하는 대표적 검사로, 보속 오류 수가 핵심 지표이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 그랜트", "name_en": "David A. Grant", "contribution": "1948년 WCST를 개발하여 추상적 사고와 인지 전환 능력 측정 방법을 제시"},
+      {"name_ko": "브렌다 밀너", "name_en": "Brenda Milner", "contribution": "전두엽 손상 환자에서 WCST 수행 저하를 입증하여 전두엽-실행기능 관계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "전두엽 기능", "name_en": "Frontal Lobe Function", "id": "NEURO_FL_024"},
+      {"name_ko": "길 만들기 검사", "name_en": "Trail Making Test", "id": "NEURO_TMT_003"},
+      {"name_ko": "스트룹 검사", "name_en": "Stroop Test", "id": "NEURO_STR_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "WCST = 카드 분류 규칙이 바뀌는데 적응하는 능력 → 보속 오류가 핵심",
+      "differential": "WCST는 개념전환/유연성을, 스트룹은 억제/간섭통제를 주로 측정한다.",
+      "key_point": "보속 오류(perseverative error)는 이전 규칙에 계속 매달리는 것으로, 전두엽 손상의 특징적 지표이다.",
+      "common_mistake": "총 오류 수만 보는 것 — 보속 오류와 비보속 오류를 구분하는 것이 임상적으로 더 중요하다."
+    }
+  },
+  {
+    "id": "NEURO_STR_005",
+    "terminology": "스트룹 검사 (Stroop Test)",
+    "terminology_ko": "스트룹 검사",
+    "terminology_en": "Stroop Test",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "글자의 의미와 잉크 색이 불일치하는 조건에서 잉크 색을 명명하게 하여 선택적 주의력과 인지적 억제(간섭 통제) 능력을 측정하는 검사이다.",
+    "definition_en": "A test measuring selective attention and cognitive inhibition (interference control) by requiring naming the ink color of color words printed in incongruent colors.",
+    "significance": "전두엽의 억제 기능과 간섭 통제 능력을 평가하는 고전적 패러다임으로, 주의력결핍과 전두엽 기능장애 평가에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "존 리들리 스트룹", "name_en": "John Ridley Stroop", "contribution": "1935년 색-단어 간섭 현상(스트룹 효과)을 발견하고 실험 패러다임을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "주의력", "name_en": "Attention", "id": "NEURO_ATT_020"},
+      {"name_ko": "전두엽 기능", "name_en": "Frontal Lobe Function", "id": "NEURO_FL_024"},
+      {"name_ko": "위스콘신 카드분류검사", "name_en": "WCST", "id": "NEURO_WCST_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'빨강'이라는 글자가 파란 잉크로 쓰여 있으면 '파랑'이라고 말해야 함 → 간섭 억제",
+      "differential": "스트룹은 간섭억제(반응 억제)를, WCST는 인지전환(세트 전환)을 주로 측정한다.",
+      "key_point": "간섭 점수(불일치 조건 - 일치 조건)가 클수록 억제 기능이 저하된 것을 의미한다.",
+      "common_mistake": "스트룹 효과를 주의력 문제로만 해석하는 것 — 핵심은 자동적 읽기 반응의 억제 능력이다."
+    }
+  },
+  {
+    "id": "NEURO_ROCF_006",
+    "terminology": "레이-오스테리스 복합도형검사 (Rey-Osterrieth Complex Figure Test, ROCF)",
+    "terminology_ko": "레이-오스테리스 복합도형검사",
+    "terminology_en": "Rey-Osterrieth Complex Figure Test (ROCF)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "복잡한 기하학적 도형을 모사(copy)한 후 즉시 회상과 지연 회상으로 재산하게 하여 시공간 구성능력과 시각적 기억력을 측정하는 검사이다.",
+    "definition_en": "A test assessing visuospatial constructional ability and visual memory by requiring the examinee to copy a complex geometric figure and then reproduce it from memory after immediate and delayed intervals.",
+    "significance": "시공간 능력과 시각적 기억을 동시에 평가할 수 있어 우반구 손상, 전두엽 기능장애, 기억장애의 감별에 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "앙드레 레이", "name_en": "André Rey", "contribution": "1941년 복합도형을 고안하여 시각적 기억과 지각적 조직화 평가 도구를 개발"},
+      {"name_ko": "폴 알렉산더 오스테리스", "name_en": "Paul-Alexander Osterrieth", "contribution": "1944년 레이 도형의 채점 체계를 표준화하고 발달적 규준을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "시공간능력", "name_en": "Visuospatial Ability", "id": "NEURO_VS_021"},
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"},
+      {"name_ko": "시계그리기검사", "name_en": "Clock Drawing Test", "id": "NEURO_CDT_013"}
+    ],
+    "sub_types": [
+      {"name_ko": "모사 단계", "name_en": "Copy Trial", "definition": "도형을 보고 그대로 베끼는 단계; 시공간 구성능력 측정"},
+      {"name_ko": "즉시 회상", "name_en": "Immediate Recall", "definition": "모사 직후 기억으로 그리는 단계; 시각적 단기기억 측정"},
+      {"name_ko": "지연 회상", "name_en": "Delayed Recall", "definition": "20~30분 후 기억으로 그리는 단계; 시각적 장기기억 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ROCF = 복잡한 도형을 '보고 그리기(Copy) → 바로 그리기(IR) → 나중에 그리기(DR)'",
+      "differential": "모사 저하는 시공간 구성 문제(우반구), 회상만 저하는 기억 문제(내측두엽)를 시사한다.",
+      "key_point": "그리는 순서(조직화 전략)가 전두엽 기능을 반영하므로, 최종 산물뿐 아니라 과정 분석이 중요하다.",
+      "common_mistake": "모사와 회상 점수를 구분하지 않는 것 — 두 점수는 서로 다른 인지 기능을 반영한다."
+    }
+  },
+  {
+    "id": "NEURO_HRB_007",
+    "terminology": "할스테드-레이탄 신경심리배터리 (Halstead-Reitan Neuropsychological Battery, HRNB)",
+    "terminology_ko": "할스테드-레이탄 신경심리배터리",
+    "terminology_en": "Halstead-Reitan Neuropsychological Battery (HRNB)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "범주검사, 촉각수행검사, 리듬검사, 음성지각검사, 손가락 두드리기검사 등 다수의 하위검사로 구성된 고정배터리 방식의 종합 신경심리검사로, 손상지표(Impairment Index)를 산출한다.",
+    "definition_en": "A comprehensive fixed-battery neuropsychological assessment consisting of multiple subtests including Category Test, Tactual Performance Test, Rhythm Test, Speech Sounds Perception Test, and Finger Tapping Test, yielding an Impairment Index.",
+    "significance": "고정배터리 접근의 대표적 검사로, 뇌손상의 유무, 위치, 유형을 체계적으로 평가하며 신경심리검사 분야의 발전에 결정적 기여를 하였다.",
+    "key_researchers": [
+      {"name_ko": "워드 할스테드", "name_en": "Ward Halstead", "contribution": "1947년 전두엽 기능을 측정하기 위한 원래 검사 배터리를 개발"},
+      {"name_ko": "랠프 레이탄", "name_en": "Ralph Reitan", "contribution": "할스테드 배터리를 확장하고 표준화하여 임상 신경심리검사 배터리로 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정배터리 vs 유연배터리", "name_en": "Fixed vs Flexible Battery", "id": "NEURO_BAT_016"},
+      {"name_ko": "신경심리검사 배터리", "name_en": "Neuropsychological Test Battery", "id": "NEURO_NTB_015"},
+      {"name_ko": "루리아-네브래스카 배터리", "name_en": "Luria-Nebraska Battery", "id": "NEURO_LNB_008"},
+      {"name_ko": "길 만들기 검사", "name_en": "Trail Making Test", "id": "NEURO_TMT_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "할스테드-레이탄 = 고정배터리의 대명사, 손상지표(II)로 뇌손상 여부 판단",
+      "differential": "할스테드-레이탄은 고정배터리(모든 검사 실시), 루리아-네브래스카는 표준화된 루리아식 접근이다.",
+      "key_point": "손상지표(Impairment Index)는 기준 이하 수행을 보인 검사의 비율로, 0.0(정상)~1.0(전체 손상)으로 산출된다.",
+      "common_mistake": "할스테드-레이탄을 단일 검사로 생각하는 것 — 여러 하위검사로 구성된 배터리이다."
+    }
+  },
+  {
+    "id": "NEURO_LNB_008",
+    "terminology": "루리아-네브래스카 신경심리배터리 (Luria-Nebraska Neuropsychological Battery, LNNB)",
+    "terminology_ko": "루리아-네브래스카 신경심리배터리",
+    "terminology_en": "Luria-Nebraska Neuropsychological Battery (LNNB)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "루리아의 신경심리학 이론에 기반하여 운동, 리듬, 촉각, 시각, 수용언어, 표현언어, 쓰기, 읽기, 산수, 기억, 지적과정 등 11개 임상척도로 구성된 표준화된 신경심리검사 배터리이다.",
+    "definition_en": "A standardized neuropsychological battery based on Luria's theory, comprising 11 clinical scales including Motor, Rhythm, Tactile, Visual, Receptive Speech, Expressive Speech, Writing, Reading, Arithmetic, Memory, and Intellectual Processes.",
+    "significance": "루리아의 질적 신경심리 평가 접근을 양적으로 표준화한 검사로, 할스테드-레이탄 배터리보다 실시 시간이 짧은 대안적 배터리이다.",
+    "key_researchers": [
+      {"name_ko": "알렉산드르 루리아", "name_en": "Alexander Luria", "contribution": "기능적 체계 이론에 기반한 신경심리학적 평가의 이론적 기초를 제공"},
+      {"name_ko": "찰스 골든", "name_en": "Charles Golden", "contribution": "루리아의 질적 평가 방법을 표준화하여 LNNB를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "할스테드-레이탄 신경심리배터리", "name_en": "Halstead-Reitan Battery", "id": "NEURO_HRB_007"},
+      {"name_ko": "신경심리검사 배터리", "name_en": "Neuropsychological Test Battery", "id": "NEURO_NTB_015"},
+      {"name_ko": "고정배터리 vs 유연배터리", "name_en": "Fixed vs Flexible Battery", "id": "NEURO_BAT_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "루리아-네브래스카 = 루리아 이론 + 표준화 = 11개 척도, 269문항",
+      "differential": "LNNB는 루리아 이론 기반이고, HRNB는 경험적/양적 접근 기반이다.",
+      "key_point": "LNNB는 약 2.5시간으로 HRNB(6~8시간)보다 실시 시간이 짧지만, 타당도 논란이 있었다.",
+      "common_mistake": "LNNB가 루리아의 원래 평가법과 동일하다고 생각하는 것 — LNNB는 루리아 접근을 표준화한 것이다."
+    }
+  },
+  {
+    "id": "NEURO_BNT_009",
+    "terminology": "보스턴 이름대기검사 (Boston Naming Test, BNT)",
+    "terminology_ko": "보스턴 이름대기검사",
+    "terminology_en": "Boston Naming Test (BNT)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "60개의 흑백 선화를 제시하고 이름을 말하게 하여 대면 이름대기(confrontation naming) 능력, 즉 어휘 인출 및 언어적 표현 능력을 측정하는 검사이다.",
+    "definition_en": "A 60-item confrontation naming test using black-and-white line drawings to assess word retrieval and expressive language ability.",
+    "significance": "실어증 및 치매 환자의 이름대기 장애(명명 실어증)를 평가하는 표준 검사로, 좌반구 측두엽 및 언어 네트워크 기능을 반영한다.",
+    "key_researchers": [
+      {"name_ko": "에디스 카플란", "name_en": "Edith Kaplan", "contribution": "BNT를 공동 개발하고 과정 접근(process approach) 분석법을 적용"},
+      {"name_ko": "해럴드 굿글래스", "name_en": "Harold Goodglass", "contribution": "보스턴 진단적 실어증 검사와 함께 BNT를 개발하여 언어기능 평가 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어기능", "name_en": "Language Function", "id": "NEURO_LF_022"},
+      {"name_ko": "실어증", "name_en": "Aphasia", "id": "NEURO_APH_027"},
+      {"name_ko": "치매 선별", "name_en": "Dementia Screening", "id": "NEURO_DS_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BNT = 그림 보고 이름 말하기, 60문항, 쉬운 것(침대)→어려운 것(주판)",
+      "differential": "BNT는 대면 이름대기(그림→이름)이고, 단어 유창성 검사는 범주/음소에 따른 자발적 산출이다.",
+      "key_point": "의미적 단서(용도 설명)와 음소적 단서(첫 글자)를 단계적으로 제공하며, 단서 유형별 반응이 감별 진단에 중요하다.",
+      "common_mistake": "BNT 수행 저하를 모두 실어증으로 해석하는 것 — 치매, 시각 인식 장애 등 다양한 원인이 있다."
+    }
+  },
+  {
+    "id": "NEURO_RAVLT_010",
+    "terminology": "레이 청각언어학습검사 (Rey Auditory Verbal Learning Test, RAVLT)",
+    "terminology_ko": "레이 청각언어학습검사",
+    "terminology_en": "Rey Auditory Verbal Learning Test (RAVLT)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "15개 단어 목록을 5회 반복 학습시킨 후 즉시 회상, 간섭 목록 후 회상, 지연 회상, 재인을 실시하여 언어적 학습 및 기억의 다양한 측면을 측정하는 검사이다.",
+    "definition_en": "A verbal learning and memory test involving five learning trials of a 15-word list, followed by an interference list, immediate recall, delayed recall, and recognition, assessing multiple aspects of verbal memory.",
+    "significance": "언어적 기억의 학습곡선, 간섭 효과, 파지, 재인 등 기억 과정의 세부 분석이 가능하여 기억장애의 감별 진단에 핵심적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "앙드레 레이", "name_en": "André Rey", "contribution": "1958년 단어 목록 학습 패러다임을 고안하여 언어적 학습과 기억의 체계적 평가법을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"},
+      {"name_ko": "캘리포니아 언어학습검사", "name_en": "CVLT", "id": "NEURO_CVLT_012"},
+      {"name_ko": "웩슬러 기억검사", "name_en": "WMS", "id": "NEURO_WMS_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RAVLT = 15단어 × 5회 학습 → 간섭 → 즉시회상 → 지연회상 → 재인",
+      "differential": "RAVLT는 비구조화 단어 목록이고, CVLT는 의미 범주로 구조화된 16단어 목록이다.",
+      "key_point": "학습곡선(1~5회 시행 증가량), 간섭 후 회상 저하율, 재인-회상 차이가 기억장애 유형 감별의 핵심 지표이다.",
+      "common_mistake": "총 회상량만 보는 것 — 학습곡선, 간섭 효과, 재인 수행 등 과정 분석이 임상적으로 더 중요하다."
+    }
+  },
+  {
+    "id": "NEURO_WMS_011",
+    "terminology": "웩슬러 기억검사 (Wechsler Memory Scale, WMS)",
+    "terminology_ko": "웩슬러 기억검사",
+    "terminology_en": "Wechsler Memory Scale (WMS)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "청각적/시각적 기억, 즉시/지연 기억, 작업기억 등 기억의 다차원적 측면을 체계적으로 평가하는 종합 기억검사 배터리이다.",
+    "definition_en": "A comprehensive memory battery that systematically assesses multiple dimensions of memory including auditory/visual memory, immediate/delayed memory, and working memory.",
+    "significance": "기억장애의 정밀 평가를 위한 표준 도구로, 웩슬러 지능검사와 공동 규준을 제공하여 지능-기억 불일치 분석이 가능하다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1945년 WMS 초판을 개발하여 기억을 체계적으로 평가하는 표준화 도구를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"},
+      {"name_ko": "작업기억", "name_en": "Working Memory", "id": "NEURO_WM_019"},
+      {"name_ko": "레이 청각언어학습검사", "name_en": "RAVLT", "id": "NEURO_RAVLT_010"},
+      {"name_ko": "캘리포니아 언어학습검사", "name_en": "CVLT", "id": "NEURO_CVLT_012"}
+    ],
+    "sub_types": [
+      {"name_ko": "WMS-IV 청각기억 지표", "name_en": "Auditory Memory Index", "definition": "논리기억, 언어쌍연합 등으로 구성된 청각적 기억 평가 지표"},
+      {"name_ko": "WMS-IV 시각기억 지표", "name_en": "Visual Memory Index", "definition": "디자인, 시각재생 등으로 구성된 시각적 기억 평가 지표"},
+      {"name_ko": "WMS-IV 즉시기억 지표", "name_en": "Immediate Memory Index", "definition": "즉시 회상 수행을 종합한 지표"},
+      {"name_ko": "WMS-IV 지연기억 지표", "name_en": "Delayed Memory Index", "definition": "지연 회상 수행을 종합한 지표"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WMS = Wechsler 기억 버전, 청각/시각 × 즉시/지연 = 4개 핵심 지표",
+      "differential": "WMS는 종합 기억 배터리이고, RAVLT/CVLT는 언어적 학습-기억에 특화된 단일 검사이다.",
+      "key_point": "WMS-IV는 WAIS-IV와 공동 규준을 갖고 있어 지능-기억 불일치 분석이 가능하며, 이는 기억장애 감별에 핵심이다.",
+      "common_mistake": "WMS 총점(기억지수)만으로 해석하는 것 — 청각/시각, 즉시/지연 지표 간 불일치 패턴 분석이 중요하다."
+    }
+  },
+  {
+    "id": "NEURO_CVLT_012",
+    "terminology": "캘리포니아 언어학습검사 (California Verbal Learning Test, CVLT)",
+    "terminology_ko": "캘리포니아 언어학습검사",
+    "terminology_en": "California Verbal Learning Test (CVLT)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "4개 의미 범주에 속하는 16개 단어 목록을 5회 학습시킨 후 자유 회상, 단서 회상, 재인을 실시하여 언어적 학습 전략과 기억 과정을 분석하는 검사이다.",
+    "definition_en": "A verbal learning test using a 16-word list from four semantic categories across five learning trials, followed by free recall, cued recall, and recognition, enabling analysis of learning strategies and memory processes.",
+    "significance": "의미적 군집화 전략 사용, 계열 위치 효과, 간섭 민감성 등 기억의 질적 과정 분석이 가능하여 기억장애의 원인 감별에 탁월하다.",
+    "key_researchers": [
+      {"name_ko": "딘 델리스", "name_en": "Dean Delis", "contribution": "CVLT를 개발하여 기억의 과정 분석(process analysis)을 가능하게 한 패러다임을 확립"},
+      {"name_ko": "조엘 크레이머", "name_en": "Joel Kramer", "contribution": "CVLT의 개정과 표준화에 기여하고 임상 적용을 확대"}
+    ],
+    "related_concepts": [
+      {"name_ko": "레이 청각언어학습검사", "name_en": "RAVLT", "id": "NEURO_RAVLT_010"},
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"},
+      {"name_ko": "웩슬러 기억검사", "name_en": "WMS", "id": "NEURO_WMS_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CVLT = 4범주 × 4단어 = 16단어, 의미 군집화 전략 분석이 핵심",
+      "differential": "CVLT는 의미 범주 구조화(4범주 16단어)이고, RAVLT는 비구조화(15단어 무관련)이다.",
+      "key_point": "의미적 군집화(semantic clustering) 점수가 전두엽 전략 사용 능력을 반영하며, 이는 피질 치매와 피질하 치매의 감별 지표가 된다.",
+      "common_mistake": "CVLT와 RAVLT를 동일한 검사로 혼동하는 것 — 목록 구조와 분석 가능한 과정 변수가 다르다."
+    }
+  },
+  {
+    "id": "NEURO_CDT_013",
+    "terminology": "시계그리기검사 (Clock Drawing Test, CDT)",
+    "terminology_ko": "시계그리기검사",
+    "terminology_en": "Clock Drawing Test (CDT)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "시계 원판을 그리고 지정된 시각(예: 11시 10분)의 시침과 분침을 그리게 하여 시공간 구성능력, 실행기능, 의미적 지식을 간편하게 평가하는 선별검사이다.",
+    "definition_en": "A brief screening test requiring the examinee to draw a clock face with hands set to a specified time, assessing visuospatial construction, executive function, and semantic knowledge.",
+    "significance": "실시와 채점이 간편하면서도 다양한 인지 기능을 동시에 평가할 수 있어 치매 선별에서 MMSE의 보완 검사로 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "이반 슐만", "name_en": "Kenneth Shulman", "contribution": "CDT의 체계적 채점 방법을 개발하고 치매 선별에서의 유용성을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "간이정신상태검사", "name_en": "MMSE", "id": "NEURO_MMSE_001"},
+      {"name_ko": "시공간능력", "name_en": "Visuospatial Ability", "id": "NEURO_VS_021"},
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "치매 선별", "name_en": "Dementia Screening", "id": "NEURO_DS_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CDT = 시계 그리기 하나로 시공간 + 실행기능 + 의미기억을 모두 평가",
+      "differential": "CDT는 구성 과제(그리기)이고, MMSE의 시공간 항목(겹치는 오각형)은 단순 모사이다.",
+      "key_point": "숫자 배치 오류(한쪽에 몰림)는 편측무시를, 시침-분침 구분 실패는 실행기능 저하를 시사한다.",
+      "common_mistake": "CDT를 단순한 그리기 과제로만 보는 것 — 계획, 조직화, 추상적 사고 등 고차 인지 기능이 관여한다."
+    }
+  },
+  {
+    "id": "NEURO_CPT_014",
+    "terminology": "연속수행검사 (Continuous Performance Test, CPT)",
+    "terminology_ko": "연속수행검사",
+    "terminology_en": "Continuous Performance Test (CPT)",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "연속적으로 제시되는 자극 중 목표 자극에만 반응하게 하여 지속적 주의력(sustained attention)과 억제 능력(commission error)을 측정하는 컴퓨터 기반 검사이다.",
+    "definition_en": "A computer-based test measuring sustained attention and response inhibition by requiring responses to target stimuli among continuously presented stimuli, using omission and commission errors as key indices.",
+    "significance": "ADHD 진단 보조 및 주의력 장애 평가의 표준 도구로, 누락 오류(부주의)와 오경보 오류(충동성)를 객관적으로 구분한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 로스볼드", "name_en": "Herbert Rosvold", "contribution": "1956년 CPT 패러다임을 최초로 개발하여 지속적 주의력의 실험적 측정법을 확립"},
+      {"name_ko": "키스 코너스", "name_en": "C. Keith Conners", "contribution": "Conners' CPT를 개발하여 ADHD 평가에서 CPT의 임상적 활용을 확대"}
+    ],
+    "related_concepts": [
+      {"name_ko": "주의력", "name_en": "Attention", "id": "NEURO_ATT_020"},
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "스트룹 검사", "name_en": "Stroop Test", "id": "NEURO_STR_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "Conners' CPT", "name_en": "Conners' CPT", "definition": "ADHD 평가에 최적화된 대표적 CPT 버전"},
+      {"name_ko": "AX-CPT", "name_en": "AX-CPT", "definition": "맥락 의존적 주의 통제를 측정하는 변형 CPT"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CPT = 지속 주의력 검사, 누락오류(omission)=부주의, 오경보(commission)=충동성",
+      "differential": "CPT는 지속적 주의(sustained attention)를, TMT는 주의 전환(alternating attention)을 측정한다.",
+      "key_point": "반응시간의 변산성(variability)이 평균 반응시간보다 ADHD에 더 민감한 지표로 알려져 있다.",
+      "common_mistake": "CPT 결과만으로 ADHD를 확진할 수 있다고 생각하는 것 — CPT는 진단 보조 도구이지 확진 도구가 아니다."
+    }
+  },
+  {
+    "id": "NEURO_NTB_015",
+    "terminology": "신경심리검사 배터리 (Neuropsychological Test Battery)",
+    "terminology_ko": "신경심리검사 배터리",
+    "terminology_en": "Neuropsychological Test Battery",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "주의력, 기억, 언어, 시공간, 실행기능 등 주요 인지 영역을 포괄적으로 평가하기 위해 여러 개별 검사를 체계적으로 조합한 종합 검사 모음이다.",
+    "definition_en": "A systematic combination of individual tests designed to comprehensively assess major cognitive domains including attention, memory, language, visuospatial ability, and executive function.",
+    "significance": "단일 검사로는 파악할 수 없는 인지 기능의 전체적 프로파일을 제공하여, 뇌손상의 위치와 범위를 추론하고 재활 계획을 수립하는 데 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "랠프 레이탄", "name_en": "Ralph Reitan", "contribution": "할스테드-레이탄 배터리를 통해 종합 신경심리검사 배터리 접근을 확립"},
+      {"name_ko": "머릴 허터", "name_en": "Muriel Lezak", "contribution": "《Neuropsychological Assessment》 저서로 신경심리검사 배터리의 구성 원리를 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정배터리 vs 유연배터리", "name_en": "Fixed vs Flexible Battery", "id": "NEURO_BAT_016"},
+      {"name_ko": "할스테드-레이탄 신경심리배터리", "name_en": "HRNB", "id": "NEURO_HRB_007"},
+      {"name_ko": "신경심리학적 프로파일", "name_en": "Neuropsychological Profile", "id": "NEURO_NPP_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "배터리 = 여러 검사의 '묶음' → 인지 기능 전체를 조감하는 것이 목적",
+      "differential": "배터리는 여러 검사의 체계적 조합이고, 개별 검사(예: WCST)는 특정 기능만 측정한다.",
+      "key_point": "배터리 구성 시 주요 인지 영역(주의, 기억, 언어, 시공간, 실행기능)을 모두 포함해야 한다.",
+      "common_mistake": "모든 환자에게 동일한 배터리를 사용해야 한다고 생각하는 것 — 의뢰 질문에 따라 유연하게 구성할 수 있다."
+    }
+  },
+  {
+    "id": "NEURO_BAT_016",
+    "terminology": "고정배터리 vs 유연배터리 (Fixed Battery vs Flexible Battery)",
+    "terminology_ko": "고정배터리 vs 유연배터리",
+    "terminology_en": "Fixed Battery vs Flexible Battery",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "고정배터리는 모든 피검자에게 동일한 검사 세트를 실시하는 접근이며, 유연배터리는 의뢰 질문과 환자 특성에 따라 검사를 선택적으로 구성하는 접근이다.",
+    "definition_en": "Fixed battery administers the same set of tests to all examinees, while flexible battery selectively assembles tests based on the referral question and patient characteristics.",
+    "significance": "신경심리 평가의 두 가지 주요 철학으로, 고정배터리는 표준화와 포괄성을, 유연배터리는 효율성과 개별화를 강조하며, 현대 임상에서는 두 접근의 절충이 권장된다.",
+    "key_researchers": [
+      {"name_ko": "랠프 레이탄", "name_en": "Ralph Reitan", "contribution": "할스테드-레이탄 배터리를 통해 고정배터리 접근을 대표"},
+      {"name_ko": "에디스 카플란", "name_en": "Edith Kaplan", "contribution": "보스턴 과정 접근(Boston Process Approach)을 통해 유연배터리의 이론적 기초를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "할스테드-레이탄 신경심리배터리", "name_en": "HRNB", "id": "NEURO_HRB_007"},
+      {"name_ko": "루리아-네브래스카 배터리", "name_en": "LNNB", "id": "NEURO_LNB_008"},
+      {"name_ko": "신경심리검사 배터리", "name_en": "Neuropsychological Test Battery", "id": "NEURO_NTB_015"}
+    ],
+    "sub_types": [
+      {"name_ko": "고정배터리", "name_en": "Fixed Battery", "definition": "모든 피검자에게 동일 검사 세트를 실시하는 표준화된 접근 (예: HRNB)"},
+      {"name_ko": "유연배터리", "name_en": "Flexible Battery", "definition": "의뢰 질문에 따라 검사를 선택적으로 구성하는 개별화된 접근 (예: Boston Process Approach)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "고정 = 모두 같은 검사(표준화↑), 유연 = 환자마다 다른 검사(효율↑)",
+      "differential": "고정배터리는 규준 비교가 용이하고, 유연배터리는 임상적 가설 검증에 적합하다.",
+      "key_point": "고정배터리의 장점은 표준화와 포괄성이고 단점은 시간과 비용이며, 유연배터리의 장점은 효율성이고 단점은 검사자 전문성에 의존한다는 것이다.",
+      "common_mistake": "유연배터리가 비체계적이라고 생각하는 것 — 유연배터리도 체계적 가설 검증에 기반한 전문적 접근이다."
+    }
+  },
+  {
+    "id": "NEURO_HN_017",
+    "terminology": "편측무시 (Hemispatial Neglect)",
+    "terminology_ko": "편측무시",
+    "terminology_en": "Hemispatial Neglect",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "뇌 손상 반대쪽 공간의 자극에 대해 주의를 기울이지 못하거나 반응하지 못하는 신경심리학적 증후군으로, 주로 우반구 두정엽 손상 시 좌측 무시로 나타난다.",
+    "definition_en": "A neuropsychological syndrome characterized by failure to attend or respond to stimuli in the contralesional space, most commonly left-sided neglect following right parietal lobe damage.",
+    "significance": "뇌졸중 후 재활에서 가장 중요한 예후 인자 중 하나이며, 선 이등분 검사, 선 지우기 검사 등으로 평가되어 재활 치료 계획 수립에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "에두아르도 비시아크", "name_en": "Edoardo Bisiach", "contribution": "편측무시의 표상 이론(representational theory)을 제안하고 심상적 무시를 입증"},
+      {"name_ko": "마르셀 메쥘랑", "name_en": "M. Marcel Mesulam", "contribution": "주의의 신경 네트워크 모델을 통해 편측무시의 신경학적 기전을 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "시공간능력", "name_en": "Visuospatial Ability", "id": "NEURO_VS_021"},
+      {"name_ko": "주의력", "name_en": "Attention", "id": "NEURO_ATT_020"},
+      {"name_ko": "뇌손상 선별", "name_en": "Brain Damage Screening", "id": "NEURO_BDS_025"}
+    ],
+    "sub_types": [
+      {"name_ko": "개인 공간 무시", "name_en": "Personal Neglect", "definition": "자신의 신체 반쪽을 무시하는 증상"},
+      {"name_ko": "근위 공간 무시", "name_en": "Peripersonal Neglect", "definition": "팔 닿는 거리 내 공간을 무시하는 증상"},
+      {"name_ko": "원위 공간 무시", "name_en": "Extrapersonal Neglect", "definition": "팔 닿는 거리 밖의 공간을 무시하는 증상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "편측무시 = 우반구 두정엽 손상 → 좌측 공간을 '무시'",
+      "differential": "편측무시는 주의 결함이고, 반맹(hemianopia)은 시각 경로의 감각 결함이다.",
+      "key_point": "좌반구 손상보다 우반구 손상 시 편측무시가 훨씬 흔하고 심하며, 이는 우반구가 양측 공간 주의를 담당하기 때문이다.",
+      "common_mistake": "편측무시를 시력 문제(반맹)와 혼동하는 것 — 무시는 주의의 문제이지 감각의 문제가 아니다."
+    }
+  },
+  {
+    "id": "NEURO_EF_018",
+    "terminology": "실행기능 (Executive Function)",
+    "terminology_ko": "실행기능",
+    "terminology_en": "Executive Function",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "목표 설정, 계획 수립, 조직화, 인지적 유연성, 억제 통제, 자기 모니터링 등 목표지향적 행동을 조절하는 상위 인지 기능의 총칭으로, 주로 전전두피질이 관여한다.",
+    "definition_en": "An umbrella term for higher-order cognitive processes that regulate goal-directed behavior, including goal setting, planning, organization, cognitive flexibility, inhibitory control, and self-monitoring, primarily mediated by the prefrontal cortex.",
+    "significance": "전두엽 손상의 핵심 평가 대상이며, WCST, TMT-B, 스트룹 등 다양한 검사로 측정되고, ADHD, 외상성 뇌손상, 치매 등의 감별 진단에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "알렉산드르 루리아", "name_en": "Alexander Luria", "contribution": "전두엽의 프로그래밍, 조절, 검증 기능을 체계화하여 실행기능 개념의 기초를 확립"},
+      {"name_ko": "아델 다이아몬드", "name_en": "Adele Diamond", "contribution": "실행기능의 3가지 핵심 요소(억제, 작업기억, 인지적 유연성)를 구분하는 통합 모델을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전두엽 기능", "name_en": "Frontal Lobe Function", "id": "NEURO_FL_024"},
+      {"name_ko": "위스콘신 카드분류검사", "name_en": "WCST", "id": "NEURO_WCST_004"},
+      {"name_ko": "작업기억", "name_en": "Working Memory", "id": "NEURO_WM_019"},
+      {"name_ko": "길 만들기 검사", "name_en": "Trail Making Test", "id": "NEURO_TMT_003"}
+    ],
+    "sub_types": [
+      {"name_ko": "억제 통제", "name_en": "Inhibitory Control", "definition": "부적절한 반응을 억제하는 능력 (스트룹, Go/No-Go)"},
+      {"name_ko": "인지적 유연성", "name_en": "Cognitive Flexibility", "definition": "과제나 규칙 간 전환 능력 (WCST, TMT-B)"},
+      {"name_ko": "계획 및 조직화", "name_en": "Planning and Organization", "definition": "목표 달성을 위한 단계를 수립하고 실행하는 능력 (하노이탑, ROCF)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "실행기능 = 인지의 CEO → 계획, 억제, 전환, 모니터링",
+      "differential": "실행기능은 상위 조절 기능이고, 주의력은 정보 선택/유지의 기초 기능이다.",
+      "key_point": "Diamond 모델에서 실행기능의 3대 핵심 요소는 억제(inhibition), 작업기억(working memory), 인지적 유연성(cognitive flexibility)이다.",
+      "common_mistake": "실행기능을 단일 능력으로 보는 것 — 실행기능은 억제, 전환, 계획 등 여러 하위 요소로 구성된 다차원적 구인이다."
+    }
+  },
+  {
+    "id": "NEURO_WM_019",
+    "terminology": "작업기억 (Working Memory)",
+    "terminology_ko": "작업기억",
+    "terminology_en": "Working Memory",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "정보를 일시적으로 유지하면서 동시에 조작하는 능력으로, 음운루프, 시공간 잡기장, 중앙집행기로 구성되며, 신경심리검사에서는 숫자 역순 따라하기, 연산 과제 등으로 측정한다.",
+    "definition_en": "The capacity to temporarily hold and manipulate information, comprising the phonological loop, visuospatial sketchpad, and central executive, measured in neuropsychological testing by digit span backward, arithmetic tasks, etc.",
+    "significance": "실행기능의 핵심 구성요소이자 학습과 추론의 기초로, 전두-두정 네트워크의 기능을 반영하며 ADHD, 학습장애, 노화 관련 인지저하 평가에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "앨런 배들리", "name_en": "Alan Baddeley", "contribution": "1974년 작업기억의 다성분 모델(phonological loop, visuospatial sketchpad, central executive)을 제안"},
+      {"name_ko": "그레이엄 히치", "name_en": "Graham Hitch", "contribution": "배들리와 함께 작업기억 모델을 공동 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "주의력", "name_en": "Attention", "id": "NEURO_ATT_020"},
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"},
+      {"name_ko": "전두엽 기능", "name_en": "Frontal Lobe Function", "id": "NEURO_FL_024"}
+    ],
+    "sub_types": [
+      {"name_ko": "음운루프", "name_en": "Phonological Loop", "definition": "언어적 정보를 음운적으로 유지하고 시연하는 하위체계"},
+      {"name_ko": "시공간 잡기장", "name_en": "Visuospatial Sketchpad", "definition": "시각적, 공간적 정보를 일시적으로 유지하는 하위체계"},
+      {"name_ko": "중앙집행기", "name_en": "Central Executive", "definition": "주의 통제와 하위체계 간 조정을 담당하는 상위 조절 요소"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "작업기억 = '유지 + 조작' (단순 유지는 단기기억, 조작이 추가되면 작업기억)",
+      "differential": "단기기억은 정보의 단순 유지(숫자 바로 따라하기)이고, 작업기억은 유지+조작(숫자 거꾸로 따라하기)이다.",
+      "key_point": "Baddeley 모델의 중앙집행기(central executive)는 실행기능과 밀접하며, 전전두피질이 주로 담당한다.",
+      "common_mistake": "단기기억과 작업기억을 같은 것으로 보는 오류 — 작업기억은 정보 조작이 추가된 능동적 과정이다."
+    }
+  },
+  {
+    "id": "NEURO_ATT_020",
+    "terminology": "주의력 (Attention)",
+    "terminology_ko": "주의력",
+    "terminology_en": "Attention",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "외부 자극이나 내적 표상 중 특정 정보를 선택하고 유지하며 전환하는 인지 기능으로, 집중 주의, 지속 주의, 선택 주의, 분할 주의, 교대 주의 등으로 세분화된다.",
+    "definition_en": "The cognitive function of selecting, sustaining, and shifting focus on specific information from external stimuli or internal representations, subdivided into focused, sustained, selective, divided, and alternating attention.",
+    "significance": "모든 인지 기능의 기초가 되는 관문 역할을 하며, 주의력 결함은 기억, 언어, 실행기능 등 전반적 인지 수행에 영향을 미치므로 신경심리평가에서 가장 먼저 평가해야 한다.",
+    "key_researchers": [
+      {"name_ko": "마이클 포스너", "name_en": "Michael Posner", "contribution": "주의의 세 가지 네트워크(경계, 지향, 실행)를 제안하고 주의 네트워크 검사(ANT)를 개발"},
+      {"name_ko": "이언 로버트슨", "name_en": "Ian Robertson", "contribution": "주의 과정의 임상적 분류(지속, 선택, 분할, 전환)를 체계화하고 재활 모델을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "연속수행검사", "name_en": "CPT", "id": "NEURO_CPT_014"},
+      {"name_ko": "작업기억", "name_en": "Working Memory", "id": "NEURO_WM_019"},
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "길 만들기 검사", "name_en": "Trail Making Test", "id": "NEURO_TMT_003"}
+    ],
+    "sub_types": [
+      {"name_ko": "집중 주의", "name_en": "Focused Attention", "definition": "특정 자극에 초점을 맞추는 기초적 주의"},
+      {"name_ko": "지속 주의", "name_en": "Sustained Attention", "definition": "일정 시간 동안 주의를 유지하는 능력 (CPT로 측정)"},
+      {"name_ko": "선택 주의", "name_en": "Selective Attention", "definition": "방해 자극 중 목표 자극을 선별하는 능력 (스트룹으로 측정)"},
+      {"name_ko": "교대 주의", "name_en": "Alternating Attention", "definition": "두 과제 간 주의를 번갈아 전환하는 능력 (TMT-B로 측정)"},
+      {"name_ko": "분할 주의", "name_en": "Divided Attention", "definition": "두 가지 이상의 과제에 동시에 주의를 배분하는 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "주의력 5단계: 집중→지속→선택→교대→분할 (난이도 순서)",
+      "differential": "주의력은 정보 선택/유지의 기초 기능이고, 실행기능은 목표지향적 행동의 상위 조절 기능이다.",
+      "key_point": "Sohlberg & Mateer의 임상 주의력 모델: 집중→지속→선택→교대→분할 순으로 위계적이며, 하위 수준이 손상되면 상위 수준도 영향받는다.",
+      "common_mistake": "주의력을 단일 기능으로 보는 것 — 주의력은 여러 하위 유형으로 구분되며 각각 다른 검사로 평가한다."
+    }
+  },
+  {
+    "id": "NEURO_VS_021",
+    "terminology": "시공간능력 (Visuospatial Ability)",
+    "terminology_ko": "시공간능력",
+    "terminology_en": "Visuospatial Ability",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "공간 내 대상의 위치, 방향, 거리를 지각하고, 공간적 관계를 분석하며, 시각 정보를 조작하여 구성하는 능력으로, 주로 우반구 두정엽과 후두엽이 관여한다.",
+    "definition_en": "The ability to perceive the location, orientation, and distance of objects in space, analyze spatial relationships, and manipulate visual information for construction, primarily mediated by the right parietal and occipital lobes.",
+    "significance": "우반구 기능의 핵심 평가 영역으로, ROCF, 토막짜기, 시계그리기 등으로 측정되며, 우반구 손상과 알츠하이머 치매의 감별 진단에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "아서 벤턴", "name_en": "Arthur Benton", "contribution": "벤턴 시각기억검사와 선 방향 판단 검사를 개발하여 시공간 능력 평가의 기초를 확립"},
+      {"name_ko": "브렌다 밀너", "name_en": "Brenda Milner", "contribution": "우반구 손상 환자의 시공간 결함을 체계적으로 연구하여 반구 특수화를 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "레이-오스테리스 복합도형검사", "name_en": "ROCF", "id": "NEURO_ROCF_006"},
+      {"name_ko": "시계그리기검사", "name_en": "Clock Drawing Test", "id": "NEURO_CDT_013"},
+      {"name_ko": "편측무시", "name_en": "Hemispatial Neglect", "id": "NEURO_HN_017"},
+      {"name_ko": "실인증", "name_en": "Agnosia", "id": "NEURO_AGN_029"}
+    ],
+    "sub_types": [
+      {"name_ko": "시공간 지각", "name_en": "Visuospatial Perception", "definition": "공간 내 대상의 위치와 방향을 파악하는 능력"},
+      {"name_ko": "시공간 구성", "name_en": "Visuospatial Construction", "definition": "부분을 조합하여 전체를 만드는 능력 (토막짜기, 도형 그리기)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "시공간 = 우반구(두정엽), 언어 = 좌반구(측두엽)",
+      "differential": "시공간 지각은 '보는 것'이고, 시공간 구성은 '만드는 것'이다 — 구성 과제가 더 복잡하다.",
+      "key_point": "시공간 구성 장애는 두정엽 손상과 전두엽 손상 모두에서 나타나지만, 오류 패턴이 다르다(두정엽: 공간 왜곡, 전두엽: 조직화 결함).",
+      "common_mistake": "시공간능력 저하를 모두 우반구 손상으로 해석하는 것 — 전두엽 손상도 구성 과제에서 조직화 결함을 보인다."
+    }
+  },
+  {
+    "id": "NEURO_LF_022",
+    "terminology": "언어기능 (Language Function)",
+    "terminology_ko": "언어기능",
+    "terminology_en": "Language Function",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "말의 이해(수용 언어)와 표현(표현 언어), 이름대기, 따라 말하기, 읽기, 쓰기 등을 포괄하는 인지 기능으로, 주로 좌반구의 브로카 영역과 베르니케 영역이 관여한다.",
+    "definition_en": "Cognitive functions encompassing comprehension (receptive language) and production (expressive language), naming, repetition, reading, and writing, primarily mediated by Broca's and Wernicke's areas in the left hemisphere.",
+    "significance": "좌반구 손상의 핵심 평가 영역으로, BNT, 단어유창성 검사, Token Test 등으로 평가되며, 실어증 유형 분류와 치매 감별에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "폴 브로카", "name_en": "Paul Broca", "contribution": "좌반구 전두엽(브로카 영역)의 손상이 표현 언어 장애를 유발함을 발견"},
+      {"name_ko": "카를 베르니케", "name_en": "Carl Wernicke", "contribution": "좌반구 측두엽(베르니케 영역)의 손상이 언어 이해 장애를 유발함을 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "보스턴 이름대기검사", "name_en": "BNT", "id": "NEURO_BNT_009"},
+      {"name_ko": "실어증", "name_en": "Aphasia", "id": "NEURO_APH_027"},
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"}
+    ],
+    "sub_types": [
+      {"name_ko": "수용 언어", "name_en": "Receptive Language", "definition": "타인의 말이나 글을 이해하는 능력"},
+      {"name_ko": "표현 언어", "name_en": "Expressive Language", "definition": "자신의 생각을 말이나 글로 표현하는 능력"},
+      {"name_ko": "이름대기", "name_en": "Naming", "definition": "사물이나 개념의 이름을 인출하여 산출하는 능력"},
+      {"name_ko": "단어 유창성", "name_en": "Verbal Fluency", "definition": "주어진 조건(범주/음소)에 따라 단어를 빠르게 산출하는 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "언어 = 좌반구, 브로카(표현-전두) + 베르니케(이해-측두) + 궁상속(연결)",
+      "differential": "언어기능은 좌반구 전문 기능이고, 시공간능력은 우반구 전문 기능이다.",
+      "key_point": "신경심리검사에서 언어기능 평가는 자발적 발화, 이해, 이름대기, 따라 말하기, 읽기, 쓰기의 6개 측면을 모두 포함해야 한다.",
+      "common_mistake": "언어기능 검사가 정상이면 의사소통에 문제가 없다고 판단하는 것 — 화용론적(pragmatic) 언어 능력은 별도 평가가 필요하다."
+    }
+  },
+  {
+    "id": "NEURO_MEM_023",
+    "terminology": "기억 (Memory)",
+    "terminology_ko": "기억",
+    "terminology_en": "Memory",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "정보를 부호화(encoding), 저장(storage), 인출(retrieval)하는 인지 과정의 총칭으로, 신경심리검사에서는 감각기억, 단기/작업기억, 장기기억(명시적/암묵적) 등으로 구분하여 평가한다.",
+    "definition_en": "The collective cognitive processes of encoding, storing, and retrieving information, assessed in neuropsychological testing across sensory memory, short-term/working memory, and long-term memory (explicit/implicit) systems.",
+    "significance": "뇌손상 및 퇴행성 질환에서 가장 흔하게 손상되는 인지 기능으로, 해마-내측두엽 체계의 기능을 반영하며 기억장애 유형 분석이 감별 진단의 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "브렌다 밀너", "name_en": "Brenda Milner", "contribution": "H.M. 환자 연구를 통해 해마의 기억 형성 역할을 입증하고 기억의 이중 해리를 발견"},
+      {"name_ko": "엔델 털빙", "name_en": "Endel Tulving", "contribution": "일화기억(episodic memory)과 의미기억(semantic memory)의 구분을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "웩슬러 기억검사", "name_en": "WMS", "id": "NEURO_WMS_011"},
+      {"name_ko": "레이 청각언어학습검사", "name_en": "RAVLT", "id": "NEURO_RAVLT_010"},
+      {"name_ko": "작업기억", "name_en": "Working Memory", "id": "NEURO_WM_019"},
+      {"name_ko": "레이-오스테리스 복합도형검사", "name_en": "ROCF", "id": "NEURO_ROCF_006"}
+    ],
+    "sub_types": [
+      {"name_ko": "일화기억", "name_en": "Episodic Memory", "definition": "개인적 경험과 사건에 대한 기억 (시간/장소 맥락 포함)"},
+      {"name_ko": "의미기억", "name_en": "Semantic Memory", "definition": "일반적 지식과 사실에 대한 기억 (맥락 무관)"},
+      {"name_ko": "절차기억", "name_en": "Procedural Memory", "definition": "기술과 습관에 대한 암묵적 기억"},
+      {"name_ko": "회상", "name_en": "Recall", "definition": "단서 없이 저장된 정보를 능동적으로 인출하는 과정"},
+      {"name_ko": "재인", "name_en": "Recognition", "definition": "제시된 정보가 이전에 학습한 것인지 판단하는 과정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "기억 = 부호화(넣기) → 저장(보관) → 인출(꺼내기), 어디서 문제인지가 핵심",
+      "differential": "회상 저하+재인 정상 = 인출 결함(전두엽/피질하), 회상+재인 모두 저하 = 저장 결함(해마/내측두엽).",
+      "key_point": "알츠하이머형 치매는 부호화/저장 결함(재인도 저하)이고, 피질하 치매는 인출 결함(재인은 상대적 보존)이라는 패턴이 감별 진단의 핵심이다.",
+      "common_mistake": "기억력 저하를 모두 치매로 연결하는 것 — 우울증, 주의력 결핍, 불안 등도 기억 수행을 저하시킨다."
+    }
+  },
+  {
+    "id": "NEURO_FL_024",
+    "terminology": "전두엽 기능 (Frontal Lobe Function)",
+    "terminology_ko": "전두엽 기능",
+    "terminology_en": "Frontal Lobe Function",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "계획, 의사결정, 충동 억제, 사회적 행동 조절, 작업기억 등 고차 인지 기능을 담당하는 전두엽, 특히 전전두피질의 기능으로, 실행기능의 신경해부학적 기반이 된다.",
+    "definition_en": "Higher-order cognitive functions mediated by the frontal lobes, especially the prefrontal cortex, including planning, decision-making, impulse control, social behavior regulation, and working memory, forming the neuroanatomical basis of executive function.",
+    "significance": "전두엽은 뇌의 약 1/3을 차지하며 외상성 뇌손상에 가장 취약한 영역으로, 전두엽 기능 평가는 WCST, TMT-B, 단어유창성 등 복수 검사로 이루어진다.",
+    "key_researchers": [
+      {"name_ko": "알렉산드르 루리아", "name_en": "Alexander Luria", "contribution": "전두엽을 행동의 프로그래밍, 조절, 검증을 담당하는 최상위 기능 단위로 개념화"},
+      {"name_ko": "안토니오 다마지오", "name_en": "Antonio Damasio", "contribution": "전두엽 손상 환자(Phineas Gage 재분석 포함)를 통해 의사결정과 정서의 관계(somatic marker hypothesis)를 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "작업기억", "name_en": "Working Memory", "id": "NEURO_WM_019"},
+      {"name_ko": "위스콘신 카드분류검사", "name_en": "WCST", "id": "NEURO_WCST_004"},
+      {"name_ko": "스트룹 검사", "name_en": "Stroop Test", "id": "NEURO_STR_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "배외측 전전두피질 기능", "name_en": "Dorsolateral Prefrontal Function", "definition": "작업기억, 계획, 인지적 유연성 등 실행기능을 담당"},
+      {"name_ko": "안와전두피질 기능", "name_en": "Orbitofrontal Function", "definition": "충동 억제, 의사결정, 사회적 행동 조절을 담당"},
+      {"name_ko": "내측 전전두피질 기능", "name_en": "Medial Prefrontal Function", "definition": "동기, 자발성, 자기 모니터링을 담당"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "전두엽 3영역: 배외측(인지), 안와(사회/정서), 내측(동기)",
+      "differential": "배외측 손상은 실행기능 저하를, 안와 손상은 탈억제/충동성을, 내측 손상은 무감동/자발성 저하를 유발한다.",
+      "key_point": "전두엽 손상 환자는 표준 지능검사에서 정상 수준을 보일 수 있으나 실제 생활에서는 심각한 적응 곤란을 보이는 역설이 특징적이다.",
+      "common_mistake": "전두엽 기능 = 실행기능으로 동일시하는 것 — 전두엽은 실행기능 외에 동기, 정서조절, 사회적 인지 등도 담당한다."
+    }
+  },
+  {
+    "id": "NEURO_BDS_025",
+    "terminology": "뇌손상 선별 (Brain Damage Screening)",
+    "terminology_ko": "뇌손상 선별",
+    "terminology_en": "Brain Damage Screening",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "간단한 검사를 통해 뇌손상 또는 인지기능 저하의 유무를 빠르게 확인하는 초기 평가 과정으로, 양성 결과 시 종합 신경심리검사 배터리로 정밀 평가를 의뢰한다.",
+    "definition_en": "An initial assessment process using brief tests to quickly identify the presence of brain damage or cognitive impairment, with positive results warranting referral for comprehensive neuropsychological battery evaluation.",
+    "significance": "의료 현장에서 제한된 시간과 자원 내에서 인지장애 환자를 효율적으로 식별하여 적절한 정밀 평가로 연결하는 첫 관문 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "마셜 폴스타인", "name_en": "Marshal Folstein", "contribution": "MMSE를 개발하여 인지기능 선별의 세계적 표준을 확립"},
+      {"name_ko": "아서 벤턴", "name_en": "Arthur Benton", "contribution": "벤턴 시각기억검사 등 다양한 간이 선별 도구를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "간이정신상태검사", "name_en": "MMSE", "id": "NEURO_MMSE_001"},
+      {"name_ko": "시계그리기검사", "name_en": "Clock Drawing Test", "id": "NEURO_CDT_013"},
+      {"name_ko": "치매 선별", "name_en": "Dementia Screening", "id": "NEURO_DS_026"},
+      {"name_ko": "신경심리검사 배터리", "name_en": "Neuropsychological Test Battery", "id": "NEURO_NTB_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선별 = 빠르게 거르기(screening) → 양성이면 정밀검사(comprehensive battery)로",
+      "differential": "선별검사는 민감도(sensitivity)가 중요하고, 진단검사는 특이도(specificity)가 중요하다.",
+      "key_point": "선별검사의 절단점은 민감도와 특이도의 균형에 따라 설정되며, 목적에 따라 절단점을 조정할 수 있다.",
+      "common_mistake": "선별검사 결과를 최종 진단으로 사용하는 것 — 선별검사는 정밀 평가의 필요성을 판단하는 도구이다."
+    }
+  },
+  {
+    "id": "NEURO_DS_026",
+    "terminology": "치매 선별 (Dementia Screening)",
+    "terminology_ko": "치매 선별",
+    "terminology_en": "Dementia Screening",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "MMSE, CDR, 시계그리기검사 등 간이 도구를 사용하여 치매 의심 환자를 조기에 식별하고 종합 신경심리검사로 의뢰하기 위한 체계적 선별 과정이다.",
+    "definition_en": "A systematic screening process using brief instruments such as MMSE, CDR, and Clock Drawing Test to identify suspected dementia patients early and refer them for comprehensive neuropsychological evaluation.",
+    "significance": "치매의 조기 발견과 조기 개입을 가능하게 하며, 고령화 사회에서 지역사회 기반 선별 프로그램의 핵심 절차이다.",
+    "key_researchers": [
+      {"name_ko": "마셜 폴스타인", "name_en": "Marshal Folstein", "contribution": "MMSE를 통해 치매 선별의 전 세계적 표준 도구를 제공"},
+      {"name_ko": "자드 모리스", "name_en": "John C. Morris", "contribution": "CDR을 통해 치매 중증도 평정의 표준 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "간이정신상태검사", "name_en": "MMSE", "id": "NEURO_MMSE_001"},
+      {"name_ko": "임상치매척도", "name_en": "CDR", "id": "NEURO_CDR_002"},
+      {"name_ko": "시계그리기검사", "name_en": "Clock Drawing Test", "id": "NEURO_CDT_013"},
+      {"name_ko": "뇌손상 선별", "name_en": "Brain Damage Screening", "id": "NEURO_BDS_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "치매 선별 3대 도구: MMSE(인지), CDR(중증도), CDT(시공간+실행)",
+      "differential": "치매 선별은 인지장애의 유무를 판별하고, CDR은 치매의 중증도를 단계화한다.",
+      "key_point": "교육 수준, 문화적 배경에 따라 선별 도구의 절단점을 조정해야 하며, 한국에서는 CERAD-K 배터리가 치매 선별 표준으로 사용된다.",
+      "common_mistake": "선별검사에서 정상 범위이면 치매가 아니라고 단정하는 것 — 초기 치매나 고학력자는 선별검사에서 정상으로 나올 수 있다."
+    }
+  },
+  {
+    "id": "NEURO_APH_027",
+    "terminology": "실어증 (Aphasia)",
+    "terminology_ko": "실어증",
+    "terminology_en": "Aphasia",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "뇌 손상(주로 좌반구)으로 인해 이전에 정상이었던 언어의 이해, 표현, 따라 말하기, 이름대기 등의 능력이 후천적으로 손상된 상태를 말한다.",
+    "definition_en": "An acquired language disorder resulting from brain damage (primarily left hemisphere) that impairs previously normal abilities in language comprehension, expression, repetition, and naming.",
+    "significance": "뇌졸중 후 가장 흔한 인지 장애 중 하나로, 유형 분류(브로카, 베르니케, 전도, 전반 등)가 병변 위치 추정과 재활 계획에 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "폴 브로카", "name_en": "Paul Broca", "contribution": "1861년 좌전두엽 손상과 운동성 실어증의 관계를 최초로 보고"},
+      {"name_ko": "카를 베르니케", "name_en": "Carl Wernicke", "contribution": "1874년 좌측두엽 손상과 감각성 실어증의 관계를 발견하고 언어 모델을 제시"},
+      {"name_ko": "노먼 게슈윈드", "name_en": "Norman Geschwind", "contribution": "전도 실어증(궁상속 손상)을 포함한 연결주의적 실어증 분류 체계를 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어기능", "name_en": "Language Function", "id": "NEURO_LF_022"},
+      {"name_ko": "보스턴 이름대기검사", "name_en": "BNT", "id": "NEURO_BNT_009"},
+      {"name_ko": "실행증", "name_en": "Apraxia", "id": "NEURO_APR_028"}
+    ],
+    "sub_types": [
+      {"name_ko": "브로카 실어증", "name_en": "Broca's Aphasia", "definition": "표현 장애가 주된 비유창성 실어증; 이해는 상대적 보존"},
+      {"name_ko": "베르니케 실어증", "name_en": "Wernicke's Aphasia", "definition": "이해 장애가 주된 유창성 실어증; 말은 유창하나 의미 없음"},
+      {"name_ko": "전도 실어증", "name_en": "Conduction Aphasia", "definition": "따라 말하기가 특히 손상된 실어증; 궁상속(arcuate fasciculus) 손상"},
+      {"name_ko": "전반 실어증", "name_en": "Global Aphasia", "definition": "이해와 표현 모두 심각하게 손상된 실어증"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "실어증 분류: 유창성(B vs W) × 이해(W↓) × 따라말하기(전도↓) × 전반(모두↓)",
+      "differential": "브로카 실어증은 비유창+이해보존이고, 베르니케 실어증은 유창+이해손상이다.",
+      "key_point": "실어증 분류의 3가지 핵심 축은 유창성, 이해력, 따라 말하기이며, 이 세 축의 조합으로 8가지 유형이 구분된다.",
+      "common_mistake": "실어증을 구음장애(dysarthria)와 혼동하는 것 — 실어증은 언어 체계의 문제이고, 구음장애는 말 산출의 운동적 문제이다."
+    }
+  },
+  {
+    "id": "NEURO_APR_028",
+    "terminology": "실행증 (Apraxia)",
+    "terminology_ko": "실행증",
+    "terminology_en": "Apraxia",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "운동 능력, 감각 기능, 언어 이해에 이상이 없음에도 불구하고 학습된 의도적 동작(예: 가위질, 손 흔들기)을 올바르게 수행하지 못하는 고차 운동 장애이다.",
+    "definition_en": "A higher-order motor disorder characterized by the inability to correctly perform learned purposeful movements (e.g., using scissors, waving) despite intact motor ability, sensory function, and language comprehension.",
+    "significance": "두정엽 및 전두엽 운동연합 영역의 손상을 시사하며, 뇌졸중, 퇴행성 질환의 감별 진단과 일상생활 기능 예후 판단에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "후고 리프만", "name_en": "Hugo Liepmann", "contribution": "1900년대 초 실행증을 최초로 체계적으로 분류하고 신경해부학적 기반을 제시"},
+      {"name_ko": "노먼 게슈윈드", "name_en": "Norman Geschwind", "contribution": "실행증의 연결끊김(disconnection) 모델을 발전시켜 현대적 이해의 기초를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "실어증", "name_en": "Aphasia", "id": "NEURO_APH_027"},
+      {"name_ko": "실인증", "name_en": "Agnosia", "id": "NEURO_AGN_029"},
+      {"name_ko": "전두엽 기능", "name_en": "Frontal Lobe Function", "id": "NEURO_FL_024"}
+    ],
+    "sub_types": [
+      {"name_ko": "관념운동 실행증", "name_en": "Ideomotor Apraxia", "definition": "개별 동작의 수행은 가능하나 명령에 따른 의도적 동작 수행이 곤란 (예: '망치질 흉내' 불가)"},
+      {"name_ko": "관념 실행증", "name_en": "Ideational Apraxia", "definition": "복잡한 연속 동작의 순서를 올바르게 조직하지 못함 (예: 편지 봉투에 넣어 부치기)"},
+      {"name_ko": "구성 실행증", "name_en": "Constructional Apraxia", "definition": "공간적 요소를 조합하여 구성하는 동작의 장애 (도형 그리기, 블록 조립)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "실행증 = '할 줄 알고, 이해하고, 움직일 수 있는데 못하는 것' → 고차 운동 계획의 문제",
+      "differential": "관념운동 실행증은 개별 동작 계획 장애이고, 관념 실행증은 연속 동작 순서 장애이다.",
+      "key_point": "실행증은 3A(Aphasia, Apraxia, Agnosia) 중 하나로, 뇌 병변의 위치를 추정하는 데 중요한 신경학적 징후이다.",
+      "common_mistake": "실행증을 마비(paralysis)와 혼동하는 것 — 실행증은 운동 능력이 보존된 상태에서의 운동 계획 장애이다."
+    }
+  },
+  {
+    "id": "NEURO_AGN_029",
+    "terminology": "실인증 (Agnosia)",
+    "terminology_ko": "실인증",
+    "terminology_en": "Agnosia",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "감각 기관과 기초 감각 기능은 정상이지만 이전에 알고 있던 대상, 사람, 소리 등을 인식하지 못하는 고차 지각 장애로, 손상된 감각 양식에 따라 시각, 청각, 촉각 실인증으로 분류된다.",
+    "definition_en": "A higher-order perceptual disorder in which previously familiar objects, faces, or sounds cannot be recognized despite intact sensory organs and basic sensory function, classified by affected modality as visual, auditory, or tactile agnosia.",
+    "significance": "감각 연합피질의 손상을 시사하며, 실인증의 유형(통각적 vs 연합적)과 양식(시각, 청각, 촉각)의 분류가 병변 위치 추정과 재활 계획에 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "하인리히 리사우어", "name_en": "Heinrich Lissauer", "contribution": "1890년 통각적 실인증과 연합적 실인증의 구분을 최초로 제안"},
+      {"name_ko": "올리버 색스", "name_en": "Oliver Sacks", "contribution": "《아내를 모자로 착각한 남자》를 통해 시각 실인증을 대중에게 알리고 임상적 관심을 환기"}
+    ],
+    "related_concepts": [
+      {"name_ko": "시공간능력", "name_en": "Visuospatial Ability", "id": "NEURO_VS_021"},
+      {"name_ko": "실행증", "name_en": "Apraxia", "id": "NEURO_APR_028"},
+      {"name_ko": "실어증", "name_en": "Aphasia", "id": "NEURO_APH_027"}
+    ],
+    "sub_types": [
+      {"name_ko": "통각적 실인증", "name_en": "Apperceptive Agnosia", "definition": "대상의 형태를 지각적으로 조합하지 못하는 실인증 (그리기 불가)"},
+      {"name_ko": "연합적 실인증", "name_en": "Associative Agnosia", "definition": "대상의 형태는 지각하나 의미를 연결하지 못하는 실인증 (그리기 가능, 명명 불가)"},
+      {"name_ko": "안면실인증", "name_en": "Prosopagnosia", "definition": "얼굴을 인식하지 못하는 실인증; 방추상회(fusiform gyrus) 손상"},
+      {"name_ko": "청각실인증", "name_en": "Auditory Agnosia", "definition": "소리를 인식하지 못하는 실인증; 청각 연합피질 손상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "실인증 = '보이는데 모르겠다' → 감각 OK, 인식 NO (3A의 하나: Aphasia, Apraxia, Agnosia)",
+      "differential": "통각적 실인증은 형태 지각 단계 장애이고, 연합적 실인증은 의미 연결 단계 장애이다.",
+      "key_point": "통각적 실인증 환자는 대상을 따라 그리지 못하지만, 연합적 실인증 환자는 따라 그릴 수 있으나 이름을 말하지 못한다.",
+      "common_mistake": "실인증을 감각 장애(시력 저하 등)와 혼동하는 것 — 실인증은 기초 감각이 보존된 상태에서의 인식 장애이다."
+    }
+  },
+  {
+    "id": "NEURO_NPP_030",
+    "terminology": "신경심리학적 프로파일 (Neuropsychological Profile)",
+    "terminology_ko": "신경심리학적 프로파일",
+    "terminology_en": "Neuropsychological Profile",
+    "category": "NEURO",
+    "category_name": "신경심리검사 (Neuropsychological Assessment)",
+    "definition": "주의력, 기억, 언어, 시공간, 실행기능 등 주요 인지 영역별 수행 수준을 종합적으로 도식화한 결과 패턴으로, 인지적 강점과 약점의 전체적 그림을 제공한다.",
+    "definition_en": "A comprehensive pattern of performance levels across major cognitive domains — attention, memory, language, visuospatial ability, and executive function — providing an overall picture of cognitive strengths and weaknesses.",
+    "significance": "단일 점수가 아닌 영역 간 상대적 수행 패턴으로 뇌 질환의 감별 진단(알츠하이머 vs 혈관성 치매 vs 전두측두엽 치매 등)과 맞춤형 재활 계획 수립을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "머릴 허터", "name_en": "Muriel Lezak", "contribution": "신경심리검사 결과의 프로파일 분석과 해석 방법론을 체계화한 《Neuropsychological Assessment》를 저술"},
+      {"name_ko": "에디스 카플란", "name_en": "Edith Kaplan", "contribution": "보스턴 과정 접근(Boston Process Approach)을 통해 점수뿐 아니라 수행 과정의 질적 분석을 강조"}
+    ],
+    "related_concepts": [
+      {"name_ko": "신경심리검사 배터리", "name_en": "Neuropsychological Test Battery", "id": "NEURO_NTB_015"},
+      {"name_ko": "실행기능", "name_en": "Executive Function", "id": "NEURO_EF_018"},
+      {"name_ko": "기억", "name_en": "Memory", "id": "NEURO_MEM_023"},
+      {"name_ko": "고정배터리 vs 유연배터리", "name_en": "Fixed vs Flexible Battery", "id": "NEURO_BAT_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "프로파일 = 인지 영역별 '지형도' → 어디가 높고(강점) 낮은지(약점) 한눈에 파악",
+      "differential": "프로파일 분석은 영역 간 상대적 비교이고, 단일 검사 점수 해석은 규준 대비 절대적 비교이다.",
+      "key_point": "알츠하이머 치매는 기억>언어>시공간 순 저하, 전두측두엽 치매는 실행기능>언어>기억 순 저하, 혈관성 치매는 실행기능>처리속도 저하 등 질환별 특징적 프로파일이 있다.",
+      "common_mistake": "개별 검사 점수만 해석하고 전체 프로파일 패턴을 무시하는 것 — 영역 간 상대적 패턴이 감별 진단의 핵심이다."
+    }
+  }
+]

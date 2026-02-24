@@ -1,0 +1,1527 @@
+[
+  {
+    "id": "BIO_NEURON_001",
+    "terminology": "뉴런 (Neuron)",
+    "terminology_ko": "뉴런",
+    "terminology_en": "Neuron",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "신경계의 기본 단위로, 전기적 및 화학적 신호를 통해 정보를 수신하고 처리하며 전달하는 세포이다. 세포체, 수상돌기, 축삭으로 구성된다.",
+    "definition_en": "The basic building block of the nervous system; a cell that receives, processes, and transmits information through electrical and chemical signals. It consists of a cell body, dendrites, and an axon.",
+    "significance": "뉴런은 모든 심리적 과정(사고, 감정, 행동)의 생물학적 기초이며, 약 860억 개의 뉴런이 인간의 신경계를 구성하여 복잡한 정보 처리를 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "산티아고 라몬 이 카할",
+        "name_en": "Santiago Ramón y Cajal",
+        "contribution": "뉴런 독트린(Neuron Doctrine)을 확립하여 신경계가 개별 세포(뉴런)로 구성됨을 증명하였다 (노벨상 1906)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "시냅스",
+        "name_en": "Synapse",
+        "id": "BIO_SYNAPSE_002"
+      },
+      {
+        "name_ko": "수상돌기",
+        "name_en": "Dendrite",
+        "id": "BIO_DENDRITE_019"
+      },
+      {
+        "name_ko": "축삭",
+        "name_en": "Axon",
+        "id": "BIO_AXON_020"
+      },
+      {
+        "name_ko": "활동전위",
+        "name_en": "Action Potential",
+        "id": "BIO_ACTPOT_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "감각뉴런",
+        "name_en": "Sensory Neuron",
+        "definition": "감각 수용기에서 중추신경계로 정보를 전달하는 뉴런"
+      },
+      {
+        "name_ko": "운동뉴런",
+        "name_en": "Motor Neuron",
+        "definition": "중추신경계에서 근육이나 분비선으로 명령을 전달하는 뉴런"
+      },
+      {
+        "name_ko": "사이뉴런(개재뉴런)",
+        "name_en": "Interneuron",
+        "definition": "감각뉴런과 운동뉴런 사이에서 정보를 중개하는 뉴런으로, 중추신경계에 가장 많이 존재한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "뉴런 = New + Run: 새로운 정보가 달려가는 통로",
+      "differential": "뉴런은 신경계의 기능적 단위이고, 신경교세포(glia)는 뉴런을 지지하고 보호하는 세포이다",
+      "key_point": "뉴런의 3구조(세포체, 수상돌기, 축삭)와 3종류(감각, 운동, 사이뉴런)를 구분할 것",
+      "common_mistake": "뇌세포가 모두 뉴런인 것은 아니다. 신경교세포가 뉴런보다 수적으로 더 많다"
+    }
+  },
+  {
+    "id": "BIO_SYNAPSE_002",
+    "terminology": "시냅스 (Synapse)",
+    "terminology_ko": "시냅스",
+    "terminology_en": "Synapse",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "한 뉴런의 축삭 말단과 다른 뉴런의 수상돌기(또는 세포체) 사이의 접합 부위로, 신경전달물질을 통해 화학적 신호가 전달되는 미세한 틈(시냅스 간극)을 포함한다.",
+    "definition_en": "The junction between the axon terminal of one neuron and the dendrite (or cell body) of another, including the tiny gap (synaptic cleft) across which chemical signals are transmitted via neurotransmitters.",
+    "significance": "시냅스는 학습과 기억의 신경학적 기초이며, 시냅스 연결의 강화(장기강화, LTP)가 기억 형성의 핵심 메커니즘으로 알려져 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 셰링턴",
+        "name_en": "Charles Sherrington",
+        "contribution": "'시냅스'라는 용어를 처음 도입하고 시냅스 전달의 기본 원리를 규명하였다 (노벨상 1932)"
+      },
+      {
+        "name_ko": "오토 뢰비",
+        "name_en": "Otto Loewi",
+        "contribution": "시냅스에서 화학적 신경전달이 일어남을 최초로 실험적으로 증명하였다 (노벨상 1936)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신경전달물질",
+        "name_en": "Neurotransmitter",
+        "id": "BIO_NT_003"
+      },
+      {
+        "name_ko": "뉴런",
+        "name_en": "Neuron",
+        "id": "BIO_NEURON_001"
+      },
+      {
+        "name_ko": "축삭",
+        "name_en": "Axon",
+        "id": "BIO_AXON_020"
+      },
+      {
+        "name_ko": "가소성",
+        "name_en": "Neuroplasticity",
+        "id": "BIO_PLAST_017"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "흥분성 시냅스",
+        "name_en": "Excitatory Synapse",
+        "definition": "수신 뉴런의 발화 가능성을 높이는 시냅스"
+      },
+      {
+        "name_ko": "억제성 시냅스",
+        "name_en": "Inhibitory Synapse",
+        "definition": "수신 뉴런의 발화 가능성을 낮추는 시냅스"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Synapse = Syn(함께) + Hapse(연결): 뉴런을 함께 연결하는 지점",
+      "differential": "시냅스는 뉴런 간 접합 '부위'이고, 신경전달물질은 시냅스에서 신호를 전달하는 '화학물질'이다",
+      "key_point": "시냅스 간극(synaptic cleft)에서 신경전달물질이 방출되어 화학적 신호 전달이 이루어진다",
+      "common_mistake": "시냅스에서 전기 신호가 직접 전달되는 것이 아니라, 화학적 전달(신경전달물질)로 변환된다"
+    }
+  },
+  {
+    "id": "BIO_NT_003",
+    "terminology": "신경전달물질 (Neurotransmitter)",
+    "terminology_ko": "신경전달물질",
+    "terminology_en": "Neurotransmitter",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "시냅스 간극을 가로질러 신호를 전달하는 화학적 전령물질이다. 시냅스전 뉴런의 시냅스 소포에서 방출되어 시냅스후 뉴런의 수용체에 결합함으로써 신경 신호를 전달한다.",
+    "definition_en": "Chemical messengers that cross the synaptic gap to transmit signals. Released from synaptic vesicles in the presynaptic neuron, they bind to receptors on the postsynaptic neuron to relay neural signals.",
+    "significance": "신경전달물질의 불균형은 우울증, 조현병, 파킨슨병 등 다양한 심리적/신경학적 장애와 관련되며, 대부분의 향정신성 약물은 신경전달물질 체계에 작용한다.",
+    "key_researchers": [
+      {
+        "name_ko": "오토 뢰비",
+        "name_en": "Otto Loewi",
+        "contribution": "최초의 신경전달물질인 아세틸콜린의 작용을 실험적으로 증명하였다"
+      },
+      {
+        "name_ko": "줄리어스 액설로드",
+        "name_en": "Julius Axelrod",
+        "contribution": "노르에피네프린의 방출과 재흡수 메커니즘을 발견하였다 (노벨상 1970)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "시냅스",
+        "name_en": "Synapse",
+        "id": "BIO_SYNAPSE_002"
+      },
+      {
+        "name_ko": "도파민",
+        "name_en": "Dopamine",
+        "id": "BIO_DOPA_023"
+      },
+      {
+        "name_ko": "세로토닌",
+        "name_en": "Serotonin",
+        "id": "BIO_SERO_024"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "흥분성 신경전달물질",
+        "name_en": "Excitatory Neurotransmitter",
+        "definition": "시냅스후 뉴런의 발화를 촉진하는 신경전달물질 (예: 글루타메이트)"
+      },
+      {
+        "name_ko": "억제성 신경전달물질",
+        "name_en": "Inhibitory Neurotransmitter",
+        "definition": "시냅스후 뉴런의 발화를 억제하는 신경전달물질 (예: GABA)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "신경전달물질 = 뉴런의 '우편배달부': 시냅스라는 틈을 건너 메시지를 전달",
+      "differential": "신경전달물질은 시냅스 간극에서 작용하는 '국소적' 전달물질이고, 호르몬은 혈류를 통해 '전신적'으로 작용한다",
+      "key_point": "주요 신경전달물질(도파민, 세로토닌, 아세틸콜린, GABA, 글루타메이트, 엔도르핀)의 기능을 각각 구분할 것",
+      "common_mistake": "신경전달물질이 '부족'하면 항상 장애가 생기는 것이 아니라, '과잉'도 문제를 일으킬 수 있다 (예: 도파민 과잉과 조현병)"
+    }
+  },
+  {
+    "id": "BIO_ACTPOT_004",
+    "terminology": "활동전위 (Action Potential)",
+    "terminology_ko": "활동전위",
+    "terminology_en": "Action Potential",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "뉴런이 역치 이상의 자극을 받으면 축삭을 따라 전파되는 짧은 전기적 충격이다. 나트륨과 칼륨 이온의 급격한 이동으로 발생하며, 전무율(all-or-none)의 법칙을 따른다.",
+    "definition_en": "A brief electrical impulse that travels along the axon when a neuron is stimulated beyond its threshold. It is generated by the rapid movement of sodium and potassium ions and follows the all-or-none law.",
+    "significance": "활동전위는 신경계 내 정보 전달의 기본 메커니즘이며, 전무율 원리는 자극 강도가 발화 빈도로 부호화됨을 의미한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨런 호지킨",
+        "name_en": "Alan Hodgkin",
+        "contribution": "앤드루 헉슬리와 함께 활동전위의 이온 메커니즘을 수학적으로 설명하였다 (노벨상 1963)"
+      },
+      {
+        "name_ko": "앤드루 헉슬리",
+        "name_en": "Andrew Huxley",
+        "contribution": "호지킨-헉슬리 모델을 개발하여 활동전위 발생 과정을 정량적으로 규명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "뉴런",
+        "name_en": "Neuron",
+        "id": "BIO_NEURON_001"
+      },
+      {
+        "name_ko": "축삭",
+        "name_en": "Axon",
+        "id": "BIO_AXON_020"
+      },
+      {
+        "name_ko": "수초",
+        "name_en": "Myelin Sheath",
+        "id": "BIO_MYELIN_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "활동전위 = 뉴런의 '발사(firing)': 역치를 넘으면 발사하고, 안 넘으면 발사하지 않는다",
+      "differential": "활동전위는 축삭을 따라 전파되는 '전기적' 신호이고, 시냅스 전달은 시냅스 간극에서 이루어지는 '화학적' 신호이다",
+      "key_point": "전무율(all-or-none): 역치 이상이면 항상 동일한 크기로 발화하며, 자극 강도는 발화 빈도로 부호화된다",
+      "common_mistake": "활동전위의 '크기'가 자극 강도에 따라 달라지는 것이 아니라, '빈도'가 달라진다"
+    }
+  },
+  {
+    "id": "BIO_CORTEX_005",
+    "terminology": "대뇌피질 (Cerebral Cortex)",
+    "terminology_ko": "대뇌피질",
+    "terminology_en": "Cerebral Cortex",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌 반구의 표면을 덮고 있는 2~4mm 두께의 신경세포층으로, 고등 정신기능(사고, 언어, 계획, 의식적 지각 등)을 담당한다. 주름(뇌회와 뇌구)이 발달하여 표면적을 넓힌다.",
+    "definition_en": "The thin (2-4mm) layer of neural cells covering the surface of the cerebral hemispheres, responsible for higher mental functions such as thinking, language, planning, and conscious perception. Its folds (gyri and sulci) increase the surface area.",
+    "significance": "대뇌피질은 인간의 고등인지기능의 핵심 구조로, 다른 동물에 비해 인간에서 가장 발달되어 있으며 인간 고유의 복잡한 사고와 행동을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "코르비니안 브로드만",
+        "name_en": "Korbinian Brodmann",
+        "contribution": "대뇌피질을 세포 구조에 따라 52개 영역(브로드만 영역)으로 분류하였다"
+      },
+      {
+        "name_ko": "와일더 펜필드",
+        "name_en": "Wilder Penfield",
+        "contribution": "전기 자극을 통해 대뇌피질의 기능 지도(운동/감각 호문쿨루스)를 작성하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "전두엽",
+        "name_en": "Frontal Lobe",
+        "id": "BIO_FRONTAL_010"
+      },
+      {
+        "name_ko": "측두엽",
+        "name_en": "Temporal Lobe",
+        "id": "BIO_TEMPORAL_025"
+      },
+      {
+        "name_ko": "두정엽",
+        "name_en": "Parietal Lobe",
+        "id": "BIO_PARIETAL_026"
+      },
+      {
+        "name_ko": "후두엽",
+        "name_en": "Occipital Lobe",
+        "id": "BIO_OCCIPITAL_027"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "운동피질",
+        "name_en": "Motor Cortex",
+        "definition": "수의적 운동 명령을 생성하는 전두엽 후방 영역"
+      },
+      {
+        "name_ko": "감각피질",
+        "name_en": "Sensory Cortex",
+        "definition": "체감각 정보를 처리하는 두정엽 전방 영역"
+      },
+      {
+        "name_ko": "연합피질",
+        "name_en": "Association Cortex",
+        "definition": "감각 및 운동 영역 외의 피질로, 고등인지기능(통합, 해석, 계획)을 담당한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "대뇌피질 = 뇌의 '껍질(cortex=bark)': 얇지만 가장 고등한 기능을 담당",
+      "differential": "대뇌피질은 뇌의 바깥 '회백질'층이고, 그 안의 백질은 뉴런들을 연결하는 축삭 다발이다",
+      "key_point": "4개 엽(전두엽, 두정엽, 측두엽, 후두엽)의 위치와 주요 기능을 구분할 것",
+      "common_mistake": "대뇌피질이 뇌 전체를 의미하는 것이 아니라, 뇌의 '표면층'만을 가리킨다"
+    }
+  },
+  {
+    "id": "BIO_LIMBIC_006",
+    "terminology": "변연계 (Limbic System)",
+    "terminology_ko": "변연계",
+    "terminology_en": "Limbic System",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌피질과 뇌간 사이에 위치한 구조물 집합으로, 정서, 동기, 기억 형성에 핵심적 역할을 한다. 편도체, 해마, 시상하부 등을 포함한다.",
+    "definition_en": "A set of structures located between the cerebral cortex and the brainstem, playing key roles in emotion, motivation, and memory formation. It includes the amygdala, hippocampus, and hypothalamus, among others.",
+    "significance": "변연계는 정서와 인지의 상호작용을 이해하는 데 핵심적이며, 정서적 기억, 공포 반응, 보상 체계 등 심리학의 주요 연구 주제와 밀접하게 관련된다.",
+    "key_researchers": [
+      {
+        "name_ko": "폴 맥클린",
+        "name_en": "Paul MacLean",
+        "contribution": "변연계(limbic system)라는 개념을 체계화하고 삼위일체 뇌(triune brain) 이론을 제안하였다"
+      },
+      {
+        "name_ko": "제임스 파페즈",
+        "name_en": "James Papez",
+        "contribution": "정서 회로(Papez circuit)를 제안하여 변연계 구조들의 정서 기능을 처음 체계적으로 설명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "편도체",
+        "name_en": "Amygdala",
+        "id": "BIO_AMYG_007"
+      },
+      {
+        "name_ko": "해마",
+        "name_en": "Hippocampus",
+        "id": "BIO_HIPPO_008"
+      },
+      {
+        "name_ko": "시상하부",
+        "name_en": "Hypothalamus",
+        "id": "BIO_HYPOTH_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Limbic = Limbus(경계): 뇌의 '경계' 지역에서 정서를 관장",
+      "differential": "변연계는 정서/동기/기억의 '체계'이고, 대뇌피질은 고등인지(사고/언어)의 '구조'이다",
+      "key_point": "변연계의 3대 핵심 구조: 편도체(공포/정서), 해마(기억), 시상하부(항상성/동기)",
+      "common_mistake": "변연계가 정서'만' 담당하는 것이 아니라, 기억 형성과 동기에도 핵심적 역할을 한다"
+    }
+  },
+  {
+    "id": "BIO_AMYG_007",
+    "terminology": "편도체 (Amygdala)",
+    "terminology_ko": "편도체",
+    "terminology_en": "Amygdala",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "측두엽 내측에 위치한 아몬드 모양의 신경핵 집합으로, 공포와 같은 정서적 반응의 처리 및 정서적 기억의 형성에 핵심적 역할을 한다.",
+    "definition_en": "An almond-shaped cluster of nuclei located deep within the medial temporal lobe, playing a central role in processing emotional responses such as fear and in the formation of emotional memories.",
+    "significance": "편도체는 공포 조건형성, 위협 탐지, 정서적 의사결정에 핵심적이며, PTSD, 불안장애 등의 신경학적 기초를 이해하는 데 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지프 르두",
+        "name_en": "Joseph LeDoux",
+        "contribution": "편도체가 공포 조건형성에서 핵심적 역할을 함을 밝히고, '저위로(low road)'와 '고위로(high road)' 공포 처리 경로를 규명하였다"
+      },
+      {
+        "name_ko": "하인리히 클뤼버",
+        "name_en": "Heinrich Klüver",
+        "contribution": "폴 뷔시와 함께 편도체 손상이 정서 반응에 미치는 영향을 연구하였다 (Klüver-Bucy 증후군)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변연계",
+        "name_en": "Limbic System",
+        "id": "BIO_LIMBIC_006"
+      },
+      {
+        "name_ko": "해마",
+        "name_en": "Hippocampus",
+        "id": "BIO_HIPPO_008"
+      },
+      {
+        "name_ko": "시상하부",
+        "name_en": "Hypothalamus",
+        "id": "BIO_HYPOTH_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Amygdala = '아몬드(almond)' 모양의 '공포 경보기'",
+      "differential": "편도체는 '정서적 반응'(특히 공포)을 처리하고, 해마는 '기억 형성'을 담당한다",
+      "key_point": "편도체는 위협 자극에 대한 빠른 무의식적 반응(저위로)을 가능하게 한다",
+      "common_mistake": "편도체가 공포'만' 담당하는 것이 아니라, 분노, 기쁨 등 전반적인 정서 처리에 관여한다"
+    }
+  },
+  {
+    "id": "BIO_HIPPO_008",
+    "terminology": "해마 (Hippocampus)",
+    "terminology_ko": "해마",
+    "terminology_en": "Hippocampus",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "측두엽 내측에 위치한 해마 모양의 구조로, 새로운 외현적 기억(서술적 기억)의 형성과 공간 기억에 핵심적 역할을 한다.",
+    "definition_en": "A seahorse-shaped structure located in the medial temporal lobe, playing a critical role in the formation of new explicit (declarative) memories and spatial memory.",
+    "significance": "해마는 단기기억을 장기기억으로 전환하는 공고화(consolidation) 과정의 핵심 구조이며, 알츠하이머병에서 가장 먼저 손상되는 영역이다.",
+    "key_researchers": [
+      {
+        "name_ko": "브렌다 밀너",
+        "name_en": "Brenda Milner",
+        "contribution": "환자 H.M.(헨리 몰래슨)의 해마 절제 후 기억 상실 사례를 연구하여 해마의 기억 기능을 규명하였다"
+      },
+      {
+        "name_ko": "존 오키프",
+        "name_en": "John O'Keefe",
+        "contribution": "해마에서 장소세포(place cells)를 발견하여 공간 기억의 신경 기초를 밝혔다 (노벨상 2014)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변연계",
+        "name_en": "Limbic System",
+        "id": "BIO_LIMBIC_006"
+      },
+      {
+        "name_ko": "편도체",
+        "name_en": "Amygdala",
+        "id": "BIO_AMYG_007"
+      },
+      {
+        "name_ko": "가소성",
+        "name_en": "Neuroplasticity",
+        "id": "BIO_PLAST_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Hippocampus = 'Hippo(하마)+Campus(캠퍼스)': 캠퍼스에서 하마가 새로운 것을 배우는 장면 상상",
+      "differential": "해마는 새로운 '외현적 기억'의 형성을 담당하고, 편도체는 '정서적 기억'을 처리한다",
+      "key_point": "해마가 손상되면 새로운 기억을 형성하지 못하지만(전행성 기억상실), 이전 기억은 남아 있을 수 있다",
+      "common_mistake": "해마가 기억을 '저장'하는 곳이 아니라, 기억의 '형성과 공고화'를 담당하는 곳이다. 장기기억은 대뇌피질에 분산 저장된다"
+    }
+  },
+  {
+    "id": "BIO_HYPOTH_009",
+    "terminology": "시상하부 (Hypothalamus)",
+    "terminology_ko": "시상하부",
+    "terminology_en": "Hypothalamus",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "시상 아래에 위치한 작은 구조로, 체온, 배고픔, 갈증, 성적 행동 등 신체 항상성을 조절하며 내분비계(뇌하수체)를 통제하여 신경계와 내분비계를 연결한다.",
+    "definition_en": "A small structure below the thalamus that regulates body homeostasis including temperature, hunger, thirst, and sexual behavior, and controls the endocrine system via the pituitary gland, linking the nervous system and endocrine system.",
+    "significance": "시상하부는 생존에 필수적인 동기적 행동(섭식, 음수, 성행동)과 정서적 각성을 조절하며, 스트레스 반응(HPA 축)의 시작점으로서 건강심리학에서도 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "제임스 올즈",
+        "name_en": "James Olds",
+        "contribution": "피터 밀너와 함께 시상하부에서 '쾌락 중추(pleasure center)'를 발견하였다"
+      },
+      {
+        "name_ko": "한스 셀리에",
+        "name_en": "Hans Selye",
+        "contribution": "스트레스 반응에서 시상하부-뇌하수체-부신 축(HPA axis)의 역할을 체계적으로 연구하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변연계",
+        "name_en": "Limbic System",
+        "id": "BIO_LIMBIC_006"
+      },
+      {
+        "name_ko": "내분비계",
+        "name_en": "Endocrine System",
+        "id": "BIO_ENDOCRINE_016"
+      },
+      {
+        "name_ko": "시상",
+        "name_en": "Thalamus",
+        "id": "BIO_THALAMUS_028"
+      },
+      {
+        "name_ko": "자율신경계",
+        "name_en": "Autonomic Nervous System",
+        "id": "BIO_ANS_013"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "시상하부의 4F: Fighting(투쟁), Fleeing(도주), Feeding(섭식), mating(짝짓기) - 생존의 핵심",
+      "differential": "시상하부는 항상성과 동기를 '조절'하고, 시상은 감각 정보를 피질로 '중계'한다",
+      "key_point": "시상하부는 신경계와 내분비계의 연결 지점(뇌하수체 통제)이자 항상성 유지의 중심이다",
+      "common_mistake": "시상(thalamus)과 시상하부(hypothalamus)는 이름이 비슷하지만 기능이 전혀 다르다"
+    }
+  },
+  {
+    "id": "BIO_FRONTAL_010",
+    "terminology": "전두엽 (Frontal Lobe)",
+    "terminology_ko": "전두엽",
+    "terminology_en": "Frontal Lobe",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌피질의 전방에 위치한 가장 큰 엽으로, 중심구(central sulcus) 앞쪽에 위치한다. 계획, 의사결정, 성격, 수의적 운동, 언어 산출(브로카 영역) 등을 담당한다.",
+    "definition_en": "The largest lobe of the cerebral cortex, located anterior to the central sulcus. It is responsible for planning, decision-making, personality, voluntary movement, and speech production (Broca's area).",
+    "significance": "전두엽은 인간의 고등인지기능과 성격의 신경학적 기초이며, 전두엽 손상 사례(피니어스 게이지)는 뇌와 행동의 관계를 이해하는 역사적 전환점이 되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 할로",
+        "name_en": "John Harlow",
+        "contribution": "피니어스 게이지(Phineas Gage) 사례를 보고하여 전두엽과 성격/행동의 관계를 최초로 기록하였다"
+      },
+      {
+        "name_ko": "안토니오 다마지오",
+        "name_en": "Antonio Damasio",
+        "contribution": "전두엽 손상 환자 연구를 통해 정서와 의사결정의 관계(somatic marker hypothesis)를 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대뇌피질",
+        "name_en": "Cerebral Cortex",
+        "id": "BIO_CORTEX_005"
+      },
+      {
+        "name_ko": "브로카 영역",
+        "name_en": "Broca's Area",
+        "id": "BIO_BROCA_011"
+      },
+      {
+        "name_ko": "측두엽",
+        "name_en": "Temporal Lobe",
+        "id": "BIO_TEMPORAL_025"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "전전두피질",
+        "name_en": "Prefrontal Cortex",
+        "definition": "전두엽의 가장 앞부분으로, 계획, 의사결정, 사회적 행동, 작업기억을 담당한다"
+      },
+      {
+        "name_ko": "일차운동피질",
+        "name_en": "Primary Motor Cortex",
+        "definition": "전두엽의 후방(중심전회)에 위치하며 수의적 운동 명령을 생성한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "전두엽 = 이마(front) 뒤의 'CEO': 계획하고 결정하고 실행하는 뇌의 최고경영자",
+      "differential": "전두엽은 '운동/계획/성격'을 담당하고, 두정엽은 '체감각/공간인지'를 담당한다",
+      "key_point": "피니어스 게이지 사례: 전두엽 손상 후 성격이 극적으로 변화 - 뇌와 행동의 관계 입증",
+      "common_mistake": "전두엽이 가장 마지막에 발달 완료되며(25세경), 청소년의 충동적 행동은 전두엽 미성숙과 관련된다"
+    }
+  },
+  {
+    "id": "BIO_BROCA_011",
+    "terminology": "브로카 영역 (Broca's Area)",
+    "terminology_ko": "브로카 영역",
+    "terminology_en": "Broca's Area",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "좌반구 전두엽의 하전두회(inferior frontal gyrus)에 위치한 영역으로, 언어의 산출(말하기)과 문법적 처리를 담당한다. 이 영역의 손상은 브로카 실어증(표현성 실어증)을 유발한다.",
+    "definition_en": "A region in the inferior frontal gyrus of the left frontal lobe responsible for speech production and grammatical processing. Damage to this area causes Broca's aphasia (expressive aphasia).",
+    "significance": "브로카 영역의 발견은 뇌의 기능적 국재화(localization of function)를 입증한 최초의 주요 증거 중 하나이며, 신경심리학의 발전에 기여하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "폴 브로카",
+        "name_en": "Paul Broca",
+        "contribution": "언어 산출 장애 환자('탕(Tan)')의 뇌를 부검하여 좌측 전두엽 병변을 발견하고, 언어 산출 영역을 최초로 규명하였다 (1861)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "베르니케 영역",
+        "name_en": "Wernicke's Area",
+        "id": "BIO_WERNICK_012"
+      },
+      {
+        "name_ko": "전두엽",
+        "name_en": "Frontal Lobe",
+        "id": "BIO_FRONTAL_010"
+      },
+      {
+        "name_ko": "좌반구/우반구",
+        "name_en": "Cerebral Lateralization",
+        "id": "BIO_LATERAL_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Broca = Broken speech: 브로카 영역 손상 시 말이 '끊어진다(broken)'",
+      "differential": "브로카 영역은 언어 '산출(말하기)'을 담당하고, 베르니케 영역은 언어 '이해(듣기)'를 담당한다",
+      "key_point": "브로카 실어증: 이해는 되지만 말을 유창하게 하지 못함 (비유창성 실어증)",
+      "common_mistake": "브로카 실어증 환자가 언어를 '이해하지 못하는' 것이 아니라, '표현하지 못하는' 것이다"
+    }
+  },
+  {
+    "id": "BIO_WERNICK_012",
+    "terminology": "베르니케 영역 (Wernicke's Area)",
+    "terminology_ko": "베르니케 영역",
+    "terminology_en": "Wernicke's Area",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "좌반구 측두엽의 상측두회(superior temporal gyrus) 후방에 위치한 영역으로, 언어의 이해(듣기/읽기 이해)를 담당한다. 이 영역의 손상은 베르니케 실어증(수용성 실어증)을 유발한다.",
+    "definition_en": "A region in the posterior part of the superior temporal gyrus of the left hemisphere responsible for language comprehension (auditory and reading). Damage to this area causes Wernicke's aphasia (receptive aphasia).",
+    "significance": "베르니케 영역의 발견은 언어 처리가 뇌의 여러 영역에 분산되어 있음을 보여주었으며, 브로카 영역과의 연결(궁상다발)은 언어 신경 회로의 이해에 기여하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "카를 베르니케",
+        "name_en": "Carl Wernicke",
+        "contribution": "좌측 측두엽 손상 환자에서 언어 이해 장애를 발견하고, 언어 이해 영역을 규명하였다 (1874)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "브로카 영역",
+        "name_en": "Broca's Area",
+        "id": "BIO_BROCA_011"
+      },
+      {
+        "name_ko": "측두엽",
+        "name_en": "Temporal Lobe",
+        "id": "BIO_TEMPORAL_025"
+      },
+      {
+        "name_ko": "좌반구/우반구",
+        "name_en": "Cerebral Lateralization",
+        "id": "BIO_LATERAL_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Wernicke = Word comprehension: 단어(Word) 이해를 담당",
+      "differential": "베르니케 실어증은 말은 유창하지만 의미 없는 말(word salad)을 하고, 브로카 실어증은 말이 끊기지만 의미는 있다",
+      "key_point": "베르니케 실어증: 유창하게 말하지만 내용이 의미 없음 (유창성 실어증/수용성 실어증)",
+      "common_mistake": "베르니케 실어증 환자는 '말을 못하는' 것이 아니라 오히려 유창하게 말하지만, '이해하지 못하고' 의미 없는 말을 한다"
+    }
+  },
+  {
+    "id": "BIO_ANS_013",
+    "terminology": "자율신경계 (Autonomic Nervous System)",
+    "terminology_ko": "자율신경계",
+    "terminology_en": "Autonomic Nervous System",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "말초신경계의 한 부분으로, 의식적 통제 없이 자동적으로 내장 기관(심장, 소화기관, 분비선 등)의 활동을 조절한다. 교감신경계와 부교감신경계로 구성된다.",
+    "definition_en": "A division of the peripheral nervous system that automatically regulates the activity of internal organs (heart, digestive organs, glands, etc.) without conscious control. It consists of the sympathetic and parasympathetic nervous systems.",
+    "significance": "자율신경계는 정서적 각성, 스트레스 반응, 이완 반응의 생리적 기초이며, 정서 이론(제임스-랑게 이론 등)에서 핵심적 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 뉴포트 랭글리",
+        "name_en": "John Newport Langley",
+        "contribution": "자율신경계라는 용어를 도입하고 교감/부교감 구분을 체계화하였다"
+      },
+      {
+        "name_ko": "월터 캐넌",
+        "name_en": "Walter Cannon",
+        "contribution": "투쟁-도주 반응(fight-or-flight response)의 개념을 정립하여 교감신경계의 기능을 설명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "교감신경계",
+        "name_en": "Sympathetic Nervous System",
+        "id": "BIO_SYMPA_014"
+      },
+      {
+        "name_ko": "부교감신경계",
+        "name_en": "Parasympathetic Nervous System",
+        "id": "BIO_PARASYM_015"
+      },
+      {
+        "name_ko": "시상하부",
+        "name_en": "Hypothalamus",
+        "id": "BIO_HYPOTH_009"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "교감신경계",
+        "name_en": "Sympathetic Nervous System",
+        "definition": "위험 상황에서 신체를 각성시키는 '투쟁-도주(fight-or-flight)' 반응을 담당"
+      },
+      {
+        "name_ko": "부교감신경계",
+        "name_en": "Parasympathetic Nervous System",
+        "definition": "신체를 이완시키고 에너지를 보존하는 '휴식-소화(rest-and-digest)' 반응을 담당"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "자율신경계 = '자동(auto)' 조종: 의식적 노력 없이 자동으로 작동",
+      "differential": "자율신경계는 '불수의적'으로 내장 기관을 조절하고, 체성신경계는 '수의적'으로 골격근을 조절한다",
+      "key_point": "교감(각성/투쟁-도주)과 부교감(이완/휴식-소화)의 길항적 작용을 이해할 것",
+      "common_mistake": "자율신경계가 '완전히' 의식적 통제를 벗어나는 것은 아니다 (바이오피드백, 명상 등으로 일부 조절 가능)"
+    }
+  },
+  {
+    "id": "BIO_SYMPA_014",
+    "terminology": "교감신경계 (Sympathetic Nervous System)",
+    "terminology_ko": "교감신경계",
+    "terminology_en": "Sympathetic Nervous System",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "자율신경계의 한 부분으로, 위협이나 스트레스 상황에서 신체를 각성시키는 '투쟁-도주(fight-or-flight)' 반응을 담당한다. 심박수 증가, 동공 확대, 소화 억제 등의 반응을 유발한다.",
+    "definition_en": "A division of the autonomic nervous system responsible for the 'fight-or-flight' response, arousing the body during threat or stress. It triggers increased heart rate, pupil dilation, and suppression of digestion.",
+    "significance": "교감신경계의 각성 반응은 스트레스, 불안, 공포의 생리적 기초이며, 만성적 교감신경 활성화는 스트레스 관련 질환(고혈압, 심장병 등)과 관련된다.",
+    "key_researchers": [
+      {
+        "name_ko": "월터 캐넌",
+        "name_en": "Walter Cannon",
+        "contribution": "투쟁-도주 반응(fight-or-flight response) 개념을 정립하여 교감신경계의 기능을 체계적으로 설명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자율신경계",
+        "name_en": "Autonomic Nervous System",
+        "id": "BIO_ANS_013"
+      },
+      {
+        "name_ko": "부교감신경계",
+        "name_en": "Parasympathetic Nervous System",
+        "id": "BIO_PARASYM_015"
+      },
+      {
+        "name_ko": "내분비계",
+        "name_en": "Endocrine System",
+        "id": "BIO_ENDOCRINE_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교감신경 = 'Sympathetic = S = Stress': 스트레스 상황에서 활성화",
+      "differential": "교감신경계는 에너지를 '소비'하여 신체를 각성시키고, 부교감신경계는 에너지를 '보존'하여 이완시킨다",
+      "key_point": "교감신경 활성화 시: 심박수 증가, 동공 확대, 소화 억제, 발한 증가, 기관지 확장",
+      "common_mistake": "교감신경계가 '나쁜' 것이 아니라 생존에 필수적이며, 문제는 '만성적' 활성화이다"
+    }
+  },
+  {
+    "id": "BIO_PARASYM_015",
+    "terminology": "부교감신경계 (Parasympathetic Nervous System)",
+    "terminology_ko": "부교감신경계",
+    "terminology_en": "Parasympathetic Nervous System",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "자율신경계의 한 부분으로, 위협이 사라진 후 신체를 이완시키고 에너지를 보존하는 '휴식-소화(rest-and-digest)' 반응을 담당한다. 심박수 감소, 소화 촉진 등의 반응을 유발한다.",
+    "definition_en": "A division of the autonomic nervous system responsible for the 'rest-and-digest' response, calming the body and conserving energy after a threat has passed. It triggers decreased heart rate, promotion of digestion, etc.",
+    "significance": "부교감신경계는 신체 회복과 항상성 유지에 필수적이며, 이완 반응(relaxation response)과 관련하여 스트레스 관리 및 명상 연구에서 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "오토 뢰비",
+        "name_en": "Otto Loewi",
+        "contribution": "미주신경(부교감신경)의 화학적 전달 물질(아세틸콜린)을 발견하여 부교감신경 작용 메커니즘을 규명하였다"
+      },
+      {
+        "name_ko": "허버트 벤슨",
+        "name_en": "Herbert Benson",
+        "contribution": "이완 반응(relaxation response) 개념을 제안하여 부교감신경 활성화의 건강 효과를 연구하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자율신경계",
+        "name_en": "Autonomic Nervous System",
+        "id": "BIO_ANS_013"
+      },
+      {
+        "name_ko": "교감신경계",
+        "name_en": "Sympathetic Nervous System",
+        "id": "BIO_SYMPA_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "부교감 = Parasympathetic = P = Peace: 평화로울 때 활성화",
+      "differential": "부교감신경계는 '이완/회복'을 담당하고, 교감신경계는 '각성/동원'을 담당한다",
+      "key_point": "부교감신경 활성화 시: 심박수 감소, 동공 수축, 소화 촉진, 타액 분비 증가",
+      "common_mistake": "교감과 부교감이 '교대로' 작용하는 것이 아니라, 양쪽 모두 항상 어느 정도 활성화되어 있으며 '균형'을 이룬다"
+    }
+  },
+  {
+    "id": "BIO_ENDOCRINE_016",
+    "terminology": "내분비계 (Endocrine System)",
+    "terminology_ko": "내분비계",
+    "terminology_en": "Endocrine System",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "호르몬을 분비하는 분비선(뇌하수체, 갑상선, 부신 등)의 체계로, 혈류를 통해 호르몬을 전달하여 성장, 대사, 기분, 성적 발달, 스트레스 반응 등 신체 기능을 조절한다.",
+    "definition_en": "The system of glands (pituitary, thyroid, adrenal, etc.) that secrete hormones into the bloodstream to regulate body functions including growth, metabolism, mood, sexual development, and stress response.",
+    "significance": "내분비계는 행동과 정신 상태에 광범위한 영향을 미치며, 호르몬 불균형은 우울증, 불안, 성적 기능 장애 등 다양한 심리적 문제와 관련된다.",
+    "key_researchers": [
+      {
+        "name_ko": "어니스트 스탈링",
+        "name_en": "Ernest Starling",
+        "contribution": "'호르몬'이라는 용어를 최초로 사용하고 내분비 신호 전달 개념을 확립하였다"
+      },
+      {
+        "name_ko": "한스 셀리에",
+        "name_en": "Hans Selye",
+        "contribution": "일반적응증후군(GAS)을 통해 스트레스와 내분비계(HPA축)의 관계를 체계적으로 설명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "시상하부",
+        "name_en": "Hypothalamus",
+        "id": "BIO_HYPOTH_009"
+      },
+      {
+        "name_ko": "신경전달물질",
+        "name_en": "Neurotransmitter",
+        "id": "BIO_NT_003"
+      },
+      {
+        "name_ko": "자율신경계",
+        "name_en": "Autonomic Nervous System",
+        "id": "BIO_ANS_013"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "뇌하수체",
+        "name_en": "Pituitary Gland",
+        "definition": "'주인 분비선(master gland)'으로 불리며 다른 내분비선의 활동을 조절한다"
+      },
+      {
+        "name_ko": "부신",
+        "name_en": "Adrenal Gland",
+        "definition": "스트레스 호르몬(코르티솔, 에피네프린)을 분비하여 투쟁-도주 반응을 지원한다"
+      },
+      {
+        "name_ko": "갑상선",
+        "name_en": "Thyroid Gland",
+        "definition": "대사율을 조절하는 갑상선 호르몬을 분비하며, 에너지 수준과 기분에 영향을 미친다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "내분비계 = 신체의 '우편 시스템': 혈류라는 우편 경로를 통해 호르몬 메시지를 전달",
+      "differential": "내분비계는 호르몬을 통해 '느리지만 지속적'으로 작용하고, 신경계는 신경전달물질로 '빠르지만 순간적'으로 작용한다",
+      "key_point": "시상하부 → 뇌하수체 → 표적 내분비선의 위계적 조절 구조를 이해할 것",
+      "common_mistake": "내분비계가 신경계와 '독립적'으로 작동하는 것이 아니라, 시상하부를 통해 긴밀하게 연결되어 있다"
+    }
+  },
+  {
+    "id": "BIO_PLAST_017",
+    "terminology": "가소성 (Neuroplasticity)",
+    "terminology_ko": "가소성",
+    "terminology_en": "Neuroplasticity",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "경험, 학습, 손상 등에 반응하여 뇌가 구조적, 기능적으로 변화하는 능력이다. 새로운 시냅스 연결의 형성, 기존 연결의 강화/약화, 신경 경로의 재조직을 포함한다.",
+    "definition_en": "The brain's ability to change structurally and functionally in response to experience, learning, or injury. It includes the formation of new synaptic connections, strengthening/weakening of existing connections, and reorganization of neural pathways.",
+    "significance": "가소성은 학습, 기억, 뇌 손상 후 회복의 신경학적 기초이며, 뇌가 고정된 것이 아니라 평생 변화할 수 있다는 현대 신경과학의 핵심 원리이다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 헵",
+        "name_en": "Donald Hebb",
+        "contribution": "'함께 발화하는 뉴런은 함께 연결된다(Hebb's rule)'는 원리를 제안하여 시냅스 가소성의 이론적 기초를 마련하였다"
+      },
+      {
+        "name_ko": "에릭 캔델",
+        "name_en": "Eric Kandel",
+        "contribution": "바다달팽이(Aplysia)를 통해 학습의 시냅스 수준 메커니즘을 규명하였다 (노벨상 2000)"
+      },
+      {
+        "name_ko": "마이클 메르체니치",
+        "name_en": "Michael Merzenich",
+        "contribution": "성인 뇌에서도 경험에 의한 대뇌피질 지도 재조직이 가능함을 입증하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "시냅스",
+        "name_en": "Synapse",
+        "id": "BIO_SYNAPSE_002"
+      },
+      {
+        "name_ko": "해마",
+        "name_en": "Hippocampus",
+        "id": "BIO_HIPPO_008"
+      },
+      {
+        "name_ko": "대뇌피질",
+        "name_en": "Cerebral Cortex",
+        "id": "BIO_CORTEX_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "시냅스 가소성",
+        "name_en": "Synaptic Plasticity",
+        "definition": "시냅스 연결의 강도가 활동에 따라 변화하는 것 (장기강화 LTP, 장기억압 LTD)"
+      },
+      {
+        "name_ko": "구조적 가소성",
+        "name_en": "Structural Plasticity",
+        "definition": "뇌의 물리적 구조(뉴런 수, 수상돌기 가지)가 변화하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "가소성 = '플라스틱(plastic)처럼 유연한 뇌': 모양을 바꿀 수 있다",
+      "differential": "가소성은 뇌의 '변화 능력'이고, 결정적 시기(critical period)는 가소성이 특히 높은 '발달 시기'이다",
+      "key_point": "Hebb's rule: '함께 발화하는 뉴런은 함께 연결된다' - 반복 학습이 신경 회로를 강화하는 원리",
+      "common_mistake": "가소성이 어린 시기에만 가능한 것이 아니라 성인기에도 지속되며, 다만 나이가 들수록 감소한다"
+    }
+  },
+  {
+    "id": "BIO_LATERAL_018",
+    "terminology": "좌반구/우반구 (Cerebral Lateralization)",
+    "terminology_ko": "좌반구/우반구",
+    "terminology_en": "Cerebral Lateralization",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌가 좌반구와 우반구로 나뉘며 각 반구가 특정 기능에 상대적으로 더 특화되어 있는 현상이다. 좌반구는 언어, 논리적 사고에, 우반구는 공간 지각, 정서 처리에 상대적으로 우세하다.",
+    "definition_en": "The phenomenon in which the cerebral hemispheres are relatively specialized for certain functions. The left hemisphere is relatively dominant for language and logical thinking, while the right hemisphere is relatively dominant for spatial perception and emotional processing.",
+    "significance": "편재화 연구는 뇌의 기능적 분업과 통합을 이해하는 데 핵심적이며, 분리뇌(split-brain) 연구는 의식과 인지의 본질에 대한 근본적 질문을 제기하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "로저 스페리",
+        "name_en": "Roger Sperry",
+        "contribution": "분리뇌(split-brain) 환자 연구를 통해 좌우 반구의 기능적 특화를 밝혔다 (노벨상 1981)"
+      },
+      {
+        "name_ko": "마이클 가자니가",
+        "name_en": "Michael Gazzaniga",
+        "contribution": "스페리와 함께 분리뇌 연구를 수행하고, 좌반구의 '해석자(interpreter)' 기능을 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "뇌량",
+        "name_en": "Corpus Callosum",
+        "id": "BIO_CORPUS_031"
+      },
+      {
+        "name_ko": "브로카 영역",
+        "name_en": "Broca's Area",
+        "id": "BIO_BROCA_011"
+      },
+      {
+        "name_ko": "베르니케 영역",
+        "name_en": "Wernicke's Area",
+        "id": "BIO_WERNICK_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "좌반구 = Left = Language(언어), 우반구 = Right = aRt(예술/공간)",
+      "differential": "편재화는 기능의 '상대적 우세'이지 '독점적 담당'이 아니다",
+      "key_point": "분리뇌(split-brain) 연구: 뇌량 절단 시 좌우 반구가 독립적으로 정보를 처리함이 밝혀졌다",
+      "common_mistake": "'좌뇌형 인간/우뇌형 인간'이라는 대중적 구분은 과학적 근거가 부족하다. 정상적으로 양쪽 반구가 협력한다"
+    }
+  },
+  {
+    "id": "BIO_DENDRITE_019",
+    "terminology": "수상돌기 (Dendrite)",
+    "terminology_ko": "수상돌기",
+    "terminology_en": "Dendrite",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "뉴런의 세포체에서 나뭇가지처럼 뻗어나온 짧은 돌기로, 다른 뉴런으로부터 신호(신경전달물질)를 수신하여 세포체로 전달하는 역할을 한다.",
+    "definition_en": "Short, branching extensions from the neuron's cell body that receive signals (neurotransmitters) from other neurons and transmit them to the cell body.",
+    "significance": "수상돌기의 가지 수와 시냅스 연결 밀도는 학습과 경험에 따라 증가하며, 이는 신경 가소성의 구조적 기초를 이룬다.",
+    "key_researchers": [
+      {
+        "name_ko": "산티아고 라몬 이 카할",
+        "name_en": "Santiago Ramón y Cajal",
+        "contribution": "골지 염색법을 활용하여 뉴런의 수상돌기 구조를 상세하게 관찰하고 기록하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "뉴런",
+        "name_en": "Neuron",
+        "id": "BIO_NEURON_001"
+      },
+      {
+        "name_ko": "축삭",
+        "name_en": "Axon",
+        "id": "BIO_AXON_020"
+      },
+      {
+        "name_ko": "시냅스",
+        "name_en": "Synapse",
+        "id": "BIO_SYNAPSE_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Dendrite = 나무(dendron): 나뭇가지처럼 뻗어 '받아들이는' 안테나",
+      "differential": "수상돌기는 신호를 '수신'하고, 축삭은 신호를 '전달'한다",
+      "key_point": "수상돌기의 표면에 있는 수용체에 신경전달물질이 결합하여 시냅스 전달이 이루어진다",
+      "common_mistake": "수상돌기가 하나만 있는 것이 아니라, 하나의 뉴런에 여러 개의 수상돌기가 있어 수천 개의 시냅스를 형성할 수 있다"
+    }
+  },
+  {
+    "id": "BIO_AXON_020",
+    "terminology": "축삭 (Axon)",
+    "terminology_ko": "축삭",
+    "terminology_en": "Axon",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "뉴런의 세포체에서 길게 뻗어나온 하나의 긴 돌기로, 활동전위를 세포체로부터 축삭 말단까지 전달하여 다른 뉴런, 근육, 분비선에 신호를 보내는 역할을 한다.",
+    "definition_en": "A single long extension from the neuron's cell body that conducts action potentials from the cell body to the axon terminals, sending signals to other neurons, muscles, or glands.",
+    "significance": "축삭은 신경계 내 장거리 정보 전달의 핵심 구조이며, 수초(myelin sheath)로 감싸인 축삭은 전달 속도를 크게 높여 신경계의 효율적 작동을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "산티아고 라몬 이 카할",
+        "name_en": "Santiago Ramón y Cajal",
+        "contribution": "뉴런의 축삭 구조와 신호 전달 방향(세포체→축삭)을 규명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "뉴런",
+        "name_en": "Neuron",
+        "id": "BIO_NEURON_001"
+      },
+      {
+        "name_ko": "수상돌기",
+        "name_en": "Dendrite",
+        "id": "BIO_DENDRITE_019"
+      },
+      {
+        "name_ko": "수초",
+        "name_en": "Myelin Sheath",
+        "id": "BIO_MYELIN_021"
+      },
+      {
+        "name_ko": "활동전위",
+        "name_en": "Action Potential",
+        "id": "BIO_ACTPOT_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Axon = '축(axis)' 같은 하나의 긴 줄기: 신호를 멀리 보내는 전선",
+      "differential": "축삭은 뉴런당 '하나'이며 신호를 '보내고', 수상돌기는 '여러 개'이며 신호를 '받는다'",
+      "key_point": "축삭은 수초로 감싸여 도약전도(saltatory conduction)를 통해 빠른 신호 전달이 가능하다",
+      "common_mistake": "축삭이 짧다고 생각할 수 있지만, 척수의 운동뉴런 축삭은 1m 이상 될 수 있다"
+    }
+  },
+  {
+    "id": "BIO_MYELIN_021",
+    "terminology": "수초 (Myelin Sheath)",
+    "terminology_ko": "수초",
+    "terminology_en": "Myelin Sheath",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "축삭을 감싸는 지방질 절연층으로, 신경교세포(중추신경계의 희소돌기아교세포, 말초신경계의 슈반세포)에 의해 형성된다. 도약전도를 통해 활동전위의 전달 속도를 크게 높인다.",
+    "definition_en": "A fatty insulating layer that wraps around the axon, formed by glial cells (oligodendrocytes in the CNS, Schwann cells in the PNS). It greatly increases the speed of action potential transmission through saltatory conduction.",
+    "significance": "수초의 손상은 다발성 경화증(MS) 등의 신경 질환을 유발하며, 수초화(myelination)는 아동기 뇌 발달에서 인지 기능 성숙의 핵심 지표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "루돌프 피르호",
+        "name_en": "Rudolf Virchow",
+        "contribution": "수초(myelin)라는 용어를 최초로 사용하고 그 구조를 기술하였다"
+      },
+      {
+        "name_ko": "루이 앙투안 랑비에",
+        "name_en": "Louis-Antoine Ranvier",
+        "contribution": "수초 사이의 틈(랑비에 결절, Nodes of Ranvier)을 발견하여 도약전도의 기초를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "축삭",
+        "name_en": "Axon",
+        "id": "BIO_AXON_020"
+      },
+      {
+        "name_ko": "활동전위",
+        "name_en": "Action Potential",
+        "id": "BIO_ACTPOT_004"
+      },
+      {
+        "name_ko": "뉴런",
+        "name_en": "Neuron",
+        "id": "BIO_NEURON_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수초 = 전선의 '절연 피복': 전기(활동전위)가 빠르고 안전하게 전달되도록 감싸는 피복",
+      "differential": "수초는 축삭을 감싸는 '구조'이고, 도약전도는 수초 덕분에 가능한 빠른 신호 전달 '방식'이다",
+      "key_point": "수초 사이의 틈(랑비에 결절)에서만 이온 교환이 일어나 활동전위가 '도약'하듯 빠르게 전달된다",
+      "common_mistake": "수초가 모든 뉴런에 있는 것이 아니라, 무수초 신경섬유도 존재하며 전달 속도가 느리다"
+    }
+  },
+  {
+    "id": "BIO_DOPA_023",
+    "terminology": "도파민 (Dopamine)",
+    "terminology_ko": "도파민",
+    "terminology_en": "Dopamine",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "보상, 동기, 쾌락, 운동 조절에 관여하는 주요 신경전달물질이다. 중뇌의 복측피개영역(VTA)과 흑질(substantia nigra)에서 주로 생성된다.",
+    "definition_en": "A major neurotransmitter involved in reward, motivation, pleasure, and motor control. It is primarily produced in the ventral tegmental area (VTA) and substantia nigra of the midbrain.",
+    "significance": "도파민 체계의 이상은 조현병(과잉), 파킨슨병(부족), 약물 중독(보상회로 과활성화) 등 다양한 정신적/신경학적 장애와 관련된다.",
+    "key_researchers": [
+      {
+        "name_ko": "아르비드 칼슨",
+        "name_en": "Arvid Carlsson",
+        "contribution": "도파민이 독립적인 신경전달물질임을 발견하고 파킨슨병과의 관계를 규명하였다 (노벨상 2000)"
+      },
+      {
+        "name_ko": "올레 호르니키비츠",
+        "name_en": "Oleh Hornykiewicz",
+        "contribution": "파킨슨병 환자의 뇌에서 도파민 부족을 발견하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신경전달물질",
+        "name_en": "Neurotransmitter",
+        "id": "BIO_NT_003"
+      },
+      {
+        "name_ko": "세로토닌",
+        "name_en": "Serotonin",
+        "id": "BIO_SERO_024"
+      },
+      {
+        "name_ko": "시냅스",
+        "name_en": "Synapse",
+        "id": "BIO_SYNAPSE_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도파민 = 'Do-pa-mine = Do(하다)+Pa(보상)': 무언가를 하도록 동기를 부여하는 보상 물질",
+      "differential": "도파민은 '보상/동기/운동'에 관여하고, 세로토닌은 '기분/수면/식욕'에 관여한다",
+      "key_point": "도파민 가설: 조현병은 도파민 과잉, 파킨슨병은 도파민 부족과 관련된다",
+      "common_mistake": "도파민이 '쾌락 자체'의 물질이 아니라 '보상 예측과 동기'에 관여하는 물질이다 (wanting vs. liking)"
+    }
+  },
+  {
+    "id": "BIO_SERO_024",
+    "terminology": "세로토닌 (Serotonin)",
+    "terminology_ko": "세로토닌",
+    "terminology_en": "Serotonin",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "기분 조절, 수면, 식욕, 통증 조절에 관여하는 신경전달물질이다. 뇌간의 봉선핵(raphe nuclei)에서 주로 생성되며, 체내 세로토닌의 약 90%는 장(腸)에 존재한다.",
+    "definition_en": "A neurotransmitter involved in mood regulation, sleep, appetite, and pain modulation. It is primarily produced in the raphe nuclei of the brainstem; approximately 90% of the body's serotonin is found in the gut.",
+    "significance": "세로토닌 부족은 우울증과 관련되며, 선택적 세로토닌 재흡수 억제제(SSRI)는 가장 널리 처방되는 항우울제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "비토리오 에르스파머",
+        "name_en": "Vittorio Erspamer",
+        "contribution": "세로토닌(5-HT)을 처음 발견하고 분리하였다"
+      },
+      {
+        "name_ko": "베티 투이테스",
+        "name_en": "Betty Twarog",
+        "contribution": "세로토닌이 뇌에 존재하며 신경전달물질로 기능함을 발견하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신경전달물질",
+        "name_en": "Neurotransmitter",
+        "id": "BIO_NT_003"
+      },
+      {
+        "name_ko": "도파민",
+        "name_en": "Dopamine",
+        "id": "BIO_DOPA_023"
+      },
+      {
+        "name_ko": "뇌간",
+        "name_en": "Brainstem",
+        "id": "BIO_BSTEM_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "세로토닌 = 'Sero-tone-in = 기분(tone)을 조절(in)': 기분의 조율자",
+      "differential": "세로토닌은 '기분/수면/식욕'에 관여하고, 도파민은 '보상/동기/운동'에 관여한다",
+      "key_point": "SSRI(선택적 세로토닌 재흡수 억제제)는 시냅스에서 세로토닌의 재흡수를 막아 세로토닌 수준을 높인다",
+      "common_mistake": "세로토닌 부족이 우울증의 '유일한 원인'이 아니며, 우울증의 원인은 다요인적이다"
+    }
+  },
+  {
+    "id": "BIO_TEMPORAL_025",
+    "terminology": "측두엽 (Temporal Lobe)",
+    "terminology_ko": "측두엽",
+    "terminology_en": "Temporal Lobe",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌피질의 양쪽 측면(귀 위쪽)에 위치한 엽으로, 청각 처리, 언어 이해(베르니케 영역), 시각적 대상 인식, 기억(해마)을 담당한다.",
+    "definition_en": "The lobe located on each side of the cerebral cortex (above the ears), responsible for auditory processing, language comprehension (Wernicke's area), visual object recognition, and memory (hippocampus).",
+    "significance": "측두엽은 언어 이해, 청각, 기억의 핵심 영역이며, 측두엽 간질은 심리학에서 의식과 기억 연구의 중요한 임상 사례를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "카를 베르니케",
+        "name_en": "Carl Wernicke",
+        "contribution": "측두엽의 언어 이해 영역(베르니케 영역)을 발견하였다"
+      },
+      {
+        "name_ko": "브렌다 밀너",
+        "name_en": "Brenda Milner",
+        "contribution": "내측 측두엽과 기억의 관계를 H.M. 사례를 통해 규명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대뇌피질",
+        "name_en": "Cerebral Cortex",
+        "id": "BIO_CORTEX_005"
+      },
+      {
+        "name_ko": "베르니케 영역",
+        "name_en": "Wernicke's Area",
+        "id": "BIO_WERNICK_012"
+      },
+      {
+        "name_ko": "해마",
+        "name_en": "Hippocampus",
+        "id": "BIO_HIPPO_008"
+      },
+      {
+        "name_ko": "전두엽",
+        "name_en": "Frontal Lobe",
+        "id": "BIO_FRONTAL_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Temporal = 관자놀이(temple) 근처: 귀 위쪽 = 소리(청각)를 처리",
+      "differential": "측두엽은 '청각/언어이해/기억'을, 두정엽은 '체감각/공간인지'를, 후두엽은 '시각'을 담당한다",
+      "key_point": "측두엽의 4대 기능: 청각 처리, 언어 이해(베르니케), 시각 대상 인식, 기억(해마)",
+      "common_mistake": "측두엽이 '청각만' 담당하는 것이 아니라 언어 이해, 기억, 정서(편도체) 등 다양한 기능을 수행한다"
+    }
+  },
+  {
+    "id": "BIO_PARIETAL_026",
+    "terminology": "두정엽 (Parietal Lobe)",
+    "terminology_ko": "두정엽",
+    "terminology_en": "Parietal Lobe",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌피질의 상부 중앙에 위치한 엽으로, 중심구 뒤쪽에 있다. 체감각(촉각, 온도, 통증, 고유감각) 처리, 공간 인지, 주의, 수리적 사고를 담당한다.",
+    "definition_en": "The lobe located in the upper central part of the cerebral cortex, posterior to the central sulcus. It is responsible for processing somatosensory information (touch, temperature, pain, proprioception), spatial awareness, attention, and mathematical thinking.",
+    "significance": "두정엽은 신체 지각과 공간 인지의 핵심 영역이며, 편측 무시(neglect) 증후군은 두정엽 손상의 대표적 사례로 주의와 의식 연구에서 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "와일더 펜필드",
+        "name_en": "Wilder Penfield",
+        "contribution": "두정엽의 체감각피질 지도(감각 호문쿨루스)를 작성하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대뇌피질",
+        "name_en": "Cerebral Cortex",
+        "id": "BIO_CORTEX_005"
+      },
+      {
+        "name_ko": "전두엽",
+        "name_en": "Frontal Lobe",
+        "id": "BIO_FRONTAL_010"
+      },
+      {
+        "name_ko": "후두엽",
+        "name_en": "Occipital Lobe",
+        "id": "BIO_OCCIPITAL_027"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "일차체감각피질",
+        "name_en": "Primary Somatosensory Cortex",
+        "definition": "중심후회에 위치하며, 신체 각 부위의 촉각/통증/온도 감각을 처리한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Parietal = 정수리(paries=wall): 머리 꼭대기 근처에서 신체 감각을 처리",
+      "differential": "두정엽은 '체감각/공간인지'를 담당하고, 전두엽은 '운동/계획'을 담당한다",
+      "key_point": "감각 호문쿨루스(sensory homunculus): 신체 부위의 감각 민감도에 따라 피질 면적이 다르다 (손, 입술 영역이 넓다)",
+      "common_mistake": "두정엽 손상으로 나타나는 편측 무시(neglect)는 시각 장애가 아니라 '주의'의 장애이다"
+    }
+  },
+  {
+    "id": "BIO_OCCIPITAL_027",
+    "terminology": "후두엽 (Occipital Lobe)",
+    "terminology_ko": "후두엽",
+    "terminology_en": "Occipital Lobe",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌피질의 가장 후방에 위치한 엽으로, 시각 정보의 처리를 담당한다. 일차시각피질(V1)이 위치하며, 색채, 형태, 움직임, 깊이 등 시각의 다양한 요소를 처리한다.",
+    "definition_en": "The lobe located at the very back of the cerebral cortex, responsible for visual information processing. It contains the primary visual cortex (V1) and processes various visual features including color, shape, motion, and depth.",
+    "significance": "후두엽은 시각 인지의 신경학적 기초이며, 후두엽 손상 사례는 맹시(blindsight) 등 의식적 지각과 무의식적 처리의 분리를 보여주는 중요한 연구 주제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 휴벨",
+        "name_en": "David Hubel",
+        "contribution": "토르스텐 비젤과 함께 시각피질에서 특정 자극에 반응하는 뉴런(특징 탐지기)을 발견하였다 (노벨상 1981)"
+      },
+      {
+        "name_ko": "토르스텐 비젤",
+        "name_en": "Torsten Wiesel",
+        "contribution": "시각피질의 기둥 구조와 시각 발달의 결정적 시기를 규명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대뇌피질",
+        "name_en": "Cerebral Cortex",
+        "id": "BIO_CORTEX_005"
+      },
+      {
+        "name_ko": "측두엽",
+        "name_en": "Temporal Lobe",
+        "id": "BIO_TEMPORAL_025"
+      },
+      {
+        "name_ko": "두정엽",
+        "name_en": "Parietal Lobe",
+        "id": "BIO_PARIETAL_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Occipital = 뒤통수(occiput): 뒤통수에서 눈으로 들어온 시각 정보를 처리",
+      "differential": "후두엽은 '시각' 전문이고, 측두엽은 '청각/언어이해'를, 두정엽은 '체감각/공간'을 담당한다",
+      "key_point": "시각 정보는 눈(망막) → 시상(LGN) → 후두엽(V1)의 경로로 전달된다",
+      "common_mistake": "눈 바로 뒤가 아니라 뒤통수에 시각 처리 영역이 있다는 점이 직관에 반한다"
+    }
+  },
+  {
+    "id": "BIO_THALAMUS_028",
+    "terminology": "시상 (Thalamus)",
+    "terminology_ko": "시상",
+    "terminology_en": "Thalamus",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "대뇌의 중심부에 위치한 달걀 모양의 구조로, 후각을 제외한 모든 감각 정보를 대뇌피질의 적절한 영역으로 중계하는 '중계소' 역할을 한다.",
+    "definition_en": "An egg-shaped structure at the center of the brain that serves as a relay station, directing all sensory information (except smell) to the appropriate areas of the cerebral cortex.",
+    "significance": "시상은 감각 처리의 핵심 관문으로, 의식적 지각이 이루어지기 위해 감각 정보가 반드시 거쳐야 하는 구조이며, 수면-각성 주기 조절에도 관여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드워드 존스",
+        "name_en": "Edward Jones",
+        "contribution": "시상의 세부 핵 구조와 감각 중계 기능을 체계적으로 연구하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "시상하부",
+        "name_en": "Hypothalamus",
+        "id": "BIO_HYPOTH_009"
+      },
+      {
+        "name_ko": "대뇌피질",
+        "name_en": "Cerebral Cortex",
+        "id": "BIO_CORTEX_005"
+      },
+      {
+        "name_ko": "후두엽",
+        "name_en": "Occipital Lobe",
+        "id": "BIO_OCCIPITAL_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "시상(Thalamus) = 뇌의 '교환대(switchboard)': 감각 정보를 올바른 피질 영역으로 연결",
+      "differential": "시상은 감각 정보를 '중계'하고, 시상하부는 항상성과 동기를 '조절'한다",
+      "key_point": "후각만 시상을 거치지 않고 대뇌피질로 직접 전달된다는 예외를 기억할 것",
+      "common_mistake": "시상이 단순한 '수동적 전달소'가 아니라 감각 정보를 선별하고 조절하는 '능동적' 기능도 수행한다"
+    }
+  },
+  {
+    "id": "BIO_CEREBELLUM_029",
+    "terminology": "소뇌 (Cerebellum)",
+    "terminology_ko": "소뇌",
+    "terminology_en": "Cerebellum",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "뇌간의 뒤쪽에 위치한 구조로, 수의적 운동의 조정(coordination), 균형 유지, 자세 조절, 운동 학습을 담당한다. 뇌 전체 부피의 약 10%이지만 뉴런의 약 50% 이상을 포함한다.",
+    "definition_en": "A structure located at the back of the brainstem, responsible for the coordination of voluntary movement, balance, posture, and motor learning. It comprises about 10% of brain volume but contains over 50% of the brain's neurons.",
+    "significance": "소뇌는 복잡한 운동 기술(악기 연주, 스포츠 등)의 학습과 자동화에 핵심적이며, 최근 연구에서는 인지 기능과 정서 조절에도 관여함이 밝혀지고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "루이지 롤란도",
+        "name_en": "Luigi Rolando",
+        "contribution": "소뇌 손상 실험을 통해 소뇌가 운동 조정에 관여함을 초기에 입증하였다"
+      },
+      {
+        "name_ko": "마사오 이토",
+        "name_en": "Masao Ito",
+        "contribution": "소뇌의 시냅스 가소성(장기억압, LTD)과 운동 학습의 메커니즘을 규명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "뇌간",
+        "name_en": "Brainstem",
+        "id": "BIO_BSTEM_030"
+      },
+      {
+        "name_ko": "전두엽",
+        "name_en": "Frontal Lobe",
+        "id": "BIO_FRONTAL_010"
+      },
+      {
+        "name_ko": "가소성",
+        "name_en": "Neuroplasticity",
+        "id": "BIO_PLAST_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Cerebellum = 'little brain(작은 뇌)': 뇌 뒤에 달린 작은 뇌가 운동을 조율",
+      "differential": "소뇌는 운동의 '조정/균형'을, 전두엽의 운동피질은 운동의 '시작/계획'을 담당한다",
+      "key_point": "소뇌 손상 시 마비가 아니라 '운동 실조(ataxia)'가 나타난다 (움직이지 못하는 게 아니라 움직임이 부정확해진다)",
+      "common_mistake": "소뇌가 운동'만' 담당하는 것이 아니라 언어, 주의, 정서 조절에도 관여한다는 최근 연구 결과가 있다"
+    }
+  },
+  {
+    "id": "BIO_BSTEM_030",
+    "terminology": "뇌간 (Brainstem)",
+    "terminology_ko": "뇌간",
+    "terminology_en": "Brainstem",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "뇌의 가장 아래 부분으로 척수와 연결되며, 중뇌, 교뇌(뇌교), 연수로 구성된다. 호흡, 심박, 의식/각성, 수면 등 생명 유지에 필수적인 기능을 자동으로 조절한다.",
+    "definition_en": "The lowest part of the brain, connecting to the spinal cord, composed of the midbrain, pons, and medulla. It automatically regulates vital life functions including breathing, heart rate, consciousness/arousal, and sleep.",
+    "significance": "뇌간은 생존에 가장 기본적인 기능을 담당하며, 뇌간 손상은 의식 상실이나 사망을 유발할 수 있다. 뇌사 판정의 핵심 기준이 뇌간 기능의 소실이다.",
+    "key_researchers": [
+      {
+        "name_ko": "주세페 모루치",
+        "name_en": "Giuseppe Moruzzi",
+        "contribution": "호레이스 매군과 함께 뇌간의 망상활성계(reticular activating system)를 발견하여 각성과 의식의 신경 기초를 규명하였다"
+      },
+      {
+        "name_ko": "호레이스 매군",
+        "name_en": "Horace Magoun",
+        "contribution": "뇌간 망상체의 각성 기능을 실험적으로 입증하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "소뇌",
+        "name_en": "Cerebellum",
+        "id": "BIO_CEREBELLUM_029"
+      },
+      {
+        "name_ko": "시상",
+        "name_en": "Thalamus",
+        "id": "BIO_THALAMUS_028"
+      },
+      {
+        "name_ko": "자율신경계",
+        "name_en": "Autonomic Nervous System",
+        "id": "BIO_ANS_013"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "연수",
+        "name_en": "Medulla Oblongata",
+        "definition": "호흡, 심박, 혈압 조절 등 가장 기본적인 생명 기능을 담당하는 뇌간의 최하부"
+      },
+      {
+        "name_ko": "교뇌(뇌교)",
+        "name_en": "Pons",
+        "definition": "소뇌와 대뇌를 연결하며, 수면과 꿈(REM 수면)의 조절에 관여한다"
+      },
+      {
+        "name_ko": "중뇌",
+        "name_en": "Midbrain",
+        "definition": "시각 및 청각 반사, 안구 운동, 도파민 생성(흑질, VTA)을 담당한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "뇌간 = 뇌의 '줄기(stem)': 나무의 줄기처럼 생명 유지의 기초를 담당",
+      "differential": "뇌간은 '생존 기능(호흡/심박/각성)'을 자동 조절하고, 대뇌피질은 '고등인지기능'을 담당한다",
+      "key_point": "뇌간의 3부분(연수-교뇌-중뇌) 중 연수가 가장 하위이며 호흡/심박 등 가장 기본적 기능을 담당한다",
+      "common_mistake": "뇌간이 '원시적'이라고 해서 중요하지 않은 것이 아니다. 뇌간 손상은 즉각적인 생명 위험을 초래한다"
+    }
+  },
+  {
+    "id": "BIO_CORPUS_031",
+    "terminology": "뇌량 (Corpus Callosum)",
+    "terminology_ko": "뇌량",
+    "terminology_en": "Corpus Callosum",
+    "category": "BIO",
+    "category_name": "생물심리학 (Biological Psychology)",
+    "definition": "좌반구와 우반구를 연결하는 약 2억 개의 신경섬유(축삭) 다발로, 양쪽 반구 간의 정보 교환과 협력적 기능 수행을 가능하게 하는 뇌에서 가장 큰 백질 구조이다.",
+    "definition_en": "A thick bundle of approximately 200 million nerve fibers (axons) connecting the left and right hemispheres, enabling information exchange and cooperative functioning between the two hemispheres. It is the largest white matter structure in the brain.",
+    "significance": "뇌량 절단(분리뇌 수술) 연구는 좌우 반구의 기능적 특화를 밝히는 데 결정적 역할을 하였으며, 의식의 통합적 본질에 대한 중요한 통찰을 제공하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "로저 스페리",
+        "name_en": "Roger Sperry",
+        "contribution": "뇌량 절단(분리뇌) 환자 연구를 통해 양반구의 독립적 기능과 협력을 규명하였다 (노벨상 1981)"
+      },
+      {
+        "name_ko": "마이클 가자니가",
+        "name_en": "Michael Gazzaniga",
+        "contribution": "분리뇌 연구의 선구자로 뇌량 절단 후 좌우 반구의 독립적 정보 처리를 체계적으로 연구하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "좌반구/우반구",
+        "name_en": "Cerebral Lateralization",
+        "id": "BIO_LATERAL_018"
+      },
+      {
+        "name_ko": "대뇌피질",
+        "name_en": "Cerebral Cortex",
+        "id": "BIO_CORTEX_005"
+      },
+      {
+        "name_ko": "축삭",
+        "name_en": "Axon",
+        "id": "BIO_AXON_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Corpus Callosum = '단단한(callosum) 몸체(corpus)': 좌우 뇌를 연결하는 단단한 다리",
+      "differential": "뇌량은 좌우 반구를 연결하는 '교량'이고, 편재화는 각 반구가 특정 기능에 특화된 '현상'이다",
+      "key_point": "분리뇌(split-brain) 실험: 뇌량 절단 후 좌시야 정보는 우반구만, 우시야 정보는 좌반구만 처리한다",
+      "common_mistake": "뇌량이 절단되어도 일상생활에서는 큰 문제가 없어 보일 수 있지만, 통제된 실험에서 양반구 간 정보 단절이 드러난다"
+    }
+  }
+]

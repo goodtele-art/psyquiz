@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "INTELL_INT_001",
+    "terminology": "지능 (Intelligence)",
+    "terminology_ko": "지능",
+    "terminology_en": "Intelligence",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "환경에 적응하고, 경험으로부터 학습하며, 추상적으로 사고하고, 문제를 해결하는 일반적인 정신 능력을 의미하는 포괄적 구인이다.",
+    "definition_en": "A general mental capability involving the ability to adapt to the environment, learn from experience, think abstractly, and solve problems effectively.",
+    "significance": "심리검사의 가장 오래되고 핵심적인 측정 대상으로, 지능의 정의와 구조에 대한 이론이 검사 개발의 방향을 결정한다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "일반지능요인(g)을 제안하고 요인분석법을 개발"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "지능을 '합목적적으로 행동하고 합리적으로 사고하며 환경을 효과적으로 다루는 총체적 능력'으로 정의"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "일반요인(g)", "name_en": "General Factor (g)", "id": "INTELL_GF_013"},
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "결정성 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_CI_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지능 = 적응 + 학습 + 사고 + 문제해결의 총합",
+      "differential": "지능은 포괄적 구인이고, 지능지수(IQ)는 지능을 수치화한 점수이다.",
+      "key_point": "지능의 정의는 학자마다 다르며, 단일 정의에 대한 합의가 없다는 점이 시험에서 자주 출제된다.",
+      "common_mistake": "지능을 IQ 점수와 동일시하는 오류 — IQ는 지능의 조작적 측정치일 뿐이다."
+    }
+  },
+  {
+    "id": "INTELL_IQ_002",
+    "terminology": "지능지수 (Intelligence Quotient, IQ)",
+    "terminology_ko": "지능지수",
+    "terminology_en": "Intelligence Quotient (IQ)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "표준화된 지능검사에서 개인의 인지 능력 수준을 수치로 나타낸 점수로, 현대에는 동일 연령 집단의 평균을 100, 표준편차를 15로 설정한 편차IQ가 사용된다.",
+    "definition_en": "A standardized score derived from intelligence tests that quantifies an individual's cognitive ability level, with modern deviation IQ scores having a mean of 100 and standard deviation of 15.",
+    "significance": "지능검사 결과를 해석하는 가장 기본적인 지표로, 교육적 배치, 영재 판별, 지적장애 진단 등 다양한 의사결정에 활용된다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 슈테른", "name_en": "William Stern", "contribution": "정신연령/생활연령 비율 개념인 비율IQ(지능지수)를 최초로 제안"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "비율IQ의 한계를 극복한 편차IQ 개념을 도입하여 현대 IQ 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비율IQ", "name_en": "Ratio IQ", "id": "INTELL_RIQ_003"},
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "INTELL_DIQ_004"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "비율IQ", "name_en": "Ratio IQ", "definition": "정신연령(MA)/생활연령(CA) × 100으로 산출하는 초기 IQ 공식"},
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "definition": "동일 연령 집단 내 상대적 위치를 표준점수로 나타낸 현대적 IQ"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "IQ 100 = 평균, 15 = 1 표준편차 (Wechsler 체계)",
+      "differential": "비율IQ는 MA/CA×100이고, 편차IQ는 동일 연령 규준 대비 표준점수이다.",
+      "key_point": "현대 지능검사는 모두 편차IQ를 사용하며, 비율IQ는 역사적 개념으로만 출제된다.",
+      "common_mistake": "IQ가 고정불변이라고 생각하는 것 — IQ는 검사 시점과 조건에 따라 변동할 수 있다."
+    }
+  },
+  {
+    "id": "INTELL_RIQ_003",
+    "terminology": "비율IQ (Ratio IQ)",
+    "terminology_ko": "비율IQ",
+    "terminology_en": "Ratio IQ",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "정신연령(MA)을 생활연령(CA)으로 나눈 후 100을 곱하여 산출하는 초기 지능지수 공식(IQ = MA/CA × 100)으로, Binet 검사에서 처음 사용되었다.",
+    "definition_en": "An early method of calculating IQ by dividing mental age (MA) by chronological age (CA) and multiplying by 100 (IQ = MA/CA × 100), first used with the Binet scales.",
+    "significance": "지능검사 역사에서 최초의 체계적 지능 수치화 방법이었으나, 성인기 이후 정신연령의 정체로 인한 한계로 편차IQ로 대체되었다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 슈테른", "name_en": "William Stern", "contribution": "정신연령과 생활연령의 비율로 지능을 수치화하는 지능지수 개념을 제안"},
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "Stanford-Binet 검사에서 비율IQ를 실제로 적용하여 대중화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "INTELL_DIQ_004"},
+      {"name_ko": "정신연령", "name_en": "Mental Age", "id": "INTELL_INT_001"},
+      {"name_ko": "Stanford-Binet 지능검사", "name_en": "Stanford-Binet Intelligence Scales", "id": "INTELL_SB_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비율IQ = MA ÷ CA × 100 → 10세 아이가 MA 12세면 IQ 120",
+      "differential": "비율IQ는 연령 간 비교가 불공정하고, 편차IQ는 동일 연령 내 상대적 위치를 보여준다.",
+      "key_point": "비율IQ의 최대 문제점은 성인기에 MA가 더 이상 증가하지 않아 나이가 들수록 IQ가 인위적으로 낮아진다는 것이다.",
+      "common_mistake": "비율IQ가 현재에도 사용된다고 생각하는 것 — 현대 검사는 모두 편차IQ를 사용한다."
+    }
+  },
+  {
+    "id": "INTELL_DIQ_004",
+    "terminology": "편차IQ (Deviation IQ)",
+    "terminology_ko": "편차IQ",
+    "terminology_en": "Deviation IQ",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "동일 연령 집단의 점수 분포에서 개인의 상대적 위치를 평균 100, 표준편차 15(Wechsler 체계)의 표준점수로 변환한 현대적 지능지수 산출 방식이다.",
+    "definition_en": "A modern method of expressing IQ as a standard score with a mean of 100 and standard deviation of 15 (Wechsler system), based on an individual's relative standing within the same age group.",
+    "significance": "비율IQ의 연령 간 비교 불공정 문제를 해결하여 모든 연령에서 동일한 척도로 지능을 비교할 수 있게 한 현대 지능검사의 표준 방식이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "편차IQ 개념을 도입하여 Wechsler 지능검사 시리즈에 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비율IQ", "name_en": "Ratio IQ", "id": "INTELL_RIQ_003"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"},
+      {"name_ko": "표준점수", "name_en": "Standard Score", "id": "NORMS_SS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편차IQ: 평균 100, SD 15 → 68%가 85~115 사이",
+      "differential": "편차IQ는 동일 연령 내 상대적 위치이고, 비율IQ는 MA/CA의 절대 비율이다.",
+      "key_point": "Wechsler 체계는 SD=15, Stanford-Binet 5판은 SD=15이지만 과거 판은 SD=16이었다는 차이를 알아야 한다.",
+      "common_mistake": "편차IQ 130이 비율IQ 130과 같은 의미라고 생각하는 것 — 두 체계의 산출 원리가 다르다."
+    }
+  },
+  {
+    "id": "INTELL_FSIQ_005",
+    "terminology": "전체IQ (Full Scale IQ, FSIQ)",
+    "terminology_ko": "전체IQ",
+    "terminology_en": "Full Scale IQ (FSIQ)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler 지능검사에서 모든 핵심 소검사 점수를 종합하여 산출한 전반적인 인지 능력을 나타내는 합산 지표로, 평균 100, 표준편차 15이다.",
+    "definition_en": "A composite score derived from all core subtests of a Wechsler intelligence scale, representing overall cognitive ability with a mean of 100 and SD of 15.",
+    "significance": "개인의 전반적 지적 능력 수준을 하나의 수치로 요약하며, 영재 판별, 지적장애 진단, 교육적 배치의 일차적 기준이 된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "전체IQ 개념을 Wechsler-Bellevue 검사에서 처음 도입하고 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "INTELL_DIQ_004"},
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"},
+      {"name_ko": "소검사", "name_en": "Subtest", "id": "INTELL_SUB_011"},
+      {"name_ko": "K-WAIS", "name_en": "K-WAIS", "id": "INTELL_KWAIS_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FSIQ = Full Scale IQ = 모든 핵심 소검사의 총합 점수",
+      "differential": "FSIQ는 전체 능력 요약이고, 지표점수(VCI, PRI 등)는 특정 인지 영역의 능력이다.",
+      "key_point": "FSIQ의 해석 가능성은 지표점수 간 편차가 클 때 제한되며, 이 경우 개별 지표점수 해석이 더 유의미하다.",
+      "common_mistake": "FSIQ만으로 지능을 완전히 설명할 수 있다고 보는 것 — 지표점수 간 프로파일 분석이 필수적이다."
+    }
+  },
+  {
+    "id": "INTELL_IDX_006",
+    "terminology": "지표점수 (Index Score)",
+    "terminology_ko": "지표점수",
+    "terminology_en": "Index Score",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler 지능검사에서 유사한 인지 기능을 측정하는 소검사들을 묶어 산출한 영역별 합산 점수로, WAIS-IV 기준 VCI, PRI, WMI, PSI 네 가지가 있다.",
+    "definition_en": "Composite scores in Wechsler intelligence scales derived from clusters of subtests measuring similar cognitive functions, including VCI, PRI, WMI, and PSI in the WAIS-IV.",
+    "significance": "전체IQ보다 세분화된 인지 프로파일을 제공하여 개인의 인지적 강점과 약점을 파악하고 임상적 진단에 활용된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "언어성/동작성 IQ 구분을 도입하여 지표점수 체계의 기초를 마련"},
+      {"name_ko": "로렌스 와이스", "name_en": "Lawrence Weiss", "contribution": "WAIS-IV에서 4요인 지표점수 체계를 확립하고 표준화 연구를 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"},
+      {"name_ko": "언어이해지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_007"},
+      {"name_ko": "작업기억지표", "name_en": "Working Memory Index", "id": "INTELL_WMI_009"},
+      {"name_ko": "처리속도지표", "name_en": "Processing Speed Index", "id": "INTELL_PSI_010"}
+    ],
+    "sub_types": [
+      {"name_ko": "언어이해지표(VCI)", "name_en": "Verbal Comprehension Index", "definition": "언어적 개념 형성, 추론, 지식을 측정하는 지표"},
+      {"name_ko": "지각추론지표(PRI)/시공간지표(VSI)", "name_en": "Perceptual Reasoning/Visual Spatial Index", "definition": "비언어적 추론, 시공간 처리를 측정하는 지표"},
+      {"name_ko": "작업기억지표(WMI)", "name_en": "Working Memory Index", "definition": "주의력과 단기 기억 조작 능력을 측정하는 지표"},
+      {"name_ko": "처리속도지표(PSI)", "name_en": "Processing Speed Index", "definition": "단순 시각 정보의 빠르고 정확한 처리 속도를 측정하는 지표"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WAIS-IV 4지표: VCI-PRI-WMI-PSI (언지작처)",
+      "differential": "지표점수는 영역별 능력이고, 전체IQ는 전반적 능력 요약이다. WAIS-V에서는 VSI로 변경되었다.",
+      "key_point": "지표점수 간 유의미한 차이(일반적으로 12~15점 이상)가 있으면 인지적 강·약점 분석이 가능하다.",
+      "common_mistake": "WAIS-III의 언어성/동작성 IQ 구분이 WAIS-IV에서도 유지된다고 생각하는 것 — WAIS-IV부터 4지표 체계로 변경되었다."
+    }
+  },
+  {
+    "id": "INTELL_VCI_007",
+    "terminology": "언어이해지표 (Verbal Comprehension Index, VCI)",
+    "terminology_ko": "언어이해지표",
+    "terminology_en": "Verbal Comprehension Index (VCI)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler 지능검사의 4대 지표 중 하나로, 언어적 개념 형성, 추론 능력, 언어 지식 및 표현력을 측정하며 어휘, 공통성, 이해 소검사로 구성된다.",
+    "definition_en": "One of four primary index scores in Wechsler intelligence scales, measuring verbal concept formation, reasoning, and expression through subtests such as Vocabulary, Similarities, and Comprehension.",
+    "significance": "결정성 지능과 높은 관련이 있으며, 학업 성취 예측력이 높고 언어적 학습장애나 문화적 배경의 영향을 반영한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "언어성 척도를 통해 언어적 지능 측정의 기초를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"},
+      {"name_ko": "결정성 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_CI_016"},
+      {"name_ko": "어휘 소검사", "name_en": "Vocabulary Subtest", "id": "INTELL_VOC_028"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "VCI = 언어(Verbal) 이해(Comprehension) = 어휘 + 공통성 + 이해",
+      "differential": "VCI는 언어적 지식과 추론이고, WMI는 청각적 단기기억과 조작 능력이다.",
+      "key_point": "VCI는 교육 수준과 문화적 경험의 영향을 많이 받아, 다문화 배경 피검자 해석 시 주의가 필요하다.",
+      "common_mistake": "VCI가 단순한 언어 유창성을 측정한다고 생각하는 것 — 실제로는 언어적 추론과 개념 형성 능력을 평가한다."
+    }
+  },
+  {
+    "id": "INTELL_PRI_008",
+    "terminology": "지각추론지표 (Perceptual Reasoning Index, PRI)",
+    "terminology_ko": "지각추론지표",
+    "terminology_en": "Perceptual Reasoning Index (PRI)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "WAIS-IV/WISC-IV에서 비언어적 추론, 시공간 처리, 유동적 사고력을 측정하는 지표로, 토막짜기, 행렬추리, 퍼즐 소검사로 구성된다.",
+    "definition_en": "An index score in WAIS-IV/WISC-IV measuring nonverbal reasoning, visuospatial processing, and fluid reasoning through subtests such as Block Design, Matrix Reasoning, and Visual Puzzles.",
+    "significance": "언어 의존도가 낮아 언어적 제한이 있는 피검자의 인지 능력을 평가하는 데 유용하며, 유동성 지능과 높은 관련성을 보인다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "동작성 척도를 통해 비언어적 지능 측정의 필요성을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"},
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "토막짜기", "name_en": "Block Design", "id": "INTELL_BD_027"},
+      {"name_ko": "행렬추리", "name_en": "Matrix Reasoning", "id": "INTELL_MR_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PRI = 지각(Perceptual) + 추론(Reasoning) = 비언어적 문제해결",
+      "differential": "PRI는 비언어적 추론이고, VCI는 언어적 추론이다. WAIS-V에서 PRI는 VSI(시공간)와 FRI(유동추론)로 분리되었다.",
+      "key_point": "WAIS-IV에서 PRI이던 것이 WAIS-V에서는 시공간지표(VSI)와 유동추론지표(FRI)로 분화되었다.",
+      "common_mistake": "PRI가 순수한 시각 능력만 측정한다고 보는 것 — 실제로는 비언어적 추론과 문제해결 능력을 종합적으로 평가한다."
+    }
+  },
+  {
+    "id": "INTELL_WMI_009",
+    "terminology": "작업기억지표 (Working Memory Index, WMI)",
+    "terminology_ko": "작업기억지표",
+    "terminology_en": "Working Memory Index (WMI)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "주의집중력과 단기 기억 내 정보를 일시적으로 저장하고 조작하는 능력을 측정하는 Wechsler 검사 지표로, 숫자, 산수, 순서화 소검사로 구성된다.",
+    "definition_en": "A Wechsler index measuring attention and the ability to temporarily hold and manipulate information in short-term memory, comprising Digit Span, Arithmetic, and Letter-Number Sequencing subtests.",
+    "significance": "학습장애, ADHD, 외상성 뇌손상 등의 감별진단에서 중요한 정보를 제공하며, 학업 성취와 높은 상관을 보인다.",
+    "key_researchers": [
+      {"name_ko": "앨런 배들리", "name_en": "Alan Baddeley", "contribution": "작업기억 모델을 제안하여 WMI의 이론적 기반을 제공"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "주의/집중 소검사를 지능검사에 포함시켜 작업기억 측정의 토대를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"},
+      {"name_ko": "숫자 소검사", "name_en": "Digit Span", "id": "INTELL_DS_030"},
+      {"name_ko": "처리속도지표", "name_en": "Processing Speed Index", "id": "INTELL_PSI_010"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "WMI = Working Memory = 정보를 '잡고(hold) 다루는(manipulate)' 능력",
+      "differential": "WMI는 정보를 조작하는 능력이고, PSI는 단순 정보의 처리 속도이다.",
+      "key_point": "WMI가 다른 지표에 비해 유의미하게 낮으면 ADHD나 학습장애의 가능성을 시사한다.",
+      "common_mistake": "작업기억을 단순 암기력과 같다고 보는 것 — 작업기억은 정보의 능동적 조작을 포함한다."
+    }
+  },
+  {
+    "id": "INTELL_PSI_010",
+    "terminology": "처리속도지표 (Processing Speed Index, PSI)",
+    "terminology_ko": "처리속도지표",
+    "terminology_en": "Processing Speed Index (PSI)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "단순한 시각 정보를 빠르고 정확하게 탐색, 변별, 순서화하는 인지적 처리 속도를 측정하는 Wechsler 검사 지표로, 기호쓰기, 동형찾기 소검사로 구성된다.",
+    "definition_en": "A Wechsler index measuring the speed and accuracy of scanning, discriminating, and sequencing simple visual information, comprising Coding and Symbol Search subtests.",
+    "significance": "인지적 효율성의 지표로, 노화, 외상성 뇌손상, 우울증 등에서 민감하게 저하되어 신경심리학적 감별진단에 유용하다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "바꿔쓰기(Coding) 소검사를 초기 Wechsler-Bellevue에 포함시켜 처리속도 측정을 시작"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"},
+      {"name_ko": "작업기억지표", "name_en": "Working Memory Index", "id": "INTELL_WMI_009"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PSI = Processing Speed = 빠르고(Speed) 정확하게(Accuracy) 처리",
+      "differential": "PSI는 단순 인지 처리의 속도이고, WMI는 복잡한 정보의 조작 능력이다.",
+      "key_point": "PSI는 연령 증가에 따라 가장 먼저 저하되는 지표이며, 뇌손상 후에도 민감하게 영향을 받는다.",
+      "common_mistake": "PSI가 낮으면 전반적 지능이 낮다고 판단하는 것 — PSI는 인지 효율성의 한 측면일 뿐이다."
+    }
+  },
+  {
+    "id": "INTELL_SUB_011",
+    "terminology": "소검사 (Subtest)",
+    "terminology_ko": "소검사",
+    "terminology_en": "Subtest",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "지능검사 배터리를 구성하는 개별 과제로, 각각 특정한 인지 기능을 측정하며 소검사 점수의 조합으로 지표점수와 전체IQ가 산출된다.",
+    "definition_en": "An individual task within an intelligence test battery that measures a specific cognitive function, with subtest scores combined to form index scores and the Full Scale IQ.",
+    "significance": "소검사 간 점수 편차 분석(scatter analysis)은 인지적 강·약점 프로파일을 파악하고 학습장애, 신경심리학적 문제를 감별하는 데 핵심적 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "다양한 소검사로 구성된 지능검사 배터리 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"},
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"},
+      {"name_ko": "토막짜기", "name_en": "Block Design", "id": "INTELL_BD_027"},
+      {"name_ko": "어휘", "name_en": "Vocabulary", "id": "INTELL_VOC_028"},
+      {"name_ko": "숫자", "name_en": "Digit Span", "id": "INTELL_DS_030"}
+    ],
+    "sub_types": [
+      {"name_ko": "핵심 소검사", "name_en": "Core Subtest", "definition": "지표점수 및 FSIQ 산출에 반드시 포함되는 필수 소검사"},
+      {"name_ko": "보충 소검사", "name_en": "Supplemental Subtest", "definition": "추가적인 임상 정보를 위해 선택적으로 실시하는 소검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "소검사 = 지능검사의 '부품', 합치면 지표점수 → FSIQ",
+      "differential": "핵심 소검사는 FSIQ 산출에 필수이고, 보충 소검사는 선택적으로 실시한다.",
+      "key_point": "소검사 환산점수는 평균 10, 표준편차 3의 척도를 사용하며, 지표점수/FSIQ는 평균 100, 표준편차 15이다.",
+      "common_mistake": "소검사 환산점수의 평균을 100으로 착각하는 것 — 소검사는 M=10, SD=3이다."
+    }
+  },
+  {
+    "id": "INTELL_WIT_012",
+    "terminology": "Wechsler 지능이론 (Wechsler's Theory of Intelligence)",
+    "terminology_ko": "Wechsler 지능이론",
+    "terminology_en": "Wechsler's Theory of Intelligence",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler가 제안한 지능 이론으로, 지능을 '합목적적으로 행동하고 합리적으로 사고하며 환경을 효과적으로 다루는 개인의 총체적 능력'으로 정의하며 인지적·비인지적 요소 모두를 포함한다.",
+    "definition_en": "Wechsler's conceptualization of intelligence as 'the aggregate or global capacity of the individual to act purposefully, think rationally, and deal effectively with the environment,' encompassing both cognitive and non-cognitive factors.",
+    "significance": "지능을 단일 요인이 아닌 총체적 능력으로 보는 관점은 Wechsler 검사 시리즈의 다중 소검사 구조와 프로파일 분석 접근의 이론적 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "지능의 총체적 정의를 제안하고 언어성/동작성 IQ 이원 구조를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"},
+      {"name_ko": "일반요인(g)", "name_en": "General Factor (g)", "id": "INTELL_GF_013"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "K-WAIS", "name_en": "K-WAIS", "id": "INTELL_KWAIS_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Wechsler 지능 = 총체적(global/aggregate) 능력 = 행동 + 사고 + 적응",
+      "differential": "Wechsler는 지능을 총체적 능력으로 보았고, Spearman은 일반요인(g)으로, Gardner는 독립적 다중지능으로 보았다.",
+      "key_point": "Wechsler는 지능에 비인지적 요소(동기, 성격 등)도 포함된다고 보았으나, 검사에서는 주로 인지적 요소만 측정한다.",
+      "common_mistake": "Wechsler가 지능을 순수 인지 능력으로만 정의했다고 보는 것 — 그는 비인지적 요소도 지능의 일부로 간주했다."
+    }
+  },
+  {
+    "id": "INTELL_GF_013",
+    "terminology": "일반요인 (General Factor, g)",
+    "terminology_ko": "일반요인",
+    "terminology_en": "General Factor (g)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Spearman이 요인분석을 통해 발견한 모든 인지 과제에 공통적으로 작용하는 단일 일반 지능 요인으로, 다양한 인지 검사 간 정적 상관의 원인으로 가정된다.",
+    "definition_en": "A single general intelligence factor proposed by Spearman through factor analysis, hypothesized to underlie performance across all cognitive tasks and explain positive correlations among diverse tests.",
+    "significance": "지능의 구조에 관한 가장 영향력 있는 이론적 개념으로, 전체IQ 산출의 이론적 근거이며 현대 CHC 이론에서도 상위 요인으로 유지된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "요인분석법을 개발하고 g요인과 s요인의 2요인 이론을 제안"},
+      {"name_ko": "아서 젠슨", "name_en": "Arthur Jensen", "contribution": "g요인의 생물학적 기반과 예측 타당도에 대한 연구를 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "결정성 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_CI_016"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "g = general = 모든 인지 검사에 '공통'으로 작용하는 요인",
+      "differential": "g요인은 '모든' 인지 과제에 공통인 요인이고, s요인은 '특정' 과제에만 관여하는 특수 요인이다.",
+      "key_point": "Spearman의 2요인 이론: 지능 = g(일반요인) + s(특수요인). 요인분석에서 첫 번째 요인이 g에 해당한다.",
+      "common_mistake": "g요인이 하나의 뇌 기능이나 영역에 대응한다고 보는 것 — g는 통계적 구인이지 특정 뇌 구조가 아니다."
+    }
+  },
+  {
+    "id": "INTELL_MI_014",
+    "terminology": "다중지능이론 (Theory of Multiple Intelligences)",
+    "terminology_ko": "다중지능이론",
+    "terminology_en": "Theory of Multiple Intelligences",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Gardner가 제안한 이론으로, 지능을 단일 요인이 아닌 언어, 논리-수학, 공간, 음악, 신체-운동, 대인관계, 자기이해, 자연주의 등 8가지 이상의 독립적인 지능으로 구분한다.",
+    "definition_en": "Gardner's theory proposing that intelligence consists of at least eight independent types—linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, and naturalistic—rather than a single general factor.",
+    "significance": "전통적 IQ 검사가 측정하지 못하는 다양한 능력의 존재를 강조하여 교육 분야에 큰 영향을 미쳤으나, 실증적 검증과 표준화된 검사 도구가 부족하다는 비판을 받는다.",
+    "key_researchers": [
+      {"name_ko": "하워드 가드너", "name_en": "Howard Gardner", "contribution": "1983년 '마음의 틀(Frames of Mind)'에서 다중지능이론을 최초로 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반요인(g)", "name_en": "General Factor (g)", "id": "INTELL_GF_013"},
+      {"name_ko": "삼원지능이론", "name_en": "Triarchic Theory of Intelligence", "id": "INTELL_TRI_018"},
+      {"name_ko": "정서지능", "name_en": "Emotional Intelligence", "id": "INTELL_EI_019"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "언어적 지능", "name_en": "Linguistic Intelligence", "definition": "언어를 효과적으로 사용하는 능력"},
+      {"name_ko": "논리-수학적 지능", "name_en": "Logical-Mathematical Intelligence", "definition": "논리적 분석과 수학적 조작을 수행하는 능력"},
+      {"name_ko": "공간적 지능", "name_en": "Spatial Intelligence", "definition": "시각-공간적 세계를 정확하게 지각하고 변형하는 능력"},
+      {"name_ko": "음악적 지능", "name_en": "Musical Intelligence", "definition": "음악 패턴을 지각, 변별, 변환, 표현하는 능력"},
+      {"name_ko": "신체-운동적 지능", "name_en": "Bodily-Kinesthetic Intelligence", "definition": "신체를 사용하여 문제를 해결하거나 산물을 만드는 능력"},
+      {"name_ko": "대인관계 지능", "name_en": "Interpersonal Intelligence", "definition": "타인의 의도, 동기, 욕구를 이해하는 능력"},
+      {"name_ko": "자기이해 지능", "name_en": "Intrapersonal Intelligence", "definition": "자신의 감정, 동기, 강약점을 이해하는 능력"},
+      {"name_ko": "자연주의적 지능", "name_en": "Naturalistic Intelligence", "definition": "자연 세계의 종과 패턴을 인식하고 분류하는 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Gardner 8지능: 언·논·공·음·신·대·자·자 (언어, 논리수학, 공간, 음악, 신체운동, 대인, 자기이해, 자연)",
+      "differential": "다중지능이론은 독립적 지능 영역을 주장하고, Spearman은 공통 g요인을, Sternberg는 3가지 과정을 강조한다.",
+      "key_point": "다중지능이론은 교육 현장에서는 널리 수용되었지만, 심리측정학적으로는 요인분석 증거가 부족하다는 비판이 있다.",
+      "common_mistake": "다중지능이 표준화된 지능검사로 측정 가능하다고 생각하는 것 — 현재 공인된 다중지능 검사 도구는 없다."
+    }
+  },
+  {
+    "id": "INTELL_FI_015",
+    "terminology": "유동성 지능 (Fluid Intelligence, Gf)",
+    "terminology_ko": "유동성 지능",
+    "terminology_en": "Fluid Intelligence (Gf)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "선천적이고 생물학적 기반의 추론 능력으로, 새로운 상황에서 이전 학습과 무관하게 패턴을 인식하고 문제를 해결하며 관계를 추론하는 능력이다.",
+    "definition_en": "An innate, biologically based reasoning ability to recognize patterns, solve novel problems, and identify relationships in new situations independent of previously acquired knowledge.",
+    "significance": "교육이나 문화적 경험의 영향이 적어 문화공정검사에서 주로 측정하는 대상이며, 연령 증가에 따라 비교적 일찍 저하되기 시작한다.",
+    "key_researchers": [
+      {"name_ko": "레이먼드 카텔", "name_en": "Raymond Cattell", "contribution": "유동성-결정성 지능 이론(Gf-Gc theory)을 최초로 제안"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "Cattell의 Gf-Gc 이론을 확장하여 다수의 광역 인지 요인을 추가 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정성 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_CI_016"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "Raven의 진행행렬검사", "name_en": "Raven's Progressive Matrices", "id": "INTELL_RPM_025"},
+      {"name_ko": "일반요인(g)", "name_en": "General Factor (g)", "id": "INTELL_GF_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유동성(Fluid) = '흐르는 물'처럼 새로운 상황에 유연하게 적응하는 능력",
+      "differential": "유동성 지능(Gf)은 새로운 문제해결이고, 결정성 지능(Gc)은 축적된 지식과 경험이다.",
+      "key_point": "Gf는 20대 중반 이후 점차 저하되지만, Gc는 노년기까지 유지되거나 증가할 수 있다.",
+      "common_mistake": "유동성 지능이 교육이나 훈련으로 향상될 수 없다고 단정하는 것 — 일부 연구는 훈련 효과를 보고한다."
+    }
+  },
+  {
+    "id": "INTELL_CI_016",
+    "terminology": "결정성 지능 (Crystallized Intelligence, Gc)",
+    "terminology_ko": "결정성 지능",
+    "terminology_en": "Crystallized Intelligence (Gc)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "교육, 문화적 경험, 학습을 통해 축적된 지식과 언어 능력을 반영하는 지능으로, 어휘력, 일반상식, 언어적 추론 등으로 측정된다.",
+    "definition_en": "Intelligence reflecting accumulated knowledge and verbal skills acquired through education, cultural experience, and learning, measured by vocabulary, general information, and verbal reasoning tasks.",
+    "significance": "VCI와 높은 관련성을 보이며, 연령에 따른 저하가 유동성 지능보다 느려 노년기까지 비교적 잘 유지되는 특성이 있다.",
+    "key_researchers": [
+      {"name_ko": "레이먼드 카텔", "name_en": "Raymond Cattell", "contribution": "유동성-결정성 지능 이론에서 Gc 개념을 체계화"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "Gc의 발달 경로와 노화에 따른 변화 패턴을 실증적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "언어이해지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_007"},
+      {"name_ko": "어휘 소검사", "name_en": "Vocabulary Subtest", "id": "INTELL_VOC_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "결정성(Crystallized) = '결정화된' 경험과 지식 = 축적된 학습의 산물",
+      "differential": "Gc는 축적된 지식(어휘, 상식)이고, Gf는 새로운 문제에 대한 추론 능력이다.",
+      "key_point": "Gc는 교육과 문화적 경험의 영향을 크게 받으므로, 문화적 배경이 다른 집단 간 비교 시 주의가 필요하다.",
+      "common_mistake": "결정성 지능이 단순 암기력이라고 보는 것 — Gc는 지식을 활용한 언어적 추론도 포함한다."
+    }
+  },
+  {
+    "id": "INTELL_CHC_017",
+    "terminology": "CHC 이론 (Cattell-Horn-Carroll Theory)",
+    "terminology_ko": "CHC 이론",
+    "terminology_en": "Cattell-Horn-Carroll (CHC) Theory",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Cattell-Horn의 Gf-Gc 이론과 Carroll의 3층 이론을 통합한 현대 지능 이론으로, 일반지능(g) 아래 약 10개의 광역 능력과 70여 개의 협역 능력으로 구성된 위계적 구조를 제안한다.",
+    "definition_en": "A modern hierarchical theory of intelligence integrating Cattell-Horn's Gf-Gc model and Carroll's Three-Stratum Theory, proposing general intelligence (g) at the apex, approximately 10 broad abilities, and over 70 narrow abilities.",
+    "significance": "현대 지능검사(WISC-V, KABC-II, WJ-IV 등)의 개발과 해석에 가장 널리 사용되는 이론적 프레임워크이다.",
+    "key_researchers": [
+      {"name_ko": "레이먼드 카텔", "name_en": "Raymond Cattell", "contribution": "Gf-Gc 이론의 원래 틀을 제안"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "Gf-Gc 이론을 9~10개 광역 능력으로 확장"},
+      {"name_ko": "존 캐롤", "name_en": "John B. Carroll", "contribution": "460여 개 데이터 세트의 메타분석으로 3층(Three-Stratum) 모형을 수립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "결정성 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_CI_016"},
+      {"name_ko": "일반요인(g)", "name_en": "General Factor (g)", "id": "INTELL_GF_013"},
+      {"name_ko": "KABC-II", "name_en": "KABC-II", "id": "INTELL_KABC_024"}
+    ],
+    "sub_types": [
+      {"name_ko": "3층: 일반지능(g)", "name_en": "Stratum III: General Intelligence", "definition": "모든 인지 능력에 공통으로 작용하는 최상위 요인"},
+      {"name_ko": "2층: 광역 능력", "name_en": "Stratum II: Broad Abilities", "definition": "Gf, Gc, Gv, Ga, Gs, Gsm 등 약 10개의 광역 인지 능력"},
+      {"name_ko": "1층: 협역 능력", "name_en": "Stratum I: Narrow Abilities", "definition": "각 광역 능력 아래의 70여 개 구체적 인지 기술"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CHC = Cattell + Horn + Carroll = 3층 위계(g → 광역 → 협역)",
+      "differential": "CHC는 위계적 통합 모형이고, Gardner의 다중지능은 독립적 병렬 모형이다.",
+      "key_point": "CHC 이론은 현대 지능검사(WISC-V, KABC-II, WJ-IV)의 구조적 설계에 가장 직접적인 영향을 미친 이론이다.",
+      "common_mistake": "CHC 이론이 Cattell 혼자 만든 이론이라고 보는 것 — 세 학자(Cattell, Horn, Carroll)의 연구를 Kevin McGrew가 통합한 것이다."
+    }
+  },
+  {
+    "id": "INTELL_TRI_018",
+    "terminology": "삼원지능이론 (Triarchic Theory of Intelligence)",
+    "terminology_ko": "삼원지능이론",
+    "terminology_en": "Triarchic Theory of Intelligence",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Sternberg가 제안한 이론으로, 지능을 분석적 지능(내적 세계), 창의적 지능(경험과의 관계), 실용적 지능(외적 세계 적응) 세 가지 하위 이론으로 구성된 삼원 구조로 설명한다.",
+    "definition_en": "Sternberg's theory proposing three aspects of intelligence: analytical (internal world), creative (relationship with experience), and practical (adaptation to external world), forming a triarchic structure.",
+    "significance": "전통적 IQ 검사가 분석적 지능에 편중되어 있음을 비판하고, 실생활 적응과 창의성의 중요성을 강조하여 지능검사의 범위 확장에 기여하였다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스턴버그", "name_en": "Robert Sternberg", "contribution": "1985년 삼원지능이론을 제안하고 이후 성공지능(Successful Intelligence) 이론으로 확장"}
+    ],
+    "related_concepts": [
+      {"name_ko": "다중지능이론", "name_en": "Theory of Multiple Intelligences", "id": "INTELL_MI_014"},
+      {"name_ko": "일반요인(g)", "name_en": "General Factor (g)", "id": "INTELL_GF_013"},
+      {"name_ko": "정서지능", "name_en": "Emotional Intelligence", "id": "INTELL_EI_019"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "분석적 지능", "name_en": "Analytical Intelligence", "definition": "문제를 분석, 평가, 비교, 판단하는 내적 인지 과정"},
+      {"name_ko": "창의적 지능", "name_en": "Creative Intelligence", "definition": "새로운 아이디어를 생성하고 참신한 상황에 대처하는 능력"},
+      {"name_ko": "실용적 지능", "name_en": "Practical Intelligence", "definition": "실제 환경에 적응하고 환경을 선택·조형하는 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "삼원 = 3가지: 분석(Analytical) + 창의(Creative) + 실용(Practical) → ACP",
+      "differential": "Sternberg의 삼원이론은 '인지 과정'을 구분하고, Gardner의 다중지능은 '능력 영역'을 구분한다.",
+      "key_point": "Sternberg는 전통적 IQ 검사가 분석적 지능만 측정하며 창의적·실용적 지능을 무시한다고 비판했다.",
+      "common_mistake": "삼원지능이론의 세 하위 이론을 Gardner의 다중지능과 혼동하는 것 — 두 이론의 분류 기준이 다르다."
+    }
+  },
+  {
+    "id": "INTELL_EI_019",
+    "terminology": "정서지능 (Emotional Intelligence, EQ/EI)",
+    "terminology_ko": "정서지능",
+    "terminology_en": "Emotional Intelligence (EI)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "자신과 타인의 감정을 인식, 이해, 관리하고 감정 정보를 사고와 행동에 효과적으로 활용하는 능력으로, Salovey와 Mayer가 학술적으로 체계화하였다.",
+    "definition_en": "The ability to perceive, understand, manage, and effectively use emotional information in oneself and others, academically formalized by Salovey and Mayer.",
+    "significance": "전통적 인지 지능(IQ)으로 설명되지 않는 사회적 적응, 직무 수행, 정신건강 영역의 예측에 기여하며, 최근 심리검사에서 독립적 구인으로 측정되고 있다.",
+    "key_researchers": [
+      {"name_ko": "피터 샐러베이", "name_en": "Peter Salovey", "contribution": "Mayer와 함께 정서지능의 학술적 정의와 4가지(branch) 모형을 제안"},
+      {"name_ko": "존 메이어", "name_en": "John Mayer", "contribution": "정서지능의 능력 모형(ability model)을 개발하고 MSCEIT 검사를 제작"},
+      {"name_ko": "대니얼 골먼", "name_en": "Daniel Goleman", "contribution": "'감성지능(Emotional Intelligence)' 저서로 정서지능 개념을 대중화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "다중지능이론", "name_en": "Theory of Multiple Intelligences", "id": "INTELL_MI_014"},
+      {"name_ko": "삼원지능이론", "name_en": "Triarchic Theory of Intelligence", "id": "INTELL_TRI_018"},
+      {"name_ko": "지능", "name_en": "Intelligence", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "감정 인식", "name_en": "Perceiving Emotions", "definition": "자신과 타인의 감정을 정확하게 인식하는 능력"},
+      {"name_ko": "감정 활용", "name_en": "Using Emotions", "definition": "사고를 촉진하기 위해 감정을 활용하는 능력"},
+      {"name_ko": "감정 이해", "name_en": "Understanding Emotions", "definition": "감정의 원인과 변화 과정을 이해하는 능력"},
+      {"name_ko": "감정 관리", "name_en": "Managing Emotions", "definition": "자신과 타인의 감정을 효과적으로 조절하는 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "EI 4가지: 인식(Perceive) → 활용(Use) → 이해(Understand) → 관리(Manage) = PUEM",
+      "differential": "정서지능은 감정의 인지적 처리 능력이고, 사회지능은 사회적 상황의 이해와 대처 능력이다.",
+      "key_point": "Mayer-Salovey의 능력 모형은 수행 기반(MSCEIT)으로 측정하고, Goleman/Bar-On의 혼합 모형은 자기보고식으로 측정한다.",
+      "common_mistake": "EQ가 IQ보다 중요하다는 Goleman의 대중적 주장을 학술적 결론으로 받아들이는 것 — 실증 연구에서 EI의 예측력은 IQ보다 제한적이다."
+    }
+  },
+  {
+    "id": "INTELL_KWAIS_020",
+    "terminology": "K-WAIS (한국 웩슬러 성인용 지능검사)",
+    "terminology_ko": "K-WAIS",
+    "terminology_en": "Korean Wechsler Adult Intelligence Scale (K-WAIS)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler Adult Intelligence Scale(WAIS)을 한국 실정에 맞게 표준화한 성인용 개인 지능검사로, 16세 이상을 대상으로 FSIQ와 4개 지표점수를 산출한다.",
+    "definition_en": "The Korean standardization of the Wechsler Adult Intelligence Scale (WAIS), an individually administered intelligence test for ages 16+ that yields FSIQ and four index scores.",
+    "significance": "한국에서 가장 널리 사용되는 성인용 개인 지능검사로, 임상심리, 교육, 법적 장면에서 인지 능력 평가의 표준 도구이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1955년 WAIS 원판을 개발하여 성인 지능 측정의 표준을 확립"},
+      {"name_ko": "황순택", "name_en": "Hwang Soon-Taek", "contribution": "K-WAIS-IV 한국판 표준화 연구를 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-WISC", "name_en": "K-WISC", "id": "INTELL_KWISC_021"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"},
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"},
+      {"name_ko": "소검사", "name_en": "Subtest", "id": "INTELL_SUB_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "K-WAIS = Korean WAIS = 성인(16+) = 4지표 + FSIQ",
+      "differential": "K-WAIS는 성인용(16+), K-WISC는 아동용(6~16세), K-WPPSI는 유아용(2.5~7세)이다.",
+      "key_point": "K-WAIS-IV는 15개 소검사(핵심 10 + 보충 5)로 구성되며, 4개 지표점수와 FSIQ를 산출한다.",
+      "common_mistake": "K-WAIS를 집단검사로 실시할 수 있다고 생각하는 것 — Wechsler 검사는 반드시 개별 실시해야 한다."
+    }
+  },
+  {
+    "id": "INTELL_KWISC_021",
+    "terminology": "K-WISC (한국 웩슬러 아동용 지능검사)",
+    "terminology_ko": "K-WISC",
+    "terminology_en": "Korean Wechsler Intelligence Scale for Children (K-WISC)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "WISC를 한국 아동에 맞게 표준화한 아동용 개인 지능검사로, 만 6세~16세 11개월을 대상으로 FSIQ와 5개(WISC-V 기준) 지표점수를 산출한다.",
+    "definition_en": "The Korean standardization of the Wechsler Intelligence Scale for Children, an individually administered test for ages 6–16 yielding FSIQ and five primary index scores (WISC-V).",
+    "significance": "학습장애, 영재 판별, 지적장애 진단 등 아동기 인지 평가에서 가장 핵심적인 도구로, 교육적 개입 계획 수립의 기초 자료를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1949년 WISC 원판을 개발하여 아동 지능 측정의 표준을 확립"},
+      {"name_ko": "곽금주", "name_en": "Kwak Keum-Joo", "contribution": "K-WISC 한국판 표준화 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-WAIS", "name_en": "K-WAIS", "id": "INTELL_KWAIS_020"},
+      {"name_ko": "K-WPPSI", "name_en": "K-WPPSI", "id": "INTELL_KWPPSI_022"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"},
+      {"name_ko": "지표점수", "name_en": "Index Score", "id": "INTELL_IDX_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "K-WISC = Korean WISC = 아동(6~16세) = Wechsler 아동판",
+      "differential": "K-WISC는 아동용(6~16세)이고, K-WAIS는 성인용(16+), K-WPPSI는 유아용(2.5~7세)이다.",
+      "key_point": "WISC-V에서는 5개 일차 지표(VCI, VSI, FRI, WMI, PSI)로 확장되었다.",
+      "common_mistake": "K-WISC의 연령 범위를 6~12세로 알고 있는 것 — 실제로는 만 6세~16세 11개월이다."
+    }
+  },
+  {
+    "id": "INTELL_KWPPSI_022",
+    "terminology": "K-WPPSI (한국 웩슬러 유아용 지능검사)",
+    "terminology_ko": "K-WPPSI",
+    "terminology_en": "Korean Wechsler Preschool and Primary Scale of Intelligence (K-WPPSI)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "WPPSI를 한국 유아에 맞게 표준화한 유아용 개인 지능검사로, 만 2세 6개월~7세 7개월을 대상으로 전체IQ와 지표점수를 산출한다.",
+    "definition_en": "The Korean standardization of the Wechsler Preschool and Primary Scale of Intelligence, an individually administered intelligence test for ages 2:6–7:7 yielding FSIQ and index scores.",
+    "significance": "조기 인지 발달 지연이나 영재성을 조기 발견하여 적절한 개입을 계획하는 데 핵심적이며, 유아기 평가의 표준 도구이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1967년 WPPSI 원판을 개발하여 유아 지능 측정의 체계를 확립"},
+      {"name_ko": "박혜원", "name_en": "Park Hye-Won", "contribution": "K-WPPSI 한국판 표준화 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-WISC", "name_en": "K-WISC", "id": "INTELL_KWISC_021"},
+      {"name_ko": "K-WAIS", "name_en": "K-WAIS", "id": "INTELL_KWAIS_020"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "K-WPPSI = 유아(Preschool & Primary) = 2.5~7세 = Wechsler 유아판",
+      "differential": "K-WPPSI는 유아용(2.5~7세), K-WISC는 아동용(6~16세), K-WAIS는 성인용(16+)이다.",
+      "key_point": "WPPSI-IV는 연령대에 따라 2:6~3:11세와 4:0~7:7세 두 단계로 나누어 다른 소검사 구성을 적용한다.",
+      "common_mistake": "K-WPPSI와 K-WISC의 적용 연령이 겹치지 않는다고 생각하는 것 — 6~7세는 두 검사 모두 적용 가능하다."
+    }
+  },
+  {
+    "id": "INTELL_SB_023",
+    "terminology": "Stanford-Binet 지능검사 (Stanford-Binet Intelligence Scales)",
+    "terminology_ko": "Stanford-Binet 지능검사",
+    "terminology_en": "Stanford-Binet Intelligence Scales",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Binet-Simon 검사를 Terman이 Stanford 대학에서 미국 표준화한 개인용 지능검사로, 최초로 IQ 개념을 적용한 검사이며 현재 5판(SB5)은 CHC 이론 기반 5요인 구조를 사용한다.",
+    "definition_en": "An individually administered intelligence test originally adapted by Terman at Stanford University from the Binet-Simon scale; the first test to use the IQ concept, with the current SB5 based on a five-factor CHC model.",
+    "significance": "세계 최초의 실용적 지능검사로서 지능 측정의 역사를 열었으며, 비율IQ 개념이 처음 적용된 검사이다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "1905년 최초의 실용적 지능검사(Binet-Simon 척도)를 개발"},
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "Binet 검사를 미국에서 표준화하고 IQ 공식을 적용하여 Stanford-Binet을 출판"},
+      {"name_ko": "테오도르 시몽", "name_en": "Theodore Simon", "contribution": "Binet과 함께 최초의 지능검사를 공동 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "비율IQ", "name_en": "Ratio IQ", "id": "INTELL_RIQ_003"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "K-WAIS", "name_en": "K-WAIS", "id": "INTELL_KWAIS_020"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Stanford(대학) + Binet(원개발자) = Terman이 미국판으로 표준화 = 최초 IQ 검사",
+      "differential": "Stanford-Binet은 단일 종합점수 중심이었고(초기), Wechsler는 처음부터 다중 소검사 프로파일 분석을 강조했다.",
+      "key_point": "SB5(5판)부터 CHC 이론 기반 5요인(유동추론, 지식, 양적추론, 시공간, 작업기억) 구조로 개편되었다.",
+      "common_mistake": "Stanford-Binet이 여전히 비율IQ를 사용한다고 생각하는 것 — SB5부터 편차IQ(M=100, SD=15)를 사용한다."
+    }
+  },
+  {
+    "id": "INTELL_KABC_024",
+    "terminology": "K-ABC/KABC-II (카우프만 아동용 지능검사)",
+    "terminology_ko": "K-ABC/KABC-II",
+    "terminology_en": "Kaufman Assessment Battery for Children (KABC-II)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Kaufman 부부가 개발한 아동용 개인 지능검사로, KABC-II는 CHC 이론과 Luria의 신경심리학 모형 두 가지 해석 체계를 제공하며, 문화적 공정성을 강조한다.",
+    "definition_en": "An individually administered intelligence test for children developed by the Kaufmans; KABC-II offers dual interpretive frameworks based on CHC theory and Luria's neuropsychological model, emphasizing cultural fairness.",
+    "significance": "CHC 이론을 검사 설계에 직접 반영한 대표적 검사이며, 습득 지식의 영향을 최소화한 비언어적 척도를 포함하여 다문화 아동 평가에 유용하다.",
+    "key_researchers": [
+      {"name_ko": "앨런 카우프만", "name_en": "Alan Kaufman", "contribution": "Wechsler 검사의 제자로서 KABC를 개발하고 CHC 기반 KABC-II로 개정"},
+      {"name_ko": "나딘 카우프만", "name_en": "Nadeen Kaufman", "contribution": "Alan Kaufman과 함께 KABC/KABC-II를 공동 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "문화공정검사", "name_en": "Culture-Fair Test", "id": "INTELL_CFT_026"},
+      {"name_ko": "K-WISC", "name_en": "K-WISC", "id": "INTELL_KWISC_021"},
+      {"name_ko": "CAS", "name_en": "Cognitive Assessment System", "id": "INTELL_CAS_033"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "KABC-II = Kaufman 부부 = CHC + Luria 이중 모형 = 문화공정",
+      "differential": "KABC-II는 CHC와 Luria 이중 해석 체계를 제공하고, Wechsler 검사는 주로 CHC 프레임워크만 사용한다.",
+      "key_point": "KABC-II는 검사자가 CHC 모형 또는 Luria 모형 중 피검자에게 적합한 해석 체계를 선택할 수 있다.",
+      "common_mistake": "KABC-II가 Wechsler 검사의 단순 대안이라고 보는 것 — KABC-II는 독자적인 이론적 토대와 이중 해석 체계를 가진다."
+    }
+  },
+  {
+    "id": "INTELL_RPM_025",
+    "terminology": "Raven의 진행행렬검사 (Raven's Progressive Matrices, RPM)",
+    "terminology_ko": "Raven의 진행행렬검사",
+    "terminology_en": "Raven's Progressive Matrices (RPM)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Raven이 개발한 비언어적 지능검사로, 기하학적 도형 패턴에서 규칙을 파악하고 빈칸에 맞는 답을 선택하는 과제를 통해 주로 유동성 지능(Gf)을 측정한다.",
+    "definition_en": "A nonverbal intelligence test developed by Raven that measures primarily fluid intelligence (Gf) through tasks requiring identification of patterns in geometric figures and selection of the missing piece.",
+    "significance": "언어와 문화의 영향을 최소화한 대표적 비언어적 검사로, 문화 간 비교 연구와 언어적 제한이 있는 피검자 평가에 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "존 레이븐", "name_en": "John C. Raven", "contribution": "1938년 Progressive Matrices를 개발하여 비언어적 지능 측정의 표준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "문화공정검사", "name_en": "Culture-Fair Test", "id": "INTELL_CFT_026"},
+      {"name_ko": "일반요인(g)", "name_en": "General Factor (g)", "id": "INTELL_GF_013"},
+      {"name_ko": "집단지능검사", "name_en": "Group Intelligence Test", "id": "INTELL_GIT_032"}
+    ],
+    "sub_types": [
+      {"name_ko": "SPM(표준형)", "name_en": "Standard Progressive Matrices", "definition": "일반 성인 및 청소년용 표준 난이도의 60문항 검사"},
+      {"name_ko": "CPM(색채형)", "name_en": "Coloured Progressive Matrices", "definition": "아동 및 인지 기능이 낮은 성인을 위한 색채 포함 간편형"},
+      {"name_ko": "APM(고급형)", "name_en": "Advanced Progressive Matrices", "definition": "고지능 집단 변별을 위한 고난이도 검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Raven = 까마귀 = 도형 패턴 = 비언어적 = 유동성 지능(Gf)",
+      "differential": "RPM은 비언어적 유동성 지능을 측정하고, WAIS의 VCI는 언어적 결정성 지능을 측정한다.",
+      "key_point": "RPM은 개별/집단 실시 모두 가능하며, SPM(표준), CPM(색채), APM(고급) 3가지 형태가 있다.",
+      "common_mistake": "RPM이 지능의 모든 측면을 측정한다고 보는 것 — 주로 Gf만 측정하므로 포괄적 지능 평가에는 부족하다."
+    }
+  },
+  {
+    "id": "INTELL_CFT_026",
+    "terminology": "문화공정검사 (Culture-Fair Test)",
+    "terminology_ko": "문화공정검사",
+    "terminology_en": "Culture-Fair Test",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "특정 문화, 언어, 교육 배경의 영향을 최소화하여 문화적 배경이 다른 집단 간 공정하게 지능을 측정하고자 설계된 검사의 총칭이다.",
+    "definition_en": "A category of tests designed to minimize the influence of specific cultural, linguistic, and educational backgrounds, aiming to assess intelligence fairly across culturally diverse groups.",
+    "significance": "다문화 사회에서 검사의 공정성 문제를 해결하기 위한 시도로, 비언어적 과제와 유동성 지능 측정을 중심으로 개발되었다.",
+    "key_researchers": [
+      {"name_ko": "레이먼드 카텔", "name_en": "Raymond Cattell", "contribution": "Culture Fair Intelligence Test(CFIT)를 개발하여 문화공정 검사의 대표적 도구를 제시"},
+      {"name_ko": "존 레이븐", "name_en": "John C. Raven", "contribution": "RPM이 문화공정검사의 대표적 사례로 활용됨"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Raven의 진행행렬검사", "name_en": "Raven's Progressive Matrices", "id": "INTELL_RPM_025"},
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "검사 편향", "name_en": "Test Bias", "id": "ETHICS_BIAS_001"},
+      {"name_ko": "KABC-II", "name_en": "KABC-II", "id": "INTELL_KABC_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문화공정 = Culture-Fair = 문화 영향 최소화 = 비언어적 + 유동성 지능",
+      "differential": "문화공정검사(Culture-Fair)는 문화 영향 최소화를 목표로 하고, 문화자유검사(Culture-Free)는 문화 영향을 완전히 제거한다는(불가능한) 개념이다.",
+      "key_point": "완전히 문화에서 자유로운(culture-free) 검사는 불가능하며, 현실적으로는 문화적 영향을 '최소화'하는 culture-fair를 지향한다.",
+      "common_mistake": "Culture-Fair와 Culture-Free를 같은 개념으로 보는 것 — Culture-Free는 이론적으로 불가능하며 Culture-Fair가 현실적 목표이다."
+    }
+  },
+  {
+    "id": "INTELL_BD_027",
+    "terminology": "토막짜기 (Block Design)",
+    "terminology_ko": "토막짜기",
+    "terminology_en": "Block Design",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler 지능검사의 핵심 소검사로, 빨간색과 흰색으로 이루어진 입체 블록을 사용하여 제시된 기하학적 디자인을 제한 시간 내에 재현하는 과제이다.",
+    "definition_en": "A core Wechsler subtest requiring the examinee to replicate geometric designs using red-and-white blocks within time limits, measuring visuospatial organization and nonverbal problem-solving.",
+    "significance": "시공간 구성 능력과 비언어적 문제해결력을 측정하는 대표적 소검사로, 우반구 기능과 높은 관련이 있어 신경심리학적 평가에서도 중요하다.",
+    "key_researchers": [
+      {"name_ko": "새뮤얼 코스", "name_en": "Samuel Kohs", "contribution": "1920년 Kohs Block Design Test를 개발하여 토막짜기 과제의 원형을 제시"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "Kohs의 과제를 변형하여 Wechsler 검사 배터리에 포함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "소검사", "name_en": "Subtest", "id": "INTELL_SUB_011"},
+      {"name_ko": "지각추론지표", "name_en": "Perceptual Reasoning Index", "id": "INTELL_PRI_008"},
+      {"name_ko": "행렬추리", "name_en": "Matrix Reasoning", "id": "INTELL_MR_029"},
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "토막짜기 = Block Design = 빨간/흰 블록으로 도형 만들기 = 시공간 능력",
+      "differential": "토막짜기는 시공간 구성(3D 블록)이고, 행렬추리는 추상적 패턴 추론(2D 도형)이다.",
+      "key_point": "토막짜기는 Wechsler 검사에서 g 부하량이 높은 소검사 중 하나이며, 우뇌 손상에 민감하다.",
+      "common_mistake": "토막짜기가 단순 조작 능력만 측정한다고 보는 것 — 분석, 종합, 공간 추론 등 고차 인지 기능을 반영한다."
+    }
+  },
+  {
+    "id": "INTELL_VOC_028",
+    "terminology": "어휘 소검사 (Vocabulary Subtest)",
+    "terminology_ko": "어휘 소검사",
+    "terminology_en": "Vocabulary Subtest",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler 지능검사의 VCI 핵심 소검사로, 단어의 의미를 구두로 정의하게 하여 언어 지식, 개념 형성, 장기 기억을 평가한다.",
+    "definition_en": "A core VCI subtest of Wechsler scales requiring verbal definitions of words, assessing language knowledge, concept formation, and long-term memory.",
+    "significance": "Wechsler 검사에서 g 부하량이 가장 높은 소검사 중 하나로, 결정성 지능의 최적 단일 측정치이며 검사 전체의 축약형으로도 사용된다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "어휘 소검사를 Wechsler-Bellevue 검사에 포함시켜 지능 측정의 핵심 과제로 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어이해지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_007"},
+      {"name_ko": "결정성 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_CI_016"},
+      {"name_ko": "소검사", "name_en": "Subtest", "id": "INTELL_SUB_011"},
+      {"name_ko": "토막짜기", "name_en": "Block Design", "id": "INTELL_BD_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "어휘 = Vocabulary = 단어 정의하기 = Gc(결정성 지능)의 대표 측정치",
+      "differential": "어휘 소검사는 언어 지식(Gc)을 측정하고, 공통성 소검사는 언어적 추론·추상화 능력을 측정한다.",
+      "key_point": "어휘 소검사는 g 부하량이 가장 높은 단일 소검사로, 검사 축약형에 가장 자주 포함된다.",
+      "common_mistake": "어휘 소검사가 단순한 단어 암기력을 측정한다고 보는 것 — 개념적 사고와 언어 표현력도 평가한다."
+    }
+  },
+  {
+    "id": "INTELL_MR_029",
+    "terminology": "행렬추리 (Matrix Reasoning)",
+    "terminology_ko": "행렬추리",
+    "terminology_en": "Matrix Reasoning",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler 지능검사의 PRI/FRI 핵심 소검사로, 불완전한 행렬 패턴을 보고 규칙을 파악하여 빈칸에 들어갈 적절한 그림을 선택하는 비언어적 추론 과제이다.",
+    "definition_en": "A core PRI/FRI subtest of Wechsler scales requiring examinees to identify the rule in an incomplete matrix pattern and select the appropriate response, measuring nonverbal abstract reasoning.",
+    "significance": "유동성 지능(Gf)의 핵심 측정치로, RPM과 유사한 원리를 사용하며 언어 의존도가 낮아 다문화 피검자 평가에도 유용하다.",
+    "key_researchers": [
+      {"name_ko": "존 레이븐", "name_en": "John C. Raven", "contribution": "행렬 추론 과제의 원리를 RPM에서 최초로 체계화"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "행렬추리를 WAIS-III부터 Wechsler 검사 배터리에 포함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지각추론지표", "name_en": "Perceptual Reasoning Index", "id": "INTELL_PRI_008"},
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "Raven의 진행행렬검사", "name_en": "Raven's Progressive Matrices", "id": "INTELL_RPM_025"},
+      {"name_ko": "토막짜기", "name_en": "Block Design", "id": "INTELL_BD_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행렬추리 = Matrix Reasoning = 도형 패턴의 빈칸 채우기 = Gf 측정",
+      "differential": "행렬추리는 추상적 패턴 추론(2D)이고, 토막짜기는 시공간 구성(3D 블록)이다.",
+      "key_point": "행렬추리는 WAIS-III에서 처음 추가되었으며, RPM과 유사한 원리로 유동성 지능을 측정한다.",
+      "common_mistake": "행렬추리가 시각적 기억력을 측정한다고 보는 것 — 실제로는 비언어적 추상 추론 능력을 평가한다."
+    }
+  },
+  {
+    "id": "INTELL_DS_030",
+    "terminology": "숫자 소검사 (Digit Span)",
+    "terminology_ko": "숫자 소검사",
+    "terminology_en": "Digit Span",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Wechsler 지능검사의 WMI 핵심 소검사로, 불러주는 숫자를 바로 따라하기, 거꾸로 따라하기, 순서대로 따라하기(WAIS-IV부터) 세 조건으로 주의력과 작업기억을 측정한다.",
+    "definition_en": "A core WMI subtest of Wechsler scales measuring attention and working memory through three conditions: Digit Span Forward, Backward, and Sequencing (from WAIS-IV).",
+    "significance": "주의력, 단기기억, 작업기억을 간편하고 효율적으로 측정하며, ADHD, 불안장애, 뇌손상 등의 감별진단에 민감한 지표를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "숫자 따라하기 과제를 Wechsler-Bellevue 검사에 포함시켜 체계화"},
+      {"name_ko": "조지프 재콥스", "name_en": "Joseph Jacobs", "contribution": "1887년 숫자 폭(digit span) 과제를 최초로 기억 연구에 사용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "작업기억지표", "name_en": "Working Memory Index", "id": "INTELL_WMI_009"},
+      {"name_ko": "소검사", "name_en": "Subtest", "id": "INTELL_SUB_011"},
+      {"name_ko": "어휘 소검사", "name_en": "Vocabulary Subtest", "id": "INTELL_VOC_028"}
+    ],
+    "sub_types": [
+      {"name_ko": "바로 따라하기", "name_en": "Digit Span Forward", "definition": "불러주는 숫자를 그대로 따라하여 주의력과 단기기억을 측정"},
+      {"name_ko": "거꾸로 따라하기", "name_en": "Digit Span Backward", "definition": "숫자를 역순으로 따라하여 작업기억과 정신적 조작 능력을 측정"},
+      {"name_ko": "순서대로 따라하기", "name_en": "Digit Span Sequencing", "definition": "숫자를 작은 수부터 큰 수로 재배열하여 작업기억과 정보 조작을 측정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "숫자 = Forward(기억) + Backward(조작) + Sequencing(재배열) = FBS",
+      "differential": "바로 따라하기는 주의력/단기기억, 거꾸로 따라하기는 작업기억, 순서대로 따라하기는 정보의 능동적 조작을 측정한다.",
+      "key_point": "바로 따라하기와 거꾸로 따라하기의 점수 차이가 크면 작업기억의 특이적 결함을 시사할 수 있다.",
+      "common_mistake": "숫자 소검사의 세 조건이 모두 같은 능력을 측정한다고 보는 것 — 각 조건은 서로 다른 인지 기능을 평가한다."
+    }
+  },
+  {
+    "id": "INTELL_DAS_031",
+    "terminology": "DAS-II (차별능력척도)",
+    "terminology_ko": "DAS-II",
+    "terminology_en": "Differential Ability Scales, Second Edition (DAS-II)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Elliott이 개발한 아동·청소년용 개인 지능검사로, 인지 능력의 프로파일 분석을 강조하며 일반개념능력(GCA)과 특수 비언어적 종합점수(SNC)를 산출한다.",
+    "definition_en": "An individually administered intelligence test for children and adolescents developed by Elliott, emphasizing cognitive profile analysis and yielding General Conceptual Ability (GCA) and Special Nonverbal Composite (SNC) scores.",
+    "significance": "소검사 간 특이성(specificity)이 높아 인지적 강·약점의 프로파일 분석에 특히 유용하며, 학습장애 진단에서 차별적 능력 패턴을 파악하는 데 활용된다.",
+    "key_researchers": [
+      {"name_ko": "콜린 엘리엇", "name_en": "Colin Elliott", "contribution": "BAS(British Ability Scales)를 기반으로 DAS를 개발하고 DAS-II로 개정"}
+    ],
+    "related_concepts": [
+      {"name_ko": "KABC-II", "name_en": "KABC-II", "id": "INTELL_KABC_024"},
+      {"name_ko": "K-WISC", "name_en": "K-WISC", "id": "INTELL_KWISC_021"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "전체IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DAS-II = Differential(차별적) Ability(능력) = 프로파일 분석에 특화",
+      "differential": "DAS-II는 프로파일 분석에 특화되었고, Wechsler는 종합적 IQ 산출에 초점을 둔다.",
+      "key_point": "DAS-II의 일반개념능력(GCA)은 FSIQ와 유사하지만, 소검사의 높은 특이성으로 인해 영역 간 차별 분석이 더 정밀하다.",
+      "common_mistake": "DAS-II의 GCA를 FSIQ와 완전히 동일한 것으로 보는 것 — 포함되는 소검사와 이론적 배경이 다르다."
+    }
+  },
+  {
+    "id": "INTELL_GIT_032",
+    "terminology": "집단지능검사 (Group Intelligence Test)",
+    "terminology_ko": "집단지능검사",
+    "terminology_en": "Group Intelligence Test",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "다수의 피검자를 동시에 평가할 수 있도록 설계된 지능검사로, 지필식 또는 컴퓨터 기반으로 실시되며 Army Alpha/Beta가 최초의 대규모 적용 사례이다.",
+    "definition_en": "Intelligence tests designed for simultaneous administration to large groups, typically paper-and-pencil or computer-based, with the Army Alpha/Beta being the first large-scale application.",
+    "significance": "교육 현장과 군대, 기업에서 효율적인 대규모 인지 능력 선별에 활용되지만, 개인검사에 비해 개별 인지 프로파일의 정밀성은 낮다.",
+    "key_researchers": [
+      {"name_ko": "아서 오티스", "name_en": "Arthur Otis", "contribution": "집단 지능검사의 선구자로 Otis Group Intelligence Scale을 개발"},
+      {"name_ko": "로버트 여키스", "name_en": "Robert Yerkes", "contribution": "제1차 세계대전 시 Army Alpha/Beta 집단 지능검사를 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-WAIS", "name_en": "K-WAIS", "id": "INTELL_KWAIS_020"},
+      {"name_ko": "Raven의 진행행렬검사", "name_en": "Raven's Progressive Matrices", "id": "INTELL_RPM_025"},
+      {"name_ko": "문화공정검사", "name_en": "Culture-Fair Test", "id": "INTELL_CFT_026"}
+    ],
+    "sub_types": [
+      {"name_ko": "Army Alpha", "name_en": "Army Alpha", "definition": "읽기가 가능한 피검자용 언어성 집단 지능검사"},
+      {"name_ko": "Army Beta", "name_en": "Army Beta", "definition": "문맹이나 영어 미숙자를 위한 비언어성 집단 지능검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단검사 = Group Test = 다수 동시 실시 = Army Alpha(언어)/Beta(비언어)",
+      "differential": "집단검사는 효율적이나 정밀성이 낮고, 개인검사는 시간이 많이 걸리지만 정밀한 프로파일 분석이 가능하다.",
+      "key_point": "Army Alpha(언어성)와 Army Beta(비언어성)는 제1차 세계대전 시 Yerkes 주도로 개발된 최초의 대규모 집단지능검사이다.",
+      "common_mistake": "집단지능검사 결과만으로 개인의 지능을 확정적으로 진단할 수 있다고 보는 것 — 정밀한 진단에는 개인검사가 필수적이다."
+    }
+  },
+  {
+    "id": "INTELL_CAS_033",
+    "terminology": "CAS (인지평가체계, Cognitive Assessment System)",
+    "terminology_ko": "CAS",
+    "terminology_en": "Cognitive Assessment System (CAS)",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "Das와 Naglieri가 Luria의 신경심리학 이론(PASS 모형)에 기반하여 개발한 인지검사로, 계획(Planning), 주의(Attention), 동시처리(Simultaneous), 순차처리(Successive) 4가지 인지 과정을 측정한다.",
+    "definition_en": "A cognitive assessment instrument developed by Das and Naglieri based on Luria's PASS (Planning, Attention, Simultaneous, Successive) neuropsychological model, measuring four cognitive processes.",
+    "significance": "전통적 지능검사와 달리 인지 '과정'에 초점을 두며, 학습장애 및 ADHD 아동의 인지적 처리 패턴 파악과 개입 계획 수립에 유용하다.",
+    "key_researchers": [
+      {"name_ko": "잭 나글리에리", "name_en": "Jack Naglieri", "contribution": "Das와 함께 PASS 모형을 기반으로 CAS를 개발"},
+      {"name_ko": "자그나트 다스", "name_en": "Jagannath Das", "contribution": "Luria의 이론을 PASS 모형으로 조작화하여 CAS의 이론적 토대를 구축"}
+    ],
+    "related_concepts": [
+      {"name_ko": "KABC-II", "name_en": "KABC-II", "id": "INTELL_KABC_024"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_017"},
+      {"name_ko": "K-WISC", "name_en": "K-WISC", "id": "INTELL_KWISC_021"},
+      {"name_ko": "작업기억지표", "name_en": "Working Memory Index", "id": "INTELL_WMI_009"}
+    ],
+    "sub_types": [
+      {"name_ko": "계획(Planning)", "name_en": "Planning", "definition": "문제해결 전략의 수립, 적용, 평가 능력"},
+      {"name_ko": "주의(Attention)", "name_en": "Attention", "definition": "선택적 주의와 방해 자극 억제 능력"},
+      {"name_ko": "동시처리(Simultaneous)", "name_en": "Simultaneous Processing", "definition": "자극들을 통합하여 전체적으로 파악하는 능력"},
+      {"name_ko": "순차처리(Successive)", "name_en": "Successive Processing", "definition": "자극을 순차적·연속적으로 처리하는 능력"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CAS = PASS 모형 = Planning + Attention + Simultaneous + Successive",
+      "differential": "CAS는 Luria의 PASS 모형(인지 과정)에 기반하고, Wechsler는 CHC 이론(인지 능력)에 기반한다.",
+      "key_point": "CAS의 PASS 모형은 Luria의 3개 기능 단위(각성/주의, 동시/순차 처리, 계획)를 4과정으로 조작화한 것이다.",
+      "common_mistake": "CAS의 PASS 모형이 CHC 이론과 동일한 구조라고 보는 것 — PASS는 인지 '과정'을, CHC는 인지 '능력'을 분류한다."
+    }
+  },
+  {
+    "id": "INTELL_FLYN_034",
+    "terminology": "플린 효과 (Flynn Effect)",
+    "terminology_ko": "플린 효과",
+    "terminology_en": "Flynn Effect",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "세대가 지남에 따라 IQ 검사 점수가 지속적으로 상승하는 현상으로, Flynn이 20세기 전반에 걸쳐 약 10년당 3점씩 IQ가 증가함을 체계적으로 보고하였다.",
+    "definition_en": "The well-documented phenomenon of sustained increases in IQ test scores over successive generations, with Flynn systematically documenting approximately 3 IQ points per decade throughout the 20th century.",
+    "significance": "지능검사의 규준이 주기적으로 재표준화되어야 하는 근거를 제공하며, IQ 점수가 절대적 지능이 아닌 상대적 위치를 반영함을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "제임스 플린", "name_en": "James Flynn", "contribution": "IQ 점수의 세대 간 지속적 상승 현상을 체계적으로 문서화하고 분석"}
+    ],
+    "related_concepts": [
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "INTELL_DIQ_004"},
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "유동성 지능", "name_en": "Fluid Intelligence", "id": "INTELL_FI_015"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "NORMS_NRM_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Flynn 효과 = 세대↑ IQ↑ = 10년마다 ~3점 상승 = 규준 재표준화 필요",
+      "differential": "Flynn 효과는 세대 간(between generations) IQ 상승이고, 연습효과는 개인 내(within person) 반복 검사 시 점수 상승이다.",
+      "key_point": "Flynn 효과로 인해 오래된 규준을 사용하면 IQ가 과대추정되므로, 규준의 주기적 갱신(보통 10~15년)이 필수적이다.",
+      "common_mistake": "Flynn 효과가 인류의 '진짜' 지능이 높아졌음을 의미한다고 보는 것 — 교육, 영양, 환경 변화 등 다양한 원인이 있으며 최근에는 역전 현상도 보고된다."
+    }
+  },
+  {
+    "id": "INTELL_WB_035",
+    "terminology": "Wechsler-Bellevue 지능검사 (Wechsler-Bellevue Intelligence Scale)",
+    "terminology_ko": "Wechsler-Bellevue 지능검사",
+    "terminology_en": "Wechsler-Bellevue Intelligence Scale",
+    "category": "INTELL",
+    "category_name": "지능검사 (Intelligence Testing)",
+    "definition": "1939년 Wechsler가 Bellevue 병원에서 개발한 최초의 Wechsler 지능검사로, 언어성 척도와 동작성 척도의 이원 구조를 도입하고 편차IQ를 최초로 적용한 검사이다.",
+    "definition_en": "The first Wechsler intelligence test developed in 1939 at Bellevue Hospital, introducing the dual verbal-performance scale structure and the first application of deviation IQ scoring.",
+    "significance": "현대 Wechsler 지능검사 시리즈(WAIS, WISC, WPPSI)의 원형으로, 언어-동작 이원 구조와 편차IQ 체계는 지능 측정의 패러다임을 전환시켰다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1939년 Bellevue 병원에서 Wechsler-Bellevue 척도를 개발하여 현대 지능검사의 토대를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-WAIS", "name_en": "K-WAIS", "id": "INTELL_KWAIS_020"},
+      {"name_ko": "편차IQ", "name_en": "Deviation IQ", "id": "INTELL_DIQ_004"},
+      {"name_ko": "Stanford-Binet 지능검사", "name_en": "Stanford-Binet Intelligence Scales", "id": "INTELL_SB_023"},
+      {"name_ko": "Wechsler 지능이론", "name_en": "Wechsler's Theory of Intelligence", "id": "INTELL_WIT_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "W-B(1939) = 최초 Wechsler 검사 = Bellevue 병원 = 언어+동작 이원구조",
+      "differential": "W-B는 1939년 원판이고, WAIS는 1955년 개정판이며, WAIS-IV(2008)와 WAIS-V(2024)는 현대 개정판이다.",
+      "key_point": "W-B는 Stanford-Binet의 비율IQ 한계를 극복하고자 편차IQ를 도입한 최초의 검사이다.",
+      "common_mistake": "Wechsler-Bellevue가 현재에도 사용된다고 생각하는 것 — 이후 WAIS, WISC, WPPSI로 발전하여 대체되었다."
+    }
+  }
+]
