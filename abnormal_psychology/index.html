@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
   <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+  <!-- Google AdSense: 아래 client 값은 실제 pub ID로 교체 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-REPLACE_WITH_YOUR_ID" crossorigin="anonymous"></script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">본문 바로가기</a>
@@ -123,13 +125,13 @@
         </button>
       </div>
 
-      <!-- 실전문제 배너 (기출 데이터 없으므로 숨김) -->
-      <div class="exam-banner hidden" onclick="App.navigate('setup', 'exam')">
+      <!-- 실전문제 배너 -->
+      <div class="exam-banner" onclick="App.navigate('setup', 'exam')">
         <div class="exam-banner-icon">📋</div>
         <div class="exam-banner-info">
           <h3>실전문제 풀기</h3>
           <p>기출문제로 실력을 점검하세요</p>
-          <span class="exam-banner-meta">준비 중</span>
+          <span class="exam-banner-meta">10회분 184문항</span>
         </div>
         <span class="exam-banner-arrow">&rarr;</span>
       </div>
@@ -280,6 +282,17 @@
         </div>
         <div class="result-leaderboard" id="result-leaderboard"></div>
       </div>
+    </section>
+
+    <!-- 광고 영역 -->
+    <section class="adsense-block" aria-label="광고" style="max-width:980px;margin:24px auto 0;padding:0 16px;">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-REPLACE_WITH_YOUR_ID"
+           data-ad-slot="REPLACE_WITH_AD_SLOT_ID"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </section>
 
   </main>
