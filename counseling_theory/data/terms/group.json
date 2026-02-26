@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "GROUP_GC_001",
+    "terminology": "집단상담 (Group Counseling)",
+    "terminology_ko": "집단상담",
+    "terminology_en": "Group Counseling",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "전문 상담자의 촉진 하에 소수의 구성원(보통 6~12명)이 모여 상호작용을 통해 자기 이해를 증진하고 문제를 해결하며 성장을 도모하는 상담 형태이다. 집단 역동을 치료적으로 활용한다.",
+    "definition_en": "A form of counseling in which a small number of members (typically 6-12) meet under the facilitation of a professional counselor, promoting self-understanding, problem-solving, and growth through interaction. It therapeutically utilizes group dynamics.",
+    "significance": "개인상담으로는 얻기 어려운 대인관계 학습, 보편성 경험, 사회적 지지 등 독특한 치료적 이점을 제공하며, 비용 효율적인 치료 방법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단치료의 치료적 요인 11가지를 체계화하고 현대 집단치료의 이론적 기초를 확립하였다"
+      },
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "집단상담의 이론과 실제를 통합적으로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_002"
+      },
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      },
+      {
+        "name_ko": "상담",
+        "name_en": "Counseling",
+        "id": "FOUND_CF_001"
+      }
+    ],
+    "sub_types": [
+      "상담집단",
+      "치료집단",
+      "성장집단",
+      "과업집단",
+      "심리교육집단"
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단상담 = 여러 사람이 '함께' 성장하는 상담",
+      "differential": "개인상담은 1:1 관계에서의 자기탐색에 초점을 두지만, 집단상담은 구성원 간 상호작용과 집단 역동을 치료적으로 활용한다",
+      "key_point": "집단상담의 독특한 강점은 보편성 경험, 대인관계 학습, 이타주의 경험 등 집단에서만 가능한 치료적 요인이다",
+      "common_mistake": "집단상담을 여러 명에게 동시에 개인상담을 하는 것으로 오해하기 쉬우나, 구성원 간 상호작용 자체가 치료의 핵심이다"
+    }
+  },
+  {
+    "id": "GROUP_GD_002",
+    "terminology": "집단역동 (Group Dynamics)",
+    "terminology_ko": "집단역동",
+    "terminology_en": "Group Dynamics",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 내에서 구성원 간에 작용하는 힘의 상호작용으로, 집단의 행동, 의사결정, 규범 형성, 갈등 등에 영향을 미치는 과정을 총칭한다. 집단상담에서 치료적 변화의 핵심 매개체이다.",
+    "definition_en": "The interaction of forces operating among group members that affect group behavior, decision-making, norm formation, conflicts, and other processes. It serves as a core mediator of therapeutic change in group counseling.",
+    "significance": "집단상담의 효과를 이해하고 활용하기 위한 필수적 개념으로, 리더는 집단역동을 관찰하고 촉진할 수 있어야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "쿠르트 레빈",
+        "name_en": "Kurt Lewin",
+        "contribution": "집단역동 개념을 처음 제안하고 '장 이론(field theory)'을 적용하여 체계화하였다"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단역동을 임상적 치료 장면에 적용하는 방법을 체계적으로 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단상담",
+        "name_en": "Group Counseling",
+        "id": "GROUP_GC_001"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_005"
+      },
+      {
+        "name_ko": "집단과정",
+        "name_en": "Group Process",
+        "id": "GROUP_GP_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단역동 = 집단 안에서 '움직이는 힘(dynamics)'의 상호작용",
+      "differential": "집단과정(group process)은 집단이 시간에 따라 발전하는 과정이고, 집단역동은 구성원 간 힘의 상호작용 자체이다",
+      "key_point": "집단역동은 관찰 가능한 현상(발언 패턴, 하위집단 형성 등)과 잠재적 과정(무의식적 역할 분담 등)을 모두 포함한다",
+      "common_mistake": "집단역동을 집단 내 갈등으로만 이해하기 쉬우나, 응집력, 규범, 역할 분담 등 모든 상호작용적 힘을 포함한다"
+    }
+  },
+  {
+    "id": "GROUP_TF_003",
+    "terminology": "치료적 요인 (Therapeutic Factors)",
+    "terminology_ko": "치료적 요인",
+    "terminology_en": "Therapeutic Factors",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "얄롬이 제시한 집단치료에서 변화를 촉진하는 11가지 핵심 요인으로, 보편성, 이타주의, 희망 고취, 정보 제공, 교정적 재경험, 사회화 기술 발달, 모방 행동, 대인관계 학습, 집단응집력, 카타르시스, 실존적 요인을 포함한다.",
+    "definition_en": "Eleven core factors identified by Yalom that facilitate change in group therapy, including universality, altruism, instillation of hope, imparting information, corrective recapitulation, development of socializing techniques, imitative behavior, interpersonal learning, group cohesion, catharsis, and existential factors.",
+    "significance": "집단치료가 왜 효과적인지를 설명하는 가장 영향력 있는 이론적 틀로, 집단 리더가 치료적 요인을 의도적으로 촉진하는 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단치료의 11가지 치료적 요인을 체계화하고 실증적 연구의 토대를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UN_007"
+      },
+      {
+        "name_ko": "이타주의",
+        "name_en": "Altruism",
+        "id": "GROUP_AL_008"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      },
+      {
+        "name_ko": "카타르시스",
+        "name_en": "Catharsis",
+        "id": "GROUP_CA_009"
+      },
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      }
+    ],
+    "sub_types": [
+      "보편성",
+      "이타주의",
+      "희망 고취",
+      "정보 제공",
+      "교정적 가족 재경험",
+      "사회화 기술 발달",
+      "모방 행동",
+      "대인관계 학습",
+      "집단응집력",
+      "카타르시스",
+      "실존적 요인"
+    ],
+    "quiz_hints": {
+      "mnemonic": "얄롬의 11가지 요인: 보이희정교사모대집카실(보편성, 이타주의, 희망, 정보, 교정적, 사회화, 모방, 대인관계, 집단응집, 카타르시스, 실존)",
+      "differential": "치료적 요인은 집단에서만 나타나는 요인(보편성, 이타주의 등)과 개인상담에서도 나타나는 요인(카타르시스 등)을 모두 포함한다",
+      "key_point": "얄롬은 11가지 치료적 요인을 제시했으며, 이들은 독립적으로 작용하기보다 상호 연관되어 작용한다",
+      "common_mistake": "11가지 요인의 중요도가 모든 집단에서 동일하다고 오해하기 쉬우나, 집단의 유형과 발달 단계에 따라 상대적 중요도가 달라진다"
+    }
+  },
+  {
+    "id": "GROUP_CO_004",
+    "terminology": "집단응집력 (Group Cohesion)",
+    "terminology_ko": "집단응집력",
+    "terminology_en": "Group Cohesion",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 구성원들이 서로와 집단 전체에 대해 느끼는 매력, 소속감, 유대감의 정도로, 집단치료에서 개인상담의 치료적 관계에 해당하는 핵심 요인이다.",
+    "definition_en": "The degree of attraction, belonging, and bonding that group members feel toward each other and the group as a whole, functioning as the group therapy equivalent of the therapeutic relationship in individual counseling.",
+    "significance": "얄롬이 가장 중요한 치료적 요인 중 하나로 꼽았으며, 높은 응집력은 다른 치료적 요인의 활성화를 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단응집력을 집단치료의 핵심 치료적 요인으로 강조하고 그 중요성을 실증하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_002"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_005"
+      },
+      {
+        "name_ko": "치료적 관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단응집력 = 집단의 '접착력' - 구성원을 붙잡아 두는 힘",
+      "differential": "집단응집력은 개인상담에서의 치료적 동맹에 해당하며, 개인-상담자 관계가 아닌 집단 전체에 대한 소속감이다",
+      "key_point": "높은 응집력은 자기개방, 피드백 수용, 위험 감수를 촉진하여 다른 치료적 요인의 활성화를 돕는다",
+      "common_mistake": "응집력이 높으면 항상 좋다고 오해하기 쉬우나, 과도한 응집력은 집단 사고(groupthink)나 개인 차이 억압으로 이어질 수 있다"
+    }
+  },
+  {
+    "id": "GROUP_GN_005",
+    "terminology": "집단규범 (Group Norms)",
+    "terminology_ko": "집단규범",
+    "terminology_en": "Group Norms",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 내에서 구성원의 행동을 안내하는 명시적·묵시적 규칙과 기대로, 무엇이 허용되고 허용되지 않는지를 규정한다. 치료적 규범(자기개방, 직접적 소통 등)의 형성이 집단 리더의 핵심 과업이다.",
+    "definition_en": "Explicit and implicit rules and expectations that guide member behavior within the group, defining what is and is not acceptable. Establishing therapeutic norms (self-disclosure, direct communication, etc.) is a core task of the group leader.",
+    "significance": "집단의 치료적 분위기를 결정하는 핵심 요소로, 초기에 적절한 규범이 형성되어야 집단이 효과적으로 기능할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "치료적 집단규범의 형성이 집단 리더의 핵심 과업임을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_002"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      },
+      {
+        "name_ko": "집단과정",
+        "name_en": "Group Process",
+        "id": "GROUP_GP_006"
+      }
+    ],
+    "sub_types": [
+      "명시적 규범",
+      "묵시적 규범"
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단규범 = 집단의 '불문율' - 어떻게 행동해야 하는지에 대한 암묵적 합의",
+      "differential": "규칙(rules)은 리더가 명시적으로 제시하지만, 규범(norms)은 상호작용을 통해 자연스럽게 형성되는 기대를 포함한다",
+      "key_point": "리더는 집단 초기에 치료적 규범(자기개방, 지금-여기 초점, 직접 소통 등)의 형성을 적극 촉진해야 한다",
+      "common_mistake": "규범이 집단 시작 시 정해지고 고정된다고 오해하기 쉬우나, 규범은 집단 발달 과정에서 계속 변화한다"
+    }
+  },
+  {
+    "id": "GROUP_GP_006",
+    "terminology": "집단과정 (Group Process)",
+    "terminology_ko": "집단과정",
+    "terminology_en": "Group Process",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단이 시간에 따라 발달하고 변화하는 전체적인 흐름으로, 구성원 간의 상호작용 패턴, 역할 분담, 규범 변화, 갈등과 해결 등 집단에서 일어나는 모든 것을 포함한다.",
+    "definition_en": "The overall flow of development and change in the group over time, encompassing interaction patterns among members, role distribution, norm changes, conflict and resolution, and everything that occurs in the group.",
+    "significance": "집단의 내용(content)만이 아닌 과정(process)에 주의를 기울이는 것이 집단 리더의 핵심 역량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단과정에 대한 관심을 지금-여기(here-and-now) 초점과 연결하여 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_002"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here-and-Now",
+        "id": "GROUP_HN_011"
+      },
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SD_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단과정 = '무엇'을 말하느냐(내용)가 아니라 '어떻게' 상호작용하느냐(과정)",
+      "differential": "집단 내용(content)은 '무엇이 논의되느냐'이고, 집단 과정(process)은 '어떻게 상호작용하느냐'이다",
+      "key_point": "리더는 내용과 과정 모두에 주의를 기울이되, 특히 과정에 대한 관찰과 개입이 집단치료의 핵심이다",
+      "common_mistake": "집단과정을 단순히 '집단의 진행 순서'로 오해하기 쉬우나, 구성원 간 상호작용의 역동적 흐름을 의미한다"
+    }
+  },
+  {
+    "id": "GROUP_UN_007",
+    "terminology": "보편성 (Universality)",
+    "terminology_ko": "보편성",
+    "terminology_en": "Universality",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 경험을 통해 자신만 고통받고 있는 것이 아니라 다른 사람들도 유사한 문제와 감정을 경험하고 있음을 깨닫게 되는 치료적 요인이다. '나만 그런 게 아니구나'라는 인식이 고립감을 감소시킨다.",
+    "definition_en": "A therapeutic factor through which group members realize they are not alone in their suffering and that others experience similar problems and feelings. The recognition that 'I am not the only one' reduces feelings of isolation.",
+    "significance": "집단치료의 가장 기본적이고 강력한 치료적 요인 중 하나로, 특히 집단 초기 단계에서 구성원의 고립감을 해소하고 희망을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "보편성을 집단치료의 11가지 치료적 요인 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      },
+      {
+        "name_ko": "희망 고취",
+        "name_en": "Instillation of Hope",
+        "id": "GROUP_IH_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "보편성 = '나만 그런 게 아니다' - 고통의 보편적 경험을 확인한다",
+      "differential": "보편성은 '다른 사람도 비슷한 문제를 겪는다'는 인식이고, 카타르시스는 감정을 표현하고 해방감을 경험하는 것이다",
+      "key_point": "개인상담에서는 경험하기 어려운, 집단에서만 가능한 독특한 치료적 요인이다",
+      "common_mistake": "보편성을 단순히 '위안'으로 오해하기 쉬우나, 고립감 해소와 자기수용 촉진의 치료적 효과가 있다"
+    }
+  },
+  {
+    "id": "GROUP_AL_008",
+    "terminology": "이타주의 (Altruism)",
+    "terminology_ko": "이타주의",
+    "terminology_en": "Altruism",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 내에서 다른 구성원을 돕는 경험이 돕는 사람에게도 치료적 효과를 가져오는 요인이다. 도움을 주는 경험은 자기 가치감을 높이고 자기중심적 몰두에서 벗어나게 한다.",
+    "definition_en": "A factor in which the experience of helping other group members brings therapeutic benefits to the helper as well. The experience of giving help enhances self-worth and shifts focus from self-centered preoccupation.",
+    "significance": "집단에서만 가능한 독특한 치료적 요인으로, 내담자가 도움을 받는 역할에서 벗어나 도움을 주는 경험을 통해 자기 가치감을 회복한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "이타주의를 집단치료의 11가지 치료적 요인 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UN_007"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이타주의 = 남을 도우면 '나'도 치유된다",
+      "differential": "이타주의는 다른 구성원을 돕는 경험의 치료적 효과이고, 대인관계 학습은 관계 패턴을 인식하고 변화시키는 것이다",
+      "key_point": "도움을 주는 사람이 도움을 받는 사람만큼 또는 더 많은 치료적 이점을 얻을 수 있다",
+      "common_mistake": "이타주의를 단순히 '착한 행동'으로 오해하기 쉬우나, 자기 가치감 회복이라는 치료적 의미가 핵심이다"
+    }
+  },
+  {
+    "id": "GROUP_CA_009",
+    "terminology": "카타르시스 (Catharsis)",
+    "terminology_ko": "카타르시스",
+    "terminology_en": "Catharsis",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 내에서 강렬한 감정을 표현하고 해방감을 경험하는 치료적 요인이다. 안전한 집단 환경에서 억압된 감정을 표현하고 다른 구성원의 수용을 경험하는 것이 치유적 효과를 가져온다.",
+    "definition_en": "A therapeutic factor of expressing intense emotions and experiencing release within the group. Expressing suppressed feelings in a safe group environment and experiencing acceptance from other members brings healing effects.",
+    "significance": "감정 표현 자체가 치료적이지만, 얄롬은 카타르시스만으로는 불충분하며 인지적 이해와 결합되어야 한다고 강조한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "카타르시스를 집단치료의 치료적 요인으로 정립하되, 인지적 이해와의 결합의 필요성을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      },
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "카타르시스 = 감정의 '분출과 정화' - 울고 나면 시원해지는 경험",
+      "differential": "카타르시스는 감정 표현 자체의 해방감이고, 대인관계 학습은 관계 패턴에 대한 인식과 변화이다",
+      "key_point": "얄롬에 따르면 카타르시스는 필요하지만 충분하지 않으며, 인지적 이해(대인관계 학습)와 결합되어야 지속적 변화로 이어진다",
+      "common_mistake": "카타르시스만으로 충분한 치료적 효과를 얻을 수 있다고 오해하기 쉬우나, 인지적 처리와 결합되어야 한다"
+    }
+  },
+  {
+    "id": "GROUP_IL_010",
+    "terminology": "대인관계 학습 (Interpersonal Learning)",
+    "terminology_ko": "대인관계 학습",
+    "terminology_en": "Interpersonal Learning",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 내 상호작용을 통해 자신의 대인관계 패턴을 인식하고 새로운 관계 방식을 시도하며 피드백을 받아 대인관계 능력을 향상시키는 치료적 요인이다. 얄롬이 가장 중요한 치료적 요인으로 간주하였다.",
+    "definition_en": "A therapeutic factor of recognizing one's interpersonal patterns, trying new relational styles, and receiving feedback through group interactions to improve interpersonal skills. Yalom considered this the most important therapeutic factor.",
+    "significance": "얄롬이 집단치료의 가장 핵심적인 치료적 요인으로 본 것으로, 집단이 사회적 마이크로코즘으로 기능하여 현실 대인관계의 축소판이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "대인관계 학습을 집단치료의 핵심 치료적 요인으로 개념화하고 교정적 정서 경험과 연결하였다"
+      },
+      {
+        "name_ko": "해리 스택 설리번",
+        "name_en": "Harry Stack Sullivan",
+        "contribution": "대인관계이론을 통해 정신병리가 대인관계적 맥락에서 발생한다는 관점을 제시하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here-and-Now",
+        "id": "GROUP_HN_011"
+      },
+      {
+        "name_ko": "사회적 마이크로코즘",
+        "name_en": "Social Microcosm",
+        "id": "GROUP_SM_020"
+      },
+      {
+        "name_ko": "교정적 정서 경험",
+        "name_en": "Corrective Emotional Experience",
+        "id": "GROUP_CE_021"
+      }
+    ],
+    "sub_types": [
+      "대인관계 학습-입력 (피드백 받기)",
+      "대인관계 학습-출력 (새로운 행동 시도)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "대인관계 학습 = 집단이라는 '거울'을 통해 나의 관계 패턴을 보고 바꾼다",
+      "differential": "보편성은 '나만 그런 게 아니다'를 깨닫는 것이고, 대인관계 학습은 '나의 관계 패턴이 어떤지'를 배우고 변화시키는 것이다",
+      "key_point": "집단은 사회적 마이크로코즘으로, 구성원의 외부 대인관계 패턴이 집단 내에서 재현되므로 직접 관찰하고 개입할 수 있다",
+      "common_mistake": "대인관계 학습을 단순한 '사회성 훈련'으로 오해하기 쉬우나, 깊은 수준의 관계 패턴 인식과 교정적 정서 경험을 포함한다"
+    }
+  },
+  {
+    "id": "GROUP_HN_011",
+    "terminology": "지금-여기 (Here-and-Now)",
+    "terminology_ko": "지금-여기",
+    "terminology_en": "Here-and-Now",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 회기에서 현재 순간에 집단 내에서 일어나고 있는 상호작용, 감정, 반응에 초점을 맞추는 것으로, 과거나 외부 사건이 아닌 지금 이 자리에서의 경험을 탐색한다. 얄롬이 집단치료의 핵심 원리로 강조하였다.",
+    "definition_en": "Focusing on the interactions, feelings, and reactions occurring in the present moment within the group session, exploring experiences in the here-and-now rather than past or external events. Yalom emphasized this as a core principle of group therapy.",
+    "significance": "집단치료의 가장 중요한 작업 원리로, 과거 이야기가 아닌 현재의 대인관계적 상호작용에 초점을 맞춤으로써 실질적 변화를 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "지금-여기 초점을 집단치료의 핵심 치료 원리로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      },
+      {
+        "name_ko": "집단과정",
+        "name_en": "Group Process",
+        "id": "GROUP_GP_006"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "과정 조명",
+        "name_en": "Process Illumination",
+        "id": "GROUP_PI_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지금-여기 = '지금 이 순간, 여기 이 집단에서' 무엇이 일어나고 있는가에 초점",
+      "differential": "지금-여기는 현재 순간의 집단 내 경험에 초점을 두지만, 과정 조명(process illumination)은 지금-여기의 경험을 의미 있게 해석하는 것이다",
+      "key_point": "얄롬은 지금-여기가 경험적 요소(체험)와 조명적 요소(이해)로 구성된다고 보았다",
+      "common_mistake": "지금-여기를 과거 이야기를 완전히 금지하는 것으로 오해하기 쉬우나, 과거 경험을 현재의 집단 관계와 연결하는 것이 핵심이다"
+    }
+  },
+  {
+    "id": "GROUP_SD_012",
+    "terminology": "집단발달단계 (Stages of Group Development)",
+    "terminology_ko": "집단발달단계",
+    "terminology_en": "Stages of Group Development",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단이 시간에 따라 거치는 일련의 발달 과정으로, 일반적으로 형성기, 과도기, 작업기, 종결기의 4단계를 거친다. 각 단계마다 고유한 과제와 특성이 있으며 리더의 역할도 달라진다.",
+    "definition_en": "A series of developmental phases that a group goes through over time, generally comprising four stages: forming, transition, working, and termination. Each stage has unique tasks and characteristics, and the leader's role changes accordingly.",
+    "significance": "집단 리더가 현재 집단이 어느 단계에 있는지 파악하고 그에 적합한 개입을 선택하는 데 필수적인 개념틀이다.",
+    "key_researchers": [
+      {
+        "name_ko": "브루스 터크만",
+        "name_en": "Bruce Tuckman",
+        "contribution": "형성기-혼란기-규범기-성취기-해산기의 5단계 집단발달 모델을 제안하였다"
+      },
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "상담집단의 발달 단계를 초기, 과도기, 작업, 최종(종결)의 4단계로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "초기 단계",
+        "name_en": "Initial Stage",
+        "id": "GROUP_IS_013"
+      },
+      {
+        "name_ko": "과도기 단계",
+        "name_en": "Transition Stage",
+        "id": "GROUP_TS_014"
+      },
+      {
+        "name_ko": "작업 단계",
+        "name_en": "Working Stage",
+        "id": "GROUP_WS_015"
+      },
+      {
+        "name_ko": "종결 단계",
+        "name_en": "Termination Stage",
+        "id": "GROUP_TM_016"
+      }
+    ],
+    "sub_types": [
+      "초기 단계 (형성기)",
+      "과도기 단계 (혼란기)",
+      "작업 단계 (규범기/성취기)",
+      "종결 단계 (해산기)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단발달 = 초과작종(초기→과도기→작업→종결) / 터크만: 형혼규성해(Forming→Storming→Norming→Performing→Adjourning)",
+      "differential": "터크만의 5단계(Forming-Storming-Norming-Performing-Adjourning)와 코리의 4단계(초기-과도기-작업-종결)는 유사하지만 분류가 다르다",
+      "key_point": "각 단계에서 리더의 역할이 다르며, 단계에 맞지 않는 개입은 역효과를 낼 수 있다",
+      "common_mistake": "발달 단계가 항상 순차적으로 진행된다고 오해하기 쉬우나, 집단은 이전 단계로 회귀하거나 단계를 오갈 수 있다"
+    }
+  },
+  {
+    "id": "GROUP_IS_013",
+    "terminology": "초기 단계 (Initial Stage)",
+    "terminology_ko": "초기 단계",
+    "terminology_en": "Initial Stage",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 발달의 첫 단계로, 구성원들이 서로를 탐색하고 집단에 대한 신뢰를 형성하며 규범을 설정하는 시기이다. 불안과 의존이 높으며, 리더에 대한 기대가 크다.",
+    "definition_en": "The first stage of group development where members explore each other, build trust in the group, and establish norms. Anxiety and dependence are high, with significant expectations placed on the leader.",
+    "significance": "집단의 치료적 분위기와 규범이 형성되는 결정적 시기로, 이 단계에서의 리더 개입이 이후 집단 발달에 큰 영향을 미친다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "초기 단계의 특성과 리더 과업을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SD_012"
+      },
+      {
+        "name_ko": "과도기 단계",
+        "name_en": "Transition Stage",
+        "id": "GROUP_TS_014"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_005"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "초기 단계 = '탐색과 불안' - 서로를 살피고 안전한지 확인하는 시기",
+      "differential": "초기 단계는 탐색과 신뢰 형성이 과제이고, 과도기 단계는 갈등과 저항이 나타나는 시기이다",
+      "key_point": "리더의 핵심 과업은 안전한 분위기 조성, 규범 설정, 구성원의 불안 다루기이다",
+      "common_mistake": "초기 단계에서 깊은 자기개방을 강요하는 것은 부적절하며, 점진적 신뢰 형성이 필요하다"
+    }
+  },
+  {
+    "id": "GROUP_TS_014",
+    "terminology": "과도기 단계 (Transition Stage)",
+    "terminology_ko": "과도기 단계",
+    "terminology_en": "Transition Stage",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 발달의 두 번째 단계로, 구성원 간의 갈등, 리더에 대한 도전, 저항, 방어가 나타나는 시기이다. 권력과 통제를 둘러싼 투쟁이 특징적이며, 이를 건설적으로 해결하면 작업 단계로 진입한다.",
+    "definition_en": "The second stage of group development characterized by conflict between members, challenges to the leader, resistance, and defensiveness. Power and control struggles are characteristic, and constructive resolution leads to the working stage.",
+    "significance": "집단 성장의 필수적인 통과 과정으로, 갈등을 회피하지 않고 건설적으로 다루는 것이 작업 단계 진입의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "과도기 단계의 갈등 특성과 리더의 대처 방안을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SD_012"
+      },
+      {
+        "name_ko": "초기 단계",
+        "name_en": "Initial Stage",
+        "id": "GROUP_IS_013"
+      },
+      {
+        "name_ko": "작업 단계",
+        "name_en": "Working Stage",
+        "id": "GROUP_WS_015"
+      },
+      {
+        "name_ko": "저항",
+        "name_en": "Resistance",
+        "id": "GROUP_RE_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과도기 = '폭풍(Storming)' - 갈등과 도전이 분출되는 시기",
+      "differential": "초기 단계의 불안은 '이 집단이 안전한가?'이고, 과도기의 갈등은 '누가 통제하는가?'에 관한 것이다",
+      "key_point": "리더는 갈등을 회피하거나 억누르지 말고, 집단이 갈등을 건설적으로 다루도록 촉진해야 한다",
+      "common_mistake": "과도기의 갈등을 집단의 실패로 오해하기 쉬우나, 건강한 집단 발달의 필수적 과정이다"
+    }
+  },
+  {
+    "id": "GROUP_WS_015",
+    "terminology": "작업 단계 (Working Stage)",
+    "terminology_ko": "작업 단계",
+    "terminology_en": "Working Stage",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 발달의 세 번째 단계로, 높은 응집력과 상호 신뢰를 바탕으로 깊은 자기탐색, 직면, 행동 변화가 활발히 이루어지는 가장 생산적인 시기이다.",
+    "definition_en": "The third stage of group development, the most productive period where deep self-exploration, confrontation, and behavioral change actively occur based on high cohesion and mutual trust.",
+    "significance": "집단치료의 핵심적 치료 작업이 이루어지는 단계로, 대인관계 학습과 교정적 정서 경험이 가장 활발히 일어난다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "작업 단계의 특성과 리더의 촉진 기술을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SD_012"
+      },
+      {
+        "name_ko": "과도기 단계",
+        "name_en": "Transition Stage",
+        "id": "GROUP_TS_014"
+      },
+      {
+        "name_ko": "종결 단계",
+        "name_en": "Termination Stage",
+        "id": "GROUP_TM_016"
+      },
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "작업 단계 = '일하는 집단' - 본격적인 치료적 작업이 이루어지는 시기",
+      "differential": "과도기 단계는 갈등과 저항이 특징이고, 작업 단계는 높은 응집력과 깊은 자기탐색이 특징이다",
+      "key_point": "이 단계에서 리더는 촉진자로서 구성원의 자기탐색과 상호 피드백을 격려한다",
+      "common_mistake": "작업 단계에 도달하면 리더의 역할이 필요 없다고 오해하기 쉬우나, 깊은 수준의 작업을 촉진하고 지지하는 리더의 역할이 여전히 중요하다"
+    }
+  },
+  {
+    "id": "GROUP_TM_016",
+    "terminology": "종결 단계 (Termination Stage)",
+    "terminology_ko": "종결 단계",
+    "terminology_en": "Termination Stage",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 발달의 마지막 단계로, 집단 경험을 정리하고 학습한 것을 통합하며 이별을 준비하는 시기이다. 분리 불안, 미해결 감정의 처리, 일상으로의 전이 계획이 핵심 과업이다.",
+    "definition_en": "The final stage of group development where the group experience is consolidated, learning is integrated, and separation is prepared for. Separation anxiety, processing unresolved feelings, and planning for transfer to daily life are core tasks.",
+    "significance": "집단 경험의 성과를 공고히 하고 일상에서의 적용을 준비하는 중요한 단계로, 적절한 종결이 치료 효과의 지속에 영향을 미친다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "종결 단계의 과업과 리더의 역할을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SD_012"
+      },
+      {
+        "name_ko": "작업 단계",
+        "name_en": "Working Stage",
+        "id": "GROUP_WS_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "종결 단계 = '마무리와 이별' - 배운 것을 정리하고 떠날 준비를 한다",
+      "differential": "종결은 단순히 '끝'이 아니라 학습을 통합하고 일상 적용을 계획하는 적극적 과정이다",
+      "key_point": "미해결 감정을 다루고, 집단에서 배운 것을 일상에서 어떻게 적용할지 구체적으로 계획한다",
+      "common_mistake": "종결을 서둘러 진행하면 구성원이 충분히 정리하지 못하고, 너무 늦게 시작하면 이별에 대한 감정을 다룰 시간이 부족하다"
+    }
+  },
+  {
+    "id": "GROUP_GL_017",
+    "terminology": "집단리더십 (Group Leadership)",
+    "terminology_ko": "집단리더십",
+    "terminology_en": "Group Leadership",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단상담에서 리더가 집단을 촉진하고 이끄는 역량으로, 집단과정의 관찰, 치료적 분위기 조성, 갈등 관리, 개입 시기 판단 등을 포함한다. 리더의 스타일과 기술이 집단의 효과에 결정적 영향을 미친다.",
+    "definition_en": "The competency of a leader to facilitate and guide the group in group counseling, including observing group process, creating a therapeutic atmosphere, managing conflict, and timing interventions. The leader's style and skills have a decisive impact on group effectiveness.",
+    "significance": "효과적인 집단리더십은 집단상담의 성과를 결정하는 핵심 요인으로, 체계적인 훈련과 수퍼비전이 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단 리더의 핵심 과업으로 집단 창조와 유지, 문화 형성, 지금-여기 활성화를 제시하였다"
+      },
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "집단 리더의 자질, 기술, 윤리적 책임을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단상담",
+        "name_en": "Group Counseling",
+        "id": "GROUP_GC_001"
+      },
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SD_012"
+      },
+      {
+        "name_ko": "공동리더십",
+        "name_en": "Co-Leadership",
+        "id": "GROUP_CL_018"
+      }
+    ],
+    "sub_types": [
+      "지시적 리더십",
+      "촉진적 리더십",
+      "위임적 리더십"
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단리더십 = '지휘자'처럼 집단의 흐름을 읽고 이끄는 능력",
+      "differential": "개인상담에서 상담자는 1:1 관계를 관리하지만, 집단 리더는 다중 관계와 집단 전체의 역동을 동시에 관리해야 한다",
+      "key_point": "효과적인 집단 리더는 개별 구성원에 대한 관심과 집단 전체에 대한 관심을 균형 있게 유지한다",
+      "common_mistake": "집단 리더를 단순히 '진행자'로 오해하기 쉬우나, 치료적 환경 조성과 역동 촉진이 핵심 역할이다"
+    }
+  },
+  {
+    "id": "GROUP_CL_018",
+    "terminology": "공동리더십 (Co-Leadership)",
+    "terminology_ko": "공동리더십",
+    "terminology_en": "Co-Leadership",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "두 명의 리더가 함께 집단을 이끄는 형태로, 상호 보완적 역할 분담, 다양한 관점 제공, 리더 간 관계의 모델링 등의 장점이 있다.",
+    "definition_en": "A format in which two leaders co-facilitate the group, offering advantages such as complementary role distribution, diverse perspectives, and modeling of the relationship between leaders.",
+    "significance": "훈련생의 수퍼비전과 전문성 발달에 효과적이며, 복잡한 집단 역동을 보다 효과적으로 관리할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "공동리더십의 장단점과 효과적 운영 방법을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단리더십",
+        "name_en": "Group Leadership",
+        "id": "GROUP_GL_017"
+      },
+      {
+        "name_ko": "집단상담",
+        "name_en": "Group Counseling",
+        "id": "GROUP_GC_001"
+      },
+      {
+        "name_ko": "수퍼비전",
+        "name_en": "Supervision",
+        "id": "ETHICS_SV_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공동리더십 = 두 사람이 '함께' 집단을 이끄는 팀워크",
+      "differential": "단독 리더십은 일관성이 장점이고, 공동리더십은 다양성과 상호보완이 장점이지만 리더 간 갈등 가능성이 있다",
+      "key_point": "공동리더 간의 관계가 집단에 직접적 영향을 미치므로, 리더 간 개방적 소통과 협력이 필수적이다",
+      "common_mistake": "공동리더 중 한 명이 주도하고 다른 한 명이 보조하는 것을 공동리더십으로 오해하기 쉬우나, 진정한 공동리더십은 동등한 파트너십이다"
+    }
+  },
+  {
+    "id": "GROUP_IH_019",
+    "terminology": "희망 고취 (Instillation of Hope)",
+    "terminology_ko": "희망 고취",
+    "terminology_en": "Instillation of Hope",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 내에서 다른 구성원의 변화와 성장을 목격함으로써 자신도 변화할 수 있다는 희망을 갖게 되는 치료적 요인이다. 특히 집단 초기에 치료에 대한 긍정적 기대를 형성하는 데 중요하다.",
+    "definition_en": "A therapeutic factor in which witnessing the change and growth of other group members instills hope that one can also change. It is particularly important in forming positive treatment expectations in the early stages of the group.",
+    "significance": "치료적 희망은 집단 참여 동기를 유지하고 중도 탈락을 방지하는 핵심 요인이며, 자기충족적 예언으로 작용할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "희망 고취를 집단치료의 11가지 치료적 요인 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UN_007"
+      },
+      {
+        "name_ko": "모방 행동",
+        "name_en": "Imitative Behavior",
+        "id": "GROUP_IB_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "희망 고취 = '저 사람이 나아졌으니 나도 나아질 수 있다'는 희망",
+      "differential": "보편성은 '나만 그런 게 아니다'를 깨닫는 것이고, 희망 고취는 '나도 변할 수 있다'를 믿게 되는 것이다",
+      "key_point": "특히 집단 초기에 중요하며, 리더는 의도적으로 긍정적 기대와 희망을 촉진해야 한다",
+      "common_mistake": "희망 고취를 비현실적 낙관론으로 오해하기 쉬우나, 다른 구성원의 실제 변화를 통한 현실적 희망이다"
+    }
+  },
+  {
+    "id": "GROUP_SM_020",
+    "terminology": "사회적 마이크로코즘 (Social Microcosm)",
+    "terminology_ko": "사회적 마이크로코즘",
+    "terminology_en": "Social Microcosm",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단이 외부 사회의 축소판으로 기능하여, 구성원이 일상에서 보이는 대인관계 패턴이 집단 내에서도 자연스럽게 재현되는 현상이다. 이를 통해 치료자와 구성원이 직접 관찰하고 개입할 수 있다.",
+    "definition_en": "The phenomenon in which the group functions as a microcosm of the larger social world, where members' everyday interpersonal patterns naturally replicate within the group, allowing the therapist and members to directly observe and intervene.",
+    "significance": "대인관계 학습의 이론적 근거로, 집단에서의 행동이 외부 세계에서의 행동을 반영하므로 집단 내 변화가 일상의 변화로 전이된다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단을 사회적 마이크로코즘으로 개념화하고 대인관계 학습의 토대로 삼았다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here-and-Now",
+        "id": "GROUP_HN_011"
+      },
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회적 마이크로코즘 = 집단은 '사회의 축소판' - 밖에서의 패턴이 안에서 재현된다",
+      "differential": "사회적 마이크로코즘은 집단이 사회의 축소판이라는 개념이고, 대인관계 학습은 그 축소판에서 실제로 패턴을 바꾸는 과정이다",
+      "key_point": "구성원이 집단 내에서 보이는 행동 패턴은 외부 세계에서의 대인관계 패턴을 그대로 반영한다",
+      "common_mistake": "집단을 인위적 환경으로 보고 집단 내 행동이 실제와 다르다고 오해하기 쉬우나, 충분한 시간이 지나면 자연스러운 패턴이 재현된다"
+    }
+  },
+  {
+    "id": "GROUP_CE_021",
+    "terminology": "교정적 정서 경험 (Corrective Emotional Experience)",
+    "terminology_ko": "교정적 정서 경험",
+    "terminology_en": "Corrective Emotional Experience",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "과거의 부정적 관계 경험에서 비롯된 부적응적 패턴을 집단 내에서 새로운 긍정적 관계 경험으로 교정하는 것이다. 집단은 과거의 왜곡된 관계 경험을 다시 경험하고 다르게 반응받을 수 있는 안전한 공간을 제공한다.",
+    "definition_en": "The correction of maladaptive patterns originating from past negative relational experiences through new positive relational experiences within the group. The group provides a safe space to re-experience and receive different responses to previously distorted relational experiences.",
+    "significance": "집단치료에서 변화가 일어나는 핵심 메커니즘으로, 인지적 이해를 넘어 정서적 수준에서의 교정을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프란츠 알렉산더",
+        "name_en": "Franz Alexander",
+        "contribution": "교정적 정서 경험 개념을 처음 제안하였다"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "교정적 정서 경험을 집단치료의 핵심 변화 메커니즘으로 적용하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      },
+      {
+        "name_ko": "교정적 가족 재경험",
+        "name_en": "Corrective Recapitulation of Primary Family",
+        "id": "GROUP_CR_025"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TF_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교정적 정서 경험 = 과거에 '상처받은 경험'을 집단에서 '다르게 경험'하여 교정한다",
+      "differential": "인지적 통찰은 '이해'를 통한 변화이고, 교정적 정서 경험은 '느낌'의 변화를 통한 교정이다",
+      "key_point": "단순히 과거를 이야기하는 것이 아니라, 집단 내에서 실제로 새로운 정서적 반응을 경험하는 것이 핵심이다",
+      "common_mistake": "교정적 정서 경험을 단순히 '좋은 경험을 하는 것'으로 오해하기 쉬우나, 과거의 특정한 부정적 패턴이 새로운 반응으로 교정되는 구체적 과정이다"
+    }
+  },
+  {
+    "id": "GROUP_PI_022",
+    "terminology": "과정 조명 (Process Illumination)",
+    "terminology_ko": "과정 조명",
+    "terminology_en": "Process Illumination",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "얄롬이 제시한 개념으로, 지금-여기에서 일어난 경험을 한 걸음 물러서서 의미 있게 해석하고 이해하는 반성적 과정이다. 경험 자체와 그 경험에 대한 성찰이라는 두 단계로 이루어진다.",
+    "definition_en": "A concept proposed by Yalom referring to the reflective process of stepping back to meaningfully interpret and understand experiences that occurred in the here-and-now. It consists of two steps: the experience itself and reflection on that experience.",
+    "significance": "지금-여기의 경험을 치료적 학습으로 전환하는 핵심 과정으로, 경험만으로는 불충분하고 조명(이해)이 결합되어야 변화로 이어진다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "과정 조명을 지금-여기의 두 번째 단계(조명적 루프)로 개념화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here-and-Now",
+        "id": "GROUP_HN_011"
+      },
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      },
+      {
+        "name_ko": "집단과정",
+        "name_en": "Group Process",
+        "id": "GROUP_GP_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과정 조명 = '조명(빛)'을 비춰 집단 과정의 의미를 밝힌다",
+      "differential": "지금-여기의 경험적 요소는 '체험'이고, 과정 조명은 그 체험을 '이해'하는 반성적 요소이다",
+      "key_point": "얄롬은 지금-여기가 경험적 루프(체험)와 조명적 루프(이해)로 구성되며, 둘 다 필요하다고 강조하였다",
+      "common_mistake": "과정 조명을 리더의 해석으로만 이해하기 쉬우나, 구성원들도 서로의 과정에 대해 조명을 비출 수 있다"
+    }
+  },
+  {
+    "id": "GROUP_RE_023",
+    "terminology": "저항 (Resistance in Groups)",
+    "terminology_ko": "저항",
+    "terminology_en": "Resistance in Groups",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 내에서 구성원이 의식적 또는 무의식적으로 자기탐색, 자기개방, 변화를 회피하는 행동으로, 침묵, 지각, 결석, 지성화, 다른 구성원 공격 등 다양한 형태로 나타난다.",
+    "definition_en": "Conscious or unconscious behavior by which group members avoid self-exploration, self-disclosure, and change, manifesting in various forms such as silence, tardiness, absence, intellectualization, and attacking other members.",
+    "significance": "집단 과도기 단계의 핵심 현상으로, 저항을 치료적으로 다루는 것이 집단의 성장과 작업 단계 진입에 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "집단에서의 저항 유형과 치료적 대처 방안을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과도기 단계",
+        "name_en": "Transition Stage",
+        "id": "GROUP_TS_014"
+      },
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SD_012"
+      },
+      {
+        "name_ko": "방어기제",
+        "name_en": "Defense Mechanisms",
+        "id": "PSYCHOD_DF_005"
+      }
+    ],
+    "sub_types": [
+      "개인 저항",
+      "집단 저항"
+    ],
+    "quiz_hints": {
+      "mnemonic": "저항 = 변화에 대한 '브레이크' - 의식적·무의식적으로 치료 과정을 방해한다",
+      "differential": "개인 저항은 특정 구성원의 행동이고, 집단 저항은 집단 전체가 작업을 회피하는 현상이다",
+      "key_point": "저항은 제거해야 할 장애물이 아니라 탐색해야 할 치료적 소재이며, 그 이면에 불안과 두려움이 있다",
+      "common_mistake": "저항하는 구성원을 '비협조적'으로 낙인찍기 쉬우나, 저항은 자기보호의 자연스러운 반응이다"
+    }
+  },
+  {
+    "id": "GROUP_IB_024",
+    "terminology": "모방 행동 (Imitative Behavior)",
+    "terminology_ko": "모방 행동",
+    "terminology_en": "Imitative Behavior",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 구성원이 리더나 다른 구성원의 행동, 태도, 대처 방식을 관찰하고 모방함으로써 새로운 행동을 학습하는 치료적 요인이다.",
+    "definition_en": "A therapeutic factor in which group members learn new behaviors by observing and imitating the behaviors, attitudes, and coping strategies of the leader or other members.",
+    "significance": "사회학습이론의 원리를 집단 맥락에 적용한 것으로, 특히 집단 초기에 다른 구성원의 자기개방 행동을 모방하여 참여하게 되는 중요한 요인이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "모방 행동을 집단치료의 11가지 치료적 요인 중 하나로 정립하였다"
+      },
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "관찰학습과 모델링 이론으로 모방 행동의 이론적 기초를 제공하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MO_005"
+      },
+      {
+        "name_ko": "희망 고취",
+        "name_en": "Instillation of Hope",
+        "id": "GROUP_IH_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "모방 행동 = '따라하기 학습' - 다른 구성원의 좋은 모습을 보고 배운다",
+      "differential": "모방 행동은 다른 사람의 행동을 관찰하고 모방하는 것이고, 대인관계 학습은 자신의 관계 패턴을 인식하고 변화시키는 것이다",
+      "key_point": "집단 리더의 행동이 모방의 중요한 모델이 되므로, 리더는 자신이 원하는 집단 행동을 직접 시범 보여야 한다",
+      "common_mistake": "모방 행동을 '피상적인 흉내내기'로 오해하기 쉬우나, 새로운 행동을 시도하는 초기 단계로서 의미가 있다"
+    }
+  },
+  {
+    "id": "GROUP_CR_025",
+    "terminology": "교정적 가족 재경험 (Corrective Recapitulation of Primary Family Group)",
+    "terminology_ko": "교정적 가족 재경험",
+    "terminology_en": "Corrective Recapitulation of Primary Family Group",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단이 원가족의 역동을 재현하는 장이 되어, 구성원이 원가족에서의 미해결 갈등을 재경험하고 교정할 수 있는 기회를 제공하는 치료적 요인이다. 리더는 부모 역할, 구성원은 형제 역할을 상징적으로 대표한다.",
+    "definition_en": "A therapeutic factor in which the group becomes a setting that recapitulates primary family dynamics, providing members opportunities to re-experience and correct unresolved conflicts from their family of origin. The leader symbolically represents parental roles, and members represent sibling roles.",
+    "significance": "원가족에서의 미해결 이슈가 집단에서 재현되고 교정될 수 있다는 것은 집단치료의 독특한 강점이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "교정적 가족 재경험을 집단치료의 11가지 치료적 요인 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "교정적 정서 경험",
+        "name_en": "Corrective Emotional Experience",
+        "id": "GROUP_CE_021"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TF_003"
+      },
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "FAMILY_FT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교정적 가족 재경험 = 집단에서 '원가족 드라마'를 다시 상연하고 다른 결말을 경험한다",
+      "differential": "교정적 정서 경험은 전반적인 관계 경험의 교정이고, 교정적 가족 재경험은 특히 원가족 역동의 재현과 교정에 초점을 둔다",
+      "key_point": "구성원은 무의식적으로 리더에게 부모 역할을, 다른 구성원에게 형제 역할을 투사하며 원가족 역동을 재현한다",
+      "common_mistake": "이 요인을 의도적인 가족 역할극으로 오해하기 쉬우나, 자연스럽게 재현되는 무의식적 과정이다"
+    }
+  },
+  {
+    "id": "GROUP_SDI_026",
+    "terminology": "자기개방 (Self-Disclosure in Groups)",
+    "terminology_ko": "자기개방",
+    "terminology_en": "Self-Disclosure in Groups",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 구성원이 자신의 감정, 생각, 경험, 반응을 집단에 공유하는 것으로, 집단 치료 과정의 핵심이다. 적절한 자기개방은 친밀감과 응집력을 높이지만, 시기와 수준이 적절해야 한다.",
+    "definition_en": "The sharing of one's feelings, thoughts, experiences, and reactions with the group, which is central to the group therapeutic process. Appropriate self-disclosure increases intimacy and cohesion, but timing and level must be suitable.",
+    "significance": "집단에서의 자기개방은 보편성 경험, 대인관계 학습, 카타르시스 등 다양한 치료적 요인을 활성화하는 핵심 매개체이다.",
+    "key_researchers": [
+      {
+        "name_ko": "시드니 저라드",
+        "name_en": "Sidney Jourard",
+        "contribution": "자기개방의 상호성 원리를 제안하고 자기개방이 정신건강에 미치는 긍정적 영향을 연구하였다"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단에서의 자기개방의 치료적 가치와 적절한 수준을 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_CO_004"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UN_007"
+      },
+      {
+        "name_ko": "카타르시스",
+        "name_en": "Catharsis",
+        "id": "GROUP_CA_009"
+      },
+      {
+        "name_ko": "피드백",
+        "name_en": "Feedback",
+        "id": "GROUP_FB_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기개방 = 마음의 '문을 여는' 것 - 집단 치료의 연료",
+      "differential": "자기개방은 자신에 대한 정보를 나누는 것이고, 피드백은 다른 구성원에 대한 반응을 나누는 것이다",
+      "key_point": "자기개방은 '조하리의 창'의 비밀 영역을 좁히고 개방 영역을 넓히는 과정이다",
+      "common_mistake": "많은 자기개방이 항상 좋다고 오해하기 쉬우나, 집단 발달 단계에 맞지 않는 과도한 자기개방은 역효과를 낼 수 있다"
+    }
+  },
+  {
+    "id": "GROUP_FB_027",
+    "terminology": "피드백 (Feedback in Groups)",
+    "terminology_ko": "피드백",
+    "terminology_en": "Feedback in Groups",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 구성원이 다른 구성원의 행동, 태도, 영향에 대한 자신의 반응과 관찰을 솔직하게 전달하는 것이다. 효과적인 피드백은 구체적이고, 행동에 초점을 두며, 배려와 함께 전달되어야 한다.",
+    "definition_en": "The honest communication of one's reactions and observations about another member's behavior, attitudes, and impact. Effective feedback should be specific, behavior-focused, and delivered with care.",
+    "significance": "대인관계 학습의 핵심 도구로, 구성원이 자신의 대인관계적 영향을 인식하고 변화시키는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단에서의 피드백이 대인관계 학습의 핵심 메커니즘임을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      },
+      {
+        "name_ko": "자기개방",
+        "name_en": "Self-Disclosure in Groups",
+        "id": "GROUP_SDI_026"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here-and-Now",
+        "id": "GROUP_HN_011"
+      }
+    ],
+    "sub_types": [
+      "긍정적 피드백",
+      "교정적 피드백"
+    ],
+    "quiz_hints": {
+      "mnemonic": "피드백 = 집단이라는 '거울' - 다른 사람이 보는 나를 알게 해준다",
+      "differential": "자기개방은 자기 자신에 대한 정보를 공유하는 것이고, 피드백은 상대방에 대한 반응을 전달하는 것이다",
+      "key_point": "효과적인 피드백은 '당신은 ~ 사람이다'(판단)가 아니라 '당신이 ~할 때 나는 ~을 느낀다'(영향)로 전달한다",
+      "common_mistake": "피드백을 조언이나 비판으로 오해하기 쉬우나, 상대의 행동이 자신에게 미치는 영향을 솔직하게 전달하는 것이다"
+    }
+  },
+  {
+    "id": "GROUP_SC_028",
+    "terminology": "집단선별 (Group Screening)",
+    "terminology_ko": "집단선별",
+    "terminology_en": "Group Screening",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단에 적합한 구성원을 선별하기 위한 사전 면접 과정으로, 집단의 목적에 부합하는지, 집단에 참여할 준비가 되었는지, 집단에서 이탈할 가능성이 있는지 등을 평가한다.",
+    "definition_en": "A pre-interview process for selecting appropriate group members, evaluating whether they fit the group's purpose, are ready for group participation, and are at risk of dropping out.",
+    "significance": "효과적인 집단 구성의 첫 단계로, 적절한 선별이 집단의 성공에 결정적 영향을 미친다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단 구성원 선별의 원칙과 배제 기준을 체계적으로 제시하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단상담",
+        "name_en": "Group Counseling",
+        "id": "GROUP_GC_001"
+      },
+      {
+        "name_ko": "집단리더십",
+        "name_en": "Group Leadership",
+        "id": "GROUP_GL_017"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단선별 = 집단에 '적합한 사람'을 골라내는 사전 면접",
+      "differential": "집단선별은 집단 시작 전의 개인 면접이고, 집단 구성(composition)은 선별된 구성원을 어떻게 조합하는가의 문제이다",
+      "key_point": "얄롬은 '누가 집단에 이로운가'보다 '누가 집단에서 이탈하거나 해로울 수 있는가'에 초점을 둔 배제 기준을 강조하였다",
+      "common_mistake": "선별 면접을 단순한 행정 절차로 오해하기 쉬우나, 구성원과 집단의 적합성을 평가하고 기대를 조율하는 치료적 과정이다"
+    }
+  },
+  {
+    "id": "GROUP_EX_029",
+    "terminology": "실존적 요인 (Existential Factors)",
+    "terminology_ko": "실존적 요인",
+    "terminology_en": "Existential Factors",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 경험을 통해 인생의 근본적 한계(죽음, 고독, 자유, 무의미)를 인식하고 수용하며, 그럼에도 불구하고 삶에 대한 책임을 받아들이게 되는 치료적 요인이다.",
+    "definition_en": "A therapeutic factor through which group members recognize and accept fundamental life limitations (death, isolation, freedom, meaninglessness) and nevertheless take responsibility for their lives.",
+    "significance": "집단 치료의 깊은 수준에서 작용하는 요인으로, 실존적 자각이 삶의 의미와 진정성에 대한 성찰을 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존적 요인을 집단치료의 11가지 치료적 요인 중 하나로 정립하고 실존적 심리치료와 연결하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "실존주의상담",
+        "name_en": "Existential Counseling",
+        "id": "EXIST_EX_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 요인 = 집단에서 '삶의 근본 질문'과 마주하는 경험",
+      "differential": "보편성은 '나만 이런 문제를 겪는 게 아니다'는 인식이고, 실존적 요인은 '삶의 한계는 누구나 직면한다'는 인식이다",
+      "key_point": "삶의 궁극적 한계를 인식하면서도 자신의 삶에 대한 책임과 선택을 수용하는 것이 핵심이다",
+      "common_mistake": "실존적 요인을 비관적이거나 우울한 주제로 오해하기 쉬우나, 삶의 한계 수용이 오히려 진정한 자유와 의미를 가져온다"
+    }
+  },
+  {
+    "id": "GROUP_TC_030",
+    "terminology": "집단전이 (Transference in Groups)",
+    "terminology_ko": "집단전이",
+    "terminology_en": "Transference in Groups",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 구성원이 리더나 다른 구성원에게 과거의 중요한 인물(부모, 형제 등)에 대한 감정, 기대, 반응 패턴을 투사하는 현상이다. 집단에서는 여러 대상에 대한 다중 전이가 발생할 수 있다.",
+    "definition_en": "The phenomenon in which group members project feelings, expectations, and reaction patterns from past significant figures (parents, siblings, etc.) onto the leader or other members. Multiple transferences toward various targets can occur in groups.",
+    "significance": "집단에서의 다중 전이는 다양한 관계 패턴을 동시에 탐색할 수 있는 독특한 치료적 기회를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단에서의 전이 현상이 대인관계 학습의 소재가 됨을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TF_003"
+      },
+      {
+        "name_ko": "교정적 가족 재경험",
+        "name_en": "Corrective Recapitulation of Primary Family",
+        "id": "GROUP_CR_025"
+      },
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      },
+      {
+        "name_ko": "사회적 마이크로코즘",
+        "name_en": "Social Microcosm",
+        "id": "GROUP_SM_020"
+      }
+    ],
+    "sub_types": [
+      "리더 전이",
+      "구성원 간 전이"
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단전이 = 과거의 '관계 패턴'이 집단 안에서 되살아나는 것",
+      "differential": "개인치료에서는 상담자에 대한 전이만 가능하지만, 집단에서는 리더와 다른 구성원에 대한 다중 전이가 가능하다",
+      "key_point": "집단에서의 다중 전이는 다양한 관계 패턴(부모, 형제, 권위자 등)을 동시에 탐색할 수 있는 장점이 있다",
+      "common_mistake": "집단에서의 모든 감정적 반응을 전이로 해석하는 오류를 범하기 쉬우나, 현실적 반응과 전이적 반응을 구별해야 한다"
+    }
+  },
+  {
+    "id": "GROUP_SO_031",
+    "terminology": "사회화 기술 발달 (Development of Socializing Techniques)",
+    "terminology_ko": "사회화 기술 발달",
+    "terminology_en": "Development of Socializing Techniques",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "집단 경험을 통해 기본적인 사회적 기술(경청, 공감적 반응, 갈등 해결, 적절한 자기표현 등)을 학습하고 연습하는 치료적 요인이다.",
+    "definition_en": "A therapeutic factor of learning and practicing basic social skills (listening, empathic responding, conflict resolution, appropriate self-expression, etc.) through group experience.",
+    "significance": "특히 사회적 기술이 부족한 구성원에게 중요한 요인으로, 집단이 안전한 연습 장이 되어 대인관계 기술을 향상시킨다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "사회화 기술 발달을 집단치료의 11가지 치료적 요인 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "대인관계 학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_010"
+      },
+      {
+        "name_ko": "모방 행동",
+        "name_en": "Imitative Behavior",
+        "id": "GROUP_IB_024"
+      },
+      {
+        "name_ko": "피드백",
+        "name_en": "Feedback",
+        "id": "GROUP_FB_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회화 기술 발달 = 집단에서 '사회생활 기술'을 배우고 연습한다",
+      "differential": "사회화 기술 발달은 기본 사회적 기술의 학습이고, 대인관계 학습은 더 깊은 수준의 관계 패턴 인식과 변화이다",
+      "key_point": "집단은 안전한 환경에서 새로운 사회적 기술을 시도하고 피드백을 받을 수 있는 '연습 무대'이다",
+      "common_mistake": "사회화 기술 발달을 단순한 '예절 교육'으로 오해하기 쉬우나, 진정한 대인관계적 소통 능력의 발달을 의미한다"
+    }
+  },
+  {
+    "id": "GROUP_IP_032",
+    "terminology": "정보 제공 (Imparting Information)",
+    "terminology_ko": "정보 제공",
+    "terminology_en": "Imparting Information",
+    "category": "GROUP",
+    "category_name": "집단상담 (Group Counseling)",
+    "definition": "리더가 심리교육적 정보를 제공하거나 구성원 간에 유용한 정보와 조언을 교환하는 치료적 요인이다. 질병에 대한 이해, 대처 전략, 자원 정보 등이 포함된다.",
+    "definition_en": "A therapeutic factor involving the leader providing psychoeducational information or members exchanging useful information and advice. It includes understanding of conditions, coping strategies, and resource information.",
+    "significance": "특히 심리교육 집단이나 구조화된 집단에서 중요한 요인으로, 정확한 정보가 불안 감소와 자기관리 능력 향상에 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "정보 제공을 집단치료의 11가지 치료적 요인 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_003"
+      },
+      {
+        "name_ko": "이타주의",
+        "name_en": "Altruism",
+        "id": "GROUP_AL_008"
+      }
+    ],
+    "sub_types": [
+      "리더의 심리교육",
+      "구성원 간 정보 교환"
+    ],
+    "quiz_hints": {
+      "mnemonic": "정보 제공 = 집단에서 '아는 것'을 나누고 배운다",
+      "differential": "정보 제공은 지식과 조언의 교환이고, 이타주의는 정서적 지지를 제공하는 것이다",
+      "key_point": "직접적인 조언보다 리더의 심리교육적 정보 제공이 더 효과적이며, 구성원 간 조언은 때로 문제 해결을 방해할 수 있다",
+      "common_mistake": "정보 제공이 집단치료의 가장 중요한 요인이라고 오해하기 쉬우나, 얄롬은 이를 상대적으로 덜 중요한 요인으로 보았다"
+    }
+  }
+]

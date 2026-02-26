@@ -1,0 +1,1754 @@
+[
+  {
+    "id": "FAMILY_FT_001",
+    "terminology": "가족치료 (Family Therapy)",
+    "terminology_ko": "가족치료",
+    "terminology_en": "Family Therapy",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "개인의 문제를 가족 체계의 맥락에서 이해하고, 가족 구성원 간의 상호작용 패턴을 변화시킴으로써 문제를 해결하고자 하는 치료적 접근이다. 가족을 하나의 체계로 보고 체계 내 관계와 역동을 치료의 대상으로 삼는다.",
+    "definition_en": "A therapeutic approach that understands individual problems within the context of the family system and seeks to resolve issues by changing interaction patterns among family members. It views the family as a system and targets relationships and dynamics within that system for treatment.",
+    "significance": "개인의 증상을 관계적 맥락에서 재정의함으로써 심리치료의 패러다임을 개인에서 체계로 확장한 혁신적 접근이며, 현대 상담의 핵심 영역이다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "가족체계이론을 개발하여 다세대 전수 과정과 자기분화 개념을 정립하였다"
+      },
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "구조적 가족치료를 창시하여 가족 구조와 경계선 개념을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족체계",
+        "name_en": "Family System",
+        "id": "FAMILY_FS_002"
+      },
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      },
+      {
+        "name_ko": "다세대 가족치료",
+        "name_en": "Multigenerational Family Therapy",
+        "id": "FAMILY_MG_003"
+      },
+      {
+        "name_ko": "상담",
+        "name_en": "Counseling",
+        "id": "FOUND_CF_001"
+      }
+    ],
+    "sub_types": [
+      "구조적 가족치료",
+      "전략적 가족치료",
+      "다세대 가족치료",
+      "경험적 가족치료",
+      "해결중심 가족치료"
+    ],
+    "quiz_hints": {
+      "mnemonic": "가족치료 = 개인이 아닌 '가족 체계' 전체를 치료 대상으로 본다",
+      "differential": "개인상담은 개인 내면에 초점을 두지만, 가족치료는 가족 구성원 간 상호작용 패턴에 초점을 둔다",
+      "key_point": "가족을 하나의 체계(system)로 보고, 개인의 문제는 체계의 역기능적 패턴에서 비롯된다고 본다",
+      "common_mistake": "가족치료를 단순히 '가족 구성원 모두가 참여하는 상담'으로 오해하기 쉬우나, 핵심은 체계적 관점에서의 관계 변화이다"
+    }
+  },
+  {
+    "id": "FAMILY_FS_002",
+    "terminology": "가족체계 (Family System)",
+    "terminology_ko": "가족체계",
+    "terminology_en": "Family System",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족을 상호의존적인 구성원들로 이루어진 하나의 유기적 체계로 보는 관점으로, 한 구성원의 변화가 전체 체계에 영향을 미치며 체계는 항상성을 유지하려는 경향이 있다고 본다.",
+    "definition_en": "A perspective that views the family as an organic system composed of interdependent members, where changes in one member affect the entire system and the system tends to maintain homeostasis.",
+    "significance": "일반체계이론을 가족에 적용한 것으로, 모든 가족치료 접근의 기본 전제이며 순환적 인과론의 토대가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "루드비히 폰 베르탈란피",
+        "name_en": "Ludwig von Bertalanffy",
+        "contribution": "일반체계이론을 제안하여 가족체계 관점의 이론적 토대를 마련하였다"
+      },
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "가족을 정서적 체계로 개념화하고 8가지 연동 개념을 제시하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "FAMILY_FT_001"
+      },
+      {
+        "name_ko": "항상성",
+        "name_en": "Homeostasis",
+        "id": "FAMILY_HO_004"
+      },
+      {
+        "name_ko": "순환적 인과론",
+        "name_en": "Circular Causality",
+        "id": "FAMILY_CC_015"
+      },
+      {
+        "name_ko": "하위체계",
+        "name_en": "Subsystem",
+        "id": "FAMILY_SS_008"
+      }
+    ],
+    "sub_types": [
+      "개방체계",
+      "폐쇄체계"
+    ],
+    "quiz_hints": {
+      "mnemonic": "가족체계 = 모빌(mobile)처럼 한 부분이 움직이면 전체가 흔들린다",
+      "differential": "개인주의적 관점은 문제의 원인을 개인 내부에서 찾지만, 체계적 관점은 관계 패턴에서 찾는다",
+      "key_point": "전체는 부분의 합 이상이며, 한 구성원의 변화는 전체 체계에 파급 효과를 미친다",
+      "common_mistake": "가족체계를 단순히 '가족 구성원의 집합'으로 이해하면 안 되며, 구성원 간 상호작용과 관계 패턴이 핵심이다"
+    }
+  },
+  {
+    "id": "FAMILY_MG_003",
+    "terminology": "다세대 가족치료 (Multigenerational Family Therapy)",
+    "terminology_ko": "다세대 가족치료",
+    "terminology_en": "Multigenerational Family Therapy",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "보웬이 개발한 가족치료 접근으로, 현재 가족의 문제가 여러 세대에 걸쳐 전수된 정서적 패턴과 미분화에서 비롯된다고 보며, 자기분화를 핵심 치료 목표로 삼는다.",
+    "definition_en": "A family therapy approach developed by Bowen that views current family problems as originating from emotional patterns and undifferentiation transmitted across multiple generations, with differentiation of self as the core therapeutic goal.",
+    "significance": "가족 문제를 세대 간 전수의 관점에서 이해하는 독특한 시각을 제공하며, 가계도 활용과 자기분화 개념은 현대 가족치료의 핵심 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "가족체계이론의 8가지 연동 개념(자기분화, 삼각관계 등)을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "삼각관계",
+        "name_en": "Triangulation",
+        "id": "FAMILY_TR_010"
+      },
+      {
+        "name_ko": "가계도",
+        "name_en": "Genogram",
+        "id": "FAMILY_GN_011"
+      },
+      {
+        "name_ko": "다세대 전수 과정",
+        "name_en": "Multigenerational Transmission Process",
+        "id": "FAMILY_MT_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "다세대 = '대를 이어' 전해지는 정서적 패턴을 추적한다",
+      "differential": "구조적 가족치료가 현재 가족의 구조에 초점을 두는 반면, 다세대 치료는 세대 간 전수된 패턴에 초점을 둔다",
+      "key_point": "핵심 목표는 자기분화(differentiation of self) 수준을 높이는 것이다",
+      "common_mistake": "보웬의 다세대 치료를 단순한 가족 역사 탐색으로 오해하기 쉬우나, 핵심은 정서적 과정의 세대 간 전수를 이해하고 자기분화를 증진하는 것이다"
+    }
+  },
+  {
+    "id": "FAMILY_HO_004",
+    "terminology": "항상성 (Homeostasis)",
+    "terminology_ko": "항상성",
+    "terminology_en": "Homeostasis",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족체계가 현재의 균형 상태를 유지하려는 경향으로, 변화에 대한 저항의 기제로 작용한다. 역기능적 패턴도 항상성에 의해 유지될 수 있어 치료적 변화를 어렵게 만들 수 있다.",
+    "definition_en": "The tendency of a family system to maintain its current state of equilibrium, functioning as a mechanism of resistance to change. Even dysfunctional patterns can be maintained through homeostasis, making therapeutic change difficult.",
+    "significance": "가족이 왜 역기능적 패턴을 반복하는지를 설명하는 핵심 개념으로, 가족치료에서 변화와 저항을 이해하는 기본 틀이다.",
+    "key_researchers": [
+      {
+        "name_ko": "돈 잭슨",
+        "name_en": "Don Jackson",
+        "contribution": "가족 항상성 개념을 가족치료에 최초로 적용하여 가족 규칙과 균형의 역할을 설명하였다"
+      },
+      {
+        "name_ko": "월터 캐논",
+        "name_en": "Walter Cannon",
+        "contribution": "생리학에서 항상성 개념을 처음 제안하여 이후 체계이론에 적용되는 토대를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족체계",
+        "name_en": "Family System",
+        "id": "FAMILY_FS_002"
+      },
+      {
+        "name_ko": "피드백 순환",
+        "name_en": "Feedback Loop",
+        "id": "FAMILY_FL_016"
+      },
+      {
+        "name_ko": "순환적 인과론",
+        "name_en": "Circular Causality",
+        "id": "FAMILY_CC_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "항상성 = '항상' 같은 상태를 유지하려는 체계의 속성",
+      "differential": "변형생성(morphogenesis)은 체계의 변화와 성장을, 항상성은 안정과 유지를 강조한다",
+      "key_point": "역기능적 패턴도 항상성에 의해 유지되므로, 치료자는 체계의 항상성을 이해하고 도전해야 한다",
+      "common_mistake": "항상성을 항상 긍정적인 것으로 오해하기 쉬우나, 역기능적 패턴의 유지에도 기여한다"
+    }
+  },
+  {
+    "id": "FAMILY_SF_005",
+    "terminology": "구조적 가족치료 (Structural Family Therapy)",
+    "terminology_ko": "구조적 가족치료",
+    "terminology_en": "Structural Family Therapy",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "미누친이 개발한 가족치료 모델로, 가족의 조직 구조(하위체계, 경계선, 위계)를 평가하고 재구조화함으로써 가족 기능을 개선하고자 한다. 가족의 현재 상호작용 패턴을 직접 관찰하고 변화시키는 능동적 접근이다.",
+    "definition_en": "A family therapy model developed by Minuchin that assesses and restructures the organizational structure of the family (subsystems, boundaries, hierarchy) to improve family functioning. It is an active approach that directly observes and modifies current interaction patterns.",
+    "significance": "가족의 구조적 측면을 체계적으로 개념화한 최초의 모델로, 경계선과 하위체계 개념은 모든 가족치료 접근에서 널리 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "구조적 가족치료를 창시하고 경계선, 하위체계, 합류 등 핵심 개념을 정립하였다"
+      },
+      {
+        "name_ko": "찰스 피시먼",
+        "name_en": "Charles Fishman",
+        "contribution": "미누친과 함께 구조적 가족치료의 기법을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경계선",
+        "name_en": "Boundary",
+        "id": "FAMILY_BD_006"
+      },
+      {
+        "name_ko": "하위체계",
+        "name_en": "Subsystem",
+        "id": "FAMILY_SS_008"
+      },
+      {
+        "name_ko": "합류",
+        "name_en": "Joining",
+        "id": "FAMILY_JN_017"
+      },
+      {
+        "name_ko": "재구조화",
+        "name_en": "Restructuring",
+        "id": "FAMILY_RS_018"
+      },
+      {
+        "name_ko": "실연",
+        "name_en": "Enactment",
+        "id": "FAMILY_EN_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구조적 = 가족의 '구조(뼈대)'를 바꿔서 기능을 개선한다",
+      "differential": "전략적 가족치료는 문제 해결에 초점을 두지만, 구조적 가족치료는 가족의 조직적 구조 자체를 변화시키는 데 초점을 둔다",
+      "key_point": "핵심 개념은 하위체계, 경계선, 위계이며, 치료 목표는 가족 구조의 재구조화이다",
+      "common_mistake": "구조적 가족치료를 단순히 가족 구조를 분석만 하는 것으로 오해하기 쉬우나, 치료 장면에서 실연(enactment)을 통해 적극적으로 구조를 변화시키는 접근이다"
+    }
+  },
+  {
+    "id": "FAMILY_BD_006",
+    "terminology": "경계선 (Boundary)",
+    "terminology_ko": "경계선",
+    "terminology_en": "Boundary",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족 체계 내에서 하위체계 간 또는 가족과 외부 환경 간의 심리적 구분선으로, 구성원 간의 접촉과 정보 교환의 정도를 조절하는 규칙이다. 경계선은 명확한 것이 건강하며, 경직되거나 밀착된 경계선은 역기능을 초래한다.",
+    "definition_en": "Psychological demarcation lines within the family system between subsystems or between the family and external environment that regulate the degree of contact and information exchange among members. Clear boundaries are healthy, while rigid or enmeshed boundaries lead to dysfunction.",
+    "significance": "구조적 가족치료의 핵심 개념으로, 가족 기능의 건강성을 평가하는 가장 중요한 지표 중 하나이다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "경계선 개념을 체계화하고 명확한-밀착된-경직된 경계선의 연속체를 제시하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "밀착",
+        "name_en": "Enmeshment",
+        "id": "FAMILY_EM_007"
+      },
+      {
+        "name_ko": "유리",
+        "name_en": "Disengagement",
+        "id": "FAMILY_DG_020"
+      },
+      {
+        "name_ko": "하위체계",
+        "name_en": "Subsystem",
+        "id": "FAMILY_SS_008"
+      },
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      }
+    ],
+    "sub_types": [
+      "명확한 경계선",
+      "밀착된 경계선",
+      "경직된 경계선"
+    ],
+    "quiz_hints": {
+      "mnemonic": "경계선 = 가족 구성원 사이의 '울타리' - 너무 높으면 유리, 너무 낮으면 밀착",
+      "differential": "밀착된 경계선은 과도한 개입과 자율성 부족을, 경직된 경계선은 정서적 단절과 무관심을 초래한다",
+      "key_point": "건강한 가족은 명확한(clear) 경계선을 가지며, 이는 적절한 자율성과 친밀감의 균형을 의미한다",
+      "common_mistake": "경계선을 물리적 거리로 오해하기 쉬우나, 심리적·정서적 구분선을 의미한다"
+    }
+  },
+  {
+    "id": "FAMILY_EM_007",
+    "terminology": "밀착 (Enmeshment)",
+    "terminology_ko": "밀착",
+    "terminology_en": "Enmeshment",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족 구성원 간의 경계선이 지나치게 모호하여 개인의 자율성과 독립성이 억제되고, 구성원 간에 과도한 정서적 개입과 반응성이 나타나는 관계 패턴이다.",
+    "definition_en": "A relational pattern in which boundaries between family members are excessively diffuse, suppressing individual autonomy and independence, resulting in excessive emotional involvement and reactivity among members.",
+    "significance": "가족의 역기능적 구조를 진단하는 핵심 개념으로, 특히 심신 장애 가족이나 거식증 가족에서 흔히 관찰되는 패턴이다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "밀착 개념을 제시하고 심신 장애 가족 연구에서 밀착의 역기능적 효과를 실증하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경계선",
+        "name_en": "Boundary",
+        "id": "FAMILY_BD_006"
+      },
+      {
+        "name_ko": "유리",
+        "name_en": "Disengagement",
+        "id": "FAMILY_DG_020"
+      },
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "밀착 = '밀(密)착' 너무 가까이 붙어서 개인이 사라진다",
+      "differential": "밀착은 경계선이 모호하여 과잉 개입되는 것이고, 유리(disengagement)는 경계선이 경직되어 정서적으로 단절되는 것이다",
+      "key_point": "밀착된 가족에서는 한 구성원의 감정 변화가 즉각적으로 다른 구성원에게 전파된다",
+      "common_mistake": "밀착을 단순히 '가까운 관계'나 '친밀감'으로 오해하기 쉬우나, 개인의 자율성이 억제되는 역기능적 패턴이다"
+    }
+  },
+  {
+    "id": "FAMILY_SS_008",
+    "terminology": "하위체계 (Subsystem)",
+    "terminology_ko": "하위체계",
+    "terminology_en": "Subsystem",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족 체계 내에서 특정 기능을 수행하는 소단위로, 부부 하위체계, 부모 하위체계, 형제 하위체계 등이 있다. 각 하위체계는 고유한 기능과 경계선을 갖는다.",
+    "definition_en": "Smaller units within the family system that perform specific functions, including the spousal subsystem, parental subsystem, and sibling subsystem. Each subsystem has its own unique functions and boundaries.",
+    "significance": "가족 구조를 분석하는 기본 단위로, 하위체계 간 경계선의 적절성이 가족 기능의 건강성을 결정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "가족 하위체계의 유형과 기능을 체계적으로 분류하고 임상적 중요성을 규명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족체계",
+        "name_en": "Family System",
+        "id": "FAMILY_FS_002"
+      },
+      {
+        "name_ko": "경계선",
+        "name_en": "Boundary",
+        "id": "FAMILY_BD_006"
+      },
+      {
+        "name_ko": "위계",
+        "name_en": "Hierarchy",
+        "id": "FAMILY_HI_021"
+      },
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      }
+    ],
+    "sub_types": [
+      "부부 하위체계",
+      "부모 하위체계",
+      "형제 하위체계"
+    ],
+    "quiz_hints": {
+      "mnemonic": "하위체계 = 가족이라는 큰 체계 안의 '작은 팀들' (부부팀, 부모팀, 형제팀)",
+      "differential": "부부 하위체계는 파트너 간 친밀감과 지지 기능을, 부모 하위체계는 자녀 양육과 훈육 기능을 담당한다",
+      "key_point": "건강한 가족에서는 각 하위체계가 명확한 경계선으로 구분되면서도 적절히 소통한다",
+      "common_mistake": "부부 하위체계와 부모 하위체계를 동일시하기 쉬우나, 같은 두 사람이라도 기능이 다른 별개의 하위체계이다"
+    }
+  },
+  {
+    "id": "FAMILY_DS_009",
+    "terminology": "자기분화 (Differentiation of Self)",
+    "terminology_ko": "자기분화",
+    "terminology_en": "Differentiation of Self",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "보웬 이론의 핵심 개념으로, 사고와 감정을 구분할 수 있는 개인 내적 능력과 친밀감과 자율성을 동시에 유지할 수 있는 대인관계적 능력을 의미한다. 분화 수준이 높을수록 정서적 반응성이 낮고 스트레스 상황에서 합리적으로 기능할 수 있다.",
+    "definition_en": "A core concept in Bowen theory referring to both the intrapsychic ability to distinguish between thinking and feeling, and the interpersonal ability to maintain both intimacy and autonomy simultaneously. Higher levels of differentiation are associated with lower emotional reactivity and better rational functioning under stress.",
+    "significance": "보웬 가족치료의 궁극적 치료 목표이며, 개인의 심리적 건강과 관계 역량을 동시에 설명하는 통합적 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "자기분화 개념을 개발하고 분화 척도(0-100)를 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "다세대 가족치료",
+        "name_en": "Multigenerational Family Therapy",
+        "id": "FAMILY_MG_003"
+      },
+      {
+        "name_ko": "삼각관계",
+        "name_en": "Triangulation",
+        "id": "FAMILY_TR_010"
+      },
+      {
+        "name_ko": "정서적 단절",
+        "name_en": "Emotional Cutoff",
+        "id": "FAMILY_EC_013"
+      },
+      {
+        "name_ko": "밀착",
+        "name_en": "Enmeshment",
+        "id": "FAMILY_EM_007"
+      },
+      {
+        "name_ko": "융합",
+        "name_en": "Fusion",
+        "id": "FAMILY_FU_014"
+      }
+    ],
+    "sub_types": [
+      "개인 내적 분화 (사고와 감정의 분리)",
+      "대인관계적 분화 (자율성과 친밀감의 균형)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "자기분화 = '나'를 잃지 않으면서 '우리'와 함께할 수 있는 능력",
+      "differential": "자기분화가 낮으면 융합(fusion)이나 정서적 단절(emotional cutoff)로 나타나고, 높으면 친밀감과 자율성의 균형을 유지한다",
+      "key_point": "분화는 두 차원이 있다: 사고-감정 분리(내적 차원), 자율성-친밀감 균형(대인관계 차원)",
+      "common_mistake": "자기분화를 정서적 냉담함이나 관계 단절로 오해하기 쉬우나, 오히려 감정을 인식하면서도 사고적으로 기능하는 능력이다"
+    }
+  },
+  {
+    "id": "FAMILY_TR_010",
+    "terminology": "삼각관계 (Triangulation)",
+    "terminology_ko": "삼각관계",
+    "terminology_en": "Triangulation",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "두 사람 간의 불안이 높아질 때 제3자를 관계에 끌어들여 긴장을 분산시키는 과정이다. 보웬 이론에서 가장 기본적인 관계 단위로, 분화 수준이 낮을수록 삼각관계가 빈번하게 형성된다.",
+    "definition_en": "The process of drawing a third person into a two-person relationship to diffuse tension when anxiety between the two increases. In Bowen theory, it is the most basic relational unit, and triangulation occurs more frequently at lower levels of differentiation.",
+    "significance": "가족 내 긴장과 갈등이 어떻게 유지되고 확산되는지를 설명하는 핵심 메커니즘으로, 치료에서 탈삼각화를 통해 건강한 이자관계를 회복할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "삼각관계 개념을 체계화하고 가족 관계 역동의 핵심 단위로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "다세대 가족치료",
+        "name_en": "Multigenerational Family Therapy",
+        "id": "FAMILY_MG_003"
+      },
+      {
+        "name_ko": "탈삼각화",
+        "name_en": "Detriangulation",
+        "id": "FAMILY_DT_022"
+      },
+      {
+        "name_ko": "융합",
+        "name_en": "Fusion",
+        "id": "FAMILY_FU_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "삼각관계 = 둘이 불안하면 셋째를 끌어들여 '삼각형'을 만든다",
+      "differential": "연합(coalition)은 제3자에 대항하여 두 사람이 동맹을 맺는 것이고, 삼각관계는 이자관계의 불안을 완화하기 위해 제3자를 끌어들이는 것이다",
+      "key_point": "삼각관계는 일시적으로 불안을 감소시키지만, 근본적인 갈등 해결을 방해한다",
+      "common_mistake": "삼각관계를 단순히 '세 사람의 관계'로 이해하기 쉬우나, 불안 관리를 위한 역동적 과정이다"
+    }
+  },
+  {
+    "id": "FAMILY_GN_011",
+    "terminology": "가계도 (Genogram)",
+    "terminology_ko": "가계도",
+    "terminology_en": "Genogram",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "최소 3세대에 걸친 가족의 구조, 관계 패턴, 주요 사건을 도식화한 가족 지도로, 세대 간 반복되는 패턴과 정서적 과정을 시각적으로 파악할 수 있게 해주는 평가 도구이다.",
+    "definition_en": "A family map that diagrams family structure, relationship patterns, and significant events across at least three generations, serving as an assessment tool that visually reveals intergenerational repeating patterns and emotional processes.",
+    "significance": "다세대 가족치료의 핵심 평가 도구로, 현재 가족 문제의 세대 간 뿌리를 탐색하고 가족과 함께 패턴을 인식하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "다세대 전수 과정을 평가하기 위한 가계도 활용을 처음 체계화하였다"
+      },
+      {
+        "name_ko": "모니카 맥골드릭",
+        "name_en": "Monica McGoldrick",
+        "contribution": "가계도의 표준화된 기호 체계와 활용법을 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "다세대 가족치료",
+        "name_en": "Multigenerational Family Therapy",
+        "id": "FAMILY_MG_003"
+      },
+      {
+        "name_ko": "다세대 전수 과정",
+        "name_en": "Multigenerational Transmission Process",
+        "id": "FAMILY_MT_012"
+      },
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "FAMILY_FT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "가계도 = 가족의 '족보'에 관계 패턴까지 그려 넣은 지도",
+      "differential": "가족계보도(family tree)는 혈연관계만 표시하지만, 가계도(genogram)는 관계 패턴, 정서적 역동까지 포함한다",
+      "key_point": "최소 3세대를 포함해야 하며, 구조적 정보와 함께 관계 패턴과 주요 사건을 기록한다",
+      "common_mistake": "가계도를 단순한 가족 구조도로 오해하기 쉬우나, 관계의 질과 정서적 패턴까지 포함하는 종합적 평가 도구이다"
+    }
+  },
+  {
+    "id": "FAMILY_MT_012",
+    "terminology": "다세대 전수 과정 (Multigenerational Transmission Process)",
+    "terminology_ko": "다세대 전수 과정",
+    "terminology_en": "Multigenerational Transmission Process",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족의 정서적 패턴, 분화 수준, 관계 방식이 여러 세대에 걸쳐 전달되는 과정으로, 분화 수준이 낮은 부모의 자녀는 더 낮은 분화 수준을 보이는 경향이 있다.",
+    "definition_en": "The process by which emotional patterns, levels of differentiation, and relational styles are transmitted across multiple generations, with children of less differentiated parents tending to show even lower levels of differentiation.",
+    "significance": "현재 가족 문제의 세대 간 뿌리를 이해하는 데 필수적이며, 왜 특정 가족에서 세대를 넘어 유사한 문제가 반복되는지를 설명한다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "다세대 전수 과정을 보웬 이론의 8가지 연동 개념 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "가계도",
+        "name_en": "Genogram",
+        "id": "FAMILY_GN_011"
+      },
+      {
+        "name_ko": "다세대 가족치료",
+        "name_en": "Multigenerational Family Therapy",
+        "id": "FAMILY_MG_003"
+      },
+      {
+        "name_ko": "핵가족 정서체계",
+        "name_en": "Nuclear Family Emotional System",
+        "id": "FAMILY_NF_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "다세대 전수 = 분화 수준이 대를 이어 '전수'되는 것",
+      "differential": "가족 투사 과정이 한 세대 내에서 일어나는 과정이라면, 다세대 전수 과정은 여러 세대에 걸쳐 일어나는 과정이다",
+      "key_point": "분화 수준이 낮은 부모로부터 가장 많은 투사를 받은 자녀가 더 낮은 분화 수준을 보인다",
+      "common_mistake": "다세대 전수를 유전적 전달로 오해하기 쉬우나, 정서적 과정과 관계 패턴의 전수이다"
+    }
+  },
+  {
+    "id": "FAMILY_EC_013",
+    "terminology": "정서적 단절 (Emotional Cutoff)",
+    "terminology_ko": "정서적 단절",
+    "terminology_en": "Emotional Cutoff",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "원가족과의 미해결된 정서적 융합을 다루기 위해 물리적 또는 심리적으로 거리를 두는 방식이다. 겉보기에는 독립적으로 보이지만 실제로는 분화되지 않은 상태를 반영한다.",
+    "definition_en": "A way of managing unresolved emotional fusion with one's family of origin by creating physical or psychological distance. Although it may appear independent on the surface, it actually reflects an undifferentiated state.",
+    "significance": "분화와 독립의 차이를 이해하는 데 핵심적인 개념으로, 원가족과의 건강한 관계 재정립의 필요성을 보여준다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "정서적 단절을 미분화의 한 표현으로 개념화하고 8가지 연동 개념에 포함시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "융합",
+        "name_en": "Fusion",
+        "id": "FAMILY_FU_014"
+      },
+      {
+        "name_ko": "다세대 가족치료",
+        "name_en": "Multigenerational Family Therapy",
+        "id": "FAMILY_MG_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정서적 단절 = '도망'으로 얻은 거짓 독립 - 진짜 분화가 아니다",
+      "differential": "자기분화는 관계를 유지하면서 자율성을 확보하는 것이고, 정서적 단절은 관계를 끊어서 불안을 회피하는 것이다",
+      "key_point": "물리적 거리가 정서적 분화를 의미하지 않으며, 단절된 관계는 새로운 관계에서 재현될 수 있다",
+      "common_mistake": "정서적 단절을 건강한 독립으로 오해하기 쉬우나, 미해결된 융합의 다른 표현이다"
+    }
+  },
+  {
+    "id": "FAMILY_FU_014",
+    "terminology": "융합 (Fusion)",
+    "terminology_ko": "융합",
+    "terminology_en": "Fusion",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "두 사람 사이에서 정서적 경계가 소실되어 서로의 사고와 감정이 구분되지 않는 상태로, 자기분화의 반대 극단이다. 융합된 관계에서는 상대의 감정에 자동적으로 반응하며 독립적 사고가 어렵다.",
+    "definition_en": "A state in which emotional boundaries between two people dissolve so that their thoughts and feelings become indistinguishable, representing the opposite extreme of differentiation of self. In fused relationships, there is automatic reactivity to the other's emotions and difficulty with independent thinking.",
+    "significance": "자기분화의 개념을 이해하는 핵심 대비 개념으로, 역기능적 관계 패턴의 근본 원인을 설명한다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "융합과 분화를 연속선 위의 양 극단으로 개념화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "밀착",
+        "name_en": "Enmeshment",
+        "id": "FAMILY_EM_007"
+      },
+      {
+        "name_ko": "정서적 단절",
+        "name_en": "Emotional Cutoff",
+        "id": "FAMILY_EC_013"
+      },
+      {
+        "name_ko": "삼각관계",
+        "name_en": "Triangulation",
+        "id": "FAMILY_TR_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "융합 = 두 사람이 '녹아서' 하나가 된 상태 - 나와 너의 구분이 없다",
+      "differential": "밀착(enmeshment)은 구조적 가족치료의 개념이고, 융합(fusion)은 보웬 이론의 개념이지만 유사한 현상을 설명한다",
+      "key_point": "융합은 자기분화의 반대 개념으로, 감정과 사고가 분리되지 않고 타인의 감정에 자동적으로 반응하는 상태이다",
+      "common_mistake": "융합을 긍정적인 '하나됨'으로 오해하기 쉬우나, 개인의 자율적 기능을 방해하는 역기능적 패턴이다"
+    }
+  },
+  {
+    "id": "FAMILY_CC_015",
+    "terminology": "순환적 인과론 (Circular Causality)",
+    "terminology_ko": "순환적 인과론",
+    "terminology_en": "Circular Causality",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족 내 문제의 원인을 하나의 선형적 원인-결과가 아닌, 구성원 간의 상호작용이 순환적으로 영향을 주고받는 과정으로 이해하는 관점이다. A가 B에게 영향을 미치고 동시에 B도 A에게 영향을 미친다.",
+    "definition_en": "A perspective that understands causes of family problems not as linear cause-and-effect but as a circular process in which members' interactions mutually influence each other. A influences B while simultaneously B influences A.",
+    "significance": "선형적 인과론(누가 원인인가)에서 벗어나 체계적 사고로 전환하는 가족치료의 기본 인식론이다.",
+    "key_researchers": [
+      {
+        "name_ko": "그레고리 베이트슨",
+        "name_en": "Gregory Bateson",
+        "contribution": "의사소통이론과 사이버네틱스를 가족 연구에 적용하여 순환적 인과론의 토대를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족체계",
+        "name_en": "Family System",
+        "id": "FAMILY_FS_002"
+      },
+      {
+        "name_ko": "피드백 순환",
+        "name_en": "Feedback Loop",
+        "id": "FAMILY_FL_016"
+      },
+      {
+        "name_ko": "항상성",
+        "name_en": "Homeostasis",
+        "id": "FAMILY_HO_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "순환적 인과 = '닭이 먼저냐 달걀이 먼저냐' - 원인과 결과가 순환한다",
+      "differential": "선형적 인과론은 A→B처럼 원인이 결과를 일으킨다고 보지만, 순환적 인과론은 A↔B처럼 상호 영향을 주고받는다고 본다",
+      "key_point": "가족 문제에서 '누가 원인인가'를 묻는 대신 '어떤 상호작용 패턴이 문제를 유지하는가'를 묻는다",
+      "common_mistake": "순환적 인과론을 '아무도 책임이 없다'는 의미로 오해하기 쉬우나, 상호적 영향을 인식하는 관점이다"
+    }
+  },
+  {
+    "id": "FAMILY_FL_016",
+    "terminology": "피드백 순환 (Feedback Loop)",
+    "terminology_ko": "피드백 순환",
+    "terminology_en": "Feedback Loop",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "체계 내에서 출력이 다시 입력으로 되돌아가 체계의 작동에 영향을 미치는 순환 과정으로, 부적 피드백(안정 유지)과 정적 피드백(변화 촉진)이 있다.",
+    "definition_en": "A circular process in which the output of a system feeds back as input to affect the system's operation, including negative feedback (maintaining stability) and positive feedback (promoting change).",
+    "significance": "가족 체계가 어떻게 안정을 유지하거나 변화하는지를 설명하는 사이버네틱스의 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "노버트 위너",
+        "name_en": "Norbert Wiener",
+        "contribution": "사이버네틱스에서 피드백 개념을 체계화하여 체계이론의 토대를 마련하였다"
+      },
+      {
+        "name_ko": "그레고리 베이트슨",
+        "name_en": "Gregory Bateson",
+        "contribution": "피드백 개념을 인간 의사소통과 가족 체계에 적용하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "항상성",
+        "name_en": "Homeostasis",
+        "id": "FAMILY_HO_004"
+      },
+      {
+        "name_ko": "순환적 인과론",
+        "name_en": "Circular Causality",
+        "id": "FAMILY_CC_015"
+      },
+      {
+        "name_ko": "가족체계",
+        "name_en": "Family System",
+        "id": "FAMILY_FS_002"
+      }
+    ],
+    "sub_types": [
+      "부적 피드백 (Negative Feedback)",
+      "정적 피드백 (Positive Feedback)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "피드백 순환 = 체계의 '되먹임' - 결과가 원인으로 돌아간다",
+      "differential": "부적 피드백은 체계를 원래 상태로 되돌리고(항상성), 정적 피드백은 변화를 증폭시킨다",
+      "key_point": "부적(negative)은 '나쁜 것'이 아니라 '편차를 줄이는 것'을, 정적(positive)은 '좋은 것'이 아니라 '편차를 증폭하는 것'을 의미한다",
+      "common_mistake": "부적 피드백과 정적 피드백을 '나쁜/좋은' 피드백으로 오해하기 쉬우나, 안정/변화 기능을 의미한다"
+    }
+  },
+  {
+    "id": "FAMILY_JN_017",
+    "terminology": "합류 (Joining)",
+    "terminology_ko": "합류",
+    "terminology_en": "Joining",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "구조적 가족치료에서 치료자가 가족 체계에 참여하여 가족과 치료적 동맹을 형성하는 과정이다. 치료자는 가족의 문화와 스타일에 맞추면서도 치료적 리더십을 유지한다.",
+    "definition_en": "The process in structural family therapy by which the therapist enters the family system and forms a therapeutic alliance with the family. The therapist adapts to the family's culture and style while maintaining therapeutic leadership.",
+    "significance": "구조적 가족치료의 첫 번째이자 가장 중요한 치료 과정으로, 합류 없이는 재구조화가 불가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "합류 기법을 구조적 가족치료의 핵심 치료 과정으로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      },
+      {
+        "name_ko": "재구조화",
+        "name_en": "Restructuring",
+        "id": "FAMILY_RS_018"
+      },
+      {
+        "name_ko": "실연",
+        "name_en": "Enactment",
+        "id": "FAMILY_EN_019"
+      },
+      {
+        "name_ko": "치료적 관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      }
+    ],
+    "sub_types": [
+      "유지(maintenance)",
+      "추적(tracking)",
+      "모방(mimesis)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "합류 = 치료자가 가족이라는 '강물'에 합류하여 함께 흐르는 것",
+      "differential": "합류는 가족 체계에 참여하는 것이고, 재구조화는 가족 구조를 변화시키는 것이다. 합류가 먼저, 재구조화가 나중이다",
+      "key_point": "치료자는 가족에 합류하면서도 치료적 위치를 유지해야 하며, 과도한 합류는 치료적 객관성을 잃게 한다",
+      "common_mistake": "합류를 단순히 '라포 형성'으로만 이해하기 쉬우나, 가족 체계에 실제로 참여하여 내부에서 변화를 이끄는 적극적 과정이다"
+    }
+  },
+  {
+    "id": "FAMILY_RS_018",
+    "terminology": "재구조화 (Restructuring)",
+    "terminology_ko": "재구조화",
+    "terminology_en": "Restructuring",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "구조적 가족치료의 핵심 치료 전략으로, 역기능적인 가족 구조(경계선, 위계, 동맹)를 변화시켜 보다 적응적인 가족 조직으로 재편하는 과정이다.",
+    "definition_en": "The core therapeutic strategy in structural family therapy that modifies dysfunctional family structures (boundaries, hierarchy, alliances) to reorganize the family into a more adaptive configuration.",
+    "significance": "구조적 가족치료의 궁극적 치료 목표이며, 가족의 조직적 변화를 통해 개인 증상의 완화를 추구하는 핵심 전략이다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "재구조화 기법을 개발하고 체계적으로 분류하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      },
+      {
+        "name_ko": "합류",
+        "name_en": "Joining",
+        "id": "FAMILY_JN_017"
+      },
+      {
+        "name_ko": "실연",
+        "name_en": "Enactment",
+        "id": "FAMILY_EN_019"
+      },
+      {
+        "name_ko": "경계선",
+        "name_en": "Boundary",
+        "id": "FAMILY_BD_006"
+      }
+    ],
+    "sub_types": [
+      "경계선 만들기",
+      "균형 깨뜨리기",
+      "보완성에 도전하기"
+    ],
+    "quiz_hints": {
+      "mnemonic": "재구조화 = 가족이라는 '건물'의 뼈대를 다시 세우는 것",
+      "differential": "합류(joining)는 가족 체계에 참여하는 과정이고, 재구조화(restructuring)는 가족 구조를 실제로 변화시키는 과정이다",
+      "key_point": "재구조화는 합류가 선행되어야 하며, 경계선 조정, 위계 재정립, 동맹 변화 등의 기법을 포함한다",
+      "common_mistake": "재구조화를 가족에게 '올바른 구조'를 가르치는 것으로 오해하기 쉬우나, 치료 장면에서 실연을 통해 새로운 상호작용을 경험하게 하는 것이다"
+    }
+  },
+  {
+    "id": "FAMILY_EN_019",
+    "terminology": "실연 (Enactment)",
+    "terminology_ko": "실연",
+    "terminology_en": "Enactment",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "구조적 가족치료에서 치료자가 가족 구성원들에게 치료 장면에서 실제로 상호작용하도록 요청하여 가족의 상호작용 패턴을 직접 관찰하고 개입하는 기법이다.",
+    "definition_en": "A technique in structural family therapy in which the therapist asks family members to interact with each other during the session to directly observe and intervene in the family's interaction patterns.",
+    "significance": "가족의 실제 상호작용 패턴을 치료실에서 재현하여 관찰하고 즉각적으로 변화시킬 수 있는 강력한 치료 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "실연 기법을 구조적 가족치료의 핵심 기법으로 개발하고 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      },
+      {
+        "name_ko": "재구조화",
+        "name_en": "Restructuring",
+        "id": "FAMILY_RS_018"
+      },
+      {
+        "name_ko": "합류",
+        "name_en": "Joining",
+        "id": "FAMILY_JN_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실연 = 가족이 치료실에서 평소 패턴을 '실제로 연기'하는 것",
+      "differential": "가족 조각(family sculpting)은 관계를 신체적으로 표현하는 것이고, 실연(enactment)은 실제 상호작용을 재현하는 것이다",
+      "key_point": "치료자는 가족에 대해 '이야기하는 것'이 아니라 가족이 직접 '보여주도록' 요청한다",
+      "common_mistake": "실연을 역할극(role play)과 혼동하기 쉬우나, 실연은 실제 가족 구성원 간의 실제 상호작용이다"
+    }
+  },
+  {
+    "id": "FAMILY_DG_020",
+    "terminology": "유리 (Disengagement)",
+    "terminology_ko": "유리",
+    "terminology_en": "Disengagement",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족 구성원 간의 경계선이 지나치게 경직되어 정서적 교류와 지지가 부족하고, 구성원들이 서로에 대해 무관심하거나 단절된 관계 패턴이다. 밀착의 반대 극단이다.",
+    "definition_en": "A relational pattern in which boundaries between family members are excessively rigid, resulting in lack of emotional exchange and support, with members being indifferent to or disconnected from each other. It is the opposite extreme of enmeshment.",
+    "significance": "밀착과 함께 가족 경계선의 역기능적 극단을 대표하며, 구성원의 고립감과 소속감 부족을 초래한다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "유리 개념을 밀착과 대비하여 경계선 연속체의 한 극단으로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "밀착",
+        "name_en": "Enmeshment",
+        "id": "FAMILY_EM_007"
+      },
+      {
+        "name_ko": "경계선",
+        "name_en": "Boundary",
+        "id": "FAMILY_BD_006"
+      },
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유리 = '유리(遊離)' 떨어져서 따로 노는 가족",
+      "differential": "밀착은 경계선이 지나치게 모호한 것이고, 유리는 경계선이 지나치게 경직된 것이다",
+      "key_point": "유리된 가족에서는 한 구성원에게 위기가 생겨도 다른 구성원이 반응하지 않을 수 있다",
+      "common_mistake": "유리를 건강한 독립으로 오해하기 쉬우나, 필요한 정서적 지지와 연결이 부재한 역기능적 패턴이다"
+    }
+  },
+  {
+    "id": "FAMILY_HI_021",
+    "terminology": "위계 (Hierarchy)",
+    "terminology_ko": "위계",
+    "terminology_en": "Hierarchy",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족 체계 내에서 권력과 책임의 분배 구조로, 건강한 가족에서는 부모가 자녀보다 상위 위계에 위치하여 적절한 권위와 보호를 제공한다.",
+    "definition_en": "The distribution structure of power and responsibility within the family system, where in healthy families parents occupy a higher position than children, providing appropriate authority and protection.",
+    "significance": "구조적 가족치료에서 가족 기능을 평가하는 핵심 차원으로, 위계의 역전이나 혼란은 많은 가족 문제의 원인이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "가족 위계의 중요성을 구조적 가족치료의 핵심 평가 요소로 정립하였다"
+      },
+      {
+        "name_ko": "제이 헤일리",
+        "name_en": "Jay Haley",
+        "contribution": "가족 내 권력 구조와 위계의 역할을 전략적 관점에서 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "하위체계",
+        "name_en": "Subsystem",
+        "id": "FAMILY_SS_008"
+      },
+      {
+        "name_ko": "경계선",
+        "name_en": "Boundary",
+        "id": "FAMILY_BD_006"
+      },
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      },
+      {
+        "name_ko": "부모화",
+        "name_en": "Parentification",
+        "id": "FAMILY_PF_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "위계 = 가족 안의 '계급 구조' - 부모가 위, 자녀가 아래",
+      "differential": "위계는 가족 내 권력 분배의 구조적 측면이고, 동맹(alliance)은 가족 내 정서적 연합의 관계적 측면이다",
+      "key_point": "건강한 가족에서 부모는 명확한 위계를 유지하면서도 자녀에게 적절한 자율성을 허용한다",
+      "common_mistake": "위계를 권위주의적 지배로 오해하기 쉬우나, 적절한 위계는 안전과 보호를 제공하는 기능적 구조이다"
+    }
+  },
+  {
+    "id": "FAMILY_DT_022",
+    "terminology": "탈삼각화 (Detriangulation)",
+    "terminology_ko": "탈삼각화",
+    "terminology_en": "Detriangulation",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "삼각관계에서 빠져나와 불안에도 불구하고 직접적인 이자관계를 유지하는 과정으로, 보웬 치료에서 자기분화를 증진시키는 핵심 치료 과정이다.",
+    "definition_en": "The process of extricating oneself from a triangle and maintaining direct two-person relationships despite anxiety, serving as a core therapeutic process in Bowen therapy for promoting differentiation of self.",
+    "significance": "삼각관계의 역기능적 패턴을 해소하고 건강한 이자관계를 회복하는 보웬 치료의 핵심 목표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "탈삼각화를 자기분화 증진의 핵심 치료적 과정으로 개념화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "삼각관계",
+        "name_en": "Triangulation",
+        "id": "FAMILY_TR_010"
+      },
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "다세대 가족치료",
+        "name_en": "Multigenerational Family Therapy",
+        "id": "FAMILY_MG_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "탈삼각화 = 삼각형에서 '탈출'하여 1:1 관계를 유지한다",
+      "differential": "삼각관계는 불안을 회피하기 위해 제3자를 끌어들이는 것이고, 탈삼각화는 불안을 감당하면서 직접적 관계를 유지하는 것이다",
+      "key_point": "탈삼각화의 핵심은 불안을 회피하지 않고 이자관계 내에서 직접 다루는 것이다",
+      "common_mistake": "탈삼각화를 제3자와의 관계를 끊는 것으로 오해하기 쉬우나, 모든 관계를 유지하면서 삼각화 패턴만 변화시키는 것이다"
+    }
+  },
+  {
+    "id": "FAMILY_NF_023",
+    "terminology": "핵가족 정서체계 (Nuclear Family Emotional System)",
+    "terminology_ko": "핵가족 정서체계",
+    "terminology_en": "Nuclear Family Emotional System",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "보웬 이론의 개념으로, 핵가족 내에서 미분화로 인한 불안이 표현되는 네 가지 패턴을 설명한다: 부부 갈등, 한 배우자의 역기능, 자녀에 대한 투사, 정서적 거리두기이다.",
+    "definition_en": "A Bowen theory concept describing four patterns through which anxiety from undifferentiation is expressed within the nuclear family: marital conflict, dysfunction in one spouse, projection onto a child, and emotional distancing.",
+    "significance": "미분화된 가족에서 불안이 어떻게 구체적 증상으로 나타나는지를 설명하는 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "핵가족 정서체계를 8가지 연동 개념 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "가족투사과정",
+        "name_en": "Family Projection Process",
+        "id": "FAMILY_FP_025"
+      },
+      {
+        "name_ko": "다세대 전수 과정",
+        "name_en": "Multigenerational Transmission Process",
+        "id": "FAMILY_MT_012"
+      },
+      {
+        "name_ko": "삼각관계",
+        "name_en": "Triangulation",
+        "id": "FAMILY_TR_010"
+      }
+    ],
+    "sub_types": [
+      "부부 갈등",
+      "한 배우자의 역기능",
+      "자녀에 대한 투사",
+      "정서적 거리두기"
+    ],
+    "quiz_hints": {
+      "mnemonic": "핵가족 정서체계의 4가지 패턴 = 부부 싸움, 한쪽 아픔, 자녀에 떠넘김, 거리두기",
+      "differential": "가족투사과정은 자녀에 대한 투사에 특화된 개념이고, 핵가족 정서체계는 4가지 패턴을 모두 포함하는 상위 개념이다",
+      "key_point": "네 가지 패턴 모두 미분화(융합)에서 비롯된 불안을 관리하는 방식이다",
+      "common_mistake": "네 가지 패턴이 독립적으로 나타난다고 오해하기 쉬우나, 한 가족 내에서 복합적으로 작용할 수 있다"
+    }
+  },
+  {
+    "id": "FAMILY_PF_024",
+    "terminology": "부모화 (Parentification)",
+    "terminology_ko": "부모화",
+    "terminology_en": "Parentification",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "자녀가 가족 내에서 부모의 역할을 대신 수행하는 역기능적 가족 구조로, 자녀가 동생을 돌보거나 부모의 정서적 필요를 충족시키는 역할을 맡게 된다. 세대 간 위계의 역전을 나타낸다.",
+    "definition_en": "A dysfunctional family structure in which a child assumes parental roles within the family, such as caring for siblings or meeting the emotional needs of parents. It represents a reversal of generational hierarchy.",
+    "significance": "세대 간 경계선 침범의 대표적 사례로, 자녀의 발달과 정서적 건강에 부정적 영향을 미치는 가족 역기능 패턴이다.",
+    "key_researchers": [
+      {
+        "name_ko": "이반 보스조르메니-너지",
+        "name_en": "Ivan Boszormenyi-Nagy",
+        "contribution": "맥락적 가족치료에서 부모화 개념을 체계적으로 발전시키고 세대 간 공정성의 관점에서 분석하였다"
+      },
+      {
+        "name_ko": "살바도르 미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "구조적 관점에서 부모화를 위계 역전의 문제로 개념화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "위계",
+        "name_en": "Hierarchy",
+        "id": "FAMILY_HI_021"
+      },
+      {
+        "name_ko": "경계선",
+        "name_en": "Boundary",
+        "id": "FAMILY_BD_006"
+      },
+      {
+        "name_ko": "하위체계",
+        "name_en": "Subsystem",
+        "id": "FAMILY_SS_008"
+      }
+    ],
+    "sub_types": [
+      "도구적 부모화 (가사, 동생 돌봄 등)",
+      "정서적 부모화 (부모의 정서적 필요 충족)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "부모화 = 자녀가 '부모 되기' - 어린이가 어른 역할을 한다",
+      "differential": "정서적 부모화는 부모의 감정적 필요를 충족시키는 것이고, 도구적 부모화는 가사나 돌봄 등 실질적 역할을 수행하는 것이다",
+      "key_point": "부모화는 세대 간 위계의 역전으로, 자녀의 정상적 발달 과업을 방해한다",
+      "common_mistake": "가정에서 자녀에게 적절한 책임을 부여하는 것과 부모화를 혼동하기 쉬우나, 부모화는 발달 수준에 부적절한 과도한 역할 부여이다"
+    }
+  },
+  {
+    "id": "FAMILY_FP_025",
+    "terminology": "가족투사과정 (Family Projection Process)",
+    "terminology_ko": "가족투사과정",
+    "terminology_en": "Family Projection Process",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "보웬 이론의 개념으로, 부모가 자신의 미분화와 불안을 특정 자녀에게 투사하여 그 자녀의 분화 수준을 낮추는 과정이다. 투사를 가장 많이 받은 자녀가 가장 낮은 분화 수준을 보인다.",
+    "definition_en": "A Bowen theory concept describing the process by which parents project their undifferentiation and anxiety onto a specific child, lowering that child's level of differentiation. The child who receives the most projection shows the lowest level of differentiation.",
+    "significance": "특정 자녀에게 증상이 집중되는 현상을 설명하며, 다세대 전수 과정의 한 세대 내 메커니즘이다.",
+    "key_researchers": [
+      {
+        "name_ko": "머레이 보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "가족투사과정을 8가지 연동 개념 중 하나로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기분화",
+        "name_en": "Differentiation of Self",
+        "id": "FAMILY_DS_009"
+      },
+      {
+        "name_ko": "핵가족 정서체계",
+        "name_en": "Nuclear Family Emotional System",
+        "id": "FAMILY_NF_023"
+      },
+      {
+        "name_ko": "다세대 전수 과정",
+        "name_en": "Multigenerational Transmission Process",
+        "id": "FAMILY_MT_012"
+      },
+      {
+        "name_ko": "삼각관계",
+        "name_en": "Triangulation",
+        "id": "FAMILY_TR_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "가족투사 = 부모의 불안을 자녀에게 '투사(쏘아보내기)'하는 과정",
+      "differential": "삼각관계는 불안 관리를 위해 제3자를 끌어들이는 과정이고, 가족투사는 부모의 미분화를 특정 자녀에게 전달하는 과정이다",
+      "key_point": "투사 대상이 되는 자녀는 가장 의존적이거나 취약한 자녀인 경우가 많다",
+      "common_mistake": "가족투사를 의식적 행동으로 오해하기 쉬우나, 대부분 무의식적으로 일어나는 자동적 정서 과정이다"
+    }
+  },
+  {
+    "id": "FAMILY_ST_026",
+    "terminology": "전략적 가족치료 (Strategic Family Therapy)",
+    "terminology_ko": "전략적 가족치료",
+    "terminology_en": "Strategic Family Therapy",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "헤일리와 마다네스가 발전시킨 가족치료 모델로, 치료자가 가족의 문제 해결을 위한 구체적인 전략과 지시를 설계하여 가족의 상호작용 패턴을 변화시키는 접근이다. 문제의 원인보다 해결에 초점을 둔다.",
+    "definition_en": "A family therapy model developed by Haley and Madanes in which the therapist designs specific strategies and directives to change the family's interaction patterns for problem resolution. It focuses on solutions rather than causes of problems.",
+    "significance": "문제 해결 중심의 실용적 접근으로, 단기 치료의 효율성과 치료자의 적극적 역할을 강조한 혁신적 모델이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이 헤일리",
+        "name_en": "Jay Haley",
+        "contribution": "전략적 가족치료를 체계화하고 지시적 기법과 역설적 개입을 개발하였다"
+      },
+      {
+        "name_ko": "클로에 마다네스",
+        "name_en": "Cloe Madanes",
+        "contribution": "전략적 가족치료에 가장(pretend) 기법을 도입하고 이론을 발전시켰다"
+      },
+      {
+        "name_ko": "밀턴 에릭슨",
+        "name_en": "Milton Erickson",
+        "contribution": "전략적 치료의 이론적 영감을 제공하고 역설적 기법의 기초를 확립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "역설적 개입",
+        "name_en": "Paradoxical Intervention",
+        "id": "FAMILY_PI_027"
+      },
+      {
+        "name_ko": "지시",
+        "name_en": "Directive",
+        "id": "FAMILY_DR_028"
+      },
+      {
+        "name_ko": "구조적 가족치료",
+        "name_en": "Structural Family Therapy",
+        "id": "FAMILY_SF_005"
+      },
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "FAMILY_FT_001"
+      }
+    ],
+    "sub_types": [
+      "MRI 모델",
+      "헤일리/마다네스 모델",
+      "밀란 모델"
+    ],
+    "quiz_hints": {
+      "mnemonic": "전략적 = 치료자가 '전략(작전)'을 세워서 문제를 해결한다",
+      "differential": "구조적 가족치료는 가족의 구조를 변화시키는 데 초점을 두지만, 전략적 가족치료는 문제 해결을 위한 구체적 전략 설계에 초점을 둔다",
+      "key_point": "치료자가 주도적으로 전략을 설계하며, 역설적 개입과 지시적 기법이 특징적이다",
+      "common_mistake": "전략적 가족치료를 단순히 '계획적인 치료'로 오해하기 쉬우나, 특정 이론적 전통에 기반한 독립적 치료 모델이다"
+    }
+  },
+  {
+    "id": "FAMILY_PI_027",
+    "terminology": "역설적 개입 (Paradoxical Intervention)",
+    "terminology_ko": "역설적 개입",
+    "terminology_en": "Paradoxical Intervention",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "증상이나 문제 행동을 의도적으로 처방하거나 강화하도록 지시하여, 내담자가 증상에 대한 통제력을 경험하고 결과적으로 증상이 감소하도록 하는 치료 기법이다.",
+    "definition_en": "A therapeutic technique that deliberately prescribes or reinforces symptoms or problem behaviors, enabling the client to experience control over the symptoms and consequently leading to symptom reduction.",
+    "significance": "저항이 강한 가족에게 효과적인 기법으로, 변화에 대한 저항을 치료적으로 활용하는 창의적 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이 헤일리",
+        "name_en": "Jay Haley",
+        "contribution": "역설적 개입을 전략적 가족치료의 핵심 기법으로 체계화하였다"
+      },
+      {
+        "name_ko": "마라 셀비니 팔라쫄리",
+        "name_en": "Mara Selvini Palazzoli",
+        "contribution": "밀란 팀에서 역설적 처방을 가족치료에 적극 활용하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "전략적 가족치료",
+        "name_en": "Strategic Family Therapy",
+        "id": "FAMILY_ST_026"
+      },
+      {
+        "name_ko": "증상 처방",
+        "name_en": "Symptom Prescription",
+        "id": "FAMILY_SP_029"
+      },
+      {
+        "name_ko": "지시",
+        "name_en": "Directive",
+        "id": "FAMILY_DR_028"
+      }
+    ],
+    "sub_types": [
+      "증상 처방",
+      "억제",
+      "위치 재정립"
+    ],
+    "quiz_hints": {
+      "mnemonic": "역설적 개입 = '이상하게도' 문제를 더 하라고 하면 문제가 줄어든다",
+      "differential": "직접적 지시는 변화를 직접 요구하지만, 역설적 개입은 역설적으로 증상을 유지하도록 지시하여 간접적으로 변화를 유도한다",
+      "key_point": "증상을 의도적으로 통제하게 함으로써 자발적 증상에 대한 통제감을 경험하게 한다",
+      "common_mistake": "역설적 개입을 단순한 반어법이나 장난으로 오해하기 쉬우나, 신중하게 설계된 치료적 전략이다"
+    }
+  },
+  {
+    "id": "FAMILY_DR_028",
+    "terminology": "지시 (Directive)",
+    "terminology_ko": "지시",
+    "terminology_en": "Directive",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "전략적 가족치료에서 치료자가 가족에게 회기 중이나 회기 사이에 수행할 과제나 행동을 구체적으로 지시하는 기법이다. 직접적 지시와 역설적 지시로 나뉜다.",
+    "definition_en": "A technique in strategic family therapy in which the therapist specifically instructs the family to perform tasks or behaviors during or between sessions. It is divided into direct directives and paradoxical directives.",
+    "significance": "전략적 가족치료에서 치료자의 적극적 역할을 대표하는 기법으로, 가족의 행동 패턴을 직접 변화시키는 핵심 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이 헤일리",
+        "name_en": "Jay Haley",
+        "contribution": "지시적 기법을 전략적 가족치료의 핵심 도구로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "전략적 가족치료",
+        "name_en": "Strategic Family Therapy",
+        "id": "FAMILY_ST_026"
+      },
+      {
+        "name_ko": "역설적 개입",
+        "name_en": "Paradoxical Intervention",
+        "id": "FAMILY_PI_027"
+      },
+      {
+        "name_ko": "과제 부여",
+        "name_en": "Homework Assignment",
+        "id": "PROCESS_HA_030"
+      }
+    ],
+    "sub_types": [
+      "직접적 지시",
+      "역설적 지시",
+      "은유적 지시"
+    ],
+    "quiz_hints": {
+      "mnemonic": "지시 = 치료자가 가족에게 '이것을 하라'고 구체적으로 알려주는 것",
+      "differential": "비지시적 접근(인간중심)은 내담자의 자기결정을 강조하지만, 지시적 접근(전략적)은 치료자가 변화 전략을 설계하고 지시한다",
+      "key_point": "좋은 지시는 구체적이고, 실행 가능하며, 가족의 문제 패턴을 변화시킬 수 있도록 설계되어야 한다",
+      "common_mistake": "지시를 단순한 '조언'으로 오해하기 쉬우나, 가족의 상호작용 패턴을 변화시키기 위해 전략적으로 설계된 과제이다"
+    }
+  },
+  {
+    "id": "FAMILY_SP_029",
+    "terminology": "증상 처방 (Symptom Prescription)",
+    "terminology_ko": "증상 처방",
+    "terminology_en": "Symptom Prescription",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "역설적 개입의 대표적 기법으로, 내담자에게 증상 행동을 의도적으로 수행하도록 처방하여 증상에 대한 자발성을 제거하고 통제감을 갖게 하는 방법이다.",
+    "definition_en": "A representative paradoxical technique that prescribes the client to deliberately perform symptomatic behavior, thereby removing the spontaneity of the symptom and giving the client a sense of control.",
+    "significance": "자발적으로 나타나는 증상을 의도적 행동으로 전환시켜 증상의 역기능적 기능을 약화시키는 효과적인 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅터 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "역설적 지향(paradoxical intention) 기법을 처음 제안하여 증상 처방의 기초를 마련하였다"
+      },
+      {
+        "name_ko": "제이 헤일리",
+        "name_en": "Jay Haley",
+        "contribution": "증상 처방을 가족치료의 전략적 기법으로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "역설적 개입",
+        "name_en": "Paradoxical Intervention",
+        "id": "FAMILY_PI_027"
+      },
+      {
+        "name_ko": "전략적 가족치료",
+        "name_en": "Strategic Family Therapy",
+        "id": "FAMILY_ST_026"
+      },
+      {
+        "name_ko": "지시",
+        "name_en": "Directive",
+        "id": "FAMILY_DR_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "증상 처방 = 의사가 '병을 더 앓으라'고 처방하는 역설",
+      "differential": "행동치료의 노출은 불안에 직면하게 하여 소거시키는 것이고, 증상 처방은 증상의 자발성을 제거하여 통제감을 갖게 하는 것이다",
+      "key_point": "증상이 자발적일 때 역기능적이지만, 의도적으로 수행하면 통제 가능한 행동이 된다",
+      "common_mistake": "증상 처방이 모든 증상에 적용 가능하다고 오해하기 쉬우나, 자해나 폭력적 증상에는 절대 사용해서는 안 된다"
+    }
+  },
+  {
+    "id": "FAMILY_EF_030",
+    "terminology": "경험적 가족치료 (Experiential Family Therapy)",
+    "terminology_ko": "경험적 가족치료",
+    "terminology_en": "Experiential Family Therapy",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "사티어와 위태커가 대표하는 가족치료 접근으로, 가족 구성원의 정서적 경험과 자기 성장을 강조한다. 현재 순간의 감정 체험과 진정한 자기표현을 통해 가족 관계의 변화를 추구한다.",
+    "definition_en": "A family therapy approach represented by Satir and Whitaker that emphasizes emotional experience and personal growth of family members. It seeks change in family relationships through present-moment emotional experiencing and authentic self-expression.",
+    "significance": "인본주의적 가치를 가족치료에 적용한 접근으로, 가족 구성원의 자존감과 의사소통 능력 향상을 강조한다.",
+    "key_researchers": [
+      {
+        "name_ko": "버지니아 사티어",
+        "name_en": "Virginia Satir",
+        "contribution": "의사소통 유형과 자존감 개념을 가족치료에 도입하고 경험적 접근을 체계화하였다"
+      },
+      {
+        "name_ko": "칼 위태커",
+        "name_en": "Carl Whitaker",
+        "contribution": "상징적-경험적 가족치료를 개발하여 치료적 자발성과 창의성을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "의사소통 유형",
+        "name_en": "Communication Stances",
+        "id": "FAMILY_CS_031"
+      },
+      {
+        "name_ko": "가족조각",
+        "name_en": "Family Sculpting",
+        "id": "FAMILY_FSC_032"
+      },
+      {
+        "name_ko": "인간중심상담",
+        "name_en": "Person-Centered Counseling",
+        "id": "PERSON_PC_001"
+      },
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "FAMILY_FT_001"
+      }
+    ],
+    "sub_types": [
+      "사티어 모델",
+      "상징적-경험적 모델 (위태커)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "경험적 = 머리(이론)보다 가슴(경험)으로 가족을 치료한다",
+      "differential": "구조적 가족치료는 가족의 조직적 구조에, 경험적 가족치료는 구성원의 정서적 경험에 초점을 둔다",
+      "key_point": "치료의 핵심은 가족 구성원이 진정한 감정을 표현하고 성장하는 경험을 하는 것이다",
+      "common_mistake": "경험적 가족치료를 체계적이지 않은 것으로 오해하기 쉬우나, 사티어 모델은 의사소통 유형과 자존감에 대한 체계적 이론을 갖고 있다"
+    }
+  },
+  {
+    "id": "FAMILY_CS_031",
+    "terminology": "의사소통 유형 (Communication Stances)",
+    "terminology_ko": "의사소통 유형",
+    "terminology_en": "Communication Stances",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "사티어가 제시한 스트레스 상황에서 사람들이 보이는 네 가지 역기능적 의사소통 유형으로, 회유형, 비난형, 초이성형, 산만형이 있으며, 건강한 유형은 일치형이다.",
+    "definition_en": "Four dysfunctional communication patterns identified by Satir that people display under stress: placating, blaming, super-reasonable, and irrelevant, with the congruent stance being the healthy pattern.",
+    "significance": "사티어 모델의 핵심 개념으로, 가족 내 역기능적 의사소통 패턴을 진단하고 일치적 의사소통으로의 변화를 도모하는 기본 틀이다.",
+    "key_researchers": [
+      {
+        "name_ko": "버지니아 사티어",
+        "name_en": "Virginia Satir",
+        "contribution": "다섯 가지 의사소통 유형(회유형, 비난형, 초이성형, 산만형, 일치형)을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경험적 가족치료",
+        "name_en": "Experiential Family Therapy",
+        "id": "FAMILY_EF_030"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PERSON_CG_004"
+      },
+      {
+        "name_ko": "가족조각",
+        "name_en": "Family Sculpting",
+        "id": "FAMILY_FSC_032"
+      }
+    ],
+    "sub_types": [
+      "회유형 (Placating)",
+      "비난형 (Blaming)",
+      "초이성형 (Super-reasonable)",
+      "산만형 (Irrelevant)",
+      "일치형 (Congruent)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "회비초산일 = 회유, 비난, 초이성, 산만은 역기능, 일치가 건강",
+      "differential": "회유형은 자기를 무시하고 타인에 맞추고, 비난형은 타인을 무시하고 자기를 주장하며, 초이성형은 자기와 타인 모두 무시하고 상황에만 초점을 둔다",
+      "key_point": "일치형만이 자기, 타인, 상황을 모두 고려하는 건강한 의사소통이다",
+      "common_mistake": "의사소통 유형을 고정된 성격 특성으로 오해하기 쉬우나, 스트레스 상황에서의 대처 방식이며 변화 가능하다"
+    }
+  },
+  {
+    "id": "FAMILY_FSC_032",
+    "terminology": "가족조각 (Family Sculpting)",
+    "terminology_ko": "가족조각",
+    "terminology_en": "Family Sculpting",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "가족 구성원들의 관계와 정서적 역동을 공간적 배치와 신체적 자세로 표현하는 경험적 기법으로, 사티어가 체계화하였다. 가족이 느끼는 관계의 질을 비언어적으로 시각화한다.",
+    "definition_en": "An experiential technique systematized by Satir that expresses family members' relationships and emotional dynamics through spatial positioning and body postures, providing a nonverbal visualization of the perceived quality of relationships.",
+    "significance": "언어로 표현하기 어려운 가족 관계의 정서적 측면을 시각적으로 표현하여 가족 구성원의 통찰을 촉진하는 강력한 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "버지니아 사티어",
+        "name_en": "Virginia Satir",
+        "contribution": "가족조각 기법을 가족치료의 경험적 도구로 체계화하였다"
+      },
+      {
+        "name_ko": "데이비드 카프",
+        "name_en": "David Kantor",
+        "contribution": "가족조각의 초기 형태를 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경험적 가족치료",
+        "name_en": "Experiential Family Therapy",
+        "id": "FAMILY_EF_030"
+      },
+      {
+        "name_ko": "의사소통 유형",
+        "name_en": "Communication Stances",
+        "id": "FAMILY_CS_031"
+      },
+      {
+        "name_ko": "실연",
+        "name_en": "Enactment",
+        "id": "FAMILY_EN_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "가족조각 = 가족 관계를 '조각상'처럼 몸으로 표현한다",
+      "differential": "실연(enactment)은 가족이 실제 상호작용을 재현하는 것이고, 가족조각은 관계를 공간적·신체적으로 상징화하는 것이다",
+      "key_point": "비언어적 표현을 통해 가족 구성원이 평소 인식하지 못했던 관계 역동을 체험적으로 인식하게 한다",
+      "common_mistake": "가족조각을 단순한 '게임'이나 '활동'으로 오해하기 쉬우나, 심층적인 정서적 경험과 통찰을 유도하는 치료적 기법이다"
+    }
+  },
+  {
+    "id": "FAMILY_SFF_033",
+    "terminology": "해결중심 가족치료 (Solution-Focused Family Therapy)",
+    "terminology_ko": "해결중심 가족치료",
+    "terminology_en": "Solution-Focused Family Therapy",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "문제의 원인 탐색보다 해결책 구축에 초점을 두는 단기 가족치료 접근으로, 가족의 강점과 자원을 활용하여 원하는 변화를 만들어간다. 기적질문, 예외질문, 척도질문 등이 핵심 기법이다.",
+    "definition_en": "A brief family therapy approach that focuses on constructing solutions rather than exploring problem causes, utilizing the family's strengths and resources to create desired change. Miracle questions, exception questions, and scaling questions are core techniques.",
+    "significance": "문제 중심 패러다임에서 해결 중심 패러다임으로의 전환을 대표하며, 단기적이고 효율적인 치료를 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티브 드 셰이저",
+        "name_en": "Steve de Shazer",
+        "contribution": "해결중심 단기치료(SFBT)를 개발하고 기적질문 등 핵심 기법을 창안하였다"
+      },
+      {
+        "name_ko": "인수 킴 버그",
+        "name_en": "Insoo Kim Berg",
+        "contribution": "해결중심 접근을 가족치료와 다양한 임상 상황에 적용하고 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "기적질문",
+        "name_en": "Miracle Question",
+        "id": "FAMILY_MQ_034"
+      },
+      {
+        "name_ko": "예외질문",
+        "name_en": "Exception Question",
+        "id": "FAMILY_EQ_035"
+      },
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "FAMILY_FT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "해결중심 = 문제 대신 '해결'에 집중하는 가족치료",
+      "differential": "정신역동적 접근은 문제의 원인을 탐색하지만, 해결중심 접근은 해결책을 직접 구축한다",
+      "key_point": "기본 가정: '문제에 대해 알 필요 없이 해결책을 구축할 수 있다'",
+      "common_mistake": "해결중심 치료를 단순히 '긍정적으로 생각하기'로 오해하기 쉬우나, 체계적인 질문 기법과 과제를 활용하는 구조화된 접근이다"
+    }
+  },
+  {
+    "id": "FAMILY_MQ_034",
+    "terminology": "기적질문 (Miracle Question)",
+    "terminology_ko": "기적질문",
+    "terminology_en": "Miracle Question",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "해결중심 치료의 핵심 기법으로, '오늘 밤 잠자는 동안 기적이 일어나 문제가 해결되었다면 내일 아침 어떻게 알 수 있을까?'라는 질문을 통해 내담자가 원하는 미래를 구체적으로 그려보게 하는 기법이다.",
+    "definition_en": "A core technique in solution-focused therapy that asks 'If a miracle happened while you slept tonight and your problem was solved, how would you know tomorrow morning?' to help clients concretely envision their desired future.",
+    "significance": "문제 중심 사고에서 벗어나 해결 지향적 사고로 전환하는 강력한 도구로, 치료 목표를 구체화하는 데 효과적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티브 드 셰이저",
+        "name_en": "Steve de Shazer",
+        "contribution": "기적질문을 해결중심 치료의 핵심 기법으로 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "해결중심 가족치료",
+        "name_en": "Solution-Focused Family Therapy",
+        "id": "FAMILY_SFF_033"
+      },
+      {
+        "name_ko": "예외질문",
+        "name_en": "Exception Question",
+        "id": "FAMILY_EQ_035"
+      },
+      {
+        "name_ko": "척도질문",
+        "name_en": "Scaling Question",
+        "id": "FAMILY_SQ_036"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기적질문 = '기적이 일어나면 내일 아침 뭐가 달라질까?'",
+      "differential": "예외질문은 이미 일어난 해결의 순간에 초점을 두지만, 기적질문은 아직 일어나지 않은 이상적 미래에 초점을 둔다",
+      "key_point": "기적질문의 목적은 내담자가 원하는 변화를 구체적이고 행동적인 용어로 기술하게 하는 것이다",
+      "common_mistake": "기적질문을 비현실적 희망을 조장하는 것으로 오해하기 쉬우나, 구체적이고 실현 가능한 목표를 설정하기 위한 도구이다"
+    }
+  },
+  {
+    "id": "FAMILY_EQ_035",
+    "terminology": "예외질문 (Exception Question)",
+    "terminology_ko": "예외질문",
+    "terminology_en": "Exception Question",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "해결중심 치료의 핵심 기법으로, 문제가 일어나지 않았거나 덜 심했던 예외적 상황을 탐색하여 이미 존재하는 해결책과 강점을 발견하도록 돕는 질문이다.",
+    "definition_en": "A core technique in solution-focused therapy that explores exceptional situations when the problem did not occur or was less severe, helping to discover already existing solutions and strengths.",
+    "significance": "문제가 '항상' 존재하는 것이 아님을 인식하게 하여 내담자의 자기효능감을 높이고 변화 가능성을 확인하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티브 드 셰이저",
+        "name_en": "Steve de Shazer",
+        "contribution": "예외질문을 해결중심 치료의 핵심 기법으로 개발하였다"
+      },
+      {
+        "name_ko": "인수 킴 버그",
+        "name_en": "Insoo Kim Berg",
+        "contribution": "예외질문의 임상적 활용을 확장하고 다양한 내담자 집단에 적용하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "해결중심 가족치료",
+        "name_en": "Solution-Focused Family Therapy",
+        "id": "FAMILY_SFF_033"
+      },
+      {
+        "name_ko": "기적질문",
+        "name_en": "Miracle Question",
+        "id": "FAMILY_MQ_034"
+      },
+      {
+        "name_ko": "척도질문",
+        "name_en": "Scaling Question",
+        "id": "FAMILY_SQ_036"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "예외질문 = '문제가 없었던 때는 언제?'를 찾아 해결의 실마리를 발견한다",
+      "differential": "기적질문은 이상적 미래를 상상하게 하지만, 예외질문은 이미 일어난 성공 경험을 탐색한다",
+      "key_point": "예외 상황에서 내담자가 무엇을 다르게 했는지를 구체적으로 탐색하여 해결 행동을 확대한다",
+      "common_mistake": "예외를 단순한 '우연'으로 치부하기 쉬우나, 예외 속에 내담자의 강점과 해결 자원이 있다"
+    }
+  },
+  {
+    "id": "FAMILY_SQ_036",
+    "terminology": "척도질문 (Scaling Question)",
+    "terminology_ko": "척도질문",
+    "terminology_en": "Scaling Question",
+    "category": "FAMILY",
+    "category_name": "가족상담 (Family Therapy)",
+    "definition": "해결중심 치료에서 문제의 심각도, 변화에 대한 동기, 진전 정도 등을 0~10점 척도로 평가하게 하여 변화를 구체적이고 측정 가능하게 만드는 질문 기법이다.",
+    "definition_en": "A questioning technique in solution-focused therapy that has clients rate problem severity, motivation for change, progress, etc., on a 0-10 scale, making change concrete and measurable.",
+    "significance": "추상적인 변화를 구체적 수치로 표현하게 하여 작은 진전을 인식하고 다음 단계를 설정하는 데 효과적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "인수 킴 버그",
+        "name_en": "Insoo Kim Berg",
+        "contribution": "척도질문의 다양한 활용법을 개발하고 임상적 유용성을 확립하였다"
+      },
+      {
+        "name_ko": "스티브 드 셰이저",
+        "name_en": "Steve de Shazer",
+        "contribution": "척도질문을 해결중심 치료의 핵심 도구로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "해결중심 가족치료",
+        "name_en": "Solution-Focused Family Therapy",
+        "id": "FAMILY_SFF_033"
+      },
+      {
+        "name_ko": "기적질문",
+        "name_en": "Miracle Question",
+        "id": "FAMILY_MQ_034"
+      },
+      {
+        "name_ko": "예외질문",
+        "name_en": "Exception Question",
+        "id": "FAMILY_EQ_035"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "척도질문 = '0점에서 10점 사이 지금 몇 점?'으로 변화를 수치화한다",
+      "differential": "기적질문과 예외질문이 질적 탐색이라면, 척도질문은 양적 평가로 변화를 측정한다",
+      "key_point": "현재 점수보다 1점 높아지려면 무엇이 달라져야 하는지를 탐색하여 작은 변화를 촉진한다",
+      "common_mistake": "척도질문을 단순한 자기평가 도구로 오해하기 쉬우나, 변화 동기 탐색과 목표 설정의 치료적 도구이다"
+    }
+  }
+]

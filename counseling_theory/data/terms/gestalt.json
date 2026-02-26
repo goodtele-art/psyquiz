@@ -1,0 +1,1754 @@
+[
+  {
+    "id": "GESTALT_GT_001",
+    "terminology": "게슈탈트 상담 (Gestalt Therapy)",
+    "terminology_ko": "게슈탈트 상담",
+    "terminology_en": "Gestalt Therapy",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "프리츠 펄스가 창시한 체험적·실존적 상담 접근으로, '지금 여기'의 자각과 접촉을 강조하며, 미해결 과제의 완결과 통합적 자기 경험을 통해 성장을 촉진하는 치료법이다.",
+    "definition_en": "An experiential and existential counseling approach founded by Fritz Perls that emphasizes awareness and contact in the 'here and now,' facilitating growth through completion of unfinished business and integrated self-experience.",
+    "significance": "체험적 상담의 대표적 접근으로, 내담자가 직접적 경험을 통해 자각을 확대하고 실존적 책임을 수용하도록 돕는 독창적 방법론을 제시했다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "게슈탈트 상담의 창시자로서 이론과 주요 기법을 개발"
+      },
+      {
+        "name_ko": "로라 펄스",
+        "name_en": "Laura Perls",
+        "contribution": "게슈탈트 상담의 공동 창시자로서 관계적 측면을 발전"
+      },
+      {
+        "name_ko": "폴 굿맨",
+        "name_en": "Paul Goodman",
+        "contribution": "게슈탈트 상담의 이론적 체계를 공동 저술"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "지금 여기",
+        "name_en": "Here and Now",
+        "id": "GESTALT_HN_003"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "GESTALT_UB_004"
+      },
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_EX_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "고전적 게슈탈트",
+        "description": "프리츠 펄스의 대결적·극적 스타일을 따르는 접근"
+      },
+      {
+        "name": "관계적 게슈탈트",
+        "description": "상담자-내담자 관계를 중시하는 현대적 접근"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "게슈탈트(Gestalt) = '전체, 형태' → 전체적 자각과 통합을 지향하는 상담",
+      "differential": "인간중심 상담이 상담자의 태도를 강조하는 반면, 게슈탈트는 내담자의 자각과 체험을 강조한다",
+      "key_point": "게슈탈트 상담의 목표는 '왜(why)'를 찾는 것이 아니라 '어떻게(how)'와 '무엇(what)'을 자각하는 것이다",
+      "common_mistake": "게슈탈트 상담은 게슈탈트 심리학(지각 심리학)과는 다른 독립적인 상담 접근이다"
+    }
+  },
+  {
+    "id": "GESTALT_AW_002",
+    "terminology": "자각 (Awareness)",
+    "terminology_ko": "자각",
+    "terminology_en": "Awareness",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "지금 이 순간 자신의 감각, 감정, 사고, 행동, 신체 반응을 왜곡 없이 알아차리는 것으로, 게슈탈트 상담에서 모든 변화의 출발점이자 그 자체로 치유적 힘을 가진 핵심 개념이다.",
+    "definition_en": "The undistorted noticing of one's sensations, feelings, thoughts, behaviors, and bodily reactions in the present moment, the starting point of all change in Gestalt therapy and itself a curative force.",
+    "significance": "게슈탈트 상담의 가장 핵심적인 개념으로, 자각 자체가 치료적이라는 관점은 이 접근의 독창적 기여이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "자각을 게슈탈트 상담의 핵심 원리로 정립"
+      },
+      {
+        "name_ko": "클라우디오 나란호",
+        "name_en": "Claudio Naranjo",
+        "contribution": "자각의 세 영역(내적, 외적, 중간)을 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "지금 여기",
+        "name_en": "Here and Now",
+        "id": "GESTALT_HN_003"
+      },
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "자각의 연속체",
+        "name_en": "Continuum of Awareness",
+        "id": "GESTALT_CA_006"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "내적 자각 (Inner Zone)",
+        "description": "감정, 신체 감각, 근육 긴장 등 내부 경험의 자각"
+      },
+      {
+        "name": "외적 자각 (Outer Zone)",
+        "description": "감각을 통해 지각하는 외부 세계의 자각"
+      },
+      {
+        "name": "중간 자각 (Middle Zone)",
+        "description": "사고, 판단, 해석, 상상 등 정신 활동의 자각"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "자각의 3영역: 내(감정/신체) + 외(감각) + 중간(사고) = 전체적 자각",
+      "differential": "인간중심의 '경험에 대한 개방성'이 수동적 수용이라면, 게슈탈트의 자각은 적극적 알아차림이다",
+      "key_point": "자각 그 자체가 치료적이다(Awareness per se is curative) - 게슈탈트의 핵심 명제",
+      "common_mistake": "자각은 단순한 지적 이해(insight)가 아니라, 감각·감정·행동을 포함한 전체적 알아차림이다"
+    }
+  },
+  {
+    "id": "GESTALT_HN_003",
+    "terminology": "지금 여기 (Here and Now)",
+    "terminology_ko": "지금 여기",
+    "terminology_en": "Here and Now",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "현재 순간의 경험에 초점을 맞추는 게슈탈트 상담의 핵심 원리로, 과거 경험이나 미래 계획보다 지금 이 순간에 무엇을 느끼고 경험하는지를 탐색하도록 안내한다.",
+    "definition_en": "A core principle of Gestalt therapy focusing on present-moment experience, guiding exploration of what one feels and experiences right now rather than past experiences or future plans.",
+    "significance": "과거 지향적인 정신분석과 대비되는 게슈탈트 상담의 독창적 관점으로, 변화가 현재에서만 일어날 수 있다는 철학적 입장을 반영한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "'지금 여기'를 게슈탈트 상담의 중심 원리로 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "현재화 기법",
+        "name_en": "Presentification",
+        "id": "GESTALT_PR_007"
+      },
+      {
+        "name_ko": "실존적 삶",
+        "name_en": "Existential Living",
+        "id": "PERSON_EL_030"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "펄스: 'Nothing exists except the here and now' (지금 여기 외에는 아무것도 존재하지 않는다)",
+      "differential": "정신분석이 과거를 분석하고 인지치료가 미래 결과를 예측한다면, 게슈탈트는 현재 경험에 초점을 맞춘다",
+      "key_point": "과거 사건도 '지금 여기'에서 재경험할 때만 치료적 가치가 있다",
+      "common_mistake": "'지금 여기'는 과거를 무시하는 것이 아니라, 과거 경험을 현재 순간에 가져와 다루는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_UB_004",
+    "terminology": "미해결 과제 (Unfinished Business)",
+    "terminology_ko": "미해결 과제",
+    "terminology_en": "Unfinished Business",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "과거에 충분히 표현되거나 해결되지 못한 감정, 욕구, 경험이 현재까지 영향을 미치는 것으로, 완결되지 못한 게슈탈트로서 지속적으로 자각을 요구하며 현재의 기능을 방해한다.",
+    "definition_en": "Emotions, needs, and experiences from the past that were not fully expressed or resolved, continuing to affect the present as incomplete gestalts that persistently demand awareness and interfere with current functioning.",
+    "significance": "게슈탈트 상담에서 심리적 문제의 주요 원인으로 보며, 미해결 감정의 완결이 상담의 핵심 과제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "미해결 과제 개념을 게슈탈트 심리학의 미완성 효과와 연결하여 이론화"
+      },
+      {
+        "name_ko": "블루마 자이가르닉",
+        "name_en": "Bluma Zeigarnik",
+        "contribution": "미완성 과제의 기억 효과(자이가르닉 효과)를 실험적으로 증명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "전경과 배경",
+        "name_en": "Figure and Ground",
+        "id": "GESTALT_FG_008"
+      },
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "빈 의자 기법",
+        "name_en": "Empty Chair Technique",
+        "id": "GESTALT_EC_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "미해결 과제 = 닫히지 않은 서랍: 계속 의식을 끌어당기며 주의를 분산시킨다",
+      "differential": "정신분석의 억압된 내용은 무의식에 묻히지만, 게슈탈트의 미해결 과제는 끊임없이 전경으로 올라오려 한다",
+      "key_point": "미해결 과제의 핵심은 '억압된 감정'이며, 특히 분노, 슬픔, 죄책감, 원망이 대표적이다",
+      "common_mistake": "미해결 과제는 과거 사건 자체가 아니라, 그 사건에서 충분히 표현되지 못한 '감정'을 의미한다"
+    }
+  },
+  {
+    "id": "GESTALT_CT_005",
+    "terminology": "접촉 (Contact)",
+    "terminology_ko": "접촉",
+    "terminology_en": "Contact",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "유기체가 환경과 만나는 경계에서 일어나는 상호작용으로, 자기와 타자를 구분하면서도 연결하는 건강한 관계 경험의 핵심이자, 성장과 변화가 일어나는 지점이다.",
+    "definition_en": "The interaction occurring at the boundary where the organism meets the environment, the core of healthy relational experience that both differentiates and connects self and other, the point where growth and change occur.",
+    "significance": "게슈탈트 상담에서 건강한 접촉은 심리적 건강의 지표이며, 접촉의 장애가 심리적 문제의 원인이라고 본다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "접촉을 유기체-환경 상호작용의 핵심으로 이론화"
+      },
+      {
+        "name_ko": "폴 굿맨",
+        "name_en": "Paul Goodman",
+        "contribution": "접촉 이론의 체계적 정교화에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉 경계",
+        "name_en": "Contact Boundary",
+        "id": "GESTALT_CB_011"
+      },
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "접촉 철수 주기",
+        "name_en": "Contact-Withdrawal Cycle",
+        "id": "GESTALT_CWC_012"
+      },
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "접촉 = 유기체와 환경이 만나는 경계면에서의 생생한 상호작용",
+      "differential": "일상적 의미의 접촉(physical contact)이 아니라, 자기와 환경 간의 심리적 상호작용을 의미한다",
+      "key_point": "건강한 접촉은 자기와 타자의 구분을 유지하면서 연결하는 것이다",
+      "common_mistake": "접촉은 항상 좋은 것이 아니며, 건강한 접촉과 함께 건강한 철수도 필요하다"
+    }
+  },
+  {
+    "id": "GESTALT_CA_006",
+    "terminology": "자각의 연속체 (Continuum of Awareness)",
+    "terminology_ko": "자각의 연속체",
+    "terminology_en": "Continuum of Awareness",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "순간순간 변화하는 자신의 경험을 끊김 없이 계속 알아차리는 것으로, 게슈탈트 상담에서 사용하는 기본적인 자각 훈련 방법이자 치료적 도구이다.",
+    "definition_en": "The continuous, uninterrupted noticing of one's changing experience from moment to moment, a basic awareness training method and therapeutic tool used in Gestalt therapy.",
+    "significance": "내담자가 자각을 회피하지 않고 지속적으로 유지하도록 돕는 게슈탈트 상담의 기본 기법으로, 자각 확대의 출발점이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "자각의 연속체를 게슈탈트 상담의 기본 훈련으로 도입"
+      },
+      {
+        "name_ko": "클라우디오 나란호",
+        "name_en": "Claudio Naranjo",
+        "contribution": "자각의 연속체 실습 방법을 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "지금 여기",
+        "name_en": "Here and Now",
+        "id": "GESTALT_HN_003"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'지금 나는 ~을 알아차리고 있다'를 계속 반복하며 자각의 흐름을 따라가기",
+      "differential": "자유연상이 떠오르는 생각을 따라가는 것이라면, 자각의 연속체는 현재의 감각·감정·사고를 알아차리는 것이다",
+      "key_point": "자각의 연속체에서 끊기는 지점이 바로 자각 회피 또는 접촉 방해가 일어나는 지점이다",
+      "common_mistake": "자각의 연속체는 생각의 연속이 아니라, 전체적 경험(감각, 감정, 사고, 행동)의 연속적 알아차림이다"
+    }
+  },
+  {
+    "id": "GESTALT_PR_007",
+    "terminology": "현재화 기법 (Presentification)",
+    "terminology_ko": "현재화 기법",
+    "terminology_en": "Presentification",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "과거의 경험이나 상상을 현재 시제로 전환하여 '지금 여기'에서 재경험하도록 하는 기법으로, 과거 이야기를 현재형으로 말하거나 장면을 재연하게 하는 방식이다.",
+    "definition_en": "A technique that converts past experiences or fantasies into the present tense for re-experiencing in the 'here and now,' such as having clients narrate past stories in the present tense or re-enact scenes.",
+    "significance": "과거 경험에 대한 지적 분석을 넘어 현재 순간의 체험적 자각으로 전환시키는 게슈탈트 상담의 핵심 전략이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "현재화 기법을 게슈탈트 상담의 기본 전략으로 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "지금 여기",
+        "name_en": "Here and Now",
+        "id": "GESTALT_HN_003"
+      },
+      {
+        "name_ko": "빈 의자 기법",
+        "name_en": "Empty Chair Technique",
+        "id": "GESTALT_EC_010"
+      },
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'그때 ~했어요' → '지금 ~하고 있어요'로 시제 전환 = 현재화",
+      "differential": "정신분석의 과거 회상이 과거형으로 이루어지는 반면, 게슈탈트의 현재화는 현재형으로 재경험하게 한다",
+      "key_point": "현재화를 통해 과거 감정이 현재에 생생하게 다시 느껴져야 미해결 과제가 해결될 수 있다",
+      "common_mistake": "현재화는 단순히 동사 시제를 바꾸는 것이 아니라, 과거 경험을 지금 이 순간에 실제로 다시 경험하게 하는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_FG_008",
+    "terminology": "전경과 배경 (Figure and Ground)",
+    "terminology_ko": "전경과 배경",
+    "terminology_en": "Figure and Ground",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "게슈탈트 심리학에서 차용한 개념으로, 현재 가장 두드러진 욕구나 관심이 전경(figure)이 되고 나머지는 배경(ground)으로 물러나는 지각의 조직 원리를 심리적 과정에 적용한 것이다.",
+    "definition_en": "A concept borrowed from Gestalt psychology, applying the perceptual organization principle to psychological processes where the most prominent need or interest becomes the figure while the rest recedes into the ground.",
+    "significance": "건강한 기능은 전경과 배경이 자유롭게 교체되는 것이며, 이 과정이 경직되면 심리적 문제가 발생한다는 게슈탈트 상담의 핵심 이론이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "게슈탈트 심리학의 전경/배경 원리를 심리치료에 적용"
+      },
+      {
+        "name_ko": "쿠르트 코프카",
+        "name_en": "Kurt Koffka",
+        "contribution": "게슈탈트 심리학에서 전경/배경 개념의 이론적 기초를 제공"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "GESTALT_UB_004"
+      },
+      {
+        "name_ko": "게슈탈트 형성과 해체",
+        "name_en": "Gestalt Formation and Destruction",
+        "id": "GESTALT_GFD_013"
+      },
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "배고프면 음식(전경) vs 풍경(배경), 먹고 나면 음식(배경) vs 다른 욕구(전경)",
+      "differential": "게슈탈트 심리학의 시지각적 전경/배경과 달리, 게슈탈트 상담에서는 심리적 욕구와 감정에 적용한다",
+      "key_point": "미해결 과제는 완결되지 못해 전경에 고착된 게슈탈트로, 새로운 경험의 전경 형성을 방해한다",
+      "common_mistake": "전경/배경은 고정된 것이 아니라 욕구 충족에 따라 끊임없이 변화하는 역동적 과정이다"
+    }
+  },
+  {
+    "id": "GESTALT_CBD_009",
+    "terminology": "접촉 경계 혼란 (Contact Boundary Disturbances)",
+    "terminology_ko": "접촉 경계 혼란",
+    "terminology_en": "Contact Boundary Disturbances",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "유기체와 환경 사이의 경계에서 건강한 접촉이 방해받는 다섯 가지 기제로, 내사, 투사, 융합, 반전, 편향이 포함되며 심리적 부적응의 원인이 된다.",
+    "definition_en": "Five mechanisms that disturb healthy contact at the boundary between organism and environment, including introjection, projection, confluence, retroflection, and deflection, causing psychological maladjustment.",
+    "significance": "게슈탈트 상담에서 심리적 문제의 원인을 설명하는 핵심 이론으로, 각 혼란 유형에 따른 상담 전략이 달라진다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "접촉 경계 혼란의 유형을 체계화"
+      },
+      {
+        "name_ko": "어빙 폴스터",
+        "name_en": "Erving Polster",
+        "contribution": "접촉 경계 혼란의 임상적 적용을 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "접촉 경계",
+        "name_en": "Contact Boundary",
+        "id": "GESTALT_CB_011"
+      },
+      {
+        "name_ko": "내사",
+        "name_en": "Introjection",
+        "id": "GESTALT_IJ_014"
+      },
+      {
+        "name_ko": "투사",
+        "name_en": "Projection",
+        "id": "GESTALT_PJ_015"
+      },
+      {
+        "name_ko": "융합",
+        "name_en": "Confluence",
+        "id": "GESTALT_CF_016"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "내사 (Introjection)",
+        "description": "외부의 것을 소화하지 않고 그대로 삼키는 것"
+      },
+      {
+        "name": "투사 (Projection)",
+        "description": "자신의 것을 타인에게 돌리는 것"
+      },
+      {
+        "name": "융합 (Confluence)",
+        "description": "자기와 환경의 경계가 모호해지는 것"
+      },
+      {
+        "name": "반전 (Retroflection)",
+        "description": "환경에 할 것을 자기에게 돌리는 것"
+      },
+      {
+        "name": "편향 (Deflection)",
+        "description": "직접적 접촉을 회피하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "접촉 경계 혼란 5가지: 내(내사), 투(투사), 융(융합), 반(반전), 편(편향)",
+      "differential": "정신분석의 방어기제가 무의식적 자아 보호인 반면, 접촉 경계 혼란은 유기체-환경 상호작용의 장애이다",
+      "key_point": "각 접촉 경계 혼란은 적절한 수준에서는 정상적이며, 과도하거나 경직될 때만 병리적이다",
+      "common_mistake": "접촉 경계 혼란이 항상 병리적인 것은 아니며, 상황에 따라 적응적으로 사용될 수 있다"
+    }
+  },
+  {
+    "id": "GESTALT_EC_010",
+    "terminology": "빈 의자 기법 (Empty Chair Technique)",
+    "terminology_ko": "빈 의자 기법",
+    "terminology_en": "Empty Chair Technique",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "빈 의자에 대화 상대(부재한 타인, 자기의 한 측면 등)가 앉아 있다고 상상하고 직접 대화하는 체험적 기법으로, 미해결 감정을 표현하고 통합을 촉진하는 대표적 게슈탈트 기법이다.",
+    "definition_en": "An experiential technique where the client imagines a dialogue partner (absent other, aspect of self, etc.) sitting in an empty chair and engages in direct conversation, facilitating expression of unresolved feelings and promoting integration.",
+    "significance": "게슈탈트 상담의 가장 대표적이고 널리 알려진 기법으로, 감정 처리 연구에서 그 효과가 실증적으로 지지되고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "빈 의자 기법을 게슈탈트 상담의 핵심 기법으로 발전"
+      },
+      {
+        "name_ko": "레슬리 그린버그",
+        "name_en": "Leslie Greenberg",
+        "contribution": "빈 의자 기법의 과정 연구와 감정초점치료에서의 체계적 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "GESTALT_UB_004"
+      },
+      {
+        "name_ko": "현재화 기법",
+        "name_en": "Presentification",
+        "id": "GESTALT_PR_007"
+      },
+      {
+        "name_ko": "두 의자 기법",
+        "name_en": "Two-Chair Technique",
+        "id": "GESTALT_TC_017"
+      },
+      {
+        "name_ko": "직면",
+        "name_en": "Confrontation",
+        "id": "PROCESS_CF_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "빈 의자 = 대화하고 싶은 사람(또는 자기 일부)을 눈앞에 불러오기",
+      "differential": "두 의자 기법이 자기 내면의 갈등을 다루는 것이라면, 빈 의자 기법은 주로 타인과의 미해결 관계를 다룬다",
+      "key_point": "빈 의자 기법의 핵심은 단순히 말하는 것이 아니라, 감정을 충분히 경험하고 표현하는 것이다",
+      "common_mistake": "빈 의자에 앉은 상대를 비난하는 것이 목적이 아니라, 미해결 감정을 처리하고 통합하는 것이 목적이다"
+    }
+  },
+  {
+    "id": "GESTALT_CB_011",
+    "terminology": "접촉 경계 (Contact Boundary)",
+    "terminology_ko": "접촉 경계",
+    "terminology_en": "Contact Boundary",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "유기체(자기)와 환경(타자) 사이에 존재하는 심리적 경계로, 자기와 비자기를 구분하면서 동시에 만나는 지점이며, 모든 심리적 사건이 일어나는 장소이다.",
+    "definition_en": "The psychological boundary between the organism (self) and the environment (other), the point that both differentiates and connects self and non-self, where all psychological events occur.",
+    "significance": "게슈탈트 상담에서 건강한 성격은 유연한 접촉 경계를 가진 것이며, 경계의 경직이나 혼란이 부적응을 초래한다고 본다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "접촉 경계를 유기체-환경 상호작용의 핵심 개념으로 정립"
+      },
+      {
+        "name_ko": "폴 굿맨",
+        "name_en": "Paul Goodman",
+        "contribution": "접촉 경계 이론의 철학적 기초를 제공"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "자기조절",
+        "name_en": "Self-Regulation",
+        "id": "GESTALT_SR_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "접촉 경계 = 피부 같은 것: 안과 밖을 구분하면서도 교류하게 하는 면",
+      "differential": "물리적 경계(피부)가 아닌 심리적 경계를 의미하며, 유연하게 변화할 수 있어야 건강하다",
+      "key_point": "접촉 경계가 너무 경직되면 고립, 너무 느슨하면 자기 상실이 된다",
+      "common_mistake": "접촉 경계는 자기와 환경을 분리시키는 벽이 아니라, 만남이 일어나는 장소이다"
+    }
+  },
+  {
+    "id": "GESTALT_CWC_012",
+    "terminology": "접촉-철수 주기 (Contact-Withdrawal Cycle)",
+    "terminology_ko": "접촉-철수 주기",
+    "terminology_en": "Contact-Withdrawal Cycle",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "유기체가 욕구를 자각하고 환경과 접촉하여 욕구를 충족한 후 접촉에서 철수하는 자연스러운 순환 과정으로, 이 과정이 방해받으면 미해결 과제가 형성된다.",
+    "definition_en": "The natural cyclical process where the organism becomes aware of a need, contacts the environment to satisfy it, and then withdraws from contact; disruption of this process creates unfinished business.",
+    "significance": "건강한 자기조절의 기본 리듬을 설명하며, 이 주기의 어느 단계에서 방해가 일어나는지를 파악하는 것이 상담의 진단적 도구가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "접촉-철수 주기를 유기체 자기조절의 기본 모델로 제시"
+      },
+      {
+        "name_ko": "조셉 징커",
+        "name_en": "Joseph Zinker",
+        "contribution": "접촉-철수 주기의 단계를 보다 세분화하여 경험의 주기(cycle of experience)로 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "GESTALT_UB_004"
+      },
+      {
+        "name_ko": "게슈탈트 형성과 해체",
+        "name_en": "Gestalt Formation and Destruction",
+        "id": "GESTALT_GFD_013"
+      },
+      {
+        "name_ko": "자기조절",
+        "name_en": "Self-Regulation",
+        "id": "GESTALT_SR_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "감각 → 자각 → 에너지 동원 → 행동 → 접촉 → 충족 → 철수의 순환",
+      "differential": "매슬로우의 욕구위계가 욕구의 내용을 다룬다면, 접촉-철수 주기는 욕구 충족의 과정을 다룬다",
+      "key_point": "건강한 사람은 이 주기를 자유롭게 순환하지만, 신경증적 사람은 특정 단계에서 반복적으로 막힌다",
+      "common_mistake": "철수는 회피가 아니라 욕구 충족 후의 자연스러운 이완 과정이다"
+    }
+  },
+  {
+    "id": "GESTALT_GFD_013",
+    "terminology": "게슈탈트 형성과 해체 (Gestalt Formation and Destruction)",
+    "terminology_ko": "게슈탈트 형성과 해체",
+    "terminology_en": "Gestalt Formation and Destruction",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "우세한 욕구가 전경(게슈탈트)으로 형성되고, 충족된 후 배경으로 물러나(해체)면서 새로운 게슈탈트가 형성되는 연속적 과정으로, 건강한 심리적 기능의 기본 메커니즘이다.",
+    "definition_en": "The continuous process where a dominant need forms as a figure (gestalt), is satisfied and then recedes into the ground (destruction), allowing a new gestalt to form; the fundamental mechanism of healthy psychological functioning.",
+    "significance": "건강한 심리적 기능과 부적응의 차이를 게슈탈트의 자유로운 형성/해체 여부로 설명하는 핵심 이론이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "게슈탈트 형성과 해체의 역동을 치료적 개념으로 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "전경과 배경",
+        "name_en": "Figure and Ground",
+        "id": "GESTALT_FG_008"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "GESTALT_UB_004"
+      },
+      {
+        "name_ko": "접촉-철수 주기",
+        "name_en": "Contact-Withdrawal Cycle",
+        "id": "GESTALT_CWC_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "욕구 부상(형성) → 충족(완결) → 소멸(해체) → 새로운 욕구 부상 = 건강한 순환",
+      "differential": "정신분석의 카텍시스/반카텍시스와 유사하게 에너지의 흐름을 다루지만, 게슈탈트는 의식적 자각에 초점을 둔다",
+      "key_point": "미해결 과제는 해체되지 못한 게슈탈트로, 새로운 게슈탈트 형성을 방해한다",
+      "common_mistake": "게슈탈트의 '해체'는 파괴가 아니라 완결과 이완의 자연스러운 과정이다"
+    }
+  },
+  {
+    "id": "GESTALT_IJ_014",
+    "terminology": "내사 (Introjection)",
+    "terminology_ko": "내사",
+    "terminology_en": "Introjection",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "외부의 가치, 신념, 규칙 등을 비판적으로 소화하지 않고 통째로 삼키는 접촉 경계 혼란으로, '~해야 한다'는 형태의 내면화된 메시지로 나타나며 진정한 자기와의 괴리를 유발한다.",
+    "definition_en": "A contact boundary disturbance of swallowing external values, beliefs, and rules without critical digestion, manifesting as internalized 'should' messages and creating a gap from the authentic self.",
+    "significance": "가치 조건의 내면화와 유사한 기제를 설명하며, 게슈탈트 상담에서 '누구의 목소리인가?'를 탐색하는 작업의 이론적 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "내사를 접촉 경계 혼란의 한 유형으로 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "투사",
+        "name_en": "Projection",
+        "id": "GESTALT_PJ_015"
+      },
+      {
+        "name_ko": "톱독과 언더독",
+        "name_en": "Topdog and Underdog",
+        "id": "GESTALT_TU_019"
+      },
+      {
+        "name_ko": "가치 조건",
+        "name_en": "Conditions of Worth",
+        "id": "PERSON_CW_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내사 = 음식을 씹지 않고 통째로 삼킨 것 → 소화 불량(부적응)",
+      "differential": "건강한 동화(assimilation)는 외부 정보를 자기 것으로 소화하지만, 내사는 소화 없이 통째로 삼키는 것이다",
+      "key_point": "내사된 것은 '나의 것'이 아니라 '남의 것'이므로, 이를 자각하고 '씹어서' 소화하거나 뱉어내야 한다",
+      "common_mistake": "내사는 학습과 다르다. 학습은 비판적 소화를 거치지만, 내사는 무비판적 수용이다"
+    }
+  },
+  {
+    "id": "GESTALT_PJ_015",
+    "terminology": "투사 (Projection)",
+    "terminology_ko": "투사",
+    "terminology_en": "Projection",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "자신의 감정, 욕구, 특성을 인정하지 못하고 타인이나 환경에 돌리는 접촉 경계 혼란으로, 자기 경험의 주인으로서의 책임을 회피하는 기제이다.",
+    "definition_en": "A contact boundary disturbance of attributing one's own feelings, needs, and characteristics to others or the environment, a mechanism of avoiding responsibility as the owner of one's experience.",
+    "significance": "자기 경험의 소유와 책임을 다루는 게슈탈트 상담에서, 투사의 자각과 재소유가 치료적 변화의 중요한 과정이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "투사를 접촉 경계 혼란의 한 유형으로 체계화하고 자기 소유(ownership)와 연결"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "내사",
+        "name_en": "Introjection",
+        "id": "GESTALT_IJ_014"
+      },
+      {
+        "name_ko": "책임",
+        "name_en": "Responsibility",
+        "id": "GESTALT_RS_020"
+      },
+      {
+        "name_ko": "방어기제",
+        "name_en": "Defense Mechanisms",
+        "id": "PSYCHOD_DF_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "투사 = 내 것을 남에게 던지기: '내가 화난 게 아니라 저 사람이 화가 났어'",
+      "differential": "정신분석의 투사는 무의식적 방어기제이지만, 게슈탈트의 투사는 접촉 경계에서의 자기-환경 혼동이다",
+      "key_point": "투사를 다룰 때는 '그 사람이 ~한다'를 '내가 ~한다'로 전환하여 재소유하도록 돕는다",
+      "common_mistake": "투사는 내사의 반대가 아니라, 내사와 함께 작동하는 경우가 많다(내사된 기준으로 자기를 판단 → 수용 못함 → 투사)"
+    }
+  },
+  {
+    "id": "GESTALT_CF_016",
+    "terminology": "융합 (Confluence)",
+    "terminology_ko": "융합",
+    "terminology_en": "Confluence",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "자기와 타인(환경) 사이의 경계가 모호해져 구분이 사라지는 접촉 경계 혼란으로, 갈등을 회피하기 위해 차이를 인식하지 못하거나 억압하는 상태이다.",
+    "definition_en": "A contact boundary disturbance where the boundary between self and other (environment) becomes blurred and distinction disappears, a state of failing to recognize or suppressing differences to avoid conflict.",
+    "significance": "관계에서의 자기 상실과 의존 문제를 설명하며, 건강한 관계는 접촉과 분리가 자유로운 것임을 보여준다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "융합을 접촉 경계 혼란의 한 유형으로 이론화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "접촉 경계",
+        "name_en": "Contact Boundary",
+        "id": "GESTALT_CB_011"
+      },
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "융합 = 두 물감이 섞여 경계가 사라진 상태: '우리'만 있고 '나'가 없는 관계",
+      "differential": "공감이 타인의 경험을 이해하면서 자기를 유지하는 것이라면, 융합은 자기와 타인의 구분 자체가 사라지는 것이다",
+      "key_point": "융합 상태에서는 진정한 접촉이 불가능하다. 접촉은 서로 다른 두 존재가 만나는 것이기 때문이다",
+      "common_mistake": "융합은 친밀감이 아니라, 자기와 타인의 차이를 지워버린 상태이다"
+    }
+  },
+  {
+    "id": "GESTALT_TC_017",
+    "terminology": "두 의자 기법 (Two-Chair Technique)",
+    "terminology_ko": "두 의자 기법",
+    "terminology_en": "Two-Chair Technique",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "내면의 상반된 두 부분(예: 톱독과 언더독) 사이의 대화를 두 의자를 번갈아 앉으며 진행하는 기법으로, 내적 갈등의 자각과 통합을 촉진한다.",
+    "definition_en": "A technique where the client alternates between two chairs to conduct a dialogue between opposing inner parts (e.g., topdog and underdog), facilitating awareness and integration of internal conflicts.",
+    "significance": "내적 갈등을 체험적으로 다루는 효과적 기법으로, 감정초점치료(EFT)에서도 핵심 기법으로 채택되어 실증적 지지를 받고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "두 의자 기법을 내적 갈등 해결의 핵심 기법으로 발전"
+      },
+      {
+        "name_ko": "레슬리 그린버그",
+        "name_en": "Leslie Greenberg",
+        "contribution": "두 의자 기법의 과정 연구와 감정초점치료에서의 체계적 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "빈 의자 기법",
+        "name_en": "Empty Chair Technique",
+        "id": "GESTALT_EC_010"
+      },
+      {
+        "name_ko": "톱독과 언더독",
+        "name_en": "Topdog and Underdog",
+        "id": "GESTALT_TU_019"
+      },
+      {
+        "name_ko": "양극성",
+        "name_en": "Polarities",
+        "id": "GESTALT_PL_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "두 의자 = 내면의 두 목소리가 직접 대면하여 대화하는 것",
+      "differential": "빈 의자가 타인과의 미해결 관계를 다루는 것이라면, 두 의자는 자기 내면의 분열된 부분 간 대화이다",
+      "key_point": "두 의자 기법의 목표는 한쪽이 이기는 것이 아니라, 양측이 통합되는 것이다",
+      "common_mistake": "두 의자 기법에서 상담자가 한쪽 편을 들어서는 안 되며, 양쪽 모두의 자각과 표현을 촉진해야 한다"
+    }
+  },
+  {
+    "id": "GESTALT_SR_018",
+    "terminology": "자기조절 (Self-Regulation)",
+    "terminology_ko": "자기조절",
+    "terminology_en": "Self-Regulation",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "유기체가 내적 균형을 유지하기 위해 스스로 욕구를 감지하고 충족하는 자연적 과정으로, 게슈탈트 상담에서는 유기체적 자기조절을 신뢰하고 외부 통제보다 내적 조절을 강조한다.",
+    "definition_en": "The natural process by which the organism detects and fulfills its own needs to maintain internal balance; Gestalt therapy trusts organismic self-regulation and emphasizes internal regulation over external control.",
+    "significance": "인간중심 상담의 자기실현 경향성과 유사한 게슈탈트의 기본 가정으로, 상담이 내담자의 자기조절 능력을 회복시키는 것을 목표로 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "유기체적 자기조절을 게슈탈트 상담의 기본 가정으로 확립"
+      },
+      {
+        "name_ko": "쿠르트 골드스타인",
+        "name_en": "Kurt Goldstein",
+        "contribution": "유기체적 자기조절의 개념적 기초를 제공"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉-철수 주기",
+        "name_en": "Contact-Withdrawal Cycle",
+        "id": "GESTALT_CWC_012"
+      },
+      {
+        "name_ko": "자기실현 경향성",
+        "name_en": "Actualizing Tendency",
+        "id": "PERSON_AT_002"
+      },
+      {
+        "name_ko": "전경과 배경",
+        "name_en": "Figure and Ground",
+        "id": "GESTALT_FG_008"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "유기체적 자기조절",
+        "description": "유기체의 자연스러운 욕구 충족 과정을 따르는 조절"
+      },
+      {
+        "name": "의도적 자기조절",
+        "description": "외부 기준이나 규칙에 따라 행동을 통제하는 조절"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "유기체적 자기조절 = 몸이 알아서 하게 두기 vs 의도적 자기조절 = 머리로 통제하기",
+      "differential": "CBT의 자기조절이 인지적 통제를 강조하는 반면, 게슈탈트의 자기조절은 유기체적 지혜를 신뢰한다",
+      "key_point": "게슈탈트 상담은 유기체적 자기조절을 회복시키는 것이 목표이지, 의도적 통제를 강화하는 것이 아니다",
+      "common_mistake": "자기조절은 자기통제와 다르다. 자기통제는 외부 기준에 맞추는 것이지만, 자기조절은 내적 지혜를 따르는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_TU_019",
+    "terminology": "톱독과 언더독 (Topdog and Underdog)",
+    "terminology_ko": "톱독과 언더독",
+    "terminology_en": "Topdog and Underdog",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "성격 내부의 상반된 두 측면으로, 톱독은 '~해야 한다'고 명령하는 권위적 부분이고 언더독은 '하지만 ~할 수 없다'고 저항하는 부분으로, 이 둘의 갈등이 내적 교착 상태를 유발한다.",
+    "definition_en": "Two opposing aspects within personality: the topdog is the authoritative part that commands 'you should,' while the underdog is the resistant part that responds 'but I can't,' their conflict creating internal impasse.",
+    "significance": "내적 갈등의 구조를 이해하는 게슈탈트의 독특한 개념으로, 두 의자 기법의 이론적 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "톱독과 언더독의 개념을 통해 내적 갈등의 역동을 설명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "두 의자 기법",
+        "name_en": "Two-Chair Technique",
+        "id": "GESTALT_TC_017"
+      },
+      {
+        "name_ko": "양극성",
+        "name_en": "Polarities",
+        "id": "GESTALT_PL_021"
+      },
+      {
+        "name_ko": "내사",
+        "name_en": "Introjection",
+        "id": "GESTALT_IJ_014"
+      },
+      {
+        "name_ko": "교착 상태",
+        "name_en": "Impasse",
+        "id": "GESTALT_IM_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "톱독 = 부모/초자아의 목소리('해야 해!'), 언더독 = 저항/회피의 목소리('못 해...')",
+      "differential": "프로이트의 초자아-이드 갈등과 유사하나, 펄스는 이를 의식적 자각의 대상으로 보고 대화를 통한 통합을 추구한다",
+      "key_point": "펄스는 톱독과 언더독의 대결에서 항상 언더독이 이긴다고 보았다(수동적 저항의 힘)",
+      "common_mistake": "톱독이 항상 나쁜 것이 아니며, 문제는 둘의 분열과 갈등이지 어느 한쪽의 존재가 아니다"
+    }
+  },
+  {
+    "id": "GESTALT_RS_020",
+    "terminology": "책임 (Responsibility)",
+    "terminology_ko": "책임",
+    "terminology_en": "Responsibility",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "자신의 감정, 사고, 행동의 주인으로서 그에 대한 소유권을 갖는 것으로, 게슈탈트 상담에서는 'response-ability(반응할 수 있는 능력)'라는 원래 의미로 이해한다.",
+    "definition_en": "Taking ownership of one's feelings, thoughts, and actions; in Gestalt therapy, understood in its original sense as 'response-ability'—the ability to respond.",
+    "significance": "내담자가 자기 경험과 행동의 주체임을 인식하게 하는 것이 게슈탈트 상담의 핵심 목표 중 하나이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "책임을 반응 능력(response-ability)으로 재해석하여 상담의 핵심 가치로 정립"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존적 책임 개념을 체계적으로 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "투사",
+        "name_en": "Projection",
+        "id": "GESTALT_PJ_015"
+      },
+      {
+        "name_ko": "자유",
+        "name_en": "Freedom",
+        "id": "EXIST_FR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "책임 = response + ability = 상황에 반응할 수 있는 능력 = 선택의 주체가 되기",
+      "differential": "도덕적 의무로서의 책임이 아니라, 자기 경험의 소유자로서의 능력을 의미한다",
+      "key_point": "게슈탈트 상담에서는 '나는 ~할 수 없다'를 '나는 ~하지 않기로 선택한다'로 전환하도록 돕는다",
+      "common_mistake": "게슈탈트의 책임은 비난이나 죄책감과 무관하며, 자기 경험의 소유권을 갖는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_PL_021",
+    "terminology": "양극성 (Polarities)",
+    "terminology_ko": "양극성",
+    "terminology_en": "Polarities",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "성격 내에 존재하는 상반된 특성이나 경향의 쌍으로(예: 강함/약함, 독립/의존), 한쪽을 부인하면 내적 분열이 생기며 양극의 통합이 성장의 핵심이다.",
+    "definition_en": "Pairs of opposing characteristics or tendencies within personality (e.g., strength/weakness, independence/dependence); denying one pole creates internal splitting, and integration of both poles is central to growth.",
+    "significance": "게슈탈트 상담에서 내적 갈등의 본질을 양극적 분열로 이해하며, 통합적 자기 경험을 상담의 핵심 목표로 삼는다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "양극성 개념을 게슈탈트 상담의 핵심 이론으로 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "톱독과 언더독",
+        "name_en": "Topdog and Underdog",
+        "id": "GESTALT_TU_019"
+      },
+      {
+        "name_ko": "두 의자 기법",
+        "name_en": "Two-Chair Technique",
+        "id": "GESTALT_TC_017"
+      },
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "양극 = 동전의 양면: 한쪽만 보면 전체를 놓친다. 양쪽 모두를 자각하고 통합해야 한다",
+      "differential": "융의 그림자(shadow) 개념과 유사하나, 게슈탈트는 무의식적 통합이 아닌 의식적 자각과 대화를 통한 통합을 추구한다",
+      "key_point": "양극성의 통합은 한쪽을 선택하는 것이 아니라, 양쪽 모두를 수용하고 통합하는 것이다",
+      "common_mistake": "양극의 통합은 중간 지점을 찾는 타협이 아니라, 양극 모두를 온전히 경험하고 수용하는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_IM_022",
+    "terminology": "교착 상태 (Impasse)",
+    "terminology_ko": "교착 상태",
+    "terminology_en": "Impasse",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "내적 갈등의 양극이 팽팽하게 대치하여 앞으로 나아가지도 뒤로 물러나지도 못하는 막힌 상태로, 펄스가 제시한 신경증적 성격의 다섯 층 중 하나이다.",
+    "definition_en": "A stuck state where opposing poles of an internal conflict are deadlocked, unable to move forward or backward; one of the five layers of neurotic personality proposed by Perls.",
+    "significance": "상담에서 교착 상태를 통과하는 것이 진정한 변화의 시작이며, 이 지점에서 내담자가 외부 지지 대신 자기 지지를 발견하게 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "교착 상태를 신경증 층의 핵심 개념으로 제시하고 이를 통과하는 것이 치료의 핵심이라고 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신경증의 다섯 층",
+        "name_en": "Five Layers of Neurosis",
+        "id": "GESTALT_FLN_023"
+      },
+      {
+        "name_ko": "톱독과 언더독",
+        "name_en": "Topdog and Underdog",
+        "id": "GESTALT_TU_019"
+      },
+      {
+        "name_ko": "양극성",
+        "name_en": "Polarities",
+        "id": "GESTALT_PL_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교착 상태 = 막다른 골목: 톱독과 언더독이 팽팽히 맞서 꼼짝 못하는 상태",
+      "differential": "정신분석의 저항(resistance)이 무의식적 회피라면, 게슈탈트의 교착은 의식적으로 경험되는 막힘이다",
+      "key_point": "교착 상태를 회피하지 않고 머무르면서 충분히 경험하는 것이 돌파의 열쇠이다",
+      "common_mistake": "교착 상태는 상담의 실패가 아니라, 진정한 변화가 일어나기 직전의 중요한 치료적 순간이다"
+    }
+  },
+  {
+    "id": "GESTALT_FLN_023",
+    "terminology": "신경증의 다섯 층 (Five Layers of Neurosis)",
+    "terminology_ko": "신경증의 다섯 층",
+    "terminology_en": "Five Layers of Neurosis",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "펄스가 제시한 성격의 다섯 가지 층으로, 가식층(phony), 공포층(phobic), 교착층(impasse), 내파층(implosive), 폭발층(explosive) 순서로 벗겨져 진정한 자기에 도달한다.",
+    "definition_en": "Five personality layers proposed by Perls: phony, phobic, impasse, implosive, and explosive layers that are peeled away in sequence to reach the authentic self.",
+    "significance": "게슈탈트 상담에서 성격 변화의 과정을 단계적으로 설명하는 독특한 모델로, 상담 과정의 로드맵 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "신경증의 다섯 층 모델을 통해 성격 변화의 과정을 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "교착 상태",
+        "name_en": "Impasse",
+        "id": "GESTALT_IM_022"
+      },
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "GESTALT_UB_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "가식층 (Phony Layer)",
+        "description": "사회적 역할과 게임을 하며 진정한 자기를 숨기는 층"
+      },
+      {
+        "name": "공포층 (Phobic Layer)",
+        "description": "진정한 자기를 드러내는 것에 대한 두려움의 층"
+      },
+      {
+        "name": "교착층 (Impasse Layer)",
+        "description": "변화도 퇴행도 할 수 없는 막힌 층"
+      },
+      {
+        "name": "내파층 (Implosive Layer)",
+        "description": "억눌린 에너지가 내부로 향하여 마비와 죽음 같은 느낌을 경험하는 층"
+      },
+      {
+        "name": "폭발층 (Explosive Layer)",
+        "description": "억압된 에너지가 터져 나오며 진정한 자기를 만나는 층"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "가(가식)→공(공포)→교(교착)→내(내파)→폭(폭발) = 양파를 까듯 층층이 벗기기",
+      "differential": "정신분석의 성격 구조(원초아/자아/초자아)가 수평적 구분이라면, 신경증의 다섯 층은 수직적(깊이) 구분이다",
+      "key_point": "폭발층을 통과해야 비로소 진정한 감정과 자기를 만나게 되며, 이것이 치료적 변화의 핵심이다",
+      "common_mistake": "폭발층의 '폭발'은 파괴적 행동이 아니라, 억눌린 에너지의 해방과 진정한 감정의 표출이다"
+    }
+  },
+  {
+    "id": "GESTALT_RF_024",
+    "terminology": "반전 (Retroflection)",
+    "terminology_ko": "반전",
+    "terminology_en": "Retroflection",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "환경(타인)에게 향해야 할 에너지나 행동을 자기 자신에게 돌리는 접촉 경계 혼란으로, 환경에 대한 표현을 억제하고 대신 자기에게 행하는 것이다.",
+    "definition_en": "A contact boundary disturbance of turning energy or action meant for the environment (others) back onto oneself, inhibiting expression toward the environment and instead doing to oneself what one wants to do to others.",
+    "significance": "자해, 자기비난, 심인성 증상 등의 기제를 설명하며, 상담에서 억압된 에너지의 방향을 재전환하는 것이 치료적 과제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "반전을 접촉 경계 혼란의 한 유형으로 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "투사",
+        "name_en": "Projection",
+        "id": "GESTALT_PJ_015"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "GESTALT_UB_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "능동적 반전",
+        "description": "타인에게 하고 싶은 것을 자기에게 하는 것 (예: 타인을 때리고 싶은데 자기를 때림)"
+      },
+      {
+        "name": "수동적 반전",
+        "description": "타인에게 받고 싶은 것을 자기에게 제공하는 것 (예: 위로받고 싶은데 자기를 위로함)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "반전 = U턴: 바깥으로 나가야 할 에너지가 돌아서 자기에게 향함",
+      "differential": "투사가 '내 것을 남에게 돌리기'라면, 반전은 '남에게 할 것을 나에게 하기'이다",
+      "key_point": "반전의 치료는 자기에게 향한 에너지의 원래 방향(대상)을 자각하고 표현하게 하는 것이다",
+      "common_mistake": "모든 자기관리가 반전인 것은 아니며, 환경 표현을 억제한 결과로 자기에게 돌리는 경우만 반전이다"
+    }
+  },
+  {
+    "id": "GESTALT_DL_025",
+    "terminology": "편향 (Deflection)",
+    "terminology_ko": "편향",
+    "terminology_en": "Deflection",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "직접적인 접촉의 강도를 약화시키거나 회피하는 접촉 경계 혼란으로, 유머, 추상화, 주제 전환, 일반화 등을 통해 감정적 접촉을 피하는 것이다.",
+    "definition_en": "A contact boundary disturbance that weakens or avoids the intensity of direct contact through humor, abstraction, topic changes, generalizations, and other means of avoiding emotional contact.",
+    "significance": "상담 장면에서 내담자가 정서적으로 중요한 주제를 회피하는 양상을 이해하고 다루는 데 중요한 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빙 폴스터",
+        "name_en": "Erving Polster",
+        "contribution": "편향을 접촉 경계 혼란의 한 유형으로 추가 분류"
+      },
+      {
+        "name_ko": "미리엄 폴스터",
+        "name_en": "Miriam Polster",
+        "contribution": "편향의 임상적 양상과 치료적 개입을 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉 경계 혼란",
+        "name_en": "Contact Boundary Disturbances",
+        "id": "GESTALT_CBD_009"
+      },
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편향 = 감정의 방탄조끼: 직접적인 감정 접촉이 와닿지 않게 빗겨나가게 함",
+      "differential": "다른 접촉 경계 혼란이 접촉의 내용을 변형하는 것이라면, 편향은 접촉의 강도를 약화시킨다",
+      "key_point": "편향의 예: 슬픈 이야기를 할 때 웃기, 구체적 감정 대신 일반론을 말하기, 주제를 갑자기 바꾸기",
+      "common_mistake": "모든 유머가 편향인 것은 아니며, 감정 접촉을 회피하기 위한 유머만 편향에 해당한다"
+    }
+  },
+  {
+    "id": "GESTALT_EXP_026",
+    "terminology": "실험 (Experiment)",
+    "terminology_ko": "실험",
+    "terminology_en": "Experiment",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "상담 장면에서 내담자에게 새로운 행동이나 경험을 직접 시도해 보도록 제안하는 게슈탈트 상담의 핵심 방법론으로, 단순한 이해를 넘어 체험적 학습을 촉진한다.",
+    "definition_en": "A core methodology of Gestalt therapy in which the therapist proposes that the client directly try new behaviors or experiences in the counseling setting, promoting experiential learning beyond mere understanding.",
+    "significance": "게슈탈트 상담의 '이야기하기보다 해보기' 원칙을 구현하는 핵심 전략으로, 자각과 변화를 촉진하는 주요 수단이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "실험을 게슈탈트 상담의 핵심 방법론으로 발전"
+      },
+      {
+        "name_ko": "조셉 징커",
+        "name_en": "Joseph Zinker",
+        "contribution": "'창조적 과정으로서의 게슈탈트 상담'에서 실험의 체계적 설계 방법을 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "빈 의자 기법",
+        "name_en": "Empty Chair Technique",
+        "id": "GESTALT_EC_010"
+      },
+      {
+        "name_ko": "두 의자 기법",
+        "name_en": "Two-Chair Technique",
+        "id": "GESTALT_TC_017"
+      },
+      {
+        "name_ko": "과장하기",
+        "name_en": "Exaggeration",
+        "id": "GESTALT_EG_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실험 = '한번 해보세요': 말로 설명하지 않고 직접 경험하게 하기",
+      "differential": "행동치료의 행동 실험이 가설 검증을 위한 것이라면, 게슈탈트 실험은 자각 확대를 위한 것이다",
+      "key_point": "실험은 미리 계획된 처방이 아니라, 상담 과정에서 즉흥적으로 생성되는 것이 이상적이다",
+      "common_mistake": "게슈탈트 실험은 성공/실패가 없으며, 무슨 결과가 나오든 자각의 재료가 된다"
+    }
+  },
+  {
+    "id": "GESTALT_EG_027",
+    "terminology": "과장하기 (Exaggeration)",
+    "terminology_ko": "과장하기",
+    "terminology_en": "Exaggeration",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "내담자의 말, 몸짓, 감정 표현 등을 의도적으로 크게 과장하여 반복하도록 하는 기법으로, 미처 자각하지 못한 의미나 감정을 명확히 드러나게 한다.",
+    "definition_en": "A technique of intentionally having the client exaggerate and repeat their words, gestures, or emotional expressions to make previously unnoticed meanings or feelings clearly apparent.",
+    "significance": "미세한 비언어적 단서를 자각의 수준으로 끌어올리는 효과적 기법으로, 신체와 감정의 연결을 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "과장하기를 게슈탈트 상담의 주요 기법으로 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실험",
+        "name_en": "Experiment",
+        "id": "GESTALT_EXP_026"
+      },
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "신체 자각",
+        "name_en": "Body Awareness",
+        "id": "GESTALT_BA_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과장하기 = 확대경: 작은 것을 크게 만들어 자세히 볼 수 있게 하기",
+      "differential": "행동 리허설이 새로운 행동을 연습하는 것이라면, 과장하기는 기존 행동을 증폭하여 자각하게 하는 것이다",
+      "key_point": "특히 비언어적 행동(주먹 쥐기, 다리 떨기 등)을 과장하면 그 안에 담긴 감정이 드러난다",
+      "common_mistake": "과장하기의 목적은 내담자를 당황하게 하는 것이 아니라, 자각을 높이는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_BA_028",
+    "terminology": "신체 자각 (Body Awareness)",
+    "terminology_ko": "신체 자각",
+    "terminology_en": "Body Awareness",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "자신의 신체 감각, 자세, 움직임, 긴장 등을 알아차리는 것으로, 게슈탈트 상담에서 신체는 감정과 경험의 중요한 표현 경로로 간주된다.",
+    "definition_en": "Noticing one's bodily sensations, posture, movements, and tensions; in Gestalt therapy, the body is considered an important channel for expressing emotions and experiences.",
+    "significance": "언어로 표현되지 않는 감정이 신체를 통해 드러나므로, 신체 자각은 전체적 자각의 필수적 구성 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "신체 표현을 상담에서 다루는 핵심 요소로 강조"
+      },
+      {
+        "name_ko": "로라 펄스",
+        "name_en": "Laura Perls",
+        "contribution": "신체 작업과 접촉에 관한 게슈탈트적 접근을 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자각",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "과장하기",
+        "name_en": "Exaggeration",
+        "id": "GESTALT_EG_027"
+      },
+      {
+        "name_ko": "체감",
+        "name_en": "Felt Sense",
+        "id": "PERSON_FS_034"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "말은 거짓말을 할 수 있지만, 몸은 진실을 말한다 → 신체 자각의 중요성",
+      "differential": "인지적 자각이 생각을 알아차리는 것이라면, 신체 자각은 몸의 메시지를 알아차리는 것이다",
+      "key_point": "게슈탈트 상담자는 내담자의 말뿐만 아니라 자세, 호흡, 표정, 제스처 등 신체 표현에도 주의를 기울인다",
+      "common_mistake": "신체 자각은 이완 훈련이 아니라, 몸이 무엇을 표현하고 있는지를 알아차리는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_DR_029",
+    "terminology": "꿈 작업 (Dream Work)",
+    "terminology_ko": "꿈 작업",
+    "terminology_en": "Dream Work",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "게슈탈트 상담에서 꿈의 각 요소를 자기의 투사된 부분으로 보고, 꿈의 각 인물이나 사물이 되어 현재 시제로 이야기하며 체험하는 독특한 꿈 해석 방법이다.",
+    "definition_en": "A unique dream interpretation method in Gestalt therapy that views each element of a dream as a projected part of the self, having the client become each person or object in the dream and narrate in the present tense.",
+    "significance": "정신분석의 꿈 해석과 달리 체험적·현재적 접근을 취하며, 꿈을 통해 부인되거나 소외된 자기 부분을 재통합하는 것을 목표로 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "게슈탈트적 꿈 작업 방법을 발전시켜 '꿈은 실존에 이르는 왕도'라고 명명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "투사",
+        "name_en": "Projection",
+        "id": "GESTALT_PJ_015"
+      },
+      {
+        "name_ko": "양극성",
+        "name_en": "Polarities",
+        "id": "GESTALT_PL_021"
+      },
+      {
+        "name_ko": "현재화 기법",
+        "name_en": "Presentification",
+        "id": "GESTALT_PR_007"
+      },
+      {
+        "name_ko": "무의식",
+        "name_en": "Unconscious",
+        "id": "PSYCHOD_UC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "펄스: '꿈은 무의식에 이르는 왕도가 아니라, 실존에 이르는 왕도이다'",
+      "differential": "프로이트가 꿈을 무의식의 상징으로 해석한 반면, 펄스는 꿈의 모든 요소를 자기의 투사로 보고 체험하게 한다",
+      "key_point": "꿈 속의 모든 사람, 사물, 장소는 자기 성격의 일부이며, 각각이 되어보는 것이 핵심이다",
+      "common_mistake": "게슈탈트 꿈 작업에서는 꿈을 분석하거나 해석하지 않고, 꿈의 요소를 직접 '살아보는' 것이 핵심이다"
+    }
+  },
+  {
+    "id": "GESTALT_IT_030",
+    "terminology": "나-너 관계 (I-Thou Relationship)",
+    "terminology_ko": "나-너 관계",
+    "terminology_en": "I-Thou Relationship",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "마틴 부버의 대화 철학에서 차용한 개념으로, 상대를 수단이 아닌 온전한 존재로 만나는 진정한 관계를 의미하며, 게슈탈트 상담에서 이상적인 상담자-내담자 관계의 모델이다.",
+    "definition_en": "A concept borrowed from Martin Buber's dialogical philosophy, referring to an authentic relationship of encountering the other as a whole being rather than as a means, the ideal model for the therapist-client relationship in Gestalt therapy.",
+    "significance": "게슈탈트 상담의 관계적 측면을 강조하며, 기법보다 진정한 만남이 치료적이라는 대화적 관점의 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "마틴 부버",
+        "name_en": "Martin Buber",
+        "contribution": "나-너(I-Thou)와 나-그것(I-It)의 관계 양식을 철학적으로 구분"
+      },
+      {
+        "name_ko": "로라 펄스",
+        "name_en": "Laura Perls",
+        "contribution": "부버의 대화 철학을 게슈탈트 상담의 관계적 기초로 통합"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "대화적 관계",
+        "name_en": "Dialogical Relationship",
+        "id": "GESTALT_DG_031"
+      },
+      {
+        "name_ko": "치료적 관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "나-너(I-Thou) = 온전한 만남 vs 나-그것(I-It) = 도구적 관계",
+      "differential": "로저스의 핵심 조건이 상담자의 일방적 태도를 강조한다면, 나-너 관계는 상호적 만남을 강조한다",
+      "key_point": "나-너 관계는 상담자도 자신을 숨기지 않고 진정한 존재로 만남에 참여하는 것을 요구한다",
+      "common_mistake": "나-너 관계가 항상 유지되는 것은 아니며, 순간적으로 경험되는 만남의 질을 의미한다"
+    }
+  },
+  {
+    "id": "GESTALT_DG_031",
+    "terminology": "대화적 관계 (Dialogical Relationship)",
+    "terminology_ko": "대화적 관계",
+    "terminology_en": "Dialogical Relationship",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "상담자와 내담자가 나-너 관계의 정신으로 서로를 온전히 존중하며 진정한 만남을 이루는 관계 양식으로, 현대 관계적 게슈탈트 상담의 핵심 원리이다.",
+    "definition_en": "A relational mode in which therapist and client fully respect each other in the spirit of the I-Thou relationship and achieve genuine encounter, a core principle of contemporary relational Gestalt therapy.",
+    "significance": "초기 게슈탈트의 대결적 스타일에서 벗어나 관계 중심의 현대 게슈탈트 상담으로 발전하는 데 핵심적 역할을 했다.",
+    "key_researchers": [
+      {
+        "name_ko": "게리 요텐스",
+        "name_en": "Gary Yontef",
+        "contribution": "대화적 관계를 현대 게슈탈트 상담의 중심 원리로 정립"
+      },
+      {
+        "name_ko": "린 제이콥스",
+        "name_en": "Lynne Jacobs",
+        "contribution": "대화적 게슈탈트 상담의 이론적 발전에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "나-너 관계",
+        "name_en": "I-Thou Relationship",
+        "id": "GESTALT_IT_030"
+      },
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "GESTALT_CT_005"
+      },
+      {
+        "name_ko": "현존",
+        "name_en": "Presence",
+        "id": "GESTALT_PS_032"
+      },
+      {
+        "name_ko": "핵심 조건",
+        "name_en": "Core Conditions",
+        "id": "PERSON_CC_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대화적 관계의 4요소: 포함(inclusion), 현존(presence), 비착취적 삶(lived), 헌신적 대화(committed dialogue)",
+      "differential": "전이 관계가 과거 관계의 반복이라면, 대화적 관계는 현재 순간의 진정한 만남이다",
+      "key_point": "대화적 관계에서 상담자는 전문가가 아닌 동등한 인간으로서 내담자와 만난다",
+      "common_mistake": "대화적 관계는 일상적 대화가 아니라, 치료적 목적을 가진 진정한 만남의 관계이다"
+    }
+  },
+  {
+    "id": "GESTALT_PS_032",
+    "terminology": "현존 (Presence)",
+    "terminology_ko": "현존",
+    "terminology_en": "Presence",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "상담자가 상담 관계에서 온전히 '지금 여기'에 존재하며, 자신의 경험에 개방적이고 내담자에게 진정으로 관여하는 상태를 의미하는 대화적 관계의 핵심 요소이다.",
+    "definition_en": "A core element of the dialogical relationship where the therapist fully exists in the 'here and now' of the counseling relationship, open to their own experience and genuinely engaged with the client.",
+    "significance": "상담자의 현존이 내담자의 자각과 접촉을 촉진하며, 대화적 게슈탈트 상담에서 가장 중요한 치료적 자세이다.",
+    "key_researchers": [
+      {
+        "name_ko": "게리 요텐스",
+        "name_en": "Gary Yontef",
+        "contribution": "현존을 대화적 관계의 핵심 요소로 강조"
+      },
+      {
+        "name_ko": "마틴 부버",
+        "name_en": "Martin Buber",
+        "contribution": "현존의 철학적 기초를 제공"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대화적 관계",
+        "name_en": "Dialogical Relationship",
+        "id": "GESTALT_DG_031"
+      },
+      {
+        "name_ko": "지금 여기",
+        "name_en": "Here and Now",
+        "id": "GESTALT_HN_003"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PERSON_CG_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "현존 = 상담자가 머리(이론)가 아닌 온 존재로 내담자와 함께 있는 것",
+      "differential": "로저스의 일치성(congruence)이 진실된 태도라면, 게슈탈트의 현존은 지금 이 순간에 온전히 존재하는 것이다",
+      "key_point": "현존하는 상담자는 기법 적용에 집착하지 않고, 순간순간의 만남에 충실하게 반응한다",
+      "common_mistake": "현존은 상담자가 가만히 앉아 있는 것이 아니라, 적극적으로 '지금 여기'에 참여하는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_PG_033",
+    "terminology": "게슈탈트 기도문 (Gestalt Prayer)",
+    "terminology_ko": "게슈탈트 기도문",
+    "terminology_en": "Gestalt Prayer",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "펄스가 작성한 짧은 문구로, 개인의 독립성과 자기 책임을 강조하며 '나는 나의 일을 하고, 당신은 당신의 일을 한다'는 내용을 담고 있어 게슈탈트 철학을 상징적으로 표현한다.",
+    "definition_en": "A short passage written by Perls emphasizing individual independence and self-responsibility, stating 'I do my thing and you do your thing,' symbolically expressing the Gestalt philosophy.",
+    "significance": "게슈탈트 상담의 철학과 가치를 대중적으로 알리는 데 기여했으며, 개인의 자율성과 경계의 중요성을 상징적으로 전달한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "1969년에 게슈탈트 기도문을 발표"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "책임",
+        "name_en": "Responsibility",
+        "id": "GESTALT_RS_020"
+      },
+      {
+        "name_ko": "접촉 경계",
+        "name_en": "Contact Boundary",
+        "id": "GESTALT_CB_011"
+      },
+      {
+        "name_ko": "융합",
+        "name_en": "Confluence",
+        "id": "GESTALT_CF_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'나는 나의 일을 하고, 당신은 당신의 일을 합니다. 나는 당신의 기대에 맞추어 살기 위해 이 세상에 있는 것이 아닙니다'",
+      "differential": "게슈탈트 기도문은 개인주의적으로 비판받기도 하지만, 본래 의도는 건강한 경계와 책임을 강조하는 것이다",
+      "key_point": "게슈탈트 기도문은 타인에 대한 무관심이 아니라, 건강한 독립성과 자기 책임의 선언이다",
+      "common_mistake": "게슈탈트 기도문을 이기주의적 선언으로 오해해서는 안 되며, 융합에 대한 대안으로서의 건강한 경계를 표현한 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_HL_034",
+    "terminology": "전체론 (Holism)",
+    "terminology_ko": "전체론",
+    "terminology_en": "Holism",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "인간을 신체, 감정, 사고, 행동, 영성 등이 통합된 전체적 존재로 보는 관점으로, 게슈탈트 상담의 근본적인 철학적 기초이며 부분이 아닌 전체로서의 이해를 강조한다.",
+    "definition_en": "The perspective of viewing humans as integrated whole beings encompassing body, emotion, thought, behavior, and spirit; the fundamental philosophical foundation of Gestalt therapy emphasizing understanding of the whole rather than parts.",
+    "significance": "인간을 분리된 부분으로 분석하는 환원주의적 접근을 거부하고, 전체적 이해를 추구하는 게슈탈트 상담의 철학적 기반이다.",
+    "key_researchers": [
+      {
+        "name_ko": "얀 스무츠",
+        "name_en": "Jan Smuts",
+        "contribution": "전체론(holism) 개념을 철학적으로 체계화"
+      },
+      {
+        "name_ko": "쿠르트 골드스타인",
+        "name_en": "Kurt Goldstein",
+        "contribution": "유기체 전체론을 심리학에 도입하여 게슈탈트 상담에 영향"
+      },
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "전체론을 게슈탈트 상담의 핵심 원리로 통합"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "게슈탈트 상담",
+        "name_en": "Gestalt Therapy",
+        "id": "GESTALT_GT_001"
+      },
+      {
+        "name_ko": "전경과 배경",
+        "name_en": "Figure and Ground",
+        "id": "GESTALT_FG_008"
+      },
+      {
+        "name_ko": "신체 자각",
+        "name_en": "Body Awareness",
+        "id": "GESTALT_BA_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "전체는 부분의 합보다 크다 = 게슈탈트의 핵심 원리",
+      "differential": "환원주의가 전체를 부분으로 분해하여 이해하려는 것이라면, 전체론은 전체적 맥락에서 이해하려는 것이다",
+      "key_point": "게슈탈트 상담에서 인간은 신체-정서-인지-행동이 분리될 수 없는 통합된 전체이다",
+      "common_mistake": "전체론은 부분을 무시하는 것이 아니라, 부분을 전체의 맥락 안에서 이해하는 것이다"
+    }
+  },
+  {
+    "id": "GESTALT_FD_035",
+    "terminology": "장 이론 (Field Theory)",
+    "terminology_ko": "장 이론",
+    "terminology_en": "Field Theory",
+    "category": "GESTALT",
+    "category_name": "게슈탈트 상담 (Gestalt Therapy)",
+    "definition": "개인과 환경을 분리된 실체가 아닌 하나의 통합된 장(field)으로 보는 이론적 관점으로, 쿠르트 레빈의 장 이론에 기초하여 행동이 유기체-환경 장 전체에 의해 결정된다고 본다.",
+    "definition_en": "A theoretical perspective viewing the individual and environment not as separate entities but as one integrated field, based on Kurt Lewin's field theory, where behavior is determined by the total organism-environment field.",
+    "significance": "개인의 문제를 개인 내부에서만 찾지 않고 유기체-환경의 상호작용 맥락에서 이해하는 게슈탈트 상담의 이론적 기초이다.",
+    "key_researchers": [
+      {
+        "name_ko": "쿠르트 레빈",
+        "name_en": "Kurt Lewin",
+        "contribution": "장 이론을 사회심리학에서 체계화하여 게슈탈트 상담에 영향"
+      },
+      {
+        "name_ko": "말콤 파렛",
+        "name_en": "Malcolm Parlett",
+        "contribution": "장 이론을 현대 게슈탈트 상담에서 재해석하고 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉 경계",
+        "name_en": "Contact Boundary",
+        "id": "GESTALT_CB_011"
+      },
+      {
+        "name_ko": "전체론",
+        "name_en": "Holism",
+        "id": "GESTALT_HL_034"
+      },
+      {
+        "name_ko": "현상학적 장",
+        "name_en": "Phenomenal Field",
+        "id": "PERSON_PF_022"
+      },
+      {
+        "name_ko": "가족체계이론",
+        "name_en": "Family Systems Theory",
+        "id": "FAMILY_ST_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "장 이론 = 물고기를 이해하려면 물(환경)을 함께 봐야 한다",
+      "differential": "개인심리학이 개인 내부에 원인을 찾는다면, 장 이론은 개인-환경의 상호작용에서 원인을 찾는다",
+      "key_point": "행동은 B = f(P, E)로, 개인(Person)과 환경(Environment)의 함수이다 (레빈의 공식)",
+      "common_mistake": "장 이론은 환경 결정론이 아니라, 개인과 환경의 동적 상호작용을 강조하는 것이다"
+    }
+  }
+]

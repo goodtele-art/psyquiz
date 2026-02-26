@@ -1,0 +1,1918 @@
+[
+  {
+    "id": "CBT_CT_001",
+    "terminology": "인지행동치료 (Cognitive Behavior Therapy)",
+    "terminology_ko": "인지행동치료",
+    "terminology_en": "Cognitive Behavior Therapy",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "인지적 왜곡과 역기능적 사고가 정서와 행동 문제를 유발한다고 보고, 인지 재구조화와 행동 기법을 통해 변화를 추구하는 상담 접근이다.",
+    "definition_en": "A counseling approach that views cognitive distortions and dysfunctional thinking as causes of emotional and behavioral problems, seeking change through cognitive restructuring and behavioral techniques.",
+    "significance": "우울, 불안 등 다양한 심리 문제에 대한 경험적 효과가 가장 많이 검증된 근거기반 상담 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "인지치료의 창시자로 인지 모델을 개발함"
+      },
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "합리적 정서행동치료(REBT)의 창시자"
+      },
+      {
+        "name_ko": "도널드 마이켄바움",
+        "name_en": "Donald Meichenbaum",
+        "contribution": "인지행동수정과 자기교시훈련 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지 모델",
+        "name_en": "Cognitive Model",
+        "id": "CBT_CM_002"
+      },
+      {
+        "name_ko": "합리적 정서행동치료",
+        "name_en": "REBT",
+        "id": "CBT_RE_018"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      },
+      {
+        "name_ko": "행동주의상담",
+        "name_en": "Behavioral Counseling",
+        "id": "BEHAV_BT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CBT = 생각(C)을 바꾸면 행동(B)이 바뀌고 치료(T)된다",
+      "differential": "정신분석이 무의식적 갈등에 초점을 맞추는 반면, CBT는 현재의 의식적 사고 패턴에 집중한다.",
+      "key_point": "구조화된 단기 치료 모델로, 치료 회기 수가 정해져 있고 숙제를 활용한다.",
+      "common_mistake": "CBT를 단순히 '긍정적으로 생각하기'로 오해하면 안 된다. 체계적인 인지 재구조화 과정이다."
+    }
+  },
+  {
+    "id": "CBT_CM_002",
+    "terminology": "인지 모델 (Cognitive Model)",
+    "terminology_ko": "인지 모델",
+    "terminology_en": "Cognitive Model",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Beck이 제안한 모델로, 상황 자체가 아니라 상황에 대한 해석(자동적 사고)이 감정과 행동을 결정한다는 인지치료의 핵심 원리이다.",
+    "definition_en": "Beck's model proposing that it is not the situation itself but one's interpretation (automatic thoughts) of the situation that determines emotions and behaviors.",
+    "significance": "상담에서 내담자의 사고를 변화시킴으로써 정서와 행동을 변화시킬 수 있다는 치료적 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "인지 모델을 체계화하고 우울증 치료에 적용함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "중간 신념",
+        "name_en": "Intermediate Beliefs",
+        "id": "CBT_IB_005"
+      },
+      {
+        "name_ko": "핵심 신념",
+        "name_en": "Core Beliefs",
+        "id": "CBT_CB_006"
+      },
+      {
+        "name_ko": "인지적 개념화",
+        "name_en": "Cognitive Conceptualization",
+        "id": "CBT_CC_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "상황 → 자동적 사고 → 감정/행동/신체반응",
+      "differential": "Ellis의 ABC 모델이 신념(B)을 강조하는 반면, Beck의 인지 모델은 자동적 사고의 3층 구조를 강조한다.",
+      "key_point": "같은 상황에서도 서로 다른 사고를 하면 다른 감정과 행동이 나타난다는 것이 핵심이다.",
+      "common_mistake": "인지 모델에서 '사고가 감정을 결정한다'는 것이 감정을 무시하라는 뜻이 아니다."
+    }
+  },
+  {
+    "id": "CBT_AT_003",
+    "terminology": "자동적 사고 (Automatic Thoughts)",
+    "terminology_ko": "자동적 사고",
+    "terminology_en": "Automatic Thoughts",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "특정 상황에서 자발적으로 빠르게 떠오르는 사고나 심상으로, 의식의 주변부에 존재하며 감정과 행동에 직접 영향을 미친다.",
+    "definition_en": "Thoughts or images that arise spontaneously and quickly in specific situations, existing at the periphery of consciousness and directly influencing emotions and behaviors.",
+    "significance": "인지치료에서 가장 먼저 다루는 인지 수준으로, 자동적 사고를 인식하고 평가하는 것이 치료의 출발점이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "자동적 사고 개념을 발견하고 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지 모델",
+        "name_en": "Cognitive Model",
+        "id": "CBT_CM_002"
+      },
+      {
+        "name_ko": "인지적 왜곡",
+        "name_en": "Cognitive Distortions",
+        "id": "CBT_CD_004"
+      },
+      {
+        "name_ko": "사고 기록지",
+        "name_en": "Thought Record",
+        "id": "CBT_TR_011"
+      },
+      {
+        "name_ko": "핵심 신념",
+        "name_en": "Core Beliefs",
+        "id": "CBT_CB_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자동적 사고 = 머릿속에 '자동으로' 떠오르는 빠른 생각",
+      "differential": "핵심 신념이 근본적이고 안정적인 인지인 반면, 자동적 사고는 상황 특정적이고 변동적이다.",
+      "key_point": "자동적 사고는 반드시 왜곡된 것은 아니며, 현실적일 수도 있다. 정확성을 검증하는 것이 중요하다.",
+      "common_mistake": "자동적 사고를 모두 비합리적이라고 단정하면 안 된다. 타당한 자동적 사고도 존재한다."
+    }
+  },
+  {
+    "id": "CBT_CD_004",
+    "terminology": "인지적 왜곡 (Cognitive Distortions)",
+    "terminology_ko": "인지적 왜곡",
+    "terminology_en": "Cognitive Distortions",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "현실을 체계적으로 잘못 해석하는 사고의 오류 패턴으로, 흑백논리, 과일반화, 재앙화, 개인화 등 다양한 유형이 있다.",
+    "definition_en": "Systematic errors in thinking that misinterpret reality, including various types such as all-or-nothing thinking, overgeneralization, catastrophizing, and personalization.",
+    "significance": "내담자의 부정적 정서를 유발하는 사고 패턴을 구체적으로 식별하고 수정하기 위한 체계적 분류 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "인지적 왜곡의 주요 유형을 규명함"
+      },
+      {
+        "name_ko": "데이비드 번스",
+        "name_en": "David Burns",
+        "contribution": "인지적 왜곡의 10가지 유형을 대중적으로 보급함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      },
+      {
+        "name_ko": "소크라테스식 질문",
+        "name_en": "Socratic Questioning",
+        "id": "CBT_SQ_012"
+      },
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_019"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "흑백논리 (All-or-Nothing Thinking)",
+        "description": "극단적 이분법으로 사고함"
+      },
+      {
+        "name": "과일반화 (Overgeneralization)",
+        "description": "한 사건을 모든 상황에 일반화함"
+      },
+      {
+        "name": "정신적 여과 (Mental Filtering)",
+        "description": "부정적 측면만 선택적으로 주목함"
+      },
+      {
+        "name": "재앙화 (Catastrophizing)",
+        "description": "최악의 결과를 예상함"
+      },
+      {
+        "name": "개인화 (Personalization)",
+        "description": "외부 사건을 자신의 탓으로 돌림"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "인지왜곡 = 현실을 보는 '색안경' (다양한 색의 렌즈가 있다)",
+      "differential": "Ellis의 비합리적 신념이 당위적 요구에 초점을 맞추는 반면, Beck의 인지왜곡은 정보처리 오류에 초점을 맞춘다.",
+      "key_point": "Burns가 정리한 10가지 유형이 가장 널리 알려져 있으며, 시험에서 자주 출제된다.",
+      "common_mistake": "인지적 왜곡과 인지적 취약성(핵심 신념)을 혼동하면 안 된다. 왜곡은 사고의 오류 패턴이다."
+    }
+  },
+  {
+    "id": "CBT_IB_005",
+    "terminology": "중간 신념 (Intermediate Beliefs)",
+    "terminology_ko": "중간 신념",
+    "terminology_en": "Intermediate Beliefs",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "핵심 신념과 자동적 사고 사이에 위치하는 인지 수준으로, 규칙, 태도, 가정의 형태로 표현되며 자동적 사고를 생성하는 틀이 된다.",
+    "definition_en": "A cognitive level between core beliefs and automatic thoughts, expressed as rules, attitudes, and assumptions that serve as frameworks generating automatic thoughts.",
+    "significance": "핵심 신념이 구체적 상황에서 어떻게 자동적 사고로 변환되는지를 매개하는 인지 구조를 이해하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "주디스 벡",
+        "name_en": "Judith S. Beck",
+        "contribution": "중간 신념의 3가지 형태(규칙, 태도, 가정)를 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "핵심 신념",
+        "name_en": "Core Beliefs",
+        "id": "CBT_CB_006"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "인지적 개념화",
+        "name_en": "Cognitive Conceptualization",
+        "id": "CBT_CC_007"
+      },
+      {
+        "name_ko": "인지 모델",
+        "name_en": "Cognitive Model",
+        "id": "CBT_CM_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "규칙 (Rules)",
+        "description": "'~해야 한다' 형태의 당위적 기준"
+      },
+      {
+        "name": "태도 (Attitudes)",
+        "description": "'~은 끔찍하다' 형태의 평가적 판단"
+      },
+      {
+        "name": "가정 (Assumptions)",
+        "description": "'만약 ~하면, ~할 것이다' 형태의 조건적 신념"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "중간 신념 = 핵심 신념의 '번역기' (핵심→중간→자동적 사고)",
+      "differential": "핵심 신념이 '나는 무능하다'와 같은 절대적 진술인 반면, 중간 신념은 '완벽하지 않으면 실패다'와 같은 조건적 진술이다.",
+      "key_point": "중간 신념은 규칙(~해야), 태도(~은 나쁘다), 가정(만약~하면) 3가지 형태로 나타난다.",
+      "common_mistake": "중간 신념을 자동적 사고와 혼동하면 안 된다. 중간 신념은 더 일반적이고 상황 비특정적이다."
+    }
+  },
+  {
+    "id": "CBT_CB_006",
+    "terminology": "핵심 신념 (Core Beliefs)",
+    "terminology_ko": "핵심 신념",
+    "terminology_en": "Core Beliefs",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "자신, 타인, 세상에 대한 가장 근본적이고 깊은 수준의 신념으로, 어린 시절 경험을 통해 형성되며 모든 인지 처리의 기저에 있다.",
+    "definition_en": "The most fundamental and deep-level beliefs about self, others, and the world, formed through childhood experiences and underlying all cognitive processing.",
+    "significance": "인지치료의 궁극적 목표는 역기능적 핵심 신념을 수정하는 것이며, 이를 통해 근본적이고 지속적인 변화를 달성한다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "핵심 신념(스키마)의 개념을 인지치료에 도입함"
+      },
+      {
+        "name_ko": "주디스 벡",
+        "name_en": "Judith S. Beck",
+        "contribution": "핵심 신념의 3가지 범주를 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지 도식",
+        "name_en": "Schema",
+        "id": "CBT_SC_008"
+      },
+      {
+        "name_ko": "중간 신념",
+        "name_en": "Intermediate Beliefs",
+        "id": "CBT_IB_005"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "인지적 개념화",
+        "name_en": "Cognitive Conceptualization",
+        "id": "CBT_CC_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "무능감 (Helplessness)",
+        "description": "'나는 무능하다/약하다/실패자다'"
+      },
+      {
+        "name": "사랑받지 못함 (Unlovability)",
+        "description": "'나는 사랑받을 자격이 없다'"
+      },
+      {
+        "name": "무가치함 (Worthlessness)",
+        "description": "'나는 가치가 없다/나쁜 사람이다'"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "핵심 신념 3범주: 무능(Helpless)-사랑불능(Unlovable)-무가치(Worthless)",
+      "differential": "자동적 사고가 상황 특정적인 반면, 핵심 신념은 상황을 초월하여 일관되게 작용한다.",
+      "key_point": "핵심 신념은 자기 확인적이며, 일치하는 정보는 받아들이고 불일치하는 정보는 무시하는 경향이 있다.",
+      "common_mistake": "핵심 신념이 쉽게 변할 수 있다고 오해하면 안 된다. 치료 후기에 서서히 다루어야 할 깊은 수준의 인지이다."
+    }
+  },
+  {
+    "id": "CBT_CC_007",
+    "terminology": "인지적 개념화 (Cognitive Conceptualization)",
+    "terminology_ko": "인지적 개념화",
+    "terminology_en": "Cognitive Conceptualization",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "내담자의 핵심 신념, 중간 신념, 자동적 사고 간의 관계를 도식화하여 내담자의 인지 구조를 체계적으로 이해하는 과정이다.",
+    "definition_en": "The process of systematically understanding the client's cognitive structure by diagramming the relationships among core beliefs, intermediate beliefs, and automatic thoughts.",
+    "significance": "사례에 대한 인지적 이해를 통합하여 치료 계획을 수립하고, 개입의 초점을 정하는 인지치료의 핵심 임상 기술이다.",
+    "key_researchers": [
+      {
+        "name_ko": "주디스 벡",
+        "name_en": "Judith S. Beck",
+        "contribution": "인지적 개념화 다이어그램(CCD)을 개발하고 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "핵심 신념",
+        "name_en": "Core Beliefs",
+        "id": "CBT_CB_006"
+      },
+      {
+        "name_ko": "중간 신념",
+        "name_en": "Intermediate Beliefs",
+        "id": "CBT_IB_005"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "인지 모델",
+        "name_en": "Cognitive Model",
+        "id": "CBT_CM_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인지적 개념화 = 내담자의 인지 구조를 보여주는 '설계도'",
+      "differential": "정신분석의 사례 공식화가 무의식적 역동에 초점을 맞추는 반면, 인지적 개념화는 인지 구조에 초점을 맞춘다.",
+      "key_point": "J. Beck의 인지적 개념화 다이어그램(CCD)은 핵심 신념에서 자동적 사고까지의 하향식 도식이다.",
+      "common_mistake": "인지적 개념화를 일회적으로 완성하는 것으로 오해하면 안 된다. 치료 과정에서 지속적으로 수정된다."
+    }
+  },
+  {
+    "id": "CBT_SC_008",
+    "terminology": "인지 도식 (Schema)",
+    "terminology_ko": "인지 도식",
+    "terminology_en": "Schema",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "과거 경험을 통해 형성된 인지적 구조로, 새로운 정보를 해석하고 조직하는 틀 역할을 하며, 핵심 신념과 밀접하게 관련된다.",
+    "definition_en": "Cognitive structures formed through past experiences that serve as frameworks for interpreting and organizing new information, closely related to core beliefs.",
+    "significance": "정보 처리의 편향을 설명하며, 부적응적 도식의 수정이 인지치료의 근본적 목표가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "인지 도식 개념을 인지치료에 도입함"
+      },
+      {
+        "name_ko": "제프리 영",
+        "name_en": "Jeffrey Young",
+        "contribution": "초기 부적응 도식 개념을 발전시켜 심리도식치료를 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "핵심 신념",
+        "name_en": "Core Beliefs",
+        "id": "CBT_CB_006"
+      },
+      {
+        "name_ko": "인지적 왜곡",
+        "name_en": "Cognitive Distortions",
+        "id": "CBT_CD_004"
+      },
+      {
+        "name_ko": "인지적 개념화",
+        "name_en": "Cognitive Conceptualization",
+        "id": "CBT_CC_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도식 = 경험의 '틀' (모든 정보를 이 틀로 걸러서 본다)",
+      "differential": "Piaget의 도식이 인지 발달의 구조인 반면, Beck의 도식은 심리병리를 유발하는 인지적 취약성이다.",
+      "key_point": "Beck은 도식(schema)과 핵심 신념(core belief)을 거의 동의어로 사용하지만, Young은 도식을 더 넓은 개념으로 확장했다.",
+      "common_mistake": "도식을 의식적으로 접근 가능한 것으로 오해하면 안 된다. 대부분 비의식적으로 작동한다."
+    }
+  },
+  {
+    "id": "CBT_CT_009",
+    "terminology": "인지삼제 (Cognitive Triad)",
+    "terminology_ko": "인지삼제",
+    "terminology_en": "Cognitive Triad",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Beck의 우울증 인지 모델에서 자기, 세상, 미래에 대한 부정적 관점이 동시에 나타나는 3가지 인지 패턴이다.",
+    "definition_en": "In Beck's cognitive model of depression, three cognitive patterns involving simultaneous negative views of self, the world, and the future.",
+    "significance": "우울증의 인지적 핵심을 체계적으로 설명하며, 치료에서 각 요소를 구분하여 다룰 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "우울증의 인지삼제를 규명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지 모델",
+        "name_en": "Cognitive Model",
+        "id": "CBT_CM_002"
+      },
+      {
+        "name_ko": "핵심 신념",
+        "name_en": "Core Beliefs",
+        "id": "CBT_CB_006"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "자기에 대한 부정적 관점",
+        "description": "'나는 무능하고 부족하다'"
+      },
+      {
+        "name": "세상에 대한 부정적 관점",
+        "description": "'세상은 불공평하고 적대적이다'"
+      },
+      {
+        "name": "미래에 대한 부정적 관점",
+        "description": "'미래는 절망적이다'"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "인지삼제 = 나(자기)-세상-미래 모두 부정적 = 우울의 3종 세트",
+      "differential": "학습된 무기력이 통제 불가능성에 초점을 맞추는 반면, 인지삼제는 3영역의 동시적 부정적 해석에 초점을 맞춘다.",
+      "key_point": "우울증 환자는 자기, 세상, 미래 모두에 대해 부정적이며, 이것이 우울증의 인지적 핵심이다.",
+      "common_mistake": "인지삼제가 우울증에만 적용된다고 오해할 수 있으나, Beck은 이후 불안 등 다른 장애에도 인지 모델을 확장했다."
+    }
+  },
+  {
+    "id": "CBT_CR_010",
+    "terminology": "인지 재구조화 (Cognitive Restructuring)",
+    "terminology_ko": "인지 재구조화",
+    "terminology_en": "Cognitive Restructuring",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "역기능적 사고를 인식하고, 증거를 검토하며, 보다 균형 잡히고 적응적인 사고로 대체하는 인지치료의 핵심 기법이다.",
+    "definition_en": "A core CBT technique of identifying dysfunctional thoughts, examining evidence, and replacing them with more balanced and adaptive thoughts.",
+    "significance": "인지치료의 가장 대표적인 치료 기법으로, 사고 변화를 통해 정서적 고통을 감소시키는 직접적 개입이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "인지 재구조화 기법의 기초를 마련함"
+      },
+      {
+        "name_ko": "주디스 벡",
+        "name_en": "Judith S. Beck",
+        "contribution": "인지 재구조화의 구체적 절차를 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "소크라테스식 질문",
+        "name_en": "Socratic Questioning",
+        "id": "CBT_SQ_012"
+      },
+      {
+        "name_ko": "사고 기록지",
+        "name_en": "Thought Record",
+        "id": "CBT_TR_011"
+      },
+      {
+        "name_ko": "인지적 왜곡",
+        "name_en": "Cognitive Distortions",
+        "id": "CBT_CD_004"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인지 재구조화 = 생각의 '리모델링' (부정적 → 균형적)",
+      "differential": "REBT의 논박이 비합리적 신념을 직접 도전하는 반면, Beck의 인지 재구조화는 증거 검토를 통해 부드럽게 수정한다.",
+      "key_point": "부정적 사고를 긍정적 사고로 바꾸는 것이 아니라, 증거에 기반한 균형 잡힌 사고로 변환하는 것이다.",
+      "common_mistake": "인지 재구조화를 단순한 '긍정적 사고'로 오해하면 안 된다. 증거 기반의 현실적 사고 변화이다."
+    }
+  },
+  {
+    "id": "CBT_TR_011",
+    "terminology": "사고 기록지 (Thought Record)",
+    "terminology_ko": "사고 기록지",
+    "terminology_en": "Thought Record",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "상황, 자동적 사고, 감정, 증거, 대안적 사고 등을 체계적으로 기록하여 인지 재구조화를 실천하는 구조화된 기록 양식이다.",
+    "definition_en": "A structured recording form for systematically documenting situations, automatic thoughts, emotions, evidence, and alternative thoughts to practice cognitive restructuring.",
+    "significance": "인지 재구조화를 실생활에서 체계적으로 연습할 수 있는 핵심 도구이며, CBT 숙제의 대표적 형태이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "역기능적 사고 기록지(DTR)의 원형을 개발함"
+      },
+      {
+        "name_ko": "크리스틴 파데스키",
+        "name_en": "Christine Padesky",
+        "contribution": "사고 기록지를 7열 형태로 발전시킴"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "숙제",
+        "name_en": "Homework",
+        "id": "CBT_HW_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사고 기록지 = 상황→생각→감정→증거→대안 = '생각 일기'",
+      "differential": "일반 일기가 자유로운 서술인 반면, 사고 기록지는 구조화된 인지 분석 도구이다.",
+      "key_point": "'지지 증거'와 '반박 증거'를 모두 기록하여 균형 잡힌 대안적 사고를 도출하는 것이 핵심이다.",
+      "common_mistake": "사고 기록지를 단순히 부정적 생각을 나열하는 도구로 사용하면 안 된다. 증거 검토와 대안 도출까지 완료해야 한다."
+    }
+  },
+  {
+    "id": "CBT_SQ_012",
+    "terminology": "소크라테스식 질문 (Socratic Questioning)",
+    "terminology_ko": "소크라테스식 질문",
+    "terminology_en": "Socratic Questioning",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "내담자가 자신의 사고를 스스로 검토하고 재평가하도록 안내하는 질문 기법으로, 직접적인 반박 대신 발견의 과정을 촉진한다.",
+    "definition_en": "A questioning technique guiding clients to examine and re-evaluate their own thinking, promoting a process of discovery rather than direct confrontation.",
+    "significance": "내담자의 자율적 사고 검토를 촉진하여 인지 변화의 내적 동기를 높이는 인지치료의 핵심 치료적 소통 방식이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "소크라테스식 질문법을 인지치료의 핵심 기법으로 도입함"
+      },
+      {
+        "name_ko": "크리스틴 파데스키",
+        "name_en": "Christine Padesky",
+        "contribution": "안내된 발견(guided discovery)으로서의 소크라테스식 질문을 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      },
+      {
+        "name_ko": "안내된 발견",
+        "name_en": "Guided Discovery",
+        "id": "CBT_GD_013"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "자기평가",
+        "name_en": "Self-Evaluation",
+        "id": "REALITY_SE_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소크라테스 = '너 자신을 알라' → 질문으로 스스로 깨닫게 하기",
+      "differential": "REBT의 논박이 적극적·직접적으로 신념에 도전하는 반면, 소크라테스식 질문은 간접적·탐구적으로 사고를 검토하게 한다.",
+      "key_point": "'그 생각의 증거는?', '다른 가능한 해석은?', '최악/최선/가장 현실적 결과는?' 등의 질문을 사용한다.",
+      "common_mistake": "소크라테스식 질문을 단순한 질문 나열로 오해하면 안 된다. 내담자의 반응에 따라 유연하게 이어지는 대화 과정이다."
+    }
+  },
+  {
+    "id": "CBT_GD_013",
+    "terminology": "안내된 발견 (Guided Discovery)",
+    "terminology_ko": "안내된 발견",
+    "terminology_en": "Guided Discovery",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "소크라테스식 질문을 통해 내담자가 스스로 자신의 사고 패턴을 발견하고 새로운 관점에 도달하도록 안내하는 인지치료의 협력적 과정이다.",
+    "definition_en": "A collaborative CBT process of guiding clients through Socratic questioning to discover their own thinking patterns and arrive at new perspectives.",
+    "significance": "상담자가 답을 제공하는 것이 아니라 내담자가 스스로 발견하게 하여, 인지 변화의 지속성과 자기효능감을 높인다.",
+    "key_researchers": [
+      {
+        "name_ko": "크리스틴 파데스키",
+        "name_en": "Christine Padesky",
+        "contribution": "안내된 발견을 인지치료의 핵심 치료적 태도로 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "소크라테스식 질문",
+        "name_en": "Socratic Questioning",
+        "id": "CBT_SQ_012"
+      },
+      {
+        "name_ko": "협력적 경험주의",
+        "name_en": "Collaborative Empiricism",
+        "id": "CBT_CE_014"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "안내된 발견 = 상담자는 '가이드', 내담자가 '탐험가'",
+      "differential": "REBT의 논박이 상담자 주도적인 반면, 안내된 발견은 내담자 주도의 탐색 과정이다.",
+      "key_point": "상담자가 이미 답을 알고 있더라도, 내담자가 스스로 발견하도록 질문으로 안내하는 것이 핵심이다.",
+      "common_mistake": "안내된 발견이 내담자를 특정 결론으로 유도하는 것이 아니라, 열린 탐색을 촉진하는 것이다."
+    }
+  },
+  {
+    "id": "CBT_CE_014",
+    "terminology": "협력적 경험주의 (Collaborative Empiricism)",
+    "terminology_ko": "협력적 경험주의",
+    "terminology_en": "Collaborative Empiricism",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "상담자와 내담자가 팀을 이루어 내담자의 사고를 가설로 설정하고, 증거를 함께 검토하여 사고의 타당성을 검증하는 인지치료의 치료적 관계 모델이다.",
+    "definition_en": "A CBT therapeutic relationship model where counselor and client work as a team, treating the client's thoughts as hypotheses and jointly examining evidence to test their validity.",
+    "significance": "상담자와 내담자의 수평적 협력 관계를 강조하며, 경험적 증거 기반의 사고 검증을 통해 인지 변화를 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "협력적 경험주의를 인지치료의 기본 치료 태도로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "안내된 발견",
+        "name_en": "Guided Discovery",
+        "id": "CBT_GD_013"
+      },
+      {
+        "name_ko": "소크라테스식 질문",
+        "name_en": "Socratic Questioning",
+        "id": "CBT_SQ_012"
+      },
+      {
+        "name_ko": "행동 실험",
+        "name_en": "Behavioral Experiments",
+        "id": "CBT_BE_016"
+      },
+      {
+        "name_ko": "치료적 관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "협력적 경험주의 = 상담자+내담자가 '과학자 팀'이 되어 생각을 검증",
+      "differential": "Rogers의 치료적 관계가 무조건적 수용을 강조하는 반면, 협력적 경험주의는 증거 기반의 공동 탐구를 강조한다.",
+      "key_point": "내담자의 사고를 '사실'이 아닌 '검증 가능한 가설'로 다루는 것이 핵심 원칙이다.",
+      "common_mistake": "협력적 경험주의가 상담자가 내담자에게 동의하는 것을 의미하지 않는다. 증거를 함께 검토하는 과정이다."
+    }
+  },
+  {
+    "id": "CBT_HW_015",
+    "terminology": "숙제 (Homework)",
+    "terminology_ko": "숙제",
+    "terminology_en": "Homework",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "상담 회기 사이에 내담자가 실생활에서 수행하는 과제로, 사고 기록, 행동 실험, 활동 계획 등을 포함하며 치료 효과를 극대화한다.",
+    "definition_en": "Assignments performed by clients between sessions in real life, including thought records, behavioral experiments, and activity planning, maximizing therapeutic effectiveness.",
+    "significance": "상담실에서의 학습을 실생활로 일반화하고, 치료적 변화를 가속화하는 CBT의 핵심 구성요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "숙제를 인지치료의 필수 요소로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사고 기록지",
+        "name_en": "Thought Record",
+        "id": "CBT_TR_011"
+      },
+      {
+        "name_ko": "행동 실험",
+        "name_en": "Behavioral Experiments",
+        "id": "CBT_BE_016"
+      },
+      {
+        "name_ko": "활동 계획",
+        "name_en": "Activity Scheduling",
+        "id": "CBT_AS_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CBT 숙제 = 상담실 밖에서의 '실전 연습'",
+      "differential": "다른 상담 접근의 숙제가 선택적인 반면, CBT에서 숙제는 치료의 필수적 부분이다.",
+      "key_point": "숙제는 상담자가 일방적으로 부여하는 것이 아니라 내담자와 협력하여 설계하는 것이 원칙이다.",
+      "common_mistake": "숙제를 수행하지 않는 것을 '저항'으로만 해석하면 안 된다. 과제의 적절성과 내담자의 준비도를 검토해야 한다."
+    }
+  },
+  {
+    "id": "CBT_BE_016",
+    "terminology": "행동 실험 (Behavioral Experiments)",
+    "terminology_ko": "행동 실험",
+    "terminology_en": "Behavioral Experiments",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "내담자의 역기능적 신념을 검증하기 위해 설계된 실제 행동 과제로, 신념의 예측과 실제 결과를 비교하여 인지 변화를 촉진한다.",
+    "definition_en": "Real-life behavioral tasks designed to test dysfunctional beliefs, promoting cognitive change by comparing belief predictions with actual outcomes.",
+    "significance": "말로만 하는 인지 작업의 한계를 보완하여, 경험적 증거를 통한 강력한 인지 변화를 이끌어낸다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "행동 실험을 인지치료의 핵심 기법으로 도입함"
+      },
+      {
+        "name_ko": "앤 허클리",
+        "name_en": "Ann Hackmann",
+        "contribution": "행동 실험의 설계와 실행 절차를 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "협력적 경험주의",
+        "name_en": "Collaborative Empiricism",
+        "id": "CBT_CE_014"
+      },
+      {
+        "name_ko": "숙제",
+        "name_en": "Homework",
+        "id": "CBT_HW_015"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      },
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 실험 = 생각을 '실험'으로 검증 (예측 vs 실제 결과 비교)",
+      "differential": "노출 치료가 불안 감소를 목표로 하는 반면, 행동 실험은 신념의 검증을 목표로 한다.",
+      "key_point": "실험 전 예측을 명확히 하고, 실험 후 결과와 비교하여 신념을 수정하는 과정이 핵심이다.",
+      "common_mistake": "행동 실험의 목적이 '성공 경험'이 아닌 '신념 검증'임을 기억해야 한다. 예측이 맞더라도 유용한 학습이 된다."
+    }
+  },
+  {
+    "id": "CBT_AS_017",
+    "terminology": "활동 계획 (Activity Scheduling)",
+    "terminology_ko": "활동 계획",
+    "terminology_en": "Activity Scheduling",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "우울증 치료에서 내담자가 즐거움과 성취감을 주는 활동을 체계적으로 계획하고 실행하도록 돕는 행동 활성화 기법이다.",
+    "definition_en": "A behavioral activation technique in depression treatment that helps clients systematically plan and execute activities providing pleasure and mastery.",
+    "significance": "우울증의 무기력과 회피를 극복하고, 행동 변화를 통해 인지와 정서의 변화를 촉진하는 초기 개입 전략이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "활동 계획을 우울증 인지치료의 초기 기법으로 도입함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "숙제",
+        "name_en": "Homework",
+        "id": "CBT_HW_015"
+      },
+      {
+        "name_ko": "행동 활성화",
+        "name_en": "Behavioral Activation",
+        "id": "CBT_BA_035"
+      },
+      {
+        "name_ko": "인지삼제",
+        "name_en": "Cognitive Triad",
+        "id": "CBT_CT_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "활동 계획 = 즐거움(P) + 성취감(M)을 주는 활동을 '시간표'에 넣기",
+      "differential": "현실치료의 행동 계획이 욕구 충족에 초점을 맞추는 반면, 활동 계획은 즐거움과 성취감 회복에 초점을 맞춘다.",
+      "key_point": "각 활동에 대해 즐거움(Pleasure)과 숙달감(Mastery)을 0~10점으로 평정하는 것이 특징이다.",
+      "common_mistake": "활동 계획이 단순히 '바쁘게 지내기'가 아니라, 전략적으로 보상적 활동을 배치하는 것임을 이해해야 한다."
+    }
+  },
+  {
+    "id": "CBT_RE_018",
+    "terminology": "합리적 정서행동치료 (Rational Emotive Behavior Therapy, REBT)",
+    "terminology_ko": "합리적 정서행동치료",
+    "terminology_en": "Rational Emotive Behavior Therapy",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Albert Ellis가 개발한 상담 접근으로, 비합리적 신념이 정서적 장애의 원인이며 이를 논박하여 합리적 신념으로 대체하는 것을 목표로 한다.",
+    "definition_en": "A counseling approach developed by Albert Ellis positing that irrational beliefs cause emotional disturbance, aiming to dispute them and replace with rational beliefs.",
+    "significance": "인지행동치료의 선구적 접근으로, ABC 모델과 논박 기법을 통해 인지 변화의 치료적 가치를 최초로 체계화했다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "REBT(초기명 RET)를 창시하고 ABC 모델을 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "ABC 모델",
+        "name_en": "ABC Model",
+        "id": "CBT_ABC_019"
+      },
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "논박",
+        "name_en": "Disputing",
+        "id": "CBT_DI_022"
+      },
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "CBT",
+        "id": "CBT_CT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "REBT = Ellis = ABC + 논박(D) = 비합리적 신념 깨부수기",
+      "differential": "Beck의 인지치료가 소크라테스식 질문으로 부드럽게 접근하는 반면, REBT는 비합리적 신념을 적극적으로 논박한다.",
+      "key_point": "초기 명칭은 합리적 치료(RT, 1955), 이후 합리적 정서치료(RET), 최종적으로 REBT(1993)로 변경되었다.",
+      "common_mistake": "REBT가 감정을 무시한다고 오해하면 안 된다. 건강한 부정적 감정과 불건강한 부정적 감정을 구별한다."
+    }
+  },
+  {
+    "id": "CBT_ABC_019",
+    "terminology": "ABC 모델 (ABC Model)",
+    "terminology_ko": "ABC 모델",
+    "terminology_en": "ABC Model",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Ellis의 REBT 핵심 이론으로, 선행사건(A)이 아닌 신념(B)이 결과(C: 정서/행동)를 결정한다는 모델이며, 논박(D)과 효과(E)로 확장된다.",
+    "definition_en": "Ellis's core REBT theory stating that beliefs (B), not activating events (A), determine consequences (C: emotions/behaviors), extended by disputing (D) and effects (E).",
+    "significance": "사건과 감정 사이에 신념이 매개한다는 인지적 관점의 기본 틀을 제공하며, REBT 상담의 전 과정을 구조화한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "ABC(DE) 모델을 개발하여 REBT의 이론적 기반을 마련함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "합리적 정서행동치료",
+        "name_en": "REBT",
+        "id": "CBT_RE_018"
+      },
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "논박",
+        "name_en": "Disputing",
+        "id": "CBT_DI_022"
+      },
+      {
+        "name_ko": "인지 모델",
+        "name_en": "Cognitive Model",
+        "id": "CBT_CM_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "A (Activating Event)",
+        "description": "촉발 사건 또는 선행 사건"
+      },
+      {
+        "name": "B (Belief)",
+        "description": "사건에 대한 신념 체계 (합리적/비합리적)"
+      },
+      {
+        "name": "C (Consequence)",
+        "description": "정서적·행동적 결과"
+      },
+      {
+        "name": "D (Disputing)",
+        "description": "비합리적 신념에 대한 논박"
+      },
+      {
+        "name": "E (Effect)",
+        "description": "논박 후 새로운 효과적 철학/정서"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "A(사건) → B(신념) → C(결과) → D(논박) → E(효과): 'A가 C를 만든다고? 아니, B가 만든다!'",
+      "differential": "Beck의 인지 모델(상황→자동적 사고→감정)과 유사하나, ABC 모델은 신념의 합리성/비합리성을 더 강조한다.",
+      "key_point": "핵심 메시지는 'A가 C를 유발하는 것이 아니라, B가 C를 유발한다'는 것이다.",
+      "common_mistake": "A→C의 직접적 인과를 가정하는 것이 일상적 오류이며, REBT는 B의 매개 역할을 강조한다."
+    }
+  },
+  {
+    "id": "CBT_IB_020",
+    "terminology": "비합리적 신념 (Irrational Beliefs)",
+    "terminology_ko": "비합리적 신념",
+    "terminology_en": "Irrational Beliefs",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Ellis가 규명한 정서적 혼란을 유발하는 비논리적이고 현실과 일치하지 않는 신념으로, 당위적 요구(musturbation)가 핵심 특징이다.",
+    "definition_en": "Illogical beliefs inconsistent with reality identified by Ellis that cause emotional disturbance, characterized by absolute demands (musturbation).",
+    "significance": "정서적 문제의 인지적 근원을 구체적으로 식별하고, 논박의 표적을 명확히 하는 REBT의 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "비합리적 신념의 주요 유형과 특성을 규명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "ABC 모델",
+        "name_en": "ABC Model",
+        "id": "CBT_ABC_019"
+      },
+      {
+        "name_ko": "당위적 사고",
+        "name_en": "Musturbation",
+        "id": "CBT_MU_021"
+      },
+      {
+        "name_ko": "논박",
+        "name_en": "Disputing",
+        "id": "CBT_DI_022"
+      },
+      {
+        "name_ko": "합리적 신념",
+        "name_en": "Rational Beliefs",
+        "id": "CBT_RB_023"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "자기에 대한 당위",
+        "description": "'나는 반드시 ~해야 한다' (자기비하로 이어짐)"
+      },
+      {
+        "name": "타인에 대한 당위",
+        "description": "'타인은 반드시 ~해야 한다' (분노로 이어짐)"
+      },
+      {
+        "name": "세상에 대한 당위",
+        "description": "'세상은 반드시 ~해야 한다' (좌절 인내력 저하로 이어짐)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "비합리적 신념의 3가지 당위: 나-해야(자기비하), 너-해야(분노), 세상-해야(좌절)",
+      "differential": "Beck의 인지왜곡이 정보처리 오류인 반면, Ellis의 비합리적 신념은 절대적 당위적 요구이다.",
+      "key_point": "Ellis는 모든 비합리적 신념의 핵심에 '당위적 요구(must)'가 있다고 보았다.",
+      "common_mistake": "비합리적 신념을 단순히 '부정적 생각'으로 보면 안 된다. 핵심은 '~해야 한다'는 절대적 요구이다."
+    }
+  },
+  {
+    "id": "CBT_MU_021",
+    "terminology": "당위적 사고 (Musturbation)",
+    "terminology_ko": "당위적 사고",
+    "terminology_en": "Musturbation",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Ellis가 명명한 비합리적 신념의 핵심 형태로, '~해야 한다(must)'는 절대적이고 경직된 요구를 자기, 타인, 세상에 부과하는 사고 패턴이다.",
+    "definition_en": "The core form of irrational beliefs named by Ellis, a thinking pattern of imposing absolute, rigid demands ('must') on self, others, and the world.",
+    "significance": "모든 비합리적 신념의 근본 형태로, 이 당위적 요구를 선호적 바람으로 전환하는 것이 REBT의 핵심 치료 목표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "당위적 사고(musturbation)를 정서장애의 핵심 원인으로 규명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "합리적 신념",
+        "name_en": "Rational Beliefs",
+        "id": "CBT_RB_023"
+      },
+      {
+        "name_ko": "논박",
+        "name_en": "Disputing",
+        "id": "CBT_DI_022"
+      },
+      {
+        "name_ko": "좌절 인내력 저하",
+        "name_en": "Low Frustration Tolerance",
+        "id": "CBT_LF_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Musturbation = must + 자위(masturbation)의 언어유희 = 'must'로 자기를 괴롭히기",
+      "differential": "Beck의 '~해야 한다'(should statement)가 인지왜곡의 하나인 반면, Ellis의 musturbation은 모든 비합리적 신념의 근본이다.",
+      "key_point": "must를 preference(선호)로 바꾸는 것: '반드시 ~해야 한다' → '~하면 좋겠지만, 반드시 그럴 필요는 없다'",
+      "common_mistake": "당위적 사고가 모든 '해야' 표현을 포함하는 것이 아니다. 절대적·경직된 요구만 해당된다."
+    }
+  },
+  {
+    "id": "CBT_DI_022",
+    "terminology": "논박 (Disputing)",
+    "terminology_ko": "논박",
+    "terminology_en": "Disputing",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "REBT의 핵심 기법으로, 내담자의 비합리적 신념에 적극적으로 도전하고 질문하여 논리적·경험적·실용적 근거를 검토하는 과정이다.",
+    "definition_en": "A core REBT technique of actively challenging and questioning clients' irrational beliefs by examining logical, empirical, and pragmatic evidence.",
+    "significance": "비합리적 신념을 합리적 신념으로 전환하는 REBT의 가장 핵심적인 치료 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "논박 기법을 REBT의 핵심 개입으로 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "ABC 모델",
+        "name_en": "ABC Model",
+        "id": "CBT_ABC_019"
+      },
+      {
+        "name_ko": "합리적 신념",
+        "name_en": "Rational Beliefs",
+        "id": "CBT_RB_023"
+      },
+      {
+        "name_ko": "소크라테스식 질문",
+        "name_en": "Socratic Questioning",
+        "id": "CBT_SQ_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "논리적 논박 (Logical Disputing)",
+        "description": "'그 생각이 논리적인가?' 논리적 모순 지적"
+      },
+      {
+        "name": "경험적 논박 (Empirical Disputing)",
+        "description": "'그 증거가 있는가?' 경험적 근거 검토"
+      },
+      {
+        "name": "실용적 논박 (Pragmatic Disputing)",
+        "description": "'그렇게 생각하면 도움이 되는가?' 실용적 결과 평가"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "논박 3가지: 논리적(말이 되나?), 경험적(증거가 있나?), 실용적(도움이 되나?)",
+      "differential": "Beck의 소크라테스식 질문이 부드러운 탐색인 반면, Ellis의 논박은 적극적이고 직접적인 도전이다.",
+      "key_point": "D(Disputing)는 ABC 모델의 네 번째 단계로, 비합리적 신념을 직접 도전하는 치료적 개입이다.",
+      "common_mistake": "논박이 내담자를 공격하는 것이 아니라, 비합리적 '신념'을 도전하는 것임을 구분해야 한다."
+    }
+  },
+  {
+    "id": "CBT_RB_023",
+    "terminology": "합리적 신념 (Rational Beliefs)",
+    "terminology_ko": "합리적 신념",
+    "terminology_en": "Rational Beliefs",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "현실에 기반하고, 논리적이며, 목표 달성에 도움이 되는 유연한 신념으로, 선호와 바람의 형태로 표현된다.",
+    "definition_en": "Flexible beliefs that are reality-based, logical, and helpful for goal attainment, expressed as preferences and wishes rather than absolute demands.",
+    "significance": "비합리적 신념의 대안으로, REBT의 치료 목표는 비합리적 신념을 합리적 신념으로 대체하는 것이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "합리적 신념의 특성과 기준을 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "논박",
+        "name_en": "Disputing",
+        "id": "CBT_DI_022"
+      },
+      {
+        "name_ko": "ABC 모델",
+        "name_en": "ABC Model",
+        "id": "CBT_ABC_019"
+      },
+      {
+        "name_ko": "효과적 새 철학",
+        "name_en": "Effective New Philosophy",
+        "id": "CBT_EN_025"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "합리적 신념 = '~하면 좋겠다(prefer)' (vs 비합리적 = '반드시 ~해야 한다(must)')",
+      "differential": "합리적 신념은 부정적 감정이 없는 것이 아니라, 건강한 부정적 감정(슬픔, 걱정 등)을 느끼게 한다.",
+      "key_point": "합리적 신념의 핵심은 유연성(flexibility)이며, 현실을 있는 그대로 수용하면서 선호를 표현한다.",
+      "common_mistake": "합리적 신념이 '아무것도 신경 쓰지 않는 것'을 의미하지 않는다. 강한 바람을 갖되 절대적 요구를 하지 않는 것이다."
+    }
+  },
+  {
+    "id": "CBT_LF_024",
+    "terminology": "낮은 좌절 인내력 (Low Frustration Tolerance)",
+    "terminology_ko": "낮은 좌절 인내력",
+    "terminology_en": "Low Frustration Tolerance",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "불편하거나 힘든 상황을 견딜 수 없다고 믿는 비합리적 신념으로, '이것을 참을 수 없다(I can't stand it)'는 사고로 나타난다.",
+    "definition_en": "An irrational belief that one cannot bear uncomfortable or difficult situations, manifested in thinking 'I can't stand it.'",
+    "significance": "회피 행동, 미루기, 중독 등 다양한 행동 문제의 인지적 기반으로, REBT에서 중요하게 다루는 비합리적 신념 유형이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "낮은 좌절 인내력을 비합리적 신념의 주요 파생물로 규명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "당위적 사고",
+        "name_en": "Musturbation",
+        "id": "CBT_MU_021"
+      },
+      {
+        "name_ko": "재앙화",
+        "name_en": "Catastrophizing/Awfulizing",
+        "id": "CBT_AW_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "LFT = 'I can't stand it!' = '못 참겠어!'",
+      "differential": "재앙화가 '끔찍하다'는 사건 평가인 반면, 낮은 좌절 인내력은 '참을 수 없다'는 자기 능력 평가이다.",
+      "key_point": "치료적 대안은 '불편하지만 참을 수 있다(I don't like it, but I can stand it)'는 높은 좌절 인내력(HFT)이다.",
+      "common_mistake": "낮은 좌절 인내력이 실제 능력 부족이 아니라 '참을 수 없다'는 믿음의 문제임을 이해해야 한다."
+    }
+  },
+  {
+    "id": "CBT_EN_025",
+    "terminology": "효과적 새 철학 (Effective New Philosophy)",
+    "terminology_ko": "효과적 새 철학",
+    "terminology_en": "Effective New Philosophy",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "ABCDE 모델의 E 단계로, 논박을 통해 비합리적 신념이 합리적 신념으로 대체된 후 형성되는 새로운 인지적·정서적·행동적 효과이다.",
+    "definition_en": "The E stage of the ABCDE model, representing new cognitive, emotional, and behavioral effects formed after irrational beliefs are replaced with rational beliefs through disputing.",
+    "significance": "REBT의 궁극적 치료 결과를 나타내며, 건강한 부정적 감정과 적응적 행동의 출현을 포함한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "ABCDE 모델의 E(효과) 단계를 제시함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "ABC 모델",
+        "name_en": "ABC Model",
+        "id": "CBT_ABC_019"
+      },
+      {
+        "name_ko": "논박",
+        "name_en": "Disputing",
+        "id": "CBT_DI_022"
+      },
+      {
+        "name_ko": "합리적 신념",
+        "name_en": "Rational Beliefs",
+        "id": "CBT_RB_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "E = Effect = 논박(D) 후의 '새로운 효과' (건강한 감정 + 적응적 행동)",
+      "differential": "Beck의 대안적 사고가 특정 상황에 대한 것인 반면, REBT의 새 철학은 삶 전반에 대한 관점 전환이다.",
+      "key_point": "E의 결과로 불건강한 부정적 감정(불안)이 건강한 부정적 감정(걱정)으로 전환된다.",
+      "common_mistake": "효과적 새 철학이 '긍정적 감정만 느끼기'가 아니라 '건강한 부정적 감정을 느끼기'임을 이해해야 한다."
+    }
+  },
+  {
+    "id": "CBT_AW_026",
+    "terminology": "파국화/끔찍화 (Awfulizing/Catastrophizing)",
+    "terminology_ko": "파국화",
+    "terminology_en": "Awfulizing",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Ellis의 REBT에서 부정적 사건을 '끔찍하다, 최악이다'로 극단적으로 평가하는 비합리적 신념의 파생물이다.",
+    "definition_en": "In Ellis's REBT, a derivative of irrational beliefs involving extreme evaluation of negative events as 'awful' or 'the worst possible thing.'",
+    "significance": "당위적 사고에서 파생되는 핵심 비합리적 신념 유형으로, 불안과 공포의 인지적 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "파국화를 비합리적 신념의 주요 파생물로 규명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "당위적 사고",
+        "name_en": "Musturbation",
+        "id": "CBT_MU_021"
+      },
+      {
+        "name_ko": "낮은 좌절 인내력",
+        "name_en": "Low Frustration Tolerance",
+        "id": "CBT_LF_024"
+      },
+      {
+        "name_ko": "인지적 왜곡",
+        "name_en": "Cognitive Distortions",
+        "id": "CBT_CD_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "파국화 = '이건 끔찍해! 세상이 끝났어!' (100% 나쁜 것은 없다)",
+      "differential": "Beck의 재앙화(catastrophizing)와 유사하나, Ellis의 awfulizing은 사건을 '100% 이상 나쁜 것'으로 평가하는 것을 뜻한다.",
+      "key_point": "치료적 대안: '나쁜 일이지만 끔찍한 것은 아니다. 불편하지만 세상의 끝은 아니다.'",
+      "common_mistake": "파국화와 현실적 위험 평가를 구분해야 한다. 실제 위험이 큰 상황에서의 걱정은 파국화가 아니다."
+    }
+  },
+  {
+    "id": "CBT_UA_027",
+    "terminology": "무조건적 자기수용 (Unconditional Self-Acceptance, USA)",
+    "terminology_ko": "무조건적 자기수용",
+    "terminology_en": "Unconditional Self-Acceptance",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Ellis가 강조한 REBT의 핵심 철학으로, 행동의 좋고 나쁨은 평가하되 인간의 전체적 가치를 평가하지 않고 자신을 있는 그대로 수용하는 것이다.",
+    "definition_en": "A core REBT philosophy emphasized by Ellis, accepting oneself as-is without rating one's total worth, while evaluating behaviors as good or bad.",
+    "significance": "자기비하의 근본적 대안으로, 조건부 자존감이 아닌 무조건적 자기수용을 통해 심리적 건강을 추구한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "자존감(self-esteem) 대신 무조건적 자기수용(USA) 개념을 제안함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "합리적 정서행동치료",
+        "name_en": "REBT",
+        "id": "CBT_RE_018"
+      },
+      {
+        "name_ko": "무조건적 타인수용",
+        "name_en": "Unconditional Other-Acceptance",
+        "id": "CBT_UO_028"
+      },
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PERSON_UPR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "USA = 행동은 평가하되 '나' 전체를 평가하지 않기",
+      "differential": "Rogers의 무조건적 긍정적 존중이 타인에 의한 수용인 반면, Ellis의 USA는 자기 자신에 의한 수용이다.",
+      "key_point": "Ellis는 '자존감(self-esteem)'이라는 개념 자체가 자기 평가를 전제하므로 해로울 수 있다고 보았다.",
+      "common_mistake": "무조건적 자기수용이 '아무것이나 해도 괜찮다'는 의미가 아니다. 행동의 결과는 책임지되, 인간적 가치를 등급화하지 않는 것이다."
+    }
+  },
+  {
+    "id": "CBT_UO_028",
+    "terminology": "무조건적 타인수용 (Unconditional Other-Acceptance, UOA)",
+    "terminology_ko": "무조건적 타인수용",
+    "terminology_en": "Unconditional Other-Acceptance",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "타인의 행동을 평가하되 그 사람 전체를 평가하지 않고, 타인을 실수할 수 있는 불완전한 인간으로 수용하는 REBT의 철학이다.",
+    "definition_en": "An REBT philosophy of evaluating others' behaviors while not rating the whole person, accepting others as fallible human beings who can make mistakes.",
+    "significance": "분노와 대인관계 문제의 근본적 해결을 위한 REBT의 핵심 철학적 태도이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "무조건적 타인수용을 REBT의 3가지 수용 철학 중 하나로 제시함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무조건적 자기수용",
+        "name_en": "Unconditional Self-Acceptance",
+        "id": "CBT_UA_027"
+      },
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "합리적 정서행동치료",
+        "name_en": "REBT",
+        "id": "CBT_RE_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "UOA = 타인의 행동은 나쁠 수 있지만, 타인 전체가 나쁜 것은 아니다",
+      "differential": "무조건적 자기수용이 자기 자신에 대한 것이라면, 무조건적 타인수용은 타인에 대한 비평가적 태도이다.",
+      "key_point": "'그 사람은 나쁜 사람이다'가 아닌 '그 사람의 그 행동은 바람직하지 않다'로 구분하는 것이 핵심이다.",
+      "common_mistake": "무조건적 타인수용이 타인의 나쁜 행동을 용납하는 것이 아니다. 행동에 대해서는 분명히 평가한다."
+    }
+  },
+  {
+    "id": "CBT_SH_029",
+    "terminology": "수치심 공격 훈련 (Shame-Attacking Exercises)",
+    "terminology_ko": "수치심 공격 훈련",
+    "terminology_en": "Shame-Attacking Exercises",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Ellis가 개발한 REBT 기법으로, 의도적으로 수치스러운 행동을 수행하면서 자신이 파국적 결과 없이 수치심을 견딜 수 있음을 경험하게 한다.",
+    "definition_en": "An REBT technique developed by Ellis where clients intentionally perform shame-inducing behaviors to experience that they can tolerate shame without catastrophic consequences.",
+    "significance": "수치심에 대한 비합리적 신념을 경험적으로 논박하는 행동적 기법으로, REBT의 독특한 치료 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "수치심 공격 훈련을 개발하고 REBT의 행동적 기법으로 활용함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "합리적 정서행동치료",
+        "name_en": "REBT",
+        "id": "CBT_RE_018"
+      },
+      {
+        "name_ko": "논박",
+        "name_en": "Disputing",
+        "id": "CBT_DI_022"
+      },
+      {
+        "name_ko": "행동 실험",
+        "name_en": "Behavioral Experiments",
+        "id": "CBT_BE_016"
+      },
+      {
+        "name_ko": "무조건적 자기수용",
+        "name_en": "Unconditional Self-Acceptance",
+        "id": "CBT_UA_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수치심 공격 = 일부러 창피한 짓을 해보고 '세상이 끝나지 않음'을 확인",
+      "differential": "행동 실험이 신념 검증을 목적으로 하는 반면, 수치심 공격은 수치심에 대한 인내력 향상이 주목적이다.",
+      "key_point": "핵심은 수치스러운 행동 자체가 아니라, 수치심을 견디면서도 자기를 수용할 수 있다는 경험이다.",
+      "common_mistake": "수치심 공격 훈련이 비윤리적이거나 타인에게 해를 끼치는 행동을 하는 것이 아니다. 무해하지만 사회적으로 어색한 행동을 사용한다."
+    }
+  },
+  {
+    "id": "CBT_HC_030",
+    "terminology": "건강한 부정적 감정 (Healthy Negative Emotions)",
+    "terminology_ko": "건강한 부정적 감정",
+    "terminology_en": "Healthy Negative Emotions",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "REBT에서 합리적 신념에서 비롯되는 적절한 수준의 부정적 감정으로, 걱정(concern), 슬픔(sadness), 후회(regret) 등이 해당된다.",
+    "definition_en": "In REBT, appropriate negative emotions arising from rational beliefs, including concern, sadness, and regret.",
+    "significance": "REBT의 목표가 부정적 감정의 제거가 아니라 불건강한 부정적 감정을 건강한 부정적 감정으로 전환하는 것임을 보여준다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "건강한 부정적 감정과 불건강한 부정적 감정의 구별을 제시함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "합리적 신념",
+        "name_en": "Rational Beliefs",
+        "id": "CBT_RB_023"
+      },
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "효과적 새 철학",
+        "name_en": "Effective New Philosophy",
+        "id": "CBT_EN_025"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "걱정 (Concern)",
+        "description": "불안의 건강한 대안 - 위험을 인식하되 과장하지 않음"
+      },
+      {
+        "name": "슬픔 (Sadness)",
+        "description": "우울의 건강한 대안 - 상실을 인정하되 절망하지 않음"
+      },
+      {
+        "name": "후회 (Regret)",
+        "description": "죄책감의 건강한 대안 - 실수를 인정하되 자기비하하지 않음"
+      },
+      {
+        "name": "짜증 (Annoyance)",
+        "description": "분노의 건강한 대안 - 불만을 느끼되 타인을 비하하지 않음"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "건강 vs 불건강: 걱정 vs 불안, 슬픔 vs 우울, 후회 vs 죄책감, 짜증 vs 분노",
+      "differential": "일반 상담에서 부정적 감정 자체를 문제로 보는 경향이 있으나, REBT는 건강한 부정적 감정은 자연스럽고 기능적이라고 본다.",
+      "key_point": "REBT의 치료 목표는 모든 부정적 감정의 제거가 아니라, 불건강한 것을 건강한 것으로 전환하는 것이다.",
+      "common_mistake": "건강한 부정적 감정을 '약한 감정'으로 오해하면 안 된다. 강도가 강할 수 있지만 적응적이다."
+    }
+  },
+  {
+    "id": "CBT_DT_031",
+    "terminology": "하향 화살표 기법 (Downward Arrow Technique)",
+    "terminology_ko": "하향 화살표 기법",
+    "terminology_en": "Downward Arrow Technique",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "'그것이 사실이라면 어떤 의미인가?'를 반복적으로 질문하여 자동적 사고에서 중간 신념, 핵심 신념까지 점진적으로 접근하는 인지치료 기법이다.",
+    "definition_en": "A cognitive therapy technique of repeatedly asking 'If that were true, what would it mean?' to progressively access intermediate and core beliefs from automatic thoughts.",
+    "significance": "표면적 자동적 사고 아래 숨어 있는 깊은 수준의 인지 구조를 파악하기 위한 핵심적 사정 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "하향 화살표 기법의 기초를 마련함"
+      },
+      {
+        "name_ko": "데이비드 번스",
+        "name_en": "David Burns",
+        "contribution": "하향 화살표 기법을 대중적으로 보급함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      },
+      {
+        "name_ko": "핵심 신념",
+        "name_en": "Core Beliefs",
+        "id": "CBT_CB_006"
+      },
+      {
+        "name_ko": "중간 신념",
+        "name_en": "Intermediate Beliefs",
+        "id": "CBT_IB_005"
+      },
+      {
+        "name_ko": "소크라테스식 질문",
+        "name_en": "Socratic Questioning",
+        "id": "CBT_SQ_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "하향 화살표 ↓ = '그래서 그게 뭔데?' 반복 → 핵심까지 파고들기",
+      "differential": "소크라테스식 질문이 사고의 타당성을 검토하는 반면, 하향 화살표는 사고의 깊은 의미를 탐색한다.",
+      "key_point": "'그것이 사실이라면 당신에게 어떤 의미인가?' '그래서 어떻다는 것인가?'를 반복하여 핵심에 도달한다.",
+      "common_mistake": "하향 화살표 기법을 사용할 때 내담자의 감정 반응에 주의를 기울여야 한다. 핵심 신념에 접근하면 강한 감정이 유발될 수 있다."
+    }
+  },
+  {
+    "id": "CBT_RP_032",
+    "terminology": "재귀인 (Reattribution)",
+    "terminology_ko": "재귀인",
+    "terminology_en": "Reattribution",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "내담자가 사건의 원인을 과도하게 자신에게 귀인하는 경향을 수정하여, 보다 균형 잡힌 원인 귀인을 할 수 있도록 돕는 인지 기법이다.",
+    "definition_en": "A cognitive technique that helps clients modify the tendency to over-attribute causes of events to themselves, developing more balanced causal attributions.",
+    "significance": "개인화, 자기비난 등의 인지왜곡을 교정하여 과도한 죄책감과 자기비하를 감소시키는 효과적인 인지 개입이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "재귀인 기법을 인지치료에 도입함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지적 왜곡",
+        "name_en": "Cognitive Distortions",
+        "id": "CBT_CD_004"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "재귀인 = 원인 파이 차트 그리기 (내 탓만 하지 말고 다른 요인도 고려)",
+      "differential": "인지 재구조화가 사고의 내용을 수정하는 반면, 재귀인은 원인 귀인 방식을 수정한다.",
+      "key_point": "'파이 차트' 기법으로 다양한 원인 요소의 기여도를 시각적으로 배분하는 것이 대표적이다.",
+      "common_mistake": "재귀인이 내담자의 책임을 완전히 면제하는 것이 아니라, 다양한 요인을 균형 있게 고려하게 하는 것이다."
+    }
+  },
+  {
+    "id": "CBT_SM_033",
+    "terminology": "자기교시훈련 (Self-Instructional Training)",
+    "terminology_ko": "자기교시훈련",
+    "terminology_en": "Self-Instructional Training",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Meichenbaum이 개발한 인지행동 기법으로, 내적 대화(자기 교시)를 변화시켜 스트레스 상황에서 보다 적응적으로 대처하도록 훈련하는 방법이다.",
+    "definition_en": "A CBT technique developed by Meichenbaum that trains clients to change their internal dialogue (self-instructions) to cope more adaptively in stressful situations.",
+    "significance": "Vygotsky의 내적 언어 개념에 기반하여, 자기 대화를 통한 행동 조절의 치료적 가치를 체계화했다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 마이켄바움",
+        "name_en": "Donald Meichenbaum",
+        "contribution": "자기교시훈련을 개발하고 인지행동수정(CBM) 접근을 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "CBT",
+        "id": "CBT_CT_001"
+      },
+      {
+        "name_ko": "스트레스 면역 훈련",
+        "name_en": "Stress Inoculation Training",
+        "id": "CBT_SI_034"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기교시 = 스스로에게 '이렇게 해' 하고 말하기 (내적 코치)",
+      "differential": "Beck의 인지치료가 사고의 내용을 수정하는 반면, 자기교시훈련은 자기 대화의 과정을 직접 변화시킨다.",
+      "key_point": "5단계: 인지적 모델링 → 외현적 안내 → 외현적 자기 안내 → 소리 줄이기 → 내현적 자기교시",
+      "common_mistake": "자기교시훈련을 단순한 '긍정적 혼잣말'로 오해하면 안 된다. 체계적인 단계적 훈련 과정이다."
+    }
+  },
+  {
+    "id": "CBT_SI_034",
+    "terminology": "스트레스 면역 훈련 (Stress Inoculation Training, SIT)",
+    "terminology_ko": "스트레스 면역 훈련",
+    "terminology_en": "Stress Inoculation Training",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Meichenbaum이 개발한 3단계 인지행동 스트레스 관리 프로그램으로, 개념화, 기술 습득 및 연습, 적용 및 추수지도로 구성된다.",
+    "definition_en": "A three-phase CBT stress management program developed by Meichenbaum, consisting of conceptualization, skills acquisition and rehearsal, and application and follow-through.",
+    "significance": "스트레스에 대한 면역력을 체계적으로 키우는 예방적 접근으로, 의학적 면역 개념을 심리치료에 적용한 독창적 모델이다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 마이켄바움",
+        "name_en": "Donald Meichenbaum",
+        "contribution": "스트레스 면역 훈련을 개발하고 PTSD 등에 적용함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기교시훈련",
+        "name_en": "Self-Instructional Training",
+        "id": "CBT_SM_033"
+      },
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "CBT",
+        "id": "CBT_CT_001"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "1단계: 개념화",
+        "description": "스트레스에 대한 교육과 인지 모델 이해"
+      },
+      {
+        "name": "2단계: 기술 습득",
+        "description": "이완, 인지 재구조화, 문제해결 기술 훈련"
+      },
+      {
+        "name": "3단계: 적용",
+        "description": "점진적으로 실제 스트레스 상황에 기술 적용"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "SIT = 스트레스 '백신' 맞기 (약한 스트레스로 면역력 키우기)",
+      "differential": "체계적 둔감화가 불안 위계에 따른 점진적 노출인 반면, SIT는 인지적 대처 기술까지 포함하는 포괄적 프로그램이다.",
+      "key_point": "의학의 예방접종처럼, 작은 스트레스에 대처하는 연습으로 큰 스트레스에 대한 면역력을 키운다.",
+      "common_mistake": "SIT가 스트레스를 완전히 제거하는 것이 아니라, 스트레스에 효과적으로 대처하는 능력을 키우는 것이다."
+    }
+  },
+  {
+    "id": "CBT_BA_035",
+    "terminology": "행동 활성화 (Behavioral Activation)",
+    "terminology_ko": "행동 활성화",
+    "terminology_en": "Behavioral Activation",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "우울증 치료에서 활동 수준을 증가시키고 회피 행동을 감소시켜, 긍정적 강화를 받는 경험을 늘리는 행동적 개입 전략이다.",
+    "definition_en": "A behavioral intervention strategy in depression treatment that increases activity levels and decreases avoidance, enhancing experiences of positive reinforcement.",
+    "significance": "인지 변화 없이도 행동 변화만으로 우울증을 효과적으로 치료할 수 있음을 보여주며, 독립적인 치료 프로토콜로도 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "닐 자코브슨",
+        "name_en": "Neil Jacobson",
+        "contribution": "행동 활성화를 독립적 우울증 치료법으로 발전시킴"
+      },
+      {
+        "name_ko": "크리스토퍼 마텔",
+        "name_en": "Christopher Martell",
+        "contribution": "행동 활성화 치료 프로토콜을 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "활동 계획",
+        "name_en": "Activity Scheduling",
+        "id": "CBT_AS_017"
+      },
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "CBT",
+        "id": "CBT_CT_001"
+      },
+      {
+        "name_ko": "숙제",
+        "name_en": "Homework",
+        "id": "CBT_HW_015"
+      },
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 활성화 = '일단 움직여!' (행동이 먼저, 동기는 나중에)",
+      "differential": "인지치료가 사고 변화를 통해 행동을 바꾸는 반면, 행동 활성화는 행동 변화 자체에 직접 초점을 맞춘다.",
+      "key_point": "'밖에서 안으로(outside-in)' 접근: 동기가 생겨서 행동하는 것이 아니라, 행동하면서 동기가 생긴다.",
+      "common_mistake": "행동 활성화를 단순히 '바쁘게 지내기'로 오해하면 안 된다. 가치와 목표에 맞는 전략적 활동 증가이다."
+    }
+  },
+  {
+    "id": "CBT_DP_036",
+    "terminology": "탈파국화 (Decatastrophizing)",
+    "terminology_ko": "탈파국화",
+    "terminology_en": "Decatastrophizing",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "'최악의 경우 어떤 일이 일어날 수 있는가?', '그것이 정말 일어나면 어떻게 대처할 수 있는가?'를 질문하여 재앙적 사고를 현실적으로 재평가하는 기법이다.",
+    "definition_en": "A technique of realistically re-evaluating catastrophic thinking by asking 'What is the worst that could happen?' and 'How could you cope if it did happen?'",
+    "significance": "불안장애 치료에서 재앙적 사고를 현실적으로 검토하여 불안을 감소시키는 핵심적 인지 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron T. Beck",
+        "contribution": "탈파국화 질문 기법을 인지치료에 도입함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지적 왜곡",
+        "name_en": "Cognitive Distortions",
+        "id": "CBT_CD_004"
+      },
+      {
+        "name_ko": "파국화",
+        "name_en": "Awfulizing",
+        "id": "CBT_AW_026"
+      },
+      {
+        "name_ko": "소크라테스식 질문",
+        "name_en": "Socratic Questioning",
+        "id": "CBT_SQ_012"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "탈파국화 = '최악이 뭔데? 그래서? 그래도 살 수 있지?'",
+      "differential": "파국화가 최악을 상상하는 왜곡이라면, 탈파국화는 최악을 현실적으로 검토하는 기법이다.",
+      "key_point": "3가지 질문: 최악의 경우는? 최선의 경우는? 가장 현실적인 경우는?",
+      "common_mistake": "탈파국화가 '걱정하지 마'라고 안심시키는 것이 아니라, 체계적으로 최악의 결과를 검토하게 하는 것이다."
+    }
+  },
+  {
+    "id": "CBT_EL_037",
+    "terminology": "엘리스의 11가지 비합리적 신념 (Ellis's 11 Irrational Beliefs)",
+    "terminology_ko": "엘리스의 11가지 비합리적 신념",
+    "terminology_en": "Ellis's 11 Irrational Beliefs",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "Ellis가 초기에 제시한 정서적 혼란을 유발하는 대표적인 11가지 비합리적 신념 목록으로, 이후 3가지 핵심 당위적 요구로 통합되었다.",
+    "definition_en": "Ellis's original list of 11 representative irrational beliefs causing emotional disturbance, later consolidated into three core absolutistic demands.",
+    "significance": "REBT의 초기 이론적 기반을 형성하며, 비합리적 신념의 구체적 내용을 이해하는 교육적 도구로 널리 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 엘리스",
+        "name_en": "Albert Ellis",
+        "contribution": "11가지 비합리적 신념을 최초로 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비합리적 신념",
+        "name_en": "Irrational Beliefs",
+        "id": "CBT_IB_020"
+      },
+      {
+        "name_ko": "당위적 사고",
+        "name_en": "Musturbation",
+        "id": "CBT_MU_021"
+      },
+      {
+        "name_ko": "합리적 정서행동치료",
+        "name_en": "REBT",
+        "id": "CBT_RE_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "신념1: 사랑과 인정의 욕구",
+        "description": "모든 중요한 사람에게 사랑받아야 한다"
+      },
+      {
+        "name": "신념2: 유능성 요구",
+        "description": "완벽하게 유능해야 한다"
+      },
+      {
+        "name": "신념3: 악한 사람 비난",
+        "description": "나쁜 사람은 비난받아야 한다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "11가지 → 3가지 핵심 당위: 나-해야, 너-해야, 세상-해야로 통합",
+      "differential": "초기 11가지 신념이 구체적 내용 중심이라면, 이후 3가지 당위적 요구는 구조적 핵심에 초점을 맞춘다.",
+      "key_point": "이후 Ellis는 11가지를 3가지 핵심 당위(자기, 타인, 세상에 대한 must)로 통합하였다.",
+      "common_mistake": "11가지를 모두 외우는 것보다 3가지 핵심 당위를 이해하는 것이 REBT의 핵심을 파악하는 데 더 중요하다."
+    }
+  },
+  {
+    "id": "CBT_SE_038",
+    "terminology": "자기효능감 (Self-Efficacy)",
+    "terminology_ko": "자기효능감",
+    "terminology_en": "Self-Efficacy",
+    "category": "CBT",
+    "category_name": "인지행동 상담 (Cognitive Behavior Therapy)",
+    "definition": "특정 상황에서 요구되는 행동을 성공적으로 수행할 수 있다는 개인의 신념으로, Bandura의 사회학습이론에서 유래하여 CBT에서 중요한 변인이다.",
+    "definition_en": "An individual's belief in their ability to successfully perform required behaviors in specific situations, originating from Bandura's social learning theory and important in CBT.",
+    "significance": "행동 변화의 핵심 매개 변인으로, CBT에서 치료 목표의 달성과 유지에 결정적 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "자기효능감 개념을 사회학습이론에서 제안하고 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "CBT",
+        "id": "CBT_CT_001"
+      },
+      {
+        "name_ko": "행동 실험",
+        "name_en": "Behavioral Experiments",
+        "id": "CBT_BE_016"
+      },
+      {
+        "name_ko": "행동 활성화",
+        "name_en": "Behavioral Activation",
+        "id": "CBT_BA_035"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기효능감 = '나는 할 수 있다'는 구체적 상황에서의 믿음 (Bandura)",
+      "differential": "자존감(self-esteem)이 자기 가치에 대한 전반적 평가인 반면, 자기효능감은 특정 과제 수행에 대한 신념이다.",
+      "key_point": "4가지 출처: 성취 경험(가장 강력), 대리 경험, 언어적 설득, 생리적/정서적 상태.",
+      "common_mistake": "자기효능감을 자존감과 혼동하면 안 된다. 자기효능감은 과제 특정적이고, 자존감은 전반적이다."
+    }
+  }
+]

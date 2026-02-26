@@ -1,0 +1,1881 @@
+[
+  {
+    "id": "BEHAV_BT_001",
+    "terminology": "행동주의 상담 (Behavior Therapy)",
+    "terminology_ko": "행동주의 상담",
+    "terminology_en": "Behavior Therapy",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "학습 이론에 기반하여 관찰 가능한 행동의 변화에 초점을 맞추는 상담 접근으로, 부적응 행동은 학습된 것이므로 새로운 학습을 통해 변화시킬 수 있다는 원리에 기초한다.",
+    "definition_en": "A counseling approach based on learning theory that focuses on changing observable behavior, grounded in the principle that maladaptive behaviors are learned and can be changed through new learning.",
+    "significance": "상담의 과학화에 기여하며, 구체적이고 측정 가능한 목표 설정과 증거 기반 실천의 전통을 확립한 주요 상담 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "체계적 둔감화를 개발하여 행동치료의 임상적 적용을 확립"
+      },
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "조작적 조건형성 이론으로 행동치료의 이론적 기초를 제공"
+      },
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "사회학습이론으로 행동치료의 범위를 인지적 영역까지 확장"
+      },
+      {
+        "name_ko": "한스 아이젠크",
+        "name_en": "Hans Eysenck",
+        "contribution": "행동치료의 과학적 근거를 주장하고 정신분석에 대한 비판을 제기"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고전적 조건형성",
+        "name_en": "Classical Conditioning",
+        "id": "BEHAV_CC_002"
+      },
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_003"
+      },
+      {
+        "name_ko": "사회학습이론",
+        "name_en": "Social Learning Theory",
+        "id": "BEHAV_SL_004"
+      },
+      {
+        "name_ko": "인지치료",
+        "name_en": "Cognitive Therapy",
+        "id": "CBT_CT_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "고전적 행동치료",
+        "description": "고전적 조건형성에 기반한 기법 (체계적 둔감화, 혐오치료 등)"
+      },
+      {
+        "name": "조작적 행동치료",
+        "description": "조작적 조건형성에 기반한 기법 (강화, 토큰 이코노미 등)"
+      },
+      {
+        "name": "사회학습 기반 치료",
+        "description": "관찰학습과 모델링에 기반한 기법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동치료의 3대 학습 원리: 고전적 조건형성, 조작적 조건형성, 사회학습",
+      "differential": "정신분석이 무의식적 갈등을 다루고, 인간중심이 관계적 태도를 강조하는 반면, 행동치료는 관찰 가능한 행동의 직접적 변화에 초점을 둔다",
+      "key_point": "행동치료의 핵심 가정: 모든 행동(적응적, 부적응적)은 학습의 결과이며, 새로운 학습으로 변화 가능하다",
+      "common_mistake": "현대 행동치료는 단순히 겉으로 드러나는 행동만 다루는 것이 아니라, 인지적·정서적 측면도 포함한다"
+    }
+  },
+  {
+    "id": "BEHAV_CC_002",
+    "terminology": "고전적 조건형성 (Classical Conditioning)",
+    "terminology_ko": "고전적 조건형성",
+    "terminology_en": "Classical Conditioning",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "파블로프가 발견한 학습 원리로, 중성 자극이 무조건 자극과 반복적으로 짝지어져 결국 중성 자극만으로도 조건 반응을 유발하게 되는 연합 학습 과정이다.",
+    "definition_en": "A learning principle discovered by Pavlov where a neutral stimulus, through repeated pairing with an unconditioned stimulus, eventually elicits a conditioned response on its own.",
+    "significance": "불안, 공포, 회피 행동 등 정서적 반응의 학습 기제를 설명하며, 체계적 둔감화와 노출 치료의 이론적 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "이반 파블로프",
+        "name_en": "Ivan Pavlov",
+        "contribution": "개의 침분비 실험으로 고전적 조건형성을 발견"
+      },
+      {
+        "name_ko": "존 왓슨",
+        "name_en": "John Watson",
+        "contribution": "알버트 실험으로 정서적 반응의 조건형성을 증명"
+      },
+      {
+        "name_ko": "메리 커버 존스",
+        "name_en": "Mary Cover Jones",
+        "contribution": "조건형성된 공포의 제거(탈조건화) 방법을 최초로 시연"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      },
+      {
+        "name_ko": "소거",
+        "name_en": "Extinction",
+        "id": "BEHAV_EX_006"
+      },
+      {
+        "name_ko": "자극 일반화",
+        "name_en": "Stimulus Generalization",
+        "id": "BEHAV_SG_007"
+      },
+      {
+        "name_ko": "역조건형성",
+        "name_en": "Counterconditioning",
+        "id": "BEHAV_RC_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "파블로프의 개: 종소리(CS) + 음식(UCS) → 종소리만 들어도 침(CR)이 나온다",
+      "differential": "고전적 조건형성은 자극-반응 연합(수동적)이고, 조작적 조건형성은 행동-결과 연합(능동적)이다",
+      "key_point": "불안장애의 많은 형태가 고전적 조건형성으로 학습되며, 역조건형성으로 치료할 수 있다",
+      "common_mistake": "고전적 조건형성은 단순한 반사 학습이 아니라, 정서적 반응, 태도, 선호도 등 광범위한 학습에 관여한다"
+    }
+  },
+  {
+    "id": "BEHAV_OC_003",
+    "terminology": "조작적 조건형성 (Operant Conditioning)",
+    "terminology_ko": "조작적 조건형성",
+    "terminology_en": "Operant Conditioning",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "스키너가 체계화한 학습 원리로, 행동의 결과(강화 또는 처벌)에 의해 행동의 빈도가 증가하거나 감소하는 학습 과정이며, 행동 수정의 핵심 이론이다.",
+    "definition_en": "A learning principle systematized by Skinner where the frequency of behavior increases or decreases based on its consequences (reinforcement or punishment), the core theory of behavior modification.",
+    "significance": "행동 수정 프로그램, 토큰 경제, 행동 계약 등 다양한 상담 기법의 이론적 기초를 제공하며, 실제 행동 변화에 가장 직접적으로 적용되는 학습 원리이다.",
+    "key_researchers": [
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "조작적 조건형성을 체계적으로 연구하고 행동분석학을 확립"
+      },
+      {
+        "name_ko": "에드워드 손다이크",
+        "name_en": "Edward Thorndike",
+        "contribution": "효과의 법칙으로 조작적 조건형성의 기초를 마련"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "처벌",
+        "name_en": "Punishment",
+        "id": "BEHAV_PN_010"
+      },
+      {
+        "name_ko": "소거",
+        "name_en": "Extinction",
+        "id": "BEHAV_EX_006"
+      },
+      {
+        "name_ko": "행동 수정",
+        "name_en": "Behavior Modification",
+        "id": "BEHAV_BM_011"
+      },
+      {
+        "name_ko": "토큰 경제",
+        "name_en": "Token Economy",
+        "id": "BEHAV_TE_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조작적 = 유기체가 환경을 '조작'하여 결과를 얻음 → 결과가 좋으면 반복, 나쁘면 중단",
+      "differential": "고전적 조건형성이 자극에 대한 반사적 반응이라면, 조작적 조건형성은 자발적 행동에 대한 결과의 영향이다",
+      "key_point": "스키너 상자 실험: 레버 누르기(행동) → 먹이(강화) → 레버 누르기 빈도 증가",
+      "common_mistake": "부적 강화(negative reinforcement)는 처벌이 아니라, 혐오 자극의 제거를 통한 행동 증가이다"
+    }
+  },
+  {
+    "id": "BEHAV_SL_004",
+    "terminology": "사회학습이론 (Social Learning Theory)",
+    "terminology_ko": "사회학습이론",
+    "terminology_en": "Social Learning Theory",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "반두라가 제안한 학습 이론으로, 직접 경험뿐 아니라 타인의 행동과 그 결과를 관찰함으로써 학습이 이루어진다고 보며, 인지적 과정의 역할을 강조한다.",
+    "definition_en": "A learning theory proposed by Bandura stating that learning occurs not only through direct experience but also through observing others' behavior and its consequences, emphasizing the role of cognitive processes.",
+    "significance": "행동주의를 인지적 영역으로 확장하여 인지행동치료의 기초를 마련했으며, 모델링 기법의 이론적 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "사회학습이론을 정립하고 보보 인형 실험으로 관찰학습을 실증"
+      },
+      {
+        "name_ko": "줄리안 로터",
+        "name_en": "Julian Rotter",
+        "contribution": "사회학습이론에서 기대와 강화가치의 역할을 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      },
+      {
+        "name_ko": "관찰학습",
+        "name_en": "Observational Learning",
+        "id": "BEHAV_OL_014"
+      },
+      {
+        "name_ko": "자기효능감",
+        "name_en": "Self-Efficacy",
+        "id": "BEHAV_SE_015"
+      },
+      {
+        "name_ko": "대리학습",
+        "name_en": "Vicarious Learning",
+        "id": "BEHAV_VL_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반두라의 보보 인형 실험: 성인이 인형을 때리는 것을 본 아이들이 똑같이 모방",
+      "differential": "고전적·조작적 조건형성이 직접 경험에 의한 학습이라면, 사회학습은 관찰에 의한 간접 학습도 포함한다",
+      "key_point": "관찰학습의 4단계: 주의(attention) → 보존(retention) → 재생(reproduction) → 동기(motivation)",
+      "common_mistake": "사회학습이론은 단순한 모방이 아니라, 인지적 매개 과정(기대, 판단)을 포함한다"
+    }
+  },
+  {
+    "id": "BEHAV_SD_005",
+    "terminology": "체계적 둔감화 (Systematic Desensitization)",
+    "terminology_ko": "체계적 둔감화",
+    "terminology_en": "Systematic Desensitization",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "월프가 개발한 불안 치료 기법으로, 이완 훈련 후 불안을 유발하는 자극을 약한 것부터 강한 것까지 단계적으로 노출하면서 이완 반응으로 불안 반응을 대체하는 역조건형성 기법이다.",
+    "definition_en": "An anxiety treatment technique developed by Wolpe based on counterconditioning, involving relaxation training followed by gradual exposure to anxiety-provoking stimuli from weakest to strongest, replacing the anxiety response with relaxation.",
+    "significance": "행동치료의 대표적 성공 사례로, 불안장애 치료에서 그 효과가 광범위하게 실증되었으며 현대 노출치료의 기초가 되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "상호억제 원리에 기반하여 체계적 둔감화를 개발"
+      },
+      {
+        "name_ko": "메리 커버 존스",
+        "name_en": "Mary Cover Jones",
+        "contribution": "아동의 공포 탈조건화 실험으로 체계적 둔감화의 선구적 연구를 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "역조건형성",
+        "name_en": "Counterconditioning",
+        "id": "BEHAV_RC_008"
+      },
+      {
+        "name_ko": "상호억제",
+        "name_en": "Reciprocal Inhibition",
+        "id": "BEHAV_RI_017"
+      },
+      {
+        "name_ko": "이완 훈련",
+        "name_en": "Relaxation Training",
+        "id": "BEHAV_RT_018"
+      },
+      {
+        "name_ko": "불안 위계",
+        "name_en": "Anxiety Hierarchy",
+        "id": "BEHAV_AH_019"
+      },
+      {
+        "name_ko": "노출 치료",
+        "name_en": "Exposure Therapy",
+        "id": "BEHAV_ET_020"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "상상적 둔감화",
+        "description": "불안 장면을 상상으로 노출하는 방법"
+      },
+      {
+        "name": "실제적 둔감화 (in vivo)",
+        "description": "불안 자극에 실제로 노출하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "체계적 둔감화 3단계: ①이완 훈련 → ②불안 위계 작성 → ③위계에 따른 점진적 노출+이완",
+      "differential": "홍수법(flooding)이 가장 강한 불안 자극에 한꺼번에 노출하는 것이라면, 체계적 둔감화는 약한 것부터 점진적으로 노출한다",
+      "key_point": "핵심 원리는 상호억제: 이완과 불안은 동시에 존재할 수 없으므로, 이완이 불안을 억제한다",
+      "common_mistake": "체계적 둔감화에서 이완 훈련이 선행되어야 하며, 단순한 노출만으로는 둔감화가 아니다"
+    }
+  },
+  {
+    "id": "BEHAV_EX_006",
+    "terminology": "소거 (Extinction)",
+    "terminology_ko": "소거",
+    "terminology_en": "Extinction",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "조건형성된 반응이 더 이상 강화되지 않아 점차 약화되고 사라지는 과정으로, 고전적 조건형성에서는 CS만 제시되고 조작적 조건형성에서는 강화가 중단될 때 발생한다.",
+    "definition_en": "The process by which a conditioned response gradually weakens and disappears when no longer reinforced; occurs in classical conditioning when only the CS is presented and in operant conditioning when reinforcement is discontinued.",
+    "significance": "부적응 행동의 제거에 활용되는 핵심 원리로, 노출 치료와 행동 수정의 이론적 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "이반 파블로프",
+        "name_en": "Ivan Pavlov",
+        "contribution": "고전적 조건형성에서 소거 현상을 최초로 발견"
+      },
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "조작적 조건형성에서 소거의 원리를 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고전적 조건형성",
+        "name_en": "Classical Conditioning",
+        "id": "BEHAV_CC_002"
+      },
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_003"
+      },
+      {
+        "name_ko": "노출 치료",
+        "name_en": "Exposure Therapy",
+        "id": "BEHAV_ET_020"
+      },
+      {
+        "name_ko": "자발적 회복",
+        "name_en": "Spontaneous Recovery",
+        "id": "BEHAV_SR_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소거 = 강화의 중단 → 행동의 점진적 감소 → 결국 사라짐",
+      "differential": "처벌이 행동 후 혐오 결과를 주는 것이라면, 소거는 행동 후 아무 결과도 주지 않는 것이다",
+      "key_point": "소거 초기에는 행동이 오히려 일시적으로 증가하는 '소거 폭발(extinction burst)'이 나타날 수 있다",
+      "common_mistake": "소거는 망각이 아니며, 자발적 회복(spontaneous recovery)을 통해 소거된 행동이 다시 나타날 수 있다"
+    }
+  },
+  {
+    "id": "BEHAV_SG_007",
+    "terminology": "자극 일반화 (Stimulus Generalization)",
+    "terminology_ko": "자극 일반화",
+    "terminology_en": "Stimulus Generalization",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "조건형성된 반응이 원래의 조건 자극과 유사한 다른 자극에도 나타나는 현상으로, 특정 대상에 대한 공포가 유사한 대상으로 확산되는 기제를 설명한다.",
+    "definition_en": "The phenomenon where a conditioned response occurs to stimuli similar to the original conditioned stimulus, explaining how fear of a specific object spreads to similar objects.",
+    "significance": "한 자극에서 형성된 불안이 유사한 자극들로 확산되는 공포 확산의 기제를 설명하며, 범불안장애 등의 이해에 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 왓슨",
+        "name_en": "John Watson",
+        "contribution": "알버트 실험에서 자극 일반화를 정서적 반응에 적용"
+      },
+      {
+        "name_ko": "이반 파블로프",
+        "name_en": "Ivan Pavlov",
+        "contribution": "자극 일반화 현상을 최초로 발견하고 기술"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고전적 조건형성",
+        "name_en": "Classical Conditioning",
+        "id": "BEHAV_CC_002"
+      },
+      {
+        "name_ko": "자극 변별",
+        "name_en": "Stimulus Discrimination",
+        "id": "BEHAV_SDI_022"
+      },
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "왓슨의 알버트: 흰 쥐 공포 → 토끼, 솜털, 산타 수염에도 공포 = 자극 일반화",
+      "differential": "자극 일반화가 유사 자극으로의 확산이라면, 자극 변별은 자극 간 차이를 구분하는 것이다",
+      "key_point": "자극 일반화는 적응적 기능(위험한 것과 유사한 것도 피하기)을 하지만, 과도하면 부적응적이 된다",
+      "common_mistake": "자극 일반화는 의도적 연상이 아니라, 자동적으로 일어나는 학습 과정이다"
+    }
+  },
+  {
+    "id": "BEHAV_RC_008",
+    "terminology": "역조건형성 (Counterconditioning)",
+    "terminology_ko": "역조건형성",
+    "terminology_en": "Counterconditioning",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "기존의 조건형성된 반응(예: 불안)을 양립할 수 없는 새로운 반응(예: 이완)으로 대체하는 학습 과정으로, 체계적 둔감화의 핵심 원리이다.",
+    "definition_en": "A learning process that replaces an existing conditioned response (e.g., anxiety) with a new incompatible response (e.g., relaxation), the core principle of systematic desensitization.",
+    "significance": "부적응적 조건 반응을 적응적 반응으로 대체하는 행동치료의 기본 전략으로, 불안 치료의 이론적 기초이다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "역조건형성 원리를 임상에 체계적으로 적용"
+      },
+      {
+        "name_ko": "메리 커버 존스",
+        "name_en": "Mary Cover Jones",
+        "contribution": "아동의 공포에 역조건형성을 최초로 적용하여 성공적으로 치료"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      },
+      {
+        "name_ko": "상호억제",
+        "name_en": "Reciprocal Inhibition",
+        "id": "BEHAV_RI_017"
+      },
+      {
+        "name_ko": "고전적 조건형성",
+        "name_en": "Classical Conditioning",
+        "id": "BEHAV_CC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역조건형성 = 불안과 양립 불가능한 반응(이완)으로 불안을 덮어쓰기",
+      "differential": "소거는 강화 없이 반응을 약화시키는 것이고, 역조건형성은 반대 반응으로 기존 반응을 대체하는 것이다",
+      "key_point": "역조건형성의 핵심은 기존 반응과 양립할 수 없는(incompatible) 새로운 반응을 연결하는 것이다",
+      "common_mistake": "역조건형성은 기존 학습을 지우는 것이 아니라, 새로운 학습으로 기존 학습을 억제하는 것이다"
+    }
+  },
+  {
+    "id": "BEHAV_RF_009",
+    "terminology": "강화 (Reinforcement)",
+    "terminology_ko": "강화",
+    "terminology_en": "Reinforcement",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "행동 후에 제공되는 결과가 그 행동의 빈도를 증가시키는 과정으로, 정적 강화(쾌적한 자극 제공)와 부적 강화(혐오 자극 제거)로 구분된다.",
+    "definition_en": "The process by which a consequence following a behavior increases the frequency of that behavior, divided into positive reinforcement (providing a pleasant stimulus) and negative reinforcement (removing an aversive stimulus).",
+    "significance": "행동치료에서 적응적 행동을 증가시키는 가장 기본적이고 효과적인 원리로, 모든 행동 수정 프로그램의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "강화의 원리를 체계적으로 연구하고 강화 계획을 분류"
+      },
+      {
+        "name_ko": "에드워드 손다이크",
+        "name_en": "Edward Thorndike",
+        "contribution": "효과의 법칙으로 강화의 개념적 기초를 마련"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_003"
+      },
+      {
+        "name_ko": "처벌",
+        "name_en": "Punishment",
+        "id": "BEHAV_PN_010"
+      },
+      {
+        "name_ko": "강화 계획",
+        "name_en": "Reinforcement Schedule",
+        "id": "BEHAV_RS_023"
+      },
+      {
+        "name_ko": "토큰 경제",
+        "name_en": "Token Economy",
+        "id": "BEHAV_TE_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정적 강화 (Positive Reinforcement)",
+        "description": "행동 후 쾌적한 자극을 제공하여 행동을 증가시킴"
+      },
+      {
+        "name": "부적 강화 (Negative Reinforcement)",
+        "description": "행동 후 혐오 자극을 제거하여 행동을 증가시킴"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "강화 = 행동 빈도 ↑ (정적: +좋은 것 제공, 부적: -나쁜 것 제거)",
+      "differential": "강화(행동 증가)와 처벌(행동 감소)을 구분하고, 정적(+추가)과 부적(-제거)을 구분해야 한다",
+      "key_point": "부적 강화는 처벌이 아니다. 부적 강화는 행동을 증가시키고, 처벌은 행동을 감소시킨다",
+      "common_mistake": "가장 흔한 실수는 부적 강화를 처벌과 혼동하는 것이다. '부적'은 제거를 의미하지 부정적 결과를 의미하지 않는다"
+    }
+  },
+  {
+    "id": "BEHAV_PN_010",
+    "terminology": "처벌 (Punishment)",
+    "terminology_ko": "처벌",
+    "terminology_en": "Punishment",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "행동 후에 제공되는 결과가 그 행동의 빈도를 감소시키는 과정으로, 정적 처벌(혐오 자극 제공)과 부적 처벌(쾌적 자극 제거)로 구분된다.",
+    "definition_en": "The process by which a consequence following a behavior decreases the frequency of that behavior, divided into positive punishment (presenting an aversive stimulus) and negative punishment (removing a pleasant stimulus).",
+    "significance": "행동의 감소에 사용되지만, 행동치료에서는 처벌보다 강화를 우선적으로 사용하는 것이 윤리적으로 권장된다.",
+    "key_researchers": [
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "처벌의 효과와 한계를 연구하고 강화의 우선적 사용을 권장"
+      },
+      {
+        "name_ko": "나단 아즈린",
+        "name_en": "Nathan Azrin",
+        "contribution": "처벌의 효과적 적용 조건을 체계적으로 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_003"
+      },
+      {
+        "name_ko": "혐오치료",
+        "name_en": "Aversion Therapy",
+        "id": "BEHAV_AV_024"
+      },
+      {
+        "name_ko": "소거",
+        "name_en": "Extinction",
+        "id": "BEHAV_EX_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정적 처벌 (Positive Punishment)",
+        "description": "행동 후 혐오 자극을 제시하여 행동을 감소시킴"
+      },
+      {
+        "name": "부적 처벌 (Negative Punishment)",
+        "description": "행동 후 쾌적 자극을 제거하여 행동을 감소시킴 (예: 타임아웃)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "처벌 = 행동 빈도 ↓ (정적: +나쁜 것 추가, 부적: -좋은 것 제거)",
+      "differential": "부적 강화(혐오 자극 제거→행동 증가)와 정적 처벌(혐오 자극 제공→행동 감소)을 혼동하지 않도록 주의",
+      "key_point": "처벌은 단기적으로 효과적이나, 장기적으로는 공포, 회피, 공격성 등의 부작용이 있을 수 있다",
+      "common_mistake": "행동치료에서 처벌은 최후의 수단이며, 가능하면 강화를 통한 행동 변화를 우선한다"
+    }
+  },
+  {
+    "id": "BEHAV_BM_011",
+    "terminology": "행동 수정 (Behavior Modification)",
+    "terminology_ko": "행동 수정",
+    "terminology_en": "Behavior Modification",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "조작적 조건형성의 원리를 체계적으로 적용하여 특정 행동을 변화시키는 절차와 기법의 총칭으로, 목표 행동의 정의, 기저선 측정, 개입, 평가의 과정을 따른다.",
+    "definition_en": "A collective term for procedures and techniques that systematically apply operant conditioning principles to change specific behaviors, following the process of defining target behavior, measuring baseline, intervention, and evaluation.",
+    "significance": "행동치료의 실천적 방법론으로, 교육, 임상, 조직 등 다양한 분야에서 행동 변화를 위해 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "행동 수정의 이론적 기초인 조작적 조건형성을 체계화"
+      },
+      {
+        "name_ko": "테오도르 에일런",
+        "name_en": "Teodoro Ayllon",
+        "contribution": "정신병원에서의 행동 수정 프로그램(토큰 경제)을 최초로 실시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_003"
+      },
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "토큰 경제",
+        "name_en": "Token Economy",
+        "id": "BEHAV_TE_012"
+      },
+      {
+        "name_ko": "행동 계약",
+        "name_en": "Behavioral Contract",
+        "id": "BEHAV_BC_025"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 수정의 4단계: 목표 행동 정의 → 기저선 측정 → 개입(강화/소거) → 효과 평가",
+      "differential": "행동치료(behavior therapy)가 넓은 의미의 접근이라면, 행동 수정(behavior modification)은 조작적 원리 적용에 초점을 맞춘 실천 방법론이다",
+      "key_point": "행동 수정에서 목표 행동은 관찰 가능하고 측정 가능해야 한다",
+      "common_mistake": "행동 수정은 단순한 상벌 체계가 아니라, 체계적인 분석과 계획에 기반한 과학적 접근이다"
+    }
+  },
+  {
+    "id": "BEHAV_TE_012",
+    "terminology": "토큰 경제 (Token Economy)",
+    "terminology_ko": "토큰 경제",
+    "terminology_en": "Token Economy",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "적응적 행동을 할 때 토큰(점수, 스티커 등)을 제공하고, 토큰을 모아 원하는 보상(후비 강화물)과 교환할 수 있게 하는 체계적 강화 프로그램이다.",
+    "definition_en": "A systematic reinforcement program providing tokens (points, stickers, etc.) for adaptive behaviors, which can be accumulated and exchanged for desired rewards (backup reinforcers).",
+    "significance": "학교, 병원, 교정시설 등 집단 환경에서 행동 수정을 효과적으로 적용하는 대표적 프로그램이다.",
+    "key_researchers": [
+      {
+        "name_ko": "테오도르 에일런",
+        "name_en": "Teodoro Ayllon",
+        "contribution": "나단 아즈린과 함께 정신병원에서 토큰 경제 프로그램을 최초로 개발 적용"
+      },
+      {
+        "name_ko": "나단 아즈린",
+        "name_en": "Nathan Azrin",
+        "contribution": "에일런과 함께 토큰 경제의 체계를 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "행동 수정",
+        "name_en": "Behavior Modification",
+        "id": "BEHAV_BM_011"
+      },
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "토큰 경제 = 미니 경제 시스템: 좋은 행동 → 토큰 획득 → 토큰으로 보상 구매",
+      "differential": "단순 보상과 달리, 토큰 경제는 토큰이라는 조건 강화물과 후비 강화물의 교환 체계를 갖춘다",
+      "key_point": "토큰은 그 자체로 가치가 있는 것이 아니라, 후비 강화물과 교환할 수 있기에 가치를 갖는 '조건 강화물'이다",
+      "common_mistake": "토큰 경제는 영구적으로 유지하는 것이 아니라, 점차 자연적 강화로 전환하는 것이 궁극적 목표이다"
+    }
+  },
+  {
+    "id": "BEHAV_MD_013",
+    "terminology": "모델링 (Modeling)",
+    "terminology_ko": "모델링",
+    "terminology_en": "Modeling",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "타인(모델)의 행동을 관찰하고 모방함으로써 새로운 행동을 학습하는 기법으로, 사회학습이론에 기초하며 새로운 기술 습득이나 공포 감소에 활용된다.",
+    "definition_en": "A technique of learning new behaviors by observing and imitating another person's (model's) behavior, based on social learning theory and used for acquiring new skills or reducing fear.",
+    "significance": "직접 경험 없이도 행동 변화를 이끌어낼 수 있는 효율적 기법으로, 사회기술 훈련과 불안 치료에 널리 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "모델링의 이론적 기초인 관찰학습 원리를 정립"
+      },
+      {
+        "name_ko": "메이첸바움",
+        "name_en": "Donald Meichenbaum",
+        "contribution": "인지적 모델링 기법을 개발하여 자기교시 훈련에 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사회학습이론",
+        "name_en": "Social Learning Theory",
+        "id": "BEHAV_SL_004"
+      },
+      {
+        "name_ko": "관찰학습",
+        "name_en": "Observational Learning",
+        "id": "BEHAV_OL_014"
+      },
+      {
+        "name_ko": "자기효능감",
+        "name_en": "Self-Efficacy",
+        "id": "BEHAV_SE_015"
+      },
+      {
+        "name_ko": "사회기술 훈련",
+        "name_en": "Social Skills Training",
+        "id": "BEHAV_SST_026"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "실제 모델링 (Live Modeling)",
+        "description": "실제 모델이 직접 시연하는 것"
+      },
+      {
+        "name": "상징적 모델링 (Symbolic Modeling)",
+        "description": "영상, 책 등의 매체를 통한 간접 모델링"
+      },
+      {
+        "name": "참여 모델링 (Participant Modeling)",
+        "description": "모델 관찰 후 직접 참여하여 실천하는 것"
+      },
+      {
+        "name": "인지적 모델링 (Cognitive Modeling)",
+        "description": "모델이 사고 과정을 소리 내어 말하며 시연하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "모델링 = '보고 따라 하기': 모델의 행동 관찰 → 모방 → 내면화",
+      "differential": "역할 연기(role playing)가 직접 해보는 것이라면, 모델링은 먼저 관찰하고 나서 해보는 것이다",
+      "key_point": "효과적 모델링의 조건: 모델과의 유사성, 모델의 위상, 관찰자의 자기효능감",
+      "common_mistake": "모델링은 단순 모방이 아니라, 관찰자가 모델의 행동을 인지적으로 처리한 후 자기 것으로 만드는 과정이다"
+    }
+  },
+  {
+    "id": "BEHAV_OL_014",
+    "terminology": "관찰학습 (Observational Learning)",
+    "terminology_ko": "관찰학습",
+    "terminology_en": "Observational Learning",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "타인의 행동과 그 결과를 관찰함으로써 직접 경험 없이 새로운 행동을 습득하는 학습 형태로, 주의, 보존, 재생, 동기화의 네 가지 과정을 포함한다.",
+    "definition_en": "A form of learning in which new behaviors are acquired by observing others' behavior and its consequences without direct experience, involving four processes: attention, retention, reproduction, and motivation.",
+    "significance": "직접 경험에 의한 학습만을 인정하던 전통 행동주의를 확장하여, 인간 학습의 사회적·인지적 측면을 행동 이론에 통합했다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "관찰학습의 네 가지 과정을 체계화하고 보보 인형 실험으로 실증"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사회학습이론",
+        "name_en": "Social Learning Theory",
+        "id": "BEHAV_SL_004"
+      },
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      },
+      {
+        "name_ko": "대리학습",
+        "name_en": "Vicarious Learning",
+        "id": "BEHAV_VL_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관찰학습의 4과정: 주(주의) → 보(보존) → 재(재생) → 동(동기화)",
+      "differential": "고전적 조건형성이 자극-반응 연합이고 조작적 조건형성이 행동-결과 연합이라면, 관찰학습은 타인의 행동-결과 관찰에 의한 학습이다",
+      "key_point": "관찰학습에서 학습(acquisition)과 수행(performance)은 구분된다. 학습했더라도 동기가 없으면 수행하지 않을 수 있다",
+      "common_mistake": "관찰학습은 단순 모방과 다르며, 인지적 처리(주의, 기억, 판단)가 필수적으로 관여한다"
+    }
+  },
+  {
+    "id": "BEHAV_SE_015",
+    "terminology": "자기효능감 (Self-Efficacy)",
+    "terminology_ko": "자기효능감",
+    "terminology_en": "Self-Efficacy",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "특정 과제를 성공적으로 수행할 수 있다는 자신의 능력에 대한 신념으로, 행동 변화의 동기와 지속성에 핵심적 역할을 하며 상담 성과의 중요한 예측 변인이다.",
+    "definition_en": "One's belief in their ability to successfully perform a specific task, playing a central role in motivation and persistence of behavior change and serving as an important predictor of counseling outcomes.",
+    "significance": "행동 변화에서 인지적 요인의 중요성을 보여주며, 모든 상담 접근에서 내담자의 자기효능감 향상이 중요한 치료 목표가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "자기효능감 개념을 제안하고 4가지 원천을 밝힘"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사회학습이론",
+        "name_en": "Social Learning Theory",
+        "id": "BEHAV_SL_004"
+      },
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      },
+      {
+        "name_ko": "결과 기대",
+        "name_en": "Outcome Expectancy",
+        "id": "BEHAV_OE_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기효능감의 4가지 원천: ①성공 경험 ②대리 경험 ③언어적 설득 ④생리적 상태",
+      "differential": "자존감(self-esteem)이 자기 가치에 대한 전반적 평가라면, 자기효능감은 특정 과제 수행 능력에 대한 신념이다",
+      "key_point": "자기효능감의 가장 강력한 원천은 실제 '성공 경험(mastery experience)'이다",
+      "common_mistake": "자기효능감은 실제 능력이 아니라 능력에 대한 '신념'이며, 실제 능력과 반드시 일치하지 않을 수 있다"
+    }
+  },
+  {
+    "id": "BEHAV_VL_016",
+    "terminology": "대리학습 (Vicarious Learning)",
+    "terminology_ko": "대리학습",
+    "terminology_en": "Vicarious Learning",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "타인이 행동한 결과를 관찰함으로써 간접적으로 행동의 결과를 경험하고 학습하는 과정으로, 대리 강화와 대리 처벌을 통해 행동이 변화된다.",
+    "definition_en": "The process of indirectly experiencing and learning about behavioral consequences by observing the outcomes of others' actions, with behavior changing through vicarious reinforcement and vicarious punishment.",
+    "significance": "직접 경험하지 않고도 행동을 학습할 수 있는 메커니즘을 설명하며, 집단 상담에서 다른 구성원의 경험을 통한 학습의 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "대리학습의 원리를 실험적으로 증명하고 이론화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "관찰학습",
+        "name_en": "Observational Learning",
+        "id": "BEHAV_OL_014"
+      },
+      {
+        "name_ko": "사회학습이론",
+        "name_en": "Social Learning Theory",
+        "id": "BEHAV_SL_004"
+      },
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "대리 강화 (Vicarious Reinforcement)",
+        "description": "모델이 보상받는 것을 관찰하여 동일 행동이 증가"
+      },
+      {
+        "name": "대리 처벌 (Vicarious Punishment)",
+        "description": "모델이 처벌받는 것을 관찰하여 동일 행동이 감소"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "대리학습 = '남의 경험에서 배우기': 타인이 칭찬받으면 따라 하고, 벌 받으면 하지 않기",
+      "differential": "직접 강화가 자신이 경험하는 결과라면, 대리 강화는 타인이 경험하는 결과를 관찰하는 것이다",
+      "key_point": "대리학습은 특히 위험한 행동의 결과를 안전하게 배울 수 있게 해준다",
+      "common_mistake": "대리학습은 단순히 보기만 하는 것이 아니라, 관찰한 결과를 인지적으로 처리하는 과정이 포함된다"
+    }
+  },
+  {
+    "id": "BEHAV_RI_017",
+    "terminology": "상호억제 (Reciprocal Inhibition)",
+    "terminology_ko": "상호억제",
+    "terminology_en": "Reciprocal Inhibition",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "양립할 수 없는 두 반응이 동시에 존재할 수 없다는 원리로, 불안과 이완이 동시에 일어날 수 없으므로 이완 반응을 유도하면 불안이 억제된다는 체계적 둔감화의 핵심 원리이다.",
+    "definition_en": "The principle that two incompatible responses cannot coexist simultaneously; since anxiety and relaxation cannot occur at the same time, inducing relaxation inhibits anxiety—the core principle of systematic desensitization.",
+    "significance": "체계적 둔감화의 이론적 기초로, 이 원리에 기반하여 역조건형성이 작동하는 메커니즘을 설명한다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "상호억제 원리를 불안 치료에 적용하여 체계적 둔감화를 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      },
+      {
+        "name_ko": "역조건형성",
+        "name_en": "Counterconditioning",
+        "id": "BEHAV_RC_008"
+      },
+      {
+        "name_ko": "이완 훈련",
+        "name_en": "Relaxation Training",
+        "id": "BEHAV_RT_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "상호억제 = 이완과 불안은 동시에 존재할 수 없다 → 이완으로 불안을 밀어내기",
+      "differential": "소거는 불안 반응이 자연적으로 약화되는 것이지만, 상호억제는 반대 반응으로 적극적으로 억제하는 것이다",
+      "key_point": "상호억제가 작동하려면 불안을 압도할 수 있는 충분히 강한 길항 반응(이완)이 필요하다",
+      "common_mistake": "상호억제는 의지로 불안을 억누르는 것이 아니라, 생리적으로 양립 불가능한 반응을 유도하는 것이다"
+    }
+  },
+  {
+    "id": "BEHAV_RT_018",
+    "terminology": "이완 훈련 (Relaxation Training)",
+    "terminology_ko": "이완 훈련",
+    "terminology_en": "Relaxation Training",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "신체의 긴장을 의도적으로 풀어 이완 상태를 유도하는 훈련으로, 점진적 근육 이완법이 가장 대표적이며 체계적 둔감화의 필수 전 단계이다.",
+    "definition_en": "Training to intentionally release bodily tension to induce a state of relaxation, with progressive muscle relaxation being the most representative method and an essential prerequisite for systematic desensitization.",
+    "significance": "체계적 둔감화의 선행 조건이자 스트레스 관리의 기본 기법으로, 다양한 상담 접근에서 보조적으로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드먼드 제이콥슨",
+        "name_en": "Edmund Jacobson",
+        "contribution": "점진적 근육 이완법(PMR)을 개발"
+      },
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "제이콥슨의 이완법을 간소화하여 체계적 둔감화에 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      },
+      {
+        "name_ko": "상호억제",
+        "name_en": "Reciprocal Inhibition",
+        "id": "BEHAV_RI_017"
+      },
+      {
+        "name_ko": "스트레스 면역 훈련",
+        "name_en": "Stress Inoculation Training",
+        "id": "BEHAV_SIT_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "점진적 근육 이완법 (PMR)",
+        "description": "근육 그룹을 차례로 긴장시켰다 이완하는 방법"
+      },
+      {
+        "name": "호흡 이완법",
+        "description": "깊고 느린 복식호흡을 통한 이완"
+      },
+      {
+        "name": "자율 훈련법 (Autogenic Training)",
+        "description": "자기암시를 통해 이완을 유도하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "PMR: 손→팔→어깨→얼굴→몸통→다리 순으로 '긴장(5초) → 이완(15초)' 반복",
+      "differential": "명상이 마음을 고요하게 하는 것이라면, 이완 훈련은 신체의 긴장을 직접적으로 풀어주는 것이다",
+      "key_point": "이완 훈련은 기술이므로 반복 연습을 통해 숙달해야 상담 장면에서 효과적으로 사용할 수 있다",
+      "common_mistake": "이완 훈련은 단순히 쉬는 것이 아니라, 의도적이고 체계적인 근육 이완 기술이다"
+    }
+  },
+  {
+    "id": "BEHAV_AH_019",
+    "terminology": "불안 위계 (Anxiety Hierarchy)",
+    "terminology_ko": "불안 위계",
+    "terminology_en": "Anxiety Hierarchy",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "체계적 둔감화에서 불안을 유발하는 상황들을 불안 강도에 따라 가장 약한 것부터 가장 강한 것까지 순서대로 배열한 목록으로, 주관적 불편감 단위(SUD)로 측정된다.",
+    "definition_en": "A list of anxiety-provoking situations arranged in order from least to most anxiety-inducing in systematic desensitization, measured by Subjective Units of Disturbance (SUD).",
+    "significance": "체계적 둔감화의 핵심 구성 요소로, 노출의 순서와 속도를 결정하는 치료적 로드맵 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "불안 위계와 SUD 척도를 체계적 둔감화의 핵심 도구로 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      },
+      {
+        "name_ko": "노출 치료",
+        "name_en": "Exposure Therapy",
+        "id": "BEHAV_ET_020"
+      },
+      {
+        "name_ko": "이완 훈련",
+        "name_en": "Relaxation Training",
+        "id": "BEHAV_RT_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "불안 위계 = 불안의 사다리: SUD 0(불안 없음)에서 100(최대 불안)까지 10~15개 상황 배열",
+      "differential": "단순 목록이 아니라, 각 항목의 불안 수준이 SUD로 정량화되어야 하는 체계적 도구이다",
+      "key_point": "불안 위계의 각 단계 간 불안 차이가 비교적 균등해야 점진적 노출이 효과적이다",
+      "common_mistake": "불안 위계는 상담자가 아닌 내담자의 주관적 경험에 기초하여 내담자와 함께 작성해야 한다"
+    }
+  },
+  {
+    "id": "BEHAV_ET_020",
+    "terminology": "노출 치료 (Exposure Therapy)",
+    "terminology_ko": "노출 치료",
+    "terminology_en": "Exposure Therapy",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "불안이나 공포를 유발하는 자극에 체계적으로 노출시켜 습관화와 소거를 통해 불안 반응을 감소시키는 행동치료 기법의 총칭이다.",
+    "definition_en": "A collective term for behavior therapy techniques that systematically expose clients to anxiety or fear-provoking stimuli to reduce anxiety responses through habituation and extinction.",
+    "significance": "불안장애, PTSD, 강박장애 등의 치료에서 가장 강력한 증거 기반을 가진 치료 기법으로, 현대 행동치료의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "점진적 노출(체계적 둔감화)을 개발"
+      },
+      {
+        "name_ko": "에드나 포아",
+        "name_en": "Edna Foa",
+        "contribution": "PTSD와 강박장애에 대한 노출 및 반응방지 기법을 발전"
+      },
+      {
+        "name_ko": "토마스 스탬플",
+        "name_en": "Thomas Stampfl",
+        "contribution": "내파법(implosive therapy)을 개발하여 상상적 홍수법을 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      },
+      {
+        "name_ko": "홍수법",
+        "name_en": "Flooding",
+        "id": "BEHAV_FL_029"
+      },
+      {
+        "name_ko": "소거",
+        "name_en": "Extinction",
+        "id": "BEHAV_EX_006"
+      },
+      {
+        "name_ko": "불안 위계",
+        "name_en": "Anxiety Hierarchy",
+        "id": "BEHAV_AH_019"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "실제 노출 (In vivo exposure)",
+        "description": "실제 불안 자극에 직접 노출"
+      },
+      {
+        "name": "상상 노출 (Imaginal exposure)",
+        "description": "불안 상황을 상상으로 노출"
+      },
+      {
+        "name": "가상현실 노출 (VR exposure)",
+        "description": "가상현실 기술을 활용한 노출"
+      },
+      {
+        "name": "내면 감각 노출 (Interoceptive exposure)",
+        "description": "공황과 관련된 신체 감각에 노출"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "노출 치료 = 불안 자극에 피하지 않고 맞서기 → 습관화 → 불안 감소",
+      "differential": "체계적 둔감화는 이완과 결합한 점진적 노출이지만, 순수 노출 치료는 이완 없이 불안 자극에 직접 노출한다",
+      "key_point": "노출 치료의 핵심 원리: 불안은 피하면 유지되고, 직면하면 감소한다",
+      "common_mistake": "노출 치료는 단순히 무서운 것을 경험하게 하는 것이 아니라, 치료적 맥락에서 체계적으로 계획된 노출이다"
+    }
+  },
+  {
+    "id": "BEHAV_SR_021",
+    "terminology": "자발적 회복 (Spontaneous Recovery)",
+    "terminology_ko": "자발적 회복",
+    "terminology_en": "Spontaneous Recovery",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "소거된 조건 반응이 일정 시간이 지난 후 다시 나타나는 현상으로, 소거가 원래 학습을 완전히 제거하는 것이 아님을 보여주며, 치료 후 재발의 가능성을 설명한다.",
+    "definition_en": "The phenomenon where an extinguished conditioned response reappears after a passage of time, demonstrating that extinction does not completely erase original learning and explaining the possibility of relapse after treatment.",
+    "significance": "치료적 변화 이후의 재발 가능성을 이해하고, 재발 방지 전략의 필요성을 강조하는 이론적 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "이반 파블로프",
+        "name_en": "Ivan Pavlov",
+        "contribution": "자발적 회복 현상을 최초로 발견하고 기술"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "소거",
+        "name_en": "Extinction",
+        "id": "BEHAV_EX_006"
+      },
+      {
+        "name_ko": "고전적 조건형성",
+        "name_en": "Classical Conditioning",
+        "id": "BEHAV_CC_002"
+      },
+      {
+        "name_ko": "재발 방지",
+        "name_en": "Relapse Prevention",
+        "id": "BEHAV_RP_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자발적 회복 = 사라졌다고 생각한 행동이 시간이 지나면 다시 돌아올 수 있다",
+      "differential": "재학습(relearning)은 다시 조건형성이 일어나는 것이고, 자발적 회복은 추가 학습 없이 자연적으로 반응이 되돌아오는 것이다",
+      "key_point": "자발적 회복은 원래 학습이 소거에 의해 완전히 제거되지 않음을 의미한다",
+      "common_mistake": "자발적 회복은 치료의 실패가 아니라 학습의 자연적 현상이며, 반복적 소거를 통해 점차 약화된다"
+    }
+  },
+  {
+    "id": "BEHAV_SDI_022",
+    "terminology": "자극 변별 (Stimulus Discrimination)",
+    "terminology_ko": "자극 변별",
+    "terminology_en": "Stimulus Discrimination",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "유사한 자극들 사이의 차이를 구분하여 특정 자극에만 조건 반응을 보이는 학습 과정으로, 자극 일반화의 반대 과정이며 적응적 행동에 필수적이다.",
+    "definition_en": "A learning process of distinguishing differences between similar stimuli and showing conditioned responses only to specific stimuli, the opposite of stimulus generalization and essential for adaptive behavior.",
+    "significance": "과도한 자극 일반화로 인한 부적응(범불안 등)을 교정하고, 적절한 상황에서 적절한 반응을 하도록 돕는 상담의 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "이반 파블로프",
+        "name_en": "Ivan Pavlov",
+        "contribution": "자극 변별 훈련의 원리를 최초로 발견"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자극 일반화",
+        "name_en": "Stimulus Generalization",
+        "id": "BEHAV_SG_007"
+      },
+      {
+        "name_ko": "고전적 조건형성",
+        "name_en": "Classical Conditioning",
+        "id": "BEHAV_CC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자극 변별 = 이것과 저것은 다르다는 것을 구분하기 → 적절한 자극에만 반응하기",
+      "differential": "일반화가 유사 자극으로의 확산이라면, 변별은 자극 간 차이를 구분하는 것이다",
+      "key_point": "건강한 적응은 적절한 일반화와 변별의 균형에 달려 있다",
+      "common_mistake": "변별이 과도하면 지나치게 제한적으로 반응하고, 일반화가 과도하면 부적절하게 광범위하게 반응한다"
+    }
+  },
+  {
+    "id": "BEHAV_RS_023",
+    "terminology": "강화 계획 (Reinforcement Schedule)",
+    "terminology_ko": "강화 계획",
+    "terminology_en": "Reinforcement Schedule",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "강화가 제공되는 시기와 빈도의 규칙을 말하며, 연속 강화와 간헐 강화(고정비율, 변동비율, 고정간격, 변동간격)로 구분되어 행동의 학습 속도와 소거 저항에 영향을 미친다.",
+    "definition_en": "Rules governing when and how often reinforcement is delivered, divided into continuous and intermittent reinforcement (fixed-ratio, variable-ratio, fixed-interval, variable-interval), affecting learning speed and resistance to extinction.",
+    "significance": "행동 수정에서 강화의 효과를 최적화하는 전략을 설계하는 데 필수적이며, 행동의 유지와 소거에 대한 이해를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "강화 계획의 유형과 각 유형의 행동적 효과를 체계적으로 연구"
+      },
+      {
+        "name_ko": "찰스 페스터",
+        "name_en": "Charles Ferster",
+        "contribution": "스키너와 함께 강화 계획에 관한 포괄적 연구를 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "조작적 조건형성",
+        "name_en": "Operant Conditioning",
+        "id": "BEHAV_OC_003"
+      },
+      {
+        "name_ko": "소거",
+        "name_en": "Extinction",
+        "id": "BEHAV_EX_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "연속 강화 (CRF)",
+        "description": "매 행동에 강화를 제공 (학습 초기에 효과적)"
+      },
+      {
+        "name": "고정비율 (FR)",
+        "description": "일정 횟수의 행동 후 강화 (예: 10개 생산 시마다 보너스)"
+      },
+      {
+        "name": "변동비율 (VR)",
+        "description": "평균적 횟수 후 강화 (예: 슬롯머신)"
+      },
+      {
+        "name": "고정간격 (FI)",
+        "description": "일정 시간 후 첫 행동에 강화 (예: 월급)"
+      },
+      {
+        "name": "변동간격 (VI)",
+        "description": "평균적 시간 후 첫 행동에 강화 (예: 낚시)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "소거 저항: VR > VI > FR > FI > 연속 (변동비율이 가장 강함 = 도박의 원리)",
+      "differential": "비율 강화는 행동 횟수 기반이고, 간격 강화는 시간 기반이다. '고정'은 일정하고 '변동'은 불규칙하다",
+      "key_point": "학습 초기에는 연속 강화가, 행동 유지에는 간헐 강화(특히 변동비율)가 효과적이다",
+      "common_mistake": "변동비율 강화가 소거 저항이 가장 높은 이유는 '다음에는 될지 모른다'는 기대가 유지되기 때문이다"
+    }
+  },
+  {
+    "id": "BEHAV_AV_024",
+    "terminology": "혐오치료 (Aversion Therapy)",
+    "terminology_ko": "혐오치료",
+    "terminology_en": "Aversion Therapy",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "바람직하지 않은 행동이나 자극에 혐오 자극(구토제, 전기 충격 등)을 짝지어 제시함으로써 해당 행동에 대한 부정적 반응을 조건형성하는 기법이다.",
+    "definition_en": "A technique that pairs undesirable behaviors or stimuli with aversive stimuli (emetics, electric shock, etc.) to condition a negative response to those behaviors.",
+    "significance": "알코올 의존, 흡연 등 습관적 행동의 치료에 사용되어 왔으나, 윤리적 문제로 인해 현대에는 사용이 크게 제한되고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "혐오치료의 이론적 기초를 조건형성 원리로 설명"
+      },
+      {
+        "name_ko": "레이몬드",
+        "name_en": "M.J. Raymond",
+        "contribution": "알코올 의존 치료에 혐오치료를 적용한 초기 연구를 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고전적 조건형성",
+        "name_en": "Classical Conditioning",
+        "id": "BEHAV_CC_002"
+      },
+      {
+        "name_ko": "역조건형성",
+        "name_en": "Counterconditioning",
+        "id": "BEHAV_RC_008"
+      },
+      {
+        "name_ko": "내현적 감작",
+        "name_en": "Covert Sensitization",
+        "id": "BEHAV_CS_031"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "화학적 혐오치료",
+        "description": "구토제 등 약물을 사용한 혐오 유발"
+      },
+      {
+        "name": "전기적 혐오치료",
+        "description": "약한 전기 충격을 사용한 혐오 유발"
+      },
+      {
+        "name": "내현적 감작",
+        "description": "상상으로 혐오 장면을 연결하는 인지적 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "혐오치료 = 좋아하는 것 + 싫어하는 것 짝짓기 → 좋아하는 것도 싫어지게 만들기",
+      "differential": "체계적 둔감화가 불안을 이완으로 대체하는 것이라면, 혐오치료는 쾌락을 혐오로 대체하는 것이다",
+      "key_point": "현대 상담에서 혐오치료는 윤리적 문제로 제한적으로만 사용되며, 사전동의가 필수이다",
+      "common_mistake": "혐오치료의 효과는 단기적이며, 치료 환경과 실제 환경의 차이로 인해 일반화가 어려울 수 있다"
+    }
+  },
+  {
+    "id": "BEHAV_BC_025",
+    "terminology": "행동 계약 (Behavioral Contract)",
+    "terminology_ko": "행동 계약",
+    "terminology_en": "Behavioral Contract",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "상담자와 내담자(또는 관련 당사자들) 사이에서 목표 행동, 강화 조건, 결과 등을 명문화한 서면 합의로, 행동 변화에 대한 구체적 기대와 책임을 명확히 한다.",
+    "definition_en": "A written agreement between the therapist and client (or relevant parties) that specifies target behaviors, reinforcement conditions, and consequences, clarifying specific expectations and responsibilities for behavior change.",
+    "significance": "행동 변화의 동기를 높이고 책임감을 강화하는 실용적 도구로, 특히 아동·청소년 상담과 부부/가족 상담에서 효과적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로이드 홈",
+        "name_en": "Lloyd Homme",
+        "contribution": "행동 계약의 초기 형태를 교육 장면에서 개발"
+      },
+      {
+        "name_ko": "리처드 스튜어트",
+        "name_en": "Richard Stuart",
+        "contribution": "부부 상담에서 행동 계약을 체계적으로 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "행동 수정",
+        "name_en": "Behavior Modification",
+        "id": "BEHAV_BM_011"
+      },
+      {
+        "name_ko": "자기관리",
+        "name_en": "Self-Management",
+        "id": "BEHAV_SM_032"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 계약 = 명문화된 약속: 누가, 무엇을, 언제, 어떤 결과로",
+      "differential": "구두 합의보다 서면 계약이 행동 변화의 동기와 구속력을 높인다",
+      "key_point": "행동 계약은 양 당사자가 동의해야 하며, 목표는 구체적이고 달성 가능해야 한다",
+      "common_mistake": "행동 계약은 일방적 통제 도구가 아니라, 상호 합의에 기반한 협력적 도구이다"
+    }
+  },
+  {
+    "id": "BEHAV_SST_026",
+    "terminology": "사회기술 훈련 (Social Skills Training)",
+    "terminology_ko": "사회기술 훈련",
+    "terminology_en": "Social Skills Training",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "대인관계에서 필요한 사회적 기술(자기주장, 대화, 감정 표현 등)을 모델링, 역할 연기, 피드백, 강화 등을 통해 체계적으로 가르치는 행동치료 프로그램이다.",
+    "definition_en": "A behavior therapy program that systematically teaches social skills needed for interpersonal relationships (assertiveness, conversation, emotional expression, etc.) through modeling, role playing, feedback, and reinforcement.",
+    "significance": "사회적 상호작용에 어려움을 겪는 내담자들의 대인관계 능력을 구체적으로 향상시키는 증거 기반 프로그램이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨런 골드스타인",
+        "name_en": "Arnold Goldstein",
+        "contribution": "구조화된 학습 접근으로 사회기술 훈련 프로그램을 체계화"
+      },
+      {
+        "name_ko": "로버트 리버만",
+        "name_en": "Robert Liberman",
+        "contribution": "정신장애 환자를 위한 사회기술 훈련 모듈을 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      },
+      {
+        "name_ko": "자기주장 훈련",
+        "name_en": "Assertiveness Training",
+        "id": "BEHAV_AT_033"
+      },
+      {
+        "name_ko": "행동 리허설",
+        "name_en": "Behavioral Rehearsal",
+        "id": "BEHAV_BR_034"
+      },
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회기술 훈련의 4단계: 교육(설명) → 모델링(시범) → 역할연기(연습) → 피드백(강화)",
+      "differential": "인간중심 상담이 공감적 관계를 통한 자연적 성장을 추구한다면, 사회기술 훈련은 구체적 기술을 직접 가르친다",
+      "key_point": "효과적인 사회기술 훈련은 실제 상황에서의 일반화를 위한 과제(숙제)를 포함해야 한다",
+      "common_mistake": "사회기술 훈련은 단순히 예절을 가르치는 것이 아니라, 구체적 행동 기술을 체계적으로 훈련하는 것이다"
+    }
+  },
+  {
+    "id": "BEHAV_OE_027",
+    "terminology": "결과 기대 (Outcome Expectancy)",
+    "terminology_ko": "결과 기대",
+    "terminology_en": "Outcome Expectancy",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "특정 행동이 특정 결과를 가져올 것이라는 예측으로, 자기효능감과 함께 행동 변화를 결정하는 인지적 요인이며 행동의 동기에 영향을 미친다.",
+    "definition_en": "The prediction that a specific behavior will lead to a specific outcome, a cognitive factor that, along with self-efficacy, determines behavior change and influences behavioral motivation.",
+    "significance": "행동 변화에서 인지적 기대의 역할을 강조하며, 자기효능감과 함께 행동 동기의 인지적 측면을 설명한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "자기효능감과 결과 기대를 구분하여 행동 변화의 인지적 매개 과정을 설명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기효능감",
+        "name_en": "Self-Efficacy",
+        "id": "BEHAV_SE_015"
+      },
+      {
+        "name_ko": "사회학습이론",
+        "name_en": "Social Learning Theory",
+        "id": "BEHAV_SL_004"
+      },
+      {
+        "name_ko": "인지치료",
+        "name_en": "Cognitive Therapy",
+        "id": "CBT_CT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기효능감: '내가 할 수 있을까?' vs 결과 기대: '하면 어떤 결과가 올까?'",
+      "differential": "자기효능감은 수행 능력에 대한 신념이고, 결과 기대는 행동 결과에 대한 예측이다",
+      "key_point": "자기효능감이 높아도 결과 기대가 낮으면 행동하지 않을 수 있다(예: 능력은 있지만 보상이 없을 때)",
+      "common_mistake": "결과 기대와 자기효능감은 독립적 개념이며, 둘 다 행동 변화에 영향을 미친다"
+    }
+  },
+  {
+    "id": "BEHAV_SIT_028",
+    "terminology": "스트레스 면역 훈련 (Stress Inoculation Training)",
+    "terminology_ko": "스트레스 면역 훈련",
+    "terminology_en": "Stress Inoculation Training",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "메이첸바움이 개발한 인지행동적 스트레스 관리 프로그램으로, 스트레스에 대한 교육, 대처 기술 습득, 점진적 노출 연습의 3단계를 통해 스트레스 저항력을 향상시킨다.",
+    "definition_en": "A cognitive-behavioral stress management program developed by Meichenbaum, improving stress resistance through three phases: education about stress, coping skills acquisition, and graduated exposure practice.",
+    "significance": "예방적 관점에서 스트레스 대처 능력을 체계적으로 훈련하는 대표적 프로그램으로, 불안, 분노, 통증 관리에 효과적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 메이첸바움",
+        "name_en": "Donald Meichenbaum",
+        "contribution": "스트레스 면역 훈련의 3단계 모델을 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "이완 훈련",
+        "name_en": "Relaxation Training",
+        "id": "BEHAV_RT_018"
+      },
+      {
+        "name_ko": "자기교시 훈련",
+        "name_en": "Self-Instructional Training",
+        "id": "BEHAV_SIN_035"
+      },
+      {
+        "name_ko": "인지치료",
+        "name_en": "Cognitive Therapy",
+        "id": "CBT_CT_001"
+      },
+      {
+        "name_ko": "노출 치료",
+        "name_en": "Exposure Therapy",
+        "id": "BEHAV_ET_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "스트레스 면역 훈련 3단계: ①교육(개념화) → ②기술 습득(대처 연습) → ③적용(실전 노출)",
+      "differential": "이완 훈련이 신체적 긴장 감소에 초점을 맞추는 반면, 스트레스 면역 훈련은 인지적 대처와 행동적 기술을 모두 포함한다",
+      "key_point": "면역이라는 용어처럼, 작은 스트레스에 대한 대처 성공 경험이 큰 스트레스에 대한 저항력을 높인다",
+      "common_mistake": "스트레스 면역 훈련은 스트레스를 제거하는 것이 아니라, 스트레스에 효과적으로 대처하는 능력을 키우는 것이다"
+    }
+  },
+  {
+    "id": "BEHAV_FL_029",
+    "terminology": "홍수법 (Flooding)",
+    "terminology_ko": "홍수법",
+    "terminology_en": "Flooding",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "불안이나 공포를 유발하는 자극에 강도 높게 그리고 지속적으로 노출시켜, 불안 반응이 자연스럽게 감소(습관화)할 때까지 유지하는 노출 기반 기법이다.",
+    "definition_en": "An exposure-based technique that exposes the client to anxiety or fear-provoking stimuli at high intensity and sustained duration until the anxiety response naturally decreases (habituation).",
+    "significance": "체계적 둔감화보다 빠른 효과를 기대할 수 있지만, 높은 불안을 유발하므로 적용 시 주의와 내담자 동의가 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "토마스 스탬플",
+        "name_en": "Thomas Stampfl",
+        "contribution": "내파법(implosive therapy)을 개발하여 상상적 홍수법의 기초를 마련"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "노출 치료",
+        "name_en": "Exposure Therapy",
+        "id": "BEHAV_ET_020"
+      },
+      {
+        "name_ko": "체계적 둔감화",
+        "name_en": "Systematic Desensitization",
+        "id": "BEHAV_SD_005"
+      },
+      {
+        "name_ko": "소거",
+        "name_en": "Extinction",
+        "id": "BEHAV_EX_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "실제 홍수법 (In vivo flooding)",
+        "description": "실제 불안 자극에 직접 노출"
+      },
+      {
+        "name": "상상적 홍수법/내파법 (Implosive therapy)",
+        "description": "불안 장면을 상상으로 강하게 노출"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "홍수법 = 가장 무서운 것에 한꺼번에 몰입 → 불안이 정점을 찍고 → 자연스럽게 감소",
+      "differential": "체계적 둔감화가 약한 불안부터 점진적으로 접근하는 반면, 홍수법은 강한 불안에 바로 노출한다",
+      "key_point": "홍수법의 핵심: 불안이 충분히 감소할 때까지 노출을 중단하면 안 된다. 조기 종료는 역효과를 낳는다",
+      "common_mistake": "불안이 감소하기 전에 노출을 중단하면 감작(sensitization)이 일어나 오히려 불안이 강화될 수 있다"
+    }
+  },
+  {
+    "id": "BEHAV_RP_030",
+    "terminology": "재발 방지 (Relapse Prevention)",
+    "terminology_ko": "재발 방지",
+    "terminology_en": "Relapse Prevention",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "상담을 통해 달성한 행동 변화가 치료 종결 후에도 유지되도록 돕는 인지행동적 전략으로, 고위험 상황 인식, 대처 기술, 자기효능감 강화 등을 포함한다.",
+    "definition_en": "Cognitive-behavioral strategies to help maintain behavior changes achieved through counseling after treatment ends, including recognition of high-risk situations, coping skills, and self-efficacy enhancement.",
+    "significance": "행동 변화의 유지와 일반화를 보장하는 치료의 최종 단계로, 특히 중독 치료에서 핵심적인 구성 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨런 말랫",
+        "name_en": "G. Alan Marlatt",
+        "contribution": "알코올 의존에서 재발 방지 모델을 개발하고 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기효능감",
+        "name_en": "Self-Efficacy",
+        "id": "BEHAV_SE_015"
+      },
+      {
+        "name_ko": "자발적 회복",
+        "name_en": "Spontaneous Recovery",
+        "id": "BEHAV_SR_021"
+      },
+      {
+        "name_ko": "자기관리",
+        "name_en": "Self-Management",
+        "id": "BEHAV_SM_032"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "재발 방지의 핵심: 고위험 상황 파악 → 대처 기술 준비 → 실패해도 포기하지 않기",
+      "differential": "상담의 종결이 끝이 아니라, 재발 방지를 위한 후속 전략이 치료의 필수적 부분이다",
+      "key_point": "일시적 실패(lapse)와 완전한 재발(relapse)을 구분하며, 일시적 실패를 학습의 기회로 활용한다",
+      "common_mistake": "한 번의 실수(lapse)가 곧 완전한 재발(relapse)을 의미하지 않는다(절제 위반 효과를 경계)"
+    }
+  },
+  {
+    "id": "BEHAV_CS_031",
+    "terminology": "내현적 감작 (Covert Sensitization)",
+    "terminology_ko": "내현적 감작",
+    "terminology_en": "Covert Sensitization",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "실제 혐오 자극 대신 상상으로 혐오스러운 장면을 떠올려 바람직하지 않은 행동과 연결하는 인지적 혐오치료 기법으로, 윤리적으로 보다 수용 가능한 대안이다.",
+    "definition_en": "A cognitive aversion therapy technique that links undesirable behaviors with imagined aversive scenes rather than actual aversive stimuli, an ethically more acceptable alternative.",
+    "significance": "전통적 혐오치료의 윤리적 문제를 완화하면서도 역조건형성의 원리를 적용할 수 있는 대안적 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 코틀라",
+        "name_en": "Joseph Cautela",
+        "contribution": "내현적 감작 기법을 개발하고 내현적 조건형성 이론을 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "혐오치료",
+        "name_en": "Aversion Therapy",
+        "id": "BEHAV_AV_024"
+      },
+      {
+        "name_ko": "역조건형성",
+        "name_en": "Counterconditioning",
+        "id": "BEHAV_RC_008"
+      },
+      {
+        "name_ko": "내현적 강화",
+        "name_en": "Covert Reinforcement",
+        "id": "BEHAV_CR_036"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내현적 = 마음속에서(covert): 실제가 아닌 상상으로 혐오 장면을 연결하기",
+      "differential": "외현적 혐오치료가 실제 자극을 사용한다면, 내현적 감작은 상상만을 사용하므로 덜 침습적이다",
+      "key_point": "내현적 감작의 효과는 내담자의 상상력과 동기에 크게 의존한다",
+      "common_mistake": "내현적 감작이 상상이라고 해서 효과가 없는 것이 아니며, 이미지의 생생함이 효과를 좌우한다"
+    }
+  },
+  {
+    "id": "BEHAV_SM_032",
+    "terminology": "자기관리 (Self-Management)",
+    "terminology_ko": "자기관리",
+    "terminology_en": "Self-Management",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "내담자가 상담자의 도움 없이 스스로 자신의 행동을 관찰, 평가, 강화하여 변화시키는 기법의 총칭으로, 자기감찰, 자기강화, 자극통제 등을 포함한다.",
+    "definition_en": "A collective term for techniques where clients independently observe, evaluate, and reinforce their own behavior changes without the therapist's help, including self-monitoring, self-reinforcement, and stimulus control.",
+    "significance": "상담의 궁극적 목표인 내담자의 자율적 행동 변화 능력을 구축하며, 상담 종결 후 변화 유지에 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프레드 칸퍼",
+        "name_en": "Frederick Kanfer",
+        "contribution": "자기관리의 3단계 모델(자기감찰, 자기평가, 자기강화)을 제시"
+      },
+      {
+        "name_ko": "앨버트 반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "자기조절과 자기효능감 개념으로 자기관리의 이론적 기초를 제공"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기효능감",
+        "name_en": "Self-Efficacy",
+        "id": "BEHAV_SE_015"
+      },
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "행동 계약",
+        "name_en": "Behavioral Contract",
+        "id": "BEHAV_BC_025"
+      },
+      {
+        "name_ko": "재발 방지",
+        "name_en": "Relapse Prevention",
+        "id": "BEHAV_RP_030"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "자기감찰 (Self-Monitoring)",
+        "description": "자신의 행동을 관찰하고 기록하는 것"
+      },
+      {
+        "name": "자기강화 (Self-Reinforcement)",
+        "description": "목표 행동 수행 시 스스로에게 보상을 주는 것"
+      },
+      {
+        "name": "자극통제 (Stimulus Control)",
+        "description": "행동을 유발하는 환경적 자극을 조절하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "자기관리 3단계: 감찰(관찰) → 평가(비교) → 강화(보상) = 칸퍼의 모델",
+      "differential": "행동 수정이 외부(상담자)에 의한 행동 변화라면, 자기관리는 내담자 스스로의 행동 변화이다",
+      "key_point": "자기관리의 첫 번째 단계인 자기감찰만으로도 행동 변화가 시작될 수 있다(반응성 효과)",
+      "common_mistake": "자기관리는 의지력에 의존하는 것이 아니라, 체계적인 행동적 전략을 자기 자신에게 적용하는 것이다"
+    }
+  },
+  {
+    "id": "BEHAV_AT_033",
+    "terminology": "자기주장 훈련 (Assertiveness Training)",
+    "terminology_ko": "자기주장 훈련",
+    "terminology_en": "Assertiveness Training",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "자신의 권리, 감정, 의견을 타인의 권리를 침해하지 않으면서 적절하게 표현하는 기술을 훈련하는 행동치료 기법으로, 수동적 행동과 공격적 행동의 중간 지점인 주장적 행동을 목표로 한다.",
+    "definition_en": "A behavior therapy technique training the skill of appropriately expressing one's rights, feelings, and opinions without violating others' rights, targeting assertive behavior as the middle ground between passive and aggressive behavior.",
+    "significance": "대인관계에서의 효과적 의사소통 능력을 향상시키며, 사회불안, 자존감 저하, 관계 갈등 등의 문제에 널리 적용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 월프",
+        "name_en": "Joseph Wolpe",
+        "contribution": "자기주장 훈련을 불안 치료의 맥락에서 최초로 제안"
+      },
+      {
+        "name_ko": "앤드류 살터",
+        "name_en": "Andrew Salter",
+        "contribution": "조건반사요법에서 자기주장의 중요성을 강조"
+      },
+      {
+        "name_ko": "로버트 알버티",
+        "name_en": "Robert Alberti",
+        "contribution": "자기주장 훈련의 체계적 매뉴얼을 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사회기술 훈련",
+        "name_en": "Social Skills Training",
+        "id": "BEHAV_SST_026"
+      },
+      {
+        "name_ko": "행동 리허설",
+        "name_en": "Behavioral Rehearsal",
+        "id": "BEHAV_BR_034"
+      },
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 유형: 수동적(남의 권리만) ↔ 주장적(양쪽 권리) ↔ 공격적(내 권리만)",
+      "differential": "공격성(aggression)이 타인의 권리를 침해하는 것이라면, 자기주장(assertion)은 자타 모두의 권리를 존중하는 것이다",
+      "key_point": "자기주장 훈련은 '나 전달법(I-message)'을 핵심 기술로 포함한다",
+      "common_mistake": "자기주장은 항상 자기 뜻을 관철시키는 것이 아니라, 자기의 입장을 적절히 표현하는 것이다"
+    }
+  },
+  {
+    "id": "BEHAV_BR_034",
+    "terminology": "행동 리허설 (Behavioral Rehearsal)",
+    "terminology_ko": "행동 리허설",
+    "terminology_en": "Behavioral Rehearsal",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "실제 상황에서 사용할 행동을 상담 장면에서 미리 연습하는 기법으로, 역할 연기(role playing)를 통해 새로운 행동을 안전하게 시험하고 피드백을 받는다.",
+    "definition_en": "A technique of practicing behaviors to be used in real situations beforehand in the counseling setting, safely testing new behaviors through role playing and receiving feedback.",
+    "significance": "학습한 기술을 실제 상황에 적용하기 전에 연습할 수 있는 기회를 제공하여, 행동 변화의 일반화를 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨런 라자루스",
+        "name_en": "Arnold Lazarus",
+        "contribution": "행동 리허설을 상담 기법으로 체계화하고 다중양식치료에 통합"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      },
+      {
+        "name_ko": "자기주장 훈련",
+        "name_en": "Assertiveness Training",
+        "id": "BEHAV_AT_033"
+      },
+      {
+        "name_ko": "사회기술 훈련",
+        "name_en": "Social Skills Training",
+        "id": "BEHAV_SST_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 리허설 = 무대 리허설: 실제 공연(실생활) 전에 안전한 연습실(상담실)에서 미리 연습",
+      "differential": "상상적 시연이 머릿속으로 연습하는 것이라면, 행동 리허설은 실제로 행동하며 연습하는 것이다",
+      "key_point": "행동 리허설 후 구체적 피드백과 코칭이 필수적이며, 반복 연습을 통해 숙달을 추구한다",
+      "common_mistake": "행동 리허설은 한 번으로 끝나는 것이 아니라, 피드백을 반영하여 여러 차례 반복해야 효과적이다"
+    }
+  },
+  {
+    "id": "BEHAV_SIN_035",
+    "terminology": "자기교시 훈련 (Self-Instructional Training)",
+    "terminology_ko": "자기교시 훈련",
+    "terminology_en": "Self-Instructional Training",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "메이첸바움이 개발한 인지행동적 기법으로, 과제 수행 시 자기 자신에게 말하는 내적 언어(self-talk)를 변화시켜 행동을 조절하는 훈련이다.",
+    "definition_en": "A cognitive-behavioral technique developed by Meichenbaum that regulates behavior by changing the internal language (self-talk) one uses when performing tasks.",
+    "significance": "비고츠키의 내적 언어 이론에 기초하며, 특히 아동의 충동성, 주의력 문제, 과제 수행 향상에 효과적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 메이첸바움",
+        "name_en": "Donald Meichenbaum",
+        "contribution": "자기교시 훈련을 개발하고 인지적 행동 수정의 체계를 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "스트레스 면역 훈련",
+        "name_en": "Stress Inoculation Training",
+        "id": "BEHAV_SIT_028"
+      },
+      {
+        "name_ko": "모델링",
+        "name_en": "Modeling",
+        "id": "BEHAV_MD_013"
+      },
+      {
+        "name_ko": "자기관리",
+        "name_en": "Self-Management",
+        "id": "BEHAV_SM_032"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기교시 5단계: 인지적 모델링 → 외현적 안내 → 외현적 자기교시 → 소리 줄여 자기교시 → 내현적 자기교시",
+      "differential": "벡의 인지치료가 비합리적 사고를 논박하는 것이라면, 자기교시는 적응적 자기대화를 직접 훈련하는 것이다",
+      "key_point": "자기교시 훈련의 핵심은 부적응적 자기대화를 적응적 자기대화로 체계적으로 대체하는 것이다",
+      "common_mistake": "자기교시는 단순한 긍정적 확언(affirmation)이 아니라, 과제 수행을 안내하는 구체적이고 실용적인 자기 지시이다"
+    }
+  },
+  {
+    "id": "BEHAV_CR_036",
+    "terminology": "내현적 강화 (Covert Reinforcement)",
+    "terminology_ko": "내현적 강화",
+    "terminology_en": "Covert Reinforcement",
+    "category": "BEHAV",
+    "category_name": "행동주의 상담 (Behavior Therapy)",
+    "definition": "바람직한 행동을 상상한 직후에 즐거운 장면을 상상하여 내면적으로 강화하는 기법으로, 코틀라가 개발한 내현적 조건형성 기법 중 하나이다.",
+    "definition_en": "A technique of internally reinforcing desired behavior by imagining a pleasant scene immediately after imagining the desired behavior, one of the covert conditioning techniques developed by Cautela.",
+    "significance": "외현적 강화가 어려운 상황에서 상상을 통해 행동 변화를 촉진하는 유용한 대안적 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "조셉 코틀라",
+        "name_en": "Joseph Cautela",
+        "contribution": "내현적 강화를 포함한 일련의 내현적 조건형성 기법을 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "강화",
+        "name_en": "Reinforcement",
+        "id": "BEHAV_RF_009"
+      },
+      {
+        "name_ko": "내현적 감작",
+        "name_en": "Covert Sensitization",
+        "id": "BEHAV_CS_031"
+      },
+      {
+        "name_ko": "자기관리",
+        "name_en": "Self-Management",
+        "id": "BEHAV_SM_032"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내현적 강화 = 마음속 보상: 바람직한 행동 상상 + 즐거운 장면 상상 = 내적 강화",
+      "differential": "외현적 강화는 실제 보상을 제공하지만, 내현적 강화는 상상 속 보상을 사용한다",
+      "key_point": "내현적 강화의 효과는 상상의 생생함과 즐거운 장면의 개인적 의미에 의존한다",
+      "common_mistake": "내현적 강화는 단순한 공상이 아니라, 조건형성 원리에 기반한 체계적 절차이다"
+    }
+  }
+]

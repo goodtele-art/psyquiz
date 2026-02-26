@@ -1,0 +1,1736 @@
+[
+  {
+    "id": "THIRDW_TW_001",
+    "terminology": "3세대 인지행동상담 (Third-Wave CBT)",
+    "terminology_ko": "3세대 인지행동상담",
+    "terminology_en": "Third-Wave CBT",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "전통적 CBT의 인지 변화 전략 대신, 사고와의 관계 변화(수용, 마음챙김, 탈융합)를 강조하는 인지행동치료의 최신 흐름이다.",
+    "definition_en": "The latest wave of CBT emphasizing changing one's relationship with thoughts (acceptance, mindfulness, defusion) rather than changing thought content.",
+    "significance": "사고의 내용을 바꾸려는 전통적 CBT의 한계를 보완하며, 수용과 마음챙김을 치료적 도구로 통합한 패러다임 전환이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "수용전념치료(ACT)를 개발하고 3세대 CBT 개념을 제안함"
+      },
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "변증법적행동치료(DBT)를 개발함"
+      },
+      {
+        "name_ko": "존 카밧진",
+        "name_en": "Jon Kabat-Zinn",
+        "contribution": "마음챙김 기반 스트레스 감소(MBSR)를 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "마음챙김 기반 스트레스 감소",
+        "name_en": "MBSR",
+        "id": "THIRDW_MB_022"
+      },
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "CBT",
+        "id": "CBT_CT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "1세대=행동, 2세대=인지+행동, 3세대=수용+마음챙김+행동",
+      "differential": "2세대 CBT가 사고 내용의 변화를 추구하는 반면, 3세대는 사고와의 관계 변화를 추구한다.",
+      "key_point": "핵심 차이: '생각을 바꾸자' → '생각을 있는 그대로 관찰하고 수용하자'",
+      "common_mistake": "3세대가 2세대를 대체하는 것이 아니라 보완하는 것이다. 전통적 CBT 기법도 여전히 사용된다."
+    }
+  },
+  {
+    "id": "THIRDW_AC_002",
+    "terminology": "수용전념치료 (Acceptance and Commitment Therapy, ACT)",
+    "terminology_ko": "수용전념치료",
+    "terminology_en": "Acceptance and Commitment Therapy",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "Hayes가 개발한 3세대 CBT 접근으로, 심리적 유연성을 핵심 목표로 하며 수용, 인지적 탈융합, 현재 순간 접촉, 가치, 전념적 행동 등 6가지 핵심 과정을 포함한다.",
+    "definition_en": "A third-wave CBT approach developed by Hayes targeting psychological flexibility through six core processes: acceptance, cognitive defusion, present moment contact, self as context, values, and committed action.",
+    "significance": "관계 구성 이론(RFT)에 기반한 과학적 토대를 갖추고, 수용과 행동 변화를 통합한 혁신적 치료 모델이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "ACT와 관계 구성 이론(RFT)을 개발함"
+      },
+      {
+        "name_ko": "커크 스트로살",
+        "name_en": "Kirk Strosahl",
+        "contribution": "ACT의 임상 프로토콜 개발에 기여함"
+      },
+      {
+        "name_ko": "켈리 윌슨",
+        "name_en": "Kelly Wilson",
+        "contribution": "ACT의 가치 작업을 발전시킴"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      },
+      {
+        "name_ko": "인지적 탈융합",
+        "name_en": "Cognitive Defusion",
+        "id": "THIRDW_CD_005"
+      },
+      {
+        "name_ko": "수용",
+        "name_en": "Acceptance",
+        "id": "THIRDW_AP_004"
+      },
+      {
+        "name_ko": "가치",
+        "name_en": "Values",
+        "id": "THIRDW_VA_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ACT = Accept(수용) + Choose(선택) + Take action(행동) = '있는 그대로 받아들이고, 가치를 향해 행동하라'",
+      "differential": "전통적 CBT가 부정적 사고를 변화시키려는 반면, ACT는 사고를 바꾸려 하지 않고 수용하면서 가치 기반 행동에 초점을 둔다.",
+      "key_point": "6가지 핵심 과정이 '헥사플렉스(Hexaflex)' 모형으로 시각화된다.",
+      "common_mistake": "ACT를 '체념' 또는 '포기'로 오해하면 안 된다. 수용은 적극적 자세이며, 전념적 행동이 반드시 수반된다."
+    }
+  },
+  {
+    "id": "THIRDW_PF_003",
+    "terminology": "심리적 유연성 (Psychological Flexibility)",
+    "terminology_ko": "심리적 유연성",
+    "terminology_en": "Psychological Flexibility",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "현재 순간에 완전히 접촉하면서, 상황이 요구하는 바에 따라 행동을 변화시키거나 유지하며, 자신이 선택한 가치에 따라 행동하는 능력이다.",
+    "definition_en": "The ability to be fully in contact with the present moment while changing or persisting in behavior as the situation demands, acting in accordance with chosen values.",
+    "significance": "ACT의 궁극적 치료 목표이며, 6가지 핵심 과정의 통합적 결과로 나타나는 심리적 건강의 핵심 지표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "심리적 유연성을 ACT의 중심 목표로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "심리적 경직성",
+        "name_en": "Psychological Inflexibility",
+        "id": "THIRDW_PI_011"
+      },
+      {
+        "name_ko": "가치",
+        "name_en": "Values",
+        "id": "THIRDW_VA_009"
+      },
+      {
+        "name_ko": "전념적 행동",
+        "name_en": "Committed Action",
+        "id": "THIRDW_CA_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "심리적 유연성 = 대나무처럼 '유연하게 휘면서도 부러지지 않는' 마음",
+      "differential": "전통적 CBT의 목표가 인지적 왜곡의 교정인 반면, ACT의 목표는 심리적 유연성의 증진이다.",
+      "key_point": "심리적 유연성은 단일 능력이 아니라 6가지 핵심 과정의 상호작용에서 나타나는 통합적 기능이다.",
+      "common_mistake": "유연성이 '의지가 약하다'거나 '원칙이 없다'는 뜻이 아니라, 상황에 맞게 적응하면서 가치를 지키는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_AP_004",
+    "terminology": "수용 (Acceptance)",
+    "terminology_ko": "수용",
+    "terminology_en": "Acceptance",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT의 6가지 핵심 과정 중 하나로, 내적 경험(사고, 감정, 신체감각)을 통제하거나 회피하려 하지 않고 있는 그대로 기꺼이 경험하는 적극적 자세이다.",
+    "definition_en": "One of ACT's six core processes, an active stance of willingly experiencing internal experiences (thoughts, emotions, sensations) without trying to control or avoid them.",
+    "significance": "경험 회피의 대안으로, 내적 경험과의 불필요한 싸움을 중단하고 에너지를 가치 기반 행동에 투자할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "수용을 경험 회피의 대안적 과정으로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경험 회피",
+        "name_en": "Experiential Avoidance",
+        "id": "THIRDW_EA_006"
+      },
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      },
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "기꺼이 하기",
+        "name_en": "Willingness",
+        "id": "THIRDW_WI_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수용 = '환영하지 않아도 되지만, 문을 열어두는 것'",
+      "differential": "Rogers의 무조건적 긍정적 존중이 상담자가 내담자를 수용하는 것이라면, ACT의 수용은 내담자가 자신의 내적 경험을 수용하는 것이다.",
+      "key_point": "수용은 체념이나 좋아하기가 아니라, 불필요한 통제 시도를 중단하는 적극적 선택이다.",
+      "common_mistake": "수용을 '참기' '견디기'로 오해하면 안 된다. 경험을 있는 그대로 열린 자세로 맞이하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_CD_005",
+    "terminology": "인지적 탈융합 (Cognitive Defusion)",
+    "terminology_ko": "인지적 탈융합",
+    "terminology_en": "Cognitive Defusion",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT의 6가지 핵심 과정 중 하나로, 사고를 현실 자체로 받아들이는 것(인지적 융합)에서 벗어나 사고를 단지 사고로 관찰하는 과정이다.",
+    "definition_en": "One of ACT's six core processes, the process of stepping back from thoughts being taken as reality (cognitive fusion) to observing thoughts as merely thoughts.",
+    "significance": "사고의 내용을 바꾸지 않고도 사고의 영향력을 줄일 수 있는 ACT의 혁신적 기법으로, 전통적 인지 재구조화의 대안이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "인지적 탈융합 개념과 다양한 탈융합 기법을 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지적 융합",
+        "name_en": "Cognitive Fusion",
+        "id": "THIRDW_CF_008"
+      },
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "탈융합 = '나는 실패자다' → '나는 내가 실패자라는 생각을 하고 있다'",
+      "differential": "인지 재구조화가 사고의 내용을 변화시키려는 반면, 탈융합은 사고와의 관계를 변화시킨다.",
+      "key_point": "대표 기법: '나는 ~라는 생각을 하고 있다', 사고를 노래로 부르기, 사고를 구름에 띄워보내기 등",
+      "common_mistake": "탈융합이 사고를 무시하거나 억제하는 것이 아니다. 사고를 관찰하되 사고에 지배당하지 않는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_EA_006",
+    "terminology": "경험 회피 (Experiential Avoidance)",
+    "terminology_ko": "경험 회피",
+    "terminology_en": "Experiential Avoidance",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "불쾌한 내적 경험(사고, 감정, 신체감각, 기억)을 피하거나 통제하려는 시도로, ACT에서 다양한 심리적 문제의 공통 원인으로 본다.",
+    "definition_en": "Attempts to avoid or control unpleasant internal experiences (thoughts, emotions, sensations, memories), viewed in ACT as a common cause of various psychological problems.",
+    "significance": "ACT의 핵심 병리 개념으로, 경험 회피가 역설적으로 고통을 증가시키며 삶의 질을 저하시킨다는 것을 보여준다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "경험 회피를 범진단적 병리 과정으로 규명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용",
+        "name_en": "Acceptance",
+        "id": "THIRDW_AP_004"
+      },
+      {
+        "name_ko": "심리적 경직성",
+        "name_en": "Psychological Inflexibility",
+        "id": "THIRDW_PI_011"
+      },
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "경험 회피 = 불쾌한 감정에서 '도망치려' 할수록 더 쫓아온다 (늪에 빠진 것처럼)",
+      "differential": "행동주의의 회피 행동이 외부 자극에 대한 것이라면, 경험 회피는 내적 경험에 대한 것이다.",
+      "key_point": "경험 회피의 역설: 통제하려 할수록 내적 경험의 빈도, 강도, 고통이 오히려 증가한다.",
+      "common_mistake": "경험 회피가 항상 의식적인 과정이 아니다. 자동적이고 습관적인 패턴으로 나타나기도 한다."
+    }
+  },
+  {
+    "id": "THIRDW_WI_007",
+    "terminology": "기꺼이 하기 (Willingness)",
+    "terminology_ko": "기꺼이 하기",
+    "terminology_en": "Willingness",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT에서 불쾌한 내적 경험이 나타나더라도 이를 기꺼이 경험하며, 가치에 따른 행동을 지속하려는 적극적 자세이다.",
+    "definition_en": "An active stance in ACT of being willing to experience unpleasant internal experiences while continuing value-guided behavior.",
+    "significance": "경험 회피의 직접적 대안으로, 내적 경험의 통제를 포기하고 삶의 방향에 에너지를 집중하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "기꺼이 하기를 수용의 핵심 태도로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용",
+        "name_en": "Acceptance",
+        "id": "THIRDW_AP_004"
+      },
+      {
+        "name_ko": "경험 회피",
+        "name_en": "Experiential Avoidance",
+        "id": "THIRDW_EA_006"
+      },
+      {
+        "name_ko": "가치",
+        "name_en": "Values",
+        "id": "THIRDW_VA_009"
+      },
+      {
+        "name_ko": "전념적 행동",
+        "name_en": "Committed Action",
+        "id": "THIRDW_CA_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기꺼이 하기 = '불편해도 괜찮아, 중요한 것을 위해 나아가겠어'",
+      "differential": "인내(tolerance)가 '참고 견디기'라면, 기꺼이 하기(willingness)는 '열린 마음으로 맞이하기'이다.",
+      "key_point": "기꺼이 하기는 전부(all-or-nothing)이다. '조금만 기꺼이'는 존재하지 않는다.",
+      "common_mistake": "기꺼이 하기가 불쾌한 경험을 '좋아하기'를 의미하지 않는다. 좋아하지 않아도 경험에 열린 자세를 취하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_CF_008",
+    "terminology": "인지적 융합 (Cognitive Fusion)",
+    "terminology_ko": "인지적 융합",
+    "terminology_en": "Cognitive Fusion",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "사고의 내용을 현실 자체와 동일시하여, 사고에 의해 행동이 과도하게 지배되는 상태이다.",
+    "definition_en": "A state of identifying the content of thoughts with reality itself, resulting in behavior being excessively dominated by thoughts.",
+    "significance": "ACT에서 심리적 경직성의 핵심 요인으로, 탈융합을 통해 사고의 문자적 영향력을 줄이는 것이 치료 과제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "인지적 융합을 심리적 경직성의 핵심 요인으로 규명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지적 탈융합",
+        "name_en": "Cognitive Defusion",
+        "id": "THIRDW_CD_005"
+      },
+      {
+        "name_ko": "심리적 경직성",
+        "name_en": "Psychological Inflexibility",
+        "id": "THIRDW_PI_011"
+      },
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인지적 융합 = 생각에 '달라붙어' 있는 상태 (생각 = 현실로 착각)",
+      "differential": "Beck의 인지왜곡이 사고 내용의 오류인 반면, 인지적 융합은 사고와의 관계 문제이다.",
+      "key_point": "'나는 실패자다'라는 생각에 융합되면, 이 생각을 사실로 받아들이고 그에 따라 행동한다.",
+      "common_mistake": "인지적 융합이 항상 부정적 사고에만 해당하는 것이 아니다. 긍정적 사고에도 융합될 수 있다."
+    }
+  },
+  {
+    "id": "THIRDW_VA_009",
+    "terminology": "가치 (Values)",
+    "terminology_ko": "가치",
+    "terminology_en": "Values",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT에서 개인이 자유롭게 선택한 삶의 방향으로, 목표와 달리 결코 완전히 달성되지 않으며 행동의 지속적 나침반 역할을 한다.",
+    "definition_en": "In ACT, freely chosen life directions that, unlike goals, are never fully achieved and serve as a continuous compass for behavior.",
+    "significance": "고통 속에서도 의미 있는 행동을 지속할 동기를 제공하며, ACT에서 전념적 행동의 방향을 결정하는 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "켈리 윌슨",
+        "name_en": "Kelly Wilson",
+        "contribution": "ACT에서 가치 작업의 이론과 실천을 발전시킴"
+      },
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "가치를 ACT의 6가지 핵심 과정 중 하나로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "전념적 행동",
+        "name_en": "Committed Action",
+        "id": "THIRDW_CA_010"
+      },
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "가치 = 나침반 (방향은 있지만 도착지는 없다) vs 목표 = 목적지",
+      "differential": "목표(goal)가 달성 가능한 결과물인 반면, 가치(values)는 지속적으로 추구하는 삶의 방향이다.",
+      "key_point": "'좋은 부모가 되기'는 가치이고, '매일 30분 아이와 놀아주기'는 그 가치에 따른 목표이다.",
+      "common_mistake": "가치를 '도덕적 의무'나 '사회적 기대'로 혼동하면 안 된다. ACT의 가치는 자유롭게 선택한 개인적 방향이다."
+    }
+  },
+  {
+    "id": "THIRDW_CA_010",
+    "terminology": "전념적 행동 (Committed Action)",
+    "terminology_ko": "전념적 행동",
+    "terminology_en": "Committed Action",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT의 6가지 핵심 과정 중 하나로, 자신이 선택한 가치에 따라 구체적인 행동 패턴을 실행하고, 장애물을 만나더라도 지속적으로 행동하는 것이다.",
+    "definition_en": "One of ACT's six core processes, executing specific behavior patterns in accordance with chosen values and persisting despite encountering obstacles.",
+    "significance": "ACT가 단순한 수용에 그치지 않고, 가치 있는 삶을 향한 적극적 행동 변화를 포함함을 보여주는 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "전념적 행동을 ACT의 핵심 과정으로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가치",
+        "name_en": "Values",
+        "id": "THIRDW_VA_009"
+      },
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      },
+      {
+        "name_ko": "행동 계획",
+        "name_en": "Action Plan",
+        "id": "REALITY_AP_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "전념적 행동 = 가치라는 나침반을 따라 '한 걸음씩' 실제로 걷기",
+      "differential": "현실치료의 행동 계획이 욕구 충족에 초점인 반면, 전념적 행동은 가치 실현에 초점을 맞춘다.",
+      "key_point": "불편한 내적 경험이 있더라도 가치에 따른 행동을 중단하지 않는 것이 핵심이다.",
+      "common_mistake": "전념적 행동이 완벽한 실행을 요구하는 것이 아니다. 넘어져도 다시 일어나 가치 방향으로 걸어가는 과정이다."
+    }
+  },
+  {
+    "id": "THIRDW_PI_011",
+    "terminology": "심리적 경직성 (Psychological Inflexibility)",
+    "terminology_ko": "심리적 경직성",
+    "terminology_en": "Psychological Inflexibility",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT에서 정의하는 심리적 병리의 핵심으로, 인지적 융합과 경험 회피로 인해 가치에 따른 유연한 행동이 불가능한 상태이다.",
+    "definition_en": "The core of psychopathology in ACT, a state where cognitive fusion and experiential avoidance make flexible value-guided behavior impossible.",
+    "significance": "ACT의 범진단적 병리 모델로, 다양한 심리 장애의 공통 기제를 심리적 경직성으로 설명한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "심리적 경직성을 범진단적 병리 과정으로 제안함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      },
+      {
+        "name_ko": "인지적 융합",
+        "name_en": "Cognitive Fusion",
+        "id": "THIRDW_CF_008"
+      },
+      {
+        "name_ko": "경험 회피",
+        "name_en": "Experiential Avoidance",
+        "id": "THIRDW_EA_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "심리적 경직성 = 심리적 유연성의 반대 = 생각에 갇혀 움직이지 못하는 상태",
+      "differential": "DSM의 진단적 분류가 증상 기반인 반면, ACT의 심리적 경직성은 과정 기반의 범진단적 모델이다.",
+      "key_point": "6가지 경직성 과정: 경험회피, 인지융합, 과거/미래집착, 개념화된자기, 가치불명확, 행동무력",
+      "common_mistake": "심리적 경직성이 성격 특성이 아니라 변화 가능한 기능적 과정이라는 점을 이해해야 한다."
+    }
+  },
+  {
+    "id": "THIRDW_DB_012",
+    "terminology": "변증법적행동치료 (Dialectical Behavior Therapy, DBT)",
+    "terminology_ko": "변증법적행동치료",
+    "terminology_en": "Dialectical Behavior Therapy",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "Linehan이 경계선 성격장애 치료를 위해 개발한 접근으로, 수용과 변화의 변증법적 균형을 핵심 원리로 하며 4가지 기술 모듈로 구성된다.",
+    "definition_en": "An approach developed by Linehan for treating borderline personality disorder, with dialectical balance of acceptance and change as its core principle, consisting of four skill modules.",
+    "significance": "만성적 자살 행동과 자해를 효과적으로 다루는 최초의 경험적으로 검증된 치료법이며, 다양한 정서조절 문제에 확대 적용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "DBT를 개발하고 경계선 성격장애 치료에서의 효과를 입증함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법",
+        "name_en": "Dialectics",
+        "id": "THIRDW_DL_013"
+      },
+      {
+        "name_ko": "마음챙김 기술",
+        "name_en": "Mindfulness Skills",
+        "id": "THIRDW_MS_015"
+      },
+      {
+        "name_ko": "정서조절 기술",
+        "name_en": "Emotion Regulation Skills",
+        "id": "THIRDW_ER_016"
+      },
+      {
+        "name_ko": "고통감내 기술",
+        "name_en": "Distress Tolerance Skills",
+        "id": "THIRDW_DT_017"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "개인 치료",
+        "description": "주 1회 개인 상담, 치료 위계에 따른 문제 해결"
+      },
+      {
+        "name": "기술훈련 그룹",
+        "description": "주 1회 그룹, 4가지 기술 모듈 학습"
+      },
+      {
+        "name": "전화 코칭",
+        "description": "위기 시 전화 상담, 기술 적용 안내"
+      },
+      {
+        "name": "상담팀 자문",
+        "description": "치료자를 위한 자문 팀 미팅"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "DBT 4요소: 개인치료 + 기술훈련 그룹 + 전화코칭 + 상담팀 자문",
+      "differential": "전통적 CBT가 인지 변화를 강조하는 반면, DBT는 수용과 변화의 변증법적 균형을 강조한다.",
+      "key_point": "핵심 변증법: '당신은 지금 있는 그대로 괜찮다 AND 변화가 필요하다' (수용 + 변화)",
+      "common_mistake": "DBT를 경계선 성격장애에만 적용된다고 생각하면 안 된다. 정서조절 문제, 섭식장애, 물질남용 등에도 적용된다."
+    }
+  },
+  {
+    "id": "THIRDW_DL_013",
+    "terminology": "변증법 (Dialectics)",
+    "terminology_ko": "변증법",
+    "terminology_en": "Dialectics",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "대립되는 두 가지 진실(정과 반)을 통합하여 새로운 진실(합)에 도달하는 과정으로, DBT에서 수용과 변화의 균형을 이루는 철학적 기반이다.",
+    "definition_en": "The process of integrating two opposing truths (thesis and antithesis) to reach a new truth (synthesis), the philosophical foundation of balancing acceptance and change in DBT.",
+    "significance": "흑백논리적 사고에 빠지기 쉬운 내담자에게 'AND' 사고(양극 통합)를 가르치는 DBT의 핵심 원리이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "변증법적 철학을 심리치료에 통합함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "타당화",
+        "name_en": "Validation",
+        "id": "THIRDW_VD_014"
+      },
+      {
+        "name_ko": "수용",
+        "name_en": "Acceptance",
+        "id": "THIRDW_AP_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "변증법 = 정(thesis) + 반(antithesis) = 합(synthesis) = 'AND' 사고",
+      "differential": "이분법적 사고가 'OR'(이것 또는 저것)인 반면, 변증법적 사고는 'AND'(이것 그리고 저것)이다.",
+      "key_point": "DBT의 핵심 변증법: '수용 AND 변화', '그대로 괜찮다 AND 더 나아질 수 있다'",
+      "common_mistake": "변증법이 타협이나 중간 지점을 찾는 것이 아니라, 양극을 동시에 인정하는 새로운 통합을 추구하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_VD_014",
+    "terminology": "타당화 (Validation)",
+    "terminology_ko": "타당화",
+    "terminology_en": "Validation",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT에서 내담자의 경험, 감정, 사고가 현재 맥락에서 이해 가능하고 타당함을 인정하고 전달하는 치료적 기술이다.",
+    "definition_en": "A DBT therapeutic skill of recognizing and communicating that the client's experiences, emotions, and thoughts are understandable and valid in the current context.",
+    "significance": "수용 전략의 핵심으로, 변화를 요구하기 전에 내담자의 현재 경험을 인정함으로써 치료 관계와 변화 동기를 강화한다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "타당화의 6단계를 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "변증법",
+        "name_en": "Dialectics",
+        "id": "THIRDW_DL_013"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PERSON_UPR_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "1단계: 경청",
+        "description": "주의 깊게 듣기"
+      },
+      {
+        "name": "2단계: 정확한 반영",
+        "description": "내담자의 말을 정확히 반영"
+      },
+      {
+        "name": "3단계: 말하지 않은 것 읽기",
+        "description": "비언어적 단서와 맥락 이해"
+      },
+      {
+        "name": "4단계: 원인에 의한 타당화",
+        "description": "과거 경험에 비추어 이해 가능함을 전달"
+      },
+      {
+        "name": "5단계: 현재 맥락에서의 타당화",
+        "description": "현재 상황에서 합리적임을 인정"
+      },
+      {
+        "name": "6단계: 급진적 진정성",
+        "description": "내담자를 동등한 인간으로 대함"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "타당화 6단계: 듣기→반영→읽기→과거이해→현재인정→진정성",
+      "differential": "공감이 감정을 이해하고 느끼는 것이라면, 타당화는 그 감정이 '타당하다'고 명시적으로 인정하는 것이다.",
+      "key_point": "타당화가 동의를 의미하지 않는다. 내담자의 경험이 이해 가능함을 인정하는 것이다.",
+      "common_mistake": "타당화를 단순히 '맞아요, 힘들었겠네요'로 한정하면 안 된다. 6단계의 깊이 있는 기술이다."
+    }
+  },
+  {
+    "id": "THIRDW_MS_015",
+    "terminology": "마음챙김 기술 (Mindfulness Skills)",
+    "terminology_ko": "마음챙김 기술",
+    "terminology_en": "Mindfulness Skills",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 4가지 기술 모듈 중 핵심 기술로, 현재 순간에 판단 없이 주의를 기울이는 능력을 체계적으로 훈련하며, What 기술과 How 기술로 구분된다.",
+    "definition_en": "The core skill module among DBT's four skill modules, systematically training the ability to pay attention to the present moment without judgment, divided into What skills and How skills.",
+    "significance": "다른 세 가지 기술 모듈(정서조절, 고통감내, 대인관계효율성)의 기반이 되는 핵심 기술이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "마음챙김을 DBT의 핵심 기술 모듈로 통합함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_023"
+      },
+      {
+        "name_ko": "지혜로운 마음",
+        "name_en": "Wise Mind",
+        "id": "THIRDW_WM_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "What 기술: 관찰하기",
+        "description": "경험을 있는 그대로 알아차림"
+      },
+      {
+        "name": "What 기술: 묘사하기",
+        "description": "경험을 언어로 기술함"
+      },
+      {
+        "name": "What 기술: 참여하기",
+        "description": "활동에 온전히 몰입함"
+      },
+      {
+        "name": "How 기술: 비판단적으로",
+        "description": "판단 없이 관찰함"
+      },
+      {
+        "name": "How 기술: 한 가지씩",
+        "description": "한 번에 한 가지에 집중"
+      },
+      {
+        "name": "How 기술: 효과적으로",
+        "description": "목표 달성에 초점을 맞춤"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "What(무엇을): 관찰-묘사-참여 / How(어떻게): 비판단-한가지씩-효과적으로",
+      "differential": "ACT의 마음챙김이 현재 순간 접촉에 초점인 반면, DBT의 마음챙김은 구체적 기술 훈련으로 구조화되어 있다.",
+      "key_point": "마음챙김은 DBT의 다른 모든 기술(정서조절, 고통감내, 대인관계)의 기초가 되는 핵심 기술이다.",
+      "common_mistake": "마음챙김을 명상과 동일시하면 안 된다. DBT에서는 일상 활동에서의 마음챙김 실천을 강조한다."
+    }
+  },
+  {
+    "id": "THIRDW_ER_016",
+    "terminology": "정서조절 기술 (Emotion Regulation Skills)",
+    "terminology_ko": "정서조절 기술",
+    "terminology_en": "Emotion Regulation Skills",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 4가지 기술 모듈 중 하나로, 정서를 이해하고, 부정적 정서의 취약성을 줄이며, 정서적 고통을 줄이기 위한 체계적 기술이다.",
+    "definition_en": "One of DBT's four skill modules for understanding emotions, reducing vulnerability to negative emotions, and decreasing emotional suffering.",
+    "significance": "정서조절 곤란이 핵심 문제인 내담자에게 구체적인 정서 관리 도구를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "정서조절 기술 모듈을 개발하고 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "마음챙김 기술",
+        "name_en": "Mindfulness Skills",
+        "id": "THIRDW_MS_015"
+      },
+      {
+        "name_ko": "반대행동",
+        "name_en": "Opposite Action",
+        "id": "THIRDW_OA_019"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정서 이해하기",
+        "description": "정서의 기능과 구성요소 학습"
+      },
+      {
+        "name": "ABC PLEASE",
+        "description": "긍정 경험 축적과 신체 건강 관리"
+      },
+      {
+        "name": "반대행동",
+        "description": "정서 충동과 반대되는 행동 실행"
+      },
+      {
+        "name": "문제해결",
+        "description": "정서를 유발하는 문제의 직접적 해결"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "정서조절 = 이해하기 + 취약성 줄이기(ABC PLEASE) + 반대행동 + 문제해결",
+      "differential": "CBT의 인지 재구조화가 사고 변화로 정서를 바꾸려는 반면, DBT 정서조절은 다양한 경로(행동, 신체, 인지)를 활용한다.",
+      "key_point": "PLEASE 기술: 신체질환 치료, 균형 식사, 물질 회피, 수면, 운동 = 정서적 취약성 감소의 기반",
+      "common_mistake": "정서조절이 감정을 억제하는 것이 아니라, 원치 않는 감정을 줄이고 원하는 감정을 늘리는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_DT_017",
+    "terminology": "고통감내 기술 (Distress Tolerance Skills)",
+    "terminology_ko": "고통감내 기술",
+    "terminology_en": "Distress Tolerance Skills",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 4가지 기술 모듈 중 하나로, 위기 상황에서 상황을 더 악화시키지 않고 고통을 견딜 수 있게 하는 단기적 대처 기술이다.",
+    "definition_en": "One of DBT's four skill modules providing short-term coping skills to tolerate distress in crisis situations without making things worse.",
+    "significance": "자해, 자살 시도 등 위기 행동의 대안적 대처를 제공하며, DBT의 수용 전략의 핵심 구성요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "고통감내 기술 모듈을 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "TIPP 기술",
+        "name_en": "TIPP Skills",
+        "id": "THIRDW_TP_020"
+      },
+      {
+        "name_ko": "급진적 수용",
+        "name_en": "Radical Acceptance",
+        "id": "THIRDW_RA_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "위기 생존 기술",
+        "description": "TIPP, 주의분산(ACCEPTS), 자기위안, 장단점 비교"
+      },
+      {
+        "name": "현실 수용 기술",
+        "description": "급진적 수용, 기꺼이 하기, 반쪽 미소"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "고통감내 = 위기 생존(TIPP, ACCEPTS) + 현실 수용(급진적 수용)",
+      "differential": "정서조절 기술이 장기적 정서 관리인 반면, 고통감내 기술은 단기적 위기 대처에 초점을 맞춘다.",
+      "key_point": "핵심 목표: '상황을 더 악화시키지 않기' (자해나 충동적 행동 대신 다른 방법으로 위기를 넘기기)",
+      "common_mistake": "고통감내가 고통을 없애는 것이 아니라, 고통을 악화시키지 않고 견디는 것임을 이해해야 한다."
+    }
+  },
+  {
+    "id": "THIRDW_WM_018",
+    "terminology": "지혜로운 마음 (Wise Mind)",
+    "terminology_ko": "지혜로운 마음",
+    "terminology_en": "Wise Mind",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT에서 감정적 마음(Emotion Mind)과 이성적 마음(Reasonable Mind)을 통합한 상태로, 직관과 논리가 균형을 이루는 최적의 의사결정 상태이다.",
+    "definition_en": "In DBT, a state integrating Emotion Mind and Reasonable Mind, an optimal decision-making state where intuition and logic are balanced.",
+    "significance": "DBT 마음챙김 기술의 궁극적 목표이며, 감정과 이성의 변증법적 통합을 구체적으로 보여주는 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "지혜로운 마음 개념을 DBT에 도입함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "마음챙김 기술",
+        "name_en": "Mindfulness Skills",
+        "id": "THIRDW_MS_015"
+      },
+      {
+        "name_ko": "변증법",
+        "name_en": "Dialectics",
+        "id": "THIRDW_DL_013"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "감정적 마음 (Emotion Mind)",
+        "description": "감정에 의해 지배되는 사고 상태"
+      },
+      {
+        "name": "이성적 마음 (Reasonable Mind)",
+        "description": "논리와 이성에만 의존하는 사고 상태"
+      },
+      {
+        "name": "지혜로운 마음 (Wise Mind)",
+        "description": "감정과 이성의 통합 상태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "지혜로운 마음 = 감정(뜨거운) + 이성(차가운) = 따뜻한 지혜",
+      "differential": "CBT가 이성적 마음을 강조하는 경향이 있다면, DBT는 감정과 이성의 통합인 지혜로운 마음을 추구한다.",
+      "key_point": "지혜로운 마음은 두 마음의 중간이 아니라, 두 마음이 겹치는 통합 영역이다.",
+      "common_mistake": "지혜로운 마음이 항상 이성적인 결정을 의미하는 것이 아니다. 직관과 감정적 지혜도 포함된다."
+    }
+  },
+  {
+    "id": "THIRDW_OA_019",
+    "terminology": "반대행동 (Opposite Action)",
+    "terminology_ko": "반대행동",
+    "terminology_en": "Opposite Action",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 정서조절 기술로, 감정의 행동 충동과 반대되는 행동을 의도적으로 수행하여 원치 않는 감정의 강도를 줄이는 기법이다.",
+    "definition_en": "A DBT emotion regulation skill of intentionally performing behaviors opposite to emotional urges to reduce the intensity of unwanted emotions.",
+    "significance": "감정이 상황에 부적합할 때, 감정을 직접 변화시키기 어려우므로 행동을 통해 간접적으로 감정을 변화시키는 실용적 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "반대행동을 DBT의 핵심 정서조절 기법으로 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정서조절 기술",
+        "name_en": "Emotion Regulation Skills",
+        "id": "THIRDW_ER_016"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "행동 활성화",
+        "name_en": "Behavioral Activation",
+        "id": "CBT_BA_035"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반대행동: 두려우면→접근, 슬프면→활동, 화나면→회피/친절, 수치스러우면→반복",
+      "differential": "노출 치료가 불안 감소를 위한 반복적 접근인 반면, 반대행동은 모든 감정에 적용되는 범정서적 기법이다.",
+      "key_point": "반대행동은 감정이 상황에 '부적합'할 때만 사용한다. 적합한 감정은 그대로 경험해야 한다.",
+      "common_mistake": "반대행동이 감정을 억압하는 것이 아니다. 감정은 인정하되, 행동 충동과 반대되는 행동을 선택하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_TP_020",
+    "terminology": "TIPP 기술 (TIPP Skills)",
+    "terminology_ko": "TIPP 기술",
+    "terminology_en": "TIPP Skills",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 위기 생존 기술로, 극도의 정서적 각성 상태를 빠르게 낮추기 위한 신체 기반 기법의 약어이다: 온도(Temperature), 격렬한 운동(Intense exercise), 박빙 호흡(Paced breathing), 대근육 이완(Progressive relaxation).",
+    "definition_en": "DBT crisis survival skills using body-based techniques to quickly lower extreme emotional arousal: Temperature, Intense exercise, Paced breathing, and Progressive (paired muscle) relaxation.",
+    "significance": "위기 상황에서 즉각적으로 신체의 각성 수준을 낮출 수 있는 가장 빠른 DBT 기법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "TIPP 기술을 DBT 위기 생존 기술로 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고통감내 기술",
+        "name_en": "Distress Tolerance Skills",
+        "id": "THIRDW_DT_017"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "T (Temperature)",
+        "description": "찬물에 얼굴 담그기 등으로 다이빙 반사 유발"
+      },
+      {
+        "name": "I (Intense Exercise)",
+        "description": "짧은 격렬한 운동으로 각성 수준 조절"
+      },
+      {
+        "name": "P (Paced Breathing)",
+        "description": "느린 호흡으로 부교감신경 활성화"
+      },
+      {
+        "name": "P (Progressive Relaxation)",
+        "description": "근육 긴장과 이완 반복"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "TIPP = 차가운 물(T) + 격렬 운동(I) + 느린 호흡(P) + 근육 이완(P)",
+      "differential": "마음챙김이 주의의 방향 전환인 반면, TIPP는 신체 생리를 직접 변화시키는 방법이다.",
+      "key_point": "T(온도)의 다이빙 반사가 가장 빠르게 심박수를 낮출 수 있다. 찬물에 얼굴을 30초간 담그면 된다.",
+      "common_mistake": "TIPP는 장기적 해결이 아닌 위기 순간의 응급 대처 기술이다. 위기가 지나면 다른 기술로 전환해야 한다."
+    }
+  },
+  {
+    "id": "THIRDW_RA_021",
+    "terminology": "급진적 수용 (Radical Acceptance)",
+    "terminology_ko": "급진적 수용",
+    "terminology_en": "Radical Acceptance",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 고통감내 기술로, 변화시킬 수 없는 현실을 있는 그대로 완전히 수용하는 것으로, 고통에 저항함으로써 발생하는 추가적 고통을 감소시킨다.",
+    "definition_en": "A DBT distress tolerance skill of completely accepting unchangeable reality as it is, reducing the additional suffering caused by resisting pain.",
+    "significance": "'고통 = 통증 + 저항'이라는 공식에서 저항을 줄여 추가적 고통(suffering)을 감소시키는 DBT의 핵심 수용 기술이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "급진적 수용을 DBT의 핵심 수용 기술로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고통감내 기술",
+        "name_en": "Distress Tolerance Skills",
+        "id": "THIRDW_DT_017"
+      },
+      {
+        "name_ko": "수용",
+        "name_en": "Acceptance",
+        "id": "THIRDW_AP_004"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "기꺼이 하기",
+        "name_en": "Willingness",
+        "id": "THIRDW_WI_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "급진적 수용: 고통(suffering) = 통증(pain) x 저항(resistance) → 저항 줄이기",
+      "differential": "일반적 수용이 부분적일 수 있는 반면, 급진적 수용은 마음, 몸, 영혼으로 완전히 수용하는 것이다.",
+      "key_point": "급진적 수용은 찬성(approval)이 아니다. 현실이 이러하다는 사실을 인정하는 것이지 현실이 옳다고 보는 것이 아니다.",
+      "common_mistake": "급진적 수용이 변화를 포기하는 것이 아니다. 바꿀 수 없는 것을 수용하고, 바꿀 수 있는 것을 변화시킨다."
+    }
+  },
+  {
+    "id": "THIRDW_MB_022",
+    "terminology": "마음챙김 기반 스트레스 감소 (Mindfulness-Based Stress Reduction, MBSR)",
+    "terminology_ko": "마음챙김 기반 스트레스 감소",
+    "terminology_en": "Mindfulness-Based Stress Reduction",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "Kabat-Zinn이 개발한 8주 구조화된 프로그램으로, 마음챙김 명상을 체계적으로 훈련하여 스트레스, 통증, 질병에 대한 대처 능력을 향상시킨다.",
+    "definition_en": "An 8-week structured program developed by Kabat-Zinn that systematically trains mindfulness meditation to improve coping with stress, pain, and illness.",
+    "significance": "마음챙김을 의료 현장에 최초로 체계적으로 도입하여, 심리치료에서 마음챙김 운동의 기반을 마련한 선구적 프로그램이다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 카밧진",
+        "name_en": "Jon Kabat-Zinn",
+        "contribution": "MBSR을 개발하고 마음챙김의 서구 의료 적용을 개척함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_023"
+      },
+      {
+        "name_ko": "바디스캔",
+        "name_en": "Body Scan",
+        "id": "THIRDW_BS_026"
+      },
+      {
+        "name_ko": "마음챙김 기반 인지치료",
+        "name_en": "MBCT",
+        "id": "THIRDW_MC_027"
+      },
+      {
+        "name_ko": "3세대 인지행동상담",
+        "name_en": "Third-Wave CBT",
+        "id": "THIRDW_TW_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MBSR = 8주 프로그램 + Kabat-Zinn + 스트레스 감소 + 마음챙김 명상",
+      "differential": "MBCT가 우울증 재발 방지에 초점인 반면, MBSR은 스트레스와 만성 통증 관리에 초점을 맞춘다.",
+      "key_point": "8주 프로그램: 주 1회 2.5시간 수업 + 매일 45분 가정 연습 + 6주차 하루 종일 침묵 수련",
+      "common_mistake": "MBSR이 종교적 명상 프로그램이 아니다. 세속적이고 과학적인 접근으로 설계되었다."
+    }
+  },
+  {
+    "id": "THIRDW_MF_023",
+    "terminology": "마음챙김 (Mindfulness)",
+    "terminology_ko": "마음챙김",
+    "terminology_en": "Mindfulness",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "현재 순간의 경험에 의도적으로, 판단 없이 주의를 기울이는 것으로, 3세대 CBT의 다양한 접근에서 공통적으로 활용되는 핵심 개념이다.",
+    "definition_en": "Intentionally paying attention to present-moment experience without judgment, a core concept commonly used across various third-wave CBT approaches.",
+    "significance": "ACT, DBT, MBSR, MBCT 등 3세대 인지행동치료의 공통 기반이 되는 핵심 치료적 과정이다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 카밧진",
+        "name_en": "Jon Kabat-Zinn",
+        "contribution": "마음챙김의 조작적 정의를 제시하고 서구 의학에 도입함"
+      },
+      {
+        "name_ko": "마크 윌리엄스",
+        "name_en": "Mark Williams",
+        "contribution": "마음챙김을 인지치료에 통합함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "마음챙김 기반 스트레스 감소",
+        "name_en": "MBSR",
+        "id": "THIRDW_MB_022"
+      },
+      {
+        "name_ko": "마음챙김 기술",
+        "name_en": "Mindfulness Skills",
+        "id": "THIRDW_MS_015"
+      },
+      {
+        "name_ko": "현재 순간 접촉",
+        "name_en": "Present Moment Contact",
+        "id": "THIRDW_PM_024"
+      },
+      {
+        "name_ko": "3세대 인지행동상담",
+        "name_en": "Third-Wave CBT",
+        "id": "THIRDW_TW_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "마음챙김 = 의도적으로 + 현재 순간에 + 판단 없이 + 주의 기울이기 (Kabat-Zinn의 정의)",
+      "differential": "이완 훈련이 긴장 감소를 목표로 하는 반면, 마음챙김은 현재 경험(긴장 포함)을 있는 그대로 관찰하는 것이다.",
+      "key_point": "마음챙김의 3가지 핵심 요소: 의도(intention), 주의(attention), 태도(attitude: 비판단, 호기심, 친절)",
+      "common_mistake": "마음챙김이 '마음을 비우는 것'이 아니다. 마음에 떠오르는 것을 판단 없이 관찰하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_PM_024",
+    "terminology": "현재 순간 접촉 (Present Moment Contact)",
+    "terminology_ko": "현재 순간 접촉",
+    "terminology_en": "Present Moment Contact",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT의 6가지 핵심 과정 중 하나로, 과거의 후회나 미래의 걱정에 빠지지 않고 '지금 여기'의 경험에 완전히 접촉하는 것이다.",
+    "definition_en": "One of ACT's six core processes, fully contacting the 'here and now' experience without getting caught up in past regrets or future worries.",
+    "significance": "과거/미래에 대한 반추와 걱정을 줄이고, 현재 맥락에서 효과적인 행동을 가능하게 하는 마음챙김의 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "현재 순간 접촉을 ACT의 핵심 과정으로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_023"
+      },
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "현재 순간 접촉 = '지금 여기' (Now & Here)",
+      "differential": "게슈탈트의 '지금-여기'가 과거 미해결 감정의 현재적 자각인 반면, ACT의 현재 순간 접촉은 경험과의 유연한 접촉이다.",
+      "key_point": "과거나 미래에 대한 생각 자체가 문제가 아니라, 그것에 '빠져서' 현재를 놓치는 것이 문제이다.",
+      "common_mistake": "현재 순간 접촉이 과거를 절대 생각하지 않는 것을 의미하지 않는다. 현재 시점에서 유연하게 주의를 조절하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_SC_025",
+    "terminology": "맥락으로서의 자기 (Self-as-Context)",
+    "terminology_ko": "맥락으로서의 자기",
+    "terminology_en": "Self-as-Context",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT의 6가지 핵심 과정 중 하나로, 사고와 감정의 내용(개념화된 자기)과 동일시하지 않고, 경험을 관찰하는 맥락으로서의 자기를 인식하는 것이다.",
+    "definition_en": "One of ACT's six core processes, recognizing the self as the context that observes experiences rather than identifying with the content of thoughts and emotions (conceptualized self).",
+    "significance": "자기 개념에 대한 융합에서 벗어나, 관찰자로서의 자기를 발견함으로써 심리적 유연성을 높인다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "맥락으로서의 자기 개념을 ACT에 도입함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "인지적 탈융합",
+        "name_en": "Cognitive Defusion",
+        "id": "THIRDW_CD_005"
+      },
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "개념화된 자기 (Self-as-Content)",
+        "description": "나에 대한 이야기, 자기 서술적 정체성"
+      },
+      {
+        "name": "과정으로서의 자기 (Self-as-Process)",
+        "description": "현재 진행 중인 자기 경험"
+      },
+      {
+        "name": "맥락으로서의 자기 (Self-as-Context)",
+        "description": "경험을 관찰하는 초월적 자기"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "맥락으로서의 자기 = '하늘' (날씨는 변하지만 하늘은 항상 있다)",
+      "differential": "자존감이 자기에 대한 평가(내용)에 초점인 반면, 맥락으로서의 자기는 평가를 관찰하는 관점에 초점이다.",
+      "key_point": "'나는 실패자다'(개념화된 자기) vs '나는 실패자라는 생각을 관찰하고 있다'(맥락으로서의 자기)",
+      "common_mistake": "맥락으로서의 자기가 '자기 상실'이나 '무아'를 의미하지 않는다. 더 넓은 자기 관점을 발견하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_BS_026",
+    "terminology": "바디스캔 (Body Scan)",
+    "terminology_ko": "바디스캔",
+    "terminology_en": "Body Scan",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "MBSR의 핵심 명상 기법으로, 신체의 각 부위에 순차적으로 주의를 기울이며 신체 감각을 판단 없이 관찰하는 마음챙김 연습이다.",
+    "definition_en": "A core MBSR meditation technique of sequentially directing attention to each body part and observing body sensations without judgment.",
+    "significance": "신체 감각에 대한 마음챙김 능력을 키우고, 신체와 마음의 연결을 인식하게 하는 기초적 명상 연습이다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 카밧진",
+        "name_en": "Jon Kabat-Zinn",
+        "contribution": "바디스캔을 MBSR 프로그램의 핵심 연습으로 포함시킴"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "마음챙김 기반 스트레스 감소",
+        "name_en": "MBSR",
+        "id": "THIRDW_MB_022"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_023"
+      },
+      {
+        "name_ko": "수용",
+        "name_en": "Acceptance",
+        "id": "THIRDW_AP_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "바디스캔 = 발끝부터 머리까지 '스캔'하듯 주의 이동",
+      "differential": "점진적 근육 이완(PMR)이 근육의 긴장-이완을 반복하는 반면, 바디스캔은 감각을 관찰만 하고 변화시키려 하지 않는다.",
+      "key_point": "목적은 이완이 아니라 '있는 그대로의 신체 감각 관찰'이다. 이완은 부수적 효과일 뿐이다.",
+      "common_mistake": "바디스캔을 이완 기법으로 오해하면 안 된다. 불편한 감각도 판단 없이 관찰하는 것이 핵심이다."
+    }
+  },
+  {
+    "id": "THIRDW_MC_027",
+    "terminology": "마음챙김 기반 인지치료 (Mindfulness-Based Cognitive Therapy, MBCT)",
+    "terminology_ko": "마음챙김 기반 인지치료",
+    "terminology_en": "Mindfulness-Based Cognitive Therapy",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "MBSR의 마음챙김 훈련과 인지치료의 요소를 결합한 8주 프로그램으로, 주로 우울증 재발 방지를 위해 개발되었다.",
+    "definition_en": "An 8-week program combining MBSR mindfulness training with cognitive therapy elements, primarily developed to prevent depression relapse.",
+    "significance": "마음챙김과 인지치료를 통합하여 우울증 재발 방지에 대한 강력한 경험적 근거를 확보한 치료 프로그램이다.",
+    "key_researchers": [
+      {
+        "name_ko": "진델 시걸",
+        "name_en": "Zindel Segal",
+        "contribution": "MBCT를 공동 개발함"
+      },
+      {
+        "name_ko": "마크 윌리엄스",
+        "name_en": "Mark Williams",
+        "contribution": "MBCT를 공동 개발함"
+      },
+      {
+        "name_ko": "존 티스데일",
+        "name_en": "John Teasdale",
+        "contribution": "MBCT를 공동 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "마음챙김 기반 스트레스 감소",
+        "name_en": "MBSR",
+        "id": "THIRDW_MB_022"
+      },
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "CBT",
+        "id": "CBT_CT_001"
+      },
+      {
+        "name_ko": "마음챙김",
+        "name_en": "Mindfulness",
+        "id": "THIRDW_MF_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MBCT = MBSR(마음챙김) + CBT(인지치료) = 우울증 재발 방지",
+      "differential": "MBSR이 스트레스/통증에 초점인 반면, MBCT는 우울증 재발 방지에 초점을 맞춘다.",
+      "key_point": "3회 이상 우울 삽화를 경험한 환자에게 재발 방지 효과가 약물치료와 동등한 수준으로 검증되었다.",
+      "common_mistake": "MBCT가 급성 우울증 치료가 아닌 재발 방지를 위한 프로그램임을 구분해야 한다."
+    }
+  },
+  {
+    "id": "THIRDW_HX_028",
+    "terminology": "헥사플렉스 (Hexaflex)",
+    "terminology_ko": "헥사플렉스",
+    "terminology_en": "Hexaflex",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT의 6가지 핵심 과정을 시각적으로 표현한 육각형 모형으로, 수용, 탈융합, 현재 순간, 맥락으로서의 자기, 가치, 전념적 행동이 상호 연결된다.",
+    "definition_en": "A hexagonal model visually representing ACT's six core processes interconnected: acceptance, defusion, present moment, self-as-context, values, and committed action.",
+    "significance": "ACT의 치료 과정을 한눈에 파악할 수 있게 하며, 각 과정이 독립적이지 않고 상호 연결되어 있음을 보여준다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "헥사플렉스 모형을 ACT의 핵심 도식으로 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "심리적 유연성",
+        "name_en": "Psychological Flexibility",
+        "id": "THIRDW_PF_003"
+      },
+      {
+        "name_ko": "심리적 경직성",
+        "name_en": "Psychological Inflexibility",
+        "id": "THIRDW_PI_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "헥사플렉스 = 6각형 중심에 '심리적 유연성' (6과정이 둘러쌈)",
+      "differential": "Beck의 인지적 개념화가 하향식 도식이라면, 헥사플렉스는 순환적·상호작용적 모형이다.",
+      "key_point": "왼쪽 3과정(수용, 탈융합, 현재순간)은 마음챙김/수용, 오른쪽 3과정(가치, 전념행동, 맥락자기)은 전념/행동 변화이다.",
+      "common_mistake": "6가지 과정이 순서가 있는 것이 아니라, 내담자의 필요에 따라 유연하게 다룬다."
+    }
+  },
+  {
+    "id": "THIRDW_RF_029",
+    "terminology": "관계 구성 이론 (Relational Frame Theory, RFT)",
+    "terminology_ko": "관계 구성 이론",
+    "terminology_en": "Relational Frame Theory",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "Hayes가 제안한 인간 언어와 인지의 기본 이론으로, 인간이 자의적으로 관계를 구성하는 능력이 언어적 고통의 원인이 되며, ACT의 이론적 토대이다.",
+    "definition_en": "A basic theory of human language and cognition proposed by Hayes, stating that the human ability to arbitrarily construct relations causes verbal suffering, serving as ACT's theoretical foundation.",
+    "significance": "ACT의 과학적 기반을 제공하며, 왜 인간이 언어적 존재로서 고통을 피할 수 없는지를 설명한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "관계 구성 이론을 개발하고 ACT의 이론적 기반으로 정립함"
+      },
+      {
+        "name_ko": "더뮷 반스홈즈",
+        "name_en": "Dermot Barnes-Holmes",
+        "contribution": "RFT의 실험적 연구를 주도함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      },
+      {
+        "name_ko": "인지적 융합",
+        "name_en": "Cognitive Fusion",
+        "id": "THIRDW_CF_008"
+      },
+      {
+        "name_ko": "인지적 탈융합",
+        "name_en": "Cognitive Defusion",
+        "id": "THIRDW_CD_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RFT = 언어가 만드는 관계망 때문에 인간은 '생각으로 고통받는' 유일한 존재",
+      "differential": "Skinner의 언어행동이 직접적 강화 이력으로 언어를 설명하는 반면, RFT는 자의적 관계 구성 능력으로 설명한다.",
+      "key_point": "인간은 직접 경험하지 않은 것에도 언어를 통해 고통을 느낄 수 있다 (예: '실패'라는 단어만으로 고통)",
+      "common_mistake": "RFT를 이해하지 않아도 ACT를 적용할 수 있지만, RFT를 이해하면 ACT의 기법이 '왜' 작동하는지 깊이 이해할 수 있다."
+    }
+  },
+  {
+    "id": "THIRDW_IE_030",
+    "terminology": "대인관계효율성 기술 (Interpersonal Effectiveness Skills)",
+    "terminology_ko": "대인관계효율성 기술",
+    "terminology_en": "Interpersonal Effectiveness Skills",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 4가지 기술 모듈 중 하나로, 자기 존중을 유지하면서 대인관계에서 원하는 것을 효과적으로 요청하거나 거절하는 기술이다.",
+    "definition_en": "One of DBT's four skill modules for effectively asking for what you want or saying no in relationships while maintaining self-respect.",
+    "significance": "대인관계 문제가 정서조절 곤란과 밀접하게 연결된 BPD 내담자에게 구체적인 관계 기술을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "대인관계효율성 기술 모듈을 개발함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "DEAR MAN",
+        "name_en": "DEAR MAN",
+        "id": "THIRDW_DM_031"
+      },
+      {
+        "name_ko": "마음챙김 기술",
+        "name_en": "Mindfulness Skills",
+        "id": "THIRDW_MS_015"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "DEAR MAN",
+        "description": "목표 효율성 - 원하는 것을 얻는 기술"
+      },
+      {
+        "name": "GIVE",
+        "description": "관계 효율성 - 관계를 유지하는 기술"
+      },
+      {
+        "name": "FAST",
+        "description": "자기존중 효율성 - 자존감을 지키는 기술"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "대인관계 3가지: DEAR MAN(목표), GIVE(관계), FAST(자기존중)",
+      "differential": "일반 사회기술훈련이 행동 레퍼토리 확대에 초점인 반면, DBT 대인관계 기술은 변증법적 균형을 강조한다.",
+      "key_point": "세 가지 효율성 간의 균형이 중요: 원하는 것을 얻으면서(DEAR MAN) 관계도 유지하고(GIVE) 자존감도 지킨다(FAST).",
+      "common_mistake": "대인관계효율성이 항상 자기 주장을 하는 것만을 의미하지 않는다. 때로는 양보하는 것이 효과적일 수 있다."
+    }
+  },
+  {
+    "id": "THIRDW_DM_031",
+    "terminology": "DEAR MAN (DEAR MAN)",
+    "terminology_ko": "DEAR MAN",
+    "terminology_en": "DEAR MAN",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 대인관계효율성 기술에서 목표를 달성하기 위한 의사소통 기법의 약어로, 묘사(Describe), 표현(Express), 주장(Assert), 강화(Reinforce), 마음챙김(Mindful), 자신감(Appear confident), 협상(Negotiate)이다.",
+    "definition_en": "An acronym for DBT interpersonal effectiveness communication technique: Describe, Express, Assert, Reinforce, (be) Mindful, Appear confident, Negotiate.",
+    "significance": "원하는 것을 얻기 위한 체계적이고 구체적인 의사소통 단계를 제공하여, 대인관계 효율성을 크게 향상시킨다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "DEAR MAN 기술을 DBT에 도입함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대인관계효율성 기술",
+        "name_en": "Interpersonal Effectiveness Skills",
+        "id": "THIRDW_IE_030"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "D (Describe)",
+        "description": "상황을 객관적으로 묘사"
+      },
+      {
+        "name": "E (Express)",
+        "description": "감정과 의견을 표현"
+      },
+      {
+        "name": "A (Assert)",
+        "description": "원하는 것을 명확히 주장"
+      },
+      {
+        "name": "R (Reinforce)",
+        "description": "상대방이 응해줄 때의 이점 설명"
+      },
+      {
+        "name": "M (Mindful)",
+        "description": "주제에서 벗어나지 않고 집중"
+      },
+      {
+        "name": "A (Appear confident)",
+        "description": "자신감 있는 태도 유지"
+      },
+      {
+        "name": "N (Negotiate)",
+        "description": "대안적 해결책 제시 및 협상"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "DEAR MAN = D(묘사)-E(표현)-A(주장)-R(강화)-M(마음챙김)-A(자신감)-N(협상)",
+      "differential": "일반적 자기주장 훈련이 주장 행동에 초점인 반면, DEAR MAN은 협상과 마음챙김까지 포함하는 종합적 기술이다.",
+      "key_point": "DEAR은 '무엇을 말할 것인가'이고, MAN은 '어떻게 말할 것인가'에 해당한다.",
+      "common_mistake": "DEAR MAN이 공격적으로 주장하는 것이 아니라, 존중하면서도 효과적으로 요청하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_CC_032",
+    "terminology": "창조적 절망 (Creative Hopelessness)",
+    "terminology_ko": "창조적 절망",
+    "terminology_en": "Creative Hopelessness",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "ACT 초기 단계에서 내담자가 지금까지 사용해 온 통제 전략이 효과가 없었음을 직면하게 하여, 새로운 접근(수용)에 대한 개방성을 만드는 과정이다.",
+    "definition_en": "An early ACT stage where clients confront the ineffectiveness of their previous control strategies, creating openness to a new approach (acceptance).",
+    "significance": "경험 회피 전략의 비효과성을 인식하게 하여, 수용이라는 대안적 전략에 대한 동기를 형성하는 ACT의 핵심 치료 과정이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스티븐 헤이즈",
+        "name_en": "Steven C. Hayes",
+        "contribution": "창조적 절망을 ACT의 초기 치료 과정으로 정립함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경험 회피",
+        "name_en": "Experiential Avoidance",
+        "id": "THIRDW_EA_006"
+      },
+      {
+        "name_ko": "수용",
+        "name_en": "Acceptance",
+        "id": "THIRDW_AP_004"
+      },
+      {
+        "name_ko": "수용전념치료",
+        "name_en": "ACT",
+        "id": "THIRDW_AC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "창조적 절망 = '기존 방법이 안 된다'는 인정 → '새로운 방법'으로의 문 열기",
+      "differential": "일반적 절망이 포기인 반면, 창조적 절망은 통제 전략에 대한 절망이며 새로운 가능성의 시작이다.",
+      "key_point": "'절망'이 부정적이지 않다. 효과 없는 통제 전략에 대한 절망이 수용이라는 대안을 열어준다.",
+      "common_mistake": "창조적 절망이 내담자를 절망하게 만드는 것이 아니라, 기존 전략의 한계를 자연스럽게 인식하게 하는 것이다."
+    }
+  },
+  {
+    "id": "THIRDW_AC_033",
+    "terminology": "ACCEPTS (ACCEPTS)",
+    "terminology_ko": "ACCEPTS",
+    "terminology_en": "ACCEPTS",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "DBT의 고통감내 위기 생존 기술 중 주의분산 기법의 약어로, 활동(Activities), 기여(Contributing), 비교(Comparisons), 감정(Emotions), 밀어내기(Pushing away), 생각(Thoughts), 감각(Sensations)이다.",
+    "definition_en": "An acronym for DBT distress tolerance distraction techniques: Activities, Contributing, Comparisons, Emotions, Pushing away, Thoughts, and Sensations.",
+    "significance": "위기 상황에서 고통스러운 자극으로부터 주의를 전환하여 충동적 행동을 방지하는 구체적 기법 목록이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "ACCEPTS 기술을 DBT 위기 생존 기술로 체계화함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고통감내 기술",
+        "name_en": "Distress Tolerance Skills",
+        "id": "THIRDW_DT_017"
+      },
+      {
+        "name_ko": "TIPP 기술",
+        "name_en": "TIPP Skills",
+        "id": "THIRDW_TP_020"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "A (Activities)",
+        "description": "주의를 돌릴 수 있는 활동에 참여"
+      },
+      {
+        "name": "C (Contributing)",
+        "description": "타인을 돕는 행동으로 관점 전환"
+      },
+      {
+        "name": "C (Comparisons)",
+        "description": "더 어려운 상황과 비교하여 관점 전환"
+      },
+      {
+        "name": "E (Emotions)",
+        "description": "다른 감정을 유발하는 활동"
+      },
+      {
+        "name": "P (Pushing away)",
+        "description": "고통스러운 상황을 일시적으로 밀어내기"
+      },
+      {
+        "name": "T (Thoughts)",
+        "description": "다른 생각으로 마음 채우기"
+      },
+      {
+        "name": "S (Sensations)",
+        "description": "강한 감각 자극으로 주의 전환"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "ACCEPTS = 활동-기여-비교-감정-밀어내기-생각-감각 (7가지 주의분산)",
+      "differential": "TIPP가 신체 생리를 직접 변화시키는 반면, ACCEPTS는 주의를 다른 곳으로 전환하는 인지적 전략이다.",
+      "key_point": "ACCEPTS는 장기 해결이 아닌 위기 순간의 일시적 주의분산 도구이다.",
+      "common_mistake": "주의분산이 회피와 같다고 오해하면 안 된다. 위기 순간에 전략적으로 사용하는 단기적 대처 기술이다."
+    }
+  },
+  {
+    "id": "THIRDW_BI_034",
+    "terminology": "생물사회이론 (Biosocial Theory)",
+    "terminology_ko": "생물사회이론",
+    "terminology_en": "Biosocial Theory",
+    "category": "THIRDW",
+    "category_name": "3세대 인지행동상담 (Third-Wave CBT)",
+    "definition": "Linehan의 DBT에서 경계선 성격장애(BPD)의 발달을 설명하는 이론으로, 생물학적 정서적 취약성과 무효화 환경의 상호작용이 정서조절 곤란을 초래한다고 본다.",
+    "definition_en": "Linehan's DBT theory explaining BPD development as the interaction between biological emotional vulnerability and an invalidating environment causing emotion regulation difficulties.",
+    "significance": "BPD를 비난이 아닌 이해의 관점에서 설명하며, 생물학적 요인과 환경적 요인의 상호작용을 강조하는 통합적 모델이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha M. Linehan",
+        "contribution": "생물사회이론을 개발하여 BPD의 발달 기제를 설명함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "DBT",
+        "id": "THIRDW_DB_012"
+      },
+      {
+        "name_ko": "타당화",
+        "name_en": "Validation",
+        "id": "THIRDW_VD_014"
+      },
+      {
+        "name_ko": "정서조절 기술",
+        "name_en": "Emotion Regulation Skills",
+        "id": "THIRDW_ER_016"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정서적 취약성",
+        "description": "높은 감수성, 강한 반응성, 느린 회복"
+      },
+      {
+        "name": "무효화 환경",
+        "description": "감정 표현을 무시, 처벌, 경시하는 환경"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "생물사회이론 = 생물학적 취약성 x 무효화 환경 = 정서조절 곤란(BPD)",
+      "differential": "정신분석이 초기 대상관계로 BPD를 설명하는 반면, 생물사회이론은 정서적 취약성과 환경의 상호작용으로 설명한다.",
+      "key_point": "정서적 취약성의 3요소: 높은 감수성(낮은 역치), 강한 반응성(큰 진폭), 느린 회복(긴 지속).",
+      "common_mistake": "생물사회이론이 BPD를 환경 탓으로만 돌리는 것이 아니다. 생물학적 요인과 환경적 요인의 '상호작용'을 강조한다."
+    }
+  }
+]

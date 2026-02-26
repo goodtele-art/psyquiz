@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="상담 이론과 실제 용어를 8가지 게임으로 학습하는 웹앱">
+  <title>상담 이론과 실제 게임 학습</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+  <!-- Google AdSense: 아래 client 값은 실제 pub ID로 교체 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-REPLACE_WITH_YOUR_ID" crossorigin="anonymous"></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">본문 바로가기</a>
+
+  <!-- 글로벌 헤더 -->
+  <header id="global-header" class="global-header hidden">
+    <button class="btn-back" aria-label="뒤로 가기" onclick="App.goBack()">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M13 4L7 10L13 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <h1 id="header-title" class="header-title"></h1>
+    <div class="header-actions">
+      <button class="btn-icon" id="btn-sound" aria-label="사운드 토글" onclick="Sound.toggle()">
+        <span id="sound-icon">🔊</span>
+      </button>
+      <button class="btn-icon" id="btn-theme" aria-label="다크모드 전환" onclick="App.toggleTheme()">
+        <span id="theme-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 메인 콘텐츠 -->
+  <main id="main-content">
+
+    <!-- 홈 화면 -->
+    <section id="page-home" class="page">
+      <div class="home-hero">
+        <div class="hero-icon">💬</div>
+        <h1 class="hero-title">상담 이론과 실제<br><span class="hero-sub">게임 학습</span></h1>
+        <p class="hero-desc">13개 카테고리를 8가지 게임으로 마스터하세요!</p>
+        <div class="hero-actions">
+          <button class="btn-icon" id="home-sound" aria-label="사운드 토글" onclick="Sound.toggle()">
+            <span class="home-sound-icon">🔊</span>
+          </button>
+          <button class="btn-icon" id="home-theme" aria-label="다크모드 전환" onclick="App.toggleTheme()">
+            <span class="home-theme-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 게임 그리드 -->
+      <div class="game-grid">
+        <button class="game-card" data-game="quiz" onclick="App.navigate('setup', 'quiz')">
+          <div class="game-card-icon">📝</div>
+          <div class="game-card-info">
+            <h3>4지선다 퀴즈</h3>
+            <p>정의와 용어를 연결하세요</p>
+          </div>
+          <div class="game-card-badge">기본</div>
+        </button>
+        <button class="game-card" data-game="card" onclick="App.navigate('setup', 'card')">
+          <div class="game-card-icon">🃏</div>
+          <div class="game-card-info">
+            <h3>카드 매칭</h3>
+            <p>짝을 찾아 뒤집으세요</p>
+          </div>
+          <div class="game-card-badge">매칭</div>
+        </button>
+        <button class="game-card" data-game="typing" onclick="App.navigate('setup', 'typing')">
+          <div class="game-card-icon">⌨️</div>
+          <div class="game-card-info">
+            <h3>타이핑 낙하</h3>
+            <p>떨어지기 전에 타이핑!</p>
+          </div>
+          <div class="game-card-badge">아케이드</div>
+        </button>
+        <button class="game-card" data-game="swipe" onclick="App.navigate('setup', 'swipe')">
+          <div class="game-card-icon">👆</div>
+          <div class="game-card-info">
+            <h3>스와이프 분류</h3>
+            <p>좌우로 분류하세요</p>
+          </div>
+          <div class="game-card-badge">분류</div>
+        </button>
+        <button class="game-card" data-game="connect" onclick="App.navigate('setup', 'connect')">
+          <div class="game-card-icon">🔗</div>
+          <div class="game-card-info">
+            <h3>선 잇기</h3>
+            <p>별자리처럼 연결하세요</p>
+          </div>
+          <div class="game-card-badge">연결</div>
+        </button>
+        <button class="game-card" data-game="crossword" onclick="App.navigate('setup', 'crossword')">
+          <div class="game-card-icon">🧩</div>
+          <div class="game-card-info">
+            <h3>십자말 퍼즐</h3>
+            <p>힌트로 용어를 완성하세요</p>
+          </div>
+          <div class="game-card-badge">퍼즐</div>
+        </button>
+        <button class="game-card" data-game="hierarchy" onclick="App.navigate('setup', 'hierarchy')">
+          <div class="game-card-icon">🌳</div>
+          <div class="game-card-info">
+            <h3>계층 분류</h3>
+            <p>개념을 올바른 위치에</p>
+          </div>
+          <div class="game-card-badge">구조</div>
+        </button>
+        <button class="game-card" data-game="timeline" onclick="App.navigate('setup', 'timeline')">
+          <div class="game-card-icon">📅</div>
+          <div class="game-card-info">
+            <h3>순서 배열</h3>
+            <p>올바른 순서로 정렬하세요</p>
+          </div>
+          <div class="game-card-badge">순서</div>
+        </button>
+        <button class="game-card" data-game="english" onclick="App.navigate('setup', 'english')">
+          <div class="game-card-icon">🔤</div>
+          <div class="game-card-info">
+            <h3>영어공부하기</h3>
+            <p>한↔영 용어를 익혀보세요</p>
+          </div>
+          <div class="game-card-badge">영어</div>
+        </button>
+      </div>
+
+      <!-- 실전문제 배너 -->
+      <div class="exam-banner" onclick="App.navigate('setup', 'exam')">
+        <div class="exam-banner-icon">📋</div>
+        <div class="exam-banner-info">
+          <h3>실전문제 풀기</h3>
+          <p>기출문제로 실력을 점검하세요</p>
+          <span class="exam-banner-meta">청소년상담사 2급 5개년 99문제</span>
+        </div>
+        <span class="exam-banner-arrow">&rarr;</span>
+      </div>
+
+      <!-- 학습 현황 -->
+      <div class="stats-card" id="home-stats">
+        <h3>📊 나의 학습 현황</h3>
+        <div class="stats-progress">
+          <div class="stats-bar">
+            <div class="stats-bar-fill" id="stats-bar-fill" style="width: 0%"></div>
+          </div>
+          <span class="stats-percent" id="stats-percent">0%</span> 마스터
+        </div>
+        <div class="stats-row">
+          <div class="stats-item">
+            <span class="stats-value" id="stats-games">0</span>
+            <span class="stats-label">게임 수</span>
+          </div>
+          <div class="stats-item">
+            <span class="stats-value" id="stats-stars">☆☆☆</span>
+            <span class="stats-label">평균 별점</span>
+          </div>
+          <div class="stats-item">
+            <span class="stats-value" id="stats-terms">0</span>
+            <span class="stats-label">학습 용어</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 게임 설정 화면 -->
+    <section id="page-setup" class="page hidden">
+      <div class="setup-container">
+        <div class="setup-header">
+          <span class="setup-icon" id="setup-game-icon"></span>
+          <h2 id="setup-game-title"></h2>
+        </div>
+
+        <div class="setup-section">
+          <h3>카테고리 선택</h3>
+          <div class="chip-group" id="setup-categories">
+            <button class="chip active" data-value="all" onclick="App.selectCategory(this)">전체</button>
+          </div>
+        </div>
+
+        <div class="setup-section">
+          <h3>난이도</h3>
+          <div class="chip-group" id="setup-difficulty">
+            <button class="chip active" data-value="easy" onclick="App.selectDifficulty(this)">쉬움</button>
+            <button class="chip" data-value="medium" onclick="App.selectDifficulty(this)">보통</button>
+            <button class="chip" data-value="hard" onclick="App.selectDifficulty(this)">어려움</button>
+          </div>
+        </div>
+
+        <div class="setup-section">
+          <h3>문제 수</h3>
+          <div class="chip-group" id="setup-count">
+            <button class="chip active" data-value="20" onclick="App.selectCount(this)">20</button>
+            <button class="chip" data-value="30" onclick="App.selectCount(this)">30</button>
+            <button class="chip" data-value="50" onclick="App.selectCount(this)">50</button>
+          </div>
+        </div>
+
+        <!-- 방향 선택 (english 전용) -->
+        <div class="setup-section hidden" id="setup-direction-section">
+          <h3>출제 방향</h3>
+          <div class="chip-group" id="setup-direction">
+            <button class="chip active" data-value="ko2en" onclick="App.selectDirection(this)">한글→영어</button>
+            <button class="chip" data-value="en2ko" onclick="App.selectDirection(this)">영어→한글</button>
+            <button class="chip" data-value="random" onclick="App.selectDirection(this)">방향랜덤</button>
+          </div>
+        </div>
+
+        <!-- 실전문제 안내 (exam 전용) -->
+        <div class="exam-info hidden" id="exam-info">
+          <div class="exam-info-card">
+            <p class="exam-info-title">청소년상담사 2급 기출문제입니다.</p>
+            <div class="exam-info-details">
+              <span>📝 랜덤 10문제</span>
+              <span>⏱️ 시간 측정 + 점수 계산</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-primary btn-start" onclick="App.startGame()">
+          🎮 게임 시작
+        </button>
+
+        <div class="setup-leaderboard" id="setup-leaderboard"></div>
+      </div>
+    </section>
+
+    <!-- 게임 플레이 영역 -->
+    <section id="page-game" class="page hidden">
+      <div class="game-hud">
+        <div class="hud-left">
+          <span class="hud-progress" id="hud-progress">0/0</span>
+        </div>
+        <div class="hud-center">
+          <div class="progress-bar">
+            <div class="progress-bar-fill" id="hud-bar-fill"></div>
+          </div>
+        </div>
+        <div class="hud-right">
+          <span class="hud-score" id="hud-score">0</span>
+          <span class="hud-timer" id="hud-timer"></span>
+        </div>
+      </div>
+      <div class="game-area" id="game-area">
+        <!-- 각 게임이 동적으로 렌더링 -->
+      </div>
+    </section>
+
+    <!-- 결과 화면 -->
+    <section id="page-result" class="page hidden">
+      <div id="confetti-container" class="confetti-container"></div>
+      <div class="result-container">
+        <div class="result-stars" id="result-stars"></div>
+        <div class="result-score">
+          <span class="result-score-value" id="result-score-value">0</span>
+          <span class="result-score-max" id="result-score-max">/ 0점</span>
+        </div>
+        <div class="result-accuracy">
+          정확도: <span id="result-accuracy">0%</span>
+        </div>
+        <div class="result-details">
+          <div class="result-detail">
+            <span class="detail-label">정답</span>
+            <span class="detail-value" id="result-correct">0/0</span>
+          </div>
+          <div class="result-detail">
+            <span class="detail-label">시간</span>
+            <span class="detail-value" id="result-time">0:00</span>
+          </div>
+          <div class="result-detail">
+            <span class="detail-label">최고 콤보</span>
+            <span class="detail-value" id="result-combo">x0</span>
+          </div>
+          <div class="result-detail">
+            <span class="detail-label">난이도</span>
+            <span class="detail-value" id="result-difficulty">쉬움</span>
+          </div>
+        </div>
+        <div class="result-actions">
+          <button class="btn-secondary" onclick="App.restartGame()">다른 문제</button>
+          <button class="btn-primary" onclick="App.navigate('home')">홈으로</button>
+          <button class="btn-secondary" onclick="App.navigate('home')">다른 게임</button>
+        </div>
+        <div class="result-leaderboard" id="result-leaderboard"></div>
+      </div>
+    </section>
+
+    <!-- 광고 영역 -->
+    <section class="adsense-block" aria-label="광고" style="max-width:980px;margin:24px auto 0;padding:0 16px;">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-REPLACE_WITH_YOUR_ID"
+           data-ad-slot="REPLACE_WITH_AD_SLOT_ID"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </section>
+
+  </main>
+
+  <!-- 플로팅 스코어 컨테이너 -->
+  <div id="floating-scores" class="floating-scores"></div>
+
+  <!-- Firebase SDK (리더보드 동기화) -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+
+  <script src="data/terms-data.js"></script>
+  <script src="data/exam/exam-data.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/game-quiz.js"></script>
+  <script src="js/game-card.js"></script>
+  <script src="js/game-typing.js"></script>
+  <script src="js/game-swipe.js"></script>
+  <script src="js/game-connect.js"></script>
+  <script src="js/game-crossword.js"></script>
+  <script src="js/game-hierarchy.js"></script>
+  <script src="js/game-timeline.js"></script>
+  <script src="js/game-exam.js"></script>
+  <script src="js/game-english.js"></script>
+</body>
+</html>

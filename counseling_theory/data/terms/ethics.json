@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "ETHICS_CE_001",
+    "terminology": "상담윤리 (Counseling Ethics)",
+    "terminology_ko": "상담윤리",
+    "terminology_en": "Counseling Ethics",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 전문적 실천에서 지켜야 할 도덕적 원칙과 행동 기준의 체계로, 내담자의 복지 보호, 전문가로서의 책임, 사회적 의무를 포함한다. 윤리 강령과 법적 규정을 모두 아우른다.",
+    "definition_en": "A system of moral principles and behavioral standards that counselors must uphold in professional practice, encompassing client welfare protection, professional responsibility, and social obligations. It covers both ethical codes and legal regulations.",
+    "significance": "상담 전문직의 정체성과 신뢰의 기반이며, 내담자를 해로부터 보호하고 전문적 관계의 건전성을 유지하는 핵심 체계이다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "상담윤리의 체계적 의사결정 모델을 개발하고 윤리적 실천의 이론적 기초를 정립하였다"
+      },
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "상담윤리의 핵심 원칙과 실제적 적용을 통합적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_003"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_002"
+      },
+      {
+        "name_ko": "다중관계",
+        "name_en": "Multiple Relationships",
+        "id": "ETHICS_MR_005"
+      },
+      {
+        "name_ko": "역량 범위",
+        "name_en": "Scope of Competence",
+        "id": "ETHICS_SC_004"
+      }
+    ],
+    "sub_types": [
+      "의무론적 윤리",
+      "공리주의적 윤리",
+      "덕 윤리",
+      "돌봄 윤리"
+    ],
+    "quiz_hints": {
+      "mnemonic": "상담윤리 = 상담의 '나침반' - 전문적 실천의 방향을 안내한다",
+      "differential": "윤리(ethics)는 도덕적 원칙과 판단의 체계이고, 법(law)은 국가가 강제하는 행동 규범이다. 윤리적 기준이 법적 기준보다 높을 수 있다",
+      "key_point": "상담윤리는 단순한 규칙 준수가 아니라, 윤리적 의사결정 능력과 도덕적 민감성을 요구하는 지속적 과정이다",
+      "common_mistake": "법만 지키면 윤리적이라고 오해하기 쉬우나, 합법적이면서도 비윤리적인 행동이 존재할 수 있다"
+    }
+  },
+  {
+    "id": "ETHICS_IC_002",
+    "terminology": "사전동의 (Informed Consent)",
+    "terminology_ko": "사전동의",
+    "terminology_en": "Informed Consent",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담을 시작하기 전에 내담자에게 상담의 성격, 목적, 절차, 한계, 비용, 비밀보장의 범위와 한계 등에 대해 충분히 설명하고, 이를 이해한 내담자의 자발적 동의를 얻는 과정이다.",
+    "definition_en": "The process of fully explaining the nature, purpose, procedures, limitations, costs, and scope and limits of confidentiality to the client before beginning counseling, and obtaining the client's voluntary agreement based on this understanding.",
+    "significance": "내담자의 자율성을 존중하고 자기결정권을 보장하는 핵심 윤리 원칙으로, 상담 관계의 윤리적 토대이다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "사전동의의 구성 요소와 윤리적 중요성을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_003"
+      },
+      {
+        "name_ko": "자율성",
+        "name_en": "Autonomy",
+        "id": "ETHICS_AU_010"
+      },
+      {
+        "name_ko": "접수면접",
+        "name_en": "Intake Interview",
+        "id": "PROCESS_II_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사전동의 = 상담 '계약서' - 무엇을 하고, 무엇을 기대하고, 무엇이 한계인지를 미리 알려주고 동의를 받는다",
+      "differential": "사전동의는 상담 전의 정보 제공과 동의 과정이고, 비밀보장은 상담 중에 적용되는 정보 보호 원칙이다",
+      "key_point": "사전동의는 일회성이 아니라, 상담 과정에서 새로운 상황이 발생할 때마다 갱신되어야 하는 지속적 과정이다",
+      "common_mistake": "사전동의를 서류에 서명받는 것으로만 이해하기 쉬우나, 내담자가 충분히 이해하고 자발적으로 동의하는 과정이 핵심이다"
+    }
+  },
+  {
+    "id": "ETHICS_CF_003",
+    "terminology": "비밀보장 (Confidentiality)",
+    "terminology_ko": "비밀보장",
+    "terminology_en": "Confidentiality",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담 과정에서 내담자가 공유한 정보를 내담자의 동의 없이 제3자에게 공개하지 않을 상담자의 윤리적 의무이다. 단, 자해·타해 위험, 아동학대, 법원 명령 등 예외적 상황이 존재한다.",
+    "definition_en": "The counselor's ethical obligation not to disclose information shared by the client during counseling to third parties without the client's consent. However, exceptions exist for situations such as risk of self-harm or harm to others, child abuse, and court orders.",
+    "significance": "내담자가 안전하게 자기를 개방할 수 있는 신뢰의 토대이며, 비밀보장 없이는 효과적인 상담이 불가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "비밀보장의 원칙과 예외 상황을 윤리적·법적 관점에서 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_002"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "ETHICS_LC_006"
+      },
+      {
+        "name_ko": "특권적 의사소통",
+        "name_en": "Privileged Communication",
+        "id": "ETHICS_PC_007"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비밀보장 = 상담의 '금고' - 내담자의 이야기를 안전하게 지킨다",
+      "differential": "비밀보장(confidentiality)은 윤리적 의무이고, 특권적 의사소통(privileged communication)은 법적 보호이다",
+      "key_point": "비밀보장에는 예외가 있으며(자해·타해 위험, 아동학대 등), 이를 사전동의 시 내담자에게 반드시 고지해야 한다",
+      "common_mistake": "비밀보장이 절대적이라고 오해하기 쉬우나, 명확한 예외 상황이 존재하며 이를 내담자에게 사전에 고지해야 한다"
+    }
+  },
+  {
+    "id": "ETHICS_SC_004",
+    "terminology": "역량 범위 (Scope of Competence)",
+    "terminology_ko": "역량 범위",
+    "terminology_en": "Scope of Competence",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 교육, 훈련, 경험을 통해 갖추고 있는 전문적 능력의 범위로, 상담자는 자신의 역량 범위 내에서만 서비스를 제공해야 한다. 역량 밖의 사례는 의뢰해야 한다.",
+    "definition_en": "The range of professional abilities that a counselor possesses through education, training, and experience. Counselors must provide services only within their scope of competence and refer cases outside their competence.",
+    "significance": "내담자의 복지를 보호하는 핵심 윤리 원칙으로, 역량 밖의 서비스 제공은 내담자에게 해를 끼칠 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "역량 범위의 윤리적 중요성과 지속적 전문성 개발의 필요성을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "의뢰",
+        "name_en": "Referral",
+        "id": "PROCESS_RF_008"
+      },
+      {
+        "name_ko": "수퍼비전",
+        "name_en": "Supervision",
+        "id": "ETHICS_SV_008"
+      },
+      {
+        "name_ko": "선행",
+        "name_en": "Beneficence",
+        "id": "ETHICS_BN_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역량 범위 = '할 수 있는 것만 한다' - 못하는 건 할 수 있는 사람에게 맡긴다",
+      "differential": "역량 범위는 현재 가지고 있는 능력의 한계이고, 전문성 발달은 그 한계를 확장하는 지속적 과정이다",
+      "key_point": "역량 범위를 인식하고 역량 밖의 사례를 의뢰하는 것은 약점이 아니라 전문적 책임이다",
+      "common_mistake": "모든 내담자를 도울 수 있어야 한다고 오해하기 쉬우나, 역량 밖의 사례를 의뢰하는 것이 윤리적 실천이다"
+    }
+  },
+  {
+    "id": "ETHICS_MR_005",
+    "terminology": "다중관계 (Multiple Relationships)",
+    "terminology_ko": "다중관계",
+    "terminology_en": "Multiple Relationships",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 내담자와 전문적 상담 관계 외에 다른 관계(사회적, 경제적, 개인적 등)를 동시에 맺는 것을 말한다. 다중관계는 객관성을 손상시키고 내담자에게 해를 끼칠 위험이 있어 일반적으로 피해야 한다.",
+    "definition_en": "When a counselor simultaneously maintains a relationship with a client beyond the professional counseling relationship, such as social, financial, or personal relationships. Multiple relationships generally should be avoided as they can compromise objectivity and risk harm to the client.",
+    "significance": "상담의 전문성과 객관성을 보호하는 핵심 윤리 원칙으로, 소규모 지역사회나 특수 환경에서 완전한 회피가 어려울 수 있어 윤리적 판단이 필요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "다중관계의 유형과 윤리적 판단 기준을 체계적으로 기술하였다"
+      },
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "다중관계의 위험 요인과 관리 전략을 윤리적 의사결정 모델에 포함시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "경계 위반",
+        "name_en": "Boundary Violation",
+        "id": "ETHICS_BV_009"
+      },
+      {
+        "name_ko": "착취",
+        "name_en": "Exploitation",
+        "id": "ETHICS_EX_016"
+      },
+      {
+        "name_ko": "무해",
+        "name_en": "Nonmaleficence",
+        "id": "ETHICS_NM_012"
+      }
+    ],
+    "sub_types": [
+      "성적 다중관계",
+      "사업적 다중관계",
+      "사회적 다중관계",
+      "교육적 다중관계"
+    ],
+    "quiz_hints": {
+      "mnemonic": "다중관계 = 상담자가 내담자와 '여러 모자'를 쓰는 것 - 상담자이면서 친구, 사업 파트너 등",
+      "differential": "경계 횡단(boundary crossing)은 잠재적으로 유익할 수 있는 일시적 변화이고, 경계 위반(boundary violation)은 해로운 다중관계이다",
+      "key_point": "모든 다중관계가 비윤리적인 것은 아니지만, 잠재적 해로움을 신중히 평가하고 내담자 복지를 최우선으로 해야 한다",
+      "common_mistake": "소규모 지역사회에서의 불가피한 다중관계를 무조건 비윤리적으로 판단하기 쉬우나, 맥락에 따른 신중한 윤리적 판단이 필요하다"
+    }
+  },
+  {
+    "id": "ETHICS_LC_006",
+    "terminology": "비밀보장의 한계 (Limits of Confidentiality)",
+    "terminology_ko": "비밀보장의 한계",
+    "terminology_en": "Limits of Confidentiality",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "비밀보장 원칙이 적용되지 않는 예외적 상황으로, 자해·타해의 심각한 위험, 아동·노인·장애인 학대, 법원 명령, 감염성 질환 등이 포함된다. 사전동의 시 반드시 고지해야 한다.",
+    "definition_en": "Exceptional situations where the confidentiality principle does not apply, including serious risk of self-harm or harm to others, abuse of children/elderly/disabled, court orders, and communicable diseases. These must be disclosed during informed consent.",
+    "significance": "비밀보장과 타인 보호 의무 사이의 윤리적 딜레마를 해결하는 핵심 지침으로, 상담자의 윤리적 판단이 가장 시험받는 영역이다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "비밀보장의 한계 상황과 윤리적 의사결정 과정을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_003"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_002"
+      },
+      {
+        "name_ko": "경고의 의무",
+        "name_en": "Duty to Warn",
+        "id": "ETHICS_DW_017"
+      },
+      {
+        "name_ko": "통보의 의무",
+        "name_en": "Duty to Report",
+        "id": "ETHICS_DR_018"
+      }
+    ],
+    "sub_types": [
+      "자해 위험",
+      "타해 위험",
+      "아동학대 의심",
+      "법원 명령",
+      "감염성 질환"
+    ],
+    "quiz_hints": {
+      "mnemonic": "비밀보장의 한계 = '생명과 안전'이 비밀보장보다 우선한다",
+      "differential": "비밀보장은 일반 원칙이고, 비밀보장의 한계는 그 원칙이 적용되지 않는 예외 상황이다",
+      "key_point": "비밀보장의 한계를 사전동의 시 내담자에게 반드시 고지해야 하며, 이를 생략하면 비밀보장 위반보다 더 큰 윤리적 문제가 된다",
+      "common_mistake": "비밀보장의 한계 상황에서 즉시 공개해야 한다고 오해하기 쉬우나, 가능한 한 내담자에게 먼저 알리고 함께 대응하는 것이 바람직하다"
+    }
+  },
+  {
+    "id": "ETHICS_PC_007",
+    "terminology": "특권적 의사소통 (Privileged Communication)",
+    "terminology_ko": "특권적 의사소통",
+    "terminology_en": "Privileged Communication",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "법적으로 보호되는 의사소통으로, 법원에서 상담 과정의 내용을 증거로 공개하도록 강제할 수 없는 법적 권리이다. 이 권리는 내담자에게 속하며, 내담자만이 이를 포기할 수 있다.",
+    "definition_en": "Legally protected communication that prevents courts from compelling disclosure of counseling content as evidence. This right belongs to the client, and only the client can waive it.",
+    "significance": "비밀보장의 법적 보호 장치로, 내담자가 법적 절차에서도 상담 내용이 보호받을 수 있게 하는 중요한 법적 권리이다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "특권적 의사소통의 법적 근거와 적용 범위를 상담윤리의 맥락에서 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_003"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "ETHICS_LC_006"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "특권적 의사소통 = '법정의 방패' - 법원도 상담 내용을 강제로 열 수 없다",
+      "differential": "비밀보장은 윤리적 의무이고, 특권적 의사소통은 법적 권리이다. 비밀보장은 모든 상담에 적용되지만, 특권적 의사소통은 법에 따라 인정 범위가 다르다",
+      "key_point": "특권적 의사소통의 권리는 상담자가 아닌 내담자에게 속하므로, 내담자만이 이를 포기할 수 있다",
+      "common_mistake": "특권적 의사소통이 모든 상담에 자동적으로 적용된다고 오해하기 쉬우나, 법률에 따라 인정 범위와 조건이 다르다"
+    }
+  },
+  {
+    "id": "ETHICS_SV_008",
+    "terminology": "수퍼비전 (Supervision)",
+    "terminology_ko": "수퍼비전",
+    "terminology_en": "Supervision",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "경험 있는 전문가(수퍼바이저)가 수련 중인 상담자(수퍼바이지)의 전문적 발달을 지도하고 평가하는 과정으로, 내담자의 복지 보호와 상담자의 역량 개발이라는 이중 목적을 갖는다.",
+    "definition_en": "The process in which an experienced professional (supervisor) guides and evaluates the professional development of a trainee counselor (supervisee), serving the dual purpose of protecting client welfare and developing the counselor's competence.",
+    "significance": "상담자 훈련의 핵심 구성 요소이자 내담자 보호의 안전장치로, 윤리적이고 효과적인 상담 실천을 보장하는 필수 과정이다.",
+    "key_researchers": [
+      {
+        "name_ko": "캐롤 팔콘나드 스콧",
+        "name_en": "Janine Bernard",
+        "contribution": "수퍼비전의 차별 모델(Discrimination Model)을 개발하여 역할(교사, 상담자, 자문가)에 따른 수퍼비전을 체계화하였다"
+      },
+      {
+        "name_ko": "칼 스톨텐베르그",
+        "name_en": "Cal Stoltenberg",
+        "contribution": "통합적 발달 모델(IDM)을 통해 수퍼바이지의 발달 수준에 맞는 수퍼비전을 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "역량 범위",
+        "name_en": "Scope of Competence",
+        "id": "ETHICS_SC_004"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "자기인식",
+        "name_en": "Self-Awareness",
+        "id": "PROCESS_SA_023"
+      },
+      {
+        "name_ko": "공동리더십",
+        "name_en": "Co-Leadership",
+        "id": "GROUP_CL_018"
+      }
+    ],
+    "sub_types": [
+      "개인 수퍼비전",
+      "집단 수퍼비전",
+      "동료 수퍼비전",
+      "실시간 수퍼비전"
+    ],
+    "quiz_hints": {
+      "mnemonic": "수퍼비전 = '슈퍼(Super) + 비전(Vision)' - 경험자의 더 넓은 시야로 수련생을 안내한다",
+      "differential": "수퍼비전은 전문적 발달과 내담자 보호를 위한 평가적 관계이고, 자문(consultation)은 동등한 전문가 간의 비평가적 협력이다",
+      "key_point": "수퍼바이저는 수퍼바이지의 내담자에 대해 간접적 윤리적·법적 책임을 진다",
+      "common_mistake": "수퍼비전을 단순한 사례 논의나 조언으로 오해하기 쉬우나, 평가, 게이트키핑, 전문적 발달 촉진을 포함하는 포괄적 과정이다"
+    }
+  },
+  {
+    "id": "ETHICS_BV_009",
+    "terminology": "경계 위반 (Boundary Violation)",
+    "terminology_ko": "경계 위반",
+    "terminology_en": "Boundary Violation",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 전문적 관계의 경계를 넘어 내담자에게 해를 끼치거나 착취하는 행위이다. 성적 관계, 경제적 착취, 사적 이익 추구 등이 포함되며, 전문직의 가장 심각한 윤리 위반에 해당한다.",
+    "definition_en": "Actions in which the counselor crosses professional relationship boundaries to harm or exploit the client, including sexual relationships, financial exploitation, and pursuit of personal gain. These constitute the most serious ethical violations of the profession.",
+    "significance": "전문적 관계의 건전성을 파괴하고 내담자에게 심각한 해를 끼치는 가장 심각한 윤리 위반으로, 면허 취소의 주요 사유이다.",
+    "key_researchers": [
+      {
+        "name_ko": "케네스 포프",
+        "name_en": "Kenneth Pope",
+        "contribution": "치료자-내담자 성적 관계의 해로움을 실증적으로 연구하고 경계 윤리를 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "다중관계",
+        "name_en": "Multiple Relationships",
+        "id": "ETHICS_MR_005"
+      },
+      {
+        "name_ko": "착취",
+        "name_en": "Exploitation",
+        "id": "ETHICS_EX_016"
+      },
+      {
+        "name_ko": "경계 횡단",
+        "name_en": "Boundary Crossing",
+        "id": "ETHICS_BC_019"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [
+      "성적 경계 위반",
+      "경제적 경계 위반",
+      "사회적 경계 위반"
+    ],
+    "quiz_hints": {
+      "mnemonic": "경계 위반 = 전문적 관계의 '금지선'을 넘는 것 - 특히 성적 관계가 가장 심각",
+      "differential": "경계 횡단(crossing)은 잠재적으로 유익할 수 있는 일시적 변화이고, 경계 위반(violation)은 내담자에게 해를 끼치는 착취적 행위이다",
+      "key_point": "내담자와의 성적 관계는 상담 종결 후에도 일정 기간(보통 2~5년) 금지되며, 대부분의 윤리 강령에서 가장 심각한 위반으로 규정한다",
+      "common_mistake": "경계 위반이 항상 명백하게 드러난다고 오해하기 쉬우나, 점진적으로 경계가 침식되는 '미끄러운 경사면(slippery slope)' 현상에 주의해야 한다"
+    }
+  },
+  {
+    "id": "ETHICS_AU_010",
+    "terminology": "자율성 (Autonomy)",
+    "terminology_ko": "자율성",
+    "terminology_en": "Autonomy",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "내담자가 자신의 삶에 관한 결정을 스스로 내릴 수 있는 권리를 존중하는 윤리 원칙이다. 상담자는 내담자의 자기결정권을 존중하고, 내담자 스스로 선택하고 결정할 수 있도록 지원해야 한다.",
+    "definition_en": "The ethical principle of respecting the client's right to make their own decisions about their life. Counselors should respect client self-determination and support clients in making their own choices and decisions.",
+    "significance": "키치너(Kitchener)가 제시한 상담윤리의 5대 원칙 중 하나로, 사전동의의 이론적 기반이며 내담자 중심 실천의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "카렌 키치너",
+        "name_en": "Karen Kitchener",
+        "contribution": "상담윤리의 5대 도덕 원칙(자율성, 선행, 무해, 정의, 충실성)을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_002"
+      },
+      {
+        "name_ko": "선행",
+        "name_en": "Beneficence",
+        "id": "ETHICS_BN_011"
+      },
+      {
+        "name_ko": "무해",
+        "name_en": "Nonmaleficence",
+        "id": "ETHICS_NM_012"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자율성 = '내 인생은 내가 결정한다' - 상담자는 대신 결정하지 않는다",
+      "differential": "자율성은 내담자의 자기결정권이고, 온정적 간섭주의(paternalism)는 상담자가 내담자를 위해 결정을 대신하는 것이다",
+      "key_point": "자율성 존중은 내담자가 자해·타해 위험이 있을 때 한계에 부딪히며, 이때 선행·무해 원칙과의 균형이 필요하다",
+      "common_mistake": "자율성 존중을 내담자의 모든 결정에 동의하는 것으로 오해하기 쉬우나, 자기결정 능력을 갖추도록 돕는 것이 핵심이다"
+    }
+  },
+  {
+    "id": "ETHICS_BN_011",
+    "terminology": "선행 (Beneficence)",
+    "terminology_ko": "선행",
+    "terminology_en": "Beneficence",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "내담자의 복지와 이익을 적극적으로 증진하기 위해 행동해야 한다는 윤리 원칙이다. 상담자는 내담자에게 도움이 되는 방향으로 전문적 역량을 발휘해야 한다.",
+    "definition_en": "The ethical principle requiring counselors to actively promote the welfare and benefit of clients. Counselors should exercise professional competence in ways that are helpful to clients.",
+    "significance": "키치너의 5대 원칙 중 하나로, 상담의 근본 목적인 내담자 복지 증진을 윤리적 의무로 규정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "카렌 키치너",
+        "name_en": "Karen Kitchener",
+        "contribution": "선행을 상담윤리의 5대 도덕 원칙 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무해",
+        "name_en": "Nonmaleficence",
+        "id": "ETHICS_NM_012"
+      },
+      {
+        "name_ko": "자율성",
+        "name_en": "Autonomy",
+        "id": "ETHICS_AU_010"
+      },
+      {
+        "name_ko": "역량 범위",
+        "name_en": "Scope of Competence",
+        "id": "ETHICS_SC_004"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선행 = '좋은 일을 하라' - 내담자에게 도움이 되도록 적극적으로 행동한다",
+      "differential": "선행(beneficence)은 적극적으로 이익을 증진하는 것이고, 무해(nonmaleficence)는 해를 끼치지 않는 것이다. '좋은 일을 하기' vs '나쁜 일을 하지 않기'",
+      "key_point": "선행은 단순히 해를 피하는 것(무해)을 넘어, 적극적으로 내담자의 복지를 증진해야 한다는 의무이다",
+      "common_mistake": "선행을 내담자의 모든 요구를 충족시키는 것으로 오해하기 쉬우나, 전문적 판단에 기반한 내담자 이익 증진이다"
+    }
+  },
+  {
+    "id": "ETHICS_NM_012",
+    "terminology": "무해 (Nonmaleficence)",
+    "terminology_ko": "무해",
+    "terminology_en": "Nonmaleficence",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "내담자에게 해를 끼치지 않아야 한다는 윤리 원칙으로, '우선 해를 끼치지 말라(Primum non nocere)'의 원칙이다. 상담자의 행동이 내담자에게 해가 되지 않도록 주의해야 한다.",
+    "definition_en": "The ethical principle of not causing harm to clients, embodied in the maxim 'First, do no harm (Primum non nocere).' Counselors must take care that their actions do not harm clients.",
+    "significance": "가장 기본적인 윤리 원칙으로, 다른 모든 원칙에 우선하며 상담자의 일차적 의무이다.",
+    "key_researchers": [
+      {
+        "name_ko": "카렌 키치너",
+        "name_en": "Karen Kitchener",
+        "contribution": "무해를 상담윤리의 5대 도덕 원칙 중 가장 기본적인 원칙으로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "선행",
+        "name_en": "Beneficence",
+        "id": "ETHICS_BN_011"
+      },
+      {
+        "name_ko": "경계 위반",
+        "name_en": "Boundary Violation",
+        "id": "ETHICS_BV_009"
+      },
+      {
+        "name_ko": "역량 범위",
+        "name_en": "Scope of Competence",
+        "id": "ETHICS_SC_004"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "무해 = '해를 끼치지 말라' - 의료 윤리의 황금률을 상담에 적용",
+      "differential": "무해는 해를 끼치지 않는 소극적 의무이고, 선행은 이익을 증진하는 적극적 의무이다",
+      "key_point": "무해 원칙은 다른 원칙과 충돌할 때 일반적으로 우선하며, '해를 끼치지 않는 것'이 최소한의 의무이다",
+      "common_mistake": "무해를 '아무것도 하지 않는 것'으로 오해하기 쉬우나, 부작위(omission)에 의한 해도 포함한다"
+    }
+  },
+  {
+    "id": "ETHICS_JU_013",
+    "terminology": "정의 (Justice)",
+    "terminology_ko": "정의",
+    "terminology_en": "Justice",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "모든 내담자에게 공정하고 공평한 서비스를 제공해야 한다는 윤리 원칙으로, 인종, 성별, 성적 지향, 종교, 사회경제적 지위 등에 의한 차별 없이 평등한 접근을 보장한다.",
+    "definition_en": "The ethical principle requiring fair and equitable services for all clients, guaranteeing equal access without discrimination based on race, gender, sexual orientation, religion, socioeconomic status, or other factors.",
+    "significance": "키치너의 5대 원칙 중 하나로, 다문화적 역량과 사회정의 실천의 윤리적 기반이다.",
+    "key_researchers": [
+      {
+        "name_ko": "카렌 키치너",
+        "name_en": "Karen Kitchener",
+        "contribution": "정의를 상담윤리의 5대 도덕 원칙 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "다문화 역량",
+        "name_en": "Multicultural Competence",
+        "id": "ETHICS_MC_014"
+      },
+      {
+        "name_ko": "자율성",
+        "name_en": "Autonomy",
+        "id": "ETHICS_AU_010"
+      }
+    ],
+    "sub_types": [
+      "분배적 정의",
+      "절차적 정의"
+    ],
+    "quiz_hints": {
+      "mnemonic": "정의 = '공정하게' - 모든 내담자에게 차별 없이 공평한 서비스를 제공한다",
+      "differential": "정의는 공평한 대우에 관한 원칙이고, 선행은 이익 증진에 관한 원칙이다",
+      "key_point": "정의는 동일한 대우(equality)만이 아니라, 개인의 필요에 따른 공평한 대우(equity)를 포함한다",
+      "common_mistake": "정의를 모든 내담자에게 동일한 서비스를 제공하는 것으로 오해하기 쉬우나, 개인의 필요에 맞는 공평한 서비스가 핵심이다"
+    }
+  },
+  {
+    "id": "ETHICS_MC_014",
+    "terminology": "다문화 역량 (Multicultural Competence)",
+    "terminology_ko": "다문화 역량",
+    "terminology_en": "Multicultural Competence",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 다양한 문화적 배경을 가진 내담자를 효과적으로 상담하기 위해 갖추어야 할 인식, 지식, 기술의 총체이다. 자신의 문화적 편견을 인식하고, 내담자의 문화를 이해하며, 문화적으로 적합한 개입을 사용하는 능력이다.",
+    "definition_en": "The totality of awareness, knowledge, and skills that counselors must possess to effectively counsel clients from diverse cultural backgrounds. It includes recognizing one's own cultural biases, understanding clients' cultures, and using culturally appropriate interventions.",
+    "significance": "현대 상담에서 윤리적 실천의 필수 요소로, 문화적 차이를 고려하지 않은 상담은 내담자에게 해를 끼칠 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "데럴드 수",
+        "name_en": "Derald Wing Sue",
+        "contribution": "다문화 상담 역량의 3차원 모델(인식, 지식, 기술)을 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정의",
+        "name_en": "Justice",
+        "id": "ETHICS_JU_013"
+      },
+      {
+        "name_ko": "자기인식",
+        "name_en": "Self-Awareness",
+        "id": "PROCESS_SA_023"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [
+      "인식 (자기 문화적 편견의 자각)",
+      "지식 (내담자 문화에 대한 이해)",
+      "기술 (문화적으로 적합한 개입)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "다문화 역량의 3요소 = 인지기(인식, 지식, 기술)",
+      "differential": "다문화 인식은 자신의 편견을 자각하는 것이고, 다문화 지식은 다른 문화에 대해 배우는 것이며, 다문화 기술은 적합한 개입을 실천하는 것이다",
+      "key_point": "다문화 역량은 특정 문화에 대한 전문 지식만이 아니라, 모든 내담자의 문화적 맥락을 존중하는 태도가 기본이다",
+      "common_mistake": "다문화 역량을 외국인 내담자에게만 필요한 것으로 오해하기 쉬우나, 성별, 세대, 사회계층 등 모든 문화적 차이에 적용된다"
+    }
+  },
+  {
+    "id": "ETHICS_FD_015",
+    "terminology": "충실성 (Fidelity)",
+    "terminology_ko": "충실성",
+    "terminology_en": "Fidelity",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 내담자와의 약속과 신뢰를 지키고 전문적 관계에서 정직하고 성실하게 행동해야 한다는 윤리 원칙이다. 신뢰의 기반 위에 치료적 관계가 형성된다.",
+    "definition_en": "The ethical principle that counselors should keep promises and trust with clients and act honestly and faithfully in the professional relationship. The therapeutic relationship is formed on the foundation of trust.",
+    "significance": "키치너의 5대 원칙 중 하나로, 상담 관계의 신뢰 기반을 유지하는 핵심 원칙이다.",
+    "key_researchers": [
+      {
+        "name_ko": "카렌 키치너",
+        "name_en": "Karen Kitchener",
+        "contribution": "충실성을 상담윤리의 5대 도덕 원칙 중 하나로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_003"
+      },
+      {
+        "name_ko": "작업동맹",
+        "name_en": "Working Alliance",
+        "id": "PROCESS_WA_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "충실성 = '약속을 지킨다' - 신뢰는 상담 관계의 생명줄이다",
+      "differential": "충실성은 약속과 신뢰를 지키는 원칙이고, 선행은 적극적으로 이익을 증진하는 원칙이다",
+      "key_point": "충실성은 비밀보장, 사전동의 이행, 약속 시간 준수 등 구체적 행동으로 실천된다",
+      "common_mistake": "충실성을 단순한 '정직'으로만 이해하기 쉬우나, 약속 이행, 신뢰 유지, 성실한 태도를 모두 포함하는 포괄적 원칙이다"
+    }
+  },
+  {
+    "id": "ETHICS_EX_016",
+    "terminology": "착취 (Exploitation)",
+    "terminology_ko": "착취",
+    "terminology_en": "Exploitation",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 내담자와의 관계에서 발생하는 권력 차이를 이용하여 상담자 자신의 이익(성적, 경제적, 정서적 등)을 추구하는 비윤리적 행위이다.",
+    "definition_en": "Unethical behavior in which the counselor uses the power differential inherent in the counseling relationship to pursue personal gain (sexual, financial, emotional, etc.).",
+    "significance": "상담 관계의 본질적 권력 불균형을 인식하고 이를 악용하지 않는 것이 상담자의 기본적 윤리적 의무이다.",
+    "key_researchers": [
+      {
+        "name_ko": "케네스 포프",
+        "name_en": "Kenneth Pope",
+        "contribution": "상담자의 착취적 행동, 특히 성적 착취의 해로움과 예방 방안을 연구하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경계 위반",
+        "name_en": "Boundary Violation",
+        "id": "ETHICS_BV_009"
+      },
+      {
+        "name_ko": "다중관계",
+        "name_en": "Multiple Relationships",
+        "id": "ETHICS_MR_005"
+      },
+      {
+        "name_ko": "무해",
+        "name_en": "Nonmaleficence",
+        "id": "ETHICS_NM_012"
+      }
+    ],
+    "sub_types": [
+      "성적 착취",
+      "경제적 착취",
+      "정서적 착취"
+    ],
+    "quiz_hints": {
+      "mnemonic": "착취 = 상담자의 '권력'을 자기 이익을 위해 남용하는 것",
+      "differential": "경계 위반은 전문적 경계를 넘는 행위의 총칭이고, 착취는 그 중에서 상담자가 자기 이익을 위해 권력을 남용하는 것이다",
+      "key_point": "상담 관계에는 본질적으로 권력 불균형이 존재하며, 이 불균형을 인식하고 책임감 있게 관리하는 것이 상담자의 의무이다",
+      "common_mistake": "착취가 명백한 악의에서만 발생한다고 오해하기 쉬우나, 상담자가 자신의 정서적 필요를 내담자를 통해 충족하는 미묘한 형태도 착취에 해당할 수 있다"
+    }
+  },
+  {
+    "id": "ETHICS_DW_017",
+    "terminology": "경고의 의무 (Duty to Warn)",
+    "terminology_ko": "경고의 의무",
+    "terminology_en": "Duty to Warn",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "내담자가 특정 제3자에게 심각하고 임박한 위험을 가할 가능성이 있을 때, 상담자가 그 제3자에게 위험을 경고해야 하는 법적·윤리적 의무이다. 타라소프 판결에서 확립된 원칙이다.",
+    "definition_en": "The legal and ethical obligation of a counselor to warn a specific third party when a client poses a serious and imminent risk of harm to that person. This principle was established by the Tarasoff ruling.",
+    "significance": "비밀보장과 타인 보호 의무의 충돌을 다루는 가장 유명한 법적 판례로, 상담 윤리와 법의 교차점을 대표한다.",
+    "key_researchers": [
+      {
+        "name_ko": "캘리포니아 대법원",
+        "name_en": "California Supreme Court",
+        "contribution": "타라소프 대 캘리포니아 대학 리전트 사건(1976)에서 경고의 의무를 확립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "ETHICS_LC_006"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_003"
+      },
+      {
+        "name_ko": "보호의 의무",
+        "name_en": "Duty to Protect",
+        "id": "ETHICS_DP_020"
+      },
+      {
+        "name_ko": "타라소프 판결",
+        "name_en": "Tarasoff Decision",
+        "id": "ETHICS_TD_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "경고의 의무 = 타라소프 판결 - '비밀보장보다 잠재적 피해자의 생명이 우선'",
+      "differential": "경고의 의무(duty to warn)는 잠재적 피해자에게 직접 알리는 것이고, 보호의 의무(duty to protect)는 피해를 예방하기 위한 합리적 조치를 취하는 것이다",
+      "key_point": "경고의 의무가 적용되려면 위험이 특정인에 대한 것이고, 심각하고 임박해야 한다",
+      "common_mistake": "모든 폭력 위험에 경고의 의무가 적용된다고 오해하기 쉬우나, 특정인에 대한 구체적이고 임박한 위험에만 적용된다"
+    }
+  },
+  {
+    "id": "ETHICS_DR_018",
+    "terminology": "통보의 의무 (Duty to Report)",
+    "terminology_ko": "통보의 의무",
+    "terminology_en": "Duty to Report",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "아동학대, 노인학대, 장애인학대가 의심될 때 상담자가 관할 기관에 신고해야 하는 법적 의무이다. 대부분의 국가에서 상담자는 의무 신고자(mandated reporter)로 지정되어 있다.",
+    "definition_en": "The legal obligation of a counselor to report to relevant authorities when there is suspicion of child abuse, elder abuse, or abuse of persons with disabilities. In most jurisdictions, counselors are designated as mandated reporters.",
+    "significance": "취약 집단을 보호하기 위한 법적 의무로, 비밀보장 원칙의 가장 중요한 예외 중 하나이다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "의무 신고의 법적·윤리적 근거와 실천 지침을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "ETHICS_LC_006"
+      },
+      {
+        "name_ko": "경고의 의무",
+        "name_en": "Duty to Warn",
+        "id": "ETHICS_DW_017"
+      },
+      {
+        "name_ko": "무해",
+        "name_en": "Nonmaleficence",
+        "id": "ETHICS_NM_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "통보의 의무 = 학대가 의심되면 '반드시 신고'해야 한다 - 선택이 아닌 법적 의무",
+      "differential": "경고의 의무는 잠재적 피해자에게 직접 경고하는 것이고, 통보의 의무는 관할 기관에 신고하는 것이다",
+      "key_point": "학대의 '확인'이 아닌 '의심'만으로도 신고 의무가 발생하며, 신고 판단은 상담자의 임상적 판단에 맡겨진다",
+      "common_mistake": "학대를 확인한 후에만 신고해야 한다고 오해하기 쉬우나, 합리적 의심만으로도 신고 의무가 발생한다"
+    }
+  },
+  {
+    "id": "ETHICS_BC_019",
+    "terminology": "경계 횡단 (Boundary Crossing)",
+    "terminology_ko": "경계 횡단",
+    "terminology_en": "Boundary Crossing",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "전문적 관계의 일반적 경계에서 벗어나지만 내담자에게 해를 끼치지 않으며 오히려 치료적으로 유익할 수 있는 일시적 변화이다. 경계 위반과 구별되며, 맥락에 따라 적절할 수 있다.",
+    "definition_en": "A temporary departure from the usual boundaries of the professional relationship that does not harm the client and may even be therapeutically beneficial. Distinguished from boundary violations, it can be appropriate depending on context.",
+    "significance": "경계 위반과의 구별이 중요한 개념으로, 맥락에 따라 경계 횡단이 치료적으로 유익할 수 있음을 인정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "아놀드 라자러스",
+        "name_en": "Arnold Lazarus",
+        "contribution": "경계 횡단과 경계 위반의 구별을 강조하고, 경직된 경계가 오히려 해로울 수 있음을 주장하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경계 위반",
+        "name_en": "Boundary Violation",
+        "id": "ETHICS_BV_009"
+      },
+      {
+        "name_ko": "다중관계",
+        "name_en": "Multiple Relationships",
+        "id": "ETHICS_MR_005"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "경계 횡단 = 경계를 '잠시 넘는 것' - 해롭지 않고 도움이 될 수 있다",
+      "differential": "경계 횡단은 해를 끼치지 않는 일시적 변화이고, 경계 위반은 내담자에게 해를 끼치는 착취적 행위이다",
+      "key_point": "예: 위기 상담에서 내담자를 차로 데려다주는 것은 경계 횡단(상황에 따라 적절), 내담자와 성적 관계를 맺는 것은 경계 위반(항상 부적절)",
+      "common_mistake": "모든 경계 이탈을 윤리 위반으로 판단하기 쉬우나, 맥락에 따라 치료적으로 유익한 경계 횡단이 있을 수 있다"
+    }
+  },
+  {
+    "id": "ETHICS_DP_020",
+    "terminology": "보호의 의무 (Duty to Protect)",
+    "terminology_ko": "보호의 의무",
+    "terminology_en": "Duty to Protect",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "내담자나 제3자가 심각한 위험에 처해 있을 때, 상담자가 해당 위험을 방지하기 위해 합리적인 조치를 취해야 하는 의무이다. 경고의 의무보다 더 넓은 개념으로, 입원, 경찰 통보 등 다양한 보호 조치를 포함한다.",
+    "definition_en": "The obligation of a counselor to take reasonable steps to prevent harm when a client or third party faces serious risk. A broader concept than duty to warn, it includes various protective measures such as hospitalization and police notification.",
+    "significance": "경고의 의무의 확장 개념으로, 상담자에게 위험을 경고하는 것을 넘어 실질적인 보호 조치를 취할 책임을 부여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "캘리포니아 대법원",
+        "name_en": "California Supreme Court",
+        "contribution": "타라소프 II 판결(1976)에서 경고의 의무를 보호의 의무로 확장하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경고의 의무",
+        "name_en": "Duty to Warn",
+        "id": "ETHICS_DW_017"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "ETHICS_LC_006"
+      },
+      {
+        "name_ko": "자살 위기 개입",
+        "name_en": "Suicide Crisis Intervention",
+        "id": "ETHICS_SI_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "보호의 의무 = '말뿐 아니라 행동'으로 보호해야 한다 - 경고를 넘어 실질적 조치",
+      "differential": "경고의 의무는 잠재적 피해자에게 알리는 것이고, 보호의 의무는 합리적인 보호 조치를 실제로 취하는 것이다",
+      "key_point": "보호의 의무는 경고뿐 아니라 입원, 경찰 통보, 내담자 보호 등 합리적으로 가능한 모든 조치를 포함한다",
+      "common_mistake": "보호의 의무를 경고의 의무와 동일시하기 쉬우나, 보호의 의무가 더 넓은 범위의 행동을 요구한다"
+    }
+  },
+  {
+    "id": "ETHICS_TD_021",
+    "terminology": "타라소프 판결 (Tarasoff Decision)",
+    "terminology_ko": "타라소프 판결",
+    "terminology_en": "Tarasoff Decision",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "1976년 캘리포니아 대법원의 판결로, 치료자가 내담자의 위험한 행동으로부터 제3자를 보호할 의무가 있다고 판시한 역사적 판결이다. '개인의 비밀보장은 공공의 안전 앞에 양보해야 한다'는 원칙을 확립하였다.",
+    "definition_en": "A 1976 California Supreme Court ruling that established the therapist's duty to protect third parties from dangerous actions by clients. It established the principle that 'the protective privilege ends where the public peril begins.'",
+    "significance": "상담윤리와 법의 역사에서 가장 중요한 판례로, 비밀보장의 한계와 보호의 의무에 대한 법적 기준을 확립하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "캘리포니아 대법원",
+        "name_en": "California Supreme Court",
+        "contribution": "타라소프 대 캘리포니아 대학 리전트 사건에서 보호의 의무를 법적으로 확립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경고의 의무",
+        "name_en": "Duty to Warn",
+        "id": "ETHICS_DW_017"
+      },
+      {
+        "name_ko": "보호의 의무",
+        "name_en": "Duty to Protect",
+        "id": "ETHICS_DP_020"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "ETHICS_LC_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "타라소프 = '비밀보장 < 공공안전' - 위험 앞에서 비밀보장은 양보한다",
+      "differential": "타라소프 I 판결(1974)은 경고의 의무를, 타라소프 II 판결(1976)은 보호의 의무를 확립하였다",
+      "key_point": "핵심 원칙: 보호적 특권(비밀보장)은 공공의 위험이 시작되는 곳에서 끝난다",
+      "common_mistake": "타라소프 판결이 모든 지역에 동일하게 적용된다고 오해하기 쉬우나, 주나 국가에 따라 적용 범위가 다르다"
+    }
+  },
+  {
+    "id": "ETHICS_SI_022",
+    "terminology": "자살 위기 개입 (Suicide Crisis Intervention)",
+    "terminology_ko": "자살 위기 개입",
+    "terminology_en": "Suicide Crisis Intervention",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "내담자의 자살 위험을 평가하고 즉각적인 안전을 확보하기 위해 취하는 일련의 전문적 조치이다. 자살 위험성 평가, 안전 계획 수립, 필요시 입원 연계 등을 포함한다.",
+    "definition_en": "A series of professional measures taken to assess suicide risk and ensure the immediate safety of the client, including suicide risk assessment, safety planning, and hospitalization referral when necessary.",
+    "significance": "상담자가 직면하는 가장 심각한 윤리적·법적 상황으로, 적절한 위기 개입 역량은 모든 상담자의 필수 역량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드윈 슈나이드먼",
+        "name_en": "Edwin Shneidman",
+        "contribution": "자살학(suicidology)을 체계화하고 자살 위기 평가와 개입의 기초를 마련하였다"
+      },
+      {
+        "name_ko": "마샤 리네한",
+        "name_en": "Marsha Linehan",
+        "contribution": "변증법적 행동치료(DBT)를 통해 자살 행동 관리의 근거 기반 접근을 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "보호의 의무",
+        "name_en": "Duty to Protect",
+        "id": "ETHICS_DP_020"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "ETHICS_LC_006"
+      },
+      {
+        "name_ko": "변증법적행동치료",
+        "name_en": "Dialectical Behavior Therapy",
+        "id": "THIRDW_DBT_002"
+      }
+    ],
+    "sub_types": [
+      "자살 위험성 평가",
+      "안전 계획",
+      "자살 예방 계약",
+      "위기 입원 연계"
+    ],
+    "quiz_hints": {
+      "mnemonic": "자살 위기 개입 = '생명이 최우선' - 비밀보장보다 안전이 먼저",
+      "differential": "자살 사고(suicidal ideation)는 자살에 대한 생각이고, 자살 의도(suicidal intent)는 실행할 의지와 계획이 있는 것으로 더 위험하다",
+      "key_point": "자살 위험 평가에서는 자살 사고, 계획, 수단, 의도, 보호 요인을 종합적으로 평가해야 한다",
+      "common_mistake": "자살에 대해 직접 물어보면 자살을 유발한다고 오해하기 쉬우나, 직접 묻는 것이 오히려 안전하며 연구에 의해 지지된다"
+    }
+  },
+  {
+    "id": "ETHICS_ED_023",
+    "terminology": "윤리적 의사결정 모델 (Ethical Decision-Making Model)",
+    "terminology_ko": "윤리적 의사결정 모델",
+    "terminology_en": "Ethical Decision-Making Model",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 윤리적 딜레마에 직면했을 때 체계적으로 사고하고 최선의 결정을 내리기 위한 단계적 과정 모델이다. 문제 인식, 관련 윤리 강령 확인, 법적 요건 검토, 대안 탐색, 결과 평가 등을 포함한다.",
+    "definition_en": "A step-by-step process model for counselors to think systematically and make the best decisions when facing ethical dilemmas, including problem identification, review of relevant ethical codes, examination of legal requirements, exploration of alternatives, and evaluation of consequences.",
+    "significance": "윤리적 딜레마에 대한 직관적 판단을 넘어 체계적이고 합리적인 의사결정을 가능하게 하는 실천적 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "10단계 윤리적 의사결정 모델을 개발하여 체계적 윤리 판단 과정을 제시하였다"
+      },
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "통합적 윤리적 의사결정 모델을 개발하여 다양한 관점의 통합을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "윤리 강령",
+        "name_en": "Code of Ethics",
+        "id": "ETHICS_CO_024"
+      },
+      {
+        "name_ko": "윤리적 딜레마",
+        "name_en": "Ethical Dilemma",
+        "id": "ETHICS_DI_025"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "윤리적 의사결정 = '느낌'이 아닌 '단계적 사고'로 윤리적 판단을 내린다",
+      "differential": "윤리적 의사결정 모델은 판단의 과정을 안내하는 틀이고, 윤리 강령은 판단의 기준이 되는 규범이다",
+      "key_point": "여러 모델이 있지만 공통적으로 문제 인식, 윤리 강령 확인, 법적 검토, 대안 탐색, 동료 자문, 결정, 평가 단계를 포함한다",
+      "common_mistake": "윤리적 의사결정을 단순히 윤리 강령을 찾아보는 것으로 오해하기 쉬우나, 맥락 분석, 동료 자문, 결과 평가 등 종합적 과정이다"
+    }
+  },
+  {
+    "id": "ETHICS_CO_024",
+    "terminology": "윤리 강령 (Code of Ethics)",
+    "terminology_ko": "윤리 강령",
+    "terminology_en": "Code of Ethics",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "전문 학회나 기관이 제정한 상담자의 행동 기준과 윤리적 원칙을 명문화한 규정으로, 전문적 실천의 최소 기준을 제시한다. ACA, APA, 한국상담학회 등 각 학회별로 윤리 강령을 운영한다.",
+    "definition_en": "Codified regulations of behavioral standards and ethical principles established by professional associations, presenting minimum standards for professional practice. Organizations such as ACA, APA, and the Korean Counseling Association each maintain their own ethical codes.",
+    "significance": "상담 전문직의 정체성을 규정하고 내담자를 보호하는 공식적 규범으로, 윤리 위반 시 제재의 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국상담학회(ACA)",
+        "name_en": "American Counseling Association",
+        "contribution": "상담 분야의 대표적 윤리 강령을 제정하고 정기적으로 개정하고 있다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "윤리적 의사결정 모델",
+        "name_en": "Ethical Decision-Making Model",
+        "id": "ETHICS_ED_023"
+      },
+      {
+        "name_ko": "윤리적 딜레마",
+        "name_en": "Ethical Dilemma",
+        "id": "ETHICS_DI_025"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "윤리 강령 = 상담 전문직의 '헌법' - 전문적 실천의 기본 규범",
+      "differential": "윤리 강령은 전문 학회가 제정한 규범이고, 법률은 국가가 제정한 규범이다. 윤리 강령은 법보다 높은 기준을 요구할 수 있다",
+      "key_point": "윤리 강령은 최소 기준(mandatory ethics)이며, 이상적 실천(aspirational ethics)은 그 이상을 지향한다",
+      "common_mistake": "윤리 강령만 따르면 충분하다고 오해하기 쉬우나, 강령이 다루지 못하는 복잡한 상황에서는 윤리적 사고가 추가로 필요하다"
+    }
+  },
+  {
+    "id": "ETHICS_DI_025",
+    "terminology": "윤리적 딜레마 (Ethical Dilemma)",
+    "terminology_ko": "윤리적 딜레마",
+    "terminology_en": "Ethical Dilemma",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "두 개 이상의 윤리 원칙이 충돌하여 어떤 선택을 하더라도 일부 윤리 원칙이 침해될 수밖에 없는 상황이다. 비밀보장과 타인 보호, 자율성과 선행 등이 대표적 충돌 사례이다.",
+    "definition_en": "A situation in which two or more ethical principles conflict so that any choice inevitably violates some ethical principles. Representative conflicts include confidentiality vs. protection of others, and autonomy vs. beneficence.",
+    "significance": "상담 현장에서 흔히 직면하는 현실적 문제로, 윤리적 의사결정 능력이 상담자의 핵심 역량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "다양한 윤리적 딜레마 사례를 분석하고 의사결정 과정을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윤리적 의사결정 모델",
+        "name_en": "Ethical Decision-Making Model",
+        "id": "ETHICS_ED_023"
+      },
+      {
+        "name_ko": "윤리 강령",
+        "name_en": "Code of Ethics",
+        "id": "ETHICS_CO_024"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "윤리적 딜레마 = '진퇴양난' - 어느 쪽을 선택해도 윤리적 손실이 있다",
+      "differential": "윤리적 딜레마는 옳은 것과 옳은 것 사이의 갈등이고, 도덕적 유혹은 옳은 것과 잘못된 것 사이의 선택이다",
+      "key_point": "딜레마 해결의 핵심은 '완벽한 답'을 찾는 것이 아니라, 체계적 사고를 통해 '가장 해가 적은 최선의 선택'을 하는 것이다",
+      "common_mistake": "윤리적 딜레마에 항상 명확한 정답이 있다고 오해하기 쉬우나, 딜레마의 본질은 정답이 없는 상황에서의 판단이다"
+    }
+  },
+  {
+    "id": "ETHICS_RC_026",
+    "terminology": "기록 관리 (Record Keeping)",
+    "terminology_ko": "기록 관리",
+    "terminology_en": "Record Keeping",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담 과정에서의 정보를 체계적으로 문서화하고 안전하게 보관·관리하는 전문적 실천이다. 상담 기록은 치료의 연속성, 법적 보호, 수퍼비전, 연구에 활용된다.",
+    "definition_en": "The professional practice of systematically documenting information from the counseling process and securely storing and managing it. Counseling records are used for treatment continuity, legal protection, supervision, and research.",
+    "significance": "전문적 실천과 법적 보호의 필수 요소로, 적절한 기록 관리가 상담자의 윤리적·법적 의무이다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "상담 기록 관리의 윤리적·법적 기준을 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_003"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_002"
+      }
+    ],
+    "sub_types": [
+      "과정 기록",
+      "진행 노트",
+      "치료 계획",
+      "심리검사 결과"
+    ],
+    "quiz_hints": {
+      "mnemonic": "기록 관리 = '기록하지 않으면 일어나지 않은 것' - 기록은 상담자의 보호막이기도 하다",
+      "differential": "과정 기록은 상담자의 개인 메모이고, 공식 상담 기록은 기관에 보관되는 공식 문서이다",
+      "key_point": "기록은 필요한 최소한의 정보만 포함해야 하며, 내담자의 비밀보장을 고려하여 작성해야 한다",
+      "common_mistake": "기록을 상담 후 언제든 작성해도 된다고 오해하기 쉬우나, 가능한 한 회기 직후에 작성하는 것이 정확성과 법적 보호에 중요하다"
+    }
+  },
+  {
+    "id": "ETHICS_VB_027",
+    "terminology": "가치 중립성 (Value Neutrality)",
+    "terminology_ko": "가치 중립성",
+    "terminology_en": "Value Neutrality",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 자신의 가치관, 신념, 도덕적 판단을 내담자에게 부과하지 않고 내담자의 자기결정을 존중하는 원칙이다. 그러나 완전한 가치 중립은 불가능하므로, 가치의 인식과 관리가 중요하다.",
+    "definition_en": "The principle that counselors should not impose their values, beliefs, and moral judgments on clients and should respect client self-determination. However, since complete value neutrality is impossible, awareness and management of values is important.",
+    "significance": "상담에서 가치의 역할에 대한 핵심적 윤리적 논쟁으로, 상담자의 가치 인식과 내담자 자율성 존중의 균형이 필요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "무조건적 긍정적 존중을 통한 가치 비부과의 원칙을 확립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자율성",
+        "name_en": "Autonomy",
+        "id": "ETHICS_AU_010"
+      },
+      {
+        "name_ko": "다문화 역량",
+        "name_en": "Multicultural Competence",
+        "id": "ETHICS_MC_014"
+      },
+      {
+        "name_ko": "자기인식",
+        "name_en": "Self-Awareness",
+        "id": "PROCESS_SA_023"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PERSON_UPR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "가치 중립성 = 상담자의 '가치 안경'을 인식하되, 내담자에게 씌우지 않는다",
+      "differential": "가치 중립은 가치를 부과하지 않는 것이고, 가치 자유(value-free)는 가치가 없는 것이다. 상담은 가치 자유가 아니라 가치 인식적이어야 한다",
+      "key_point": "완전한 가치 중립은 불가능하므로, 상담자는 자신의 가치를 인식하고 이것이 상담에 미치는 영향을 관리해야 한다",
+      "common_mistake": "가치 중립을 '가치가 없는 것'으로 오해하기 쉬우나, 자신의 가치를 인식하면서도 부과하지 않는 것이다"
+    }
+  },
+  {
+    "id": "ETHICS_PR_028",
+    "terminology": "전문적 정체성 (Professional Identity)",
+    "terminology_ko": "전문적 정체성",
+    "terminology_en": "Professional Identity",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자로서의 역할, 가치, 철학, 역량에 대한 통합적 자기인식으로, 전문직으로서의 소속감과 사명감을 포함한다. 교육, 수퍼비전, 실습을 통해 발달한다.",
+    "definition_en": "An integrated self-awareness of one's role, values, philosophy, and competence as a counselor, including a sense of belonging to and mission within the profession. It develops through education, supervision, and practice.",
+    "significance": "효과적인 상담 실천의 토대이며, 상담자의 지속적 전문성 발달의 동기가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "상담자의 전문적 정체성 발달 과정과 구성 요소를 체계적으로 기술하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기인식",
+        "name_en": "Self-Awareness",
+        "id": "PROCESS_SA_023"
+      },
+      {
+        "name_ko": "수퍼비전",
+        "name_en": "Supervision",
+        "id": "ETHICS_SV_008"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "ETHICS_CE_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "전문적 정체성 = '나는 상담자이다' - 무엇을 하는 사람이고, 왜 하고, 어떻게 하는지에 대한 통합적 인식",
+      "differential": "전문적 정체성은 상담자로서의 자기인식이고, 역할 정체성은 특정 역할(예: 학교상담자, 가족치료사)에 대한 인식이다",
+      "key_point": "전문적 정체성은 교육 초기부터 형성되기 시작하며, 수퍼비전과 실천 경험을 통해 계속 발달한다",
+      "common_mistake": "전문적 정체성을 자격증 취득으로 완성되는 것으로 오해하기 쉬우나, 경력 전체에 걸쳐 발달하는 평생의 과정이다"
+    }
+  },
+  {
+    "id": "ETHICS_CS_029",
+    "terminology": "자문 (Consultation)",
+    "terminology_ko": "자문",
+    "terminology_en": "Consultation",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 윤리적 딜레마나 어려운 사례에 직면했을 때 동료 전문가나 수퍼바이저에게 조언과 관점을 구하는 전문적 실천이다. 자문은 상담자의 판단력을 높이고 내담자 보호를 강화한다.",
+    "definition_en": "The professional practice of seeking advice and perspectives from peer professionals or supervisors when a counselor faces ethical dilemmas or difficult cases. Consultation enhances the counselor's judgment and strengthens client protection.",
+    "significance": "윤리적 의사결정 과정의 핵심 단계로, 동료 자문을 통해 편향을 방지하고 다양한 관점을 고려할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 웰펠",
+        "name_en": "Elizabeth Welfel",
+        "contribution": "동료 자문을 윤리적 의사결정 모델의 핵심 단계로 포함시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수퍼비전",
+        "name_en": "Supervision",
+        "id": "ETHICS_SV_008"
+      },
+      {
+        "name_ko": "윤리적 의사결정 모델",
+        "name_en": "Ethical Decision-Making Model",
+        "id": "ETHICS_ED_023"
+      },
+      {
+        "name_ko": "역량 범위",
+        "name_en": "Scope of Competence",
+        "id": "ETHICS_SC_004"
+      }
+    ],
+    "sub_types": [
+      "동료 자문",
+      "전문가 자문",
+      "법적 자문"
+    ],
+    "quiz_hints": {
+      "mnemonic": "자문 = '혼자 고민하지 말고' 전문가에게 물어보라",
+      "differential": "자문(consultation)은 동등한 전문가 간의 비평가적 협력이고, 수퍼비전(supervision)은 평가적 요소를 포함하는 지도 관계이다",
+      "key_point": "자문은 윤리적 의사결정에서 상담자의 주관적 편향을 방지하고 다양한 관점을 확보하는 핵심 전략이다",
+      "common_mistake": "자문을 능력 부족의 표시로 오해하기 쉬우나, 전문적 책임감과 내담자 보호 의지의 표현이다"
+    }
+  },
+  {
+    "id": "ETHICS_BF_030",
+    "terminology": "소진 (Burnout)",
+    "terminology_ko": "소진",
+    "terminology_en": "Burnout",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "장기간의 정서적 부담과 스트레스로 인해 상담자가 경험하는 신체적·정서적·심리적 탈진 상태로, 정서적 소진, 비인격화, 개인적 성취감 감소가 핵심 증상이다.",
+    "definition_en": "A state of physical, emotional, and psychological exhaustion experienced by counselors due to prolonged emotional demands and stress, with emotional exhaustion, depersonalization, and reduced personal accomplishment as core symptoms.",
+    "significance": "상담자의 소진은 내담자 서비스의 질을 저하시키므로, 자기돌봄은 윤리적 의무이다. 소진된 상담자는 무해 원칙을 위반할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "크리스티나 마슬라크",
+        "name_en": "Christina Maslach",
+        "contribution": "소진의 3요인 모델(정서적 소진, 비인격화, 개인적 성취감 감소)과 측정 도구(MBI)를 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기돌봄",
+        "name_en": "Self-Care",
+        "id": "ETHICS_SCR_031"
+      },
+      {
+        "name_ko": "자기인식",
+        "name_en": "Self-Awareness",
+        "id": "PROCESS_SA_023"
+      },
+      {
+        "name_ko": "무해",
+        "name_en": "Nonmaleficence",
+        "id": "ETHICS_NM_012"
+      },
+      {
+        "name_ko": "역전이",
+        "name_en": "Countertransference",
+        "id": "PROCESS_CT_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소진 = 촛불이 '다 타버린' 것 - 정서적으로 완전히 방전된 상태",
+      "differential": "소진(burnout)은 장기적 직무 스트레스로 인한 것이고, 대리외상(vicarious trauma)은 내담자의 외상에 간접 노출되어 생기는 것이다",
+      "key_point": "마슬라크의 3요인: 정서적 소진(에너지 고갈), 비인격화(내담자에 대한 냉소), 개인적 성취감 감소(무력감)",
+      "common_mistake": "소진을 개인의 약함으로 오해하기 쉬우나, 조직적·환경적 요인도 중요하며 예방적 자기돌봄이 윤리적 의무이다"
+    }
+  },
+  {
+    "id": "ETHICS_SCR_031",
+    "terminology": "자기돌봄 (Self-Care)",
+    "terminology_ko": "자기돌봄",
+    "terminology_en": "Self-Care",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 자신의 신체적·정서적·심리적·영적 건강을 유지하기 위해 의도적으로 실천하는 활동이다. 소진을 예방하고 전문적 효과성을 유지하기 위한 윤리적 의무로 인식된다.",
+    "definition_en": "Intentional activities counselors practice to maintain their physical, emotional, psychological, and spiritual health. It is recognized as an ethical obligation to prevent burnout and maintain professional effectiveness.",
+    "significance": "상담자의 자기돌봄은 단순한 개인적 선택이 아니라, 내담자에게 효과적인 서비스를 제공하기 위한 윤리적 의무이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "상담자 자기돌봄을 윤리적 의무로 강조하고 구체적 실천 전략을 제시하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "소진",
+        "name_en": "Burnout",
+        "id": "ETHICS_BF_030"
+      },
+      {
+        "name_ko": "자기인식",
+        "name_en": "Self-Awareness",
+        "id": "PROCESS_SA_023"
+      },
+      {
+        "name_ko": "무해",
+        "name_en": "Nonmaleficence",
+        "id": "ETHICS_NM_012"
+      }
+    ],
+    "sub_types": [
+      "신체적 자기돌봄",
+      "정서적 자기돌봄",
+      "사회적 자기돌봄",
+      "영적 자기돌봄",
+      "전문적 자기돌봄"
+    ],
+    "quiz_hints": {
+      "mnemonic": "자기돌봄 = '자신의 컵을 먼저 채워야' 남의 컵에 부을 수 있다",
+      "differential": "자기돌봄은 소진을 예방하는 적극적 실천이고, 수퍼비전은 전문적 발달과 사례 관리를 위한 지도적 관계이다",
+      "key_point": "ACA 윤리 강령은 상담자가 자기돌봄을 통해 전문적 역량을 유지할 윤리적 의무가 있다고 명시한다",
+      "common_mistake": "자기돌봄을 이기적이거나 사치스러운 것으로 오해하기 쉬우나, 내담자에게 해를 끼치지 않기 위한 윤리적 의무이다"
+    }
+  },
+  {
+    "id": "ETHICS_VT_032",
+    "terminology": "대리외상 (Vicarious Trauma)",
+    "terminology_ko": "대리외상",
+    "terminology_en": "Vicarious Trauma",
+    "category": "ETHICS",
+    "category_name": "상담윤리 (Counseling Ethics)",
+    "definition": "상담자가 외상 경험이 있는 내담자와의 공감적 작업을 통해 간접적으로 외상 반응을 경험하는 현상으로, 세계관의 변화, 대인관계 어려움, 침습적 이미지 등이 나타날 수 있다.",
+    "definition_en": "A phenomenon in which counselors indirectly experience trauma responses through empathic work with clients who have experienced trauma, potentially manifesting as worldview changes, interpersonal difficulties, and intrusive imagery.",
+    "significance": "외상 전문 상담자의 직업적 위험으로, 이를 인식하고 예방하는 것이 상담자의 전문적 건강과 내담자 서비스 질을 유지하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로리 안 페를만",
+        "name_en": "Laurie Anne Pearlman",
+        "contribution": "대리외상 개념을 최초로 제안하고 구성주의적 자기발달이론(CSDT)으로 설명하였다"
+      },
+      {
+        "name_ko": "카렌 사아크비트니",
+        "name_en": "Karen Saakvitne",
+        "contribution": "대리외상의 영향과 예방 전략을 체계적으로 연구하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "소진",
+        "name_en": "Burnout",
+        "id": "ETHICS_BF_030"
+      },
+      {
+        "name_ko": "자기돌봄",
+        "name_en": "Self-Care",
+        "id": "ETHICS_SCR_031"
+      },
+      {
+        "name_ko": "역전이",
+        "name_en": "Countertransference",
+        "id": "PROCESS_CT_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대리외상 = 내담자의 외상이 상담자에게 '대리(간접) 전달'되는 것",
+      "differential": "소진은 직무 스트레스 누적으로 인한 전반적 탈진이고, 대리외상은 외상 내담자와의 공감적 작업으로 인한 특정 외상 반응이다",
+      "key_point": "대리외상은 상담자의 세계관(안전감, 신뢰감, 통제감 등)에 변화를 일으키며, 이는 공감 능력의 부산물이다",
+      "common_mistake": "대리외상을 단순한 스트레스나 소진으로 오해하기 쉬우나, 세계관의 변화라는 독특한 특성이 있다"
+    }
+  }
+]
