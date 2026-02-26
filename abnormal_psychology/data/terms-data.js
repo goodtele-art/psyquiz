@@ -2071,7 +2071,7 @@ TERMS_DATA.ASSESS = [
         "id": "ASSESS_MRF_010"
       },
       {
-        "name_ko": "로샤흐 검사",
+        "name_ko": "로르샤흐 검사",
         "name_en": "Rorschach Test",
         "id": "ASSESS_ROR_014"
       },
@@ -2316,8 +2316,8 @@ TERMS_DATA.ASSESS = [
   },
   {
     "id": "ASSESS_ROR_015",
-    "terminology": "로샤흐 잉크반점 검사 (Rorschach Inkblot Test)",
-    "terminology_ko": "로샤흐 잉크반점 검사",
+    "terminology": "로르샤흐 잉크반점 검사 (Rorschach Inkblot Test)",
+    "terminology_ko": "로르샤흐 잉크반점 검사",
     "terminology_en": "Rorschach Inkblot Test",
     "category": "ASSESS",
     "category_name": "평가와 진단분류 (Assessment and Classification)",
@@ -2326,14 +2326,14 @@ TERMS_DATA.ASSESS = [
     "significance": "가장 오래되고 널리 연구된 투사적 검사로, Exner의 종합체계를 통해 과학적 채점과 해석이 가능해졌다.",
     "key_researchers": [
       {
-        "name_ko": "헤르만 로샤흐",
+        "name_ko": "헤르만 로르샤흐",
         "name_en": "Hermann Rorschach",
         "contribution": "1921년 잉크반점 검사를 개발하여 지각 과정을 통한 성격 평가의 새로운 방법론을 제시했다."
       },
       {
         "name_ko": "존 엑스너",
         "name_en": "John Exner",
-        "contribution": "종합체계(Comprehensive System)를 개발하여 로샤흐 검사의 채점과 해석을 표준화하고 과학적 기반을 강화했다."
+        "contribution": "종합체계(Comprehensive System)를 개발하여 로르샤흐 검사의 채점과 해석을 표준화하고 과학적 기반을 강화했다."
       }
     ],
     "related_concepts": [
@@ -2355,10 +2355,10 @@ TERMS_DATA.ASSESS = [
     ],
     "sub_types": [],
     "quiz_hints": {
-      "mnemonic": "로샤흐 = 잉크얼룩에서 '무엇이 보이는가?' → 투사적 검사의 대명사",
-      "differential": "로샤흐는 비구조화된 자극(잉크반점)에 대한 반응을 분석하고, MMPI는 구조화된 질문에 대한 자기보고를 분석한다.",
+      "mnemonic": "로르샤흐 = 잉크얼룩에서 '무엇이 보이는가?' → 투사적 검사의 대명사",
+      "differential": "로르샤흐는 비구조화된 자극(잉크반점)에 대한 반응을 분석하고, MMPI는 구조화된 질문에 대한 자기보고를 분석한다.",
       "key_point": "Exner의 종합체계(CS)와 후속 R-PAS(Rorschach Performance Assessment System)를 통해 객관적 채점이 가능하다.",
-      "common_mistake": "로샤흐 반응의 '내용'만으로 해석하는 것 — 실제로는 반응의 위치, 결정인, 형태질, 내용 등을 종합적으로 채점한다."
+      "common_mistake": "로르샤흐 반응의 '내용'만으로 해석하는 것 — 실제로는 반응의 위치, 결정인, 형태질, 내용 등을 종합적으로 채점한다."
     }
   },
   {
@@ -2385,7 +2385,7 @@ TERMS_DATA.ASSESS = [
     ],
     "related_concepts": [
       {
-        "name_ko": "로샤흐 검사",
+        "name_ko": "로르샤흐 검사",
         "name_en": "Rorschach Test",
         "id": "ASSESS_ROR_015"
       },
@@ -2403,7 +2403,7 @@ TERMS_DATA.ASSESS = [
     "sub_types": [],
     "quiz_hints": {
       "mnemonic": "TAT = 그림 보고 '이야기 만들기' → 투사된 욕구와 갈등 분석",
-      "differential": "TAT는 구조화된 사회적 장면을 사용하고, 로샤흐는 비구조화된 잉크반점을 사용한다.",
+      "differential": "TAT는 구조화된 사회적 장면을 사용하고, 로르샤흐는 비구조화된 잉크반점을 사용한다.",
       "key_point": "Murray의 욕구-압력(need-press) 이론에 기반하여 개인의 주요 욕구와 환경적 압력을 파악한다.",
       "common_mistake": "TAT의 '투사' 해석을 과도하게 적용하는 것 — 이야기 내용이 직접적으로 내담자의 실제 경험을 반영하지 않을 수 있다."
     }
@@ -3098,7 +3098,7 @@ TERMS_DATA.ASSESS = [
         "id": "ASSESS_WAI_017"
       },
       {
-        "name_ko": "로샤흐 검사",
+        "name_ko": "로르샤흐 검사",
         "name_en": "Rorschach Test",
         "id": "ASSESS_ROR_015"
       },
@@ -3115,7 +3115,7 @@ TERMS_DATA.ASSESS = [
       },
       {
         "name": "투사적 검사 (Projective Test)",
-        "description": "로샤흐, TAT처럼 모호한 자극에 대한 자유 반응"
+        "description": "로르샤흐, TAT처럼 모호한 자극에 대한 자유 반응"
       }
     ],
     "quiz_hints": {
@@ -19770,7 +19770,7 @@ TERMS_DATA.NEURO = [
         "id": "NEURO_SCD_009"
       },
       {
-        "name_ko": "사반트증후군",
+        "name_ko": "서번트증후군",
         "name_en": "Savant Syndrome",
         "id": "NEURO_SVT_014"
       }
@@ -20288,7 +20288,7 @@ TERMS_DATA.NEURO = [
         "id": "NEURO_TOM_011"
       },
       {
-        "name_ko": "사반트증후군",
+        "name_ko": "서번트증후군",
         "name_en": "Savant Syndrome",
         "id": "NEURO_SVT_014"
       }
@@ -20363,8 +20363,8 @@ TERMS_DATA.NEURO = [
   },
   {
     "id": "NEURO_SVT_014",
-    "terminology": "사반트증후군 (Savant Syndrome)",
-    "terminology_ko": "사반트증후군",
+    "terminology": "서번트증후군 (Savant Syndrome)",
+    "terminology_ko": "서번트증후군",
     "terminology_en": "Savant Syndrome",
     "category": "NEURO",
     "category_name": "신경발달 및 신경인지장애 (Neurodevelopmental and Neurocognitive Disorders)",
@@ -20375,7 +20375,7 @@ TERMS_DATA.NEURO = [
       {
         "name_ko": "대럴드 트레퍼트",
         "name_en": "Darold Treffert",
-        "contribution": "사반트증후군에 대한 가장 포괄적인 임상 연구를 수행하고 분류 체계를 제안했다."
+        "contribution": "서번트증후군에 대한 가장 포괄적인 임상 연구를 수행하고 분류 체계를 제안했다."
       }
     ],
     "related_concepts": [
@@ -20397,10 +20397,10 @@ TERMS_DATA.NEURO = [
     ],
     "sub_types": [],
     "quiz_hints": {
-      "mnemonic": "사반트 = 전반적 약점 속의 섬처럼 돌출된 특별한 재능(islands of genius)",
-      "differential": "사반트증후군은 장애가 있음에도 특정 영역의 비범한 재능을 보이는 것이고, 영재성(giftedness)은 전반적 높은 지적 능력을 의미한다.",
-      "key_point": "사반트의 약 50%가 ASD를 가지고 있으며, ASD 인구의 약 10%가 사반트 능력을 보인다.",
-      "common_mistake": "모든 자폐인이 사반트 능력을 가지고 있다고 오해하는 것 — 사반트는 ASD의 소수에서만 나타나는 현상이다."
+      "mnemonic": "서번트 = 전반적 약점 속의 섬처럼 돌출된 특별한 재능(islands of genius)",
+      "differential": "서번트증후군은 장애가 있음에도 특정 영역의 비범한 재능을 보이는 것이고, 영재성(giftedness)은 전반적 높은 지적 능력을 의미한다.",
+      "key_point": "서번트의 약 50%가 ASD를 가지고 있으며, ASD 인구의 약 10%가 서번트 능력을 보인다.",
+      "common_mistake": "모든 자폐인이 서번트 능력을 가지고 있다고 오해하는 것 — 서번트는 ASD의 소수에서만 나타나는 현상이다."
     }
   },
   {

@@ -274,6 +274,7 @@ const Leaderboard = {
   KEY: 'abnpsy_leaderboard',
   MAX_ENTRIES: 10,
   _cache: {},
+  _activeGameType: null,
 
   init() {
     this._cache = this._loadLocal();
@@ -306,6 +307,11 @@ const Leaderboard = {
           }
         });
         this._saveLocal();
+        // 결과 화면에 리더보드가 표시 중이면 자동 갱신
+        const tableEl = document.getElementById('leaderboard-table');
+        if (tableEl && this._activeGameType) {
+          tableEl.innerHTML = this.renderTable(this._activeGameType);
+        }
       }, err => {
         console.warn('[Leaderboard] Firebase 리스너 오류:', err.message);
       });
@@ -365,7 +371,23 @@ const Leaderboard = {
     });
   },
 
+  sanitizeName(name) {
+    const raw = (name || '').toString().trim().slice(0, 10);
+    return raw.replace(/[<>&"'`]/g, '') || '익명';
+  },
+
+  escapeHtml(value) {
+    const str = (value ?? '').toString();
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  },
+
   renderTable(gameType, highlightScore) {
+    this._activeGameType = gameType;
     const entries = this.getForGame(gameType);
     if (entries.length === 0) {
       return '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:12px 0;">아직 기록이 없습니다</p>';
@@ -377,7 +399,7 @@ const Leaderboard = {
           const isNew = highlightScore && e.score === highlightScore.score && e.date === highlightScore.date;
           return `<tr class="${isNew ? 'highlight' : ''} ${i < 3 ? 'top3' : ''}">
             <td>${i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : i + 1}</td>
-            <td>${e.name}</td>
+            <td>${this.escapeHtml(e.name)}</td>
             <td><strong>${e.score}</strong></td>
             <td>${e.accuracy}%</td>
             <td>${Timer.formatTime(e.elapsed || 0)}</td>
@@ -453,7 +475,8 @@ const ResultScreen = {
 
   submitScore() {
     const nameInput = document.getElementById('leaderboard-name');
-    const name = (nameInput && nameInput.value.trim()) || '익명';
+    const rawName = (nameInput && nameInput.value) || '';
+    const name = Leaderboard.sanitizeName(rawName);
     const data = this.lastData;
     if (!data) return;
 

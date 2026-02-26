@@ -233,7 +233,7 @@
     ],
     "related_concepts": [
       {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-RF", "id": "ASSESS_MRF_010"},
-      {"name_ko": "로샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_014"},
+      {"name_ko": "로르샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_014"},
       {"name_ko": "진단적 타당도", "name_en": "Diagnostic Validity", "id": "ASSESS_VAL_004"}
     ],
     "sub_types": [],
@@ -379,8 +379,8 @@
   },
   {
     "id": "ASSESS_ROR_015",
-    "terminology": "로샤흐 잉크반점 검사 (Rorschach Inkblot Test)",
-    "terminology_ko": "로샤흐 잉크반점 검사",
+    "terminology": "로르샤흐 잉크반점 검사 (Rorschach Inkblot Test)",
+    "terminology_ko": "로르샤흐 잉크반점 검사",
     "terminology_en": "Rorschach Inkblot Test",
     "category": "ASSESS",
     "category_name": "평가와 진단분류 (Assessment and Classification)",
@@ -388,8 +388,8 @@
     "definition_en": "A projective test analyzing free responses to 10 symmetrical inkblot cards to assess personality structure, thought processes, emotional regulation, and interpersonal characteristics.",
     "significance": "가장 오래되고 널리 연구된 투사적 검사로, Exner의 종합체계를 통해 과학적 채점과 해석이 가능해졌다.",
     "key_researchers": [
-      {"name_ko": "헤르만 로샤흐", "name_en": "Hermann Rorschach", "contribution": "1921년 잉크반점 검사를 개발하여 지각 과정을 통한 성격 평가의 새로운 방법론을 제시했다."},
-      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "종합체계(Comprehensive System)를 개발하여 로샤흐 검사의 채점과 해석을 표준화하고 과학적 기반을 강화했다."}
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "1921년 잉크반점 검사를 개발하여 지각 과정을 통한 성격 평가의 새로운 방법론을 제시했다."},
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "종합체계(Comprehensive System)를 개발하여 로르샤흐 검사의 채점과 해석을 표준화하고 과학적 기반을 강화했다."}
     ],
     "related_concepts": [
       {"name_ko": "TAT", "name_en": "Thematic Apperception Test", "id": "ASSESS_TAT_016"},
@@ -398,10 +398,10 @@
     ],
     "sub_types": [],
     "quiz_hints": {
-      "mnemonic": "로샤흐 = 잉크얼룩에서 '무엇이 보이는가?' → 투사적 검사의 대명사",
-      "differential": "로샤흐는 비구조화된 자극(잉크반점)에 대한 반응을 분석하고, MMPI는 구조화된 질문에 대한 자기보고를 분석한다.",
+      "mnemonic": "로르샤흐 = 잉크얼룩에서 '무엇이 보이는가?' → 투사적 검사의 대명사",
+      "differential": "로르샤흐는 비구조화된 자극(잉크반점)에 대한 반응을 분석하고, MMPI는 구조화된 질문에 대한 자기보고를 분석한다.",
       "key_point": "Exner의 종합체계(CS)와 후속 R-PAS(Rorschach Performance Assessment System)를 통해 객관적 채점이 가능하다.",
-      "common_mistake": "로샤흐 반응의 '내용'만으로 해석하는 것 — 실제로는 반응의 위치, 결정인, 형태질, 내용 등을 종합적으로 채점한다."
+      "common_mistake": "로르샤흐 반응의 '내용'만으로 해석하는 것 — 실제로는 반응의 위치, 결정인, 형태질, 내용 등을 종합적으로 채점한다."
     }
   },
   {
@@ -419,14 +419,14 @@
       {"name_ko": "크리스티나 모건", "name_en": "Christiana Morgan", "contribution": "머레이와 함께 TAT의 자극 카드를 설계하고 검사 절차를 개발했다."}
     ],
     "related_concepts": [
-      {"name_ko": "로샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_015"},
+      {"name_ko": "로르샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_015"},
       {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
       {"name_ko": "정신분석 모형", "name_en": "Psychoanalytic Model", "id": "FOUND_PSA_012"}
     ],
     "sub_types": [],
     "quiz_hints": {
       "mnemonic": "TAT = 그림 보고 '이야기 만들기' → 투사된 욕구와 갈등 분석",
-      "differential": "TAT는 구조화된 사회적 장면을 사용하고, 로샤흐는 비구조화된 잉크반점을 사용한다.",
+      "differential": "TAT는 구조화된 사회적 장면을 사용하고, 로르샤흐는 비구조화된 잉크반점을 사용한다.",
       "key_point": "Murray의 욕구-압력(need-press) 이론에 기반하여 개인의 주요 욕구와 환경적 압력을 파악한다.",
       "common_mistake": "TAT의 '투사' 해석을 과도하게 적용하는 것 — 이야기 내용이 직접적으로 내담자의 실제 경험을 반영하지 않을 수 있다."
     }
@@ -829,12 +829,12 @@
     "related_concepts": [
       {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "ASSESS_MMP_009"},
       {"name_ko": "WAIS", "name_en": "WAIS", "id": "ASSESS_WAI_017"},
-      {"name_ko": "로샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_015"},
+      {"name_ko": "로르샤흐 검사", "name_en": "Rorschach Test", "id": "ASSESS_ROR_015"},
       {"name_ko": "임상 면담", "name_en": "Clinical Interview", "id": "ASSESS_INT_005"}
     ],
     "sub_types": [
       {"name": "객관적 검사 (Objective Test)", "description": "MMPI-2처럼 표준화된 질문에 대한 선택형 응답"},
-      {"name": "투사적 검사 (Projective Test)", "description": "로샤흐, TAT처럼 모호한 자극에 대한 자유 반응"}
+      {"name": "투사적 검사 (Projective Test)", "description": "로르샤흐, TAT처럼 모호한 자극에 대한 자유 반응"}
     ],
     "quiz_hints": {
       "mnemonic": "심리검사 = 표준화(standardization) + 규준(norms) + 신뢰도(reliability) + 타당도(validity)",
