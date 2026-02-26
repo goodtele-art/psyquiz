@@ -224,6 +224,21 @@ body {
 .page { padding: 0 20px 40px; }
 
 /* --- Home Hero --- */
+.portal-link {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 12px 0 0 4px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.portal-link:hover {
+  background: var(--card-bg);
+  color: var(--text-primary);
+}
+
 .home-hero {
   text-align: center;
   padding: 48px 0 32px;
