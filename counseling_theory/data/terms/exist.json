@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "EXIST_ET_001",
+    "terminology": "실존주의 상담 (Existential Therapy)",
+    "terminology_ko": "실존주의 상담",
+    "terminology_en": "Existential Therapy",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "인간 존재의 근본적 조건(죽음, 자유, 고립, 무의미)을 직면하고 수용하는 과정을 통해 진정한 삶을 추구하도록 돕는 철학적 상담 접근이다.",
+    "definition_en": "A philosophical counseling approach that helps clients pursue authentic living through confronting and accepting fundamental conditions of human existence: death, freedom, isolation, and meaninglessness.",
+    "significance": "구체적 기법보다 인간 존재의 본질에 대한 철학적 탐구를 강조하며, 다른 상담이론의 철학적 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존주의 심리치료의 체계화, 4가지 궁극적 관심사 제시"
+      },
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "실존주의 심리학을 미국에 소개하고 불안의 실존적 의미 분석"
+      },
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "의미치료(logotherapy) 창시, 삶의 의미 추구 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      },
+      {
+        "name_ko": "인간중심상담",
+        "name_en": "Person-Centered Counseling",
+        "id": "PERSON_PC_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존주의 4대 주제: 죽-자-고-무 (죽음, 자유, 고립, 무의미)",
+      "differential": "정신역동은 과거 경험/무의식 강조, 실존주의는 현재 존재의 조건과 선택을 강조",
+      "key_point": "Yalom의 4가지 궁극적 관심사: 죽음, 자유, 실존적 고립, 무의미",
+      "common_mistake": "실존주의를 비관적 철학으로 오해하나, 진정한 삶의 추구를 돕는 긍정적 접근이다"
+    }
+  },
+  {
+    "id": "EXIST_UC_002",
+    "terminology": "궁극적 관심사 (Ultimate Concerns)",
+    "terminology_ko": "궁극적 관심사",
+    "terminology_en": "Ultimate Concerns",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Yalom이 제시한 인간 존재의 4가지 근본적 주제로, 죽음, 자유(와 책임), 실존적 고립, 무의미가 포함되며, 이들과의 갈등이 심리적 고통의 근원이 된다.",
+    "definition_en": "Four fundamental themes of human existence proposed by Yalom—death, freedom (and responsibility), existential isolation, and meaninglessness—whose conflicts become the root of psychological suffering.",
+    "significance": "실존주의 상담의 이론적 핵심으로, 심리적 문제를 실존적 관점에서 재구성하는 틀을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "《실존주의 심리치료》에서 4가지 궁극적 관심사를 체계적으로 정리"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      },
+      {
+        "name_ko": "죽음 자각",
+        "name_en": "Death Awareness",
+        "id": "EXIST_DA_004"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "실존적 고립",
+        "name_en": "Existential Isolation",
+        "id": "EXIST_EI_007"
+      },
+      {
+        "name_ko": "무의미",
+        "name_en": "Meaninglessness",
+        "id": "EXIST_ML_009"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "죽음",
+        "description": "유한한 존재로서의 불가피한 종결"
+      },
+      {
+        "name": "자유",
+        "description": "선택의 자유와 그에 따르는 책임"
+      },
+      {
+        "name": "실존적 고립",
+        "description": "근본적으로 혼자인 존재 조건"
+      },
+      {
+        "name": "무의미",
+        "description": "삶에 내재된 의미의 부재"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Yalom의 4대 궁극적 관심사: 죽-자-고-무",
+      "differential": "궁극적 관심사는 모든 인간의 보편적 조건, 개인적 문제는 이 조건에 대한 반응",
+      "key_point": "Yalom: 죽음, 자유, 실존적 고립, 무의미의 4가지가 인간 존재의 근본적 갈등",
+      "common_mistake": "궁극적 관심사를 우울증이나 불안장애와 동일시하나, 이는 모든 인간의 보편적 실존 조건이다"
+    }
+  },
+  {
+    "id": "EXIST_FR_003",
+    "terminology": "자유와 책임 (Freedom and Responsibility)",
+    "terminology_ko": "자유와 책임",
+    "terminology_en": "Freedom and Responsibility",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "인간은 자신의 삶을 선택할 자유가 있으며, 그 선택에 대한 전적인 책임을 져야 한다는 실존주의의 핵심 명제로, Sartre의 '실존은 본질에 앞선다'에 근거한다.",
+    "definition_en": "The existential core proposition that humans have the freedom to choose their lives and must bear full responsibility for those choices, based on Sartre's 'existence precedes essence.'",
+    "significance": "결정론적 인간관에 대한 대안으로, 내담자가 자신의 삶에 대한 주체성을 회복하도록 돕는 실존주의 상담의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "장 폴 사르트르",
+        "name_en": "Jean-Paul Sartre",
+        "contribution": "'실존은 본질에 앞선다': 인간은 스스로 자신을 만들어가는 존재"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "자유와 책임을 궁극적 관심사로 체계화하고 상담에 적용"
+      },
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "자유와 운명의 역설적 관계를 탐구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      },
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "결정론",
+        "name_en": "Determinism",
+        "id": "FOUND_DT_009"
+      },
+      {
+        "name_ko": "선택이론",
+        "name_en": "Choice Theory",
+        "id": "REALITY_CT_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자유 = 선택 가능 + 책임 필수 (Sartre: 실존이 본질에 앞선다)",
+      "differential": "정신분석의 결정론은 과거에 의해 결정됨, 실존주의는 현재의 자유로운 선택을 강조",
+      "key_point": "Sartre: '실존은 본질에 앞선다' — 인간은 먼저 존재하고, 스스로 자신을 만들어간다",
+      "common_mistake": "자유를 무한한 가능성으로 이상화하나, 자유에는 불안과 책임이 동반된다"
+    }
+  },
+  {
+    "id": "EXIST_DA_004",
+    "terminology": "죽음 자각 (Death Awareness)",
+    "terminology_ko": "죽음 자각",
+    "terminology_en": "Death Awareness",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "자신의 유한성과 필연적 죽음을 인식하는 것으로, 실존주의에서는 죽음 자각이 삶에 긴박감과 의미를 부여하여 진정한 삶을 살도록 촉진한다고 본다.",
+    "definition_en": "The awareness of one's finitude and inevitable death, which existentialism holds adds urgency and meaning to life, promoting authentic living.",
+    "significance": "Yalom의 궁극적 관심사 중 가장 기본적인 것으로, 죽음 자각은 변화의 강력한 촉매가 될 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "마르틴 하이데거",
+        "name_en": "Martin Heidegger",
+        "contribution": "'죽음을 향한 존재(being-toward-death)' 개념으로 죽음 자각의 철학적 기반 제공"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "죽음 자각을 치료적 변화의 촉매로 활용하는 임상적 접근 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      },
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "죽음 자각 = 유한성 인식 → 삶의 긴박감과 의미 부여",
+      "differential": "죽음 불안은 죽음에 대한 두려움, 죽음 자각은 유한성을 통한 삶의 각성",
+      "key_point": "Heidegger: '죽음을 향한 존재', Yalom: 죽음 자각이 삶의 변화 촉매",
+      "common_mistake": "죽음 자각을 공포와 동일시하나, 건강한 죽음 자각은 삶을 더 의미 있게 만든다"
+    }
+  },
+  {
+    "id": "EXIST_EA_005",
+    "terminology": "실존적 불안 (Existential Anxiety)",
+    "terminology_ko": "실존적 불안",
+    "terminology_en": "Existential Anxiety",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "인간 존재의 근본적 조건(죽음, 자유, 고립, 무의미)을 직면할 때 경험하는 불가피한 불안으로, 신경증적 불안과 달리 제거 대상이 아닌 삶의 자연스러운 부분이다.",
+    "definition_en": "The inevitable anxiety experienced when confronting fundamental conditions of human existence (death, freedom, isolation, meaninglessness), a natural part of life rather than something to be eliminated, unlike neurotic anxiety.",
+    "significance": "정상적 불안(실존적 불안)과 신경증적 불안을 구별하는 것이 실존주의 상담의 핵심이며, 정상적 불안은 성장의 동기가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "정상적 불안과 신경증적 불안을 구분하고 불안의 긍정적 기능 강조"
+      },
+      {
+        "name_ko": "쇠렌 키르케고르",
+        "name_en": "Søren Kierkegaard",
+        "contribution": "불안(Angst)을 자유의 현기증으로 설명한 실존주의 선구자"
+      },
+      {
+        "name_ko": "폴 틸리히",
+        "name_en": "Paul Tillich",
+        "contribution": "《존재의 용기》에서 불안의 3유형(죽음, 무의미, 정죄) 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "존재의 용기",
+        "name_en": "Courage to Be",
+        "id": "EXIST_CB_013"
+      },
+      {
+        "name_ko": "불안",
+        "name_en": "Anxiety",
+        "id": "PSYCHOD_AX_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정상적 불안",
+        "description": "실존적 조건에 대한 적절한 반응, 성장의 동기"
+      },
+      {
+        "name": "신경증적 불안",
+        "description": "정상적 불안을 회피할 때 발생하는 부적응적 불안"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "실존적 불안 = 자유의 현기증 (Kierkegaard) = 정상적 삶의 조건",
+      "differential": "실존적 불안은 삶의 자연스러운 부분이고 성장의 동기, 신경증적 불안은 실존적 불안의 회피 결과",
+      "key_point": "May: 정상적 불안은 제거 대상이 아니라 직면하고 수용해야 할 삶의 조건",
+      "common_mistake": "모든 불안을 병리적으로 보고 제거하려 하나, 실존적 불안은 인간 성장의 필수 조건이다"
+    }
+  },
+  {
+    "id": "EXIST_AU_006",
+    "terminology": "진정성 (Authenticity)",
+    "terminology_ko": "진정성",
+    "terminology_en": "Authenticity",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "자신의 실존적 조건을 직면하고 수용하며, 타인의 기대나 사회적 압력이 아닌 자기 자신의 가치와 선택에 따라 사는 존재 방식이다.",
+    "definition_en": "A mode of being in which one confronts and accepts existential conditions and lives according to one's own values and choices rather than others' expectations or social pressures.",
+    "significance": "실존주의 상담의 궁극적 목표이며, Heidegger의 '본래적 존재(eigentlich)'에 기반한 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마르틴 하이데거",
+        "name_en": "Martin Heidegger",
+        "contribution": "본래적 존재(Eigentlichkeit)와 비본래적 존재의 구분 제시"
+      },
+      {
+        "name_ko": "장 폴 사르트르",
+        "name_en": "Jean-Paul Sartre",
+        "contribution": "자기기만(bad faith)의 개념을 통해 비진정성의 기제 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      },
+      {
+        "name_ko": "자기기만",
+        "name_en": "Bad Faith",
+        "id": "EXIST_BF_014"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PERSON_CG_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진정성 = 자기 자신답게 살기 (Heidegger의 본래적 존재)",
+      "differential": "Rogers의 일치성은 자기경험과 자기개념의 일치, 실존주의 진정성은 실존적 조건의 직면과 자기선택",
+      "key_point": "Heidegger: 본래적 존재(eigentlich) vs 비본래적 존재, Sartre: 자기기만(bad faith) 극복",
+      "common_mistake": "진정성을 단순히 솔직함으로 이해하나, 실존적 조건을 직면하며 자기 선택에 따라 사는 것이다"
+    }
+  },
+  {
+    "id": "EXIST_EI_007",
+    "terminology": "실존적 고립 (Existential Isolation)",
+    "terminology_ko": "실존적 고립",
+    "terminology_en": "Existential Isolation",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "아무리 친밀한 관계를 맺어도 근본적으로 각자의 세계에 홀로 존재할 수밖에 없다는 인간 존재의 불가피한 조건으로, 대인관계적 고립이나 내면적 고립과 구별된다.",
+    "definition_en": "The inevitable condition of human existence that one fundamentally exists alone in one's own world regardless of intimate relationships, distinguished from interpersonal isolation and intrapersonal isolation.",
+    "significance": "진정한 친밀감은 실존적 고립을 인정한 위에서만 가능하며, 고립을 부정하면 역설적으로 관계가 왜곡된다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존적 고립을 대인관계적·내면적 고립과 구별하여 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "만남",
+        "name_en": "Encounter",
+        "id": "EXIST_EN_008"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "대인관계적 고립",
+        "description": "타인과의 관계 부족으로 인한 외로움"
+      },
+      {
+        "name": "내면적 고립",
+        "description": "자기 자신의 일부를 차단하여 느끼는 소외"
+      },
+      {
+        "name": "실존적 고립",
+        "description": "근본적으로 혼자인 존재 조건"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "실존적 고립 = 근본적 홀로 존재 (관계와 무관한 존재론적 조건)",
+      "differential": "대인관계적 고립은 관계 부족, 실존적 고립은 관계가 있어도 근본적으로 혼자",
+      "key_point": "Yalom: 실존적 고립은 관계가 아닌 존재의 조건이며, 이를 인정해야 진정한 관계가 가능",
+      "common_mistake": "실존적 고립을 외로움과 동일시하나, 이는 존재론적 조건이며 관계로 해소되지 않는다"
+    }
+  },
+  {
+    "id": "EXIST_EN_008",
+    "terminology": "만남 (Encounter)",
+    "terminology_ko": "만남",
+    "terminology_en": "Encounter",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "실존주의 상담에서 상담자와 내담자가 인간 대 인간으로 진정하게 만나는 것으로, 기법이나 역할을 넘어 존재 자체로 함께하는 관계를 의미한다.",
+    "definition_en": "In existential therapy, an authentic meeting between counselor and client as person to person, a relationship of being together that transcends techniques and roles.",
+    "significance": "실존주의 상담에서 치료적 관계의 본질로, 만남 자체가 치유의 기제가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "마르틴 부버",
+        "name_en": "Martin Buber",
+        "contribution": "나-너(I-Thou) 관계를 통해 진정한 만남의 철학적 기반 제시"
+      },
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "만남(encounter)을 실존주의 상담의 핵심 치료 요인으로 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "나-너 관계",
+        "name_en": "I-Thou Relationship",
+        "id": "EXIST_IT_015"
+      },
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "실존적 고립",
+        "name_en": "Existential Isolation",
+        "id": "EXIST_EI_007"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "만남 = 인간 대 인간의 진정한 접촉 (기법을 넘어선 존재의 만남)",
+      "differential": "만남은 존재론적 접촉, 작업동맹은 목표·과제·유대의 구조화된 협력 관계",
+      "key_point": "Buber의 나-너 관계에 기반한 진정한 만남이 실존주의 상담의 핵심 치유 요인",
+      "common_mistake": "만남을 단순한 대면으로 이해하나, 역할과 기법을 넘어 존재로 함께하는 것이다"
+    }
+  },
+  {
+    "id": "EXIST_ML_009",
+    "terminology": "무의미 (Meaninglessness)",
+    "terminology_ko": "무의미",
+    "terminology_en": "Meaninglessness",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "삶에 미리 주어진 의미가 없다는 실존적 인식으로, Yalom의 궁극적 관심사 중 하나이다. 의미가 없다는 것은 의미를 스스로 창조해야 한다는 도전을 의미한다.",
+    "definition_en": "The existential recognition that life has no pre-given meaning, one of Yalom's ultimate concerns. The absence of inherent meaning implies the challenge of creating meaning for oneself.",
+    "significance": "삶의 의미 상실은 실존적 위기와 공허감의 원인이 되며, 의미 창조가 실존주의 상담의 핵심 과제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "무의미를 궁극적 관심사로 체계화하고 의미 창조의 치료적 접근 개발"
+      },
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "실존적 공허와 의미에의 의지를 통한 의미치료 체계 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      },
+      {
+        "name_ko": "실존적 공허",
+        "name_en": "Existential Vacuum",
+        "id": "EXIST_EV_012"
+      },
+      {
+        "name_ko": "의미치료",
+        "name_en": "Logotherapy",
+        "id": "EXIST_LT_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "무의미 = 삶에 미리 주어진 의미 없음 → 의미를 스스로 창조해야",
+      "differential": "무의미는 실존적 조건(의미가 없다), 의미치료는 그에 대한 치료적 응답(의미를 찾는다)",
+      "key_point": "삶에 미리 주어진 의미가 없기에, 각자가 의미를 창조하는 것이 실존적 과제",
+      "common_mistake": "무의미를 허무주의로 동일시하나, 실존주의에서 무의미는 의미 창조의 출발점이다"
+    }
+  },
+  {
+    "id": "EXIST_MN_010",
+    "terminology": "삶의 의미 (Meaning of Life)",
+    "terminology_ko": "삶의 의미",
+    "terminology_en": "Meaning of Life",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "개인이 자신의 삶에서 발견하거나 창조하는 목적과 가치로, Frankl에 따르면 의미에의 의지(will to meaning)가 인간의 가장 근본적인 동기이다.",
+    "definition_en": "The purpose and values that individuals discover or create in their lives; according to Frankl, the will to meaning is the most fundamental human motivation.",
+    "significance": "Frankl은 의미 추구를 인간의 일차적 동기로 보았으며, 의미의 발견이 극한 상황에서도 생존과 회복의 핵심이라고 강조했다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "의미에의 의지(will to meaning)를 인간의 일차적 동기로 제시"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "삶의 의미를 궁극적 관심사와 연결하여 치료적으로 탐구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무의미",
+        "name_en": "Meaninglessness",
+        "id": "EXIST_ML_009"
+      },
+      {
+        "name_ko": "의미치료",
+        "name_en": "Logotherapy",
+        "id": "EXIST_LT_011"
+      },
+      {
+        "name_ko": "실존적 공허",
+        "name_en": "Existential Vacuum",
+        "id": "EXIST_EV_012"
+      },
+      {
+        "name_ko": "자기실현경향성",
+        "name_en": "Self-Actualizing Tendency",
+        "id": "FOUND_SAT_008"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "창조적 가치",
+        "description": "일이나 활동을 통해 세상에 기여함으로써 의미 발견"
+      },
+      {
+        "name": "경험적 가치",
+        "description": "사랑, 자연, 예술 등을 경험함으로써 의미 발견"
+      },
+      {
+        "name": "태도적 가치",
+        "description": "고통에 대한 태도를 통해 의미 발견 (불가피한 고통에서)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Frankl의 의미 3원천: 창조(행동)-경험(수용)-태도(고통에 대한 자세)",
+      "differential": "의미에의 의지(Frankl)는 의미 추구, 쾌락에의 의지(Freud)는 쾌락 추구, 힘에의 의지(Nietzsche)는 권력 추구",
+      "key_point": "Frankl: 의미에의 의지가 인간의 일차적 동기, 3가지 가치(창조적, 경험적, 태도적)를 통해 의미 발견",
+      "common_mistake": "의미를 인생의 거창한 목적으로만 생각하나, 일상의 작은 경험에서도 의미를 발견할 수 있다"
+    }
+  },
+  {
+    "id": "EXIST_LT_011",
+    "terminology": "의미치료 (Logotherapy)",
+    "terminology_ko": "의미치료",
+    "terminology_en": "Logotherapy",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Frankl이 창시한 실존분석 기반의 심리치료로, 삶의 의미 발견을 통해 심리적 고통을 극복하도록 돕는 접근이다. 그리스어 logos(의미)에서 유래한다.",
+    "definition_en": "A psychotherapy based on existential analysis founded by Frankl that helps overcome psychological suffering through discovering meaning in life, derived from Greek logos (meaning).",
+    "significance": "Frankl 자신의 홀로코스트 생존 경험에 기반한 이론으로, 극한 상황에서도 의미를 발견할 수 있다는 강력한 메시지를 전달한다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "의미치료를 창시하고 《죽음의 수용소에서》를 통해 이론의 실제적 기반 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      },
+      {
+        "name_ko": "실존적 공허",
+        "name_en": "Existential Vacuum",
+        "id": "EXIST_EV_012"
+      },
+      {
+        "name_ko": "역설적 의도",
+        "name_en": "Paradoxical Intention",
+        "id": "EXIST_PI_016"
+      },
+      {
+        "name_ko": "탈숙고",
+        "name_en": "Dereflection",
+        "id": "EXIST_DR_017"
+      },
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Logotherapy = logos(의미) + therapy(치료) = 의미를 통한 치유",
+      "differential": "정신분석은 쾌락에의 의지, 개인심리학은 힘에의 의지, 의미치료는 의미에의 의지를 핵심 동기로 봄",
+      "key_point": "Frankl: logos(의미)를 통한 치료, 홀로코스트 경험에서 '의미를 가진 삶은 견딜 수 있다'는 것을 발견",
+      "common_mistake": "의미치료를 단순히 긍정적 사고로 오해하나, 고통 속에서도 의미를 찾는 깊은 실존적 과정이다"
+    }
+  },
+  {
+    "id": "EXIST_EV_012",
+    "terminology": "실존적 공허 (Existential Vacuum)",
+    "terminology_ko": "실존적 공허",
+    "terminology_en": "Existential Vacuum",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Frankl이 명명한 현대인의 보편적 상태로, 삶의 의미와 목적을 상실하여 공허함과 권태를 경험하는 실존적 위기이다.",
+    "definition_en": "A universal condition of modern life named by Frankl, an existential crisis of experiencing emptiness and boredom from losing meaning and purpose in life.",
+    "significance": "우울, 중독, 공격성 등 현대 사회 문제의 근원으로 Frankl이 진단한 실존적 상태이다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "실존적 공허를 현대인의 핵심 문제로 진단하고 의미치료의 치료 대상으로 설정"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무의미",
+        "name_en": "Meaninglessness",
+        "id": "EXIST_ML_009"
+      },
+      {
+        "name_ko": "의미치료",
+        "name_en": "Logotherapy",
+        "id": "EXIST_LT_011"
+      },
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 공허 = 의미 상실 → 공허감 + 권태 (현대인의 보편적 위기)",
+      "differential": "실존적 공허는 의미 부재의 상태, 우울증은 기분장애의 임상적 진단",
+      "key_point": "Frankl: 현대인의 보편적 문제로, 의미 상실이 다양한 심리적 증상의 근원",
+      "common_mistake": "실존적 공허를 임상적 우울증과 동일시하나, 이는 실존적 상태이지 정신과적 진단이 아니다"
+    }
+  },
+  {
+    "id": "EXIST_CB_013",
+    "terminology": "존재의 용기 (Courage to Be)",
+    "terminology_ko": "존재의 용기",
+    "terminology_en": "Courage to Be",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Tillich가 제안한 개념으로, 비존재(죽음, 무의미, 정죄)의 불안에도 불구하고 자기 자신으로 존재하는 용기, 즉 불안을 수용하며 살아가는 힘이다.",
+    "definition_en": "A concept proposed by Tillich referring to the courage to be oneself despite the anxiety of nonbeing (death, meaninglessness, condemnation)—the power to live while accepting anxiety.",
+    "significance": "불안의 제거가 아닌 불안의 수용과 직면이 실존주의 상담의 목표임을 명확히 한 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "폴 틸리히",
+        "name_en": "Paul Tillich",
+        "contribution": "《존재의 용기》(1952)에서 불안에도 불구하고 자기를 긍정하는 용기 개념 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      },
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "존재의 용기 = 불안에도 불구하고 나 자신으로 존재하는 힘",
+      "differential": "존재의 용기는 불안의 수용, 방어기제는 불안의 회피",
+      "key_point": "Tillich: 비존재의 불안(죽음, 무의미, 정죄)에도 불구하고 자기를 긍정하는 용기",
+      "common_mistake": "용기를 두려움의 부재로 오해하나, 두려움이 있음에도 불구하고 행동하는 것이 진정한 용기이다"
+    }
+  },
+  {
+    "id": "EXIST_BF_014",
+    "terminology": "자기기만 (Bad Faith)",
+    "terminology_ko": "자기기만",
+    "terminology_en": "Bad Faith",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Sartre가 제시한 개념으로, 자신의 자유와 선택 가능성을 부정하고 외부 요인이나 고정된 본질에 의해 결정되었다고 스스로를 속이는 비진정한 존재 방식이다.",
+    "definition_en": "A concept presented by Sartre referring to the inauthentic mode of being in which one denies one's freedom and possibility of choice, deceiving oneself that one is determined by external factors or fixed essence.",
+    "significance": "실존주의 상담에서 내담자의 회피와 책임 전가를 이해하는 핵심 개념으로, 자기기만의 극복이 진정성 회복의 조건이다.",
+    "key_researchers": [
+      {
+        "name_ko": "장 폴 사르트르",
+        "name_en": "Jean-Paul Sartre",
+        "contribution": "《존재와 무》에서 자기기만(mauvaise foi) 개념을 체계적으로 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "저항",
+        "name_en": "Resistance",
+        "id": "FOUND_RS_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기기만(bad faith) = '나는 어쩔 수 없어'라며 자유를 부정하는 것",
+      "differential": "자기기만은 자유의 부정(실존주의), 방어기제는 불안의 무의식적 회피(정신분석)",
+      "key_point": "Sartre: 자신의 자유를 부정하고 결정론적 핑계 뒤에 숨는 비진정한 존재 방식",
+      "common_mistake": "자기기만을 의식적 거짓말과 혼동하나, 자기 자신에게 하는 무의식적 기만이다"
+    }
+  },
+  {
+    "id": "EXIST_IT_015",
+    "terminology": "나-너 관계 (I-Thou Relationship)",
+    "terminology_ko": "나-너 관계",
+    "terminology_en": "I-Thou Relationship",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Buber가 제시한 대화철학의 핵심 개념으로, 상대방을 도구나 대상이 아닌 전인적 존재로 만나는 진정한 관계이며, 나-그것(I-It) 관계와 대비된다.",
+    "definition_en": "A core concept of Buber's dialogical philosophy referring to a genuine relationship of meeting the other as a whole being rather than as a tool or object, contrasted with the I-It relationship.",
+    "significance": "실존주의 상담에서 상담관계의 이상적 모형이며, 게슈탈트 상담과 인간중심상담에도 깊은 영향을 미쳤다.",
+    "key_researchers": [
+      {
+        "name_ko": "마르틴 부버",
+        "name_en": "Martin Buber",
+        "contribution": "《나와 너》(1923)에서 나-너/나-그것 관계의 철학적 틀 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "만남",
+        "name_en": "Encounter",
+        "id": "EXIST_EN_008"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "공감",
+        "name_en": "Empathy",
+        "id": "FOUND_EM_021"
+      },
+      {
+        "name_ko": "게슈탈트상담",
+        "name_en": "Gestalt Therapy",
+        "id": "GESTALT_GT_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "나-너(I-Thou)",
+        "description": "상대를 전인적 존재로 만나는 진정한 관계"
+      },
+      {
+        "name": "나-그것(I-It)",
+        "description": "상대를 대상이나 도구로 대하는 비인격적 관계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "나-너 = 전인적 만남, 나-그것 = 도구적 대상화 (Buber)",
+      "differential": "나-너 관계는 전인적 만남, 작업동맹은 목표 지향적 협력 관계",
+      "key_point": "Buber: 나-너 관계에서 '사이(between)'의 공간이 진정한 대화와 만남의 장",
+      "common_mistake": "나-그것 관계를 항상 나쁜 것으로 보나, 일상에서 불가피하며 나-너와 나-그것의 리듬이 필요하다"
+    }
+  },
+  {
+    "id": "EXIST_PI_016",
+    "terminology": "역설적 의도 (Paradoxical Intention)",
+    "terminology_ko": "역설적 의도",
+    "terminology_en": "Paradoxical Intention",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Frankl이 개발한 의미치료의 기법으로, 내담자가 두려워하는 증상을 의도적으로 과장하여 바라도록 하여 예기불안의 악순환을 끊는 역설적 개입이다.",
+    "definition_en": "A logotherapy technique developed by Frankl in which the client deliberately exaggerates and wishes for the feared symptom, breaking the vicious cycle of anticipatory anxiety through paradoxical intervention.",
+    "significance": "증상에 대한 태도 변화를 통해 치료하는 독창적 기법으로, 이후 역설적 심리치료 발전의 기초가 되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "역설적 의도를 의미치료의 핵심 기법으로 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "의미치료",
+        "name_en": "Logotherapy",
+        "id": "EXIST_LT_011"
+      },
+      {
+        "name_ko": "탈숙고",
+        "name_en": "Dereflection",
+        "id": "EXIST_DR_017"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역설적 의도 = 두려운 것을 일부러 바라기 → 불안의 악순환 끊기",
+      "differential": "역설적 의도는 증상을 의도적으로 과장, 체계적 둔감화는 단계적 이완",
+      "key_point": "Frankl: 예기불안의 악순환을 끊기 위해 두려워하는 증상을 의도적으로 과장하여 바라게 함",
+      "common_mistake": "역설적 의도를 단순한 반어법으로 이해하나, 유머를 활용한 태도 변화가 핵심이다"
+    }
+  },
+  {
+    "id": "EXIST_DR_017",
+    "terminology": "탈숙고 (Dereflection)",
+    "terminology_ko": "탈숙고",
+    "terminology_en": "Dereflection",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Frankl이 개발한 의미치료의 기법으로, 과도한 자기관찰(과잉숙고)에서 벗어나 자기 바깥의 의미 있는 대상이나 활동에 주의를 돌리게 하는 개입이다.",
+    "definition_en": "A logotherapy technique developed by Frankl that redirects attention away from excessive self-observation (hyperreflection) toward meaningful objects or activities outside the self.",
+    "significance": "과잉숙고가 증상을 악화시키는 경우에 효과적이며, 수행불안이나 불면증 등에 적용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "탈숙고를 과잉숙고(hyperreflection)의 치료 기법으로 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "의미치료",
+        "name_en": "Logotherapy",
+        "id": "EXIST_LT_011"
+      },
+      {
+        "name_ko": "역설적 의도",
+        "name_en": "Paradoxical Intention",
+        "id": "EXIST_PI_016"
+      },
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "탈숙고 = 자기에게서 주의를 돌려 의미 있는 것에 집중",
+      "differential": "역설적 의도는 두려운 것을 바라기, 탈숙고는 자기관찰에서 주의를 돌리기",
+      "key_point": "Frankl: 과도한 자기관찰(과잉숙고)에서 벗어나 자기 바깥의 의미에 주의를 돌림",
+      "common_mistake": "탈숙고를 단순한 주의분산으로 보나, 의미 있는 대상에 주의를 돌리는 의도적 과정이다"
+    }
+  },
+  {
+    "id": "EXIST_TW_018",
+    "terminology": "세계 내 존재 (Being-in-the-World)",
+    "terminology_ko": "세계 내 존재",
+    "terminology_en": "Being-in-the-World",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Heidegger의 핵심 개념(Dasein의 In-der-Welt-sein)으로, 인간은 세계와 분리된 존재가 아니라 항상 세계 속에서 세계와 관계하며 존재한다는 실존적 구조이다.",
+    "definition_en": "Heidegger's core concept (In-der-Welt-sein of Dasein) that humans are not beings separate from the world but always exist in and in relation to the world as an existential structure.",
+    "significance": "주체와 객체의 이분법을 극복하는 실존주의 존재론의 근본 개념으로, 현상학적 상담의 철학적 기반이다.",
+    "key_researchers": [
+      {
+        "name_ko": "마르틴 하이데거",
+        "name_en": "Martin Heidegger",
+        "contribution": "《존재와 시간》(1927)에서 세계 내 존재(In-der-Welt-sein) 개념 제시"
+      },
+      {
+        "name_ko": "루트비히 빈스방어",
+        "name_en": "Ludwig Binswanger",
+        "contribution": "Heidegger의 세계 내 존재를 현존재분석(Daseinsanalyse)에 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      },
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "현상학",
+        "name_en": "Phenomenology",
+        "id": "EXIST_PH_019"
+      },
+      {
+        "name_ko": "세 가지 세계",
+        "name_en": "Three Modes of World",
+        "id": "EXIST_TM_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "세계 내 존재 = 인간은 항상 세계 속에서 세계와 관계하며 존재",
+      "differential": "Freud의 정신내적 모형은 개인 내부에 초점, 세계 내 존재는 세계와의 관계에 초점",
+      "key_point": "Heidegger: 인간(Dasein)은 세계와 분리 불가능하며, 항상 세계 속에서 존재한다",
+      "common_mistake": "세계 내 존재를 단순히 '세상에 살고 있다'로 해석하나, 존재론적 구조를 의미한다"
+    }
+  },
+  {
+    "id": "EXIST_PH_019",
+    "terminology": "현상학 (Phenomenology)",
+    "terminology_ko": "현상학",
+    "terminology_en": "Phenomenology",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Husserl이 창시한 철학적 방법론으로, 선입견을 배제하고(판단중지, epoché) 체험되는 그대로의 현상을 기술하는 접근이다. 실존주의 상담의 철학적 방법론적 기반이다.",
+    "definition_en": "A philosophical methodology founded by Husserl that describes phenomena as experienced by suspending preconceptions (epoché), serving as the philosophical and methodological foundation of existential therapy.",
+    "significance": "내담자의 주관적 경험을 있는 그대로 이해하려는 상담 태도의 철학적 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드문트 후설",
+        "name_en": "Edmund Husserl",
+        "contribution": "현상학적 방법론(판단중지, 지향성 개념) 창시"
+      },
+      {
+        "name_ko": "마르틴 하이데거",
+        "name_en": "Martin Heidegger",
+        "contribution": "현상학을 존재론에 적용하여 실존적 현상학으로 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "세계 내 존재",
+        "name_en": "Being-in-the-World",
+        "id": "EXIST_TW_018"
+      },
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      },
+      {
+        "name_ko": "공감",
+        "name_en": "Empathy",
+        "id": "FOUND_EM_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "현상학 = 판단중지(epoché) + 있는 그대로의 경험 기술",
+      "differential": "현상학은 경험 그 자체를 기술, 해석학은 경험의 의미를 해석",
+      "key_point": "Husserl의 판단중지(epoché): 선입견을 괄호 치고 현상을 있는 그대로 기술",
+      "common_mistake": "현상학을 단순한 주관적 관점으로 오해하나, 체계적인 철학적 방법론이다"
+    }
+  },
+  {
+    "id": "EXIST_TM_020",
+    "terminology": "세 가지 세계 (Three Modes of World)",
+    "terminology_ko": "세 가지 세계",
+    "terminology_en": "Three Modes of World",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Binswanger와 Boss가 구분한 인간 존재의 3가지 차원으로, 주위세계(Umwelt, 자연/생물학적), 공동세계(Mitwelt, 대인관계), 고유세계(Eigenwelt, 자기 자신과의 관계)이다.",
+    "definition_en": "Three dimensions of human existence distinguished by Binswanger and Boss: Umwelt (natural/biological world), Mitwelt (interpersonal world), and Eigenwelt (world of self-relationship).",
+    "significance": "인간 존재를 다차원적으로 이해하는 틀로, 내담자의 문제를 3가지 세계의 관점에서 포괄적으로 평가할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "루트비히 빈스방어",
+        "name_en": "Ludwig Binswanger",
+        "contribution": "현존재분석에서 세 가지 세계 개념 체계화"
+      },
+      {
+        "name_ko": "메다르트 보스",
+        "name_en": "Medard Boss",
+        "contribution": "Heidegger의 존재론을 심리치료에 직접 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "세계 내 존재",
+        "name_en": "Being-in-the-World",
+        "id": "EXIST_TW_018"
+      },
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      },
+      {
+        "name_ko": "실존적 고립",
+        "name_en": "Existential Isolation",
+        "id": "EXIST_EI_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "주위세계(Umwelt)",
+        "description": "물리적·생물학적 세계, 신체와 환경과의 관계"
+      },
+      {
+        "name": "공동세계(Mitwelt)",
+        "description": "타인과의 관계, 대인관계의 세계"
+      },
+      {
+        "name": "고유세계(Eigenwelt)",
+        "description": "자기 자신과의 관계, 자기인식과 자기이해의 세계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "3세계: 움(Umwelt, 자연)-밋(Mitwelt, 타인)-아이(Eigenwelt, 자기)",
+      "differential": "주위세계는 생물학적 존재, 공동세계는 사회적 존재, 고유세계는 자기 관계적 존재",
+      "key_point": "Umwelt(자연세계), Mitwelt(대인세계), Eigenwelt(자기세계)의 3차원",
+      "common_mistake": "세 세계를 분리된 것으로 보나, 하나의 존재가 동시에 경험하는 세 가지 차원이다"
+    }
+  },
+  {
+    "id": "EXIST_DG_021",
+    "terminology": "실존적 죄책감 (Existential Guilt)",
+    "terminology_ko": "실존적 죄책감",
+    "terminology_en": "Existential Guilt",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "자신의 잠재력을 실현하지 못하거나 진정한 삶을 살지 못할 때 경험하는 존재론적 죄책감으로, 신경증적 죄책감과 구별되는 정상적이고 건설적인 감정이다.",
+    "definition_en": "An ontological guilt experienced when failing to realize one's potential or live authentically, a normal and constructive emotion distinguished from neurotic guilt.",
+    "significance": "실존적 죄책감은 자기실현의 동기가 될 수 있으며, 이를 무시하면 신경증적 증상으로 발전할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "실존적 죄책감을 3가지 세계(Umwelt, Mitwelt, Eigenwelt)와 연결"
+      },
+      {
+        "name_ko": "마르틴 부버",
+        "name_en": "Martin Buber",
+        "contribution": "진정한 죄책감과 거짓 죄책감의 구분 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "진정성",
+        "name_en": "Authenticity",
+        "id": "EXIST_AU_006"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "세 가지 세계",
+        "name_en": "Three Modes of World",
+        "id": "EXIST_TM_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 죄책감 = 진정한 삶을 살지 못한 것에 대한 자각",
+      "differential": "실존적 죄책감은 잠재력 미실현에 대한 건설적 반응, 신경증적 죄책감은 비합리적 자기비난",
+      "key_point": "May: 3세계 각각에서 발생 — 자연 파괴(Umwelt), 타인 관계 왜곡(Mitwelt), 자기 부정(Eigenwelt)",
+      "common_mistake": "모든 죄책감을 병리적으로 보나, 실존적 죄책감은 성장의 동기가 되는 건강한 감정이다"
+    }
+  },
+  {
+    "id": "EXIST_WP_022",
+    "terminology": "의지와 소원 (Will and Wish)",
+    "terminology_ko": "의지와 소원",
+    "terminology_en": "Will and Wish",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "May가 제시한 개념으로, 소원(wish)은 변화에 대한 바람이고 의지(will)는 소원을 실현하기 위한 행동적 결단이며, 상담의 과정은 소원에서 의지로의 전환을 돕는 것이다.",
+    "definition_en": "Concepts presented by May where wish represents the desire for change and will represents the behavioral commitment to realize that wish, with the counseling process helping the transition from wish to will.",
+    "significance": "통찰만으로는 변화가 일어나지 않으며, 의지적 결단이 필요하다는 실존주의적 변화 모형을 제시한다.",
+    "key_researchers": [
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "《사랑과 의지》(Love and Will)에서 의지와 소원의 관계 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      },
+      {
+        "name_ko": "통찰",
+        "name_en": "Insight",
+        "id": "FOUND_IN_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소원(바람) → 의지(결단) → 행동(변화) : May의 변화 경로",
+      "differential": "소원은 수동적 바람, 의지는 능동적 결단과 행동",
+      "key_point": "May: 상담은 소원(wish)에서 의지(will)로의 전환, 즉 바람에서 결단으로의 이행을 돕는 과정",
+      "common_mistake": "의지를 단순한 의지력(willpower)으로 오해하나, 존재의 깊이에서 나오는 결단을 의미한다"
+    }
+  },
+  {
+    "id": "EXIST_DM_023",
+    "terminology": "데이먼 (Daimonic)",
+    "terminology_ko": "데이먼",
+    "terminology_en": "Daimonic",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "May가 제시한 개념으로, 인간을 사로잡을 수 있는 강력한 자연적 힘(성, 분노, 권력에의 의지 등)으로, 통합되면 창조성이 되고 억압되면 파괴적이 된다.",
+    "definition_en": "A concept by May referring to powerful natural forces (sex, anger, will to power) that can possess a person, becoming creative when integrated and destructive when repressed.",
+    "significance": "선과 악의 이분법을 넘어 인간의 파괴적 충동도 창조적으로 통합할 수 있다는 실존주의적 인간관을 반영한다.",
+    "key_researchers": [
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "《사랑과 의지》에서 데이먼 개념을 현대 실존주의 심리학에 도입"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "그림자",
+        "name_en": "Shadow",
+        "id": "PSYCHOD_SH_035"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "데이먼 = 강력한 자연적 힘, 통합=창조, 억압=파괴",
+      "differential": "Freud의 리비도는 성적 충동, May의 데이먼은 성, 분노, 권력 등을 포괄하는 넓은 힘",
+      "key_point": "May: 데이먼은 선도 악도 아닌 강력한 힘, 통합하면 창조적, 억압하면 파괴적",
+      "common_mistake": "데이먼(daimonic)을 악마(demonic)와 혼동하나, 데이먼은 선악 이전의 자연적 힘이다"
+    }
+  },
+  {
+    "id": "EXIST_FL_024",
+    "terminology": "던져진 존재 (Thrownness)",
+    "terminology_ko": "던져진 존재",
+    "terminology_en": "Thrownness",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Heidegger의 개념(Geworfenheit)으로, 인간이 자신의 선택 없이 특정 시대, 장소, 가족, 신체 조건에 이미 던져져 있다는 실존적 사실이다.",
+    "definition_en": "Heidegger's concept (Geworfenheit) referring to the existential fact that humans find themselves already thrown into a specific era, place, family, and bodily condition without their choice.",
+    "significance": "자유와 선택의 한계를 인정하는 실존주의적 개념으로, 인간은 던져진 조건 위에서 자기를 투기(project)한다.",
+    "key_researchers": [
+      {
+        "name_ko": "마르틴 하이데거",
+        "name_en": "Martin Heidegger",
+        "contribution": "던져진 존재(Geworfenheit) 개념을 통해 실존의 비선택적 측면 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "세계 내 존재",
+        "name_en": "Being-in-the-World",
+        "id": "EXIST_TW_018"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "던져진 존재 = 내가 선택하지 않은 조건(시대, 장소, 가족)에 이미 놓여있음",
+      "differential": "던져진 존재는 주어진 조건(사실성), 투기(project)는 미래를 향한 자유로운 선택",
+      "key_point": "Heidegger: 인간은 선택 없이 던져졌지만, 던져진 조건 위에서 자기를 투기(기획)할 수 있다",
+      "common_mistake": "던져진 존재를 운명론과 동일시하나, 던져진 조건 위에서의 선택이 실존주의의 핵심이다"
+    }
+  },
+  {
+    "id": "EXIST_EC_025",
+    "terminology": "실존적 위기 (Existential Crisis)",
+    "terminology_ko": "실존적 위기",
+    "terminology_en": "Existential Crisis",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "죽음, 상실, 전환점 등을 계기로 삶의 의미, 정체성, 가치관에 대한 근본적 의문이 촉발되는 심리적 위기 상태로, 성장의 기회이기도 하다.",
+    "definition_en": "A psychological crisis state triggered by death, loss, or life transitions that provokes fundamental questions about meaning, identity, and values, also serving as an opportunity for growth.",
+    "significance": "실존주의 상담에서 위기는 단순한 문제가 아니라 삶을 재구성하고 진정성을 회복할 수 있는 전환점으로 본다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "경계상황(죽음, 상실 등)이 궁극적 관심사에 대한 자각을 촉진한다고 설명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "죽음 자각",
+        "name_en": "Death Awareness",
+        "id": "EXIST_DA_004"
+      },
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "EXIST_EA_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 위기 = 경계상황 → 근본적 질문 촉발 → 성장의 기회",
+      "differential": "실존적 위기는 삶의 의미에 대한 근본적 질문, 심리적 위기는 특정 사건에 대한 적응 곤란",
+      "key_point": "Yalom: 경계상황(boundary situation)이 궁극적 관심사에 대한 자각을 촉진하여 변화의 촉매가 됨",
+      "common_mistake": "실존적 위기를 병리적 상태로만 보나, 삶을 재구성하는 성장의 기회이기도 하다"
+    }
+  },
+  {
+    "id": "EXIST_RR_026",
+    "terminology": "관계의 기반 (Relational Groundedness)",
+    "terminology_ko": "관계의 기반",
+    "terminology_en": "Relational Groundedness",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "실존적 고립을 인정하면서도 타인과 진정한 연결을 추구하는 능력으로, 의존이 아닌 자립적 존재로서 관계를 맺는 성숙한 방식이다.",
+    "definition_en": "The ability to pursue genuine connection with others while acknowledging existential isolation, a mature way of relating as an independent being rather than through dependency.",
+    "significance": "실존적 고립의 수용이 역설적으로 더 깊고 진정한 관계를 가능하게 한다는 실존주의의 핵심 통찰이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존적 고립의 인정이 진정한 관계의 조건임을 임상적으로 설명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존적 고립",
+        "name_en": "Existential Isolation",
+        "id": "EXIST_EI_007"
+      },
+      {
+        "name_ko": "만남",
+        "name_en": "Encounter",
+        "id": "EXIST_EN_008"
+      },
+      {
+        "name_ko": "나-너 관계",
+        "name_en": "I-Thou Relationship",
+        "id": "EXIST_IT_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "고립 인정 → 역설적으로 → 더 깊은 관계 가능",
+      "differential": "의존적 관계는 고립 회피, 관계의 기반은 고립 수용 후 자립적으로 관계 맺기",
+      "key_point": "실존적 고립을 인정한 위에서 맺는 관계가 진정으로 깊고 의미 있다",
+      "common_mistake": "실존적 고립을 인정하면 관계가 어려워진다고 오해하나, 오히려 더 진정한 관계가 가능해진다"
+    }
+  },
+  {
+    "id": "EXIST_RM_027",
+    "terminology": "파문 효과 (Ripple Effect)",
+    "terminology_ko": "파문 효과",
+    "terminology_en": "Ripple Effect",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Yalom이 죽음 불안에 대한 대처 방안으로 제시한 개념으로, 자신의 삶이 타인에게 미치는 영향이 자신의 죽음 이후에도 계속된다는 인식이 죽음 불안을 완화한다.",
+    "definition_en": "A concept presented by Yalom as a coping mechanism for death anxiety, where recognizing that one's life impacts others and continues beyond one's death alleviates death anxiety.",
+    "significance": "죽음의 공포에 직접 맞서기 어려울 때, 삶의 영향력이 지속된다는 인식이 위안이 되는 실존적 대처 전략이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "파문 효과를 죽음 불안의 건강한 대처 방안으로 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "죽음 자각",
+        "name_en": "Death Awareness",
+        "id": "EXIST_DA_004"
+      },
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      },
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "파문 효과 = 내 삶의 영향이 죽음 이후에도 물결처럼 퍼져나감",
+      "differential": "파문 효과는 타인에 대한 영향의 지속, 의미치료는 삶 속에서 의미를 발견하는 것",
+      "key_point": "Yalom: 자신의 삶이 타인에게 미친 긍정적 영향이 죽음 이후에도 계속된다는 인식",
+      "common_mistake": "파문 효과를 유명해지는 것과 혼동하나, 일상적 관계에서의 작은 영향력도 포함한다"
+    }
+  },
+  {
+    "id": "EXIST_BS_028",
+    "terminology": "경계상황 (Boundary Situation)",
+    "terminology_ko": "경계상황",
+    "terminology_en": "Boundary Situation",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Jaspers가 제안한 개념으로, 죽음, 고통, 투쟁, 죄책감 등 인간이 피할 수 없는 극한적 상황으로, 이를 직면할 때 실존적 자각과 변화가 촉진된다.",
+    "definition_en": "A concept proposed by Jaspers referring to unavoidable extreme situations such as death, suffering, struggle, and guilt, whose confrontation facilitates existential awareness and change.",
+    "significance": "경계상황의 직면이 존재의 깊이를 자각하게 하는 계기가 되며, Yalom은 이를 '각성 경험'으로 활용한다.",
+    "key_researchers": [
+      {
+        "name_ko": "카를 야스퍼스",
+        "name_en": "Karl Jaspers",
+        "contribution": "경계상황(Grenzsituation) 개념을 통해 실존적 자각의 조건 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존적 위기",
+        "name_en": "Existential Crisis",
+        "id": "EXIST_EC_025"
+      },
+      {
+        "name_ko": "죽음 자각",
+        "name_en": "Death Awareness",
+        "id": "EXIST_DA_004"
+      },
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "경계상황 = 피할 수 없는 극한 상황(죽음, 고통, 투쟁, 죄) → 실존적 각성",
+      "differential": "경계상황은 Jaspers의 철학적 개념, 실존적 위기는 임상적 상태",
+      "key_point": "Jaspers: 죽음, 고통, 투쟁, 죄책감 등 피할 수 없는 상황이 존재의 깊이를 드러냄",
+      "common_mistake": "경계상황을 단순한 위기로 보나, 존재의 근본적 조건에 대한 자각의 계기이다"
+    }
+  },
+  {
+    "id": "EXIST_SC_029",
+    "terminology": "자기초월 (Self-Transcendence)",
+    "terminology_ko": "자기초월",
+    "terminology_en": "Self-Transcendence",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Frankl이 강조한 인간의 근본적 능력으로, 자기 자신을 넘어 타인, 대의, 의미 있는 가치를 향해 나아가는 것이며, 이를 통해 자기실현이 부수적으로 달성된다.",
+    "definition_en": "A fundamental human capacity emphasized by Frankl to go beyond oneself toward others, causes, and meaningful values, through which self-actualization is achieved as a byproduct.",
+    "significance": "Frankl은 자기실현을 직접 추구하면 달성되지 않으며, 자기초월의 부산물로만 달성된다고 보았다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "자기초월을 인간 존재의 본질적 특성으로 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      },
+      {
+        "name_ko": "의미치료",
+        "name_en": "Logotherapy",
+        "id": "EXIST_LT_011"
+      },
+      {
+        "name_ko": "자기실현경향성",
+        "name_en": "Self-Actualizing Tendency",
+        "id": "FOUND_SAT_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기초월 = 자기를 넘어서 의미를 향해 → 자기실현은 그 부산물",
+      "differential": "자기실현은 자기 잠재력 실현(Maslow), 자기초월은 자기를 넘어 의미에 헌신(Frankl)",
+      "key_point": "Frankl: 자기실현은 직접 추구할 수 없고, 자기초월의 부산물로만 달성된다",
+      "common_mistake": "자기초월을 자기희생과 동일시하나, 의미 있는 대상에 자발적으로 헌신하는 것이다"
+    }
+  },
+  {
+    "id": "EXIST_OB_030",
+    "terminology": "존재 양식 (Modes of Being)",
+    "terminology_ko": "존재 양식",
+    "terminology_en": "Modes of Being",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Emmy van Deurzen이 체계화한 실존주의 상담의 탐색 영역으로, 물리적·사회적·심리적·영적 차원에서 내담자의 존재 방식을 탐구하는 틀이다.",
+    "definition_en": "Areas of exploration in existential therapy systematized by Emmy van Deurzen, a framework for exploring the client's way of being across physical, social, psychological, and spiritual dimensions.",
+    "significance": "현대 실존주의 상담의 실제적 구조를 제공하며, 내담자의 세계를 다차원적으로 탐색할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "에미 반 더젠",
+        "name_en": "Emmy van Deurzen",
+        "contribution": "실존주의 상담의 4차원 존재 양식을 체계화하고 실제적 적용 모형 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "세 가지 세계",
+        "name_en": "Three Modes of World",
+        "id": "EXIST_TM_020"
+      },
+      {
+        "name_ko": "세계 내 존재",
+        "name_en": "Being-in-the-World",
+        "id": "EXIST_TW_018"
+      },
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "물리적 차원",
+        "description": "신체, 건강, 환경과의 관계"
+      },
+      {
+        "name": "사회적 차원",
+        "description": "타인, 문화, 사회와의 관계"
+      },
+      {
+        "name": "심리적 차원",
+        "description": "자기 자신, 정체성, 내면세계와의 관계"
+      },
+      {
+        "name": "영적 차원",
+        "description": "가치, 의미, 이상, 세계관과의 관계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "존재 4차원: 물(물리)-사(사회)-심(심리)-영(영적)",
+      "differential": "세 가지 세계(Binswanger)는 3차원, 존재 양식(van Deurzen)은 영적 차원을 추가한 4차원",
+      "key_point": "van Deurzen: 물리적, 사회적, 심리적, 영적 4차원에서 존재 방식 탐구",
+      "common_mistake": "영적 차원을 종교적 차원으로만 이해하나, 가치관, 의미, 세계관 전반을 포함한다"
+    }
+  },
+  {
+    "id": "EXIST_WM_031",
+    "terminology": "의미에의 의지 (Will to Meaning)",
+    "terminology_ko": "의미에의 의지",
+    "terminology_en": "Will to Meaning",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "Frankl이 인간의 일차적 동기로 제시한 개념으로, 삶에서 의미를 발견하고 실현하려는 근본적 추진력이다. Freud의 쾌락에의 의지, Adler의 힘에의 의지와 대비된다.",
+    "definition_en": "The concept presented by Frankl as the primary human motivation, the fundamental drive to discover and realize meaning in life, contrasted with Freud's will to pleasure and Adler's will to power.",
+    "significance": "의미치료의 이론적 핵심으로, 인간의 일차적 동기가 쾌락이나 권력이 아닌 의미 추구라는 새로운 동기 이론을 제시했다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "의미에의 의지를 인간의 일차적 동기로 제시하고 의미치료의 이론적 토대 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "의미치료",
+        "name_en": "Logotherapy",
+        "id": "EXIST_LT_011"
+      },
+      {
+        "name_ko": "삶의 의미",
+        "name_en": "Meaning of Life",
+        "id": "EXIST_MN_010"
+      },
+      {
+        "name_ko": "실존적 공허",
+        "name_en": "Existential Vacuum",
+        "id": "EXIST_EV_012"
+      },
+      {
+        "name_ko": "우월성 추구",
+        "name_en": "Striving for Superiority",
+        "id": "PSYCHOD_SS_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "3가지 의지: Freud(쾌락) vs Adler(힘) vs Frankl(의미)",
+      "differential": "쾌락에의 의지(Freud): 쾌락 추구, 힘에의 의지(Adler): 우월성 추구, 의미에의 의지(Frankl): 의미 추구",
+      "key_point": "Frankl: 인간의 일차적 동기는 쾌락이나 권력이 아닌 의미의 발견과 실현",
+      "common_mistake": "의미에의 의지가 좌절되면 쾌락이나 권력에의 의지가 보상적으로 강해진다"
+    }
+  },
+  {
+    "id": "EXIST_SA_032",
+    "terminology": "실존적 자각 (Existential Awareness)",
+    "terminology_ko": "실존적 자각",
+    "terminology_en": "Existential Awareness",
+    "category": "EXIST",
+    "category_name": "실존주의 상담 (Existential Therapy)",
+    "definition": "인간 존재의 근본적 조건(유한성, 자유, 고립, 의미 부재)에 대한 깊은 인식으로, 실존주의 상담에서 치료적 변화의 출발점이 된다.",
+    "definition_en": "A deep recognition of the fundamental conditions of human existence (finitude, freedom, isolation, absence of meaning), serving as the starting point of therapeutic change in existential therapy.",
+    "significance": "실존적 자각이 일어날 때 내담자는 삶을 새로운 관점에서 바라보게 되며, 진정한 변화의 동기가 형성된다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "경계상황을 통한 실존적 자각의 촉진을 치료적 전략으로 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "궁극적 관심사",
+        "name_en": "Ultimate Concerns",
+        "id": "EXIST_UC_002"
+      },
+      {
+        "name_ko": "경계상황",
+        "name_en": "Boundary Situation",
+        "id": "EXIST_BS_028"
+      },
+      {
+        "name_ko": "죽음 자각",
+        "name_en": "Death Awareness",
+        "id": "EXIST_DA_004"
+      },
+      {
+        "name_ko": "실존적 위기",
+        "name_en": "Existential Crisis",
+        "id": "EXIST_EC_025"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 자각 = 존재 조건의 깊은 인식 → 변화의 출발점",
+      "differential": "통찰은 개인적 패턴의 인식, 실존적 자각은 존재 조건 자체의 인식",
+      "key_point": "경계상황(죽음, 상실 등)을 통해 촉진되며, 진정한 삶으로의 전환을 이끈다",
+      "common_mistake": "실존적 자각을 지적 이해로 충분하다고 보나, 전존재적 경험이 필요하다"
+    }
+  }
+]

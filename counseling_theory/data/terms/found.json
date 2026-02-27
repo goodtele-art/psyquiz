@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "FOUND_CF_001",
+    "terminology": "상담 (Counseling)",
+    "terminology_ko": "상담",
+    "terminology_en": "Counseling",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "전문적 훈련을 받은 상담자가 도움을 필요로 하는 내담자와의 관계에서 내담자의 성장과 문제 해결을 돕는 심리적 조력 과정이다.",
+    "definition_en": "A professional helping process in which a trained counselor assists a client in personal growth and problem resolution through a therapeutic relationship.",
+    "significance": "심리적 조력의 핵심 활동으로, 상담학의 정체성과 전문성을 정의하는 기본 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "상담을 독립적 전문 영역으로 확립하고 내담자 중심 접근을 제시"
+      },
+      {
+        "name_ko": "프랭크 파슨스",
+        "name_en": "Frank Parsons",
+        "contribution": "직업상담 운동의 창시자로 상담의 제도화에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "심리치료",
+        "name_en": "Psychotherapy",
+        "id": "FOUND_PT_002"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "라포",
+        "name_en": "Rapport",
+        "id": "PROCESS_RA_001"
+      },
+      {
+        "name_ko": "인간중심상담",
+        "name_en": "Person-Centered Counseling",
+        "id": "PERSON_PC_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "개인상담",
+        "description": "일대일로 진행되는 상담"
+      },
+      {
+        "name": "집단상담",
+        "description": "여러 내담자가 함께 참여하는 상담"
+      },
+      {
+        "name": "가족상담",
+        "description": "가족 구성원이 함께 참여하는 상담"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "상담 = 전문적 관계 + 성장 + 문제해결",
+      "differential": "심리치료는 심층적 성격 변화에 초점, 상담은 성장과 적응에 초점을 둔다",
+      "key_point": "전문적 훈련을 받은 상담자와 내담자 간의 조력 관계가 핵심",
+      "common_mistake": "상담을 단순한 조언이나 충고로 오해하는 경우가 많으나, 전문적 기술이 필요한 심리적 조력 과정이다"
+    }
+  },
+  {
+    "id": "FOUND_PT_002",
+    "terminology": "심리치료 (Psychotherapy)",
+    "terminology_ko": "심리치료",
+    "terminology_en": "Psychotherapy",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "심리적 장애나 정서적 어려움을 겪는 개인에게 체계적인 심리학적 방법을 적용하여 증상 완화와 성격 변화를 목표로 하는 전문적 치료 과정이다.",
+    "definition_en": "A professional treatment process that applies systematic psychological methods to individuals with psychological disorders or emotional difficulties, aiming at symptom relief and personality change.",
+    "significance": "상담과 밀접하게 관련되면서도 구별되는 개념으로, 보다 심층적인 성격 구조의 변화를 추구한다.",
+    "key_researchers": [
+      {
+        "name_ko": "지그문트 프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "정신분석을 통해 현대 심리치료의 기반을 확립"
+      },
+      {
+        "name_ko": "제롬 프랭크",
+        "name_en": "Jerome Frank",
+        "contribution": "심리치료의 공통 요인을 체계적으로 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담",
+        "name_en": "Counseling",
+        "id": "FOUND_CF_001"
+      },
+      {
+        "name_ko": "공통요인",
+        "name_en": "Common Factors",
+        "id": "FOUND_CMF_010"
+      },
+      {
+        "name_ko": "정신역동 상담",
+        "name_en": "Psychodynamic Therapy",
+        "id": "PSYCHOD_PD_001"
+      },
+      {
+        "name_ko": "인지치료",
+        "name_en": "Cognitive Therapy",
+        "id": "CBT_CT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "심리치료 = 심층적 성격 변화 + 증상 완화",
+      "differential": "상담은 정상적 발달과 적응에 초점, 심리치료는 병리와 심층적 성격 변화에 초점",
+      "key_point": "체계적인 심리학적 방법을 적용한다는 점에서 일반적 대화와 구별됨",
+      "common_mistake": "상담과 심리치료를 완전히 동일시하거나 완전히 별개로 보는 것 모두 부정확하다"
+    }
+  },
+  {
+    "id": "FOUND_TR_003",
+    "terminology": "상담관계 (Therapeutic Relationship)",
+    "terminology_ko": "상담관계",
+    "terminology_en": "Therapeutic Relationship",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자와 내담자 사이에 형성되는 전문적이고 치료적인 인간관계로, 상담 성과의 가장 중요한 예측 변인으로 알려져 있다.",
+    "definition_en": "A professional and therapeutic human relationship formed between counselor and client, known as the most important predictor of counseling outcomes.",
+    "significance": "모든 상담 이론에서 치료적 변화의 핵심 기제로 인정되며, 이론적 지향과 무관하게 상담 효과를 결정짓는 공통 요인이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "치료적 관계의 필요충분조건(공감, 무조건적 긍정적 존중, 일치성)을 제시"
+      },
+      {
+        "name_ko": "에드워드 보딘",
+        "name_en": "Edward Bordin",
+        "contribution": "작업동맹 개념을 범이론적으로 확장"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "작업동맹",
+        "name_en": "Working Alliance",
+        "id": "FOUND_WA_004"
+      },
+      {
+        "name_ko": "라포",
+        "name_en": "Rapport",
+        "id": "PROCESS_RA_001"
+      },
+      {
+        "name_ko": "공감적 이해",
+        "name_en": "Empathic Understanding",
+        "id": "PERSON_EM_003"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PERSON_UPR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "상담관계 = 상담 성과의 최고 예측 변인",
+      "differential": "작업동맹은 상담관계의 구조화된 하위 개념으로, 목표합의, 과제합의, 정서적 유대를 포함",
+      "key_point": "어떤 이론적 지향이든 상담관계의 질이 성과를 좌우한다",
+      "common_mistake": "상담관계를 단순한 친밀함으로 오해하나, 전문적 경계가 있는 치료적 관계이다"
+    }
+  },
+  {
+    "id": "FOUND_WA_004",
+    "terminology": "작업동맹 (Working Alliance)",
+    "terminology_ko": "작업동맹",
+    "terminology_en": "Working Alliance",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자와 내담자가 상담 목표에 대한 합의, 과제에 대한 합의, 정서적 유대를 형성하는 협력적 관계로, Bordin이 제안한 범이론적 개념이다.",
+    "definition_en": "A collaborative relationship between counselor and client involving agreement on goals, agreement on tasks, and emotional bond, a pantheoretical concept proposed by Bordin.",
+    "significance": "이론적 지향에 관계없이 모든 상담에 적용 가능한 범이론적 개념으로, 상담 효과 연구의 핵심 변인이다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드워드 보딘",
+        "name_en": "Edward Bordin",
+        "contribution": "작업동맹의 3요소 모델(목표, 과제, 유대)을 제안"
+      },
+      {
+        "name_ko": "아담 호바스",
+        "name_en": "Adam Horvath",
+        "contribution": "작업동맹 측정도구(WAI) 개발 및 상담 성과와의 관계 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "라포",
+        "name_en": "Rapport",
+        "id": "PROCESS_RA_001"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TF_005"
+      },
+      {
+        "name_ko": "공통요인",
+        "name_en": "Common Factors",
+        "id": "FOUND_CMF_010"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "목표 합의",
+        "description": "상담에서 달성하고자 하는 목표에 대한 상호 합의"
+      },
+      {
+        "name": "과제 합의",
+        "description": "목표 달성을 위한 활동과 방법에 대한 합의"
+      },
+      {
+        "name": "정서적 유대",
+        "description": "상호 신뢰, 존중, 돌봄에 기반한 관계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "작업동맹 3요소: 목-과-유 (목표, 과제, 유대)",
+      "differential": "상담관계는 넓은 개념, 작업동맹은 목표·과제·유대의 3요소로 구조화된 하위 개념",
+      "key_point": "Bordin이 제안한 범이론적 개념으로 목표합의, 과제합의, 정서적 유대의 3요소로 구성",
+      "common_mistake": "작업동맹을 단순히 좋은 관계로만 이해하나, 목표와 과제에 대한 합의가 핵심이다"
+    }
+  },
+  {
+    "id": "FOUND_TA_005",
+    "terminology": "치료적 태도 (Therapeutic Attitude)",
+    "terminology_ko": "치료적 태도",
+    "terminology_en": "Therapeutic Attitude",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자가 내담자를 대할 때 갖추어야 할 전문적 자세와 마음가짐으로, 공감, 존중, 진정성 등이 핵심 요소이다.",
+    "definition_en": "The professional stance and mindset a counselor should maintain when working with clients, with empathy, respect, and genuineness as core elements.",
+    "significance": "상담의 효과를 좌우하는 기본 조건으로, Rogers가 제시한 핵심 조건과 밀접하게 관련된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "공감, 무조건적 긍정적 존중, 일치성의 3가지 핵심 조건 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "공감적 이해",
+        "name_en": "Empathic Understanding",
+        "id": "PERSON_EM_003"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PERSON_UPR_002"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PERSON_CG_004"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "치료적 태도 = 공감 + 존중 + 진정성",
+      "differential": "상담기법은 '무엇을 하는가', 치료적 태도는 '어떤 자세로 하는가'에 관한 것",
+      "key_point": "Rogers의 핵심 조건(공감, 무조건적 긍정적 존중, 일치성)이 대표적",
+      "common_mistake": "치료적 태도를 기법으로 혼동하나, 이는 상담자의 존재 방식에 관한 것이다"
+    }
+  },
+  {
+    "id": "FOUND_CT_006",
+    "terminology": "상담이론 (Counseling Theory)",
+    "terminology_ko": "상담이론",
+    "terminology_en": "Counseling Theory",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "인간의 심리적 문제와 변화 과정을 설명하고 상담 실제를 안내하는 체계적인 이론적 틀로, 인간관, 핵심개념, 상담기법, 상담과정을 포함한다.",
+    "definition_en": "A systematic theoretical framework that explains human psychological problems and change processes, guiding counseling practice through views of human nature, core concepts, techniques, and processes.",
+    "significance": "상담자의 사례 개념화와 개입 전략의 기초가 되며, 다양한 이론적 지향이 상담 실제를 풍요롭게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "주요 상담 이론들을 통합적으로 정리한 교과서 저술"
+      },
+      {
+        "name_ko": "노안영",
+        "name_en": "Ahn-Young Roh",
+        "contribution": "한국 상담학에서 상담이론의 체계적 소개와 교육에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "FOUND_IA_011"
+      },
+      {
+        "name_ko": "사례개념화",
+        "name_en": "Case Conceptualization",
+        "id": "FOUND_CC_013"
+      },
+      {
+        "name_ko": "인간관",
+        "name_en": "View of Human Nature",
+        "id": "FOUND_VH_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정신역동적 접근",
+        "description": "무의식과 초기 경험을 강조하는 이론군"
+      },
+      {
+        "name": "인본주의적 접근",
+        "description": "인간의 자기실현 경향성을 강조하는 이론군"
+      },
+      {
+        "name": "인지행동적 접근",
+        "description": "사고와 행동의 변화를 강조하는 이론군"
+      },
+      {
+        "name": "포스트모던 접근",
+        "description": "사회적 구성과 내러티브를 강조하는 이론군"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "상담이론 4요소: 인간관, 핵심개념, 상담기법, 상담과정",
+      "differential": "상담이론은 포괄적 틀, 상담기법은 구체적 개입 방법을 의미",
+      "key_point": "인간관, 핵심개념, 상담기법, 상담과정을 포함하는 체계적 틀",
+      "common_mistake": "하나의 이론만 옳다고 보는 것은 편협한 관점이며, 각 이론은 인간의 다른 측면을 조명한다"
+    }
+  },
+  {
+    "id": "FOUND_VH_007",
+    "terminology": "인간관 (View of Human Nature)",
+    "terminology_ko": "인간관",
+    "terminology_en": "View of Human Nature",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "각 상담 이론이 전제하는 인간 본성에 대한 기본 가정으로, 결정론 대 자유의지, 선천성 대 후천성, 합리성 대 비합리성 등의 차원에서 이론마다 다르다.",
+    "definition_en": "The fundamental assumptions about human nature underlying each counseling theory, varying across dimensions such as determinism vs. free will, nature vs. nurture, and rationality vs. irrationality.",
+    "significance": "상담자의 인간관은 내담자를 바라보는 시각과 개입 방향을 결정하는 가장 근본적인 요인이다.",
+    "key_researchers": [
+      {
+        "name_ko": "지그문트 프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "결정론적·비합리적 인간관 (무의식에 의해 지배)"
+      },
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "긍정적·성장지향적 인간관 (자기실현경향성)"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담이론",
+        "name_en": "Counseling Theory",
+        "id": "FOUND_CT_006"
+      },
+      {
+        "name_ko": "자기실현경향성",
+        "name_en": "Self-Actualizing Tendency",
+        "id": "FOUND_SAT_008"
+      },
+      {
+        "name_ko": "결정론",
+        "name_en": "Determinism",
+        "id": "FOUND_DT_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인간관의 3대 축: 결정론-자유의지, 선천-후천, 합리-비합리",
+      "differential": "정신분석은 결정론적 인간관, 실존주의는 자유의지 강조, 행동주의는 환경결정론",
+      "key_point": "각 이론의 인간관이 상담 목표와 기법을 결정짓는 출발점",
+      "common_mistake": "인간관을 단순히 낙관적/비관적으로만 구분하나, 여러 차원이 복합적으로 작용한다"
+    }
+  },
+  {
+    "id": "FOUND_SAT_008",
+    "terminology": "자기실현경향성 (Self-Actualizing Tendency)",
+    "terminology_ko": "자기실현경향성",
+    "terminology_en": "Self-Actualizing Tendency",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "모든 인간에게 내재된 자신의 잠재력을 실현하고 성장하려는 기본적 동기로, 인본주의 상담의 핵심 전제이다.",
+    "definition_en": "An inherent motivation in all humans to realize their potential and grow, serving as a core premise of humanistic counseling approaches.",
+    "significance": "인본주의 상담의 이론적 토대로, 상담자의 역할이 지시가 아닌 촉진임을 정당화한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "실현경향성(actualizing tendency)을 인간의 유일한 동기로 제시"
+      },
+      {
+        "name_ko": "에이브러햄 매슬로",
+        "name_en": "Abraham Maslow",
+        "contribution": "자기실현(self-actualization)을 욕구위계의 최상위에 배치"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인간관",
+        "name_en": "View of Human Nature",
+        "id": "FOUND_VH_007"
+      },
+      {
+        "name_ko": "인간중심상담",
+        "name_en": "Person-Centered Counseling",
+        "id": "PERSON_PC_001"
+      },
+      {
+        "name_ko": "실존주의 상담",
+        "name_en": "Existential Therapy",
+        "id": "EXIST_ET_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기실현경향성 = 모든 인간의 내재적 성장 동기",
+      "differential": "Maslow의 자기실현은 욕구위계 최상위, Rogers의 실현경향성은 유일한 기본 동기",
+      "key_point": "Rogers는 이를 인간의 유일한 동기로 보았으며, 이것이 인본주의 상담의 철학적 기초",
+      "common_mistake": "자기실현을 단순한 성취욕으로 혼동하나, 전인적 성장과 잠재력 발현을 의미한다"
+    }
+  },
+  {
+    "id": "FOUND_DT_009",
+    "terminology": "결정론 (Determinism)",
+    "terminology_ko": "결정론",
+    "terminology_en": "Determinism",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "인간의 행동과 심리가 과거 경험, 무의식적 충동, 환경 등 외적·내적 요인에 의해 결정된다는 철학적 입장으로, 정신분석과 행동주의의 기본 전제이다.",
+    "definition_en": "A philosophical position that human behavior and psychology are determined by external and internal factors such as past experiences, unconscious drives, and environment, foundational to psychoanalysis and behaviorism.",
+    "significance": "상담이론의 인간관을 이해하는 핵심 축으로, 자유의지 강조 이론과 대비되는 기본 전제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "지그문트 프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "심리적 결정론(psychic determinism): 모든 심리 현상에는 원인이 있다"
+      },
+      {
+        "name_ko": "B.F. 스키너",
+        "name_en": "B.F. Skinner",
+        "contribution": "환경 결정론: 행동은 강화 역사에 의해 결정됨"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인간관",
+        "name_en": "View of Human Nature",
+        "id": "FOUND_VH_007"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "EXIST_FR_003"
+      },
+      {
+        "name_ko": "정신역동 상담",
+        "name_en": "Psychodynamic Therapy",
+        "id": "PSYCHOD_PD_001"
+      },
+      {
+        "name_ko": "행동주의 상담",
+        "name_en": "Behavior Therapy",
+        "id": "BEHAV_BT_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "심리적 결정론",
+        "description": "무의식적 욕구와 초기 경험이 행동을 결정 (Freud)"
+      },
+      {
+        "name": "환경적 결정론",
+        "description": "외적 환경과 강화가 행동을 결정 (Skinner)"
+      },
+      {
+        "name": "상호적 결정론",
+        "description": "개인, 행동, 환경이 상호 영향 (Bandura)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "결정론: 과거/환경/무의식이 현재를 결정",
+      "differential": "결정론은 정신분석·행동주의, 자유의지는 실존주의·인본주의의 입장",
+      "key_point": "Freud의 심리적 결정론과 Skinner의 환경적 결정론이 대표적",
+      "common_mistake": "결정론을 운명론과 동일시하나, 상담에서는 과거의 영향을 이해하여 변화를 도모하는 데 활용한다"
+    }
+  },
+  {
+    "id": "FOUND_CMF_010",
+    "terminology": "공통요인 (Common Factors)",
+    "terminology_ko": "공통요인",
+    "terminology_en": "Common Factors",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "다양한 상담 이론과 접근에서 공통적으로 발견되는 치료적 변화 요인으로, 치료적 관계, 기대와 희망, 정서적 각성 등이 포함된다.",
+    "definition_en": "Therapeutic change factors commonly found across various counseling theories and approaches, including the therapeutic relationship, expectation and hope, and emotional arousal.",
+    "significance": "어떤 특정 이론이나 기법보다 공통요인이 상담 성과의 더 큰 비중을 차지한다는 연구 결과는 상담학의 패러다임을 변화시켰다.",
+    "key_researchers": [
+      {
+        "name_ko": "제롬 프랭크",
+        "name_en": "Jerome Frank",
+        "contribution": "모든 심리치료에 공통되는 요인(치유적 맥락, 치료적 관계, 이론적 근거, 치료 절차)을 분석"
+      },
+      {
+        "name_ko": "마이클 램버트",
+        "name_en": "Michael Lambert",
+        "contribution": "상담 성과의 변량 분석: 외적 요인 40%, 관계 30%, 기대 15%, 기법 15%"
+      },
+      {
+        "name_ko": "브루스 왐폴드",
+        "name_en": "Bruce Wampold",
+        "contribution": "맥락 모형을 통해 공통요인 접근의 경험적 근거 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "작업동맹",
+        "name_en": "Working Alliance",
+        "id": "FOUND_WA_004"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "FOUND_IA_011"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "치료적 관계",
+        "description": "상담자와 내담자 간의 신뢰 관계 (성과의 약 30%)"
+      },
+      {
+        "name": "기대와 희망",
+        "description": "치료에 대한 내담자의 긍정적 기대 (성과의 약 15%)"
+      },
+      {
+        "name": "외적 요인",
+        "description": "내담자의 자원, 환경 변화 등 (성과의 약 40%)"
+      },
+      {
+        "name": "기법 요인",
+        "description": "특정 상담 기법의 기여 (성과의 약 15%)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Lambert의 성과 비율: 외40-관30-기대15-기법15",
+      "differential": "공통요인 접근은 이론 간 공유 요소를 강조, 특수요인 접근은 특정 기법의 효과를 강조",
+      "key_point": "Lambert에 따르면 기법보다 관계(30%)와 외적 요인(40%)이 성과에 더 큰 기여",
+      "common_mistake": "공통요인이 기법이 불필요하다는 의미는 아니며, 기법도 15%의 독립적 기여를 한다"
+    }
+  },
+  {
+    "id": "FOUND_IA_011",
+    "terminology": "통합적 접근 (Integrative Approach)",
+    "terminology_ko": "통합적 접근",
+    "terminology_en": "Integrative Approach",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "하나의 이론에만 의존하지 않고 다양한 상담 이론과 기법을 체계적으로 결합하여 내담자에게 최적의 상담을 제공하려는 접근이다.",
+    "definition_en": "An approach that systematically combines various counseling theories and techniques rather than relying on a single theory to provide optimal counseling for clients.",
+    "significance": "현대 상담에서 가장 많은 상담자들이 채택하는 접근으로, 내담자 맞춤형 개입의 이론적 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "아놀드 라자루스",
+        "name_en": "Arnold Lazarus",
+        "contribution": "다중양식치료(multimodal therapy)를 통한 기술적 절충주의 제시"
+      },
+      {
+        "name_ko": "제임스 프로차스카",
+        "name_en": "James Prochaska",
+        "contribution": "변화 단계 모형을 통한 범이론적 접근 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "공통요인",
+        "name_en": "Common Factors",
+        "id": "FOUND_CMF_010"
+      },
+      {
+        "name_ko": "상담이론",
+        "name_en": "Counseling Theory",
+        "id": "FOUND_CT_006"
+      },
+      {
+        "name_ko": "사례개념화",
+        "name_en": "Case Conceptualization",
+        "id": "FOUND_CC_013"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "기술적 절충주의",
+        "description": "이론에 구애받지 않고 효과적인 기법을 선택적으로 사용"
+      },
+      {
+        "name": "이론적 통합",
+        "description": "두 개 이상의 이론을 하나의 새로운 체계로 통합"
+      },
+      {
+        "name": "공통요인 접근",
+        "description": "이론 간 공통되는 치료적 요인에 초점"
+      },
+      {
+        "name": "동화적 통합",
+        "description": "하나의 주요 이론을 기반으로 다른 이론의 기법을 흡수"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "통합 4유형: 기절-이통-공통-동화 (기술적 절충, 이론적 통합, 공통요인, 동화적 통합)",
+      "differential": "절충주의는 기법 중심 선택, 통합적 접근은 이론적 일관성을 추구한다는 차이",
+      "key_point": "기술적 절충주의, 이론적 통합, 공통요인 접근, 동화적 통합의 4가지 유형이 있다",
+      "common_mistake": "통합적 접근을 이것저것 무작위로 사용하는 것으로 오해하나, 체계적이고 일관된 틀이 필요하다"
+    }
+  },
+  {
+    "id": "FOUND_EC_012",
+    "terminology": "절충주의 (Eclecticism)",
+    "terminology_ko": "절충주의",
+    "terminology_en": "Eclecticism",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "특정 이론에 고정되지 않고 여러 이론의 기법 중 내담자에게 가장 효과적인 것을 선택적으로 활용하는 실용적 접근이다.",
+    "definition_en": "A pragmatic approach that selectively utilizes the most effective techniques from various theories without being fixed to a particular theoretical orientation.",
+    "significance": "실무 상담자들이 가장 많이 채택하는 접근 방식으로, 다양한 내담자 문제에 유연하게 대응할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "아놀드 라자루스",
+        "name_en": "Arnold Lazarus",
+        "contribution": "기술적 절충주의와 BASIC-ID 다중양식 평가 체계 개발"
+      },
+      {
+        "name_ko": "존 노크로스",
+        "name_en": "John Norcross",
+        "contribution": "상담 통합과 절충의 경험적 근거 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "FOUND_IA_011"
+      },
+      {
+        "name_ko": "공통요인",
+        "name_en": "Common Factors",
+        "id": "FOUND_CMF_010"
+      },
+      {
+        "name_ko": "상담이론",
+        "name_en": "Counseling Theory",
+        "id": "FOUND_CT_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "절충주의 = 효과적 기법의 실용적 선택",
+      "differential": "절충주의는 기법 중심의 선택적 활용, 통합적 접근은 이론적 틀의 체계적 결합을 추구",
+      "key_point": "Lazarus의 기술적 절충주의(technical eclecticism)가 대표적",
+      "common_mistake": "절충주의를 무원칙한 혼합으로 오해하나, 경험적 근거에 기반한 체계적 선택이다"
+    }
+  },
+  {
+    "id": "FOUND_CC_013",
+    "terminology": "사례개념화 (Case Conceptualization)",
+    "terminology_ko": "사례개념화",
+    "terminology_en": "Case Conceptualization",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "내담자의 문제를 특정 상담 이론적 틀에 기반하여 체계적으로 이해하고, 문제의 원인, 유지 요인, 치료 방향을 설정하는 과정이다.",
+    "definition_en": "A systematic process of understanding a client's problems based on a specific theoretical framework, identifying causes, maintaining factors, and establishing treatment directions.",
+    "significance": "상담 계획 수립의 기초가 되며, 이론과 실제를 연결하는 핵심 역량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "트레이시 이얼스",
+        "name_en": "Tracy Eells",
+        "contribution": "사례개념화의 체계적 모형과 훈련 방법 연구"
+      },
+      {
+        "name_ko": "재클린 퍼슨스",
+        "name_en": "Jacqueline Persons",
+        "contribution": "인지행동치료 기반 사례개념화 모형 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담이론",
+        "name_en": "Counseling Theory",
+        "id": "FOUND_CT_006"
+      },
+      {
+        "name_ko": "상담과정",
+        "name_en": "Counseling Process",
+        "id": "FOUND_CP_014"
+      },
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "FOUND_IA_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사례개념화 = 이론적 렌즈로 내담자 문제를 체계적으로 조망",
+      "differential": "진단은 분류 체계에 따른 명명, 사례개념화는 이론에 기반한 개별적 이해",
+      "key_point": "이론적 틀에 기반하여 문제의 원인, 유지요인, 치료방향을 설정하는 과정",
+      "common_mistake": "사례개념화를 단순한 진단명 부여로 혼동하나, 개별 내담자에 대한 깊이 있는 이해를 요구한다"
+    }
+  },
+  {
+    "id": "FOUND_CP_014",
+    "terminology": "상담과정 (Counseling Process)",
+    "terminology_ko": "상담과정",
+    "terminology_en": "Counseling Process",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담의 시작부터 종결까지의 전체적인 흐름으로, 일반적으로 초기(관계형성), 중기(탐색과 작업), 후기(종결과 평가) 단계로 구분된다.",
+    "definition_en": "The overall flow from the beginning to the end of counseling, generally divided into initial (relationship building), middle (exploration and working), and final (termination and evaluation) stages.",
+    "significance": "상담의 구조화를 위한 기본 틀로, 각 단계에 적합한 상담자 역할과 과제를 안내한다.",
+    "key_researchers": [
+      {
+        "name_ko": "클라라 힐",
+        "name_en": "Clara Hill",
+        "contribution": "상담과정의 3단계 모형(탐색-통찰-실행) 제시"
+      },
+      {
+        "name_ko": "제럴드 이건",
+        "name_en": "Gerard Egan",
+        "contribution": "숙련된 조력자 모형의 3단계(현재 이야기-선호 이야기-실행) 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "사례개념화",
+        "name_en": "Case Conceptualization",
+        "id": "FOUND_CC_013"
+      },
+      {
+        "name_ko": "종결",
+        "name_en": "Termination",
+        "id": "FOUND_TM_015"
+      },
+      {
+        "name_ko": "라포",
+        "name_en": "Rapport",
+        "id": "PROCESS_RA_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "초기 단계",
+        "description": "관계형성, 문제 탐색, 목표 설정"
+      },
+      {
+        "name": "중기 단계",
+        "description": "심층 탐색, 통찰, 변화 작업"
+      },
+      {
+        "name": "후기 단계",
+        "description": "종결 준비, 성과 평가, 추수 상담"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "상담과정 3단계: 초(관계)-중(작업)-후(종결)",
+      "differential": "Hill의 모형은 탐색-통찰-실행, Egan의 모형은 현재이야기-선호이야기-실행",
+      "key_point": "초기(관계형성), 중기(탐색과 작업), 후기(종결과 평가)의 3단계 구조",
+      "common_mistake": "상담과정을 기계적으로 따르는 것이 아니라, 내담자에 따라 유연하게 적용해야 한다"
+    }
+  },
+  {
+    "id": "FOUND_TM_015",
+    "terminology": "종결 (Termination)",
+    "terminology_ko": "종결",
+    "terminology_en": "Termination",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담 목표가 달성되었거나 상담을 더 이상 지속하기 어려운 경우 상담을 마무리하는 과정으로, 성과 요약, 재발 방지, 독립적 기능 강화를 포함한다.",
+    "definition_en": "The process of concluding counseling when goals have been achieved or continuation is no longer feasible, including summarizing outcomes, relapse prevention, and strengthening independent functioning.",
+    "significance": "적절한 종결은 상담 성과를 공고히 하고 내담자의 자율성을 촉진하며, 조기 종결은 새로운 상실 경험이 될 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "앨런 마라트",
+        "name_en": "Alan Marlatt",
+        "contribution": "재발 방지 모형을 통해 종결 후 유지 전략 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담과정",
+        "name_en": "Counseling Process",
+        "id": "FOUND_CP_014"
+      },
+      {
+        "name_ko": "작업동맹",
+        "name_en": "Working Alliance",
+        "id": "FOUND_WA_004"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TF_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "계획된 종결",
+        "description": "상담 목표 달성 후 합의에 의한 종결"
+      },
+      {
+        "name": "조기 종결",
+        "description": "내담자 또는 상담자에 의한 예상치 못한 종결"
+      },
+      {
+        "name": "강제 종결",
+        "description": "외부 요인(보험, 전근 등)에 의한 종결"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "종결 3과제: 성과요약 + 재발방지 + 독립기능강화",
+      "differential": "계획된 종결은 목표 달성 후, 조기 종결은 목표 달성 전에 이루어지는 종결",
+      "key_point": "성과 요약, 재발 방지, 독립적 기능 강화가 종결의 핵심 과제",
+      "common_mistake": "종결을 단순히 상담을 그만두는 것으로 보나, 체계적인 마무리 과정이 필요하다"
+    }
+  },
+  {
+    "id": "FOUND_RS_016",
+    "terminology": "저항 (Resistance)",
+    "terminology_ko": "저항",
+    "terminology_en": "Resistance",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "내담자가 상담 과정에서 변화에 대해 보이는 의식적 또는 무의식적 반대 행동으로, 상담 진행을 방해하는 듯 보이나 치료적으로 의미 있는 자료가 될 수 있다.",
+    "definition_en": "Conscious or unconscious oppositional behaviors shown by clients toward change in counseling, which appear to hinder progress but can serve as therapeutically meaningful material.",
+    "significance": "모든 상담 이론에서 중요하게 다루는 현상으로, 저항의 의미를 어떻게 이해하느냐가 이론마다 다르다.",
+    "key_researchers": [
+      {
+        "name_ko": "지그문트 프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "저항을 무의식적 방어로 개념화하고 분석의 대상으로 삼음"
+      },
+      {
+        "name_ko": "윌리엄 밀러",
+        "name_en": "William Miller",
+        "contribution": "동기강화상담에서 저항을 관계적 현상으로 재개념화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "방어기제",
+        "name_en": "Defense Mechanisms",
+        "id": "PSYCHOD_DM_006"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TF_005"
+      },
+      {
+        "name_ko": "작업동맹",
+        "name_en": "Working Alliance",
+        "id": "FOUND_WA_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "저항 = 변화에 대한 내담자의 (무)의식적 반대",
+      "differential": "정신분석에서 저항은 무의식적 방어, 동기강화상담에서는 관계적 불협화음으로 이해",
+      "key_point": "저항은 방해가 아니라 치료적으로 중요한 정보를 제공하는 현상",
+      "common_mistake": "저항을 단순히 비협조로 보나, 내담자의 심리적 안전을 위한 자기보호 기제일 수 있다"
+    }
+  },
+  {
+    "id": "FOUND_IN_017",
+    "terminology": "통찰 (Insight)",
+    "terminology_ko": "통찰",
+    "terminology_en": "Insight",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "내담자가 자신의 감정, 사고, 행동 패턴과 그 원인에 대해 새롭게 인식하고 이해하게 되는 심리적 경험으로, 많은 상담 이론에서 변화의 핵심 기제로 본다.",
+    "definition_en": "A psychological experience in which the client gains new awareness and understanding of their emotional, cognitive, and behavioral patterns and their causes, viewed as a key mechanism of change in many counseling theories.",
+    "significance": "정신역동적, 인본주의적 상담에서 치료적 변화의 중심 기제로, 통찰이 행동 변화로 이어지는 과정이 상담의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "지그문트 프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "무의식을 의식화하는 과정으로서의 통찰 강조"
+      },
+      {
+        "name_ko": "클라라 힐",
+        "name_en": "Clara Hill",
+        "contribution": "상담과정에서 통찰의 역할과 유형을 체계적으로 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기이해",
+        "name_en": "Self-Understanding",
+        "id": "FOUND_SU_018"
+      },
+      {
+        "name_ko": "해석",
+        "name_en": "Interpretation",
+        "id": "PSYCHOD_IT_008"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "상담과정",
+        "name_en": "Counseling Process",
+        "id": "FOUND_CP_014"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "지적 통찰",
+        "description": "인지적 수준에서의 이해 (정보적)"
+      },
+      {
+        "name": "정서적 통찰",
+        "description": "감정을 동반한 깊은 수준의 이해 (변화적)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "통찰 = 아하! 새로운 자기 인식",
+      "differential": "지적 통찰은 머리로만 아는 것, 정서적 통찰은 가슴으로 느끼며 아는 것",
+      "key_point": "정서적 통찰이 진정한 변화를 이끄는 핵심이며, 지적 통찰만으로는 부족하다",
+      "common_mistake": "통찰이 즉각적인 행동 변화를 보장하지는 않으며, 통찰 후 실행 단계가 필요하다"
+    }
+  },
+  {
+    "id": "FOUND_SU_018",
+    "terminology": "자기이해 (Self-Understanding)",
+    "terminology_ko": "자기이해",
+    "terminology_en": "Self-Understanding",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "자신의 감정, 욕구, 동기, 행동 패턴, 대인관계 양식 등에 대해 깊이 있게 파악하는 것으로, 상담의 보편적 목표 중 하나이다.",
+    "definition_en": "A deep understanding of one's emotions, needs, motivations, behavioral patterns, and interpersonal styles, serving as a universal goal across counseling approaches.",
+    "significance": "모든 상담 접근에서 추구하는 기본 목표로, 자기이해가 선행되어야 의미 있는 변화가 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "자기 경험에 대한 개방적 이해를 통한 성장 강조"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "자기이해를 실존적 자각과 연결하여 치료적 의미 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통찰",
+        "name_en": "Insight",
+        "id": "FOUND_IN_017"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "GESTALT_AW_002"
+      },
+      {
+        "name_ko": "자기탐색",
+        "name_en": "Self-Exploration",
+        "id": "FOUND_SE_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기이해 = 나 자신을 아는 것 → 변화의 출발",
+      "differential": "통찰은 순간적 깨달음, 자기이해는 지속적이고 포괄적인 자기 인식",
+      "key_point": "상담의 보편적 목표이며, 감정·욕구·동기·행동패턴·대인관계 양식을 포괄",
+      "common_mistake": "자기이해를 자기비판과 혼동하나, 비판단적 수용 속에서 이루어져야 한다"
+    }
+  },
+  {
+    "id": "FOUND_SE_019",
+    "terminology": "자기탐색 (Self-Exploration)",
+    "terminology_ko": "자기탐색",
+    "terminology_en": "Self-Exploration",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "내담자가 자신의 내면세계를 능동적으로 탐구하는 과정으로, 감정, 사고, 가치관, 경험 등을 깊이 있게 살펴보는 상담 활동이다.",
+    "definition_en": "An active process in which the client explores their inner world, examining emotions, thoughts, values, and experiences in depth during counseling.",
+    "significance": "상담 초기부터 중기에 걸쳐 이루어지는 핵심 활동으로, 자기이해와 통찰의 토대가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "클라라 힐",
+        "name_en": "Clara Hill",
+        "contribution": "상담과정의 탐색 단계를 체계화하고 자기탐색 촉진 기술 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기이해",
+        "name_en": "Self-Understanding",
+        "id": "FOUND_SU_018"
+      },
+      {
+        "name_ko": "통찰",
+        "name_en": "Insight",
+        "id": "FOUND_IN_017"
+      },
+      {
+        "name_ko": "경청",
+        "name_en": "Active Listening",
+        "id": "PROCESS_AL_002"
+      },
+      {
+        "name_ko": "반영",
+        "name_en": "Reflection",
+        "id": "PROCESS_RF_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기탐색 = 내면세계의 능동적 탐구",
+      "differential": "자기탐색은 과정(탐구 활동), 자기이해는 결과(깊은 인식 상태)",
+      "key_point": "내담자의 능동적 참여가 핵심이며, 상담자는 이를 촉진하는 역할",
+      "common_mistake": "상담자가 주도적으로 분석해주는 것이 아니라 내담자의 자발적 탐색이 중요하다"
+    }
+  },
+  {
+    "id": "FOUND_CT_020",
+    "terminology": "카타르시스 (Catharsis)",
+    "terminology_ko": "카타르시스",
+    "terminology_en": "Catharsis",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "억압되었거나 억눌린 감정을 언어적·비언어적으로 표현하고 방출함으로써 심리적 정화와 안도감을 경험하는 치료적 현상이다.",
+    "definition_en": "A therapeutic phenomenon in which suppressed emotions are expressed and released verbally or nonverbally, resulting in psychological purification and relief.",
+    "significance": "정서적 해소 경험은 그 자체로 치료적이며, 더 깊은 탐색과 통찰을 위한 토대가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "요제프 브로이어",
+        "name_en": "Josef Breuer",
+        "contribution": "히스테리 환자의 감정 정화(카타르시스)를 통한 치료 발견"
+      },
+      {
+        "name_ko": "지그문트 프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "브로이어와 함께 카타르시스 방법을 초기 정신분석에 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통찰",
+        "name_en": "Insight",
+        "id": "FOUND_IN_017"
+      },
+      {
+        "name_ko": "치료적 요인",
+        "name_en": "Therapeutic Factors",
+        "id": "GROUP_TF_002"
+      },
+      {
+        "name_ko": "자기탐색",
+        "name_en": "Self-Exploration",
+        "id": "FOUND_SE_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "카타르시스 = 감정의 정화와 방출 → 안도감",
+      "differential": "카타르시스는 감정의 방출 경험, 통찰은 인지적 이해 경험",
+      "key_point": "Breuer와 Freud가 히스테리 치료에서 발견한 감정 정화 현상",
+      "common_mistake": "카타르시스만으로 충분한 치료가 되지 않으며, 통찰과 행동 변화가 뒤따라야 한다"
+    }
+  },
+  {
+    "id": "FOUND_EM_021",
+    "terminology": "공감 (Empathy)",
+    "terminology_ko": "공감",
+    "terminology_en": "Empathy",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자가 내담자의 내적 준거 틀에 들어가 그의 감정과 경험을 마치 자신의 것처럼 이해하되, '마치 ~인 것처럼(as if)'의 조건을 잃지 않는 것이다.",
+    "definition_en": "The counselor's ability to enter the client's internal frame of reference and understand their feelings and experiences as if they were one's own, while maintaining the 'as if' condition.",
+    "significance": "Rogers가 제시한 상담의 핵심 조건 중 하나로, 모든 이론에서 인정하는 가장 중요한 상담자 자질이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "공감적 이해를 상담의 필요충분조건 중 하나로 제시"
+      },
+      {
+        "name_ko": "하인츠 코헛",
+        "name_en": "Heinz Kohut",
+        "contribution": "자기심리학에서 공감을 치료의 핵심 도구로 확장"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "공감적 이해",
+        "name_en": "Empathic Understanding",
+        "id": "PERSON_EM_003"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "치료적 태도",
+        "name_en": "Therapeutic Attitude",
+        "id": "FOUND_TA_005"
+      },
+      {
+        "name_ko": "반영",
+        "name_en": "Reflection",
+        "id": "PROCESS_RF_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "일차적 공감",
+        "description": "내담자가 표현한 감정과 의미를 반영하는 기본 공감"
+      },
+      {
+        "name": "심화 공감",
+        "description": "내담자가 아직 자각하지 못한 감정이나 의미까지 전달하는 공감"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "공감 = 'as if' (마치 ~인 것처럼) 조건 유지하며 이해",
+      "differential": "동정(sympathy)은 감정의 동일시, 공감(empathy)은 이해하되 구별을 유지",
+      "key_point": "Rogers의 'as if' 조건이 핵심: 내담자의 경험을 이해하되 자기를 잃지 않는 것",
+      "common_mistake": "공감을 동의나 동정과 혼동하나, 공감은 내담자의 관점에서 이해하는 것이다"
+    }
+  },
+  {
+    "id": "FOUND_GN_022",
+    "terminology": "진정성 (Genuineness)",
+    "terminology_ko": "진정성",
+    "terminology_en": "Genuineness",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자가 전문적 가면 뒤에 숨지 않고 자신의 감정과 태도를 솔직하고 투명하게 표현하는 것으로, Rogers의 일치성(congruence)과 동의어로 사용된다.",
+    "definition_en": "The counselor's honest and transparent expression of feelings and attitudes without hiding behind a professional facade, used synonymously with Rogers' concept of congruence.",
+    "significance": "상담자의 진정성은 내담자의 신뢰를 형성하고 상담관계의 깊이를 결정하는 핵심 조건이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "일치성(congruence)을 상담의 필요충분조건 중 가장 기본적인 것으로 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PERSON_CG_004"
+      },
+      {
+        "name_ko": "치료적 태도",
+        "name_en": "Therapeutic Attitude",
+        "id": "FOUND_TA_005"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진정성 = 가면 벗기 = 일치성(congruence)",
+      "differential": "진정성은 상담자의 존재 방식, 자기개방은 진정성을 표현하는 구체적 기법",
+      "key_point": "Rogers는 일치성을 3가지 핵심 조건 중 가장 기본적인 것으로 보았다",
+      "common_mistake": "진정성을 모든 감정을 여과 없이 표현하는 것으로 오해하나, 치료적 판단 하에 선택적으로 표현"
+    }
+  },
+  {
+    "id": "FOUND_SD_023",
+    "terminology": "자기개방 (Self-Disclosure)",
+    "terminology_ko": "자기개방",
+    "terminology_en": "Self-Disclosure",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자가 자신의 개인적 경험, 감정, 반응 등을 내담자에게 의도적으로 공유하는 상담 기법으로, 내담자의 자기개방을 촉진하고 관계를 강화할 수 있다.",
+    "definition_en": "A counseling technique in which the counselor intentionally shares personal experiences, feelings, or reactions with the client to facilitate client self-disclosure and strengthen the relationship.",
+    "significance": "적절한 자기개방은 상담관계를 깊게 하고 내담자에게 모델을 제공하나, 부적절한 사용은 역치료적 효과를 낳는다.",
+    "key_researchers": [
+      {
+        "name_ko": "시드니 주라드",
+        "name_en": "Sidney Jourard",
+        "contribution": "자기개방의 상호성(dyadic effect)을 연구하여 치료적 자기개방의 근거 마련"
+      },
+      {
+        "name_ko": "클라라 힐",
+        "name_en": "Clara Hill",
+        "contribution": "상담자 자기개방의 유형과 효과를 실증적으로 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "진정성",
+        "name_en": "Genuineness",
+        "id": "FOUND_GN_022"
+      },
+      {
+        "name_ko": "상담관계",
+        "name_en": "Therapeutic Relationship",
+        "id": "FOUND_TR_003"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "자기관여적 진술",
+        "description": "상담 과정에서 내담자에 대한 상담자의 즉각적 반응 공유"
+      },
+      {
+        "name": "자기개방적 진술",
+        "description": "상담자의 과거 경험이나 유사 경험 공유"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "자기개방 = 상담자의 의도적 자기 공유 → 관계 강화",
+      "differential": "자기관여적 진술은 '지금-여기' 반응, 자기개방적 진술은 과거 경험 공유",
+      "key_point": "치료적 목적이 분명할 때만 사용하며, 내담자에게 초점이 유지되어야 한다",
+      "common_mistake": "상담자의 자기개방이 내담자의 시간을 뺏거나 주제를 벗어나게 해서는 안 된다"
+    }
+  },
+  {
+    "id": "FOUND_CF_024",
+    "terminology": "직면 (Confrontation)",
+    "terminology_ko": "직면",
+    "terminology_en": "Confrontation",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "내담자가 인식하지 못하거나 회피하는 모순, 불일치, 왜곡을 상담자가 지적하여 자각을 촉진하는 상담 기법이다.",
+    "definition_en": "A counseling technique in which the counselor points out contradictions, discrepancies, or distortions that the client is unaware of or avoiding to promote awareness.",
+    "significance": "상담의 중기 이후에 특히 유용하며, 충분한 라포가 형성된 후에 사용해야 효과적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 이건",
+        "name_en": "Gerard Egan",
+        "contribution": "직면을 도전(challenging)으로 재개념화하고 숙련된 조력 모형에 포함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통찰",
+        "name_en": "Insight",
+        "id": "FOUND_IN_017"
+      },
+      {
+        "name_ko": "저항",
+        "name_en": "Resistance",
+        "id": "FOUND_RS_016"
+      },
+      {
+        "name_ko": "작업동맹",
+        "name_en": "Working Alliance",
+        "id": "FOUND_WA_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "직면 = 모순·불일치·왜곡을 지적 → 자각 촉진",
+      "differential": "직면은 불일치를 지적, 해석은 무의식적 의미를 설명하는 것",
+      "key_point": "충분한 라포 형성 후에만 효과적이며, 공격이 아닌 돌봄에서 출발해야 한다",
+      "common_mistake": "직면을 공격이나 비난으로 오해하나, 내담자의 성장을 위한 돌봄의 표현이다"
+    }
+  },
+  {
+    "id": "FOUND_EB_025",
+    "terminology": "근거기반실제 (Evidence-Based Practice)",
+    "terminology_ko": "근거기반실제",
+    "terminology_en": "Evidence-Based Practice",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "최선의 연구 근거, 임상 전문성, 내담자 특성과 선호를 통합하여 상담 의사결정을 내리는 접근으로, 현대 상담의 핵심 패러다임이다.",
+    "definition_en": "An approach to counseling decision-making that integrates the best available research evidence, clinical expertise, and client characteristics and preferences, a core paradigm of modern counseling.",
+    "significance": "상담의 과학적 기반을 강화하고 상담자의 책무성을 높이는 현대 상담학의 핵심 원리이다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 새킷",
+        "name_en": "David Sackett",
+        "contribution": "의학에서 근거기반의학(EBM) 개념을 확립, 이후 상담에 적용됨"
+      },
+      {
+        "name_ko": "브루스 왐폴드",
+        "name_en": "Bruce Wampold",
+        "contribution": "상담 효과 연구를 통해 근거기반실제의 새로운 패러다임 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "공통요인",
+        "name_en": "Common Factors",
+        "id": "FOUND_CMF_010"
+      },
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "FOUND_IA_011"
+      },
+      {
+        "name_ko": "상담이론",
+        "name_en": "Counseling Theory",
+        "id": "FOUND_CT_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "EBP 3요소: 연구근거 + 임상전문성 + 내담자특성",
+      "differential": "경험적으로 지지된 치료(EST)는 특정 기법의 효과에 초점, EBP는 3요소의 통합적 의사결정",
+      "key_point": "연구 근거, 임상 전문성, 내담자 특성/선호의 3가지를 통합하는 의사결정",
+      "common_mistake": "EBP를 매뉴얼화된 치료만 사용하는 것으로 오해하나, 임상 전문성과 내담자 요인도 동등하게 중요"
+    }
+  },
+  {
+    "id": "FOUND_MC_026",
+    "terminology": "다문화 상담 (Multicultural Counseling)",
+    "terminology_ko": "다문화 상담",
+    "terminology_en": "Multicultural Counseling",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "내담자의 문화적 배경(인종, 민족, 성별, 성적지향, 종교, 사회경제적 지위 등)을 상담 과정에서 핵심적으로 고려하는 접근으로, 상담의 '제4세력'으로 불린다.",
+    "definition_en": "An approach that centrally considers the client's cultural background (race, ethnicity, gender, sexual orientation, religion, socioeconomic status) in counseling, called the 'fourth force' in counseling.",
+    "significance": "모든 상담이 문화적 맥락에서 이루어진다는 인식을 확산시키며, 상담의 보편성과 문화적 특수성의 균형을 추구한다.",
+    "key_researchers": [
+      {
+        "name_ko": "데럴드 윙 수",
+        "name_en": "Derald Wing Sue",
+        "contribution": "다문화상담역량 모형(인식, 지식, 기술) 개발"
+      },
+      {
+        "name_ko": "폴 페더슨",
+        "name_en": "Paul Pedersen",
+        "contribution": "다문화상담을 상담의 제4세력으로 명명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담이론",
+        "name_en": "Counseling Theory",
+        "id": "FOUND_CT_006"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_002"
+      },
+      {
+        "name_ko": "공감",
+        "name_en": "Empathy",
+        "id": "FOUND_EM_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "다문화상담 = 상담의 제4세력 (1정신분석, 2행동, 3인본주의 이후)",
+      "differential": "문화적 감수성은 태도, 다문화상담역량은 인식·지식·기술을 포괄하는 체계적 능력",
+      "key_point": "Sue의 다문화상담역량 3요소: 인식(awareness), 지식(knowledge), 기술(skills)",
+      "common_mistake": "다문화를 인종/민족에만 한정하나, 성별, 성적지향, 종교, SES 등 모든 문화적 차원을 포함"
+    }
+  },
+  {
+    "id": "FOUND_ET_027",
+    "terminology": "상담윤리 (Counseling Ethics)",
+    "terminology_ko": "상담윤리",
+    "terminology_en": "Counseling Ethics",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자가 전문적 활동에서 준수해야 할 도덕적 원칙과 행동 기준으로, 자율성 존중, 선행, 무해, 정의, 충실의 5대 원칙을 포함한다.",
+    "definition_en": "Moral principles and behavioral standards that counselors must follow in professional practice, including the five principles of autonomy, beneficence, nonmaleficence, justice, and fidelity.",
+    "significance": "내담자 보호와 전문직 신뢰 유지의 기반으로, 상담자의 모든 전문적 활동을 안내하는 기본 틀이다.",
+    "key_researchers": [
+      {
+        "name_ko": "키치너",
+        "name_en": "Karen Kitchener",
+        "contribution": "상담윤리의 5대 도덕 원칙(자율성, 선행, 무해, 정의, 충실) 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_001"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_002"
+      },
+      {
+        "name_ko": "이중관계",
+        "name_en": "Dual Relationship",
+        "id": "FOUND_DR_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "자율성(Autonomy)",
+        "description": "내담자의 자기결정권 존중"
+      },
+      {
+        "name": "선행(Beneficence)",
+        "description": "내담자의 복지 증진을 위해 행동"
+      },
+      {
+        "name": "무해(Nonmaleficence)",
+        "description": "내담자에게 해를 끼치지 않음"
+      },
+      {
+        "name": "정의(Justice)",
+        "description": "공정하고 평등한 대우"
+      },
+      {
+        "name": "충실(Fidelity)",
+        "description": "신뢰와 약속 준수"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "상담윤리 5원칙: 자-선-무-정-충 (자율성, 선행, 무해, 정의, 충실)",
+      "differential": "윤리 원칙은 추상적 지침, 윤리 강령은 구체적 행동 규범",
+      "key_point": "Kitchener의 5대 원칙: 자율성, 선행, 무해, 정의, 충실",
+      "common_mistake": "윤리 원칙 간 충돌 시(예: 비밀보장 vs 해 방지) 어떤 원칙이 우선하는지 판단이 필요하다"
+    }
+  },
+  {
+    "id": "FOUND_DR_028",
+    "terminology": "이중관계 (Dual Relationship)",
+    "terminology_ko": "이중관계",
+    "terminology_en": "Dual Relationship",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자가 내담자와 상담관계 외에 다른 관계(친구, 사업, 연인 등)를 동시에 맺는 것으로, 착취 가능성 때문에 윤리적으로 금지되거나 주의가 필요한 관계이다.",
+    "definition_en": "A situation where the counselor simultaneously holds another relationship (friend, business, romantic, etc.) with the client beyond the counseling relationship, ethically prohibited or requiring caution due to exploitation potential.",
+    "significance": "상담 윤리의 핵심 쟁점으로, 내담자 착취 방지와 전문적 경계 유지에 관한 기본 원칙이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 코리",
+        "name_en": "Gerald Corey",
+        "contribution": "이중관계의 윤리적 쟁점을 체계적으로 정리하고 교육에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "FOUND_ET_027"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_002"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TF_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이중관계 = 상담관계 + 다른 관계 = 윤리적 위반 위험",
+      "differential": "이중관계는 동시에 두 관계를 맺는 것, 경계 위반은 관계 범위를 넘는 부적절한 행동",
+      "key_point": "상담관계 외 다른 관계를 동시에 맺는 것으로, 착취 가능성 때문에 금지/주의가 필요",
+      "common_mistake": "모든 이중관계가 동일하게 해로운 것은 아니며, 농촌 등 소규모 공동체에서는 불가피할 수 있다"
+    }
+  },
+  {
+    "id": "FOUND_PD_029",
+    "terminology": "상담자 발달 (Counselor Development)",
+    "terminology_ko": "상담자 발달",
+    "terminology_en": "Counselor Development",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담자가 초보에서 숙련 단계로 성장해가는 과정으로, 이론적 지식, 기술적 역량, 자기인식, 전문적 정체성이 점진적으로 발달한다.",
+    "definition_en": "The process by which counselors grow from novice to expert levels, progressively developing theoretical knowledge, technical competence, self-awareness, and professional identity.",
+    "significance": "상담 교육과 수퍼비전의 이론적 기초를 제공하며, 발달 수준에 맞는 교육과 지원의 중요성을 강조한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 스톨텐버그",
+        "name_en": "Cal Stoltenberg",
+        "contribution": "통합발달모형(IDM)을 제시하여 상담자 발달 3수준 체계화"
+      },
+      {
+        "name_ko": "마이클 로니스탓",
+        "name_en": "Michael Ronnestad",
+        "contribution": "상담자 발달의 장기적 과정에 대한 질적 연구 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수퍼비전",
+        "name_en": "Supervision",
+        "id": "FOUND_SV_030"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "FOUND_ET_027"
+      },
+      {
+        "name_ko": "자기이해",
+        "name_en": "Self-Understanding",
+        "id": "FOUND_SU_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "수준 1 (초보)",
+        "description": "의존적, 불안 높음, 자기 초점적, 모방적 기법 사용"
+      },
+      {
+        "name": "수준 2 (중급)",
+        "description": "의존-자율 갈등, 혼란, 내담자에 과몰입"
+      },
+      {
+        "name": "수준 3 (숙련)",
+        "description": "자율적, 통합적, 유연한 기법 사용, 안정된 전문적 정체성"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Stoltenberg IDM 3수준: 초보(의존)-중급(갈등)-숙련(자율)",
+      "differential": "상담자 발달은 전체적 성장 과정, 수퍼비전은 그 성장을 돕는 교육적 관계",
+      "key_point": "Stoltenberg의 IDM: 동기, 자율성, 자기·타인 인식의 3차원에서 3수준 발달",
+      "common_mistake": "발달 수준은 경력 연수와 반드시 일치하지 않으며, 개인차가 크다"
+    }
+  },
+  {
+    "id": "FOUND_SV_030",
+    "terminology": "수퍼비전 (Supervision)",
+    "terminology_ko": "수퍼비전",
+    "terminology_en": "Supervision",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "경험 있는 전문 상담자가 수련 중인 상담자에게 상담 사례에 대한 지도, 피드백, 지지를 제공하는 교육적·평가적 과정이다.",
+    "definition_en": "An educational and evaluative process in which an experienced professional counselor provides guidance, feedback, and support regarding counseling cases to a trainee counselor.",
+    "significance": "상담자 발달의 핵심 기제이며, 내담자 복지를 보호하는 문지기(gatekeeping) 역할을 수행한다.",
+    "key_researchers": [
+      {
+        "name_ko": "버나드",
+        "name_en": "Janine Bernard",
+        "contribution": "변별 모형(discrimination model): 교사·상담자·자문가 역할을 상황에 따라 전환"
+      },
+      {
+        "name_ko": "칼 스톨텐버그",
+        "name_en": "Cal Stoltenberg",
+        "contribution": "IDM 기반 발달적 수퍼비전 모형 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담자 발달",
+        "name_en": "Counselor Development",
+        "id": "FOUND_PD_029"
+      },
+      {
+        "name_ko": "상담윤리",
+        "name_en": "Counseling Ethics",
+        "id": "FOUND_ET_027"
+      },
+      {
+        "name_ko": "작업동맹",
+        "name_en": "Working Alliance",
+        "id": "FOUND_WA_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "개인 수퍼비전",
+        "description": "수퍼바이저와 수퍼바이지의 1:1 지도"
+      },
+      {
+        "name": "집단 수퍼비전",
+        "description": "여러 수퍼바이지가 함께 참여하는 지도"
+      },
+      {
+        "name": "동료 수퍼비전",
+        "description": "비슷한 경력의 상담자 간 상호 피드백"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "수퍼비전의 3기능: 교육(normative) + 지지(restorative) + 관리(formative)",
+      "differential": "수퍼비전은 교육적·평가적 관계, 상담은 치료적 관계라는 점에서 구분",
+      "key_point": "Bernard의 변별모형: 수퍼바이저가 교사·상담자·자문가 역할을 상황에 따라 전환",
+      "common_mistake": "수퍼비전을 상담과 혼동하나, 수퍼비전의 일차적 목적은 내담자 복지 보호이다"
+    }
+  },
+  {
+    "id": "FOUND_HF_031",
+    "terminology": "상담의 4대 세력 (Four Forces of Counseling)",
+    "terminology_ko": "상담의 4대 세력",
+    "terminology_en": "Four Forces of Counseling",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "상담심리학의 역사적 발전을 4가지 주요 흐름으로 정리한 것으로, 제1세력 정신분석, 제2세력 행동주의, 제3세력 인본주의, 제4세력 다문화상담으로 구분된다.",
+    "definition_en": "A historical framework organizing the development of counseling psychology into four major movements: psychoanalysis (1st), behaviorism (2nd), humanism (3rd), and multicultural counseling (4th).",
+    "significance": "상담 이론의 역사적 발전 맥락을 이해하는 기본 틀로, 각 세력이 등장한 시대적 배경과 기여를 보여준다.",
+    "key_researchers": [
+      {
+        "name_ko": "에이브러햄 매슬로",
+        "name_en": "Abraham Maslow",
+        "contribution": "인본주의 심리학을 '제3세력'으로 명명"
+      },
+      {
+        "name_ko": "폴 페더슨",
+        "name_en": "Paul Pedersen",
+        "contribution": "다문화상담을 '제4세력'으로 명명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상담이론",
+        "name_en": "Counseling Theory",
+        "id": "FOUND_CT_006"
+      },
+      {
+        "name_ko": "정신역동 상담",
+        "name_en": "Psychodynamic Therapy",
+        "id": "PSYCHOD_PD_001"
+      },
+      {
+        "name_ko": "다문화 상담",
+        "name_en": "Multicultural Counseling",
+        "id": "FOUND_MC_026"
+      },
+      {
+        "name_ko": "행동주의 상담",
+        "name_en": "Behavior Therapy",
+        "id": "BEHAV_BT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "4대 세력: 정(1)-행(2)-인(3)-다(4) (정신분석-행동-인본-다문화)",
+      "differential": "제3세력(인본주의)은 인간의 성장과 잠재력 강조, 제4세력(다문화)은 문화적 맥락 강조",
+      "key_point": "1정신분석 → 2행동주의 → 3인본주의 → 4다문화상담의 역사적 흐름",
+      "common_mistake": "제4세력을 포스트모던이나 신경과학으로 오해하나, 다문화상담이 공식적인 제4세력이다"
+    }
+  },
+  {
+    "id": "FOUND_WT_032",
+    "terminology": "변화 단계 모형 (Stages of Change Model)",
+    "terminology_ko": "변화 단계 모형",
+    "terminology_en": "Stages of Change Model",
+    "category": "FOUND",
+    "category_name": "상담의 기초 (Foundations of Counseling)",
+    "definition": "Prochaska와 DiClemente가 제안한 범이론적 변화 모형으로, 전숙고-숙고-준비-실행-유지의 5단계를 통해 인간의 행동 변화 과정을 설명한다.",
+    "definition_en": "A transtheoretical model of change proposed by Prochaska and DiClemente, explaining the process of behavioral change through five stages: precontemplation, contemplation, preparation, action, and maintenance.",
+    "significance": "내담자의 변화 준비도에 맞춘 개입을 가능하게 하여, 범이론적 접근의 대표적 모형이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제임스 프로차스카",
+        "name_en": "James Prochaska",
+        "contribution": "변화 단계 모형(범이론적 모형) 개발"
+      },
+      {
+        "name_ko": "카를로 디클레멘테",
+        "name_en": "Carlo DiClemente",
+        "contribution": "Prochaska와 함께 변화 단계 모형 공동 개발 및 중독 분야 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "FOUND_IA_011"
+      },
+      {
+        "name_ko": "저항",
+        "name_en": "Resistance",
+        "id": "FOUND_RS_016"
+      },
+      {
+        "name_ko": "상담과정",
+        "name_en": "Counseling Process",
+        "id": "FOUND_CP_014"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "전숙고 단계",
+        "description": "문제를 인식하지 못하거나 변화 의지가 없는 단계"
+      },
+      {
+        "name": "숙고 단계",
+        "description": "문제를 인식하나 양가감정이 있는 단계"
+      },
+      {
+        "name": "준비 단계",
+        "description": "변화를 위한 구체적 계획을 세우는 단계"
+      },
+      {
+        "name": "실행 단계",
+        "description": "실제 행동 변화를 시도하는 단계"
+      },
+      {
+        "name": "유지 단계",
+        "description": "변화를 지속하고 재발을 방지하는 단계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "변화 5단계: 전-숙-준-실-유 (전숙고, 숙고, 준비, 실행, 유지)",
+      "differential": "전숙고는 문제 비인식, 숙고는 양가감정, 준비는 계획 수립 단계",
+      "key_point": "Prochaska & DiClemente의 5단계: 전숙고-숙고-준비-실행-유지",
+      "common_mistake": "변화가 반드시 순차적으로 진행되지 않으며, 퇴행과 순환이 정상적이다"
+    }
+  }
+]

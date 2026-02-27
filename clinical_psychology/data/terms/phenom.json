@@ -1,0 +1,1875 @@
+[
+  {
+    "id": "PHENOM_PCT_001",
+    "terminology": "인간중심치료 (Person-Centered Therapy)",
+    "terminology_ko": "인간중심치료",
+    "terminology_en": "Person-Centered Therapy",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Carl Rogers가 개발한 인본주의적 심리치료 접근으로, 내담자의 자기실현 경향성을 신뢰하고 치료자의 핵심 태도 조건(공감, 무조건적 긍정적 존중, 일치성)을 통해 내담자의 성장과 변화를 촉진하는 비지시적 치료법이다.",
+    "definition_en": "A humanistic psychotherapy approach developed by Carl Rogers that trusts the client's actualizing tendency and facilitates growth through the therapist's core attitudinal conditions: empathy, unconditional positive regard, and congruence.",
+    "significance": "심리치료의 공통 요인 연구에서 치료적 관계의 중요성을 실증적으로 확립하였으며, 임상심리학에서 치료자의 태도가 기법 못지않게 중요하다는 인식을 정착시켰다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "인간중심치료의 창시자로서 핵심 조건과 자기실현 경향성 개념을 체계화"
+      },
+      {
+        "name_ko": "나탈리 로저스",
+        "name_en": "Natalie Rogers",
+        "contribution": "표현예술치료를 인간중심 접근에 통합하여 확장"
+      },
+      {
+        "name_ko": "유진 젠들린",
+        "name_en": "Eugene Gendlin",
+        "contribution": "체험적 과정과 초점화 기법을 인간중심 접근에서 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PHENOM_UPR_002"
+      },
+      {
+        "name_ko": "공감적 이해",
+        "name_en": "Empathic Understanding",
+        "id": "PHENOM_EU_003"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PHENOM_CG_004"
+      },
+      {
+        "name_ko": "자기실현 경향성",
+        "name_en": "Actualizing Tendency",
+        "id": "PHENOM_AT_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "비지시적 치료기 (1940s)",
+        "description": "감정 반영 중심의 초기 단계"
+      },
+      {
+        "name": "내담자중심 치료기 (1950s)",
+        "description": "내담자의 내적 준거틀 강조"
+      },
+      {
+        "name": "인간중심 치료기 (1960s~)",
+        "description": "치료 이외 영역으로 확장된 후기 단계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Rogers의 3대 핵심 조건: 공감, 무조건적 긍정적 존중, 일치성(진정성)",
+      "differential": "정신역동치료가 무의식과 해석을 강조하는 반면, 인간중심치료는 현재 경험과 치료자의 태도를 강조한다",
+      "key_point": "기법이 아닌 치료자의 태도적 조건이 치료의 핵심이라는 점이 독특하다",
+      "common_mistake": "비지시적이라 해서 치료자가 소극적인 것이 아니라 적극적으로 공감하고 존중하는 태도를 유지한다"
+    }
+  },
+  {
+    "id": "PHENOM_UPR_002",
+    "terminology": "무조건적 긍정적 존중 (Unconditional Positive Regard)",
+    "terminology_ko": "무조건적 긍정적 존중",
+    "terminology_en": "Unconditional Positive Regard",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "내담자의 감정, 사고, 행동에 대해 어떠한 조건이나 판단 없이 따뜻하게 수용하고 존중하는 치료자의 태도로, Rogers가 제시한 치료적 변화의 핵심 조건 중 하나이다.",
+    "definition_en": "The therapist's attitude of warmly accepting and respecting the client's feelings, thoughts, and behaviors without any conditions or judgment, one of Rogers' core conditions for therapeutic change.",
+    "significance": "치료자의 비판단적 수용이 내담자의 자기 탐색과 자기 수용을 촉진하며, 치료 동맹 형성의 핵심 요소로 실증적으로 지지되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "무조건적 긍정적 존중을 치료적 변화의 필요충분조건으로 제시"
+      },
+      {
+        "name_ko": "스탠디시 스탠달",
+        "name_en": "Standish Standal",
+        "contribution": "가치의 조건 개념을 발전시켜 무조건적 존중의 이론적 근거 마련"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      },
+      {
+        "name_ko": "가치의 조건",
+        "name_en": "Conditions of Worth",
+        "id": "PHENOM_CW_010"
+      },
+      {
+        "name_ko": "공감적 이해",
+        "name_en": "Empathic Understanding",
+        "id": "PHENOM_EU_003"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PHENOM_CG_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "UPR = Unconditional(무조건) + Positive(긍정) + Regard(존중) - 조건 없는 따뜻한 수용",
+      "differential": "공감적 이해가 내담자의 경험을 이해하는 것이라면, 무조건적 긍정적 존중은 그 경험을 판단 없이 수용하는 것이다",
+      "key_point": "내담자의 행동을 승인하는 것이 아니라 인간으로서의 가치를 존중하는 것이다",
+      "common_mistake": "무조건적 긍정적 존중이 내담자의 모든 행동에 동의하는 것을 의미하지 않는다"
+    }
+  },
+  {
+    "id": "PHENOM_EU_003",
+    "terminology": "공감적 이해 (Empathic Understanding)",
+    "terminology_ko": "공감적 이해",
+    "terminology_en": "Empathic Understanding",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "치료자가 내담자의 내적 준거틀에서 그의 경험과 감정을 마치 자신의 것처럼 정확하게 이해하되, 'as if' 조건을 잃지 않는 것으로, Rogers의 핵심 조건 중 하나이다.",
+    "definition_en": "The therapist's accurate understanding of the client's experience and feelings from the client's internal frame of reference as if they were the therapist's own, without losing the 'as if' quality; one of Rogers' core conditions.",
+    "significance": "치료적 관계의 질을 결정하는 핵심 요소로, 메타분석 연구에서 치료 성과와의 강력한 상관이 반복적으로 입증되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "공감적 이해를 치료적 변화의 핵심 조건으로 체계화"
+      },
+      {
+        "name_ko": "로버트 엘리엇",
+        "name_en": "Robert Elliott",
+        "contribution": "공감과 치료 성과 간 관계에 대한 메타분석 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PHENOM_UPR_002"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PHENOM_CG_004"
+      },
+      {
+        "name_ko": "감정초점치료",
+        "name_en": "Emotion-Focused Therapy",
+        "id": "PHENOM_EFT_032"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'마치 ~처럼(as if)' = 공감의 핵심. 내담자의 세계에 들어가되 자신을 잃지 않기",
+      "differential": "동정(sympathy)은 상대를 불쌍히 여기는 것이고, 공감(empathy)은 상대의 입장에서 경험을 이해하는 것이다",
+      "key_point": "'as if' 조건을 잃으면 공감이 아닌 동일시(identification)가 된다",
+      "common_mistake": "공감이 단순히 감정을 반영하는 기법이 아니라 치료자의 존재 방식이라는 점을 간과하기 쉽다"
+    }
+  },
+  {
+    "id": "PHENOM_CG_004",
+    "terminology": "일치성 (Congruence)",
+    "terminology_ko": "일치성",
+    "terminology_en": "Congruence",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "치료자가 치료 관계에서 자신의 내적 경험과 외적 표현이 일치하는 진정하고 투명한 상태를 유지하는 것으로, 진정성(genuineness)이라고도 하며 Rogers의 핵심 조건 중 가장 근본적인 것으로 간주된다.",
+    "definition_en": "The therapist's state of being genuine and transparent in the therapeutic relationship, where inner experience and outer expression are consistent; also called genuineness, considered the most fundamental of Rogers' core conditions.",
+    "significance": "치료자의 진정성이 내담자의 신뢰를 형성하고 치료 관계의 진실성을 보장하는 토대가 되며, 다른 핵심 조건의 효과를 강화한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "일치성을 가장 근본적인 치료적 조건으로 제시"
+      },
+      {
+        "name_ko": "찰스 트루악스",
+        "name_en": "Charles Truax",
+        "contribution": "일치성의 조작적 정의와 측정 척도 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      },
+      {
+        "name_ko": "공감적 이해",
+        "name_en": "Empathic Understanding",
+        "id": "PHENOM_EU_003"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PHENOM_UPR_002"
+      },
+      {
+        "name_ko": "자기개념",
+        "name_en": "Self-Concept",
+        "id": "PHENOM_SC_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "일치성 = 안(내적 경험)과 밖(외적 표현)이 일치 - 가면 없는 진정한 모습",
+      "differential": "자기개방(self-disclosure)은 치료자가 자신에 대해 드러내는 기법이고, 일치성은 존재 자체의 진정한 상태를 의미한다",
+      "key_point": "Rogers는 일치성을 세 가지 핵심 조건 중 가장 근본적인 것으로 보았다",
+      "common_mistake": "일치성이 치료자가 모든 감정을 표현해야 한다는 뜻이 아니라 내적으로 진실한 상태를 유지하는 것이다"
+    }
+  },
+  {
+    "id": "PHENOM_AT_005",
+    "terminology": "자기실현 경향성 (Actualizing Tendency)",
+    "terminology_ko": "자기실현 경향성",
+    "terminology_en": "Actualizing Tendency",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "모든 유기체에 내재된 성장, 발전, 잠재력 실현을 향한 근본적인 동기적 힘으로, 인간중심치료의 이론적 토대가 되는 핵심 가정이다.",
+    "definition_en": "A fundamental motivational force inherent in all organisms toward growth, development, and fulfillment of potential, serving as the core theoretical assumption of person-centered therapy.",
+    "significance": "인간을 병리 중심이 아닌 성장 중심으로 바라보는 관점을 제공하며, 치료자가 내담자의 자기 치유력을 신뢰하는 이론적 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "자기실현 경향성을 인간 행동의 유일한 동기적 힘으로 제시"
+      },
+      {
+        "name_ko": "커트 골드스타인",
+        "name_en": "Kurt Goldstein",
+        "contribution": "자기실현(self-actualization) 개념의 원저자로 유기체적 관점 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      },
+      {
+        "name_ko": "충분히 기능하는 사람",
+        "name_en": "Fully Functioning Person",
+        "id": "PHENOM_FFP_006"
+      },
+      {
+        "name_ko": "자기개념",
+        "name_en": "Self-Concept",
+        "id": "PHENOM_SC_009"
+      },
+      {
+        "name_ko": "긍정심리학",
+        "name_en": "Positive Psychology",
+        "id": "HEALTH_PP_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "씨앗이 적절한 환경에서 자라듯, 인간도 촉진적 환경에서 자연스럽게 성장한다",
+      "differential": "Maslow의 자기실현(self-actualization)은 욕구위계의 최상위이지만, Rogers의 자기실현 경향성은 모든 유기체의 유일한 동기적 힘이다",
+      "key_point": "Rogers는 자기실현 경향성을 단일 동기 원리로 보았다는 점이 핵심이다",
+      "common_mistake": "자기실현 경향성과 Maslow의 자기실현 욕구를 동일시하는 오류를 범하기 쉽다"
+    }
+  },
+  {
+    "id": "PHENOM_FFP_006",
+    "terminology": "충분히 기능하는 사람 (Fully Functioning Person)",
+    "terminology_ko": "충분히 기능하는 사람",
+    "terminology_en": "Fully Functioning Person",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Rogers가 제시한 심리적으로 건강한 인간의 이상적 모습으로, 경험에 대한 개방성, 실존적 삶, 유기체적 신뢰, 경험적 자유, 창조성의 다섯 가지 특성을 갖춘 사람이다.",
+    "definition_en": "Rogers' ideal of a psychologically healthy person characterized by five qualities: openness to experience, existential living, organismic trusting, experiential freedom, and creativity.",
+    "significance": "정신병리 부재가 아닌 적극적 심리적 건강의 모델을 제시하여, 임상심리학에서 긍정적 정신건강 개념의 선구적 역할을 했다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "충분히 기능하는 사람의 다섯 가지 특성을 체계적으로 기술"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자기실현 경향성",
+        "name_en": "Actualizing Tendency",
+        "id": "PHENOM_AT_005"
+      },
+      {
+        "name_ko": "자기개념",
+        "name_en": "Self-Concept",
+        "id": "PHENOM_SC_009"
+      },
+      {
+        "name_ko": "가치의 조건",
+        "name_en": "Conditions of Worth",
+        "id": "PHENOM_CW_010"
+      },
+      {
+        "name_ko": "긍정심리학",
+        "name_en": "Positive Psychology",
+        "id": "HEALTH_PP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "경험에 대한 개방성",
+        "description": "방어 없이 모든 경험을 자각할 수 있는 능력"
+      },
+      {
+        "name": "실존적 삶",
+        "description": "매 순간을 충분히 살아가는 태도"
+      },
+      {
+        "name": "유기체적 신뢰",
+        "description": "자신의 내적 경험과 감정을 신뢰하는 것"
+      },
+      {
+        "name": "경험적 자유",
+        "description": "선택의 자유를 경험하는 주관적 느낌"
+      },
+      {
+        "name": "창조성",
+        "description": "창의적이고 적응적으로 살아가는 능력"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "충분히 기능하는 사람의 5특성: 개(개방)-실(실존)-유(유기체적 신뢰)-경(경험적 자유)-창(창조)",
+      "differential": "Maslow의 자기실현인과 유사하나, Rogers의 개념은 도달 상태가 아닌 지속적 과정을 강조한다",
+      "key_point": "완성된 상태가 아닌 '되어가는 과정(becoming)'으로서의 건강한 성격을 강조한다",
+      "common_mistake": "충분히 기능하는 사람이 완벽한 사람을 의미하는 것이 아니라 끊임없이 성장하는 과정에 있는 사람이다"
+    }
+  },
+  {
+    "id": "PHENOM_ES_007",
+    "terminology": "경험적 자기 (Experiential Self)",
+    "terminology_ko": "경험적 자기",
+    "terminology_en": "Experiential Self",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "유기체가 실제로 경험하는 자기의 총체로, 감각, 감정, 지각을 포함한 현상적 장에서의 직접적 경험을 반영하며, 이상적 자기 및 자기개념과 대비되는 개념이다.",
+    "definition_en": "The totality of the self as actually experienced by the organism, reflecting direct experience in the phenomenal field including sensations, feelings, and perceptions, contrasted with the ideal self and self-concept.",
+    "significance": "경험적 자기와 자기개념 간의 불일치가 심리적 부적응의 원인이 되며, 인간중심치료에서 이 불일치를 줄이는 것이 치료의 핵심 목표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "경험적 자기와 자기개념 간 불일치 이론 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "이상적 자기",
+        "name_en": "Ideal Self",
+        "id": "PHENOM_IS_008"
+      },
+      {
+        "name_ko": "자기개념",
+        "name_en": "Self-Concept",
+        "id": "PHENOM_SC_009"
+      },
+      {
+        "name_ko": "가치의 조건",
+        "name_en": "Conditions of Worth",
+        "id": "PHENOM_CW_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "경험적 자기 = 실제 나의 경험 vs 자기개념 = 내가 생각하는 나",
+      "differential": "Freud의 자아(ego)는 구조적 개념이지만, Rogers의 경험적 자기는 현상학적 경험의 총체이다",
+      "key_point": "경험적 자기와 자기개념의 불일치(incongruence)가 클수록 심리적 부적응이 심해진다",
+      "common_mistake": "경험적 자기를 고정된 실체로 보지 말고 끊임없이 변화하는 경험의 흐름으로 이해해야 한다"
+    }
+  },
+  {
+    "id": "PHENOM_IS_008",
+    "terminology": "이상적 자기 (Ideal Self)",
+    "terminology_ko": "이상적 자기",
+    "terminology_en": "Ideal Self",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "개인이 되고 싶어하는 자기의 모습으로, 주로 가치의 조건에 의해 형성되며, 자기개념 및 경험적 자기와의 괴리가 클 때 심리적 부적응을 초래한다.",
+    "definition_en": "The self that a person aspires to be, largely shaped by conditions of worth, causing psychological maladjustment when significantly discrepant from the self-concept and experiential self.",
+    "significance": "자기개념과 이상적 자기 간의 불일치 정도가 심리적 적응의 지표가 되며, 치료를 통해 현실적이고 유기체적 가치에 기반한 이상적 자기로 재구성하는 것이 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "이상적 자기와 자기개념 간 불일치를 심리적 고통의 원인으로 이론화"
+      },
+      {
+        "name_ko": "버틀러와 하이",
+        "name_en": "Butler & Haigh",
+        "contribution": "Q-분류 기법을 사용하여 자기-이상적 자기 불일치를 경험적으로 측정"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경험적 자기",
+        "name_en": "Experiential Self",
+        "id": "PHENOM_ES_007"
+      },
+      {
+        "name_ko": "자기개념",
+        "name_en": "Self-Concept",
+        "id": "PHENOM_SC_009"
+      },
+      {
+        "name_ko": "가치의 조건",
+        "name_en": "Conditions of Worth",
+        "id": "PHENOM_CW_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이상적 자기 = '~해야 한다'는 자기상 - 가치의 조건에 의해 왜곡될 수 있음",
+      "differential": "Freud의 초자아(superego)는 내면화된 도덕적 기준이고, Rogers의 이상적 자기는 되고 싶은 자기의 주관적 상이다",
+      "key_point": "치료를 통해 타인이 부과한 이상적 자기가 아닌 유기체적 가치에 기반한 이상적 자기를 발달시키는 것이 목표이다",
+      "common_mistake": "이상적 자기 자체가 병리적인 것이 아니라 현실과의 지나친 괴리가 문제가 된다"
+    }
+  },
+  {
+    "id": "PHENOM_SC_009",
+    "terminology": "자기개념 (Self-Concept)",
+    "terminology_ko": "자기개념",
+    "terminology_en": "Self-Concept",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "개인이 자신에 대해 가지고 있는 조직화된 지각과 신념의 총체로, 경험을 통해 형성되고 가치의 조건에 의해 왜곡될 수 있으며, 인간중심치료 성격이론의 중심 구성개념이다.",
+    "definition_en": "The organized totality of perceptions and beliefs an individual holds about oneself, formed through experience and potentially distorted by conditions of worth; the central construct in person-centered personality theory.",
+    "significance": "자기개념과 유기체적 경험 간의 일치/불일치가 심리적 적응/부적응을 결정하며, 치료의 핵심 목표는 자기개념과 경험의 일치를 높이는 것이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "자기개념을 성격이론의 중심 구성개념으로 정립"
+      },
+      {
+        "name_ko": "빅토르 레이니",
+        "name_en": "Victor Raimy",
+        "contribution": "자기개념의 변화가 심리치료 효과의 핵심 기제임을 제안"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경험적 자기",
+        "name_en": "Experiential Self",
+        "id": "PHENOM_ES_007"
+      },
+      {
+        "name_ko": "이상적 자기",
+        "name_en": "Ideal Self",
+        "id": "PHENOM_IS_008"
+      },
+      {
+        "name_ko": "가치의 조건",
+        "name_en": "Conditions of Worth",
+        "id": "PHENOM_CW_010"
+      },
+      {
+        "name_ko": "일치성",
+        "name_en": "Congruence",
+        "id": "PHENOM_CG_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기개념 = '내가 생각하는 나' - 경험과 일치하면 건강, 불일치하면 부적응",
+      "differential": "정신역동의 자아(ego)는 id와 superego를 중재하는 기능적 구조이고, 자기개념은 자기에 대한 주관적 지각의 총체이다",
+      "key_point": "자기개념은 경험에 의해 끊임없이 변화할 수 있는 유동적 구성개념이다",
+      "common_mistake": "자기개념을 고정된 특질로 보는 것이 아니라 경험에 따라 변화하는 과정적 개념으로 이해해야 한다"
+    }
+  },
+  {
+    "id": "PHENOM_CW_010",
+    "terminology": "가치의 조건 (Conditions of Worth)",
+    "terminology_ko": "가치의 조건",
+    "terminology_en": "Conditions of Worth",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "중요한 타인의 긍정적 존중을 얻기 위해 내면화한 조건으로, '~해야만 가치 있다'는 신념을 형성하여 유기체적 경험의 왜곡이나 부정을 초래하고 자기개념의 불일치를 유발한다.",
+    "definition_en": "Internalized conditions for gaining positive regard from significant others, forming beliefs such as 'I am worthy only if...' that lead to distortion or denial of organismic experience and incongruence in the self-concept.",
+    "significance": "심리적 부적응의 핵심 원인으로, 가치의 조건이 유기체적 가치화 과정을 대체할 때 자기소외와 불안이 발생한다는 것이 Rogers 이론의 핵심 병리 모델이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "가치의 조건이 심리적 부적응의 근원임을 이론화"
+      },
+      {
+        "name_ko": "스탠디시 스탠달",
+        "name_en": "Standish Standal",
+        "contribution": "가치의 조건 개념을 처음 제안하여 Rogers의 이론에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PHENOM_UPR_002"
+      },
+      {
+        "name_ko": "자기개념",
+        "name_en": "Self-Concept",
+        "id": "PHENOM_SC_009"
+      },
+      {
+        "name_ko": "경험적 자기",
+        "name_en": "Experiential Self",
+        "id": "PHENOM_ES_007"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "가치의 조건 = '~해야만 사랑받을 수 있다' - 조건부 사랑이 만든 내적 기준",
+      "differential": "CBT의 역기능적 신념은 인지적 오류이고, 가치의 조건은 긍정적 존중을 위한 내면화된 조건이다",
+      "key_point": "무조건적 긍정적 존중이 가치의 조건의 해독제 역할을 한다",
+      "common_mistake": "가치의 조건이 반드시 부모에 의해서만 형성되는 것이 아니라 사회, 문화적 영향도 포함한다"
+    }
+  },
+  {
+    "id": "PHENOM_GT_011",
+    "terminology": "게슈탈트 치료 (Gestalt Therapy)",
+    "terminology_ko": "게슈탈트 치료",
+    "terminology_en": "Gestalt Therapy",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Fritz Perls가 창시한 체험적-실존적 심리치료 접근으로, '지금-여기'에서의 알아차림(awareness)과 접촉(contact)을 강조하며, 미해결 과제의 완결과 통합적 자기 경험을 통해 성장을 촉진한다.",
+    "definition_en": "An experiential-existential psychotherapy approach founded by Fritz Perls that emphasizes awareness and contact in the 'here and now,' promoting growth through completion of unfinished business and integrated self-experience.",
+    "significance": "체험적 심리치료의 대표적 접근으로, 임상심리학에서 현재 경험에 대한 직접적 자각을 통한 치료적 변화의 가능성을 입증하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "게슈탈트 치료의 창시자로서 이론과 주요 기법 개발"
+      },
+      {
+        "name_ko": "로라 펄스",
+        "name_en": "Laura Perls",
+        "contribution": "게슈탈트 치료의 공동 창시자로서 관계적 측면 발전"
+      },
+      {
+        "name_ko": "폴 굿맨",
+        "name_en": "Paul Goodman",
+        "contribution": "게슈탈트 치료의 이론적 체계를 공동 저술"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      },
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "PHENOM_CT_013"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "PHENOM_UB_015"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here and Now",
+        "id": "PHENOM_HN_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "고전적 게슈탈트",
+        "description": "Fritz Perls의 대결적이고 극적인 스타일을 따르는 접근"
+      },
+      {
+        "name": "관계적 게슈탈트",
+        "description": "치료자-내담자 관계를 중시하는 현대적 접근"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "게슈탈트(Gestalt) = '전체, 형태' - 부분이 아닌 전체적 경험의 통합을 지향",
+      "differential": "인간중심치료가 치료자의 태도를 강조하는 반면, 게슈탈트 치료는 내담자의 자각과 체험적 실험을 강조한다",
+      "key_point": "'왜(why)'가 아닌 '어떻게(how)'와 '무엇(what)'에 초점을 맞추는 것이 핵심이다",
+      "common_mistake": "게슈탈트 치료는 게슈탈트 심리학(지각 심리학)에서 일부 영감을 받았으나 독립적인 치료 접근이다"
+    }
+  },
+  {
+    "id": "PHENOM_AW_012",
+    "terminology": "알아차림 (Awareness)",
+    "terminology_ko": "알아차림",
+    "terminology_en": "Awareness",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "지금 이 순간 자신의 감각, 감정, 사고, 행동, 신체 반응을 왜곡 없이 알아차리는 것으로, 게슈탈트 치료에서 모든 변화의 출발점이자 그 자체로 치유적 힘을 가진 핵심 개념이다.",
+    "definition_en": "The undistorted noticing of one's sensations, feelings, thoughts, behaviors, and bodily reactions in the present moment; the starting point of all change in Gestalt therapy and itself a healing force.",
+    "significance": "알아차림 자체가 치료적이라는 관점은 게슈탈트 치료의 독특한 기여로, 이후 마음챙김 기반 치료에도 영향을 미쳤다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "알아차림을 게슈탈트 치료의 핵심 개념으로 정립"
+      },
+      {
+        "name_ko": "게리 욘테프",
+        "name_en": "Gary Yontef",
+        "contribution": "알아차림 대화(awareness dialogue)를 체계화하여 현대 게슈탈트 치료 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "PHENOM_CT_013"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here and Now",
+        "id": "PHENOM_HN_018"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "PHENOM_UB_015"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "내부 영역(inner zone)",
+        "description": "내적 감정, 신체 감각에 대한 알아차림"
+      },
+      {
+        "name": "외부 영역(outer zone)",
+        "description": "환경, 타인과의 접촉에 대한 알아차림"
+      },
+      {
+        "name": "중간 영역(middle zone)",
+        "description": "사고, 해석, 판단 등 인지적 활동에 대한 알아차림"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "알아차림의 3영역: 내(내부)-외(외부)-중(중간) - 감각/환경/사고 자각",
+      "differential": "CBT의 자기관찰(self-monitoring)은 인지를 변화시키기 위한 도구이고, 게슈탈트의 알아차림은 그 자체가 치료적이다",
+      "key_point": "알아차림의 역설적 변화 이론: 변하려고 노력하기보다 있는 그대로를 자각할 때 변화가 일어난다",
+      "common_mistake": "알아차림을 단순한 주의집중으로 보지 말고 감각, 감정, 사고를 통합적으로 경험하는 것으로 이해해야 한다"
+    }
+  },
+  {
+    "id": "PHENOM_CT_013",
+    "terminology": "접촉 (Contact)",
+    "terminology_ko": "접촉",
+    "terminology_en": "Contact",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "유기체와 환경 간의 경계에서 일어나는 상호작용으로, 자기와 타자를 구별하면서도 연결하는 과정이며, 게슈탈트 치료에서 건강한 적응의 핵심 지표이다.",
+    "definition_en": "The interaction occurring at the boundary between organism and environment, a process of differentiating yet connecting self and other; a key indicator of healthy adaptation in Gestalt therapy.",
+    "significance": "접촉의 질이 심리적 건강을 반영하며, 접촉경계혼란의 분석은 게슈탈트 치료에서 내담자의 관계 패턴을 이해하는 핵심 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "접촉 이론을 게슈탈트 치료의 핵심으로 발전"
+      },
+      {
+        "name_ko": "폴 굿맨",
+        "name_en": "Paul Goodman",
+        "contribution": "접촉경계와 자기 개념의 이론적 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉경계혼란",
+        "name_en": "Contact Boundary Disturbance",
+        "id": "PHENOM_CBD_014"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "접촉 = 자기와 환경의 경계에서 일어나는 만남과 상호작용",
+      "differential": "대상관계이론의 관계는 내면화된 표상에 초점을 맞추지만, 게슈탈트의 접촉은 지금-여기에서의 실제 경험적 만남을 강조한다",
+      "key_point": "건강한 접촉은 자기와 타자의 경계를 유지하면서도 충분한 교류가 이루어지는 것이다",
+      "common_mistake": "접촉을 단순한 물리적 만남으로 이해하지 말고 심리적 경험의 질적 측면으로 이해해야 한다"
+    }
+  },
+  {
+    "id": "PHENOM_CBD_014",
+    "terminology": "접촉경계혼란 (Contact Boundary Disturbance)",
+    "terminology_ko": "접촉경계혼란",
+    "terminology_en": "Contact Boundary Disturbance",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "유기체와 환경 사이의 접촉경계에서 나타나는 기능장애로, 내사, 투사, 융합, 반전, 편향의 다섯 가지 주요 유형이 있으며, 게슈탈트 치료에서 심리적 문제의 원인으로 본다.",
+    "definition_en": "Dysfunctions at the contact boundary between organism and environment, including five major types: introjection, projection, confluence, retroflection, and deflection; viewed as the cause of psychological problems in Gestalt therapy.",
+    "significance": "정신역동의 방어기제에 대응하는 게슈탈트 치료의 독자적 병리 모델로, 관계 패턴의 분석과 치료적 개입의 방향을 제시한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "접촉경계혼란의 유형을 체계적으로 분류"
+      },
+      {
+        "name_ko": "어빙 폴스터",
+        "name_en": "Erving Polster",
+        "contribution": "접촉경계혼란의 임상적 적용과 치료 기법 발전"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "접촉",
+        "name_en": "Contact",
+        "id": "PHENOM_CT_013"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TR_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "내사(Introjection)",
+        "description": "환경의 것을 비판 없이 삼키듯 받아들이는 것"
+      },
+      {
+        "name": "투사(Projection)",
+        "description": "자신의 것을 타인이나 환경의 것으로 돌리는 것"
+      },
+      {
+        "name": "융합(Confluence)",
+        "description": "자기와 환경의 경계가 사라져 구분이 안 되는 것"
+      },
+      {
+        "name": "반전(Retroflection)",
+        "description": "환경에게 하고 싶은 것을 자기에게 돌리는 것"
+      },
+      {
+        "name": "편향(Deflection)",
+        "description": "직접적 접촉을 피하고 돌려서 표현하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "접촉경계혼란 5유형: 내(내사)-투(투사)-융(융합)-반(반전)-편(편향)",
+      "differential": "정신역동의 방어기제는 무의식적 불안 감소 전략이고, 접촉경계혼란은 유기체-환경 경계에서의 접촉 장애이다",
+      "key_point": "접촉경계혼란은 병리적인 것이 아니라 경직되고 고착된 패턴일 때만 문제가 된다",
+      "common_mistake": "내사를 학습과 혼동하지 말 것 - 내사는 비판적 소화 없이 그대로 삼키는 것이다"
+    }
+  },
+  {
+    "id": "PHENOM_UB_015",
+    "terminology": "미해결 과제 (Unfinished Business)",
+    "terminology_ko": "미해결 과제",
+    "terminology_en": "Unfinished Business",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "과거에 충분히 표현되거나 완결되지 못한 감정이나 경험이 현재까지 남아 지속적으로 영향을 미치는 것으로, 게슈탈트 치료에서 핵심적인 치료 대상이다.",
+    "definition_en": "Feelings or experiences from the past that were not fully expressed or completed, continuing to affect the present; a central therapeutic target in Gestalt therapy.",
+    "significance": "미해결 과제의 완결이 게슈탈트 치료의 주요 목표 중 하나이며, 빈 의자 기법 등 체험적 기법을 통해 '지금-여기'에서 완결하도록 돕는다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "미해결 과제 개념을 게슈탈트 치료의 핵심 치료 대상으로 정립"
+      },
+      {
+        "name_ko": "레슬리 그린버그",
+        "name_en": "Leslie Greenberg",
+        "contribution": "미해결 과제 해소의 치료적 과정을 실증적으로 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "빈 의자 기법",
+        "name_en": "Empty Chair Technique",
+        "id": "PHENOM_EC_016"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here and Now",
+        "id": "PHENOM_HN_018"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "미해결 과제 = 닫히지 않은 게슈탈트 - 완결되지 못한 경험이 현재를 방해",
+      "differential": "정신역동의 억압된 갈등은 무의식에 저장되지만, 미해결 과제는 현재 경험에서 자각될 수 있는 미완결 감정이다",
+      "key_point": "과거를 분석하는 것이 아니라 미해결 감정을 '지금-여기'에서 체험적으로 완결하는 것이 핵심이다",
+      "common_mistake": "미해결 과제가 과거 사건 자체가 아니라 그 사건과 관련된 미완결 감정임을 기억해야 한다"
+    }
+  },
+  {
+    "id": "PHENOM_EC_016",
+    "terminology": "빈 의자 기법 (Empty Chair Technique)",
+    "terminology_ko": "빈 의자 기법",
+    "terminology_en": "Empty Chair Technique",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "내담자가 빈 의자에 상상 속의 대상(중요한 타인, 자신의 일부)을 놓고 대화하는 게슈탈트 치료의 대표적 체험적 기법으로, 미해결 과제의 완결과 감정 표현을 촉진한다.",
+    "definition_en": "A representative experiential technique of Gestalt therapy in which the client imagines a significant other or a part of themselves in an empty chair and engages in dialogue, facilitating completion of unfinished business and emotional expression.",
+    "significance": "체험적 치료 기법의 대명사로, 감정초점치료 등 현대 심리치료에서도 핵심 기법으로 활용되며 실증적 효과가 입증되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "빈 의자 기법을 게슈탈트 치료의 핵심 기법으로 개발"
+      },
+      {
+        "name_ko": "레슬리 그린버그",
+        "name_en": "Leslie Greenberg",
+        "contribution": "빈 의자 기법의 치료적 과정과 효과를 실증적으로 연구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "두 의자 기법",
+        "name_en": "Two-Chair Technique",
+        "id": "PHENOM_TC_017"
+      },
+      {
+        "name_ko": "미해결 과제",
+        "name_en": "Unfinished Business",
+        "id": "PHENOM_UB_015"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "감정초점치료",
+        "name_en": "Emotion-Focused Therapy",
+        "id": "PHENOM_EFT_032"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "빈 의자 = 대화 상대가 없는 의자 - 상상 속 대상과의 '지금-여기' 대화",
+      "differential": "두 의자 기법이 내적 갈등(자기 내부의 두 측면)을 다루는 반면, 빈 의자 기법은 타인과의 미해결 과제를 다룬다",
+      "key_point": "과거 인물에 대해 이야기하는 것(about)이 아니라 직접 대화하는 것(to)이 핵심이다",
+      "common_mistake": "빈 의자 기법에서 치료자가 대화 내용을 지시하는 것이 아니라 내담자의 자발적 표현을 촉진한다"
+    }
+  },
+  {
+    "id": "PHENOM_TC_017",
+    "terminology": "두 의자 기법 (Two-Chair Technique)",
+    "terminology_ko": "두 의자 기법",
+    "terminology_en": "Two-Chair Technique",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "내담자가 두 개의 의자를 오가며 자신의 상반된 두 측면(예: 비판적 자기 vs 경험적 자기) 간의 대화를 나누는 기법으로, 내적 갈등의 통합을 촉진한다.",
+    "definition_en": "A technique in which the client moves between two chairs to conduct a dialogue between two conflicting aspects of the self (e.g., critical self vs. experiential self), facilitating integration of internal conflicts.",
+    "significance": "내적 갈등의 체험적 해결을 위한 강력한 도구로, 자기비판적 분열의 통합에 특히 효과적임이 실증 연구로 입증되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "topdog-underdog 개념과 함께 두 의자 기법 개발"
+      },
+      {
+        "name_ko": "레슬리 그린버그",
+        "name_en": "Leslie Greenberg",
+        "contribution": "두 의자 기법의 과정 연구와 감정초점치료에서의 체계적 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "빈 의자 기법",
+        "name_en": "Empty Chair Technique",
+        "id": "PHENOM_EC_016"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "감정초점치료",
+        "name_en": "Emotion-Focused Therapy",
+        "id": "PHENOM_EFT_032"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "두 의자 = 나 안의 두 목소리가 서로 대화 - 내적 갈등의 통합",
+      "differential": "빈 의자가 타인과의 미해결 관계를 다루는 반면, 두 의자는 자기 내부의 갈등(topdog vs underdog)을 다룬다",
+      "key_point": "Perls의 topdog(비판적 자기)와 underdog(방어적 자기) 간의 대화가 전형적 형태이다",
+      "common_mistake": "두 의자 기법의 목표가 한쪽이 이기는 것이 아니라 양측의 통합(integration)이다"
+    }
+  },
+  {
+    "id": "PHENOM_HN_018",
+    "terminology": "지금-여기 (Here and Now)",
+    "terminology_ko": "지금-여기",
+    "terminology_en": "Here and Now",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "현재 순간의 직접적 경험에 초점을 맞추는 치료적 원칙으로, 과거 사건이나 미래 걱정이 아닌 지금 이 순간 치료 장면에서 일어나는 경험을 탐색하고 자각하는 것을 강조한다.",
+    "definition_en": "A therapeutic principle focusing on immediate present-moment experience, emphasizing exploration and awareness of what is happening in the therapy session right now, rather than past events or future worries.",
+    "significance": "게슈탈트 치료와 실존치료의 공통 원칙으로, 현재 경험에 대한 자각이 치료적 변화의 핵심 기제라는 관점을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리츠 펄스",
+        "name_en": "Fritz Perls",
+        "contribution": "'지금-여기' 원칙을 게슈탈트 치료의 핵심 철학으로 정립"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존치료와 집단치료에서 '지금-여기' 원칙의 치료적 활용을 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      },
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'지금-여기' = 과거도 미래도 아닌 바로 이 순간의 경험에 머무르기",
+      "differential": "정신역동은 과거 경험의 탐색을 강조하고, CBT는 현재의 인지 패턴을 다루며, 게슈탈트는 현재 순간의 직접적 경험 자체를 강조한다",
+      "key_point": "과거 사건도 '지금-여기'에서 재경험하는 방식으로 다루는 것이 핵심이다",
+      "common_mistake": "과거를 완전히 무시하는 것이 아니라 과거의 미해결 과제를 현재에서 체험적으로 다루는 것이다"
+    }
+  },
+  {
+    "id": "PHENOM_EXT_019",
+    "terminology": "실존치료 (Existential Therapy)",
+    "terminology_ko": "실존치료",
+    "terminology_en": "Existential Therapy",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "인간 존재의 근본적 조건(죽음, 자유, 고립, 무의미)을 직면하고 수용하는 과정을 통해 진정한 삶을 추구하도록 돕는 철학적 심리치료 접근이다.",
+    "definition_en": "A philosophical psychotherapy approach that helps clients pursue authentic living through confronting and accepting fundamental conditions of human existence: death, freedom, isolation, and meaninglessness.",
+    "significance": "특정 기법보다 인간 존재의 본질에 대한 깊은 이해를 강조하며, 다른 치료 접근의 철학적 기반으로서 임상심리학 전반에 영향을 미쳤다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존치료의 체계화, 4가지 궁극적 관심사(ultimate concerns) 제시"
+      },
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "실존주의 심리학을 미국에 소개하고 불안의 실존적 의미 분석"
+      },
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "의미치료(logotherapy) 창시, 삶의 의미 추구 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "PHENOM_EA_020"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "PHENOM_FR_022"
+      },
+      {
+        "name_ko": "의미 추구",
+        "name_en": "Search for Meaning",
+        "id": "PHENOM_SM_023"
+      },
+      {
+        "name_ko": "지금-여기",
+        "name_en": "Here and Now",
+        "id": "PHENOM_HN_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존치료의 4대 궁극적 관심사: 죽-자-고-무 (죽음, 자유, 고립, 무의미)",
+      "differential": "정신역동은 과거 경험과 무의식 강조, CBT는 현재의 인지 변화 강조, 실존치료는 존재의 근본 조건과 선택을 강조한다",
+      "key_point": "Yalom의 4가지 궁극적 관심사: 죽음, 자유(와 책임), 실존적 고립, 무의미가 핵심이다",
+      "common_mistake": "실존치료를 비관적 철학으로 오해하나, 존재의 조건을 직면함으로써 더 진정한 삶을 추구하는 긍정적 접근이다"
+    }
+  },
+  {
+    "id": "PHENOM_EA_020",
+    "terminology": "실존적 불안 (Existential Anxiety)",
+    "terminology_ko": "실존적 불안",
+    "terminology_en": "Existential Anxiety",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "죽음, 자유, 고립, 무의미 등 인간 존재의 근본적 조건에서 비롯되는 불안으로, 실존치료에서는 이를 병리가 아닌 인간 존재의 본질적 속성으로 간주한다.",
+    "definition_en": "Anxiety arising from fundamental conditions of human existence such as death, freedom, isolation, and meaninglessness; in existential therapy, this is viewed not as pathology but as an inherent aspect of being human.",
+    "significance": "실존적 불안을 제거 대상이 아닌 삶의 자연스러운 부분으로 수용하는 관점은, 불안 장애 치료에서 증상 제거를 넘어선 깊은 치료적 작업을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "정상적 불안과 신경증적 불안을 구분하고 실존적 불안의 창조적 가능성 제시"
+      },
+      {
+        "name_ko": "쇠렌 키르케고르",
+        "name_en": "Soren Kierkegaard",
+        "contribution": "불안을 자유의 현기증으로 기술한 실존철학의 선구자"
+      },
+      {
+        "name_ko": "폴 틸리히",
+        "name_en": "Paul Tillich",
+        "contribution": "존재의 불안(anxiety of being)에 대한 철학적-신학적 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      },
+      {
+        "name_ko": "죽음 불안",
+        "name_en": "Death Anxiety",
+        "id": "PHENOM_DA_021"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "PHENOM_FR_022"
+      },
+      {
+        "name_ko": "자동적 사고",
+        "name_en": "Automatic Thoughts",
+        "id": "CBT_AT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 불안 = 삶의 근본 조건에서 오는 불안 - 없앨 수 없고 직면해야 하는 것",
+      "differential": "신경증적 불안은 비현실적이고 과도한 반면, 실존적 불안은 존재의 현실에 대한 적절한 반응이다",
+      "key_point": "실존적 불안을 회피하면 오히려 신경증적 증상이 발생한다는 것이 실존치료의 관점이다",
+      "common_mistake": "실존적 불안을 병리적 불안 장애와 혼동하지 말아야 한다 - 전자는 인간 존재의 자연스러운 일부이다"
+    }
+  },
+  {
+    "id": "PHENOM_DA_021",
+    "terminology": "죽음 불안 (Death Anxiety)",
+    "terminology_ko": "죽음 불안",
+    "terminology_en": "Death Anxiety",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "자신의 유한성과 죽음의 불가피성에 대한 인식에서 비롯되는 근본적 불안으로, Yalom은 이를 4가지 궁극적 관심사 중 가장 핵심적인 것으로 보았다.",
+    "definition_en": "Fundamental anxiety arising from awareness of one's finitude and the inevitability of death; Yalom considered this the most central of the four ultimate concerns.",
+    "significance": "죽음에 대한 자각이 오히려 삶을 더 충실하게 살도록 동기를 부여한다는 역설이 실존치료의 핵심 통찰이다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "죽음 불안을 실존치료의 핵심 주제로 체계화하고 임상적 접근법 제시"
+      },
+      {
+        "name_ko": "어니스트 베커",
+        "name_en": "Ernest Becker",
+        "contribution": "죽음 부정(denial of death)이 인간 행동의 근본 동기임을 주장"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "PHENOM_EA_020"
+      },
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      },
+      {
+        "name_ko": "의미 추구",
+        "name_en": "Search for Meaning",
+        "id": "PHENOM_SM_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "죽음 불안의 역설: 죽음을 직면할수록 삶이 더 풍요로워진다",
+      "differential": "임상적 공포증으로서의 죽음 공포(thanatophobia)와 달리, 실존적 죽음 불안은 보편적이고 정상적인 인간 경험이다",
+      "key_point": "Yalom: '죽음의 물리적 사실은 우리를 파괴하지만, 죽음의 관념은 우리를 구원한다'",
+      "common_mistake": "죽음 불안을 단순히 제거해야 할 증상으로 보지 말고 삶의 의미를 찾는 동력으로 활용하는 것이 실존치료의 관점이다"
+    }
+  },
+  {
+    "id": "PHENOM_FR_022",
+    "terminology": "자유와 책임 (Freedom and Responsibility)",
+    "terminology_ko": "자유와 책임",
+    "terminology_en": "Freedom and Responsibility",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "인간이 자신의 삶을 스스로 선택하고 창조할 자유를 가지며, 그 선택에 대한 책임을 져야 한다는 실존치료의 핵심 주제로, Yalom의 4가지 궁극적 관심사 중 하나이다.",
+    "definition_en": "The existential therapeutic theme that humans possess the freedom to choose and create their own lives and must bear responsibility for those choices; one of Yalom's four ultimate concerns.",
+    "significance": "자유의 자각이 불안을 유발하지만, 동시에 변화와 성장의 가능성을 열어주며, 내담자가 자신의 삶에 대한 주체성을 회복하도록 돕는 치료적 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "장-폴 사르트르",
+        "name_en": "Jean-Paul Sartre",
+        "contribution": "인간은 자유를 선고받은 존재라는 실존주의 철학 정립"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "자유와 책임을 실존치료의 궁극적 관심사로 체계화"
+      },
+      {
+        "name_ko": "롤로 메이",
+        "name_en": "Rollo May",
+        "contribution": "자유, 의지, 결단의 심리학적 의미를 탐구"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "PHENOM_EA_020"
+      },
+      {
+        "name_ko": "의미 추구",
+        "name_en": "Search for Meaning",
+        "id": "PHENOM_SM_023"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자유 = 선택할 수 있다 + 책임 = 그 선택의 결과를 감당해야 한다",
+      "differential": "결정론적 관점(정신역동, 행동주의)은 과거 경험이나 환경이 행동을 결정한다고 보지만, 실존주의는 인간의 선택 자유를 강조한다",
+      "key_point": "Sartre: '실존은 본질에 앞선다' - 인간은 미리 정해진 본질 없이 선택으로 자기를 만들어간다",
+      "common_mistake": "자유가 무한한 것이 아니라 상황적 제약 안에서의 자유(situated freedom)임을 이해해야 한다"
+    }
+  },
+  {
+    "id": "PHENOM_SM_023",
+    "terminology": "의미 추구 (Search for Meaning)",
+    "terminology_ko": "의미 추구",
+    "terminology_en": "Search for Meaning",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "삶의 목적과 의미를 찾고자 하는 인간의 근본적 욕구로, Yalom의 4가지 궁극적 관심사 중 하나이며 Frankl의 의미치료의 핵심 동기이다.",
+    "definition_en": "The fundamental human need to find purpose and meaning in life; one of Yalom's four ultimate concerns and the core motivation in Frankl's logotherapy.",
+    "significance": "의미의 부재(실존적 공허)가 심리적 고통의 원인이 될 수 있으며, 의미 발견이 고통 속에서도 심리적 건강을 유지하는 핵심 요인임이 임상 연구로 확인되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "의미에의 의지를 인간의 근본 동기로 제시하고 의미치료 창시"
+      },
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "무의미를 실존치료의 궁극적 관심사로 분석"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "로고테라피",
+        "name_en": "Logotherapy",
+        "id": "PHENOM_LT_024"
+      },
+      {
+        "name_ko": "실존적 공허",
+        "name_en": "Existential Vacuum",
+        "id": "PHENOM_EV_027"
+      },
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      },
+      {
+        "name_ko": "긍정심리학",
+        "name_en": "Positive Psychology",
+        "id": "HEALTH_PP_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Frankl: '삶의 의미를 찾는 것이 인간의 일차적 동기이다'",
+      "differential": "Freud의 쾌락 원리나 Adler의 권력 의지와 달리, Frankl은 의미에의 의지를 인간의 가장 근본적 동기로 보았다",
+      "key_point": "의미는 발명하는 것이 아니라 발견하는 것이며, 고통 속에서도 의미를 찾을 수 있다",
+      "common_mistake": "의미 추구가 종교적 개념이 아니라 심리학적으로 검증된 인간의 근본 욕구이다"
+    }
+  },
+  {
+    "id": "PHENOM_LT_024",
+    "terminology": "로고테라피 (Logotherapy)",
+    "terminology_ko": "로고테라피",
+    "terminology_en": "Logotherapy",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Viktor Frankl이 창시한 실존적 심리치료로, 삶의 의미 발견을 치료의 핵심으로 삼으며, '의미에의 의지(will to meaning)'를 인간의 근본적 동기로 본다.",
+    "definition_en": "An existential psychotherapy founded by Viktor Frankl that centers on discovering meaning in life, viewing the 'will to meaning' as the fundamental human motivation.",
+    "significance": "홀로코스트 생존 경험에서 발전한 독특한 치료 접근으로, 극한 상황에서도 의미를 발견할 수 있다는 통찰을 제공하며 임상심리학에 깊은 영향을 미쳤다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "로고테라피의 창시자로 의미에의 의지, 역설적 의도, 탈반성 등 핵심 개념과 기법 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "의미에의 의지",
+        "name_en": "Will to Meaning",
+        "id": "PHENOM_WM_025"
+      },
+      {
+        "name_ko": "역설적 의도",
+        "name_en": "Paradoxical Intention",
+        "id": "PHENOM_PI_026"
+      },
+      {
+        "name_ko": "실존적 공허",
+        "name_en": "Existential Vacuum",
+        "id": "PHENOM_EV_027"
+      },
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Logos(그리스어) = 의미 → Logo-therapy = 의미를 통한 치료",
+      "differential": "정신분석이 쾌락 원리, 개인심리학이 우월 추구를 핵심 동기로 보는 반면, 로고테라피는 의미 추구를 핵심 동기로 본다",
+      "key_point": "Frankl의 세 가지 의미 발견 경로: 창조적 가치, 경험적 가치, 태도적 가치",
+      "common_mistake": "로고테라피가 단순한 긍정적 사고가 아니라 고통의 의미를 직면하는 깊은 실존적 작업이다"
+    }
+  },
+  {
+    "id": "PHENOM_WM_025",
+    "terminology": "의미에의 의지 (Will to Meaning)",
+    "terminology_ko": "의미에의 의지",
+    "terminology_en": "Will to Meaning",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Frankl이 제시한 인간의 가장 근본적인 동기적 힘으로, 삶의 의미와 목적을 발견하고 실현하고자 하는 의지를 말하며, 로고테라피의 이론적 토대이다.",
+    "definition_en": "The most fundamental motivational force proposed by Frankl, referring to the will to discover and fulfill meaning and purpose in life; the theoretical foundation of logotherapy.",
+    "significance": "Freud의 쾌락 원리와 Adler의 권력 의지에 대한 대안적 동기 이론으로, 인간의 고차원적 동기를 조명하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "의미에의 의지를 인간의 일차적 동기로 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "로고테라피",
+        "name_en": "Logotherapy",
+        "id": "PHENOM_LT_024"
+      },
+      {
+        "name_ko": "실존적 공허",
+        "name_en": "Existential Vacuum",
+        "id": "PHENOM_EV_027"
+      },
+      {
+        "name_ko": "의미 추구",
+        "name_en": "Search for Meaning",
+        "id": "PHENOM_SM_023"
+      },
+      {
+        "name_ko": "자기실현 경향성",
+        "name_en": "Actualizing Tendency",
+        "id": "PHENOM_AT_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "3대 빈 심리학파의 동기: Freud=쾌락, Adler=권력, Frankl=의미",
+      "differential": "Rogers의 자기실현 경향성은 모든 유기체의 성장 동기이고, Frankl의 의미에의 의지는 인간 고유의 의미 추구 동기이다",
+      "key_point": "의미에의 의지가 좌절되면 실존적 공허와 의미 없는 신경증이 발생한다",
+      "common_mistake": "의미에의 의지가 자기실현 욕구와 같지 않다 - 의미는 자기를 초월하여 외부에서 발견하는 것이다"
+    }
+  },
+  {
+    "id": "PHENOM_PI_026",
+    "terminology": "역설적 의도 (Paradoxical Intention)",
+    "terminology_ko": "역설적 의도",
+    "terminology_en": "Paradoxical Intention",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Frankl이 개발한 로고테라피의 핵심 기법으로, 내담자가 두려워하는 증상을 의도적으로 소망하거나 과장하도록 하여 증상에 대한 예기 불안을 깨뜨리는 역설적 개입이다.",
+    "definition_en": "A core logotherapy technique developed by Frankl in which the client deliberately wishes for or exaggerates the feared symptom, breaking the cycle of anticipatory anxiety through paradoxical intervention.",
+    "significance": "불안 장애와 강박 장애 치료에서 효과적이며, 이후 전략적 치료와 행동치료에서도 역설적 기법의 이론적 기초가 되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "역설적 의도를 로고테라피의 핵심 기법으로 개발하고 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "로고테라피",
+        "name_en": "Logotherapy",
+        "id": "PHENOM_LT_024"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "PHENOM_EA_020"
+      },
+      {
+        "name_ko": "인지 재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역설적 의도 = 두려운 것을 오히려 바라기 - 불안의 악순환 끊기",
+      "differential": "행동치료의 홍수법(flooding)은 공포 자극에 직접 노출하는 것이고, 역설적 의도는 증상 자체를 의도적으로 바라는 인지적 역설이다",
+      "key_point": "유머를 활용하여 자기 자신과 증상에 대해 거리를 두는 것이 핵심 기제이다",
+      "common_mistake": "역설적 의도가 단순히 증상을 무시하라는 것이 아니라 적극적으로 증상을 소망하는 역설적 전환이다"
+    }
+  },
+  {
+    "id": "PHENOM_EV_027",
+    "terminology": "실존적 공허 (Existential Vacuum)",
+    "terminology_ko": "실존적 공허",
+    "terminology_en": "Existential Vacuum",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "삶의 의미와 목적이 부재하여 느끼는 내적 공허감으로, Frankl은 이를 현대인의 주요 심리적 문제로 보았으며, 의미에의 의지가 좌절될 때 발생한다고 하였다.",
+    "definition_en": "An inner emptiness felt from the absence of meaning and purpose in life; Frankl viewed this as a major psychological problem of modern people, occurring when the will to meaning is frustrated.",
+    "significance": "현대 사회의 우울, 중독, 공격성 등 다양한 심리적 문제의 근본 원인으로 실존적 공허를 조명하여, 의미 중심 치료의 필요성을 제기하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "실존적 공허를 현대인의 핵심 심리 문제로 진단하고 의미치료로 대응"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "의미에의 의지",
+        "name_en": "Will to Meaning",
+        "id": "PHENOM_WM_025"
+      },
+      {
+        "name_ko": "로고테라피",
+        "name_en": "Logotherapy",
+        "id": "PHENOM_LT_024"
+      },
+      {
+        "name_ko": "의미 추구",
+        "name_en": "Search for Meaning",
+        "id": "PHENOM_SM_023"
+      },
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 공허 = 삶의 의미가 텅 빈 상태 - '일요일 신경증'의 원인",
+      "differential": "우울증의 공허감은 기분 장애의 증상이지만, 실존적 공허는 의미 부재에서 오는 실존적 상태이다",
+      "key_point": "Frankl은 실존적 공허가 현대인의 '대중 신경증'이라고 표현했다",
+      "common_mistake": "실존적 공허가 반드시 병리적 상태가 아니라 의미를 찾기 위한 출발점이 될 수 있다"
+    }
+  },
+  {
+    "id": "PHENOM_DA_028",
+    "terminology": "현존재분석 (Daseinsanalysis)",
+    "terminology_ko": "현존재분석",
+    "terminology_en": "Daseinsanalysis",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Heidegger의 현존재(Dasein) 철학에 기반하여 Binswanger와 Boss가 발전시킨 실존적 심리치료 접근으로, 내담자의 존재 방식(being-in-the-world)을 현상학적으로 이해하고자 한다.",
+    "definition_en": "An existential psychotherapy approach developed by Binswanger and Boss based on Heidegger's philosophy of Dasein, seeking to phenomenologically understand the client's mode of being-in-the-world.",
+    "significance": "정신분석과 실존철학을 통합한 최초의 시도로, 내담자의 경험을 선입견 없이 현상학적으로 이해하는 치료적 태도의 철학적 기반을 제공하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "루트비히 빈스방거",
+        "name_en": "Ludwig Binswanger",
+        "contribution": "현존재분석의 창시자로서 정신분석과 실존철학을 통합"
+      },
+      {
+        "name_ko": "메다르트 보스",
+        "name_en": "Medard Boss",
+        "contribution": "Heidegger와의 직접 협업을 통해 현존재분석을 심리치료에 체계적으로 적용"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "PHENOM_FR_022"
+      },
+      {
+        "name_ko": "자유연상",
+        "name_en": "Free Association",
+        "id": "PSYCHOD_FA_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Dasein(독일어) = Da(거기) + Sein(있음) = '거기에 있음' - 세계-내-존재",
+      "differential": "전통 정신분석이 심리내적 갈등을 분석하는 반면, 현존재분석은 존재 방식 자체를 현상학적으로 이해한다",
+      "key_point": "Binswanger는 Freud의 제자였으나 실존철학을 도입하여 정신분석을 확장하였다",
+      "common_mistake": "현존재분석이 정신분석을 부정하는 것이 아니라 실존적 차원을 추가하여 확장하는 것이다"
+    }
+  },
+  {
+    "id": "PHENOM_MI_029",
+    "terminology": "동기면담 (Motivational Interviewing)",
+    "terminology_ko": "동기면담",
+    "terminology_en": "Motivational Interviewing",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Miller와 Rollnick이 개발한 내담자 중심의 지시적 상담 방법으로, 양가감정을 탐색하고 해소하여 변화 동기를 강화하며, Rogers의 인간중심 원리에 기반한다.",
+    "definition_en": "A client-centered, directive counseling method developed by Miller and Rollnick that explores and resolves ambivalence to strengthen motivation for change, grounded in Rogers' person-centered principles.",
+    "significance": "물질 사용 장애를 비롯한 다양한 건강 행동 변화에서 강력한 실증적 효과가 입증되어, 임상심리학에서 가장 널리 활용되는 근거기반 접근 중 하나이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 밀러",
+        "name_en": "William Miller",
+        "contribution": "동기면담의 창시자로서 이론과 기법 체계 개발"
+      },
+      {
+        "name_ko": "스티븐 롤닉",
+        "name_en": "Stephen Rollnick",
+        "contribution": "동기면담의 공동 개발자로서 의료 장면 적용 확대"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      },
+      {
+        "name_ko": "공감적 이해",
+        "name_en": "Empathic Understanding",
+        "id": "PHENOM_EU_003"
+      },
+      {
+        "name_ko": "무조건적 긍정적 존중",
+        "name_en": "Unconditional Positive Regard",
+        "id": "PHENOM_UPR_002"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "OARS 기술",
+        "description": "개방형 질문(Open), 인정(Affirming), 반영(Reflecting), 요약(Summarizing)"
+      },
+      {
+        "name": "변화대화(Change Talk)",
+        "description": "내담자가 변화를 향한 자신의 이유를 표현하도록 유도"
+      },
+      {
+        "name": "유지대화(Sustain Talk)",
+        "description": "현상 유지를 선호하는 내담자의 발언을 다루는 전략"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "MI의 정신: 협력(Partnership), 수용(Acceptance), 연민(Compassion), 유발(Evocation)",
+      "differential": "인간중심치료가 비지시적인 반면, 동기면담은 변화 방향으로의 전략적 안내를 포함하는 '내담자 중심적이면서 지시적인' 접근이다",
+      "key_point": "변화 동기를 외부에서 주입하는 것이 아니라 내담자 내부에서 유발(evocation)하는 것이 핵심이다",
+      "common_mistake": "동기면담이 단순한 공감적 경청이 아니라 변화를 향한 전략적 방향성을 가진 접근이다"
+    }
+  },
+  {
+    "id": "PHENOM_EP_030",
+    "terminology": "체험적 심리치료 (Experiential Psychotherapy)",
+    "terminology_ko": "체험적 심리치료",
+    "terminology_en": "Experiential Psychotherapy",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "치료 장면에서 내담자의 직접적인 체험과 감정 경험을 치료적 변화의 핵심 기제로 활용하는 심리치료 접근들의 총칭으로, 게슈탈트 치료, 초점화, 감정초점치료 등을 포괄한다.",
+    "definition_en": "An umbrella term for psychotherapy approaches that use the client's direct experiencing and emotional engagement in therapy as the core mechanism of change, encompassing Gestalt therapy, focusing, emotion-focused therapy, and others.",
+    "significance": "인지적 이해만으로는 부족하며 직접적 체험이 치료적 변화에 필수적이라는 관점을 제시하여, 현대 통합적 심리치료 발전에 기여하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "유진 젠들린",
+        "name_en": "Eugene Gendlin",
+        "contribution": "체험적 과정(experiencing)의 이론화와 초점화 기법 개발"
+      },
+      {
+        "name_ko": "레슬리 그린버그",
+        "name_en": "Leslie Greenberg",
+        "contribution": "체험적 접근을 감정초점치료로 발전시켜 실증적 기반 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "초점화",
+        "name_en": "Focusing",
+        "id": "PHENOM_FO_031"
+      },
+      {
+        "name_ko": "감정초점치료",
+        "name_en": "Emotion-Focused Therapy",
+        "id": "PHENOM_EFT_032"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체험적 = 머리(인지)가 아닌 온몸(체험)으로 느끼는 치료",
+      "differential": "CBT가 인지적 변화를 통한 감정 변화를 추구하는 반면, 체험적 치료는 직접적 감정 체험이 변화의 일차적 기제이다",
+      "key_point": "체험적 치료의 핵심 가정: 진정한 변화는 단순한 이해가 아닌 깊은 체험적 과정을 통해 일어난다",
+      "common_mistake": "체험적 치료가 감정만 다루는 것이 아니라 감각, 신체, 의미를 통합적으로 경험하는 것이다"
+    }
+  },
+  {
+    "id": "PHENOM_FO_031",
+    "terminology": "초점화 (Focusing)",
+    "terminology_ko": "초점화",
+    "terminology_en": "Focusing",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Gendlin이 개발한 체험적 심리치료 기법으로, 신체에서 느껴지는 막연한 감각(felt sense)에 주의를 기울이고 이를 언어화하는 과정을 통해 내적 경험의 의미를 발견하고 변화를 촉진한다.",
+    "definition_en": "An experiential psychotherapy technique developed by Gendlin in which the client attends to a vague bodily sensation (felt sense) and articulates it, discovering the meaning of inner experience and facilitating change.",
+    "significance": "치료 성과 연구에서 내담자의 체험 수준(experiencing level)이 치료 효과를 예측한다는 발견에 기반하여 개발되었으며, 신체-심리 연결의 치료적 활용을 선구적으로 제시하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "유진 젠들린",
+        "name_en": "Eugene Gendlin",
+        "contribution": "초점화 기법과 체험적 과정 이론(experiencing theory) 개발"
+      },
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "Gendlin의 스승으로서 인간중심 연구에서 체험적 과정의 중요성 인식"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체험적 심리치료",
+        "name_en": "Experiential Psychotherapy",
+        "id": "PHENOM_EP_030"
+      },
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      },
+      {
+        "name_ko": "감정초점치료",
+        "name_en": "Emotion-Focused Therapy",
+        "id": "PHENOM_EFT_032"
+      },
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "펠트 센스(Felt Sense)",
+        "description": "특정 상황이나 문제에 대해 신체에서 느껴지는 막연하지만 의미 있는 전체적 감각"
+      },
+      {
+        "name": "펠트 시프트(Felt Shift)",
+        "description": "펠트 센스가 정확히 언어화되었을 때 일어나는 신체적 해소감"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "초점화 = 몸에서 느껴지는 막연한 감각(felt sense)에 초점 맞추기 - 언어화하면 변화(felt shift)",
+      "differential": "마음챙김 명상이 판단 없이 관찰하는 것이라면, 초점화는 신체 감각에 적극적으로 의미를 부여하고 언어화하는 것이다",
+      "key_point": "Gendlin의 연구: 치료에서 성공하는 내담자는 자신의 내적 체험에 주의를 기울이는 능력이 있다",
+      "common_mistake": "초점화가 단순한 이완 기법이 아니라 신체 감각을 통해 심리적 의미를 발견하는 적극적 탐색 과정이다"
+    }
+  },
+  {
+    "id": "PHENOM_EFT_032",
+    "terminology": "감정초점치료 (Emotion-Focused Therapy)",
+    "terminology_ko": "감정초점치료",
+    "terminology_en": "Emotion-Focused Therapy",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Greenberg가 인간중심치료, 게슈탈트 치료, 체험적 치료를 통합하여 발전시킨 근거기반 심리치료로, 감정의 자각, 수용, 조절, 변환을 치료의 핵심 기제로 활용한다.",
+    "definition_en": "An evidence-based psychotherapy developed by Greenberg integrating person-centered, Gestalt, and experiential therapies, using emotional awareness, acceptance, regulation, and transformation as core therapeutic mechanisms.",
+    "significance": "현상학적 치료의 핵심 원리들을 실증적으로 검증 가능한 체계로 발전시켜, 인본주의적 접근의 근거기반 지위를 확립하는 데 결정적 역할을 하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "레슬리 그린버그",
+        "name_en": "Leslie Greenberg",
+        "contribution": "감정초점치료의 창시자로서 이론, 기법, 실증 연구를 체계화"
+      },
+      {
+        "name_ko": "수잔 존슨",
+        "name_en": "Sue Johnson",
+        "contribution": "감정초점 부부치료(EFT for couples)를 개발하여 관계치료 분야로 확장"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "빈 의자 기법",
+        "name_en": "Empty Chair Technique",
+        "id": "PHENOM_EC_016"
+      },
+      {
+        "name_ko": "두 의자 기법",
+        "name_en": "Two-Chair Technique",
+        "id": "PHENOM_TC_017"
+      },
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      },
+      {
+        "name_ko": "체험적 심리치료",
+        "name_en": "Experiential Psychotherapy",
+        "id": "PHENOM_EP_030"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "개인 EFT",
+        "description": "개인의 감정 처리와 변환에 초점"
+      },
+      {
+        "name": "부부 EFT",
+        "description": "Sue Johnson이 발전시킨 애착 기반 부부치료"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "EFT = Emotion(감정) + Focused(초점) + Therapy(치료) - 감정이 변화의 핵심 기제",
+      "differential": "CBT가 인지를 변화시켜 감정을 바꾸려 하는 반면, EFT는 감정 자체를 직접 다루어 감정으로 감정을 변화시킨다",
+      "key_point": "핵심 원리: '감정을 감정으로 바꾼다(changing emotion with emotion)' - 부적응적 감정을 적응적 감정으로 변환",
+      "common_mistake": "EFT가 감정 발산(catharsis)이 아니라 감정의 체계적 처리와 변환 과정이다"
+    }
+  },
+  {
+    "id": "PHENOM_EI_033",
+    "terminology": "실존적 고립 (Existential Isolation)",
+    "terminology_ko": "실존적 고립",
+    "terminology_en": "Existential Isolation",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "아무리 친밀한 관계를 맺어도 결국 자신의 경험 세계에 혼자 존재할 수밖에 없다는 근본적 고독으로, Yalom의 4가지 궁극적 관심사 중 하나이다.",
+    "definition_en": "The fundamental aloneness of existing in one's own experiential world regardless of how intimate one's relationships may be; one of Yalom's four ultimate concerns.",
+    "significance": "대인관계적 고립이나 내적 고립과 구별되는 존재론적 차원의 고독을 조명하여, 관계 의존이나 회피의 깊은 심리적 의미를 이해하는 틀을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "어빈 얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "실존적 고립을 4가지 궁극적 관심사 중 하나로 체계화"
+      },
+      {
+        "name_ko": "마틴 부버",
+        "name_en": "Martin Buber",
+        "contribution": "나-너(I-Thou) 관계 철학을 통해 진정한 만남의 가능성 제시"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실존치료",
+        "name_en": "Existential Therapy",
+        "id": "PHENOM_EXT_019"
+      },
+      {
+        "name_ko": "실존적 불안",
+        "name_en": "Existential Anxiety",
+        "id": "PHENOM_EA_020"
+      },
+      {
+        "name_ko": "자유와 책임",
+        "name_en": "Freedom and Responsibility",
+        "id": "PHENOM_FR_022"
+      },
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실존적 고립 = 대인관계 고립이 아닌 존재 자체의 근본적 외로움",
+      "differential": "사회적 고립은 관계의 부족, 내적 고립은 자기와의 단절이지만, 실존적 고립은 관계가 있어도 존재론적으로 혼자라는 것이다",
+      "key_point": "실존적 고립을 직면하면 오히려 타인과의 진정한 관계가 가능해진다는 것이 실존치료의 역설이다",
+      "common_mistake": "실존적 고립을 외로움 증상과 동일시하지 말아야 한다 - 이것은 인간 조건의 일부이다"
+    }
+  },
+  {
+    "id": "PHENOM_PCR_034",
+    "terminology": "역설적 변화 이론 (Paradoxical Theory of Change)",
+    "terminology_ko": "역설적 변화 이론",
+    "terminology_en": "Paradoxical Theory of Change",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Beisser가 제시한 게슈탈트 치료의 핵심 원리로, 변화는 되고 싶은 것이 되려고 노력할 때가 아니라 있는 그대로의 자신을 충분히 자각하고 수용할 때 자연스럽게 일어난다는 이론이다.",
+    "definition_en": "A core principle of Gestalt therapy proposed by Beisser stating that change occurs not by trying to become what one is not, but by fully becoming aware of and accepting what one is.",
+    "significance": "변화를 강제하는 기존 치료 패러다임에 대한 근본적 대안을 제시하였으며, 수용 기반 치료(ACT 등)의 철학적 선구가 되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "아놀드 바이서",
+        "name_en": "Arnold Beisser",
+        "contribution": "역설적 변화 이론을 공식화하여 게슈탈트 치료의 변화 기제를 명확히 함"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "알아차림",
+        "name_en": "Awareness",
+        "id": "PHENOM_AW_012"
+      },
+      {
+        "name_ko": "게슈탈트 치료",
+        "name_en": "Gestalt Therapy",
+        "id": "PHENOM_GT_011"
+      },
+      {
+        "name_ko": "인간중심치료",
+        "name_en": "Person-Centered Therapy",
+        "id": "PHENOM_PCT_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "역설적 변화 = 변하려고 할수록 안 변하고, 있는 그대로를 수용하면 변화가 온다",
+      "differential": "CBT의 변화 모델이 적극적 인지 수정을 강조하는 반면, 역설적 변화 이론은 자각과 수용 자체가 변화를 가져온다고 본다",
+      "key_point": "변하려는 노력 자체가 현재 자기에 대한 부정이므로 변화를 방해한다는 역설이 핵심이다",
+      "common_mistake": "역설적 변화 이론이 변화를 포기하라는 것이 아니라 변화의 전제조건이 자기 수용이라는 것이다"
+    }
+  },
+  {
+    "id": "PHENOM_DR_035",
+    "terminology": "탈반성 (Dereflection)",
+    "terminology_ko": "탈반성",
+    "terminology_en": "Dereflection",
+    "category": "PHENOM",
+    "category_name": "현상학적 치료 (Phenomenological Therapy)",
+    "definition": "Frankl이 개발한 로고테라피의 기법으로, 내담자가 증상이나 자기 자신에게 과도하게 집착하는 주의를 의미 있는 외부 과제나 타인을 향해 전환하도록 돕는 것이다.",
+    "definition_en": "A logotherapy technique developed by Frankl that helps clients redirect attention from excessive self-focus or symptom preoccupation toward meaningful external tasks or others.",
+    "significance": "과잉 자기관찰과 과잉 반성이 증상을 악화시킨다는 Frankl의 통찰에 기반하여, 수행 불안이나 불면증 등의 치료에 효과적으로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "빅토르 프랭클",
+        "name_en": "Viktor Frankl",
+        "contribution": "탈반성 기법을 역설적 의도와 함께 로고테라피의 핵심 기법으로 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "로고테라피",
+        "name_en": "Logotherapy",
+        "id": "PHENOM_LT_024"
+      },
+      {
+        "name_ko": "역설적 의도",
+        "name_en": "Paradoxical Intention",
+        "id": "PHENOM_PI_026"
+      },
+      {
+        "name_ko": "의미 추구",
+        "name_en": "Search for Meaning",
+        "id": "PHENOM_SM_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "탈반성 = 자기에게서 벗어나(탈) 의미 있는 외부로 주의를 돌리기",
+      "differential": "역설적 의도가 증상 자체를 과장하여 불안 순환을 깨는 것이라면, 탈반성은 증상에서 주의를 돌려 의미 있는 활동으로 향하게 하는 것이다",
+      "key_point": "자기초월(self-transcendence)이 핵심 기제 - 자기에 대한 과도한 집착에서 벗어나 타인과 의미를 향하기",
+      "common_mistake": "탈반성이 단순한 주의분산(distraction)이 아니라 의미 있는 과제로의 적극적 방향전환이다"
+    }
+  }
+]

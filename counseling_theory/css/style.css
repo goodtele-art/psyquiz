@@ -1,5 +1,5 @@
 /* ========================================
-   심리검사 게임 학습 — Design System
+   상담 이론과 실제 게임 학습 — Design System
    ======================================== */
 
 /* --- CSS Variables --- */
@@ -56,21 +56,20 @@
   --combo: #F39C12;
   --star: #F1C40F;
 
-  /* 카테고리 (14색) */
-  --cat-found: #6C5CE7;
-  --cat-norms: #00B894;
-  --cat-reli: #0984E3;
-  --cat-vali: #E17055;
-  --cat-item: #FDCB6E;
-  --cat-intell: #74B9FF;
-  --cat-achieve: #A29BFE;
-  --cat-person: #FF7675;
-  --cat-proj: #636E72;
-  --cat-neuro: #00CEC9;
-  --cat-clinic: #D63031;
-  --cat-develop: #55EFC4;
-  --cat-indust: #FAB1A0;
-  --cat-ethics: #81ECEC;
+  /* 카테고리 (13색) */
+  --cat-found: #5C6BC0;
+  --cat-psychod: #8E24AA;
+  --cat-exist: #00897B;
+  --cat-person: #43A047;
+  --cat-gestalt: #FFB300;
+  --cat-behav: #1E88E5;
+  --cat-reality: #00ACC1;
+  --cat-cbt: #E53935;
+  --cat-thirdw: #7CB342;
+  --cat-family: #FB8C00;
+  --cat-group: #3949AB;
+  --cat-process: #6D4C41;
+  --cat-ethics: #546E7A;
 
   /* 공통 */
   --radius-sm: 8px;
@@ -224,7 +223,7 @@ body {
 /* --- Pages --- */
 .page { padding: 0 20px 40px; }
 
-/* --- Portal Link --- */
+/* --- Home Hero --- */
 .portal-link {
   display: inline-block;
   padding: 8px 16px;
@@ -240,7 +239,6 @@ body {
   color: var(--text-primary);
 }
 
-/* --- Home Hero --- */
 .home-hero {
   text-align: center;
   padding: 48px 0 32px;
@@ -1436,7 +1434,6 @@ body {
 .crossword-cell {
   width: 36px;
   height: 36px;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;

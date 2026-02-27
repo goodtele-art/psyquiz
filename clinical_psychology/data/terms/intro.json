@@ -1,0 +1,1668 @@
+[
+  {
+    "id": "INTRO_CP_001",
+    "terminology": "임상심리학 (Clinical Psychology)",
+    "terminology_ko": "임상심리학",
+    "terminology_en": "Clinical Psychology",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "심리학의 지식과 방법론을 활용하여 정신건강 문제의 평가, 진단, 치료 및 예방을 수행하는 심리학의 전문 분야로, 과학적 연구와 임상 실무를 통합한다.",
+    "definition_en": "A specialty area of psychology that applies psychological knowledge and methods to the assessment, diagnosis, treatment, and prevention of mental health problems, integrating scientific research with clinical practice.",
+    "significance": "심리학의 응용 분야 중 가장 큰 하위 분야이며, 과학과 실무의 통합을 통해 정신건강 서비스의 질을 높이는 데 핵심 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "라이트너 위트머",
+        "name_en": "Lightner Witmer",
+        "contribution": "1896년 펜실베이니아 대학에 최초의 심리학 클리닉을 설립하여 임상심리학을 창시"
+      },
+      {
+        "name_ko": "신민섭",
+        "name_en": "Shin Min-Sup",
+        "contribution": "한국 임상심리학 교육 체계화에 기여, '최신 임상심리학' 저자"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과학자-실무자 모델",
+        "name_en": "Scientist-Practitioner Model",
+        "id": "INTRO_SPM_002"
+      },
+      {
+        "name_ko": "심리학적 평가",
+        "name_en": "Psychological Assessment",
+        "id": "INTRO_PA_007"
+      },
+      {
+        "name_ko": "심리치료",
+        "name_en": "Psychotherapy",
+        "id": "INTRO_PT_008"
+      },
+      {
+        "name_ko": "Witmer의 심리학 클리닉",
+        "name_en": "Witmer's Psychological Clinic",
+        "id": "HISTORY_LW_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "성인 임상심리학",
+        "description": "성인의 정신건강 문제를 다루는 분야"
+      },
+      {
+        "name": "아동 임상심리학",
+        "description": "아동·청소년의 발달적 문제와 정신건강을 다루는 분야"
+      },
+      {
+        "name": "건강심리학",
+        "description": "신체 건강과 심리적 요인의 관계를 다루는 분야"
+      },
+      {
+        "name": "신경심리학",
+        "description": "뇌-행동 관계를 다루는 분야"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "임상 = 임(평가)상(치료)심리학 → 과학 + 실무 통합",
+      "differential": "상담심리학은 정상 범위의 적응 문제에 초점, 임상심리학은 정신병리를 포함한 전 범위의 심리적 문제를 다룬다",
+      "key_point": "1896년 Witmer가 창시했으며, 과학적 연구와 임상 실무의 통합이 핵심 정체성이다",
+      "common_mistake": "임상심리학을 정신건강의학과와 동일시하는 오류가 있으나, 심리학 기반의 독립적 전문 분야이다"
+    }
+  },
+  {
+    "id": "INTRO_SPM_002",
+    "terminology": "과학자-실무자 모델 (Scientist-Practitioner Model)",
+    "terminology_ko": "과학자-실무자 모델",
+    "terminology_en": "Scientist-Practitioner Model",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자를 과학적 연구자이자 동시에 임상 실무자로 훈련하는 교육 모델로, 1949년 볼더 회의에서 채택되어 볼더 모델이라고도 불린다.",
+    "definition_en": "A training model that educates clinical psychologists as both scientific researchers and clinical practitioners, adopted at the 1949 Boulder Conference and also known as the Boulder Model.",
+    "significance": "임상심리학 대학원 교육의 가장 대표적인 모델로, 연구와 실무의 균형 잡힌 통합을 강조하며 PhD 프로그램의 기본 철학이다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 섀코우",
+        "name_en": "David Shakow",
+        "contribution": "볼더 모델의 기초가 된 임상심리학 수련 기준 보고서 작성"
+      },
+      {
+        "name_ko": "빅터 라이미",
+        "name_en": "Victor Raimy",
+        "contribution": "1949년 볼더 회의를 주도하여 과학자-실무자 모델 공식 채택"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "실무자-학자 모델",
+        "name_en": "Practitioner-Scholar Model",
+        "id": "INTRO_PSM_003"
+      },
+      {
+        "name_ko": "임상과학자 모델",
+        "name_en": "Clinical Scientist Model",
+        "id": "INTRO_CSM_004"
+      },
+      {
+        "name_ko": "박사 수준 훈련",
+        "name_en": "Doctoral Training",
+        "id": "INTRO_DT_019"
+      },
+      {
+        "name_ko": "볼더 모델",
+        "name_en": "Boulder Model",
+        "id": "HISTORY_BO_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Boulder(볼더) = 바위처럼 단단한 '과학+실무' 기반",
+      "differential": "볼더 모델(과학자-실무자)은 연구와 실무를 동등하게 강조하고, 베일 모델(실무자-학자)은 실무를 더 강조한다",
+      "key_point": "1949년 볼더 회의에서 채택, PhD 프로그램의 기본 훈련 철학",
+      "common_mistake": "과학자-실무자 모델이 연구만 강조한다고 오해하기 쉬우나, 연구와 실무를 동등하게 중시한다"
+    }
+  },
+  {
+    "id": "INTRO_PSM_003",
+    "terminology": "실무자-학자 모델 (Practitioner-Scholar Model)",
+    "terminology_ko": "실무자-학자 모델",
+    "terminology_en": "Practitioner-Scholar Model",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상 실무 역량 개발에 우선순위를 두면서 연구 소양도 갖추도록 하는 교육 모델로, 1973년 베일 회의에서 채택되어 베일 모델이라고도 불린다.",
+    "definition_en": "A training model that prioritizes the development of clinical practice skills while also maintaining research literacy, adopted at the 1973 Vail Conference and also known as the Vail Model.",
+    "significance": "PsyD 학위 프로그램의 이론적 근거를 제공하며, 실무 중심 전문가 양성의 대안적 경로를 확립했다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 피터슨",
+        "name_en": "Donald Peterson",
+        "contribution": "일리노이 대학에서 최초의 PsyD 프로그램을 개설하여 실무자-학자 모델 구현"
+      },
+      {
+        "name_ko": "니콜라스 커밍스",
+        "name_en": "Nicholas Cummings",
+        "contribution": "캘리포니아 전문심리학대학원(CSPP) 설립에 기여하여 PsyD 교육 확산"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과학자-실무자 모델",
+        "name_en": "Scientist-Practitioner Model",
+        "id": "INTRO_SPM_002"
+      },
+      {
+        "name_ko": "임상과학자 모델",
+        "name_en": "Clinical Scientist Model",
+        "id": "INTRO_CSM_004"
+      },
+      {
+        "name_ko": "박사 수준 훈련",
+        "name_en": "Doctoral Training",
+        "id": "INTRO_DT_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Vail(베일) = '실무 베일'로 실무를 먼저 강조",
+      "differential": "볼더 모델은 연구와 실무 동등 강조(PhD), 베일 모델은 실무를 우선 강조(PsyD)",
+      "key_point": "1973년 베일 회의에서 채택, PsyD 프로그램의 이론적 기반",
+      "common_mistake": "실무자-학자 모델이 연구를 완전히 배제한다고 오해하나, 연구 소비자(consumer)로서의 역량은 필수로 갖춘다"
+    }
+  },
+  {
+    "id": "INTRO_CSM_004",
+    "terminology": "임상과학자 모델 (Clinical Scientist Model)",
+    "terminology_ko": "임상과학자 모델",
+    "terminology_en": "Clinical Scientist Model",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "과학적 방법론과 경험적 근거를 임상 실무의 핵심으로 삼는 교육 모델로, 1990년대 리처드 맥폴이 제안하여 볼더 모델보다 과학적 엄격성을 더 강조한다.",
+    "definition_en": "A training model that places scientific methodology and empirical evidence at the core of clinical practice, proposed by Richard McFall in the 1990s with greater emphasis on scientific rigor than the Boulder Model.",
+    "significance": "임상심리학의 과학적 정체성을 강화하고, 근거기반 실무 운동의 발전에 중요한 이론적 토대를 제공했다.",
+    "key_researchers": [
+      {
+        "name_ko": "리처드 맥폴",
+        "name_en": "Richard McFall",
+        "contribution": "1991년 임상과학자 모델을 공식 제안하고 임상심리학의 과학적 기반을 강조"
+      },
+      {
+        "name_ko": "티모시 베이커",
+        "name_en": "Timothy Baker",
+        "contribution": "임상과학 인증 시스템(PCSAS) 설립에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과학자-실무자 모델",
+        "name_en": "Scientist-Practitioner Model",
+        "id": "INTRO_SPM_002"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      },
+      {
+        "name_ko": "과학적 회의주의",
+        "name_en": "Scientific Skepticism",
+        "id": "INTRO_SS_029"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "McFall의 '매니페스토' → 임상 = 반드시 과학",
+      "differential": "볼더 모델은 연구-실무 동등, 베일 모델은 실무 우선, 임상과학자 모델은 과학적 엄격성 최우선",
+      "key_point": "1991년 McFall이 제안, 과학적 근거가 없는 실무를 배격하는 엄격한 입장",
+      "common_mistake": "임상과학자 모델이 임상 실무 자체를 경시한다고 오해하나, 과학에 기반한 실무를 더 강하게 요구하는 것이다"
+    }
+  },
+  {
+    "id": "INTRO_EBP_005",
+    "terminology": "근거기반 실무 (Evidence-Based Practice)",
+    "terminology_ko": "근거기반 실무",
+    "terminology_en": "Evidence-Based Practice",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "최선의 연구 근거, 임상적 전문성, 내담자의 특성·가치·선호를 통합하여 임상적 의사결정을 내리는 실무 접근으로, APA가 2006년 공식 채택한 정책이다.",
+    "definition_en": "A practice approach that integrates the best available research evidence, clinical expertise, and patient characteristics, values, and preferences in clinical decision-making, officially adopted by APA as policy in 2006.",
+    "significance": "현대 임상심리학의 실무 표준으로, 과학적 근거와 임상가의 판단, 내담자 요인을 균형 있게 고려하는 의사결정 틀을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 사켓",
+        "name_en": "David Sackett",
+        "contribution": "근거기반의학(EBM) 개념을 정립하여 근거기반 실무의 이론적 원형을 제공"
+      },
+      {
+        "name_ko": "브루스 원플드",
+        "name_en": "Bruce Wampold",
+        "contribution": "심리치료 효과 연구에서 공통 요인의 중요성을 강조하여 EBP 논의를 확장"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "근거기반 치료",
+        "name_en": "Empirically Supported Treatment",
+        "id": "INTRO_EST_006"
+      },
+      {
+        "name_ko": "임상과학자 모델",
+        "name_en": "Clinical Scientist Model",
+        "id": "INTRO_CSM_004"
+      },
+      {
+        "name_ko": "무선화 통제실험",
+        "name_en": "Randomized Controlled Trial",
+        "id": "RESEARCH_RCT_001"
+      },
+      {
+        "name_ko": "근거기반 실무 연구",
+        "name_en": "EBP Research",
+        "id": "RESEARCH_EBP_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "EBP의 3축: 연구 근거 + 임상 전문성 + 내담자 특성",
+      "differential": "EBP는 '과정'(의사결정 틀)이고, EST는 '산물'(검증된 특정 치료법 목록)이다",
+      "key_point": "APA가 2006년 공식 채택한 정책으로, 세 가지 요소의 통합이 핵심",
+      "common_mistake": "EBP를 단순히 매뉴얼화된 치료만 사용하는 것으로 오해하나, 임상가의 전문성과 내담자 요인도 동등하게 중요하다"
+    }
+  },
+  {
+    "id": "INTRO_EST_006",
+    "terminology": "근거기반 치료 (Empirically Supported Treatment)",
+    "terminology_ko": "근거기반 치료",
+    "terminology_en": "Empirically Supported Treatment",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "무선화 통제실험(RCT) 등 엄격한 연구 설계를 통해 특정 심리 장애에 대한 치료 효과가 경험적으로 입증된 심리치료 기법 또는 프로토콜의 목록이다.",
+    "definition_en": "A list of psychotherapy techniques or protocols whose therapeutic efficacy for specific psychological disorders has been empirically demonstrated through rigorous research designs such as randomized controlled trials.",
+    "significance": "APA Division 12의 과제위원회가 체계적으로 정리하여, 특정 장애에 대해 어떤 치료가 효과적인지 임상가에게 구체적 지침을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "다이앤 챔블리스",
+        "name_en": "Dianne Chambless",
+        "contribution": "APA Division 12 과제위원회를 이끌어 EST 기준과 목록을 체계화"
+      },
+      {
+        "name_ko": "토마스 올렌딕",
+        "name_en": "Thomas Ollendick",
+        "contribution": "아동·청소년 대상 경험적으로 지지된 치료법 연구를 주도"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      },
+      {
+        "name_ko": "무선화 통제실험",
+        "name_en": "Randomized Controlled Trial",
+        "id": "RESEARCH_RCT_001"
+      },
+      {
+        "name_ko": "인지재구조화",
+        "name_en": "Cognitive Restructuring",
+        "id": "CBT_CR_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "잘 확립된 치료(Well-Established)",
+        "description": "두 개 이상의 독립 연구팀에서 RCT로 효과를 입증한 치료"
+      },
+      {
+        "name": "아마도 효과적인 치료(Probably Efficacious)",
+        "description": "한 연구팀에서 효과를 입증한 치료"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "EST = 특정 장애에 대한 '검증된 치료 목록'",
+      "differential": "EST는 특정 장애에 대한 검증된 치료 '목록'이고, EBP는 연구+전문성+내담자를 통합하는 의사결정 '과정'이다",
+      "key_point": "APA Division 12의 과제위원회가 정리한 목록으로, RCT 기반 효과 검증이 핵심 기준",
+      "common_mistake": "EST 목록에 없는 치료는 무조건 효과가 없다고 오해하나, 단지 아직 체계적으로 검증되지 않았을 뿐이다"
+    }
+  },
+  {
+    "id": "INTRO_PA_007",
+    "terminology": "심리학적 평가 (Psychological Assessment)",
+    "terminology_ko": "심리학적 평가",
+    "terminology_en": "Psychological Assessment",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "면담, 행동관찰, 심리검사 등 다양한 방법을 체계적으로 활용하여 개인의 인지, 정서, 행동, 성격 특성을 종합적으로 평가하는 전문적 과정이다.",
+    "definition_en": "A professional process that systematically uses various methods including interviews, behavioral observation, and psychological tests to comprehensively evaluate an individual's cognitive, emotional, behavioral, and personality characteristics.",
+    "significance": "임상심리학자의 고유한 핵심 역량으로, 정확한 진단과 효과적인 치료 계획 수립의 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "알프레드 비네",
+        "name_en": "Alfred Binet",
+        "contribution": "최초의 지능검사를 개발하여 심리학적 평가의 토대를 마련"
+      },
+      {
+        "name_ko": "데이비드 웩슬러",
+        "name_en": "David Wechsler",
+        "contribution": "웩슬러 지능검사 시리즈를 개발하여 현대 심리평가의 표준을 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정신상태검사",
+        "name_en": "Mental Status Examination",
+        "id": "INTVIEW_MSE_003"
+      },
+      {
+        "name_ko": "사례개념화",
+        "name_en": "Case Formulation",
+        "id": "DIAGN_CF_004"
+      },
+      {
+        "name_ko": "DSM-5",
+        "name_en": "DSM-5",
+        "id": "DIAGN_DSM_001"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "지능평가",
+        "description": "인지적 능력과 지적 기능을 평가"
+      },
+      {
+        "name": "성격평가",
+        "description": "성격 특성, 정서 패턴, 대인관계 양식을 평가"
+      },
+      {
+        "name": "신경심리평가",
+        "description": "뇌 기능과 인지적 손상을 평가"
+      },
+      {
+        "name": "행동평가",
+        "description": "구체적 행동과 환경적 맥락을 평가"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "평가 = 면담 + 관찰 + 검사 → 종합 판단",
+      "differential": "심리검사(testing)는 특정 도구를 실시하는 것이고, 심리학적 평가(assessment)는 다양한 정보를 통합·해석하는 전체 과정이다",
+      "key_point": "단순한 검사 실시가 아닌 다양한 자료를 통합하여 종합적으로 판단하는 전문적 과정",
+      "common_mistake": "심리학적 평가를 단순히 심리검사 실시와 채점으로 오해하나, 임상적 판단과 통합이 핵심이다"
+    }
+  },
+  {
+    "id": "INTRO_PT_008",
+    "terminology": "심리치료 (Psychotherapy)",
+    "terminology_ko": "심리치료",
+    "terminology_en": "Psychotherapy",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "심리적 원리에 기반하여 정서적 고통, 행동 문제, 정신건강 장애를 치료하기 위해 전문 훈련을 받은 치료자와 내담자 간에 이루어지는 체계적인 상호작용 과정이다.",
+    "definition_en": "A systematic interaction process between a professionally trained therapist and a client, based on psychological principles, aimed at treating emotional distress, behavioral problems, and mental health disorders.",
+    "significance": "임상심리학자의 핵심 활동 영역 중 하나로, 과학적으로 검증된 다양한 심리적 개입 방법을 통해 내담자의 정신건강 회복을 돕는다.",
+    "key_researchers": [
+      {
+        "name_ko": "지그문트 프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "정신분석을 통해 체계적 심리치료의 기틀을 마련"
+      },
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "인간중심치료를 개발하여 심리치료 연구와 실무에 혁신적 영향"
+      },
+      {
+        "name_ko": "아론 벡",
+        "name_en": "Aaron Beck",
+        "contribution": "인지치료를 개발하여 현대 근거기반 심리치료의 발전에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "근거기반 치료",
+        "name_en": "Empirically Supported Treatment",
+        "id": "INTRO_EST_006"
+      },
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "INTRO_IA_025"
+      },
+      {
+        "name_ko": "정신분석",
+        "name_en": "Psychoanalysis",
+        "id": "PSYCHOD_PA_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "개인치료",
+        "description": "치료자와 내담자 일대일 형식"
+      },
+      {
+        "name": "집단치료",
+        "description": "여러 내담자가 함께 참여하는 형식"
+      },
+      {
+        "name": "가족치료",
+        "description": "가족 구성원이 함께 참여하는 형식"
+      },
+      {
+        "name": "부부치료",
+        "description": "부부가 함께 참여하는 형식"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "심리치료 = 심리적 원리 + 전문 치료자 + 체계적 과정",
+      "differential": "상담은 정상 범위의 적응 문제에 초점, 심리치료는 정신건강 장애 치료를 포함하는 더 넓은 범위의 개입이다",
+      "key_point": "과학적으로 검증된 심리적 원리에 기반한 전문적 치료 과정",
+      "common_mistake": "심리치료를 단순한 대화나 조언으로 오해하나, 이론과 근거에 기반한 체계적 전문 활동이다"
+    }
+  },
+  {
+    "id": "INTRO_CON_009",
+    "terminology": "자문 (Consultation)",
+    "terminology_ko": "자문",
+    "terminology_en": "Consultation",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자가 다른 전문가, 조직, 기관에 심리학적 전문 지식을 제공하여 내담자 서비스, 프로그램, 정책의 질을 향상시키는 간접적 서비스 활동이다.",
+    "definition_en": "An indirect service activity in which clinical psychologists provide psychological expertise to other professionals, organizations, or institutions to improve the quality of client services, programs, and policies.",
+    "significance": "임상심리학자의 전문성을 개인 치료를 넘어 조직과 시스템 수준으로 확장하여 더 넓은 범위의 정신건강 향상에 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 카플란",
+        "name_en": "Gerald Caplan",
+        "contribution": "정신건강 자문 모델을 체계화하여 자문의 유형과 과정을 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리학자의 역할",
+        "name_en": "Roles of Clinical Psychologists",
+        "id": "INTRO_RCP_011"
+      },
+      {
+        "name_ko": "전문직 간 협력",
+        "name_en": "Interprofessional Collaboration",
+        "id": "INTRO_IPC_030"
+      },
+      {
+        "name_ko": "예방",
+        "name_en": "Prevention",
+        "id": "INTRO_PRV_010"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "내담자 중심 자문",
+        "description": "특정 내담자에 대한 평가나 치료 조언을 제공"
+      },
+      {
+        "name": "자문의뢰자 중심 자문",
+        "description": "자문의뢰자의 전문적 역량 향상을 지원"
+      },
+      {
+        "name": "프로그램 자문",
+        "description": "프로그램 개발이나 평가에 전문 지식을 제공"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "자문 = 간접 서비스 → 전문가에게 전문 지식을 전달",
+      "differential": "자문은 다른 전문가에게 간접 서비스를 제공하는 것이고, 심리치료는 내담자에게 직접 서비스를 제공하는 것이다",
+      "key_point": "내담자에게 직접 서비스가 아닌, 다른 전문가·기관에 전문성을 제공하는 간접 서비스",
+      "common_mistake": "자문을 단순히 의견을 말하는 것으로 오해하나, 체계적인 전문 활동이며 윤리적 책임이 따른다"
+    }
+  },
+  {
+    "id": "INTRO_PRV_010",
+    "terminology": "예방 (Prevention)",
+    "terminology_ko": "예방",
+    "terminology_en": "Prevention",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "정신건강 문제가 발생하기 전에 위험 요인을 줄이고 보호 요인을 강화하여 심리적 장애의 발생률과 유병률을 감소시키는 체계적 개입 활동이다.",
+    "definition_en": "Systematic intervention activities that reduce risk factors and strengthen protective factors before mental health problems occur, thereby decreasing the incidence and prevalence of psychological disorders.",
+    "significance": "치료 중심에서 예방 중심으로 패러다임을 전환하여, 공중보건적 관점에서 정신건강 서비스의 효율성과 효과성을 높인다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지 올브라이트",
+        "name_en": "George Albee",
+        "contribution": "정신건강 문제의 예방을 강조하고 예방심리학의 기초를 확립"
+      },
+      {
+        "name_ko": "제럴드 카플란",
+        "name_en": "Gerald Caplan",
+        "contribution": "1차, 2차, 3차 예방의 분류 체계를 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "공중보건 심리학",
+        "name_en": "Public Health Psychology",
+        "id": "INTRO_PHP_028"
+      },
+      {
+        "name_ko": "생물심리사회 모델",
+        "name_en": "Biopsychosocial Model",
+        "id": "INTRO_BPS_024"
+      },
+      {
+        "name_ko": "자문",
+        "name_en": "Consultation",
+        "id": "INTRO_CON_009"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "보편적 예방(Universal Prevention)",
+        "description": "전체 인구 대상의 예방 프로그램"
+      },
+      {
+        "name": "선별적 예방(Selective Prevention)",
+        "description": "고위험군 대상의 예방 프로그램"
+      },
+      {
+        "name": "지시적 예방(Indicated Prevention)",
+        "description": "초기 증상이 있는 개인 대상의 예방 프로그램"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "예방 3단계: 보편적 → 선별적 → 지시적 (범위가 좁아진다)",
+      "differential": "예방은 문제 발생 전 개입이고, 치료는 이미 발생한 문제에 대한 개입이다",
+      "key_point": "위험 요인 감소와 보호 요인 강화를 통한 발생률·유병률 감소가 목표",
+      "common_mistake": "예방을 단순히 건강 교육으로 오해하나, 체계적인 프로그램 설계와 효과 검증이 필요한 전문 활동이다"
+    }
+  },
+  {
+    "id": "INTRO_RCP_011",
+    "terminology": "임상심리학자의 역할 (Roles of Clinical Psychologists)",
+    "terminology_ko": "임상심리학자의 역할",
+    "terminology_en": "Roles of Clinical Psychologists",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자는 심리학적 평가, 심리치료, 연구, 교육, 자문, 예방, 행정 등 다양한 전문적 역할을 수행하며, 과학자이자 실무자로서의 이중 정체성을 갖는다.",
+    "definition_en": "Clinical psychologists perform diverse professional roles including psychological assessment, psychotherapy, research, teaching, consultation, prevention, and administration, maintaining a dual identity as both scientists and practitioners.",
+    "significance": "임상심리학자의 다면적 전문성을 규정하며, 다른 정신건강 전문직과의 차별적 정체성을 확립하는 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "라이트너 위트머",
+        "name_en": "Lightner Witmer",
+        "contribution": "임상심리학의 창시를 통해 임상심리학자의 역할을 최초로 정의"
+      },
+      {
+        "name_ko": "앤드류 포메란츠",
+        "name_en": "Andrew Pomerantz",
+        "contribution": "임상심리학 교과서를 통해 현대 임상심리학자의 역할을 체계적으로 정리"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      },
+      {
+        "name_ko": "심리학적 평가",
+        "name_en": "Psychological Assessment",
+        "id": "INTRO_PA_007"
+      },
+      {
+        "name_ko": "심리치료",
+        "name_en": "Psychotherapy",
+        "id": "INTRO_PT_008"
+      },
+      {
+        "name_ko": "자문",
+        "name_en": "Consultation",
+        "id": "INTRO_CON_009"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "평가자",
+        "description": "심리학적 평가와 진단 수행"
+      },
+      {
+        "name": "치료자",
+        "description": "심리치료 및 상담 제공"
+      },
+      {
+        "name": "연구자",
+        "description": "임상 연구 수행 및 논문 발표"
+      },
+      {
+        "name": "교육자",
+        "description": "대학원 교육, 수퍼비전, 워크숍 진행"
+      },
+      {
+        "name": "자문가",
+        "description": "전문가·기관에 심리학적 자문 제공"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "임상심리학자 역할 5가지: 평가-치료-연구-교육-자문",
+      "differential": "정신건강의학과 의사는 약물 처방 중심, 임상심리학자는 심리평가와 심리치료가 핵심 역할이다",
+      "key_point": "과학자이자 실무자로서 평가, 치료, 연구, 교육, 자문 등 다면적 역할 수행",
+      "common_mistake": "임상심리학자가 치료만 한다고 오해하나, 연구·교육·자문·예방 등 폭넓은 역할을 수행한다"
+    }
+  },
+  {
+    "id": "INTRO_CVC_012",
+    "terminology": "임상심리학과 상담심리학의 차이 (Clinical vs Counseling Psychology)",
+    "terminology_ko": "임상심리학과 상담심리학의 차이",
+    "terminology_en": "Clinical vs Counseling Psychology",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학은 전통적으로 심한 정신병리의 평가·치료에 초점을 두고, 상담심리학은 정상 발달과 적응 문제에 초점을 두지만, 현대에는 두 분야의 실무 영역이 상당 부분 중첩된다.",
+    "definition_en": "Clinical psychology traditionally focuses on assessment and treatment of severe psychopathology, while counseling psychology focuses on normal development and adjustment issues, though in practice the two fields substantially overlap in the modern era.",
+    "significance": "심리학 내 두 주요 응용 분야의 역사적 차이와 현대적 수렴을 이해하는 데 필수적이며, 진로 선택과 전문 정체성 형성에 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "상담심리학의 발전에 기여하며, 임상심리학과의 구분을 형성하는 데 영향"
+      },
+      {
+        "name_ko": "라이트너 위트머",
+        "name_en": "Lightner Witmer",
+        "contribution": "임상심리학의 독자적 정체성을 확립하여 상담심리학과의 차별화 기반을 마련"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      },
+      {
+        "name_ko": "임상심리학과 정신건강의학의 차이",
+        "name_en": "Clinical Psychology vs Psychiatry",
+        "id": "INTRO_CVP_013"
+      },
+      {
+        "name_ko": "임상심리학자의 역할",
+        "name_en": "Roles of Clinical Psychologists",
+        "id": "INTRO_RCP_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "임상 = 병리 중심, 상담 = 적응 중심 (하지만 현대에는 수렴)",
+      "differential": "임상심리학은 심각한 정신병리와 심리평가에 강점, 상담심리학은 정상 발달·진로·적응 문제에 전통적 강점이 있다",
+      "key_point": "역사적으로는 뚜렷한 차이가 있었으나, 현대에는 실무 영역이 상당히 중첩된다",
+      "common_mistake": "두 분야가 완전히 다른 전문 영역이라고 오해하나, 실제로는 교육과정과 실무에서 많이 겹친다"
+    }
+  },
+  {
+    "id": "INTRO_CVP_013",
+    "terminology": "임상심리학과 정신건강의학의 차이 (Clinical Psychology vs Psychiatry)",
+    "terminology_ko": "임상심리학과 정신건강의학의 차이",
+    "terminology_en": "Clinical Psychology vs Psychiatry",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자는 심리학 대학원에서 PhD/PsyD를 취득하고 심리평가와 심리치료에 전문성을 갖는 반면, 정신건강의학과 의사는 의과대학 졸업 후 전공의 수련을 거쳐 약물 처방 권한을 갖는다.",
+    "definition_en": "Clinical psychologists earn PhD/PsyD from psychology graduate programs with expertise in psychological assessment and psychotherapy, while psychiatrists complete medical school and residency training with authority to prescribe medication.",
+    "significance": "정신건강 서비스에서 두 전문직의 역할 차이를 명확히 함으로써 효과적인 협력과 내담자에게 최적의 서비스 제공을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 바를로",
+        "name_en": "David Barlow",
+        "contribution": "심리치료 효과 연구를 통해 임상심리학의 독자적 치료 역량을 과학적으로 입증"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "처방권 논쟁",
+        "name_en": "Prescription Privilege Debate",
+        "id": "INTRO_PPD_026"
+      },
+      {
+        "name_ko": "임상심리학과 상담심리학의 차이",
+        "name_en": "Clinical vs Counseling Psychology",
+        "id": "INTRO_CVC_012"
+      },
+      {
+        "name_ko": "전문직 간 협력",
+        "name_en": "Interprofessional Collaboration",
+        "id": "INTRO_IPC_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "임상심리 = 심리학 박사(PhD/PsyD) → 평가+치료, 정신의학 = 의사(MD) → 약물+치료",
+      "differential": "핵심 차이는 교육 경로(심리학 vs 의학)와 약물 처방 권한(없음 vs 있음)이다",
+      "key_point": "교육 배경, 약물 처방 권한, 전문 영역(심리평가 vs 약물치료)에서 차이",
+      "common_mistake": "임상심리학자가 정신건강의학과 의사의 하위 전문직이라고 오해하나, 독립적인 전문 영역이다"
+    }
+  },
+  {
+    "id": "INTRO_CPS_014",
+    "terminology": "임상심리전문가 (Clinical Psychology Specialist)",
+    "terminology_ko": "임상심리전문가",
+    "terminology_en": "Clinical Psychology Specialist",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "한국임상심리학회가 인증하는 민간 자격으로, 석사 이상의 학위와 소정의 수련 과정을 이수한 후 자격시험에 합격하여 취득하는 한국 임상심리학 분야의 전문가 자격이다.",
+    "definition_en": "A professional credential in Korean clinical psychology certified by the Korean Clinical Psychology Association, obtained after completing a master's degree or higher, required training, and passing a qualification examination.",
+    "significance": "한국에서 임상심리학 실무의 전문성을 공인하는 핵심 자격으로, 학회 수련 체계의 정점에 위치한다.",
+    "key_researchers": [
+      {
+        "name_ko": "이정균",
+        "name_en": "Lee Jeong-Gyun",
+        "contribution": "한국 임상심리학의 초기 발전과 전문가 자격 체계 구축에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정신건강임상심리사",
+        "name_en": "Mental Health Clinical Psychologist",
+        "id": "INTRO_MHCP_015"
+      },
+      {
+        "name_ko": "한국임상심리학회",
+        "name_en": "Korean Clinical Psychology Association",
+        "id": "INTRO_KCPA_017"
+      },
+      {
+        "name_ko": "수련 과정",
+        "name_en": "Training Programs",
+        "id": "INTRO_TP_018"
+      },
+      {
+        "name_ko": "면허와 자격",
+        "name_en": "Licensure and Certification",
+        "id": "INTRO_LC_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "임상심리전문가 = 학회 자격 = 민간 자격",
+      "differential": "임상심리전문가는 학회 인증 민간 자격이고, 정신건강임상심리사는 보건복지부 국가 자격이다",
+      "key_point": "한국임상심리학회 인증 자격으로, 석사 이상 + 수련 + 시험 합격이 요건",
+      "common_mistake": "임상심리전문가를 국가자격으로 오해하나, 학회에서 인증하는 민간 자격이다"
+    }
+  },
+  {
+    "id": "INTRO_MHCP_015",
+    "terminology": "정신건강임상심리사 (Mental Health Clinical Psychologist)",
+    "terminology_ko": "정신건강임상심리사",
+    "terminology_en": "Mental Health Clinical Psychologist",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "정신건강복지법에 근거하여 보건복지부가 인증하는 국가 자격으로, 정신건강 분야에서 심리평가, 심리치료, 심리재활 등을 수행할 수 있는 전문 인력 자격이다.",
+    "definition_en": "A national credential certified by the Ministry of Health and Welfare under the Mental Health Welfare Act, qualifying professionals to perform psychological assessment, psychotherapy, and psychological rehabilitation in the mental health field.",
+    "significance": "한국에서 법적으로 공인된 정신건강 분야 임상심리 국가자격으로, 정신건강복지센터, 정신의료기관 등에서의 전문 활동 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "이영호",
+        "name_en": "Lee Young-Ho",
+        "contribution": "한국 정신건강 자격 제도의 발전과 임상심리사 양성 체계 구축에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리전문가",
+        "name_en": "Clinical Psychology Specialist",
+        "id": "INTRO_CPS_014"
+      },
+      {
+        "name_ko": "면허와 자격",
+        "name_en": "Licensure and Certification",
+        "id": "INTRO_LC_021"
+      },
+      {
+        "name_ko": "수련 과정",
+        "name_en": "Training Programs",
+        "id": "INTRO_TP_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정신건강임상심리사 1급",
+        "description": "석사 이상 + 수련 5년 이상의 고급 자격"
+      },
+      {
+        "name": "정신건강임상심리사 2급",
+        "description": "학사 이상 + 수련 1년 이상의 기본 자격"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "정신건강임상심리사 = 국가 자격 = 보건복지부 인증",
+      "differential": "정신건강임상심리사는 보건복지부 국가 자격이고, 임상심리전문가는 학회 민간 자격이다",
+      "key_point": "정신건강복지법에 근거한 국가자격으로, 1급과 2급으로 구분된다",
+      "common_mistake": "정신건강임상심리사를 학회 자격으로 오해하나, 보건복지부가 관리하는 국가자격이다"
+    }
+  },
+  {
+    "id": "INTRO_APA_016",
+    "terminology": "미국심리학회 (American Psychological Association)",
+    "terminology_ko": "미국심리학회",
+    "terminology_en": "American Psychological Association",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "1892년 설립된 미국 최대의 심리학 전문 조직으로, 심리학 연구, 교육, 실무의 표준을 정립하고 윤리 강령을 제정하며, 전 세계 심리학 발전에 핵심적 영향력을 행사한다.",
+    "definition_en": "The largest professional organization of psychologists in the United States, established in 1892, which sets standards for psychological research, education, and practice, establishes ethical codes, and exerts significant influence on global psychology development.",
+    "significance": "임상심리학의 교육, 수련, 인증 기준을 수립하고, 근거기반 실무 정책을 채택하여 전 세계 임상심리학의 방향을 제시한다.",
+    "key_researchers": [
+      {
+        "name_ko": "그랜빌 스탠리 홀",
+        "name_en": "G. Stanley Hall",
+        "contribution": "APA의 초대 회장으로 조직의 기틀을 마련"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "한국임상심리학회",
+        "name_en": "Korean Clinical Psychology Association",
+        "id": "INTRO_KCPA_017"
+      },
+      {
+        "name_ko": "윤리 강령",
+        "name_en": "Code of Ethics",
+        "id": "INTRO_CE_022"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "APA Division 12",
+        "description": "Society of Clinical Psychology - 임상심리학 전문 분과"
+      },
+      {
+        "name": "APA Division 17",
+        "description": "Society of Counseling Psychology - 상담심리학 전문 분과"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "APA = 1892년 설립, 미국 최대 심리학회, Division 12가 임상심리",
+      "differential": "APA는 심리학 전반의 전문 학회이고, APA Division 12가 임상심리학에 특화된 분과이다",
+      "key_point": "1892년 설립, 윤리 강령과 수련 기준 제정, EBP 정책 채택 등 전 세계 심리학에 영향",
+      "common_mistake": "APA를 미국정신의학회(American Psychiatric Association)와 혼동하는 경우가 많다"
+    }
+  },
+  {
+    "id": "INTRO_KCPA_017",
+    "terminology": "한국임상심리학회 (Korean Clinical Psychology Association)",
+    "terminology_ko": "한국임상심리학회",
+    "terminology_en": "Korean Clinical Psychology Association",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "한국심리학회의 산하 분과학회로, 한국에서 임상심리학의 학문적 발전과 전문가 양성, 임상심리전문가 자격 인증을 담당하는 전문 학술단체이다.",
+    "definition_en": "A division of the Korean Psychological Association responsible for the academic development of clinical psychology in Korea, professional training, and certification of Clinical Psychology Specialists.",
+    "significance": "한국 임상심리학의 학문적·전문적 발전을 이끌며, 임상심리전문가 수련 및 자격 인증의 중심 기관이다.",
+    "key_researchers": [
+      {
+        "name_ko": "이정균",
+        "name_en": "Lee Jeong-Gyun",
+        "contribution": "한국 임상심리학의 초기 발전과 학회 체계 구축에 기여"
+      },
+      {
+        "name_ko": "민병배",
+        "name_en": "Min Byoung-Bae",
+        "contribution": "한국 임상심리학의 학술 발전과 전문가 양성에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "id": "INTRO_APA_016"
+      },
+      {
+        "name_ko": "임상심리전문가",
+        "name_en": "Clinical Psychology Specialist",
+        "id": "INTRO_CPS_014"
+      },
+      {
+        "name_ko": "수련 과정",
+        "name_en": "Training Programs",
+        "id": "INTRO_TP_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "한국임상심리학회 = 한국심리학회 분과 + 임상심리전문가 인증",
+      "differential": "한국임상심리학회는 학회 자격(임상심리전문가)을 인증하고, 정신건강임상심리사는 보건복지부가 관리한다",
+      "key_point": "한국심리학회 산하 분과학회로 임상심리전문가 자격 인증 담당",
+      "common_mistake": "한국임상심리학회를 국가기관으로 오해하나, 학술 전문 단체이다"
+    }
+  },
+  {
+    "id": "INTRO_TP_018",
+    "terminology": "수련 과정 (Training Programs)",
+    "terminology_ko": "수련 과정",
+    "terminology_en": "Training Programs",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자가 되기 위해 거치는 체계적인 교육·훈련 과정으로, 대학원 교과과정, 임상 실습, 인턴십, 수퍼비전 등을 포함하며 이론과 실무 역량을 통합적으로 발달시킨다.",
+    "definition_en": "The systematic education and training process required to become a clinical psychologist, including graduate coursework, clinical practicum, internship, and supervision, developing integrated theoretical and practical competencies.",
+    "significance": "임상심리학자의 전문적 역량을 보장하는 핵심 기제로, 교육의 질이 곧 서비스의 질을 결정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 섀코우",
+        "name_en": "David Shakow",
+        "contribution": "임상심리학 수련 기준의 초석이 된 보고서를 작성하여 체계적 수련의 기반을 마련"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "박사 수준 훈련",
+        "name_en": "Doctoral Training",
+        "id": "INTRO_DT_019"
+      },
+      {
+        "name_ko": "인턴십",
+        "name_en": "Internship",
+        "id": "INTRO_INT_020"
+      },
+      {
+        "name_ko": "과학자-실무자 모델",
+        "name_en": "Scientist-Practitioner Model",
+        "id": "INTRO_SPM_002"
+      },
+      {
+        "name_ko": "면허와 자격",
+        "name_en": "Licensure and Certification",
+        "id": "INTRO_LC_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "실습(Practicum)",
+        "description": "대학원 과정 중 수퍼비전 하에 임상 경험을 쌓는 단계"
+      },
+      {
+        "name": "인턴십(Internship)",
+        "description": "대학원 과정 말기 또는 이후 풀타임 임상 훈련"
+      },
+      {
+        "name": "포스트닥(Postdoctoral Training)",
+        "description": "박사 학위 취득 후 추가적인 전문화 훈련"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "수련 순서: 대학원 교과 → 실습(Practicum) → 인턴십 → 포스트닥",
+      "differential": "실습(Practicum)은 대학원 재학 중 파트타임 임상 경험이고, 인턴십은 풀타임 집중 임상 훈련이다",
+      "key_point": "이론 교육과 임상 실무를 통합하는 체계적 훈련 과정",
+      "common_mistake": "수련 과정이 단순히 학교 수업만 듣는 것이라고 오해하나, 실습과 수퍼비전이 핵심이다"
+    }
+  },
+  {
+    "id": "INTRO_DT_019",
+    "terminology": "박사 수준 훈련 (Doctoral Training: PhD vs PsyD)",
+    "terminology_ko": "박사 수준 훈련",
+    "terminology_en": "Doctoral Training: PhD vs PsyD",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학의 박사 교육은 연구 중심의 PhD(Doctor of Philosophy)와 실무 중심의 PsyD(Doctor of Psychology)로 구분되며, 각각 과학자-실무자 모델과 실무자-학자 모델에 기반한다.",
+    "definition_en": "Doctoral education in clinical psychology is divided into the research-oriented PhD (Doctor of Philosophy) and the practice-oriented PsyD (Doctor of Psychology), based on the scientist-practitioner and practitioner-scholar models respectively.",
+    "significance": "임상심리학 전문가 양성의 두 가지 경로를 대표하며, 각 모델의 강점과 한계에 대한 논의는 전문가 정체성 형성에 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 피터슨",
+        "name_en": "Donald Peterson",
+        "contribution": "1968년 일리노이 대학에서 최초의 PsyD 프로그램 개설"
+      },
+      {
+        "name_ko": "빅터 라이미",
+        "name_en": "Victor Raimy",
+        "contribution": "PhD 기반 볼더 모델의 확립에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과학자-실무자 모델",
+        "name_en": "Scientist-Practitioner Model",
+        "id": "INTRO_SPM_002"
+      },
+      {
+        "name_ko": "실무자-학자 모델",
+        "name_en": "Practitioner-Scholar Model",
+        "id": "INTRO_PSM_003"
+      },
+      {
+        "name_ko": "수련 과정",
+        "name_en": "Training Programs",
+        "id": "INTRO_TP_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "PhD 프로그램",
+        "description": "연구 중심, 박사 논문(dissertation) 필수, 주로 대학 소속"
+      },
+      {
+        "name": "PsyD 프로그램",
+        "description": "실무 중심, 임상 실습 강조, 주로 전문대학원 소속"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "PhD = 연구 + 실무(볼더), PsyD = 실무 + 연구(베일)",
+      "differential": "PhD는 연구 역량을 강조하며 박사 논문 필수, PsyD는 임상 실무 역량을 강조하며 실습 시간이 더 많다",
+      "key_point": "PhD는 과학자-실무자 모델(연구 중심), PsyD는 실무자-학자 모델(실무 중심)에 기반",
+      "common_mistake": "PsyD가 PhD보다 수준이 낮다고 오해하나, 초점이 다를 뿐 둘 다 박사 수준의 전문 학위이다"
+    }
+  },
+  {
+    "id": "INTRO_INT_020",
+    "terminology": "인턴십 (Internship)",
+    "terminology_ko": "인턴십",
+    "terminology_en": "Internship",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학 대학원 과정의 필수 구성 요소로, 수퍼바이저의 지도 아래 다양한 임상 현장에서 풀타임으로 직접 실무를 수행하며 전문 역량을 발달시키는 집중 훈련 기간이다.",
+    "definition_en": "A required component of clinical psychology graduate training involving full-time direct clinical practice under supervisor guidance in diverse clinical settings, serving as an intensive training period for developing professional competencies.",
+    "significance": "이론적 지식을 실제 임상 장면에 적용하는 핵심 전환점으로, 독립적 전문가로의 성장에 필수적인 경험을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 섀코우",
+        "name_en": "David Shakow",
+        "contribution": "임상심리학 인턴십 기준을 포함한 수련 표준을 수립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수련 과정",
+        "name_en": "Training Programs",
+        "id": "INTRO_TP_018"
+      },
+      {
+        "name_ko": "면허와 자격",
+        "name_en": "Licensure and Certification",
+        "id": "INTRO_LC_021"
+      },
+      {
+        "name_ko": "박사 수준 훈련",
+        "name_en": "Doctoral Training",
+        "id": "INTRO_DT_019"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "APA 인증 인턴십",
+        "description": "미국에서 APA가 인증한 공인 인턴십 프로그램"
+      },
+      {
+        "name": "수련기관 인턴십(한국)",
+        "description": "한국에서 학회 또는 정신건강복지법 지정 수련기관에서의 인턴 과정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "인턴십 = 풀타임 임상 훈련 + 수퍼비전 = 전문가 되기 직전 단계",
+      "differential": "실습(Practicum)은 대학원 재학 중 파트타임이고, 인턴십은 보통 대학원 마지막 해에 풀타임으로 수행한다",
+      "key_point": "풀타임 임상 현장 훈련으로, APA 인증(미국) 또는 학회/법정 수련기관(한국)에서 수행",
+      "common_mistake": "인턴십을 단순한 견학이나 관찰로 오해하나, 직접 내담자를 담당하는 풀타임 전문 훈련이다"
+    }
+  },
+  {
+    "id": "INTRO_LC_021",
+    "terminology": "면허와 자격 (Licensure and Certification)",
+    "terminology_ko": "면허와 자격",
+    "terminology_en": "Licensure and Certification",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자로서 독립적인 실무를 수행하기 위해 필요한 법적 인가(면허)와 전문 단체의 인증(자격)으로, 교육, 수련, 시험 요건을 충족해야 취득할 수 있다.",
+    "definition_en": "The legal authorization (licensure) and professional body certification required for independent practice as a clinical psychologist, obtained by meeting education, training, and examination requirements.",
+    "significance": "내담자 보호와 전문 서비스의 질을 보장하는 제도적 장치로, 임상심리학 전문직의 사회적 신뢰를 유지하는 기반이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앤드류 포메란츠",
+        "name_en": "Andrew Pomerantz",
+        "contribution": "임상심리학 교과서에서 면허·자격 제도의 역사와 현황을 체계적으로 정리"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리전문가",
+        "name_en": "Clinical Psychology Specialist",
+        "id": "INTRO_CPS_014"
+      },
+      {
+        "name_ko": "정신건강임상심리사",
+        "name_en": "Mental Health Clinical Psychologist",
+        "id": "INTRO_MHCP_015"
+      },
+      {
+        "name_ko": "윤리 강령",
+        "name_en": "Code of Ethics",
+        "id": "INTRO_CE_022"
+      },
+      {
+        "name_ko": "수련 과정",
+        "name_en": "Training Programs",
+        "id": "INTRO_TP_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "면허(Licensure)",
+        "description": "법률에 의해 부여되는 독립적 실무 권한"
+      },
+      {
+        "name": "자격(Certification)",
+        "description": "전문 단체가 인증하는 전문성의 증명"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "면허 = 법적 권한(해야 할 수 있음), 자격 = 전문성 증명(할 줄 앎)",
+      "differential": "면허(licensure)는 법적으로 실무를 허가하는 것이고, 자격(certification)은 전문 역량을 인증하는 것이다",
+      "key_point": "교육 + 수련 + 시험을 통해 취득하며, 내담자 보호가 궁극적 목적",
+      "common_mistake": "학위만 있으면 독립적으로 실무할 수 있다고 오해하나, 별도의 면허/자격이 필요하다"
+    }
+  },
+  {
+    "id": "INTRO_CE_022",
+    "terminology": "윤리 강령 (Code of Ethics)",
+    "terminology_ko": "윤리 강령",
+    "terminology_en": "Code of Ethics",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자가 전문적 실무를 수행할 때 준수해야 하는 윤리적 원칙과 행동 기준으로, 내담자 복지, 비밀보장, 이중관계 금지, 유능성 등의 핵심 원칙을 포함한다.",
+    "definition_en": "Ethical principles and behavioral standards that clinical psychologists must adhere to in professional practice, encompassing core principles such as client welfare, confidentiality, prohibition of dual relationships, and competence.",
+    "significance": "전문직의 사회적 신뢰와 내담자 보호의 근간으로, 모든 임상심리학적 활동의 윤리적 틀을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "니콜라스 호브스",
+        "name_en": "Nicholas Hobbs",
+        "contribution": "APA의 최초 윤리 강령(1953년) 개발을 주도"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "id": "INTRO_APA_016"
+      },
+      {
+        "name_ko": "다문화 역량",
+        "name_en": "Multicultural Competence",
+        "id": "INTRO_MC_023"
+      },
+      {
+        "name_ko": "면허와 자격",
+        "name_en": "Licensure and Certification",
+        "id": "INTRO_LC_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "APA 윤리 강령",
+        "description": "미국심리학회가 제정한 심리학자 윤리 원칙과 행동 기준"
+      },
+      {
+        "name": "한국심리학회 윤리 강령",
+        "description": "한국심리학회가 제정한 심리학자 윤리 규정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "윤리 5대 원칙: 선행·비밀보장·유능성·성실성·공정성(APA 기준)",
+      "differential": "윤리 강령은 전문직 단체의 자율적 규정이고, 법률은 국가가 강제하는 규범이다",
+      "key_point": "내담자 복지, 비밀보장, 이중관계 금지, 유능성이 핵심 원칙",
+      "common_mistake": "윤리 강령을 단순한 권고사항으로 오해하나, 위반 시 자격 박탈 등 실질적 제재가 따른다"
+    }
+  },
+  {
+    "id": "INTRO_MC_023",
+    "terminology": "다문화 역량 (Multicultural Competence)",
+    "terminology_ko": "다문화 역량",
+    "terminology_en": "Multicultural Competence",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자가 다양한 문화적 배경을 가진 내담자를 효과적으로 평가하고 치료하기 위해 갖추어야 하는 인식, 지식, 기술의 총체로, 문화적 겸손과 지속적 학습을 포함한다.",
+    "definition_en": "The totality of awareness, knowledge, and skills that clinical psychologists must possess to effectively assess and treat clients from diverse cultural backgrounds, including cultural humility and ongoing learning.",
+    "significance": "점점 다양해지는 사회에서 모든 내담자에게 공정하고 효과적인 서비스를 제공하기 위한 필수 역량으로, 현대 임상심리학 교육의 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "데럴드 윙 수",
+        "name_en": "Derald Wing Sue",
+        "contribution": "다문화 상담 역량 모델을 체계화하고 문화적 유능성의 세 요소(인식·지식·기술)를 제시"
+      },
+      {
+        "name_ko": "스탠리 수",
+        "name_en": "Stanley Sue",
+        "contribution": "소수민족의 정신건강 서비스 접근성과 문화적 반응성 연구를 주도"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윤리 강령",
+        "name_en": "Code of Ethics",
+        "id": "INTRO_CE_022"
+      },
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "INTRO_IA_025"
+      },
+      {
+        "name_ko": "생물심리사회 모델",
+        "name_en": "Biopsychosocial Model",
+        "id": "INTRO_BPS_024"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "문화적 인식(Awareness)",
+        "description": "자신의 문화적 편견과 가정에 대한 자각"
+      },
+      {
+        "name": "문화적 지식(Knowledge)",
+        "description": "다양한 문화집단의 세계관과 경험에 대한 이해"
+      },
+      {
+        "name": "문화적 기술(Skills)",
+        "description": "문화적으로 적절한 평가와 개입을 수행하는 능력"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "다문화 역량 3요소: 인식(Awareness) + 지식(Knowledge) + 기술(Skills)",
+      "differential": "다문화 역량은 문화적 차이를 이해하고 존중하는 것이고, 문화적 동화는 소수 문화를 주류 문화에 맞추려는 것이다",
+      "key_point": "Derald Wing Sue의 인식-지식-기술 3요소 모델이 대표적 틀",
+      "common_mistake": "다문화 역량이 특정 문화에 대한 지식만 갖추면 된다고 오해하나, 자기 인식과 기술도 동등하게 중요하다"
+    }
+  },
+  {
+    "id": "INTRO_BPS_024",
+    "terminology": "생물심리사회 모델 (Biopsychosocial Model)",
+    "terminology_ko": "생물심리사회 모델",
+    "terminology_en": "Biopsychosocial Model",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "인간의 건강과 질병을 생물학적, 심리적, 사회적 요인의 상호작용으로 이해하는 통합적 관점으로, 단일 요인 환원주의를 극복하고 다차원적 사례개념화의 기반이 된다.",
+    "definition_en": "An integrative perspective that understands human health and illness through the interaction of biological, psychological, and social factors, overcoming single-factor reductionism and serving as the basis for multidimensional case conceptualization.",
+    "significance": "현대 임상심리학의 기본 관점으로, 평가와 치료에서 생물·심리·사회적 요인을 통합적으로 고려하는 틀을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지 엥겔",
+        "name_en": "George Engel",
+        "contribution": "1977년 생물심리사회 모델을 제안하여 생의학 모델의 한계를 극복"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통합적 접근",
+        "name_en": "Integrative Approach",
+        "id": "INTRO_IA_025"
+      },
+      {
+        "name_ko": "사례개념화",
+        "name_en": "Case Formulation",
+        "id": "DIAGN_CF_004"
+      },
+      {
+        "name_ko": "예방",
+        "name_en": "Prevention",
+        "id": "INTRO_PRV_010"
+      },
+      {
+        "name_ko": "공중보건 심리학",
+        "name_en": "Public Health Psychology",
+        "id": "INTRO_PHP_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "생물학적 요인",
+        "description": "유전, 신경화학, 뇌 구조, 신체 건강 등"
+      },
+      {
+        "name": "심리적 요인",
+        "description": "인지, 정서, 행동 패턴, 성격 특성 등"
+      },
+      {
+        "name": "사회적 요인",
+        "description": "가족, 사회적 지지, 문화, 사회경제적 지위 등"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "BPS 모델: Bio(생물) + Psycho(심리) + Social(사회) = 통합 이해",
+      "differential": "생의학 모델(Biomedical)은 생물학적 요인만 강조하고, 생물심리사회 모델은 심리·사회적 요인도 동등하게 고려한다",
+      "key_point": "George Engel이 1977년 제안, 건강과 질병을 3가지 차원의 상호작용으로 이해",
+      "common_mistake": "세 요인이 독립적으로 작용한다고 오해하나, 핵심은 세 요인의 '상호작용'이다"
+    }
+  },
+  {
+    "id": "INTRO_IA_025",
+    "terminology": "통합적 접근 (Integrative Approach)",
+    "terminology_ko": "통합적 접근",
+    "terminology_en": "Integrative Approach",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "단일 이론이나 학파에 국한하지 않고 다양한 심리치료 이론과 기법을 내담자의 특성과 문제에 맞게 유연하게 통합하여 적용하는 치료적 접근이다.",
+    "definition_en": "A therapeutic approach that flexibly integrates various psychotherapy theories and techniques to match client characteristics and problems, rather than being confined to a single theoretical orientation.",
+    "significance": "현대 임상심리학에서 가장 보편적인 치료 지향으로, 내담자 중심의 맞춤형 치료를 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "폴 와흐텔",
+        "name_en": "Paul Wachtel",
+        "contribution": "정신분석과 행동치료의 통합을 시도한 선구적 연구"
+      },
+      {
+        "name_ko": "존 노크로스",
+        "name_en": "John Norcross",
+        "contribution": "심리치료 통합의 체계적 연구와 이론적 틀 발전에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "생물심리사회 모델",
+        "name_en": "Biopsychosocial Model",
+        "id": "INTRO_BPS_024"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      },
+      {
+        "name_ko": "심리치료",
+        "name_en": "Psychotherapy",
+        "id": "INTRO_PT_008"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "기술적 절충주의(Technical Eclecticism)",
+        "description": "이론에 관계없이 효과적인 기법을 선택적으로 사용"
+      },
+      {
+        "name": "이론적 통합(Theoretical Integration)",
+        "description": "두 개 이상의 이론을 개념적으로 통합"
+      },
+      {
+        "name": "공통 요인 접근(Common Factors Approach)",
+        "description": "모든 치료에 공통적인 치료적 요인을 강조"
+      },
+      {
+        "name": "동화적 통합(Assimilative Integration)",
+        "description": "하나의 주 이론을 기반으로 다른 이론의 기법을 통합"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "통합 4가지: 기술적 절충 / 이론적 통합 / 공통 요인 / 동화적 통합",
+      "differential": "절충주의는 이론 없이 기법만 선택하고, 통합적 접근은 이론적 일관성을 유지하면서 다양한 방법을 통합한다",
+      "key_point": "현대 임상심리학자의 과반수가 통합적 지향을 보고하며, 내담자에 맞춤화된 치료를 추구",
+      "common_mistake": "통합적 접근이 아무 이론이나 무분별하게 섞는 것이라고 오해하나, 체계적이고 이론적 근거가 있는 통합이다"
+    }
+  },
+  {
+    "id": "INTRO_PPD_026",
+    "terminology": "처방권 논쟁 (Prescription Privilege Debate)",
+    "terminology_ko": "처방권 논쟁",
+    "terminology_en": "Prescription Privilege Debate",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자에게 향정신성 약물 처방 권한을 부여해야 하는지에 관한 전문직 내부 및 전문직 간 논쟁으로, 일부 미국 주에서는 이미 심리학자 처방권을 법제화했다.",
+    "definition_en": "A debate within and between professions regarding whether clinical psychologists should be granted the authority to prescribe psychotropic medications, with some U.S. states having already legislated prescription privileges for psychologists.",
+    "significance": "임상심리학의 직업적 정체성과 전문 영역의 범위에 관한 근본적 논의로, 전문직의 미래 방향을 결정하는 핵심 쟁점이다.",
+    "key_researchers": [
+      {
+        "name_ko": "패트릭 디레온",
+        "name_en": "Patrick DeLeon",
+        "contribution": "심리학자 처방권 운동을 주도하고 입법 활동에 기여"
+      },
+      {
+        "name_ko": "일레인 레빈",
+        "name_en": "Elaine Levine",
+        "contribution": "뉴멕시코주 심리학자 처방권 법안 통과에 핵심적 역할"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리학과 정신건강의학의 차이",
+        "name_en": "Clinical Psychology vs Psychiatry",
+        "id": "INTRO_CVP_013"
+      },
+      {
+        "name_ko": "임상심리학자의 역할",
+        "name_en": "Roles of Clinical Psychologists",
+        "id": "INTRO_RCP_011"
+      },
+      {
+        "name_ko": "면허와 자격",
+        "name_en": "Licensure and Certification",
+        "id": "INTRO_LC_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "처방권 찬반: 찬성(접근성 확대) vs 반대(정체성 훼손)",
+      "differential": "처방권은 약물 처방 '권한'에 관한 것이고, 심리치료는 약물 없이 심리적 방법으로 개입하는 것이다",
+      "key_point": "뉴멕시코(2002)와 루이지애나(2004)가 미국 최초로 심리학자 처방권 법제화",
+      "common_mistake": "처방권 논쟁이 이미 해결되었다고 오해하나, 대부분의 주와 국가에서 여전히 진행 중인 논쟁이다"
+    }
+  },
+  {
+    "id": "INTRO_TP_027",
+    "terminology": "원격심리학 (Telepsychology)",
+    "terminology_ko": "원격심리학",
+    "terminology_en": "Telepsychology",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "전화, 화상회의, 인터넷 등 정보통신기술을 활용하여 심리학적 서비스를 원격으로 제공하는 실무 방식으로, COVID-19 팬데믹 이후 급격히 확산되었다.",
+    "definition_en": "A practice modality that provides psychological services remotely using information and communication technologies such as telephone, videoconferencing, and internet, which expanded rapidly following the COVID-19 pandemic.",
+    "significance": "지리적·물리적 장벽을 극복하여 심리서비스 접근성을 획기적으로 높이며, 현대 임상심리학 실무의 새로운 패러다임을 형성하고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "토마스 크리히바움",
+        "name_en": "Thomas Kriechbaum",
+        "contribution": "원격심리학의 효과성과 윤리적 가이드라인 연구에 기여"
+      },
+      {
+        "name_ko": "린다 캠벨",
+        "name_en": "Linda Campbell",
+        "contribution": "APA 원격심리학 가이드라인 개발에 참여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윤리 강령",
+        "name_en": "Code of Ethics",
+        "id": "INTRO_CE_022"
+      },
+      {
+        "name_ko": "심리치료",
+        "name_en": "Psychotherapy",
+        "id": "INTRO_PT_008"
+      },
+      {
+        "name_ko": "공중보건 심리학",
+        "name_en": "Public Health Psychology",
+        "id": "INTRO_PHP_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "화상 심리치료",
+        "description": "화상회의 플랫폼을 통한 실시간 심리치료"
+      },
+      {
+        "name": "전화 상담",
+        "description": "전화를 통한 심리학적 서비스 제공"
+      },
+      {
+        "name": "인터넷 기반 개입",
+        "description": "웹 플랫폼이나 앱을 통한 자기 주도적 심리 개입"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "원격심리학 = 기술 + 심리학 → 장소 제약 극복",
+      "differential": "원격심리학은 기존 심리서비스의 전달 방식 변화이고, 디지털 치료제(DTx)는 소프트웨어 자체가 치료적 개입인 것이다",
+      "key_point": "COVID-19 이후 급격히 확산, APA가 별도의 원격심리학 가이드라인을 제정",
+      "common_mistake": "원격심리학이 대면 서비스보다 항상 열등하다고 오해하나, 많은 연구에서 대면과 유사한 효과를 보여준다"
+    }
+  },
+  {
+    "id": "INTRO_PHP_028",
+    "terminology": "공중보건 심리학 (Public Health Psychology)",
+    "terminology_ko": "공중보건 심리학",
+    "terminology_en": "Public Health Psychology",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "개인 수준을 넘어 인구 집단 수준에서 정신건강 증진과 질병 예방을 추구하는 심리학 분야로, 공중보건의 원리와 심리학적 방법론을 통합한다.",
+    "definition_en": "A field of psychology that pursues mental health promotion and disease prevention at the population level beyond the individual level, integrating principles of public health with psychological methodology.",
+    "significance": "임상심리학의 관점을 개인 치료에서 사회적·구조적 수준의 정신건강 향상으로 확장하여, 더 큰 사회적 영향력을 발휘할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지 올브라이트",
+        "name_en": "George Albee",
+        "contribution": "정신건강 문제에 대한 공중보건적 접근과 예방의 중요성을 강조"
+      },
+      {
+        "name_ko": "이매뉴얼 스트로스",
+        "name_en": "Emory Cowen",
+        "contribution": "지역사회 정신건강과 예방 프로그램 연구에 선구적 역할"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "예방",
+        "name_en": "Prevention",
+        "id": "INTRO_PRV_010"
+      },
+      {
+        "name_ko": "생물심리사회 모델",
+        "name_en": "Biopsychosocial Model",
+        "id": "INTRO_BPS_024"
+      },
+      {
+        "name_ko": "다문화 역량",
+        "name_en": "Multicultural Competence",
+        "id": "INTRO_MC_023"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정신건강 증진",
+        "description": "인구 집단의 전반적 정신건강 수준을 향상시키는 활동"
+      },
+      {
+        "name": "정신건강 정책",
+        "description": "정신건강 관련 법률과 정책 개발에 기여"
+      },
+      {
+        "name": "역학 연구",
+        "description": "정신건강 문제의 분포와 결정 요인을 인구 수준에서 연구"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "공중보건 심리학 = 개인→집단 수준 확장, 치료→예방 중심 전환",
+      "differential": "전통적 임상심리학은 개인 치료에 초점, 공중보건 심리학은 인구 집단 수준의 정신건강 증진에 초점",
+      "key_point": "개인 수준을 넘어 인구 집단 수준에서 정신건강 문제에 접근",
+      "common_mistake": "공중보건 심리학이 개인 치료를 부정한다고 오해하나, 보완적 관점으로 두 접근 모두 중요하다"
+    }
+  },
+  {
+    "id": "INTRO_SS_029",
+    "terminology": "과학적 회의주의 (Scientific Skepticism)",
+    "terminology_ko": "과학적 회의주의",
+    "terminology_en": "Scientific Skepticism",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상적 주장이나 치료법의 효과를 무비판적으로 수용하지 않고, 경험적 근거와 과학적 방법론에 기반하여 비판적으로 평가하는 태도와 사고방식이다.",
+    "definition_en": "An attitude and mindset that critically evaluates clinical claims and treatment efficacy based on empirical evidence and scientific methodology rather than accepting them uncritically.",
+    "significance": "임상심리학의 과학적 정체성을 유지하는 핵심 태도로, 비과학적이거나 검증되지 않은 치료법으로부터 내담자를 보호하는 기능을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스콧 릴리엔펠드",
+        "name_en": "Scott Lilienfeld",
+        "contribution": "임상심리학에서의 과학적 회의주의와 의사과학 비판을 주도"
+      },
+      {
+        "name_ko": "스티븐 린",
+        "name_en": "Steven Jay Lynn",
+        "contribution": "과학적 사고와 임상 실무의 통합에 관한 연구 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상과학자 모델",
+        "name_en": "Clinical Scientist Model",
+        "id": "INTRO_CSM_004"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      },
+      {
+        "name_ko": "근거기반 치료",
+        "name_en": "Empirically Supported Treatment",
+        "id": "INTRO_EST_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과학적 회의주의 = 증거를 요구하되 열린 마음 유지",
+      "differential": "과학적 회의주의는 증거에 기반한 비판적 평가이고, 냉소주의(cynicism)는 증거와 무관하게 모든 것을 부정하는 것이다",
+      "key_point": "비과학적 치료법으로부터 내담자를 보호하는 임상심리학자의 핵심 태도",
+      "common_mistake": "과학적 회의주의를 모든 것을 부정하는 태도로 오해하나, 증거에 기반한 열린 비판적 사고이다"
+    }
+  },
+  {
+    "id": "INTRO_IPC_030",
+    "terminology": "전문직 간 협력 (Interprofessional Collaboration)",
+    "terminology_ko": "전문직 간 협력",
+    "terminology_en": "Interprofessional Collaboration",
+    "category": "INTRO",
+    "category_name": "임상심리학은 어떤 학문인가 (What is Clinical Psychology)",
+    "definition": "임상심리학자가 정신건강의학과 의사, 사회복지사, 간호사, 상담사 등 다른 전문직 종사자와 협력하여 내담자에게 통합적이고 포괄적인 정신건강 서비스를 제공하는 것이다.",
+    "definition_en": "The collaboration of clinical psychologists with other professionals such as psychiatrists, social workers, nurses, and counselors to provide integrated and comprehensive mental health services to clients.",
+    "significance": "복잡한 정신건강 문제에 대해 다학제적 관점을 통합함으로써, 단일 전문직만으로는 달성하기 어려운 포괄적 서비스를 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지 엥겔",
+        "name_en": "George Engel",
+        "contribution": "생물심리사회 모델을 통해 다학제적 접근의 필요성을 이론적으로 뒷받침"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자문",
+        "name_en": "Consultation",
+        "id": "INTRO_CON_009"
+      },
+      {
+        "name_ko": "생물심리사회 모델",
+        "name_en": "Biopsychosocial Model",
+        "id": "INTRO_BPS_024"
+      },
+      {
+        "name_ko": "임상심리학과 정신건강의학의 차이",
+        "name_en": "Clinical Psychology vs Psychiatry",
+        "id": "INTRO_CVP_013"
+      },
+      {
+        "name_ko": "임상심리학자의 역할",
+        "name_en": "Roles of Clinical Psychologists",
+        "id": "INTRO_RCP_011"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "다학제 팀(Multidisciplinary Team)",
+        "description": "각 전문직이 독립적으로 평가 후 결과를 공유"
+      },
+      {
+        "name": "학제 간 팀(Interdisciplinary Team)",
+        "description": "전문직 간 공동 평가와 통합적 치료 계획 수립"
+      },
+      {
+        "name": "초학제 팀(Transdisciplinary Team)",
+        "description": "전문직 경계를 넘어 역할을 공유하며 협력"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "협력 수준: Multi(병렬) → Inter(통합) → Trans(경계 초월)",
+      "differential": "다학제(multidisciplinary)는 병렬적 협력이고, 학제간(interdisciplinary)은 통합적 협력이며, 초학제(transdisciplinary)는 역할 경계를 초월하는 협력이다",
+      "key_point": "복잡한 정신건강 문제에 대한 포괄적 서비스를 위해 다양한 전문직과의 협력이 필수",
+      "common_mistake": "전문직 간 협력이 단순히 의뢰만 하는 것으로 오해하나, 공동 평가·계획·개입을 포함하는 적극적 과정이다"
+    }
+  }
+]

@@ -1,0 +1,863 @@
+[
+  {
+    "id": "DIAGN_DMD_001",
+    "terminology": "정신장애의 진단 (Diagnosis of Mental Disorders)",
+    "terminology_ko": "정신장애의 진단",
+    "terminology_en": "Diagnosis of Mental Disorders",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "개인이 보이는 심리적 증상과 행동 양상을 체계적으로 평가하여 특정 정신장애의 진단기준에 부합하는지를 판별하는 임상적 과정으로, 적절한 치료 계획 수립의 출발점이 된다.",
+    "definition_en": "The clinical process of systematically evaluating an individual's psychological symptoms and behavioral patterns to determine whether they meet the diagnostic criteria for a specific mental disorder, serving as the starting point for appropriate treatment planning.",
+    "significance": "정확한 진단은 근거기반 치료의 전제 조건이며, 임상심리학자의 핵심 역량으로서 사례개념화, 치료 계획, 예후 판단의 기초를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "현대 정신장애 분류 체계의 기틀을 마련하여 증상 기반의 체계적 진단 접근을 최초로 확립하였다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III에 조작적 진단기준을 도입하여 정신장애 진단의 신뢰도를 획기적으로 향상시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"},
+      {"name_ko": "감별진단", "name_en": "Differential Diagnosis", "id": "DIAGN_DD_007"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진단 = Diagnosis: 증상 평가 → 기준 대조 → 분류 → 치료 계획",
+      "differential": "진단(diagnosis)은 특정 장애의 확인이고, 평가(assessment)는 개인의 심리적 특성을 포괄적으로 측정하는 더 넓은 개념이다.",
+      "key_point": "진단은 단순한 명명이 아니라 치료 방향과 예후를 결정하는 임상적 의사결정 과정이다.",
+      "common_mistake": "진단을 단순히 '라벨 붙이기'로 오해하는 것 — 진단은 근거기반 치료를 위한 체계적 의사결정 과정이다."
+    }
+  },
+  {
+    "id": "DIAGN_DSM5_002",
+    "terminology": "DSM-5 (Diagnostic and Statistical Manual of Mental Disorders, 5th ed.)",
+    "terminology_ko": "DSM-5",
+    "terminology_en": "Diagnostic and Statistical Manual of Mental Disorders, 5th Edition",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "미국정신의학회(APA)가 2013년에 발행한 정신장애 진단 및 통계 편람 제5판으로, 정신장애를 범주적으로 분류하고 각 장애의 진단기준, 유병률, 발달과정, 감별진단 정보를 제시하는 공식 분류 체계이다.",
+    "definition_en": "The fifth edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association in 2013, providing categorical classification, diagnostic criteria, prevalence, developmental course, and differential diagnosis information for mental disorders.",
+    "significance": "북미를 중심으로 전 세계 임상, 연구, 보험 체계에서 사용되는 정신장애 진단의 표준 참조 체계로, 공통 언어를 제공하여 임상가 간 소통을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 쿠퍼", "name_en": "David Kupfer", "contribution": "DSM-5 개정위원회 위원장으로서 차원적 접근의 통합과 다축 체계 폐지를 주도했다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III의 주편집자로서 조작적 진단기준을 도입하여 현대 DSM 체계의 기틀을 마련했다."},
+      {"name_ko": "앨런 프랜시스", "name_en": "Allen Frances", "contribution": "DSM-IV 편집위원장으로서 현장 시험을 강화하고 진단기준의 경험적 근거를 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5-TR", "name_en": "DSM-5-TR", "id": "DIAGN_TR_003"},
+      {"name_ko": "ICD-11", "name_en": "ICD-11", "id": "DIAGN_ICD_004"},
+      {"name_ko": "다축 진단체계", "name_en": "Multiaxial System", "id": "DIAGN_MULTI_012"},
+      {"name_ko": "DSM 역사", "name_en": "History of DSM", "id": "HISTORY_DSM_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DSM-5: 2013년 출판, APA 발행, 다축 체계 폐지, 아라비아 숫자 '5' 채택",
+      "differential": "DSM-5는 미국정신의학회(APA) 발행이고, ICD-11은 세계보건기구(WHO) 발행이다. DSM은 정신장애 전문, ICD는 전체 질병 포괄이다.",
+      "key_point": "DSM-5에서 다축 체계가 폐지되고, 자폐스펙트럼장애로 통합, 성별불쾌감 신설 등 주요 변화가 있었다.",
+      "common_mistake": "DSM-5를 'DSM-V'로 표기하는 오류 — 아라비아 숫자 5를 사용한다(향후 5.1, 5.2 등 점진적 개정을 위해)."
+    }
+  },
+  {
+    "id": "DIAGN_TR_003",
+    "terminology": "DSM-5-TR (DSM-5 Text Revision)",
+    "terminology_ko": "DSM-5-TR",
+    "terminology_en": "DSM-5 Text Revision",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "2022년에 출판된 DSM-5의 텍스트 개정판으로, 진단기준 자체는 대부분 유지하면서 최신 연구 문헌을 반영하여 각 장애의 기술적 설명, 유병률, 발달과정, 위험요인 등의 텍스트를 갱신한 판이다.",
+    "definition_en": "The text revision of DSM-5 published in 2022, maintaining most diagnostic criteria while updating the descriptive text for each disorder including prevalence, developmental course, and risk factors to reflect current research literature.",
+    "significance": "진단기준의 대대적 개정 없이도 최신 연구 성과를 반영할 수 있는 중간 개정 방식으로, 지연성 비탄장애(prolonged grief disorder)가 새로 추가되었다.",
+    "key_researchers": [
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "DSM-5-TR 편집 자문위원으로서 텍스트 개정의 체계적 절차를 주도했다."},
+      {"name_ko": "폴 앱플바움", "name_en": "Paul Appelbaum", "contribution": "DSM-5-TR 운영위원회 위원장으로서 인종 및 차별 관련 기술의 업데이트를 감독했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "ICD-11", "name_en": "ICD-11", "id": "DIAGN_ICD_004"},
+      {"name_ko": "진단 타당도", "name_en": "Diagnostic Validity", "id": "DIAGN_DV_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TR = Text Revision: 텍스트(설명)만 개정, 진단기준은 대부분 유지",
+      "differential": "DSM-5-TR은 기술적 설명의 업데이트이고, DSM-5는 진단기준 자체의 전면 개정이었다. TR에서 새로 추가된 진단은 지연성 비탄장애이다.",
+      "key_point": "2022년 출판, 진단기준은 대부분 유지하되 지연성 비탄장애(prolonged grief disorder)가 신설되었다.",
+      "common_mistake": "DSM-5-TR이 완전히 새로운 판이라고 오해하는 것 — 텍스트 개정이지 진단기준의 전면 개정이 아니다."
+    }
+  },
+  {
+    "id": "DIAGN_ICD_004",
+    "terminology": "ICD-11 (International Classification of Diseases, 11th Revision)",
+    "terminology_ko": "ICD-11",
+    "terminology_en": "International Classification of Diseases, 11th Revision",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "세계보건기구(WHO)가 발행한 국제질병분류 제11차 개정판으로, 정신장애를 포함한 모든 질병의 국제적 분류 및 코딩 체계이며, 2022년부터 공식 시행되어 전 세계 건강 통계와 보건 정책의 기반이 된다.",
+    "definition_en": "The 11th revision of the International Classification of Diseases published by the World Health Organization, serving as the global classification and coding system for all diseases including mental disorders, officially implemented since 2022.",
+    "significance": "전 세계 194개 WHO 회원국에서 사용되는 국제 표준 분류 체계로, 역학 통계, 건강 정책 수립, 국제적 연구 소통의 공통 언어 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "제프리 리드", "name_en": "Geoffrey Reed", "contribution": "ICD-11 정신 및 행동장애 분류 개정의 기술 자문관으로서 임상적 유용성 향상을 주도했다."},
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "DSM과 ICD 간의 조화(harmonization) 작업에 핵심적으로 참여하여 두 체계의 호환성을 높였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "DSM-5-TR", "name_en": "DSM-5-TR", "id": "DIAGN_TR_003"},
+      {"name_ko": "진단 신뢰도", "name_en": "Diagnostic Reliability", "id": "DIAGN_DR_013"},
+      {"name_ko": "문화적 맥락과 진단", "name_en": "Cultural Context in Diagnosis", "id": "DIAGN_CCD_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ICD-11 = WHO 발행, 모든 질병 포괄, 2022년 시행, 전 세계 194개국 사용",
+      "differential": "ICD-11은 WHO 발행으로 모든 질병을 분류하며 전 세계적으로 사용되고, DSM-5는 APA 발행으로 정신장애만 전문적으로 다루며 주로 북미 중심이다.",
+      "key_point": "ICD-11에는 복합PTSD, 게임장애(gaming disorder), 지연성 비탄장애 등 DSM-5에 없는 진단범주가 포함된다.",
+      "common_mistake": "ICD와 DSM이 완전히 동일하다고 보는 것 — 상당 부분 일치하지만 세부 진단기준과 분류 구조에 차이가 있다."
+    }
+  },
+  {
+    "id": "DIAGN_CAT_005",
+    "terminology": "범주적 진단 (Categorical Diagnosis)",
+    "terminology_ko": "범주적 진단",
+    "terminology_en": "Categorical Diagnosis",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "정신장애를 '있다' 또는 '없다'의 이분법적 방식으로 분류하는 진단 접근으로, 특정 수의 진단기준을 충족하면 해당 장애로 진단하고 그렇지 않으면 진단하지 않는 전통적인 의학 모델에 기반한 방식이다.",
+    "definition_en": "A diagnostic approach that classifies mental disorders in a dichotomous 'present or absent' manner, diagnosing a disorder when a specific number of criteria are met, based on the traditional medical model.",
+    "significance": "DSM과 ICD의 기본 진단 체계이며, 치료 결정, 보험 적용, 연구 대상 선정 등 실용적 측면에서 명확한 기준을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "정신장애를 이산적 범주로 분류하는 체계를 최초로 확립하여 범주적 진단의 기초를 놓았다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III에서 조작적 진단기준과 범주적 분류를 결합하여 현대적 범주 진단 체계를 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "차원적 진단", "name_en": "Dimensional Diagnosis", "id": "DIAGN_DIM_006"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "진단 신뢰도", "name_en": "Diagnostic Reliability", "id": "DIAGN_DR_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "범주적 = Categorical = Yes/No 이분법, 의학 모델, 진단기준 충족 여부",
+      "differential": "범주적 진단은 장애의 유무를 이분법으로 판단하고, 차원적 진단은 증상의 심각도를 연속선상에서 평가한다.",
+      "key_point": "DSM-5의 기본 체계이지만, 성격장애 등에서 차원적 접근의 보완이 시도되고 있다.",
+      "common_mistake": "범주적 접근이 차원적 접근보다 항상 우월하다고 보는 것 — 각각 장단점이 있으며 장애 유형에 따라 적합성이 다르다."
+    }
+  },
+  {
+    "id": "DIAGN_DIM_006",
+    "terminology": "차원적 진단 (Dimensional Diagnosis)",
+    "terminology_ko": "차원적 진단",
+    "terminology_en": "Dimensional Diagnosis",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "정신장애의 증상을 '있다/없다'의 이분법이 아닌 연속적인 차원(continuum)에서 심각도의 정도로 평가하는 진단 접근으로, 정상과 이상 사이의 경계가 점진적임을 인정하는 방식이다.",
+    "definition_en": "A diagnostic approach that evaluates mental disorder symptoms on a continuum of severity rather than a dichotomous present/absent classification, acknowledging that the boundary between normal and abnormal is gradual.",
+    "significance": "범주적 진단의 한계(경계선 사례, 정보 손실 등)를 보완하며, DSM-5에서 심각도 평정과 교차절단적 증상 측정 등으로 부분적으로 도입되었다.",
+    "key_researchers": [
+      {"name_ko": "토마스 위디거", "name_en": "Thomas Widiger", "contribution": "성격장애의 차원적 모델을 체계적으로 연구하여 DSM-5 대안 모델에 반영되도록 기여했다."},
+      {"name_ko": "로버트 크루거", "name_en": "Robert Krueger", "contribution": "내재화-외현화 차원 모델을 제안하여 정신병리의 차원적 구조를 실증적으로 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "범주적 진단", "name_en": "Categorical Diagnosis", "id": "DIAGN_CAT_005"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "DIAGN_FI_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "차원적 = Dimensional = 연속선(Continuum), 스펙트럼, 심각도 정도",
+      "differential": "차원적 진단은 증상 심각도를 연속선상에서 측정하고, 범주적 진단은 장애의 유무를 이분법으로 판단한다.",
+      "key_point": "DSM-5에서 교차절단적 증상 측정(cross-cutting symptom measures)과 심각도 평정 도구가 차원적 접근으로 도입되었다.",
+      "common_mistake": "차원적 접근이 범주적 접근을 완전히 대체할 수 있다고 보는 것 — 실제 임상에서는 두 접근의 통합이 필요하다."
+    }
+  },
+  {
+    "id": "DIAGN_DD_007",
+    "terminology": "감별진단 (Differential Diagnosis)",
+    "terminology_ko": "감별진단",
+    "terminology_en": "Differential Diagnosis",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "유사한 증상을 보이는 여러 정신장애 후보군 중에서 가장 적합한 진단을 선택하기 위해 각 장애의 고유 특성과 배제 기준을 체계적으로 비교하는 임상적 추론 과정이다.",
+    "definition_en": "The clinical reasoning process of systematically comparing the unique features and exclusion criteria of multiple candidate mental disorders presenting with similar symptoms to select the most appropriate diagnosis.",
+    "significance": "정확한 치료 방향 설정의 핵심 단계로, 유사 장애 간의 미세한 차이를 구분하여 오진과 부적절한 치료를 예방한다.",
+    "key_researchers": [
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "DSM-IV/5의 감별진단 의사결정 나무(decision tree)를 개발하여 체계적 감별진단 절차를 표준화했다."},
+      {"name_ko": "앨런 프랜시스", "name_en": "Allen Frances", "contribution": "DSM-IV에서 감별진단 정보를 각 장애 기술에 포함시켜 임상가의 감별진단을 지원했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신장애의 진단", "name_en": "Diagnosis of Mental Disorders", "id": "DIAGN_DMD_001"},
+      {"name_ko": "공병", "name_en": "Comorbidity", "id": "DIAGN_COM_008"},
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "DIAGN_DI_010"},
+      {"name_ko": "확증 편향", "name_en": "Confirmation Bias", "id": "DIAGN_CB_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "감별진단 = Differential Dx: 비슷한 증상 → 후보군 나열 → 하나씩 배제 → 최종 진단",
+      "differential": "감별진단은 여러 후보 장애 중 가장 적합한 하나를 선택하는 과정이고, 공병진단은 동시에 존재하는 여러 장애를 모두 진단하는 것이다.",
+      "key_point": "DSM-5는 각 장애 기술에 감별진단 섹션을 포함하여 유사 장애와의 구분점을 명시한다.",
+      "common_mistake": "감별진단과 공병을 혼동하는 것 — 감별은 하나를 선택하는 과정이고, 공병은 복수의 장애가 동시에 존재하는 상태이다."
+    }
+  },
+  {
+    "id": "DIAGN_COM_008",
+    "terminology": "공병 (Comorbidity)",
+    "terminology_ko": "공병",
+    "terminology_en": "Comorbidity",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "한 개인에게 두 가지 이상의 정신장애가 동시에 존재하는 상태로, 이는 치료 계획의 복잡성을 증가시키고 예후에 영향을 미치며, 기저의 공통 취약성 요인을 시사할 수 있다.",
+    "definition_en": "The co-occurrence of two or more mental disorders in a single individual, which increases treatment complexity, affects prognosis, and may suggest underlying common vulnerability factors.",
+    "significance": "임상 현장에서 공병은 규칙이지 예외가 아니며, 치료 계획 수립 시 모든 공존 장애를 고려해야 효과적인 개입이 가능하다.",
+    "key_researchers": [
+      {"name_ko": "앨빈 파인스타인", "name_en": "Alvan Feinstein", "contribution": "1970년 공병(comorbidity)이라는 용어를 의학 문헌에 최초로 도입하였다."},
+      {"name_ko": "로널드 케슬러", "name_en": "Ronald Kessler", "contribution": "National Comorbidity Survey(NCS)를 주도하여 미국 인구의 정신장애 공병률을 대규모로 조사했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "감별진단", "name_en": "Differential Diagnosis", "id": "DIAGN_DD_007"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"},
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "DIAGN_FI_029"},
+      {"name_ko": "범주적 진단", "name_en": "Categorical Diagnosis", "id": "DIAGN_CAT_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공병(Comorbidity) = Co(함께) + Morbidity(이환) = 두 가지 이상 장애의 동시 존재",
+      "differential": "공병은 두 장애가 실제로 동시에 존재하는 것이고, 감별진단은 유사 증상을 보이는 여러 장애 중 하나를 선택하는 과정이다.",
+      "key_point": "NCS 연구에 따르면 정신장애 환자의 약 50%가 하나 이상의 공병 장애를 갖고 있다.",
+      "common_mistake": "공병을 하나의 장애가 다른 장애의 증상인 것으로 오해하는 것 — 공병은 독립적인 장애가 동시에 존재하는 상태이다."
+    }
+  },
+  {
+    "id": "DIAGN_CF_009",
+    "terminology": "사례개념화 (Case Formulation/Conceptualization)",
+    "terminology_ko": "사례개념화",
+    "terminology_en": "Case Formulation",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "내담자의 문제를 이론적 틀에 근거하여 발생 원인, 유지 요인, 촉발 요인, 보호 요인을 통합적으로 이해하고, 이를 바탕으로 개인맞춤형 치료 계획을 수립하는 임상적 가설 형성 과정이다.",
+    "definition_en": "The clinical process of forming hypotheses that integrate the etiology, maintaining factors, precipitating factors, and protective factors of a client's problems within a theoretical framework to develop individualized treatment plans.",
+    "significance": "진단만으로는 파악하기 어려운 개인의 고유한 맥락을 이해하게 하며, 근거기반 실무에서 치료 전략 선택의 핵심 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "재클린 퍼슨스", "name_en": "Jacqueline Persons", "contribution": "인지행동치료 기반의 사례개념화 모델을 체계화하여 임상 실무에 적용 가능한 프레임워크를 제시했다."},
+      {"name_ko": "트레이시 일즈", "name_en": "Tracy Eells", "contribution": "사례개념화의 신뢰도와 타당도를 연구하고, 교육 방법론을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신장애의 진단", "name_en": "Diagnosis of Mental Disorders", "id": "DIAGN_DMD_001"},
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "DIAGN_DI_010"},
+      {"name_ko": "근거기반 실무", "name_en": "Evidence-Based Practice", "id": "INTRO_EBP_004"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "DIAGN_CJ_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사례개념화 = 4P 모델: Predisposing(소인), Precipitating(촉발), Perpetuating(유지), Protective(보호) 요인",
+      "differential": "사례개념화는 개인의 고유한 맥락을 이론적으로 통합하는 것이고, 진단은 표준화된 분류 체계에 따라 장애를 분류하는 것이다.",
+      "key_point": "동일한 진단을 받더라도 사례개념화는 개인마다 다를 수 있으며, 이것이 개인맞춤형 치료의 기초가 된다.",
+      "common_mistake": "사례개념화와 진단을 동일시하는 것 — 진단은 분류이고, 사례개념화는 개인의 문제를 이론적으로 설명하는 가설이다."
+    }
+  },
+  {
+    "id": "DIAGN_DI_010",
+    "terminology": "진단적 면접 (Diagnostic Interview)",
+    "terminology_ko": "진단적 면접",
+    "terminology_en": "Diagnostic Interview",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "정신장애의 유무와 유형을 판별하기 위해 체계적으로 정보를 수집하는 임상 면접으로, 현재 증상, 발병 경과, 병력, 가족력, 사회적 기능 등을 포괄적으로 평가하는 진단의 핵심 도구이다.",
+    "definition_en": "A clinical interview that systematically gathers information to determine the presence and type of mental disorders, comprehensively assessing current symptoms, onset course, medical history, family history, and social functioning.",
+    "significance": "가장 보편적이고 기본적인 진단 도구로, 심리검사와 행동관찰을 보완하여 종합적인 임상적 판단의 기초를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "SCID(구조화 임상 면접)의 개발과 개정에 핵심적으로 참여하여 진단적 면접의 표준화에 기여했다."},
+      {"name_ko": "리 로빈스", "name_en": "Lee Robins", "contribution": "DIS(Diagnostic Interview Schedule)를 개발하여 역학 연구에서 비전문가도 사용할 수 있는 구조화 면접을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 임상 면접 SCID", "name_en": "SCID", "id": "DIAGN_SCID_011"},
+      {"name_ko": "주호소", "name_en": "Chief Complaint", "id": "DIAGN_CC_026"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_003"},
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INTVIEW_SI_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진단적 면접: 주호소 → 현병력 → 과거력 → 가족력 → 사회력 → 정신상태검사",
+      "differential": "진단적 면접은 장애의 진단을 목적으로 하고, 치료적 면접은 내담자의 변화를 촉진하는 것이 목적이다.",
+      "key_point": "비구조화, 반구조화, 구조화 면접으로 나뉘며, 구조화 수준이 높을수록 신뢰도는 올라가지만 유연성은 줄어든다.",
+      "common_mistake": "면접에서 증상 목록만 확인하면 된다고 보는 것 — 증상의 맥락, 발병 시기, 기능 수준 등 종합적 정보가 필요하다."
+    }
+  },
+  {
+    "id": "DIAGN_SCID_011",
+    "terminology": "구조화 임상 면접 SCID (Structured Clinical Interview for DSM)",
+    "terminology_ko": "구조화 임상 면접 SCID",
+    "terminology_en": "Structured Clinical Interview for DSM",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "DSM 진단기준에 따라 주요 정신장애를 체계적으로 평가하기 위해 개발된 반구조화 면접 도구로, 각 진단기준을 순서대로 질문하면서 임상가가 판단하는 방식으로 진행되며, 연구와 임상에서 가장 널리 사용되는 진단 면접이다.",
+    "definition_en": "A semi-structured interview instrument developed for systematically evaluating major mental disorders according to DSM diagnostic criteria, proceeding through each criterion sequentially with clinician judgment, widely used in both research and clinical settings.",
+    "significance": "진단의 표준화와 신뢰도 향상에 핵심적인 도구로, 연구에서 '금본위(gold standard)' 진단 면접으로 간주된다.",
+    "key_researchers": [
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "SCID의 주 개발자로서 DSM-III-R부터 DSM-5까지 SCID를 지속적으로 개정하고 발전시켰다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "SCID의 원형인 구조화 진단 면접의 개념을 최초로 고안하고 초기 버전 개발에 참여했다."},
+      {"name_ko": "미리암 깁본", "name_en": "Miriam Gibbon", "contribution": "SCID 개발팀의 핵심 연구원으로서 현장 시험과 신뢰도 검증에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "DIAGN_DI_010"},
+      {"name_ko": "진단 신뢰도", "name_en": "Diagnostic Reliability", "id": "DIAGN_DR_013"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INTVIEW_SI_001"}
+    ],
+    "sub_types": [
+      {"name": "SCID-5-CV", "description": "임상 버전(Clinical Version): 임상 장면에서 주요 정신장애를 진단하기 위한 간소화 버전"},
+      {"name": "SCID-5-RV", "description": "연구 버전(Research Version): 연구 목적의 상세한 진단 평가를 위한 완전 버전"},
+      {"name": "SCID-5-PD", "description": "성격장애 버전(Personality Disorders): DSM-5 성격장애 진단을 위한 별도 모듈"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SCID = Structured Clinical Interview for DSM, 반구조화 면접, 연구의 금본위 도구",
+      "differential": "SCID는 훈련된 임상가가 시행하는 반구조화 면접이고, MINI(Mini International Neuropsychiatric Interview)는 더 짧은 완전 구조화 면접이다.",
+      "key_point": "반구조화 면접으로 임상가의 추가 질문과 임상적 판단이 허용되며, 연구에서 진단의 '금본위' 도구로 사용된다.",
+      "common_mistake": "SCID를 완전히 구조화된 면접으로 오해하는 것 — 반구조화(semi-structured) 면접으로, 임상가의 판단이 개입된다."
+    }
+  },
+  {
+    "id": "DIAGN_MULTI_012",
+    "terminology": "다축 진단체계 (Multiaxial System)",
+    "terminology_ko": "다축 진단체계",
+    "terminology_en": "Multiaxial System",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "DSM-III부터 DSM-IV-TR까지 사용된 5축 진단 체계로, 축 I(임상장애), 축 II(성격장애/지적장애), 축 III(일반 의학적 상태), 축 IV(심리사회적/환경적 문제), 축 V(전반적 기능 평가)로 구성되어 환자를 다차원적으로 평가하였다.",
+    "definition_en": "A five-axis diagnostic system used from DSM-III through DSM-IV-TR, consisting of Axis I (clinical disorders), Axis II (personality disorders/intellectual disability), Axis III (general medical conditions), Axis IV (psychosocial/environmental problems), and Axis V (global assessment of functioning).",
+    "significance": "환자를 단일 진단이 아닌 다차원적으로 이해하려는 시도였으나, DSM-5에서 폐지되었으며 이제는 역사적 맥락에서 이해해야 하는 체계이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III에서 다축 체계를 최초로 도입하여 환자를 다차원적으로 평가하는 패러다임을 제시했다."},
+      {"name_ko": "데이비드 쿠퍼", "name_en": "David Kupfer", "contribution": "DSM-5 개정위원장으로서 다축 체계의 폐지를 결정하고 비축적 접근으로의 전환을 주도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "전반적 기능 평가 GAF", "name_en": "Global Assessment of Functioning", "id": "DIAGN_GAF_030"},
+      {"name_ko": "DSM 역사", "name_en": "History of DSM", "id": "HISTORY_DSM_018"},
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "DIAGN_FI_029"}
+    ],
+    "sub_types": [
+      {"name": "축 I", "description": "임상장애: 우울증, 불안장애, 조현병 등 주요 정신장애"},
+      {"name": "축 II", "description": "성격장애 및 지적장애: 장기적이고 안정적인 패턴"},
+      {"name": "축 III", "description": "일반 의학적 상태: 정신장애와 관련될 수 있는 신체 질환"},
+      {"name": "축 IV", "description": "심리사회적/환경적 문제: 스트레스 요인"},
+      {"name": "축 V", "description": "전반적 기능 평가(GAF): 0~100점 척도"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "5축: I=임상장애, II=성격장애/지적장애, III=의학, IV=심리사회적 문제, V=GAF(기능 수준)",
+      "differential": "다축 체계는 DSM-IV-TR까지 사용된 역사적 체계이고, DSM-5는 비축적 접근으로 전환하여 모든 장애를 동등하게 나열한다.",
+      "key_point": "DSM-5에서 폐지된 이유는 축 간 구분의 인위성(특히 축 I과 축 II)과 실제 사용의 저조함이었다.",
+      "common_mistake": "DSM-5에서도 다축 체계를 사용한다고 오해하는 것 — DSM-5에서 공식 폐지되었다."
+    }
+  },
+  {
+    "id": "DIAGN_DR_013",
+    "terminology": "진단 신뢰도 (Diagnostic Reliability)",
+    "terminology_ko": "진단 신뢰도",
+    "terminology_en": "Diagnostic Reliability",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "동일한 환자를 서로 다른 임상가가 평가했을 때 같은 진단을 내리는 일관성의 정도로, 특히 평가자 간 신뢰도(inter-rater reliability)가 핵심 지표이며, 진단 체계의 과학적 가치를 좌우하는 기본 요건이다.",
+    "definition_en": "The degree of consistency in diagnosis when the same patient is evaluated by different clinicians, with inter-rater reliability being the key indicator and a fundamental requirement for the scientific value of a diagnostic system.",
+    "significance": "신뢰도 없이는 타당도도 보장할 수 없으며, DSM의 역사적 발전은 진단 신뢰도 향상의 역사와 궤를 같이한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III에 조작적 진단기준을 도입하여 진단 신뢰도를 획기적으로 향상시켰다."},
+      {"name_ko": "제이콥 코헨", "name_en": "Jacob Cohen", "contribution": "카파 계수(Cohen's kappa)를 개발하여 진단 신뢰도의 정량적 평가를 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "진단 타당도", "name_en": "Diagnostic Validity", "id": "DIAGN_DV_014"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "구조화 임상 면접 SCID", "name_en": "SCID", "id": "DIAGN_SCID_011"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "신뢰도(Reliability) = 일관성(Consistency) = 카파(kappa) 계수로 측정",
+      "differential": "진단 신뢰도는 측정의 '일관성'이고, 진단 타당도는 측정의 '정확성'이다. 신뢰도는 타당도의 필요조건이지만 충분조건은 아니다.",
+      "key_point": "카파 계수로 측정하며, .70 이상이면 양호한 신뢰도로 간주한다. DSM-5 현장 시험에서 일부 장애의 카파 값이 낮아 논란이 되었다.",
+      "common_mistake": "신뢰도가 높으면 자동으로 타당도도 높다고 보는 오류 — 일관되게 틀린 진단을 내릴 수도 있다(신뢰도 높지만 타당도 낮음)."
+    }
+  },
+  {
+    "id": "DIAGN_DV_014",
+    "terminology": "진단 타당도 (Diagnostic Validity)",
+    "terminology_ko": "진단 타당도",
+    "terminology_en": "Diagnostic Validity",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "진단 체계가 실제로 존재하는 독립적인 장애 실체를 정확하게 반영하고 있는 정도로, 해당 진단이 병인, 경과, 치료 반응, 생물학적 표지자 등에서 의미 있는 차이를 보이는지로 평가된다.",
+    "definition_en": "The degree to which a diagnostic system accurately reflects genuinely existing independent disorder entities, evaluated by whether the diagnosis shows meaningful differences in etiology, course, treatment response, and biological markers.",
+    "significance": "진단이 단순한 명명이 아닌 과학적 실체를 반영하는지를 판단하는 핵심 기준으로, 진단의 궁극적 목표이다.",
+    "key_researchers": [
+      {"name_ko": "엘리 로빈스", "name_en": "Eli Robins", "contribution": "Robins와 Guze(1970)의 진단 타당도 5단계 기준(임상적 기술, 실험실 연구, 감별, 추적 연구, 가족 연구)을 제시했다."},
+      {"name_ko": "사뮤엘 거지", "name_en": "Samuel Guze", "contribution": "Robins와 함께 정신장애 진단의 타당화 접근을 체계화하여 진단 연구의 기틀을 마련했다."},
+      {"name_ko": "케네스 켄들러", "name_en": "Kenneth Kendler", "contribution": "진단 타당도의 검증자(validator) 접근을 발전시켜 다차원적 타당화 방법론을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "진단 신뢰도", "name_en": "Diagnostic Reliability", "id": "DIAGN_DR_013"},
+      {"name_ko": "범주적 진단", "name_en": "Categorical Diagnosis", "id": "DIAGN_CAT_005"},
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "타당도 = 정확성: Robins & Guze 5기준 — 임상기술, 실험실, 감별, 추적, 가족 연구",
+      "differential": "진단 타당도는 진단이 실재하는 장애를 정확히 반영하는지이고, 진단 신뢰도는 진단의 일관성(동일한 결과의 반복)이다.",
+      "key_point": "Robins와 Guze(1970)의 5단계 기준이 진단 타당도 검증의 고전적 표준이며, Kendler가 이를 확장하였다.",
+      "common_mistake": "타당도가 높으면 신뢰도도 자동으로 높다고 보는 것 — 타당도는 신뢰도를 전제하지만, 그 역은 성립하지 않는다."
+    }
+  },
+  {
+    "id": "DIAGN_BR_015",
+    "terminology": "기저율 (Base Rate)",
+    "terminology_ko": "기저율",
+    "terminology_en": "Base Rate",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "특정 모집단에서 어떤 정신장애가 실제로 발생하는 비율로, 진단 검사의 결과를 해석하고 양성/음성 예측도를 산출할 때 반드시 고려해야 하는 사전확률(prior probability)이다.",
+    "definition_en": "The actual rate of occurrence of a specific mental disorder in a given population, serving as the prior probability that must be considered when interpreting diagnostic test results and calculating positive/negative predictive values.",
+    "significance": "기저율을 무시하면 진단 검사의 예측력을 과대 또는 과소 평가할 수 있으며, 베이지안 추론의 핵심 요소로서 임상적 판단의 정확성에 직접 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "폴 밀", "name_en": "Paul Meehl", "contribution": "기저율 무시(base rate neglect)의 문제를 임상심리학에 최초로 제기하고, 통계적 예측의 우월성을 주장했다."},
+      {"name_ko": "대니얼 카너먼", "name_en": "Daniel Kahneman", "contribution": "Tversky와 함께 기저율 무시가 인간의 보편적인 인지 편향임을 실험적으로 증명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "민감도", "name_en": "Sensitivity", "id": "DIAGN_SEN_016"},
+      {"name_ko": "특이도", "name_en": "Specificity", "id": "DIAGN_SPE_017"},
+      {"name_ko": "양성 예측도", "name_en": "Positive Predictive Value", "id": "DIAGN_PPV_018"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "DIAGN_CJ_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기저율(Base Rate) = 사전확률 = 모집단에서의 실제 유병률, 베이즈 정리의 핵심",
+      "differential": "기저율은 모집단에서 장애의 실제 발생 비율이고, 유병률(prevalence)은 특정 시점의 사례 수이다. 기저율은 진단 검사 해석의 맥락에서 사용된다.",
+      "key_point": "기저율이 낮은 장애를 선별할 때, 민감도가 높은 검사도 양성 예측도가 낮을 수 있다(위양성 문제).",
+      "common_mistake": "기저율을 무시하고 검사 결과만으로 진단을 확정하는 것 — 기저율이 낮은 장애에서는 양성 결과의 대부분이 위양성일 수 있다."
+    }
+  },
+  {
+    "id": "DIAGN_SEN_016",
+    "terminology": "민감도 (Sensitivity)",
+    "terminology_ko": "민감도",
+    "terminology_en": "Sensitivity",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "실제로 장애가 있는 사람을 진단 도구가 올바르게 '있다'고 식별하는 비율, 즉 진양성율(true positive rate)로, 장애를 놓치지 않는 능력을 나타내며, 선별(screening) 장면에서 특히 중요한 지표이다.",
+    "definition_en": "The proportion of individuals who actually have a disorder that a diagnostic tool correctly identifies as positive (true positive rate), indicating the ability to detect the disorder and particularly important in screening settings.",
+    "significance": "높은 민감도는 장애를 가진 사람을 놓치지 않음을 의미하여, 선별 검사에서 우선적으로 요구되는 속성이다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 예루샬미", "name_en": "Jacob Yerushalmy", "contribution": "의학적 선별 검사에서 민감도와 특이도 개념을 정립하여 진단 검사 평가의 기틀을 마련했다."},
+      {"name_ko": "폴 밀", "name_en": "Paul Meehl", "contribution": "임상 판단에서 통계적 지표의 중요성을 강조하며 민감도/특이도의 임상적 적용을 촉진했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "특이도", "name_en": "Specificity", "id": "DIAGN_SPE_017"},
+      {"name_ko": "양성 예측도", "name_en": "Positive Predictive Value", "id": "DIAGN_PPV_018"},
+      {"name_ko": "기저율", "name_en": "Base Rate", "id": "DIAGN_BR_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "민감도(Sensitivity) = SnNout: 민감도가 높으면(Sn), 음성이면(N) 배제(out) 가능",
+      "differential": "민감도는 실제 환자 중 양성 판정 비율(진양성률)이고, 특이도는 실제 정상인 중 음성 판정 비율(진음성률)이다.",
+      "key_point": "선별 검사에서는 높은 민감도를 우선시하여 장애 사례를 놓치지 않도록 하고, 확진 검사에서는 높은 특이도를 우선시한다.",
+      "common_mistake": "민감도가 높으면 양성 예측도도 높다고 가정하는 것 — 기저율이 낮으면 민감도가 높아도 양성 예측도는 낮을 수 있다."
+    }
+  },
+  {
+    "id": "DIAGN_SPE_017",
+    "terminology": "특이도 (Specificity)",
+    "terminology_ko": "특이도",
+    "terminology_en": "Specificity",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "실제로 장애가 없는 사람을 진단 도구가 올바르게 '없다'고 식별하는 비율, 즉 진음성율(true negative rate)로, 정상인을 잘못 환자로 판정하지 않는 능력을 나타내며, 확진 검사에서 중요한 지표이다.",
+    "definition_en": "The proportion of individuals who do not have a disorder that a diagnostic tool correctly identifies as negative (true negative rate), indicating the ability to correctly rule out the disorder and particularly important in confirmatory testing.",
+    "significance": "높은 특이도는 위양성을 최소화하여 불필요한 치료와 낙인을 방지하고, 확진 단계에서 핵심적인 속성이다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 예루샬미", "name_en": "Jacob Yerushalmy", "contribution": "방사선 진단 연구에서 민감도/특이도 프레임워크를 확립하여 진단 검사 평가의 기준을 세웠다."},
+      {"name_ko": "로버트 스위츠", "name_en": "Robert Swets", "contribution": "신호탐지이론을 진단 검사 평가에 적용하여 ROC 분석의 기초를 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "민감도", "name_en": "Sensitivity", "id": "DIAGN_SEN_016"},
+      {"name_ko": "양성 예측도", "name_en": "Positive Predictive Value", "id": "DIAGN_PPV_018"},
+      {"name_ko": "기저율", "name_en": "Base Rate", "id": "DIAGN_BR_015"},
+      {"name_ko": "과진단", "name_en": "Overdiagnosis", "id": "DIAGN_OD_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "특이도(Specificity) = SpPin: 특이도가 높으면(Sp), 양성이면(P) 확진(in) 가능",
+      "differential": "특이도는 실제 정상인 중 음성 판정 비율(진음성률)이고, 민감도는 실제 환자 중 양성 판정 비율(진양성률)이다.",
+      "key_point": "확진 검사에서는 높은 특이도를 우선시하여 정상인을 잘못 진단하지 않도록 하며, 선별과 확진의 2단계 전략이 일반적이다.",
+      "common_mistake": "민감도와 특이도를 동시에 모두 높일 수 있다고 보는 것 — 절단점을 조정하면 하나가 올라갈 때 다른 하나는 내려가는 상충관계가 있다."
+    }
+  },
+  {
+    "id": "DIAGN_PPV_018",
+    "terminology": "양성 예측도 (Positive Predictive Value)",
+    "terminology_ko": "양성 예측도",
+    "terminology_en": "Positive Predictive Value",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "진단 검사에서 양성으로 판정된 사람 중 실제로 해당 장애를 가진 사람의 비율로, 검사의 민감도, 특이도뿐만 아니라 기저율에 크게 영향을 받으며, 임상적 의사결정에서 가장 직접적으로 유용한 지표이다.",
+    "definition_en": "The proportion of individuals testing positive who actually have the disorder, influenced not only by sensitivity and specificity but significantly by base rate, and the most directly useful indicator in clinical decision-making.",
+    "significance": "임상가가 양성 결과를 해석할 때 '이 결과가 맞을 확률이 얼마인가'라는 가장 실용적인 질문에 답하는 지표이다.",
+    "key_researchers": [
+      {"name_ko": "토마스 베이즈", "name_en": "Thomas Bayes", "contribution": "베이즈 정리를 통해 사전확률(기저율)이 사후확률(예측도)에 미치는 영향을 수학적으로 정립했다."},
+      {"name_ko": "데이비드 새켓", "name_en": "David Sackett", "contribution": "근거기반 의학의 창시자로서 양성 예측도의 임상적 활용 방법론을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "민감도", "name_en": "Sensitivity", "id": "DIAGN_SEN_016"},
+      {"name_ko": "특이도", "name_en": "Specificity", "id": "DIAGN_SPE_017"},
+      {"name_ko": "기저율", "name_en": "Base Rate", "id": "DIAGN_BR_015"},
+      {"name_ko": "과진단", "name_en": "Overdiagnosis", "id": "DIAGN_OD_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PPV = 양성 판정자 중 진짜 환자 비율, 기저율(유병률)에 크게 의존",
+      "differential": "양성 예측도는 양성 판정자 중 실제 환자 비율이고, 민감도는 실제 환자 중 양성 판정 비율이다. PPV는 기저율에 의존하지만 민감도는 기저율과 독립적이다.",
+      "key_point": "기저율이 낮은 장애에서는 민감도와 특이도가 높아도 양성 예측도가 매우 낮을 수 있다(베이즈 정리).",
+      "common_mistake": "양성 예측도를 민감도와 동일시하는 것 — PPV는 기저율에 따라 극적으로 변하지만 민감도는 기저율과 독립적이다."
+    }
+  },
+  {
+    "id": "DIAGN_CCD_019",
+    "terminology": "문화적 맥락과 진단 (Cultural Context in Diagnosis)",
+    "terminology_ko": "문화적 맥락과 진단",
+    "terminology_en": "Cultural Context in Diagnosis",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "정신장애의 진단 과정에서 내담자의 문화적 배경, 가치관, 사회적 규범이 증상의 표현, 해석, 도움추구 행동에 미치는 영향을 고려해야 하는 원칙으로, DSM-5에서 문화적 개념화 면접(CFI)이 포함되었다.",
+    "definition_en": "The principle that cultural background, values, and social norms of the client must be considered in the diagnostic process for their influence on symptom expression, interpretation, and help-seeking behavior, with the Cultural Formulation Interview (CFI) included in DSM-5.",
+    "significance": "문화적 맥락을 무시하면 정상적인 문화적 행동을 병리화하거나, 실제 장애를 간과하는 오진이 발생할 수 있으며, 다문화 사회에서 필수적인 진단 역량이다.",
+    "key_researchers": [
+      {"name_ko": "로베르토 루이스-페르난데스", "name_en": "Roberto Lewis-Fernández", "contribution": "DSM-5의 문화적 개념화 면접(CFI)을 주도적으로 개발하여 문화적 평가의 표준화에 기여했다."},
+      {"name_ko": "로렌스 커마이어", "name_en": "Laurence Kirmayer", "contribution": "문화정신의학 분야의 선도적 연구자로서 문화가 정신병리에 미치는 영향을 체계적으로 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화관련 증후군", "name_en": "Culture-Bound Syndromes", "id": "DIAGN_CBS_020"},
+      {"name_ko": "낙인과 진단", "name_en": "Stigma and Diagnosis", "id": "DIAGN_STG_021"},
+      {"name_ko": "이상행동의 기준", "name_en": "Criteria for Abnormality", "id": "DIAGN_ABN_028"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CFI = Cultural Formulation Interview: DSM-5에 포함된 문화적 개념화 면접 도구",
+      "differential": "문화적 맥락 고려는 모든 진단에 적용되는 원칙이고, 문화관련 증후군은 특정 문화에서만 나타나는 구체적인 증상 패턴이다.",
+      "key_point": "DSM-5에는 문화적 개념화 면접(CFI)과 문화적 개념(cultural concepts of distress)이 포함되어 문화적 평가를 공식화했다.",
+      "common_mistake": "문화적 고려를 소수 문화에만 적용하면 된다고 보는 것 — 모든 내담자(주류 문화 포함)에게 문화적 맥락이 진단에 영향을 미친다."
+    }
+  },
+  {
+    "id": "DIAGN_CBS_020",
+    "terminology": "문화관련 증후군 (Culture-Bound Syndromes)",
+    "terminology_ko": "문화관련 증후군",
+    "terminology_en": "Culture-Bound Syndromes",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "특정 문화권에서만 인식되고 나타나는 고유한 증상 패턴으로, DSM-5에서는 '문화적 고통의 개념(cultural concepts of distress)'으로 재명명되어 문화적 증후군(cultural syndromes), 문화적 관용표현(cultural idioms of distress), 문화적 설명(cultural explanations)으로 세분화되었다.",
+    "definition_en": "Unique symptom patterns recognized and occurring only in specific cultural contexts, renamed in DSM-5 as 'cultural concepts of distress' and subdivided into cultural syndromes, cultural idioms of distress, and cultural explanations or perceived causes.",
+    "significance": "서구 중심의 진단 체계가 보편적이지 않음을 보여주며, 문화적으로 적합한 진단과 치료를 위해 반드시 이해해야 하는 개념이다.",
+    "key_researchers": [
+      {"name_ko": "로널드 시몬스", "name_en": "Ronald Simons", "contribution": "문화관련 증후군의 체계적 분류 연구를 수행하고, latah 등의 증후군을 심층 분석했다."},
+      {"name_ko": "아서 클라인만", "name_en": "Arthur Kleinman", "contribution": "질병과 병(disease vs. illness) 개념을 구분하고, 문화가 정신장애의 경험과 표현을 형성하는 과정을 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화적 맥락과 진단", "name_en": "Cultural Context in Diagnosis", "id": "DIAGN_CCD_019"},
+      {"name_ko": "이상행동의 기준", "name_en": "Criteria for Abnormality", "id": "DIAGN_ABN_028"},
+      {"name_ko": "정신병리학", "name_en": "Psychopathology", "id": "DIAGN_PP_027"}
+    ],
+    "sub_types": [
+      {"name": "화병(Hwa-byung)", "description": "한국 문화에서 분노의 억압으로 인한 신체적·심리적 증상 복합체"},
+      {"name": "아타케 데 네르비오스(Ataque de nervios)", "description": "라틴 문화에서 극심한 정서적 각성, 통제 상실, 소리 지르기 등의 증상"},
+      {"name": "타이진쿄후쇼(Taijin kyofusho)", "description": "일본 문화에서 자신이 타인에게 불쾌감을 준다는 두려움"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "문화관련 증후군: 화병(한국), 아타케(라틴), 타이진(일본), DSM-5에서 '문화적 고통의 개념'으로 재명명",
+      "differential": "문화관련 증후군은 특정 문화에서만 나타나는 고유한 증상 패턴이고, 문화적 맥락은 모든 진단에 적용되는 보편적 원칙이다.",
+      "key_point": "DSM-5에서 '문화관련 증후군'에서 '문화적 고통의 개념'으로 용어가 변경되어 문화적 증후군, 관용표현, 설명으로 세분화되었다.",
+      "common_mistake": "문화관련 증후군이 '진짜 장애가 아니다'라고 보는 것 — 해당 문화권에서는 실제적인 고통과 기능 손상을 초래하는 임상적 현상이다."
+    }
+  },
+  {
+    "id": "DIAGN_STG_021",
+    "terminology": "낙인과 진단 (Stigma and Diagnosis)",
+    "terminology_ko": "낙인과 진단",
+    "terminology_en": "Stigma and Diagnosis",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "정신장애 진단이 개인에게 부정적인 사회적 꼬리표(label)로 작용하여 차별, 편견, 자기비하를 유발하는 현상으로, 공적 낙인(public stigma), 자기 낙인(self-stigma), 구조적 낙인(structural stigma)으로 구분된다.",
+    "definition_en": "The phenomenon where a mental disorder diagnosis acts as a negative social label leading to discrimination, prejudice, and self-deprecation, categorized into public stigma, self-stigma, and structural stigma.",
+    "significance": "진단의 부정적 결과를 인식하고 최소화하는 것은 윤리적 임상 실무의 핵심이며, 낙인은 도움추구 행동을 저해하는 주요 장벽이다.",
+    "key_researchers": [
+      {"name_ko": "패트릭 코리건", "name_en": "Patrick Corrigan", "contribution": "정신질환 낙인의 사회인지 모델을 개발하고, 낙인 감소 프로그램의 효과를 체계적으로 연구했다."},
+      {"name_ko": "데이비드 로젠한", "name_en": "David Rosenhan", "contribution": "1973년 '제정신인 사람이 정신병원에서(On Being Sane in Insane Places)' 연구로 진단 라벨의 고착 효과를 극적으로 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화적 맥락과 진단", "name_en": "Cultural Context in Diagnosis", "id": "DIAGN_CCD_019"},
+      {"name_ko": "과진단", "name_en": "Overdiagnosis", "id": "DIAGN_OD_022"},
+      {"name_ko": "정신장애의 진단", "name_en": "Diagnosis of Mental Disorders", "id": "DIAGN_DMD_001"},
+      {"name_ko": "진단 인상", "name_en": "Diagnostic Impression", "id": "DIAGN_DIMP_025"}
+    ],
+    "sub_types": [
+      {"name": "공적 낙인(Public stigma)", "description": "일반 대중이 정신장애 진단을 받은 사람에게 가하는 편견과 차별"},
+      {"name": "자기 낙인(Self-stigma)", "description": "내담자가 사회적 편견을 내면화하여 자기 가치감이 저하되는 현상"},
+      {"name": "구조적 낙인(Structural stigma)", "description": "법률, 정책, 제도에 내재된 차별적 관행"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "낙인 3유형: 공적(Public), 자기(Self), 구조적(Structural) — Rosenhan(1973) 연구가 대표적",
+      "differential": "공적 낙인은 타인의 편견이고, 자기 낙인은 당사자의 내면화된 부정적 자기인식이며, 구조적 낙인은 제도적 차별이다.",
+      "key_point": "Rosenhan(1973)의 연구는 한번 진단 라벨이 부여되면 정상 행동도 병리적으로 해석되는 '라벨링 효과'를 보여주었다.",
+      "common_mistake": "낙인이 단순히 개인적 편견의 문제라고 보는 것 — 구조적 낙인은 법률과 정책에 내재된 체계적 차별이다."
+    }
+  },
+  {
+    "id": "DIAGN_OD_022",
+    "terminology": "과진단 (Overdiagnosis)",
+    "terminology_ko": "과진단",
+    "terminology_en": "Overdiagnosis",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "실제로 임상적 수준의 장애가 아닌 정상 범위의 반응이나 경미한 어려움에 정신장애 진단을 부여하는 현상으로, 진단기준의 역치가 지나치게 낮거나 정상적 고통을 의료화(medicalization)할 때 발생한다.",
+    "definition_en": "The phenomenon of assigning a mental disorder diagnosis to normal reactions or mild difficulties that do not warrant clinical-level diagnosis, occurring when diagnostic thresholds are excessively low or normal distress is medicalized.",
+    "significance": "불필요한 치료, 약물 부작용, 낙인, 의료 자원 낭비를 초래하며, 진단 체계 개정 시 항상 고려해야 하는 핵심 윤리적 쟁점이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 프랜시스", "name_en": "Allen Frances", "contribution": "DSM-5에서의 진단 인플레이션(diagnostic inflation) 위험을 강력히 비판하고, 'Saving Normal'을 저술하여 과진단 문제를 공론화했다."},
+      {"name_ko": "제롬 웨이크필드", "name_en": "Jerome Wakefield", "contribution": "'해로운 기능장애(harmful dysfunction)' 분석을 통해 정신장애의 적절한 경계를 이론적으로 정립하고자 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "낙인과 진단", "name_en": "Stigma and Diagnosis", "id": "DIAGN_STG_021"},
+      {"name_ko": "이상행동의 기준", "name_en": "Criteria for Abnormality", "id": "DIAGN_ABN_028"},
+      {"name_ko": "양성 예측도", "name_en": "Positive Predictive Value", "id": "DIAGN_PPV_018"},
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "DIAGN_FI_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과진단 = 진단 인플레이션: Allen Frances의 'Saving Normal', 정상 고통의 의료화 비판",
+      "differential": "과진단은 정상 반응에 장애 진단을 부여하는 것이고, 오진(misdiagnosis)은 실제 장애를 잘못된 진단명으로 분류하는 것이다.",
+      "key_point": "DSM-5에서 애도 배제 기준 삭제로 인한 주요우울장애 과진단 논쟁이 대표적 사례이다.",
+      "common_mistake": "과진단과 오진을 동일시하는 것 — 과진단은 장애가 아닌 것을 장애로 진단하는 것이고, 오진은 잘못된 장애명을 부여하는 것이다."
+    }
+  },
+  {
+    "id": "DIAGN_CJ_023",
+    "terminology": "임상적 판단 (Clinical Judgment)",
+    "terminology_ko": "임상적 판단",
+    "terminology_en": "Clinical Judgment",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "임상가가 면접, 검사, 관찰 등에서 수집한 다양한 정보를 통합하여 진단, 치료 계획, 예후에 관한 의사결정을 내리는 전문적 추론 과정으로, 경험과 이론적 지식에 기반하지만 다양한 인지 편향에 취약할 수 있다.",
+    "definition_en": "The professional reasoning process by which clinicians integrate information from interviews, tests, and observations to make decisions about diagnosis, treatment planning, and prognosis, based on experience and theoretical knowledge but vulnerable to various cognitive biases.",
+    "significance": "통계적 예측과 비교하여 임상적 판단의 한계가 밝혀졌으며, 구조화된 도구와 근거기반 접근으로 보완하는 것이 현대 임상심리학의 지향점이다.",
+    "key_researchers": [
+      {"name_ko": "폴 밀", "name_en": "Paul Meehl", "contribution": "1954년 저서에서 통계적 예측이 임상적 예측보다 우월함을 입증하여 임상적 판단의 한계를 최초로 체계적으로 지적했다."},
+      {"name_ko": "하워드 가브", "name_en": "Howard Garb", "contribution": "임상적 판단의 편향과 오류에 관한 연구를 종합하여 판단 정확도 향상 방안을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "확증 편향", "name_en": "Confirmation Bias", "id": "DIAGN_CB_024"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"},
+      {"name_ko": "근거기반 실무", "name_en": "Evidence-Based Practice", "id": "INTRO_EBP_004"},
+      {"name_ko": "기저율", "name_en": "Base Rate", "id": "DIAGN_BR_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Meehl(1954): 통계적 예측 vs. 임상적 예측 — 통계적 예측이 일반적으로 우월하거나 동등",
+      "differential": "임상적 판단은 개인의 전문적 추론이고, 통계적/보험계리적(actuarial) 예측은 공식과 알고리즘에 기반한 기계적 의사결정이다.",
+      "key_point": "Meehl의 연구 이후 136개 이상의 메타분석에서 통계적 예측이 임상적 예측과 동등하거나 우월한 것으로 확인되었다.",
+      "common_mistake": "경험이 풍부한 임상가는 인지 편향에 영향받지 않는다고 보는 것 — 경험과 무관하게 모든 임상가가 인지 편향에 취약하다."
+    }
+  },
+  {
+    "id": "DIAGN_CB_024",
+    "terminology": "확증 편향 (Confirmation Bias in Diagnosis)",
+    "terminology_ko": "확증 편향",
+    "terminology_en": "Confirmation Bias in Diagnosis",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "임상가가 초기에 형성한 진단 가설을 확인하는 정보만 선택적으로 주목하고, 가설에 반하는 정보를 무시하거나 과소평가하는 인지 편향으로, 오진의 주요 원인 중 하나이다.",
+    "definition_en": "A cognitive bias in which clinicians selectively attend to information confirming their initial diagnostic hypothesis while ignoring or undervaluing contradictory evidence, representing a major source of diagnostic error.",
+    "significance": "진단 오류의 가장 흔한 인지적 원인 중 하나로, 이를 인식하고 의도적으로 반증 정보를 탐색하는 훈련이 임상가 교육의 핵심 요소이다.",
+    "key_researchers": [
+      {"name_ko": "하워드 가브", "name_en": "Howard Garb", "contribution": "임상심리학에서의 확증 편향 연구를 종합하고, 편향 감소를 위한 구체적 전략을 제안했다."},
+      {"name_ko": "대니얼 카너먼", "name_en": "Daniel Kahneman", "contribution": "Tversky와 함께 인간의 판단에서 나타나는 체계적 편향을 밝혀 행동경제학과 임상 판단 연구의 기초를 놓았다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "DIAGN_CJ_023"},
+      {"name_ko": "감별진단", "name_en": "Differential Diagnosis", "id": "DIAGN_DD_007"},
+      {"name_ko": "진단 인상", "name_en": "Diagnostic Impression", "id": "DIAGN_DIMP_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "확증 편향 = 내 가설을 확인하는 정보만 보려는 경향 → 대안 가설 적극 탐색으로 극복",
+      "differential": "확증 편향은 기존 가설을 확인하는 정보만 선택적으로 주목하는 것이고, 가용성 편향(availability bias)은 쉽게 떠오르는 사례에 과도하게 의존하는 것이다.",
+      "key_point": "극복 전략으로 반증 정보의 의도적 탐색, 감별진단 목록 작성, 동료 자문(peer consultation) 등이 있다.",
+      "common_mistake": "확증 편향이 비전문가에게만 나타난다고 보는 것 — 경험 많은 전문가도 동일하게 취약하며, 자동적으로 작동하는 인지 편향이다."
+    }
+  },
+  {
+    "id": "DIAGN_DIMP_025",
+    "terminology": "진단 인상 (Diagnostic Impression)",
+    "terminology_ko": "진단 인상",
+    "terminology_en": "Diagnostic Impression",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "초기 평가 과정에서 수집된 제한된 정보를 바탕으로 임상가가 형성하는 잠정적인 진단 가설로, 아직 확정 진단이 아니며 추가 평가를 통해 확인, 수정, 또는 기각될 수 있는 예비적 임상 판단이다.",
+    "definition_en": "A tentative diagnostic hypothesis formed by the clinician based on limited information gathered during initial evaluation, not yet a definitive diagnosis and subject to confirmation, modification, or rejection through further assessment.",
+    "significance": "평가 과정의 출발점으로서 이후의 정보 수집 방향을 안내하지만, 확증 편향의 영향을 받기 쉬우므로 열린 태도로 지속적으로 검증해야 한다.",
+    "key_researchers": [
+      {"name_ko": "하워드 가브", "name_en": "Howard Garb", "contribution": "초기 인상이 이후 판단에 미치는 앵커링 효과(anchoring effect)를 임상 장면에서 실증적으로 연구했다."},
+      {"name_ko": "아모스 트버스키", "name_en": "Amos Tversky", "contribution": "Kahneman과 함께 앵커링과 조정 휴리스틱을 밝혀 초기 인상의 영향력을 설명하는 이론적 기초를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "확증 편향", "name_en": "Confirmation Bias", "id": "DIAGN_CB_024"},
+      {"name_ko": "임상적 판단", "name_en": "Clinical Judgment", "id": "DIAGN_CJ_023"},
+      {"name_ko": "주호소", "name_en": "Chief Complaint", "id": "DIAGN_CC_026"},
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "DIAGN_DI_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진단 인상 = 잠정적 가설 = 첫인상 → 앵커링 효과 주의 → 지속적 검증 필요",
+      "differential": "진단 인상은 초기의 잠정적 가설이고, 최종 진단(definitive diagnosis)은 충분한 정보에 기반한 확정된 판단이다.",
+      "key_point": "초기 진단 인상에 대한 앵커링 효과로 인해 이후 정보를 편향적으로 처리할 수 있으므로, 의식적으로 대안 가설을 유지해야 한다.",
+      "common_mistake": "진단 인상을 확정 진단처럼 취급하는 것 — 진단 인상은 잠정적이며 추가 평가를 통해 수정될 수 있다."
+    }
+  },
+  {
+    "id": "DIAGN_CC_026",
+    "terminology": "주호소 (Chief Complaint)",
+    "terminology_ko": "주호소",
+    "terminology_en": "Chief Complaint",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "내담자가 치료를 받으러 온 주된 이유를 자신의 말로 표현한 것으로, 가장 괴롭거나 시급한 문제가 무엇인지를 파악하여 평가의 초점과 방향을 설정하는 임상 면접의 시작점이다.",
+    "definition_en": "The primary reason the client seeks treatment expressed in their own words, identifying the most distressing or urgent problem to establish the focus and direction of assessment as the starting point of the clinical interview.",
+    "significance": "내담자의 주관적 경험과 우선순위를 반영하며, 치료 동기와 기대를 이해하는 첫 번째 단서가 된다.",
+    "key_researchers": [
+      {"name_ko": "게리 그로스", "name_en": "Gerald Groth-Marnat", "contribution": "심리평가 핸드북에서 주호소 탐색 기법을 체계적으로 정리하여 임상 면접의 구조화에 기여했다."},
+      {"name_ko": "에릭 포머란츠", "name_en": "Eric Pomerantz", "contribution": "임상심리학 교재에서 주호소의 중요성과 효과적인 탐색 방법을 상세히 기술했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "DIAGN_DI_010"},
+      {"name_ko": "진단 인상", "name_en": "Diagnostic Impression", "id": "DIAGN_DIMP_025"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "주호소 = Chief Complaint = '오늘 어떤 문제로 오셨나요?'에 대한 내담자의 답변",
+      "differential": "주호소는 내담자가 보고하는 주관적 문제이고, 임상적 소견은 임상가가 관찰한 객관적 평가 결과이다. 두 가지가 일치하지 않을 수 있다.",
+      "key_point": "주호소는 가능한 한 내담자의 원래 표현 그대로 기록해야 하며, 이는 내담자의 문제 인식과 표현 방식에 대한 정보를 제공한다.",
+      "common_mistake": "주호소를 곧바로 진단으로 연결하는 것 — 주호소는 평가의 출발점일 뿐, 체계적인 진단 과정이 반드시 수반되어야 한다."
+    }
+  },
+  {
+    "id": "DIAGN_PP_027",
+    "terminology": "정신병리학 (Psychopathology)",
+    "terminology_ko": "정신병리학",
+    "terminology_en": "Psychopathology",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "이상 행동, 인지, 정서의 과학적 연구 분야로, 정신장애의 원인(병인론), 발달 과정, 증상 양상, 분류 체계를 포괄적으로 다루며, 기술적 정신병리학과 설명적 정신병리학으로 구분된다.",
+    "definition_en": "The scientific study of abnormal behavior, cognition, and emotion, comprehensively addressing the etiology, developmental course, symptom patterns, and classification systems of mental disorders, divided into descriptive and explanatory psychopathology.",
+    "significance": "임상심리학의 지식 기반을 구성하는 핵심 학문으로, 진단 체계의 이론적 토대를 제공하고 새로운 치료법 개발의 출발점이 된다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "기술적 정신병리학의 선구자로서 정신장애를 체계적으로 관찰, 분류하여 현대 진단 체계의 기초를 놓았다."},
+      {"name_ko": "카를 야스퍼스", "name_en": "Karl Jaspers", "contribution": "'일반 정신병리학(General Psychopathology, 1913)'을 저술하여 정신병리학을 독립적인 학문 분야로 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이상행동의 기준", "name_en": "Criteria for Abnormality", "id": "DIAGN_ABN_028"},
+      {"name_ko": "정신장애의 진단", "name_en": "Diagnosis of Mental Disorders", "id": "DIAGN_DMD_001"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"},
+      {"name_ko": "문화관련 증후군", "name_en": "Culture-Bound Syndromes", "id": "DIAGN_CBS_020"}
+    ],
+    "sub_types": [
+      {"name": "기술적 정신병리학(Descriptive psychopathology)", "description": "증상과 징후를 관찰하고 기술하여 분류하는 접근"},
+      {"name": "설명적 정신병리학(Explanatory psychopathology)", "description": "증상의 원인과 기제를 이론적으로 설명하는 접근"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "정신병리학 = Psycho(마음) + Patho(질병) + Logy(학문) = 정신장애의 과학적 연구",
+      "differential": "정신병리학은 이상 행동의 과학적 연구 분야 전체를 지칭하고, 진단은 개별 사례에 대한 분류 판정 행위이다.",
+      "key_point": "Kraepelin의 기술적 접근과 Jaspers의 현상학적 접근이 현대 정신병리학의 두 축을 형성한다.",
+      "common_mistake": "정신병리학과 임상심리학을 동의어로 사용하는 것 — 정신병리학은 이상 행동의 연구이고, 임상심리학은 평가·진단·치료를 포함하는 더 넓은 분야이다."
+    }
+  },
+  {
+    "id": "DIAGN_ABN_028",
+    "terminology": "이상행동의 기준 (Criteria for Abnormality)",
+    "terminology_ko": "이상행동의 기준",
+    "terminology_en": "Criteria for Abnormality",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "행동이나 심리 상태가 '이상'인지를 판별하기 위해 사용되는 다중 기준으로, 통계적 비정상, 사회적 규범 위반, 개인적 고통, 기능 손상, 예측불가능성, 위험성 등이 포함되며 단일 기준만으로는 충분하지 않다.",
+    "definition_en": "Multiple criteria used to determine whether behavior or psychological states are 'abnormal,' including statistical infrequency, violation of social norms, personal distress, functional impairment, unpredictability, and dangerousness, with no single criterion being sufficient alone.",
+    "significance": "정상과 이상의 경계를 정의하는 근본 문제로, 진단 체계의 토대이자 정신장애 개념의 철학적·과학적 기반을 구성한다.",
+    "key_researchers": [
+      {"name_ko": "제롬 웨이크필드", "name_en": "Jerome Wakefield", "contribution": "'해로운 기능장애(harmful dysfunction)' 개념을 제안하여 정신장애를 진화적 기능의 실패와 사회적 해로움의 결합으로 정의했다."},
+      {"name_ko": "데이비드 로젠한", "name_en": "David Rosenhan", "contribution": "정상과 이상의 구분이 얼마나 어려운지를 가짜 환자 연구(1973)로 극적으로 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신병리학", "name_en": "Psychopathology", "id": "DIAGN_PP_027"},
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "DIAGN_FI_029"},
+      {"name_ko": "문화적 맥락과 진단", "name_en": "Cultural Context in Diagnosis", "id": "DIAGN_CCD_019"},
+      {"name_ko": "과진단", "name_en": "Overdiagnosis", "id": "DIAGN_OD_022"}
+    ],
+    "sub_types": [
+      {"name": "통계적 비정상(Statistical infrequency)", "description": "통계적으로 드문 행동이나 특성"},
+      {"name": "사회적 규범 위반(Violation of social norms)", "description": "사회적으로 수용되지 않는 행동"},
+      {"name": "개인적 고통(Personal distress)", "description": "본인이 경험하는 주관적 고통"},
+      {"name": "기능 손상(Functional impairment)", "description": "일상생활 기능의 저하"},
+      {"name": "위험성(Dangerousness)", "description": "자신이나 타인에게 해를 끼칠 위험"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "이상행동 기준: 통계적 비정상, 규범 위반, 고통, 기능 손상, 예측불가, 위험성 — 다중 기준 필요",
+      "differential": "이상행동의 기준은 정상/이상을 구분하는 다중 기준이고, 진단기준(diagnostic criteria)은 특정 장애의 충족 조건이다.",
+      "key_point": "단일 기준만으로는 이상을 정의할 수 없으며, 여러 기준의 종합적 고려가 필요하다(예: 통계적으로 드물지만 정상인 경우 — 천재).",
+      "common_mistake": "하나의 기준만으로 이상을 판단하는 것 — 통계적으로 드문 행동(예: 매우 높은 지능)이 반드시 이상은 아니다."
+    }
+  },
+  {
+    "id": "DIAGN_FI_029",
+    "terminology": "기능 손상 (Functional Impairment)",
+    "terminology_ko": "기능 손상",
+    "terminology_en": "Functional Impairment",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "정신장애의 증상으로 인해 직업, 학업, 대인관계, 자기돌봄 등 일상생활의 주요 영역에서 기능이 유의미하게 저하된 상태로, 대부분의 DSM-5 진단에서 필수 기준으로 포함되는 핵심 개념이다.",
+    "definition_en": "A significant reduction in functioning across major domains of daily life including occupational, academic, interpersonal, and self-care areas due to mental disorder symptoms, a core concept included as a required criterion in most DSM-5 diagnoses.",
+    "significance": "증상의 존재만으로는 진단에 불충분하며, 기능 손상이 동반되어야 임상적 진단이 정당화되므로 과진단을 방지하는 중요한 역치(threshold) 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "제롬 웨이크필드", "name_en": "Jerome Wakefield", "contribution": "기능 손상을 정신장애 정의의 핵심 구성요소로 이론화하여 '해로운 기능장애' 분석을 제시했다."},
+      {"name_ko": "존 엔디콧", "name_en": "Jean Endicott", "contribution": "전반적 기능 평가(GAF) 척도의 개발에 참여하여 기능 수준의 정량적 평가를 가능하게 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "전반적 기능 평가 GAF", "name_en": "Global Assessment of Functioning", "id": "DIAGN_GAF_030"},
+      {"name_ko": "이상행동의 기준", "name_en": "Criteria for Abnormality", "id": "DIAGN_ABN_028"},
+      {"name_ko": "과진단", "name_en": "Overdiagnosis", "id": "DIAGN_OD_022"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기능 손상 = 'clinically significant distress or impairment' — DSM-5 진단기준의 단골 문구",
+      "differential": "기능 손상은 실제 생활에서의 수행 저하를 의미하고, 증상(symptoms)은 장애의 내적 징후이다. 증상이 있어도 기능 손상이 없으면 진단되지 않을 수 있다.",
+      "key_point": "DSM-5 대부분의 진단에서 '임상적으로 유의미한 고통이나 기능 손상'이 요구되며, 이것이 정상 변이와 장애를 구분하는 역치가 된다.",
+      "common_mistake": "증상이 있으면 자동으로 기능 손상이 있다고 가정하는 것 — 경미한 증상은 기능에 영향을 미치지 않을 수 있다."
+    }
+  },
+  {
+    "id": "DIAGN_GAF_030",
+    "terminology": "전반적 기능 평가 GAF (Global Assessment of Functioning)",
+    "terminology_ko": "전반적 기능 평가 GAF",
+    "terminology_en": "Global Assessment of Functioning",
+    "category": "DIAGN",
+    "category_name": "진단 (Diagnosis)",
+    "definition": "DSM-IV-TR의 축 V에서 사용된 0~100점 척도로, 심리적, 사회적, 직업적 기능의 전반적 수준을 단일 점수로 평가하는 도구이며, DSM-5에서는 공식 폐지되고 WHO 장애 평가 척도(WHODAS 2.0)가 대안으로 제시되었다.",
+    "definition_en": "A 0-100 scale used in Axis V of DSM-IV-TR to rate the overall level of psychological, social, and occupational functioning as a single score, officially discontinued in DSM-5 and replaced by the WHO Disability Assessment Schedule (WHODAS 2.0) as an alternative.",
+    "significance": "환자의 기능 수준을 단일 수치로 요약하여 치료 효과 측정과 의사소통에 유용했으나, 증상과 기능을 혼합 측정한다는 비판으로 DSM-5에서 폐지되었다.",
+    "key_researchers": [
+      {"name_ko": "존 엔디콧", "name_en": "Jean Endicott", "contribution": "Global Assessment Scale(GAS)을 개발하여 GAF의 원형을 만들었다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "GAS를 기반으로 GAF 척도를 DSM-III-R의 축 V에 포함시켜 기능 평가를 진단 체계에 통합했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능 손상", "name_en": "Functional Impairment", "id": "DIAGN_FI_029"},
+      {"name_ko": "다축 진단체계", "name_en": "Multiaxial System", "id": "DIAGN_MULTI_012"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM5_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "GAF: 0~100점, 축 V, DSM-IV-TR까지 사용, DSM-5에서 폐지 → WHODAS 2.0 대안",
+      "differential": "GAF는 증상과 기능을 혼합 측정하는 단일 점수이고, WHODAS 2.0은 기능만을 다차원적으로 평가하는 도구이다.",
+      "key_point": "DSM-5에서 GAF가 폐지된 주요 이유는 증상 심각도와 기능 수준을 하나의 점수로 혼합하여 해석이 모호했기 때문이다.",
+      "common_mistake": "DSM-5에서도 GAF를 공식적으로 사용한다고 오해하는 것 — DSM-5에서 폐지되었으며, WHODAS 2.0이 대안으로 권장된다."
+    }
+  }
+]

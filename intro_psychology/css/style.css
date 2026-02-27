@@ -225,6 +225,22 @@ body {
 /* --- Pages --- */
 .page { padding: 0 20px 40px; }
 
+/* --- Portal Link --- */
+.portal-link {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 12px 0 0 4px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.portal-link:hover {
+  background: var(--card-bg);
+  color: var(--text-primary);
+}
+
 /* --- Home Hero --- */
 .home-hero {
   text-align: center;
@@ -1421,6 +1437,7 @@ body {
 .crossword-cell {
   width: 36px;
   height: 36px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2003,4 +2020,61 @@ body {
 }
 [data-theme="dark"] .english-input.wrong {
   background: rgba(231, 76, 60, 0.15);
+}
+
+/* ─── 광고 블록 ─── */
+.ad-block {
+  max-width: 728px;
+  margin: 24px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.ad-books-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.ad-books-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ad-book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--card-bg);
+  text-decoration: none;
+  color: var(--text-primary);
+  font-size: 13px;
+  transition: background 0.2s;
+}
+
+.ad-book-item:hover {
+  background: var(--card-bg-hover);
+}
+
+.ad-book-arrow {
+  flex-shrink: 0;
+  margin-left: 8px;
+  color: var(--text-secondary);
+}
+
+.ad-disclosure {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
+
+@media (max-width: 520px) {
+  .ad-block {
+    padding: 0 12px;
+    margin: 16px auto;
+  }
 }

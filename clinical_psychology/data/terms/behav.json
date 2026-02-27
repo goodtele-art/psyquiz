@@ -1,0 +1,888 @@
+[
+  {
+    "id": "BEHAV_BA_001",
+    "terminology": "행동평가 (Behavioral Assessment)",
+    "terminology_ko": "행동평가",
+    "terminology_en": "Behavioral Assessment",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "개인의 행동과 그 행동이 발생하는 환경적 맥락을 체계적으로 측정하고 분석하는 평가 접근법으로, 행동의 선행사건, 행동 자체, 결과를 파악하여 행동의 기능을 이해하는 데 초점을 둔다.",
+    "definition_en": "A systematic approach to measuring and analyzing an individual's behavior and the environmental context in which it occurs, focusing on identifying antecedents, the behavior itself, and consequences to understand the function of behavior.",
+    "significance": "전통적 특질 중심 평가와 달리 구체적이고 관찰 가능한 행동에 초점을 맞추어 치료 계획 수립과 중재 효과 평가에 직접적으로 활용할 수 있는 임상심리학의 핵심 평가 패러다임이다.",
+    "key_researchers": [
+      {"name_ko": "골드프리드", "name_en": "Marvin Goldfried", "contribution": "행동평가의 이론적 틀을 체계화하고 전통적 성격평가와의 차이를 명확히 구분했다."},
+      {"name_ko": "바를로", "name_en": "David Barlow", "contribution": "행동평가와 임상적 의사결정 간의 연결을 강조하며 증거기반 행동평가 모델을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"},
+      {"name_ko": "ABC 모델", "name_en": "ABC Model", "id": "BEHAV_ABC_003"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [
+      {"name": "직접 관찰", "description": "자연적 또는 유사 환경에서 행동을 직접 관찰하여 기록하는 방법"},
+      {"name": "면접", "description": "행동 면접을 통해 문제행동의 선행사건과 결과를 파악하는 방법"},
+      {"name": "자기보고", "description": "행동 평정 척도나 자기모니터링을 통한 자기보고식 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동평가 = '무엇을, 언제, 어디서, 왜' 하는지를 관찰·측정하는 접근",
+      "differential": "행동평가는 구체적 행동과 환경 맥락에 초점을 두는 반면, 전통적 성격평가(MMPI 등)는 내적 특질이나 역동에 초점을 둔다.",
+      "key_point": "행동평가의 핵심은 행동과 환경 간의 기능적 관계를 파악하는 것이며, 이는 치료 목표 설정과 중재 전략에 직접 연결된다.",
+      "common_mistake": "행동평가를 단순히 '행동을 관찰하는 것'으로 축소하는 오류 — 면접, 자기보고, 생리적 측정 등 다양한 방법을 포괄한다."
+    }
+  },
+  {
+    "id": "BEHAV_FA_002",
+    "terminology": "기능분석 (Functional Analysis)",
+    "terminology_ko": "기능분석",
+    "terminology_en": "Functional Analysis",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "문제행동의 선행사건과 후속결과를 체계적으로 조작하여 행동의 기능(목적)을 실험적으로 규명하는 평가 방법으로, 행동이 환경적 변인에 의해 유지되는 메커니즘을 밝히는 데 핵심적인 절차이다.",
+    "definition_en": "An assessment method that systematically manipulates antecedents and consequences of problem behavior to experimentally identify the function (purpose) of the behavior, revealing the mechanisms by which behavior is maintained by environmental variables.",
+    "significance": "문제행동의 원인을 추론이 아닌 실험적 검증을 통해 확인함으로써 개별화된 중재 계획을 수립할 수 있게 해주는 행동평가의 가장 엄밀한 방법이다.",
+    "key_researchers": [
+      {"name_ko": "이와타", "name_en": "Brian Iwata", "contribution": "기능분석의 표준 실험 절차(아날로그 기능분석)를 개발하여 자해행동의 기능을 체계적으로 평가하는 방법론을 확립했다."},
+      {"name_ko": "스키너", "name_en": "B. F. Skinner", "contribution": "조작적 조건형성 이론을 통해 행동의 기능적 관계 분석의 이론적 기초를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "ABC 모델", "name_en": "ABC Model", "id": "BEHAV_ABC_003"},
+      {"name_ko": "기능적 행동 평가", "name_en": "Functional Behavioral Assessment", "id": "BEHAV_FBA_027"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "BEHAV_RF_026"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"}
+    ],
+    "sub_types": [
+      {"name": "아날로그 기능분석", "description": "통제된 환경에서 선행사건과 결과를 체계적으로 조작하는 실험적 방법"},
+      {"name": "간략 기능분석", "description": "시간과 자원이 제한된 상황에서 축약된 절차로 행동 기능을 파악하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "기능분석 = '왜 이 행동을 하는가?'를 실험으로 증명하는 절차",
+      "differential": "기능분석은 환경 변인을 직접 조작하는 실험적 방법이고, 기능적 행동 평가(FBA)는 관찰·면접·기능분석을 모두 포괄하는 상위 개념이다.",
+      "key_point": "Iwata 등(1982/1994)의 아날로그 기능분석은 주의, 회피/도피, 자동강화, 통제 조건의 4가지 조건으로 구성된다.",
+      "common_mistake": "기능분석과 기능적 행동 평가(FBA)를 동일시하는 오류 — 기능분석은 FBA의 한 구성요소이다."
+    }
+  },
+  {
+    "id": "BEHAV_ABC_003",
+    "terminology": "ABC 모델 (Antecedent-Behavior-Consequence Model)",
+    "terminology_ko": "ABC 모델",
+    "terminology_en": "Antecedent-Behavior-Consequence Model",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "행동을 선행사건(Antecedent), 행동(Behavior), 결과(Consequence)의 세 요소로 분석하는 행동평가의 기본 틀로, 행동이 어떤 상황에서 발생하고 어떤 결과에 의해 유지되는지를 체계적으로 이해하는 데 사용된다.",
+    "definition_en": "The fundamental framework of behavioral assessment that analyzes behavior in terms of three components—Antecedent, Behavior, and Consequence—used to systematically understand the situations in which behavior occurs and the consequences that maintain it.",
+    "significance": "행동의 환경적 맥락을 구조화하여 분석할 수 있게 해주는 행동주의 평가와 치료의 핵심 분석 틀이며, 기능분석과 행동 중재의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "스키너", "name_en": "B. F. Skinner", "contribution": "조작적 조건형성에서 삼항수반성(three-term contingency) 개념을 제시하여 ABC 모델의 이론적 토대를 마련했다."},
+      {"name_ko": "칸퍼", "name_en": "Frederick Kanfer", "contribution": "행동분석 모델을 임상 장면에 적용하여 S-O-R-K-C 모델로 확장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"},
+      {"name_ko": "선행사건", "name_en": "Antecedent", "id": "BEHAV_ANT_024"},
+      {"name_ko": "결과/후속자극", "name_en": "Consequence", "id": "BEHAV_CON_025"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "BEHAV_RF_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ABC = Antecedent(선행) → Behavior(행동) → Consequence(결과), 알파벳 순서 그대로",
+      "differential": "ABC 모델은 행동의 환경적 맥락을 분석하는 틀이고, 인지행동 모델은 여기에 인지적 요소(사고, 신념)를 추가한 확장 모델이다.",
+      "key_point": "ABC 분석의 핵심은 행동 자체뿐 아니라 그 행동을 촉발하는 선행사건과 유지시키는 결과를 함께 파악하는 것이다.",
+      "common_mistake": "ABC에서 C(결과)를 단순히 '부정적 결과'로만 이해하는 오류 — 행동을 강화하는 긍정적 결과도 포함된다."
+    }
+  },
+  {
+    "id": "BEHAV_BO_004",
+    "terminology": "행동 관찰 (Behavioral Observation)",
+    "terminology_ko": "행동 관찰",
+    "terminology_en": "Behavioral Observation",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "대상자의 행동을 직접 관찰하고 체계적으로 기록하는 평가 방법으로, 자연적 환경이나 통제된 환경에서 행동의 빈도, 지속시간, 강도 등을 측정하여 객관적인 행동 데이터를 수집한다.",
+    "definition_en": "An assessment method involving direct observation and systematic recording of a subject's behavior, collecting objective behavioral data by measuring frequency, duration, and intensity of behavior in natural or controlled settings.",
+    "significance": "자기보고에 의존하지 않고 실제 행동을 직접 측정함으로써 평가의 객관성과 생태학적 타당도를 높일 수 있는 행동평가의 핵심 방법이다.",
+    "key_researchers": [
+      {"name_ko": "패터슨", "name_en": "Gerald Patterson", "contribution": "가족 상호작용의 직접 관찰 방법을 개발하여 아동 행동문제의 가족 역동을 체계적으로 연구했다."},
+      {"name_ko": "존스", "name_en": "Robert Jones", "contribution": "행동 관찰의 신뢰도 평가 방법과 관찰자 훈련 절차를 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "자연적 관찰", "name_en": "Naturalistic Observation", "id": "BEHAV_NO_005"},
+      {"name_ko": "유사 관찰", "name_en": "Analogue Observation", "id": "BEHAV_AO_006"},
+      {"name_ko": "관찰자 간 신뢰도", "name_en": "Interrater Reliability", "id": "BEHAV_IRR_020"},
+      {"name_ko": "행동관찰", "name_en": "Behavioral Observation", "id": "INTVIEW_BO_030"}
+    ],
+    "sub_types": [
+      {"name": "자연적 관찰", "description": "일상 환경에서 행동을 관찰하는 방법"},
+      {"name": "유사 관찰", "description": "통제된 실험실 환경에서 특정 상황을 설정하여 관찰하는 방법"},
+      {"name": "참여 관찰", "description": "관찰자가 대상자의 환경에 참여하며 관찰하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동 관찰 = 눈으로 직접 보고(관찰), 체계적으로 기록하는 평가",
+      "differential": "행동 관찰은 외현적 행동을 직접 측정하는 반면, 자기보고식 평가(설문지 등)는 내담자의 주관적 보고에 의존한다.",
+      "key_point": "관찰의 체계성을 확보하기 위해 조작적 정의, 표집 방법(시간/사건), 기록 체계가 사전에 정해져야 한다.",
+      "common_mistake": "행동 관찰이 항상 자연적 환경에서만 이루어진다고 생각하는 오류 — 유사 관찰(아날로그 관찰)처럼 통제된 환경에서도 수행된다."
+    }
+  },
+  {
+    "id": "BEHAV_NO_005",
+    "terminology": "자연적 관찰 (Naturalistic Observation)",
+    "terminology_ko": "자연적 관찰",
+    "terminology_en": "Naturalistic Observation",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "대상자의 일상적인 생활 환경(가정, 학교, 직장 등)에서 행동을 직접 관찰하는 방법으로, 실제 맥락에서의 행동 양상을 파악할 수 있어 생태학적 타당도가 높은 평가 방법이다.",
+    "definition_en": "A method of directly observing behavior in the subject's natural everyday environment (home, school, workplace), offering high ecological validity by capturing behavioral patterns in real-life contexts.",
+    "significance": "실험실이나 진료실에서는 나타나지 않는 실제 행동 패턴을 포착할 수 있어, 행동의 생태학적 맥락을 이해하는 데 필수적인 평가 방법이다.",
+    "key_researchers": [
+      {"name_ko": "패터슨", "name_en": "Gerald Patterson", "contribution": "가정 환경에서의 부모-자녀 상호작용 관찰 코딩 체계(Family Interaction Coding System)를 개발했다."},
+      {"name_ko": "바커", "name_en": "Roger Barker", "contribution": "생태심리학을 창시하고 자연 환경에서의 행동 관찰을 체계적 연구 방법으로 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "유사 관찰", "name_en": "Analogue Observation", "id": "BEHAV_AO_006"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"},
+      {"name_ko": "관찰자 반응성", "name_en": "Observer Reactivity", "id": "BEHAV_OR_021"},
+      {"name_ko": "생태학적 순간평가", "name_en": "Ecological Momentary Assessment", "id": "BEHAV_EMA_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자연적 관찰 = '현장'에서 '있는 그대로' 관찰 → 생태학적 타당도 최고",
+      "differential": "자연적 관찰은 실제 생활 환경에서 이루어지는 반면, 유사 관찰(아날로그 관찰)은 실험실이나 클리닉에서 특정 상황을 재현하여 관찰한다.",
+      "key_point": "장점은 높은 생태학적 타당도이지만, 단점은 관찰자 반응성, 시간/비용 소요, 통제 부족으로 인한 표준화 어려움이다.",
+      "common_mistake": "자연적 관찰에서는 관찰자가 개입하지 않으므로 관찰자 반응성이 없다고 보는 오류 — 관찰 대상이 관찰자를 인식하면 행동이 변할 수 있다."
+    }
+  },
+  {
+    "id": "BEHAV_AO_006",
+    "terminology": "유사 관찰 (Analogue Observation)",
+    "terminology_ko": "유사 관찰",
+    "terminology_en": "Analogue Observation",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "클리닉이나 실험실 등 통제된 환경에서 특정 상황을 인위적으로 설정하여 대상자의 행동을 관찰하는 방법으로, 자연 환경에서 관찰하기 어려운 행동을 표준화된 조건에서 유발할 수 있다.",
+    "definition_en": "A method of observing behavior in controlled settings such as clinics or laboratories by artificially creating specific situations, enabling the elicitation of behaviors that are difficult to observe in natural environments under standardized conditions.",
+    "significance": "표준화된 상황 설정으로 행동의 비교 가능성과 내적 타당도를 높일 수 있으며, 드물게 발생하는 문제행동도 체계적으로 관찰할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "이와타", "name_en": "Brian Iwata", "contribution": "아날로그 기능분석 절차를 개발하여 통제된 환경에서 문제행동의 기능을 체계적으로 평가하는 방법을 확립했다."},
+      {"name_ko": "로버츠", "name_en": "Michael Roberts", "contribution": "아동 행동문제의 아날로그 관찰 절차를 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "자연적 관찰", "name_en": "Naturalistic Observation", "id": "BEHAV_NO_005"},
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유사 관찰 = '유사(analogue)' 환경 = 실험실에서 실제와 '비슷한' 상황을 만들어 관찰",
+      "differential": "유사 관찰은 통제된 환경에서 표준화된 상황을 설정하여 관찰하고, 자연적 관찰은 실제 생활 환경에서 관찰한다. 유사 관찰은 내적 타당도가 높고 자연적 관찰은 생태학적 타당도가 높다.",
+      "key_point": "행동활성화검사(BAT)가 대표적인 유사 관찰 방법으로, 불안장애 환자에게 두려운 대상에 접근하게 하여 회피 행동을 측정한다.",
+      "common_mistake": "유사 관찰에서 관찰된 행동이 실제 생활에서도 동일하게 나타난다고 가정하는 오류 — 인위적 환경의 한계로 생태학적 타당도가 낮을 수 있다."
+    }
+  },
+  {
+    "id": "BEHAV_SM_007",
+    "terminology": "자기모니터링 (Self-Monitoring)",
+    "terminology_ko": "자기모니터링",
+    "terminology_en": "Self-Monitoring",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "대상자가 자신의 행동, 사고, 감정을 스스로 관찰하고 기록하는 평가 방법으로, 내적 경험이나 은밀한 행동처럼 외부 관찰자가 접근하기 어려운 영역의 정보를 수집할 수 있다.",
+    "definition_en": "An assessment method in which the subject observes and records their own behavior, thoughts, and emotions, enabling the collection of information about internal experiences and covert behaviors that are difficult for external observers to access.",
+    "significance": "외부 관찰이 불가능한 내적 경험과 사적 행동을 평가할 수 있는 유일한 방법이며, 평가와 동시에 치료적 효과(반응성)도 기대할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "넬슨", "name_en": "Rosemery Nelson-Gray", "contribution": "자기모니터링의 반응성(reactivity) 현상을 체계적으로 연구하고 그 활용 가능성을 제시했다."},
+      {"name_ko": "코프", "name_en": "Steven Hayes", "contribution": "자기관찰을 치료적 개입의 핵심 요소로 통합한 수용전념치료(ACT) 모델을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "생태학적 순간평가", "name_en": "Ecological Momentary Assessment", "id": "BEHAV_EMA_011"},
+      {"name_ko": "경험 표집법", "name_en": "Experience Sampling Method", "id": "BEHAV_ESM_012"},
+      {"name_ko": "관찰자 반응성", "name_en": "Observer Reactivity", "id": "BEHAV_OR_021"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "BEHAV_BA_001"}
+    ],
+    "sub_types": [
+      {"name": "빈도 자기모니터링", "description": "특정 행동이 발생할 때마다 횟수를 기록하는 방법"},
+      {"name": "일지 기록", "description": "행동과 관련된 상황, 사고, 감정을 구조화된 양식에 기록하는 방법"},
+      {"name": "디지털 자기모니터링", "description": "스마트폰 앱이나 웨어러블 기기를 활용한 실시간 자기관찰"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "자기모니터링 = 자기 자신이 관찰자 역할 → 자기관찰 + 자기기록",
+      "differential": "자기모니터링은 대상자가 직접 자신의 행동을 기록하는 반면, 행동 관찰은 외부 관찰자가 대상자의 행동을 기록한다.",
+      "key_point": "자기모니터링의 반응성(reactivity)은 기록 행위 자체가 행동을 변화시키는 현상으로, 이를 평가 한계로 볼 수도 있고 치료적으로 활용할 수도 있다.",
+      "common_mistake": "자기모니터링 데이터가 항상 정확하다고 가정하는 오류 — 기억 왜곡, 사회적 바람직성, 기록 피로 등으로 정확도가 떨어질 수 있다."
+    }
+  },
+  {
+    "id": "BEHAV_BRS_008",
+    "terminology": "행동 평정 척도 (Behavioral Rating Scales)",
+    "terminology_ko": "행동 평정 척도",
+    "terminology_en": "Behavioral Rating Scales",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "대상자의 행동 특성을 관찰자(부모, 교사 등) 또는 대상자 본인이 표준화된 척도에 따라 평정하는 구조화된 도구로, 행동 문제의 유형과 심각도를 체계적으로 평가할 수 있다.",
+    "definition_en": "Standardized instruments in which observers (parents, teachers, etc.) or the subjects themselves rate behavioral characteristics on structured scales, enabling systematic assessment of the type and severity of behavioral problems.",
+    "significance": "표준화된 규준과 비교하여 행동 문제의 심각도를 객관적으로 판단할 수 있으며, 다양한 정보원의 관점을 통합적으로 수집할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "아켄바흐", "name_en": "Thomas Achenbach", "contribution": "ASEBA(Achenbach System of Empirically Based Assessment) 체계를 개발하여 다정보원 다축 행동 평정 시스템을 확립했다."},
+      {"name_ko": "코너스", "name_en": "C. Keith Conners", "contribution": "Conners 평정 척도를 개발하여 ADHD 평가의 표준적 행동 평정 도구를 만들었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "CBCL", "name_en": "Child Behavior Checklist", "id": "BEHAV_CBCL_009"},
+      {"name_ko": "Conners 평정 척도", "name_en": "Conners Rating Scales", "id": "BEHAV_CRS_010"},
+      {"name_ko": "관찰자 간 신뢰도", "name_en": "Interrater Reliability", "id": "BEHAV_IRR_020"}
+    ],
+    "sub_types": [
+      {"name": "광대역 척도", "description": "다양한 영역의 행동 문제를 포괄적으로 평가하는 척도 (예: CBCL)"},
+      {"name": "협대역 척도", "description": "특정 행동 문제(ADHD, 불안 등)에 초점을 맞춘 척도 (예: Conners)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동 평정 척도 = 표준화된 '체크리스트'로 행동을 '점수화'하는 도구",
+      "differential": "행동 평정 척도는 관찰자의 주관적 판단을 표준화된 형식으로 수집하는 반면, 직접 관찰은 실시간으로 행동을 기록한다.",
+      "key_point": "다정보원 평가(부모, 교사, 본인)를 통해 상황 간 행동 일관성을 비교할 수 있으며, 정보원 간 불일치 자체가 임상적으로 유의미한 정보가 된다.",
+      "common_mistake": "하나의 정보원(예: 부모)의 평정만으로 행동 문제를 판단하는 오류 — 다정보원 평가가 원칙이다."
+    }
+  },
+  {
+    "id": "BEHAV_CBCL_009",
+    "terminology": "CBCL (Child Behavior Checklist)",
+    "terminology_ko": "CBCL",
+    "terminology_en": "Child Behavior Checklist",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "아켄바흐가 개발한 아동·청소년 행동 평가 체크리스트로, 부모가 자녀의 행동 문제를 평정하며, 내재화(불안/우울)와 외현화(공격/규칙위반) 문제를 포괄적으로 측정하는 광대역 행동 평정 도구이다.",
+    "definition_en": "A broadband behavioral rating instrument developed by Achenbach in which parents rate their child's behavioral problems, comprehensively measuring internalizing (anxiety/depression) and externalizing (aggression/rule-breaking) problems.",
+    "significance": "아동·청소년 행동 문제의 경험적 분류 체계를 제공하며, 전 세계적으로 가장 널리 사용되는 아동 행동 평가 도구 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "아켄바흐", "name_en": "Thomas Achenbach", "contribution": "CBCL을 포함한 ASEBA 체계를 개발하고, 아동 행동 문제의 경험적 분류 시스템(내재화-외현화 차원)을 확립했다."},
+      {"name_ko": "레스코를라", "name_en": "Leslie Rescorla", "contribution": "CBCL의 유아 버전(1.5-5세)을 공동 개발하고 다문화 규준 연구를 주도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동 평정 척도", "name_en": "Behavioral Rating Scales", "id": "BEHAV_BRS_008"},
+      {"name_ko": "Conners 평정 척도", "name_en": "Conners Rating Scales", "id": "BEHAV_CRS_010"},
+      {"name_ko": "아동행동체크리스트", "name_en": "Child Behavior Checklist", "id": "CHILD_CBI_005"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_003"}
+    ],
+    "sub_types": [
+      {"name": "CBCL 6-18", "description": "6~18세 아동·청소년용 부모 보고형 체크리스트"},
+      {"name": "CBCL 1.5-5", "description": "1.5~5세 유아용 부모 보고형 체크리스트"},
+      {"name": "TRF", "description": "교사 보고형(Teacher's Report Form)"},
+      {"name": "YSR", "description": "청소년 자기보고형(Youth Self-Report)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CBCL = Child Behavior Checklist, 아켄바흐(Achenbach)가 만든 부모 평정 도구, 내재화 vs 외현화",
+      "differential": "CBCL은 광대역 척도로 다양한 행동 문제를 포괄적으로 평가하는 반면, Conners 척도는 주로 ADHD에 초점을 맞춘 협대역 척도이다.",
+      "key_point": "내재화 문제(위축, 불안/우울, 신체증상)와 외현화 문제(규칙위반행동, 공격행동)의 2차원 구조가 핵심이며, 8개 증후군 척도로 세분화된다.",
+      "common_mistake": "CBCL을 진단 도구로 사용하는 오류 — CBCL은 선별과 문제 파악을 위한 행동 평정 도구이지 DSM 진단을 내리는 도구가 아니다."
+    }
+  },
+  {
+    "id": "BEHAV_CRS_010",
+    "terminology": "Conners 평정 척도 (Conners Rating Scales)",
+    "terminology_ko": "Conners 평정 척도",
+    "terminology_en": "Conners Rating Scales",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "코너스가 개발한 ADHD 및 관련 행동 문제를 평가하기 위한 행동 평정 척도 시리즈로, 부모용, 교사용, 자기보고용으로 구성되며 주의력 결핍, 과잉행동, 반항행동 등을 측정한다.",
+    "definition_en": "A series of behavioral rating scales developed by Conners for assessing ADHD and related behavioral problems, consisting of parent, teacher, and self-report versions measuring attention deficit, hyperactivity, and oppositional behavior.",
+    "significance": "ADHD 평가에서 가장 널리 사용되는 행동 평정 척도로, 치료 효과 모니터링과 선별 검사에 핵심적인 도구이다.",
+    "key_researchers": [
+      {"name_ko": "코너스", "name_en": "C. Keith Conners", "contribution": "1960년대부터 ADHD 평가 척도를 개발하기 시작하여 현재 Conners-4까지 발전시키며, ADHD 행동 평정의 표준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "CBCL", "name_en": "Child Behavior Checklist", "id": "BEHAV_CBCL_009"},
+      {"name_ko": "행동 평정 척도", "name_en": "Behavioral Rating Scales", "id": "BEHAV_BRS_008"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_003"}
+    ],
+    "sub_types": [
+      {"name": "Conners-4 부모용", "description": "부모가 자녀의 ADHD 관련 행동을 평정하는 최신 버전"},
+      {"name": "Conners-4 교사용", "description": "교사가 학교에서의 행동을 평정하는 버전"},
+      {"name": "Conners-4 자기보고용", "description": "청소년 또는 성인이 직접 자신의 행동을 평정하는 버전"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Conners = ADHD 전문 평정 척도, C. Keith Conners 개발, 부모+교사+자기보고 3종",
+      "differential": "Conners 척도는 ADHD에 특화된 협대역 척도이고, CBCL은 다양한 행동 문제를 포괄적으로 평가하는 광대역 척도이다.",
+      "key_point": "다정보원 접근(부모, 교사, 본인)으로 상황 간 행동 차이를 비교할 수 있으며, 특히 가정과 학교에서의 ADHD 증상 비교가 진단에 중요하다.",
+      "common_mistake": "Conners 척도의 결과만으로 ADHD를 확진할 수 있다고 보는 오류 — ADHD 진단에는 행동 평정 외에 면담, 인지검사, 관찰 등 다면적 평가가 필요하다."
+    }
+  },
+  {
+    "id": "BEHAV_EMA_011",
+    "terminology": "생태학적 순간평가 (Ecological Momentary Assessment)",
+    "terminology_ko": "생태학적 순간평가",
+    "terminology_en": "Ecological Momentary Assessment",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "일상생활 환경에서 실시간으로 반복 측정하는 평가 방법으로, 스마트폰 알림 등을 통해 그 순간의 행동, 감정, 사고를 즉시 기록하게 하여 회고적 편향을 최소화하고 생태학적 타당도를 극대화한다.",
+    "definition_en": "A repeated measurement method in real-time within daily life environments that uses smartphone notifications and similar prompts to record behavior, emotions, and thoughts at the moment, minimizing retrospective bias and maximizing ecological validity.",
+    "significance": "전통적 자기보고의 회고적 편향 문제를 극복하고, 행동과 정서의 시간적 역동성을 실시간으로 포착할 수 있는 현대적 행동평가 방법이다.",
+    "key_researchers": [
+      {"name_ko": "스톤", "name_en": "Arthur Stone", "contribution": "EMA 방법론의 개념적 틀을 체계화하고 통증 연구에 적용하여 회고적 보고의 부정확성을 입증했다."},
+      {"name_ko": "시프만", "name_en": "Saul Shiffman", "contribution": "흡연 행동 연구에 EMA를 적용하여 실시간 행동 평가의 유용성을 실증적으로 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "경험 표집법", "name_en": "Experience Sampling Method", "id": "BEHAV_ESM_012"},
+      {"name_ko": "자기모니터링", "name_en": "Self-Monitoring", "id": "BEHAV_SM_007"},
+      {"name_ko": "자연적 관찰", "name_en": "Naturalistic Observation", "id": "BEHAV_NO_005"}
+    ],
+    "sub_types": [
+      {"name": "신호 수반 표집", "description": "외부 신호(알림)에 반응하여 기록하는 방법"},
+      {"name": "사건 수반 표집", "description": "특정 사건 발생 시 기록하는 방법"},
+      {"name": "시간 수반 표집", "description": "일정한 시간 간격으로 기록하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "EMA = Ecological(생태적) + Momentary(순간적) + Assessment(평가) → '현장에서 그 순간에 평가'",
+      "differential": "EMA는 일상 환경에서 다양한 행동과 경험을 반복 측정하는 포괄적 방법이고, ESM(경험 표집법)은 주관적 경험에 초점을 둔 유사한 방법이다. 현재는 거의 동의어로 사용된다.",
+      "key_point": "핵심 장점은 회고적 편향(retrospective bias)을 최소화하고, 행동-환경 관계의 시간적 역동성을 포착할 수 있다는 점이다.",
+      "common_mistake": "EMA를 단순한 일기 기록과 동일시하는 오류 — EMA는 실시간 반복 측정이며, 하루 끝에 회고적으로 기록하는 일기와는 다르다."
+    }
+  },
+  {
+    "id": "BEHAV_ESM_012",
+    "terminology": "경험 표집법 (Experience Sampling Method)",
+    "terminology_ko": "경험 표집법",
+    "terminology_en": "Experience Sampling Method",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "일상생활 중 무선적 시점에 신호를 보내어 그 순간의 주관적 경험(감정, 사고, 활동)을 즉시 기록하게 하는 평가 방법으로, 일상에서의 심리적 경험을 실시간으로 표집하는 데 초점을 둔다.",
+    "definition_en": "An assessment method that sends signals at random times during daily life to have participants immediately record their subjective experiences (emotions, thoughts, activities) at that moment, focusing on real-time sampling of psychological experiences in daily life.",
+    "significance": "일상생활에서의 주관적 경험의 변동성과 맥락적 영향을 실시간으로 연구할 수 있게 해준 혁신적인 방법론으로, 정서와 동기 연구에 핵심적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "칙센트미하이", "name_en": "Mihaly Csikszentmihalyi", "contribution": "경험 표집법을 개발하여 일상생활에서의 흐름(flow) 경험과 주관적 경험의 역동적 변화를 실증적으로 연구했다."},
+      {"name_ko": "라르센", "name_en": "Reed Larson", "contribution": "ESM을 청소년 연구에 적용하여 발달적 맥락에서의 일상 경험을 체계적으로 탐구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "생태학적 순간평가", "name_en": "Ecological Momentary Assessment", "id": "BEHAV_EMA_011"},
+      {"name_ko": "자기모니터링", "name_en": "Self-Monitoring", "id": "BEHAV_SM_007"},
+      {"name_ko": "시간 표집법", "name_en": "Time Sampling", "id": "BEHAV_TS_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ESM = Experience(경험) + Sampling(표집) + Method(법) → 칙센트미하이가 'flow' 연구를 위해 개발",
+      "differential": "ESM은 주관적 경험에 초점을 두고 칙센트미하이가 개발한 방법이고, EMA는 행동과 생리적 측정까지 포괄하는 더 넓은 개념이다. 실제로는 상호 교환적으로 사용되는 경우가 많다.",
+      "key_point": "핵심은 '무선적(random) 시점'에 '즉각적(immediate)' 보고를 받는 것으로, 이를 통해 회고적 보고의 기억 편향을 피할 수 있다.",
+      "common_mistake": "ESM과 EMA가 완전히 동일한 방법이라고 보는 오류 — 기원과 강조점이 다르지만 현재는 수렴하는 추세이다."
+    }
+  },
+  {
+    "id": "BEHAV_TS_013",
+    "terminology": "시간 표집법 (Time Sampling)",
+    "terminology_ko": "시간 표집법",
+    "terminology_en": "Time Sampling",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "관찰 기간을 일정한 시간 간격으로 나누어 각 간격 내에서 목표 행동의 발생 여부를 기록하는 행동 관찰 방법으로, 연속 관찰이 어려운 상황에서 효율적으로 행동 데이터를 수집할 수 있다.",
+    "definition_en": "A behavioral observation method that divides the observation period into equal time intervals and records whether the target behavior occurs within each interval, enabling efficient collection of behavioral data when continuous observation is impractical.",
+    "significance": "연속 관찰의 비현실성을 해결하는 실용적 관찰 전략으로, 학교나 임상 장면에서 행동 빈도를 추정하는 데 널리 활용된다.",
+    "key_researchers": [
+      {"name_ko": "쿠퍼", "name_en": "John Cooper", "contribution": "응용행동분석(ABA)에서의 시간 표집법과 다양한 기록 방법의 체계적 분류와 적용 지침을 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "간격 기록", "name_en": "Interval Recording", "id": "BEHAV_IR_017"},
+      {"name_ko": "사건 기록법", "name_en": "Event Recording", "id": "BEHAV_ER_014"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"}
+    ],
+    "sub_types": [
+      {"name": "전체간격 기록", "description": "간격 전체 동안 행동이 지속될 때만 기록 (과소 추정 경향)"},
+      {"name": "부분간격 기록", "description": "간격 내 한 번이라도 행동이 발생하면 기록 (과대 추정 경향)"},
+      {"name": "순간시간 표집", "description": "각 간격의 끝 순간에 행동 발생 여부만 기록"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "시간 표집 = '시간을 나눠서(표집)' 각 구간마다 행동 발생 여부를 체크",
+      "differential": "시간 표집법은 정해진 시간 간격마다 행동 발생을 기록하는 반면, 사건 기록법은 행동이 발생할 때마다 기록한다.",
+      "key_point": "전체간격 기록은 행동을 과소 추정하고, 부분간격 기록은 과대 추정하는 경향이 있으므로 행동 특성에 맞는 방법을 선택해야 한다.",
+      "common_mistake": "시간 표집법이 행동의 정확한 빈도를 제공한다고 생각하는 오류 — 시간 표집은 빈도의 '추정치'를 제공하며 정확한 빈도는 사건 기록법으로 측정해야 한다."
+    }
+  },
+  {
+    "id": "BEHAV_ER_014",
+    "terminology": "사건 기록법 (Event Recording)",
+    "terminology_ko": "사건 기록법",
+    "terminology_en": "Event Recording",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "목표 행동이 발생할 때마다 그 발생을 기록하는 관찰 방법으로, 행동의 실제 빈도를 정확하게 측정할 수 있으며, 시작과 끝이 명확한 이산적 행동의 기록에 적합하다.",
+    "definition_en": "An observation method that records each occurrence of the target behavior as it happens, providing accurate measurement of actual behavior frequency, suitable for discrete behaviors with clear onset and offset.",
+    "significance": "행동의 실제 발생 빈도를 가장 정확하게 측정할 수 있는 방법으로, 이산적 행동의 기저선 측정과 중재 효과 평가에 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "쿠퍼", "name_en": "John Cooper", "contribution": "응용행동분석의 행동 측정 방법을 체계적으로 분류하고 사건 기록법의 적용 조건을 명확히 정의했다."},
+      {"name_ko": "배어", "name_en": "Donald Baer", "contribution": "응용행동분석의 창시자 중 한 명으로, 행동 측정 방법론의 기초를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "빈도 기록", "name_en": "Frequency Recording", "id": "BEHAV_FR_015"},
+      {"name_ko": "시간 표집법", "name_en": "Time Sampling", "id": "BEHAV_TS_013"},
+      {"name_ko": "기저선 측정", "name_en": "Baseline Measurement", "id": "BEHAV_BL_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사건 기록 = '사건(행동)이 일어날 때마다' 하나씩 기록 → 정확한 빈도 측정",
+      "differential": "사건 기록법은 행동 발생 시마다 기록하여 정확한 빈도를 제공하고, 시간 표집법은 정해진 간격에서만 기록하여 빈도를 추정한다.",
+      "key_point": "사건 기록법은 시작과 끝이 분명한 이산적 행동(손 들기, 소리 지르기 등)에 적합하며, 지속적 행동(엄지 빨기 등)에는 지속시간 기록이 더 적합하다.",
+      "common_mistake": "고빈도 행동이나 지속적 행동에도 사건 기록법을 적용하려는 오류 — 빠르게 반복되거나 지속되는 행동에는 시간 표집법이나 지속시간 기록이 더 적합하다."
+    }
+  },
+  {
+    "id": "BEHAV_FR_015",
+    "terminology": "빈도 기록 (Frequency Recording)",
+    "terminology_ko": "빈도 기록",
+    "terminology_en": "Frequency Recording",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "관찰 기간 동안 목표 행동이 발생한 총 횟수를 세어 기록하는 방법으로, 행동의 발생률을 산출하기 위해 관찰 시간으로 나누어 비율(rate)로 표현하기도 한다.",
+    "definition_en": "A method of counting and recording the total number of occurrences of the target behavior during an observation period, sometimes expressed as a rate by dividing by observation time to calculate the occurrence rate.",
+    "significance": "행동 발생의 절대적 빈도를 파악하는 가장 기본적인 행동 측정 방법으로, 중재 전후 비교의 기초 데이터를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "스키너", "name_en": "B. F. Skinner", "contribution": "반응률(response rate)을 행동의 핵심 측정 단위로 제안하여 빈도 기반 행동 측정의 이론적 근거를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사건 기록법", "name_en": "Event Recording", "id": "BEHAV_ER_014"},
+      {"name_ko": "지속시간 기록", "name_en": "Duration Recording", "id": "BEHAV_DR_016"},
+      {"name_ko": "기저선 측정", "name_en": "Baseline Measurement", "id": "BEHAV_BL_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "빈도 기록 = 행동 발생 '횟수'를 세는 가장 기본적인 측정법",
+      "differential": "빈도 기록은 행동이 '몇 번' 발생했는지를 측정하고, 지속시간 기록은 행동이 '얼마나 오래' 지속되었는지를 측정한다.",
+      "key_point": "관찰 시간이 다를 경우 단순 빈도가 아닌 비율(rate = 빈도/시간)로 변환해야 정확한 비교가 가능하다.",
+      "common_mistake": "관찰 시간이 다른 회기의 빈도를 직접 비교하는 오류 — 30분간 10회와 60분간 15회는 비율로 환산하면 전자가 더 높은 빈도이다."
+    }
+  },
+  {
+    "id": "BEHAV_DR_016",
+    "terminology": "지속시간 기록 (Duration Recording)",
+    "terminology_ko": "지속시간 기록",
+    "terminology_en": "Duration Recording",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "목표 행동이 시작된 시점부터 종료된 시점까지의 시간을 측정하여 기록하는 방법으로, 행동이 얼마나 오래 지속되는지가 임상적으로 중요한 경우에 사용된다.",
+    "definition_en": "A method of measuring and recording the time from the onset to the offset of a target behavior, used when the duration of the behavior is clinically significant.",
+    "significance": "빈도만으로는 파악할 수 없는 행동의 지속성 측면을 측정하여, 울음, 과제 이탈, 사회적 상호작용 등의 치료적 변화를 정확하게 모니터링할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "쿠퍼", "name_en": "John Cooper", "contribution": "행동 측정의 차원적 양적 체계에서 지속시간 기록의 위치와 적용 조건을 체계적으로 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "빈도 기록", "name_en": "Frequency Recording", "id": "BEHAV_FR_015"},
+      {"name_ko": "간격 기록", "name_en": "Interval Recording", "id": "BEHAV_IR_017"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"}
+    ],
+    "sub_types": [
+      {"name": "총 지속시간", "description": "관찰 기간 중 행동이 지속된 총 시간을 기록"},
+      {"name": "개별 지속시간", "description": "각 행동 발생 에피소드별 지속시간을 따로 기록"},
+      {"name": "반응 잠재기", "description": "자극 제시부터 행동 시작까지의 시간을 기록"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "지속시간 기록 = '얼마나 오래?' → 스톱워치로 시작~끝 시간 측정",
+      "differential": "지속시간 기록은 행동이 '얼마나 오래' 지속되었는지를 측정하고, 빈도 기록은 행동이 '몇 번' 발생했는지를 측정한다.",
+      "key_point": "울화행동(tantrum)이나 과제 이탈 행동처럼 지속적으로 일어나는 행동의 평가에 특히 적합하며, 백분율(% 관찰시간)로 변환하여 비교할 수 있다.",
+      "common_mistake": "모든 행동에 지속시간 기록을 적용하려는 오류 — 이산적이고 순간적인 행동(손 들기, 소리 지르기 등)에는 빈도 기록이 더 적합하다."
+    }
+  },
+  {
+    "id": "BEHAV_IR_017",
+    "terminology": "간격 기록 (Interval Recording)",
+    "terminology_ko": "간격 기록",
+    "terminology_en": "Interval Recording",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "관찰 기간을 동일한 짧은 시간 간격으로 나누고, 각 간격 내에서 행동의 발생 여부를 기록하는 방법으로, 전체간격 기록과 부분간격 기록의 두 가지 유형이 있다.",
+    "definition_en": "A method of dividing the observation period into equal short time intervals and recording whether the behavior occurred within each interval, with two types: whole-interval recording and partial-interval recording.",
+    "significance": "연속 기록이 어려운 상황에서 행동 발생의 시간적 분포를 파악할 수 있게 해주며, 학교와 임상 장면에서 실용적으로 널리 사용되는 관찰 기록 방법이다.",
+    "key_researchers": [
+      {"name_ko": "쿠퍼", "name_en": "John Cooper", "contribution": "간격 기록법의 유형별 특성과 각각의 추정 편향을 체계적으로 분석하고 적용 지침을 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "시간 표집법", "name_en": "Time Sampling", "id": "BEHAV_TS_013"},
+      {"name_ko": "빈도 기록", "name_en": "Frequency Recording", "id": "BEHAV_FR_015"},
+      {"name_ko": "지속시간 기록", "name_en": "Duration Recording", "id": "BEHAV_DR_016"}
+    ],
+    "sub_types": [
+      {"name": "전체간격 기록", "description": "간격 전체 동안 행동이 지속되었을 때만 발생으로 기록 (과소 추정)"},
+      {"name": "부분간격 기록", "description": "간격 내 어느 시점에서든 행동이 한 번이라도 발생하면 기록 (과대 추정)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "간격 기록 = 시간을 '간격'으로 나눠서, 각 간격마다 행동 여부를 O/X로 기록",
+      "differential": "간격 기록은 관찰 시간 전체를 균등한 간격으로 나누어 기록하는 반면, 순간시간 표집은 각 간격의 끝 순간에만 행동 여부를 확인한다.",
+      "key_point": "전체간격 기록은 행동 발생을 과소 추정하고, 부분간격 기록은 과대 추정하므로 목적에 따라 적절한 유형을 선택해야 한다.",
+      "common_mistake": "전체간격과 부분간격 기록의 추정 방향을 혼동하는 오류 — 전체간격은 과소, 부분간격은 과대 추정한다."
+    }
+  },
+  {
+    "id": "BEHAV_BL_018",
+    "terminology": "기저선 측정 (Baseline Measurement)",
+    "terminology_ko": "기저선 측정",
+    "terminology_en": "Baseline Measurement",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "중재나 치료를 시작하기 전에 목표 행동의 현재 수준(빈도, 지속시간, 강도 등)을 측정하여 기록하는 것으로, 중재 효과를 평가하기 위한 비교 기준점을 제공한다.",
+    "definition_en": "The measurement and recording of the current level (frequency, duration, intensity, etc.) of a target behavior before initiating an intervention or treatment, providing a comparison baseline for evaluating intervention effectiveness.",
+    "significance": "중재 효과를 과학적으로 평가하기 위한 필수 절차로, 기저선 없이는 행동 변화가 중재에 의한 것인지 판단할 수 없다.",
+    "key_researchers": [
+      {"name_ko": "시들만", "name_en": "Murray Sidman", "contribution": "단일사례 실험설계에서 기저선의 안정성 기준과 중재 효과 판단의 논리를 체계적으로 정립했다."},
+      {"name_ko": "배어", "name_en": "Donald Baer", "contribution": "응용행동분석에서 기저선-중재 비교를 통한 행동 변화 입증 방법론의 기초를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "빈도 기록", "name_en": "Frequency Recording", "id": "BEHAV_FR_015"},
+      {"name_ko": "행동의 조작적 정의", "name_en": "Operational Definition of Behavior", "id": "BEHAV_OD_019"},
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기저선 = 중재 '전(before)' 행동 수준 → 치료 효과 비교의 '출발선'",
+      "differential": "기저선 측정은 중재 전 행동 수준의 반복 측정이고, 사전검사(pretest)는 보통 1회 측정이다. 기저선은 안정적 패턴이 나타날 때까지 반복 측정한다.",
+      "key_point": "기저선 데이터는 안정적이어야(변동이 적어야) 중재 효과를 명확히 판단할 수 있으며, 불안정한 기저선은 해석을 어렵게 만든다.",
+      "common_mistake": "기저선을 1~2회만 측정하고 충분하다고 판단하는 오류 — 안정적 패턴(최소 3~5회의 일관된 데이터 포인트)이 확인될 때까지 반복 측정해야 한다."
+    }
+  },
+  {
+    "id": "BEHAV_OD_019",
+    "terminology": "행동의 조작적 정의 (Operational Definition of Behavior)",
+    "terminology_ko": "행동의 조작적 정의",
+    "terminology_en": "Operational Definition of Behavior",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "관찰 대상 행동을 누구나 동일하게 식별하고 측정할 수 있도록 구체적이고 관찰 가능한 용어로 명확하게 정의하는 것으로, 행동 관찰과 기록의 신뢰도를 확보하기 위한 필수적인 첫 단계이다.",
+    "definition_en": "The clear definition of a target behavior in specific, observable terms so that anyone can identify and measure it consistently, serving as an essential first step for ensuring the reliability of behavioral observation and recording.",
+    "significance": "관찰자 간 일치도를 보장하고 행동 측정의 재현 가능성을 확보하는 행동평가의 기초 절차로, 모호한 정의는 신뢰할 수 없는 데이터로 이어진다.",
+    "key_researchers": [
+      {"name_ko": "배어", "name_en": "Donald Baer", "contribution": "응용행동분석의 핵심 원칙으로서 관찰 가능하고 측정 가능한 행동 정의의 중요성을 강조했다."},
+      {"name_ko": "호킨스", "name_en": "Robert Hawkins", "contribution": "행동의 조작적 정의 작성 가이드라인을 제시하여 실무자들의 행동 정의 능력을 향상시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관찰자 간 신뢰도", "name_en": "Interrater Reliability", "id": "BEHAV_IRR_020"},
+      {"name_ko": "기저선 측정", "name_en": "Baseline Measurement", "id": "BEHAV_BL_018"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조작적 정의 = '눈으로 볼 수 있고, 셀 수 있게' 행동을 정의하는 것",
+      "differential": "조작적 정의는 관찰 가능한 행동 자체를 정의하는 것이고, 구인 정의(construct definition)는 추상적 심리학적 개념을 정의하는 것이다.",
+      "key_point": "좋은 조작적 정의의 3요소: (1) 객관적(관찰 가능), (2) 명확함(비전문가도 이해), (3) 완전함(포함/제외 기준이 분명)이다.",
+      "common_mistake": "'공격적이다', '부적절하다' 같은 주관적이고 모호한 표현을 조작적 정의로 사용하는 오류 — '손으로 또래를 때리는 행동'처럼 구체적으로 기술해야 한다."
+    }
+  },
+  {
+    "id": "BEHAV_IRR_020",
+    "terminology": "관찰자 간 신뢰도 (Interrater Reliability)",
+    "terminology_ko": "관찰자 간 신뢰도",
+    "terminology_en": "Interrater Reliability",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "두 명 이상의 독립적인 관찰자가 동일한 행동을 관찰했을 때 기록이 일치하는 정도를 나타내는 지표로, 행동 관찰 데이터의 신뢰성과 객관성을 검증하는 데 사용된다.",
+    "definition_en": "An indicator of the degree to which two or more independent observers' records agree when observing the same behavior, used to verify the reliability and objectivity of behavioral observation data.",
+    "significance": "행동 관찰 데이터의 객관성을 입증하는 필수적인 절차로, 관찰자 간 신뢰도가 낮으면 관찰 데이터 전체의 타당성이 의문시된다.",
+    "key_researchers": [
+      {"name_ko": "코헨", "name_en": "Jacob Cohen", "contribution": "우연 일치를 보정한 카파 계수(Cohen's kappa)를 개발하여 관찰자 간 신뢰도의 정확한 평가를 가능하게 했다."},
+      {"name_ko": "하트만", "name_en": "Donald Hartmann", "contribution": "행동 관찰에서의 관찰자 간 신뢰도 산출 방법과 기준을 체계적으로 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동의 조작적 정의", "name_en": "Operational Definition of Behavior", "id": "BEHAV_OD_019"},
+      {"name_ko": "관찰자 반응성", "name_en": "Observer Reactivity", "id": "BEHAV_OR_021"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관찰자 간 신뢰도 = '두 관찰자가 같은 것을 보고 같은 기록을 하는가?' → 일치율 또는 카파 계수로 측정",
+      "differential": "관찰자 간 신뢰도(interrater reliability)는 관찰자 간 일치도이고, 검사-재검사 신뢰도(test-retest reliability)는 시간에 걸친 일관성이다.",
+      "key_point": "단순 일치율(% agreement)은 우연 일치를 고려하지 않으므로, Cohen's kappa가 더 정확한 지표이며 .80 이상이면 양호한 신뢰도로 간주한다.",
+      "common_mistake": "관찰자 간 신뢰도를 한 번만 확인하고 전체 연구에 적용하는 오류 — 전체 관찰 세션의 최소 20~33%에 대해 신뢰도를 산출해야 한다."
+    }
+  },
+  {
+    "id": "BEHAV_OR_021",
+    "terminology": "관찰자 반응성 (Observer Reactivity)",
+    "terminology_ko": "관찰자 반응성",
+    "terminology_en": "Observer Reactivity",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "관찰 대상자가 자신이 관찰되고 있다는 것을 인식함으로써 평소와 다르게 행동하는 현상으로, 관찰 데이터의 대표성과 생태학적 타당도를 저하시키는 주요 위협 요인이다.",
+    "definition_en": "The phenomenon in which observed individuals change their behavior from typical patterns upon becoming aware that they are being observed, serving as a major threat to the representativeness and ecological validity of observation data.",
+    "significance": "행동 관찰의 근본적인 한계 중 하나로, 관찰 데이터가 실제 일상 행동을 대표하지 못할 위험이 있어 이를 최소화하기 위한 전략이 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "하이네스", "name_en": "Stephen Haynes", "contribution": "행동평가에서의 반응성 문제를 체계적으로 분석하고 그 영향을 최소화하는 전략을 제시했다."},
+      {"name_ko": "웹", "name_en": "Eugene Webb", "contribution": "비반응적 측정(unobtrusive measures)의 개념을 제안하여 관찰자 반응성 문제의 대안을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "요구 특성", "name_en": "Demand Characteristics", "id": "BEHAV_DC_022"},
+      {"name_ko": "자연적 관찰", "name_en": "Naturalistic Observation", "id": "BEHAV_NO_005"},
+      {"name_ko": "관찰자 간 신뢰도", "name_en": "Interrater Reliability", "id": "BEHAV_IRR_020"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관찰자 반응성 = '관찰되고 있으니 행동을 바꾸자' → 호손 효과와 유사한 개념",
+      "differential": "관찰자 반응성은 '관찰되고 있다는 인식'에 의한 행동 변화이고, 요구 특성은 연구 목적에 대한 '추측'에 의한 행동 변화이다.",
+      "key_point": "반응성을 최소화하는 방법: 적응 기간(habituation), 비참여 관찰, 은밀 관찰, 기술적 보조(비디오 등)를 활용한다.",
+      "common_mistake": "관찰자 반응성이 시간이 지나도 줄어들지 않는다고 생각하는 오류 — 일반적으로 적응 기간이 지나면 반응성은 감소한다."
+    }
+  },
+  {
+    "id": "BEHAV_DC_022",
+    "terminology": "요구 특성 (Demand Characteristics)",
+    "terminology_ko": "요구 특성",
+    "terminology_en": "Demand Characteristics",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "평가 상황에서 대상자가 평가자의 의도나 연구 가설을 추측하고 그에 맞추어 행동을 조절하는 현상으로, 사회적 바람직성과 결합하여 평가 데이터를 왜곡시킬 수 있다.",
+    "definition_en": "The phenomenon in which participants in an assessment situation infer the assessor's intentions or research hypotheses and adjust their behavior accordingly, potentially distorting assessment data in combination with social desirability.",
+    "significance": "행동평가뿐 아니라 모든 심리 평가에서 데이터의 타당도를 위협하는 근본적 문제로, 평가 설계 시 반드시 고려해야 할 요인이다.",
+    "key_researchers": [
+      {"name_ko": "오른", "name_en": "Martin Orne", "contribution": "실험 상황에서의 요구 특성 개념을 최초로 체계화하고, 참가자가 '좋은 참가자'가 되려는 경향을 실증적으로 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관찰자 반응성", "name_en": "Observer Reactivity", "id": "BEHAV_OR_021"},
+      {"name_ko": "행동 면접", "name_en": "Behavioral Interview", "id": "BEHAV_BI_023"},
+      {"name_ko": "자기모니터링", "name_en": "Self-Monitoring", "id": "BEHAV_SM_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "요구 특성 = '이 상황이 나에게 요구하는 것이 뭘까?' → 참가자가 기대에 맞추려는 현상",
+      "differential": "요구 특성은 연구/평가 목적에 대한 추측에 의한 행동 변화이고, 사회적 바람직성은 일반적으로 좋게 보이려는 경향이다. 요구 특성은 상황 특수적이고, 사회적 바람직성은 일반적 경향이다.",
+      "key_point": "Martin Orne(1962)이 제안한 개념으로, 이중맹검(double-blind) 설계, 비반응적 측정 등이 요구 특성의 영향을 최소화하는 주요 전략이다.",
+      "common_mistake": "요구 특성이 항상 의식적이고 의도적인 반응이라고 생각하는 오류 — 많은 경우 무의식적이고 자동적인 과정으로 작용한다."
+    }
+  },
+  {
+    "id": "BEHAV_BI_023",
+    "terminology": "행동 면접 (Behavioral Interview)",
+    "terminology_ko": "행동 면접",
+    "terminology_en": "Behavioral Interview",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "문제행동의 선행사건, 행동 자체, 결과를 체계적으로 탐색하는 구조화된 면접 방법으로, ABC 분석을 위한 핵심 정보를 내담자나 보호자로부터 수집하여 기능분석의 가설을 수립하는 데 활용된다.",
+    "definition_en": "A structured interview method that systematically explores the antecedents, behavior itself, and consequences of problem behavior, collecting key information from clients or caregivers to formulate functional analysis hypotheses.",
+    "significance": "직접 관찰 전에 문제행동의 맥락과 기능에 대한 예비 정보를 효율적으로 수집할 수 있는 필수적인 행동평가 절차이다.",
+    "key_researchers": [
+      {"name_ko": "칸퍼", "name_en": "Frederick Kanfer", "contribution": "행동 면접의 체계적 구조를 개발하고 S-O-R-K-C 모델을 통해 면접에서 수집해야 할 정보의 범위를 정립했다."},
+      {"name_ko": "오닐", "name_en": "Robert O'Neill", "contribution": "기능적 행동 평가 면접의 표준 양식을 개발하여 임상 및 교육 현장에서의 행동 면접을 표준화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "ABC 모델", "name_en": "ABC Model", "id": "BEHAV_ABC_003"},
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"},
+      {"name_ko": "행동 기능 평가 면접", "name_en": "Functional Assessment Interview", "id": "BEHAV_FAI_030"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 면접 = '언제, 어디서, 무엇을, 그 다음에 무슨 일이?' → ABC 정보를 면접으로 수집",
+      "differential": "행동 면접은 행동의 환경적 맥락(ABC)에 초점을 두는 반면, 정신역동적 면접은 무의식적 갈등과 과거 경험에 초점을 둔다.",
+      "key_point": "행동 면접의 핵심 질문: (1) 문제행동이 구체적으로 무엇인가, (2) 어떤 상황에서 발생하는가(선행사건), (3) 행동 후에 무슨 일이 일어나는가(결과).",
+      "common_mistake": "행동 면접에서 '왜 그런 행동을 하는지' 내적 동기만 묻는 오류 — 핵심은 관찰 가능한 환경적 변인(선행사건과 결과)을 파악하는 것이다."
+    }
+  },
+  {
+    "id": "BEHAV_ANT_024",
+    "terminology": "선행사건 (Antecedent)",
+    "terminology_ko": "선행사건",
+    "terminology_en": "Antecedent",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "목표 행동이 발생하기 직전에 존재하는 환경적 사건, 자극 또는 조건으로, 행동을 촉발하거나 유발하는 기능을 하며 ABC 분석에서 행동의 맥락을 이해하는 핵심 요소이다.",
+    "definition_en": "Environmental events, stimuli, or conditions present immediately before the occurrence of a target behavior, functioning to trigger or evoke the behavior and serving as a key element in understanding behavioral context in ABC analysis.",
+    "significance": "행동이 발생하는 맥락적 조건을 파악함으로써 행동을 예측하고 예방적 중재 전략을 수립할 수 있게 해주는 행동분석의 핵심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "스키너", "name_en": "B. F. Skinner", "contribution": "변별자극(discriminative stimulus) 개념을 통해 선행사건이 조작적 행동에 미치는 역할을 이론적으로 정립했다."},
+      {"name_ko": "마이클", "name_en": "Jack Michael", "contribution": "동기조작(motivating operation) 개념을 제안하여 선행사건의 유형을 변별자극과 동기조작으로 구분했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "ABC 모델", "name_en": "ABC Model", "id": "BEHAV_ABC_003"},
+      {"name_ko": "결과/후속자극", "name_en": "Consequence", "id": "BEHAV_CON_025"},
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"}
+    ],
+    "sub_types": [
+      {"name": "변별자극", "description": "특정 행동이 강화받을 수 있음을 알려주는 환경적 단서"},
+      {"name": "동기조작", "description": "강화제의 효과를 변화시키는 선행 조건 (예: 박탈, 포만)"},
+      {"name": "배경사건", "description": "행동에 간접적으로 영향을 미치는 광범위한 맥락 요인"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Antecedent = Ante(전에) + cedent(오는 것) → 행동 '앞에' 오는 사건",
+      "differential": "선행사건(antecedent)은 행동 '전'에 오는 촉발 자극이고, 결과(consequence)는 행동 '후'에 오는 후속 사건이다.",
+      "key_point": "선행사건 중재는 문제행동이 발생하기 전에 환경을 수정하는 예방적 접근으로, 결과 중재보다 더 효율적일 수 있다.",
+      "common_mistake": "선행사건을 행동의 '원인'으로만 보는 오류 — 선행사건은 행동을 '촉발'하지만, 행동이 유지되는 이유는 결과(강화)에 있다."
+    }
+  },
+  {
+    "id": "BEHAV_CON_025",
+    "terminology": "결과/후속자극 (Consequence)",
+    "terminology_ko": "결과",
+    "terminology_en": "Consequence",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "행동 발생 직후에 뒤따르는 환경적 사건이나 변화로, 해당 행동의 미래 발생 확률에 영향을 미치며 행동을 강화하거나 약화시키는 기능을 한다.",
+    "definition_en": "Environmental events or changes that follow immediately after the occurrence of a behavior, influencing the future probability of that behavior by functioning to reinforce or weaken it.",
+    "significance": "행동이 유지되는 이유를 설명하는 핵심 요소로, 결과의 기능(강화 또는 처벌)을 파악하는 것이 행동 중재 전략의 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "스키너", "name_en": "B. F. Skinner", "contribution": "조작적 조건형성 이론에서 후속결과(강화와 처벌)가 행동의 발생 확률을 조절하는 원리를 체계적으로 정립했다."},
+      {"name_ko": "손다이크", "name_en": "Edward Thorndike", "contribution": "효과의 법칙(law of effect)을 통해 행동의 결과가 학습에 미치는 영향을 최초로 체계적으로 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "선행사건", "name_en": "Antecedent", "id": "BEHAV_ANT_024"},
+      {"name_ko": "ABC 모델", "name_en": "ABC Model", "id": "BEHAV_ABC_003"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "BEHAV_RF_026"}
+    ],
+    "sub_types": [
+      {"name": "정적 강화", "description": "행동 후 좋은 자극이 추가되어 행동 증가"},
+      {"name": "부적 강화", "description": "행동 후 싫은 자극이 제거되어 행동 증가"},
+      {"name": "정적 처벌", "description": "행동 후 싫은 자극이 추가되어 행동 감소"},
+      {"name": "부적 처벌", "description": "행동 후 좋은 자극이 제거되어 행동 감소"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Consequence = Con(함께) + sequence(결과) → 행동과 '함께 따라오는' 결과",
+      "differential": "결과(consequence)는 행동 '후'에 오는 환경 변화이고, 선행사건(antecedent)은 행동 '전'에 존재하는 환경 자극이다.",
+      "key_point": "결과의 기능은 실제 효과로 판단한다 — 행동이 증가하면 강화이고, 감소하면 처벌이다. 의도가 아닌 결과가 기준이다.",
+      "common_mistake": "'결과'를 부정적인 것으로만 이해하는 오류 — 행동분석에서 결과는 강화(행동 증가)와 처벌(행동 감소)을 모두 포함하는 중립적 용어이다."
+    }
+  },
+  {
+    "id": "BEHAV_RF_026",
+    "terminology": "강화 (Reinforcement)",
+    "terminology_ko": "강화",
+    "terminology_en": "Reinforcement",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "행동 후에 뒤따르는 결과가 해당 행동의 미래 발생 확률을 증가시키는 과정으로, 자극의 추가(정적 강화)와 제거(부적 강화)의 두 유형으로 구분된다.",
+    "definition_en": "The process by which a consequence following a behavior increases the future probability of that behavior, distinguished into two types: positive reinforcement (addition of a stimulus) and negative reinforcement (removal of a stimulus).",
+    "significance": "행동이 유지되고 증가하는 메커니즘을 설명하는 행동주의의 핵심 원리로, 기능분석에서 문제행동을 유지시키는 강화제를 파악하는 것이 중재의 핵심이다.",
+    "key_researchers": [
+      {"name_ko": "스키너", "name_en": "B. F. Skinner", "contribution": "정적 강화와 부적 강화의 구분, 강화 스케줄의 체계적 분류 등 강화 이론의 핵심을 정립했다."},
+      {"name_ko": "손다이크", "name_en": "Edward Thorndike", "contribution": "효과의 법칙을 통해 '만족스러운 결과'가 행동을 강화한다는 원리를 최초로 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "결과/후속자극", "name_en": "Consequence", "id": "BEHAV_CON_025"},
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"},
+      {"name_ko": "ABC 모델", "name_en": "ABC Model", "id": "BEHAV_ABC_003"},
+      {"name_ko": "행동실험", "name_en": "Behavioral Experiment", "id": "CBT_BE_004"}
+    ],
+    "sub_types": [
+      {"name": "정적 강화", "description": "행동 후 원하는 자극이 추가되어 행동 빈도가 증가하는 과정"},
+      {"name": "부적 강화", "description": "행동 후 혐오 자극이 제거되어 행동 빈도가 증가하는 과정"},
+      {"name": "자동 강화", "description": "외부 매개 없이 행동 자체가 생성하는 감각적 결과에 의해 유지되는 강화"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "강화 = 행동을 '강'하게(증가) → 정적 강화(+추가), 부적 강화(-제거), 둘 다 행동 증가",
+      "differential": "강화는 행동을 '증가'시키고, 처벌은 행동을 '감소'시킨다. 정적/부적은 자극의 추가/제거를 의미하며, 좋고 나쁨의 가치 판단이 아니다.",
+      "key_point": "부적 강화는 '벌(처벌)'이 아니라 혐오 자극의 제거를 통한 행동 증가 과정이다. 도피/회피 행동이 부적 강화의 대표적 예이다.",
+      "common_mistake": "부적 강화를 '벌(처벌)'로 오해하는 것이 가장 흔한 오류 — '부적'은 자극의 제거를 의미하며, 강화는 항상 행동 증가를 뜻한다."
+    }
+  },
+  {
+    "id": "BEHAV_FBA_027",
+    "terminology": "기능적 행동 평가 (Functional Behavioral Assessment)",
+    "terminology_ko": "기능적 행동 평가",
+    "terminology_en": "Functional Behavioral Assessment",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "문제행동의 기능(목적)을 파악하기 위해 면접, 직접 관찰, 기능분석 등 다양한 방법을 체계적으로 조합하는 포괄적 평가 과정으로, 행동이 어떤 환경적 기능에 의해 유지되는지를 규명하여 개별화된 행동 중재 계획을 수립한다.",
+    "definition_en": "A comprehensive assessment process that systematically combines interviews, direct observation, and functional analysis to identify the function (purpose) of problem behavior, determining what environmental functions maintain the behavior to develop individualized behavior intervention plans.",
+    "significance": "미국 IDEA 법에서 특수교육 대상 학생의 행동 문제에 대해 의무적으로 실시하도록 규정하고 있으며, 증거기반 행동 중재의 기초를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "오닐", "name_en": "Robert O'Neill", "contribution": "FBA의 체계적 절차와 도구를 개발하고 학교 현장 적용 매뉴얼을 저술했다."},
+      {"name_ko": "호너", "name_en": "Robert Horner", "contribution": "긍정적 행동 지원(PBS) 모델에서 FBA를 핵심 절차로 통합하여 학교 차원의 행동 지원 체계를 구축했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"},
+      {"name_ko": "행동 면접", "name_en": "Behavioral Interview", "id": "BEHAV_BI_023"},
+      {"name_ko": "직접 관찰 평가", "name_en": "Direct Observation Assessment", "id": "BEHAV_DOA_028"},
+      {"name_ko": "행동 기능 평가 면접", "name_en": "Functional Assessment Interview", "id": "BEHAV_FAI_030"}
+    ],
+    "sub_types": [
+      {"name": "간접 평가", "description": "면접과 설문을 통해 행동의 기능에 대한 정보를 수집하는 단계"},
+      {"name": "직접 관찰", "description": "자연 환경에서 ABC 데이터를 수집하는 단계"},
+      {"name": "기능분석", "description": "환경 변인을 실험적으로 조작하여 행동 기능을 검증하는 단계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "FBA = Functional(기능적) + Behavioral(행동) + Assessment(평가) → 면접 + 관찰 + 기능분석의 3단계 포괄적 과정",
+      "differential": "FBA는 면접, 관찰, 기능분석을 모두 포괄하는 상위 개념이고, 기능분석(FA)은 FBA의 한 구성요소로서 실험적 방법에 해당한다.",
+      "key_point": "FBA의 핵심 결과물은 행동 기능의 4가지 유형 중 하나를 확인하는 것: (1) 관심/주의 획득, (2) 과제/요구 회피, (3) 유형적 강화물 획득, (4) 감각적 자극(자동 강화).",
+      "common_mistake": "FBA를 기능분석(실험적 조작)과 동일시하는 오류 — FBA는 간접 평가, 직접 관찰, 기능분석을 포함하는 포괄적 과정이다."
+    }
+  },
+  {
+    "id": "BEHAV_DOA_028",
+    "terminology": "직접 관찰 평가 (Direct Observation Assessment)",
+    "terminology_ko": "직접 관찰 평가",
+    "terminology_en": "Direct Observation Assessment",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "훈련받은 관찰자가 대상자의 행동을 실시간으로 직접 관찰하고 구조화된 기록 체계를 사용하여 체계적으로 기록하는 평가 방법으로, 행동의 빈도, 지속시간, 강도, 맥락 등 다차원적 정보를 수집한다.",
+    "definition_en": "An assessment method in which trained observers directly observe and systematically record a subject's behavior in real-time using structured recording systems, collecting multidimensional information including frequency, duration, intensity, and context of behavior.",
+    "significance": "자기보고나 면접의 주관적 편향을 보완하고 실제 행동에 대한 객관적 데이터를 제공하는 행동평가의 핵심 방법론이다.",
+    "key_researchers": [
+      {"name_ko": "패터슨", "name_en": "Gerald Patterson", "contribution": "가족 상호작용 코딩 체계(FICS)를 개발하여 가정 환경에서의 직접 관찰 평가 방법론을 확립했다."},
+      {"name_ko": "코프", "name_en": "Charles Greenwood", "contribution": "학교 환경에서의 학업 참여 행동을 측정하는 직접 관찰 도구(EBASS)를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "BEHAV_BO_004"},
+      {"name_ko": "관찰자 간 신뢰도", "name_en": "Interrater Reliability", "id": "BEHAV_IRR_020"},
+      {"name_ko": "기능적 행동 평가", "name_en": "Functional Behavioral Assessment", "id": "BEHAV_FBA_027"},
+      {"name_ko": "행동의 조작적 정의", "name_en": "Operational Definition of Behavior", "id": "BEHAV_OD_019"}
+    ],
+    "sub_types": [
+      {"name": "서술적 기록", "description": "행동과 맥락을 서술적으로 기록하는 비구조화된 방법"},
+      {"name": "ABC 기록", "description": "선행사건-행동-결과의 연쇄를 체계적으로 기록하는 방법"},
+      {"name": "체크리스트 기록", "description": "사전에 정의된 행동 목록의 발생 여부를 체크하는 방법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "직접 관찰 = '직접' 눈으로 보고, '구조화된' 기록 체계로 기록하는 평가",
+      "differential": "직접 관찰 평가는 관찰자가 실시간으로 행동을 기록하는 반면, 행동 평정 척도는 관찰 후 회고적으로 평정한다.",
+      "key_point": "직접 관찰의 3대 전제 조건: (1) 행동의 조작적 정의, (2) 적절한 기록 방법 선택, (3) 관찰자 간 신뢰도 확보이다.",
+      "common_mistake": "비구조화된 관찰도 '직접 관찰 평가'와 동일하다고 보는 오류 — 직접 관찰 평가는 조작적 정의, 표집 방법, 기록 체계가 사전에 구조화되어야 한다."
+    }
+  },
+  {
+    "id": "BEHAV_PM_029",
+    "terminology": "생리적 측정 (Physiological Measurement)",
+    "terminology_ko": "생리적 측정",
+    "terminology_en": "Physiological Measurement",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "심박수, 피부전도반응, 근전도, 코르티솔 수준 등 생리적 지표를 측정하여 행동 및 정서 상태를 객관적으로 평가하는 방법으로, 자기보고에 의존하지 않고 자율신경계와 내분비계의 반응을 직접 기록한다.",
+    "definition_en": "A method of objectively assessing behavioral and emotional states by measuring physiological indicators such as heart rate, skin conductance response, electromyography, and cortisol levels, directly recording autonomic nervous system and endocrine responses without relying on self-report.",
+    "significance": "자기보고와 행동 관찰로는 포착하기 어려운 생리적 각성과 스트레스 반응을 객관적으로 측정하여 행동평가의 다차원적 이해를 완성한다.",
+    "key_researchers": [
+      {"name_ko": "랑", "name_en": "Peter Lang", "contribution": "정서의 3체계 모델(언어적-행동적-생리적)을 제안하여 생리적 측정이 행동평가에서 독립적으로 중요한 정보를 제공함을 이론적으로 정립했다."},
+      {"name_ko": "카시오포", "name_en": "John Cacioppo", "contribution": "정신생리학적 측정 방법론을 체계화하고 심리적 과정과 생리적 반응 간의 관계를 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "BEHAV_BA_001"},
+      {"name_ko": "생태학적 순간평가", "name_en": "Ecological Momentary Assessment", "id": "BEHAV_EMA_011"},
+      {"name_ko": "자기모니터링", "name_en": "Self-Monitoring", "id": "BEHAV_SM_007"}
+    ],
+    "sub_types": [
+      {"name": "피부전도반응(SCR)", "description": "교감신경 활성화에 따른 피부의 전기전도도 변화를 측정"},
+      {"name": "심박변이도(HRV)", "description": "심박 간격의 변동성을 분석하여 자율신경계 균형을 평가"},
+      {"name": "코르티솔", "description": "타액이나 혈액에서 스트레스 호르몬 수준을 측정"},
+      {"name": "근전도(EMG)", "description": "근육의 전기적 활동을 측정하여 긴장 수준을 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "생리적 측정 = '몸의 반응'을 기계로 측정 → 심박, 땀, 근육, 호르몬",
+      "differential": "생리적 측정은 신체 반응을 기기로 직접 기록하는 반면, 행동 관찰은 외현적 행동을 관찰자가 기록하고, 자기보고는 내담자의 주관적 보고에 의존한다.",
+      "key_point": "Lang의 3체계 모델에 따르면 언어적(자기보고), 행동적(관찰), 생리적 반응은 서로 불일치할 수 있으므로(반응 비동시성), 다채널 평가가 필요하다.",
+      "common_mistake": "생리적 측정 결과가 특정 정서를 1:1로 반영한다고 보는 오류 — 심박수 증가는 불안, 분노, 흥분 등 다양한 정서에서 나타날 수 있어 맥락적 해석이 필요하다."
+    }
+  },
+  {
+    "id": "BEHAV_FAI_030",
+    "terminology": "행동 기능 평가 면접 (Functional Assessment Interview)",
+    "terminology_ko": "행동 기능 평가 면접",
+    "terminology_en": "Functional Assessment Interview",
+    "category": "BEHAV",
+    "category_name": "행동평가 (Behavioral Assessment)",
+    "definition": "문제행동의 기능을 파악하기 위해 내담자, 보호자, 교사 등에게 구조화된 질문을 통해 행동의 선행사건, 결과, 배경 변인, 대체 행동 등에 대한 정보를 체계적으로 수집하는 면접 절차이다.",
+    "definition_en": "A structured interview procedure that systematically collects information about antecedents, consequences, setting events, and alternative behaviors through structured questions to clients, caregivers, and teachers in order to identify the function of problem behavior.",
+    "significance": "기능적 행동 평가(FBA)의 첫 단계로서 문제행동의 기능에 대한 초기 가설을 수립하는 데 핵심적이며, 이후 직접 관찰과 기능분석의 방향을 안내한다.",
+    "key_researchers": [
+      {"name_ko": "오닐", "name_en": "Robert O'Neill", "contribution": "기능 평가 면접 양식(FAI form)을 개발하여 면접에서 수집해야 할 정보의 범위와 순서를 표준화했다."},
+      {"name_ko": "던랩", "name_en": "Glen Dunlap", "contribution": "기능 평가 면접을 긍정적 행동 지원의 핵심 절차로 통합하고 가족 중심 면접 방법을 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "기능적 행동 평가", "name_en": "Functional Behavioral Assessment", "id": "BEHAV_FBA_027"},
+      {"name_ko": "행동 면접", "name_en": "Behavioral Interview", "id": "BEHAV_BI_023"},
+      {"name_ko": "ABC 모델", "name_en": "ABC Model", "id": "BEHAV_ABC_003"},
+      {"name_ko": "기능분석", "name_en": "Functional Analysis", "id": "BEHAV_FA_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FAI = Functional Assessment Interview → FBA의 '면접' 단계, O'Neill이 표준 양식 개발",
+      "differential": "행동 기능 평가 면접(FAI)은 기능적 행동 평가(FBA)의 간접 평가 단계에 해당하는 구조화된 면접이고, 행동 면접은 보다 일반적인 행동 정보 수집을 위한 면접이다.",
+      "key_point": "FAI에서 수집하는 핵심 정보: (1) 문제행동의 조작적 정의, (2) 선행사건과 배경사건, (3) 후속결과, (4) 행동의 추정 기능, (5) 대체 기술/행동이다.",
+      "common_mistake": "FAI 결과만으로 행동의 기능을 확정하는 오류 — FAI는 가설 수립 단계이며, 직접 관찰이나 기능분석을 통해 가설을 검증해야 한다."
+    }
+  }
+]
