@@ -118,7 +118,7 @@
         "id": "NEURO_SCD_009"
       },
       {
-        "name_ko": "사반트증후군",
+        "name_ko": "서번트증후군",
         "name_en": "Savant Syndrome",
         "id": "NEURO_SVT_014"
       }
@@ -636,7 +636,7 @@
         "id": "NEURO_TOM_011"
       },
       {
-        "name_ko": "사반트증후군",
+        "name_ko": "서번트증후군",
         "name_en": "Savant Syndrome",
         "id": "NEURO_SVT_014"
       }
@@ -711,8 +711,8 @@
   },
   {
     "id": "NEURO_SVT_014",
-    "terminology": "사반트증후군 (Savant Syndrome)",
-    "terminology_ko": "사반트증후군",
+    "terminology": "서번트증후군 (Savant Syndrome)",
+    "terminology_ko": "서번트증후군",
     "terminology_en": "Savant Syndrome",
     "category": "NEURO",
     "category_name": "신경발달 및 신경인지장애 (Neurodevelopmental and Neurocognitive Disorders)",
@@ -723,7 +723,7 @@
       {
         "name_ko": "대럴드 트레퍼트",
         "name_en": "Darold Treffert",
-        "contribution": "사반트증후군에 대한 가장 포괄적인 임상 연구를 수행하고 분류 체계를 제안했다."
+        "contribution": "서번트증후군에 대한 가장 포괄적인 임상 연구를 수행하고 분류 체계를 제안했다."
       }
     ],
     "related_concepts": [
@@ -745,10 +745,10 @@
     ],
     "sub_types": [],
     "quiz_hints": {
-      "mnemonic": "사반트 = 전반적 약점 속의 섬처럼 돌출된 특별한 재능(islands of genius)",
-      "differential": "사반트증후군은 장애가 있음에도 특정 영역의 비범한 재능을 보이는 것이고, 영재성(giftedness)은 전반적 높은 지적 능력을 의미한다.",
-      "key_point": "사반트의 약 50%가 ASD를 가지고 있으며, ASD 인구의 약 10%가 사반트 능력을 보인다.",
-      "common_mistake": "모든 자폐인이 사반트 능력을 가지고 있다고 오해하는 것 — 사반트는 ASD의 소수에서만 나타나는 현상이다."
+      "mnemonic": "서번트 = 전반적 약점 속의 섬처럼 돌출된 특별한 재능(islands of genius)",
+      "differential": "서번트증후군은 장애가 있음에도 특정 영역의 비범한 재능을 보이는 것이고, 영재성(giftedness)은 전반적 높은 지적 능력을 의미한다.",
+      "key_point": "서번트의 약 50%가 ASD를 가지고 있으며, ASD 인구의 약 10%가 서번트 능력을 보인다.",
+      "common_mistake": "모든 자폐인이 서번트 능력을 가지고 있다고 오해하는 것 — 서번트는 ASD의 소수에서만 나타나는 현상이다."
     }
   },
   {

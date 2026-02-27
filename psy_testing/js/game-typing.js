@@ -100,10 +100,10 @@ const TypingGame = (() => {
     if (currentIndex >= terms.length) return;
     const term = terms[currentIndex];
 
-    // 문제: 정의 표시 (첫 문장)
+    // 문제: 정의 표시 (첫 문장, 소수점·괄호 내 마침표 제외)
     const def = term.definition;
-    const dot = def.indexOf('.');
-    const question = (dot > 0 && dot < def.length - 1) ? def.substring(0, dot + 1) : def;
+    const sentenceEnd = def.search(/(?<!\d)\.(?!\d)/);
+    const question = (sentenceEnd > 0 && sentenceEnd < def.length - 1) ? def.substring(0, sentenceEnd + 1) : def;
     if (questionEl) questionEl.textContent = question;
 
     // 낙하 블록: 첫글자 + 나머지 가림

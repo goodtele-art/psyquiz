@@ -86,9 +86,21 @@ const QuizGame = (() => {
       }
       case 'researcher': {
         const r = term.key_researchers[0];
+        // 같은 연구자가 등록된 다른 용어는 보기에서 제외 (복수 정답 방지)
+        const rName = r.name_en.toLowerCase();
+        let rDistractors = distractors.filter(d =>
+          !d.key_researchers || !d.key_researchers.some(kr => kr.name_en.toLowerCase() === rName));
+        if (rDistractors.length < 3) {
+          const extra = App.allTerms
+            .filter(t => t.id !== term.id
+              && (!t.key_researchers || !t.key_researchers.some(kr => kr.name_en.toLowerCase() === rName))
+              && !rDistractors.find(f => f.id === t.id));
+          rDistractors.push(...App.shuffle(extra));
+        }
+        rDistractors = rDistractors.slice(0, 3);
         const options = App.shuffle([
           { text: term.terminology_ko, correct: true },
-          ...distractors.map(d => ({ text: d.terminology_ko, correct: false }))
+          ...rDistractors.map(d => ({ text: d.terminology_ko, correct: false }))
         ]);
         return {
           term,
@@ -101,12 +113,48 @@ const QuizGame = (() => {
       case 'differential': {
         // 정답 용어를 ___으로 가려서 빈칸 채우기 형식
         const diffText = term.quiz_hints.differential;
-        const blanked = diffText
-          .replace(new RegExp(term.terminology_ko, 'g'), '___')
-          .replace(new RegExp(term.terminology_en, 'gi'), '___');
+        // 치환 패턴: 전체 용어명 + 축약형 + 영문 약어
+        const patterns = [term.terminology_ko, term.terminology_en];
+        // 조사 '의' 탈락 변형 추가 (예: "힘의 욕구" → "힘 욕구")
+        const noParticle = term.terminology_ko.replace(/의 /g, ' ');
+        if (noParticle !== term.terminology_ko) patterns.push(noParticle);
+        // 띄어쓰기 없는 변형 (예: "힘의 욕구" → "힘의욕구")
+        const noSpace = term.terminology_ko.replace(/\s+/g, '');
+        if (noSpace !== term.terminology_ko) patterns.push(noSpace);
+        // 다어절 한국어 용어 → 개별 단어 추가 (3자 이상, 정답 직접 노출 방지)
+        const koWords = term.terminology_ko.split(/\s+/);
+        if (koWords.length > 1) {
+          koWords.forEach(w => { if (w.length >= 3) patterns.push(w); });
+        }
+        // 영문 약어 추출 (예: TAT, WAIS, MMPI 등)
+        const abbrs = term.terminology.match(/\b[A-Z][A-Z0-9-]{1,}\b/g);
+        if (abbrs) abbrs.forEach(a => patterns.push(a));
+        // 긴 패턴부터 치환 (부분 매칭 방지), 중복 제거
+        const unique = [...new Set(patterns)].sort((a, b) => b.length - a.length);
+        let blanked = diffText;
+        unique.forEach(p => {
+          if (p && p.length >= 2) {
+            const esc = p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            blanked = blanked.replace(new RegExp(esc, 'gi'), '___');
+          }
+        });
+        // 빈칸이 생기지 않으면 다른 유형으로 전환
+        if (!blanked.includes('___')) {
+          return buildQuestion(term, 'def_to_term');
+        }
+        // 문제 본문에 등장하는 용어는 보기에서 제외 (혼동 방지)
+        let filteredDistractors = distractors.filter(d => !blanked.includes(d.terminology_ko));
+        if (filteredDistractors.length < 3) {
+          const extra = App.allTerms
+            .filter(t => t.id !== term.id
+              && !blanked.includes(t.terminology_ko)
+              && !filteredDistractors.find(f => f.id === t.id));
+          filteredDistractors.push(...App.shuffle(extra));
+        }
+        filteredDistractors = filteredDistractors.slice(0, 3);
         const options = App.shuffle([
           { text: term.terminology_ko, correct: true },
-          ...distractors.map(d => ({ text: d.terminology_ko, correct: false }))
+          ...filteredDistractors.map(d => ({ text: d.terminology_ko, correct: false }))
         ]);
         return {
           term,
