@@ -640,8 +640,8 @@ a {
   background: linear-gradient(135deg, #56AB2F, #A8E063);
 }
 
-.platform-chat .platform-card-header {
-  background: linear-gradient(135deg, #36D1DC, #5B86E5);
+.platform-letter .platform-card-header {
+  background: linear-gradient(135deg, #B8860B, #D4A853);
 }
 
 .platform-badge {
@@ -667,11 +667,11 @@ a {
 
 .platform-psyda .platform-title { color: #4A76D4; }
 .platform-study .platform-title { color: #3D8C2E; }
-.platform-chat .platform-title { color: #2BBBD0; }
+.platform-letter .platform-title { color: #9A7B2C; }
 
 [data-theme="dark"] .platform-psyda .platform-title { color: #7EA8F8; }
 [data-theme="dark"] .platform-study .platform-title { color: #7ECF6A; }
-[data-theme="dark"] .platform-chat .platform-title { color: #5CE0F0; }
+[data-theme="dark"] .platform-letter .platform-title { color: #D4A853; }
 
 .platform-desc {
   font-size: 0.82rem;
@@ -702,7 +702,7 @@ a {
 
 .platform-psyda .platform-features li::before { color: #4A76D4; }
 .platform-study .platform-features li::before { color: #3D8C2E; }
-.platform-chat .platform-features li::before { color: #2BBBD0; }
+.platform-letter .platform-features li::before { color: #9A7B2C; }
 
 .platform-link {
   display: block;
