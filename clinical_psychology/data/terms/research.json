@@ -1,0 +1,906 @@
+[
+  {
+    "id": "RESEARCH_RCT_001",
+    "terminology": "무선화 통제 실험 (Randomized Controlled Trial)",
+    "terminology_ko": "무선화 통제 실험",
+    "terminology_en": "Randomized Controlled Trial",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "연구 참여자를 무선적으로 실험집단과 통제집단에 배정하여 독립변인의 효과를 검증하는 실험 설계로, 임상심리학에서 치료 효과를 입증하기 위한 가장 엄격한 연구 방법이다.",
+    "definition_en": "An experimental design in which participants are randomly assigned to treatment and control groups to test the effect of an independent variable, considered the most rigorous method for establishing treatment efficacy in clinical psychology.",
+    "significance": "인과관계를 확립할 수 있는 가장 강력한 근거를 제공하며, 근거기반 실무(EBP)에서 치료법의 효능을 입증하는 황금 기준(gold standard)으로 간주된다.",
+    "key_researchers": [
+      {"name_ko": "오스틴 브래드포드 힐", "name_en": "Austin Bradford Hill", "contribution": "최초의 현대적 RCT(1948년 스트렙토마이신 결핵 치료 시험)를 설계하여 무선 배정 방법론을 정립했다."},
+      {"name_ko": "로널드 피셔", "name_en": "Ronald Fisher", "contribution": "무선화(randomization) 개념을 실험 설계에 도입하여 통계적 추론의 기반을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "통제 조건", "name_en": "Control Conditions", "id": "RESEARCH_CC_021"},
+      {"name_ko": "이중맹검", "name_en": "Double-Blind", "id": "RESEARCH_DB_024"},
+      {"name_ko": "효능 연구", "name_en": "Efficacy Research", "id": "RESEARCH_EFC_010"},
+      {"name_ko": "근거기반 실무", "name_en": "Evidence-Based Practice", "id": "INTRO_EBP_004"}
+    ],
+    "sub_types": [
+      {"name": "평행 설계 (Parallel Design)", "description": "실험집단과 통제집단이 동시에 진행되는 가장 기본적인 RCT 유형"},
+      {"name": "교차 설계 (Crossover Design)", "description": "참여자가 순서를 바꿔 두 조건 모두를 경험하는 설계"},
+      {"name": "요인 설계 (Factorial Design)", "description": "두 개 이상의 독립변인을 동시에 조작하여 상호작용 효과를 검증하는 설계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "RCT = Random(무선) + Control(통제) + Trial(시험) → 무선 배정으로 통제하는 시험",
+      "differential": "RCT는 무선 배정으로 인과관계를 확립하지만, 준실험 설계는 무선 배정 없이 인과관계를 추론한다.",
+      "key_point": "무선 배정(random assignment)이 핵심으로, 이를 통해 집단 간 사전 동등성을 확보하여 제3변인의 영향을 통제한다.",
+      "common_mistake": "무선 배정(random assignment)과 무선 표집(random sampling)을 혼동하는 경우가 많다. 배정은 집단 할당, 표집은 모집단에서의 선발이다."
+    }
+  },
+  {
+    "id": "RESEARCH_META_002",
+    "terminology": "메타분석 (Meta-Analysis)",
+    "terminology_ko": "메타분석",
+    "terminology_en": "Meta-Analysis",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "동일한 연구 주제에 대한 다수의 독립적 연구 결과를 통계적으로 통합하여 전체적인 효과 크기를 산출하는 양적 연구 종합 방법이다.",
+    "definition_en": "A quantitative method of synthesizing results from multiple independent studies on the same topic to calculate an overall effect size through statistical integration.",
+    "significance": "개별 연구의 한계를 극복하고 축적된 근거의 전체적 경향을 파악할 수 있게 하며, 심리치료 효과 검증과 근거기반 실무의 핵심 방법론이다.",
+    "key_researchers": [
+      {"name_ko": "진 글래스", "name_en": "Gene V. Glass", "contribution": "1976년 '메타분석'이라는 용어를 최초로 사용하고, 심리치료 효과에 대한 최초의 대규모 메타분석을 수행했다."},
+      {"name_ko": "메리 리 스미스", "name_en": "Mary Lee Smith", "contribution": "Glass와 함께 475개 심리치료 연구를 메타분석하여 심리치료의 전반적 효과(d=0.85)를 입증했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "체계적 문헌고찰", "name_en": "Systematic Review", "id": "RESEARCH_SR_003"},
+      {"name_ko": "효과 크기", "name_en": "Effect Size", "id": "RESEARCH_ES_018"},
+      {"name_ko": "Smith & Glass 메타분석", "name_en": "Smith & Glass Meta-Analysis", "id": "HISTORY_SG_026"},
+      {"name_ko": "근거기반 실무", "name_en": "Evidence-Based Practice", "id": "INTRO_EBP_004"}
+    ],
+    "sub_types": [
+      {"name": "고정효과 모형 (Fixed-Effect Model)", "description": "모든 연구가 동일한 모집단 효과 크기를 추정한다고 가정하는 모형"},
+      {"name": "무선효과 모형 (Random-Effects Model)", "description": "연구 간 효과 크기의 변산을 허용하는 보다 보수적인 모형"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Meta(초월) + Analysis(분석) = 분석의 분석, 연구들을 모아 다시 분석하는 것",
+      "differential": "메타분석은 통계적 통합을 수행하는 양적 방법이고, 체계적 문헌고찰은 질적 평가를 포함하는 보다 포괄적 과정이다.",
+      "key_point": "효과 크기(effect size)를 공통 척도로 변환하여 서로 다른 연구 결과를 비교 가능하게 만드는 것이 핵심이다.",
+      "common_mistake": "메타분석에 포함된 개별 연구들의 질이 낮으면 결과도 신뢰할 수 없다는 'garbage in, garbage out' 문제를 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "RESEARCH_SR_003",
+    "terminology": "체계적 문헌고찰 (Systematic Review)",
+    "terminology_ko": "체계적 문헌고찰",
+    "terminology_en": "Systematic Review",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "사전에 정해진 명확한 프로토콜에 따라 관련 연구를 체계적으로 검색, 선별, 평가하여 특정 연구 질문에 대한 근거를 종합하는 문헌 검토 방법이다.",
+    "definition_en": "A method of literature review that systematically searches, selects, and evaluates relevant studies according to a predefined protocol to synthesize evidence for a specific research question.",
+    "significance": "편향을 최소화한 근거 종합 방법으로, 임상 실무 지침과 정책 결정의 기반이 되며, 근거의 위계에서 가장 높은 수준에 위치한다.",
+    "key_researchers": [
+      {"name_ko": "아치 코크런", "name_en": "Archie Cochrane", "contribution": "근거기반 의학 운동의 선구자로, 체계적 문헌고찰의 필요성을 역설하여 코크런 연합의 설립에 영감을 주었다."},
+      {"name_ko": "이언 차머스", "name_en": "Iain Chalmers", "contribution": "코크런 연합(Cochrane Collaboration)을 설립하여 체계적 문헌고찰의 표준화와 보급에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "메타분석", "name_en": "Meta-Analysis", "id": "RESEARCH_META_002"},
+      {"name_ko": "근거기반 실무", "name_en": "Evidence-Based Practice", "id": "INTRO_EBP_004"},
+      {"name_ko": "EST 운동", "name_en": "EST Movement", "id": "HISTORY_EST_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체계(Systematic) = 정해진 규칙대로, 문헌(Review) = 논문을 모아 검토 → 규칙적으로 논문 검토",
+      "differential": "체계적 문헌고찰은 사전 프로토콜에 따른 엄격한 검토이고, 내러티브 리뷰(narrative review)는 저자의 주관적 선택에 의존한다.",
+      "key_point": "검색 전략, 포함/배제 기준, 질 평가 도구 등이 사전에 명시되어야 하며, PRISMA 지침을 따르는 것이 표준이다.",
+      "common_mistake": "체계적 문헌고찰과 메타분석을 동일시하는 오류가 흔하다. 체계적 문헌고찰이 상위 개념이며, 메타분석은 그 안에서 수행될 수 있는 통계 기법이다."
+    }
+  },
+  {
+    "id": "RESEARCH_CASE_004",
+    "terminology": "사례 연구 (Case Study)",
+    "terminology_ko": "사례 연구",
+    "terminology_en": "Case Study",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "한 개인이나 소수의 사례를 심층적으로 관찰하고 기술하는 연구 방법으로, 풍부한 질적 정보를 제공하지만 일반화에 제한이 있다.",
+    "definition_en": "A research method that provides an in-depth observation and description of a single individual or a small number of cases, offering rich qualitative information but with limited generalizability.",
+    "significance": "임상심리학의 역사적 토대가 된 연구 방법으로, 희귀한 장애나 새로운 치료 접근에 대한 탐색적 근거를 제공하며, 가설 생성의 출발점이 된다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "안나 O, 리틀 한스 등의 사례 연구를 통해 정신분석 이론을 발전시키며 사례 연구 방법을 임상심리학에 정착시켰다."},
+      {"name_ko": "로버트 스테이크", "name_en": "Robert Stake", "contribution": "사례 연구 방법론을 체계화하여 고유적(intrinsic), 도구적(instrumental), 집합적(collective) 유형을 구분했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "단일사례 실험설계", "name_en": "Single-Case Experimental Design", "id": "RESEARCH_SCED_005"},
+      {"name_ko": "외적 타당도", "name_en": "External Validity", "id": "RESEARCH_EV_013"},
+      {"name_ko": "일반화 가능성", "name_en": "Generalizability", "id": "RESEARCH_GEN_029"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [
+      {"name": "기술적 사례 연구 (Descriptive Case Study)", "description": "현상을 상세히 기술하는 데 초점을 맞춘 사례 연구"},
+      {"name": "설명적 사례 연구 (Explanatory Case Study)", "description": "인과적 설명을 시도하는 사례 연구"},
+      {"name": "탐색적 사례 연구 (Exploratory Case Study)", "description": "새로운 가설이나 연구 방향을 탐색하기 위한 사례 연구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "사례(Case) 하나를 깊이 파고드는 연구 → 깊지만 좁은 연구",
+      "differential": "사례 연구는 통제 없이 자연적 관찰을 하지만, 단일사례 실험설계는 독립변인을 체계적으로 조작하여 인과관계를 추론한다.",
+      "key_point": "내적 타당도가 낮아 인과관계를 확립하기 어렵지만, 풍부한 맥락적 정보와 가설 생성 기능이 강점이다.",
+      "common_mistake": "사례 연구를 단일사례 실험설계와 혼동하는 경우가 많으나, 사례 연구는 실험적 조작이 없다는 점에서 근본적으로 다르다."
+    }
+  },
+  {
+    "id": "RESEARCH_SCED_005",
+    "terminology": "단일사례 실험설계 (Single-Case Experimental Design)",
+    "terminology_ko": "단일사례 실험설계",
+    "terminology_en": "Single-Case Experimental Design",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "한 명 또는 소수의 참여자를 대상으로 독립변인을 체계적으로 도입하거나 철회하면서 종속변인의 변화를 반복 측정하는 실험 설계 방법이다.",
+    "definition_en": "An experimental design that systematically introduces or withdraws an independent variable with one or a few participants while repeatedly measuring the dependent variable to establish causal relationships.",
+    "significance": "집단 설계가 어려운 임상 장면에서 개별 치료의 효과를 과학적으로 검증할 수 있게 하며, 행동치료와 응용행동분석의 핵심 연구 방법이다.",
+    "key_researchers": [
+      {"name_ko": "머리 시드먼", "name_en": "Murray Sidman", "contribution": "1960년 'Tactics of Scientific Research'를 저술하여 단일사례 실험설계의 방법론적 기초를 정립했다."},
+      {"name_ko": "앨런 카진", "name_en": "Alan Kazdin", "contribution": "단일사례 실험설계의 다양한 변형(ABA, 다기초선 등)을 체계화하고 임상 연구에서의 활용을 촉진했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사례 연구", "name_en": "Case Study", "id": "RESEARCH_CASE_004"},
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "반복 검증", "name_en": "Replication", "id": "RESEARCH_REP_028"}
+    ],
+    "sub_types": [
+      {"name": "ABA 설계 (Reversal Design)", "description": "기초선(A)-처치(B)-철회(A) 순서로 진행하여 처치 효과를 검증하는 설계"},
+      {"name": "다기초선 설계 (Multiple Baseline Design)", "description": "여러 행동, 상황, 또는 참여자에 걸쳐 처치를 순차적으로 도입하는 설계"},
+      {"name": "교대처치 설계 (Alternating Treatments Design)", "description": "두 가지 이상의 처치를 빠르게 교대하여 효과를 비교하는 설계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "단일(Single) + 사례(Case) + 실험(Experiment) → 한 사람에게 실험적 조작을 하는 것",
+      "differential": "단일사례 실험설계는 독립변인을 체계적으로 조작하여 인과관계를 추론하지만, 사례 연구는 관찰만 수행한다.",
+      "key_point": "각 참여자가 자기 자신의 통제집단 역할을 하며, 반복 측정을 통해 처치 효과의 안정성을 확인한다.",
+      "common_mistake": "ABA 설계에서 철회(A) 후 행동이 기초선으로 복귀하지 않으면 내적 타당도가 위협받는다는 점을 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "RESEARCH_QE_006",
+    "terminology": "준실험 설계 (Quasi-Experimental Design)",
+    "terminology_ko": "준실험 설계",
+    "terminology_en": "Quasi-Experimental Design",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "무선 배정이 불가능하거나 윤리적으로 부적절한 상황에서, 기존 집단이나 자연적 조건을 활용하여 독립변인의 효과를 추정하는 연구 설계이다.",
+    "definition_en": "A research design that estimates the effect of an independent variable using existing groups or natural conditions when random assignment is not possible or ethically inappropriate.",
+    "significance": "실제 임상 현장에서 무선 배정이 어려운 경우에 적용 가능하여, 실험실과 현장 사이의 간극을 메우는 실용적 연구 방법론이다.",
+    "key_researchers": [
+      {"name_ko": "도널드 캠벨", "name_en": "Donald Campbell", "contribution": "준실험 설계의 개념을 체계화하고 타당도 위협 요인을 분류하여 현장 연구의 방법론적 기초를 마련했다."},
+      {"name_ko": "토머스 쿡", "name_en": "Thomas Cook", "contribution": "Campbell과 함께 'Quasi-Experimentation'을 저술하여 준실험 설계의 유형과 타당도 위협을 정리했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"},
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "효과 연구", "name_en": "Effectiveness Research", "id": "RESEARCH_EFT_011"}
+    ],
+    "sub_types": [
+      {"name": "비동등 통제집단 설계 (Nonequivalent Control Group Design)", "description": "무선 배정 없이 기존 집단을 실험집단과 통제집단으로 활용하는 설계"},
+      {"name": "시계열 설계 (Time-Series Design)", "description": "처치 전후에 걸쳐 여러 차례 반복 측정하여 변화를 추적하는 설계"},
+      {"name": "회귀불연속 설계 (Regression Discontinuity Design)", "description": "특정 기준점을 중심으로 처치 여부가 결정되는 상황에서 효과를 추정하는 설계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "준(Quasi) = '거의', 실험에 가깝지만 무선 배정이 빠진 설계",
+      "differential": "준실험 설계는 독립변인을 조작하되 무선 배정이 없고, 상관 연구는 독립변인의 조작 자체가 없다.",
+      "key_point": "무선 배정이 없어 선택 편향(selection bias) 등 내적 타당도 위협에 취약하므로, 이를 통제하기 위한 추가적 방법이 필요하다.",
+      "common_mistake": "준실험 설계를 상관 연구와 혼동하는 경우가 있으나, 준실험은 독립변인을 조작한다는 점에서 실험에 더 가깝다."
+    }
+  },
+  {
+    "id": "RESEARCH_COR_007",
+    "terminology": "상관 연구 (Correlational Study)",
+    "terminology_ko": "상관 연구",
+    "terminology_en": "Correlational Study",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "두 개 이상의 변인 간 관계의 방향과 강도를 통계적으로 측정하는 비실험적 연구 방법으로, 변인의 조작이나 무선 배정 없이 자연적 상태에서 관찰한다.",
+    "definition_en": "A non-experimental research method that statistically measures the direction and strength of relationships between two or more variables, observing them in their natural state without manipulation or random assignment.",
+    "significance": "윤리적으로 실험이 불가능한 주제(예: 학대 경험과 정신건강)를 연구할 수 있으며, 변인 간 관련성 패턴을 파악하여 예측과 가설 생성에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "피어슨 상관계수(r)를 개발하여 두 변인 간 선형 관계의 정도를 정량화하는 방법을 제시했다."},
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "상관과 회귀 개념의 기초를 마련하고, 변인 간 관계를 측정하는 통계적 접근을 선구적으로 도입했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"},
+      {"name_ko": "준실험 설계", "name_en": "Quasi-Experimental Design", "id": "RESEARCH_QE_006"},
+      {"name_ko": "종단 연구", "name_en": "Longitudinal Study", "id": "RESEARCH_LONG_008"},
+      {"name_ko": "횡단 연구", "name_en": "Cross-Sectional Study", "id": "RESEARCH_CROSS_009"}
+    ],
+    "sub_types": [
+      {"name": "자연 관찰적 상관 연구 (Naturalistic Correlational Study)", "description": "자연적 환경에서 변인 간 관계를 관찰하는 연구"},
+      {"name": "조사 연구 (Survey Research)", "description": "설문이나 면접을 통해 다수의 변인 간 관계를 측정하는 연구"},
+      {"name": "기록 기반 연구 (Archival Study)", "description": "기존 데이터나 기록을 활용하여 변인 간 관계를 분석하는 연구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "상관(Correlation) = 함께(Co) + 관계(Relation) → 변인들이 함께 변하는 관계를 보는 것",
+      "differential": "상관 연구는 변인의 조작이 없어 인과관계를 확립할 수 없지만, 실험 연구는 독립변인을 조작하여 인과관계를 추론한다.",
+      "key_point": "'상관은 인과가 아니다(correlation does not imply causation)'라는 원칙이 핵심이며, 제3변인의 영향을 배제할 수 없다.",
+      "common_mistake": "높은 상관계수를 인과관계의 증거로 해석하는 오류가 매우 흔하다. 두 변인이 함께 변한다고 해서 하나가 다른 하나를 유발하는 것은 아니다."
+    }
+  },
+  {
+    "id": "RESEARCH_LONG_008",
+    "terminology": "종단 연구 (Longitudinal Study)",
+    "terminology_ko": "종단 연구",
+    "terminology_en": "Longitudinal Study",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "동일한 연구 참여자 집단을 장기간에 걸쳐 반복적으로 관찰하고 측정하여 시간에 따른 변화와 발달 양상을 추적하는 연구 설계이다.",
+    "definition_en": "A research design that repeatedly observes and measures the same group of participants over an extended period to track changes and developmental patterns over time.",
+    "significance": "심리장애의 발달 경로, 위험요인, 보호요인을 시간적 순서에 따라 규명할 수 있으며, 인과적 방향성에 대한 추론을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "1921년 시작된 영재 종단 연구(Terman Study of the Gifted)를 통해 인간 발달에 대한 장기 추적 연구의 모범을 제시했다."},
+      {"name_ko": "에미 워너", "name_en": "Emmy Werner", "contribution": "카우아이 종단 연구(Kauai Longitudinal Study)를 통해 위험요인과 회복탄력성에 대한 장기 추적 자료를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "횡단 연구", "name_en": "Cross-Sectional Study", "id": "RESEARCH_CROSS_009"},
+      {"name_ko": "상관 연구", "name_en": "Correlational Study", "id": "RESEARCH_COR_007"},
+      {"name_ko": "일반화 가능성", "name_en": "Generalizability", "id": "RESEARCH_GEN_029"}
+    ],
+    "sub_types": [
+      {"name": "전향적 종단 연구 (Prospective Longitudinal Study)", "description": "현재 시점에서 시작하여 미래로 추적하는 연구"},
+      {"name": "후향적 종단 연구 (Retrospective Longitudinal Study)", "description": "과거 기록을 역추적하여 분석하는 연구"},
+      {"name": "코호트 연구 (Cohort Study)", "description": "특정 특성을 공유하는 집단을 장기간 추적하는 연구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "종단(Longitudinal) = 세로(길게) → 시간축을 따라 길~게 추적하는 연구",
+      "differential": "종단 연구는 동일 집단을 시간에 따라 반복 측정하지만, 횡단 연구는 한 시점에 서로 다른 집단을 비교한다.",
+      "key_point": "참여자 탈락(attrition), 시대 효과(period effect), 반복 측정 효과(practice effect)가 주요 위협 요인이다.",
+      "common_mistake": "종단 연구에서 시간적 선후 관계가 확인되어도 인과관계가 성립하는 것은 아니다. 제3변인의 가능성은 여전히 존재한다."
+    }
+  },
+  {
+    "id": "RESEARCH_CROSS_009",
+    "terminology": "횡단 연구 (Cross-Sectional Study)",
+    "terminology_ko": "횡단 연구",
+    "terminology_en": "Cross-Sectional Study",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "특정 시점에서 서로 다른 연령 또는 특성을 가진 집단을 동시에 비교하여 변인 간 관계나 집단 차이를 파악하는 연구 설계이다.",
+    "definition_en": "A research design that simultaneously compares groups of different ages or characteristics at a single point in time to identify relationships between variables or group differences.",
+    "significance": "비용과 시간이 적게 들고 실시가 용이하여 임상심리학 연구에서 가장 널리 사용되며, 유병률 조사와 변인 간 관련성 파악에 유용하다.",
+    "key_researchers": [
+      {"name_ko": "폴 라자스펠드", "name_en": "Paul Lazarsfeld", "contribution": "조사 연구 방법론을 발전시켜 횡단적 자료 수집과 분석의 체계적 절차를 정립했다."},
+      {"name_ko": "로널드 케슬러", "name_en": "Ronald Kessler", "contribution": "미국 국가 동반이환 조사(NCS) 등 대규모 횡단 연구를 주도하여 정신장애의 역학적 자료를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "종단 연구", "name_en": "Longitudinal Study", "id": "RESEARCH_LONG_008"},
+      {"name_ko": "상관 연구", "name_en": "Correlational Study", "id": "RESEARCH_COR_007"},
+      {"name_ko": "외적 타당도", "name_en": "External Validity", "id": "RESEARCH_EV_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "횡단(Cross-Sectional) = 가로(한 시점에서 잘라봄) → 한 시점의 단면을 보는 연구",
+      "differential": "횡단 연구는 한 시점에서 집단 간 차이를 비교하고, 종단 연구는 동일 집단을 여러 시점에서 반복 측정한다.",
+      "key_point": "코호트 효과(cohort effect)를 통제할 수 없어, 연령 차이가 발달적 변화인지 세대 차이인지 구분이 어렵다.",
+      "common_mistake": "횡단 연구에서 발견된 연령 차이를 발달적 변화로 해석하는 오류가 흔하다. 이는 코호트 효과일 수 있다."
+    }
+  },
+  {
+    "id": "RESEARCH_EFC_010",
+    "terminology": "효능 연구 (Efficacy Research)",
+    "terminology_ko": "효능 연구",
+    "terminology_en": "Efficacy Research",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "엄격하게 통제된 실험 조건에서 특정 치료법이 특정 장애에 효과가 있는지를 검증하는 연구로, 높은 내적 타당도를 추구한다.",
+    "definition_en": "Research that examines whether a specific treatment works for a specific disorder under rigorously controlled experimental conditions, prioritizing high internal validity.",
+    "significance": "치료법의 인과적 효과를 확립하는 데 필수적이며, 경험적으로 지지된 치료(EST)의 인정 기준이 된다.",
+    "key_researchers": [
+      {"name_ko": "다이앤 체임블리스", "name_en": "Dianne Chambless", "contribution": "APA Division 12 Task Force를 이끌어 경험적으로 지지된 치료(EST) 목록을 작성하고 효능 연구의 기준을 제시했다."},
+      {"name_ko": "피터 네이선", "name_en": "Peter Nathan", "contribution": "효능 연구와 효과 연구의 구분을 명확히 하고 근거기반 실무에서 두 연구 유형의 상보적 역할을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "효과 연구", "name_en": "Effectiveness Research", "id": "RESEARCH_EFT_011"},
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"},
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "EST 운동", "name_en": "EST Movement", "id": "HISTORY_EST_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "효능(Efficacy) = '할 수 있는 능력' → 이상적 조건에서 치료가 효과를 낼 수 있는지",
+      "differential": "효능 연구는 통제된 이상적 조건에서 '치료가 작동할 수 있는가'를, 효과 연구는 실제 임상 현장에서 '치료가 작동하는가'를 검증한다.",
+      "key_point": "매뉴얼화된 치료, 동질적 참여자, 무선 배정, 통제집단 등 높은 내적 타당도를 위한 엄격한 조건이 특징이다.",
+      "common_mistake": "효능 연구에서 입증된 치료가 실제 임상 현장에서도 동일한 효과를 보인다고 가정하는 것은 외적 타당도의 한계를 간과한 것이다."
+    }
+  },
+  {
+    "id": "RESEARCH_EFT_011",
+    "terminology": "효과 연구 (Effectiveness Research)",
+    "terminology_ko": "효과 연구",
+    "terminology_en": "Effectiveness Research",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "실제 임상 현장의 자연스러운 조건에서 치료가 효과적으로 작동하는지를 검증하는 연구로, 높은 외적 타당도와 일반화 가능성을 추구한다.",
+    "definition_en": "Research that examines whether treatment works effectively under the naturalistic conditions of real clinical settings, prioritizing high external validity and generalizability.",
+    "significance": "효능 연구에서 입증된 치료가 다양한 내담자, 치료자, 환경에서도 효과적인지를 확인하여, 연구와 실무 간의 간극을 좁히는 데 기여한다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "Consumer Reports 연구(1995)를 통해 효능 연구와 효과 연구의 차이를 부각시키고 실제 임상 현장 연구의 가치를 강조했다."},
+      {"name_ko": "앨런 카진", "name_en": "Alan Kazdin", "contribution": "임상심리학에서 효능-효과 연구의 상보적 관계를 체계적으로 정리하고, 치료 연구의 방향을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "효능 연구", "name_en": "Efficacy Research", "id": "RESEARCH_EFC_010"},
+      {"name_ko": "외적 타당도", "name_en": "External Validity", "id": "RESEARCH_EV_013"},
+      {"name_ko": "일반화 가능성", "name_en": "Generalizability", "id": "RESEARCH_GEN_029"},
+      {"name_ko": "근거기반 실무", "name_en": "Evidence-Based Practice", "id": "INTRO_EBP_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "효과(Effectiveness) = '실제로 효과가 있는지' → 현장에서 진짜 되는지 확인",
+      "differential": "효과 연구는 실제 임상 현장에서의 일반화 가능성을 중시하고, 효능 연구는 통제된 조건에서의 인과적 효과를 중시한다.",
+      "key_point": "다양한 동반이환, 비매뉴얼화 치료, 이질적 참여자 등 실제 임상 현장의 복잡성을 반영한다.",
+      "common_mistake": "효과 연구가 효능 연구보다 열등한 방법이라고 오해하기 쉬우나, 두 접근은 상보적이며 서로 다른 질문에 답한다."
+    }
+  },
+  {
+    "id": "RESEARCH_IV_012",
+    "terminology": "내적 타당도 (Internal Validity)",
+    "terminology_ko": "내적 타당도",
+    "terminology_en": "Internal Validity",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "연구에서 관찰된 결과가 실제로 독립변인의 조작에 의해 발생한 것인지, 즉 인과적 추론의 정확성을 나타내는 연구 설계의 질적 기준이다.",
+    "definition_en": "A quality criterion of research design indicating the accuracy of causal inference, that is, whether observed results are actually caused by the manipulation of the independent variable.",
+    "significance": "치료 효과를 과학적으로 입증하기 위한 가장 기본적인 전제조건으로, 연구의 인과적 결론에 대한 신뢰성을 결정한다.",
+    "key_researchers": [
+      {"name_ko": "도널드 캠벨", "name_en": "Donald Campbell", "contribution": "내적 타당도의 개념을 정립하고, 역사 효과, 성숙 효과 등 8가지 주요 위협 요인을 체계적으로 분류했다."},
+      {"name_ko": "줄리언 스탠리", "name_en": "Julian Stanley", "contribution": "Campbell과 함께 'Experimental and Quasi-Experimental Designs for Research'를 저술하여 타당도 위협 요인을 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "외적 타당도", "name_en": "External Validity", "id": "RESEARCH_EV_013"},
+      {"name_ko": "구성 타당도", "name_en": "Construct Validity", "id": "RESEARCH_CV_014"},
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"},
+      {"name_ko": "통제 조건", "name_en": "Control Conditions", "id": "RESEARCH_CC_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내적(Internal) = 연구 안에서의 타당도 → '이 연구 안에서 인과관계가 맞는가?'",
+      "differential": "내적 타당도는 '이 연구에서 X가 Y를 유발했는가'를, 외적 타당도는 '이 결과가 다른 상황에도 적용되는가'를 묻는다.",
+      "key_point": "역사(history), 성숙(maturation), 검사(testing), 도구(instrumentation), 통계적 회귀, 선택, 탈락, 선택-성숙 상호작용이 8대 위협 요인이다.",
+      "common_mistake": "내적 타당도가 높으면 외적 타당도도 자동으로 높아진다고 오해하기 쉬우나, 두 타당도는 종종 상충 관계에 있다."
+    }
+  },
+  {
+    "id": "RESEARCH_EV_013",
+    "terminology": "외적 타당도 (External Validity)",
+    "terminology_ko": "외적 타당도",
+    "terminology_en": "External Validity",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "연구 결과가 연구 상황을 넘어 다른 사람, 환경, 시간, 측정 방법으로 일반화될 수 있는 정도를 나타내는 연구의 질적 기준이다.",
+    "definition_en": "A quality criterion of research indicating the extent to which findings can be generalized beyond the research setting to other people, environments, times, and measurement methods.",
+    "significance": "임상심리학에서 연구 결과를 실제 내담자와 치료 장면에 적용하기 위한 필수 조건으로, 연구의 실용적 가치를 결정한다.",
+    "key_researchers": [
+      {"name_ko": "도널드 캠벨", "name_en": "Donald Campbell", "contribution": "외적 타당도의 개념을 정립하고 내적 타당도와의 관계 및 위협 요인을 체계적으로 분류했다."},
+      {"name_ko": "로버트 브레이크", "name_en": "Robert Bracht", "contribution": "Campbell의 틀을 확장하여 모집단 타당도와 생태학적 타당도로 외적 타당도를 세분화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "일반화 가능성", "name_en": "Generalizability", "id": "RESEARCH_GEN_029"},
+      {"name_ko": "효과 연구", "name_en": "Effectiveness Research", "id": "RESEARCH_EFT_011"},
+      {"name_ko": "반복 검증", "name_en": "Replication", "id": "RESEARCH_REP_028"}
+    ],
+    "sub_types": [
+      {"name": "모집단 타당도 (Population Validity)", "description": "연구 결과가 다른 사람들에게 일반화될 수 있는 정도"},
+      {"name": "생태학적 타당도 (Ecological Validity)", "description": "연구 결과가 다른 환경이나 조건에서도 적용될 수 있는 정도"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "외적(External) = 연구 밖으로의 타당도 → '이 결과가 바깥 세상에서도 통하는가?'",
+      "differential": "외적 타당도는 결과의 일반화 가능성에 관한 것이고, 내적 타당도는 인과적 추론의 정확성에 관한 것이다.",
+      "key_point": "대학생 표본으로 수행된 연구가 실제 임상 환자에게 일반화될 수 있는지가 임상심리학에서 핵심 쟁점이다.",
+      "common_mistake": "내적 타당도를 높이기 위한 엄격한 통제가 오히려 외적 타당도를 낮출 수 있다는 상충관계를 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "RESEARCH_CV_014",
+    "terminology": "구성 타당도 (Construct Validity)",
+    "terminology_ko": "구성 타당도",
+    "terminology_en": "Construct Validity",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "연구에서 사용하는 측정 도구나 조작이 의도한 이론적 구성개념을 실제로 정확하게 반영하고 있는지를 나타내는 타당도이다.",
+    "definition_en": "A form of validity indicating whether measurement instruments or manipulations used in research accurately reflect the intended theoretical construct.",
+    "significance": "심리학적 구성개념은 직접 관찰이 불가능하므로, 측정 도구가 목표 개념을 정확히 포착하고 있는지 확인하는 것이 모든 심리학 연구의 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "구성 타당도의 개념을 정립하고 수렴-변별 타당도 등 하위 개념을 체계화하여 심리 측정의 이론적 기초를 마련했다."},
+      {"name_ko": "폴 미얼", "name_en": "Paul Meehl", "contribution": "Cronbach와 함께 구성 타당도의 이론적 틀을 제시하고 법칙학적 망(nomological network) 개념을 도입했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"},
+      {"name_ko": "진단 신뢰도", "name_en": "Diagnostic Reliability", "id": "DIAGN_REL_005"}
+    ],
+    "sub_types": [
+      {"name": "수렴 타당도 (Convergent Validity)", "description": "동일한 구성개념을 측정하는 서로 다른 방법 간의 높은 상관"},
+      {"name": "변별 타당도 (Discriminant Validity)", "description": "서로 다른 구성개념을 측정하는 도구 간의 낮은 상관"},
+      {"name": "요인 타당도 (Factorial Validity)", "description": "요인분석을 통해 확인되는 측정 도구의 구조적 타당도"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "구성(Construct) = 이론적 개념, 타당도 = 정확히 측정하는가 → '이론적 개념을 정확히 잡아내는가?'",
+      "differential": "구성 타당도는 측정이 의도한 개념을 반영하는지에 관한 것이고, 내적 타당도는 연구 결과의 인과적 해석에 관한 것이다.",
+      "key_point": "수렴 타당도(같은 개념을 다르게 측정해도 높은 상관)와 변별 타당도(다른 개념을 측정하면 낮은 상관)를 함께 확인해야 한다.",
+      "common_mistake": "구성 타당도가 한 번의 연구로 확립될 수 있다고 오해하기 쉬우나, 다양한 근거의 축적을 통해 점진적으로 확립되는 것이다."
+    }
+  },
+  {
+    "id": "RESEARCH_REL_015",
+    "terminology": "신뢰도 (Reliability)",
+    "terminology_ko": "신뢰도",
+    "terminology_en": "Reliability",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "측정 도구가 동일한 대상을 반복 측정할 때 일관되고 안정적인 결과를 산출하는 정도를 나타내는 측정의 질적 속성이다.",
+    "definition_en": "A quality attribute of measurement indicating the degree to which a measurement instrument produces consistent and stable results when repeatedly measuring the same target.",
+    "significance": "타당한 측정의 필수 전제조건으로, 신뢰도가 확보되지 않으면 연구 결과의 해석과 임상적 의사결정에 근본적 한계가 발생한다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "크론바흐 알파 계수(Cronbach's alpha)를 개발하여 내적 일관성 신뢰도의 표준 지표를 제공했다."},
+      {"name_ko": "찰스 스피어만", "name_en": "Charles Spearman", "contribution": "고전검사이론(CTT)과 스피어만-브라운 공식을 통해 신뢰도 추정의 이론적 기초를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구성 타당도", "name_en": "Construct Validity", "id": "RESEARCH_CV_014"},
+      {"name_ko": "진단 신뢰도", "name_en": "Diagnostic Reliability", "id": "DIAGN_REL_005"},
+      {"name_ko": "치료 충실도", "name_en": "Treatment Fidelity", "id": "RESEARCH_TF_016"}
+    ],
+    "sub_types": [
+      {"name": "검사-재검사 신뢰도 (Test-Retest Reliability)", "description": "동일 도구로 시간 간격을 두고 재측정했을 때의 일관성"},
+      {"name": "내적 일관성 (Internal Consistency)", "description": "한 검사 내 문항들이 동일한 구성개념을 측정하는 정도"},
+      {"name": "평가자 간 신뢰도 (Inter-Rater Reliability)", "description": "서로 다른 평가자가 동일 대상을 평가했을 때의 일치도"},
+      {"name": "반분 신뢰도 (Split-Half Reliability)", "description": "한 검사를 두 부분으로 나누어 비교한 일관성"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "신뢰(Reliability) = 믿을 수 있는 → 여러 번 측정해도 같은 결과가 나오면 믿을 수 있다",
+      "differential": "신뢰도는 측정의 일관성(consistency)에 관한 것이고, 타당도는 측정의 정확성(accuracy)에 관한 것이다. 신뢰도 없이 타당도는 불가능하지만, 신뢰도가 높다고 타당도가 보장되지는 않는다.",
+      "key_point": "신뢰도는 타당도의 필요조건이지만 충분조건은 아니다. 저울이 항상 2kg을 더 보여주면 신뢰도는 높지만 타당도는 낮다.",
+      "common_mistake": "크론바흐 알파가 높으면 도구가 좋다고 단정짓는 오류가 흔하다. 알파는 내적 일관성만 반영하며, 검사-재검사 신뢰도 등은 별도로 확인해야 한다."
+    }
+  },
+  {
+    "id": "RESEARCH_TF_016",
+    "terminology": "치료 충실도 (Treatment Fidelity)",
+    "terminology_ko": "치료 충실도",
+    "terminology_en": "Treatment Fidelity",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "치료가 연구 프로토콜이나 매뉴얼에 명시된 대로 정확하고 일관되게 실시되고 있는지를 나타내는 지표로, 치료 연구의 내적 타당도 확보에 필수적이다.",
+    "definition_en": "An indicator of whether treatment is being delivered accurately and consistently as specified in the research protocol or manual, essential for ensuring internal validity of treatment research.",
+    "significance": "치료가 의도대로 실시되었는지를 확인하지 않으면, 치료 효과가 없는 것인지 치료가 제대로 시행되지 않은 것인지 구분할 수 없게 된다.",
+    "key_researchers": [
+      {"name_ko": "클라라 힐", "name_en": "Clara Hill", "contribution": "심리치료 과정 연구에서 치료 충실도 평가 방법을 발전시키고 치료자 역량과 충실도의 관계를 연구했다."},
+      {"name_ko": "엔리케 베르나", "name_en": "Enrique Bernal", "contribution": "문화적으로 적응된 치료에서의 충실도 개념을 확장하고, 치료 충실도와 문화적 적응의 균형을 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "구성 타당도", "name_en": "Construct Validity", "id": "RESEARCH_CV_014"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"}
+    ],
+    "sub_types": [
+      {"name": "치료 준수도 (Treatment Adherence)", "description": "치료자가 매뉴얼에 명시된 절차를 얼마나 충실히 따르는지"},
+      {"name": "치료자 역량 (Therapist Competence)", "description": "치료자가 치료 기법을 얼마나 능숙하게 적용하는지"},
+      {"name": "치료 차별화 (Treatment Differentiation)", "description": "서로 다른 치료 조건이 실제로 다르게 실시되고 있는지"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "충실도(Fidelity) = 충실하게 따르기 → 매뉴얼대로 충실히 치료하는가",
+      "differential": "치료 충실도는 치료가 계획대로 실시되었는지에 관한 것이고, 치료 효과는 그 치료가 증상을 개선했는지에 관한 것이다.",
+      "key_point": "충실도 확인 없이는 치료 실패가 '치료 자체의 무효'인지 '부적절한 시행'인지 구분할 수 없다(Type III error).",
+      "common_mistake": "치료 충실도가 높으면 좋은 치료라고 오해할 수 있으나, 충실도는 치료의 질이 아니라 프로토콜 준수 여부만을 나타낸다."
+    }
+  },
+  {
+    "id": "RESEARCH_SS_017",
+    "terminology": "통계적 유의성 (Statistical Significance)",
+    "terminology_ko": "통계적 유의성",
+    "terminology_en": "Statistical Significance",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "관찰된 연구 결과가 우연에 의해 발생했을 가능성이 사전에 설정한 기준(일반적으로 p < .05) 이하일 때, 그 결과가 통계적으로 유의하다고 판단하는 기준이다.",
+    "definition_en": "A criterion for determining that an observed result is statistically meaningful when the probability of it occurring by chance falls below a predetermined threshold (typically p < .05).",
+    "significance": "연구 가설의 채택 여부를 결정하는 기본 기준이지만, 임상적 의미와는 별개이므로 효과 크기 및 임상적 유의성과 함께 해석해야 한다.",
+    "key_researchers": [
+      {"name_ko": "로널드 피셔", "name_en": "Ronald Fisher", "contribution": "p값과 유의수준(significance level) 개념을 도입하고, 귀무가설 유의성 검증(NHST) 틀을 정립했다."},
+      {"name_ko": "예르지 네이만", "name_en": "Jerzy Neyman", "contribution": "에곤 피어슨과 함께 가설검증의 의사결정 이론을 발전시켜 제1종 오류와 제2종 오류 개념을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "효과 크기", "name_en": "Effect Size", "id": "RESEARCH_ES_018"},
+      {"name_ko": "임상적 유의성", "name_en": "Clinical Significance", "id": "RESEARCH_CS_019"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "통계적 유의(Statistical Significance) = 통계적으로 의미 있다 → p값이 .05보다 작으면 우연이 아닐 가능성이 높다",
+      "differential": "통계적 유의성은 결과가 우연인지 여부를 판단하고, 임상적 유의성은 그 결과가 실제로 의미 있는 변화인지를 판단한다.",
+      "key_point": "표본 크기가 충분히 크면 아주 작은 차이도 통계적으로 유의할 수 있으므로, 반드시 효과 크기와 함께 해석해야 한다.",
+      "common_mistake": "p < .05가 '95% 확실하다'는 의미라고 오해하기 쉬우나, p값은 귀무가설이 참일 때 관찰된 결과 이상의 극단적 값이 나올 확률이다."
+    }
+  },
+  {
+    "id": "RESEARCH_ES_018",
+    "terminology": "효과 크기 (Effect Size)",
+    "terminology_ko": "효과 크기",
+    "terminology_en": "Effect Size",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "처치 효과나 변인 간 관계의 실질적 크기를 양적으로 나타내는 지표로, 통계적 유의성과 달리 표본 크기에 영향받지 않는다.",
+    "definition_en": "A quantitative indicator of the practical magnitude of treatment effects or relationships between variables, which unlike statistical significance is not influenced by sample size.",
+    "significance": "치료 효과의 실질적 크기를 비교 가능하게 하며, 메타분석의 기본 단위가 되고, APA 출판 지침에서 보고를 권고하는 필수 통계량이다.",
+    "key_researchers": [
+      {"name_ko": "제이콥 코헨", "name_en": "Jacob Cohen", "contribution": "Cohen's d를 개발하고 효과 크기의 해석 기준(소: 0.2, 중: 0.5, 대: 0.8)을 제시했다."},
+      {"name_ko": "진 글래스", "name_en": "Gene V. Glass", "contribution": "메타분석에서 효과 크기를 공통 척도로 활용하는 방법을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통계적 유의성", "name_en": "Statistical Significance", "id": "RESEARCH_SS_017"},
+      {"name_ko": "임상적 유의성", "name_en": "Clinical Significance", "id": "RESEARCH_CS_019"},
+      {"name_ko": "메타분석", "name_en": "Meta-Analysis", "id": "RESEARCH_META_002"}
+    ],
+    "sub_types": [
+      {"name": "Cohen's d", "description": "두 집단 평균 차이를 표준편차로 나눈 표준화된 차이 지표"},
+      {"name": "상관계수 r", "description": "두 변인 간 관계의 방향과 강도를 -1에서 1 사이로 나타내는 지표"},
+      {"name": "오즈비 (Odds Ratio)", "description": "두 집단에서 특정 사건 발생의 상대적 가능성을 비교하는 지표"},
+      {"name": "NNT (Number Needed to Treat)", "description": "한 명의 추가적 성공 사례를 위해 치료해야 하는 환자 수"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "효과 크기 = 효과가 얼마나 큰지 → 통계적으로 유의할 뿐만 아니라 실제로도 큰 차이인가",
+      "differential": "효과 크기는 차이의 '크기'를 나타내고, 통계적 유의성은 그 차이가 '우연이 아닌지'를 나타낸다. 큰 표본에서는 작은 효과도 유의할 수 있다.",
+      "key_point": "Cohen의 기준으로 d=0.2(소), d=0.5(중), d=0.8(대)이며, 표본 크기에 독립적이라는 점이 p값과의 핵심 차이이다.",
+      "common_mistake": "효과 크기가 작다고 임상적으로 무의미한 것은 아니다. 맥락에 따라 작은 효과도 큰 실질적 영향을 미칠 수 있다."
+    }
+  },
+  {
+    "id": "RESEARCH_CS_019",
+    "terminology": "임상적 유의성 (Clinical Significance)",
+    "terminology_ko": "임상적 유의성",
+    "terminology_en": "Clinical Significance",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "치료에 의한 변화가 내담자의 일상생활에서 실질적이고 의미 있는 차이를 만들어내는지, 즉 기능적 수준의 변화 여부를 나타내는 기준이다.",
+    "definition_en": "A criterion indicating whether treatment-induced change produces a practical and meaningful difference in a client's daily life, that is, whether there is a change in functional level.",
+    "significance": "통계적 유의성만으로는 치료의 실질적 가치를 판단할 수 없으므로, 내담자 관점에서 의미 있는 변화인지를 평가하는 보완적 기준으로 중요하다.",
+    "key_researchers": [
+      {"name_ko": "닐 제이콥슨", "name_en": "Neil Jacobson", "contribution": "임상적 유의성의 조작적 정의와 신뢰변화지수(RCI)를 개발하여 개인 수준의 변화를 평가하는 방법을 제시했다."},
+      {"name_ko": "폴라 트루악스", "name_en": "Paula Truax", "contribution": "Jacobson과 함께 신뢰변화지수(Reliable Change Index)를 개발하고 임상적 유의성 판단 기준을 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통계적 유의성", "name_en": "Statistical Significance", "id": "RESEARCH_SS_017"},
+      {"name_ko": "효과 크기", "name_en": "Effect Size", "id": "RESEARCH_ES_018"},
+      {"name_ko": "효과 연구", "name_en": "Effectiveness Research", "id": "RESEARCH_EFT_011"}
+    ],
+    "sub_types": [
+      {"name": "신뢰변화지수 (Reliable Change Index, RCI)", "description": "개인의 점수 변화가 측정 오차를 초과하는 의미 있는 변화인지를 판단하는 지표"},
+      {"name": "정상 기능 회복 (Return to Normal Functioning)", "description": "치료 후 점수가 정상 모집단의 범위 내로 이동했는지를 평가하는 기준"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "임상적 유의성 = 임상(실제 생활)에서 유의미한 변화 → 환자가 진짜 좋아졌는가?",
+      "differential": "통계적 유의성은 집단 수준에서 우연이 아닌 차이를 감지하고, 임상적 유의성은 개인 수준에서 의미 있는 변화가 일어났는지를 평가한다.",
+      "key_point": "Jacobson의 기준: (a) 기능 장애 범위를 벗어남, (b) 정상 기능 범위에 진입, (c) 정상 분포에 더 가까워짐, 이 세 기준 중 하나를 충족해야 한다.",
+      "common_mistake": "통계적으로 유의한 결과를 자동으로 임상적으로도 의미 있다고 간주하는 오류가 매우 흔하다."
+    }
+  },
+  {
+    "id": "RESEARCH_ITT_020",
+    "terminology": "의향 분석 (Intent-to-Treat Analysis)",
+    "terminology_ko": "의향 분석",
+    "terminology_en": "Intent-to-Treat Analysis",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "무선 배정된 모든 참여자를 실제 치료 완료 여부와 관계없이 원래 배정된 집단에 포함시켜 분석하는 방법으로, 치료 효과의 과대추정을 방지한다.",
+    "definition_en": "An analytical method that includes all randomly assigned participants in their originally assigned groups regardless of whether they completed treatment, preventing overestimation of treatment effects.",
+    "significance": "중도 탈락으로 인한 선택 편향을 방지하고 실제 임상 현장의 상황(치료 비순응, 중단 등)을 반영하여 보다 보수적이고 현실적인 치료 효과 추정치를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "존 라크찬드라 자겟시아", "name_en": "John Lachin", "contribution": "임상시험에서 의향 분석의 통계적 근거와 적용 방법을 체계화했다."},
+      {"name_ko": "케네스 슐츠", "name_en": "Kenneth Schulz", "contribution": "CONSORT 성명서 개발에 참여하여 RCT 보고에서 의향 분석의 표준화에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"},
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"},
+      {"name_ko": "효능 연구", "name_en": "Efficacy Research", "id": "RESEARCH_EFC_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "의향(Intent) = '의도대로' → 원래 배정 의도대로 분석, 탈락자도 포함",
+      "differential": "의향 분석은 모든 배정자를 포함하여 보수적으로 추정하고, 프로토콜 순응 분석(per-protocol)은 치료를 완료한 참여자만 분석하여 낙관적으로 추정한다.",
+      "key_point": "탈락자를 제외하면 남은 참여자가 원래 무선 배정된 집단을 더 이상 대표하지 않아 선택 편향이 발생한다.",
+      "common_mistake": "의향 분석에서 결측치 처리 방법(LOCF, 다중 대체 등)에 따라 결과가 달라질 수 있다는 점을 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "RESEARCH_CC_021",
+    "terminology": "통제 조건 (Control Conditions)",
+    "terminology_ko": "통제 조건",
+    "terminology_en": "Control Conditions",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "실험집단과의 비교를 위해 설정되는 조건으로, 처치 효과를 분리하기 위해 독립변인을 제외한 다른 조건을 동일하게 유지하는 비교 기준이다.",
+    "definition_en": "Conditions established for comparison with experimental groups, serving as a baseline by maintaining identical conditions except for the independent variable to isolate treatment effects.",
+    "significance": "치료 효과가 자연적 회복, 기대 효과, 관심 효과 등 비특이적 요인이 아닌 실제 치료 성분에 의한 것인지를 확인하기 위한 핵심적 방법론적 장치이다.",
+    "key_researchers": [
+      {"name_ko": "헨리 비처", "name_en": "Henry Beecher", "contribution": "1955년 위약 효과에 대한 체계적 분석을 통해 통제 조건의 필요성을 강력히 입증했다."},
+      {"name_ko": "도널드 캠벨", "name_en": "Donald Campbell", "contribution": "다양한 통제 조건의 유형과 각각의 장단점을 체계적으로 분류했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "위약 통제", "name_en": "Placebo Control", "id": "RESEARCH_PC_022"},
+      {"name_ko": "대기자 명단 통제", "name_en": "Wait-List Control", "id": "RESEARCH_WLC_023"},
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"},
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"}
+    ],
+    "sub_types": [
+      {"name": "무처치 통제 (No-Treatment Control)", "description": "아무런 개입 없이 자연적 경과를 관찰하는 통제 조건"},
+      {"name": "위약 통제 (Placebo Control)", "description": "비특이적 치료 요인을 통제하기 위한 가짜 처치 조건"},
+      {"name": "대기자 명단 통제 (Wait-List Control)", "description": "추후 치료를 약속하고 대기하게 하는 통제 조건"},
+      {"name": "기존 치료 통제 (Treatment-as-Usual)", "description": "현재 표준적으로 제공되는 치료를 비교 조건으로 사용"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "통제(Control) = 비교 기준 → 치료 효과를 확인하려면 비교할 대상이 필요하다",
+      "differential": "통제 조건은 상위 개념이고, 위약 통제와 대기자 명단 통제는 그 하위 유형이다. 각 유형은 통제하는 위협 요인이 다르다.",
+      "key_point": "어떤 통제 조건을 선택하느냐에 따라 연구 질문이 달라진다. 무처치 통제는 '치료가 효과적인가', 위약 통제는 '치료의 특이적 성분이 효과적인가'를 묻는다.",
+      "common_mistake": "모든 통제 조건이 동등한 것이 아니다. 무처치 통제는 자연 회복과 비교할 뿐 위약 효과를 통제하지 못한다."
+    }
+  },
+  {
+    "id": "RESEARCH_PC_022",
+    "terminology": "위약 통제 (Placebo Control)",
+    "terminology_ko": "위약 통제",
+    "terminology_en": "Placebo Control",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "치료의 비특이적 요인(기대, 관심, 치료 관계 등)을 통제하기 위해 실제 치료의 핵심 성분이 빠진 유사 처치를 제공하는 통제 조건이다.",
+    "definition_en": "A control condition that provides a pseudo-treatment lacking the core active components of the actual treatment, designed to control for nonspecific factors such as expectation, attention, and therapeutic relationship.",
+    "significance": "치료 효과 중 비특이적 요인에 의한 부분을 분리하여, 치료의 특이적 활성 성분의 고유한 기여를 확인할 수 있게 한다.",
+    "key_researchers": [
+      {"name_ko": "헨리 비처", "name_en": "Henry Beecher", "contribution": "1955년 'The Powerful Placebo'를 발표하여 위약 효과의 존재와 규모를 체계적으로 입증했다."},
+      {"name_ko": "어빙 커쉬", "name_en": "Irving Kirsch", "contribution": "항우울제의 위약 효과에 대한 메타분석을 수행하여 심리치료 연구에서 위약 통제의 중요성을 부각시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통제 조건", "name_en": "Control Conditions", "id": "RESEARCH_CC_021"},
+      {"name_ko": "이중맹검", "name_en": "Double-Blind", "id": "RESEARCH_DB_024"},
+      {"name_ko": "대기자 명단 통제", "name_en": "Wait-List Control", "id": "RESEARCH_WLC_023"}
+    ],
+    "sub_types": [
+      {"name": "주의 위약 (Attention Placebo)", "description": "치료자의 관심과 시간을 제공하되 특이적 치료 성분은 제외한 통제"},
+      {"name": "심리적 위약 (Psychological Placebo)", "description": "심리치료와 유사한 형태이지만 핵심 치료 기법이 빠진 처치"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "위약(Placebo) = '기쁘게 하겠다'(라틴어) → 진짜 약은 아니지만 효과를 기대하게 만드는 가짜 치료",
+      "differential": "위약 통제는 비특이적 요인(기대, 관심)을 통제하지만, 대기자 명단 통제는 자연 경과만 통제한다.",
+      "key_point": "심리치료에서의 위약 통제는 약물 연구만큼 완벽하기 어렵다. 치료자가 자신이 위약을 시행하는지 알기 때문이다.",
+      "common_mistake": "위약 효과가 '가짜' 효과라고 치부하기 쉬우나, 기대와 치료 관계 등 비특이적 요인은 실제로 변화를 유발하는 중요한 치료적 기제이다."
+    }
+  },
+  {
+    "id": "RESEARCH_WLC_023",
+    "terminology": "대기자 명단 통제 (Wait-List Control)",
+    "terminology_ko": "대기자 명단 통제",
+    "terminology_en": "Wait-List Control",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "통제집단 참여자에게 연구 종료 후 동일한 치료를 제공할 것을 약속하고, 연구 기간 동안 치료를 받지 않고 대기하게 하는 통제 조건이다.",
+    "definition_en": "A control condition in which participants are promised the same treatment after the study period ends and asked to wait without receiving treatment during the research period.",
+    "significance": "윤리적으로 치료를 완전히 거부할 수 없는 상황에서 사용할 수 있으며, 자연적 경과와의 비교를 가능하게 하여 치료의 기본적 효과를 확인할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "앨런 카진", "name_en": "Alan Kazdin", "contribution": "임상심리학 연구에서 다양한 통제 조건의 유형과 적용 상황을 체계적으로 정리했다."},
+      {"name_ko": "스콧 릴리엔펠드", "name_en": "Scott Lilienfeld", "contribution": "대기자 명단 통제의 한계점(노시보 효과, 기대 차이 등)을 지적하고 보다 엄격한 통제 조건의 필요성을 강조했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "통제 조건", "name_en": "Control Conditions", "id": "RESEARCH_CC_021"},
+      {"name_ko": "위약 통제", "name_en": "Placebo Control", "id": "RESEARCH_PC_022"},
+      {"name_ko": "연구 윤리", "name_en": "Research Ethics", "id": "RESEARCH_ETH_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대기자 명단(Wait-List) = 줄 서서 기다리기 → 나중에 치료해 줄 테니 지금은 기다리세요",
+      "differential": "대기자 명단 통제는 치료 없이 자연 경과를 관찰하고, 위약 통제는 비특이적 요인(기대, 관심)까지 통제한다.",
+      "key_point": "윤리적 장점이 있지만, 대기 중인 참여자가 다른 치료를 자발적으로 받거나 기대의 차이가 발생하는 등의 방법론적 한계가 있다.",
+      "common_mistake": "대기자 명단 통제가 위약 통제와 같은 수준의 통제를 제공한다고 오해하기 쉬우나, 비특이적 요인을 통제하지 못하므로 치료 효과를 과대추정할 수 있다."
+    }
+  },
+  {
+    "id": "RESEARCH_DB_024",
+    "terminology": "이중맹검 (Double-Blind)",
+    "terminology_ko": "이중맹검",
+    "terminology_en": "Double-Blind",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "연구 참여자와 연구자(또는 치료자) 모두가 참여자가 어떤 조건에 배정되었는지 모르게 하는 실험 절차로, 기대 편향과 관찰자 편향을 동시에 통제한다.",
+    "definition_en": "An experimental procedure in which neither participants nor researchers (or therapists) know which condition participants are assigned to, simultaneously controlling for expectancy bias and observer bias.",
+    "significance": "연구자와 참여자의 기대가 결과에 미치는 영향을 최소화하여 연구의 내적 타당도를 극대화하며, 약물 임상시험에서 필수적으로 요구된다.",
+    "key_researchers": [
+      {"name_ko": "오스틴 브래드포드 힐", "name_en": "Austin Bradford Hill", "contribution": "이중맹검법을 임상시험의 표준 절차로 확립하여 편향 통제의 방법론적 기준을 세웠다."},
+      {"name_ko": "로버트 로젠탈", "name_en": "Robert Rosenthal", "contribution": "실험자 기대 효과(Rosenthal effect)를 발견하여 이중맹검의 필요성에 대한 실증적 근거를 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "위약 통제", "name_en": "Placebo Control", "id": "RESEARCH_PC_022"},
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"},
+      {"name_ko": "내적 타당도", "name_en": "Internal Validity", "id": "RESEARCH_IV_012"}
+    ],
+    "sub_types": [
+      {"name": "단일맹검 (Single-Blind)", "description": "참여자만 자신의 조건을 모르고 연구자는 아는 절차"},
+      {"name": "삼중맹검 (Triple-Blind)", "description": "참여자, 연구자, 데이터 분석가 모두 조건을 모르는 절차"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "이중(Double) + 맹검(Blind) = 두 쪽 다 눈가림 → 참여자도 연구자도 모른다",
+      "differential": "이중맹검은 참여자와 연구자 모두 조건을 모르고, 단일맹검은 참여자만 모르며 연구자는 안다.",
+      "key_point": "심리치료 연구에서는 치료자가 자신이 어떤 치료를 시행하는지 알기 때문에 완전한 이중맹검이 사실상 불가능하다는 한계가 있다.",
+      "common_mistake": "이중맹검이 모든 연구에서 가능하고 필수적이라고 오해하기 쉬우나, 심리치료 연구에서는 구조적으로 적용이 어렵다."
+    }
+  },
+  {
+    "id": "RESEARCH_ETH_025",
+    "terminology": "연구 윤리 (Research Ethics)",
+    "terminology_ko": "연구 윤리",
+    "terminology_en": "Research Ethics",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "연구 참여자의 권리, 안전, 복지를 보호하기 위한 도덕적 원칙과 규범의 체계로, 사전동의, 비밀보장, 위험 최소화 등을 포함한다.",
+    "definition_en": "A system of moral principles and standards designed to protect the rights, safety, and welfare of research participants, including informed consent, confidentiality, and risk minimization.",
+    "significance": "과거 비윤리적 연구(밀그램 실험, 터스키기 매독 연구 등)에 대한 반성으로 확립되었으며, 현대 임상심리학 연구의 필수적 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "톰 뷰챔프", "name_en": "Tom Beauchamp", "contribution": "벨몬트 보고서(1979) 작성에 참여하여 존중, 선행, 정의의 세 가지 기본 윤리 원칙을 정립했다."},
+      {"name_ko": "제임스 차일드레스", "name_en": "James Childress", "contribution": "Beauchamp과 함께 생명윤리의 네 원칙(자율성 존중, 선행, 악행 금지, 정의)을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "IRB / 기관생명윤리위원회", "name_en": "Institutional Review Board", "id": "RESEARCH_IRB_026"},
+      {"name_ko": "사전동의", "name_en": "Informed Consent", "id": "RESEARCH_IC_027"},
+      {"name_ko": "대기자 명단 통제", "name_en": "Wait-List Control", "id": "RESEARCH_WLC_023"}
+    ],
+    "sub_types": [
+      {"name": "자율성 존중 (Respect for Autonomy)", "description": "참여자의 자율적 의사결정 권리를 존중하는 원칙"},
+      {"name": "선행 (Beneficence)", "description": "연구를 통해 참여자와 사회에 이익을 추구하는 원칙"},
+      {"name": "악행 금지 (Non-Maleficence)", "description": "연구를 통해 참여자에게 해를 끼치지 않는 원칙"},
+      {"name": "정의 (Justice)", "description": "연구의 이익과 부담이 공정하게 분배되어야 한다는 원칙"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "연구 윤리 = 연구에서 지켜야 할 도덕 → 벨몬트 보고서의 3원칙: 존중, 선행, 정의",
+      "differential": "연구 윤리는 연구 수행 과정 전체에 적용되는 포괄적 원칙이고, IRB는 이 원칙을 제도적으로 실행하는 기관이며, 사전동의는 윤리 원칙을 구현하는 구체적 절차이다.",
+      "key_point": "벨몬트 보고서(1979)의 세 원칙(존중, 선행, 정의)이 현대 연구 윤리의 핵심 틀이며, APA 윤리 강령과 연방 규정의 기초가 된다.",
+      "common_mistake": "연구 윤리가 연구의 진행을 방해하는 행정적 장벽이라고 오해하기 쉬우나, 참여자 보호와 과학적 무결성의 필수적 기반이다."
+    }
+  },
+  {
+    "id": "RESEARCH_IRB_026",
+    "terminology": "기관생명윤리위원회 (Institutional Review Board)",
+    "terminology_ko": "기관생명윤리위원회",
+    "terminology_en": "Institutional Review Board",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "인간 대상 연구의 윤리적 적절성을 사전에 심의하고 승인하는 독립적 기관으로, 연구 참여자의 권리와 안전을 보호하기 위해 설치된 제도적 장치이다.",
+    "definition_en": "An independent institutional body that reviews and approves the ethical appropriateness of human subject research before it begins, established as an institutional mechanism to protect the rights and safety of research participants.",
+    "significance": "연구자의 자기 규제만으로는 참여자 보호가 불충분하다는 인식에서 출발한 제도로, 현대 모든 인간 대상 연구의 수행 전에 반드시 거쳐야 하는 필수 절차이다.",
+    "key_researchers": [
+      {"name_ko": "헨리 비처", "name_en": "Henry Beecher", "contribution": "1966년 비윤리적 의학 연구 22건을 폭로한 논문을 발표하여 IRB 제도 도입의 계기를 만들었다."},
+      {"name_ko": "제이 카츠", "name_en": "Jay Katz", "contribution": "사전동의와 인간 대상 연구 윤리에 대한 법적, 윤리적 분석을 통해 IRB 제도의 이론적 기반을 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "연구 윤리", "name_en": "Research Ethics", "id": "RESEARCH_ETH_025"},
+      {"name_ko": "사전동의", "name_en": "Informed Consent", "id": "RESEARCH_IC_027"},
+      {"name_ko": "무선화 통제 실험", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"}
+    ],
+    "sub_types": [
+      {"name": "면제 심의 (Exempt Review)", "description": "최소 위험 연구로 정규 심의를 면제하는 유형"},
+      {"name": "신속 심의 (Expedited Review)", "description": "소수의 위원이 신속하게 심의하는 간이 절차"},
+      {"name": "정규 심의 (Full Board Review)", "description": "전체 위원회가 참석하여 심의하는 정식 절차"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "IRB = '연구 윤리 심판관' → 연구 시작 전에 윤리적으로 괜찮은지 심사하는 위원회",
+      "differential": "IRB는 연구의 윤리성을 사전에 심의하는 기관이고, 연구 윤리는 IRB가 적용하는 원칙과 기준이며, 사전동의는 IRB가 검토하는 구체적 문서이다.",
+      "key_point": "한국에서는 생명윤리법에 의거하여 모든 인간 대상 연구가 기관생명윤리위원회(IRB)의 사전 승인을 받아야 한다.",
+      "common_mistake": "IRB 승인이 연구의 과학적 질을 보증하는 것이라고 오해하기 쉬우나, IRB는 윤리적 적절성만을 심의하며 과학적 타당성은 별도의 영역이다."
+    }
+  },
+  {
+    "id": "RESEARCH_IC_027",
+    "terminology": "사전동의 (Informed Consent)",
+    "terminology_ko": "사전동의",
+    "terminology_en": "Informed Consent",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "연구 참여자가 연구의 목적, 절차, 위험, 이익, 대안 등에 대한 충분한 정보를 제공받고, 자발적으로 참여에 동의하는 과정과 그 문서를 말한다.",
+    "definition_en": "The process and documentation by which research participants are provided sufficient information about the study's purpose, procedures, risks, benefits, and alternatives, and voluntarily agree to participate.",
+    "significance": "참여자의 자율성을 존중하는 가장 기본적인 윤리적 장치로, 뉘른베르크 강령과 헬싱키 선언 이후 모든 인간 대상 연구의 필수 요건이 되었다.",
+    "key_researchers": [
+      {"name_ko": "레오 알렉산더", "name_en": "Leo Alexander", "contribution": "뉘른베르크 재판의 의학 고문으로서 뉘른베르크 강령(1947) 초안을 작성하여 사전동의의 법적 기반을 마련했다."},
+      {"name_ko": "루스 페이든", "name_en": "Ruth Faden", "contribution": "사전동의의 역사와 이론을 체계적으로 분석하여 자율성에 기반한 사전동의 모형을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "연구 윤리", "name_en": "Research Ethics", "id": "RESEARCH_ETH_025"},
+      {"name_ko": "IRB / 기관생명윤리위원회", "name_en": "Institutional Review Board", "id": "RESEARCH_IRB_026"}
+    ],
+    "sub_types": [
+      {"name": "서면 동의 (Written Consent)", "description": "서면 양식에 서명하여 동의를 확인하는 표준적 방법"},
+      {"name": "구두 동의 (Verbal Consent)", "description": "서면 동의가 적절하지 않은 경우 구두로 동의를 확인하는 방법"},
+      {"name": "동의 면제 (Waiver of Consent)", "description": "IRB가 사전동의 요건을 면제해 주는 예외적 상황"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "사전(Informed) = 알린 후, 동의(Consent) = 허락 → 충분히 알려준 후에 동의를 받는 것",
+      "differential": "사전동의는 참여 이전에 정보를 제공하고 동의를 받는 절차이고, 사후 설명(debriefing)은 연구 종료 후 추가 정보를 제공하는 절차이다.",
+      "key_point": "세 가지 핵심 요소가 필요하다: (1) 정보 제공(disclosure), (2) 이해 확인(comprehension), (3) 자발적 동의(voluntariness).",
+      "common_mistake": "사전동의 서류에 서명을 받은 것만으로 충분하다고 오해하기 쉬우나, 참여자가 정보를 실제로 이해했는지 확인하는 과정이 핵심이다."
+    }
+  },
+  {
+    "id": "RESEARCH_REP_028",
+    "terminology": "반복 검증 (Replication)",
+    "terminology_ko": "반복 검증",
+    "terminology_en": "Replication",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "기존 연구의 절차를 동일하게 또는 유사하게 재현하여 결과를 재확인하는 과정으로, 과학적 발견의 신뢰성과 견고성을 평가하는 핵심 방법이다.",
+    "definition_en": "The process of reproducing an existing study's procedures identically or similarly to verify results, serving as a core method for evaluating the reliability and robustness of scientific findings.",
+    "significance": "심리학의 재현성 위기(replication crisis) 이후 연구 결과의 신뢰성을 검증하는 핵심 기제로 주목받고 있으며, 과학적 자기교정 기능의 토대가 된다.",
+    "key_researchers": [
+      {"name_ko": "브라이언 노섹", "name_en": "Brian Nosek", "contribution": "Open Science Collaboration(2015)을 이끌어 심리학 연구 100편의 반복 검증을 수행하고 재현성 위기를 실증적으로 확인했다."},
+      {"name_ko": "대니얼 시먼스", "name_en": "Daniel Simons", "contribution": "등록된 반복 검증(Registered Replication Reports) 프로젝트를 주도하여 체계적 반복 검증의 방법론을 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반화 가능성", "name_en": "Generalizability", "id": "RESEARCH_GEN_029"},
+      {"name_ko": "외적 타당도", "name_en": "External Validity", "id": "RESEARCH_EV_013"},
+      {"name_ko": "통계적 유의성", "name_en": "Statistical Significance", "id": "RESEARCH_SS_017"}
+    ],
+    "sub_types": [
+      {"name": "직접 반복 검증 (Direct Replication)", "description": "원래 연구의 방법을 가능한 한 정확히 재현하는 반복 검증"},
+      {"name": "개념적 반복 검증 (Conceptual Replication)", "description": "동일한 가설을 다른 방법으로 검증하는 반복 검증"},
+      {"name": "체계적 반복 검증 (Systematic Replication)", "description": "원래 연구의 일부 조건을 의도적으로 변경하면서 반복하는 검증"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "반복(Replication) = 다시(Re) + 복제(plicate) → 같은 연구를 다시 해 보는 것",
+      "differential": "직접 반복 검증은 원래 연구를 최대한 동일하게 재현하고, 개념적 반복 검증은 동일한 가설을 다른 방법으로 검증한다.",
+      "key_point": "2015년 Open Science Collaboration 연구에서 심리학 연구의 반복 검증 성공률이 약 39%에 불과하여 재현성 위기가 촉발되었다.",
+      "common_mistake": "반복 검증에 실패한 것이 원래 연구가 틀렸다는 것을 의미한다고 단정짓기 쉬우나, 표본, 맥락, 절차의 차이 등 다양한 요인이 관여할 수 있다."
+    }
+  },
+  {
+    "id": "RESEARCH_GEN_029",
+    "terminology": "일반화 가능성 (Generalizability)",
+    "terminology_ko": "일반화 가능성",
+    "terminology_en": "Generalizability",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "특정 연구에서 얻어진 결과가 연구 참여자, 환경, 시간을 넘어 보다 넓은 모집단이나 다른 조건에서도 동일하게 적용될 수 있는 정도이다.",
+    "definition_en": "The degree to which results obtained in a specific study can be applied to broader populations or different conditions beyond the study's participants, settings, and time.",
+    "significance": "임상심리학에서 연구 기반 치료를 실무에 적용하려면 일반화 가능성이 확보되어야 하며, 이는 효능 연구와 효과 연구 논쟁의 핵심 쟁점이다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바흐", "name_en": "Lee Cronbach", "contribution": "일반화 가능성 이론(G-theory)을 개발하여 다양한 조건에 걸친 측정의 일반화 가능성을 체계적으로 분석하는 틀을 제공했다."},
+      {"name_ko": "도널드 캠벨", "name_en": "Donald Campbell", "contribution": "외적 타당도의 개념을 통해 연구 결과의 일반화 가능성에 대한 체계적 분석 틀을 정립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "외적 타당도", "name_en": "External Validity", "id": "RESEARCH_EV_013"},
+      {"name_ko": "반복 검증", "name_en": "Replication", "id": "RESEARCH_REP_028"},
+      {"name_ko": "효과 연구", "name_en": "Effectiveness Research", "id": "RESEARCH_EFT_011"},
+      {"name_ko": "횡단 연구", "name_en": "Cross-Sectional Study", "id": "RESEARCH_CROSS_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "일반화(Generalizability) = 일반(General)에 적용 가능 → 이 연구 결과가 보편적으로 통하는가?",
+      "differential": "일반화 가능성은 연구 결과의 적용 범위에 관한 개념이고, 외적 타당도는 그 적용 범위의 타당성을 평가하는 기준이다. 양자는 밀접하지만 동의어는 아니다.",
+      "key_point": "WEIRD(서구, 교육받은, 산업화된, 부유한, 민주적) 표본에 대한 의존이 심리학 연구의 일반화 가능성을 심각하게 제한한다는 비판이 있다.",
+      "common_mistake": "통계적으로 유의한 결과가 자동으로 일반화 가능하다고 가정하는 오류가 흔하다. 일반화 가능성은 표본, 환경, 시간적 맥락에 의존한다."
+    }
+  },
+  {
+    "id": "RESEARCH_PR_030",
+    "terminology": "과정 연구 (Process Research)",
+    "terminology_ko": "과정 연구",
+    "terminology_en": "Process Research",
+    "category": "RESEARCH",
+    "category_name": "임상심리학의 연구방법 (Research Methods)",
+    "definition": "치료의 결과가 아닌 치료 과정 자체에 초점을 맞추어, 치료 중 어떤 요인과 기제가 변화를 일으키는지를 탐구하는 연구 접근이다.",
+    "definition_en": "A research approach that focuses on the therapy process itself rather than outcomes, exploring what factors and mechanisms during treatment produce change.",
+    "significance": "치료가 '왜' 그리고 '어떻게' 효과를 나타내는지에 대한 이해를 제공하여, 치료 기법의 개선과 치료자 훈련에 직접적으로 기여한다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "최초로 심리치료 회기를 녹음하여 분석하고, 치료 관계 변인(공감, 무조건적 긍정적 존중 등)이 치료 과정에 미치는 영향을 연구했다."},
+      {"name_ko": "레슬리 그린버그", "name_en": "Leslie Greenberg", "contribution": "치료 과정 연구의 과제 분석(task analysis) 방법론을 개발하고, 정서 중심 치료의 변화 기제를 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "효능 연구", "name_en": "Efficacy Research", "id": "RESEARCH_EFC_010"},
+      {"name_ko": "효과 연구", "name_en": "Effectiveness Research", "id": "RESEARCH_EFT_011"},
+      {"name_ko": "치료 충실도", "name_en": "Treatment Fidelity", "id": "RESEARCH_TF_016"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [
+      {"name": "치료 동맹 연구 (Therapeutic Alliance Research)", "description": "치료자-내담자 관계의 질과 치료 결과의 관련성을 연구"},
+      {"name": "회기 내 과정 연구 (Within-Session Process Research)", "description": "개별 치료 회기 내에서 일어나는 상호작용 과정을 미시적으로 분석"},
+      {"name": "변화 기제 연구 (Mechanisms of Change Research)", "description": "치료 효과를 매개하는 구체적 기제를 규명하는 연구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "과정(Process) = 과정에 주목 → '어떤 결과가 나왔나'가 아니라 '어떻게 변화가 일어나는가'에 초점",
+      "differential": "과정 연구는 치료 중 무엇이 일어나는지를, 결과 연구(outcome research)는 치료 후 무엇이 달라졌는지를 다룬다. 과정 연구는 '어떻게'를, 결과 연구는 '얼마나'를 묻는다.",
+      "key_point": "단순히 치료가 효과적인지(결과)를 넘어, 왜 효과적인지(과정)를 이해해야 치료를 최적화할 수 있다는 것이 과정 연구의 핵심 전제이다.",
+      "common_mistake": "과정 연구가 결과 연구를 대체할 수 있다고 오해하기 쉬우나, 두 접근은 상보적이며 '치료가 효과적인가'와 '왜 효과적인가'라는 서로 다른 질문에 답한다."
+    }
+  }
+]

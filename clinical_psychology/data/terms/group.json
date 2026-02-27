@@ -1,0 +1,1729 @@
+[
+  {
+    "id": "GROUP_GT_001",
+    "terminology": "집단치료 (Group Therapy)",
+    "terminology_ko": "집단치료",
+    "terminology_en": "Group Therapy",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "두 명 이상의 내담자가 한 명 이상의 치료자와 함께 모여 치료적 목표를 달성하기 위해 상호작용하는 심리치료 형태로, 개인치료에서 얻기 어려운 대인관계적 학습과 사회적 지지를 제공한다.",
+    "definition_en": "A form of psychotherapy in which two or more clients meet together with one or more therapists to achieve therapeutic goals through interaction, providing interpersonal learning and social support that are difficult to obtain in individual therapy.",
+    "significance": "비용 효율성이 높고, 대인관계 문제를 실제 집단 맥락에서 다룰 수 있어 임상심리학에서 널리 활용되는 핵심 치료 양식이다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단치료의 치료적 요인 11가지를 체계화하고 대인관계적 집단치료 모델을 확립했다."
+      },
+      {
+        "name_ko": "프랫",
+        "name_en": "Joseph Pratt",
+        "contribution": "1905년 결핵 환자 대상 집단 교육을 실시하여 현대 집단치료의 선구자로 평가된다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_GC_002"
+      },
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "개인치료",
+        "name_en": "Individual Therapy",
+        "id": "PSYCHOD_IT_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "과정집단",
+        "description": "구성원 간 상호작용과 대인관계 패턴 탐색에 초점을 두는 집단"
+      },
+      {
+        "name": "구조화집단",
+        "description": "특정 주제나 기술 훈련을 위해 사전 계획된 활동을 따르는 집단"
+      },
+      {
+        "name": "지지집단",
+        "description": "유사한 문제를 가진 구성원 간 정서적 지지와 경험 공유에 초점을 두는 집단"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단치료 = '함께 모여 함께 치유' — 대인관계 맥락에서의 치료적 변화",
+      "differential": "집단치료는 전문 치료자가 이끄는 치료적 개입인 반면, 자조집단은 전문가 없이 구성원이 자율적으로 운영한다.",
+      "key_point": "Yalom은 집단치료의 핵심 치료적 요인으로 보편성, 이타심, 희망 고취, 대인학습, 집단응집력 등 11가지를 제시했다.",
+      "common_mistake": "집단치료를 단순히 여러 명을 동시에 치료하는 것으로 오해하는 경우가 있으나, 구성원 간 상호작용 자체가 치료의 핵심 기제이다."
+    }
+  },
+  {
+    "id": "GROUP_GC_002",
+    "terminology": "집단응집력 (Group Cohesion)",
+    "terminology_ko": "집단응집력",
+    "terminology_en": "Group Cohesion",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 구성원들이 서로와 집단 전체에 대해 느끼는 유대감, 소속감, 매력의 정도를 의미하며, 집단치료에서 개인치료의 치료적 관계에 해당하는 핵심 요인이다.",
+    "definition_en": "The degree of bonding, belonging, and attraction that group members feel toward each other and the group as a whole, serving as the group therapy equivalent of the therapeutic relationship in individual therapy.",
+    "significance": "집단응집력은 구성원의 자기개방과 대인학습을 촉진하는 기반이 되며, Yalom은 이를 집단치료 효과의 필수 조건으로 간주했다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단응집력을 개인치료에서의 치료적 관계에 상응하는 집단치료의 핵심 요인으로 강조했다."
+      },
+      {
+        "name_ko": "버링게임",
+        "name_en": "Gary Burlingame",
+        "contribution": "집단응집력 측정 도구(GCQ)를 개발하고 응집력과 치료 성과 간의 관계를 실증적으로 검증했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      },
+      {
+        "name_ko": "치료적 동맹",
+        "name_en": "Therapeutic Alliance",
+        "id": "PSYCHOD_TA_005"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_006"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UNV_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단응집력 = 집단치료의 '접착제' — 구성원을 하나로 묶는 힘",
+      "differential": "집단응집력은 구성원 간 유대감과 소속감인 반면, 집단역동은 집단 내에서 작용하는 다양한 힘과 상호작용 패턴을 포괄하는 넓은 개념이다.",
+      "key_point": "Yalom은 집단응집력이 높을수록 구성원의 자기개방, 위험 감수, 건설적 대립이 가능해져 치료적 변화가 촉진된다고 보았다.",
+      "common_mistake": "집단응집력이 높으면 항상 좋다고 오해할 수 있으나, 지나치게 높은 응집력은 집단사고(groupthink)나 갈등 회피를 초래할 수 있다."
+    }
+  },
+  {
+    "id": "GROUP_YTF_003",
+    "terminology": "Yalom의 치료적 요인 (Yalom's Therapeutic Factors)",
+    "terminology_ko": "Yalom의 치료적 요인",
+    "terminology_en": "Yalom's Therapeutic Factors",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "Irvin Yalom이 제시한 집단치료에서 치료적 변화를 이끄는 11가지 핵심 요인으로, 보편성, 이타심, 희망 고취, 정보제공, 교정적 가족 재경험, 사회기술 발달, 모방행동, 대인학습, 실존적 요인, 정화, 집단응집력을 포함한다.",
+    "definition_en": "Eleven core factors identified by Irvin Yalom that drive therapeutic change in group therapy, including universality, altruism, instillation of hope, imparting information, corrective recapitulation of the primary family, development of socializing techniques, imitative behavior, interpersonal learning, existential factors, catharsis, and group cohesiveness.",
+    "significance": "집단치료가 어떻게 효과를 발휘하는지에 대한 가장 포괄적이고 영향력 있는 이론적 틀을 제공하여, 집단치료 연구와 실무의 기초가 되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "1970년 저서 『The Theory and Practice of Group Psychotherapy』에서 치료적 요인을 최초로 체계화했다."
+      },
+      {
+        "name_ko": "레스쯔코비치",
+        "name_en": "Morton Lieberman",
+        "contribution": "Yalom과 함께 만남집단 연구를 수행하여 치료적 요인의 실증적 근거를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UNV_008"
+      },
+      {
+        "name_ko": "이타심",
+        "name_en": "Altruism",
+        "id": "GROUP_ALT_009"
+      },
+      {
+        "name_ko": "대인학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_015"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_GC_002"
+      },
+      {
+        "name_ko": "정화",
+        "name_en": "Catharsis",
+        "id": "GROUP_CTH_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Yalom의 11가지 요인 = '보이희정교 사모대실정집' (보편성, 이타심, 희망고취, 정보제공, 교정적 가족재경험, 사회기술발달, 모방행동, 대인학습, 실존적 요인, 정화, 집단응집력)",
+      "differential": "치료적 요인은 집단치료의 변화 기제를 설명하는 개념이고, 치료적 기법은 치료자가 의도적으로 사용하는 구체적 개입 방법이다.",
+      "key_point": "Yalom은 집단 유형과 발달 단계에 따라 각 치료적 요인의 상대적 중요성이 달라진다고 강조했다.",
+      "common_mistake": "11가지 요인을 동등하게 중요한 것으로 간주하는 오류 — Yalom은 대인학습과 집단응집력을 가장 핵심적인 요인으로 보았다."
+    }
+  },
+  {
+    "id": "GROUP_GD_004",
+    "terminology": "집단역동 (Group Dynamics)",
+    "terminology_ko": "집단역동",
+    "terminology_en": "Group Dynamics",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 내에서 구성원 간에 작용하는 심리적 힘과 상호작용 패턴의 총체로, 권력 구조, 의사소통 패턴, 갈등, 역할 분담, 하위집단 형성 등을 포함하며 집단의 기능과 치료적 과정에 직접적 영향을 미친다.",
+    "definition_en": "The totality of psychological forces and interaction patterns operating among group members, including power structures, communication patterns, conflicts, role differentiation, and subgroup formation, directly influencing group functioning and the therapeutic process.",
+    "significance": "집단역동에 대한 이해는 치료자가 집단 과정을 효과적으로 촉진하고, 집단 내 갈등과 저항을 치료적으로 활용하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "레빈",
+        "name_en": "Kurt Lewin",
+        "contribution": "집단역동이라는 용어를 최초로 사용하고, 장 이론(field theory)을 통해 집단 내 심리적 힘의 상호작용을 체계적으로 연구했다."
+      },
+      {
+        "name_ko": "비온",
+        "name_en": "Wilfred Bion",
+        "contribution": "집단의 기본가정(basic assumptions) 이론을 통해 집단 무의식적 역동을 분석하는 틀을 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      },
+      {
+        "name_ko": "하위집단",
+        "name_en": "Subgroup",
+        "id": "GROUP_SG_007"
+      },
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SGD_005"
+      },
+      {
+        "name_ko": "희생양",
+        "name_en": "Scapegoating",
+        "id": "GROUP_SC_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "과업 역동",
+        "description": "집단의 목표 달성과 관련된 상호작용 패턴"
+      },
+      {
+        "name": "관계 역동",
+        "description": "구성원 간 정서적 유대와 대인관계 패턴"
+      },
+      {
+        "name": "권력 역동",
+        "description": "집단 내 영향력, 지위, 통제와 관련된 역학 관계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단역동 = 집단 안의 보이지 않는 '힘의 장(field)' — Kurt Lewin의 장 이론에서 유래",
+      "differential": "집단역동은 집단 내 모든 상호작용 힘을 포괄하는 광범위한 개념이고, 집단응집력은 집단역동의 한 측면으로서 구성원 간 유대감에 한정된다.",
+      "key_point": "Bion은 집단이 의존(dependency), 싸움-도피(fight-flight), 짝짓기(pairing)의 세 가지 기본가정 상태를 보인다고 주장했다.",
+      "common_mistake": "집단역동을 부정적 갈등으로만 이해하는 오류 — 긍정적 상호작용과 지지도 집단역동의 중요한 부분이다."
+    }
+  },
+  {
+    "id": "GROUP_SGD_005",
+    "terminology": "집단발달단계 (Stages of Group Development)",
+    "terminology_ko": "집단발달단계",
+    "terminology_en": "Stages of Group Development",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단이 형성부터 종결까지 거치는 예측 가능한 발달 과정으로, 일반적으로 형성기, 갈등기, 규범기, 수행기, 종결기의 단계를 포함하며 각 단계마다 고유한 과제와 역동이 나타난다.",
+    "definition_en": "The predictable developmental process a group undergoes from formation to termination, typically including forming, storming, norming, performing, and adjourning stages, each characterized by unique tasks and dynamics.",
+    "significance": "집단발달단계에 대한 이해는 치료자가 각 단계에 적합한 개입 전략을 선택하고, 집단의 진행 상황을 평가하는 데 핵심적 지침을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "터크먼",
+        "name_en": "Bruce Tuckman",
+        "contribution": "형성(forming)-갈등(storming)-규범(norming)-수행(performing) 4단계 모델을 제시하고, 이후 종결(adjourning) 단계를 추가했다."
+      },
+      {
+        "name_ko": "맥켄지",
+        "name_en": "K. Roy MacKenzie",
+        "contribution": "집단치료 맥락에서 집단발달단계와 치료적 개입을 연결하는 통합 모델을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_006"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_GC_002"
+      },
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "형성기(Forming)",
+        "description": "구성원이 서로를 탐색하고, 집단 목표와 규칙을 이해하는 초기 단계"
+      },
+      {
+        "name": "갈등기(Storming)",
+        "description": "구성원 간 갈등, 저항, 권력 투쟁이 나타나는 과도기적 단계"
+      },
+      {
+        "name": "규범기(Norming)",
+        "description": "집단 규범이 확립되고, 응집력과 협력이 증가하는 단계"
+      },
+      {
+        "name": "수행기(Performing)",
+        "description": "집단이 생산적으로 기능하며 치료적 작업이 가장 활발히 이루어지는 단계"
+      },
+      {
+        "name": "종결기(Adjourning)",
+        "description": "집단이 마무리되며, 학습의 통합과 분리 과제를 다루는 단계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Tuckman의 5단계 = 'Forming-Storming-Norming-Performing-Adjourning' (형성-갈등-규범-수행-종결)",
+      "differential": "Tuckman 모델은 집단 전체의 발달 단계를 설명하는 반면, Yalom의 치료적 요인은 치료적 변화의 기제를 설명한다.",
+      "key_point": "갈등기(storming)는 집단 발달에 필수적인 단계이며, 이를 성공적으로 통과해야 깊은 수준의 치료적 작업이 가능해진다.",
+      "common_mistake": "집단발달이 항상 순차적으로 진행된다고 가정하는 오류 — 실제로는 이전 단계로 회귀하거나 단계가 겹치기도 한다."
+    }
+  },
+  {
+    "id": "GROUP_GN_006",
+    "terminology": "집단규범 (Group Norms)",
+    "terminology_ko": "집단규범",
+    "terminology_en": "Group Norms",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 내에서 구성원의 행동을 안내하는 명시적 또는 암묵적 규칙과 기대로, 비밀보장, 출석, 자기개방, 피드백 제공 방식 등을 포함하며 집단의 안전감과 치료적 분위기를 결정짓는다.",
+    "definition_en": "Explicit or implicit rules and expectations that guide members' behavior within the group, including confidentiality, attendance, self-disclosure, and feedback methods, determining the group's sense of safety and therapeutic atmosphere.",
+    "significance": "적절한 집단규범의 확립은 집단의 안전한 치료적 환경을 조성하고, 구성원의 치료적 참여와 자기개방을 촉진하는 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단규범이 집단치료의 치료적 문화를 형성하는 핵심 요소임을 강조하고, 치료자의 규범 설정 역할을 체계화했다."
+      },
+      {
+        "name_ko": "셰리프",
+        "name_en": "Muzafer Sherif",
+        "contribution": "자동운동 효과 실험을 통해 집단규범의 형성 과정을 실험적으로 규명했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SGD_005"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_GC_002"
+      },
+      {
+        "name_ko": "구조화집단",
+        "name_en": "Structured Group",
+        "id": "GROUP_STR_022"
+      },
+      {
+        "name_ko": "집단선별면접",
+        "name_en": "Group Screening Interview",
+        "id": "GROUP_GSI_030"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "명시적 규범",
+        "description": "치료자가 집단 초기에 명확히 제시하는 규칙 (비밀보장, 출석 등)"
+      },
+      {
+        "name": "암묵적 규범",
+        "description": "집단 상호작용을 통해 자연스럽게 형성되는 기대와 관행"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "집단규범 = 집단의 '헌법' — 명시적 규칙과 암묵적 기대가 집단 문화를 만든다",
+      "differential": "집단규범은 구성원 행동에 대한 기대와 규칙인 반면, 집단응집력은 구성원 간 유대감과 소속감의 정도이다.",
+      "key_point": "치료자는 집단 초기에 핵심 규범(비밀보장, 상호존중, 지금-여기 초점)을 명시적으로 설정하고 모델링해야 한다.",
+      "common_mistake": "규범 설정을 치료자만의 역할로 한정하는 오류 — 효과적인 집단에서는 구성원도 규범 형성에 적극적으로 참여한다."
+    }
+  },
+  {
+    "id": "GROUP_SG_007",
+    "terminology": "하위집단 (Subgroup)",
+    "terminology_ko": "하위집단",
+    "terminology_en": "Subgroup",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 내에서 특정 구성원들이 형성하는 소규모 연합으로, 공통 관심사나 친밀감에 기반하여 자연스럽게 발생하며 집단의 응집력과 역동에 긍정적 또는 부정적 영향을 미칠 수 있다.",
+    "definition_en": "A smaller alliance formed by specific members within the group, arising naturally based on common interests or affinity, which can have positive or negative effects on group cohesion and dynamics.",
+    "significance": "하위집단의 형성은 집단역동의 중요한 현상이며, 치료자는 하위집단이 집단 전체의 치료적 과정을 방해하지 않도록 적절히 다루어야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "하위집단 형성이 집단치료에 미치는 영향을 분석하고, 치료자의 적절한 개입 전략을 제시했다."
+      },
+      {
+        "name_ko": "아가지리안",
+        "name_en": "Yvonne Agazarian",
+        "contribution": "하위집단을 치료적으로 활용하는 체계적 접근(Systems-Centered Therapy)을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_GC_002"
+      },
+      {
+        "name_ko": "희생양",
+        "name_en": "Scapegoating",
+        "id": "GROUP_SC_018"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "하위집단 = '집단 속의 작은 집단' — 자연 발생하지만 관리가 필요",
+      "differential": "하위집단은 집단 내 소규모 연합인 반면, 희생양 현상은 특정 구성원이 집단의 부정적 감정의 표적이 되는 현상이다.",
+      "key_point": "집단 외 소통(회기 밖 만남, SNS 등)은 하위집단 형성을 촉진하여 집단 전체의 역동을 왜곡할 수 있으므로 주의가 필요하다.",
+      "common_mistake": "하위집단을 항상 부정적인 것으로 간주하는 오류 — Agazarian은 기능적 하위집단을 치료적으로 활용할 수 있다고 보았다."
+    }
+  },
+  {
+    "id": "GROUP_UNV_008",
+    "terminology": "보편성 (Universality)",
+    "terminology_ko": "보편성",
+    "terminology_en": "Universality",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 구성원이 자신의 문제나 고통이 자신만의 것이 아니라 다른 사람들도 유사한 경험을 한다는 것을 인식하게 되는 치료적 요인으로, 고립감과 수치심을 감소시키는 데 기여한다.",
+    "definition_en": "A therapeutic factor in which group members recognize that their problems and suffering are not unique but shared by others, contributing to the reduction of isolation and shame.",
+    "significance": "보편성의 경험은 집단치료 초기에 특히 중요하며, '나만 그런 것이 아니다'라는 인식이 치료적 관계 형성과 자기개방의 시작점이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "보편성을 집단치료의 11가지 치료적 요인 중 하나로 제시하고, 초기 집단에서의 중요성을 강조했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_GC_002"
+      },
+      {
+        "name_ko": "희망 고취",
+        "name_en": "Instillation of Hope",
+        "id": "GROUP_IH_010"
+      },
+      {
+        "name_ko": "정화",
+        "name_en": "Catharsis",
+        "id": "GROUP_CTH_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "보편성 = '나만 그런 게 아니었어!' — 고립감에서 벗어나는 첫 경험",
+      "differential": "보편성은 '나만의 문제가 아님'을 인식하는 것이고, 이타심은 자신이 다른 구성원에게 도움을 줄 수 있다는 경험이다.",
+      "key_point": "보편성은 특히 수치심이 높은 내담자(중독, 성적 문제, 외상 후 죄책감 등)에게 강력한 치료적 효과를 가진다.",
+      "common_mistake": "보편성을 단순한 위안('다 같이 힘들다')으로 축소하는 오류 — 보편성은 자기인식과 수용을 촉진하는 깊은 치료적 과정이다."
+    }
+  },
+  {
+    "id": "GROUP_ALT_009",
+    "terminology": "이타심 (Altruism)",
+    "terminology_ko": "이타심",
+    "terminology_en": "Altruism",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 구성원이 다른 구성원에게 도움, 지지, 조언을 제공함으로써 자신의 가치감과 유능감을 경험하게 되는 치료적 요인으로, 도움의 수혜자뿐 아니라 제공자에게도 치료적 효과를 가진다.",
+    "definition_en": "A therapeutic factor in which group members experience a sense of value and competence by offering help, support, and advice to other members, benefiting both the giver and the receiver of help.",
+    "significance": "이타심은 자기중심적 고통에 매몰된 내담자가 타인에게 기여할 수 있다는 경험을 통해 자존감을 회복하는 집단치료 고유의 치료 기제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "이타심을 집단치료의 치료적 요인으로 규명하고, 도움을 주는 행위 자체가 치료적임을 강조했다."
+      },
+      {
+        "name_ko": "리즈만",
+        "name_en": "Frank Riessman",
+        "contribution": "자조집단 연구에서 '도우미 치료 원리(helper therapy principle)'를 제안하여 이타심의 치료적 가치를 이론화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UNV_008"
+      },
+      {
+        "name_ko": "자조집단",
+        "name_en": "Self-Help Group",
+        "id": "GROUP_SHG_024"
+      },
+      {
+        "name_ko": "대인학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이타심 = '돕는 것이 곧 치유' — 도움을 주는 사람도 치료적 이득을 얻는다",
+      "differential": "이타심은 타인을 도우면서 자신의 가치를 경험하는 것이고, 대인학습은 집단 내 상호작용을 통해 자신의 대인관계 패턴을 인식하고 수정하는 것이다.",
+      "key_point": "Riessman의 '도우미 치료 원리'에 따르면, 도움을 주는 행위 자체가 도움을 받는 것만큼이나 치료적 가치가 있다.",
+      "common_mistake": "이타심을 단순한 친절이나 배려로 보는 오류 — Yalom이 말하는 이타심은 자신의 경험을 기반으로 한 의미 있는 기여를 의미한다."
+    }
+  },
+  {
+    "id": "GROUP_IH_010",
+    "terminology": "희망 고취 (Instillation of Hope)",
+    "terminology_ko": "희망 고취",
+    "terminology_en": "Instillation of Hope",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 내에서 다른 구성원의 변화와 성장을 목격하거나 치료자의 격려를 통해 자신도 변할 수 있다는 희망과 기대를 갖게 되는 치료적 요인으로, 치료 동기와 참여를 증진시킨다.",
+    "definition_en": "A therapeutic factor in which members develop hope and expectation for change by witnessing other members' transformation and growth or through the therapist's encouragement, enhancing treatment motivation and engagement.",
+    "significance": "희망 고취는 집단치료 초기에 중도탈락을 방지하고 치료 동기를 유지하는 데 중요하며, 다양한 회복 단계의 구성원이 공존하는 집단에서 자연스럽게 발생한다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "희망 고취를 집단치료의 핵심 치료적 요인으로 제시하고, 다양한 진행 단계의 구성원 구성이 이를 촉진한다고 보았다."
+      },
+      {
+        "name_ko": "프랭크",
+        "name_en": "Jerome Frank",
+        "contribution": "모든 심리치료에서 희망과 기대가 치료 효과의 공통 요인임을 제안하여 희망 고취의 이론적 기초를 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UNV_008"
+      },
+      {
+        "name_ko": "집단응집력",
+        "name_en": "Group Cohesion",
+        "id": "GROUP_GC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "희망 고취 = '저 사람이 변했다면, 나도 변할 수 있어!' — 타인의 변화가 나의 희망이 된다",
+      "differential": "희망 고취는 변화 가능성에 대한 기대를 갖는 것이고, 보편성은 자신의 문제가 고유하지 않음을 인식하는 것이다.",
+      "key_point": "AA(알코올 중독자 익명모임) 같은 자조집단은 회복 중인 구성원의 존재를 통해 희망 고취를 극대화하는 대표적 사례이다.",
+      "common_mistake": "희망 고취를 치료자의 격려로만 한정하는 오류 — 구성원 간 상호작용과 변화 목격이 더 강력한 희망의 원천이다."
+    }
+  },
+  {
+    "id": "GROUP_II_011",
+    "terminology": "정보제공 (Imparting Information)",
+    "terminology_ko": "정보제공",
+    "terminology_en": "Imparting Information",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "치료자가 교육적 자료를 제공하거나 구성원이 서로 유용한 정보와 조언을 교환하는 치료적 요인으로, 문제에 대한 이해를 높이고 대처 전략을 확장하는 데 기여한다.",
+    "definition_en": "A therapeutic factor involving the therapist providing psychoeducation or members exchanging useful information and advice, contributing to enhanced understanding of problems and expansion of coping strategies.",
+    "significance": "정보제공은 심리교육집단에서 특히 핵심적이며, 과정집단에서도 구성원 간 경험적 지식의 교환을 통해 자연스럽게 이루어진다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "정보제공을 집단치료의 치료적 요인 중 하나로 분류하고, 교훈적 교육과 직접적 조언을 구분했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "심리교육집단",
+        "name_en": "Psychoeducational Group",
+        "id": "GROUP_PEG_025"
+      },
+      {
+        "name_ko": "사회기술 발달",
+        "name_en": "Development of Socializing Techniques",
+        "id": "GROUP_DST_013"
+      },
+      {
+        "name_ko": "인지행동 집단치료",
+        "name_en": "Cognitive-Behavioral Group Therapy",
+        "id": "GROUP_CBGT_027"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "교훈적 교육",
+        "description": "치료자가 장애, 증상, 치료에 관한 체계적 정보를 제공하는 것"
+      },
+      {
+        "name": "직접적 조언",
+        "description": "구성원이 자신의 경험에 기반하여 서로에게 실질적 조언을 주고받는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "정보제공 = '알아야 면장을 한다' — 치료자의 교육 + 구성원 간 정보 교환",
+      "differential": "정보제공은 인지적 이해를 돕는 교육적 요인이고, 대인학습은 집단 내 상호작용 경험을 통한 정서적·관계적 학습이다.",
+      "key_point": "Yalom은 과정집단에서 직접적 조언이 치료적 가치가 낮다고 보았으나, 심리교육집단에서는 정보제공이 핵심 치료 요인이다.",
+      "common_mistake": "모든 집단에서 정보제공이 동등하게 중요하다고 생각하는 오류 — 과정집단에서는 대인학습이, 심리교육집단에서는 정보제공이 더 중심적이다."
+    }
+  },
+  {
+    "id": "GROUP_CRF_012",
+    "terminology": "교정적 가족 재경험 (Corrective Recapitulation of the Primary Family Group)",
+    "terminology_ko": "교정적 가족 재경험",
+    "terminology_en": "Corrective Recapitulation of the Primary Family Group",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단이 원가족의 축소판으로 기능하여 구성원이 초기 가족 경험에서 비롯된 미해결 갈등과 역기능적 대인관계 패턴을 재경험하고 교정할 수 있는 치료적 요인이다.",
+    "definition_en": "A therapeutic factor in which the group functions as a microcosm of the primary family, allowing members to re-experience and correct unresolved conflicts and dysfunctional interpersonal patterns originating from early family experiences.",
+    "significance": "원가족에서의 역기능적 패턴이 현재 대인관계에 미치는 영향을 집단 맥락에서 직접 체험하고 수정할 수 있는 독특한 치료적 기회를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단을 원가족의 재현으로 보고, 초기 가족 경험의 교정적 재경험을 치료적 요인으로 체계화했다."
+      },
+      {
+        "name_ko": "볼비",
+        "name_en": "John Bowlby",
+        "contribution": "애착 이론을 통해 초기 가족 관계가 이후 대인관계 패턴에 미치는 영향의 이론적 기초를 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "대인학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_015"
+      },
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "GROUP_FT_026"
+      },
+      {
+        "name_ko": "전이",
+        "name_en": "Transference",
+        "id": "PSYCHOD_TR_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "교정적 가족 재경험 = 집단은 '두 번째 가족' — 원가족의 상처를 새로운 가족(집단)에서 치유",
+      "differential": "교정적 가족 재경험은 원가족 역동의 재현과 수정에 초점을 두고, 대인학습은 현재 대인관계 패턴 전반의 인식과 변화에 초점을 둔다.",
+      "key_point": "집단 내에서 치료자는 부모 역할, 다른 구성원은 형제 역할로 지각될 수 있으며, 이러한 전이적 반응이 치료적 탐색의 소재가 된다.",
+      "common_mistake": "교정적 가족 재경험이 모든 집단에서 자동으로 일어난다고 가정하는 오류 — 이 요인은 주로 과정집단이나 역동적 집단에서 의미 있게 나타난다."
+    }
+  },
+  {
+    "id": "GROUP_DST_013",
+    "terminology": "사회기술 발달 (Development of Socializing Techniques)",
+    "terminology_ko": "사회기술 발달",
+    "terminology_en": "Development of Socializing Techniques",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 경험을 통해 구성원이 경청, 공감 표현, 갈등 해결, 피드백 주고받기 등의 사회적 기술을 학습하고 연습하는 치료적 요인으로, 집단 밖 대인관계에도 일반화된다.",
+    "definition_en": "A therapeutic factor in which members learn and practice social skills such as listening, expressing empathy, conflict resolution, and giving and receiving feedback through group experience, generalizing to interpersonal relationships outside the group.",
+    "significance": "사회기술 발달은 대인관계에 어려움을 겪는 내담자에게 안전한 환경에서 새로운 관계 방식을 실험할 수 있는 기회를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "사회기술 발달을 치료적 요인으로 포함시키고, 집단이 사회적 학습의 실험실 역할을 한다고 설명했다."
+      },
+      {
+        "name_ko": "반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "사회학습이론을 통해 관찰과 모방에 의한 사회기술 학습의 이론적 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "모방행동",
+        "name_en": "Imitative Behavior",
+        "id": "GROUP_IB_014"
+      },
+      {
+        "name_ko": "대인학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_015"
+      },
+      {
+        "name_ko": "DBT 기술훈련집단",
+        "name_en": "DBT Skills Training Group",
+        "id": "GROUP_DBT_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회기술 발달 = 집단은 '사회적 기술의 연습장' — 안전한 환경에서 새로운 관계 방식 실험",
+      "differential": "사회기술 발달은 구체적 사회적 기술의 학습에 초점을 두고, 대인학습은 자신의 대인관계 패턴에 대한 깊은 자기인식을 포함하는 더 넓은 개념이다.",
+      "key_point": "집단 내 피드백은 사회기술 발달의 핵심 도구이며, 구성원이 서로의 상호작용 방식에 대해 솔직한 피드백을 주고받는 것이 중요하다.",
+      "common_mistake": "사회기술 발달을 사회기술훈련(SST)과 동일시하는 오류 — Yalom의 사회기술 발달은 구조화된 훈련뿐 아니라 자연스러운 집단 경험을 통한 학습도 포함한다."
+    }
+  },
+  {
+    "id": "GROUP_IB_014",
+    "terminology": "모방행동 (Imitative Behavior)",
+    "terminology_ko": "모방행동",
+    "terminology_en": "Imitative Behavior",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 구성원이 치료자나 다른 구성원의 행동, 태도, 문제 해결 방식을 관찰하고 모방함으로써 새로운 행동 레퍼토리를 확장하는 치료적 요인이다.",
+    "definition_en": "A therapeutic factor in which group members expand their behavioral repertoire by observing and imitating the behaviors, attitudes, and problem-solving approaches of the therapist and other members.",
+    "significance": "모방행동은 특히 집단 초기에 중요하며, 구성원이 치료자와 성공적인 구성원을 모델로 삼아 새로운 대처 방식을 시도하는 출발점이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "모방행동을 치료적 요인으로 포함시키고, 집단 초기에 역할 모델의 중요성을 강조했다."
+      },
+      {
+        "name_ko": "반두라",
+        "name_en": "Albert Bandura",
+        "contribution": "관찰학습과 모델링 이론을 통해 모방행동의 학습 기제를 체계적으로 설명했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사회기술 발달",
+        "name_en": "Development of Socializing Techniques",
+        "id": "GROUP_DST_013"
+      },
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "역할극",
+        "name_en": "Role Playing",
+        "id": "GROUP_RP_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "모방행동 = '보고 배운다' — Bandura의 관찰학습이 집단치료에 적용된 것",
+      "differential": "모방행동은 타인의 행동을 관찰하고 따라 하는 것이고, 사회기술 발달은 이를 포함하여 더 넓은 범위의 사회적 능력 향상을 의미한다.",
+      "key_point": "Yalom은 모방행동을 상대적으로 덜 중요한 치료적 요인으로 보았으나, 행동치료적 집단에서는 모델링이 핵심 기법이 될 수 있다.",
+      "common_mistake": "모방행동을 수동적 모방으로만 이해하는 오류 — 구성원은 여러 모델을 관찰하며 자신에게 맞는 요소를 선택적으로 통합한다."
+    }
+  },
+  {
+    "id": "GROUP_IL_015",
+    "terminology": "대인학습 (Interpersonal Learning)",
+    "terminology_ko": "대인학습",
+    "terminology_en": "Interpersonal Learning",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 내 상호작용을 통해 구성원이 자신의 대인관계 패턴, 타인에게 미치는 영향, 대인관계적 왜곡을 인식하고 수정하는 치료적 요인으로, Yalom이 가장 핵심적인 치료 기제로 간주한 것이다.",
+    "definition_en": "A therapeutic factor in which members recognize and modify their interpersonal patterns, their impact on others, and interpersonal distortions through group interactions, considered by Yalom as the most central therapeutic mechanism.",
+    "significance": "Sullivan의 대인관계 이론에 기반하며, 집단을 '사회의 축소판(social microcosm)'으로 활용하여 실제 대인관계 변화를 이끄는 집단치료의 가장 강력한 변화 기제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "대인학습을 집단치료의 가장 핵심적인 치료적 요인으로 강조하고, 집단의 사회적 축소판 기능과 연결했다."
+      },
+      {
+        "name_ko": "설리번",
+        "name_en": "Harry Stack Sullivan",
+        "contribution": "대인관계 정신의학 이론을 통해 성격이 대인관계 맥락에서 형성되고 변화한다는 이론적 토대를 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "교정적 가족 재경험",
+        "name_en": "Corrective Recapitulation",
+        "id": "GROUP_CRF_012"
+      },
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "과정집단",
+        "name_en": "Process Group",
+        "id": "GROUP_PG_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "대인학습-입력",
+        "description": "다른 구성원의 피드백을 통해 자신의 대인관계적 영향을 인식하는 것"
+      },
+      {
+        "name": "대인학습-출력",
+        "description": "인식한 패턴을 바탕으로 집단 내에서 새로운 관계 방식을 시도하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "대인학습 = 집단은 '사회의 축소판(social microcosm)' — 여기서의 관계가 바깥세상을 반영한다",
+      "differential": "대인학습은 상호작용을 통한 대인관계 패턴의 인식과 수정이고, 사회기술 발달은 구체적 사회적 기술의 습득에 초점을 둔다.",
+      "key_point": "대인학습은 교정적 정서 경험(corrective emotional experience)을 포함하며, 과거의 역기능적 패턴이 집단에서 재현되었을 때 새로운 결과를 경험하는 것이 핵심이다.",
+      "common_mistake": "대인학습을 단순한 피드백 교환으로 축소하는 오류 — 대인학습은 피드백을 통한 자기인식, 정서적 체험, 행동 변화를 모두 포괄하는 복합적 과정이다."
+    }
+  },
+  {
+    "id": "GROUP_CTH_016",
+    "terminology": "정화 (Catharsis)",
+    "terminology_ko": "정화",
+    "terminology_en": "Catharsis",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 내에서 강렬한 감정을 표현하고 방출함으로써 심리적 해소와 안도를 경험하는 치료적 요인으로, 억압된 감정의 표현 자체뿐만 아니라 집단의 수용적 반응이 치료적 효과를 결정한다.",
+    "definition_en": "A therapeutic factor involving the expression and release of intense emotions within the group, producing psychological relief, where the therapeutic effect is determined not only by the expression itself but also by the group's accepting response.",
+    "significance": "정화는 자기개방을 수반하며, 강렬한 감정 표현 후 집단의 수용적 반응이 정서적 치유와 대인관계적 연결을 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "정화를 집단치료의 치료적 요인으로 포함시키되, 감정 표출만으로는 불충분하고 인지적 통합이 필수적임을 강조했다."
+      },
+      {
+        "name_ko": "프로이트",
+        "name_en": "Sigmund Freud",
+        "contribution": "정화의 개념을 정신분석에 도입하여 억압된 감정의 표현이 증상 완화에 기여한다는 초기 이론을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      },
+      {
+        "name_ko": "대인학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_015"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UNV_008"
+      },
+      {
+        "name_ko": "심리극",
+        "name_en": "Psychodrama",
+        "id": "GROUP_PD_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정화 = '감정의 댐이 열리다' — 감정 방출 + 집단의 수용 = 치유",
+      "differential": "정화는 강렬한 감정의 표현과 해소에 초점을 두고, 대인학습은 상호작용을 통한 관계 패턴의 인식과 변화에 초점을 둔다.",
+      "key_point": "Yalom은 정화 자체보다 정화 후의 인지적 통합과 집단의 수용적 반응이 치료적 가치를 결정한다고 강조했다.",
+      "common_mistake": "감정 표출 자체가 치료적이라고 믿는 오류 — Yalom은 정화만으로는 지속적 변화를 이끌 수 없으며, 인지적 이해와 대인관계적 맥락이 동반되어야 한다고 보았다."
+    }
+  },
+  {
+    "id": "GROUP_CT_017",
+    "terminology": "공동치료자 (Co-therapist)",
+    "terminology_ko": "공동치료자",
+    "terminology_en": "Co-therapist",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "두 명의 치료자가 함께 하나의 집단을 이끄는 치료 형태로, 관찰과 개입의 폭을 넓히고 치료자 간 상호보완적 역할 수행이 가능하며 치료자 소진을 예방하는 데 효과적이다.",
+    "definition_en": "A therapeutic arrangement in which two therapists jointly lead a group, broadening the scope of observation and intervention, enabling complementary roles, and helping prevent therapist burnout.",
+    "significance": "공동치료는 집단 역동에 대한 다각적 관찰이 가능하고, 치료자 간 건강한 관계 모델링을 통해 구성원에게 교정적 대인관계 경험을 제공할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "공동치료 모델의 장단점을 분석하고, 치료자 간 관계의 질이 집단 치료 효과에 미치는 영향을 강조했다."
+      },
+      {
+        "name_ko": "드보어",
+        "name_en": "Christine Kivlighan",
+        "contribution": "공동치료자 관계가 집단 과정과 성과에 미치는 영향에 대한 실증 연구를 수행했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      },
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "교정적 가족 재경험",
+        "name_en": "Corrective Recapitulation",
+        "id": "GROUP_CRF_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공동치료자 = '두 눈으로 보면 더 잘 보인다' — 관찰과 개입의 폭이 넓어진다",
+      "differential": "공동치료자는 동등한 위치에서 집단을 공동 운영하는 것이고, 치료 보조자(assistant)는 주치료자를 보조하는 종속적 역할이다.",
+      "key_point": "공동치료자 간 갈등이나 경쟁이 해결되지 않으면 집단에 부정적 영향을 미치므로, 정기적 슈퍼비전과 사후 논의가 필수적이다.",
+      "common_mistake": "공동치료가 항상 단독 치료보다 우월하다고 가정하는 오류 — 치료자 간 관계가 좋지 않으면 오히려 집단에 해를 끼칠 수 있다."
+    }
+  },
+  {
+    "id": "GROUP_SC_018",
+    "terminology": "희생양 (Scapegoating)",
+    "terminology_ko": "희생양",
+    "terminology_en": "Scapegoating",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 내에서 특정 구성원이 집단 전체의 부정적 감정이나 갈등의 표적이 되어 비난이나 배척을 받는 역기능적 집단 현상으로, 치료자의 즉각적 개입이 필요한 위기 상황이다.",
+    "definition_en": "A dysfunctional group phenomenon in which a specific member becomes the target of the group's negative emotions or conflicts, receiving blame or exclusion, requiring immediate therapist intervention as a crisis situation.",
+    "significance": "희생양 현상은 집단역동의 역기능적 표현이며, 치료자가 이를 인식하고 적절히 개입하지 않으면 해당 구성원에게 심각한 심리적 피해를 줄 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "희생양 현상을 집단치료의 주요 위기 상황으로 식별하고, 치료자의 보호적 개입 전략을 제시했다."
+      },
+      {
+        "name_ko": "비온",
+        "name_en": "Wilfred Bion",
+        "contribution": "집단의 기본가정 이론에서 희생양 현상이 집단 불안의 투사적 방어임을 이론화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "하위집단",
+        "name_en": "Subgroup",
+        "id": "GROUP_SG_007"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_006"
+      },
+      {
+        "name_ko": "투사",
+        "name_en": "Projection",
+        "id": "PSYCHOD_PJ_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "희생양 = 집단의 '배출구' — 집단 전체의 불안과 갈등이 한 사람에게 투사된다",
+      "differential": "희생양은 집단의 부정적 감정이 특정 개인에게 투사되는 것이고, 하위집단은 특정 구성원 간의 연합으로 반드시 부정적이지는 않다.",
+      "key_point": "치료자는 희생양 현상을 개인의 문제가 아닌 집단 전체의 역동으로 다루어야 하며, 해당 구성원을 보호하면서 집단의 책임을 탐색해야 한다.",
+      "common_mistake": "희생양이 된 구성원의 행동 특성만을 원인으로 보는 오류 — 희생양 현상은 집단 전체의 방어 기제이며 집단 수준에서 이해해야 한다."
+    }
+  },
+  {
+    "id": "GROUP_PD_019",
+    "terminology": "심리극 (Psychodrama)",
+    "terminology_ko": "심리극",
+    "terminology_en": "Psychodrama",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "Moreno가 개발한 체험적 집단치료 기법으로, 구성원이 자신의 심리적 갈등이나 과거 경험을 즉흥 연극의 형태로 재현하고 탐색하는 행위 중심의 치료 방법이다.",
+    "definition_en": "An experiential group therapy technique developed by Moreno in which members reenact and explore their psychological conflicts or past experiences through spontaneous dramatic enactment, an action-oriented therapeutic method.",
+    "significance": "언어적 표현만으로는 접근하기 어려운 감정과 갈등을 행위를 통해 체험적으로 탐색할 수 있게 하여, 전통적 대화 중심 치료의 한계를 보완한다.",
+    "key_researchers": [
+      {
+        "name_ko": "모레노",
+        "name_en": "Jacob Moreno",
+        "contribution": "1920년대 심리극을 창시하고, 즉흥성, 역할교대, 거울 기법 등 핵심 기법을 개발했다."
+      },
+      {
+        "name_ko": "모레노(제르카)",
+        "name_en": "Zerka Moreno",
+        "contribution": "Jacob Moreno의 사후 심리극의 이론과 실무를 체계적으로 발전시키고 전파했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "역할극",
+        "name_en": "Role Playing",
+        "id": "GROUP_RP_020"
+      },
+      {
+        "name_ko": "정화",
+        "name_en": "Catharsis",
+        "id": "GROUP_CTH_016"
+      },
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      },
+      {
+        "name_ko": "과정집단",
+        "name_en": "Process Group",
+        "id": "GROUP_PG_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "역할교대(Role Reversal)",
+        "description": "주인공이 상대방의 역할을 맡아 그 사람의 관점을 체험하는 기법"
+      },
+      {
+        "name": "거울 기법(Mirror Technique)",
+        "description": "보조자가 주인공의 행동을 재현하여 주인공이 자신을 객관적으로 관찰하는 기법"
+      },
+      {
+        "name": "이중자아(Double)",
+        "description": "보조자가 주인공 옆에서 주인공의 내면 목소리를 대변하는 기법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "심리극 = Moreno의 '마음의 무대' — 말 대신 행동으로 내면을 탐색한다",
+      "differential": "심리극은 Moreno가 개발한 구조화된 치료 양식이고, 역할극은 심리극의 한 기법이자 다양한 치료 접근에서 활용되는 보다 일반적 기법이다.",
+      "key_point": "심리극의 3요소는 주인공(protagonist), 연출가/치료자(director), 보조자아(auxiliary ego)이며, 무대(stage)와 관객(audience)이 치료적 환경을 구성한다.",
+      "common_mistake": "심리극을 단순한 연극 활동이나 레크리에이션으로 오해하는 오류 — 심리극은 심리치료적 목적을 가진 체계적인 치료 양식이다."
+    }
+  },
+  {
+    "id": "GROUP_RP_020",
+    "terminology": "역할극 (Role Playing)",
+    "terminology_ko": "역할극",
+    "terminology_en": "Role Playing",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단 구성원이 특정 상황이나 관계를 연기함으로써 새로운 행동을 연습하고, 타인의 관점을 이해하며, 대인관계 기술을 발달시키는 체험적 치료 기법이다.",
+    "definition_en": "An experiential therapeutic technique in which group members rehearse new behaviors, understand others' perspectives, and develop interpersonal skills by enacting specific situations or relationships.",
+    "significance": "역할극은 인지적 이해를 넘어 실제 행동 연습의 기회를 제공하며, 인지행동치료, 사회기술훈련, 심리극 등 다양한 치료 접근에서 핵심적으로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "모레노",
+        "name_en": "Jacob Moreno",
+        "contribution": "심리극의 핵심 기법으로서 역할극을 치료적 도구로 체계화했다."
+      },
+      {
+        "name_ko": "켈리",
+        "name_en": "George Kelly",
+        "contribution": "고정역할치료(fixed-role therapy)에서 새로운 역할을 실험적으로 수행하는 접근을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "심리극",
+        "name_en": "Psychodrama",
+        "id": "GROUP_PD_019"
+      },
+      {
+        "name_ko": "사회기술 발달",
+        "name_en": "Development of Socializing Techniques",
+        "id": "GROUP_DST_013"
+      },
+      {
+        "name_ko": "모방행동",
+        "name_en": "Imitative Behavior",
+        "id": "GROUP_IB_014"
+      },
+      {
+        "name_ko": "인지행동 집단치료",
+        "name_en": "Cognitive-Behavioral Group Therapy",
+        "id": "GROUP_CBGT_027"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "행동 시연",
+        "description": "새로운 대처 행동이나 사회적 기술을 반복 연습하는 역할극"
+      },
+      {
+        "name": "역할교대",
+        "description": "상대방의 입장이 되어 연기하면서 공감과 관점 전환을 경험하는 역할극"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "역할극 = '해보면서 배운다' — 머리로 아는 것을 몸으로 연습하는 치료 기법",
+      "differential": "역할극은 다양한 치료 접근에서 활용되는 일반적 기법이고, 심리극은 Moreno의 독자적 치료 체계로서 역할극을 핵심 구성요소로 포함한다.",
+      "key_point": "역할극의 효과를 극대화하려면 연기 후 피드백(debriefing)과 일반화 계획이 반드시 포함되어야 한다.",
+      "common_mistake": "역할극을 연극 공연이나 재미를 위한 활동으로 보는 오류 — 역할극은 치료적 목표를 가진 구조화된 개입이다."
+    }
+  },
+  {
+    "id": "GROUP_PG_021",
+    "terminology": "과정집단 (Process Group)",
+    "terminology_ko": "과정집단",
+    "terminology_en": "Process Group",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "구성원 간의 상호작용 과정과 '지금-여기(here and now)'에서의 관계 역동을 주요 치료적 소재로 활용하는 비구조화된 집단치료 형태로, 대인관계 패턴의 인식과 변화에 초점을 둔다.",
+    "definition_en": "An unstructured form of group therapy that utilizes the interaction process and 'here-and-now' relational dynamics among members as the primary therapeutic material, focusing on recognition and change of interpersonal patterns.",
+    "significance": "과정집단은 Yalom의 대인관계적 집단치료 모델의 핵심으로, 집단 내 상호작용을 통해 대인관계적 학습이 가장 깊이 있게 이루어지는 치료 형태이다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "과정집단을 대인관계적 집단치료의 핵심 형태로 확립하고, '지금-여기' 초점의 치료적 가치를 체계화했다."
+      },
+      {
+        "name_ko": "로저스",
+        "name_en": "Carl Rogers",
+        "contribution": "만남집단(encounter group)을 통해 비구조화된 과정 중심 집단의 치료적 가치를 대중화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대인학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_015"
+      },
+      {
+        "name_ko": "구조화집단",
+        "name_en": "Structured Group",
+        "id": "GROUP_STR_022"
+      },
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "Yalom의 치료적 요인",
+        "name_en": "Yalom's Therapeutic Factors",
+        "id": "GROUP_YTF_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과정집단 = '무엇을'이 아니라 '어떻게' — 내용보다 상호작용 과정이 치료의 핵심",
+      "differential": "과정집단은 구성원 간 상호작용 과정을 치료적 소재로 활용하고, 구조화집단은 사전 계획된 활동과 주제를 따른다.",
+      "key_point": "과정집단에서 치료자는 '지금-여기(here and now)' 상호작용에 주의를 기울이고, 집단 내 패턴이 집단 밖 대인관계를 반영한다는 점을 활용한다.",
+      "common_mistake": "과정집단을 '주제 없는 자유토론'으로 오해하는 오류 — 과정집단은 대인관계 패턴 탐색이라는 명확한 치료적 초점이 있다."
+    }
+  },
+  {
+    "id": "GROUP_STR_022",
+    "terminology": "구조화집단 (Structured Group)",
+    "terminology_ko": "구조화집단",
+    "terminology_en": "Structured Group",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "치료자가 사전에 계획한 주제, 활동, 연습을 체계적으로 제공하는 집단치료 형태로, 특정 기술 훈련이나 심리교육적 목표를 효율적으로 달성하기 위해 설계된다.",
+    "definition_en": "A form of group therapy in which the therapist systematically provides pre-planned topics, activities, and exercises, designed to efficiently achieve specific skill training or psychoeducational goals.",
+    "significance": "구조화집단은 증거기반 치료 프로토콜의 집단 적용에 적합하며, CBT 집단, DBT 기술훈련집단, 분노조절집단 등이 대표적 예시이다.",
+    "key_researchers": [
+      {
+        "name_ko": "코리",
+        "name_en": "Gerald Corey",
+        "contribution": "다양한 이론적 접근에 기반한 구조화집단의 설계와 운영 원리를 체계적으로 정리했다."
+      },
+      {
+        "name_ko": "로즈",
+        "name_en": "Sheldon Rose",
+        "contribution": "인지행동적 구조화집단의 이론과 기법을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과정집단",
+        "name_en": "Process Group",
+        "id": "GROUP_PG_021"
+      },
+      {
+        "name_ko": "심리교육집단",
+        "name_en": "Psychoeducational Group",
+        "id": "GROUP_PEG_025"
+      },
+      {
+        "name_ko": "인지행동 집단치료",
+        "name_en": "Cognitive-Behavioral Group Therapy",
+        "id": "GROUP_CBGT_027"
+      },
+      {
+        "name_ko": "DBT 기술훈련집단",
+        "name_en": "DBT Skills Training Group",
+        "id": "GROUP_DBT_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "기술훈련집단",
+        "description": "사회기술, 대처기술 등 특정 기술의 습득과 연습에 초점을 두는 구조화집단"
+      },
+      {
+        "name": "주제중심집단",
+        "description": "분노조절, 스트레스관리 등 특정 주제를 중심으로 구성된 구조화집단"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "구조화집단 = '계획된 치료 여정' — 사전 설계된 활동과 주제로 구성",
+      "differential": "구조화집단은 치료자가 계획한 활동과 주제를 따르고, 과정집단은 구성원 간 자발적 상호작용을 치료적 소재로 활용한다.",
+      "key_point": "구조화집단에서도 집단역동과 구성원 간 상호작용이 발생하며, 효과적인 치료자는 구조와 과정 사이의 균형을 유지한다.",
+      "common_mistake": "구조화집단에서 집단역동을 무시해도 된다고 생각하는 오류 — 구조화집단에서도 집단 과정에 주의를 기울여야 치료 효과가 극대화된다."
+    }
+  },
+  {
+    "id": "GROUP_SUP_023",
+    "terminology": "지지집단 (Support Group)",
+    "terminology_ko": "지지집단",
+    "terminology_en": "Support Group",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "유사한 문제나 경험을 공유하는 구성원들이 모여 정서적 지지, 격려, 정보 교환을 주된 목적으로 하는 집단으로, 치료적 변화보다는 현재 기능의 유지와 정서적 안정에 초점을 둔다.",
+    "definition_en": "A group in which members sharing similar problems or experiences gather primarily for emotional support, encouragement, and information exchange, focusing on maintaining current functioning and emotional stability rather than therapeutic change.",
+    "significance": "지지집단은 만성 질환, 상실, 생애 전환기 등 지속적 스트레스에 처한 개인에게 지속적인 정서적 자원과 사회적 연결을 제공하는 중요한 치료적 자원이다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "지지집단과 치료집단의 차이를 명확히 구분하고, 각각의 적응증을 제시했다."
+      },
+      {
+        "name_ko": "스피겔",
+        "name_en": "David Spiegel",
+        "contribution": "암 환자 대상 지지집단의 심리적·생리적 효과를 실증적으로 연구했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자조집단",
+        "name_en": "Self-Help Group",
+        "id": "GROUP_SHG_024"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UNV_008"
+      },
+      {
+        "name_ko": "희망 고취",
+        "name_en": "Instillation of Hope",
+        "id": "GROUP_IH_010"
+      },
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "질환 지지집단",
+        "description": "특정 질환(암, 당뇨 등)을 가진 환자들의 지지 모임"
+      },
+      {
+        "name": "사별 지지집단",
+        "description": "가까운 사람의 죽음을 경험한 사람들의 애도 지지 모임"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "지지집단 = '같은 배를 탄 사람들' — 유사 경험 공유를 통한 정서적 지지",
+      "differential": "지지집단은 전문 치료자가 이끌며 정서적 지지에 초점을 두고, 자조집단은 전문가 없이 구성원이 자율 운영한다.",
+      "key_point": "지지집단은 보편성과 희망 고취가 핵심 치료적 요인이며, 심층적 대인학습보다는 정서적 안정과 적응에 중점을 둔다.",
+      "common_mistake": "지지집단과 자조집단을 동일시하는 오류 — 지지집단은 전문가가 이끄는 반면, 자조집단은 구성원이 자율적으로 운영한다."
+    }
+  },
+  {
+    "id": "GROUP_SHG_024",
+    "terminology": "자조집단 (Self-Help Group)",
+    "terminology_ko": "자조집단",
+    "terminology_en": "Self-Help Group",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "전문 치료자 없이 유사한 문제를 경험하는 구성원들이 자발적으로 조직하고 운영하는 상호지지 모임으로, AA(알코올 중독자 익명모임)가 가장 대표적인 예이다.",
+    "definition_en": "A voluntary, member-organized and member-led mutual support meeting for individuals experiencing similar problems without a professional therapist, with AA (Alcoholics Anonymous) being the most representative example.",
+    "significance": "자조집단은 전문 치료의 보완적 역할을 하며, 보편성, 이타심, 희망 고취를 핵심 기제로 활용하여 회복과 유지에 독특한 기여를 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "리즈만",
+        "name_en": "Frank Riessman",
+        "contribution": "자조집단에서의 '도우미 치료 원리(helper therapy principle)'를 제안하여 자조의 치료적 기제를 이론화했다."
+      },
+      {
+        "name_ko": "리비트",
+        "name_en": "Leon Levy",
+        "contribution": "자조집단의 사회심리학적 기제와 효과에 대한 체계적 연구를 수행했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "지지집단",
+        "name_en": "Support Group",
+        "id": "GROUP_SUP_023"
+      },
+      {
+        "name_ko": "이타심",
+        "name_en": "Altruism",
+        "id": "GROUP_ALT_009"
+      },
+      {
+        "name_ko": "보편성",
+        "name_en": "Universality",
+        "id": "GROUP_UNV_008"
+      },
+      {
+        "name_ko": "희망 고취",
+        "name_en": "Instillation of Hope",
+        "id": "GROUP_IH_010"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "12단계 프로그램",
+        "description": "AA에서 시작된 12단계 회복 모델을 따르는 자조집단 (NA, GA 등)"
+      },
+      {
+        "name": "온라인 자조집단",
+        "description": "인터넷 기반 플랫폼에서 운영되는 자조 커뮤니티"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "자조집단 = '우리가 서로의 치료자' — 전문가 없이 구성원이 스스로 운영",
+      "differential": "자조집단은 전문가 없이 구성원이 자율 운영하고, 지지집단은 전문 치료자가 이끈다.",
+      "key_point": "AA의 12단계 프로그램은 전 세계적으로 가장 널리 알려진 자조 모델이며, 약물 중독(NA), 도박 중독(GA) 등으로 확장되었다.",
+      "common_mistake": "자조집단을 비과학적이거나 비전문적인 것으로 과소평가하는 오류 — 연구에 따르면 자조집단은 특히 중독 분야에서 상당한 치료적 효과가 입증되었다."
+    }
+  },
+  {
+    "id": "GROUP_PEG_025",
+    "terminology": "심리교육집단 (Psychoeducational Group)",
+    "terminology_ko": "심리교육집단",
+    "terminology_en": "Psychoeducational Group",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "특정 심리적 문제나 장애에 대한 교육적 정보와 대처 전략을 체계적으로 전달하는 것을 주된 목적으로 하는 구조화된 집단으로, 정보제공과 기술 교육이 핵심 요소이다.",
+    "definition_en": "A structured group whose primary purpose is to systematically deliver educational information and coping strategies for specific psychological problems or disorders, with information provision and skill training as core elements.",
+    "significance": "심리교육집단은 예방, 조기 개입, 만성 질환 관리에서 비용 효율적인 접근으로, 많은 수의 대상자에게 동시에 증거기반 정보와 기술을 제공할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "앤더슨",
+        "name_en": "Carol Anderson",
+        "contribution": "정신분열증 환자 가족 대상 심리교육 프로그램을 개발하여 재발률 감소에 기여했다."
+      },
+      {
+        "name_ko": "맥팔레인",
+        "name_en": "William McFarlane",
+        "contribution": "다가족 심리교육집단 모델을 발전시켜 심리교육의 집단적 적용을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구조화집단",
+        "name_en": "Structured Group",
+        "id": "GROUP_STR_022"
+      },
+      {
+        "name_ko": "정보제공",
+        "name_en": "Imparting Information",
+        "id": "GROUP_II_011"
+      },
+      {
+        "name_ko": "인지행동 집단치료",
+        "name_en": "Cognitive-Behavioral Group Therapy",
+        "id": "GROUP_CBGT_027"
+      },
+      {
+        "name_ko": "DBT 기술훈련집단",
+        "name_en": "DBT Skills Training Group",
+        "id": "GROUP_DBT_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "질환 심리교육",
+        "description": "특정 정신장애에 대한 이해와 자기관리 전략을 교육하는 집단"
+      },
+      {
+        "name": "기술훈련 심리교육",
+        "description": "스트레스 관리, 의사소통 등 특정 기술을 교육하는 집단"
+      },
+      {
+        "name": "가족 심리교육",
+        "description": "정신장애 환자의 가족에게 질환 이해와 대처법을 교육하는 집단"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "심리교육집단 = '알면 힘이 된다' — 교육 + 기술훈련으로 대처 능력 향상",
+      "differential": "심리교육집단은 정보 전달과 기술 교육에 초점을 두고, 과정집단은 구성원 간 상호작용 과정의 탐색에 초점을 둔다.",
+      "key_point": "심리교육집단은 정신분열증, 양극성장애, PTSD 등 다양한 장애의 가족교육에서 재발 방지 효과가 실증적으로 입증되었다.",
+      "common_mistake": "심리교육집단을 단순한 강의로 이해하는 오류 — 효과적인 심리교육집단은 교육, 기술 연습, 집단 토의, 상호지지를 통합한다."
+    }
+  },
+  {
+    "id": "GROUP_FT_026",
+    "terminology": "가족치료 (Family Therapy)",
+    "terminology_ko": "가족치료",
+    "terminology_en": "Family Therapy",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "가족 전체를 하나의 체계(system)로 보고, 가족 구성원 간의 상호작용 패턴과 관계 역동을 변화시킴으로써 개인과 가족의 기능을 향상시키는 치료 접근이다.",
+    "definition_en": "A therapeutic approach that views the entire family as a system, improving individual and family functioning by changing interaction patterns and relational dynamics among family members.",
+    "significance": "개인의 심리적 문제를 가족 맥락에서 이해하고 개입하는 체계적 접근으로, 아동·청소년 문제, 부부 갈등, 정신장애의 가족 관리에 핵심적인 치료 양식이다.",
+    "key_researchers": [
+      {
+        "name_ko": "미누친",
+        "name_en": "Salvador Minuchin",
+        "contribution": "구조적 가족치료를 개발하여 가족의 경계, 위계, 하위체계 개념을 체계화했다."
+      },
+      {
+        "name_ko": "보웬",
+        "name_en": "Murray Bowen",
+        "contribution": "다세대 가족체계 이론을 발전시켜 자아분화, 삼각관계 등의 핵심 개념을 제시했다."
+      },
+      {
+        "name_ko": "헤일리",
+        "name_en": "Jay Haley",
+        "contribution": "전략적 가족치료를 발전시켜 증상의 기능과 가족 내 권력 구조에 초점을 맞추었다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "부부치료",
+        "name_en": "Couple Therapy",
+        "id": "GROUP_CPT_027"
+      },
+      {
+        "name_ko": "교정적 가족 재경험",
+        "name_en": "Corrective Recapitulation",
+        "id": "GROUP_CRF_012"
+      },
+      {
+        "name_ko": "집단역동",
+        "name_en": "Group Dynamics",
+        "id": "GROUP_GD_004"
+      },
+      {
+        "name_ko": "아동임상심리학",
+        "name_en": "Child Clinical Psychology",
+        "id": "CHILD_CCP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "구조적 가족치료",
+        "description": "Minuchin의 모델로 가족 구조(경계, 위계, 동맹)의 재구성에 초점"
+      },
+      {
+        "name": "전략적 가족치료",
+        "description": "Haley의 모델로 증상의 기능 분석과 지시적 개입에 초점"
+      },
+      {
+        "name": "다세대 가족치료",
+        "description": "Bowen의 모델로 세대 간 전수되는 관계 패턴과 자아분화에 초점"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "가족치료 = '한 사람이 아프면 가족 전체가 아프다' — 개인이 아닌 체계를 치료",
+      "differential": "가족치료는 가족 체계 전체의 상호작용 패턴 변화에 초점을 두고, 집단치료는 비혈연 구성원 간 대인관계적 학습에 초점을 둔다.",
+      "key_point": "가족치료의 핵심 전제는 확인된 환자(IP: identified patient)의 증상이 가족 체계의 역기능을 반영한다는 것이다.",
+      "common_mistake": "가족치료를 '가족 상담' 또는 가족에게 조언하는 것으로 한정하는 오류 — 가족치료는 체계이론에 기반한 구조적 변화를 추구하는 전문 치료 양식이다."
+    }
+  },
+  {
+    "id": "GROUP_CPT_027",
+    "terminology": "부부치료 (Couple Therapy)",
+    "terminology_ko": "부부치료",
+    "terminology_en": "Couple Therapy",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "부부 또는 친밀한 파트너 관계에서 발생하는 갈등, 의사소통 문제, 정서적 단절을 다루어 관계의 질을 향상시키는 치료 접근으로, 관계 역동의 변화와 상호 이해 증진에 초점을 둔다.",
+    "definition_en": "A therapeutic approach that addresses conflicts, communication problems, and emotional disconnection in couple or intimate partner relationships to improve relationship quality, focusing on changing relational dynamics and enhancing mutual understanding.",
+    "significance": "부부 관계의 질이 개인의 정신건강과 밀접하게 연관되어 있어, 우울증, 불안장애 등의 치료에서 부부치료의 병행이 치료 효과를 높이는 것으로 입증되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "가트만",
+        "name_en": "John Gottman",
+        "contribution": "부부 상호작용의 관찰 연구를 통해 관계 실패를 예측하는 '네 기수(Four Horsemen)' 패턴을 발견했다."
+      },
+      {
+        "name_ko": "존슨",
+        "name_en": "Sue Johnson",
+        "contribution": "정서초점부부치료(EFT)를 개발하여 애착 이론에 기반한 부부 개입 모델을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족치료",
+        "name_en": "Family Therapy",
+        "id": "GROUP_FT_026"
+      },
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      },
+      {
+        "name_ko": "대인학습",
+        "name_en": "Interpersonal Learning",
+        "id": "GROUP_IL_015"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정서초점부부치료(EFT)",
+        "description": "Sue Johnson의 모델로 애착 욕구와 정서적 유대 회복에 초점"
+      },
+      {
+        "name": "가트만 부부치료",
+        "description": "Gottman의 연구 기반 모델로 의사소통 기술 향상과 갈등 관리에 초점"
+      },
+      {
+        "name": "행동적 부부치료",
+        "description": "행동 교환과 의사소통 훈련에 기반한 인지행동적 접근"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "부부치료 = '관계를 치료한다' — 개인이 아닌 파트너 간 상호작용 패턴의 변화",
+      "differential": "부부치료는 친밀한 파트너 관계에 특화된 치료이고, 가족치료는 가족 체계 전체를 대상으로 한다.",
+      "key_point": "Gottman의 연구에 따르면, 비판, 경멸, 방어, 담쌓기의 '네 기수' 패턴이 관계 파탄을 예측하는 가장 강력한 지표이다.",
+      "common_mistake": "부부치료의 목표가 항상 관계 유지라고 가정하는 오류 — 경우에 따라 건강한 분리를 돕는 것도 부부치료의 합당한 목표이다."
+    }
+  },
+  {
+    "id": "GROUP_CBGT_028",
+    "terminology": "인지행동 집단치료 (Cognitive-Behavioral Group Therapy)",
+    "terminology_ko": "인지행동 집단치료",
+    "terminology_en": "Cognitive-Behavioral Group Therapy",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "인지행동치료(CBT)의 원리와 기법을 집단 형태로 적용하는 치료 접근으로, 인지 재구성, 행동 실험, 노출 등의 기법을 집단 환경에서 실시하며 구성원 간 상호 학습과 지지를 활용한다.",
+    "definition_en": "A therapeutic approach that applies cognitive-behavioral therapy (CBT) principles and techniques in a group format, implementing cognitive restructuring, behavioral experiments, and exposure in a group setting while utilizing mutual learning and support among members.",
+    "significance": "CBT의 효과를 비용 효율적으로 제공하며, 사회불안장애, 우울증, 공황장애 등 다양한 장애에서 개인 CBT와 동등한 효과가 실증적으로 입증되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "하이먼버그",
+        "name_en": "Richard Heimberg",
+        "contribution": "사회불안장애 대상 인지행동 집단치료(CBGT) 프로토콜을 개발하고 효과를 실증적으로 검증했다."
+      },
+      {
+        "name_ko": "비앨링",
+        "name_en": "Michael Free",
+        "contribution": "우울증 대상 인지행동 집단치료의 구조화된 프로토콜을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "Cognitive-Behavioral Therapy",
+        "id": "CBT_CBT_001"
+      },
+      {
+        "name_ko": "구조화집단",
+        "name_en": "Structured Group",
+        "id": "GROUP_STR_022"
+      },
+      {
+        "name_ko": "DBT 기술훈련집단",
+        "name_en": "DBT Skills Training Group",
+        "id": "GROUP_DBT_029"
+      },
+      {
+        "name_ko": "심리교육집단",
+        "name_en": "Psychoeducational Group",
+        "id": "GROUP_PEG_025"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "인지 재구성 집단",
+        "description": "역기능적 사고 패턴의 인식과 수정에 초점을 둔 CBT 집단"
+      },
+      {
+        "name": "노출 기반 집단",
+        "description": "사회불안, 공황 등에 대한 집단 기반 노출 치료"
+      },
+      {
+        "name": "행동활성화 집단",
+        "description": "우울증 치료를 위한 행동활성화 기법의 집단 적용"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "인지행동 집단치료 = CBT + 집단의 힘 — 개인 CBT의 효과에 집단 상호작용의 이점을 더한 것",
+      "differential": "인지행동 집단치료는 CBT 기법을 체계적으로 적용하는 구조화된 프로그램이고, 과정집단은 구성원 간 상호작용 과정 탐색에 초점을 둔다.",
+      "key_point": "Heimberg의 사회불안장애 CBGT는 집단 내 노출 기회(발표, 사회적 상호작용)를 자연스럽게 제공하여 개인 CBT에 없는 고유한 이점이 있다.",
+      "common_mistake": "인지행동 집단치료를 단순히 여러 명에게 개인 CBT를 동시에 제공하는 것으로 오해하는 오류 — 구성원 간 상호작용과 모델링이 치료의 핵심 요소이다."
+    }
+  },
+  {
+    "id": "GROUP_DBT_029",
+    "terminology": "DBT 기술훈련집단 (DBT Skills Training Group)",
+    "terminology_ko": "DBT 기술훈련집단",
+    "terminology_en": "DBT Skills Training Group",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "변증법적 행동치료(DBT)의 네 가지 핵심 기술(마음챙김, 대인관계 효율성, 정서조절, 고통 감내)을 집단 형태로 교육하고 연습하는 구조화된 치료 요소로, 개인치료와 병행하여 실시된다.",
+    "definition_en": "A structured therapeutic component of dialectical behavior therapy (DBT) that teaches and practices the four core skills (mindfulness, interpersonal effectiveness, emotion regulation, and distress tolerance) in a group format, conducted alongside individual therapy.",
+    "significance": "DBT 기술훈련집단은 경계선 성격장애를 포함한 정서조절 곤란 환자에게 구체적인 대처 기술을 제공하며, DBT 치료 체계의 핵심 구성요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "리네한",
+        "name_en": "Marsha Linehan",
+        "contribution": "DBT를 개발하고, 기술훈련집단을 DBT 치료 체계의 핵심 요소로 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "인지행동 집단치료",
+        "name_en": "Cognitive-Behavioral Group Therapy",
+        "id": "GROUP_CBGT_028"
+      },
+      {
+        "name_ko": "구조화집단",
+        "name_en": "Structured Group",
+        "id": "GROUP_STR_022"
+      },
+      {
+        "name_ko": "심리교육집단",
+        "name_en": "Psychoeducational Group",
+        "id": "GROUP_PEG_025"
+      },
+      {
+        "name_ko": "인지행동치료",
+        "name_en": "Cognitive-Behavioral Therapy",
+        "id": "CBT_CBT_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "마음챙김 모듈",
+        "description": "현재 순간에 대한 비판단적 자각 기술을 훈련하는 모듈"
+      },
+      {
+        "name": "대인관계 효율성 모듈",
+        "description": "관계 유지, 자기주장, 자기존중을 균형 있게 달성하는 기술 훈련"
+      },
+      {
+        "name": "정서조절 모듈",
+        "description": "강렬한 정서를 인식, 이해, 조절하는 기술을 훈련하는 모듈"
+      },
+      {
+        "name": "고통 감내 모듈",
+        "description": "위기 상황에서 충동적 행동 없이 고통을 견디는 기술 훈련"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "DBT 기술훈련 = Linehan의 '네 가지 무기' — 마음챙김, 대인관계 효율성, 정서조절, 고통 감내",
+      "differential": "DBT 기술훈련집단은 특정 4가지 기술 모듈을 체계적으로 교육하는 것이고, 일반 CBT 집단은 인지 재구성과 행동 변화에 더 넓게 초점을 둔다.",
+      "key_point": "DBT에서 기술훈련집단은 개인치료, 전화코칭, 치료자 자문팀과 함께 4개 치료 양식 중 하나이며, 단독으로 실시되지 않는 것이 원칙이다.",
+      "common_mistake": "DBT 기술훈련을 독립적 치료로 간주하는 오류 — 표준 DBT에서 기술훈련집단은 개인치료와 반드시 병행되어야 한다."
+    }
+  },
+  {
+    "id": "GROUP_GSI_030",
+    "terminology": "집단선별면접 (Group Screening Interview)",
+    "terminology_ko": "집단선별면접",
+    "terminology_en": "Group Screening Interview",
+    "category": "GROUP",
+    "category_name": "집단치료 (Group Therapy)",
+    "definition": "집단치료 참여 전에 개별 내담자와 실시하는 사전 면접으로, 집단치료의 적합성을 평가하고, 치료 기대와 규칙을 설명하며, 내담자의 동기와 준비도를 확인하는 과정이다.",
+    "definition_en": "A pre-group individual interview conducted before group therapy participation to assess suitability for group treatment, explain treatment expectations and rules, and confirm the client's motivation and readiness.",
+    "significance": "적절한 선별면접은 부적합한 구성원의 조기 탈락을 방지하고, 집단의 치료적 환경을 보호하며, 내담자의 성공적 집단 참여를 준비시키는 필수적 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "얄롬",
+        "name_en": "Irvin Yalom",
+        "contribution": "집단 선별의 중요성을 강조하고, 집단에 부적합한 내담자의 특성과 포함/배제 기준을 체계화했다."
+      },
+      {
+        "name_ko": "코리",
+        "name_en": "Gerald Corey",
+        "contribution": "집단 선별면접의 구체적 절차와 윤리적 고려사항을 포괄적으로 정리했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단치료",
+        "name_en": "Group Therapy",
+        "id": "GROUP_GT_001"
+      },
+      {
+        "name_ko": "집단규범",
+        "name_en": "Group Norms",
+        "id": "GROUP_GN_006"
+      },
+      {
+        "name_ko": "집단발달단계",
+        "name_en": "Stages of Group Development",
+        "id": "GROUP_SGD_005"
+      },
+      {
+        "name_ko": "임상면접",
+        "name_en": "Clinical Interview",
+        "id": "INTVIEW_CI_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단선별면접 = 집단의 '입학 면접' — 적합성 평가 + 사전 준비 + 동기 확인",
+      "differential": "집단선별면접은 집단 참여 전 적합성을 평가하는 사전 절차이고, 임상면접은 개인의 전반적 심리적 기능과 문제를 평가하는 포괄적 면접이다.",
+      "key_point": "Yalom은 집단 선별에서 '포함 기준'보다 '배제 기준'이 더 중요하다고 강조했으며, 동기 부족, 대인관계 민감성 결여, 심각한 반사회적 특성을 주요 배제 사유로 보았다.",
+      "common_mistake": "집단선별면접을 생략해도 된다고 생각하는 오류 — 사전 선별 없이 부적합한 구성원이 포함되면 집단 전체의 치료 과정이 방해받을 수 있다."
+    }
+  }
+]

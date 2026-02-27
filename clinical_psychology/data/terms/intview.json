@@ -1,0 +1,824 @@
+[
+  {
+    "id": "INTVIEW_CI_001",
+    "terminology": "임상면접 (Clinical Interview)",
+    "terminology_ko": "임상면접",
+    "terminology_en": "Clinical Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "임상심리학에서 내담자의 심리적 문제, 병력, 현재 기능 수준 등을 파악하기 위해 체계적으로 수행하는 대면 대화 기반의 평가 방법으로, 진단, 치료 계획 수립, 예후 판단의 기초 자료를 제공한다.",
+    "definition_en": "A systematic face-to-face conversational assessment method in clinical psychology used to gather information about a client's psychological problems, history, and current functioning, providing foundational data for diagnosis, treatment planning, and prognosis.",
+    "significance": "임상심리학의 가장 기본적이고 보편적인 평가 도구로, 심리검사와 행동 관찰을 보완하며 내담자와의 치료적 관계 형성의 출발점이 된다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "내담자 중심 접근을 통해 면접에서의 공감적 경청과 무조건적 긍정적 존중의 중요성을 강조하였다."},
+      {"name_ko": "제임스 모리슨", "name_en": "James Morrison", "contribution": "『The First Interview』를 통해 임상면접의 체계적 절차와 실용적 기법을 정리하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INTVIEW_SI_002"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "접수 면접", "name_en": "Intake Interview", "id": "INTVIEW_INTAKE_013"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "임상면접 = 임상의 '첫 만남' → 대면 대화로 정보 수집 + 관계 형성",
+      "differential": "임상면접은 대화 기반 평가이고, 심리검사는 표준화된 도구를 사용한 평가이다. 면접은 유연하고 심리검사는 구조화되어 있다.",
+      "key_point": "임상면접은 단순한 정보 수집을 넘어 치료적 관계(라포) 형성과 행동 관찰이 동시에 이루어지는 다목적 평가 방법이다.",
+      "common_mistake": "임상면접을 일상적 대화와 동일시하는 오류 — 임상면접은 목적, 구조, 기법이 체계적으로 설계된 전문적 활동이다."
+    }
+  },
+  {
+    "id": "INTVIEW_SI_002",
+    "terminology": "구조화 면접 (Structured Interview)",
+    "terminology_ko": "구조화 면접",
+    "terminology_en": "Structured Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "사전에 정해진 질문 목록과 순서를 엄격히 따르며, 응답 채점 기준이 표준화되어 있는 면접 형식으로, 진단적 신뢰도와 타당도를 극대화하기 위해 설계된다.",
+    "definition_en": "An interview format that strictly follows a predetermined list and order of questions with standardized response scoring criteria, designed to maximize diagnostic reliability and validity.",
+    "significance": "평가자 간 신뢰도를 높이고 진단의 일관성을 보장하여, 연구 장면과 법적 평가에서 특히 중요하게 활용된다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "SCID(구조화 임상면담)를 개발하여 DSM 진단의 표준화된 면접 도구를 확립하였다."},
+      {"name_ko": "마이클 퍼스트", "name_en": "Michael First", "contribution": "SCID-5를 개정하여 DSM-5에 맞는 최신 구조화 면접 도구를 제공하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반구조화 면접", "name_en": "Semi-Structured Interview", "id": "INTVIEW_SSI_003"},
+      {"name_ko": "비구조화 면접", "name_en": "Unstructured Interview", "id": "INTVIEW_USI_004"},
+      {"name_ko": "SCID", "name_en": "SCID", "id": "DIAGN_SCID_011"},
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "INTVIEW_DI_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구조화 = '대본 있는 면접' → 질문, 순서, 채점 모두 고정",
+      "differential": "구조화 면접은 질문과 순서가 고정되고, 반구조화 면접은 핵심 질문은 정해져 있지만 추가 탐색이 가능하며, 비구조화 면접은 면접자 재량으로 자유롭게 진행한다.",
+      "key_point": "SCID, CIDI, DIS 등이 대표적인 구조화 면접 도구이며, 연구와 역학 조사에서 진단 일관성을 위해 필수적으로 사용된다.",
+      "common_mistake": "구조화 면접이 항상 더 우수하다고 보는 오류 — 유연성이 부족하여 예상치 못한 임상 정보를 놓칠 수 있다."
+    }
+  },
+  {
+    "id": "INTVIEW_SSI_003",
+    "terminology": "반구조화 면접 (Semi-Structured Interview)",
+    "terminology_ko": "반구조화 면접",
+    "terminology_en": "Semi-Structured Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "핵심 질문과 평가 영역은 사전에 정해져 있지만, 면접자가 내담자의 반응에 따라 추가 질문이나 탐색을 유연하게 할 수 있는 면접 형식으로, 구조화와 유연성의 균형을 추구한다.",
+    "definition_en": "An interview format with predetermined core questions and assessment domains, but allowing the interviewer to flexibly ask follow-up questions based on the client's responses, balancing structure with flexibility.",
+    "significance": "표준화된 신뢰도와 임상적 유연성을 동시에 확보할 수 있어, 임상 실제에서 가장 널리 사용되는 면접 형식이다.",
+    "key_researchers": [
+      {"name_ko": "진 엔디콧", "name_en": "Jean Endicott", "contribution": "SADS(정동장애 및 조현병 일정표)를 공동 개발하여 반구조화 면접의 기초를 놓았다."},
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "SADS와 SCID 개발을 통해 반구조화 면접의 표준 모델을 정립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INTVIEW_SI_002"},
+      {"name_ko": "비구조화 면접", "name_en": "Unstructured Interview", "id": "INTVIEW_USI_004"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "INTVIEW_CI_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반구조화 = '가이드라인 있는 자유 대화' → 핵심 질문 + 추가 탐색 가능",
+      "differential": "반구조화 면접은 핵심 질문은 정해져 있으나 탐색이 자유롭고, 구조화 면접은 모든 질문이 고정되어 있으며, 비구조화 면접은 질문 자체가 미리 정해져 있지 않다.",
+      "key_point": "SCID가 대표적인 반구조화 면접 도구이며, 임상 장면에서 진단적 정확성과 내담자 맞춤형 탐색을 동시에 가능하게 한다.",
+      "common_mistake": "반구조화 면접을 구조화 면접과 동일시하는 오류 — 반구조화는 면접자의 임상적 판단에 따른 추가 탐색이 핵심이다."
+    }
+  },
+  {
+    "id": "INTVIEW_USI_004",
+    "terminology": "비구조화 면접 (Unstructured Interview)",
+    "terminology_ko": "비구조화 면접",
+    "terminology_en": "Unstructured Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "사전에 정해진 질문 목록이나 순서 없이 면접자가 임상적 판단에 따라 자유롭게 진행하는 면접 형식으로, 내담자의 독특한 경험과 주관적 세계를 깊이 탐색하는 데 유용하다.",
+    "definition_en": "An interview format conducted freely by the interviewer based on clinical judgment without predetermined questions or order, useful for deeply exploring the client's unique experiences and subjective world.",
+    "significance": "내담자의 개별적 맥락과 주관적 경험을 풍부하게 이해할 수 있으나, 진단적 신뢰도가 낮아 연구보다는 임상 탐색 단계에서 주로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심 접근에서 비지시적 면접을 통한 내담자의 자기탐색을 강조하였다."},
+      {"name_ko": "해리 스택 설리번", "name_en": "Harry Stack Sullivan", "contribution": "정신과적 면접에서 대인관계적 맥락을 탐색하는 비구조화 면접의 원리를 체계화하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INTVIEW_SI_002"},
+      {"name_ko": "반구조화 면접", "name_en": "Semi-Structured Interview", "id": "INTVIEW_SSI_003"},
+      {"name_ko": "공감적 경청", "name_en": "Empathic Listening", "id": "INTVIEW_EL_023"},
+      {"name_ko": "개방형 질문", "name_en": "Open-Ended Questions", "id": "INTVIEW_OQ_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비구조화 = '자유로운 대화' → 질문, 순서 없음, 면접자 재량",
+      "differential": "비구조화 면접은 유연성이 높지만 신뢰도가 낮고, 구조화 면접은 신뢰도가 높지만 유연성이 낮다. 비구조화는 탐색적 목적에, 구조화는 진단적 목적에 적합하다.",
+      "key_point": "비구조화 면접은 확인 편향, 초두 효과 등 면접자 편향에 취약하여, 이를 보완하기 위한 자기 점검이 필요하다.",
+      "common_mistake": "비구조화 면접을 '아무렇게나 하는 면접'으로 오해하는 것 — 전문적 훈련과 임상적 판단력이 더욱 요구된다."
+    }
+  },
+  {
+    "id": "INTVIEW_RAP_005",
+    "terminology": "라포 (Rapport)",
+    "terminology_ko": "라포",
+    "terminology_en": "Rapport",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "면접자와 내담자 사이에 형성되는 상호 신뢰와 편안한 관계로, 내담자가 자신의 경험을 솔직하고 개방적으로 보고할 수 있는 안전한 분위기를 조성하는 핵심 요소이다.",
+    "definition_en": "A relationship of mutual trust and comfort between interviewer and client that creates a safe atmosphere enabling the client to report their experiences honestly and openly.",
+    "significance": "면접에서 수집되는 정보의 질과 양을 결정하는 핵심 변인으로, 라포 없이는 정확한 평가와 효과적인 치료가 불가능하다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "무조건적 긍정적 존중, 공감적 이해, 진실성을 라포 형성의 핵심 조건으로 제시하였다."},
+      {"name_ko": "에드워드 보딘", "name_en": "Edward Bordin", "contribution": "작업동맹 모델을 통해 치료적 관계의 구성요소를 목표 합의, 과제 합의, 정서적 유대로 구분하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "치료적 동맹", "name_en": "Therapeutic Alliance", "id": "INTVIEW_TA_029"},
+      {"name_ko": "공감적 경청", "name_en": "Empathic Listening", "id": "INTVIEW_EL_023"},
+      {"name_ko": "작업동맹", "name_en": "Working Alliance", "id": "PSYCHOD_WK_005"},
+      {"name_ko": "공감적 이해", "name_en": "Empathic Understanding", "id": "PHENOM_EMP_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "라포 = '마음의 다리' → 신뢰 + 편안함 → 솔직한 보고 가능",
+      "differential": "라포는 면접 초기에 형성되는 기본적 신뢰 관계이고, 치료적 동맹은 치료 목표와 과제에 대한 합의까지 포함하는 더 포괄적 개념이다.",
+      "key_point": "라포 형성은 면접 초반 5~10분이 결정적이며, 비언어적 의사소통(눈맞춤, 자세, 표정)이 핵심 역할을 한다.",
+      "common_mistake": "라포를 단순한 '친근함'이나 '호감'으로 이해하는 오류 — 라포는 전문적 관계 내에서의 신뢰와 안전감이다."
+    }
+  },
+  {
+    "id": "INTVIEW_MSE_006",
+    "terminology": "정신상태검사 (Mental Status Examination)",
+    "terminology_ko": "정신상태검사",
+    "terminology_en": "Mental Status Examination",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "면접 시점에서 내담자의 인지, 정서, 행동, 사고 등 전반적인 정신 기능 상태를 체계적으로 평가하는 구조화된 임상 관찰 절차로, 신체검사의 정신과적 등가물에 해당한다.",
+    "definition_en": "A structured clinical observation procedure that systematically evaluates the client's overall mental functioning including cognition, emotion, behavior, and thought at the time of interview, serving as the psychiatric equivalent of a physical examination.",
+    "significance": "내담자의 현재 정신 기능에 대한 객관적 스냅샷을 제공하여 진단적 의사결정, 치료 계획, 경과 추적의 기초가 된다.",
+    "key_researchers": [
+      {"name_ko": "아돌프 마이어", "name_en": "Adolf Meyer", "contribution": "정신의학에서 체계적인 정신상태검사의 틀을 최초로 정립하였다."},
+      {"name_ko": "마샬 폴스타인", "name_en": "Marshal Folstein", "contribution": "간이정신상태검사(MMSE)를 개발하여 인지 기능의 표준화된 선별 도구를 제공하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "외모와 행동 관찰", "name_en": "Appearance and Behavior", "id": "INTVIEW_AB_007"},
+      {"name_ko": "사고과정", "name_en": "Thought Process", "id": "INTVIEW_TP_008"},
+      {"name_ko": "기분과 정동", "name_en": "Mood and Affect", "id": "INTVIEW_MA_010"},
+      {"name_ko": "지남력", "name_en": "Orientation", "id": "INTVIEW_ORI_011"},
+      {"name_ko": "판단력과 병식", "name_en": "Judgment and Insight", "id": "INTVIEW_JI_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MSE = 정신의 '건강 검진' → 외모, 행동, 기분, 사고, 인지, 판단을 체계적으로 점검",
+      "differential": "MSE는 면접 '시점'의 정신 기능 스냅샷이고, 심리검사(예: MMPI)는 성격과 정신병리의 종합적 프로파일을 제공한다. MSE는 관찰 기반, 심리검사는 자기보고 기반이다.",
+      "key_point": "MSE의 주요 영역은 외모와 행동, 언어와 사고과정, 사고내용, 기분과 정동, 지각, 인지(지남력·기억·주의), 판단력과 병식이다.",
+      "common_mistake": "MSE를 심리검사와 혼동하는 오류 — MSE는 면접 중 관찰과 간단한 질문으로 수행하며, 표준화된 검사 도구가 아니다."
+    }
+  },
+  {
+    "id": "INTVIEW_AB_007",
+    "terminology": "외모와 행동 관찰 (Appearance and Behavior)",
+    "terminology_ko": "외모와 행동 관찰",
+    "terminology_en": "Appearance and Behavior",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "정신상태검사의 첫 번째 영역으로, 내담자의 신체적 외양(복장, 위생, 체격), 운동 활동(초조, 지연), 자세, 눈맞춤, 얼굴 표정, 태도 등을 체계적으로 관찰하고 기록하는 과정이다.",
+    "definition_en": "The first domain of the mental status examination, involving systematic observation and recording of the client's physical appearance (clothing, hygiene, build), motor activity (agitation, retardation), posture, eye contact, facial expressions, and attitude.",
+    "significance": "내담자의 전반적인 기능 수준과 자기관리 능력에 대한 일차적 단서를 제공하며, 우울증, 조현병, 물질사용장애 등의 감별에 중요한 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "제임스 모리슨", "name_en": "James Morrison", "contribution": "임상면접 교과서에서 외모와 행동 관찰의 체계적 기술 방법을 정리하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "INTVIEW_BO_030"},
+      {"name_ko": "비언어적 의사소통", "name_en": "Nonverbal Communication", "id": "INTVIEW_NVC_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "외모·행동 = MSE의 '첫인상' → 복장, 위생, 움직임, 눈맞춤, 표정, 태도",
+      "differential": "외모와 행동 관찰은 면접자가 객관적으로 관찰하는 것이고, 기분(mood) 평가는 내담자가 주관적으로 보고하는 것이다.",
+      "key_point": "정신운동 초조(agitation)와 정신운동 지연(retardation)은 각각 조증/불안과 우울의 중요한 행동 지표이다.",
+      "common_mistake": "외모 관찰을 외모에 대한 '판단'이나 '평가'로 혼동하는 것 — 객관적이고 기술적으로(descriptively) 기록해야 한다."
+    }
+  },
+  {
+    "id": "INTVIEW_TP_008",
+    "terminology": "사고과정 (Thought Process)",
+    "terminology_ko": "사고과정",
+    "terminology_en": "Thought Process",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자의 사고가 조직되고 표현되는 방식, 즉 사고의 흐름, 속도, 연결성, 논리성을 평가하는 정신상태검사의 영역으로, 사고의 '형식'에 해당한다.",
+    "definition_en": "A domain of the mental status examination evaluating how the client's thoughts are organized and expressed, including flow, speed, connectivity, and logic of thinking, corresponding to the 'form' of thought.",
+    "significance": "사고과정의 이상은 조현병(이완, 탈선), 조증(비약), 우울(지연) 등 주요 정신장애의 핵심 진단 지표가 된다.",
+    "key_researchers": [
+      {"name_ko": "오이겐 블로일러", "name_en": "Eugen Bleuler", "contribution": "조현병에서 연상 이완(loosening of associations)을 핵심 증상으로 기술하여 사고과정 장애의 개념을 확립하였다."},
+      {"name_ko": "쿠르트 슈나이더", "name_en": "Kurt Schneider", "contribution": "일급 증상 개념을 통해 사고과정과 사고내용의 장애를 체계적으로 구분하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사고내용", "name_en": "Thought Content", "id": "INTVIEW_TC_009"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "INTVIEW_CI_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사고과정 = 사고의 '형식(HOW)' → 흐름, 속도, 연결성 (vs. 사고내용 = 'WHAT')",
+      "differential": "사고과정은 사고의 형식(어떻게 생각하는가)이고, 사고내용은 사고의 주제(무엇을 생각하는가)이다. 예: 사고 이완은 과정, 망상은 내용.",
+      "key_point": "주요 사고과정 이상에는 우원증(circumstantiality), 탈선(derailment), 사고 이완(loosening), 사고 비약(flight of ideas), 사고 두절(thought blocking)이 있다.",
+      "common_mistake": "사고과정과 사고내용을 혼동하는 오류 — 망상은 사고'내용'의 장애이지 사고'과정'의 장애가 아니다."
+    }
+  },
+  {
+    "id": "INTVIEW_TC_009",
+    "terminology": "사고내용 (Thought Content)",
+    "terminology_ko": "사고내용",
+    "terminology_en": "Thought Content",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자가 실제로 생각하고 있는 주제와 내용을 평가하는 정신상태검사의 영역으로, 망상, 강박사고, 자살/타해 사고, 공포, 집착 등 사고의 '내용'을 체계적으로 탐색한다.",
+    "definition_en": "A domain of the mental status examination evaluating what the client is actually thinking about, systematically exploring the 'content' of thought including delusions, obsessions, suicidal/homicidal ideation, phobias, and preoccupations.",
+    "significance": "자살·타해 사고, 망상 등 위험 요인을 조기에 발견하고, 정신장애의 감별 진단에 핵심적인 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "칼 야스퍼스", "name_en": "Karl Jaspers", "contribution": "일차적 망상과 이차적 망상을 구분하여 사고내용 이상의 현상학적 분석 틀을 제공하였다."},
+      {"name_ko": "쿠르트 슈나이더", "name_en": "Kurt Schneider", "contribution": "조현병의 일급 증상 중 사고 삽입, 사고 철회, 사고 전파 등 사고내용 장애를 체계화하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사고과정", "name_en": "Thought Process", "id": "INTVIEW_TP_008"},
+      {"name_ko": "자살 위험 평가", "name_en": "Suicide Risk Assessment", "id": "INTVIEW_SRA_016"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "자동적 사고", "name_en": "Automatic Thoughts", "id": "CBT_AT_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사고내용 = 사고의 '주제(WHAT)' → 망상, 강박, 자살사고, 공포 (vs. 사고과정 = 'HOW')",
+      "differential": "사고내용은 '무엇을' 생각하는가(망상, 자살사고)이고, 사고과정은 '어떻게' 생각하는가(이완, 탈선)이다.",
+      "key_point": "사고내용 평가에서 자살사고와 타해사고의 존재 여부를 반드시 확인해야 하며, 이는 임상가의 법적·윤리적 의무이다.",
+      "common_mistake": "망상을 사고'과정'의 문제로 분류하는 오류 — 망상은 사고'내용'의 장애이다."
+    }
+  },
+  {
+    "id": "INTVIEW_MA_010",
+    "terminology": "기분과 정동 (Mood and Affect)",
+    "terminology_ko": "기분과 정동",
+    "terminology_en": "Mood and Affect",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "정신상태검사에서 내담자의 정서 상태를 평가하는 영역으로, 기분(mood)은 내담자가 주관적으로 보고하는 지속적인 정서 상태이고, 정동(affect)은 면접자가 관찰하는 순간적인 정서 표현이다.",
+    "definition_en": "A domain of the mental status examination evaluating the client's emotional state, where mood is the sustained emotional state subjectively reported by the client, and affect is the momentary emotional expression observed by the interviewer.",
+    "significance": "기분장애, 불안장애 등의 진단에 핵심적인 평가 영역이며, 기분과 정동의 불일치는 중요한 진단적 단서를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "기분장애와 조현병을 구분하면서 기분과 정동의 체계적 평가 필요성을 확립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "외모와 행동 관찰", "name_en": "Appearance and Behavior", "id": "INTVIEW_AB_007"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "INTVIEW_BO_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기분 = '날씨(climate)' = 주관적·지속적 / 정동 = '오늘의 날씨(weather)' = 객관적·순간적",
+      "differential": "기분(mood)은 내담자 '자기 보고'의 지속적 정서이고, 정동(affect)은 면접자 '관찰'의 순간적 정서 표현이다. 기분은 주관적, 정동은 객관적으로 평가한다.",
+      "key_point": "정동은 범위(range), 강도(intensity), 적절성(appropriateness), 이동성(mobility) 네 차원으로 기술하며, 둔마된(blunted), 평탄한(flat), 부적절한(inappropriate) 정동은 조현병의 주요 지표이다.",
+      "common_mistake": "기분과 정동을 동의어로 사용하는 오류 — 기분은 주관적 보고, 정동은 객관적 관찰이라는 점에서 명확히 구분된다."
+    }
+  },
+  {
+    "id": "INTVIEW_ORI_011",
+    "terminology": "지남력 (Orientation)",
+    "terminology_ko": "지남력",
+    "terminology_en": "Orientation",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자가 현재 시간, 장소, 사람, 상황을 정확히 인식하고 있는 능력으로, 정신상태검사에서 인지 기능을 평가하는 기본 항목이며, 의식 수준과 인지 기능의 온전성을 반영한다.",
+    "definition_en": "The client's ability to accurately recognize current time, place, person, and situation, serving as a fundamental item for assessing cognitive function in the mental status examination and reflecting the integrity of consciousness and cognitive functioning.",
+    "significance": "지남력 장애는 섬망, 치매 등 기질성 정신장애의 핵심 지표이며, 급성 정신 상태 변화의 조기 발견에 중요하다.",
+    "key_researchers": [
+      {"name_ko": "마샬 폴스타인", "name_en": "Marshal Folstein", "contribution": "MMSE에 지남력 항목을 포함시켜 인지 기능 선별 검사의 표준을 확립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "판단력과 병식", "name_en": "Judgment and Insight", "id": "INTVIEW_JI_012"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "INTVIEW_CI_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지남력 = '나침반' → 시간(Time), 장소(Place), 사람(Person), 상황(Situation) 4가지 방향",
+      "differential": "지남력은 '지금 여기'에 대한 인식이고, 기억력은 과거 정보의 저장과 인출이다. 지남력 장애는 주로 기질성 원인을, 기억력 장애는 더 다양한 원인을 시사한다.",
+      "key_point": "지남력은 시간 → 장소 → 사람 순서로 상실되며(시간이 먼저), 회복 시에는 역순으로 회복된다.",
+      "common_mistake": "지남력 장애를 기능성 정신장애(우울증, 조현병)의 증상으로 오인하는 것 — 지남력 장애는 주로 기질성 원인(섬망, 치매)을 시사한다."
+    }
+  },
+  {
+    "id": "INTVIEW_JI_012",
+    "terminology": "판단력과 병식 (Judgment and Insight)",
+    "terminology_ko": "판단력과 병식",
+    "terminology_en": "Judgment and Insight",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "판단력은 사회적 상황에서 적절한 의사결정을 내릴 수 있는 능력이고, 병식은 자신의 질병이나 문제를 인식하고 치료 필요성을 이해하는 능력으로, 정신상태검사의 마지막 평가 영역이다.",
+    "definition_en": "Judgment is the ability to make appropriate decisions in social situations, and insight is the ability to recognize one's own illness or problems and understand the need for treatment, constituting the final assessment domain of the mental status examination.",
+    "significance": "치료 순응도, 자기관리 능력, 안전성 예측에 중요하며, 병식이 없는 환자는 치료 거부와 조기 종결의 위험이 높다.",
+    "key_researchers": [
+      {"name_ko": "자비에르 아마도르", "name_en": "Xavier Amador", "contribution": "조현병에서의 병식 부재(anosognosia)를 연구하고, LEAP(경청-공감-동의-협력) 접근법을 개발하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "지남력", "name_en": "Orientation", "id": "INTVIEW_ORI_011"},
+      {"name_ko": "동기면접", "name_en": "Motivational Interviewing", "id": "INTVIEW_MI_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "판단력 = '현명한 선택' / 병식 = '자기 문제 인식' → MSE의 마지막 관문",
+      "differential": "판단력은 사회적 의사결정 능력이고, 병식은 자신의 질환에 대한 인식이다. 판단력은 좋으나 병식이 없을 수 있다(예: 조증 상태).",
+      "key_point": "병식의 수준은 완전한 부인 → 부분적 인식 → 지적 인식 → 정서적 병식 → 진정한 병식의 연속선 위에 있다.",
+      "common_mistake": "병식이 없는 환자를 '저항'이나 '부정'으로만 해석하는 오류 — 조현병의 병식 부재는 신경학적 기반(전두엽 손상)이 있을 수 있다."
+    }
+  },
+  {
+    "id": "INTVIEW_INTAKE_013",
+    "terminology": "접수 면접 (Intake Interview)",
+    "terminology_ko": "접수 면접",
+    "terminology_en": "Intake Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자가 기관에 처음 방문했을 때 실시하는 초기 면접으로, 주 호소 문제, 현병력, 과거력, 가족력, 발달력 등 포괄적인 배경 정보를 수집하고 서비스 적합성을 판단하는 절차이다.",
+    "definition_en": "An initial interview conducted when a client first visits a facility, collecting comprehensive background information including chief complaint, present illness history, past history, family history, and developmental history, and determining service appropriateness.",
+    "significance": "사례개념화와 치료 계획 수립의 기초 자료를 제공하며, 내담자와의 첫 만남으로서 치료적 관계의 토대를 마련한다.",
+    "key_researchers": [
+      {"name_ko": "게리 그로스-마나트", "name_en": "Gary Groth-Marnat", "contribution": "심리평가 교과서에서 접수 면접의 체계적 절차와 내용 영역을 정리하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "INTVIEW_CI_001"},
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "INTVIEW_DI_014"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "접수 면접 = '첫 방문' → 포괄적 정보 수집 + 서비스 적합성 판단",
+      "differential": "접수 면접은 포괄적 배경 정보 수집이 주목적이고, 진단적 면접은 특정 진단의 확인이 주목적이며, 위기 면접은 즉각적 안전 확보가 주목적이다.",
+      "key_point": "접수 면접에서 수집하는 5대 영역: 주 호소(chief complaint), 현병력(HPI), 과거력(PMH), 가족력(FHx), 사회력/발달력이다.",
+      "common_mistake": "접수 면접에서 모든 정보를 한 번에 다 수집해야 한다고 생각하는 오류 — 라포 형성과 내담자 편안함이 우선이며, 추후 보충 가능하다."
+    }
+  },
+  {
+    "id": "INTVIEW_DI_014",
+    "terminology": "진단적 면접 (Diagnostic Interview)",
+    "terminology_ko": "진단적 면접",
+    "terminology_en": "Diagnostic Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "DSM-5 또는 ICD-11의 진단 기준에 따라 특정 정신장애의 존재 여부를 체계적으로 평가하고 확인하는 것을 주목적으로 하는 면접으로, 구조화 또는 반구조화 형식으로 진행된다.",
+    "definition_en": "An interview whose primary purpose is to systematically evaluate and confirm the presence of specific mental disorders according to DSM-5 or ICD-11 diagnostic criteria, conducted in structured or semi-structured formats.",
+    "significance": "정확한 진단은 적절한 치료 계획과 예후 판단의 전제 조건이며, 감별 진단을 통해 유사한 증상을 보이는 다른 장애를 배제하는 데 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "SCID를 개발하여 DSM 기반 진단적 면접의 표준 도구를 확립하였다."},
+      {"name_ko": "데이비드 셰이한", "name_en": "David Sheehan", "contribution": "MINI(미니 국제 신경정신과적 면접)를 개발하여 간략하면서도 신뢰도 높은 진단적 면접 도구를 제공하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INTVIEW_SI_002"},
+      {"name_ko": "접수 면접", "name_en": "Intake Interview", "id": "INTVIEW_INTAKE_013"},
+      {"name_ko": "SCID", "name_en": "SCID", "id": "DIAGN_SCID_011"},
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "DIAGN_DI_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "진단적 면접 = 'DSM/ICD 기준 확인' → 증상 유무를 체크리스트처럼 체계적으로 평가",
+      "differential": "진단적 면접은 특정 장애의 진단 확인이 목적이고, 접수 면접은 포괄적 배경 정보 수집이 목적이며, 위기 면접은 즉각적 위험 관리가 목적이다.",
+      "key_point": "SCID-5, MINI, CIDI, K-SADS 등이 대표적인 진단적 면접 도구이며, 감별 진단을 위해 공병(comorbidity)도 반드시 평가해야 한다.",
+      "common_mistake": "진단적 면접만으로 진단이 완성된다고 보는 오류 — 심리검사, 행동관찰, 보호자 면담 등 다원적 평가가 필요하다."
+    }
+  },
+  {
+    "id": "INTVIEW_CRISIS_015",
+    "terminology": "위기 면접 (Crisis Interview)",
+    "terminology_ko": "위기 면접",
+    "terminology_en": "Crisis Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "자살, 자해, 타해, 급성 정신병 삽화 등 긴급한 심리적 위기 상황에서 내담자의 즉각적 안전을 확보하고 위험 수준을 평가하며 적절한 개입을 제공하기 위해 실시하는 면접이다.",
+    "definition_en": "An interview conducted in urgent psychological crisis situations such as suicidal ideation, self-harm, violence toward others, or acute psychotic episodes to ensure the client's immediate safety, assess risk levels, and provide appropriate intervention.",
+    "significance": "생명을 위협하는 위기 상황에서 즉각적인 안전 확보와 적절한 의뢰 결정을 가능하게 하는 임상가의 필수 역량이다.",
+    "key_researchers": [
+      {"name_ko": "에드윈 슈나이드만", "name_en": "Edwin Shneidman", "contribution": "자살학(suicidology)의 창시자로, 심리적 고통(psychache)을 자살의 핵심 개념으로 제안하고 위기 개입 원칙을 정립하였다."},
+      {"name_ko": "마샤 리네한", "name_en": "Marsha Linehan", "contribution": "변증법적 행동치료(DBT)를 통해 자살 행동과 자해의 체계적 평가 및 위기 개입 프로토콜을 개발하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "자살 위험 평가", "name_en": "Suicide Risk Assessment", "id": "INTVIEW_SRA_016"},
+      {"name_ko": "임상면접", "name_en": "Clinical Interview", "id": "INTVIEW_CI_001"},
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "INTVIEW_CONF_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "위기 면접 = '응급실' → 안전 확보 최우선 → 위험 평가 → 즉각 개입",
+      "differential": "위기 면접은 즉각적 안전 확보가 최우선 목표이고, 접수 면접은 포괄적 정보 수집이, 진단적 면접은 진단 확인이 주목적이다.",
+      "key_point": "위기 면접의 3단계: (1) 안전 확보 및 안정화, (2) 위험 수준 평가(자살 계획의 구체성, 수단 접근성, 보호요인), (3) 안전 계획 수립 및 자원 연결이다.",
+      "common_mistake": "위기 면접에서 자살에 대해 직접 질문하면 자살을 유발한다는 속설 — 연구에 따르면 직접적 질문이 오히려 안전하고 효과적이다."
+    }
+  },
+  {
+    "id": "INTVIEW_SRA_016",
+    "terminology": "자살 위험 평가 (Suicide Risk Assessment)",
+    "terminology_ko": "자살 위험 평가",
+    "terminology_en": "Suicide Risk Assessment",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "자살 사고, 계획, 의도, 수단 접근성, 과거 시도력, 위험 요인과 보호 요인을 체계적으로 평가하여 내담자의 자살 위험 수준을 판단하고 적절한 개입 수준을 결정하는 과정이다.",
+    "definition_en": "A systematic process of evaluating suicidal ideation, plan, intent, access to means, history of attempts, risk factors and protective factors to determine the client's suicide risk level and decide the appropriate level of intervention.",
+    "significance": "모든 임상가의 법적·윤리적 의무이며, 체계적 평가 없이는 적절한 안전 조치를 취할 수 없어 내담자의 생명에 직접적 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "에드윈 슈나이드만", "name_en": "Edwin Shneidman", "contribution": "자살의 10가지 공통 특성을 정리하고, 심리적 부검(psychological autopsy)을 개발하여 자살 연구의 기틀을 마련하였다."},
+      {"name_ko": "아론 벡", "name_en": "Aaron Beck", "contribution": "자살사고척도(SSI)와 절망감 척도(BHS)를 개발하여 자살 위험의 표준화된 평가를 가능하게 하였다."},
+      {"name_ko": "토마스 조이너", "name_en": "Thomas Joiner", "contribution": "대인관계 자살 이론에서 좌절된 소속감, 인식된 짐스러움, 습득된 자살 능력을 자살의 세 요인으로 제시하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "위기 면접", "name_en": "Crisis Interview", "id": "INTVIEW_CRISIS_015"},
+      {"name_ko": "사고내용", "name_en": "Thought Content", "id": "INTVIEW_TC_009"},
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "INTVIEW_CONF_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자살 위험 평가 = IS PATH WARM (Ideation, Substance abuse, Purposelessness, Anxiety, Trapped, Hopelessness, Withdrawal, Anger, Recklessness, Mood change)",
+      "differential": "자살 위험 평가는 자살 가능성을 평가하는 임상 과정이고, 자살사고척도(SSI)는 이를 위한 표준화된 측정 도구이다.",
+      "key_point": "자살 계획의 구체성, 수단 접근성, 과거 시도력이 가장 강력한 위험 요인이며, 보호 요인(사회적 지지, 삶의 이유)도 반드시 함께 평가해야 한다.",
+      "common_mistake": "'자살 안 하겠다'는 구두 약속(no-suicide contract)만으로 안전하다고 판단하는 오류 — 안전 계획(safety plan)이 더 효과적이고 권장된다."
+    }
+  },
+  {
+    "id": "INTVIEW_MI_017",
+    "terminology": "동기면접 (Motivational Interviewing)",
+    "terminology_ko": "동기면접",
+    "terminology_en": "Motivational Interviewing",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자의 변화에 대한 양가감정을 탐색하고 해소하여 내적 변화 동기를 강화하는 내담자 중심적이면서 지시적인 상담 기법으로, OARS(개방형 질문, 인정, 반영, 요약) 기술을 핵심으로 한다.",
+    "definition_en": "A client-centered yet directive counseling technique that explores and resolves ambivalence about change to strengthen intrinsic motivation for change, with OARS (Open questions, Affirmations, Reflections, Summaries) as core skills.",
+    "significance": "물질사용장애, 건강행동 변화, 치료 순응도 향상 등 다양한 영역에서 효과가 입증된 근거기반 접근법이다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 밀러", "name_en": "William Miller", "contribution": "동기면접을 최초로 개발하고 이론적 기초를 수립하였다."},
+      {"name_ko": "스티븐 롤닉", "name_en": "Stephen Rollnick", "contribution": "밀러와 함께 동기면접의 체계적 매뉴얼을 공동 저술하고 의료 장면으로 적용을 확장하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "개방형 질문", "name_en": "Open-Ended Questions", "id": "INTVIEW_OQ_018"},
+      {"name_ko": "반영", "name_en": "Reflection", "id": "INTVIEW_REF_020"},
+      {"name_ko": "요약", "name_en": "Summarization", "id": "INTVIEW_SUM_021"},
+      {"name_ko": "공감적 경청", "name_en": "Empathic Listening", "id": "INTVIEW_EL_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MI의 정신(Spirit) = 협동(Partnership), 수용(Acceptance), 유발(Evocation), 연민(Compassion) / 기술 = OARS",
+      "differential": "동기면접은 변화 동기 강화가 주목적이고, 인지행동치료는 인지 재구조화와 행동 변화가 주목적이다. MI는 '왜 변화해야 하는가'에, CBT는 '어떻게 변화할 것인가'에 초점을 맞춘다.",
+      "key_point": "동기면접의 4가지 과정: 관계 맺기(Engaging) → 초점 맞추기(Focusing) → 유발하기(Evoking) → 계획하기(Planning)이다.",
+      "common_mistake": "동기면접을 단순한 '동기 부여'나 '설득'으로 오해하는 것 — MI는 내담자 스스로 변화 이유를 발견하도록 유도하는 것이지, 외부에서 동기를 주입하는 것이 아니다."
+    }
+  },
+  {
+    "id": "INTVIEW_OQ_018",
+    "terminology": "개방형 질문 (Open-Ended Questions)",
+    "terminology_ko": "개방형 질문",
+    "terminology_en": "Open-Ended Questions",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "예/아니오 등 단답으로 답할 수 없는 질문으로, 내담자가 자신의 경험, 생각, 감정을 자유롭게 상세히 표현할 수 있도록 유도하는 면접 기법이다.",
+    "definition_en": "Questions that cannot be answered with simple yes/no responses, encouraging the client to freely and elaborately express their experiences, thoughts, and feelings as an interview technique.",
+    "significance": "면접 초기 라포 형성과 내담자의 주관적 경험 탐색에 필수적이며, 풍부하고 깊이 있는 임상 정보를 수집하는 데 효과적이다.",
+    "key_researchers": [
+      {"name_ko": "윌리엄 밀러", "name_en": "William Miller", "contribution": "동기면접에서 개방형 질문을 OARS 핵심 기술의 첫 번째 요소로 체계화하였다."},
+      {"name_ko": "앨런 아이비", "name_en": "Allen Ivey", "contribution": "마이크로상담(microcounseling) 모델에서 개방형 질문을 기본 상담 기술로 정립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "폐쇄형 질문", "name_en": "Closed-Ended Questions", "id": "INTVIEW_CQ_019"},
+      {"name_ko": "동기면접", "name_en": "Motivational Interviewing", "id": "INTVIEW_MI_017"},
+      {"name_ko": "반영", "name_en": "Reflection", "id": "INTVIEW_REF_020"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "개방형 = '문을 활짝 열기' → '어떻게', '무엇을', '어떤'으로 시작하는 질문",
+      "differential": "개방형 질문은 '어떻게 느끼셨나요?'처럼 자유로운 답변을 유도하고, 폐쇄형 질문은 '우울하셨나요?'처럼 예/아니오 답변을 요구한다.",
+      "key_point": "'왜(why)' 질문은 개방형이지만 내담자에게 방어적 반응을 유발할 수 있으므로, '어떻게(how)' 또는 '무엇(what)'으로 대체하는 것이 효과적이다.",
+      "common_mistake": "'왜' 질문을 무조건 좋은 개방형 질문으로 여기는 오류 — '왜 그랬어요?'는 비난으로 들릴 수 있어 신중하게 사용해야 한다."
+    }
+  },
+  {
+    "id": "INTVIEW_CQ_019",
+    "terminology": "폐쇄형 질문 (Closed-Ended Questions)",
+    "terminology_ko": "폐쇄형 질문",
+    "terminology_en": "Closed-Ended Questions",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "예/아니오 또는 특정 사실(날짜, 빈도, 기간 등)을 확인하는 간결한 답변을 요구하는 질문 형식으로, 구체적인 정보를 효율적으로 수집하거나 진단 기준의 충족 여부를 확인할 때 사용된다.",
+    "definition_en": "A question format requiring brief responses such as yes/no or specific facts (dates, frequency, duration), used to efficiently collect specific information or confirm whether diagnostic criteria are met.",
+    "significance": "진단적 면접에서 증상의 유무, 빈도, 기간 등을 정확히 확인하는 데 효율적이나, 과다 사용 시 면접이 심문처럼 느껴질 수 있다.",
+    "key_researchers": [
+      {"name_ko": "앨런 아이비", "name_en": "Allen Ivey", "contribution": "마이크로상담 모델에서 개방형과 폐쇄형 질문의 전략적 사용법을 체계화하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "개방형 질문", "name_en": "Open-Ended Questions", "id": "INTVIEW_OQ_018"},
+      {"name_ko": "진단적 면접", "name_en": "Diagnostic Interview", "id": "INTVIEW_DI_014"},
+      {"name_ko": "구조화 면접", "name_en": "Structured Interview", "id": "INTVIEW_SI_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "폐쇄형 = '문을 닫기' → 예/아니오, 숫자, 날짜 등 확인형 질문",
+      "differential": "폐쇄형 질문은 구체적 사실 확인에 효과적이고, 개방형 질문은 주관적 경험 탐색에 효과적이다. 좋은 면접은 둘을 적절히 혼합한다.",
+      "key_point": "면접 초기에는 개방형 질문으로 시작하고, 특정 영역의 세부사항을 확인할 때 폐쇄형 질문을 사용하는 '깔때기 기법(funnel technique)'이 효과적이다.",
+      "common_mistake": "면접 전체를 폐쇄형 질문으로만 진행하는 오류 — 내담자의 자발적 보고를 억제하고 면접을 심문처럼 만든다."
+    }
+  },
+  {
+    "id": "INTVIEW_REF_020",
+    "terminology": "반영 (Reflection)",
+    "terminology_ko": "반영",
+    "terminology_en": "Reflection",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자가 표현한 내용이나 감정의 핵심을 면접자가 자신의 말로 되풀어 전달하는 기법으로, 단순 반영(내용 반복)과 복합 반영(의미나 감정 추론)으로 구분되며, 내담자의 자기 탐색을 촉진한다.",
+    "definition_en": "A technique in which the interviewer restates the essence of the client's expressed content or emotions in their own words, divided into simple reflection (repeating content) and complex reflection (inferring meaning or feelings), facilitating client self-exploration.",
+    "significance": "내담자에게 경청받고 이해받는 느낌을 주어 라포를 강화하고, 내담자가 자신의 경험을 더 깊이 탐색하도록 촉진한다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "반영을 인간중심 상담의 핵심 기법으로 확립하고, 감정 반영의 치료적 가치를 강조하였다."},
+      {"name_ko": "윌리엄 밀러", "name_en": "William Miller", "contribution": "동기면접에서 반영을 OARS의 핵심 기술로 체계화하고, 단순·복합 반영의 구분을 명확히 하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공감적 경청", "name_en": "Empathic Listening", "id": "INTVIEW_EL_023"},
+      {"name_ko": "명료화", "name_en": "Clarification", "id": "INTVIEW_CLAR_022"},
+      {"name_ko": "요약", "name_en": "Summarization", "id": "INTVIEW_SUM_021"},
+      {"name_ko": "동기면접", "name_en": "Motivational Interviewing", "id": "INTVIEW_MI_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반영 = '거울' → 내담자의 말과 감정을 비추어 돌려줌 (단순 = 내용, 복합 = 의미+감정)",
+      "differential": "반영은 내담자의 말을 되풀이하거나 의미를 추론하여 돌려주는 것이고, 해석은 내담자가 인식하지 못한 무의식적 의미를 제시하는 것이다.",
+      "key_point": "동기면접에서는 복합 반영(감정·의미 반영)의 비율이 단순 반영보다 높을수록 숙련된 면접으로 평가되며, 2:1 이상을 권장한다.",
+      "common_mistake": "반영을 단순히 내담자의 말을 '앵무새처럼 반복'하는 것으로 오해하는 오류 — 핵심 의미를 포착하여 재진술하는 것이 반영이다."
+    }
+  },
+  {
+    "id": "INTVIEW_SUM_021",
+    "terminology": "요약 (Summarization)",
+    "terminology_ko": "요약",
+    "terminology_en": "Summarization",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "면접 중 내담자가 보고한 여러 정보, 주제, 감정을 면접자가 통합적으로 정리하여 전달하는 기법으로, 면접의 흐름을 구조화하고 내담자의 경험을 조망할 수 있게 한다.",
+    "definition_en": "A technique in which the interviewer integrates and organizes multiple pieces of information, themes, and emotions reported by the client during the interview, structuring the flow of the interview and helping the client gain perspective on their experiences.",
+    "significance": "면접 내용의 일관성을 확인하고 누락된 정보를 보충하며, 면접의 전환점이나 마무리에서 내담자와 공유된 이해를 확인하는 데 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 아이비", "name_en": "Allen Ivey", "contribution": "마이크로상담 모델에서 요약을 면접의 통합적 기술로 체계화하였다."},
+      {"name_ko": "윌리엄 밀러", "name_en": "William Miller", "contribution": "동기면접에서 요약을 OARS의 네 번째 핵심 기술로 정의하고, 수집적·연결적·전환적 요약을 구분하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반영", "name_en": "Reflection", "id": "INTVIEW_REF_020"},
+      {"name_ko": "명료화", "name_en": "Clarification", "id": "INTVIEW_CLAR_022"},
+      {"name_ko": "동기면접", "name_en": "Motivational Interviewing", "id": "INTVIEW_MI_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "요약 = '큰 그림 그리기' → 여러 반영을 모아 하나로 통합 정리",
+      "differential": "요약은 여러 주제나 감정을 통합적으로 정리하는 것이고, 반영은 내담자의 개별 발언에 대해 핵심을 돌려주는 것이다. 반영은 '미시적', 요약은 '거시적'이다.",
+      "key_point": "동기면접에서 3가지 요약: 수집적 요약(모으기), 연결적 요약(이전 내용과 연결), 전환적 요약(주제 전환 시)이다.",
+      "common_mistake": "요약을 면접 마지막에만 사용하는 오류 — 주제 전환 시, 양가감정 정리 시 등 면접 중간에도 전략적으로 활용해야 한다."
+    }
+  },
+  {
+    "id": "INTVIEW_CLAR_022",
+    "terminology": "명료화 (Clarification)",
+    "terminology_ko": "명료화",
+    "terminology_en": "Clarification",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자의 모호하거나 불분명한 진술에 대해 면접자가 정확한 의미를 확인하고 구체화하기 위해 추가 질문이나 재진술을 하는 기법으로, 상호 간의 오해를 방지하고 정확한 이해를 촉진한다.",
+    "definition_en": "A technique in which the interviewer asks follow-up questions or restates ambiguous or unclear client statements to confirm and specify their exact meaning, preventing mutual misunderstanding and promoting accurate understanding.",
+    "significance": "면접에서 수집하는 정보의 정확성과 신뢰성을 높이며, 내담자에게 자신의 경험을 더 명확하게 표현할 기회를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "앨런 아이비", "name_en": "Allen Ivey", "contribution": "마이크로상담에서 명료화를 기본 상담 기술 중 하나로 체계화하였다."},
+      {"name_ko": "클라라 힐", "name_en": "Clara Hill", "contribution": "탐색-통찰-실행 모델에서 명료화를 탐색 단계의 핵심 기술로 정의하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반영", "name_en": "Reflection", "id": "INTVIEW_REF_020"},
+      {"name_ko": "개방형 질문", "name_en": "Open-Ended Questions", "id": "INTVIEW_OQ_018"},
+      {"name_ko": "요약", "name_en": "Summarization", "id": "INTVIEW_SUM_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "명료화 = '안개 걷기' → 모호한 말을 선명하게 → '그것이 정확히 무엇을 의미하나요?'",
+      "differential": "명료화는 내담자의 모호한 진술을 구체화하는 것이고, 해석은 내담자가 인식하지 못한 의미를 제시하는 것이다. 명료화는 확인, 해석은 새로운 관점 제공이다.",
+      "key_point": "명료화는 '제가 이해한 것이 맞는지 확인하고 싶은데요...'와 같은 겸손한 자세로 접근해야 면접 관계를 보호할 수 있다.",
+      "common_mistake": "명료화를 반복적으로 사용하면 내담자가 심문당하는 느낌을 받을 수 있으므로, 적절한 타이밍과 빈도가 중요하다."
+    }
+  },
+  {
+    "id": "INTVIEW_EL_023",
+    "terminology": "공감적 경청 (Empathic Listening)",
+    "terminology_ko": "공감적 경청",
+    "terminology_en": "Empathic Listening",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "내담자의 관점에서 그들의 경험, 감정, 의미를 이해하려고 적극적으로 노력하면서 듣는 태도와 기술로, 판단 없이 내담자의 내적 세계에 깊이 몰입하는 경청 방식이다.",
+    "definition_en": "An attitude and skill of actively striving to understand the client's experiences, feelings, and meanings from their perspective, deeply immersing in the client's inner world without judgment.",
+    "significance": "로저스가 강조한 치료적 변화의 핵심 조건으로, 내담자의 자기탐색과 자기수용을 촉진하며 모든 상담 접근에서 기본 역량으로 인정된다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "공감적 이해를 치료적 변화의 필요충분 조건 중 하나로 제시하고, 정확한 공감적 경청의 원리를 정립하였다."},
+      {"name_ko": "로버트 카크허프", "name_en": "Robert Carkhuff", "contribution": "공감의 5단계 수준을 체계화하여 공감적 경청의 훈련과 평가를 가능하게 하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반영", "name_en": "Reflection", "id": "INTVIEW_REF_020"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"},
+      {"name_ko": "공감적 이해", "name_en": "Empathic Understanding", "id": "PHENOM_EMP_002"},
+      {"name_ko": "치료적 동맹", "name_en": "Therapeutic Alliance", "id": "INTVIEW_TA_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공감적 경청 = '내담자의 신발 신기' → 판단 보류 + 내적 세계 몰입 + 정확한 이해 전달",
+      "differential": "공감적 경청은 내담자의 주관적 경험을 이해하려는 것이고, 동감(sympathy)은 내담자의 감정에 함께 빠지는 것이다. 공감은 전문적 이해, 동감은 정서적 동일시이다.",
+      "key_point": "공감적 경청은 단순히 '듣는 것'이 아니라, 이해한 바를 정확히 전달(반영)하여 내담자가 이해받았음을 확인하는 과정까지 포함한다.",
+      "common_mistake": "공감을 동의(agreement)와 혼동하는 오류 — 공감은 내담자의 경험을 이해하는 것이지, 그 행동이나 생각에 동의하는 것이 아니다."
+    }
+  },
+  {
+    "id": "INTVIEW_SIL_024",
+    "terminology": "침묵의 사용 (Use of Silence)",
+    "terminology_ko": "침묵의 사용",
+    "terminology_en": "Use of Silence",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "면접 중 의도적으로 말을 멈추고 기다리는 기법으로, 내담자에게 생각을 정리하고 감정을 처리하며 자기 탐색을 깊이 할 수 있는 시간과 공간을 제공하는 치료적 도구이다.",
+    "definition_en": "A technique of intentionally pausing and waiting during the interview, serving as a therapeutic tool that provides the client with time and space to organize thoughts, process emotions, and deepen self-exploration.",
+    "significance": "면접자의 불안으로 침묵을 채우려는 충동을 억제하고 전략적으로 활용할 때, 내담자의 깊은 자기개방과 통찰을 촉진하는 강력한 기법이다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심 접근에서 침묵을 내담자의 자기탐색을 존중하는 비지시적 태도의 표현으로 강조하였다."},
+      {"name_ko": "해리 스택 설리번", "name_en": "Harry Stack Sullivan", "contribution": "정신과적 면접에서 침묵의 다양한 의미(저항, 성찰, 불안)를 분석하고 대응 전략을 제시하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공감적 경청", "name_en": "Empathic Listening", "id": "INTVIEW_EL_023"},
+      {"name_ko": "비언어적 의사소통", "name_en": "Nonverbal Communication", "id": "INTVIEW_NVC_025"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "침묵 = '여백의 미' → 말 없는 시간도 치료적 도구 → 생각 정리, 감정 처리, 깊은 탐색",
+      "differential": "치료적 침묵은 의도적이고 수용적인 분위기에서 제공되며, 저항으로서의 침묵은 내담자가 회피나 방어 목적으로 말을 멈추는 것이다.",
+      "key_point": "침묵의 4가지 유형: (1) 사고적 침묵(생각 정리), (2) 정서적 침묵(감정 처리), (3) 저항적 침묵(회피), (4) 연결적 침묵(비언어적 교감)이다.",
+      "common_mistake": "모든 침묵을 불편하게 여겨 즉시 말로 채우려는 초보 면접자의 경향 — 침묵의 의미를 파악하고 전략적으로 기다릴 줄 아는 것이 숙련의 지표이다."
+    }
+  },
+  {
+    "id": "INTVIEW_NVC_025",
+    "terminology": "비언어적 의사소통 (Nonverbal Communication)",
+    "terminology_ko": "비언어적 의사소통",
+    "terminology_en": "Nonverbal Communication",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "언어 이외의 수단으로 전달되는 모든 의사소통으로, 표정, 눈맞춤, 자세, 제스처, 음성 톤, 대인 거리 등을 포함하며, 면접에서 언어적 내용의 진위와 감정 상태를 파악하는 데 중요한 정보를 제공한다.",
+    "definition_en": "All communication conveyed through means other than language, including facial expressions, eye contact, posture, gestures, voice tone, and interpersonal distance, providing important information for assessing the authenticity of verbal content and emotional states in interviews.",
+    "significance": "연구에 따르면 의사소통의 60~70%가 비언어적 채널을 통해 이루어지며, 언어적 보고와 비언어적 행동의 불일치는 핵심적인 임상 단서이다.",
+    "key_researchers": [
+      {"name_ko": "앨버트 메라비언", "name_en": "Albert Mehrabian", "contribution": "의사소통에서 비언어적 요소의 상대적 중요성을 연구하여 7-38-55 법칙을 제시하였다."},
+      {"name_ko": "폴 에크먼", "name_en": "Paul Ekman", "contribution": "얼굴표정 분석 시스템(FACS)을 개발하고, 미세표정(microexpressions)을 통한 정서 판별 연구를 수행하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "외모와 행동 관찰", "name_en": "Appearance and Behavior", "id": "INTVIEW_AB_007"},
+      {"name_ko": "행동 관찰", "name_en": "Behavioral Observation", "id": "INTVIEW_BO_030"},
+      {"name_ko": "침묵의 사용", "name_en": "Use of Silence", "id": "INTVIEW_SIL_024"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비언어적 = SOLER (Squarely face, Open posture, Lean forward, Eye contact, Relaxed) — Egan의 관심 자세",
+      "differential": "비언어적 의사소통은 무의식적이고 통제하기 어려워 진정한 감정 상태를 반영하는 반면, 언어적 의사소통은 의식적으로 편집될 수 있다.",
+      "key_point": "면접자의 SOLER 자세(정면 응시, 개방적 자세, 약간 기울임, 눈맞춤, 이완)는 관심과 경청을 비언어적으로 전달하는 기본 태도이다.",
+      "common_mistake": "비언어적 단서를 단일 행동으로 해석하는 오류(예: 팔짱 = 방어) — 비언어적 행동은 맥락 속에서 패턴으로 해석해야 한다."
+    }
+  },
+  {
+    "id": "INTVIEW_CS_026",
+    "terminology": "문화적 감수성 (Cultural Sensitivity in Interview)",
+    "terminology_ko": "문화적 감수성",
+    "terminology_en": "Cultural Sensitivity in Interview",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "면접에서 내담자의 문화적 배경(인종, 민족, 종교, 성별, 성적 지향, 사회경제적 지위 등)이 증상 표현, 도움 추구 행동, 면접 반응에 미치는 영향을 인식하고 적절히 대응하는 역량이다.",
+    "definition_en": "The competency to recognize and appropriately respond to how the client's cultural background (race, ethnicity, religion, gender, sexual orientation, socioeconomic status) influences symptom expression, help-seeking behavior, and interview responses.",
+    "significance": "다문화 사회에서 문화적 감수성 없이는 오진, 과잉진단, 부적절한 치료 계획의 위험이 있으며, 윤리적 실천의 필수 요소이다.",
+    "key_researchers": [
+      {"name_ko": "데럴드 윙 수", "name_en": "Derald Wing Sue", "contribution": "다문화 상담 역량 모델을 개발하고, 미세공격(microaggression) 개념을 체계화하여 문화적 감수성 훈련의 기틀을 마련하였다."},
+      {"name_ko": "스탠리 수", "name_en": "Stanley Sue", "contribution": "문화적으로 반응적인 심리 서비스의 필요성을 주장하고, 소수 민족의 정신건강 서비스 이용 격차를 연구하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공감적 경청", "name_en": "Empathic Listening", "id": "INTVIEW_EL_023"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"},
+      {"name_ko": "고지된 동의", "name_en": "Informed Consent", "id": "INTVIEW_IC_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문화적 감수성 = '문화적 렌즈 착용' → 내담자의 문화가 증상, 행동, 소통에 미치는 영향 고려",
+      "differential": "문화적 감수성은 문화 차이를 인식하고 존중하는 태도이고, 문화적 역량은 이를 실제 임상 실천에 적용하는 구체적 기술과 지식까지 포함하는 더 넓은 개념이다.",
+      "key_point": "문화 결합 증후군(culture-bound syndrome)의 존재를 인식하고, 증상의 문화적 표현 양식(idiom of distress)을 이해하는 것이 중요하다.",
+      "common_mistake": "문화적 감수성을 '색맹 접근(color-blind approach)'이나 '모든 문화를 아는 것'으로 오해 — 핵심은 자신의 편견 인식과 겸손한 탐색 태도이다."
+    }
+  },
+  {
+    "id": "INTVIEW_IC_027",
+    "terminology": "고지된 동의 (Informed Consent)",
+    "terminology_ko": "고지된 동의",
+    "terminology_en": "Informed Consent",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "면접이나 치료를 시작하기 전에 내담자에게 서비스의 목적, 절차, 위험과 이점, 비밀보장의 한계, 대안 등을 충분히 설명하고 자발적 동의를 얻는 윤리적·법적 과정이다.",
+    "definition_en": "An ethical and legal process of fully explaining the purpose, procedures, risks and benefits, limits of confidentiality, and alternatives of service to the client before beginning the interview or treatment, and obtaining their voluntary consent.",
+    "significance": "내담자의 자율성과 자기결정권을 보장하는 핵심 윤리 원칙이며, 법적 분쟁을 예방하고 치료적 관계의 투명성을 확보하는 기초이다.",
+    "key_researchers": [
+      {"name_ko": "톰 비처", "name_en": "Tom Beauchamp", "contribution": "생명의료윤리의 4원칙(자율성 존중, 선행, 악행금지, 정의) 중 자율성 존중을 고지된 동의의 이론적 기초로 정립하였다."},
+      {"name_ko": "제임스 차일드리스", "name_en": "James Childress", "contribution": "비처와 함께 고지된 동의의 윤리적 기반을 체계화한 생명의료윤리의 원칙론을 공동 저술하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "비밀보장", "name_en": "Confidentiality", "id": "INTVIEW_CONF_028"},
+      {"name_ko": "고지된 동의", "name_en": "Informed Consent", "id": "ETHICS_IC_001"},
+      {"name_ko": "치료적 동맹", "name_en": "Therapeutic Alliance", "id": "INTVIEW_TA_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "고지된 동의 = '알고 동의하기' → 정보 제공(고지) + 자발적 선택(동의) = 자율성 존중",
+      "differential": "고지된 동의는 서비스 시작 전 전반적 동의 절차이고, 비밀보장은 치료 중 수집된 정보 보호에 대한 약속이다. 고지된 동의 시 비밀보장의 한계도 설명해야 한다.",
+      "key_point": "고지된 동의의 3요소: (1) 충분한 정보 제공, (2) 이해 능력(역량), (3) 자발성(강제 없음)이며, 세 가지 모두 충족되어야 유효하다.",
+      "common_mistake": "동의서에 서명만 받으면 고지된 동의가 완료되었다고 보는 오류 — 내담자가 실제로 이해했는지 확인하고, 질문할 기회를 제공해야 한다."
+    }
+  },
+  {
+    "id": "INTVIEW_CONF_028",
+    "terminology": "비밀보장 (Confidentiality)",
+    "terminology_ko": "비밀보장",
+    "terminology_en": "Confidentiality",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "임상면접에서 내담자가 보고한 개인 정보와 치료 내용을 내담자의 동의 없이 제3자에게 공개하지 않는 윤리적·법적 의무로, 내담자의 프라이버시를 보호하고 면접에서의 솔직한 보고를 촉진한다.",
+    "definition_en": "An ethical and legal obligation not to disclose personal information and treatment content reported by the client during clinical interviews to third parties without the client's consent, protecting client privacy and facilitating honest reporting in interviews.",
+    "significance": "비밀보장은 치료적 신뢰 관계의 근간이며, 내담자가 민감한 정보를 안전하게 공유할 수 있는 기본 조건이다.",
+    "key_researchers": [
+      {"name_ko": "새뮤얼 워런", "name_en": "Samuel Warren", "contribution": "프라이버시 권리의 법적 기초를 확립한 논문을 발표하여 비밀보장의 법적 토대를 마련하였다."},
+      {"name_ko": "타라소프 사건 판사", "name_en": "Tarasoff Case Judges", "contribution": "타라소프 판결(1976)을 통해 위험한 내담자에 대한 치료자의 경고 의무를 확립하여 비밀보장의 한계를 법적으로 규정하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "고지된 동의", "name_en": "Informed Consent", "id": "INTVIEW_IC_027"},
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"},
+      {"name_ko": "위기 면접", "name_en": "Crisis Interview", "id": "INTVIEW_CRISIS_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비밀보장 = '금고 속 정보' → 원칙적으로 내담자 동의 없이 공개 불가, 단 예외 상황 존재",
+      "differential": "비밀보장(confidentiality)은 전문 관계 내에서 공유된 정보를 보호하는 윤리 원칙이고, 특권 소통(privileged communication)은 법정에서 정보 공개를 거부할 수 있는 법적 권리이다.",
+      "key_point": "비밀보장의 주요 예외: (1) 자살·타해 위험(타라소프 의무), (2) 아동·노인·장애인 학대 의심, (3) 법원 명령, (4) 내담자의 서면 동의이다.",
+      "common_mistake": "비밀보장이 절대적이라고 내담자에게 약속하는 오류 — 면접 초기에 비밀보장의 '한계'를 명확히 고지해야 한다."
+    }
+  },
+  {
+    "id": "INTVIEW_TA_029",
+    "terminology": "치료적 동맹 (Therapeutic Alliance)",
+    "terminology_ko": "치료적 동맹",
+    "terminology_en": "Therapeutic Alliance",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "치료자와 내담자 사이에 형성되는 협력적 관계로, 치료 목표에 대한 합의, 치료 과제에 대한 합의, 정서적 유대의 세 요소로 구성되며, 치료 결과를 예측하는 가장 강력한 공통 요인이다.",
+    "definition_en": "A collaborative relationship formed between therapist and client, consisting of agreement on therapeutic goals, agreement on therapeutic tasks, and emotional bond, serving as the most powerful common factor predicting treatment outcomes.",
+    "significance": "메타분석 연구에서 치료적 동맹은 치료 이론이나 기법과 무관하게 치료 결과 분산의 약 5~8%를 설명하는 가장 일관된 예측 변인이다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 보딘", "name_en": "Edward Bordin", "contribution": "범이론적 작업동맹 모델을 제안하여 치료적 동맹을 목표, 과제, 유대의 3요소로 개념화하였다."},
+      {"name_ko": "아담 호르바스", "name_en": "Adam Horvath", "contribution": "작업동맹 척도(WAI)를 개발하고, 치료적 동맹과 치료 결과 간 관계의 메타분석을 수행하였다."},
+      {"name_ko": "브루스 왐폴드", "name_en": "Bruce Wampold", "contribution": "공통 요인 모델을 통해 치료적 동맹이 치료 결과의 가장 강력한 예측 변인임을 입증하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "라포", "name_en": "Rapport", "id": "INTVIEW_RAP_005"},
+      {"name_ko": "작업동맹", "name_en": "Working Alliance", "id": "PSYCHOD_WK_005"},
+      {"name_ko": "공감적 경청", "name_en": "Empathic Listening", "id": "INTVIEW_EL_023"},
+      {"name_ko": "전이", "name_en": "Transference", "id": "PSYCHOD_TR_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "치료적 동맹 = 보딘의 3요소: 목표(Goal) 합의 + 과제(Task) 합의 + 정서적 유대(Bond)",
+      "differential": "치료적 동맹은 목표·과제 합의와 정서적 유대를 포함하는 포괄적 개념이고, 라포는 주로 정서적 신뢰와 편안함에 초점을 맞춘 기초적 관계이다.",
+      "key_point": "치료적 동맹의 파열과 복구(rupture-repair)가 치료적 변화의 중요한 기회가 되며, 동맹의 질은 치료 초기(3~5회기)에 평가하는 것이 중요하다.",
+      "common_mistake": "치료적 동맹을 '좋은 관계'나 '호감'으로만 이해하는 오류 — 목표와 과제에 대한 적극적 합의가 핵심이며, 때로는 건설적 대면도 포함된다."
+    }
+  },
+  {
+    "id": "INTVIEW_BO_030",
+    "terminology": "행동 관찰 (Behavioral Observation)",
+    "terminology_ko": "행동 관찰",
+    "terminology_en": "Behavioral Observation",
+    "category": "INTVIEW",
+    "category_name": "임상면접 (Clinical Interview)",
+    "definition": "면접 과정에서 내담자의 언어적·비언어적 행동(자세, 운동 활동, 정서 표현, 대인관계 패턴, 협조 수준 등)을 체계적으로 관찰하고 기록하여 자기보고 정보를 보완하는 평가 방법이다.",
+    "definition_en": "An assessment method that systematically observes and records the client's verbal and nonverbal behaviors (posture, motor activity, emotional expression, interpersonal patterns, cooperation level) during the interview to supplement self-report information.",
+    "significance": "자기보고만으로는 파악하기 어려운 정보를 제공하며, 언어적 보고와 관찰된 행동 간의 불일치는 중요한 진단적 단서가 된다.",
+    "key_researchers": [
+      {"name_ko": "B. F. 스키너", "name_en": "B. F. Skinner", "contribution": "행동주의 관점에서 관찰 가능한 행동에 초점을 맞추는 행동 평가의 이론적 기초를 확립하였다."},
+      {"name_ko": "골드프리드", "name_en": "Marvin Goldfried", "contribution": "행동 평가에서 체계적 행동 관찰의 방법론과 분류 체계를 정립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "외모와 행동 관찰", "name_en": "Appearance and Behavior", "id": "INTVIEW_AB_007"},
+      {"name_ko": "비언어적 의사소통", "name_en": "Nonverbal Communication", "id": "INTVIEW_NVC_025"},
+      {"name_ko": "정신상태검사", "name_en": "Mental Status Examination", "id": "INTVIEW_MSE_006"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동 관찰 = '보는 것이 믿는 것' → 내담자의 말(자기보고) + 행동(관찰) = 완전한 그림",
+      "differential": "행동 관찰은 면접 중 자연스럽게 나타나는 행동을 관찰하는 것이고, 행동 검사(behavioral test)는 특정 상황을 인위적으로 설정하여 행동을 유발·관찰하는 것이다.",
+      "key_point": "관찰자 편향(기대 효과, 확인 편향)을 최소화하기 위해 구조화된 관찰 체계와 행동 목록을 사용하고, 가능하면 다수의 관찰자를 활용해야 한다.",
+      "common_mistake": "행동 관찰을 주관적 인상 형성과 혼동하는 오류 — 전문적 행동 관찰은 조작적으로 정의된 행동을 체계적으로 기록하는 과정이다."
+    }
+  }
+]

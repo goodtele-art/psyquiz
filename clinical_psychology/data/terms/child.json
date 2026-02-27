@@ -1,0 +1,952 @@
+[
+  {
+    "id": "CHILD_CCP_001",
+    "terminology": "아동임상심리학 (Child Clinical Psychology)",
+    "terminology_ko": "아동임상심리학",
+    "terminology_en": "Child Clinical Psychology",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "아동과 청소년의 정서적, 행동적, 발달적 문제를 과학적으로 평가하고 치료하는 임상심리학의 하위 전문 분야로, 발달적 맥락을 고려한 개입을 강조한다.",
+    "definition_en": "A subspecialty of clinical psychology focused on the scientific assessment and treatment of emotional, behavioral, and developmental problems in children and adolescents, emphasizing interventions within a developmental context.",
+    "significance": "성인 중심 모델과 달리 발달 단계, 가족 체계, 학교 환경을 통합적으로 고려하며, 조기 개입을 통해 장기적 예후를 개선하는 데 핵심 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "앨런 카즈딘", "name_en": "Alan Kazdin", "contribution": "아동 심리치료 효과 연구 및 근거기반 치료 체계화에 기여"},
+      {"name_ko": "토마스 올렌딕", "name_en": "Thomas Ollendick", "contribution": "아동 불안장애의 근거기반 치료 연구에 선구적 역할"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달정신병리학", "name_en": "Developmental Psychopathology", "id": "CHILD_DP_002"},
+      {"name_ko": "놀이치료", "name_en": "Play Therapy", "id": "CHILD_PT_003"},
+      {"name_ko": "발달 평가", "name_en": "Developmental Assessment", "id": "CHILD_DA_025"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [
+      {"name": "아동 평가", "description": "발달적 맥락에서의 심리평가 및 진단"},
+      {"name": "아동 심리치료", "description": "놀이치료, CBT 등 아동 대상 치료적 개입"},
+      {"name": "소아 심리학", "description": "의료 환경에서 아동의 심리적 적응을 다루는 분야"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "아동임상 = 아동 + 발달맥락 + 가족체계 통합",
+      "differential": "발달심리학은 정상 발달 과정을 연구하고, 아동임상심리학은 발달적 문제의 평가와 치료에 초점을 둔다",
+      "key_point": "성인 모델을 아동에게 그대로 적용할 수 없으며, 발달 단계에 맞는 평가와 개입이 필수적이다",
+      "common_mistake": "아동임상심리학을 단순히 성인 임상심리학의 축소판으로 보는 오류가 있으나, 고유한 이론과 방법론을 갖춘 독립적 전문 분야이다"
+    }
+  },
+  {
+    "id": "CHILD_DP_002",
+    "terminology": "발달정신병리학 (Developmental Psychopathology)",
+    "terminology_ko": "발달정신병리학",
+    "terminology_en": "Developmental Psychopathology",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "정상 발달과 이상 발달의 상호 관계를 연구하는 학문 분야로, 정신병리의 발생과 경과를 발달적 맥락에서 이해하고자 하며 다종결성과 등종결성 개념을 핵심으로 한다.",
+    "definition_en": "An interdisciplinary field studying the interplay between normal and abnormal development, understanding the origins and course of psychopathology within a developmental context, with multifinality and equifinality as core concepts.",
+    "significance": "아동기 문제가 단순히 성인 장애의 축소판이 아니라 발달 과정 속에서 이해되어야 함을 강조하며, 위험 요인과 보호 요인의 상호작용 모델을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "단테 치케티", "name_en": "Dante Cicchetti", "contribution": "발달정신병리학의 이론적 기틀을 마련하고 아동학대 연구의 선구자"},
+      {"name_ko": "토머스 애천바흐", "name_en": "Thomas Achenbach", "contribution": "CBCL 개발로 아동 행동 문제의 경험적 분류 체계를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "아동임상심리학", "name_en": "Child Clinical Psychology", "id": "CHILD_CCP_001"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "CHILD_RES_028"},
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"},
+      {"name_ko": "내현화 장애", "name_en": "Internalizing Disorders", "id": "CHILD_INT_020"}
+    ],
+    "sub_types": [
+      {"name": "등종결성", "description": "서로 다른 원인이 동일한 결과로 이어지는 현상"},
+      {"name": "다종결성", "description": "동일한 원인이 서로 다른 결과로 이어지는 현상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "발달정신병리 = 정상↔이상 발달의 교차점 연구",
+      "differential": "임상심리학은 장애 자체에 초점을 두지만, 발달정신병리학은 정상과 이상 발달의 연속성과 상호작용을 강조한다",
+      "key_point": "등종결성(다른 경로 → 같은 결과)과 다종결성(같은 경로 → 다른 결과) 개념이 핵심이다",
+      "common_mistake": "발달정신병리학을 단순히 아동 정신장애 목록으로 오해하는 경우가 있으나, 발달 과정 자체를 연구하는 통합적 패러다임이다"
+    }
+  },
+  {
+    "id": "CHILD_PT_003",
+    "terminology": "놀이치료 (Play Therapy)",
+    "terminology_ko": "놀이치료",
+    "terminology_en": "Play Therapy",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "놀이를 주요 매체로 활용하여 아동의 정서적, 행동적, 사회적 문제를 치료하는 심리치료 접근으로, 아동이 자연스러운 의사소통 수단인 놀이를 통해 내면을 표현하고 갈등을 해결하도록 돕는다.",
+    "definition_en": "A psychotherapeutic approach that uses play as the primary medium to address emotional, behavioral, and social problems in children, helping them express inner experiences and resolve conflicts through their natural mode of communication.",
+    "significance": "언어적 표현이 제한된 아동에게 효과적인 치료 수단을 제공하며, 아동 중심 놀이치료와 지시적 놀이치료 등 다양한 이론적 접근이 발전해 왔다.",
+    "key_researchers": [
+      {"name_ko": "버지니아 액슬린", "name_en": "Virginia Axline", "contribution": "아동 중심 놀이치료를 체계화하고 8가지 기본 원리를 제시"},
+      {"name_ko": "게리 랜드레스", "name_en": "Garry Landreth", "contribution": "아동 중심 놀이치료의 현대적 발전에 기여하고 놀이치료 훈련 프로그램을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "아동임상심리학", "name_en": "Child Clinical Psychology", "id": "CHILD_CCP_001"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"},
+      {"name_ko": "가족치료", "name_en": "Family Therapy", "id": "CHILD_FT_023"},
+      {"name_ko": "인간중심치료", "name_en": "Person-Centered Therapy", "id": "PHENOM_PCT_001"}
+    ],
+    "sub_types": [
+      {"name": "아동 중심 놀이치료", "description": "Rogers의 인간중심이론에 기반, 비지시적 접근"},
+      {"name": "지시적 놀이치료", "description": "치료자가 구조화된 놀이 활동을 제공하는 접근"},
+      {"name": "모래놀이치료", "description": "모래상자와 미니어처를 활용한 상징적 표현 치료"},
+      {"name": "치료적 놀이", "description": "발달적 놀이를 활용한 관계 중심 개입"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "놀이 = 아동의 언어, 장난감 = 아동의 단어 (Landreth)",
+      "differential": "놀이치료는 놀이 자체가 치료 매체이지만, 행동치료에서의 놀이 활용은 강화 전략의 일부로 놀이를 사용한다는 점에서 다르다",
+      "key_point": "Axline의 8가지 원리(수용, 허용적 관계, 감정 반영, 존중, 아동이 주도 등)가 아동 중심 놀이치료의 기초이다",
+      "common_mistake": "놀이치료를 단순한 놀이 활동으로 오해하는 경우가 있으나, 체계적인 이론과 기법에 기반한 전문적 심리치료이다"
+    }
+  },
+  {
+    "id": "CHILD_PAR_004",
+    "terminology": "부모훈련 (Parent Training)",
+    "terminology_ko": "부모훈련",
+    "terminology_en": "Parent Training",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "아동의 문제 행동을 효과적으로 관리하기 위해 부모에게 행동 관리 기술을 교육하는 구조화된 개입 프로그램으로, 강화, 타임아웃, 일관된 훈육 등의 전략을 포함한다.",
+    "definition_en": "A structured intervention program that teaches parents behavioral management skills to effectively manage children's problem behaviors, including strategies such as reinforcement, time-out, and consistent discipline.",
+    "significance": "아동 행동 문제에 대한 가장 강력한 근거기반 개입 중 하나이며, 부모-자녀 상호작용의 변화를 통해 아동의 외현화 문제를 효과적으로 감소시킨다.",
+    "key_researchers": [
+      {"name_ko": "제럴드 패터슨", "name_en": "Gerald Patterson", "contribution": "강압적 가족 상호작용 이론을 제시하고 부모관리훈련(PMT) 프로그램을 개발"},
+      {"name_ko": "캐롤린 웹스터-스트래튼", "name_en": "Carolyn Webster-Stratton", "contribution": "Incredible Years 부모훈련 프로그램을 개발하여 근거기반 부모 개입의 토대를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "PCIT", "name_en": "Parent-Child Interaction Therapy", "id": "CHILD_PCIT_022"},
+      {"name_ko": "행동장애", "name_en": "Conduct Disorder", "id": "CHILD_CD_010"},
+      {"name_ko": "적대적 반항장애", "name_en": "Oppositional Defiant Disorder", "id": "CHILD_ODD_011"},
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"}
+    ],
+    "sub_types": [
+      {"name": "부모관리훈련(PMT)", "description": "Patterson의 사회학습이론에 기반한 행동 관리 훈련"},
+      {"name": "Incredible Years", "description": "비디오 모델링을 활용한 집단 기반 부모훈련 프로그램"},
+      {"name": "Triple P", "description": "다수준 예방적 부모훈련 체계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "부모훈련 = 부모가 변하면 아동이 변한다 (간접 개입)",
+      "differential": "부모훈련은 부모의 행동 관리 기술에 초점을 두지만, PCIT는 부모-자녀 상호작용을 실시간으로 코칭한다는 점에서 차이가 있다",
+      "key_point": "Patterson의 강압적 상호작용 모델에서 부모의 부적절한 강화가 아동의 문제 행동을 유지시킨다",
+      "common_mistake": "부모훈련을 단순한 양육 조언으로 오해하나, 체계적인 행동 원리에 기반한 구조화된 프로그램이다"
+    }
+  },
+  {
+    "id": "CHILD_PCD_005",
+    "terminology": "Piaget 인지발달이론 (Piaget's Cognitive Development Theory)",
+    "terminology_ko": "Piaget 인지발달이론",
+    "terminology_en": "Piaget's Cognitive Development Theory",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "아동의 인지 발달이 감각운동기, 전조작기, 구체적 조작기, 형식적 조작기의 4단계를 거쳐 질적으로 변화한다는 이론으로, 동화와 조절을 통한 도식의 재구성을 핵심 기제로 제시한다.",
+    "definition_en": "A theory proposing that children's cognitive development progresses through four qualitatively distinct stages—sensorimotor, preoperational, concrete operational, and formal operational—with assimilation and accommodation as core mechanisms of schema reorganization.",
+    "significance": "아동의 사고 과정이 성인과 질적으로 다르다는 관점을 확립하여 아동 임상 평가와 개입에서 발달 수준을 고려해야 하는 이론적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "장 피아제", "name_en": "Jean Piaget", "contribution": "인지발달의 4단계 이론을 수립하고 아동의 인지 구조 변화를 체계적으로 연구"},
+      {"name_ko": "바벨 인헬더", "name_en": "Bärbel Inhelder", "contribution": "Piaget와 공동 연구를 통해 인지발달 단계의 실증적 근거를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달 평가", "name_en": "Developmental Assessment", "id": "CHILD_DA_025"},
+      {"name_ko": "발달정신병리학", "name_en": "Developmental Psychopathology", "id": "CHILD_DP_002"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "CHILD_ID_015"},
+      {"name_ko": "지능평가", "name_en": "Intellectual Assessment", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name": "감각운동기(0~2세)", "description": "감각과 운동을 통한 세계 탐색, 대상영속성 획득"},
+      {"name": "전조작기(2~7세)", "description": "상징적 사고 시작, 자기중심성과 비보존 사고"},
+      {"name": "구체적 조작기(7~11세)", "description": "논리적 사고 가능, 보존 개념 획득"},
+      {"name": "형식적 조작기(11세~)", "description": "추상적·가설적 사고 가능"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "감전구형 = 감각운동→전조작→구체적 조작→형식적 조작",
+      "differential": "Piaget는 단계적·질적 변화를 강조하고, Vygotsky는 사회문화적 상호작용과 근접발달영역(ZPD)을 강조한다",
+      "key_point": "동화(기존 도식에 맞추기)와 조절(도식 수정)의 평형화 과정이 인지발달의 핵심 기제이다",
+      "common_mistake": "Piaget 이론의 단계 연령을 고정된 것으로 오해하나, 개인차가 크며 문화적 맥락에 따라 달라질 수 있다"
+    }
+  },
+  {
+    "id": "CHILD_ATT_006",
+    "terminology": "애착이론 (Attachment Theory)",
+    "terminology_ko": "애착이론",
+    "terminology_en": "Attachment Theory",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "영아가 주 양육자와 형성하는 정서적 유대가 이후 사회정서 발달과 정신건강에 지속적인 영향을 미친다는 이론으로, 내적 작동 모델의 형성을 통해 대인관계 패턴을 설명한다.",
+    "definition_en": "A theory proposing that the emotional bond formed between an infant and primary caregiver has lasting effects on socioemotional development and mental health, explaining interpersonal patterns through the formation of internal working models.",
+    "significance": "아동기 초기 관계 경험이 전생애에 걸쳐 대인관계와 정서조절에 영향을 미침을 입증하여, 임상 개입에서 애착 관계의 치료적 활용을 가능하게 했다.",
+    "key_researchers": [
+      {"name_ko": "존 볼비", "name_en": "John Bowlby", "contribution": "애착이론을 창시하고 내적 작동 모델 개념을 제시하여 발달과 정신병리의 연결을 규명"},
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "낯선 상황 실험을 통해 애착 유형(안정, 불안정-회피, 불안정-저항)을 분류"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착 유형", "name_en": "Attachment Styles", "id": "CHILD_AS_007"},
+      {"name_ko": "분리불안장애", "name_en": "Separation Anxiety Disorder", "id": "CHILD_SAD_012"},
+      {"name_ko": "아동 외상", "name_en": "Childhood Trauma", "id": "CHILD_TRA_027"},
+      {"name_ko": "정신역동 심리치료", "name_en": "Psychodynamic Psychotherapy", "id": "PSYCHOD_PDT_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Bowlby = Bond(유대) + Baby → 애착의 B",
+      "differential": "애착이론은 양육자와의 초기 관계를 강조하고, 대상관계이론은 내면화된 대상 표상에 더 초점을 둔다",
+      "key_point": "내적 작동 모델(IWM)은 자기와 타인에 대한 기대의 인지적 틀로, 이후 관계 패턴의 원형이 된다",
+      "common_mistake": "애착이 형성되지 않으면 항상 병리로 이어진다고 오해하나, 이후 경험과 관계를 통해 수정이 가능하다"
+    }
+  },
+  {
+    "id": "CHILD_AS_007",
+    "terminology": "애착 유형 (Attachment Styles)",
+    "terminology_ko": "애착 유형",
+    "terminology_en": "Attachment Styles",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "영아와 양육자 간 애착 관계의 질적 차이를 분류한 것으로, Ainsworth의 낯선 상황 실험을 통해 안정 애착, 불안정-회피 애착, 불안정-저항 애착이 구분되었고, 이후 Main에 의해 혼란 애착이 추가되었다.",
+    "definition_en": "Qualitative classifications of the infant-caregiver attachment relationship identified through Ainsworth's Strange Situation, distinguishing secure, insecure-avoidant, and insecure-resistant attachment, with disorganized attachment later added by Main.",
+    "significance": "애착 유형은 아동의 정서조절, 사회적 역량, 정신건강 위험을 예측하는 주요 지표로, 임상 평가와 개입 계획 수립에 중요한 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "메리 에인스워스", "name_en": "Mary Ainsworth", "contribution": "낯선 상황 실험으로 3가지 애착 유형(안정, 회피, 저항)을 체계적으로 분류"},
+      {"name_ko": "메리 메인", "name_en": "Mary Main", "contribution": "혼란 애착(D유형)을 발견하고 성인 애착 면접(AAI)을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착이론", "name_en": "Attachment Theory", "id": "CHILD_ATT_006"},
+      {"name_ko": "분리불안장애", "name_en": "Separation Anxiety Disorder", "id": "CHILD_SAD_012"},
+      {"name_ko": "아동학대와 방임", "name_en": "Child Abuse and Neglect", "id": "CHILD_CAN_018"},
+      {"name_ko": "내현화 장애", "name_en": "Internalizing Disorders", "id": "CHILD_INT_020"}
+    ],
+    "sub_types": [
+      {"name": "안정 애착(B유형)", "description": "양육자를 안전기지로 활용, 분리 후 재결합 시 쉽게 안정을 회복"},
+      {"name": "불안정-회피 애착(A유형)", "description": "양육자에 대한 무관심, 분리와 재결합에 최소한의 반응"},
+      {"name": "불안정-저항 애착(C유형)", "description": "양육자에 대한 양가감정, 분리 시 극심한 고통"},
+      {"name": "혼란 애착(D유형)", "description": "일관성 없는 비조직적 행동, 학대 경험과 관련"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "A회피, B안정(Best), C저항(Clingy), D혼란(Disorganized) → ABCD 순서",
+      "differential": "회피 애착은 정서 억제를 보이고, 저항 애착은 과잉 활성화를 보이며, 혼란 애착은 두 전략이 붕괴된 상태이다",
+      "key_point": "혼란 애착(D유형)은 양육자가 공포의 원천이자 안전의 원천인 역설적 상황에서 발생하며, 이후 정신병리 위험이 가장 높다",
+      "common_mistake": "불안정 애착을 곧바로 병리적으로 해석하는 오류가 있으나, 불안정 애착은 적응 전략의 하나이며 반드시 장애로 이어지지는 않는다"
+    }
+  },
+  {
+    "id": "CHILD_ADHD_008",
+    "terminology": "주의력결핍 과잉행동장애 (Attention-Deficit/Hyperactivity Disorder)",
+    "terminology_ko": "주의력결핍 과잉행동장애",
+    "terminology_en": "Attention-Deficit/Hyperactivity Disorder",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "부주의, 과잉행동, 충동성이 발달 수준에 비해 현저하게 부적절한 수준으로 나타나는 신경발달장애로, 학업적·사회적·직업적 기능에 유의한 손상을 초래한다.",
+    "definition_en": "A neurodevelopmental disorder characterized by developmentally inappropriate levels of inattention, hyperactivity, and impulsivity that cause significant impairment in academic, social, and occupational functioning.",
+    "significance": "아동기에 가장 흔하게 진단되는 정신장애 중 하나로, 유병률은 약 5~7%이며 약물치료와 행동 개입의 통합적 접근이 가장 효과적인 것으로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "러셀 바클리", "name_en": "Russell Barkley", "contribution": "ADHD의 실행기능 결함 모델을 제시하고 행동 억제의 핵심적 역할을 규명"},
+      {"name_ko": "조지 스틸", "name_en": "George Still", "contribution": "1902년 도덕적 통제 결함으로 과잉행동 아동을 최초로 체계적 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"},
+      {"name_ko": "행동장애", "name_en": "Conduct Disorder", "id": "CHILD_CD_010"},
+      {"name_ko": "학습장애", "name_en": "Learning Disability", "id": "CHILD_LD_014"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "BEHAV_BA_001"}
+    ],
+    "sub_types": [
+      {"name": "주의력결핍 우세형", "description": "부주의 증상이 두드러지나 과잉행동-충동성은 기준 미달"},
+      {"name": "과잉행동-충동 우세형", "description": "과잉행동과 충동성이 두드러지나 부주의는 기준 미달"},
+      {"name": "복합형", "description": "부주의와 과잉행동-충동성 모두 기준 충족"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ADHD = Attention(주의력) Deficit(결핍) + Hyperactivity(과잉행동) Disorder",
+      "differential": "ADHD의 부주의는 지속적이고 상황 전반에 걸쳐 나타나지만, 불안으로 인한 집중 곤란은 불안 상황에 국한되는 경향이 있다",
+      "key_point": "Barkley 모델에서 ADHD의 핵심은 행동 억제의 결함이며, 이것이 실행기능(작업기억, 자기조절, 내적 언어, 재구성) 전반에 영향을 미친다",
+      "common_mistake": "ADHD를 단순한 주의력 문제로 축소 해석하나, 실행기능 전반의 자기조절 결함이 핵심이다"
+    }
+  },
+  {
+    "id": "CHILD_ASD_009",
+    "terminology": "자폐스펙트럼장애 (Autism Spectrum Disorder)",
+    "terminology_ko": "자폐스펙트럼장애",
+    "terminology_en": "Autism Spectrum Disorder",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "사회적 의사소통 및 상호작용의 지속적인 결함과 제한적이고 반복적인 행동, 관심, 활동 패턴을 핵심 특성으로 하는 신경발달장애로, 초기 발달 시기에 증상이 나타난다.",
+    "definition_en": "A neurodevelopmental disorder characterized by persistent deficits in social communication and interaction, along with restricted and repetitive patterns of behavior, interests, or activities, with symptoms present in early development.",
+    "significance": "DSM-5에서 이전의 자폐장애, 아스퍼거장애, 달리 분류되지 않는 전반적 발달장애를 하나의 스펙트럼으로 통합하여 연속선상의 개념으로 재정립되었다.",
+    "key_researchers": [
+      {"name_ko": "레오 카너", "name_en": "Leo Kanner", "contribution": "1943년 '초기 유아 자폐증'을 최초로 체계적으로 기술"},
+      {"name_ko": "사이먼 바론-코헨", "name_en": "Simon Baron-Cohen", "contribution": "마음이론 결함 가설을 통해 자폐증의 사회적 인지 결함을 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달 평가", "name_en": "Developmental Assessment", "id": "CHILD_DA_025"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "CHILD_ID_015"},
+      {"name_ko": "학교 기반 중재", "name_en": "School-Based Intervention", "id": "CHILD_SBI_026"},
+      {"name_ko": "아동임상심리학", "name_en": "Child Clinical Psychology", "id": "CHILD_CCP_001"}
+    ],
+    "sub_types": [
+      {"name": "지원 수준 1", "description": "지원이 필요함 (경도) - 사회적 의사소통에 눈에 띄는 어려움"},
+      {"name": "지원 수준 2", "description": "상당한 지원이 필요함 (중등도) - 사회적 상호작용의 현저한 결함"},
+      {"name": "지원 수준 3", "description": "매우 상당한 지원이 필요함 (중도) - 심각한 기능 제한"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ASD = 사회적 의사소통 결함 + 제한적/반복적 행동 (2대 핵심 영역)",
+      "differential": "ASD의 사회적 결함은 사회적 관심과 이해의 질적 차이에서 비롯되지만, 사회불안장애는 사회적 능력은 있으나 불안으로 회피하는 것이다",
+      "key_point": "DSM-5에서 자폐장애, 아스퍼거장애, PDD-NOS가 하나의 ASD 스펙트럼으로 통합되었고, 심각도는 지원 수준으로 구분한다",
+      "common_mistake": "자폐스펙트럼장애를 지적장애와 동일시하는 오류가 있으나, ASD는 지적 수준의 전 범위에서 나타날 수 있다"
+    }
+  },
+  {
+    "id": "CHILD_CD_010",
+    "terminology": "행동장애 (Conduct Disorder)",
+    "terminology_ko": "행동장애",
+    "terminology_en": "Conduct Disorder",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "타인의 기본 권리를 침해하거나 사회적 규범 및 규칙을 반복적으로 위반하는 행동 패턴으로, 공격성, 재산 파괴, 사기 또는 도둑질, 심각한 규칙 위반의 4가지 범주로 분류된다.",
+    "definition_en": "A repetitive and persistent pattern of behavior that violates the basic rights of others or major societal norms, classified into four categories: aggression, property destruction, deceitfulness or theft, and serious rule violations.",
+    "significance": "아동기의 가장 심각한 외현화 장애로, 조기 발현형은 성인기 반사회성 성격장애로 발전할 위험이 높아 조기 개입이 중요하다.",
+    "key_researchers": [
+      {"name_ko": "테리 모핏", "name_en": "Terrie Moffitt", "contribution": "생애지속형과 청소년기한정형의 두 발달 경로를 구분하는 발달적 분류학 제시"},
+      {"name_ko": "제럴드 패터슨", "name_en": "Gerald Patterson", "contribution": "강압적 가족 과정 모델을 통해 행동장애의 가족 내 유지 기제를 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "적대적 반항장애", "name_en": "Oppositional Defiant Disorder", "id": "CHILD_ODD_011"},
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"},
+      {"name_ko": "부모훈련", "name_en": "Parent Training", "id": "CHILD_PAR_004"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_008"}
+    ],
+    "sub_types": [
+      {"name": "아동기 발현형", "description": "10세 이전에 증상 발현, 예후가 불량하고 반사회적 경로 위험 높음"},
+      {"name": "청소년기 발현형", "description": "10세 이후 증상 발현, 또래 영향이 크고 상대적으로 예후 양호"},
+      {"name": "제한된 친사회적 정서 동반", "description": "냉담-무감정 특질을 보이는 하위 유형, 처벌 민감성이 낮음"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동장애 4범주 = 공(공격) 파(파괴) 사(사기) 규(규칙위반)",
+      "differential": "행동장애는 타인의 권리 침해와 규범 위반이 핵심이고, 적대적 반항장애는 권위 인물에 대한 반항적·적대적 태도가 핵심이다",
+      "key_point": "Moffitt의 분류에서 생애지속형(아동기 발현)은 신경인지적 결함과 환경적 위험이 결합되어 만성적 반사회적 경로를 따른다",
+      "common_mistake": "행동장애를 단순한 반항으로 축소 해석하나, 타인의 권리 침해를 포함하는 심각한 행동 패턴이며 ODD와 질적으로 구분된다"
+    }
+  },
+  {
+    "id": "CHILD_ODD_011",
+    "terminology": "적대적 반항장애 (Oppositional Defiant Disorder)",
+    "terminology_ko": "적대적 반항장애",
+    "terminology_en": "Oppositional Defiant Disorder",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "분노/과민한 기분, 논쟁적/반항적 행동, 보복성의 패턴이 최소 6개월간 지속되며, 형제가 아닌 사람과의 상호작용에서 빈번하게 나타나는 행동장애이다.",
+    "definition_en": "A behavioral disorder characterized by a pattern of angry/irritable mood, argumentative/defiant behavior, and vindictiveness lasting at least 6 months, occurring frequently in interactions with individuals other than siblings.",
+    "significance": "아동기 외현화 문제의 비교적 경한 형태이나, 일부 사례에서 행동장애로 진행될 수 있어 조기 식별과 개입이 중요하다.",
+    "key_researchers": [
+      {"name_ko": "로스 그린", "name_en": "Ross Greene", "contribution": "협력적 문제 해결(CPS) 접근을 개발하여 반항적 행동에 대한 비처벌적 개입 모델을 제시"},
+      {"name_ko": "제프리 버크", "name_en": "Jeffrey Burke", "contribution": "ODD의 3가지 차원(과민성, 반항성, 보복성)을 실증적으로 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동장애", "name_en": "Conduct Disorder", "id": "CHILD_CD_010"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_008"},
+      {"name_ko": "부모훈련", "name_en": "Parent Training", "id": "CHILD_PAR_004"},
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"}
+    ],
+    "sub_types": [
+      {"name": "분노/과민한 기분 차원", "description": "자주 화를 내고, 쉽게 짜증을 냄, 분개하고 원한을 품음"},
+      {"name": "논쟁적/반항적 행동 차원", "description": "어른과 논쟁, 규칙 거부, 고의적 짜증 유발"},
+      {"name": "보복성 차원", "description": "6개월 내 최소 2회 앙심을 품거나 보복적 행동"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ODD = Oppositional(반항) + Defiant(도전) + Disorder → 권위에 대한 도전",
+      "differential": "ODD는 권위에 대한 반항과 분노가 핵심이고 타인의 권리를 심각하게 침해하지는 않지만, 행동장애(CD)는 타인의 권리 침해와 사회 규범 위반이 핵심이다",
+      "key_point": "DSM-5에서 ODD의 3차원 구조가 강조되며, 과민성 차원은 이후 불안/우울 위험을, 반항성/보복성 차원은 행동장애 위험을 예측한다",
+      "common_mistake": "ODD를 정상적인 발달적 반항(예: 걸음마기 거부, 사춘기 반항)과 혼동하나, ODD는 빈도와 강도가 발달 수준에서 벗어나야 진단된다"
+    }
+  },
+  {
+    "id": "CHILD_SAD_012",
+    "terminology": "분리불안장애 (Separation Anxiety Disorder)",
+    "terminology_ko": "분리불안장애",
+    "terminology_en": "Separation Anxiety Disorder",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "주요 애착 대상으로부터의 분리에 대한 과도하고 발달적으로 부적절한 불안으로, 분리 시 극심한 고통, 분리에 대한 지속적 걱정, 등교 거부, 신체 증상 등이 나타난다.",
+    "definition_en": "Excessive and developmentally inappropriate anxiety about separation from major attachment figures, manifested by extreme distress upon separation, persistent worry about separation, school refusal, and somatic symptoms.",
+    "significance": "아동기 불안장애 중 가장 이른 시기에 발현하며, 이후 다른 불안장애나 우울장애로 발전할 수 있어 조기 개입이 중요하다.",
+    "key_researchers": [
+      {"name_ko": "실비아 어셔", "name_en": "Cynthia Last", "contribution": "아동 불안장애의 체계적 분류와 분리불안장애의 임상적 특성 연구에 기여"},
+      {"name_ko": "필립 켄달", "name_en": "Philip Kendall", "contribution": "아동 불안에 대한 Coping Cat CBT 프로그램 개발로 분리불안 치료에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "애착이론", "name_en": "Attachment Theory", "id": "CHILD_ATT_006"},
+      {"name_ko": "내현화 장애", "name_en": "Internalizing Disorders", "id": "CHILD_INT_020"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"},
+      {"name_ko": "선택적 함묵증", "name_en": "Selective Mutism", "id": "CHILD_SM_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "분리불안 = 분리 + 불안 → 떨어지면 불안, 붙어있어야 안심",
+      "differential": "분리불안장애는 애착 대상과의 분리 자체가 불안의 초점이지만, 사회불안장애는 타인의 평가에 대한 두려움이 핵심이다",
+      "key_point": "아동기에 발현하는 불안장애 중 가장 이른 시기(보통 7~8세경)에 나타나며, 등교 거부의 주요 원인 중 하나이다",
+      "common_mistake": "영유아의 정상적인 분리불안(8~14개월)과 분리불안장애를 혼동하나, 장애는 발달 수준에 비해 과도하고 기능 손상을 초래해야 한다"
+    }
+  },
+  {
+    "id": "CHILD_SM_013",
+    "terminology": "선택적 함묵증 (Selective Mutism)",
+    "terminology_ko": "선택적 함묵증",
+    "terminology_en": "Selective Mutism",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "말할 능력이 있음에도 불구하고 특정 사회적 상황(예: 학교)에서 지속적으로 말하지 않는 상태로, 가정에서는 정상적으로 말하지만 다른 환경에서는 침묵하는 패턴을 보인다.",
+    "definition_en": "A condition in which a child consistently fails to speak in specific social situations (e.g., school) despite being able to speak, showing a pattern of normal speech at home but silence in other settings.",
+    "significance": "DSM-5에서 불안장애 범주로 분류되었으며, 사회불안과의 높은 공병률은 이 장애의 불안 기반 특성을 뒷받침한다.",
+    "key_researchers": [
+      {"name_ko": "매기 존슨", "name_en": "Maggie Johnson", "contribution": "선택적 함묵증의 단계적 접근 치료 모델(Sliding-in Technique)을 개발"},
+      {"name_ko": "R. 린지 벤가슨", "name_en": "R. Lindsey Bergman", "contribution": "선택적 함묵증에 대한 통합적 행동치료 프로토콜을 개발하고 효과를 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "분리불안장애", "name_en": "Separation Anxiety Disorder", "id": "CHILD_SAD_012"},
+      {"name_ko": "내현화 장애", "name_en": "Internalizing Disorders", "id": "CHILD_INT_020"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"},
+      {"name_ko": "학교 기반 중재", "name_en": "School-Based Intervention", "id": "CHILD_SBI_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "선택적 함묵 = 장소 선택적으로 입을 다문다 (집 OK, 학교 X)",
+      "differential": "선택적 함묵증은 특정 상황에서만 말을 하지 않지만, 의사소통장애는 전반적인 언어 능력의 결함이 있다",
+      "key_point": "DSM-5에서 불안장애로 재분류되었으며, 단순히 말을 거부하는 것이 아니라 불안으로 인해 말할 수 없는 상태이다",
+      "common_mistake": "선택적 함묵증을 의도적 반항이나 고집으로 오해하나, 불안에 기반한 장애이며 아동 스스로도 말하고 싶지만 하지 못하는 경우가 많다"
+    }
+  },
+  {
+    "id": "CHILD_LD_014",
+    "terminology": "학습장애 (Learning Disability)",
+    "terminology_ko": "학습장애",
+    "terminology_en": "Learning Disability",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "전반적인 지적 능력이 정상 범위임에도 읽기, 쓰기, 수학 등 특정 학업 기술의 습득과 사용에 현저한 어려움을 보이는 신경발달장애로, DSM-5에서는 특정학습장애로 명명된다.",
+    "definition_en": "A neurodevelopmental disorder characterized by significant difficulties in acquiring and using specific academic skills such as reading, writing, or mathematics, despite normal intellectual ability, termed Specific Learning Disorder in DSM-5.",
+    "significance": "학령기 아동의 약 5~15%에게 영향을 미치며, 조기 발견과 교육적 개입이 학업 성취와 자존감 보호에 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "새뮤얼 커크", "name_en": "Samuel Kirk", "contribution": "1963년 '학습장애' 용어를 최초로 사용하여 이 분야를 독립적 장애 영역으로 정립"},
+      {"name_ko": "샐리 셰이위츠", "name_en": "Sally Shaywitz", "contribution": "난독증의 신경생물학적 기전을 규명하고 뇌영상 연구를 통해 읽기 어려움의 신경학적 기반을 밝힘"}
+    ],
+    "related_concepts": [
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_008"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "CHILD_ID_015"},
+      {"name_ko": "학교 기반 중재", "name_en": "School-Based Intervention", "id": "CHILD_SBI_026"},
+      {"name_ko": "지능평가", "name_en": "Intellectual Assessment", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name": "읽기장애(난독증)", "description": "단어 인식, 해독, 읽기 유창성, 읽기 이해의 어려움"},
+      {"name": "쓰기장애(난서증)", "description": "철자법, 문법, 문장 구성, 글쓰기 조직화의 어려움"},
+      {"name": "수학장애(난산증)", "description": "수 감각, 연산, 수학적 추론의 어려움"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "학습장애 = 지능 OK + 특정 학업기술 NOT OK → 불일치 모델",
+      "differential": "학습장애는 특정 학업 영역의 결함이지만, 지적장애는 전반적인 지적 기능의 결함이다. ADHD의 학업 어려움은 주의력 문제에서 기인한다",
+      "key_point": "DSM-5에서 지능-성취 불일치 모델 대신 중재반응(RTI) 모델을 권장하며, 학업 기술의 지속적 어려움이 진단의 핵심이다",
+      "common_mistake": "학습장애를 게으름이나 노력 부족으로 오해하나, 신경생물학적 기반을 가진 장애이며 적절한 교육적 지원이 필요하다"
+    }
+  },
+  {
+    "id": "CHILD_ID_015",
+    "terminology": "지적장애 (Intellectual Disability)",
+    "terminology_ko": "지적장애",
+    "terminology_en": "Intellectual Disability",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "발달 시기 동안 발현하는 지적 기능과 적응행동 모두의 유의한 결함을 특징으로 하는 신경발달장애로, 개념적, 사회적, 실용적 적응기술 영역에서의 어려움을 포함한다.",
+    "definition_en": "A neurodevelopmental disorder characterized by significant deficits in both intellectual functioning and adaptive behavior emerging during the developmental period, including difficulties in conceptual, social, and practical adaptive skill domains.",
+    "significance": "DSM-5에서 이전의 '정신지체' 명칭을 대체하였으며, 심각도 분류가 IQ 점수 기반에서 적응기능 수준 기반으로 전환되어 개인별 지원 계획 수립에 초점을 둔다.",
+    "key_researchers": [
+      {"name_ko": "에드가 돌", "name_en": "Edgar Doll", "contribution": "바인랜드 사회성숙도 검사를 개발하여 적응행동 평가의 기틀을 마련"},
+      {"name_ko": "로버트 샬록", "name_en": "Robert Schalock", "contribution": "지적장애의 지원 모델을 체계화하고 삶의 질 기반 평가 프레임워크를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자폐스펙트럼장애", "name_en": "Autism Spectrum Disorder", "id": "CHILD_ASD_009"},
+      {"name_ko": "학습장애", "name_en": "Learning Disability", "id": "CHILD_LD_014"},
+      {"name_ko": "발달 평가", "name_en": "Developmental Assessment", "id": "CHILD_DA_025"},
+      {"name_ko": "지능평가", "name_en": "Intellectual Assessment", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name": "경도", "description": "개념 영역에서 학습 어려움, 독립 생활 대체로 가능"},
+      {"name": "중등도", "description": "학업 기술 초등 수준, 일상 과제에 지원 필요"},
+      {"name": "중도", "description": "개념적 기술 제한적, 일상생활에 상당한 지원 필요"},
+      {"name": "최중도", "description": "감각운동적 기능 위주, 전 영역에서 전면적 지원 필요"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "지적장애 = 지적기능 결함 + 적응행동 결함 (둘 다 필요)",
+      "differential": "지적장애는 지적 기능과 적응행동 모두 결함이 있지만, 학습장애는 지적 기능은 정상이며 특정 학업 기술만 결함이 있다",
+      "key_point": "DSM-5에서 심각도 분류 기준이 IQ 점수에서 적응기능 수준으로 바뀌었으며, '정신지체' 대신 '지적장애'라는 용어를 사용한다",
+      "common_mistake": "IQ 70 이하만으로 지적장애를 진단하는 오류가 있으나, 적응행동의 결함이 반드시 동반되어야 하며 측정 오차(약 5점)도 고려해야 한다"
+    }
+  },
+  {
+    "id": "CHILD_TIC_016",
+    "terminology": "틱장애/투렛장애 (Tic Disorder / Tourette's Disorder)",
+    "terminology_ko": "틱장애/투렛장애",
+    "terminology_en": "Tic Disorder / Tourette's Disorder",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "갑작스럽고 빠르며 반복적인 비율동적 운동이나 발성인 틱이 특징적으로 나타나는 신경발달장애로, 투렛장애는 다양한 운동 틱과 하나 이상의 음성 틱이 1년 이상 지속되는 상태이다.",
+    "definition_en": "A neurodevelopmental disorder characterized by sudden, rapid, recurrent, nonrhythmic motor movements or vocalizations called tics; Tourette's disorder involves multiple motor tics and at least one vocal tic persisting for more than one year.",
+    "significance": "ADHD, OCD와의 높은 공병률이 보고되며, 틱 자체보다 공존 장애의 관리가 기능적 예후에 더 큰 영향을 미치는 경우가 많다.",
+    "key_researchers": [
+      {"name_ko": "조르주 질 드 라 투렛", "name_en": "Georges Gilles de la Tourette", "contribution": "1885년 다발성 틱과 음성 틱이 결합된 증후군을 최초로 체계적으로 기술"},
+      {"name_ko": "제임스 레크만", "name_en": "James Leckman", "contribution": "투렛장애의 신경생물학적 기전과 발달적 경과에 대한 선구적 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_008"},
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"}
+    ],
+    "sub_types": [
+      {"name": "투렛장애", "description": "다양한 운동 틱 + 1개 이상 음성 틱, 1년 이상 지속"},
+      {"name": "지속성(만성) 운동 또는 음성 틱장애", "description": "운동 틱 또는 음성 틱 중 하나만 1년 이상 지속"},
+      {"name": "잠정적 틱장애", "description": "틱이 1년 미만 지속"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "투렛 = 운동 틱 + 음성 틱 (둘 다 있어야 투렛)",
+      "differential": "투렛장애는 운동 틱과 음성 틱이 모두 있어야 하지만, 지속성 틱장애는 운동 또는 음성 중 하나만 있다",
+      "key_point": "틱은 보통 6~7세에 시작하여 10~12세에 최고조에 달하고, 청소년기 후반에 상당수에서 자연 감소한다",
+      "common_mistake": "투렛장애를 반드시 욕설 틱(코프로랄리아)과 동일시하나, 욕설 틱은 투렛 환자의 10~15%에서만 나타난다"
+    }
+  },
+  {
+    "id": "CHILD_ENR_017",
+    "terminology": "야뇨증 (Enuresis)",
+    "terminology_ko": "야뇨증",
+    "terminology_en": "Enuresis",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "발달 연령상 배뇨 조절이 가능해야 하는 시기(만 5세 이상)에 침대나 옷에 반복적으로 소변을 보는 상태로, 주간 야뇨와 야간 야뇨로 구분된다.",
+    "definition_en": "Repeated voiding of urine into bed or clothes at a developmental age when bladder control should be established (age 5 or older), classified into daytime and nighttime enuresis.",
+    "significance": "아동기 배설장애 중 가장 흔하며 유병률이 약 5~10%로 높고, 벨-패드 방법(경보 치료)이 가장 효과적인 근거기반 치료로 확립되어 있다.",
+    "key_researchers": [
+      {"name_ko": "오웬 모어러", "name_en": "O. Hobart Mowrer", "contribution": "벨-패드(야뇨 경보기) 방법을 최초로 개발하여 행동치료적 접근의 효과를 입증"},
+      {"name_ko": "피르호넨", "name_en": "Tryggve Nevéus", "contribution": "야뇨증의 병태생리학적 기전을 체계화하고 국제아동대소변조절학회(ICCS)의 표준화 작업을 주도"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유분증", "name_en": "Encopresis", "id": "CHILD_ENC_030"},
+      {"name_ko": "발달 평가", "name_en": "Developmental Assessment", "id": "CHILD_DA_025"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"}
+    ],
+    "sub_types": [
+      {"name": "일차성 야뇨증", "description": "배뇨 조절이 한 번도 확립된 적이 없는 경우"},
+      {"name": "이차성 야뇨증", "description": "최소 6개월간 배뇨 조절 후 다시 야뇨가 시작된 경우"},
+      {"name": "야간 야뇨증", "description": "수면 중에만 발생하는 야뇨"},
+      {"name": "주간 야뇨증", "description": "깨어있는 동안 발생하는 야뇨"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "야뇨증 = 야(밤)에 뇨(소변) → 5세 이상 반복적 소변 실수",
+      "differential": "일차성 야뇨증은 배뇨 조절이 한 번도 확립되지 않은 것이고, 이차성 야뇨증은 6개월 이상 조절 후 재발한 것으로 스트레스가 관련될 수 있다",
+      "key_point": "벨-패드(경보 치료)가 1차 치료법이며 약 65~75%의 성공률을 보인다. 데스모프레신은 단기 효과는 있으나 재발률이 높다",
+      "common_mistake": "야뇨증을 아동의 게으름이나 반항으로 오해하나, 신경발달적·유전적 기전이 관여하는 장애이다"
+    }
+  },
+  {
+    "id": "CHILD_CAN_018",
+    "terminology": "아동학대와 방임 (Child Abuse and Neglect)",
+    "terminology_ko": "아동학대와 방임",
+    "terminology_en": "Child Abuse and Neglect",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "양육자 또는 보호 책임이 있는 성인에 의해 아동에게 가해지는 신체적, 정서적, 성적 학대 및 방임으로, 아동의 신체적·심리적 발달과 안녕에 심각한 위해를 초래한다.",
+    "definition_en": "Physical, emotional, or sexual abuse and neglect inflicted on a child by a caregiver or adult in a position of responsibility, causing serious harm to the child's physical and psychological development and well-being.",
+    "significance": "아동학대 경험은 PTSD, 우울, 행동 문제, 애착 장해 등 다양한 정신건강 문제의 주요 위험 요인이며, 법적 신고 의무와 다학제적 개입이 필수적이다.",
+    "key_researchers": [
+      {"name_ko": "C. 헨리 켐프", "name_en": "C. Henry Kempe", "contribution": "1962년 '매맞는 아동 증후군(Battered Child Syndrome)' 개념을 제시하여 아동학대에 대한 사회적 인식을 촉발"},
+      {"name_ko": "단테 치케티", "name_en": "Dante Cicchetti", "contribution": "아동학대가 발달 경로에 미치는 영향을 발달정신병리학적 관점에서 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "아동 외상", "name_en": "Childhood Trauma", "id": "CHILD_TRA_027"},
+      {"name_ko": "애착 유형", "name_en": "Attachment Styles", "id": "CHILD_AS_007"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "CHILD_RES_028"},
+      {"name_ko": "발달정신병리학", "name_en": "Developmental Psychopathology", "id": "CHILD_DP_002"}
+    ],
+    "sub_types": [
+      {"name": "신체적 학대", "description": "아동에게 의도적으로 신체적 손상을 가하는 행위"},
+      {"name": "정서적 학대", "description": "아동의 정서적 발달을 해치는 지속적인 비난, 위협, 거부"},
+      {"name": "성적 학대", "description": "아동을 성적 활동에 관여시키는 행위"},
+      {"name": "방임", "description": "아동의 기본적 신체적·정서적·교육적 욕구를 충족시키지 않는 것"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "학대 4유형 = 신(신체) 정(정서) 성(성적) 방(방임)",
+      "differential": "방임은 해야 할 것을 하지 않는 것(omission)이고, 학대는 하지 말아야 할 것을 하는 것(commission)이다",
+      "key_point": "Kempe의 '매맞는 아동 증후군'(1962)이 아동학대를 의학적·사회적 문제로 인식하는 전환점이 되었다",
+      "common_mistake": "방임을 학대보다 경미한 것으로 간주하나, 방임은 가장 흔한 유형이며 장기적 발달 결과에 심각한 영향을 미칠 수 있다"
+    }
+  },
+  {
+    "id": "CHILD_EXT_019",
+    "terminology": "외현화 장애 (Externalizing Disorders)",
+    "terminology_ko": "외현화 장애",
+    "terminology_en": "Externalizing Disorders",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "문제 행동이 외부로 표출되는 형태의 아동기 정신장애 범주로, ADHD, 행동장애, 적대적 반항장애 등 과잉행동, 공격성, 규칙 위반 행동을 특징으로 하는 장애군을 포함한다.",
+    "definition_en": "A category of childhood mental disorders in which problem behaviors are directed outward, including disorders characterized by hyperactivity, aggression, and rule-breaking behavior such as ADHD, conduct disorder, and oppositional defiant disorder.",
+    "significance": "Achenbach의 경험적 분류 체계에서 아동 행동 문제를 외현화와 내현화로 구분한 것은 아동 정신병리의 이해와 평가에 기본 프레임워크를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "토머스 애천바흐", "name_en": "Thomas Achenbach", "contribution": "CBCL을 통해 아동 행동 문제의 외현화-내현화 2차원 분류 체계를 경험적으로 확립"},
+      {"name_ko": "테리 모핏", "name_en": "Terrie Moffitt", "contribution": "외현화 문제의 발달적 경로(생애지속형 vs 청소년한정형)를 구분"}
+    ],
+    "related_concepts": [
+      {"name_ko": "내현화 장애", "name_en": "Internalizing Disorders", "id": "CHILD_INT_020"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_008"},
+      {"name_ko": "행동장애", "name_en": "Conduct Disorder", "id": "CHILD_CD_010"},
+      {"name_ko": "K-CBCL", "name_en": "K-CBCL", "id": "CHILD_KCBCL_024"}
+    ],
+    "sub_types": [
+      {"name": "주의력 문제", "description": "부주의, 과잉행동, 충동성 관련 문제"},
+      {"name": "공격적 행동", "description": "타인에 대한 언어적·신체적 공격"},
+      {"name": "규칙 위반 행동", "description": "사회적 규범과 규칙의 반복적 위반"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "외현화 = 밖(外)으로 드러남 → 행동으로 표출되는 문제",
+      "differential": "외현화 장애는 행동이 외부로 표출(공격, 과잉행동)되지만, 내현화 장애는 내면으로 향함(불안, 우울, 위축)",
+      "key_point": "Achenbach의 CBCL에서 외현화 척도는 규칙 위반 행동과 공격적 행동의 두 하위 척도로 구성된다",
+      "common_mistake": "외현화 문제를 단순한 훈육 문제로 치부하나, 신경생물학적 요인과 환경적 요인의 복합적 상호작용 결과이다"
+    }
+  },
+  {
+    "id": "CHILD_INT_020",
+    "terminology": "내현화 장애 (Internalizing Disorders)",
+    "terminology_ko": "내현화 장애",
+    "terminology_en": "Internalizing Disorders",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "문제가 내면으로 향하는 형태의 아동기 정신장애 범주로, 불안장애, 우울장애, 신체화 증상, 사회적 위축 등 정서적 고통이 내적으로 경험되는 장애군을 포함한다.",
+    "definition_en": "A category of childhood mental disorders in which problems are directed inward, including disorders characterized by internally experienced emotional distress such as anxiety disorders, depressive disorders, somatic symptoms, and social withdrawal.",
+    "significance": "외현화 장애에 비해 발견이 늦어지기 쉬워 '조용한 위기'로 불리며, 적극적 선별과 조기 개입의 중요성이 강조된다.",
+    "key_researchers": [
+      {"name_ko": "토머스 애천바흐", "name_en": "Thomas Achenbach", "contribution": "CBCL을 통해 내현화 척도(불안/우울, 위축/우울, 신체 증상)를 체계화"},
+      {"name_ko": "필립 켄달", "name_en": "Philip Kendall", "contribution": "아동 불안에 대한 Coping Cat CBT 프로그램 개발로 내현화 문제 치료의 근거기반을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"},
+      {"name_ko": "분리불안장애", "name_en": "Separation Anxiety Disorder", "id": "CHILD_SAD_012"},
+      {"name_ko": "K-CBCL", "name_en": "K-CBCL", "id": "CHILD_KCBCL_024"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"}
+    ],
+    "sub_types": [
+      {"name": "불안/우울", "description": "과도한 걱정, 슬픔, 긴장 등 정서적 고통"},
+      {"name": "위축/우울", "description": "사회적 위축, 흥미 상실, 에너지 저하"},
+      {"name": "신체 증상", "description": "의학적 원인 없이 나타나는 두통, 복통 등"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "내현화 = 안(內)으로 숨김 → 불안, 우울, 위축이 내면에서 진행",
+      "differential": "내현화 장애는 정서적 고통이 내면에서 경험되어 겉으로 잘 드러나지 않지만, 외현화 장애는 행동으로 뚜렷하게 표출된다",
+      "key_point": "CBCL 내현화 척도는 불안/우울, 위축/우울, 신체 증상의 3개 하위 척도로 구성되며, 교사나 부모 보고만으로는 탐지가 어려울 수 있다",
+      "common_mistake": "내현화 문제를 보이는 아동이 조용하고 순응적이어서 문제가 없다고 간과하는 오류가 흔하다"
+    }
+  },
+  {
+    "id": "CHILD_CCBT_021",
+    "terminology": "아동용 인지행동치료 (CBT for Children)",
+    "terminology_ko": "아동용 인지행동치료",
+    "terminology_en": "CBT for Children",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "인지행동치료의 원리를 아동의 발달 수준에 맞게 수정·적용한 치료 접근으로, 인지적 재구조화, 행동 실험, 노출, 사회기술 훈련 등을 아동에게 적합한 형태로 실시한다.",
+    "definition_en": "A therapeutic approach adapting cognitive-behavioral therapy principles to children's developmental level, implementing cognitive restructuring, behavioral experiments, exposure, and social skills training in age-appropriate formats.",
+    "significance": "아동 불안장애, 우울장애, PTSD 등 다양한 내현화 문제에 대해 가장 강력한 근거기반을 갖춘 심리치료 접근이다.",
+    "key_researchers": [
+      {"name_ko": "필립 켄달", "name_en": "Philip Kendall", "contribution": "아동 불안에 대한 Coping Cat 프로그램을 개발하여 아동 CBT의 표준을 확립"},
+      {"name_ko": "주디스 코헨", "name_en": "Judith Cohen", "contribution": "외상 초점 CBT(TF-CBT)를 개발하여 외상 경험 아동의 근거기반 치료를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "CBT_CBT_001"},
+      {"name_ko": "놀이치료", "name_en": "Play Therapy", "id": "CHILD_PT_003"},
+      {"name_ko": "내현화 장애", "name_en": "Internalizing Disorders", "id": "CHILD_INT_020"},
+      {"name_ko": "아동 외상", "name_en": "Childhood Trauma", "id": "CHILD_TRA_027"}
+    ],
+    "sub_types": [
+      {"name": "Coping Cat", "description": "Kendall의 아동 불안장애 치료 프로그램 (FEAR 단계)"},
+      {"name": "외상 초점 CBT(TF-CBT)", "description": "외상 경험 아동을 위한 구조화된 CBT 프로토콜"},
+      {"name": "아동 우울 CBT", "description": "인지적 오류 수정과 행동 활성화를 통한 우울 치료"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Coping Cat의 FEAR = Feeling(감정 인식) + Expecting(인지 확인) + Actions(대처 행동) + Results(결과 평가)",
+      "differential": "아동용 CBT는 인지적 기법을 발달 수준에 맞게 단순화하고, 놀이·그림·이야기 등 매체를 활용하며, 부모 참여를 포함한다는 점에서 성인 CBT와 다르다",
+      "key_point": "아동 불안장애에 대한 Coping Cat의 효과는 다수의 RCT에서 입증되었으며 약 60%의 관해율을 보인다",
+      "common_mistake": "아동의 인지 발달 수준을 고려하지 않고 성인용 CBT 기법을 그대로 적용하는 오류가 있다"
+    }
+  },
+  {
+    "id": "CHILD_PCIT_022",
+    "terminology": "부모-자녀 상호작용 치료 (Parent-Child Interaction Therapy)",
+    "terminology_ko": "부모-자녀 상호작용 치료",
+    "terminology_en": "Parent-Child Interaction Therapy",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "2~7세 아동의 행동 문제를 치료하기 위해 부모-자녀 상호작용을 실시간으로 코칭하는 근거기반 치료법으로, 아동주도 상호작용(CDI)과 부모주도 상호작용(PDI)의 두 단계로 구성된다.",
+    "definition_en": "An evidence-based treatment for behavioral problems in children aged 2-7 that provides real-time coaching of parent-child interactions, consisting of two phases: Child-Directed Interaction (CDI) and Parent-Directed Interaction (PDI).",
+    "significance": "이중 코딩 시스템(DPICS)을 활용한 객관적 측정과 일방경 뒤에서의 실시간 코칭이라는 독특한 치료 구조로, 아동 외현화 문제에 강력한 효과가 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "시라 아이버그", "name_en": "Sheila Eyberg", "contribution": "PCIT를 개발하고 아이버그 아동행동검사(ECBI)를 통한 치료 효과 측정 체계를 확립"},
+      {"name_ko": "체릴 맥닐", "name_en": "Cheryl McNeil", "contribution": "PCIT의 보급과 치료자 훈련 체계 발전에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "부모훈련", "name_en": "Parent Training", "id": "CHILD_PAR_004"},
+      {"name_ko": "행동장애", "name_en": "Conduct Disorder", "id": "CHILD_CD_010"},
+      {"name_ko": "적대적 반항장애", "name_en": "Oppositional Defiant Disorder", "id": "CHILD_ODD_011"},
+      {"name_ko": "아동학대와 방임", "name_en": "Child Abuse and Neglect", "id": "CHILD_CAN_018"}
+    ],
+    "sub_types": [
+      {"name": "아동주도 상호작용(CDI)", "description": "부모가 PRIDE 기술(칭찬, 반영, 모방, 묘사, 즐거움)을 연습하는 관계 강화 단계"},
+      {"name": "부모주도 상호작용(PDI)", "description": "부모가 효과적 지시와 일관된 후속 조치를 연습하는 훈육 기술 단계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PCIT의 PRIDE = Praise(칭찬) + Reflect(반영) + Imitate(모방) + Describe(묘사) + Enthusiasm(즐거움)",
+      "differential": "PCIT는 일방경을 통한 실시간 코칭으로 부모-자녀 상호작용을 직접 변화시키지만, 부모훈련은 부모에게 기술을 가르치는 교육적 접근이다",
+      "key_point": "CDI에서 PRIDE 기술로 관계를 강화한 후, PDI에서 효과적 훈육 기술을 도입하는 순차적 구조가 핵심이다",
+      "common_mistake": "PCIT를 일반적 부모 상담으로 오해하나, 일방경과 이어폰을 활용한 실시간 코칭이라는 고유한 치료 구조를 갖고 있다"
+    }
+  },
+  {
+    "id": "CHILD_FT_023",
+    "terminology": "가족치료 (Family Therapy)",
+    "terminology_ko": "가족치료",
+    "terminology_en": "Family Therapy",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "아동의 문제를 가족 체계 내의 상호작용 패턴과 역동의 맥락에서 이해하고 개입하는 치료 접근으로, 가족 구조의 변화를 통해 아동의 증상을 완화하고자 한다.",
+    "definition_en": "A therapeutic approach that understands and intervenes in children's problems within the context of family system interaction patterns and dynamics, aiming to alleviate children's symptoms through changes in family structure.",
+    "significance": "아동 문제를 개인 내적 요인이 아닌 가족 체계의 맥락에서 이해함으로써, 개인치료만으로는 한계가 있는 사례에서 효과적인 개입을 가능하게 한다.",
+    "key_researchers": [
+      {"name_ko": "살바도르 미누친", "name_en": "Salvador Minuchin", "contribution": "구조적 가족치료를 개발하여 가족 구조의 경계, 위계, 하위체계 개념을 체계화"},
+      {"name_ko": "제이 헤일리", "name_en": "Jay Haley", "contribution": "전략적 가족치료를 발전시키고 가족 내 권력과 의사소통 패턴의 변화를 강조"}
+    ],
+    "related_concepts": [
+      {"name_ko": "부모훈련", "name_en": "Parent Training", "id": "CHILD_PAR_004"},
+      {"name_ko": "PCIT", "name_en": "PCIT", "id": "CHILD_PCIT_022"},
+      {"name_ko": "아동학대와 방임", "name_en": "Child Abuse and Neglect", "id": "CHILD_CAN_018"},
+      {"name_ko": "놀이치료", "name_en": "Play Therapy", "id": "CHILD_PT_003"}
+    ],
+    "sub_types": [
+      {"name": "구조적 가족치료", "description": "Minuchin의 가족 구조(경계, 위계, 연합) 재구조화 접근"},
+      {"name": "전략적 가족치료", "description": "증상 유지 패턴을 차단하는 지시적 개입"},
+      {"name": "다체계적 치료(MST)", "description": "심각한 반사회적 행동 청소년을 위한 가정 기반 집중 치료"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "가족치료 = 문제는 아동에게 있지 않고 가족 체계에 있다 (IP ≠ 원인)",
+      "differential": "가족치료는 가족 체계의 구조와 상호작용 변화를 목표로 하지만, 부모훈련은 부모의 행동 관리 기술 향상에 초점을 둔다",
+      "key_point": "Minuchin의 구조적 가족치료에서 '확인된 환자(IP)'는 가족 체계 역기능의 증상 담지자이며, 치료는 가족 구조 변화를 목표로 한다",
+      "common_mistake": "가족치료를 가족 구성원 모두의 개인치료를 동시에 하는 것으로 오해하나, 체계적 관점에서 상호작용 패턴 변화를 목표로 한다"
+    }
+  },
+  {
+    "id": "CHILD_KCBCL_024",
+    "terminology": "한국판 아동행동평가척도 (K-CBCL)",
+    "terminology_ko": "한국판 아동행동평가척도",
+    "terminology_en": "K-CBCL (Korean Child Behavior Checklist)",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "Achenbach의 CBCL을 한국 아동에 맞게 표준화한 부모 보고형 행동 평가 도구로, 아동의 사회적 능력과 문제 행동을 외현화·내현화 차원으로 평가한다.",
+    "definition_en": "A Korean standardized version of Achenbach's Child Behavior Checklist, a parent-report behavioral assessment tool that evaluates children's social competence and problem behaviors along externalizing and internalizing dimensions.",
+    "significance": "한국에서 가장 널리 사용되는 아동 행동 문제 선별 및 평가 도구로, 임상 현장과 연구 모두에서 표준적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "토머스 애천바흐", "name_en": "Thomas Achenbach", "contribution": "CBCL 원판을 개발하여 아동 행동 문제의 경험적 분류 체계를 확립"},
+      {"name_ko": "오경자", "name_en": "Oh Kyung-Ja", "contribution": "K-CBCL을 한국에서 표준화하여 국내 임상 및 연구 활용의 기반을 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외현화 장애", "name_en": "Externalizing Disorders", "id": "CHILD_EXT_019"},
+      {"name_ko": "내현화 장애", "name_en": "Internalizing Disorders", "id": "CHILD_INT_020"},
+      {"name_ko": "발달 평가", "name_en": "Developmental Assessment", "id": "CHILD_DA_025"},
+      {"name_ko": "행동평가", "name_en": "Behavioral Assessment", "id": "BEHAV_BA_001"}
+    ],
+    "sub_types": [
+      {"name": "K-CBCL 6-18", "description": "6~18세 아동·청소년 대상 부모 보고 척도"},
+      {"name": "K-CBCL 1.5-5", "description": "1.5~5세 유아 대상 부모 보고 척도"},
+      {"name": "K-TRF", "description": "교사 보고형 행동 평가 척도"},
+      {"name": "K-YSR", "description": "청소년 자기 보고형 행동 평가 척도"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CBCL = Child Behavior CheckList → 부모가 아동 행동을 체크하는 목록",
+      "differential": "K-CBCL은 부모 보고형이고, K-TRF는 교사 보고형이며, K-YSR은 청소년 자기 보고형으로 다중 정보원 평가가 가능하다",
+      "key_point": "CBCL의 경험적 분류는 외현화(규칙위반, 공격행동)와 내현화(불안/우울, 위축/우울, 신체증상)의 2차원 + 8개 증후군 척도 구조이다",
+      "common_mistake": "K-CBCL 점수만으로 진단을 내리는 오류가 있으나, 이 도구는 선별 및 행동 문제의 프로파일 파악을 위한 것이며 DSM 진단 도구가 아니다"
+    }
+  },
+  {
+    "id": "CHILD_DA_025",
+    "terminology": "발달 평가 (Developmental Assessment)",
+    "terminology_ko": "발달 평가",
+    "terminology_en": "Developmental Assessment",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "아동의 인지적, 언어적, 운동적, 사회정서적 발달 수준을 표준화된 도구와 관찰을 통해 체계적으로 평가하는 과정으로, 발달 지연이나 장애의 조기 발견과 개입 계획 수립을 목적으로 한다.",
+    "definition_en": "A systematic process of evaluating a child's cognitive, language, motor, and socioemotional developmental levels through standardized instruments and observation, aimed at early detection of developmental delays or disorders and intervention planning.",
+    "significance": "발달적 문제의 조기 발견이 개입 효과를 극대화하며, 다영역 평가를 통해 아동의 강점과 약점을 종합적으로 파악할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "아놀드 게젤", "name_en": "Arnold Gesell", "contribution": "발달 일정표 개념을 제시하고 최초의 체계적 발달 평가 도구를 개발"},
+      {"name_ko": "낸시 베일리", "name_en": "Nancy Bayley", "contribution": "베일리 영유아 발달검사(BSID)를 개발하여 영유아 발달 평가의 표준을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Piaget 인지발달이론", "name_en": "Piaget's Cognitive Development Theory", "id": "CHILD_PCD_005"},
+      {"name_ko": "자폐스펙트럼장애", "name_en": "Autism Spectrum Disorder", "id": "CHILD_ASD_009"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "CHILD_ID_015"},
+      {"name_ko": "지능평가", "name_en": "Intellectual Assessment", "id": "INTELL_INT_001"}
+    ],
+    "sub_types": [
+      {"name": "베일리 영유아 발달검사(BSID)", "description": "1~42개월 영유아의 인지, 언어, 운동, 사회정서, 적응행동 평가"},
+      {"name": "덴버 발달선별검사(DDST)", "description": "0~6세 아동의 발달 지연 선별 도구"},
+      {"name": "한국형 발달선별검사(K-DST)", "description": "한국 영유아의 발달 수준을 선별하는 표준화 도구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "발달 평가 = 인지 + 언어 + 운동 + 사회정서 → 4영역 종합 평가",
+      "differential": "발달 평가는 아동의 현재 발달 수준과 정상 규준을 비교하는 것이고, 지능검사는 인지 능력에 초점을 맞춘 보다 구체적인 평가이다",
+      "key_point": "Bayley-III(현재 Bayley-4)는 영유아 발달 평가의 황금표준으로, 인지, 언어, 운동, 사회정서, 적응행동 5개 영역을 평가한다",
+      "common_mistake": "발달 선별검사와 발달 진단검사를 혼동하나, 선별검사(예: DDST)는 위험군 식별이 목적이고 진단검사(예: BSID)는 구체적 수준 확인이 목적이다"
+    }
+  },
+  {
+    "id": "CHILD_SBI_026",
+    "terminology": "학교 기반 중재 (School-Based Intervention)",
+    "terminology_ko": "학교 기반 중재",
+    "terminology_en": "School-Based Intervention",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "학교 환경 내에서 아동의 학업적, 행동적, 정서적 문제를 예방하고 개입하는 프로그램으로, 보편적 예방, 선별적 개입, 집중적 치료의 다층 지원 체계(MTSS)를 포함한다.",
+    "definition_en": "Programs within the school setting that prevent and intervene in children's academic, behavioral, and emotional problems, including a multi-tiered system of supports (MTSS) with universal prevention, selective intervention, and intensive treatment.",
+    "significance": "학교는 아동이 가장 많은 시간을 보내는 환경으로, 접근성이 높고 자연스러운 맥락에서 개입이 이루어져 일반화와 유지 효과가 뛰어나다.",
+    "key_researchers": [
+      {"name_ko": "하워드 아디먼", "name_en": "Howard Adelman", "contribution": "학교 정신건강 지원의 통합적 프레임워크를 개발"},
+      {"name_ko": "마크 와이스트", "name_en": "Mark Weist", "contribution": "확장된 학교 정신건강 서비스(ESMH) 모델을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "학습장애", "name_en": "Learning Disability", "id": "CHILD_LD_014"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_008"},
+      {"name_ko": "선택적 함묵증", "name_en": "Selective Mutism", "id": "CHILD_SM_013"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "CHILD_RES_028"}
+    ],
+    "sub_types": [
+      {"name": "1단계: 보편적 예방", "description": "모든 학생 대상 사회정서학습(SEL), 학교 풍토 개선"},
+      {"name": "2단계: 선별적 개입", "description": "위험군 학생 대상 소집단 프로그램, 멘토링"},
+      {"name": "3단계: 집중적 치료", "description": "심각한 문제를 보이는 학생 대상 개별화된 전문 개입"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "MTSS 3단계 = 피라미드 → 넓은 바닥(전체 예방) → 중간(위험군) → 꼭대기(집중 치료)",
+      "differential": "학교 기반 중재는 학교 환경 내에서 이루어지는 예방-개입 연속체이고, 임상 치료는 전문 기관에서 이루어지는 개별화된 치료이다",
+      "key_point": "다층 지원 체계(MTSS)에서 약 80%의 학생은 1단계(보편적 예방)만으로 충분하고, 약 15%는 2단계, 약 5%는 3단계 지원이 필요하다",
+      "common_mistake": "학교 기반 중재를 단순한 학업 지원으로 한정하나, 정서·행동·사회적 문제까지 포괄하는 통합적 지원 체계이다"
+    }
+  },
+  {
+    "id": "CHILD_TRA_027",
+    "terminology": "아동 외상 (Childhood Trauma)",
+    "terminology_ko": "아동 외상",
+    "terminology_en": "Childhood Trauma",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "아동기에 경험하는 학대, 방임, 가정폭력 목격, 사고, 재난, 의료적 외상 등 압도적인 부정적 사건으로, 발달 전반에 걸쳐 광범위한 심리적·신경생물학적 영향을 미친다.",
+    "definition_en": "Overwhelming adverse events experienced during childhood, including abuse, neglect, witnessing domestic violence, accidents, disasters, and medical trauma, with pervasive psychological and neurobiological impacts across development.",
+    "significance": "아동기 역경 경험(ACEs) 연구는 어린 시절 외상이 성인기 신체적·정신적 건강에 누적적 영향을 미침을 입증하였으며, 외상 정보 돌봄(TIC)의 필요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "빈센트 펠리티", "name_en": "Vincent Felitti", "contribution": "아동기 역경 경험(ACEs) 연구를 주도하여 아동기 외상과 성인기 건강의 관계를 실증적으로 입증"},
+      {"name_ko": "베셀 반 데어 콜크", "name_en": "Bessel van der Kolk", "contribution": "발달적 외상 장애(DTD) 개념을 제안하고 신체 기반 외상 치료를 발전"}
+    ],
+    "related_concepts": [
+      {"name_ko": "아동학대와 방임", "name_en": "Child Abuse and Neglect", "id": "CHILD_CAN_018"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "CHILD_RES_028"},
+      {"name_ko": "애착이론", "name_en": "Attachment Theory", "id": "CHILD_ATT_006"}
+    ],
+    "sub_types": [
+      {"name": "단일 외상", "description": "사고, 자연재해 등 단회성 외상 사건"},
+      {"name": "복합 외상", "description": "만성적·반복적 대인관계 외상 (학대, 가정폭력 등)"},
+      {"name": "발달적 외상", "description": "초기 발달 시기에 양육자에 의한 반복적 외상 경험"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "ACEs = Adverse Childhood Experiences → 아동기 역경의 누적적 영향",
+      "differential": "단일 외상은 PTSD 모델로 잘 설명되지만, 복합/발달적 외상은 정서조절, 자기개념, 대인관계 전반에 걸친 광범위한 영향을 미쳐 별도의 개념화가 필요하다",
+      "key_point": "Felitti의 ACEs 연구에서 4개 이상의 ACEs를 가진 사람은 우울증 4.6배, 자살 시도 12배, 약물 사용 7배 증가를 보였다",
+      "common_mistake": "아동은 '회복력이 좋아서' 외상 영향을 쉽게 극복한다고 오해하나, 발달 중인 뇌와 심리에 미치는 영향은 더 광범위할 수 있다"
+    }
+  },
+  {
+    "id": "CHILD_RES_028",
+    "terminology": "회복탄력성 (Resilience)",
+    "terminology_ko": "회복탄력성",
+    "terminology_en": "Resilience",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "심각한 역경이나 위험 요인에 노출되었음에도 긍정적으로 적응하는 능력 또는 과정으로, 개인 내적 보호 요인과 환경적 보호 요인의 상호작용을 통해 발현된다.",
+    "definition_en": "The capacity or process of positive adaptation despite exposure to significant adversity or risk factors, manifested through the interaction of individual internal protective factors and environmental protective factors.",
+    "significance": "회복탄력성 연구는 병리 중심 관점에서 강점 중심 관점으로의 전환을 이끌었으며, 예방적 개입과 보호 요인 강화의 과학적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "에미 워너", "name_en": "Emmy Werner", "contribution": "카우아이 종단연구를 통해 위험 환경에서도 긍정적으로 적응하는 아동의 보호 요인을 최초로 규명"},
+      {"name_ko": "앤 매스턴", "name_en": "Ann Masten", "contribution": "'평범한 마법(ordinary magic)' 개념을 제시하여 회복탄력성이 특별한 능력이 아닌 일반적 적응 체계의 산물임을 강조"}
+    ],
+    "related_concepts": [
+      {"name_ko": "발달정신병리학", "name_en": "Developmental Psychopathology", "id": "CHILD_DP_002"},
+      {"name_ko": "아동 외상", "name_en": "Childhood Trauma", "id": "CHILD_TRA_027"},
+      {"name_ko": "아동학대와 방임", "name_en": "Child Abuse and Neglect", "id": "CHILD_CAN_018"},
+      {"name_ko": "학교 기반 중재", "name_en": "School-Based Intervention", "id": "CHILD_SBI_026"}
+    ],
+    "sub_types": [
+      {"name": "개인 내적 보호 요인", "description": "기질, 자기조절 능력, 인지적 역량, 자기효능감"},
+      {"name": "가족 보호 요인", "description": "안정적 양육, 가족 응집력, 긍정적 부모-자녀 관계"},
+      {"name": "지역사회 보호 요인", "description": "사회적 지지, 학교 환경, 또래 관계, 멘토"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "회복탄력성 = 고무공 → 역경에 눌려도 다시 튀어오르는 힘",
+      "differential": "회복탄력성은 역경 후 긍정적 적응 과정이고, 외상 후 성장(PTG)은 역경을 통해 이전보다 더 높은 기능 수준에 도달하는 것이다",
+      "key_point": "Masten의 '평범한 마법' 개념에서 회복탄력성은 소수의 특별한 아동만이 가진 것이 아니라, 정상적 인간 적응 체계가 작동하는 결과이다",
+      "common_mistake": "회복탄력성을 개인의 고정된 특성으로 보는 오류가 있으나, 환경과의 상호작용 속에서 발달하는 역동적 과정이다"
+    }
+  },
+  {
+    "id": "CHILD_PED_029",
+    "terminology": "소아 만성질환 심리지원 (Pediatric Psychology for Chronic Illness)",
+    "terminology_ko": "소아 만성질환 심리지원",
+    "terminology_en": "Pediatric Psychology for Chronic Illness",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "만성 신체 질환(당뇨, 천식, 암 등)을 가진 아동과 가족의 심리적 적응을 돕고, 치료 순응도를 높이며, 삶의 질을 향상시키기 위한 심리학적 평가와 개입을 제공하는 전문 분야이다.",
+    "definition_en": "A specialty area that provides psychological assessment and intervention to help children with chronic physical illnesses (diabetes, asthma, cancer, etc.) and their families adapt psychologically, improve treatment adherence, and enhance quality of life.",
+    "significance": "의료 기술 발전으로 만성질환 아동의 생존율이 높아지면서 질병 관리와 심리적 적응이라는 장기적 과제에 대한 심리학적 지원의 필요성이 증가하고 있다.",
+    "key_researchers": [
+      {"name_ko": "로건 라이트", "name_en": "Logan Wright", "contribution": "소아심리학(pediatric psychology)이라는 용어를 최초로 사용하고 이 분야를 독립적 전문 영역으로 확립"},
+      {"name_ko": "데니스 드로타", "name_en": "Dennis Drotar", "contribution": "만성질환 아동의 가족 적응 모델을 개발하고 소아심리학의 연구 방법론을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "아동임상심리학", "name_en": "Child Clinical Psychology", "id": "CHILD_CCP_001"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"},
+      {"name_ko": "가족치료", "name_en": "Family Therapy", "id": "CHILD_FT_023"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "CHILD_RES_028"}
+    ],
+    "sub_types": [
+      {"name": "치료 순응 개입", "description": "약물 복용, 식이 조절 등 의료 지시 이행률 향상 프로그램"},
+      {"name": "통증 관리", "description": "만성 통증이나 시술 관련 통증에 대한 심리학적 개입"},
+      {"name": "심리사회적 적응 지원", "description": "질병으로 인한 학교 적응, 또래 관계, 자기개념 문제 지원"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "소아심리학 = 소아과 + 심리학 → 아픈 아이의 마음까지 돌본다",
+      "differential": "소아심리학은 신체 질환을 가진 아동의 심리적 적응에 초점을 두지만, 아동임상심리학은 정신건강 문제 전반을 다루는 더 넓은 분야이다",
+      "key_point": "Logan Wright(1967)가 소아심리학 용어를 최초로 사용했으며, 의료팀 내에서 심리학자의 자문-연계(C-L) 역할이 핵심적이다",
+      "common_mistake": "만성질환 아동의 심리적 문제를 질병의 불가피한 결과로 방치하나, 적극적 심리적 개입이 치료 순응과 삶의 질을 유의하게 개선한다"
+    }
+  },
+  {
+    "id": "CHILD_ENC_030",
+    "terminology": "유분증 (Encopresis)",
+    "terminology_ko": "유분증",
+    "terminology_en": "Encopresis",
+    "category": "CHILD",
+    "category_name": "아동임상심리학 (Child Clinical Psychology)",
+    "definition": "만 4세 이상의 아동이 부적절한 장소(옷이나 바닥)에 반복적으로 대변을 보는 상태로, 변비를 동반하는 보유형과 변비 없이 나타나는 비보유형으로 구분된다.",
+    "definition_en": "Repeated passage of feces into inappropriate places (clothing or floor) by a child aged 4 years or older, classified into retentive type with constipation and non-retentive type without constipation.",
+    "significance": "유분증 아동의 약 80%가 변비 동반 보유형으로, 의학적 평가와 행동 개입의 통합적 접근이 필요하며, 아동에게 심각한 수치심과 사회적 문제를 유발한다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 크리스토퍼슨", "name_en": "Edward Christophersen", "contribution": "유분증의 행동치료적 개입 프로토콜을 체계화하고 의학-행동 통합 접근을 발전"},
+      {"name_ko": "파울 허만", "name_en": "Paul Hyman", "contribution": "소아 기능성 위장관 장애의 진단 및 치료 가이드라인 개발에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "야뇨증", "name_en": "Enuresis", "id": "CHILD_ENR_017"},
+      {"name_ko": "발달 평가", "name_en": "Developmental Assessment", "id": "CHILD_DA_025"},
+      {"name_ko": "아동용 CBT", "name_en": "CBT for Children", "id": "CHILD_CCBT_021"},
+      {"name_ko": "부모훈련", "name_en": "Parent Training", "id": "CHILD_PAR_004"}
+    ],
+    "sub_types": [
+      {"name": "보유형(변비 동반)", "description": "만성 변비로 인한 대변 저류와 범람성 실금, 전체의 약 80%"},
+      {"name": "비보유형(변비 미동반)", "description": "변비 없이 부적절한 장소에 대변을 보며, 정서적·행동적 요인이 관련"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "유분증 = 유(어린이) + 분(대변) + 증 → 4세 이상 아동의 반복적 대변 실수",
+      "differential": "유분증 보유형은 만성 변비가 원인으로 의학적 치료(대변 제거)가 선행되어야 하지만, 비보유형은 심리적·행동적 요인이 주된 원인이다",
+      "key_point": "보유형 유분증의 치료는 1단계(대변 제거) → 2단계(유지 요법) → 3단계(규칙적 배변 습관 훈련)의 순서로 진행된다",
+      "common_mistake": "유분증을 의도적인 행동이나 훈육 실패로 오해하나, 특히 보유형은 만성 변비라는 의학적 기전이 관여하므로 처벌은 부적절하다"
+    }
+  }
+]

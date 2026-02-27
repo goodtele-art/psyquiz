@@ -1,0 +1,932 @@
+[
+  {
+    "id": "HEALTH_HP_001",
+    "terminology": "건강심리학 (Health Psychology)",
+    "terminology_ko": "건강심리학",
+    "terminology_en": "Health Psychology",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "심리학적 원리와 방법을 활용하여 건강 증진, 질병 예방, 질병의 원인 및 진단과 관련된 심리적·행동적 요인을 연구하고 건강관리 체계를 개선하는 심리학의 전문 분야이다.",
+    "definition_en": "A specialty area of psychology that applies psychological principles and methods to promote health, prevent illness, study psychological and behavioral factors related to the causes and diagnosis of disease, and improve healthcare systems.",
+    "significance": "신체 건강과 정신건강의 상호작용을 과학적으로 규명하며, 임상심리학의 주요 응용 영역으로 만성질환 관리와 건강행동 증진에 핵심적 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "조셉 매타라조", "name_en": "Joseph Matarazzo", "contribution": "건강심리학을 독립 분야로 정의하고 APA 건강심리학 분과(Division 38) 설립에 기여"},
+      {"name_ko": "셸리 테일러", "name_en": "Shelley Taylor", "contribution": "'건강심리학' 교과서 저자로 건강심리학 교육 체계화에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "생물심리사회 모델", "name_en": "Biopsychosocial Model", "id": "HEALTH_BPS_002"},
+      {"name_ko": "행동의학", "name_en": "Behavioral Medicine", "id": "HEALTH_BM_029"},
+      {"name_ko": "건강증진", "name_en": "Health Promotion", "id": "HEALTH_HPR_030"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"}
+    ],
+    "sub_types": [
+      {"name": "임상건강심리학", "description": "만성질환자의 심리적 적응과 치료를 다루는 분야"},
+      {"name": "지역사회건강심리학", "description": "인구 수준의 건강 증진과 질병 예방을 다루는 분야"},
+      {"name": "직업건강심리학", "description": "직장 내 건강과 안녕을 다루는 분야"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "건강심리학 = 건강 + 심리학, 몸과 마음의 연결고리를 연구",
+      "differential": "___은 건강·질병에 대한 심리학적 접근인 반면, 행동의학은 의학과 행동과학의 학제간 분야이다.",
+      "key_point": "Matarazzo가 1980년 APA에서 건강심리학을 공식 정의하였으며, 건강 증진·질병 예방·치료·건강관리 체계 개선의 4가지 목표를 포함한다.",
+      "common_mistake": "건강심리학을 단순한 정신건강 분야로 오해하기 쉬우나, 신체 건강에 영향을 미치는 심리·행동적 요인을 연구하는 분야이다."
+    }
+  },
+  {
+    "id": "HEALTH_BPS_002",
+    "terminology": "생물심리사회 모델 (Biopsychosocial Model)",
+    "terminology_ko": "생물심리사회 모델",
+    "terminology_en": "Biopsychosocial Model",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "건강과 질병을 생물학적, 심리학적, 사회적 요인의 복합적 상호작용의 결과로 이해하는 통합적 모델로, 기존의 생의학적 모델을 대체하여 전인적 접근을 강조한다.",
+    "definition_en": "An integrative model that understands health and illness as the result of complex interactions among biological, psychological, and social factors, replacing the traditional biomedical model by emphasizing a holistic approach.",
+    "significance": "건강심리학의 이론적 기반으로, 질병의 발생·경과·치료에서 심리·사회적 요인의 역할을 인정하는 현대 의료의 패러다임이다.",
+    "key_researchers": [
+      {"name_ko": "조지 엥겔", "name_en": "George Engel", "contribution": "1977년 생물심리사회 모델을 처음 제안하여 생의학적 모델의 한계를 극복"},
+      {"name_ko": "프랜시스카 보렐-카리오", "name_en": "Francesc Borrell-Carrió", "contribution": "생물심리사회 모델의 임상 적용과 실천적 프레임워크를 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HP_001"},
+      {"name_ko": "심리신경면역학", "name_en": "Psychoneuroimmunology", "id": "HEALTH_PNI_012"},
+      {"name_ko": "사회적 지지", "name_en": "Social Support", "id": "HEALTH_SS_007"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BPS = Bio(생물) + Psycho(심리) + Social(사회), 3요인 통합 모델",
+      "differential": "생의학적 모델이 질병의 생물학적 원인만 강조하는 반면, ___은 심리적·사회적 요인을 동등하게 고려한다.",
+      "key_point": "George Engel이 1977년 Science지에 발표한 논문에서 처음 제안하였으며, 건강심리학의 이론적 토대가 되었다.",
+      "common_mistake": "3요인이 단순히 병렬적으로 나열되는 것이 아니라 서로 상호작용하며 역동적으로 영향을 미친다는 점을 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "HEALTH_STR_003",
+    "terminology": "스트레스 (Stress)",
+    "terminology_ko": "스트레스",
+    "terminology_en": "Stress",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "개인의 자원이나 적응 능력을 초과하는 것으로 평가되는 환경적 요구나 위협에 대한 심리적·생리적 반응으로, 신체 건강과 정신건강 모두에 광범위한 영향을 미친다.",
+    "definition_en": "A psychological and physiological response to environmental demands or threats appraised as exceeding one's resources or adaptive capacity, broadly affecting both physical and mental health.",
+    "significance": "건강심리학의 핵심 주제로, 만성 스트레스는 심혈관 질환, 면역 기능 저하, 정신건강 문제 등 다양한 건강 문제의 위험 요인으로 확인되었다.",
+    "key_researchers": [
+      {"name_ko": "한스 셀리에", "name_en": "Hans Selye", "contribution": "스트레스 개념을 과학적으로 정립하고 일반적응증후군(GAS) 이론을 제안"},
+      {"name_ko": "리처드 라자러스", "name_en": "Richard Lazarus", "contribution": "스트레스의 인지적 평가 이론을 발전시킴"},
+      {"name_ko": "월터 캐넌", "name_en": "Walter Cannon", "contribution": "투쟁-도피 반응(fight-or-flight response)을 최초로 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반적응증후군", "name_en": "General Adaptation Syndrome", "id": "HEALTH_GAS_004"},
+      {"name_ko": "Lazarus 인지평가 모델", "name_en": "Lazarus Cognitive Appraisal Model", "id": "HEALTH_LCA_005"},
+      {"name_ko": "대처 전략", "name_en": "Coping Strategies", "id": "HEALTH_COP_006"},
+      {"name_ko": "심리신경면역학", "name_en": "Psychoneuroimmunology", "id": "HEALTH_PNI_012"}
+    ],
+    "sub_types": [
+      {"name": "유스트레스", "description": "적응적이고 긍정적인 효과를 유발하는 적절한 수준의 스트레스"},
+      {"name": "디스트레스", "description": "과도하거나 만성적으로 부정적인 영향을 미치는 스트레스"},
+      {"name": "급성 스트레스", "description": "단기적이고 즉각적인 위협에 대한 반응"},
+      {"name": "만성 스트레스", "description": "장기간 지속되는 스트레스로 건강에 특히 해로움"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "스트레스 = 요구(demand) > 자원(resource), 균형이 깨질 때 발생",
+      "differential": "___는 외부 요구에 대한 전반적 반응인 반면, 불안은 미래 위협에 대한 정서적 반응으로 보다 구체적인 심리적 상태이다.",
+      "key_point": "Selye는 스트레스를 비특이적 반응으로, Lazarus는 인지적 평가가 매개하는 과정으로 보았다.",
+      "common_mistake": "스트레스를 항상 부정적인 것으로 오해하기 쉬우나, 적절한 수준의 유스트레스는 동기와 수행을 촉진한다."
+    }
+  },
+  {
+    "id": "HEALTH_GAS_004",
+    "terminology": "일반적응증후군 (General Adaptation Syndrome)",
+    "terminology_ko": "일반적응증후군",
+    "terminology_en": "General Adaptation Syndrome",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "Selye가 제안한 스트레스 반응의 3단계 모델로, 스트레스원에 노출되면 경고반응, 저항, 소진의 순서로 신체가 반응하며 장기 스트레스 시 건강이 심각하게 손상된다고 설명한다.",
+    "definition_en": "Selye's three-stage model of stress response proposing that the body responds to stressors through alarm, resistance, and exhaustion stages, with prolonged stress leading to serious health deterioration.",
+    "significance": "스트레스와 신체 질환의 관계를 최초로 체계적으로 설명한 이론으로, 만성 스트레스가 건강에 미치는 영향을 이해하는 기초를 마련하였다.",
+    "key_researchers": [
+      {"name_ko": "한스 셀리에", "name_en": "Hans Selye", "contribution": "1936년 동물 실험을 통해 일반적응증후군 개념을 최초로 제안하고 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "Lazarus 인지평가 모델", "name_en": "Lazarus Cognitive Appraisal Model", "id": "HEALTH_LCA_005"},
+      {"name_ko": "심리신경면역학", "name_en": "Psychoneuroimmunology", "id": "HEALTH_PNI_012"},
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_REL_015"}
+    ],
+    "sub_types": [
+      {"name": "경고반응 단계", "description": "스트레스원을 인식하고 투쟁-도피 반응이 활성화되는 초기 단계"},
+      {"name": "저항 단계", "description": "신체가 스트레스에 적응하려고 노력하며 항상성 회복을 시도하는 단계"},
+      {"name": "소진 단계", "description": "스트레스가 장기화되어 신체 자원이 고갈되고 면역력이 저하되는 단계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "GAS = 경고(Alarm) → 저항(Resistance) → 소진(Exhaustion), '아레' 순서",
+      "differential": "___는 신체의 비특이적 생리 반응에 초점을 맞추는 반면, Lazarus의 모델은 인지적 평가를 스트레스 반응의 핵심 매개 요인으로 강조한다.",
+      "key_point": "3단계 순서가 중요하며, 소진 단계에서 면역 기능 저하, 심혈관 문제 등 실제 질병이 발생할 수 있다.",
+      "common_mistake": "GAS를 현대적 스트레스 이론으로 간주하는 경우가 있으나, 인지적 요인을 고려하지 않는다는 한계가 지적되었다."
+    }
+  },
+  {
+    "id": "HEALTH_LCA_005",
+    "terminology": "Lazarus 인지평가 모델 (Lazarus Cognitive Appraisal Model)",
+    "terminology_ko": "Lazarus 인지평가 모델",
+    "terminology_en": "Lazarus Cognitive Appraisal Model",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "스트레스 반응이 사건 자체가 아닌 개인의 인지적 평가에 의해 결정된다는 이론으로, 1차 평가에서 위협 여부를 판단하고 2차 평가에서 대처 자원을 평가하는 과정으로 구성된다.",
+    "definition_en": "A theory proposing that stress responses are determined by cognitive appraisal rather than the event itself, consisting of primary appraisal (evaluating the threat) and secondary appraisal (evaluating coping resources).",
+    "significance": "스트레스 연구에 인지적 관점을 도입한 획기적 이론으로, 동일한 사건에 대해 개인마다 다른 스트레스 반응을 보이는 이유를 설명한다.",
+    "key_researchers": [
+      {"name_ko": "리처드 라자러스", "name_en": "Richard Lazarus", "contribution": "스트레스의 인지적 평가 이론(transactional model)을 제안"},
+      {"name_ko": "수전 폴크먼", "name_en": "Susan Folkman", "contribution": "Lazarus와 함께 스트레스와 대처의 교류 모델을 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "대처 전략", "name_en": "Coping Strategies", "id": "HEALTH_COP_006"},
+      {"name_ko": "일반적응증후군", "name_en": "General Adaptation Syndrome", "id": "HEALTH_GAS_004"},
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "HEALTH_SE_010"}
+    ],
+    "sub_types": [
+      {"name": "1차 평가", "description": "사건이 자신에게 위협적인지, 도전적인지, 무관한지를 판단하는 과정"},
+      {"name": "2차 평가", "description": "자신의 대처 자원과 선택지를 평가하는 과정"},
+      {"name": "재평가", "description": "대처 노력 후 상황과 자원을 다시 평가하는 피드백 과정"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "1차 = '이게 위험한가?', 2차 = '내가 감당할 수 있나?', 재평가 = '결과는 어떤가?'",
+      "differential": "Selye의 GAS가 스트레스를 보편적 생리 반응으로 본 반면, ___는 동일 사건도 개인의 인지적 해석에 따라 스트레스 여부가 달라진다고 본다.",
+      "key_point": "핵심은 '사건 자체'가 아닌 '평가'가 스트레스를 결정한다는 점이며, 1차와 2차 평가가 동시적으로 일어날 수 있다.",
+      "common_mistake": "1차 평가와 2차 평가가 반드시 순차적으로 일어나는 것은 아니며, 두 과정이 상호작용하면서 역동적으로 진행된다."
+    }
+  },
+  {
+    "id": "HEALTH_COP_006",
+    "terminology": "대처 전략 (Coping Strategies)",
+    "terminology_ko": "대처 전략",
+    "terminology_en": "Coping Strategies",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "스트레스 상황에서 위협을 관리하거나 줄이기 위해 사용하는 인지적·행동적 노력으로, 크게 문제중심 대처와 정서중심 대처로 구분된다.",
+    "definition_en": "Cognitive and behavioral efforts used to manage or reduce threat in stressful situations, broadly categorized into problem-focused coping and emotion-focused coping.",
+    "significance": "대처 방식에 따라 스트레스의 건강 영향이 달라지며, 효과적인 대처 전략 교육은 건강심리학적 개입의 핵심 요소이다.",
+    "key_researchers": [
+      {"name_ko": "리처드 라자러스", "name_en": "Richard Lazarus", "contribution": "문제중심 대처와 정서중심 대처의 이분법적 분류 체계를 제안"},
+      {"name_ko": "수전 폴크먼", "name_en": "Susan Folkman", "contribution": "대처 전략의 측정 도구(WCQ)를 개발하고 의미기반 대처 개념을 추가"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Lazarus 인지평가 모델", "name_en": "Lazarus Cognitive Appraisal Model", "id": "HEALTH_LCA_005"},
+      {"name_ko": "사회적 지지", "name_en": "Social Support", "id": "HEALTH_SS_007"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RES_024"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"}
+    ],
+    "sub_types": [
+      {"name": "문제중심 대처", "description": "스트레스의 원인을 직접 해결하거나 변화시키려는 노력(정보 수집, 계획 수립 등)"},
+      {"name": "정서중심 대처", "description": "스트레스로 인한 부정적 감정을 조절하려는 노력(정서 표현, 재해석 등)"},
+      {"name": "회피중심 대처", "description": "스트레스 상황을 회피하거나 부인하는 전략으로 장기적으로 부적응적"},
+      {"name": "의미기반 대처", "description": "Folkman이 추가한 개념으로, 역경에서 의미와 성장을 찾는 대처"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "문제중심 = 문제를 바꾼다, 정서중심 = 감정을 다스린다",
+      "differential": "___의 문제중심 대처는 상황을 변화시키려는 노력인 반면, 정서중심 대처는 상황에 대한 감정적 반응을 조절하려는 노력이다.",
+      "key_point": "두 가지 대처 유형 중 어느 것이 더 효과적인지는 상황의 통제 가능성에 따라 달라진다.",
+      "common_mistake": "문제중심 대처가 항상 더 적응적이라고 생각하기 쉬우나, 통제 불가능한 상황에서는 정서중심 대처가 더 효과적일 수 있다."
+    }
+  },
+  {
+    "id": "HEALTH_SS_007",
+    "terminology": "사회적 지지 (Social Support)",
+    "terminology_ko": "사회적 지지",
+    "terminology_en": "Social Support",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "타인으로부터 제공받는 정서적, 도구적, 정보적, 평가적 도움으로, 스트레스의 부정적 영향을 완충하고 신체적·심리적 건강을 증진하는 중요한 보호 요인이다.",
+    "definition_en": "Emotional, instrumental, informational, and appraisal assistance received from others, serving as an important protective factor that buffers the negative effects of stress and promotes physical and psychological health.",
+    "significance": "사회적 지지는 스트레스-건강 관계에서 완충 효과와 직접 효과를 모두 가지며, 사망률 감소와 질병 회복 촉진에 기여한다는 방대한 연구 근거가 있다.",
+    "key_researchers": [
+      {"name_ko": "셸던 코헨", "name_en": "Sheldon Cohen", "contribution": "사회적 지지의 스트레스 완충 모델을 실증적으로 검증"},
+      {"name_ko": "존 카시오포", "name_en": "John Cacioppo", "contribution": "사회적 고립과 외로움이 건강에 미치는 부정적 영향을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대처 전략", "name_en": "Coping Strategies", "id": "HEALTH_COP_006"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RES_024"},
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"}
+    ],
+    "sub_types": [
+      {"name": "정서적 지지", "description": "공감, 사랑, 돌봄 등 정서적 안정감을 제공하는 지지"},
+      {"name": "도구적 지지", "description": "물질적 자원이나 실질적 도움을 제공하는 지지"},
+      {"name": "정보적 지지", "description": "문제 해결에 필요한 조언이나 정보를 제공하는 지지"},
+      {"name": "평가적 지지", "description": "자기평가에 도움이 되는 피드백을 제공하는 지지"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "사회적 지지 4유형 = 정(정서)도(도구)정(정보)평(평가), '정도 정평'",
+      "differential": "___는 타인으로부터 받는 외적 자원인 반면, 회복탄력성은 개인 내적 역량으로 스트레스에 대처하는 능력이다.",
+      "key_point": "완충 모델(buffering model)에 따르면 사회적 지지는 특히 높은 스트레스 상황에서 건강 보호 효과가 크다.",
+      "common_mistake": "지지의 양보다 질이 중요하며, 지각된 사회적 지지가 실제 받은 지지보다 건강에 더 큰 영향을 미친다."
+    }
+  },
+  {
+    "id": "HEALTH_HBM_008",
+    "terminology": "건강신념 모델 (Health Belief Model)",
+    "terminology_ko": "건강신념 모델",
+    "terminology_en": "Health Belief Model",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "건강 관련 행동을 설명하는 인지적 모델로, 지각된 취약성, 심각성, 이익, 장벽의 4가지 신념이 건강행동 실천 여부를 결정한다고 설명한다.",
+    "definition_en": "A cognitive model explaining health-related behavior, proposing that four beliefs—perceived susceptibility, severity, benefits, and barriers—determine whether health behaviors are adopted.",
+    "significance": "건강행동 예측에 가장 널리 사용되는 모델 중 하나로, 예방 접종, 검진, 금연 등 다양한 건강행동 프로그램의 이론적 기반을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "아이언 로젠스톡", "name_en": "Irwin Rosenstock", "contribution": "1960년대 건강신념 모델을 최초로 제안"},
+      {"name_ko": "마셜 베커", "name_en": "Marshall Becker", "contribution": "건강신념 모델을 발전시키고 다양한 건강행동에 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강행동변화 단계 모델", "name_en": "Transtheoretical Model", "id": "HEALTH_TTM_009"},
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "HEALTH_SE_010"},
+      {"name_ko": "건강증진", "name_en": "Health Promotion", "id": "HEALTH_HPR_030"},
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HBM 4요소 = 취(취약성)심(심각성)이(이익)장(장벽), '취심이장'",
+      "differential": "___는 건강행동의 시작에 영향을 미치는 인지적 요인에 초점을 둔 반면, 범이론적 모델은 행동변화의 단계적 과정에 초점을 둔다.",
+      "key_point": "지각된 취약성과 심각성이 위협을 형성하고, 지각된 이익과 장벽이 행동 선택에 영향을 미친다.",
+      "common_mistake": "건강신념 모델이 모든 건강행동을 예측할 수 있다고 과대평가하기 쉬우나, 습관적 행동이나 환경적 제약을 설명하지 못한다."
+    }
+  },
+  {
+    "id": "HEALTH_TTM_009",
+    "terminology": "건강행동변화 단계 모델 (Transtheoretical Model)",
+    "terminology_ko": "건강행동변화 단계 모델",
+    "terminology_en": "Transtheoretical Model",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "행동변화가 일시적 사건이 아닌 단계적 과정이라는 관점에서, 전숙고, 숙고, 준비, 실행, 유지의 5단계를 통해 건강행동 변화가 이루어진다고 설명하는 통합 모델이다.",
+    "definition_en": "An integrative model explaining that behavior change occurs through five stages—precontemplation, contemplation, preparation, action, and maintenance—viewing change as a gradual process rather than a single event.",
+    "significance": "단계에 맞춘 맞춤형 개입(stage-matched intervention)을 가능하게 하여 금연, 운동, 식이 등 건강행동 프로그램의 효과를 높인다.",
+    "key_researchers": [
+      {"name_ko": "제임스 프로차스카", "name_en": "James Prochaska", "contribution": "범이론적 모델(TTM)을 제안하고 행동변화 단계 이론을 체계화"},
+      {"name_ko": "카를로 디클레멘테", "name_en": "Carlo DiClemente", "contribution": "Prochaska와 함께 변화 단계와 변화 과정을 통합적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강신념 모델", "name_en": "Health Belief Model", "id": "HEALTH_HBM_008"},
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "HEALTH_SE_010"},
+      {"name_ko": "건강증진", "name_en": "Health Promotion", "id": "HEALTH_HPR_030"},
+      {"name_ko": "동기면담", "name_en": "Motivational Interviewing", "id": ""}
+    ],
+    "sub_types": [
+      {"name": "전숙고 단계", "description": "6개월 이내 행동변화 의도가 없는 단계"},
+      {"name": "숙고 단계", "description": "6개월 이내 변화를 고려하지만 아직 실행하지 않는 단계"},
+      {"name": "준비 단계", "description": "1개월 이내 행동변화를 시작하려고 구체적 계획을 세우는 단계"},
+      {"name": "실행 단계", "description": "실제로 행동변화를 시작한 후 6개월 미만인 단계"},
+      {"name": "유지 단계", "description": "행동변화를 6개월 이상 지속하고 재발을 방지하는 단계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "전숙고 → 숙고 → 준비 → 실행 → 유지 = '전숙준실유'",
+      "differential": "건강신념 모델이 행동 결정의 인지적 요인을 설명하는 반면, ___는 행동이 실제로 변화하는 시간적 과정과 단계를 설명한다.",
+      "key_point": "각 단계에 맞는 차별화된 개입이 필요하며, 전숙고 단계의 내담자에게 바로 실행을 요구하면 실패할 가능성이 높다.",
+      "common_mistake": "변화 단계가 항상 순차적으로만 진행되는 것은 아니며 재발과 순환이 자연스러운 과정이다."
+    }
+  },
+  {
+    "id": "HEALTH_SE_010",
+    "terminology": "자기효능감 (Self-Efficacy)",
+    "terminology_ko": "자기효능감",
+    "terminology_en": "Self-Efficacy",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "특정 과제를 성공적으로 수행할 수 있다는 자신의 능력에 대한 신념으로, 건강행동의 시작과 유지, 스트레스 대처에 핵심적인 역할을 하는 인지적 요인이다.",
+    "definition_en": "A belief in one's ability to successfully perform a specific task, serving as a key cognitive factor in initiating and maintaining health behaviors and coping with stress.",
+    "significance": "건강신념 모델, 범이론적 모델 등 주요 건강행동 이론에 공통적으로 포함되는 핵심 변인으로, 자기효능감 증진이 건강 개입의 중요한 목표이다.",
+    "key_researchers": [
+      {"name_ko": "앨버트 반두라", "name_en": "Albert Bandura", "contribution": "사회인지이론에서 자기효능감 개념을 제안하고 건강행동에 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강행동변화 단계 모델", "name_en": "Transtheoretical Model", "id": "HEALTH_TTM_009"},
+      {"name_ko": "건강신념 모델", "name_en": "Health Belief Model", "id": "HEALTH_HBM_008"},
+      {"name_ko": "낙관주의", "name_en": "Optimism", "id": "HEALTH_OPT_026"},
+      {"name_ko": "학습된 무력감", "name_en": "Learned Helplessness", "id": "HEALTH_LH_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기효능감 = '나는 할 수 있다'는 믿음, Bandura의 4가지 원천: 성공 경험, 대리 경험, 언어적 설득, 생리적 상태",
+      "differential": "___는 특정 과제에 대한 능력 신념인 반면, 자존감은 자신의 전반적 가치에 대한 평가이다.",
+      "key_point": "자기효능감의 4가지 원천 중 성공 경험(mastery experience)이 가장 강력한 영향력을 가진다.",
+      "common_mistake": "자기효능감을 일반적 자신감과 혼동하기 쉬우나, 과제-특이적(task-specific)인 개념이다."
+    }
+  },
+  {
+    "id": "HEALTH_TABP_011",
+    "terminology": "A형 행동 (Type A Behavior Pattern)",
+    "terminology_ko": "A형 행동",
+    "terminology_en": "Type A Behavior Pattern",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "경쟁적이고 시간 압박감이 높으며 적대감과 공격성을 특징으로 하는 행동 양식으로, 관상동맥 심장질환의 위험 요인으로 연구되었다.",
+    "definition_en": "A behavioral pattern characterized by competitiveness, time urgency, hostility, and aggression, studied as a risk factor for coronary heart disease.",
+    "significance": "심리적 요인이 심장질환에 영향을 미칠 수 있다는 것을 보여준 초기 연구로, 건강심리학 발전의 촉매 역할을 하였다.",
+    "key_researchers": [
+      {"name_ko": "마이어 프리드먼", "name_en": "Meyer Friedman", "contribution": "심장병 전문의로서 A형 행동 패턴 개념을 최초로 제안"},
+      {"name_ko": "레이 로젠만", "name_en": "Ray Rosenman", "contribution": "Friedman과 함께 A형 행동과 관상동맥질환의 관계를 역학 연구로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "심리신경면역학", "name_en": "Psychoneuroimmunology", "id": "HEALTH_PNI_012"},
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HP_001"},
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_REL_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "A형 = Aggressive(공격적), Ambitious(야심적), Angry(분노), 'AAA 성격'",
+      "differential": "___는 경쟁적·적대적 행동 패턴 전체를 지칭하나, 후속 연구에서는 적대감(hostility) 구성 요소가 심장질환의 핵심 위험 요인으로 밝혀졌다.",
+      "key_point": "A형 행동의 모든 요소가 아닌 적대감과 분노 구성 요소가 관상동맥질환과 가장 강한 관련성을 보인다.",
+      "common_mistake": "A형 행동이 반드시 심장질환을 유발한다고 단정하기 쉬우나, 적대감 외의 요소(시간 압박, 경쟁심)의 독립적 기여는 명확하지 않다."
+    }
+  },
+  {
+    "id": "HEALTH_PNI_012",
+    "terminology": "심리신경면역학 (Psychoneuroimmunology)",
+    "terminology_ko": "심리신경면역학",
+    "terminology_en": "Psychoneuroimmunology",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "심리적 상태, 신경계, 면역계 사이의 상호작용을 연구하는 학제간 분야로, 스트레스와 정서가 면역 기능과 질병 취약성에 미치는 영향을 탐구한다.",
+    "definition_en": "An interdisciplinary field studying interactions among psychological states, the nervous system, and the immune system, exploring how stress and emotions affect immune function and disease vulnerability.",
+    "significance": "심리적 요인이 면역 기능에 직접 영향을 미친다는 과학적 근거를 제공하여 심신 연결의 생물학적 기제를 밝히는 데 기여하였다.",
+    "key_researchers": [
+      {"name_ko": "로버트 에이더", "name_en": "Robert Ader", "contribution": "면역 반응의 조건형성을 발견하여 심리신경면역학 분야를 창시"},
+      {"name_ko": "니콜라스 코헨", "name_en": "Nicholas Cohen", "contribution": "Ader와 함께 면역억제의 고전적 조건형성 실험을 수행"},
+      {"name_ko": "자니스 키콜트-글레이저", "name_en": "Janice Kiecolt-Glaser", "contribution": "스트레스가 면역 기능에 미치는 영향을 인간 대상 연구로 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "생물심리사회 모델", "name_en": "Biopsychosocial Model", "id": "HEALTH_BPS_002"},
+      {"name_ko": "일반적응증후군", "name_en": "General Adaptation Syndrome", "id": "HEALTH_GAS_004"},
+      {"name_ko": "마음챙김", "name_en": "Mindfulness", "id": "HEALTH_MF_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PNI = Psycho(심리) + Neuro(신경) + Immunology(면역), 마음이 면역을 바꾼다",
+      "differential": "___는 심리-신경-면역의 양방향 상호작용을 연구하는 반면, 행동의학은 건강과 관련된 행동적 요인에 보다 폭넓게 초점을 둔다.",
+      "key_point": "Ader와 Cohen의 면역 조건형성 실험(1975)이 분야 창시의 결정적 연구이며, 시험 스트레스가 NK세포 활성을 저하시킨다는 연구가 대표적이다.",
+      "common_mistake": "심리적 요인이 면역을 직접 '통제'할 수 있다고 과대해석하기 쉬우나, 심리적 요인은 면역 기능에 영향을 미치는 여러 요인 중 하나이다."
+    }
+  },
+  {
+    "id": "HEALTH_CHP_013",
+    "terminology": "만성통증 관리 (Chronic Pain Management)",
+    "terminology_ko": "만성통증 관리",
+    "terminology_en": "Chronic Pain Management",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "3개월 이상 지속되는 만성통증에 대해 인지행동적, 심리교육적, 다학제적 접근을 통합하여 통증의 강도와 기능적 장애를 감소시키고 삶의 질을 향상하는 심리학적 개입이다.",
+    "definition_en": "Psychological interventions that integrate cognitive-behavioral, psychoeducational, and multidisciplinary approaches to reduce pain intensity and functional disability and improve quality of life for chronic pain lasting over three months.",
+    "significance": "만성통증의 생물심리사회 모델을 바탕으로 심리학적 개입이 약물 치료를 보완하는 효과적 접근임이 다수의 메타분석으로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "로널드 멜잭", "name_en": "Ronald Melzack", "contribution": "관문조절 이론(gate control theory)을 제안하여 통증의 심리적 조절 기제를 밝힘"},
+      {"name_ko": "데니스 터크", "name_en": "Dennis Turk", "contribution": "만성통증에 대한 인지행동적 접근을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "바이오피드백", "name_en": "Biofeedback", "id": "HEALTH_BF_014"},
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_REL_015"},
+      {"name_ko": "마음챙김", "name_en": "Mindfulness", "id": "HEALTH_MF_016"},
+      {"name_ko": "생물심리사회 모델", "name_en": "Biopsychosocial Model", "id": "HEALTH_BPS_002"}
+    ],
+    "sub_types": [
+      {"name": "인지행동 통증관리", "description": "통증 관련 역기능적 사고를 수정하고 적응적 대처 전략을 훈련"},
+      {"name": "수용전념 통증관리", "description": "통증에 대한 수용을 증진하고 가치 기반 행동을 촉진"},
+      {"name": "다학제적 통증관리", "description": "의학, 심리학, 물리치료 등을 통합한 팀 접근"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "관문조절 이론 = 심리적 '관문'이 통증 신호를 차단하거나 개방",
+      "differential": "___는 만성적으로 지속되는 통증에 대한 종합적 심리 개입인 반면, 급성통증 관리는 주로 약물적·의학적 접근에 의존한다.",
+      "key_point": "Melzack의 관문조절 이론이 통증에 대한 심리적 개입의 이론적 근거를 제공하였다.",
+      "common_mistake": "만성통증이 '심리적인 것'이라고 환자를 비난하는 오류가 있으나, 통증은 실재하며 심리적 요인이 통증 경험을 조절하는 것이다."
+    }
+  },
+  {
+    "id": "HEALTH_BF_014",
+    "terminology": "바이오피드백 (Biofeedback)",
+    "terminology_ko": "바이오피드백",
+    "terminology_en": "Biofeedback",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "심박수, 근긴장도, 피부전도도 등 생리적 신호를 전자 장비로 실시간 측정하여 시각적·청각적 피드백으로 제공함으로써 자율신경계 기능을 의식적으로 조절하도록 훈련하는 기법이다.",
+    "definition_en": "A technique that uses electronic instruments to measure physiological signals such as heart rate, muscle tension, and skin conductance in real-time, providing visual or auditory feedback to train conscious regulation of autonomic nervous system functions.",
+    "significance": "이전에 불수의적이라고 여겨진 생리 반응을 자기조절할 수 있음을 증명하였으며, 두통, 고혈압, 만성통증 등에 효과적인 비약물적 개입이다.",
+    "key_researchers": [
+      {"name_ko": "닐 밀러", "name_en": "Neal Miller", "contribution": "자율신경계 반응의 조작적 조건형성 가능성을 실험적으로 제안"},
+      {"name_ko": "조 카미야", "name_en": "Joe Kamiya", "contribution": "뇌파(알파파) 바이오피드백의 선구적 연구를 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_REL_015"},
+      {"name_ko": "만성통증 관리", "name_en": "Chronic Pain Management", "id": "HEALTH_CHP_013"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "행동의학", "name_en": "Behavioral Medicine", "id": "HEALTH_BM_029"}
+    ],
+    "sub_types": [
+      {"name": "EMG 바이오피드백", "description": "근전도 피드백으로 근긴장을 이완하는 훈련"},
+      {"name": "피부온도 바이오피드백", "description": "말초 혈류량을 조절하여 편두통을 완화하는 훈련"},
+      {"name": "뉴로피드백", "description": "뇌파(EEG) 피드백으로 뇌 기능을 자기조절하는 훈련"},
+      {"name": "심박변이도 바이오피드백", "description": "호흡과 심박의 동기화를 통해 자율신경 균형을 회복하는 훈련"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "바이오피드백 = Bio(생체) + Feedback(되먹임), 몸의 신호를 '보면서' 조절하는 훈련",
+      "differential": "___는 전자 장비를 통해 생리 신호를 실시간으로 되먹임하는 반면, 이완훈련은 장비 없이 근육 이완이나 호흡법을 통해 이완을 유도한다.",
+      "key_point": "핵심 원리는 자기 모니터링을 통한 자기조절이며, 생리적 반응의 수의적 통제가 가능하다는 점을 활용한다.",
+      "common_mistake": "바이오피드백이 기계가 자동으로 치료해주는 것으로 오해하기 쉬우나, 기계는 정보를 제공할 뿐 조절 학습은 내담자가 수행한다."
+    }
+  },
+  {
+    "id": "HEALTH_REL_015",
+    "terminology": "이완훈련 (Relaxation Training)",
+    "terminology_ko": "이완훈련",
+    "terminology_en": "Relaxation Training",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "의도적으로 근육 긴장을 감소시키고 자율신경계의 각성 수준을 낮추는 체계적인 훈련 기법으로, 점진적 근육이완법, 자율훈련법, 복식호흡 등이 포함된다.",
+    "definition_en": "Systematic training techniques that intentionally reduce muscle tension and lower autonomic nervous system arousal, including progressive muscle relaxation, autogenic training, and diaphragmatic breathing.",
+    "significance": "스트레스 관련 증상의 1차적 심리학적 개입으로, 불안, 불면, 만성통증, 고혈압 등에 효과가 입증된 근거기반 기법이다.",
+    "key_researchers": [
+      {"name_ko": "에드먼드 제이콥슨", "name_en": "Edmund Jacobson", "contribution": "점진적 근육이완법(PMR)을 개발하여 이완훈련의 기초를 마련"},
+      {"name_ko": "요하네스 슐츠", "name_en": "Johannes Schultz", "contribution": "자율훈련법(autogenic training)을 개발하여 자기최면 기반 이완법을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "바이오피드백", "name_en": "Biofeedback", "id": "HEALTH_BF_014"},
+      {"name_ko": "마음챙김", "name_en": "Mindfulness", "id": "HEALTH_MF_016"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "만성통증 관리", "name_en": "Chronic Pain Management", "id": "HEALTH_CHP_013"}
+    ],
+    "sub_types": [
+      {"name": "점진적 근육이완법(PMR)", "description": "근육군을 순서대로 긴장시킨 후 이완하여 이완 감각을 학습하는 기법"},
+      {"name": "자율훈련법", "description": "자기암시를 통해 사지의 무겁고 따뜻한 감각을 유도하는 이완법"},
+      {"name": "복식호흡", "description": "횡격막을 이용한 깊고 느린 호흡으로 부교감신경을 활성화하는 기법"},
+      {"name": "심상 이완법", "description": "평온한 장면을 상상하여 심리적·신체적 이완을 유도하는 기법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "이완훈련 = 긴장의 반대, PMR은 '긴장 → 이완' 반복으로 이완 감각을 학습",
+      "differential": "___는 신체적 이완에 초점을 맞추는 반면, 마음챙김은 현재 순간의 비판단적 자각에 초점을 둔다.",
+      "key_point": "Jacobson의 PMR이 가장 대표적이며, 근육 긴장을 먼저 의도적으로 높인 후 이완하여 두 상태의 차이를 인식하게 한다.",
+      "common_mistake": "이완훈련이 단순히 편하게 쉬는 것과 같다고 오해하기 쉬우나, 체계적 훈련과 반복 연습이 필요한 기술이다."
+    }
+  },
+  {
+    "id": "HEALTH_MF_016",
+    "terminology": "마음챙김 (Mindfulness)",
+    "terminology_ko": "마음챙김",
+    "terminology_en": "Mindfulness",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "현재 순간의 경험에 의도적으로 주의를 기울이되 판단하지 않고 수용하는 주의 조절 방식으로, 스트레스 감소와 심리적 웰빙 증진에 효과가 입증된 심리학적 구성개념이다.",
+    "definition_en": "A mode of attention regulation involving intentionally paying attention to present-moment experiences in a nonjudgmental and accepting way, with demonstrated effectiveness for stress reduction and psychological well-being.",
+    "significance": "제3세대 인지행동치료의 핵심 요소이자 건강심리학의 주요 개입 기법으로, MBSR, MBCT 등 근거기반 프로그램을 통해 폭넓게 적용된다.",
+    "key_researchers": [
+      {"name_ko": "존 카밧진", "name_en": "Jon Kabat-Zinn", "contribution": "MBSR(마음챙김 기반 스트레스 감소) 프로그램을 개발하여 마음챙김을 의학·심리학에 도입"},
+      {"name_ko": "엘렌 랭어", "name_en": "Ellen Langer", "contribution": "서양 심리학적 관점에서 마음챙김(mindful awareness)을 독립적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "MBSR", "name_en": "Mindfulness-Based Stress Reduction", "id": "HEALTH_MBSR_028"},
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_REL_015"},
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"}
+    ],
+    "sub_types": [
+      {"name": "공식 마음챙김 명상", "description": "정좌명상, 바디스캔, 걷기명상 등 정해진 시간에 수행하는 구조화된 수련"},
+      {"name": "비공식 마음챙김", "description": "일상 활동(식사, 보행 등) 중 현재 순간에 주의를 기울이는 수련"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "마음챙김 = '지금 여기'에 '판단 없이' 주의 기울이기",
+      "differential": "___는 현재 경험에 대한 비판단적 자각에 초점을 맞추는 반면, 이완훈련은 생리적 각성 감소에 초점을 둔다.",
+      "key_point": "Kabat-Zinn이 1979년 매사추세츠 의과대학에서 MBSR 프로그램을 시작한 것이 현대 마음챙김 운동의 출발점이다.",
+      "common_mistake": "마음챙김을 단순히 마음을 비우거나 생각을 멈추는 것으로 오해하기 쉬우나, 생각과 감정을 알아차리되 반응하지 않는 것이 핵심이다."
+    }
+  },
+  {
+    "id": "HEALTH_SH_017",
+    "terminology": "수면 위생 (Sleep Hygiene)",
+    "terminology_ko": "수면 위생",
+    "terminology_en": "Sleep Hygiene",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "양질의 수면을 촉진하기 위한 행동적·환경적 권고 사항의 집합으로, 규칙적인 수면 스케줄 유지, 카페인 제한, 수면 환경 최적화 등을 포함하는 건강행동 지침이다.",
+    "definition_en": "A set of behavioral and environmental recommendations to promote quality sleep, including maintaining regular sleep schedules, limiting caffeine, and optimizing the sleep environment.",
+    "significance": "불면증의 인지행동치료(CBT-I)의 기본 구성 요소이며, 수면 문제가 신체적·정신적 건강에 미치는 광범위한 영향을 고려할 때 1차 예방적 개입으로 중요하다.",
+    "key_researchers": [
+      {"name_ko": "피터 하우리", "name_en": "Peter Hauri", "contribution": "수면 위생 개념을 체계화하고 불면증 치료에 통합"},
+      {"name_ko": "찰스 모린", "name_en": "Charles Morin", "contribution": "불면증에 대한 인지행동치료(CBT-I)를 체계화하고 수면 위생을 치료 요소로 포함"}
+    ],
+    "related_concepts": [
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_REL_015"},
+      {"name_ko": "건강증진", "name_en": "Health Promotion", "id": "HEALTH_HPR_030"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"},
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수면 위생 = 수면의 '청결한 습관', 규칙적 시간 + 적절한 환경 + 올바른 습관",
+      "differential": "___는 수면 개선을 위한 행동 권고 사항인 반면, CBT-I는 수면 제한, 자극 통제, 인지 재구조화를 포함한 포괄적 치료 프로그램이다.",
+      "key_point": "수면 위생 단독으로는 만성 불면증 치료에 충분하지 않으며, CBT-I의 여러 구성 요소 중 하나로 활용된다.",
+      "common_mistake": "수면 위생 교육만으로 불면증이 해결된다고 과대평가하기 쉬우나, 만성 불면증에는 CBT-I의 다른 구성 요소가 필수적이다."
+    }
+  },
+  {
+    "id": "HEALTH_PP_018",
+    "terminology": "긍정심리학 (Positive Psychology)",
+    "terminology_ko": "긍정심리학",
+    "terminology_en": "Positive Psychology",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "인간의 강점, 덕성, 최적 기능에 대한 과학적 연구로, 전통 심리학의 병리 중심 접근을 보완하여 웰빙과 번영(flourishing)의 조건을 탐구하는 심리학의 분야이다.",
+    "definition_en": "The scientific study of human strengths, virtues, and optimal functioning that complements traditional psychology's pathology-focused approach by exploring conditions for well-being and flourishing.",
+    "significance": "심리학의 초점을 질병 치료에서 건강 증진과 인간의 잠재력 실현으로 확장하였으며, 임상 실무에서도 강점 기반 접근으로 영향을 미쳤다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "1998년 APA 회장으로서 긍정심리학 운동을 공식 출범시킴"},
+      {"name_ko": "미하이 칙센트미하이", "name_en": "Mihaly Csikszentmihalyi", "contribution": "플로우(flow) 개념을 연구하여 긍정심리학의 이론적 기반에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"},
+      {"name_ko": "PERMA 모델", "name_en": "PERMA Model", "id": "HEALTH_PERMA_020"},
+      {"name_ko": "성격 강점", "name_en": "Character Strengths", "id": "HEALTH_CS_021"},
+      {"name_ko": "플로우", "name_en": "Flow", "id": "HEALTH_FL_022"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RES_024"}
+    ],
+    "sub_types": [
+      {"name": "긍정심리 개입", "description": "강점 활용, 감사 훈련 등 웰빙을 증진하는 구조화된 개입"},
+      {"name": "긍정 임상심리학", "description": "임상 장면에서 강점 기반 접근을 통합하는 분야"},
+      {"name": "긍정 조직심리학", "description": "직장에서의 번영과 몰입을 연구하는 분야"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "긍정심리학 = 병리가 아닌 '잘 사는 것'의 과학, Seligman + Csikszentmihalyi",
+      "differential": "___는 인간의 강점과 웰빙에 초점을 맞추는 반면, 전통 임상심리학은 정신병리와 기능 손상에 초점을 둔다.",
+      "key_point": "Seligman이 1998년 APA 회장 취임 연설에서 '긍정심리학'을 선언한 것이 공식적 출발점이다.",
+      "common_mistake": "긍정심리학을 단순한 긍정적 사고(positive thinking)로 오해하기 쉬우나, 엄격한 과학적 방법론에 기반한 학문 분야이다."
+    }
+  },
+  {
+    "id": "HEALTH_WB_019",
+    "terminology": "웰빙 (Well-Being)",
+    "terminology_ko": "웰빙",
+    "terminology_en": "Well-Being",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "단순히 질병이 없는 상태를 넘어 심리적, 사회적, 신체적으로 최적의 기능을 발휘하며 삶에 만족하는 다차원적 상태를 의미하며, 주관적 웰빙과 심리적 웰빙으로 구분된다.",
+    "definition_en": "A multidimensional state beyond the mere absence of disease, encompassing optimal psychological, social, and physical functioning and life satisfaction, distinguished into subjective well-being and psychological well-being.",
+    "significance": "긍정심리학과 건강심리학의 핵심 결과 변인으로, WHO도 건강을 '완전한 신체적·정신적·사회적 안녕 상태'로 정의하고 있다.",
+    "key_researchers": [
+      {"name_ko": "에드 디너", "name_en": "Ed Diener", "contribution": "주관적 웰빙(SWB) 연구의 선구자로 삶의 만족도 척도(SWLS)를 개발"},
+      {"name_ko": "캐롤 리프", "name_en": "Carol Ryff", "contribution": "심리적 웰빙의 6요인 모델을 제안하여 에우다이모니아적 웰빙을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"},
+      {"name_ko": "PERMA 모델", "name_en": "PERMA Model", "id": "HEALTH_PERMA_020"},
+      {"name_ko": "플로우", "name_en": "Flow", "id": "HEALTH_FL_022"},
+      {"name_ko": "감사", "name_en": "Gratitude", "id": "HEALTH_GR_023"}
+    ],
+    "sub_types": [
+      {"name": "주관적 웰빙(쾌락주의적 웰빙)", "description": "삶의 만족도, 긍정 정서, 부정 정서로 구성되는 Diener의 모델"},
+      {"name": "심리적 웰빙(에우다이모니아적 웰빙)", "description": "자율성, 환경 통제, 개인적 성장, 긍정적 관계, 삶의 목적, 자기수용의 6요인으로 구성되는 Ryff의 모델"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "웰빙 2대 전통 = 쾌락(Diener, 행복감) vs 에우다이모니아(Ryff, 의미 있는 삶)",
+      "differential": "주관적 ___는 행복감과 삶의 만족에 초점을 맞추는 반면, 심리적 ___는 의미, 성장, 자율성 등 기능적 측면에 초점을 둔다.",
+      "key_point": "Diener의 주관적 웰빙(쾌락주의)과 Ryff의 심리적 웰빙(에우다이모니아)은 상호 보완적 관점이다.",
+      "common_mistake": "웰빙을 단순한 행복감으로 환원하기 쉬우나, 에우다이모니아적 관점에서는 의미와 성장이 핵심이다."
+    }
+  },
+  {
+    "id": "HEALTH_PERMA_020",
+    "terminology": "PERMA 모델 (PERMA Model)",
+    "terminology_ko": "PERMA 모델",
+    "terminology_en": "PERMA Model",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "Seligman이 제안한 웰빙의 5요소 모델로, 긍정 정서(Positive Emotion), 몰입(Engagement), 관계(Relationships), 의미(Meaning), 성취(Accomplishment)가 번영의 핵심 구성 요소라고 설명한다.",
+    "definition_en": "Seligman's five-element model of well-being proposing that Positive Emotion, Engagement, Relationships, Meaning, and Accomplishment are core components of flourishing.",
+    "significance": "Seligman의 초기 '진정한 행복' 이론을 확장하여 웰빙의 다차원적 본질을 체계적으로 정리한 모델로, 긍정심리 개입의 이론적 프레임워크이다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "2011년 '플로리시(Flourish)' 저서에서 PERMA 모델을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"},
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"},
+      {"name_ko": "플로우", "name_en": "Flow", "id": "HEALTH_FL_022"},
+      {"name_ko": "성격 강점", "name_en": "Character Strengths", "id": "HEALTH_CS_021"}
+    ],
+    "sub_types": [
+      {"name": "긍정 정서(P)", "description": "기쁨, 감사, 만족 등 긍정적 감정 경험"},
+      {"name": "몰입(E)", "description": "활동에 완전히 빠져드는 플로우 경험"},
+      {"name": "관계(R)", "description": "타인과의 의미 있는 연결과 소속감"},
+      {"name": "의미(M)", "description": "자신보다 큰 무언가에 속해 있다는 목적의식"},
+      {"name": "성취(A)", "description": "목표 달성과 역량 발휘를 통한 성공감"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PERMA = P(Positive emotion) E(Engagement) R(Relationships) M(Meaning) A(Accomplishment)",
+      "differential": "___는 웰빙의 5가지 구성 요소를 제시하는 반면, Ryff의 모델은 심리적 웰빙의 6요인을 제시한다.",
+      "key_point": "Seligman의 초기 이론이 '행복(happiness)'에 초점을 두었다면, PERMA는 '번영(flourishing)'이라는 보다 폭넓은 개념으로 확장되었다.",
+      "common_mistake": "PERMA의 5요소에 우선순위가 있다고 오해하기 쉬우나, 각 요소는 독립적으로 추구할 수 있는 동등한 경로이다."
+    }
+  },
+  {
+    "id": "HEALTH_CS_021",
+    "terminology": "성격 강점 (Character Strengths)",
+    "terminology_ko": "성격 강점",
+    "terminology_en": "Character Strengths",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "VIA 분류체계에서 정의한 24가지 긍정적 특질로, 6개 핵심 덕목(지혜, 용기, 인간애, 정의, 절제, 초월) 아래 조직되며 개인의 웰빙과 번영에 기여하는 도덕적·심리적 강점이다.",
+    "definition_en": "Twenty-four positive traits defined in the VIA Classification organized under six core virtues (wisdom, courage, humanity, justice, temperance, transcendence), representing moral and psychological strengths that contribute to individual well-being and flourishing.",
+    "significance": "DSM이 정신병리를 분류하는 것처럼 인간의 강점을 체계적으로 분류한 최초의 시도로, 강점 기반 개입의 이론적 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "크리스토퍼 피터슨", "name_en": "Christopher Peterson", "contribution": "Seligman과 함께 VIA 성격 강점 분류체계와 측정 도구를 개발"},
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "Peterson과 함께 '성격 강점과 덕목(CSV)' 핸드북을 공동 저술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"},
+      {"name_ko": "PERMA 모델", "name_en": "PERMA Model", "id": "HEALTH_PERMA_020"},
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RES_024"}
+    ],
+    "sub_types": [
+      {"name": "지혜와 지식", "description": "창의성, 호기심, 개방성, 학구열, 통찰력"},
+      {"name": "용기", "description": "용감함, 끈기, 진실성, 활력"},
+      {"name": "인간애", "description": "사랑, 친절, 사회지능"},
+      {"name": "정의", "description": "시민정신, 공정성, 리더십"},
+      {"name": "절제", "description": "용서, 겸손, 신중함, 자기조절"},
+      {"name": "초월", "description": "심미감, 감사, 희망, 유머, 영성"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "VIA = Values In Action, 6덕목 24강점 = DSM의 긍정 버전",
+      "differential": "___는 긍정심리학에서 제시하는 보편적 강점 분류인 반면, Big Five 성격 특질은 성격의 기술적 차원을 나타내는 성격심리학의 모델이다.",
+      "key_point": "VIA 분류의 24가지 강점은 문화 보편적으로 가치 있는 특질을 선별한 것으로, '대표 강점(signature strengths)'을 발견하고 활용하는 것이 핵심 개입이다.",
+      "common_mistake": "성격 강점을 고정된 특질로 보기 쉬우나, 의도적 연습과 개입을 통해 개발할 수 있는 역량으로 간주된다."
+    }
+  },
+  {
+    "id": "HEALTH_FL_022",
+    "terminology": "플로우 (Flow)",
+    "terminology_ko": "플로우",
+    "terminology_en": "Flow",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "활동에 완전히 몰입하여 시간 감각을 잃고 자의식이 사라지는 최적 경험 상태로, 과제의 난이도와 개인의 기술 수준이 적절히 균형을 이룰 때 발생한다.",
+    "definition_en": "A state of optimal experience involving complete absorption in an activity with loss of time awareness and self-consciousness, occurring when challenge level and personal skill are appropriately balanced.",
+    "significance": "내재적 동기의 가장 강력한 형태로, 플로우 경험은 수행 향상, 창의성 증진, 주관적 웰빙 증가와 관련된다.",
+    "key_researchers": [
+      {"name_ko": "미하이 칙센트미하이", "name_en": "Mihaly Csikszentmihalyi", "contribution": "플로우 개념을 제안하고 경험표집법(ESM)을 통해 실증적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "PERMA 모델", "name_en": "PERMA Model", "id": "HEALTH_PERMA_020"},
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"},
+      {"name_ko": "성격 강점", "name_en": "Character Strengths", "id": "HEALTH_CS_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "플로우 = 도전(challenge)과 기술(skill)의 황금 균형, '몰입의 즐거움'",
+      "differential": "___는 과제에 완전히 몰입한 활동적 상태인 반면, 이완은 각성이 낮은 수동적 상태이다.",
+      "key_point": "플로우의 핵심 조건은 도전과 기술의 균형, 명확한 목표, 즉각적 피드백이며, 도전이 기술보다 높으면 불안, 낮으면 권태가 발생한다.",
+      "common_mistake": "플로우를 편안한 상태로 오해하기 쉬우나, 실제로는 높은 집중과 노력이 수반되는 능동적 경험이다."
+    }
+  },
+  {
+    "id": "HEALTH_GR_023",
+    "terminology": "감사 (Gratitude)",
+    "terminology_ko": "감사",
+    "terminology_en": "Gratitude",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "타인이나 외부 원천으로부터 이익이나 도움을 받았음을 인식하고 감사하는 긍정적 정서이자 덕목으로, 감사 일기 등의 개입이 웰빙 증진에 효과적임이 입증되었다.",
+    "definition_en": "A positive emotion and virtue involving recognizing and appreciating benefits received from others or external sources, with interventions such as gratitude journals demonstrated to enhance well-being.",
+    "significance": "긍정심리 개입 중 가장 많은 경험적 지지를 받은 구성개념으로, 감사 연습이 주관적 웰빙 향상, 우울 감소, 수면 개선에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 에먼스", "name_en": "Robert Emmons", "contribution": "감사의 심리학을 체계적으로 연구하고 감사 일기 개입의 효과를 실증"},
+      {"name_ko": "마이클 매컬로", "name_en": "Michael McCullough", "contribution": "Emmons와 함께 감사와 웰빙의 관계를 실험적으로 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"},
+      {"name_ko": "웰빙", "name_en": "Well-Being", "id": "HEALTH_WB_019"},
+      {"name_ko": "성격 강점", "name_en": "Character Strengths", "id": "HEALTH_CS_021"},
+      {"name_ko": "낙관주의", "name_en": "Optimism", "id": "HEALTH_OPT_026"}
+    ],
+    "sub_types": [
+      {"name": "특성 감사", "description": "감사를 경험하는 일반적 성향이나 기질"},
+      {"name": "상태 감사", "description": "특정 상황에서 경험하는 일시적 감사 정서"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "감사 개입 = '3가지 좋은 일(Three Good Things)' 또는 감사 일기",
+      "differential": "___는 외부로부터 받은 이익에 대한 인식과 평가인 반면, 낙관주의는 미래에 대한 긍정적 기대이다.",
+      "key_point": "Emmons의 연구에서 매일 감사한 일 5가지를 기록하는 감사 일기가 25% 더 높은 행복감과 관련되었다.",
+      "common_mistake": "감사를 단순한 예의 표현으로 축소하기 쉬우나, 심리학에서의 감사는 인지적 평가와 정서적 경험을 포함하는 복합적 구성개념이다."
+    }
+  },
+  {
+    "id": "HEALTH_RES_024",
+    "terminology": "회복탄력성 (Resilience)",
+    "terminology_ko": "회복탄력성",
+    "terminology_en": "Resilience",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "심각한 역경, 외상, 스트레스에 직면하여 성공적으로 적응하고 정상적 기능을 회복하거나 오히려 성장하는 개인의 역동적 과정 또는 역량이다.",
+    "definition_en": "A dynamic process or capacity enabling successful adaptation and recovery of normal functioning, or even growth, in the face of significant adversity, trauma, or stress.",
+    "significance": "보호 요인과 위험 요인의 상호작용을 이해하는 핵심 개념으로, 트라우마 후 대다수가 자연적으로 회복한다는 연구가 외상 관련 개입의 패러다임을 변화시켰다.",
+    "key_researchers": [
+      {"name_ko": "에미 워너", "name_en": "Emmy Werner", "contribution": "카우아이 종단 연구를 통해 아동기 회복탄력성의 보호 요인을 최초로 규명"},
+      {"name_ko": "조지 보나노", "name_en": "George Bonanno", "contribution": "외상 후 회복탄력성이 예외가 아닌 일반적 경로임을 증명"},
+      {"name_ko": "앤 마스턴", "name_en": "Ann Masten", "contribution": "회복탄력성을 '평범한 마법(ordinary magic)'으로 개념화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "외상 후 성장", "name_en": "Posttraumatic Growth", "id": "HEALTH_PTG_025"},
+      {"name_ko": "대처 전략", "name_en": "Coping Strategies", "id": "HEALTH_COP_006"},
+      {"name_ko": "사회적 지지", "name_en": "Social Support", "id": "HEALTH_SS_007"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"}
+    ],
+    "sub_types": [
+      {"name": "개인적 회복탄력성", "description": "인지적 유연성, 정서 조절, 자기효능감 등 개인 내적 역량"},
+      {"name": "사회적 회복탄력성", "description": "사회적 지지, 공동체 자원 등 관계 기반 보호 요인"},
+      {"name": "가족 회복탄력성", "description": "가족 체계가 위기에 적응하고 회복하는 역량"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "회복탄력성 = 역경의 '스프링', 눌려도 다시 튀어오르는 힘",
+      "differential": "___는 역경 이후 정상 기능 수준으로 회복하는 것인 반면, 외상 후 성장은 이전보다 더 높은 기능 수준으로 변화하는 것이다.",
+      "key_point": "Bonanno의 연구에 따르면 외상 경험 후 약 50~60%가 회복탄력성 경로를 보이며, 이는 예외적이 아닌 일반적 반응이다.",
+      "common_mistake": "회복탄력성을 타고나는 고정된 특질로 보기 쉬우나, 환경적 지지와 학습을 통해 강화할 수 있는 역동적 과정이다."
+    }
+  },
+  {
+    "id": "HEALTH_PTG_025",
+    "terminology": "외상 후 성장 (Posttraumatic Growth)",
+    "terminology_ko": "외상 후 성장",
+    "terminology_en": "Posttraumatic Growth",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "심각한 외상 경험과의 투쟁 결과로 이전 수준을 넘어서는 긍정적 심리적 변화를 경험하는 현상으로, 대인관계 심화, 새로운 가능성, 삶에 대한 감사, 개인적 강점 인식, 영적 성장의 5개 영역에서 나타난다.",
+    "definition_en": "A phenomenon of positive psychological change beyond previous levels resulting from the struggle with highly challenging life circumstances, manifesting in five domains: interpersonal relationships, new possibilities, appreciation of life, personal strength, and spiritual change.",
+    "significance": "외상의 부정적 영향에만 초점을 맞추던 관점을 보완하여, 역경이 오히려 성장의 계기가 될 수 있음을 보여주는 중요한 개념이다.",
+    "key_researchers": [
+      {"name_ko": "리처드 테데스키", "name_en": "Richard Tedeschi", "contribution": "외상 후 성장 개념을 제안하고 측정 도구(PTGI)를 개발"},
+      {"name_ko": "로렌스 캘훈", "name_en": "Lawrence Calhoun", "contribution": "Tedeschi와 함께 외상 후 성장 이론을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RES_024"},
+      {"name_ko": "대처 전략", "name_en": "Coping Strategies", "id": "HEALTH_COP_006"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"},
+      {"name_ko": "낙관주의", "name_en": "Optimism", "id": "HEALTH_OPT_026"}
+    ],
+    "sub_types": [
+      {"name": "대인관계 심화", "description": "타인과의 관계가 더 깊어지고 친밀해지는 변화"},
+      {"name": "새로운 가능성", "description": "이전에 인식하지 못한 삶의 경로와 기회를 발견"},
+      {"name": "삶에 대한 감사", "description": "일상적인 것들에 대한 감사와 삶의 가치 재인식"},
+      {"name": "개인적 강점", "description": "역경을 극복하며 자신의 내적 힘을 인식"},
+      {"name": "영적/실존적 변화", "description": "삶의 의미와 영적 차원에 대한 깊은 인식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PTG 5영역 = 관계, 가능성, 감사, 강점, 영성 → '관가감강영'",
+      "differential": "___는 외상과의 투쟁을 통해 이전보다 더 성장하는 것인 반면, 회복탄력성은 이전 기능 수준으로 회복하는 것이다.",
+      "key_point": "외상 자체가 성장을 일으키는 것이 아니라, 외상과의 '인지적 투쟁(cognitive struggle)' 과정이 성장을 이끈다.",
+      "common_mistake": "외상 후 성장을 외상의 긍정적 측면으로 미화하는 것은 위험하며, 고통을 최소화해서는 안 된다."
+    }
+  },
+  {
+    "id": "HEALTH_OPT_026",
+    "terminology": "낙관주의 (Optimism)",
+    "terminology_ko": "낙관주의",
+    "terminology_en": "Optimism",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "미래에 대해 긍정적인 결과를 기대하는 인지적 성향으로, 건강행동 실천, 스트레스 대처, 심혈관 건강 등과 긍정적 관련이 있으며 성향적 낙관주의와 설명양식 낙관주의로 구분된다.",
+    "definition_en": "A cognitive disposition to expect positive outcomes in the future, positively associated with health behavior adherence, stress coping, and cardiovascular health, distinguished into dispositional optimism and explanatory style optimism.",
+    "significance": "낙관주의가 건강에 미치는 긍정적 영향이 대규모 종단 연구로 입증되었으며, 학습된 낙관주의 훈련이 우울 예방에 효과적이다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "설명양식(explanatory style) 관점에서 낙관주의와 비관주의를 연구"},
+      {"name_ko": "마이클 셰이어", "name_en": "Michael Scheier", "contribution": "성향적 낙관주의 개념을 제안하고 LOT(Life Orientation Test)를 개발"},
+      {"name_ko": "찰스 카버", "name_en": "Charles Carver", "contribution": "Scheier와 함께 낙관주의와 건강의 관계를 자기조절 이론에 근거하여 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "학습된 무력감", "name_en": "Learned Helplessness", "id": "HEALTH_LH_027"},
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "HEALTH_SE_010"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RES_024"}
+    ],
+    "sub_types": [
+      {"name": "성향적 낙관주의", "description": "Scheier와 Carver의 개념으로, 일반적으로 좋은 결과를 기대하는 성향"},
+      {"name": "설명양식 낙관주의", "description": "Seligman의 개념으로, 부정적 사건을 외부적·일시적·특수적 원인으로 귀인하는 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "낙관 설명양식 = 나쁜 일은 '밖에서(외부), 잠깐(일시), 여기만(특수)' 일어난다",
+      "differential": "___는 미래에 대한 긍정적 기대인 반면, 자기효능감은 특정 과제 수행 능력에 대한 신념이다.",
+      "key_point": "낙관주의와 비관주의는 고정된 특질이 아니며, Seligman의 '학습된 낙관주의' 프로그램을 통해 변화시킬 수 있다.",
+      "common_mistake": "비현실적 낙관주의(unrealistic optimism)는 위험을 과소평가하게 하여 오히려 건강행동을 저해할 수 있다."
+    }
+  },
+  {
+    "id": "HEALTH_LH_027",
+    "terminology": "학습된 무력감 (Learned Helplessness)",
+    "terminology_ko": "학습된 무력감",
+    "terminology_en": "Learned Helplessness",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "통제 불가능한 부정적 경험에 반복적으로 노출된 후 자신의 행동이 결과에 영향을 미칠 수 없다는 신념을 학습하여 새로운 상황에서도 적극적 대처를 포기하는 현상이다.",
+    "definition_en": "A phenomenon in which repeated exposure to uncontrollable negative experiences leads to learning the belief that one's actions cannot influence outcomes, resulting in cessation of active coping in new situations.",
+    "significance": "우울증의 인지적 모델 발전에 기여하였으며, 통제감 상실이 신체 건강에도 부정적 영향을 미친다는 것을 보여주어 건강심리학의 중요한 개념이 되었다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "동물 실험을 통해 학습된 무력감 현상을 발견하고 인간 우울에 적용"},
+      {"name_ko": "스티븐 마이어", "name_en": "Steven Maier", "contribution": "Seligman과 함께 학습된 무력감의 초기 동물 실험을 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "낙관주의", "name_en": "Optimism", "id": "HEALTH_OPT_026"},
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "HEALTH_SE_010"},
+      {"name_ko": "대처 전략", "name_en": "Coping Strategies", "id": "HEALTH_COP_006"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_PP_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "학습된 무력감 → 학습된 낙관주의, Seligman은 '무력감'에서 출발하여 '긍정심리학'에 도달",
+      "differential": "___는 통제 불가능한 경험에서 학습된 수동성인 반면, 외적 통제소재는 일반적으로 결과가 외부 요인에 의해 결정된다는 신념이다.",
+      "key_point": "Seligman은 1967년 개 실험에서 학습된 무력감을 발견했으며, 이후 귀인 이론을 적용하여 우울증의 설명양식 모델을 발전시켰다.",
+      "common_mistake": "학습된 무력감을 단순한 게으름이나 동기 부족으로 오해하기 쉬우나, 통제 불가능한 경험에 의해 학습된 인지적·동기적·정서적 결손이다."
+    }
+  },
+  {
+    "id": "HEALTH_MBSR_028",
+    "terminology": "MBSR (Mindfulness-Based Stress Reduction)",
+    "terminology_ko": "MBSR",
+    "terminology_en": "Mindfulness-Based Stress Reduction",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "Kabat-Zinn이 개발한 8주간의 구조화된 마음챙김 프로그램으로, 정좌명상, 바디스캔, 하타요가, 걷기명상 등을 통해 만성통증, 스트레스 관련 장애를 관리하는 근거기반 개입이다.",
+    "definition_en": "An eight-week structured mindfulness program developed by Kabat-Zinn using sitting meditation, body scan, hatha yoga, and walking meditation to manage chronic pain and stress-related disorders as an evidence-based intervention.",
+    "significance": "마음챙김을 서양 의학·심리학에 도입한 선구적 프로그램으로, 만성통증, 불안, 건선 등 다양한 건강 문제에 효과가 RCT로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "존 카밧진", "name_en": "Jon Kabat-Zinn", "contribution": "1979년 매사추세츠 의과대학에서 MBSR 프로그램을 개발하고 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "마음챙김", "name_en": "Mindfulness", "id": "HEALTH_MF_016"},
+      {"name_ko": "만성통증 관리", "name_en": "Chronic Pain Management", "id": "HEALTH_CHP_013"},
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_REL_015"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STR_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MBSR = 8주 프로그램, 4가지 핵심 수련: 정좌명상 + 바디스캔 + 요가 + 걷기명상",
+      "differential": "___는 스트레스와 만성질환 관리에 초점을 맞추는 반면, MBCT(마음챙김 기반 인지치료)는 우울증 재발 방지에 초점을 둔다.",
+      "key_point": "Kabat-Zinn이 1979년 매사추세츠 의과대학 스트레스 감소 클리닉에서 시작했으며, 8주간 주 1회 2.5시간 + 6주차 종일 수련으로 구성된다.",
+      "common_mistake": "MBSR을 단순한 명상 프로그램으로 간주하기 쉬우나, 체계적인 매뉴얼과 다수의 RCT 근거를 갖춘 구조화된 임상 개입이다."
+    }
+  },
+  {
+    "id": "HEALTH_BM_029",
+    "terminology": "행동의학 (Behavioral Medicine)",
+    "terminology_ko": "행동의학",
+    "terminology_en": "Behavioral Medicine",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "건강과 질병에 관련된 행동과학적 지식과 기법을 의학에 통합하는 학제간 분야로, 질병의 예방, 진단, 치료, 재활에 행동적 접근을 적용한다.",
+    "definition_en": "An interdisciplinary field integrating behavioral science knowledge and techniques with medicine regarding health and illness, applying behavioral approaches to disease prevention, diagnosis, treatment, and rehabilitation.",
+    "significance": "건강심리학보다 넓은 학제간 분야로, 의학·심리학·간호학·공중보건학 등이 협력하여 건강 문제에 통합적으로 접근하는 틀을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "오밤 포먼리스", "name_en": "Ovide Pomerleau", "contribution": "행동의학의 개념과 범위를 정의하는 데 기여"},
+      {"name_ko": "닐 밀러", "name_en": "Neal Miller", "contribution": "행동의학 분야 설립에 기여하고 바이오피드백 연구를 통해 행동과 생리의 관계를 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HP_001"},
+      {"name_ko": "바이오피드백", "name_en": "Biofeedback", "id": "HEALTH_BF_014"},
+      {"name_ko": "생물심리사회 모델", "name_en": "Biopsychosocial Model", "id": "HEALTH_BPS_002"},
+      {"name_ko": "건강증진", "name_en": "Health Promotion", "id": "HEALTH_HPR_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동의학 = 행동과학 + 의학의 '다리', 학제간(interdisciplinary) 분야",
+      "differential": "___는 의학과 행동과학의 학제간 통합 분야인 반면, 건강심리학은 심리학 내의 전문 분야이다.",
+      "key_point": "건강심리학이 심리학 분야인 반면, 행동의학은 의학·간호학·공중보건학 등 다양한 분야를 포괄하는 보다 넓은 학제간 영역이다.",
+      "common_mistake": "행동의학을 건강심리학의 동의어로 사용하는 경우가 있으나, 행동의학이 더 넓은 학제간 분야이며 건강심리학은 그 하위 분야에 해당한다."
+    }
+  },
+  {
+    "id": "HEALTH_HPR_030",
+    "terminology": "건강증진 (Health Promotion)",
+    "terminology_ko": "건강증진",
+    "terminology_en": "Health Promotion",
+    "category": "HEALTH",
+    "category_name": "건강심리학 및 긍정심리학 (Health & Positive Psychology)",
+    "definition": "개인과 지역사회가 건강에 대한 통제력을 높이고 건강 수준을 향상시킬 수 있도록 하는 교육적·환경적·정책적 개입의 과정으로, 질병 예방을 넘어 적극적 건강 향상을 목표로 한다.",
+    "definition_en": "A process of educational, environmental, and policy interventions enabling individuals and communities to increase control over and improve their health, aiming for active health improvement beyond disease prevention.",
+    "significance": "건강심리학의 핵심 적용 영역으로, WHO의 오타와 헌장(1986)에서 건강증진의 기본 원칙과 전략이 국제적으로 공인되었다.",
+    "key_researchers": [
+      {"name_ko": "로렌스 그린", "name_en": "Lawrence Green", "contribution": "PRECEDE-PROCEED 모델을 개발하여 건강증진 프로그램의 체계적 설계를 가능하게 함"},
+      {"name_ko": "마셜 크로이터", "name_en": "Marshall Kreuter", "contribution": "Green과 함께 PRECEDE-PROCEED 모델을 발전시키고 건강증진 실무에 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강신념 모델", "name_en": "Health Belief Model", "id": "HEALTH_HBM_008"},
+      {"name_ko": "건강행동변화 단계 모델", "name_en": "Transtheoretical Model", "id": "HEALTH_TTM_009"},
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HP_001"},
+      {"name_ko": "자기효능감", "name_en": "Self-Efficacy", "id": "HEALTH_SE_010"}
+    ],
+    "sub_types": [
+      {"name": "1차 예방", "description": "질병 발생 전 건강행동 증진과 위험 요인 감소"},
+      {"name": "2차 예방", "description": "조기 발견과 조기 치료를 통한 질병 악화 방지"},
+      {"name": "3차 예방", "description": "기존 질환의 관리와 재발 방지, 삶의 질 향상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "건강증진 = 질병 치료가 아닌 '건강을 키우는 것', 오타와 헌장(1986)",
+      "differential": "___는 적극적 건강 향상을 목표로 교육·환경·정책을 통합하는 반면, 질병 예방은 특정 질병의 발생을 막는 데 초점을 둔다.",
+      "key_point": "WHO의 1986년 오타와 헌장에서 건강증진을 '사람들이 자신의 건강에 대한 통제를 증가시키고 향상시키는 과정'으로 정의하였다.",
+      "common_mistake": "건강증진을 개인 수준의 건강교육으로만 이해하기 쉬우나, 환경적·정책적 변화를 포함하는 포괄적 접근이다."
+    }
+  }
+]

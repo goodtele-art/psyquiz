@@ -1,0 +1,1988 @@
+[
+  {
+    "id": "SPECIAL_FP_001",
+    "terminology": "법정심리학 (Forensic Psychology)",
+    "terminology_ko": "법정심리학",
+    "terminology_en": "Forensic Psychology",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "심리학적 지식과 방법을 법적 쟁점에 적용하는 분야로, 형사·민사 사건에서 심리학적 전문가 의견을 제공하고 법적 의사결정에 기여한다.",
+    "definition_en": "A specialty that applies psychological knowledge and methods to legal issues, providing expert psychological opinions in criminal and civil cases and contributing to legal decision-making.",
+    "significance": "임상심리학의 전문성이 사법 체계와 만나는 핵심 영역으로, 범죄자 평가, 증인 신뢰성, 양형 등에서 과학적 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "휴고 뮌스터버그",
+        "name_en": "Hugo Münsterberg",
+        "contribution": "1908년 'On the Witness Stand' 출판으로 법정에서의 심리학 적용을 최초로 체계화"
+      },
+      {
+        "name_ko": "앨런 골드스타인",
+        "name_en": "Alan Goldstein",
+        "contribution": "법정심리학 평가 방법론 체계화 및 형사책임능력 평가 기준 정립에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "범죄심리학",
+        "name_en": "Criminal Psychology",
+        "id": "SPECIAL_CRP_002"
+      },
+      {
+        "name_ko": "형사책임능력 평가",
+        "name_en": "Criminal Responsibility Evaluation",
+        "id": "SPECIAL_CRE_003"
+      },
+      {
+        "name_ko": "증인 신빙성 평가",
+        "name_en": "Witness Credibility Assessment",
+        "id": "SPECIAL_WCA_004"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "형사 법정심리학",
+        "description": "형사 사건에서의 심리학적 평가와 자문"
+      },
+      {
+        "name": "민사 법정심리학",
+        "description": "민사 사건(양육권, 손해배상 등)에서의 심리학적 자문"
+      },
+      {
+        "name": "교정심리학",
+        "description": "교정 시설 내 범죄자 평가와 재활 프로그램"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "법정(Forensic) = Forum(법정) + Psychology → 법정에서 심리학 적용",
+      "differential": "법정심리학은 법적 쟁점에 심리학을 적용하는 것이고, 범죄심리학은 범죄 행동 자체의 이해에 초점을 둔다.",
+      "key_point": "법정심리학자는 법원에 전문가 증인으로 출석하여 심리학적 소견을 제공할 수 있다.",
+      "common_mistake": "법정심리학과 범죄심리학을 동일시하는 오류 — 법정심리학은 민사 영역도 포함한다."
+    }
+  },
+  {
+    "id": "SPECIAL_CRP_002",
+    "terminology": "범죄심리학 (Criminal Psychology)",
+    "terminology_ko": "범죄심리학",
+    "terminology_en": "Criminal Psychology",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "범죄 행동의 원인, 동기, 패턴을 심리학적으로 분석하고 이해하는 분야로, 범죄자의 성격 특성, 인지 왜곡, 발달 경험 등을 연구한다.",
+    "definition_en": "A field that psychologically analyzes and understands the causes, motives, and patterns of criminal behavior, studying offenders' personality traits, cognitive distortions, and developmental experiences.",
+    "significance": "범죄 예방과 교정 프로그램 개발의 과학적 기반을 제공하며, 범죄자 프로파일링과 재범 위험성 평가에 핵심 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "체사레 롬브로소",
+        "name_en": "Cesare Lombroso",
+        "contribution": "범죄인류학의 창시자로, 범죄 행동의 생물학적 기초를 최초로 연구"
+      },
+      {
+        "name_ko": "로버트 헤어",
+        "name_en": "Robert Hare",
+        "contribution": "사이코패시 체크리스트(PCL-R)를 개발하여 반사회적 성격 평가의 표준을 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      },
+      {
+        "name_ko": "프로파일링",
+        "name_en": "Criminal Profiling",
+        "id": "SPECIAL_PRO_006"
+      },
+      {
+        "name_ko": "위험성 평가",
+        "name_en": "Risk Assessment",
+        "id": "SPECIAL_RA_005"
+      },
+      {
+        "name_ko": "교정심리학",
+        "name_en": "Correctional Psychology",
+        "id": "SPECIAL_COR_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "범죄심리학 = 왜(Why) 범죄를 저지르는가에 대한 심리학적 탐구",
+      "differential": "범죄심리학은 범죄 행동 자체를 연구하고, 법정심리학은 법적 절차에서 심리학을 활용하는 것이다.",
+      "key_point": "범죄자의 사이코패시 특성은 재범률과 높은 상관이 있어 교정 전략 수립에 핵심 정보가 된다.",
+      "common_mistake": "모든 범죄자가 정신장애를 가지고 있다고 가정하는 오류 — 대부분의 범죄는 정신장애와 무관하다."
+    }
+  },
+  {
+    "id": "SPECIAL_CRE_003",
+    "terminology": "형사책임능력 평가 (Criminal Responsibility Evaluation)",
+    "terminology_ko": "형사책임능력 평가",
+    "terminology_en": "Criminal Responsibility Evaluation",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "피고인이 범행 당시 정신장애로 인해 사물을 변별하거나 의사를 결정할 능력이 결여 또는 미약했는지를 평가하는 법정 심리평가 절차이다.",
+    "definition_en": "A forensic psychological evaluation procedure that assesses whether a defendant lacked or had diminished capacity to distinguish right from wrong or to control behavior due to mental disorder at the time of the offense.",
+    "significance": "형사 재판에서 피고인의 심신장애 여부를 판단하는 핵심 감정 절차로, 임상심리학적 전문성이 법적 판단에 직접 기여하는 대표적 영역이다.",
+    "key_researchers": [
+      {
+        "name_ko": "다니엘 맥노튼",
+        "name_en": "Daniel M'Naghten",
+        "contribution": "1843년 맥노튼 규칙의 기원이 된 사건의 피고인으로, 심신상실 항변의 법적 기준이 정립됨"
+      },
+      {
+        "name_ko": "토마스 그리소",
+        "name_en": "Thomas Grisso",
+        "contribution": "법정 심리평가 도구와 절차의 표준화에 기여, 형사책임능력 평가 방법론 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      },
+      {
+        "name_ko": "증인 신빙성 평가",
+        "name_en": "Witness Credibility Assessment",
+        "id": "SPECIAL_WCA_004"
+      },
+      {
+        "name_ko": "양형 전 조사",
+        "name_en": "Presentence Investigation",
+        "id": "SPECIAL_PSI_007"
+      },
+      {
+        "name_ko": "진단",
+        "name_en": "Diagnosis",
+        "id": "DIAGN_DSM_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "심신상실 (Insanity)",
+        "description": "범행 시 사물변별능력이나 의사결정능력이 완전히 결여된 상태"
+      },
+      {
+        "name": "심신미약 (Diminished Capacity)",
+        "description": "범행 시 정신장애로 인해 능력이 현저히 감소된 상태"
+      },
+      {
+        "name": "재판적격성 (Competency to Stand Trial)",
+        "description": "피고인이 재판 절차를 이해하고 변호인과 소통할 수 있는 능력"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "맥노튼 규칙: 범행 시 '옳고 그름을 알 수 없었는가'가 핵심 질문",
+      "differential": "형사책임능력은 범행 '당시'의 정신 상태를 평가하고, 재판적격성은 재판 '현재' 시점의 능력을 평가한다.",
+      "key_point": "정신장애 진단 자체가 형사책임능력 부재를 의미하지 않으며, 범행 당시 구체적 인지·의지 능력을 평가해야 한다.",
+      "common_mistake": "정신장애 진단이 있으면 자동으로 형사책임능력이 없다고 판단하는 오류."
+    }
+  },
+  {
+    "id": "SPECIAL_WCA_004",
+    "terminology": "증인 신빙성 평가 (Witness Credibility Assessment)",
+    "terminology_ko": "증인 신빙성 평가",
+    "terminology_en": "Witness Credibility Assessment",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "법정에서 증인 진술의 정확성과 신뢰성을 심리학적으로 평가하는 절차로, 기억의 오류, 암시 효과, 목격 조건 등을 분석한다.",
+    "definition_en": "A procedure that psychologically evaluates the accuracy and reliability of witness testimony in court, analyzing memory errors, suggestibility effects, and observation conditions.",
+    "significance": "목격자 증언의 오류가 오판의 주요 원인이라는 연구 결과에 기반하여, 사법적 의사결정의 정확성을 높이는 데 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "엘리자베스 로프터스",
+        "name_en": "Elizabeth Loftus",
+        "contribution": "오정보 효과(misinformation effect) 연구로 기억의 재구성적 특성과 목격자 증언의 취약성을 입증"
+      },
+      {
+        "name_ko": "게리 웰스",
+        "name_en": "Gary Wells",
+        "contribution": "범인식별 절차의 오류를 연구하여 과학적 라인업 절차 개선 방안 제안"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      },
+      {
+        "name_ko": "형사책임능력 평가",
+        "name_en": "Criminal Responsibility Evaluation",
+        "id": "SPECIAL_CRE_003"
+      },
+      {
+        "name_ko": "임상면접",
+        "name_en": "Clinical Interview",
+        "id": "INTVIEW_CI_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "목격자 증언 평가",
+        "description": "범행 목격자의 진술 신뢰도 평가"
+      },
+      {
+        "name": "아동 증인 평가",
+        "description": "아동 증인의 발달 수준과 암시 가능성을 고려한 평가"
+      },
+      {
+        "name": "진술 타당도 분석 (SVA)",
+        "description": "진술의 내용과 구조를 분석하여 신빙성을 판단하는 체계적 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Loftus의 오정보 효과: 사후 정보가 원래 기억을 '오염'시킨다",
+      "differential": "증인 신빙성 평가는 진술의 정확성을 다루고, 형사책임능력 평가는 피고인의 정신 상태를 다룬다.",
+      "key_point": "목격자 증언은 매우 확신에 찬 경우에도 부정확할 수 있으며, 확신도와 정확도의 상관은 낮다.",
+      "common_mistake": "증인이 자신감 있게 진술하면 정확하다고 판단하는 오류 — 확신도는 정확성의 신뢰할 만한 지표가 아니다."
+    }
+  },
+  {
+    "id": "SPECIAL_RA_005",
+    "terminology": "위험성 평가 (Risk Assessment)",
+    "terminology_ko": "위험성 평가",
+    "terminology_en": "Risk Assessment",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "개인이 미래에 폭력이나 범죄를 저지를 가능성을 체계적으로 예측하는 심리학적 평가 절차로, 정적·동적 위험 요인을 종합적으로 분석한다.",
+    "definition_en": "A systematic psychological evaluation procedure that predicts an individual's likelihood of future violence or criminal behavior by comprehensively analyzing static and dynamic risk factors.",
+    "significance": "가석방 결정, 보호관찰 수준, 치료 프로그램 배정 등 교정 및 사법적 의사결정의 핵심 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "크리스토퍼 웹스터",
+        "name_en": "Christopher Webster",
+        "contribution": "HCR-20(Historical, Clinical, Risk Management-20) 위험성 평가 도구 개발"
+      },
+      {
+        "name_ko": "버논 퀸지",
+        "name_en": "Vernon Quinsey",
+        "contribution": "성범죄자 위험성 평가 도구(VRAG) 개발 및 보험계리적 위험 평가 방법론 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "범죄심리학",
+        "name_en": "Criminal Psychology",
+        "id": "SPECIAL_CRP_002"
+      },
+      {
+        "name_ko": "프로파일링",
+        "name_en": "Criminal Profiling",
+        "id": "SPECIAL_PRO_006"
+      },
+      {
+        "name_ko": "교정심리학",
+        "name_en": "Correctional Psychology",
+        "id": "SPECIAL_COR_008"
+      },
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "비구조화 임상판단",
+        "description": "임상가의 경험과 직관에 기반한 위험성 판단"
+      },
+      {
+        "name": "보험계리적 평가",
+        "description": "통계적 알고리즘에 기반한 재범 확률 산출"
+      },
+      {
+        "name": "구조화 전문가 판단 (SPJ)",
+        "description": "체계적 지침을 활용하되 임상적 판단을 통합하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "위험성 평가의 3세대: 비구조화 → 보험계리적(actuarial) → 구조화 전문가 판단(SPJ)",
+      "differential": "정적 위험 요인은 변하지 않는 과거력(범죄 경력, 나이)이고, 동적 위험 요인은 변화 가능한 현재 상태(약물 사용, 사회적 지지)이다.",
+      "key_point": "구조화 전문가 판단(SPJ) 접근이 비구조화 임상판단보다 예측 정확도가 높다.",
+      "common_mistake": "위험성 평가가 미래 행동을 확실히 예측할 수 있다고 과신하는 오류 — 확률적 추정일 뿐이다."
+    }
+  },
+  {
+    "id": "SPECIAL_PRO_006",
+    "terminology": "범죄자 프로파일링 (Criminal Profiling)",
+    "terminology_ko": "범죄자 프로파일링",
+    "terminology_en": "Criminal Profiling",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "범죄 현장의 증거와 행동 패턴을 분석하여 미지의 범인의 심리적·인구통계학적 특성을 추론하는 수사 기법이다.",
+    "definition_en": "An investigative technique that analyzes crime scene evidence and behavioral patterns to infer the psychological and demographic characteristics of an unknown offender.",
+    "significance": "연쇄 범죄 수사에서 용의자 범위를 좁히는 데 활용되며, 심리학적 이론이 실제 수사에 기여하는 대표적 영역이다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 더글러스",
+        "name_en": "John Douglas",
+        "contribution": "FBI 행동분석팀(BAU)의 선구자로, 조직적/비조직적 범죄자 유형론을 체계화"
+      },
+      {
+        "name_ko": "데이비드 캔터",
+        "name_en": "David Canter",
+        "contribution": "수사심리학(investigative psychology)을 창시하여 프로파일링에 과학적 방법론 도입"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "범죄심리학",
+        "name_en": "Criminal Psychology",
+        "id": "SPECIAL_CRP_002"
+      },
+      {
+        "name_ko": "위험성 평가",
+        "name_en": "Risk Assessment",
+        "id": "SPECIAL_RA_005"
+      },
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "FBI 유형론적 접근",
+        "description": "범죄 현장을 조직적/비조직적으로 분류하여 범인 유형 추론"
+      },
+      {
+        "name": "수사심리학적 접근",
+        "description": "통계적 분석과 심리학 이론에 기반한 과학적 프로파일링"
+      },
+      {
+        "name": "지리적 프로파일링",
+        "description": "범죄 발생 장소 패턴 분석으로 범인의 거주지 추정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "프로파일링의 두 축: Douglas(FBI, 유형론) vs. Canter(수사심리학, 과학적)",
+      "differential": "프로파일링은 미지의 범인 특성을 추론하는 것이고, 위험성 평가는 특정인의 재범 가능성을 예측하는 것이다.",
+      "key_point": "프로파일링의 과학적 타당성에 대한 논쟁이 지속되고 있으며, 수사 보조 도구로만 활용해야 한다.",
+      "common_mistake": "프로파일링이 범인을 정확히 특정할 수 있다고 과대평가하는 오류 — 확률적 추론일 뿐이다."
+    }
+  },
+  {
+    "id": "SPECIAL_PSI_007",
+    "terminology": "양형 전 조사 (Presentence Investigation)",
+    "terminology_ko": "양형 전 조사",
+    "terminology_en": "Presentence Investigation",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "유죄 판결 후 양형 결정에 앞서 피고인의 심리적 상태, 가정환경, 범행 동기, 재범 위험성 등을 종합적으로 조사하는 절차이다.",
+    "definition_en": "A comprehensive investigation conducted after a guilty verdict but before sentencing, examining the defendant's psychological state, family environment, offense motivation, and recidivism risk.",
+    "significance": "양형의 개별화를 실현하는 핵심 절차로, 임상심리학적 평가가 형사 처분의 적정성을 높이는 데 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "토마스 그리소",
+        "name_en": "Thomas Grisso",
+        "contribution": "법정 심리평가의 표준화된 방법론 정립, 양형 관련 심리평가 지침 개발"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "형사책임능력 평가",
+        "name_en": "Criminal Responsibility Evaluation",
+        "id": "SPECIAL_CRE_003"
+      },
+      {
+        "name_ko": "위험성 평가",
+        "name_en": "Risk Assessment",
+        "id": "SPECIAL_RA_005"
+      },
+      {
+        "name_ko": "교정심리학",
+        "name_en": "Correctional Psychology",
+        "id": "SPECIAL_COR_008"
+      },
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "양형 전 조사 = 판결(Sentence) 전(Pre) 조사(Investigation) → PSI",
+      "differential": "양형 전 조사는 형량 결정을 위한 것이고, 형사책임능력 평가는 유·무죄 판단을 위한 것이다.",
+      "key_point": "심리학적 평가 결과가 양형에 반영되어 치료적 처분, 보호관찰 등 대안적 형사제재 결정에 기여한다.",
+      "common_mistake": "양형 전 조사와 형사책임능력 평가의 시점과 목적을 혼동하는 오류."
+    }
+  },
+  {
+    "id": "SPECIAL_COR_008",
+    "terminology": "교정심리학 (Correctional Psychology)",
+    "terminology_ko": "교정심리학",
+    "terminology_en": "Correctional Psychology",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "교도소, 소년원 등 교정 시설에서 수용자의 심리 평가, 분류, 상담 및 재활 프로그램을 제공하는 임상심리학의 전문 영역이다.",
+    "definition_en": "A specialty of clinical psychology that provides psychological assessment, classification, counseling, and rehabilitation programs for inmates in correctional facilities such as prisons and juvenile detention centers.",
+    "significance": "재범 방지와 사회 복귀를 위한 과학적 교정 프로그램 개발에 핵심 역할을 하며, 교정 시설 내 정신건강 서비스의 질을 높인다.",
+    "key_researchers": [
+      {
+        "name_ko": "도날드 앤드루스",
+        "name_en": "Donald Andrews",
+        "contribution": "위험성-욕구-반응성(RNR) 모델을 개발하여 교정 치료의 효과를 극대화하는 원칙 정립"
+      },
+      {
+        "name_ko": "제임스 보넌타",
+        "name_en": "James Bonta",
+        "contribution": "Andrews와 함께 RNR 모델 개발 및 범죄자 재활 메타분석 연구 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      },
+      {
+        "name_ko": "범죄심리학",
+        "name_en": "Criminal Psychology",
+        "id": "SPECIAL_CRP_002"
+      },
+      {
+        "name_ko": "위험성 평가",
+        "name_en": "Risk Assessment",
+        "id": "SPECIAL_RA_005"
+      },
+      {
+        "name_ko": "양형 전 조사",
+        "name_en": "Presentence Investigation",
+        "id": "SPECIAL_PSI_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RNR 모델: Risk(위험성 수준에 맞게) + Need(범죄유발 욕구 표적) + Responsivity(반응성에 맞춤 치료)",
+      "differential": "교정심리학은 시설 내 수용자 대상이고, 법정심리학은 법적 절차(재판) 과정에서의 심리학 적용이다.",
+      "key_point": "고위험 범죄자에게 집중적 치료를 제공하는 것이 저위험 범죄자에게 제공하는 것보다 재범 감소 효과가 크다.",
+      "common_mistake": "모든 범죄자에게 동일한 교정 프로그램을 적용하는 것이 효과적이라고 가정하는 오류."
+    }
+  },
+  {
+    "id": "SPECIAL_COMP_009",
+    "terminology": "지역사회심리학 (Community Psychology)",
+    "terminology_ko": "지역사회심리학",
+    "terminology_en": "Community Psychology",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "개인의 정신건강 문제를 개인 수준이 아닌 지역사회와 사회 체계 수준에서 접근하여, 환경 변화와 예방 중심의 개입을 강조하는 심리학 분야이다.",
+    "definition_en": "A field of psychology that approaches mental health issues at the community and social systems level rather than the individual level, emphasizing environmental change and prevention-focused interventions.",
+    "significance": "탈원화 이후 지역사회 정신건강 서비스의 이론적 기반을 제공하며, 예방과 역량 강화를 통한 정신건강 증진 패러다임을 확립했다.",
+    "key_researchers": [
+      {
+        "name_ko": "스워프먼",
+        "name_en": "Swampscott Conference",
+        "contribution": "1965년 스워프스콧 회의에서 지역사회심리학이 독립 분야로 공식 출범"
+      },
+      {
+        "name_ko": "제럴드 카플란",
+        "name_en": "Gerald Caplan",
+        "contribution": "예방적 정신건강 모델(1차/2차/3차 예방)을 체계화하여 지역사회 접근의 이론적 기초 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "예방",
+        "name_en": "Prevention",
+        "id": "SPECIAL_PRV_010"
+      },
+      {
+        "name_ko": "탈원화",
+        "name_en": "Deinstitutionalization",
+        "id": "SPECIAL_DEI_016"
+      },
+      {
+        "name_ko": "지역사회 정신건강센터",
+        "name_en": "Community Mental Health Center",
+        "id": "SPECIAL_CMHC_015"
+      },
+      {
+        "name_ko": "위기개입",
+        "name_en": "Crisis Intervention",
+        "id": "SPECIAL_CI_013"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지역사회심리학 핵심: '물고기를 주지 말고, 강을 깨끗하게 하라' (환경 변화 강조)",
+      "differential": "지역사회심리학은 체계 수준 변화를 추구하고, 전통적 임상심리학은 개인 수준 치료에 초점을 둔다.",
+      "key_point": "1965년 스워프스콧 회의가 지역사회심리학의 공식적 출발점이다.",
+      "common_mistake": "지역사회심리학이 단순히 지역사회에서 상담하는 것이라고 오해하는 오류 — 체계 수준의 변화를 추구한다."
+    }
+  },
+  {
+    "id": "SPECIAL_PRV_010",
+    "terminology": "예방 (Prevention)",
+    "terminology_ko": "예방",
+    "terminology_en": "Prevention",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "정신건강 문제가 발생하기 전에 이를 방지하거나 조기에 발견·개입하여 악화를 막는 체계적 접근으로, 1차·2차·3차 예방으로 구분된다.",
+    "definition_en": "A systematic approach to preventing mental health problems before they occur or detecting and intervening early to prevent deterioration, classified into primary, secondary, and tertiary prevention.",
+    "significance": "치료 중심에서 예방 중심으로의 패러다임 전환을 대표하며, 공중보건 모델을 정신건강 분야에 적용한 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제럴드 카플란",
+        "name_en": "Gerald Caplan",
+        "contribution": "1차/2차/3차 예방 모델을 정신건강 분야에 도입하여 지역사회 정신건강의 이론적 기초 확립"
+      },
+      {
+        "name_ko": "조지 앨비",
+        "name_en": "George Albee",
+        "contribution": "정신장애 예방의 중요성을 주창하고 사회적 불평등이 정신건강에 미치는 영향을 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "지역사회심리학",
+        "name_en": "Community Psychology",
+        "id": "SPECIAL_COMP_009"
+      },
+      {
+        "name_ko": "정신건강증진",
+        "name_en": "Mental Health Promotion",
+        "id": "SPECIAL_MHP_011"
+      },
+      {
+        "name_ko": "위기개입",
+        "name_en": "Crisis Intervention",
+        "id": "SPECIAL_CI_013"
+      },
+      {
+        "name_ko": "건강심리학",
+        "name_en": "Health Psychology",
+        "id": "HEALTH_HP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "1차 예방 (Primary Prevention)",
+        "description": "전체 인구를 대상으로 문제 발생 자체를 방지하는 보편적 개입"
+      },
+      {
+        "name": "2차 예방 (Secondary Prevention)",
+        "description": "고위험군을 조기 발견하여 문제 악화를 방지하는 선별적 개입"
+      },
+      {
+        "name": "3차 예방 (Tertiary Prevention)",
+        "description": "이미 발병한 사람의 재발 방지와 기능 회복을 위한 지시적 개입"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "1차 = 모두에게(Universal), 2차 = 위험군(Selective), 3차 = 발병자(Indicated) → USI",
+      "differential": "1차 예방은 '아직 건강한' 전체 대상, 2차 예방은 '위험 신호가 있는' 고위험군, 3차 예방은 '이미 발병한' 환자 대상이다.",
+      "key_point": "Caplan의 전통적 3단계 모델 외에 IOM(Institute of Medicine) 분류(보편적·선별적·지시적)도 널리 사용된다.",
+      "common_mistake": "3차 예방을 치료와 동일시하는 오류 — 3차 예방은 재발 방지와 기능 회복에 초점을 둔다."
+    }
+  },
+  {
+    "id": "SPECIAL_MHP_011",
+    "terminology": "정신건강증진 (Mental Health Promotion)",
+    "terminology_ko": "정신건강증진",
+    "terminology_en": "Mental Health Promotion",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "정신장애의 예방을 넘어 개인과 지역사회의 심리적 안녕감과 적응 역량을 적극적으로 향상시키는 활동과 정책을 포괄하는 개념이다.",
+    "definition_en": "A concept encompassing activities and policies that go beyond preventing mental disorders to actively enhance psychological well-being and adaptive capacity of individuals and communities.",
+    "significance": "질병 중심 모델에서 강점과 역량 중심 모델로의 전환을 대표하며, 긍정심리학과 연계되어 정신건강의 새로운 패러다임을 제시한다.",
+    "key_researchers": [
+      {
+        "name_ko": "코리 키스",
+        "name_en": "Corey Keyes",
+        "contribution": "완전한 정신건강 모델(complete state model)을 제안하여 정신건강과 정신질환을 별개 차원으로 개념화"
+      },
+      {
+        "name_ko": "세계보건기구",
+        "name_en": "World Health Organization (WHO)",
+        "contribution": "정신건강을 단순히 정신질환의 부재가 아닌 안녕 상태로 정의하여 증진의 개념적 기초 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "예방",
+        "name_en": "Prevention",
+        "id": "SPECIAL_PRV_010"
+      },
+      {
+        "name_ko": "지역사회심리학",
+        "name_en": "Community Psychology",
+        "id": "SPECIAL_COMP_009"
+      },
+      {
+        "name_ko": "건강심리학",
+        "name_en": "Health Psychology",
+        "id": "HEALTH_HP_001"
+      },
+      {
+        "name_ko": "지역사회 정신건강센터",
+        "name_en": "Community Mental Health Center",
+        "id": "SPECIAL_CMHC_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "WHO 정의: 정신건강 = 안녕(well-being) + 능력 발휘 + 스트레스 대처 + 생산적 기여",
+      "differential": "정신건강증진은 건강한 사람의 안녕감을 높이는 것이고, 예방은 문제 발생을 막는 것이다.",
+      "key_point": "정신질환이 없어도 정신건강이 좋지 않을 수 있으며(languishing), 이 두 차원은 독립적이다.",
+      "common_mistake": "정신건강증진과 정신질환 예방을 동일시하는 오류 — 증진은 강점과 역량 강화에 초점을 둔다."
+    }
+  },
+  {
+    "id": "SPECIAL_CM_012",
+    "terminology": "사례관리 (Case Management)",
+    "terminology_ko": "사례관리",
+    "terminology_en": "Case Management",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "만성 정신장애인이 지역사회에서 필요한 서비스를 지속적으로 연계·조정받을 수 있도록 돕는 체계적인 관리 과정이다.",
+    "definition_en": "A systematic management process that helps individuals with chronic mental illness continuously access and coordinate necessary services in the community.",
+    "significance": "탈원화 이후 지역사회에서 생활하는 정신장애인의 서비스 접근성을 높이고, 분절된 서비스 체계를 통합하는 핵심 기능을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 라프",
+        "name_en": "Charles Rapp",
+        "contribution": "강점 기반 사례관리 모델을 개발하여 내담자의 강점과 자원 활용을 강조"
+      },
+      {
+        "name_ko": "메리 앤 테스트",
+        "name_en": "Mary Ann Test",
+        "contribution": "적극적 지역사회 치료(ACT) 모델을 개발하여 중증 정신장애인의 지역사회 생활 지원"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "지역사회심리학",
+        "name_en": "Community Psychology",
+        "id": "SPECIAL_COMP_009"
+      },
+      {
+        "name_ko": "탈원화",
+        "name_en": "Deinstitutionalization",
+        "id": "SPECIAL_DEI_016"
+      },
+      {
+        "name_ko": "지역사회 정신건강센터",
+        "name_en": "Community Mental Health Center",
+        "id": "SPECIAL_CMHC_015"
+      },
+      {
+        "name_ko": "위기개입",
+        "name_en": "Crisis Intervention",
+        "id": "SPECIAL_CI_013"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "중개형 사례관리",
+        "description": "서비스를 연계·의뢰하는 중개자 역할에 초점"
+      },
+      {
+        "name": "임상적 사례관리",
+        "description": "직접 상담과 서비스 조정을 병행"
+      },
+      {
+        "name": "적극적 지역사회 치료 (ACT)",
+        "description": "다학제 팀이 지역사회에서 직접 집중적 서비스 제공"
+      },
+      {
+        "name": "강점 기반 사례관리",
+        "description": "내담자의 강점과 자원을 활용하는 역량 강화 접근"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "사례관리의 핵심 기능: 연결(Link) + 조정(Coordinate) + 옹호(Advocate)",
+      "differential": "사례관리는 서비스 연계와 조정에 초점이고, 심리치료는 직접적 심리적 개입에 초점이다.",
+      "key_point": "ACT 모델은 중증 정신장애인의 입원율을 낮추고 지역사회 적응을 높이는 효과가 입증되었다.",
+      "common_mistake": "사례관리를 단순한 행정적 서비스 의뢰로 축소하는 오류 — 임상적 판단과 옹호 기능도 포함한다."
+    }
+  },
+  {
+    "id": "SPECIAL_CI_013",
+    "terminology": "위기개입 (Crisis Intervention)",
+    "terminology_ko": "위기개입",
+    "terminology_en": "Crisis Intervention",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "자살 시도, 재난, 폭력 피해 등 급성 심리적 위기 상황에서 즉각적이고 단기적인 심리적 지원을 제공하여 안정화와 적응을 돕는 개입이다.",
+    "definition_en": "An immediate, short-term psychological intervention provided during acute crises such as suicide attempts, disasters, or violence victimization to promote stabilization and adaptation.",
+    "significance": "위기 상황에서의 신속한 개입이 장기적 정신건강 문제를 예방하는 2차 예방의 핵심 전략이다.",
+    "key_researchers": [
+      {
+        "name_ko": "에릭 린데만",
+        "name_en": "Erich Lindemann",
+        "contribution": "1944년 코코넛 그로브 화재 생존자 연구로 위기 이론의 기초 확립"
+      },
+      {
+        "name_ko": "제럴드 카플란",
+        "name_en": "Gerald Caplan",
+        "contribution": "위기 이론을 체계화하여 위기개입의 이론적 기초를 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "자살예방",
+        "name_en": "Suicide Prevention",
+        "id": "SPECIAL_SP_014"
+      },
+      {
+        "name_ko": "예방",
+        "name_en": "Prevention",
+        "id": "SPECIAL_PRV_010"
+      },
+      {
+        "name_ko": "지역사회심리학",
+        "name_en": "Community Psychology",
+        "id": "SPECIAL_COMP_009"
+      },
+      {
+        "name_ko": "사례관리",
+        "name_en": "Case Management",
+        "id": "SPECIAL_CM_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "심리적 응급처치 (PFA)",
+        "description": "재난 직후 생존자에게 안전, 안정, 연결을 제공하는 초기 개입"
+      },
+      {
+        "name": "위기상담 전화",
+        "description": "자살 위기 등에 24시간 전화 상담을 제공하는 서비스"
+      },
+      {
+        "name": "심리적 디브리핑",
+        "description": "외상 사건 직후 경험을 나누고 처리하는 집단 개입"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "위기개입 6단계: 문제 정의 → 안전 확보 → 지지 제공 → 대안 탐색 → 계획 수립 → 동의 확보",
+      "differential": "위기개입은 급성 상황의 단기 안정화이고, 심리치료는 장기적 심리적 변화를 목표로 한다.",
+      "key_point": "위기는 위험(danger)과 기회(opportunity)를 동시에 포함하며, 적절한 개입은 성장의 기회가 될 수 있다.",
+      "common_mistake": "위기개입을 장기 심리치료와 혼동하는 오류 — 위기개입은 보통 1~6회기의 단기 개입이다."
+    }
+  },
+  {
+    "id": "SPECIAL_SP_014",
+    "terminology": "자살예방 (Suicide Prevention)",
+    "terminology_ko": "자살예방",
+    "terminology_en": "Suicide Prevention",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "자살 위험 요인의 조기 발견, 위기개입, 사후관리를 포함하는 체계적 예방 활동으로, 게이트키퍼 훈련, 수단 제한, 미디어 가이드라인 등을 포괄한다.",
+    "definition_en": "Systematic preventive activities including early detection of suicide risk factors, crisis intervention, and postvention, encompassing gatekeeper training, means restriction, and media guidelines.",
+    "significance": "한국이 OECD 국가 중 자살률 최상위권을 기록하는 상황에서 임상심리학의 가장 시급한 사회적 과제 중 하나이다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드윈 슈나이드먼",
+        "name_en": "Edwin Shneidman",
+        "contribution": "자살학(suicidology)의 창시자, '심리적 고통(psychache)' 개념 제안"
+      },
+      {
+        "name_ko": "토머스 조이너",
+        "name_en": "Thomas Joiner",
+        "contribution": "자살의 대인관계 이론(IPTS)을 제안하여 좌절된 소속감, 지각된 짐스러움, 습득된 자살 능력의 3요소 모델 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "위기개입",
+        "name_en": "Crisis Intervention",
+        "id": "SPECIAL_CI_013"
+      },
+      {
+        "name_ko": "예방",
+        "name_en": "Prevention",
+        "id": "SPECIAL_PRV_010"
+      },
+      {
+        "name_ko": "지역사회 정신건강센터",
+        "name_en": "Community Mental Health Center",
+        "id": "SPECIAL_CMHC_015"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "보편적 예방",
+        "description": "전체 인구 대상 인식 제고와 교육"
+      },
+      {
+        "name": "선별적 예방",
+        "description": "고위험군(우울, 약물남용, 자살 시도력) 대상 집중 개입"
+      },
+      {
+        "name": "사후관리 (Postvention)",
+        "description": "자살 유가족과 주변인에 대한 심리적 지원"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Joiner의 IPTS 3요소: 좌절된 소속감(Thwarted Belonging) + 지각된 짐스러움(Perceived Burdensomeness) + 습득된 능력(Acquired Capability)",
+      "differential": "자살예방은 자살 위험 감소를 위한 체계적 활동이고, 위기개입은 급성 위기 상황에서의 즉각적 대응이다.",
+      "key_point": "자살 수단 접근성 제한이 가장 효과적인 예방 전략 중 하나로 입증되었다.",
+      "common_mistake": "자살에 대해 직접 물어보면 자살을 유발한다는 오해 — 직접 질문은 오히려 위험 평가의 핵심이다."
+    }
+  },
+  {
+    "id": "SPECIAL_CMHC_015",
+    "terminology": "지역사회 정신건강센터 (Community Mental Health Center)",
+    "terminology_ko": "지역사회 정신건강센터",
+    "terminology_en": "Community Mental Health Center",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "지역 주민에게 외래 치료, 위기개입, 낮병원, 사례관리 등 포괄적 정신건강 서비스를 제공하는 지역 기반 시설이다.",
+    "definition_en": "A community-based facility that provides comprehensive mental health services to local residents, including outpatient treatment, crisis intervention, day programs, and case management.",
+    "significance": "탈원화 이후 지역사회 정신건강 서비스 전달의 핵심 기관으로, 정신건강 서비스의 접근성과 연속성을 보장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 F. 케네디",
+        "name_en": "John F. Kennedy",
+        "contribution": "1963년 지역사회 정신건강센터법(CMHCA)에 서명하여 미국 전역의 CMHC 설립을 추진"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "탈원화",
+        "name_en": "Deinstitutionalization",
+        "id": "SPECIAL_DEI_016"
+      },
+      {
+        "name_ko": "지역사회심리학",
+        "name_en": "Community Psychology",
+        "id": "SPECIAL_COMP_009"
+      },
+      {
+        "name_ko": "사례관리",
+        "name_en": "Case Management",
+        "id": "SPECIAL_CM_012"
+      },
+      {
+        "name_ko": "위기개입",
+        "name_en": "Crisis Intervention",
+        "id": "SPECIAL_CI_013"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CMHC = 1963년 케네디 대통령의 지역사회 정신건강센터법으로 시작",
+      "differential": "CMHC는 지역사회에서 포괄적 서비스를 제공하는 기관이고, 정신병원은 입원 중심의 치료 시설이다.",
+      "key_point": "한국에서는 정신건강복지센터가 이 역할을 수행하며, 전국 시·군·구에 설치·운영되고 있다.",
+      "common_mistake": "CMHC가 입원 서비스를 제공하는 병원이라고 오해하는 오류 — 주로 외래 및 지역사회 기반 서비스를 제공한다."
+    }
+  },
+  {
+    "id": "SPECIAL_DEI_016",
+    "terminology": "탈원화 (Deinstitutionalization)",
+    "terminology_ko": "탈원화",
+    "terminology_en": "Deinstitutionalization",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "대규모 정신병원 중심의 수용 체계에서 벗어나 지역사회 기반의 정신건강 서비스로 전환하는 정책적·사회적 운동이다.",
+    "definition_en": "A policy and social movement transitioning from large institutional psychiatric hospital-based care to community-based mental health services.",
+    "significance": "20세기 후반 정신건강 서비스 체계의 가장 큰 구조적 변화로, 환자의 인권과 지역사회 통합을 강조하는 패러다임 전환을 이끌었다.",
+    "key_researchers": [
+      {
+        "name_ko": "필립 피넬",
+        "name_en": "Philippe Pinel",
+        "contribution": "18세기 말 정신질환자의 쇠사슬 해방으로 인도주의적 치료의 시초를 열었으며, 탈원화의 정신적 기원"
+      },
+      {
+        "name_ko": "어빙 고프만",
+        "name_en": "Erving Goffman",
+        "contribution": "1961년 'Asylums'에서 총체적 기관(total institution)의 부정적 효과를 폭로하여 탈원화 운동에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "지역사회 정신건강센터",
+        "name_en": "Community Mental Health Center",
+        "id": "SPECIAL_CMHC_015"
+      },
+      {
+        "name_ko": "지역사회심리학",
+        "name_en": "Community Psychology",
+        "id": "SPECIAL_COMP_009"
+      },
+      {
+        "name_ko": "사례관리",
+        "name_en": "Case Management",
+        "id": "SPECIAL_CM_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "탈원화 3요소: 항정신병 약물(1950년대) + 인권 운동 + 지역사회 정신건강센터법(1963)",
+      "differential": "탈원화는 정책적 운동이고, 지역사회심리학은 이를 뒷받침하는 학문적 분야이다.",
+      "key_point": "탈원화가 충분한 지역사회 서비스 구축 없이 진행되면 노숙, 범죄, 재입원의 '회전문 현상'이 발생한다.",
+      "common_mistake": "탈원화가 모든 정신병원을 폐쇄하는 것이라고 오해하는 오류 — 적절한 지역사회 대안 마련이 핵심이다."
+    }
+  },
+  {
+    "id": "SPECIAL_EAP_017",
+    "terminology": "근로자 지원 프로그램 (Employee Assistance Program)",
+    "terminology_ko": "근로자 지원 프로그램",
+    "terminology_en": "Employee Assistance Program",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "기업이 직원의 개인적·직업적 문제(정신건강, 물질남용, 가정 문제 등)를 지원하기 위해 제공하는 전문 상담 및 의뢰 서비스 프로그램이다.",
+    "definition_en": "A professional counseling and referral service program provided by organizations to support employees with personal and work-related problems including mental health, substance abuse, and family issues.",
+    "significance": "기업 환경에서 임상심리학적 서비스가 확장되는 대표적 영역으로, 직원 복지와 조직 생산성 향상을 동시에 추구한다.",
+    "key_researchers": [
+      {
+        "name_ko": "해리슨 트라이스",
+        "name_en": "Harrison Trice",
+        "contribution": "직장 내 알코올 문제 대응 프로그램 연구로 현대 EAP의 기초를 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "직무스트레스",
+        "name_en": "Occupational Stress",
+        "id": "SPECIAL_OS_018"
+      },
+      {
+        "name_ko": "소진",
+        "name_en": "Burnout",
+        "id": "SPECIAL_BO_019"
+      },
+      {
+        "name_ko": "건강심리학",
+        "name_en": "Health Psychology",
+        "id": "HEALTH_HP_001"
+      },
+      {
+        "name_ko": "코칭심리학",
+        "name_en": "Coaching Psychology",
+        "id": "SPECIAL_CPC_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "내부 EAP",
+        "description": "기업 내부에 전담 상담사를 배치하여 운영"
+      },
+      {
+        "name": "외부 EAP",
+        "description": "외부 전문기관에 위탁하여 상담 서비스 제공"
+      },
+      {
+        "name": "혼합형 EAP",
+        "description": "내부·외부 모델을 병행하는 형태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "EAP = Employee(직원) + Assistance(지원) + Program(프로그램) → 기업상담의 대표적 형태",
+      "differential": "EAP는 기업이 제공하는 조직 차원의 프로그램이고, 개인 상담은 내담자가 스스로 찾는 서비스이다.",
+      "key_point": "EAP는 비밀보장 원칙에 따라 운영되며, 직원의 이용 사실이 회사에 보고되지 않는다.",
+      "common_mistake": "EAP를 단순한 복리후생으로 보는 오류 — 전문 임상심리서비스가 핵심이며 비용 효과성이 입증되었다."
+    }
+  },
+  {
+    "id": "SPECIAL_OS_018",
+    "terminology": "직무스트레스 (Occupational Stress)",
+    "terminology_ko": "직무스트레스",
+    "terminology_en": "Occupational Stress",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "업무 요구, 역할 갈등, 조직 환경 등 직장 관련 요인으로 인해 경험하는 신체적·심리적 긴장 반응으로, 개인의 건강과 조직 성과에 부정적 영향을 미친다.",
+    "definition_en": "Physical and psychological strain responses caused by work-related factors such as job demands, role conflict, and organizational environment, negatively affecting individual health and organizational performance.",
+    "significance": "현대 사회에서 가장 흔한 정신건강 위험 요인 중 하나로, 건강심리학과 산업·조직심리학이 교차하는 핵심 주제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로버트 카라섹",
+        "name_en": "Robert Karasek",
+        "contribution": "직무요구-통제(JDC) 모델을 개발하여 높은 요구와 낮은 통제가 직무스트레스의 핵심 원인임을 밝힘"
+      },
+      {
+        "name_ko": "요하네스 시그리스트",
+        "name_en": "Johannes Siegrist",
+        "contribution": "노력-보상 불균형(ERI) 모델을 제안하여 직무스트레스의 사회적 교환 측면을 강조"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "소진",
+        "name_en": "Burnout",
+        "id": "SPECIAL_BO_019"
+      },
+      {
+        "name_ko": "근로자 지원 프로그램",
+        "name_en": "Employee Assistance Program",
+        "id": "SPECIAL_EAP_017"
+      },
+      {
+        "name_ko": "건강심리학",
+        "name_en": "Health Psychology",
+        "id": "HEALTH_HP_001"
+      },
+      {
+        "name_ko": "생물심리사회 모델",
+        "name_en": "Biopsychosocial Model",
+        "id": "HEALTH_BPS_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Karasek 모델: 높은 요구(High Demand) + 낮은 통제(Low Control) = 높은 스트레스(High Strain)",
+      "differential": "직무스트레스는 업무 상황에서의 스트레스 반응이고, 소진은 만성적 직무스트레스의 결과로 나타나는 증후군이다.",
+      "key_point": "직무 요구가 높더라도 통제감(자율성)이 높으면 스트레스가 완화되는 '능동적 직무'가 된다.",
+      "common_mistake": "모든 직무스트레스가 해로운 것이라고 가정하는 오류 — 적정 수준의 스트레스는 동기부여가 될 수 있다."
+    }
+  },
+  {
+    "id": "SPECIAL_BO_019",
+    "terminology": "소진 (Burnout)",
+    "terminology_ko": "소진",
+    "terminology_en": "Burnout",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "만성적 직무스트레스에 대한 반응으로 나타나는 정서적 고갈, 비인격화(냉소), 개인적 성취감 저하를 특징으로 하는 심리적 증후군이다.",
+    "definition_en": "A psychological syndrome characterized by emotional exhaustion, depersonalization (cynicism), and reduced personal accomplishment as a response to chronic occupational stress.",
+    "significance": "정신건강 전문가를 포함한 휴먼서비스 종사자에게 높은 유병률을 보이며, 서비스 질 저하와 이직의 주요 원인이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "크리스티나 매슬랙",
+        "name_en": "Christina Maslach",
+        "contribution": "소진의 3차원 모델을 정립하고 매슬랙 소진 척도(MBI)를 개발"
+      },
+      {
+        "name_ko": "허버트 프로이덴버거",
+        "name_en": "Herbert Freudenberger",
+        "contribution": "1974년 '소진(burnout)' 용어를 학술적으로 최초 사용하여 개념을 확립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "직무스트레스",
+        "name_en": "Occupational Stress",
+        "id": "SPECIAL_OS_018"
+      },
+      {
+        "name_ko": "근로자 지원 프로그램",
+        "name_en": "Employee Assistance Program",
+        "id": "SPECIAL_EAP_017"
+      },
+      {
+        "name_ko": "건강심리학",
+        "name_en": "Health Psychology",
+        "id": "HEALTH_HP_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소진의 3차원: EDP = Exhaustion(고갈) + Depersonalization(비인격화) + 성취감 저하(reduced Personal accomplishment)",
+      "differential": "소진은 직무 맥락에 특정적인 증후군이고, 우울증은 삶 전반에 걸친 기분장애이다.",
+      "key_point": "WHO는 2019년 ICD-11에서 소진을 직업적 현상(occupational phenomenon)으로 공식 분류했다.",
+      "common_mistake": "소진과 우울증을 동일시하는 오류 — 소진은 직무 맥락에 국한되며 정신장애 진단이 아니다."
+    }
+  },
+  {
+    "id": "SPECIAL_OP_020",
+    "terminology": "조직심리학 (Organizational Psychology)",
+    "terminology_ko": "조직심리학",
+    "terminology_en": "Organizational Psychology",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "조직 내 인간 행동을 연구하여 직원의 심리적 안녕, 직무 만족, 조직 효과성을 향상시키는 심리학 분야이다.",
+    "definition_en": "A field of psychology that studies human behavior within organizations to improve employee psychological well-being, job satisfaction, and organizational effectiveness.",
+    "significance": "임상심리학과 산업·조직심리학의 접점에서 직장 내 정신건강 증진, EAP, 코칭 등의 이론적 기반을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "휴고 뮌스터버그",
+        "name_en": "Hugo Münsterberg",
+        "contribution": "산업심리학의 선구자로 직장에서의 심리학 적용을 체계화"
+      },
+      {
+        "name_ko": "에드거 샤인",
+        "name_en": "Edgar Schein",
+        "contribution": "조직문화와 리더십의 심리학적 분석, 경력 앵커 이론 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "직무스트레스",
+        "name_en": "Occupational Stress",
+        "id": "SPECIAL_OS_018"
+      },
+      {
+        "name_ko": "소진",
+        "name_en": "Burnout",
+        "id": "SPECIAL_BO_019"
+      },
+      {
+        "name_ko": "근로자 지원 프로그램",
+        "name_en": "Employee Assistance Program",
+        "id": "SPECIAL_EAP_017"
+      },
+      {
+        "name_ko": "코칭심리학",
+        "name_en": "Coaching Psychology",
+        "id": "SPECIAL_CPC_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "I/O 심리학: Industrial(산업) + Organizational(조직) → 선발·배치·훈련 + 동기·문화·리더십",
+      "differential": "조직심리학은 조직 전체의 효과성을 다루고, 기업상담(EAP)은 개별 직원의 심리적 문제에 초점을 둔다.",
+      "key_point": "임상심리학자가 조직 장면에서 활동하는 영역이 확대되고 있으며, 특히 리더십 코칭과 직장 내 정신건강에서 그 역할이 증가하고 있다.",
+      "common_mistake": "조직심리학이 임상심리학과 무관하다고 생각하는 오류 — 직장 내 정신건강, 스트레스, 소진 등에서 두 분야가 긴밀히 연계된다."
+    }
+  },
+  {
+    "id": "SPECIAL_CPC_021",
+    "terminology": "코칭심리학 (Coaching Psychology)",
+    "terminology_ko": "코칭심리학",
+    "terminology_en": "Coaching Psychology",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "심리학적 이론과 근거에 기반하여 개인의 잠재력 개발, 목표 달성, 수행 향상을 체계적으로 촉진하는 응용 심리학 분야이다.",
+    "definition_en": "An applied psychology field that systematically facilitates individual potential development, goal achievement, and performance enhancement based on psychological theories and evidence.",
+    "significance": "긍정심리학과 임상심리학의 접점에서 비임상 집단의 성장과 역량 강화를 다루는 새로운 전문 영역으로 성장하고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "앤서니 그랜트",
+        "name_en": "Anthony Grant",
+        "contribution": "근거기반 코칭(evidence-based coaching)의 개념을 확립하고 시드니 대학 코칭심리학 프로그램 개설"
+      },
+      {
+        "name_ko": "스티븐 팔머",
+        "name_en": "Stephen Palmer",
+        "contribution": "인지행동 코칭 모델을 개발하여 코칭에 심리치료 이론을 통합"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코칭상담",
+        "name_en": "Coaching Counseling",
+        "id": "SPECIAL_CC_022"
+      },
+      {
+        "name_ko": "조직심리학",
+        "name_en": "Organizational Psychology",
+        "id": "SPECIAL_OP_020"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      },
+      {
+        "name_ko": "동기강화상담",
+        "name_en": "Motivational Interviewing",
+        "id": "CBT_MI_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "경영 코칭",
+        "description": "리더와 임원의 리더십 역량 개발"
+      },
+      {
+        "name": "건강 코칭",
+        "description": "건강 행동 변화와 웰빙 증진"
+      },
+      {
+        "name": "커리어 코칭",
+        "description": "진로 탐색과 경력 개발 지원"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "코칭심리학 vs. 심리치료: 코칭은 '정상에서 최적으로', 치료는 '고통에서 정상으로'",
+      "differential": "코칭심리학은 정상 기능 범위의 개인의 성장과 역량 강화에 초점이고, 심리치료는 정신건강 문제의 치료에 초점이다.",
+      "key_point": "코칭은 심리학적 근거에 기반해야 하며, 비심리학적 코칭과 구별되는 점이 과학적 토대이다.",
+      "common_mistake": "코칭을 심리치료의 대안으로 사용하는 오류 — 임상적 문제가 있는 경우 심리치료가 우선되어야 한다."
+    }
+  },
+  {
+    "id": "SPECIAL_CC_022",
+    "terminology": "코칭상담 (Coaching Counseling)",
+    "terminology_ko": "코칭상담",
+    "terminology_en": "Coaching Counseling",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "상담의 치료적 요소와 코칭의 성장 촉진 요소를 통합하여 내담자의 문제 해결과 잠재력 실현을 동시에 추구하는 통합적 접근이다.",
+    "definition_en": "An integrative approach combining therapeutic elements of counseling with growth-facilitating elements of coaching to simultaneously address problem resolution and potential realization.",
+    "significance": "심리치료와 코칭의 경계가 모호해지는 현대 임상 환경에서 두 접근의 장점을 결합한 실용적 모델을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "패트릭 윌리엄스",
+        "name_en": "Patrick Williams",
+        "contribution": "치료적 코칭(therapist as coach) 모델을 제안하여 상담과 코칭의 통합을 주도"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코칭심리학",
+        "name_en": "Coaching Psychology",
+        "id": "SPECIAL_CPC_021"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      },
+      {
+        "name_ko": "동기강화상담",
+        "name_en": "Motivational Interviewing",
+        "id": "CBT_MI_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "코칭상담 = Counseling(문제 해결) + Coaching(성장 촉진)의 하이브리드",
+      "differential": "코칭상담은 치료와 성장을 통합하고, 순수 코칭은 비임상적 성장에만 초점을 둔다.",
+      "key_point": "코칭상담에서는 내담자의 문제 수준에 따라 상담 모드와 코칭 모드를 유연하게 전환한다.",
+      "common_mistake": "코칭상담이 상담자격 없이 할 수 있다고 오해하는 오류 — 심리학적 훈련과 상담 역량이 필수이다."
+    }
+  },
+  {
+    "id": "SPECIAL_CLP_023",
+    "terminology": "임상심리전문가 (Clinical Psychology Specialist)",
+    "terminology_ko": "임상심리전문가",
+    "terminology_en": "Clinical Psychology Specialist",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "한국임상심리학회가 인정하는 최고 수준의 자격으로, 석사 이상의 학위와 수련을 거쳐 심리 평가, 심리치료, 연구를 독립적으로 수행할 수 있는 전문가이다.",
+    "definition_en": "The highest credential recognized by the Korean Clinical Psychology Association, requiring a master's degree or above and supervised training to independently conduct psychological assessment, psychotherapy, and research.",
+    "significance": "한국에서 임상심리 서비스의 전문성과 질을 보장하는 핵심 자격 체계로, 과학자-실무자 모델에 기반한 전문가 양성의 기준이다.",
+    "key_researchers": [
+      {
+        "name_ko": "한국임상심리학회",
+        "name_en": "Korean Clinical Psychology Association",
+        "contribution": "임상심리전문가 수련 및 자격 제도의 운영과 관리"
+      },
+      {
+        "name_ko": "신민섭",
+        "name_en": "Shin Min-Sup",
+        "contribution": "한국 임상심리학 교육과 수련 체계의 발전에 기여"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      },
+      {
+        "name_ko": "과학자-실무자 모델",
+        "name_en": "Scientist-Practitioner Model",
+        "id": "INTRO_SPM_002"
+      },
+      {
+        "name_ko": "처방권",
+        "name_en": "Prescriptive Authority",
+        "id": "SPECIAL_PA_024"
+      },
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "한국 임상심리 자격 3단계: 임상심리사 2급(국가자격) → 정신건강임상심리사 1급 → 임상심리전문가(학회자격)",
+      "differential": "임상심리전문가는 학회 자격이고, 정신건강임상심리사는 국가 자격이다. 두 체계가 병존한다.",
+      "key_point": "수련과정에는 심리평가, 심리치료, 연구방법론, 윤리 등이 포함되며 최소 2년 이상의 수련이 필요하다.",
+      "common_mistake": "임상심리전문가와 정신건강임상심리사를 동일한 자격으로 혼동하는 오류."
+    }
+  },
+  {
+    "id": "SPECIAL_PA_024",
+    "terminology": "처방권 (Prescriptive Authority)",
+    "terminology_ko": "처방권",
+    "terminology_en": "Prescriptive Authority",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "심리학자가 정신건강 문제에 대해 향정신성 약물을 처방할 수 있는 법적 권한으로, 미국 일부 주와 군에서 인정되고 있다.",
+    "definition_en": "The legal authority for psychologists to prescribe psychotropic medications for mental health conditions, recognized in some U.S. states and the military.",
+    "significance": "임상심리학의 직업적 정체성과 업무 범위에 관한 가장 논쟁적인 주제 중 하나로, 정신건강 서비스 접근성 향상과 전문직 간 역할 경계 문제를 동시에 제기한다.",
+    "key_researchers": [
+      {
+        "name_ko": "패트릭 델레온",
+        "name_en": "Patrick DeLeon",
+        "contribution": "심리학자 처방권 운동의 핵심 주창자로, APA와 미국 의회에서 법적 인정을 위한 활동을 주도"
+      },
+      {
+        "name_ko": "로버트 맥그래스",
+        "name_en": "Robert McGrath",
+        "contribution": "심리약리학 교육과정 개발 및 심리학자 처방 역량에 관한 연구 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임상심리전문가",
+        "name_en": "Clinical Psychology Specialist",
+        "id": "SPECIAL_CLP_023"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RxP = Prescriptive Authority, 미국 뉴멕시코(2002)·루이지애나(2004)가 최초로 법제화",
+      "differential": "처방권은 약물 처방의 법적 권한이고, 임상심리학의 전통적 역할인 심리평가·심리치료와는 구별된다.",
+      "key_point": "찬성론은 정신건강 서비스 접근성 향상을, 반대론은 안전성과 의료 훈련 부족 우려를 근거로 한다.",
+      "common_mistake": "처방권이 모든 심리학자에게 자동 부여된다고 오해하는 오류 — 추가적인 심리약리학 교육과 수련이 필수이다."
+    }
+  },
+  {
+    "id": "SPECIAL_TP_025",
+    "terminology": "원격심리학 (Telepsychology)",
+    "terminology_ko": "원격심리학",
+    "terminology_en": "Telepsychology",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "전화, 화상회의, 온라인 플랫폼 등 통신 기술을 활용하여 원격으로 심리 평가, 상담, 치료를 제공하는 심리학적 서비스 전달 방식이다.",
+    "definition_en": "A psychological service delivery method that provides remote psychological assessment, counseling, and treatment using telecommunication technologies such as phone, videoconferencing, and online platforms.",
+    "significance": "COVID-19 팬데믹 이후 급속히 확산되었으며, 지리적·물리적 장벽을 넘어 정신건강 서비스 접근성을 획기적으로 향상시켰다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "2013년 원격심리학 실무 가이드라인을 발표하여 윤리적·법적 기준 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "디지털 정신건강",
+        "name_en": "Digital Mental Health",
+        "id": "SPECIAL_DMH_026"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "SPECIAL_LC_031"
+      },
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "화상 심리치료",
+        "description": "실시간 화상통화를 통한 심리치료"
+      },
+      {
+        "name": "비동기 텍스트 상담",
+        "description": "메시지 기반의 비실시간 상담"
+      },
+      {
+        "name": "앱 기반 자가관리",
+        "description": "모바일 앱을 활용한 심리 자가관리 프로그램"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Telepsychology = Tele(원격) + Psychology → COVID-19 이후 '뉴노멀'로 자리잡음",
+      "differential": "원격심리학은 기존 심리치료를 원격 기술로 전달하는 것이고, 디지털 정신건강은 AI·앱 등 디지털 도구 자체가 개입 수단이다.",
+      "key_point": "원격 심리서비스에서도 대면 서비스와 동일한 윤리 기준(비밀보장, 동의 등)이 적용되어야 한다.",
+      "common_mistake": "원격 심리치료가 대면 치료보다 항상 덜 효과적이라고 가정하는 오류 — 많은 연구에서 동등한 효과가 보고되었다."
+    }
+  },
+  {
+    "id": "SPECIAL_DMH_026",
+    "terminology": "디지털 정신건강 (Digital Mental Health)",
+    "terminology_ko": "디지털 정신건강",
+    "terminology_en": "Digital Mental Health",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "모바일 앱, 웨어러블 기기, 온라인 프로그램 등 디지털 기술을 활용하여 정신건강의 평가, 모니터링, 개입을 수행하는 분야이다.",
+    "definition_en": "A field that utilizes digital technologies such as mobile apps, wearable devices, and online programs for assessment, monitoring, and intervention in mental health.",
+    "significance": "전통적 정신건강 서비스의 한계를 보완하여 대규모 인구에게 저비용으로 심리적 개입을 제공할 수 있는 혁신적 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 토러스",
+        "name_en": "John Torous",
+        "contribution": "디지털 정신건강 앱의 임상적 타당성과 환자 참여도에 관한 연구 수행"
+      },
+      {
+        "name_ko": "가벤 앤드루스",
+        "name_en": "Gavin Andrews",
+        "contribution": "인터넷 기반 인지행동치료(iCBT)의 효과성을 입증하는 대규모 연구 수행"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "원격심리학",
+        "name_en": "Telepsychology",
+        "id": "SPECIAL_TP_025"
+      },
+      {
+        "name_ko": "AI와 심리치료",
+        "name_en": "AI and Psychotherapy",
+        "id": "SPECIAL_AI_027"
+      },
+      {
+        "name_ko": "근거기반 실무",
+        "name_en": "Evidence-Based Practice",
+        "id": "INTRO_EBP_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "인터넷 기반 CBT (iCBT)",
+        "description": "온라인으로 제공되는 구조화된 인지행동치료 프로그램"
+      },
+      {
+        "name": "정신건강 앱",
+        "description": "명상, 기분 추적, 자가관리를 위한 모바일 애플리케이션"
+      },
+      {
+        "name": "디지털 표현형 (Digital Phenotyping)",
+        "description": "스마트폰 사용 패턴 분석을 통한 정신건강 상태 모니터링"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "디지털 정신건강의 3A: Access(접근성) + Affordability(경제성) + Anonymity(익명성)",
+      "differential": "디지털 정신건강은 기술 자체가 개입 도구이고, 원격심리학은 기존 치료를 기술로 전달하는 것이다.",
+      "key_point": "정신건강 앱의 대부분은 임상적 검증 없이 출시되어 있어, 근거기반 앱의 선별이 중요한 과제이다.",
+      "common_mistake": "모든 정신건강 앱이 과학적으로 검증되었다고 가정하는 오류 — 대부분의 앱은 임상시험을 거치지 않았다."
+    }
+  },
+  {
+    "id": "SPECIAL_AI_027",
+    "terminology": "AI와 심리치료 (AI and Psychotherapy)",
+    "terminology_ko": "AI와 심리치료",
+    "terminology_en": "AI and Psychotherapy",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "인공지능 기술을 심리 평가, 진단 보조, 치료적 대화, 치료 효과 예측 등에 활용하는 임상심리학의 최신 기술 융합 영역이다.",
+    "definition_en": "An emerging technology convergence area in clinical psychology that applies artificial intelligence to psychological assessment, diagnostic assistance, therapeutic conversations, and treatment outcome prediction.",
+    "significance": "임상심리학의 미래를 형성하는 핵심 기술로, 치료 접근성 향상과 의사결정 지원에 혁신적 가능성을 제공하지만 윤리적 과제도 수반한다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지프 와이젠바움",
+        "name_en": "Joseph Weizenbaum",
+        "contribution": "1966년 최초의 대화형 AI 'ELIZA'를 개발하여 컴퓨터와 치료적 대화의 가능성을 열었으나 동시에 그 한계를 경고"
+      },
+      {
+        "name_ko": "앨리슨 다시",
+        "name_en": "Alison Darcy",
+        "contribution": "AI 기반 정신건강 챗봇 'Woebot'을 개발하여 CBT 원리의 자동화된 전달 가능성을 입증"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "디지털 정신건강",
+        "name_en": "Digital Mental Health",
+        "id": "SPECIAL_DMH_026"
+      },
+      {
+        "name_ko": "원격심리학",
+        "name_en": "Telepsychology",
+        "id": "SPECIAL_TP_025"
+      },
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "AI 챗봇 치료",
+        "description": "AI가 인지행동치료 등의 원리를 대화형으로 전달"
+      },
+      {
+        "name": "AI 진단 보조",
+        "description": "기계학습으로 임상 데이터를 분석하여 진단을 지원"
+      },
+      {
+        "name": "자연어 처리 기반 분석",
+        "description": "텍스트·음성 분석을 통한 정신건강 상태 평가"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "AI 심리치료의 역사: ELIZA(1966) → Woebot(2017) → 대규모 언어 모델(2020년대)",
+      "differential": "AI는 심리치료를 '보조'하는 도구이지 치료자를 '대체'하는 것이 아니며, 치료 관계의 핵심은 인간 치료자에게 있다.",
+      "key_point": "AI 기반 개입의 윤리적 쟁점으로 데이터 프라이버시, 알고리즘 편향, 위기 상황 대응 한계 등이 있다.",
+      "common_mistake": "AI가 인간 치료자를 완전히 대체할 수 있다고 과대평가하는 오류 — 공감, 치료동맹 등은 AI의 한계 영역이다."
+    }
+  },
+  {
+    "id": "SPECIAL_CUC_028",
+    "terminology": "문화적 역량 (Cultural Competence)",
+    "terminology_ko": "문화적 역량",
+    "terminology_en": "Cultural Competence",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "다양한 문화적 배경의 내담자를 효과적으로 이해하고 서비스를 제공하기 위한 지식, 태도, 기술의 총체로, 문화적 자기인식, 타문화 지식, 적절한 개입 기술을 포함한다.",
+    "definition_en": "The totality of knowledge, attitudes, and skills needed to effectively understand and serve clients from diverse cultural backgrounds, including cultural self-awareness, cross-cultural knowledge, and appropriate intervention skills.",
+    "significance": "다문화 사회에서 임상 서비스의 효과성과 형평성을 보장하기 위한 필수 역량으로, 모든 심리학적 실무의 기본 원칙이다.",
+    "key_researchers": [
+      {
+        "name_ko": "더럴드 수",
+        "name_en": "Derald Wing Sue",
+        "contribution": "다문화 상담 역량 모델(지식·인식·기술)을 체계화하고 미세공격(microaggression) 개념을 확산"
+      },
+      {
+        "name_ko": "스탠리 수",
+        "name_en": "Stanley Sue",
+        "contribution": "소수 민족의 정신건강 서비스 이용 격차 연구 및 문화 반응적 서비스의 중요성 주창"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "다문화 상담",
+        "name_en": "Multicultural Counseling",
+        "id": "SPECIAL_MC_029"
+      },
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "문화적 인식",
+        "description": "자신의 문화적 편향과 가정에 대한 자기성찰"
+      },
+      {
+        "name": "문화적 지식",
+        "description": "다양한 문화권의 세계관, 가치, 관습에 대한 이해"
+      },
+      {
+        "name": "문화적 기술",
+        "description": "문화적으로 적절한 평가와 개입을 실행하는 능력"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "문화적 역량의 3차원: Awareness(인식) + Knowledge(지식) + Skills(기술) = AKS",
+      "differential": "문화적 역량은 치료자의 개인적 역량이고, 다문화 상담은 문화적 다양성을 고려한 상담 접근법이다.",
+      "key_point": "문화적 역량은 도달점이 아닌 지속적 발달 과정이며, 모든 임상 상황에서 요구되는 기본 역량이다.",
+      "common_mistake": "특정 문화에 대한 지식만으로 문화적 역량이 갖춰졌다고 판단하는 오류 — 자기인식과 실천 기술도 필수이다."
+    }
+  },
+  {
+    "id": "SPECIAL_MC_029",
+    "terminology": "다문화 상담 (Multicultural Counseling)",
+    "terminology_ko": "다문화 상담",
+    "terminology_en": "Multicultural Counseling",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "인종, 민족, 성별, 성적 지향, 종교, 장애, 사회경제적 지위 등 다양한 문화적 정체성을 가진 내담자에게 문화적으로 적합한 상담을 제공하는 접근이다.",
+    "definition_en": "An approach providing culturally appropriate counseling to clients with diverse cultural identities including race, ethnicity, gender, sexual orientation, religion, disability, and socioeconomic status.",
+    "significance": "상담심리학의 '제4세력'으로 불리며, 기존 서구 중심 치료 모델의 한계를 극복하고 문화적 다양성에 반응하는 실무를 정립했다.",
+    "key_researchers": [
+      {
+        "name_ko": "폴 페더슨",
+        "name_en": "Paul Pedersen",
+        "contribution": "다문화 상담을 상담의 '제4세력'으로 정의하여 이론적 지위 확립에 기여"
+      },
+      {
+        "name_ko": "더럴드 수",
+        "name_en": "Derald Wing Sue",
+        "contribution": "다문화 상담 역량 모델 개발 및 문화적으로 반응적인 치료 접근 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "문화적 역량",
+        "name_en": "Cultural Competence",
+        "id": "SPECIAL_CUC_028"
+      },
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "상담의 4세력: 정신역동(1st) → 행동주의(2nd) → 인본주의(3rd) → 다문화(4th)",
+      "differential": "다문화 상담은 문화적 다양성을 핵심에 둔 상담 접근법이고, 문화적 역량은 치료자 개인의 능력을 의미한다.",
+      "key_point": "한국 사회의 다문화 가정 증가로 임상심리학에서 다문화 상담의 중요성이 급격히 높아지고 있다.",
+      "common_mistake": "다문화 상담이 외국인이나 이민자만을 위한 것이라고 한정하는 오류 — 성별, 장애, 종교 등 모든 다양성을 포함한다."
+    }
+  },
+  {
+    "id": "SPECIAL_ES_030",
+    "terminology": "윤리 기준 (Ethical Standards)",
+    "terminology_ko": "윤리 기준",
+    "terminology_en": "Ethical Standards",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "임상심리학자의 전문적 행동을 규율하는 원칙과 규범의 체계로, 선행, 무해, 자율성 존중, 정의, 충실성 등의 핵심 원칙을 포함한다.",
+    "definition_en": "A system of principles and norms governing the professional conduct of clinical psychologists, including core principles such as beneficence, nonmaleficence, autonomy, justice, and fidelity.",
+    "significance": "내담자 보호와 전문직 신뢰의 기반으로, 모든 임상 활동(평가, 치료, 연구, 교육)에 적용되는 최상위 행동 지침이다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "심리학자 윤리 원칙 및 행동 강령(Ethics Code)을 제정하고 지속적으로 개정"
+      },
+      {
+        "name_ko": "한국심리학회",
+        "name_en": "Korean Psychological Association",
+        "contribution": "한국 심리학자 윤리강령을 제정하여 한국 상황에 맞는 윤리 기준 정립"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "SPECIAL_LC_031"
+      },
+      {
+        "name_ko": "사전 동의",
+        "name_en": "Informed Consent",
+        "id": "SPECIAL_IC_032"
+      },
+      {
+        "name_ko": "다중관계",
+        "name_en": "Multiple Relationships",
+        "id": "SPECIAL_MR_033"
+      },
+      {
+        "name_ko": "임상심리전문가",
+        "name_en": "Clinical Psychology Specialist",
+        "id": "SPECIAL_CLP_023"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "선행 (Beneficence)",
+        "description": "내담자의 복지를 적극적으로 증진하는 의무"
+      },
+      {
+        "name": "무해 (Nonmaleficence)",
+        "description": "내담자에게 해를 끼치지 않을 의무"
+      },
+      {
+        "name": "자율성 존중 (Autonomy)",
+        "description": "내담자의 자기결정권을 존중하는 의무"
+      },
+      {
+        "name": "정의 (Justice)",
+        "description": "공정하고 평등한 서비스를 제공할 의무"
+      },
+      {
+        "name": "충실성 (Fidelity)",
+        "description": "신뢰와 성실에 기반한 전문적 관계 유지"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "APA 윤리 5원칙: BAJFR = Beneficence, Autonomy, Justice, Fidelity, Respect",
+      "differential": "윤리 기준은 전문직 행동의 상위 원칙이고, 비밀보장은 그 하위의 구체적 윤리 규범 중 하나이다.",
+      "key_point": "윤리 원칙 간 충돌 시(예: 비밀보장 vs. 타인 보호) 윤리적 의사결정 모델을 활용하여 판단해야 한다.",
+      "common_mistake": "법적 의무와 윤리적 의무를 동일시하는 오류 — 윤리 기준이 법보다 더 엄격한 요구를 할 수 있다."
+    }
+  },
+  {
+    "id": "SPECIAL_LC_031",
+    "terminology": "비밀보장의 한계 (Limits of Confidentiality)",
+    "terminology_ko": "비밀보장의 한계",
+    "terminology_en": "Limits of Confidentiality",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "비밀보장 원칙이 예외적으로 해제되는 상황으로, 자·타해 위험, 아동학대 의무보고, 법원 명령 등에서 비밀보장보다 안전이 우선시된다.",
+    "definition_en": "Exceptional situations where the principle of confidentiality is overridden, where safety takes precedence over confidentiality in cases of danger to self or others, mandatory child abuse reporting, and court orders.",
+    "significance": "내담자 신뢰와 공공안전 사이의 균형을 다루는 핵심 윤리적 쟁점으로, 임상 실무에서 가장 빈번하게 직면하는 윤리적 딜레마이다.",
+    "key_researchers": [
+      {
+        "name_ko": "타라소프 판결",
+        "name_en": "Tarasoff v. Regents",
+        "contribution": "1976년 캘리포니아 대법원 판결로, 치료자의 '보호 의무(duty to protect)' 원칙이 확립됨"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      },
+      {
+        "name_ko": "사전 동의",
+        "name_en": "Informed Consent",
+        "id": "SPECIAL_IC_032"
+      },
+      {
+        "name_ko": "자살예방",
+        "name_en": "Suicide Prevention",
+        "id": "SPECIAL_SP_014"
+      },
+      {
+        "name_ko": "법정심리학",
+        "name_en": "Forensic Psychology",
+        "id": "SPECIAL_FP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "자해 위험",
+        "description": "내담자가 자신을 해칠 위험이 있는 경우"
+      },
+      {
+        "name": "타해 위험",
+        "description": "내담자가 특정 타인에게 심각한 해를 끼칠 위험이 있는 경우 (Tarasoff 원칙)"
+      },
+      {
+        "name": "아동·노인학대 의무보고",
+        "description": "학대 의심 시 법적 의무보고 대상"
+      },
+      {
+        "name": "법원 명령",
+        "description": "법원이 기록 공개를 명령하는 경우"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Tarasoff 판결 핵심: '보호할 의무(duty to protect)'가 비밀보장보다 우선",
+      "differential": "비밀보장은 원칙이고, 비밀보장의 한계는 그 원칙이 해제되는 예외 조건이다.",
+      "key_point": "치료 시작 시 사전 동의 과정에서 비밀보장의 한계를 반드시 내담자에게 고지해야 한다.",
+      "common_mistake": "비밀보장이 절대적이라고 내담자에게 약속하는 오류 — 한계 상황을 반드시 사전에 고지해야 한다."
+    }
+  },
+  {
+    "id": "SPECIAL_IC_032",
+    "terminology": "사전 동의 (Informed Consent)",
+    "terminology_ko": "사전 동의",
+    "terminology_en": "Informed Consent",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "치료, 평가, 연구 참여에 앞서 내담자에게 서비스의 성격, 목적, 위험, 대안, 비밀보장의 한계 등에 대한 충분한 정보를 제공하고 자발적 동의를 얻는 절차이다.",
+    "definition_en": "A procedure of providing clients with sufficient information about the nature, purpose, risks, alternatives, and limits of confidentiality of services before treatment, assessment, or research participation, and obtaining voluntary consent.",
+    "significance": "내담자의 자율성 존중과 자기결정권 보장의 핵심 윤리적 절차로, 모든 임상 활동의 필수적 출발점이다.",
+    "key_researchers": [
+      {
+        "name_ko": "톰 보챔",
+        "name_en": "Tom Beauchamp",
+        "contribution": "생명의료윤리의 4원칙(자율성, 선행, 무해, 정의)을 체계화하여 사전 동의의 이론적 기초 확립"
+      },
+      {
+        "name_ko": "제임스 칠드레스",
+        "name_en": "James Childress",
+        "contribution": "Beauchamp과 함께 생명의료윤리 4원칙 정립, 사전 동의 절차의 구성 요소 체계화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "SPECIAL_LC_031"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사전 동의의 3요소: 정보 제공(Disclosure) + 이해 능력(Capacity) + 자발성(Voluntariness)",
+      "differential": "사전 동의는 서비스 시작 전의 절차적 권리이고, 비밀보장은 서비스 과정 중의 지속적 의무이다.",
+      "key_point": "미성년자, 인지 장애가 있는 내담자의 경우 법적 대리인의 동의와 본인의 동의(assent)를 함께 구해야 한다.",
+      "common_mistake": "동의서에 서명받은 것만으로 사전 동의가 완료되었다고 판단하는 오류 — 내담자의 실질적 이해가 핵심이다."
+    }
+  },
+  {
+    "id": "SPECIAL_MR_033",
+    "terminology": "다중관계 (Multiple Relationships)",
+    "terminology_ko": "다중관계",
+    "terminology_en": "Multiple Relationships",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "임상심리학자가 내담자와 전문적 관계 외에 다른 역할 관계(사적, 사업적, 친밀한 관계 등)를 동시에 가지는 것으로, 객관성과 전문적 판단을 손상시킬 위험이 있다.",
+    "definition_en": "When a clinical psychologist simultaneously holds a role relationship with a client beyond the professional relationship (personal, business, intimate, etc.), posing risks to objectivity and professional judgment.",
+    "significance": "윤리 위반 사례 중 가장 빈번한 유형 중 하나로, 전문적 경계 유지의 중요성을 보여주는 핵심 윤리 주제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "케네스 포프",
+        "name_en": "Kenneth Pope",
+        "contribution": "치료자-내담자 성적 관계의 해로움을 체계적으로 연구하고 경계 위반의 유형과 결과를 문서화"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윤리 기준",
+        "name_en": "Ethical Standards",
+        "id": "SPECIAL_ES_030"
+      },
+      {
+        "name_ko": "비밀보장의 한계",
+        "name_en": "Limits of Confidentiality",
+        "id": "SPECIAL_LC_031"
+      },
+      {
+        "name_ko": "임상심리전문가",
+        "name_en": "Clinical Psychology Specialist",
+        "id": "SPECIAL_CLP_023"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "성적 다중관계",
+        "description": "내담자와의 성적·연애 관계 (절대 금지)"
+      },
+      {
+        "name": "사업적 다중관계",
+        "description": "내담자와의 금전적·사업적 거래"
+      },
+      {
+        "name": "사회적 다중관계",
+        "description": "내담자와의 사적 친분 관계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "다중관계 판단 기준: 착취 위험(Exploitation) + 객관성 손상(Impaired Objectivity)",
+      "differential": "다중관계는 역할의 중첩이고, 경계 위반은 전문적 한계를 넘어서는 부적절한 행동이다. 모든 다중관계가 비윤리적인 것은 아니다.",
+      "key_point": "내담자와의 성적 관계는 치료 종결 후에도 상당 기간(APA 기준 최소 2년) 금지된다.",
+      "common_mistake": "모든 다중관계가 자동으로 비윤리적이라고 판단하는 오류 — 소도시, 군 복무 등 불가피한 상황에서의 관리가 핵심이다."
+    }
+  },
+  {
+    "id": "SPECIAL_GP_034",
+    "terminology": "긍정심리학적 개입 (Positive Psychology Interventions)",
+    "terminology_ko": "긍정심리학적 개입",
+    "terminology_en": "Positive Psychology Interventions",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "감사, 강점 활용, 낙관주의 훈련 등 긍정적 정서, 참여, 의미를 증진시키는 데 초점을 맞춘 개입으로, 전통적 결함 모델을 보완한다.",
+    "definition_en": "Interventions focused on enhancing positive emotions, engagement, and meaning through practices such as gratitude, strengths use, and optimism training, complementing the traditional deficit model.",
+    "significance": "임상심리학이 문제 해결을 넘어 안녕감 증진으로 영역을 확장하는 대표적 접근으로, 예방과 건강증진에 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "마틴 셀리그만",
+        "name_en": "Martin Seligman",
+        "contribution": "긍정심리학의 창시자, PERMA 모델(긍정정서, 몰입, 관계, 의미, 성취) 제안"
+      },
+      {
+        "name_ko": "미하이 칙센트미하이",
+        "name_en": "Mihaly Csikszentmihalyi",
+        "contribution": "몰입(flow) 경험에 대한 연구로 최적 경험과 안녕감의 관계 규명"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "건강심리학",
+        "name_en": "Health Psychology",
+        "id": "HEALTH_HP_001"
+      },
+      {
+        "name_ko": "정신건강증진",
+        "name_en": "Mental Health Promotion",
+        "id": "SPECIAL_MHP_011"
+      },
+      {
+        "name_ko": "코칭심리학",
+        "name_en": "Coaching Psychology",
+        "id": "SPECIAL_CPC_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "감사 일지 (Gratitude Journal)",
+        "description": "매일 감사한 일을 기록하여 긍정 정서 증진"
+      },
+      {
+        "name": "강점 발견과 활용",
+        "description": "개인의 대표 강점을 파악하고 일상에 적용"
+      },
+      {
+        "name": "최선의 자기 (Best Possible Self)",
+        "description": "미래의 최선의 자기를 상상하여 낙관성 향상"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Seligman의 PERMA: Positive emotion, Engagement, Relationships, Meaning, Accomplishment",
+      "differential": "긍정심리학적 개입은 안녕감 증진이 목표이고, 전통적 심리치료는 증상 감소가 주목표이다.",
+      "key_point": "긍정심리학적 개입이 우울 증상 감소에도 효과가 있다는 메타분석 결과가 축적되고 있다.",
+      "common_mistake": "긍정심리학이 부정적 경험을 무시하거나 부정하는 것이라고 오해하는 오류 — 강점과 약점을 모두 다룬다."
+    }
+  },
+  {
+    "id": "SPECIAL_NPC_035",
+    "terminology": "신경심리재활 (Neuropsychological Rehabilitation)",
+    "terminology_ko": "신경심리재활",
+    "terminology_en": "Neuropsychological Rehabilitation",
+    "category": "SPECIAL",
+    "category_name": "전문 영역 (Specialty Areas)",
+    "definition": "뇌 손상이나 신경질환으로 인한 인지, 정서, 행동 장해를 체계적으로 평가하고 보상 전략과 훈련을 통해 기능 회복을 도모하는 전문 영역이다.",
+    "definition_en": "A specialty area that systematically assesses cognitive, emotional, and behavioral impairments due to brain injury or neurological disease and promotes functional recovery through compensatory strategies and training.",
+    "significance": "뇌졸중, 외상성 뇌손상, 치매 등의 환자 증가와 함께 임상심리학의 핵심 전문 영역으로 성장하고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "바바라 윌슨",
+        "name_en": "Barbara Wilson",
+        "contribution": "신경심리재활의 근거기반 실무를 확립하고 기억 재활 프로그램 개발"
+      },
+      {
+        "name_ko": "알렉산더 루리야",
+        "name_en": "Alexander Luria",
+        "contribution": "뇌 기능의 체계적 조직 이론을 정립하여 신경심리재활의 이론적 기초 제공"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신경심리평가",
+        "name_en": "Neuropsychological Assessment",
+        "id": "NEUROAS_NP_001"
+      },
+      {
+        "name_ko": "건강심리학",
+        "name_en": "Health Psychology",
+        "id": "HEALTH_HP_001"
+      },
+      {
+        "name_ko": "임상심리학",
+        "name_en": "Clinical Psychology",
+        "id": "INTRO_CP_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "인지재활 훈련",
+        "description": "반복 훈련을 통한 주의력, 기억력 등 인지 기능 향상"
+      },
+      {
+        "name": "보상 전략 훈련",
+        "description": "외부 보조 도구(메모, 알람)를 활용한 일상 기능 보상"
+      },
+      {
+        "name": "전체론적 재활",
+        "description": "인지, 정서, 사회적 기능을 통합적으로 다루는 포괄적 접근"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "신경심리재활의 3접근: 회복(Restoration) + 보상(Compensation) + 환경수정(Environmental Modification)",
+      "differential": "신경심리재활은 뇌 손상 후 인지·행동 기능 회복이 목표이고, 신경심리평가는 기능 손상의 진단적 평가가 목표이다.",
+      "key_point": "뇌의 가소성(neuroplasticity)이 신경심리재활의 신경과학적 기반이며, 조기 개입이 효과를 극대화한다.",
+      "common_mistake": "신경심리재활이 손상된 뇌 기능을 완전히 복원할 수 있다고 과대기대하는 오류 — 보상 전략도 핵심 요소이다."
+    }
+  }
+]

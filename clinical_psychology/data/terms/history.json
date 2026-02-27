@@ -1,0 +1,850 @@
+[
+  {
+    "id": "HISTORY_WIT_001",
+    "terminology": "라이트너 위트머와 최초의 심리클리닉 (Lightner Witmer and the First Psychological Clinic)",
+    "terminology_ko": "라이트너 위트머와 최초의 심리클리닉",
+    "terminology_en": "Lightner Witmer and the First Psychological Clinic",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1896년 라이트너 위트머가 펜실베이니아 대학교에 세계 최초의 심리클리닉을 설립한 사건으로, 임상심리학(clinical psychology)이라는 용어를 최초로 사용하고 심리학 지식을 개인의 문제 해결에 적용하는 분야를 개척하였다.",
+    "definition_en": "The founding event of clinical psychology in 1896 when Lightner Witmer established the world's first psychological clinic at the University of Pennsylvania, coining the term 'clinical psychology' and pioneering the application of psychological knowledge to individual problems.",
+    "significance": "임상심리학의 공식적 탄생을 알린 사건으로, 심리학이 순수 연구에서 실제 문제 해결로 확장되는 전환점이 되었다.",
+    "key_researchers": [
+      {"name_ko": "라이트너 위트머", "name_en": "Lightner Witmer", "contribution": "1896년 펜실베이니아 대학에 최초의 심리클리닉을 설립하고, 'The Psychological Clinic' 학술지를 창간하여 임상심리학이라는 분야를 공식 출범시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "과학자-실무자 모델", "name_en": "Scientist-Practitioner Model", "id": "HISTORY_BOU_008"},
+      {"name_ko": "빌헬름 분트와 실험심리학", "name_en": "Wilhelm Wundt and Experimental Psychology", "id": "HISTORY_WUN_002"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Witmer(위트머) + 1896 + Penn(펜실베이니아) = 최초의 심리클리닉",
+      "differential": "위트머의 심리클리닉은 아동의 학습 문제를 다루었으며, 정신분석 클리닉이나 정신병원과는 성격이 다르다.",
+      "key_point": "1896년은 임상심리학의 공식 출발점이며, 위트머는 '임상심리학(clinical psychology)'이라는 용어를 최초로 사용한 인물이다.",
+      "common_mistake": "위트머가 심리치료를 시작한 것으로 오해하기 쉬우나, 그의 클리닉은 주로 아동의 학습 장애와 발달 문제에 초점을 맞추었다."
+    }
+  },
+  {
+    "id": "HISTORY_WUN_002",
+    "terminology": "빌헬름 분트와 실험심리학 (Wilhelm Wundt and Experimental Psychology)",
+    "terminology_ko": "빌헬름 분트와 실험심리학",
+    "terminology_en": "Wilhelm Wundt and Experimental Psychology",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1879년 빌헬름 분트가 독일 라이프치히 대학에 최초의 심리학 실험실을 설립하여 심리학을 철학에서 분리하고 독립적 과학으로 정립한 사건으로, 이후 임상심리학의 과학적 기초를 제공하였다.",
+    "definition_en": "The establishment of the first psychology laboratory by Wilhelm Wundt at the University of Leipzig in 1879, separating psychology from philosophy as an independent science and providing the scientific foundation for the later development of clinical psychology.",
+    "significance": "심리학이 과학적 학문으로 독립한 출발점으로, 실험적 방법론은 이후 임상심리학의 평가와 연구에 핵심적 토대가 되었다.",
+    "key_researchers": [
+      {"name_ko": "빌헬름 분트", "name_en": "Wilhelm Wundt", "contribution": "1879년 라이프치히 대학에 최초의 심리학 실험실을 설립하고, 내성법을 체계화하여 심리학을 독립 과학으로 정립하였다."},
+      {"name_ko": "에드워드 티치너", "name_en": "Edward Titchener", "contribution": "분트의 제자로서 구조주의를 미국에 전파하고 실험심리학의 방법론적 기준을 확립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "라이트너 위트머와 최초의 심리클리닉", "name_en": "Lightner Witmer and the First Psychological Clinic", "id": "HISTORY_WIT_001"},
+      {"name_ko": "프랜시스 골턴과 개인차 측정", "name_en": "Francis Galton and Individual Differences Measurement", "id": "HISTORY_GAL_003"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "분트 + 1879 + 라이프치히 = 심리학의 독립 선언",
+      "differential": "분트의 실험심리학은 기초 연구에 초점을 맞춘 반면, 위트머의 임상심리학은 응용과 실무에 초점을 맞추었다.",
+      "key_point": "1879년 실험실 설립은 심리학 전체의 출발점이며, 1896년 위트머의 클리닉은 임상심리학의 출발점이다.",
+      "common_mistake": "분트를 임상심리학의 창시자로 혼동하는 경우가 있으나, 그는 기초 실험심리학의 창시자이며 임상심리학의 창시자는 위트머이다."
+    }
+  },
+  {
+    "id": "HISTORY_GAL_003",
+    "terminology": "프랜시스 골턴과 개인차 측정 (Francis Galton and Individual Differences Measurement)",
+    "terminology_ko": "프랜시스 골턴과 개인차 측정",
+    "terminology_en": "Francis Galton and Individual Differences Measurement",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "프랜시스 골턴이 다윈의 진화론에 영향을 받아 인간 능력의 개인차를 체계적으로 측정하고자 한 선구적 연구로, 인체측정 실험실을 설립하고 통계적 방법(상관, 회귀)을 심리 측정에 도입하였다.",
+    "definition_en": "Francis Galton's pioneering work in systematically measuring individual differences in human abilities, inspired by Darwin's theory of evolution, establishing an anthropometric laboratory and introducing statistical methods (correlation, regression) to psychological measurement.",
+    "significance": "개인차의 과학적 측정이라는 개념을 확립하여 심리검사와 임상 평가의 발전에 핵심적 토대를 제공하였다.",
+    "key_researchers": [
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "1884년 런던 국제건강박람회에서 인체측정 실험실을 운영하고, 상관과 회귀 개념을 개발하여 심리 측정의 통계적 기초를 놓았다."},
+      {"name_ko": "칼 피어슨", "name_en": "Karl Pearson", "contribution": "골턴의 상관 개념을 수학적으로 발전시켜 피어슨 상관계수를 확립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "알프레드 비네와 지능검사", "name_en": "Alfred Binet and Intelligence Testing", "id": "HISTORY_BIN_004"},
+      {"name_ko": "빌헬름 분트와 실험심리학", "name_en": "Wilhelm Wundt and Experimental Psychology", "id": "HISTORY_WUN_002"},
+      {"name_ko": "메타분석", "name_en": "Meta-Analysis", "id": "RESEARCH_MA_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "골턴 = 개인차 + 통계 + 다윈의 사촌",
+      "differential": "골턴은 감각 능력 중심으로 개인차를 측정한 반면, 비네는 고등 정신 능력(판단, 추론)을 측정하는 데 초점을 맞추었다.",
+      "key_point": "골턴의 가장 큰 기여는 개인차를 정량적으로 측정할 수 있다는 관점과 이를 위한 통계적 방법론의 도입이다.",
+      "common_mistake": "골턴의 지능 측정이 성공적이었다고 오해하기 쉬우나, 감각 능력 측정은 지능의 유효한 지표가 되지 못하여 비네의 접근에 의해 대체되었다."
+    }
+  },
+  {
+    "id": "HISTORY_BIN_004",
+    "terminology": "알프레드 비네와 지능검사 (Alfred Binet and Intelligence Testing)",
+    "terminology_ko": "알프레드 비네와 지능검사",
+    "terminology_en": "Alfred Binet and Intelligence Testing",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1905년 알프레드 비네와 테오도르 시몽이 프랑스 교육부의 의뢰를 받아 학습 부진 아동을 선별하기 위한 최초의 실용적 지능검사(Binet-Simon 척도)를 개발한 사건으로, 심리검사를 임상 실무에 적용하는 전통을 확립하였다.",
+    "definition_en": "The development of the first practical intelligence test (Binet-Simon Scale) in 1905 by Alfred Binet and Theodore Simon, commissioned by the French Ministry of Education to identify children with learning difficulties, establishing the tradition of applying psychological testing in clinical practice.",
+    "significance": "심리검사가 임상심리학의 핵심 도구로 자리잡는 계기가 되었으며, 이후 모든 지능검사의 원형이 되었다.",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "테오도르 시몽과 함께 정신연령 개념을 도입한 최초의 실용적 지능검사(Binet-Simon 척도)를 개발하였다."},
+      {"name_ko": "루이스 터먼", "name_en": "Lewis Terman", "contribution": "비네-시몽 검사를 미국에 적응하여 Stanford-Binet 지능검사를 개발하고 IQ 개념을 대중화하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "프랜시스 골턴과 개인차 측정", "name_en": "Francis Galton and Individual Differences Measurement", "id": "HISTORY_GAL_003"},
+      {"name_ko": "제1차 세계대전과 집단 심리검사", "name_en": "World War I and Group Psychological Testing", "id": "HISTORY_WW1_005"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비네 + 1905 + 프랑스 교육부 = 최초의 지능검사",
+      "differential": "비네의 검사는 고등 정신 능력(판단, 추론)을 측정한 반면, 골턴의 검사는 감각·운동 능력을 측정하였다.",
+      "key_point": "비네는 지능을 고정된 것으로 보지 않았으며, 검사의 목적은 분류가 아니라 교육적 지원이었다는 점이 중요하다.",
+      "common_mistake": "비네가 IQ 점수를 개발한 것으로 오해하기 쉬우나, IQ 공식은 슈테른이 제안하고 터먼이 대중화한 것이다."
+    }
+  },
+  {
+    "id": "HISTORY_WW1_005",
+    "terminology": "제1차 세계대전과 집단 심리검사 (World War I and Group Psychological Testing)",
+    "terminology_ko": "제1차 세계대전과 집단 심리검사",
+    "terminology_en": "World War I and Group Psychological Testing",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "제1차 세계대전(1914-1918) 중 미국 육군이 로버트 여키스의 주도 하에 Army Alpha(문자 해독자용)와 Army Beta(문맹자용) 집단 지능검사를 개발·실시한 사건으로, 약 175만 명의 병사를 검사하며 심리검사의 대규모 적용 가능성을 입증하였다.",
+    "definition_en": "The development and administration of Army Alpha (for literate recruits) and Army Beta (for illiterate recruits) group intelligence tests during World War I (1914-1918), led by Robert Yerkes, testing approximately 1.75 million soldiers and demonstrating the feasibility of large-scale psychological testing.",
+    "significance": "심리검사가 개인 대상에서 집단 대상으로 확장되어 심리학자의 사회적 역할과 영향력이 크게 증대된 전환점이 되었다.",
+    "key_researchers": [
+      {"name_ko": "로버트 여키스", "name_en": "Robert Yerkes", "contribution": "미국심리학회 회장으로서 Army Alpha/Beta 검사 개발을 주도하고, 심리학자가 군사 분야에서 전문적 역할을 수행할 수 있음을 입증하였다."},
+      {"name_ko": "아서 오티스", "name_en": "Arthur Otis", "contribution": "집단용 지능검사의 객관식 형식을 개발하여 Army Alpha 검사의 기술적 토대를 마련하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "알프레드 비네와 지능검사", "name_en": "Alfred Binet and Intelligence Testing", "id": "HISTORY_BIN_004"},
+      {"name_ko": "제2차 세계대전과 임상심리학 확대", "name_en": "World War II and the Expansion of Clinical Psychology", "id": "HISTORY_WW2_006"},
+      {"name_ko": "프랜시스 골턴과 개인차 측정", "name_en": "Francis Galton and Individual Differences Measurement", "id": "HISTORY_GAL_003"}
+    ],
+    "sub_types": [
+      {"name": "Army Alpha", "description": "영어 문자 해독이 가능한 병사를 대상으로 한 언어 기반 집단 지능검사"},
+      {"name": "Army Beta", "description": "문맹이거나 영어를 읽지 못하는 병사를 대상으로 한 비언어 기반 집단 지능검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WWI + Alpha(글자 아는 사람) + Beta(글자 모르는 사람) = 최초의 집단검사",
+      "differential": "Army Alpha는 언어 기반, Army Beta는 비언어(수행) 기반이라는 점에서 구분되며, 이후 웩슬러 검사의 언어/동작 구분에 영향을 주었다.",
+      "key_point": "175만 명 대규모 검사 실시로 심리검사의 실용성과 심리학자의 사회적 유용성이 입증되었다.",
+      "common_mistake": "Army Alpha/Beta가 임상적 진단 도구였다고 오해하기 쉬우나, 이는 병사의 지적 능력 선별과 배치를 위한 검사였다."
+    }
+  },
+  {
+    "id": "HISTORY_WW2_006",
+    "terminology": "제2차 세계대전과 임상심리학 확대 (World War II and the Expansion of Clinical Psychology)",
+    "terminology_ko": "제2차 세계대전과 임상심리학 확대",
+    "terminology_en": "World War II and the Expansion of Clinical Psychology",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "제2차 세계대전(1939-1945) 중 전쟁 신경증(combat neurosis)과 정신건강 문제에 대한 폭발적 수요로 인해 임상심리학자의 역할이 심리검사에서 심리치료로 확대되었으며, 전후 재향군인의 대규모 정신건강 서비스 필요가 임상심리학의 제도적 성장을 견인한 결정적 시기이다.",
+    "definition_en": "The decisive period during and after World War II (1939-1945) when the explosive demand for mental health services due to combat neurosis expanded clinical psychologists' role from testing to psychotherapy, and the massive post-war mental health needs of veterans drove the institutional growth of clinical psychology.",
+    "significance": "임상심리학자가 심리검사 전문가에서 심리치료 제공자로 역할이 확장된 결정적 계기로, 현대 임상심리학의 정체성을 형성하였다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "비지시적 상담(nondirective counseling)을 개발하여 심리학자가 정신과 의사와 독립적으로 심리치료를 수행할 수 있는 이론적 근거를 제공하였다."},
+      {"name_ko": "데이비드 셰이코", "name_en": "David Shakow", "contribution": "임상심리학 수련 기준을 체계화하고 과학자-실무자 모델의 초기 구상을 제시하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "재향군인청과 임상심리학자 수요", "name_en": "VA and Demand for Clinical Psychologists", "id": "HISTORY_VA_007"},
+      {"name_ko": "Boulder 회의와 과학자-실무자 모델", "name_en": "Boulder Conference and Scientist-Practitioner Model", "id": "HISTORY_BOU_008"},
+      {"name_ko": "제1차 세계대전과 집단 심리검사", "name_en": "World War I and Group Psychological Testing", "id": "HISTORY_WW1_005"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "WWII = 검사 → 치료로 역할 확대의 전환점",
+      "differential": "1차 대전은 '심리검사'의 확대를, 2차 대전은 '심리치료'의 확대를 가져왔다는 점에서 구분된다.",
+      "key_point": "전쟁으로 인한 대규모 정신건강 수요가 임상심리학자의 역할을 검사 전문가에서 치료 제공자로 확장시킨 것이 핵심이다.",
+      "common_mistake": "2차 대전 이전에도 임상심리학자가 심리치료를 하고 있었다고 오해하기 쉬우나, 전쟁 이전에는 주로 심리검사와 평가에 국한되어 있었다."
+    }
+  },
+  {
+    "id": "HISTORY_VA_007",
+    "terminology": "재향군인청과 임상심리학자 수요 (Veterans Administration and Demand for Clinical Psychologists)",
+    "terminology_ko": "재향군인청과 임상심리학자 수요",
+    "terminology_en": "Veterans Administration and Demand for Clinical Psychologists",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "제2차 세계대전 후 미국 재향군인청(VA)이 수백만 참전용사의 정신건강 서비스를 위해 대규모 임상심리학자 양성·고용 프로그램을 시작한 사건으로, 대학원 수련 프로그램에 재정 지원을 제공하여 임상심리학의 전문화와 제도화를 촉진하였다.",
+    "definition_en": "The post-World War II initiative by the Veterans Administration (VA) to recruit and train large numbers of clinical psychologists to serve the mental health needs of millions of returning veterans, providing financial support to graduate training programs and accelerating the professionalization and institutionalization of clinical psychology.",
+    "significance": "VA의 재정 지원과 수요가 임상심리학 수련 프로그램의 표준화와 확대를 직접적으로 촉진하여 전문 직종으로서의 기반을 확립하였다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 셰이코", "name_en": "David Shakow", "contribution": "VA와 협력하여 임상심리학 수련 기준을 수립하고, 인턴십 프로그램의 질적 기준을 마련하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "제2차 세계대전과 임상심리학 확대", "name_en": "World War II and the Expansion of Clinical Psychology", "id": "HISTORY_WW2_006"},
+      {"name_ko": "Boulder 회의와 과학자-실무자 모델", "name_en": "Boulder Conference and Scientist-Practitioner Model", "id": "HISTORY_BOU_008"},
+      {"name_ko": "과학자-실무자 모델", "name_en": "Scientist-Practitioner Model", "id": "INTRO_SP_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "VA(재향군인청) + 돈 + 수련 = 임상심리학의 제도적 성장 엔진",
+      "differential": "VA는 임상심리학자를 직접 고용한 기관이고, APA는 수련 기준을 인증하는 학술/전문 단체로 역할이 다르다.",
+      "key_point": "VA의 대규모 재정 지원이 없었다면 임상심리학 대학원 프로그램의 급속한 성장은 불가능했을 것이라는 점이 핵심이다.",
+      "common_mistake": "VA가 심리학자에게 심리치료 역할만 부여한 것으로 오해하기 쉬우나, 검사·평가·연구·치료를 모두 포함하는 포괄적 역할을 기대하였다."
+    }
+  },
+  {
+    "id": "HISTORY_BOU_008",
+    "terminology": "Boulder 회의와 과학자-실무자 모델 (Boulder Conference and Scientist-Practitioner Model)",
+    "terminology_ko": "Boulder 회의와 과학자-실무자 모델",
+    "terminology_en": "Boulder Conference and Scientist-Practitioner Model",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1949년 미국 콜로라도주 볼더에서 개최된 APA 회의에서 임상심리학 수련의 공식 모델로 채택된 과학자-실무자 모델(Boulder Model)로, 임상심리학자는 과학적 연구 역량과 임상 실무 역량을 동등하게 갖추어야 하며 박사(PhD) 학위를 필수로 한다는 원칙을 확립하였다.",
+    "definition_en": "The Scientist-Practitioner Model (Boulder Model) adopted at the 1949 APA conference in Boulder, Colorado, establishing that clinical psychologists must be equally trained in scientific research and clinical practice, with the PhD degree as the required credential.",
+    "significance": "임상심리학 수련의 금본위(gold standard)를 확립하여 전 세계 임상심리학 교육의 기본 틀이 되었으며, 연구와 실무의 통합이라는 정체성을 정의하였다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 셰이코", "name_en": "David Shakow", "contribution": "Boulder 회의 이전부터 임상심리학 수련 모델의 초안을 작성하여 과학자-실무자 모델의 이론적 기초를 제공하였다."},
+      {"name_ko": "빅터 레이미", "name_en": "Victor Raimy", "contribution": "Boulder 회의의 의장으로서 회의를 조직하고, 회의 결과를 공식 보고서로 정리·출판하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Vail 회의와 PsyD 학위", "name_en": "Vail Conference and PsyD Degree", "id": "HISTORY_VAI_009"},
+      {"name_ko": "재향군인청과 임상심리학자 수요", "name_en": "VA and Demand for Clinical Psychologists", "id": "HISTORY_VA_007"},
+      {"name_ko": "과학자-실무자 모델", "name_en": "Scientist-Practitioner Model", "id": "INTRO_SP_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Boulder(볼더) + 1949 + PhD = 과학자이자 실무자",
+      "differential": "Boulder 모델(1949)은 과학과 실무의 동등한 강조(PhD)를, Vail 모델(1973)은 실무 중심의 수련(PsyD)을 강조한다.",
+      "key_point": "임상심리학자를 '과학자이면서 동시에 실무자'로 정의한 것이 핵심이며, 이것이 정신과 의사나 사회복지사와 차별화되는 정체성이다.",
+      "common_mistake": "Boulder 모델이 연구만 강조한 것으로 오해하기 쉬우나, 연구와 실무의 '동등한' 훈련을 요구한 통합 모델이다."
+    }
+  },
+  {
+    "id": "HISTORY_VAI_009",
+    "terminology": "Vail 회의와 PsyD 학위 (Vail Conference and PsyD Degree)",
+    "terminology_ko": "Vail 회의와 PsyD 학위",
+    "terminology_en": "Vail Conference and PsyD Degree",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1973년 미국 콜로라도주 베일에서 개최된 APA 회의에서 임상심리학의 대안적 수련 모델로 실무자-학자 모델(Practitioner-Scholar Model)을 인정하고, 임상 실무에 중점을 둔 PsyD(Doctor of Psychology) 학위를 공식 승인한 사건이다.",
+    "definition_en": "The 1973 APA conference in Vail, Colorado, which endorsed the Practitioner-Scholar Model as an alternative training model for clinical psychology and officially recognized the PsyD (Doctor of Psychology) degree focusing on clinical practice.",
+    "significance": "임상심리학 수련에 다양한 경로를 인정하여 실무 중심 전문가 양성의 길을 열었으며, PhD와 PsyD의 이중 체계를 확립하였다.",
+    "key_researchers": [
+      {"name_ko": "도널드 피터슨", "name_en": "Donald Peterson", "contribution": "1968년 일리노이 대학에 최초의 PsyD 프로그램을 설립하고 실무자-학자 모델의 실현 가능성을 입증하였다."},
+      {"name_ko": "니콜라스 커밍스", "name_en": "Nicholas Cummings", "contribution": "캘리포니아 전문심리학 대학원 설립에 기여하며 독립적 PsyD 수련 기관의 모델을 제시하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Boulder 회의와 과학자-실무자 모델", "name_en": "Boulder Conference and Scientist-Practitioner Model", "id": "HISTORY_BOU_008"},
+      {"name_ko": "Vail 모델", "name_en": "Vail Model", "id": "INTRO_VA_003"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [
+      {"name": "PhD (Doctor of Philosophy)", "description": "과학자-실무자 모델에 기반한 학위로 연구와 임상 실무를 동등하게 강조"},
+      {"name": "PsyD (Doctor of Psychology)", "description": "실무자-학자 모델에 기반한 학위로 임상 실무에 더 큰 비중을 두고 연구 소비자로서의 역량을 강조"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Vail(베일) + 1973 + PsyD = 실무 중심 수련",
+      "differential": "PhD는 연구와 실무의 동등 훈련, PsyD는 실무 중심 훈련으로 학위논문 대신 임상 프로젝트를 수행하는 경우가 많다.",
+      "key_point": "Vail 모델은 Boulder 모델을 대체한 것이 아니라 '추가적 대안'으로 인정된 것이며, 두 모델이 공존한다는 점이 핵심이다.",
+      "common_mistake": "PsyD가 PhD보다 열등한 학위라고 오해하기 쉬우나, 두 학위 모두 APA 인증 프로그램에서 수여되며 면허 취득 자격이 동일하다."
+    }
+  },
+  {
+    "id": "HISTORY_CMH_010",
+    "terminology": "지역사회 정신건강 운동 (Community Mental Health Movement)",
+    "terminology_ko": "지역사회 정신건강 운동",
+    "terminology_en": "Community Mental Health Movement",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1963년 케네디 대통령의 지역사회 정신건강센터법(CMHCA) 서명을 기점으로 정신건강 서비스를 대형 수용시설에서 지역사회 기반 센터로 전환한 운동으로, 예방·조기개입·지역사회 기반 치료를 강조하였다.",
+    "definition_en": "The movement to shift mental health services from large custodial institutions to community-based centers, marked by President Kennedy's signing of the Community Mental Health Centers Act (CMHCA) in 1963, emphasizing prevention, early intervention, and community-based treatment.",
+    "significance": "임상심리학의 실무 현장을 병원에서 지역사회로 확장하고, 예방과 사회적 맥락을 강조하는 패러다임 전환을 이끌었다.",
+    "key_researchers": [
+      {"name_ko": "조지 올브리", "name_en": "George Albee", "contribution": "정신건강 인력 부족 문제를 체계적으로 분석하고, 예방 중심 접근의 필요성을 역설하여 지역사회 정신건강 운동의 이론적 기반을 제공하였다."},
+      {"name_ko": "에밀리오 리제스-비르카", "name_en": "Emory Cowen", "contribution": "지역사회 심리학의 선구자로서 1차 예방 프로그램의 효과를 실증적으로 연구하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "탈원화 운동", "name_en": "Deinstitutionalization", "id": "HISTORY_DEI_011"},
+      {"name_ko": "긍정심리학 운동", "name_en": "Positive Psychology Movement", "id": "HISTORY_POS_021"},
+      {"name_ko": "통합적 의료에서의 임상심리학", "name_en": "Clinical Psychology in Integrated Healthcare", "id": "HISTORY_IHC_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "케네디 + 1963 + CMHCA = 병원에서 지역사회로",
+      "differential": "지역사회 정신건강 운동은 서비스 전달 체계의 변화에 초점을 두고, 탈원화는 대형 수용시설 폐쇄라는 구체적 정책에 초점을 둔다.",
+      "key_point": "이 운동의 핵심은 정신질환의 '치료'에서 '예방'으로의 패러다임 전환이다.",
+      "common_mistake": "지역사회 정신건강 운동이 완전히 성공한 것으로 오해하기 쉬우나, 예산 부족과 탈원화의 부작용으로 많은 한계가 드러났다."
+    }
+  },
+  {
+    "id": "HISTORY_DEI_011",
+    "terminology": "탈원화 운동 (Deinstitutionalization)",
+    "terminology_ko": "탈원화 운동",
+    "terminology_en": "Deinstitutionalization",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1950년대부터 시작된 대형 정신병원(수용시설)의 환자 수를 대폭 줄이고 지역사회 기반 서비스로 전환하는 정책으로, 항정신병 약물의 개발과 인권 운동, 비용 절감 요구가 복합적으로 작용하였다.",
+    "definition_en": "The policy beginning in the 1950s of drastically reducing the population of large psychiatric hospitals (asylums) and transitioning to community-based services, driven by the development of antipsychotic medications, human rights movements, and cost-cutting pressures.",
+    "significance": "정신건강 서비스 전달 체계의 근본적 재편을 초래하였으나, 충분한 지역사회 자원 없이 진행되어 노숙자 문제 등 심각한 부작용을 낳았다.",
+    "key_researchers": [
+      {"name_ko": "필리프 피넬", "name_en": "Philippe Pinel", "contribution": "18세기 말 프랑스에서 정신질환자의 쇠사슬을 풀고 인도적 처우를 주장한 선구자로, 탈원화의 정신적 기원을 제공하였다."},
+      {"name_ko": "도로시아 딕스", "name_en": "Dorothea Dix", "contribution": "19세기 미국에서 정신질환자의 비인도적 처우를 고발하고 주립 정신병원 설립 운동을 이끌어 제도 개혁의 토대를 마련하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "지역사회 정신건강 운동", "name_en": "Community Mental Health Movement", "id": "HISTORY_CMH_010"},
+      {"name_ko": "관리의료와 임상심리학", "name_en": "Managed Care and Clinical Psychology", "id": "HISTORY_MC_019"},
+      {"name_ko": "DSM 체계의 역사", "name_en": "History of the DSM System", "id": "HISTORY_DSM_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "탈원화 = 대형 병원 축소 + 지역사회 이전 (1950s~)",
+      "differential": "탈원화는 시설 폐쇄/축소라는 구체적 정책이고, 지역사회 정신건강 운동은 지역사회 기반 서비스 구축이라는 더 넓은 이념이다.",
+      "key_point": "항정신병 약물(클로르프로마진, 1952)의 개발이 탈원화를 가능하게 한 핵심 요인이었다.",
+      "common_mistake": "탈원화가 환자의 삶의 질을 향상시킨 순수한 성공 사례라고 오해하기 쉬우나, 대안적 서비스 부족으로 노숙·투옥 등 심각한 문제가 발생하였다."
+    }
+  },
+  {
+    "id": "HISTORY_BT_012",
+    "terminology": "행동치료의 등장 (Emergence of Behavior Therapy)",
+    "terminology_ko": "행동치료의 등장",
+    "terminology_en": "Emergence of Behavior Therapy",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1950-60년대에 학습 이론(고전적·조작적 조건형성)을 체계적으로 임상 장면에 적용한 행동치료가 등장한 사건으로, 정신분석의 지배적 위치에 도전하며 관찰 가능한 행동 변화와 경험적 검증을 강조하였다.",
+    "definition_en": "The emergence of behavior therapy in the 1950s-60s, systematically applying learning theory (classical and operant conditioning) to clinical settings, challenging the dominance of psychoanalysis by emphasizing observable behavior change and empirical validation.",
+    "significance": "임상심리학에 과학적 검증 가능한 치료 접근을 도입하여 증거기반실무의 전통을 확립하는 데 핵심적 기여를 하였다.",
+    "key_researchers": [
+      {"name_ko": "조지프 울프", "name_en": "Joseph Wolpe", "contribution": "체계적 둔감화(systematic desensitization) 기법을 개발하여 불안 장애의 행동치료 모델을 확립하였다."},
+      {"name_ko": "B. F. 스키너", "name_en": "B. F. Skinner", "contribution": "조작적 조건형성 원리를 임상 장면에 적용하는 이론적 기반을 제공하고, 행동수정(behavior modification) 접근의 토대를 마련하였다."},
+      {"name_ko": "한스 아이젱크", "name_en": "Hans Eysenck", "contribution": "영국에서 행동치료의 발전을 주도하고, 전통적 심리치료의 효과에 대한 비판적 검토를 통해 과학적 치료 검증의 필요성을 역설하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지혁명과 인지치료", "name_en": "Cognitive Revolution and Cognitive Therapy", "id": "HISTORY_COG_013"},
+      {"name_ko": "Eysenck의 심리치료 효과 비판", "name_en": "Eysenck's Critique of Psychotherapy Effectiveness", "id": "HISTORY_EYS_025"},
+      {"name_ko": "제3세대 행동치료", "name_en": "Third-Wave Behavior Therapies", "id": "HISTORY_3RD_014"}
+    ],
+    "sub_types": [
+      {"name": "체계적 둔감화", "description": "이완훈련과 불안 위계를 결합하여 공포증을 점진적으로 치료하는 기법"},
+      {"name": "토큰 경제", "description": "조작적 조건형성에 기반하여 바람직한 행동에 토큰을 제공하는 행동수정 기법"},
+      {"name": "혐오치료", "description": "부적응적 행동에 혐오 자극을 짝지어 행동을 감소시키는 기법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동치료 = 학습이론 + 임상 적용 + 정신분석에 대한 도전 (1950-60s)",
+      "differential": "행동치료는 관찰 가능한 행동에 초점을 맞추고, 인지치료는 사고와 신념에 초점을 맞춘다는 점에서 구분된다.",
+      "key_point": "행동치료의 핵심 기여는 심리치료를 경험적으로 검증 가능한 과학적 활동으로 전환시킨 것이다.",
+      "common_mistake": "행동치료가 완전히 인지치료로 대체된 것으로 오해하기 쉬우나, 노출 치료 등 행동적 기법은 현재도 가장 효과적인 치료법에 포함된다."
+    }
+  },
+  {
+    "id": "HISTORY_COG_013",
+    "terminology": "인지혁명과 인지치료 (Cognitive Revolution and Cognitive Therapy)",
+    "terminology_ko": "인지혁명과 인지치료",
+    "terminology_en": "Cognitive Revolution and Cognitive Therapy",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1960-70년대 심리학에서 행동주의의 한계를 넘어 인간의 인지과정(사고, 신념, 해석)이 정서와 행동에 미치는 영향을 강조하는 인지혁명이 일어나고, 이를 임상에 적용한 인지치료가 발전한 역사적 흐름이다.",
+    "definition_en": "The historical development in the 1960s-70s when the cognitive revolution in psychology, emphasizing the role of cognitive processes (thoughts, beliefs, interpretations) in emotion and behavior beyond the limitations of behaviorism, led to the development of cognitive therapy in clinical applications.",
+    "significance": "인지행동치료(CBT)의 등장으로 이어져 현대 임상심리학에서 가장 광범위하게 연구되고 적용되는 치료 패러다임을 형성하였다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron Beck", "contribution": "우울증의 인지모델을 제시하고 인지치료(Cognitive Therapy)를 개발하여, 역기능적 사고의 수정을 통한 치료 접근을 확립하였다."},
+      {"name_ko": "앨버트 엘리스", "name_en": "Albert Ellis", "contribution": "합리적 정서행동치료(REBT)를 개발하여 비합리적 신념의 논박을 통한 치료 접근의 선구자가 되었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동치료의 등장", "name_en": "Emergence of Behavior Therapy", "id": "HISTORY_BT_012"},
+      {"name_ko": "제3세대 행동치료", "name_en": "Third-Wave Behavior Therapies", "id": "HISTORY_3RD_014"},
+      {"name_ko": "자동적 사고", "name_en": "Automatic Thoughts", "id": "CBT_AT_001"}
+    ],
+    "sub_types": [
+      {"name": "인지치료 (CT)", "description": "아론 벡이 개발한 치료법으로 역기능적 자동적 사고와 핵심 신념의 수정에 초점"},
+      {"name": "합리적 정서행동치료 (REBT)", "description": "앨버트 엘리스가 개발한 치료법으로 비합리적 신념의 논박을 통한 변화에 초점"},
+      {"name": "인지행동치료 (CBT)", "description": "인지치료와 행동치료를 통합한 접근으로 현대 임상심리학의 주류 치료법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "인지혁명 = 생각이 감정을 만든다 (벡: CT, 엘리스: REBT → CBT)",
+      "differential": "벡의 인지치료는 역기능적 사고의 경험적 검증을 강조하고, 엘리스의 REBT는 비합리적 신념의 철학적 논박을 강조한다.",
+      "key_point": "인지혁명의 핵심은 자극과 반응 사이에 '인지적 매개'가 있다는 것이며, 이것이 행동주의와의 결정적 차이이다.",
+      "common_mistake": "인지치료가 행동치료를 완전히 대체한 것으로 오해하기 쉬우나, 현대 CBT는 두 접근을 통합한 것이다."
+    }
+  },
+  {
+    "id": "HISTORY_3RD_014",
+    "terminology": "제3세대 행동치료 (Third-Wave Behavior Therapies)",
+    "terminology_ko": "제3세대 행동치료",
+    "terminology_en": "Third-Wave Behavior Therapies",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1990년대 이후 전통적 CBT를 넘어 마음챙김, 수용, 가치, 메타인지 등을 강조하는 새로운 행동치료 접근들의 총칭으로, 사고의 '내용' 변화보다 사고와의 '관계' 변화에 초점을 맞춘다.",
+    "definition_en": "A collective term for behavioral therapy approaches emerging since the 1990s that go beyond traditional CBT to emphasize mindfulness, acceptance, values, and metacognition, focusing on changing one's 'relationship' with thoughts rather than changing thought 'content.'",
+    "significance": "임상심리학 치료 접근의 최신 발전을 대표하며, 동양적 명상 전통과 서양 심리학의 통합이라는 새로운 방향성을 제시하였다.",
+    "key_researchers": [
+      {"name_ko": "스티븐 헤이즈", "name_en": "Steven Hayes", "contribution": "수용전념치료(ACT)를 개발하고 관계 구성틀 이론(RFT)을 수립하여 제3세대 행동치료의 이론적 기반을 제공하였다."},
+      {"name_ko": "마샤 리네한", "name_en": "Marsha Linehan", "contribution": "변증법적 행동치료(DBT)를 개발하여 경계선 성격장애의 효과적 치료를 최초로 실증하였다."},
+      {"name_ko": "존 카밧-진", "name_en": "Jon Kabat-Zinn", "contribution": "마음챙김에 기반한 스트레스 감소(MBSR) 프로그램을 개발하여 마음챙김을 임상심리학에 도입하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지혁명과 인지치료", "name_en": "Cognitive Revolution and Cognitive Therapy", "id": "HISTORY_COG_013"},
+      {"name_ko": "행동치료의 등장", "name_en": "Emergence of Behavior Therapy", "id": "HISTORY_BT_012"},
+      {"name_ko": "경험적으로 지지된 치료 목록", "name_en": "Empirically Supported Treatments Movement", "id": "HISTORY_EST_027"}
+    ],
+    "sub_types": [
+      {"name": "수용전념치료 (ACT)", "description": "심리적 유연성을 핵심 목표로 수용, 탈융합, 현재 순간, 맥락적 자기, 가치, 전념행동을 강조"},
+      {"name": "변증법적 행동치료 (DBT)", "description": "수용과 변화의 변증법적 균형을 추구하며, 마음챙김·고통감내·정서조절·대인관계 효율성 기술을 훈련"},
+      {"name": "마음챙김 기반 인지치료 (MBCT)", "description": "마음챙김 명상과 인지치료를 결합하여 우울증 재발 방지에 초점"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "1세대(행동) → 2세대(인지) → 3세대(수용·마음챙김) = 사고 내용이 아닌 관계 변화",
+      "differential": "전통적 CBT는 역기능적 사고의 '내용'을 바꾸려 하고, 제3세대는 사고와의 '관계'를 바꾸려 한다(탈융합, 수용).",
+      "key_point": "제3세대의 핵심은 '맥락주의'로, 사고 자체의 옳고 그름이 아니라 그 사고가 삶의 가치에 부합하는 행동을 방해하는지가 중요하다.",
+      "common_mistake": "제3세대가 CBT를 부정한다고 오해하기 쉬우나, 이는 CBT의 확장이며 보완적 관계에 있다."
+    }
+  },
+  {
+    "id": "HISTORY_KOR_015",
+    "terminology": "한국 임상심리학의 역사 (History of Clinical Psychology in Korea)",
+    "terminology_ko": "한국 임상심리학의 역사",
+    "terminology_en": "History of Clinical Psychology in Korea",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1946년 서울대학교 의과대학에 임상심리 서비스가 시작된 이후, 1964년 한국임상심리학회 설립, 1974년 임상심리전문가 수련제도 도입을 거치며 발전해 온 한국 임상심리학의 역사적 흐름이다.",
+    "definition_en": "The historical development of clinical psychology in Korea, from the initiation of clinical psychology services at Seoul National University College of Medicine in 1946, through the founding of the Korean Clinical Psychology Association in 1964 and the establishment of the clinical psychologist training system in 1974.",
+    "significance": "한국 고유의 사회문화적 맥락에서 임상심리학이 어떻게 도입·발전·제도화되었는지를 이해하는 데 필수적인 역사적 배경이다.",
+    "key_researchers": [
+      {"name_ko": "이정균", "name_en": "Lee Jeong-Gyun", "contribution": "서울대 의대 정신과에서 임상심리 서비스를 도입하고, 한국 임상심리학의 제도적 기반을 마련한 선구자이다."},
+      {"name_ko": "유기종", "name_en": "Yu Gi-Jong", "contribution": "한국 최초의 임상심리 전문가 중 한 명으로, K-WAIS 등 한국판 심리검사 개발에 기여하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "한국임상심리학회 설립", "name_en": "Founding of the Korean Clinical Psychology Association", "id": "HISTORY_KCPA_016"},
+      {"name_ko": "정신건강증진법과 한국 수련제도", "name_en": "Mental Health Act and Korean Training System", "id": "HISTORY_MHA_017"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "1946(서울대 의대) → 1964(학회) → 1974(수련) = 한국 임상심리학 3대 이정표",
+      "differential": "한국 임상심리학은 미국과 달리 의료기관 중심으로 발전했으며, 정신건강임상심리사(보건복지부)와 임상심리전문가(학회) 이중 자격 체계가 특징이다.",
+      "key_point": "한국 임상심리학은 서양 모델을 도입하되, 의료법과 정신건강복지법 체계 안에서 독자적 발전 경로를 걸어왔다.",
+      "common_mistake": "한국 임상심리학이 미국과 동일한 발전 경로를 따랐다고 오해하기 쉬우나, 의료 체계와 자격 제도에서 상당한 차이가 있다."
+    }
+  },
+  {
+    "id": "HISTORY_KCPA_016",
+    "terminology": "한국임상심리학회 설립 (Founding of the Korean Clinical Psychology Association)",
+    "terminology_ko": "한국임상심리학회 설립",
+    "terminology_en": "Founding of the Korean Clinical Psychology Association",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1964년 한국심리학회 산하 분과학회로 한국임상심리학회가 설립된 사건으로, 임상심리학의 학술 연구와 전문가 양성을 위한 조직적 기반을 마련하고, 이후 임상심리전문가 자격 제도의 운영 주체가 되었다.",
+    "definition_en": "The founding of the Korean Clinical Psychology Association in 1964 as a division of the Korean Psychological Association, establishing the organizational foundation for scholarly research and professional training in clinical psychology, and later becoming the administering body for the clinical psychology specialist certification system.",
+    "significance": "한국 임상심리학의 학문적·전문적 정체성을 확립하고, 수련 기준과 자격 인증을 체계화하는 제도적 중심이 되었다.",
+    "key_researchers": [
+      {"name_ko": "이정균", "name_en": "Lee Jeong-Gyun", "contribution": "학회 설립 초기 임상심리학의 학문적 기반을 구축하고 수련 체계를 정비하는 데 핵심적 역할을 하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "한국 임상심리학의 역사", "name_en": "History of Clinical Psychology in Korea", "id": "HISTORY_KOR_015"},
+      {"name_ko": "정신건강증진법과 한국 수련제도", "name_en": "Mental Health Act and Korean Training System", "id": "HISTORY_MHA_017"},
+      {"name_ko": "Boulder 회의와 과학자-실무자 모델", "name_en": "Boulder Conference and Scientist-Practitioner Model", "id": "HISTORY_BOU_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "1964 + 한국심리학회 분과 = 한국임상심리학회 탄생",
+      "differential": "한국임상심리학회(학회 자격: 임상심리전문가)와 정신건강복지법(국가 자격: 정신건강임상심리사)은 별개의 자격 체계이다.",
+      "key_point": "1964년 학회 설립은 한국에서 임상심리학이 독립적 전문 분야로 인정받기 시작한 공식적 출발점이다.",
+      "common_mistake": "한국임상심리학회가 국가 자격증을 발급하는 것으로 오해하기 쉬우나, 국가 자격(정신건강임상심리사)은 보건복지부가 관할한다."
+    }
+  },
+  {
+    "id": "HISTORY_MHA_017",
+    "terminology": "정신건강증진법과 한국 수련제도 (Mental Health Act and Korean Training System)",
+    "terminology_ko": "정신건강증진법과 한국 수련제도",
+    "terminology_en": "Mental Health Act and Korean Training System",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1995년 정신보건법(현 정신건강복지법) 제정으로 정신건강임상심리사 국가 자격 제도가 확립되고, 수련기관 인증과 수련 과정이 법적으로 규정된 사건으로, 한국 임상심리학의 제도적 전문화를 완성하였다.",
+    "definition_en": "The establishment of the Mental Health Act (now Mental Health and Welfare Act) in 1995, which formalized the national certification system for mental health clinical psychologists, legally defining accredited training institutions and training requirements, completing the institutional professionalization of clinical psychology in Korea.",
+    "significance": "임상심리학자의 법적 지위와 역할을 공식화하여 정신건강 서비스에서의 전문적 정체성을 확보하는 제도적 기반이 되었다.",
+    "key_researchers": [
+      {"name_ko": "신민섭", "name_en": "Shin Min-Sup", "contribution": "임상심리학 교육과 수련 체계의 발전에 기여하고, 한국 임상심리학 교재를 저술하여 수련생 교육의 표준을 제시하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "한국임상심리학회 설립", "name_en": "Founding of the Korean Clinical Psychology Association", "id": "HISTORY_KCPA_016"},
+      {"name_ko": "한국 임상심리학의 역사", "name_en": "History of Clinical Psychology in Korea", "id": "HISTORY_KOR_015"},
+      {"name_ko": "Boulder 회의와 과학자-실무자 모델", "name_en": "Boulder Conference and Scientist-Practitioner Model", "id": "HISTORY_BOU_008"}
+    ],
+    "sub_types": [
+      {"name": "정신건강임상심리사 1급", "description": "석사 이상 + 수련 3년 + 국가시험 합격으로 취득하는 전문 자격"},
+      {"name": "정신건강임상심리사 2급", "description": "학사 이상 + 수련 1년 + 국가시험 합격으로 취득하는 기본 자격"},
+      {"name": "임상심리전문가", "description": "한국임상심리학회가 인증하는 학회 자격으로, 박사급 수련과 슈퍼비전을 요구"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "1995년 정신보건법 = 임상심리사 국가 자격의 법적 근거",
+      "differential": "정신건강임상심리사(국가 자격)는 보건복지부가 관할하고, 임상심리전문가(학회 자격)는 한국임상심리학회가 관할한다.",
+      "key_point": "한국은 국가 자격과 학회 자격의 이중 체계를 운영하며, 두 자격의 수련 요건과 역할 범위가 다르다는 점이 핵심이다.",
+      "common_mistake": "정신건강임상심리사 자격이 독립적 개업을 허용하는 것으로 오해하기 쉬우나, 한국 법률상 심리치료의 독립적 수행에는 제한이 있다."
+    }
+  },
+  {
+    "id": "HISTORY_DSM_018",
+    "terminology": "DSM 체계의 역사 (History of the DSM System)",
+    "terminology_ko": "DSM 체계의 역사",
+    "terminology_en": "History of the DSM System",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1952년 DSM-I 출판에서 2013년 DSM-5에 이르는 미국정신의학회(APA)의 정신장애 진단 및 통계 편람의 발전사로, 정신분석적 용어에서 기술적·경험적 체계로, 다축 체계에서 차원적 접근으로 진화해 왔다.",
+    "definition_en": "The developmental history of the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders from DSM-I (1952) to DSM-5 (2013), evolving from psychoanalytic terminology to descriptive-empirical systems and from multiaxial to dimensional approaches.",
+    "significance": "임상심리학의 연구·평가·치료 모두에서 공통 언어를 제공하는 핵심 분류 체계로, DSM의 변천은 임상심리학 패러다임의 변화를 반영한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III(1980) 편집 위원장으로서 기술적 진단 기준과 다축 체계를 도입하여 진단의 신뢰도를 혁명적으로 향상시켰다."},
+      {"name_ko": "앨런 프랜시스", "name_en": "Allen Frances", "contribution": "DSM-IV(1994) 편집 위원장으로서 문헌 리뷰와 현장 시험을 강화하여 진단 체계의 경험적 기반을 확대하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "경험적으로 지지된 치료 목록", "name_en": "Empirically Supported Treatments Movement", "id": "HISTORY_EST_027"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM_001"},
+      {"name_ko": "탈원화 운동", "name_en": "Deinstitutionalization", "id": "HISTORY_DEI_011"}
+    ],
+    "sub_types": [
+      {"name": "DSM-I (1952)", "description": "정신분석적 관점을 반영한 최초의 공식 진단 편람 (106개 진단)"},
+      {"name": "DSM-III (1980)", "description": "기술적 진단 기준과 다축 체계를 도입하여 진단의 신뢰도를 획기적으로 개선"},
+      {"name": "DSM-5 (2013)", "description": "다축 체계를 폐지하고 차원적 평가를 강화한 현행 진단 체계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "DSM 혁명 = DSM-III(1980): 스피처 + 기술적 기준 + 다축 체계",
+      "differential": "DSM은 범주적 분류 체계이고, RDoC는 차원적·신경생물학적 분류 체계라는 점에서 근본적으로 다르다.",
+      "key_point": "DSM-III(1980)의 출판이 가장 혁명적 변화로, 기술적 진단 기준의 도입으로 진단 신뢰도가 획기적으로 향상되었다.",
+      "common_mistake": "DSM이 심리학자들에 의해 만들어진 것으로 오해하기 쉬우나, 미국정신의학회(정신과 의사 조직)에서 발간한다."
+    }
+  },
+  {
+    "id": "HISTORY_MC_019",
+    "terminology": "관리의료와 임상심리학 (Managed Care and Clinical Psychology)",
+    "terminology_ko": "관리의료와 임상심리학",
+    "terminology_en": "Managed Care and Clinical Psychology",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1980-90년대 미국 의료비 절감을 위해 도입된 관리의료(Managed Care) 체계가 정신건강 서비스의 치료 기간과 유형을 제한함으로써 임상심리학의 실무에 근본적 영향을 미친 사건으로, 단기 치료와 증거기반실무의 강조를 촉진하였다.",
+    "definition_en": "The impact of managed care systems, introduced in the 1980s-90s to control healthcare costs in the United States, which fundamentally affected clinical psychology practice by limiting the duration and type of mental health services, promoting the emphasis on brief therapy and evidence-based practice.",
+    "significance": "임상심리학의 치료 실무가 장기 치료에서 단기·효율적 치료로 전환되는 계기가 되었으며, 치료 효과의 객관적 입증 요구를 강화하였다.",
+    "key_researchers": [
+      {"name_ko": "니콜라스 커밍스", "name_en": "Nicholas Cummings", "contribution": "관리의료 환경에서 심리학자의 역할을 재정의하고, 간략 치료(brief therapy)의 효용성을 주장하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "경험적으로 지지된 치료 목록", "name_en": "Empirically Supported Treatments Movement", "id": "HISTORY_EST_027"},
+      {"name_ko": "실무 지침", "name_en": "Practice Guidelines", "id": "HISTORY_PG_028"},
+      {"name_ko": "통합적 의료에서의 임상심리학", "name_en": "Clinical Psychology in Integrated Healthcare", "id": "HISTORY_IHC_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관리의료 = 보험사가 치료 관리 → 짧게, 효과 증명해라",
+      "differential": "관리의료는 의료비 통제 시스템이고, 증거기반실무는 치료 선택의 의사결정 모델이다. 관리의료가 증거기반실무를 촉진했지만 동일한 개념이 아니다.",
+      "key_point": "관리의료가 임상심리학에 미친 가장 큰 영향은 치료 효과의 경험적 증거를 요구하게 된 것으로, EST 운동과 실무 지침의 발전으로 이어졌다.",
+      "common_mistake": "관리의료가 임상심리학에 부정적 영향만 미친 것으로 오해하기 쉬우나, 증거기반실무와 단기 효과적 치료의 발전을 촉진한 긍정적 측면도 있다."
+    }
+  },
+  {
+    "id": "HISTORY_MUL_020",
+    "terminology": "다문화주의의 대두 (Rise of Multiculturalism)",
+    "terminology_ko": "다문화주의의 대두",
+    "terminology_en": "Rise of Multiculturalism",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1980년대 이후 임상심리학에서 문화적 다양성, 인종, 민족, 성별, 성적 지향 등이 정신건강과 치료 과정에 미치는 영향을 체계적으로 인정하고, 문화적으로 유능한 서비스 제공을 강조하게 된 패러다임 전환이다.",
+    "definition_en": "The paradigm shift since the 1980s in clinical psychology toward systematically recognizing the impact of cultural diversity, race, ethnicity, gender, sexual orientation, and other factors on mental health and treatment, emphasizing the provision of culturally competent services.",
+    "significance": "임상심리학의 이론, 연구, 실무 모두에서 문화적 맥락을 필수적으로 고려하도록 하여 서비스의 형평성과 효과성을 높이는 방향으로 분야를 변화시켰다.",
+    "key_researchers": [
+      {"name_ko": "데럴드 윙 수", "name_en": "Derald Wing Sue", "contribution": "다문화 상담 역량(Multicultural Counseling Competencies) 모델을 개발하고, 미세공격(microaggression) 개념을 대중화하였다."},
+      {"name_ko": "스탠리 수", "name_en": "Stanley Sue", "contribution": "소수 민족의 정신건강 서비스 이용과 치료 효과의 불균형에 대한 선구적 연구를 수행하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "긍정심리학 운동", "name_en": "Positive Psychology Movement", "id": "HISTORY_POS_021"},
+      {"name_ko": "실무 지침", "name_en": "Practice Guidelines", "id": "HISTORY_PG_028"},
+      {"name_ko": "지역사회 정신건강 운동", "name_en": "Community Mental Health Movement", "id": "HISTORY_CMH_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "다문화 = Sue 형제(Derald Wing Sue, Stanley Sue) + 문화적 역량",
+      "differential": "다문화주의는 문화적 맥락에 대한 '인식과 역량'을 강조하고, 긍정심리학은 인간의 '강점과 번영'을 강조한다. 둘 다 기존 패러다임의 편향을 교정하려 한다.",
+      "key_point": "다문화주의의 핵심은 기존 심리학 이론과 치료법이 서양 백인 중산층 중심으로 개발되었다는 편향을 인정하고 교정하는 것이다.",
+      "common_mistake": "다문화주의가 단순히 인종/민족의 차이만 다루는 것으로 오해하기 쉬우나, 성별, 성적 지향, 장애, 사회경제적 지위 등 모든 문화적 정체성을 포괄한다."
+    }
+  },
+  {
+    "id": "HISTORY_POS_021",
+    "terminology": "긍정심리학 운동 (Positive Psychology Movement)",
+    "terminology_ko": "긍정심리학 운동",
+    "terminology_en": "Positive Psychology Movement",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1998년 마틴 셀리그만이 APA 회장 취임 연설에서 제안한 운동으로, 기존 심리학이 병리와 결손에 과도하게 집중했음을 비판하고 인간의 강점, 미덕, 번영(flourishing) 등 긍정적 측면의 과학적 연구를 촉구하였다.",
+    "definition_en": "The movement proposed by Martin Seligman in his 1998 APA presidential address, critiquing psychology's excessive focus on pathology and deficits and calling for the scientific study of human strengths, virtues, and flourishing.",
+    "significance": "임상심리학의 초점을 병리 치료에서 강점 기반 접근과 웰빙 증진으로 확장하여 예방과 성장의 관점을 강화하였다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그만", "name_en": "Martin Seligman", "contribution": "1998년 APA 회장으로서 긍정심리학 운동을 공식 출범시키고, 학습된 낙관주의와 PERMA 모델을 개발하였다."},
+      {"name_ko": "미하이 칙센트미하이", "name_en": "Mihaly Csikszentmihalyi", "contribution": "몰입(flow) 개념을 개발하여 긍정심리학의 핵심 구성요인 중 하나를 확립하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "다문화주의의 대두", "name_en": "Rise of Multiculturalism", "id": "HISTORY_MUL_020"},
+      {"name_ko": "제3세대 행동치료", "name_en": "Third-Wave Behavior Therapies", "id": "HISTORY_3RD_014"},
+      {"name_ko": "지역사회 정신건강 운동", "name_en": "Community Mental Health Movement", "id": "HISTORY_CMH_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "셀리그만 + 1998 + APA 회장 = '심리학이 병리만 연구하면 안 된다'",
+      "differential": "긍정심리학은 건강한 인간의 강점과 번영을 연구하고, 전통적 임상심리학은 정신장애의 진단과 치료에 초점을 맞춘다.",
+      "key_point": "긍정심리학의 핵심 주장은 심리학이 '정신질환 치료'뿐 아니라 '최적의 기능과 번영'도 연구해야 한다는 것이다.",
+      "common_mistake": "긍정심리학이 부정적 감정을 무시하거나 낙관주의만 강조한다고 오해하기 쉬우나, 역경 속 성장(회복탄력성)과 현실적 강점 활용을 과학적으로 연구한다."
+    }
+  },
+  {
+    "id": "HISTORY_RXP_022",
+    "terminology": "처방권 운동의 역사 (History of the Prescription Privileges Movement)",
+    "terminology_ko": "처방권 운동의 역사",
+    "terminology_en": "History of the Prescription Privileges Movement",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1990년대부터 미국에서 적절한 훈련을 받은 임상심리학자에게 향정신성 약물 처방 권한을 부여하자는 운동으로, APA가 공식 지지하고 일부 주(루이지애나, 뉴멕시코 등)와 미군에서 실현되었으나, 분야 내에서도 찬반 논쟁이 지속되고 있다.",
+    "definition_en": "The movement since the 1990s to grant appropriately trained clinical psychologists prescription privileges for psychotropic medications in the United States, officially supported by the APA and implemented in some states (Louisiana, New Mexico, etc.) and the military, though the debate continues within the field.",
+    "significance": "임상심리학자의 전문적 역할 범위에 대한 근본적 논쟁을 촉발하여 전문직 정체성의 재정의 과정에 핵심적 의제가 되고 있다.",
+    "key_researchers": [
+      {"name_ko": "패트릭 드레온", "name_en": "Patrick DeLeon", "contribution": "APA 회장을 역임하며 심리학자의 처방권 획득을 위한 입법 활동을 주도하였다."},
+      {"name_ko": "모건 새뮤얼스", "name_en": "Morgan Sammons", "contribution": "미 국방부 심리약리학 시범 프로그램(PDP)에 참여하여 심리학자의 처방 역량을 실증적으로 입증하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Boulder 회의와 과학자-실무자 모델", "name_en": "Boulder Conference and Scientist-Practitioner Model", "id": "HISTORY_BOU_008"},
+      {"name_ko": "관리의료와 임상심리학", "name_en": "Managed Care and Clinical Psychology", "id": "HISTORY_MC_019"},
+      {"name_ko": "통합적 의료에서의 임상심리학", "name_en": "Clinical Psychology in Integrated Healthcare", "id": "HISTORY_IHC_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "처방권 = RxP(Prescription Privileges) + 루이지애나(2004) + 뉴멕시코(2002) 최초",
+      "differential": "처방권 찬성론은 접근성 향상과 통합 서비스를, 반대론은 전문직 정체성 혼란과 의학 모델 편향을 주장한다.",
+      "key_point": "처방권 논쟁의 핵심은 임상심리학자의 역할이 '약물 없는 치료 전문가'인지 '종합적 정신건강 제공자'인지에 대한 정체성 문제이다.",
+      "common_mistake": "미국 전역의 심리학자가 처방권을 가진 것으로 오해하기 쉬우나, 2020년대 기준 소수의 주에서만 허용되고 있다."
+    }
+  },
+  {
+    "id": "HISTORY_TEL_023",
+    "terminology": "원격심리학의 발전 (Development of Telepsychology)",
+    "terminology_ko": "원격심리학의 발전",
+    "terminology_en": "Development of Telepsychology",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "정보통신 기술을 활용하여 원격으로 심리평가, 심리치료, 자문 등의 심리서비스를 제공하는 원격심리학(telepsychology)의 발전 과정으로, 초기 전화 상담에서 화상 치료, 앱 기반 개입까지 확대되어 왔다.",
+    "definition_en": "The development of telepsychology, using information and communication technology to provide psychological services remotely including assessment, therapy, and consultation, expanding from early telephone counseling to video therapy and app-based interventions.",
+    "significance": "지리적·물리적 장벽을 넘어 심리서비스 접근성을 혁신적으로 확대하고, COVID-19 팬데믹을 계기로 표준 실무의 일부로 정착되었다.",
+    "key_researchers": [
+      {"name_ko": "토머스 스트리커", "name_en": "Thomas Strickler", "contribution": "원격정신건강(telemental health)의 초기 연구와 실무 기준 개발에 기여하였다."},
+      {"name_ko": "아를린 엔더스", "name_en": "Arlene Andrews", "contribution": "농촌 지역 원격심리서비스의 효과성과 실용성에 대한 선구적 연구를 수행하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "COVID-19와 임상심리학", "name_en": "COVID-19 and Clinical Psychology", "id": "HISTORY_COV_024"},
+      {"name_ko": "인공지능과 임상심리학의 미래", "name_en": "AI and the Future of Clinical Psychology", "id": "HISTORY_AI_030"},
+      {"name_ko": "실무 지침", "name_en": "Practice Guidelines", "id": "HISTORY_PG_028"}
+    ],
+    "sub_types": [
+      {"name": "화상 심리치료", "description": "화상회의 플랫폼을 통한 실시간 대면 심리치료"},
+      {"name": "디지털 치료제", "description": "앱 기반의 근거 기반 심리 개입 프로그램"},
+      {"name": "원격 심리평가", "description": "원격으로 실시하는 심리검사 및 신경심리평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "원격심리학 = 기술 + 심리서비스 + 접근성 확대",
+      "differential": "원격심리학은 전문가가 기술을 매개로 서비스를 제공하는 것이고, 디지털 치료제는 기술 자체가 개입을 제공하는 것이다.",
+      "key_point": "원격심리학의 핵심 가치는 '접근성 확대'이며, 연구에서 대면 치료와 동등한 효과가 입증되고 있다.",
+      "common_mistake": "원격심리학이 COVID-19 이후에 시작된 것으로 오해하기 쉬우나, 1990년대부터 발전해 왔으며 팬데믹은 급속한 확산의 계기였다."
+    }
+  },
+  {
+    "id": "HISTORY_COV_024",
+    "terminology": "COVID-19와 임상심리학 (COVID-19 and Clinical Psychology)",
+    "terminology_ko": "COVID-19와 임상심리학",
+    "terminology_en": "COVID-19 and Clinical Psychology",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "2020년 COVID-19 팬데믹이 임상심리학에 미친 다면적 영향으로, 원격심리서비스의 급속한 보편화, 불안·우울·외상 관련 장애의 급증, 의료진 소진 문제, 정신건강 형평성 논의 심화 등 분야 전반에 걸친 변혁을 가져왔다.",
+    "definition_en": "The multifaceted impact of the COVID-19 pandemic since 2020 on clinical psychology, including the rapid normalization of telepsychology, surges in anxiety, depression, and trauma-related disorders, healthcare worker burnout, and deepened discourse on mental health equity.",
+    "significance": "원격서비스의 영구적 정착, 정신건강 위기 대응 역량의 강화, 정신건강의 공중보건적 중요성에 대한 사회적 인식 제고 등 분야의 항구적 변화를 촉발하였다.",
+    "key_researchers": [
+      {"name_ko": "사이먼 웨슬리", "name_en": "Simon Wessely", "contribution": "팬데믹 상황에서의 정신건강 영향과 회복탄력성에 대한 대규모 연구를 주도하였다."},
+      {"name_ko": "로렌 알로이", "name_en": "Lauren Alloy", "contribution": "COVID-19 기간 우울증과 불안 장애의 증가 패턴에 대한 종단 연구를 수행하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "원격심리학의 발전", "name_en": "Development of Telepsychology", "id": "HISTORY_TEL_023"},
+      {"name_ko": "통합적 의료에서의 임상심리학", "name_en": "Clinical Psychology in Integrated Healthcare", "id": "HISTORY_IHC_029"},
+      {"name_ko": "지역사회 정신건강 운동", "name_en": "Community Mental Health Movement", "id": "HISTORY_CMH_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "COVID-19 = 원격치료 보편화 + 정신건강 수요 폭증 + 형평성 논의",
+      "differential": "COVID-19의 영향은 단순한 정신건강 위기가 아니라, 서비스 전달 체계(원격화), 수요 패턴(급증), 사회적 인식(정신건강 중요성) 모두를 변화시킨 복합적 사건이다.",
+      "key_point": "COVID-19가 임상심리학에 남긴 가장 영구적 변화는 원격심리서비스가 표준 실무의 일부로 정착된 것이다.",
+      "common_mistake": "COVID-19의 정신건강 영향이 팬데믹 종료와 함께 사라진 것으로 오해하기 쉬우나, 장기적 외상 반응과 시스템 변화는 지속되고 있다."
+    }
+  },
+  {
+    "id": "HISTORY_EYS_025",
+    "terminology": "Eysenck의 심리치료 효과 비판 (Eysenck's Critique of Psychotherapy Effectiveness)",
+    "terminology_ko": "Eysenck의 심리치료 효과 비판",
+    "terminology_en": "Eysenck's Critique of Psychotherapy Effectiveness",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1952년 한스 아이젱크가 발표한 논문에서 심리치료를 받은 신경증 환자의 회복률이 치료를 받지 않은 환자의 자연 회복률과 차이가 없다고 주장한 사건으로, 심리치료 효과 연구의 폭발적 발전을 촉발하였다.",
+    "definition_en": "Hans Eysenck's 1952 paper claiming that the recovery rate of neurotic patients who received psychotherapy was no better than the spontaneous remission rate of untreated patients, sparking an explosion of psychotherapy outcome research.",
+    "significance": "심리치료의 효과를 경험적으로 검증해야 한다는 문화를 확립하여, 이후 메타분석과 증거기반실무의 발전에 결정적 계기가 되었다.",
+    "key_researchers": [
+      {"name_ko": "한스 아이젱크", "name_en": "Hans Eysenck", "contribution": "1952년 심리치료 효과에 대한 도발적 비판 논문을 발표하여 치료 효과 연구 분야를 촉발시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Smith & Glass 메타분석", "name_en": "Smith and Glass Meta-Analysis", "id": "HISTORY_SG_026"},
+      {"name_ko": "경험적으로 지지된 치료 목록", "name_en": "Empirically Supported Treatments Movement", "id": "HISTORY_EST_027"},
+      {"name_ko": "행동치료의 등장", "name_en": "Emergence of Behavior Therapy", "id": "HISTORY_BT_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "아이젱크 + 1952 + '심리치료는 효과가 없다' = 치료 효과 연구의 출발점",
+      "differential": "아이젱크의 비판은 심리치료가 무효하다는 결론이 아니라, 효과를 체계적으로 검증해야 한다는 문제 제기였다.",
+      "key_point": "아이젱크의 주장 자체는 방법론적 한계로 비판받았지만, 치료 효과의 경험적 검증이라는 연구 전통을 촉발한 역사적 의의가 크다.",
+      "common_mistake": "아이젱크의 결론이 최종적으로 확인된 것으로 오해하기 쉬우나, 이후 연구(특히 메타분석)에서 심리치료의 효과가 반복적으로 입증되었다."
+    }
+  },
+  {
+    "id": "HISTORY_SG_026",
+    "terminology": "Smith & Glass 메타분석 (Smith and Glass Meta-Analysis)",
+    "terminology_ko": "Smith & Glass 메타분석",
+    "terminology_en": "Smith and Glass Meta-Analysis",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1977년 메리 리 스미스와 진 글래스가 475개 심리치료 연구를 종합적으로 분석하여 심리치료의 평균 효과크기가 0.68임을 보고한 최초의 대규모 메타분석으로, 심리치료가 비치료 조건보다 유의미하게 효과적임을 실증적으로 입증하였다.",
+    "definition_en": "The first large-scale meta-analysis conducted by Mary Lee Smith and Gene Glass in 1977, synthesizing 475 psychotherapy studies and reporting an average effect size of 0.68, empirically demonstrating that psychotherapy was significantly more effective than no treatment.",
+    "significance": "Eysenck의 비판에 대한 결정적 반론을 제공하고, 메타분석을 심리학 연구의 표준 방법론으로 확립하는 계기가 되었다.",
+    "key_researchers": [
+      {"name_ko": "메리 리 스미스", "name_en": "Mary Lee Smith", "contribution": "진 글래스와 함께 심리치료 분야 최초의 대규모 메타분석을 수행하여 치료 효과를 정량적으로 입증하였다."},
+      {"name_ko": "진 글래스", "name_en": "Gene Glass", "contribution": "'메타분석(meta-analysis)'이라는 용어를 1976년에 명명하고, 스미스와 함께 심리치료 효과의 종합적 분석을 수행하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Eysenck의 심리치료 효과 비판", "name_en": "Eysenck's Critique of Psychotherapy Effectiveness", "id": "HISTORY_EYS_025"},
+      {"name_ko": "경험적으로 지지된 치료 목록", "name_en": "Empirically Supported Treatments Movement", "id": "HISTORY_EST_027"},
+      {"name_ko": "메타분석", "name_en": "Meta-Analysis", "id": "RESEARCH_MA_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Smith & Glass + 1977 + 475개 연구 + d=0.68 = 심리치료는 효과 있다",
+      "differential": "Smith & Glass의 메타분석은 '심리치료가 효과적인가?'라는 질문에 답한 반면, EST 운동은 '어떤 치료가 어떤 장애에 효과적인가?'라는 특이적 질문으로 발전하였다.",
+      "key_point": "효과크기 0.68은 심리치료를 받은 사람이 받지 않은 사람의 75%보다 나은 결과를 보인다는 것을 의미한다.",
+      "common_mistake": "이 메타분석이 모든 심리치료가 동등하게 효과적이라는 '도도새 판결'을 입증했다고 오해하기 쉬우나, 치료 유형 간 차이에 대한 논쟁은 현재도 진행 중이다."
+    }
+  },
+  {
+    "id": "HISTORY_EST_027",
+    "terminology": "경험적으로 지지된 치료 목록 (Empirically Supported Treatments Movement)",
+    "terminology_ko": "경험적으로 지지된 치료 목록",
+    "terminology_en": "Empirically Supported Treatments Movement",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1995년 APA 12분과(임상심리학) 소속 태스크포스가 특정 심리장애에 대해 무선 통제 실험(RCT)으로 효과가 입증된 치료법의 목록을 발표한 운동으로, 치료 매뉴얼의 사용과 치료 효과의 특이적 검증을 강조하였다.",
+    "definition_en": "The movement initiated in 1995 by the APA Division 12 (Clinical Psychology) Task Force to publish lists of treatments empirically supported by randomized controlled trials (RCTs) for specific psychological disorders, emphasizing treatment manuals and disorder-specific efficacy.",
+    "significance": "증거기반실무의 구체적 실천을 위한 기준을 마련하여 임상 실무와 수련에서 경험적 근거의 중요성을 제도적으로 확립하였다.",
+    "key_researchers": [
+      {"name_ko": "다이앤 챔블리스", "name_en": "Dianne Chambless", "contribution": "APA Division 12 태스크포스를 주도하여 경험적으로 지지된 치료(EST)의 기준과 최초 목록을 발표하였다."},
+      {"name_ko": "래리 브릭스", "name_en": "Larry Beutler", "contribution": "EST 운동의 한계를 지적하고, 환자 특성에 맞춘 치료 선택의 중요성을 강조하는 대안적 관점을 제시하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "Smith & Glass 메타분석", "name_en": "Smith and Glass Meta-Analysis", "id": "HISTORY_SG_026"},
+      {"name_ko": "실무 지침", "name_en": "Practice Guidelines", "id": "HISTORY_PG_028"},
+      {"name_ko": "RCT", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "EST = 1995 + Division 12 + RCT로 검증 + 치료 목록 발표",
+      "differential": "EST는 '특정 장애에 대한 특정 치료'의 효과를 강조하고, 증거기반실무(EBP)는 연구 근거·임상 전문성·내담자 특성의 통합을 강조하는 더 넓은 개념이다.",
+      "key_point": "EST 운동의 핵심 기여는 '어떤 조건에서 어떤 치료가 효과적인가?'라는 특이적 질문을 체계적으로 다루기 시작한 것이다.",
+      "common_mistake": "EST 목록에 없는 치료가 효과가 없다고 오해하기 쉬우나, 목록에 없는 것은 '아직 충분히 연구되지 않았음'을 의미할 수 있다."
+    }
+  },
+  {
+    "id": "HISTORY_PG_028",
+    "terminology": "실무 지침 (Practice Guidelines)",
+    "terminology_ko": "실무 지침",
+    "terminology_en": "Practice Guidelines",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "특정 임상 상황에서의 최적 실무를 안내하기 위해 연구 근거를 체계적으로 종합하여 발표하는 권고안으로, APA, NICE 등 전문 기관이 발간하며 증거기반실무의 구현을 돕는 실천적 도구이다.",
+    "definition_en": "Recommendations published by professional organizations such as APA and NICE that systematically synthesize research evidence to guide optimal practice in specific clinical situations, serving as practical tools for implementing evidence-based practice.",
+    "significance": "연구 근거와 임상 실무 사이의 간극을 줄이고, 치료의 질적 표준화와 서비스 형평성 향상에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "스티브 홀론", "name_en": "Steven Hollon", "contribution": "우울증 치료 지침 개발에 참여하여 심리치료(특히 CBT)의 약물치료 대비 효과를 실무 지침에 반영시켰다."},
+      {"name_ko": "피터 네이선", "name_en": "Peter Nathan", "contribution": "APA 실무 지침 개발 과정에서 근거 기반 접근의 체계화에 기여하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "경험적으로 지지된 치료 목록", "name_en": "Empirically Supported Treatments Movement", "id": "HISTORY_EST_027"},
+      {"name_ko": "관리의료와 임상심리학", "name_en": "Managed Care and Clinical Psychology", "id": "HISTORY_MC_019"},
+      {"name_ko": "RCT", "name_en": "Randomized Controlled Trial", "id": "RESEARCH_RCT_001"}
+    ],
+    "sub_types": [
+      {"name": "APA Practice Guidelines", "description": "미국심리학회에서 발간하는 심리치료 및 평가에 관한 실무 지침"},
+      {"name": "NICE Guidelines", "description": "영국 국립보건의료기술우수기관에서 발간하는 근거 기반 치료 권고안"},
+      {"name": "한국형 임상진료지침", "description": "한국의 학회와 정부 기관에서 발간하는 국내 맥락에 맞춘 진료 지침"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "실무 지침 = 연구 종합 → 최적 실무 권고 (APA, NICE 등)",
+      "differential": "실무 지침은 폭넓은 임상 의사결정을 안내하는 포괄적 권고이고, EST 목록은 특정 장애에 대한 특정 치료의 효과 증거를 나열한 것이다.",
+      "key_point": "실무 지침은 연구 근거만이 아니라 임상 전문성과 환자 선호도를 모두 고려한 통합적 권고라는 점이 핵심이다.",
+      "common_mistake": "실무 지침이 강제적 규정이라고 오해하기 쉬우나, 이는 '권고'이며 개별 사례의 임상적 판단을 대체하지 않는다."
+    }
+  },
+  {
+    "id": "HISTORY_IHC_029",
+    "terminology": "통합적 의료에서의 임상심리학 (Clinical Psychology in Integrated Healthcare)",
+    "terminology_ko": "통합적 의료에서의 임상심리학",
+    "terminology_en": "Clinical Psychology in Integrated Healthcare",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "1차 의료와 정신건강 서비스를 통합하여 환자에게 포괄적 건강관리를 제공하는 모델에서 임상심리학자가 핵심 팀원으로 참여하는 최근의 발전 방향으로, 행동건강 컨설턴트, 공동배치(co-location) 서비스 등의 형태로 실현되고 있다.",
+    "definition_en": "The recent development of clinical psychologists serving as core team members in integrated healthcare models that combine primary care and mental health services for comprehensive patient care, implemented through behavioral health consultants and co-location services.",
+    "significance": "정신건강과 신체건강의 불가분한 관계를 인정하고, 임상심리학자의 활동 영역을 전통적 정신건강 세팅에서 1차 의료로 확장하는 패러다임 전환이다.",
+    "key_researchers": [
+      {"name_ko": "커크 스트로살", "name_en": "Kirk Strosahl", "contribution": "1차 의료 장면에서의 행동건강 통합 모델을 개발하고, 간략 개입 프로토콜을 체계화하였다."},
+      {"name_ko": "패트리샤 로빈슨", "name_en": "Patricia Robinson", "contribution": "1차 의료 행동건강 컨설턴트(Primary Care Behavioral Health) 모델을 발전시키고 실무 지침을 제시하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "관리의료와 임상심리학", "name_en": "Managed Care and Clinical Psychology", "id": "HISTORY_MC_019"},
+      {"name_ko": "지역사회 정신건강 운동", "name_en": "Community Mental Health Movement", "id": "HISTORY_CMH_010"},
+      {"name_ko": "COVID-19와 임상심리학", "name_en": "COVID-19 and Clinical Psychology", "id": "HISTORY_COV_024"}
+    ],
+    "sub_types": [
+      {"name": "공동배치 모델 (Co-location)", "description": "1차 의료 기관 내에 정신건강 전문가가 함께 배치되어 서비스를 제공하는 모델"},
+      {"name": "행동건강 컨설턴트 모델", "description": "심리학자가 1차 의료팀의 일원으로 간략 행동 개입과 자문을 제공하는 모델"},
+      {"name": "협력적 치료 모델", "description": "1차 의료 제공자, 정신건강 전문가, 사례관리자가 체계적으로 협력하는 모델"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "통합의료 = 1차 의료 + 정신건강 + 한 지붕 아래",
+      "differential": "통합의료 모델에서 심리학자는 전통적 장기 심리치료보다 간략 개입, 자문, 예방에 초점을 맞추어 역할이 달라진다.",
+      "key_point": "통합적 의료의 핵심은 정신건강 문제의 대부분이 1차 의료 장면에서 처음 발견된다는 사실에 기반한다.",
+      "common_mistake": "통합의료에서 심리학자가 전통적 심리치료만 하는 것으로 오해하기 쉬우나, 주된 역할은 간략 행동 개입, 행동 변화 촉진, 팀 자문 등이다."
+    }
+  },
+  {
+    "id": "HISTORY_AI_030",
+    "terminology": "인공지능과 임상심리학의 미래 (AI and the Future of Clinical Psychology)",
+    "terminology_ko": "인공지능과 임상심리학의 미래",
+    "terminology_en": "AI and the Future of Clinical Psychology",
+    "category": "HISTORY",
+    "category_name": "임상심리학의 역사 (History of Clinical Psychology)",
+    "definition": "기계학습, 자연어처리, 대규모 언어모델 등 인공지능 기술이 심리평가의 자동화, 치료적 챗봇, 위기 감지, 치료 결과 예측 등에 적용되며 임상심리학의 실무와 연구를 변화시키고 있는 최신 동향이다.",
+    "definition_en": "The latest developments in which artificial intelligence technologies, including machine learning, natural language processing, and large language models, are transforming clinical psychology practice and research through automated assessment, therapeutic chatbots, crisis detection, and treatment outcome prediction.",
+    "significance": "임상심리학의 서비스 제공 방식, 의사결정 과정, 연구 방법론을 근본적으로 변화시킬 잠재력을 가지며, 동시에 윤리적·전문적 도전을 제기하고 있다.",
+    "key_researchers": [
+      {"name_ko": "로버트 코진스키", "name_en": "Michal Kosinski", "contribution": "소셜미디어 디지털 발자국을 활용한 성격 특성 예측 연구로 AI 기반 심리 평가의 가능성과 위험을 동시에 제시하였다."},
+      {"name_ko": "앨리슨 다시", "name_en": "Alison Darcy", "contribution": "CBT 기반 AI 챗봇 Woebot을 개발하여 기술 기반 정신건강 개입의 효과와 접근성을 실증하였다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "원격심리학의 발전", "name_en": "Development of Telepsychology", "id": "HISTORY_TEL_023"},
+      {"name_ko": "경험적으로 지지된 치료 목록", "name_en": "Empirically Supported Treatments Movement", "id": "HISTORY_EST_027"},
+      {"name_ko": "COVID-19와 임상심리학", "name_en": "COVID-19 and Clinical Psychology", "id": "HISTORY_COV_024"}
+    ],
+    "sub_types": [
+      {"name": "AI 기반 심리평가", "description": "기계학습을 활용한 심리검사 채점, 해석, 위험 예측의 자동화"},
+      {"name": "치료적 챗봇", "description": "CBT, DBT 등 근거기반 개입을 제공하는 대화형 AI 시스템"},
+      {"name": "디지털 표현형", "description": "스마트폰 사용 패턴, 소셜미디어 활동 등을 통한 정신건강 상태의 수동적 모니터링"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "AI + 임상심리 = 자동 평가 + 챗봇 치료 + 위기 감지 + 윤리적 도전",
+      "differential": "AI 기반 도구는 임상심리학자를 '대체'하는 것이 아니라 '보조'하는 것으로 설계되며, 치료적 관계와 윤리적 판단은 인간 전문가의 고유한 역할로 남는다.",
+      "key_point": "AI의 가장 큰 잠재적 기여는 정신건강 서비스의 접근성과 효율성을 혁신적으로 높이는 것이며, 가장 큰 과제는 윤리·개인정보·편향 문제이다.",
+      "common_mistake": "AI가 임상심리학자를 완전히 대체할 것이라고 오해하기 쉬우나, 복잡한 임상적 판단과 치료적 관계는 현재 AI의 역량을 넘어서는 영역이다."
+    }
+  }
+]

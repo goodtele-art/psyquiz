@@ -1,0 +1,820 @@
+[
+  {
+    "id": "PERSONA_PA_001",
+    "terminology": "성격평가 (Personality Assessment)",
+    "terminology_ko": "성격평가",
+    "terminology_en": "Personality Assessment",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "개인의 성격 특성, 역동, 구조를 체계적으로 측정하고 기술하는 임상적 과정으로, 객관적 검사와 투사적 검사를 포함한 다양한 방법을 통합적으로 활용한다.",
+    "definition_en": "A systematic clinical process of measuring and describing an individual's personality traits, dynamics, and structure, utilizing an integrative approach that includes both objective and projective assessment methods.",
+    "significance": "심리치료 계획 수립, 감별진단, 자기이해 증진 등 임상심리학의 핵심 영역으로, 내담자의 전인적 이해를 위한 필수적 절차이다.",
+    "key_researchers": [
+      {"name_ko": "폴 미얼", "name_en": "Paul Meehl", "contribution": "임상적 판단과 통계적 예측의 비교 연구를 통해 성격평가의 과학적 기반을 확립했다."},
+      {"name_ko": "리 크론바크", "name_en": "Lee Cronbach", "contribution": "심리검사의 신뢰도와 타당도 이론을 정립하여 성격평가 도구의 질적 기준을 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "객관적 성격검사", "name_en": "Objective Personality Tests", "id": "PERSONA_OBJ_002"},
+      {"name_ko": "투사적 성격검사", "name_en": "Projective Personality Tests", "id": "PERSONA_PROJ_003"},
+      {"name_ko": "증거기반 평가", "name_en": "Evidence-Based Assessment", "id": "PERSONA_EBA_030"},
+      {"name_ko": "사례개념화", "name_en": "Case Formulation", "id": "DIAGN_CF_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "성격평가 = 객관적(자기보고) + 투사적(수행기반) 검사의 통합적 활용",
+      "differential": "성격평가는 성격의 전반적 특성과 역동을 평가하는 반면, 지능검사는 인지 능력을 측정하고, 신경심리검사는 뇌 기능을 평가한다.",
+      "key_point": "다중 방법 접근(multi-method approach)을 통해 단일 검사의 한계를 보완하는 것이 바람직하다.",
+      "common_mistake": "성격평가를 단일 검사 결과로 판단하는 오류 — 여러 검사 결과를 통합적으로 해석해야 한다."
+    }
+  },
+  {
+    "id": "PERSONA_OBJ_002",
+    "terminology": "객관적 성격검사 (Objective Personality Tests)",
+    "terminology_ko": "객관적 성격검사",
+    "terminology_en": "Objective Personality Tests",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "표준화된 문항에 대해 수검자가 자기보고 형식으로 응답하며, 채점과 해석이 객관적 기준에 따라 이루어지는 성격검사 유형으로, MMPI-2와 PAI가 대표적이다.",
+    "definition_en": "A type of personality test in which examinees respond to standardized items in a self-report format, with scoring and interpretation based on objective criteria, exemplified by the MMPI-2 and PAI.",
+    "significance": "높은 신뢰도와 표준화된 규준을 통해 임상적 의사결정의 객관성을 보장하며, 대규모 집단 선별에도 효율적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "J. C. McKinley와 함께 최초의 객관적 성격검사인 MMPI를 개발했다."},
+      {"name_ko": "레슬리 모레이", "name_en": "Leslie Morey", "contribution": "PAI를 개발하여 MMPI의 대안적 객관적 성격검사를 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사적 성격검사", "name_en": "Projective Personality Tests", "id": "PERSONA_PROJ_003"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Measures", "id": "PERSONA_SR_023"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"},
+      {"name_ko": "PAI", "name_en": "PAI", "id": "PERSONA_PAI_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "객관적 = 자기보고 + 표준화 채점 + 규준 비교 (예: MMPI, PAI, NEO-PI-R)",
+      "differential": "객관적 검사는 표준화된 문항과 객관적 채점 기준이 있는 반면, 투사적 검사는 모호한 자극에 대한 자유 반응을 통해 무의식적 내용을 탐색한다.",
+      "key_point": "경험적 준거집단법(MMPI)과 요인분석법(NEO-PI-R) 등 다양한 검사 구성 전략이 사용된다.",
+      "common_mistake": "객관적 검사가 투사적 검사보다 항상 우월하다고 보는 것 — 각 검사는 고유한 장점과 한계가 있어 상호보완적으로 사용해야 한다."
+    }
+  },
+  {
+    "id": "PERSONA_PROJ_003",
+    "terminology": "투사적 성격검사 (Projective Personality Tests)",
+    "terminology_ko": "투사적 성격검사",
+    "terminology_en": "Projective Personality Tests",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "모호하고 비구조화된 자극을 제시하여 수검자의 반응을 통해 무의식적 욕구, 갈등, 성격 역동을 파악하는 검사 유형으로, 로르샤흐 검사와 TAT가 대표적이다.",
+    "definition_en": "A type of personality test that presents ambiguous, unstructured stimuli to reveal unconscious needs, conflicts, and personality dynamics through the examinee's responses, exemplified by the Rorschach test and TAT.",
+    "significance": "의식적 자기보고로는 접근하기 어려운 무의식적 심리 역동과 내면 세계를 탐색할 수 있어 깊이 있는 성격 이해를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "잉크반점 검사를 개발하여 투사적 성격평가의 토대를 마련했다."},
+      {"name_ko": "헨리 머레이", "name_en": "Henry Murray", "contribution": "주제통각검사(TAT)를 개발하고 욕구-압력 이론을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "객관적 성격검사", "name_en": "Objective Personality Tests", "id": "PERSONA_OBJ_002"},
+      {"name_ko": "로르샤흐 잉크반점 검사", "name_en": "Rorschach Inkblot Test", "id": "PERSONA_ROR_011"},
+      {"name_ko": "주제통각검사", "name_en": "TAT", "id": "PERSONA_TAT_014"},
+      {"name_ko": "방어기제", "name_en": "Defense Mechanisms", "id": "PSYCHOD_DF_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "투사적 = 모호한 자극 + 자유 반응 + 무의식 탐색 (로르샤흐, TAT, SCT, HTP)",
+      "differential": "투사적 검사는 비구조화된 자극에 대한 자유 반응을 분석하는 반면, 객관적 검사는 구조화된 문항에 대한 선택 반응을 분석한다.",
+      "key_point": "투사 가설(projective hypothesis)에 기반하며, 모호한 자극에 대한 반응이 개인의 내적 세계를 반영한다고 본다.",
+      "common_mistake": "투사적 검사의 심리측정적 속성이 부족하다고 일괄 폄하하는 것 — R-PAS 등 경험적으로 지지된 채점 체계가 존재한다."
+    }
+  },
+  {
+    "id": "PERSONA_MMPI2_004",
+    "terminology": "MMPI-2 (Minnesota Multiphasic Personality Inventory-2)",
+    "terminology_ko": "MMPI-2",
+    "terminology_en": "Minnesota Multiphasic Personality Inventory-2",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "567개 진위형 문항으로 구성된 세계에서 가장 널리 사용되는 객관적 성격검사로, 10개 임상 척도와 다수의 타당도 척도를 포함하며 경험적 준거집단법으로 개발되었다.",
+    "definition_en": "The world's most widely used objective personality test consisting of 567 true-false items, including 10 clinical scales and multiple validity scales, developed using the empirical criterion-keying method.",
+    "significance": "임상 장면에서 정신병리 선별, 감별진단, 치료 계획 수립에 핵심적 역할을 하며, 법정심리학 등 다양한 영역에서도 활용된다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "미네소타 대학에서 J. C. McKinley와 함께 원판 MMPI를 개발했다(1943)."},
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2 개정(1989)을 주도하여 문항 현대화와 규준 재표준화를 실시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-RF", "id": "PERSONA_RF_005"},
+      {"name_ko": "임상 척도", "name_en": "Clinical Scales", "id": "PERSONA_CS_007"},
+      {"name_ko": "타당도 척도", "name_en": "Validity Scales", "id": "PERSONA_VS_008"},
+      {"name_ko": "프로파일 해석", "name_en": "Profile Interpretation", "id": "PERSONA_PI_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MMPI-2: 567문항, 진위형, 10개 임상척도, 경험적 준거집단법, Hathaway & McKinley",
+      "differential": "MMPI-2는 567문항의 원판 기반 개정이고, MMPI-2-RF는 338문항으로 재구성된 축약본이며, MMPI-3는 335문항의 최신판이다.",
+      "key_point": "경험적 준거집단법으로 개발되어 문항 내용이 아닌 준거집단과의 응답 패턴 차이로 척도가 구성된다.",
+      "common_mistake": "MMPI-2의 임상 척도 이름(예: Hs, D, Hy)이 현대 진단 개념과 직접 대응한다고 보는 것 — 척도명은 원래 준거집단에 기반한 것이다."
+    }
+  },
+  {
+    "id": "PERSONA_RF_005",
+    "terminology": "MMPI-2-RF (Restructured Form)",
+    "terminology_ko": "MMPI-2-RF",
+    "terminology_en": "MMPI-2-RF Restructured Form",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "MMPI-2에서 338개 문항을 선별하여 재구성한 축약형 검사로, 의기소침(demoralization) 요인을 분리하고 9개 재구성 임상 척도(RC)를 중심으로 구성되었다.",
+    "definition_en": "A restructured short form of the MMPI-2 with 338 items, separating the demoralization factor and centered on 9 Restructured Clinical (RC) scales for more precise measurement of distinct clinical constructs.",
+    "significance": "기존 MMPI-2 임상 척도의 높은 상호상관 문제를 해결하여 변별 타당도를 향상시켰으며, 보다 효율적인 평가를 가능하게 했다.",
+    "key_researchers": [
+      {"name_ko": "아우케 텔레겐", "name_en": "Auke Tellegen", "contribution": "Yossef Ben-Porath와 함께 MMPI-2-RF를 개발하여 의기소침 요인 분리와 RC 척도 구성을 주도했다(2008)."},
+      {"name_ko": "요세프 벤포라스", "name_en": "Yossef Ben-Porath", "contribution": "Tellegen과 함께 MMPI-2-RF를 개발하고 PSY-5 모델을 척도에 통합했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"},
+      {"name_ko": "MMPI-3", "name_en": "MMPI-3", "id": "PERSONA_MMPI3_006"},
+      {"name_ko": "재구성 임상 척도", "name_en": "Restructured Clinical Scales", "id": "PERSONA_RC_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MMPI-2-RF: 338문항, 9개 RC척도, 의기소침 분리, Tellegen & Ben-Porath(2008)",
+      "differential": "MMPI-2-RF는 MMPI-2의 338문항 재구성본이며, MMPI-3는 MMPI-2-RF를 계승하되 새로운 규준과 문항을 포함한 독립 검사이다.",
+      "key_point": "의기소침(demoralization) 공통 요인을 분리함으로써 임상 척도 간 높은 상호상관 문제를 해결했다.",
+      "common_mistake": "MMPI-2-RF가 단순히 MMPI-2의 단축형이라고 보는 것 — 척도 구조 자체가 재구성되어 해석 체계가 다르다."
+    }
+  },
+  {
+    "id": "PERSONA_MMPI3_006",
+    "terminology": "MMPI-3 (Minnesota Multiphasic Personality Inventory-3)",
+    "terminology_ko": "MMPI-3",
+    "terminology_en": "Minnesota Multiphasic Personality Inventory-3",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "2020년 출판된 MMPI 시리즈의 최신판으로, 335개 문항과 52개 척도로 구성되며 MMPI-2-RF의 구조를 계승하면서 현대적 규준과 새로운 척도를 추가했다.",
+    "definition_en": "The latest version of the MMPI series published in 2020, consisting of 335 items and 52 scales, building upon the MMPI-2-RF structure with updated norms and new scales.",
+    "significance": "현대적 표본으로 규준을 재표준화하고 시대에 뒤떨어진 문항을 교체하여 당대 임상 실무에 더 적합한 평가 도구를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "요세프 벤포라스", "name_en": "Yossef Ben-Porath", "contribution": "MMPI-3의 주 개발자로서 MMPI-2-RF의 구조를 계승 발전시켰다(2020)."},
+      {"name_ko": "아우케 텔레겐", "name_en": "Auke Tellegen", "contribution": "MMPI-3의 이론적 기초가 된 RC 척도 체계의 원 개발자이다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"},
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-RF", "id": "PERSONA_RF_005"},
+      {"name_ko": "재구성 임상 척도", "name_en": "Restructured Clinical Scales", "id": "PERSONA_RC_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MMPI-3: 335문항, 52척도, 2020년, Ben-Porath, MMPI-2-RF 구조 계승",
+      "differential": "MMPI-3는 MMPI-2-RF를 계승한 독립 검사이지 MMPI-2의 직접 개정판이 아니다. MMPI-2(567문항)와는 문항 수와 척도 구조가 크게 다르다.",
+      "key_point": "현대적 규준 표본 사용, 시대착오적 문항 교체, 새로운 실질적 척도 추가가 주요 개선점이다.",
+      "common_mistake": "MMPI-3가 모든 임상 장면에서 MMPI-2를 즉시 대체할 수 있다고 보는 것 — MMPI-2의 방대한 연구 축적은 여전히 가치가 있다."
+    }
+  },
+  {
+    "id": "PERSONA_CS_007",
+    "terminology": "임상 척도 (Clinical Scales)",
+    "terminology_ko": "임상 척도",
+    "terminology_en": "Clinical Scales",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "MMPI-2의 핵심 구성요소인 10개 척도로, 건강염려증(Hs), 우울(D), 히스테리(Hy), 반사회성(Pd), 남성-여성성(Mf), 편집증(Pa), 강박증(Pt), 정신분열증(Sc), 경조증(Ma), 사회적 내향성(Si)을 측정한다.",
+    "definition_en": "The 10 core scales of the MMPI-2, measuring Hypochondriasis (Hs), Depression (D), Hysteria (Hy), Psychopathic Deviate (Pd), Masculinity-Femininity (Mf), Paranoia (Pa), Psychasthenia (Pt), Schizophrenia (Sc), Hypomania (Ma), and Social Introversion (Si).",
+    "significance": "정신병리의 다차원적 평가를 가능하게 하며, 프로파일 패턴 분석을 통해 감별진단과 치료 계획에 핵심 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "경험적 준거집단법을 사용하여 정신과 환자 집단과 정상 집단의 응답 차이에 기반한 임상 척도를 구성했다."},
+      {"name_ko": "J. C. 매킨리", "name_en": "J. C. McKinley", "contribution": "Hathaway와 공동으로 원판 MMPI의 임상 척도를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"},
+      {"name_ko": "타당도 척도", "name_en": "Validity Scales", "id": "PERSONA_VS_008"},
+      {"name_ko": "프로파일 해석", "name_en": "Profile Interpretation", "id": "PERSONA_PI_028"},
+      {"name_ko": "재구성 임상 척도", "name_en": "Restructured Clinical Scales", "id": "PERSONA_RC_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "10개 임상 척도 순서: Hs-D-Hy-Pd-Mf-Pa-Pt-Sc-Ma-Si (1~0번)",
+      "differential": "임상 척도는 경험적 준거집단법으로 구성되어 척도 간 상호상관이 높은 반면, RC 척도는 의기소침 요인을 분리하여 변별력을 높였다.",
+      "key_point": "T점수 65 이상이면 임상적으로 유의미한 상승으로 해석하며, 2-point code type으로 프로파일을 분류한다.",
+      "common_mistake": "척도 이름이 현대 진단명과 직접 대응한다고 보는 것 — 예: Sc(정신분열증) 상승이 반드시 조현병을 의미하지 않는다."
+    }
+  },
+  {
+    "id": "PERSONA_VS_008",
+    "terminology": "타당도 척도 (Validity Scales)",
+    "terminology_ko": "타당도 척도",
+    "terminology_en": "Validity Scales",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "수검자의 검사 태도와 반응 편향을 탐지하는 MMPI 척도군으로, L(거짓말), F(비전형), K(교정) 등을 포함하며 프로파일의 해석 가능성을 판단하는 데 사용된다.",
+    "definition_en": "A set of MMPI scales designed to detect the examinee's test-taking attitude and response bias, including L (Lie), F (Infrequency), and K (Correction), used to determine the interpretability of the clinical profile.",
+    "significance": "검사 결과의 신뢰성을 보장하는 핵심 장치로, 꾀병, 방어적 태도, 무성의 응답 등을 탐지하여 임상 척도 해석의 타당성을 확보한다.",
+    "key_researchers": [
+      {"name_ko": "스타크 해서웨이", "name_en": "Starke Hathaway", "contribution": "MMPI 원판에 L, F, K 타당도 척도를 포함시켜 반응 태도 평가의 기초를 마련했다."},
+      {"name_ko": "요세프 벤포라스", "name_en": "Yossef Ben-Porath", "contribution": "MMPI-2-RF와 MMPI-3에서 과대보고(F-r)와 과소보고(L-r, K-r) 척도를 정교화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반응 편향", "name_en": "Response Bias", "id": "PERSONA_RB_025"},
+      {"name_ko": "꾀병 탐지", "name_en": "Malingering Detection", "id": "PERSONA_MAL_027"},
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSONA_SD_026"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MMPI-2 주요 타당도 척도: VRIN(일관성), TRIN(긍정편향), L(거짓말), F(비전형), K(교정), Fb(후반부), Fp(정신병리)",
+      "differential": "L척도는 소박한 방어를, K척도는 세련된 방어를 탐지한다. F척도는 과대보고(꾀병 포함)를, VRIN/TRIN은 무성의 응답을 탐지한다.",
+      "key_point": "타당도 척도를 먼저 확인한 후 임상 척도를 해석해야 하며, 타당도 척도에서 문제가 발견되면 프로파일 해석을 보류할 수 있다.",
+      "common_mistake": "F척도 상승을 자동으로 꾀병으로 해석하는 것 — 실제 심각한 정신병리, 도움 요청 호소, 무성의 응답 등 다양한 원인이 있다."
+    }
+  },
+  {
+    "id": "PERSONA_RC_009",
+    "terminology": "재구성 임상 척도 RC (Restructured Clinical Scales)",
+    "terminology_ko": "재구성 임상 척도",
+    "terminology_en": "Restructured Clinical Scales",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "MMPI-2의 임상 척도에서 공통적인 의기소침(demoralization) 요인을 분리하여 재구성한 9개 척도(RCd, RC1~RC9)로, 각 척도의 변별 타당도를 향상시켰다.",
+    "definition_en": "Nine scales (RCd, RC1-RC9) restructured from the MMPI-2 clinical scales by extracting the common demoralization factor, thereby improving the discriminant validity of each scale.",
+    "significance": "기존 임상 척도의 높은 상호상관 문제를 해결하여 보다 정확한 감별진단을 가능하게 하며, MMPI-2-RF와 MMPI-3의 핵심 구조가 되었다.",
+    "key_researchers": [
+      {"name_ko": "아우케 텔레겐", "name_en": "Auke Tellegen", "contribution": "의기소침 요인을 분리하는 이론적 모델을 제안하고 RC 척도 구성을 주도했다(2003)."},
+      {"name_ko": "요세프 벤포라스", "name_en": "Yossef Ben-Porath", "contribution": "Tellegen과 함께 RC 척도를 개발하고 MMPI-2-RF의 핵심 구조로 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상 척도", "name_en": "Clinical Scales", "id": "PERSONA_CS_007"},
+      {"name_ko": "MMPI-2-RF", "name_en": "MMPI-2-RF", "id": "PERSONA_RF_005"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RC = Restructured Clinical. RCd(의기소침) + RC1~RC9. 핵심: 의기소침 분리!",
+      "differential": "RC 척도는 의기소침을 분리하여 고유 구성개념을 측정하는 반면, 원래 임상 척도는 의기소침이 혼입되어 있어 상호상관이 높다.",
+      "key_point": "RCd(의기소침)가 분리됨으로써 나머지 RC 척도들이 각각의 고유한 임상적 구성개념을 더 순수하게 측정할 수 있게 되었다.",
+      "common_mistake": "RC 척도를 원래 임상 척도의 단순 재명명으로 보는 것 — 문항 구성과 해석 방식이 근본적으로 다르다."
+    }
+  },
+  {
+    "id": "PERSONA_PAI_010",
+    "terminology": "PAI (Personality Assessment Inventory)",
+    "terminology_ko": "PAI",
+    "terminology_en": "Personality Assessment Inventory",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "Leslie Morey가 개발한 344문항의 자기보고식 성격검사로, 4점 리커트 척도를 사용하며 4개 타당도 척도, 11개 임상 척도, 5개 치료고려 척도, 2개 대인관계 척도로 구성된다.",
+    "definition_en": "A 344-item self-report personality test developed by Leslie Morey using a 4-point Likert scale, comprising 4 validity scales, 11 clinical scales, 5 treatment consideration scales, and 2 interpersonal scales.",
+    "significance": "MMPI의 대안으로 개발되어 이론적 구성개념에 기반한 척도 구성과 치료 계획에 직접 유용한 정보를 제공하는 것이 특징이다.",
+    "key_researchers": [
+      {"name_ko": "레슬리 모레이", "name_en": "Leslie Morey", "contribution": "PAI를 개발(1991)하여 이론적으로 명확한 구성개념에 기반한 객관적 성격검사를 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"},
+      {"name_ko": "객관적 성격검사", "name_en": "Objective Personality Tests", "id": "PERSONA_OBJ_002"},
+      {"name_ko": "타당도 척도", "name_en": "Validity Scales", "id": "PERSONA_VS_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PAI: 344문항, 4점 리커트, Morey(1991), 22개 척도(4타당도+11임상+5치료+2대인)",
+      "differential": "PAI는 4점 리커트 척도로 증상 심각도를 연속적으로 평가하는 반면, MMPI-2는 진위형(True/False) 응답 형식을 사용한다.",
+      "key_point": "치료고려 척도(공격성, 자살관념, 스트레스, 비지지, 치료거부)가 포함되어 치료 계획에 직접적 정보를 제공한다.",
+      "common_mistake": "PAI를 MMPI의 단순 축약형으로 보는 것 — 독립적으로 개발된 검사로 척도 구성 방법과 이론적 기반이 다르다."
+    }
+  },
+  {
+    "id": "PERSONA_ROR_011",
+    "terminology": "로르샤흐 잉크반점 검사 (Rorschach Inkblot Test)",
+    "terminology_ko": "로르샤흐 잉크반점 검사",
+    "terminology_en": "Rorschach Inkblot Test",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "10장의 대칭적 잉크반점 카드를 제시하고 수검자의 자유 반응을 분석하여 지각, 사고, 정서, 대인관계 등 성격의 다양한 측면을 평가하는 투사적 성격검사이다.",
+    "definition_en": "A projective personality test that presents 10 symmetrical inkblot cards and analyzes the examinee's free responses to assess various aspects of personality including perception, thinking, emotion, and interpersonal relationships.",
+    "significance": "가장 오래되고 가장 많이 연구된 투사적 검사로, 의식적 자기보고로는 접근 어려운 인지적 처리과정과 성격 역동을 평가할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 로르샤흐", "name_en": "Hermann Rorschach", "contribution": "1921년 잉크반점 검사를 개발하고 『정신진단학(Psychodiagnostik)』을 출판했다."},
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "종합체계(Comprehensive System)를 개발하여 로르샤흐 채점과 해석의 표준화를 이루었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "종합체계", "name_en": "Comprehensive System", "id": "PERSONA_CS_012"},
+      {"name_ko": "R-PAS", "name_en": "R-PAS", "id": "PERSONA_RPAS_013"},
+      {"name_ko": "투사적 성격검사", "name_en": "Projective Personality Tests", "id": "PERSONA_PROJ_003"},
+      {"name_ko": "수행기반 검사", "name_en": "Performance-Based Measures", "id": "PERSONA_PB_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "로르샤흐: 10장 잉크반점, Hermann Rorschach(1921), 반응-질문-채점-해석 4단계",
+      "differential": "로르샤흐는 시각적 잉크반점에 대한 지각 반응을 분석하는 반면, TAT는 그림에 대한 이야기 구성을 분석한다. 로르샤흐는 인지적 구조를, TAT는 동기와 욕구를 더 잘 평가한다.",
+      "key_point": "실시 단계: 반응 단계(자유 반응) → 질문 단계(반응 결정인 탐색) → 채점 → 구조적 요약 및 해석.",
+      "common_mistake": "로르샤흐를 단순히 '무엇이 보이는지'만 묻는 검사로 이해하는 것 — 반응의 위치, 결정인, 내용, 형태질을 체계적으로 채점한다."
+    }
+  },
+  {
+    "id": "PERSONA_CS_012",
+    "terminology": "종합체계 CS (Comprehensive System)",
+    "terminology_ko": "종합체계",
+    "terminology_en": "Comprehensive System",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "John Exner가 개발한 로르샤흐 검사의 표준화된 실시, 채점, 해석 체계로, 기존의 다양한 로르샤흐 학파를 통합하여 경험적으로 지지된 단일 체계를 구축했다.",
+    "definition_en": "A standardized administration, scoring, and interpretation system for the Rorschach test developed by John Exner, integrating various Rorschach schools into a single empirically supported system.",
+    "significance": "로르샤흐 검사의 과학적 신뢰성 논쟁을 해소하는 데 기여했으며, 수십 년간 로르샤흐 실무의 표준으로 기능했다.",
+    "key_researchers": [
+      {"name_ko": "존 엑스너", "name_en": "John Exner", "contribution": "1974년 종합체계를 출판하여 로르샤흐 검사의 실시, 채점, 해석을 체계적으로 표준화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "로르샤흐 잉크반점 검사", "name_en": "Rorschach Inkblot Test", "id": "PERSONA_ROR_011"},
+      {"name_ko": "R-PAS", "name_en": "R-PAS", "id": "PERSONA_RPAS_013"},
+      {"name_ko": "수행기반 검사", "name_en": "Performance-Based Measures", "id": "PERSONA_PB_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CS = Comprehensive System = Exner(1974), 로르샤흐 5대 학파 통합 + 경험적 검증",
+      "differential": "종합체계(CS)는 Exner의 통합적 체계이고, R-PAS는 CS의 한계를 보완한 최신 체계이다. CS는 규준 문제가 제기되어 R-PAS로 전환이 권고된다.",
+      "key_point": "구조적 요약(Structural Summary)을 통해 반응의 위치, 결정인, 내용 등을 체계적으로 분류하고 해석한다.",
+      "common_mistake": "종합체계가 현재도 최적의 로르샤흐 체계라고 보는 것 — Exner 사후 규준 표본의 문제가 제기되어 R-PAS가 대안으로 부상했다."
+    }
+  },
+  {
+    "id": "PERSONA_RPAS_013",
+    "terminology": "R-PAS (Rorschach Performance Assessment System)",
+    "terminology_ko": "R-PAS",
+    "terminology_en": "Rorschach Performance Assessment System",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "Exner 종합체계의 후속으로 개발된 로르샤흐 검사의 최신 표준화 체계로, 국제적 규준과 반응 수 최적화(R-Optimized) 실시법을 도입하여 심리측정적 속성을 강화했다.",
+    "definition_en": "The latest standardized system for the Rorschach test developed as a successor to Exner's Comprehensive System, introducing international norms and R-Optimized administration to enhance psychometric properties.",
+    "significance": "국제적 규준 표본 확보와 반응 수 통제를 통해 로르샤흐 검사의 타당도와 신뢰도를 향상시키고 증거기반 실무를 강화했다.",
+    "key_researchers": [
+      {"name_ko": "그레고리 마이어", "name_en": "Gregory Meyer", "contribution": "R-PAS의 주 개발자로 국제적 규준과 R-Optimized 실시법을 도입했다(2011)."},
+      {"name_ko": "도널드 비글리오네", "name_en": "Donald Viglione", "contribution": "R-PAS 개발에 참여하여 채점 체계와 해석 지침을 정교화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "로르샤흐 잉크반점 검사", "name_en": "Rorschach Inkblot Test", "id": "PERSONA_ROR_011"},
+      {"name_ko": "종합체계", "name_en": "Comprehensive System", "id": "PERSONA_CS_012"},
+      {"name_ko": "증거기반 평가", "name_en": "Evidence-Based Assessment", "id": "PERSONA_EBA_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "R-PAS: Meyer et al.(2011), R-Optimized(반응 수 통제), 국제 규준, CS 후속 체계",
+      "differential": "R-PAS는 CS의 규준 문제를 해결하고 반응 수를 최적화(2~3개/카드)한 반면, CS는 반응 수 제한이 없어 해석에 편향이 생길 수 있다.",
+      "key_point": "R-Optimized 실시법으로 반응 수를 카드당 2~3개로 유도하여 반응 수가 변인에 미치는 영향을 통제한다.",
+      "common_mistake": "R-PAS가 CS와 완전히 다른 검사라고 보는 것 — 동일한 10장의 잉크반점 카드를 사용하며, 채점과 해석 체계가 업데이트된 것이다."
+    }
+  },
+  {
+    "id": "PERSONA_TAT_014",
+    "terminology": "주제통각검사 TAT (Thematic Apperception Test)",
+    "terminology_ko": "주제통각검사",
+    "terminology_en": "Thematic Apperception Test",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "모호한 장면이 그려진 그림 카드를 제시하고 수검자에게 이야기를 만들도록 요청하여 욕구, 동기, 갈등, 대인관계 패턴 등을 파악하는 투사적 성격검사이다.",
+    "definition_en": "A projective personality test that presents picture cards depicting ambiguous scenes and asks examinees to create stories, revealing needs, motivations, conflicts, and interpersonal relationship patterns.",
+    "significance": "수검자의 이야기 속에 투사된 욕구와 주제를 분석하여 내면의 동기, 갈등, 대인관계 도식을 이해할 수 있는 풍부한 임상 정보를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "헨리 머레이", "name_en": "Henry Murray", "contribution": "하버드 심리학 클리닉에서 Christiana Morgan과 함께 TAT를 개발(1935)하고 욕구-압력 이론을 제안했다."},
+      {"name_ko": "드류 웨스턴", "name_en": "Drew Westen", "contribution": "SCORS(사회인지 및 대상관계 척도)를 개발하여 TAT 해석의 경험적 기반을 강화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사적 성격검사", "name_en": "Projective Personality Tests", "id": "PERSONA_PROJ_003"},
+      {"name_ko": "로르샤흐 잉크반점 검사", "name_en": "Rorschach Inkblot Test", "id": "PERSONA_ROR_011"},
+      {"name_ko": "문장완성검사", "name_en": "Sentence Completion Test", "id": "PERSONA_SCT_015"},
+      {"name_ko": "방어기제", "name_en": "Defense Mechanisms", "id": "PSYCHOD_DF_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TAT: Murray & Morgan(1935), 그림+이야기, 욕구-압력(need-press) 분석",
+      "differential": "TAT는 그림 자극에 대한 이야기 구성을 분석하여 동기와 욕구를 파악하고, 로르샤흐는 잉크반점에 대한 지각 반응을 분석하여 인지적 구조를 파악한다.",
+      "key_point": "Murray의 욕구-압력 이론에 기반하며, 이야기의 주인공(hero)을 통해 수검자의 욕구(need)를, 환경적 힘을 통해 압력(press)을 분석한다.",
+      "common_mistake": "TAT 이야기의 내용을 수검자의 실제 경험과 동일시하는 것 — 이야기는 심리적 주제를 반영하지만 사실적 보고가 아니다."
+    }
+  },
+  {
+    "id": "PERSONA_SCT_015",
+    "terminology": "문장완성검사 SCT (Sentence Completion Test)",
+    "terminology_ko": "문장완성검사",
+    "terminology_en": "Sentence Completion Test",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "불완전한 문장의 시작 부분(어간)을 제시하고 수검자가 자유롭게 완성하도록 하여 태도, 갈등, 대인관계 패턴 등을 탐색하는 반구조화된 투사적 검사이다.",
+    "definition_en": "A semi-structured projective test that presents incomplete sentence stems for examinees to complete freely, exploring attitudes, conflicts, and interpersonal relationship patterns.",
+    "significance": "실시와 해석이 비교적 용이하면서도 수검자의 주관적 세계를 다양한 영역에서 탐색할 수 있는 효율적인 투사적 기법이다.",
+    "key_researchers": [
+      {"name_ko": "줄리안 로터", "name_en": "Julian Rotter", "contribution": "Rotter Incomplete Sentences Blank(RISB)를 개발하여 체계적인 문장완성검사 형식을 확립했다(1950)."},
+      {"name_ko": "제인 로빈저", "name_en": "Jane Loevinger", "contribution": "Washington University Sentence Completion Test를 개발하여 자아발달 수준 측정에 SCT를 활용했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사적 성격검사", "name_en": "Projective Personality Tests", "id": "PERSONA_PROJ_003"},
+      {"name_ko": "주제통각검사", "name_en": "TAT", "id": "PERSONA_TAT_014"},
+      {"name_ko": "집-나무-사람 검사", "name_en": "House-Tree-Person Test", "id": "PERSONA_HTP_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SCT: 문장 어간(stem) 제시 → 자유 완성 → 태도/갈등/대인관계 탐색",
+      "differential": "SCT는 언어적 문장 완성을 통한 반구조화된 투사 기법이고, TAT는 그림 자극에 대한 이야기 구성, 로르샤흐는 잉크반점에 대한 지각 반응을 분석한다.",
+      "key_point": "가족, 성, 대인관계, 자기개념 등 다양한 영역의 어간을 포함하여 포괄적인 성격 탐색이 가능하다.",
+      "common_mistake": "SCT의 모든 반응을 무의식의 직접적 표현으로 해석하는 것 — 의식적 자기표현과 투사적 반응이 혼재되어 있다."
+    }
+  },
+  {
+    "id": "PERSONA_HTP_016",
+    "terminology": "집-나무-사람 HTP (House-Tree-Person Test)",
+    "terminology_ko": "집-나무-사람 검사",
+    "terminology_en": "House-Tree-Person Test",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "수검자에게 집, 나무, 사람을 그리도록 요청하고 그림의 특성과 사후 질문을 통해 성격 특성, 자기상, 가족관계 등을 탐색하는 그림 투사 검사이다.",
+    "definition_en": "A drawing-based projective test that asks examinees to draw a house, tree, and person, then explores personality characteristics, self-image, and family relationships through drawing features and post-drawing inquiry.",
+    "significance": "언어 능력에 제한이 있는 아동이나 성인에게도 적용 가능하며, 비언어적 표현을 통해 내면 세계를 탐색할 수 있는 보충적 평가 도구이다.",
+    "key_researchers": [
+      {"name_ko": "존 벅", "name_en": "John Buck", "contribution": "1948년 HTP 검사를 개발하여 그림 투사 기법의 체계화를 이루었다."},
+      {"name_ko": "엠마뉘엘 해머", "name_en": "Emanuel Hammer", "contribution": "HTP의 임상적 해석 체계를 정교화하고 그림 투사법의 이론적 기반을 확장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "투사적 성격검사", "name_en": "Projective Personality Tests", "id": "PERSONA_PROJ_003"},
+      {"name_ko": "문장완성검사", "name_en": "Sentence Completion Test", "id": "PERSONA_SCT_015"},
+      {"name_ko": "주제통각검사", "name_en": "TAT", "id": "PERSONA_TAT_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HTP: House(가정환경) + Tree(자기상/성장) + Person(자기개념/대인관계), Buck(1948)",
+      "differential": "HTP는 그림 그리기를 통한 투사적 평가이고, 벤더-게슈탈트 검사는 도형 모사를 통한 시각-운동 통합 및 신경심리학적 평가이다.",
+      "key_point": "그림 자체의 해석(크기, 위치, 세부 묘사 등)과 사후 질문(PDI)을 통한 정보를 통합하여 해석한다.",
+      "common_mistake": "그림의 특정 요소(예: 나무에 가지가 없음)를 기계적으로 단일 의미로 해석하는 것 — 전체 맥락과 다른 자료를 통합적으로 고려해야 한다."
+    }
+  },
+  {
+    "id": "PERSONA_BDI_017",
+    "terminology": "BDI (Beck Depression Inventory)",
+    "terminology_ko": "BDI",
+    "terminology_en": "Beck Depression Inventory",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "Aaron Beck이 개발한 21문항의 자기보고식 우울증 선별 척도로, 우울증의 인지적, 정서적, 신체적 증상을 0~3점으로 평가하며 최신판은 BDI-II이다.",
+    "definition_en": "A 21-item self-report depression screening scale developed by Aaron Beck, rating cognitive, affective, and somatic symptoms of depression on a 0-3 scale, with BDI-II being the current version.",
+    "significance": "우울증의 심각도를 빠르고 효율적으로 선별할 수 있어 임상 및 연구 장면에서 가장 널리 사용되는 우울 측정 도구 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron Beck", "contribution": "우울증의 인지 모델에 기반하여 BDI를 개발(1961)하고 BDI-II로 개정(1996)했다."},
+      {"name_ko": "로버트 스티어", "name_en": "Robert Steer", "contribution": "Beck과 함께 BDI-II 개정 작업에 참여하여 DSM-IV 진단기준에 맞게 문항을 수정했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "BAI", "name_en": "BAI", "id": "PERSONA_BAI_018"},
+      {"name_ko": "SCL-90-R", "name_en": "SCL-90-R", "id": "PERSONA_SCL_019"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Measures", "id": "PERSONA_SR_023"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BDI-II: 21문항, 0~3점(총점 0~63), Beck(1961→1996), 우울 선별",
+      "differential": "BDI는 우울증 특이적 척도이고, SCL-90-R은 우울을 포함한 광범위한 정신증상을 측정하며, MMPI-2의 D척도는 다면적 성격검사의 한 하위 척도이다.",
+      "key_point": "BDI-II의 절단점: 0~13 최소, 14~19 경도, 20~28 중등도, 29~63 중도 우울로 해석한다.",
+      "common_mistake": "BDI 점수만으로 우울장애를 진단하는 것 — BDI는 선별 도구이지 진단 도구가 아니며, 진단은 임상 면접을 통해 이루어져야 한다."
+    }
+  },
+  {
+    "id": "PERSONA_BAI_018",
+    "terminology": "BAI (Beck Anxiety Inventory)",
+    "terminology_ko": "BAI",
+    "terminology_en": "Beck Anxiety Inventory",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "Aaron Beck이 개발한 21문항의 자기보고식 불안 척도로, 지난 1주간의 불안 증상을 0~3점으로 평가하며 특히 우울과 구분되는 불안의 신체적 증상에 초점을 맞춘다.",
+    "definition_en": "A 21-item self-report anxiety scale developed by Aaron Beck, rating anxiety symptoms over the past week on a 0-3 scale, with particular focus on somatic symptoms of anxiety that differentiate it from depression.",
+    "significance": "불안의 심각도를 빠르게 평가하면서 우울과의 변별력을 확보한 효율적 선별 도구로, 치료 효과 모니터링에도 유용하다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron Beck", "contribution": "우울과 구분되는 불안 측정을 위해 BAI를 개발(1988)했다."},
+      {"name_ko": "로버트 스티어", "name_en": "Robert Steer", "contribution": "Beck과 함께 BAI의 심리측정적 속성을 검증하고 규준을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "BDI", "name_en": "BDI", "id": "PERSONA_BDI_017"},
+      {"name_ko": "SCL-90-R", "name_en": "SCL-90-R", "id": "PERSONA_SCL_019"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Measures", "id": "PERSONA_SR_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BAI: 21문항, 0~3점(총점 0~63), Beck(1988), 불안 선별, 신체 증상 강조",
+      "differential": "BAI는 불안의 신체적 증상에 초점을 두어 우울과의 변별력이 높은 반면, STAI(상태-특성 불안 검사)는 인지적 불안 요소를 더 많이 포함한다.",
+      "key_point": "절단점: 0~7 최소, 8~15 경도, 16~25 중등도, 26~63 중도 불안으로 해석한다.",
+      "common_mistake": "BAI가 모든 유형의 불안을 균등하게 측정한다고 보는 것 — 신체 증상에 편중되어 있어 범불안장애의 인지적 걱정은 충분히 반영하지 못할 수 있다."
+    }
+  },
+  {
+    "id": "PERSONA_SCL_019",
+    "terminology": "SCL-90-R (Symptom Checklist-90-Revised)",
+    "terminology_ko": "SCL-90-R",
+    "terminology_en": "Symptom Checklist-90-Revised",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "90개 문항으로 구성된 자기보고식 다차원 증상 평가 도구로, 신체화, 강박, 대인예민, 우울, 불안, 적대감, 공포불안, 편집증, 정신증 등 9개 증상 차원을 측정한다.",
+    "definition_en": "A 90-item self-report multidimensional symptom assessment tool measuring 9 symptom dimensions including somatization, obsessive-compulsive, interpersonal sensitivity, depression, anxiety, hostility, phobic anxiety, paranoid ideation, and psychoticism.",
+    "significance": "광범위한 정신증상을 신속하게 선별할 수 있어 정신건강 서비스의 초기 평가와 치료 경과 모니터링에 효율적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "레오나드 데로가티스", "name_en": "Leonard Derogatis", "contribution": "SCL-90-R을 개발(1977)하여 다차원적 증상 선별의 표준 도구를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "BDI", "name_en": "BDI", "id": "PERSONA_BDI_017"},
+      {"name_ko": "BAI", "name_en": "BAI", "id": "PERSONA_BAI_018"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Measures", "id": "PERSONA_SR_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SCL-90-R: 90문항, 9차원+3전체지표(GSI, PSDI, PST), Derogatis(1977)",
+      "differential": "SCL-90-R은 광범위한 정신증상을 다차원적으로 선별하는 반면, BDI와 BAI는 각각 우울과 불안이라는 특정 증상만 측정한다.",
+      "key_point": "GSI(전체심각도지수)는 전반적 증상 수준을, PSDI(긍정증상고통지수)는 증상 강도를, PST(긍정증상총수)는 보고된 증상 수를 반영한다.",
+      "common_mistake": "SCL-90-R의 9개 하위 척도가 독립적인 진단 범주를 나타낸다고 보는 것 — 요인분석 결과 척도 간 구분이 뚜렷하지 않다는 비판이 있다."
+    }
+  },
+  {
+    "id": "PERSONA_NEO_020",
+    "terminology": "NEO-PI-R (NEO Personality Inventory-Revised)",
+    "terminology_ko": "NEO-PI-R",
+    "terminology_en": "NEO Personality Inventory-Revised",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "Costa와 McCrae가 개발한 240문항의 자기보고식 성격검사로, 5요인 모델(Big Five)에 기반하여 신경증, 외향성, 개방성, 우호성, 성실성을 각 6개 하위요인으로 측정한다.",
+    "definition_en": "A 240-item self-report personality test developed by Costa and McCrae, measuring five factors (Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness) with 6 facets each based on the Five-Factor Model.",
+    "significance": "정상 성격의 체계적 평가를 가능하게 하며, 성격장애 이해, 치료 계획 수립, 직업 상담 등 다양한 영역에서 활용되는 대표적 성격 특성 검사이다.",
+    "key_researchers": [
+      {"name_ko": "폴 코스타", "name_en": "Paul Costa", "contribution": "McCrae와 함께 5요인 모델에 기반한 NEO-PI를 개발하고 NEO-PI-R로 개정했다(1992)."},
+      {"name_ko": "로버트 매크레이", "name_en": "Robert McCrae", "contribution": "Costa와 함께 NEO-PI-R을 개발하고 5요인 모델의 보편성을 입증하는 교차문화 연구를 수행했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "5요인 모델", "name_en": "Five-Factor Model", "id": "PERSONA_BIG5_021"},
+      {"name_ko": "TCI", "name_en": "TCI", "id": "PERSONA_TCI_022"},
+      {"name_ko": "객관적 성격검사", "name_en": "Objective Personality Tests", "id": "PERSONA_OBJ_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "NEO-PI-R: 240문항, Big Five(OCEAN), 요인당 6개 하위요인(총 30), Costa & McCrae(1992)",
+      "differential": "NEO-PI-R은 정상 성격의 5요인을 측정하고, MMPI-2는 정신병리를 측정하며, TCI는 기질과 성격의 생물학적 차원을 측정한다.",
+      "key_point": "5개 요인 각각에 6개 하위요인(facet)이 있어 총 30개 하위요인으로 성격을 세분화하여 측정한다.",
+      "common_mistake": "NEO-PI-R을 임상적 진단 도구로 사용하는 것 — 정상 성격 특성을 측정하는 검사이며, 정신병리 평가에는 MMPI-2나 PAI가 적합하다."
+    }
+  },
+  {
+    "id": "PERSONA_BIG5_021",
+    "terminology": "5요인 모델 Big Five (Five-Factor Model)",
+    "terminology_ko": "5요인 모델",
+    "terminology_en": "Five-Factor Model",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "성격을 신경증(N), 외향성(E), 개방성(O), 우호성(A), 성실성(C)의 5개 상위 차원으로 기술하는 성격 특성 이론으로, 요인분석 연구를 통해 경험적으로 도출되었다.",
+    "definition_en": "A personality trait theory describing personality along five broad dimensions—Neuroticism (N), Extraversion (E), Openness (O), Agreeableness (A), and Conscientiousness (C)—empirically derived through factor analytic research.",
+    "significance": "교차문화적으로 반복 검증된 가장 강력한 성격 구조 모델로, 임상심리학, 산업심리학, 건강심리학 등 다양한 분야의 연구와 실무에 기반을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "폴 코스타", "name_en": "Paul Costa", "contribution": "McCrae와 함께 5요인 모델을 정립하고 NEO-PI-R로 측정 도구를 개발했다."},
+      {"name_ko": "루이스 골드버그", "name_en": "Lewis Goldberg", "contribution": "어휘적 접근을 통해 Big Five 구조를 독립적으로 확인하고 'Big Five'라는 용어를 대중화했다."},
+      {"name_ko": "워렌 노먼", "name_en": "Warren Norman", "contribution": "Allport-Odbert의 특성 어휘를 요인분석하여 5요인 구조의 초기 근거를 제시했다(1963)."}
+    ],
+    "related_concepts": [
+      {"name_ko": "NEO-PI-R", "name_en": "NEO-PI-R", "id": "PERSONA_NEO_020"},
+      {"name_ko": "TCI", "name_en": "TCI", "id": "PERSONA_TCI_022"},
+      {"name_ko": "성격평가", "name_en": "Personality Assessment", "id": "PERSONA_PA_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Big Five = OCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+      "differential": "Big Five는 정상 성격의 요인분석적 모델이고, DSM-5의 대안적 성격장애 모델은 병리적 성격 특질의 5차원(부정적 정서, 이탈, 적대성, 탈억제, 정신병적 경향)이다.",
+      "key_point": "어휘적 가설(lexical hypothesis)에 기반하여 일상 언어의 성격 기술 어휘를 요인분석한 결과 교차문화적으로 5요인이 반복 출현한다.",
+      "common_mistake": "Big Five를 성격 '유형'으로 이해하는 것 — 각 요인은 연속적 차원이며, 사람들은 5개 차원의 점수 조합으로 기술된다."
+    }
+  },
+  {
+    "id": "PERSONA_TCI_022",
+    "terminology": "TCI (Temperament and Character Inventory)",
+    "terminology_ko": "TCI",
+    "terminology_en": "Temperament and Character Inventory",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "Cloninger의 심리생물학적 성격 모델에 기반한 자기보고식 검사로, 4개 기질 차원(자극추구, 위험회피, 사회적 민감성, 인내력)과 3개 성격 차원(자율성, 연대감, 자기초월)을 측정한다.",
+    "definition_en": "A self-report inventory based on Cloninger's psychobiological model of personality, measuring 4 temperament dimensions (Novelty Seeking, Harm Avoidance, Reward Dependence, Persistence) and 3 character dimensions (Self-Directedness, Cooperativeness, Self-Transcendence).",
+    "significance": "기질의 생물학적 기반과 성격의 발달적 측면을 통합적으로 평가하여 성격장애의 이해와 치료 계획 수립에 독특한 관점을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "로버트 클로닌저", "name_en": "C. Robert Cloninger", "contribution": "심리생물학적 성격 모델을 제안하고 TCI를 개발(1994)하여 기질과 성격을 통합적으로 측정하는 체계를 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "NEO-PI-R", "name_en": "NEO-PI-R", "id": "PERSONA_NEO_020"},
+      {"name_ko": "5요인 모델", "name_en": "Five-Factor Model", "id": "PERSONA_BIG5_021"},
+      {"name_ko": "객관적 성격검사", "name_en": "Objective Personality Tests", "id": "PERSONA_OBJ_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "TCI: Cloninger(1994), 기질 4차원(NS·HA·RD·P) + 성격 3차원(SD·CO·ST)",
+      "differential": "TCI는 생물학적 기질과 발달적 성격을 구분하여 측정하는 반면, NEO-PI-R은 5요인 특성 모델에 기반하여 기질/성격 구분 없이 성격 차원을 측정한다.",
+      "key_point": "기질(temperament)은 유전적이고 자동적인 반응 경향이며, 성격(character)은 자기개념의 발달을 반영하는 후천적 측면이다.",
+      "common_mistake": "TCI의 기질 차원이 특정 신경전달물질과 1:1로 대응한다고 단정하는 것 — 초기 가설이었으나 실증 연구에서 관계가 복잡한 것으로 밝혀졌다."
+    }
+  },
+  {
+    "id": "PERSONA_SR_023",
+    "terminology": "자기보고식 검사 (Self-Report Measures)",
+    "terminology_ko": "자기보고식 검사",
+    "terminology_en": "Self-Report Measures",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "수검자가 자신의 행동, 사고, 감정에 대한 질문에 스스로 응답하는 평가 방법으로, 표준화된 문항과 채점 절차를 갖추어 대규모 집단에도 효율적으로 실시할 수 있다.",
+    "definition_en": "An assessment method in which examinees respond to questions about their own behaviors, thoughts, and feelings, featuring standardized items and scoring procedures that allow efficient administration to large groups.",
+    "significance": "임상 실무에서 가장 보편적으로 사용되는 평가 형식으로, 실시의 용이성과 객관적 채점이 강점이나 반응 편향에 취약한 한계가 있다.",
+    "key_researchers": [
+      {"name_ko": "로버트 우드워스", "name_en": "Robert Woodworth", "contribution": "제1차 세계대전 중 Personal Data Sheet를 개발하여 최초의 자기보고식 성격검사를 창안했다(1917)."},
+      {"name_ko": "폴 미얼", "name_en": "Paul Meehl", "contribution": "자기보고식 검사의 구성 방법론(경험적 준거집단법 vs. 합리적 구성법)에 대한 중요한 이론적 기여를 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "수행기반 검사", "name_en": "Performance-Based Measures", "id": "PERSONA_PB_024"},
+      {"name_ko": "객관적 성격검사", "name_en": "Objective Personality Tests", "id": "PERSONA_OBJ_002"},
+      {"name_ko": "반응 편향", "name_en": "Response Bias", "id": "PERSONA_RB_025"},
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSONA_SD_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기보고 = 본인이 직접 응답, 표준화 채점, 효율적, 반응 편향 취약",
+      "differential": "자기보고식 검사는 수검자의 의식적 자기 인식에 의존하는 반면, 수행기반 검사는 과제 수행 과정을 통해 덜 의식적인 심리 과정을 평가한다.",
+      "key_point": "Woodworth의 Personal Data Sheet(1917)가 최초의 자기보고식 성격검사로, 전쟁 신경증 선별을 위해 개발되었다.",
+      "common_mistake": "자기보고의 결과를 수검자의 객관적 상태와 동일시하는 것 — 통찰 부족, 방어, 사회적 바람직성 등으로 왜곡될 수 있다."
+    }
+  },
+  {
+    "id": "PERSONA_PB_024",
+    "terminology": "수행기반 검사 (Performance-Based Measures)",
+    "terminology_ko": "수행기반 검사",
+    "terminology_en": "Performance-Based Measures",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "표준화된 과제에 대한 수검자의 실제 수행을 관찰하고 분석하여 성격과 심리 기능을 평가하는 방법으로, 로르샤흐 검사와 TAT가 대표적이며 자기보고의 한계를 보완한다.",
+    "definition_en": "An assessment method that evaluates personality and psychological functioning by observing and analyzing the examinee's actual performance on standardized tasks, exemplified by the Rorschach and TAT, complementing the limitations of self-report.",
+    "significance": "자기보고에 의존하지 않으므로 반응 편향의 영향이 적고, 수검자가 의식하지 못하는 심리 과정에 대한 정보를 제공하는 독특한 평가 접근이다.",
+    "key_researchers": [
+      {"name_ko": "그레고리 마이어", "name_en": "Gregory Meyer", "contribution": "투사적 검사 대신 '수행기반 검사'라는 용어를 제안하여 이 평가 방법의 과학적 위상을 재정립했다."},
+      {"name_ko": "로버트 보른스타인", "name_en": "Robert Bornstein", "contribution": "수행기반 측정과 자기보고 측정의 차이와 상호보완성에 대한 이론적 틀을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Measures", "id": "PERSONA_SR_023"},
+      {"name_ko": "투사적 성격검사", "name_en": "Projective Personality Tests", "id": "PERSONA_PROJ_003"},
+      {"name_ko": "로르샤흐 잉크반점 검사", "name_en": "Rorschach Inkblot Test", "id": "PERSONA_ROR_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수행기반 = 과제 수행 관찰 + 분석, '투사적' 대신 과학적 명칭, Meyer가 용어 제안",
+      "differential": "수행기반 검사는 실제 과제 수행을 분석하여 암묵적 심리 과정을 평가하고, 자기보고식 검사는 의식적 자기 인식에 기반한 명시적 응답을 수집한다.",
+      "key_point": "'투사적 검사'라는 전통적 명칭 대신 '수행기반 검사'라는 용어가 점차 선호되며, 이는 과학적 평가 도구로서의 위상을 반영한다.",
+      "common_mistake": "수행기반 검사가 자기보고식 검사와 동일한 구성개념을 측정한다고 가정하는 것 — 각 방법은 성격의 다른 측면(암묵적 vs. 명시적)을 측정한다."
+    }
+  },
+  {
+    "id": "PERSONA_RB_025",
+    "terminology": "반응 편향 (Response Bias)",
+    "terminology_ko": "반응 편향",
+    "terminology_en": "Response Bias",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "수검자가 검사에 응답할 때 실제 상태와 다르게 체계적으로 왜곡된 반응을 보이는 경향으로, 묵인 편향, 사회적 바람직성, 과대보고, 과소보고 등의 유형이 포함된다.",
+    "definition_en": "A systematic tendency for examinees to respond in a distorted manner that differs from their actual state, including acquiescence bias, social desirability, overreporting, and underreporting.",
+    "significance": "검사 결과의 타당성을 위협하는 주요 요인으로, 이를 탐지하고 통제하기 위한 타당도 척도의 개발이 성격평가의 중요한 과제이다.",
+    "key_researchers": [
+      {"name_ko": "리 크론바크", "name_en": "Lee Cronbach", "contribution": "반응 세트(response set)의 개념을 체계화하여 검사 응답에서의 체계적 편향에 대한 연구를 촉진했다."},
+      {"name_ko": "앨런 에드워즈", "name_en": "Allen Edwards", "contribution": "사회적 바람직성 척도를 개발하여 반응 편향 연구의 토대를 마련했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSONA_SD_026"},
+      {"name_ko": "꾀병 탐지", "name_en": "Malingering Detection", "id": "PERSONA_MAL_027"},
+      {"name_ko": "타당도 척도", "name_en": "Validity Scales", "id": "PERSONA_VS_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반응 편향 유형: 묵인(예예), 사회적 바람직성(좋게 보이기), 과대보고(나쁘게), 과소보고(괜찮은 척)",
+      "differential": "반응 편향은 다양한 왜곡 경향의 상위 개념이고, 사회적 바람직성은 그 하위 유형 중 하나이며, 꾀병은 의도적 과대보고의 극단적 형태이다.",
+      "key_point": "MMPI-2의 VRIN(무선반응 비일관성), TRIN(긍정반응 비일관성) 척도가 무성의 응답과 묵인 편향을 탐지한다.",
+      "common_mistake": "반응 편향이 항상 의도적이라고 보는 것 — 묵인 편향이나 사회적 바람직성은 무의식적으로 나타날 수 있다."
+    }
+  },
+  {
+    "id": "PERSONA_SD_026",
+    "terminology": "사회적 바람직성 (Social Desirability)",
+    "terminology_ko": "사회적 바람직성",
+    "terminology_en": "Social Desirability",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "수검자가 사회적으로 바람직한 방향으로 자신을 좋게 보이도록 응답하는 경향으로, 자기보고식 검사의 타당성을 저해하는 주요 반응 편향 유형이다.",
+    "definition_en": "A tendency for examinees to respond in a socially desirable direction to present themselves favorably, representing a major type of response bias that threatens the validity of self-report measures.",
+    "significance": "자기보고식 검사의 고질적 한계로, 사회적 바람직성의 탐지와 통제는 객관적 성격검사 개발의 핵심 과제이다.",
+    "key_researchers": [
+      {"name_ko": "앨런 에드워즈", "name_en": "Allen Edwards", "contribution": "Edwards Social Desirability Scale을 개발(1957)하여 사회적 바람직성의 체계적 측정을 가능하게 했다."},
+      {"name_ko": "더글러스 폴허스", "name_en": "Delroy Paulhus", "contribution": "사회적 바람직성을 자기기만(self-deception)과 인상관리(impression management)의 두 요인으로 구분했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반응 편향", "name_en": "Response Bias", "id": "PERSONA_RB_025"},
+      {"name_ko": "타당도 척도", "name_en": "Validity Scales", "id": "PERSONA_VS_008"},
+      {"name_ko": "자기보고식 검사", "name_en": "Self-Report Measures", "id": "PERSONA_SR_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사회적 바람직성: 좋게 보이려는 경향 = 자기기만(무의식적) + 인상관리(의식적) (Paulhus)",
+      "differential": "사회적 바람직성은 '좋게 보이려는' 과소보고 경향이고, 꾀병은 '나쁘게 보이려는' 과대보고 경향이다. MMPI-2에서 L/K 상승은 사회적 바람직성, F 상승은 과대보고를 시사한다.",
+      "key_point": "Paulhus는 사회적 바람직성을 자기기만(self-deception: 자신도 믿는 긍정적 왜곡)과 인상관리(impression management: 의도적 긍정 표현)로 구분했다.",
+      "common_mistake": "사회적 바람직성을 항상 의식적 거짓말로 보는 것 — 자기기만적 요소는 수검자 자신도 인식하지 못하는 무의식적 과정이다."
+    }
+  },
+  {
+    "id": "PERSONA_MAL_027",
+    "terminology": "꾀병 탐지 (Malingering Detection)",
+    "terminology_ko": "꾀병 탐지",
+    "terminology_en": "Malingering Detection",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "외적 보상(보상금, 병역 면제, 형사 감형 등)을 얻기 위해 의도적으로 증상을 꾸미거나 과장하는 꾀병(malingering)을 심리검사 타당도 척도와 특수 검사를 통해 탐지하는 과정이다.",
+    "definition_en": "The process of detecting malingering—the intentional fabrication or exaggeration of symptoms to obtain external rewards such as compensation, military exemption, or criminal sentence reduction—through validity scales and specialized tests.",
+    "significance": "법정심리학, 장애 판정, 보험 평가 등 외적 동기가 개입되는 평가 상황에서 검사 결과의 신뢰성을 확보하기 위한 필수적 절차이다.",
+    "key_researchers": [
+      {"name_ko": "리처드 로저스", "name_en": "Richard Rogers", "contribution": "SIRS(Structured Interview of Reported Symptoms)를 개발하여 꾀병 탐지의 체계적 방법론을 확립했다."},
+      {"name_ko": "폴 리즈", "name_en": "Paul Lees-Haley", "contribution": "MMPI-2의 FBS(Fake Bad Scale)를 개발하여 민사 소송 맥락에서의 증상 과대보고 탐지에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "타당도 척도", "name_en": "Validity Scales", "id": "PERSONA_VS_008"},
+      {"name_ko": "반응 편향", "name_en": "Response Bias", "id": "PERSONA_RB_025"},
+      {"name_ko": "사회적 바람직성", "name_en": "Social Desirability", "id": "PERSONA_SD_026"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "꾀병(Malingering): 의도적 + 외적 동기 + 증상 위조/과장. 탐지: F, Fp, FBS 척도",
+      "differential": "꾀병은 의도적 증상 위조이고, 인위성 장애(factitious disorder)는 환자 역할 자체가 목적이며, 신체증상장애는 실제로 경험하는 증상이다.",
+      "key_point": "MMPI-2에서 F-K 지수(Gough 위조지수), F척도 원점수, Fp(비전형 정신병리) 척도 등이 꾀병 탐지 지표로 활용된다.",
+      "common_mistake": "F척도 상승만으로 꾀병을 확정하는 것 — 실제 심각한 병리, 무성의 응답, 도움 요청 등 다른 원인도 고려해야 한다."
+    }
+  },
+  {
+    "id": "PERSONA_PI_028",
+    "terminology": "프로파일 해석 (Profile Interpretation)",
+    "terminology_ko": "프로파일 해석",
+    "terminology_en": "Profile Interpretation",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "다면적 성격검사에서 여러 척도의 점수 패턴을 종합적으로 분석하여 수검자의 성격 특성과 정신병리를 해석하는 방법으로, 개별 척도보다 척도 간 관계와 형태적 패턴을 중시한다.",
+    "definition_en": "A method of interpreting personality test results by comprehensively analyzing score patterns across multiple scales, emphasizing relationships between scales and configural patterns rather than individual scale scores.",
+    "significance": "단일 척도 점수의 한계를 넘어서 수검자의 복합적인 심리적 기능을 통합적으로 이해할 수 있게 하는 검사 해석의 핵심 방법론이다.",
+    "key_researchers": [
+      {"name_ko": "알렉스 칼드웰", "name_en": "Alex Caldwell", "contribution": "MMPI 프로파일 유형 해석의 체계화에 기여하고 자동화된 해석 보고서 시스템을 개발했다."},
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2의 프로파일 해석 지침을 정립하고 2-point code type 해석 체계를 발전시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "임상 척도", "name_en": "Clinical Scales", "id": "PERSONA_CS_007"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"},
+      {"name_ko": "컴퓨터화 검사", "name_en": "Computerized Testing", "id": "PERSONA_CT_029"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "프로파일 해석: 타당도 → 전체 상승 → 고점 척도 → 2-point code → 보충 척도 순서",
+      "differential": "프로파일 해석은 척도 간 패턴(형태)을 중시하고, 개별 척도 해석은 단일 척도의 절대적 점수에 초점을 맞춘다.",
+      "key_point": "MMPI-2에서 2-point code type(가장 높은 두 임상 척도의 조합)이 프로파일 분류와 해석의 핵심 단위이다.",
+      "common_mistake": "프로파일의 개별 척도만 따로 해석하는 것 — 척도 간 상대적 높낮이와 전체적 형태가 더 중요한 임상 정보를 제공한다."
+    }
+  },
+  {
+    "id": "PERSONA_CT_029",
+    "terminology": "컴퓨터화 검사 (Computerized Testing)",
+    "terminology_ko": "컴퓨터화 검사",
+    "terminology_en": "Computerized Testing",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "심리검사의 실시, 채점, 해석을 컴퓨터 프로그램으로 수행하는 방식으로, 컴퓨터 적응 검사(CAT), 자동화 채점, 해석 보고서 생성 등을 포함하며 평가의 효율성과 표준화를 향상시킨다.",
+    "definition_en": "A method of administering, scoring, and interpreting psychological tests via computer programs, including computerized adaptive testing (CAT), automated scoring, and interpretive report generation, enhancing efficiency and standardization.",
+    "significance": "검사 실시의 표준화, 채점 오류 감소, 즉각적 결과 산출 등을 통해 임상 평가의 효율성과 정확성을 크게 향상시킨다.",
+    "key_researchers": [
+      {"name_ko": "제임스 버처", "name_en": "James Butcher", "contribution": "MMPI-2의 컴퓨터화 해석 보고서 체계를 개발하여 자동화된 프로파일 분석을 가능하게 했다."},
+      {"name_ko": "프레더릭 로드", "name_en": "Frederic Lord", "contribution": "문항반응이론(IRT)을 발전시켜 컴퓨터 적응 검사(CAT)의 이론적 기반을 제공했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "프로파일 해석", "name_en": "Profile Interpretation", "id": "PERSONA_PI_028"},
+      {"name_ko": "증거기반 평가", "name_en": "Evidence-Based Assessment", "id": "PERSONA_EBA_030"},
+      {"name_ko": "MMPI-2", "name_en": "MMPI-2", "id": "PERSONA_MMPI2_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "컴퓨터화 검사: CAT(적응 검사) + 자동 채점 + 해석 보고서 + 원격 실시",
+      "differential": "컴퓨터화 검사는 기존 지필 검사를 컴퓨터로 전환한 것이고, 컴퓨터 적응 검사(CAT)는 수검자의 능력에 따라 문항 난이도가 조절되는 진보된 형태이다.",
+      "key_point": "컴퓨터 해석 보고서는 보조 도구이며 숙련된 임상가의 통합적 판단을 대체할 수 없다는 점이 윤리적으로 강조된다.",
+      "common_mistake": "컴퓨터 해석 보고서를 최종 평가 결론으로 그대로 채택하는 것 — 임상가가 내담자의 배경과 맥락을 고려하여 보고서를 비판적으로 검토해야 한다."
+    }
+  },
+  {
+    "id": "PERSONA_EBA_030",
+    "terminology": "증거기반 평가 (Evidence-Based Assessment)",
+    "terminology_ko": "증거기반 평가",
+    "terminology_en": "Evidence-Based Assessment",
+    "category": "PERSONA",
+    "category_name": "성격평가 (Personality Assessment)",
+    "definition": "심리평가 도구의 선택과 활용에 경험적 연구 증거를 적용하는 접근으로, 검사의 신뢰도, 타당도, 임상적 유용성에 대한 연구 결과에 기반하여 평가 절차를 결정한다.",
+    "definition_en": "An approach that applies empirical research evidence to the selection and use of psychological assessment tools, making assessment decisions based on research findings regarding test reliability, validity, and clinical utility.",
+    "significance": "과학-실무자 모델에 부합하는 평가 실무를 촉진하며, 경험적으로 지지된 검사 도구와 절차의 사용을 통해 평가의 질을 보장한다.",
+    "key_researchers": [
+      {"name_ko": "에릭 영스트롬", "name_en": "Eric Youngstrom", "contribution": "증거기반 평가 모델을 체계화하여 임상 평가에 연구 증거를 통합하는 프레임워크를 제시했다."},
+      {"name_ko": "스티븐 헌슬리", "name_en": "Stephen Hunsley", "contribution": "심리검사의 증거기반 지위를 평가하는 기준을 개발하고 검사 효용성 연구를 주도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성격평가", "name_en": "Personality Assessment", "id": "PERSONA_PA_001"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"},
+      {"name_ko": "구성타당도", "name_en": "Construct Validity", "id": "RESEARCH_CV_014"},
+      {"name_ko": "임상심리학", "name_en": "Clinical Psychology", "id": "INTRO_CP_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "EBA: 검사 선택에 연구 증거 적용, 신뢰도·타당도·임상 유용성 근거 기반",
+      "differential": "증거기반 평가(EBA)는 평가 도구의 경험적 근거를 강조하고, 증거기반 치료(EBT)는 치료 개입의 경험적 근거를 강조한다. 둘 다 과학-실무자 모델의 산물이다.",
+      "key_point": "검사 도구의 민감도(sensitivity)와 특이도(specificity), 양성예측도(PPV)와 음성예측도(NPV) 등 진단 정확도 지표가 핵심 근거이다.",
+      "common_mistake": "인기 있는 검사가 자동으로 증거기반이라고 보는 것 — 널리 사용되더라도 경험적 지지가 부족한 검사 도구가 존재한다."
+    }
+  }
+]

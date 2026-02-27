@@ -1,0 +1,865 @@
+[
+  {
+    "id": "INTELL_INT_001",
+    "terminology": "지능 (Intelligence)",
+    "terminology_ko": "지능",
+    "terminology_en": "Intelligence",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "새로운 환경에 적응하고, 추상적으로 사고하며, 경험으로부터 학습하여 문제를 효과적으로 해결하는 총체적 정신 능력으로, 임상장면에서는 표준화된 검사를 통해 조작적으로 측정된다",
+    "definition_en": "The aggregate capacity to act purposefully, think rationally, and deal effectively with the environment, operationally measured through standardized tests in clinical settings",
+    "significance": "임상심리학에서 지능은 지적장애 진단, 영재 판별, 학습장애 평가, 신경심리 손상 추정 등 거의 모든 심리평가의 기초가 되는 핵심 구인이다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "지능을 '합목적적으로 행동하고, 합리적으로 사고하며, 환경을 효과적으로 다루는 총체적 능력'으로 정의하고 웩슬러 지능검사 시리즈를 개발"},
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "시몽과 함께 최초의 실용적 지능검사(Binet-Simon Scale)를 개발하여 현대 지능 측정의 토대를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"},
+      {"name_ko": "결정 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_GC_011"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지능 = 적응 + 학습 + 추상적 사고 + 문제해결의 총체",
+      "differential": "지능은 구인(construct) 자체이고, IQ는 그 구인을 측정한 점수이다. 지능 자체와 지능검사 점수를 동일시하면 안 된다",
+      "key_point": "웩슬러의 정의가 임상장면에서 가장 널리 인용되며, 조작적 정의로서 '지능검사가 측정하는 것이 지능'이라는 입장도 중요하다",
+      "common_mistake": "지능을 단일한 고정된 능력으로 보는 것 — 실제로는 다요인적이며 환경과 상호작용하여 변화할 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_IQ_002",
+    "terminology": "지능지수 IQ (Intelligence Quotient)",
+    "terminology_ko": "지능지수 IQ",
+    "terminology_en": "Intelligence Quotient (IQ)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "표준화된 지능검사에서 산출되는 수치로, 개인의 인지 능력 수준을 동일 연령 집단의 평균과 비교하여 상대적 위치를 나타내는 점수이다. 초기에는 정신연령/생활연령 비율로 산출했으나 현재는 편차 IQ 방식을 사용한다",
+    "definition_en": "A standardized score derived from intelligence tests that indicates an individual's cognitive ability relative to the same-age population, currently calculated using the deviation IQ method with a mean of 100 and standard deviation of 15",
+    "significance": "임상장면에서 지적장애 진단(IQ 70 이하), 영재 판별(IQ 130 이상), 인지기능 저하 추정 등의 기준점으로 사용되는 가장 보편적인 인지능력 지표이다",
+    "key_researchers": [
+      {"name_ko": "윌리엄 슈테른", "name_en": "William Stern", "contribution": "정신연령(MA)/생활연령(CA) × 100의 비율 IQ 개념을 최초로 제안"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "비율 IQ의 한계를 극복하고 편차 IQ 방식을 도입하여 성인에게도 적용 가능한 IQ 산출법을 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "편차 IQ", "name_en": "Deviation IQ", "id": "INTELL_DIQ_003"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"},
+      {"name_ko": "표준점수", "name_en": "Standard Scores", "id": "INTELL_SS_026"}
+    ],
+    "sub_types": [
+      {"name_ko": "비율 IQ", "name_en": "Ratio IQ", "definition": "정신연령(MA) ÷ 생활연령(CA) × 100으로 산출하는 전통적 방식으로, 성인에게는 적용이 어렵다"},
+      {"name_ko": "편차 IQ", "name_en": "Deviation IQ", "definition": "동일 연령 집단의 평균(100)과 표준편차(15)를 기준으로 상대적 위치를 나타내는 현대적 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "비율 IQ = MA/CA × 100 (역사적), 편차 IQ = 평균 100 + SD 15 (현대적)",
+      "differential": "비율 IQ는 아동에게만 적용 가능하고 성인에서는 정신연령 개념이 무의미해지나, 편차 IQ는 모든 연령에 적용 가능하다",
+      "key_point": "현대 모든 주요 지능검사(WAIS, WISC, SB5)는 편차 IQ를 사용하며, 평균 100, 표준편차 15(웩슬러)가 표준이다",
+      "common_mistake": "IQ가 절대적이고 불변하는 수치라고 생각하는 것 — 실제로는 측정 시점의 상대적 위치이며 측정오차(SEM)가 존재한다"
+    }
+  },
+  {
+    "id": "INTELL_DIQ_003",
+    "terminology": "편차 IQ (Deviation IQ)",
+    "terminology_ko": "편차 IQ",
+    "terminology_en": "Deviation IQ",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "동일 연령 집단의 정상분포에서 개인의 상대적 위치를 나타내는 IQ 산출 방식으로, 평균을 100, 표준편차를 15로 설정하여 원점수를 표준점수로 변환한 것이다",
+    "definition_en": "A method of calculating IQ based on the normal distribution of scores within the same age group, converting raw scores to a standard score with a mean of 100 and standard deviation of 15",
+    "significance": "비율 IQ의 한계(성인 적용 불가, 연령별 IQ 분산 불균등)를 해결하여 모든 연령에서 동일한 척도로 비교 가능하게 한 현대 지능검사의 핵심 산출 방식이다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1939년 Wechsler-Bellevue Intelligence Scale에서 편차 IQ 방식을 최초로 도입"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수 IQ", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "표준점수", "name_en": "Standard Scores", "id": "INTELL_SS_026"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "INTELL_NORM_025"},
+      {"name_ko": "정상분포", "name_en": "Normal Distribution", "id": ""}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편차 IQ: 평균 100 기준, 1SD = 15점 (웩슬러), 1SD = 16점 (스탠포드-비네 구판)",
+      "differential": "비율 IQ는 MA/CA × 100으로 절대적 수준을 나타내지만, 편차 IQ는 동일 연령 내 상대적 위치를 나타낸다",
+      "key_point": "편차 IQ에서 IQ 85-115 사이에 약 68%가, 70-130 사이에 약 95%가 포함된다(정상분포 가정)",
+      "common_mistake": "편차 IQ의 '편차'가 개인 내 점수 차이를 의미한다고 오해하는 것 — 실제로는 집단 평균으로부터의 표준편차 단위 거리를 의미한다"
+    }
+  },
+  {
+    "id": "INTELL_WAIS_004",
+    "terminology": "Wechsler 성인 지능검사 WAIS (Wechsler Adult Intelligence Scale)",
+    "terminology_ko": "Wechsler 성인 지능검사 WAIS",
+    "terminology_en": "Wechsler Adult Intelligence Scale (WAIS)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "16세 이상 성인의 인지 능력을 측정하는 개별 지능검사로, 현재 WAIS-IV까지 개정되었으며 언어이해, 지각추론, 작업기억, 처리속도의 4개 지표와 전체 IQ를 산출한다",
+    "definition_en": "An individually administered intelligence test for adults aged 16 and older, currently in its fourth edition (WAIS-IV), yielding four index scores (VCI, PRI, WMI, PSI) and a Full Scale IQ",
+    "significance": "세계적으로 가장 널리 사용되는 성인 지능검사로, 임상 진단(지적장애, 치매, 뇌손상), 법의심리, 재활 계획 수립 등에 필수적으로 활용된다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1939년 Wechsler-Bellevue를 개발하고 이를 1955년 WAIS로 개정, 이후 WAIS-R, WAIS-III, WAIS-IV로 발전"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-WAIS-IV", "name_en": "Korean WAIS-IV", "id": "INTELL_KWAIS_006"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"},
+      {"name_ko": "언어이해 지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_013"},
+      {"name_ko": "WISC", "name_en": "WISC", "id": "INTELL_WISC_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "언어이해 소검사", "name_en": "Verbal Comprehension Subtests", "definition": "어휘, 공통성, 이해 등 언어적 개념 형성과 추론 능력을 측정하는 소검사군"},
+      {"name_ko": "지각추론 소검사", "name_en": "Perceptual Reasoning Subtests", "definition": "토막짜기, 행렬추론, 퍼즐 등 비언어적 추론과 시공간 처리를 측정하는 소검사군"},
+      {"name_ko": "작업기억 소검사", "name_en": "Working Memory Subtests", "definition": "숫자, 산수 등 주의력과 단기 기억 용량을 측정하는 소검사군"},
+      {"name_ko": "처리속도 소검사", "name_en": "Processing Speed Subtests", "definition": "기호쓰기, 동형찾기 등 인지 처리의 속도와 정확성을 측정하는 소검사군"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WAIS = 성인(16+), WISC = 아동(6-16), WPPSI = 유아(2.5-7.5)",
+      "differential": "WAIS는 성인용(16세+), WISC는 아동용(6-16세)이며, WAIS-IV는 4지표 모델, WAIS-V(2024)는 5지표 모델로 변경되었다",
+      "key_point": "WAIS-IV는 10개 핵심 소검사와 5개 보충 소검사로 구성되며, 4개 지표점수와 FSIQ를 산출한다",
+      "common_mistake": "WAIS의 언어성-동작성 IQ 이분법은 WAIS-III까지만 사용되었고 WAIS-IV부터는 4지표 모델로 대체되었다"
+    }
+  },
+  {
+    "id": "INTELL_WISC_005",
+    "terminology": "Wechsler 아동 지능검사 WISC (Wechsler Intelligence Scale for Children)",
+    "terminology_ko": "Wechsler 아동 지능검사 WISC",
+    "terminology_en": "Wechsler Intelligence Scale for Children (WISC)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "6세 0개월부터 16세 11개월 아동의 인지 능력을 측정하는 개별 지능검사로, 현재 WISC-V까지 개정되었으며 5개 주요 지표(VCI, VSI, FRI, WMI, PSI)와 전체 IQ를 산출한다",
+    "definition_en": "An individually administered intelligence test for children aged 6 to 16, currently in its fifth edition (WISC-V), yielding five primary index scores and a Full Scale IQ",
+    "significance": "아동 임상장면에서 지적장애, 학습장애, ADHD, 영재 판별 등에 가장 널리 사용되는 표준 지능검사로, 특수교육 배치 결정의 핵심 근거를 제공한다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "1949년 아동용 지능검사 WISC를 처음 출판, 이후 WISC-R, WISC-III, WISC-IV, WISC-V로 지속 개정"}
+    ],
+    "related_concepts": [
+      {"name_ko": "K-WISC-V", "name_en": "Korean WISC-V", "id": "INTELL_KWISC_007"},
+      {"name_ko": "WAIS", "name_en": "WAIS", "id": "INTELL_WAIS_004"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "WISC = 아동(6-16세), 'C'hildren → 아동용",
+      "differential": "WISC-IV는 4지표(VCI, PRI, WMI, PSI), WISC-V는 5지표(VCI, VSI, FRI, WMI, PSI)로 지각추론이 시각공간+유동추론으로 분리되었다",
+      "key_point": "WISC는 아동 임상평가에서 가장 많이 사용되는 지능검사이며, 소검사 간 산포 분석을 통해 인지적 강약점 프로파일을 파악한다",
+      "common_mistake": "WISC-V의 적용 연령 상한을 16세로 알고 있지만, 정확히는 16세 11개월까지이며 17세부터는 WAIS를 사용한다"
+    }
+  },
+  {
+    "id": "INTELL_KWAIS_006",
+    "terminology": "K-WAIS-IV (한국판 웩슬러 성인 지능검사)",
+    "terminology_ko": "K-WAIS-IV",
+    "terminology_en": "Korean Wechsler Adult Intelligence Scale-IV",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "WAIS-IV를 한국 성인(16~69세)에게 적용할 수 있도록 한국어로 번안하고 한국 규준을 마련한 표준화 지능검사로, 황순택 등이 2012년에 표준화하였다",
+    "definition_en": "The Korean adaptation of WAIS-IV, standardized for Korean adults aged 16-69, with Korean norms established by Hwang Soon-Taek et al. in 2012",
+    "significance": "한국 임상장면에서 성인 지능평가의 표준 도구로, 법원 감정, 장애 판정, 신경심리평가 배터리의 핵심 검사로 활용된다",
+    "key_researchers": [
+      {"name_ko": "황순택", "name_en": "Hwang Soon-Taek", "contribution": "K-WAIS-IV의 한국 표준화를 주도하여 한국 성인 규준을 확립"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "원판 WAIS 시리즈의 개발자"}
+    ],
+    "related_concepts": [
+      {"name_ko": "WAIS", "name_en": "WAIS", "id": "INTELL_WAIS_004"},
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STD_024"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "INTELL_NORM_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "K-WAIS-IV: K(한국판) + WAIS(성인) + IV(4판), 16~69세",
+      "differential": "K-WAIS-IV는 성인용(16~69세), K-WISC-V는 아동용(6~16세)이며, 두 검사 모두 한국 규준이 별도로 마련되어 있다",
+      "key_point": "K-WAIS-IV는 원판과 동일한 4지표 구조(VCI, PRI, WMI, PSI)를 유지하되, 한국 문화에 맞게 일부 문항을 수정하였다",
+      "common_mistake": "원판 WAIS-IV의 미국 규준을 한국인에게 그대로 적용하는 것 — 반드시 한국 규준(K-WAIS-IV)을 사용해야 한다"
+    }
+  },
+  {
+    "id": "INTELL_KWISC_007",
+    "terminology": "K-WISC-V (한국판 웩슬러 아동 지능검사)",
+    "terminology_ko": "K-WISC-V",
+    "terminology_en": "Korean Wechsler Intelligence Scale for Children-V",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "WISC-V를 한국 아동(6세 0개월~16세 11개월)에게 적용할 수 있도록 한국어로 번안하고 한국 규준을 마련한 표준화 지능검사로, 곽금주 등이 표준화하였다",
+    "definition_en": "The Korean adaptation of WISC-V, standardized for Korean children aged 6 to 16 years 11 months, with Korean norms established by Kwak Geum-Joo et al.",
+    "significance": "한국 아동 임상장면에서 지적장애, 학습장애, ADHD 진단 및 특수교육 배치의 핵심 평가 도구로 가장 광범위하게 사용된다",
+    "key_researchers": [
+      {"name_ko": "곽금주", "name_en": "Kwak Geum-Joo", "contribution": "K-WISC 시리즈의 한국 표준화를 주도, K-WISC-IV 및 K-WISC-V 규준 확립"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "원판 WISC 시리즈의 개발자"}
+    ],
+    "related_concepts": [
+      {"name_ko": "WISC", "name_en": "WISC", "id": "INTELL_WISC_005"},
+      {"name_ko": "K-WAIS-IV", "name_en": "K-WAIS-IV", "id": "INTELL_KWAIS_006"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "K-WISC-V: K(한국판) + WISC(아동) + V(5판), 6세~16세 11개월",
+      "differential": "K-WISC-IV는 4지표 모델(VCI, PRI, WMI, PSI)이었으나, K-WISC-V는 5지표 모델(VCI, VSI, FRI, WMI, PSI)로 확장되었다",
+      "key_point": "K-WISC-V에서는 지각추론(PRI)이 시각공간(VSI)과 유동추론(FRI)으로 분리되어 CHC 이론에 더 부합하게 되었다",
+      "common_mistake": "K-WISC-V의 5지표를 K-WISC-IV의 4지표와 혼동하는 것 — V판에서 PRI가 VSI+FRI로 분리되었음을 기억해야 한다"
+    }
+  },
+  {
+    "id": "INTELL_SB_008",
+    "terminology": "Stanford-Binet 지능검사 (Stanford-Binet Intelligence Scales)",
+    "terminology_ko": "Stanford-Binet 지능검사",
+    "terminology_en": "Stanford-Binet Intelligence Scales",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "비네-시몽 검사를 터만이 스탠포드 대학에서 미국판으로 개정한 지능검사로, 현재 SB5까지 발전하였으며 2세부터 85세 이상까지의 넓은 연령 범위를 측정한다",
+    "definition_en": "An intelligence test originally adapted from the Binet-Simon scale by Lewis Terman at Stanford University, now in its fifth edition (SB5), measuring cognitive abilities across ages 2 to 85+",
+    "significance": "역사적으로 최초의 체계적 지능검사이자 IQ 개념을 대중화한 검사로, 현대 지능검사 발전의 토대가 되었으며 극단 IQ 범위(지적장애·영재)의 측정에 특히 유용하다",
+    "key_researchers": [
+      {"name_ko": "루이스 터만", "name_en": "Lewis Terman", "contribution": "비네-시몽 검사를 미국 문화에 맞게 개정하여 1916년 Stanford-Binet을 출판, 비율 IQ 사용을 대중화"},
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "테오도르 시몽과 함께 1905년 최초의 실용적 지능검사(Binet-Simon Scale)를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "WAIS", "name_en": "WAIS", "id": "INTELL_WAIS_004"},
+      {"name_ko": "지능지수 IQ", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비네(프랑스 원판) → 터만이 Stanford 대학에서 개정 → Stanford-Binet",
+      "differential": "SB5는 2~85+세의 넓은 연령 범위를, 웩슬러 검사는 연령대별 별도 검사(WPPSI, WISC, WAIS)로 구분한다",
+      "key_point": "SB5는 CHC 이론에 기반하여 유동추론, 지식, 양적추론, 시각공간처리, 작업기억의 5요인을 측정한다",
+      "common_mistake": "Stanford-Binet이 여전히 비율 IQ를 사용한다고 생각하는 것 — SB5부터는 편차 IQ(평균 100, SD 15)를 사용한다"
+    }
+  },
+  {
+    "id": "INTELL_CHC_009",
+    "terminology": "CHC 이론 (Cattell-Horn-Carroll Theory)",
+    "terminology_ko": "CHC 이론",
+    "terminology_en": "Cattell-Horn-Carroll Theory",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "캐텔-혼의 유동-결정 지능이론(Gf-Gc)과 캐롤의 3층 모형을 통합한 인지능력 이론으로, 일반지능(g)을 정점으로 10여 개의 광범위 능력과 70여 개의 협소 능력으로 위계적 구조를 설명한다",
+    "definition_en": "An integrated theory of cognitive abilities combining Cattell-Horn's Gf-Gc theory and Carroll's three-stratum model, describing a hierarchical structure with general intelligence (g) at the apex, approximately 10 broad abilities, and over 70 narrow abilities",
+    "significance": "현대 지능검사(WISC-V, SB5, WJ-IV 등)의 이론적 기반으로, 검사 개발과 해석에서 가장 영향력 있는 지능 구조 모형이다",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "유동 지능(Gf)과 결정 지능(Gc)의 구분을 제안하여 지능의 이원 구조를 이론화"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "캐텔의 Gf-Gc 이론을 확장하여 9~10개의 광범위 능력으로 발전시킴"},
+      {"name_ko": "존 캐롤", "name_en": "John B. Carroll", "contribution": "460개 이상의 데이터셋을 재분석하여 3층 위계 모형(three-stratum theory)을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"},
+      {"name_ko": "결정 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_GC_011"},
+      {"name_ko": "WISC", "name_en": "WISC", "id": "INTELL_WISC_005"}
+    ],
+    "sub_types": [
+      {"name_ko": "3층 구조", "name_en": "Three-Stratum Structure", "definition": "층 III(일반지능 g) → 층 II(광범위 능력: Gf, Gc, Gv, Gsm, Gs 등) → 층 I(협소 능력 70여 개)의 위계적 구조"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "CHC = Cattell(Gf-Gc 제안) + Horn(확장) + Carroll(3층 모형) 통합",
+      "differential": "CHC 이론은 위계적 다요인 모형이고, 가드너의 다중지능이론은 독립적인 8개 지능을 가정한다는 점에서 구조가 다르다",
+      "key_point": "CHC 이론은 WISC-V, SB5 등 현대 주요 지능검사의 설계 근거이며, 교차배터리 평가(XBA)의 이론적 틀을 제공한다",
+      "common_mistake": "CHC 이론이 캐텔 혼자 만든 것으로 아는 것 — 실제로는 캐텔, 혼, 캐롤 세 학자의 이론을 통합한 것이다"
+    }
+  },
+  {
+    "id": "INTELL_GF_010",
+    "terminology": "유동 지능 (Fluid Intelligence, Gf)",
+    "terminology_ko": "유동 지능",
+    "terminology_en": "Fluid Intelligence (Gf)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "사전 지식이나 학습 경험에 의존하지 않고 새로운 상황에서 추론하고, 패턴을 인식하며, 문제를 해결하는 능력으로, 생물학적 기반이 강하고 연령 증가에 따라 감소하는 경향이 있다",
+    "definition_en": "The ability to reason, recognize patterns, and solve novel problems independent of previously acquired knowledge, strongly influenced by biological factors and tending to decline with age",
+    "significance": "학습 잠재력과 적응 능력의 핵심 지표로, 유동 지능의 저하는 신경인지적 손상이나 노화에 따른 인지 감퇴의 민감한 지표가 된다",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "1963년 유동 지능(Gf)과 결정 지능(Gc)의 구분을 최초로 이론화"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "Gf-Gc 이론을 경험적으로 확장하고, 유동 지능의 연령 관련 감소 패턴을 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_GC_011"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_009"},
+      {"name_ko": "Raven 점진적 행렬", "name_en": "Raven's Progressive Matrices", "id": "INTELL_RPM_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유동(Fluid) = 흐르는 물처럼 새로운 상황에 유연하게 적응, 타고난 능력",
+      "differential": "유동 지능(Gf)은 새로운 추론 능력으로 연령과 함께 감소하고, 결정 지능(Gc)은 축적된 지식으로 노년기까지 유지·증가한다",
+      "key_point": "Raven 행렬 검사가 유동 지능의 대표적 측정 도구이며, WISC-V에서는 유동추론 지표(FRI)로 별도 측정한다",
+      "common_mistake": "유동 지능이 '감정적으로 유연한 지능'이라고 오해하는 것 — 실제로는 새로운 문제에 대한 추론 능력을 의미한다"
+    }
+  },
+  {
+    "id": "INTELL_GC_011",
+    "terminology": "결정 지능 (Crystallized Intelligence, Gc)",
+    "terminology_ko": "결정 지능",
+    "terminology_en": "Crystallized Intelligence (Gc)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "교육, 문화적 경험, 학습을 통해 축적된 지식과 기술의 총체로, 어휘력, 일반 상식, 언어 이해 등을 포함하며 연령 증가에 따라 유지되거나 증가하는 경향이 있다",
+    "definition_en": "The breadth and depth of knowledge and skills acquired through education, culture, and experience, including vocabulary, general information, and verbal comprehension, which tends to be maintained or increase with age",
+    "significance": "교육 및 문화적 경험의 영향을 반영하는 지표로, 치매 감별 진단 시 병전 기능 수준 추정의 근거가 되며, 유동 지능과의 차이 패턴이 진단적 의미를 갖는다",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "유동 지능(Gf)과 결정 지능(Gc)의 구분을 이론화, Gc를 Gf의 '투자' 결과로 설명"},
+      {"name_ko": "존 혼", "name_en": "John Horn", "contribution": "결정 지능이 노년기까지 유지·증가함을 종단 연구로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"},
+      {"name_ko": "언어이해 지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_013"},
+      {"name_ko": "CHC 이론", "name_en": "CHC Theory", "id": "INTELL_CHC_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "결정(Crystallized) = 결정체처럼 굳어진 축적 지식, 경험으로 '결정'된 능력",
+      "differential": "결정 지능(Gc)은 축적된 지식으로 노년까지 유지되고, 유동 지능(Gf)은 새로운 추론 능력으로 20대 이후 감소한다",
+      "key_point": "웩슬러 검사의 어휘, 상식, 이해 소검사가 결정 지능의 대표적 측정치이며, 캐텔은 Gc가 Gf의 '투자(investment)' 결과라고 설명했다",
+      "common_mistake": "결정 지능이 변하지 않는 고정된 능력이라고 생각하는 것 — 실제로는 계속적인 학습과 경험으로 증가할 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_FSIQ_012",
+    "terminology": "전체 IQ (Full Scale IQ, FSIQ)",
+    "terminology_ko": "전체 IQ",
+    "terminology_en": "Full Scale IQ (FSIQ)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "웩슬러 지능검사에서 모든 핵심 소검사 점수를 종합하여 산출하는 단일 지능지수로, 전반적인 인지 능력 수준을 대표하는 가장 포괄적인 합산 점수이다(평균 100, 표준편차 15)",
+    "definition_en": "A single composite score derived from all core subtests of the Wechsler intelligence scales, representing the overall level of general cognitive ability with a mean of 100 and standard deviation of 15",
+    "significance": "지적장애(FSIQ 70 이하) 및 영재(FSIQ 130 이상) 판별의 일차 기준이며, 법적·행정적 의사결정에서 가장 많이 인용되는 지능 지표이다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "전체 IQ 개념을 도입하여 인지 능력의 종합적 지표를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지능지수 IQ", "name_en": "Intelligence Quotient", "id": "INTELL_IQ_002"},
+      {"name_ko": "언어이해 지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_013"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "INTELL_ID_018"},
+      {"name_ko": "신뢰구간", "name_en": "Confidence Interval", "id": "INTELL_CI_028"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FSIQ = Full Scale IQ = 모든 핵심 소검사의 '전체' 합산 점수",
+      "differential": "FSIQ는 전체 인지능력의 단일 합산치이고, 지표점수(VCI, PRI 등)는 특정 인지영역의 능력을 나타낸다",
+      "key_point": "지표 간 유의미한 차이가 클 때 FSIQ의 대표성이 떨어지므로, 프로파일 분석이 FSIQ만큼 중요하다",
+      "common_mistake": "FSIQ만으로 개인의 인지 능력을 전부 설명할 수 있다고 생각하는 것 — 지표 간 산포가 클 경우 FSIQ 해석에 주의가 필요하다"
+    }
+  },
+  {
+    "id": "INTELL_VCI_013",
+    "terminology": "언어이해 지표 (Verbal Comprehension Index, VCI)",
+    "terminology_ko": "언어이해 지표",
+    "terminology_en": "Verbal Comprehension Index (VCI)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "웩슬러 지능검사에서 언어적 개념 형성, 언어 추론, 획득된 지식을 측정하는 합산 지표로, 어휘, 공통성, 이해(또는 상식) 소검사로 구성된다(평균 100, 표준편차 15)",
+    "definition_en": "A composite index from Wechsler intelligence scales measuring verbal concept formation, verbal reasoning, and acquired knowledge, comprising subtests such as Vocabulary, Similarities, and Comprehension (mean 100, SD 15)",
+    "significance": "결정 지능(Gc)과 언어 능력의 핵심 측정치로, 교육 수준 및 문화적 경험의 영향을 반영하며, 신경심리 평가에서 병전 기능 수준 추정의 주요 지표로 활용된다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "웩슬러 지능검사의 언어성 영역을 구조화하여 VCI 지표의 기반을 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "결정 지능", "name_en": "Crystallized Intelligence", "id": "INTELL_GC_011"},
+      {"name_ko": "지각추론 지표", "name_en": "Perceptual Reasoning Index", "id": "INTELL_PRI_014"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"}
+    ],
+    "sub_types": [
+      {"name_ko": "어휘", "name_en": "Vocabulary", "definition": "단어의 의미를 설명하는 소검사로, 언어 지식과 개념 형성 능력을 측정한다"},
+      {"name_ko": "공통성", "name_en": "Similarities", "definition": "두 단어의 공통 개념을 찾는 소검사로, 언어적 추상 추론 능력을 측정한다"},
+      {"name_ko": "이해", "name_en": "Comprehension", "definition": "사회적 규범과 일상 상황에 대한 이해를 평가하는 소검사이다"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "VCI = Verbal(언어) + Comprehension(이해) = 어휘·공통성·이해 소검사",
+      "differential": "VCI는 언어적 추론과 지식(Gc)을, PRI는 비언어적 추론과 시공간 처리를 측정하므로, 두 지표 간 유의미한 차이는 진단적 시사점을 갖는다",
+      "key_point": "VCI는 교육과 문화 경험에 민감하므로, 문화적으로 다른 배경의 수검자에게는 해석에 주의가 필요하다",
+      "common_mistake": "VCI가 단순한 '언어 능력'만 측정한다고 생각하는 것 — 실제로는 언어적 추론, 개념 형성, 획득 지식을 포괄적으로 측정한다"
+    }
+  },
+  {
+    "id": "INTELL_PRI_014",
+    "terminology": "지각추론 지표 (Perceptual Reasoning Index, PRI)",
+    "terminology_ko": "지각추론 지표",
+    "terminology_en": "Perceptual Reasoning Index (PRI)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "웩슬러 지능검사(WAIS-IV, WISC-IV)에서 비언어적 추론, 시공간 처리, 시각-운동 통합 능력을 측정하는 합산 지표로, 토막짜기, 행렬추론, 퍼즐 소검사로 구성된다",
+    "definition_en": "A composite index from Wechsler intelligence scales (WAIS-IV, WISC-IV) measuring nonverbal reasoning, visuospatial processing, and visual-motor integration through subtests such as Block Design, Matrix Reasoning, and Visual Puzzles",
+    "significance": "언어적 편향을 줄이고 비언어적 인지 능력을 평가하는 핵심 지표로, 유동 지능(Gf)과 시각공간 능력(Gv)을 복합적으로 반영하며 학습장애 및 뇌손상 평가에 중요하다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "동작성 IQ를 WAIS-IV에서 지각추론 지표로 재구조화하여 비언어적 인지 능력 측정을 정교화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "언어이해 지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_013"},
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"},
+      {"name_ko": "비언어적 지능검사", "name_en": "Nonverbal Intelligence Tests", "id": "INTELL_NVI_030"},
+      {"name_ko": "실행차이 분석", "name_en": "Discrepancy Analysis", "id": "INTELL_DISC_029"}
+    ],
+    "sub_types": [
+      {"name_ko": "토막짜기", "name_en": "Block Design", "definition": "빨간색과 흰색 토막으로 제시된 도안을 재현하는 소검사로, 시공간 분석과 구성 능력을 측정한다"},
+      {"name_ko": "행렬추론", "name_en": "Matrix Reasoning", "definition": "불완전한 행렬에서 패턴을 파악하여 빈 칸에 들어갈 그림을 선택하는 소검사로, 유동추론을 측정한다"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PRI = Perceptual(지각) + Reasoning(추론) = 토막짜기·행렬추론·퍼즐",
+      "differential": "PRI는 WAIS-IV/WISC-IV의 지표이고, WISC-V에서는 PRI가 시각공간(VSI)과 유동추론(FRI)으로 분리되었다",
+      "key_point": "PRI는 비언어적 능력을 측정하므로 언어 장벽이 있는 수검자에게 상대적으로 공정한 인지 능력 추정치를 제공한다",
+      "common_mistake": "PRI가 WISC-V에도 있다고 생각하는 것 — WISC-V에서는 VSI(시각공간)와 FRI(유동추론)로 분리·대체되었다"
+    }
+  },
+  {
+    "id": "INTELL_WMI_015",
+    "terminology": "작업기억 지표 (Working Memory Index, WMI)",
+    "terminology_ko": "작업기억 지표",
+    "terminology_en": "Working Memory Index (WMI)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "웩슬러 지능검사에서 정보를 일시적으로 저장하면서 동시에 정신적 조작을 수행하는 능력을 측정하는 합산 지표로, 숫자, 산수(또는 그림 기억) 소검사로 구성된다",
+    "definition_en": "A composite index from Wechsler intelligence scales measuring the ability to temporarily hold information in mind while simultaneously performing mental operations, comprising subtests such as Digit Span and Arithmetic",
+    "significance": "주의력, 집중력, 정신적 조작 능력의 핵심 지표로, ADHD, 학습장애, 외상성 뇌손상 등에서 특징적인 저하를 보여 감별 진단에 중요한 정보를 제공한다",
+    "key_researchers": [
+      {"name_ko": "앨런 배들리", "name_en": "Alan Baddeley", "contribution": "작업기억의 다성분 모형(중앙집행기, 음운루프, 시공간 잡기장)을 제안하여 WMI의 이론적 기반을 제공"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "숫자 소검사 등을 통해 작업기억 영역을 지능검사에 통합"}
+    ],
+    "related_concepts": [
+      {"name_ko": "처리속도 지표", "name_en": "Processing Speed Index", "id": "INTELL_PSI_016"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_003"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"}
+    ],
+    "sub_types": [
+      {"name_ko": "숫자", "name_en": "Digit Span", "definition": "바로 따라하기, 거꾸로 따라하기, 순서대로 따라하기의 3개 조건으로 구성되어 주의력과 작업기억 용량을 측정한다"},
+      {"name_ko": "산수", "name_en": "Arithmetic", "definition": "암산으로 수학 문제를 푸는 소검사로, 수적 추론과 작업기억의 정신적 조작 능력을 측정한다"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "WMI = Working Memory = 숫자(바로·거꾸로·순서) + 산수 → '기억하면서 조작'",
+      "differential": "WMI는 정보를 보유하면서 조작하는 능력이고, PSI는 단순 인지과제의 처리 속도를 측정한다. ADHD에서는 WMI와 PSI 모두 저하될 수 있다",
+      "key_point": "숫자 소검사의 바로 따라하기는 단기기억, 거꾸로/순서대로 따라하기는 작업기억을 측정하므로 조건별 분석이 중요하다",
+      "common_mistake": "작업기억을 단순한 단기기억과 동일시하는 것 — 작업기억은 정보의 저장뿐 아니라 능동적 조작을 포함하는 개념이다"
+    }
+  },
+  {
+    "id": "INTELL_PSI_016",
+    "terminology": "처리속도 지표 (Processing Speed Index, PSI)",
+    "terminology_ko": "처리속도 지표",
+    "terminology_en": "Processing Speed Index (PSI)",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "웩슬러 지능검사에서 단순하고 반복적인 인지 과제를 빠르고 정확하게 수행하는 능력을 측정하는 합산 지표로, 기호쓰기와 동형찾기 소검사로 구성된다",
+    "definition_en": "A composite index from Wechsler intelligence scales measuring the speed and accuracy of performing simple, repetitive cognitive tasks, comprising subtests such as Coding and Symbol Search",
+    "significance": "인지적 효율성과 자동화 수준을 반영하며, ADHD, 학습장애, 외상성 뇌손상, 우울증 등에서 민감하게 저하되어 신경심리학적 선별 지표로 유용하다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "처리속도 영역을 지능검사의 독립 지표로 구조화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "작업기억 지표", "name_en": "Working Memory Index", "id": "INTELL_WMI_015"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"},
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "CHILD_ADHD_003"}
+    ],
+    "sub_types": [
+      {"name_ko": "기호쓰기", "name_en": "Coding", "definition": "숫자-기호 쌍을 보고 해당 기호를 빠르게 베끼는 소검사로, 시각-운동 협응 속도와 단기기억을 측정한다"},
+      {"name_ko": "동형찾기", "name_en": "Symbol Search", "definition": "제시된 기호가 기호 집합에 포함되어 있는지 빠르게 판단하는 소검사로, 시각 변별 속도를 측정한다"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "PSI = Processing Speed = 기호쓰기(Coding) + 동형찾기(Symbol Search) → '빠르고 정확하게'",
+      "differential": "PSI는 인지 처리의 속도를 측정하고, WMI는 정보의 저장과 조작 능력을 측정한다. 둘 다 ADHD에서 저하될 수 있지만 측정 구인이 다르다",
+      "key_point": "PSI 저하는 ADHD, 우울증, 뇌손상 등 다양한 조건에서 나타나므로 PSI 단독으로 특정 진단을 내릴 수 없다",
+      "common_mistake": "PSI가 낮으면 지능이 낮다고 단정하는 것 — PSI는 인지 효율성을 측정하며, FSIQ가 높아도 PSI만 낮을 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_FE_017",
+    "terminology": "Flynn 효과 (Flynn Effect)",
+    "terminology_ko": "Flynn 효과",
+    "terminology_en": "Flynn Effect",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "20세기 전반에 걸쳐 전 세계적으로 IQ 검사 점수가 세대마다 약 3점씩 꾸준히 상승해온 현상으로, 영양 개선, 교육 확대, 환경적 자극 증가 등이 원인으로 제안되고 있다",
+    "definition_en": "The observed worldwide phenomenon of substantial and sustained increases in IQ test scores over successive generations throughout the 20th century, averaging approximately 3 points per decade, attributed to factors such as improved nutrition, education, and environmental stimulation",
+    "significance": "지능검사 규준의 주기적 개정이 필요한 근거를 제공하며, 지능이 유전적으로 고정되지 않고 환경 요인에 의해 변할 수 있음을 시사하는 중요한 현상이다",
+    "key_researchers": [
+      {"name_ko": "제임스 플린", "name_en": "James Flynn", "contribution": "14개국 IQ 데이터를 체계적으로 분석하여 세대 간 IQ 상승 현상을 1984년 최초로 보고"},
+      {"name_ko": "울릭 나이서", "name_en": "Ulric Neisser", "contribution": "1997년 APA 보고서에서 Flynn 효과의 원인과 의미를 종합적으로 분석"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STD_024"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "INTELL_NORM_025"},
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Flynn 효과 = 세대마다 IQ 약 3점 상승 → 규준 갱신 필요",
+      "differential": "Flynn 효과는 세대 간(집단 수준) IQ 상승이고, 개인의 IQ 변화나 연습 효과와는 다른 현상이다",
+      "key_point": "Flynn 효과로 인해 구판 규준으로 측정하면 IQ가 과대추정되므로, 지적장애 진단 시 검사 규준의 최신성이 법적으로도 중요하다",
+      "common_mistake": "Flynn 효과가 실제 인간의 지능이 계속 높아지고 있음을 의미한다고 단순 해석하는 것 — 검사 점수 상승과 실제 지능 향상은 구별해야 한다"
+    }
+  },
+  {
+    "id": "INTELL_ID_018",
+    "terminology": "지적장애 (Intellectual Disability)",
+    "terminology_ko": "지적장애",
+    "terminology_en": "Intellectual Disability",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "발달기(18세 이전)에 발생하며, 지적 기능(IQ 약 70 이하)과 적응행동 모두에서 유의미한 제한을 보이는 신경발달장애로, DSM-5에서는 심각도를 적응기능에 따라 경도·중등도·고도·최고도로 분류한다",
+    "definition_en": "A neurodevelopmental disorder characterized by significant limitations in both intellectual functioning (IQ approximately 70 or below) and adaptive behavior, with onset during the developmental period (before age 18), classified by DSM-5 into mild, moderate, severe, and profound severity levels based on adaptive functioning",
+    "significance": "지능평가의 가장 중요한 임상적 적용 중 하나로, 진단에 IQ 점수와 적응행동 평가가 모두 필요하며, 법적 의사결정(사형 면제 등)에도 결정적 영향을 미친다",
+    "key_researchers": [
+      {"name_ko": "로버트 샤록", "name_en": "Robert Schalock", "contribution": "AAIDD의 지적장애 정의와 분류 체계 개정을 주도, 지원 강도 모형을 제안"},
+      {"name_ko": "미국지적·발달장애협회", "name_en": "AAIDD", "contribution": "지적장애의 공식 정의, 분류, 지원 체계를 지속적으로 개정·출판"}
+    ],
+    "related_concepts": [
+      {"name_ko": "적응행동", "name_en": "Adaptive Behavior", "id": "INTELL_AB_020"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM_002"},
+      {"name_ko": "Vineland 적응행동 척도", "name_en": "Vineland Adaptive Behavior Scales", "id": "INTELL_VABS_021"}
+    ],
+    "sub_types": [
+      {"name_ko": "경도 지적장애", "name_en": "Mild ID", "definition": "IQ 약 50~70, 학업 기술 습득 가능, 적절한 지원으로 독립생활 가능"},
+      {"name_ko": "중등도 지적장애", "name_en": "Moderate ID", "definition": "IQ 약 35~50, 기본 자조 기술 습득 가능, 지역사회 내 보호 환경에서 생활"},
+      {"name_ko": "고도 지적장애", "name_en": "Severe ID", "definition": "IQ 약 20~35, 제한된 의사소통, 일상생활에 지속적 지원 필요"},
+      {"name_ko": "최고도 지적장애", "name_en": "Profound ID", "definition": "IQ 약 20 이하, 전반적 의존, 지속적이고 집중적인 돌봄 필요"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "지적장애 3요건: ①IQ 70 이하 + ②적응행동 제한 + ③발달기(18세 전) 발생",
+      "differential": "DSM-5에서 지적장애 심각도는 IQ 점수가 아닌 적응기능(개념적, 사회적, 실제적)에 따라 결정된다. 이는 DSM-IV-TR과의 주요 차이점이다",
+      "key_point": "지적장애 진단에는 IQ 점수만으로 불충분하며, 반드시 적응행동 평가가 동반되어야 하고, 측정의 표준오차(SEM)를 고려해야 한다",
+      "common_mistake": "IQ 70을 엄격한 절단점으로 사용하는 것 — DSM-5는 '약 70 이하(65~75)'로 측정오차를 고려하도록 명시한다"
+    }
+  },
+  {
+    "id": "INTELL_GIFT_019",
+    "terminology": "영재성 (Giftedness)",
+    "terminology_ko": "영재성",
+    "terminology_en": "Giftedness",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "동일 연령, 경험, 환경의 또래에 비해 뛰어난 수준의 지적 능력(일반적으로 IQ 130 이상)을 보이거나 특정 학문·예술 영역에서 탁월한 수행을 나타내는 능력 특성이다",
+    "definition_en": "A characteristic of individuals who demonstrate outstanding levels of intellectual ability (generally IQ 130 or above) or exceptional performance in specific academic or creative domains compared to same-age peers",
+    "significance": "영재 판별과 적절한 교육 배치를 위해 지능검사가 핵심 도구로 사용되며, 과흥분성(overexcitability), 비동시 발달 등 영재의 심리적 특성 이해가 임상장면에서 중요하다",
+    "key_researchers": [
+      {"name_ko": "루이스 터만", "name_en": "Lewis Terman", "contribution": "IQ 140 이상 영재 1,528명을 대상으로 한 종단연구(Genetic Studies of Genius)를 수행"},
+      {"name_ko": "조셉 렌줄리", "name_en": "Joseph Renzulli", "contribution": "영재성을 높은 능력, 과제 집착력, 창의성의 세 고리(Three-Ring) 모형으로 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "INTELL_ID_018"},
+      {"name_ko": "Stanford-Binet 지능검사", "name_en": "Stanford-Binet Intelligence Scales", "id": "INTELL_SB_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "영재 판별: IQ 130+(2SD 이상) 또는 렌줄리의 3고리(능력+집착력+창의성)",
+      "differential": "터만의 모형은 IQ 중심의 단일 기준이고, 렌줄리의 세 고리 모형은 능력 외에 과제 집착력과 창의성을 함께 고려한다",
+      "key_point": "영재아도 학습장애를 동시에 가질 수 있으며(이중 특수아, twice-exceptional), 이 경우 높은 IQ가 학습장애를 가려 진단이 어려울 수 있다",
+      "common_mistake": "IQ가 높으면 모든 영역에서 뛰어나다고 가정하는 것 — 영재아도 인지 프로파일의 불균형이나 사회정서적 어려움을 겪을 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_AB_020",
+    "terminology": "적응행동 (Adaptive Behavior)",
+    "terminology_ko": "적응행동",
+    "terminology_en": "Adaptive Behavior",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "일상생활에서 독립적으로 기능하고 사회적 기대에 부응하는 데 필요한 개념적, 사회적, 실제적 기술의 집합으로, 지적장애 진단에서 IQ와 함께 반드시 평가해야 하는 영역이다",
+    "definition_en": "The collection of conceptual, social, and practical skills needed to function independently in everyday life and meet societal expectations, required alongside IQ assessment for diagnosing intellectual disability",
+    "significance": "지적장애 진단의 필수 요건으로 IQ 점수만으로는 진단이 불충분하며, DSM-5에서 심각도 수준을 결정하는 일차적 기준이 적응기능이다",
+    "key_researchers": [
+      {"name_ko": "에드거 돌", "name_en": "Edgar Doll", "contribution": "1936년 Vineland Social Maturity Scale을 개발하여 적응행동의 체계적 측정을 최초로 시도"},
+      {"name_ko": "로버트 샤록", "name_en": "Robert Schalock", "contribution": "적응행동을 개념적·사회적·실제적 기술의 3영역으로 구조화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "INTELL_ID_018"},
+      {"name_ko": "Vineland 적응행동 척도", "name_en": "Vineland Adaptive Behavior Scales", "id": "INTELL_VABS_021"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM_002"}
+    ],
+    "sub_types": [
+      {"name_ko": "개념적 기술", "name_en": "Conceptual Skills", "definition": "언어, 읽기, 쓰기, 수 개념, 자기지시 등 학업 및 인지 관련 적응 기술"},
+      {"name_ko": "사회적 기술", "name_en": "Social Skills", "definition": "대인관계, 사회적 책임감, 규칙 준수, 자존감, 속기 쉬움 방지 등의 기술"},
+      {"name_ko": "실제적 기술", "name_en": "Practical Skills", "definition": "일상생활 활동(식사, 위생), 직업 기술, 금전 관리, 교통수단 이용 등의 기술"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "적응행동 3영역: 개념적(학업) + 사회적(대인) + 실제적(일상) 기술",
+      "differential": "적응행동은 실제 일상 기능을 측정하고, IQ는 인지적 잠재력을 측정한다. 둘은 상관이 있지만 동일하지 않다",
+      "key_point": "DSM-5에서 지적장애의 심각도(경도-최고도)는 IQ가 아닌 적응기능 수준에 따라 결정된다",
+      "common_mistake": "적응행동을 IQ로 대체할 수 있다고 생각하는 것 — IQ가 낮아도 적응행동이 양호하면 지적장애로 진단하지 않을 수 있다"
+    }
+  },
+  {
+    "id": "INTELL_VABS_021",
+    "terminology": "Vineland 적응행동 척도 (Vineland Adaptive Behavior Scales)",
+    "terminology_ko": "Vineland 적응행동 척도",
+    "terminology_en": "Vineland Adaptive Behavior Scales",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "출생부터 90세까지의 적응행동을 의사소통, 일상생활 기술, 사회화, 운동 기술의 4개 영역과 부적응행동 지표로 평가하는 반구조화 면접 기반 척도로, 현재 Vineland-3이 사용된다",
+    "definition_en": "A semi-structured interview-based scale assessing adaptive behavior from birth to age 90+ across four domains (Communication, Daily Living Skills, Socialization, Motor Skills) and a Maladaptive Behavior Index, currently in its third edition (Vineland-3)",
+    "significance": "지적장애, 자폐스펙트럼장애 등의 진단에서 적응행동 평가의 표준 도구로, 보호자 면접을 통해 실제 일상 기능을 체계적으로 평가한다",
+    "key_researchers": [
+      {"name_ko": "에드거 돌", "name_en": "Edgar Doll", "contribution": "1936년 원판 Vineland Social Maturity Scale을 개발"},
+      {"name_ko": "사라 스패로", "name_en": "Sara Sparrow", "contribution": "Vineland-II의 개정을 주도하여 현대적 적응행동 평가 체계로 발전시킴"}
+    ],
+    "related_concepts": [
+      {"name_ko": "적응행동", "name_en": "Adaptive Behavior", "id": "INTELL_AB_020"},
+      {"name_ko": "지적장애", "name_en": "Intellectual Disability", "id": "INTELL_ID_018"},
+      {"name_ko": "DSM-5", "name_en": "DSM-5", "id": "DIAGN_DSM_002"}
+    ],
+    "sub_types": [
+      {"name_ko": "의사소통 영역", "name_en": "Communication Domain", "definition": "수용 언어, 표현 언어, 읽기·쓰기 능력을 평가"},
+      {"name_ko": "일상생활 기술 영역", "name_en": "Daily Living Skills Domain", "definition": "개인 위생, 가사, 지역사회 생활 기술을 평가"},
+      {"name_ko": "사회화 영역", "name_en": "Socialization Domain", "definition": "대인관계, 놀이·여가, 대처 기술을 평가"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Vineland = 적응행동의 대명사, 4영역: 의사소통·일상생활·사회화·운동",
+      "differential": "Vineland는 보호자/교사 면접으로 실제 행동을 평가하고, 지능검사는 검사실에서 인지 잠재력을 측정하므로 두 정보가 상호보완적이다",
+      "key_point": "Vineland는 반구조화 면접 형식으로 보호자가 아동의 실제 일상 행동을 보고하게 하므로, 검사실 내 수행과 실제 기능 간의 차이를 파악할 수 있다",
+      "common_mistake": "Vineland를 지능검사와 동일시하는 것 — Vineland는 적응행동 척도이지 인지능력 검사가 아니다"
+    }
+  },
+  {
+    "id": "INTELL_CFT_022",
+    "terminology": "문화공정 검사 (Culture-Fair Tests)",
+    "terminology_ko": "문화공정 검사",
+    "terminology_en": "Culture-Fair Tests",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "문화적 배경, 언어, 교육 수준의 영향을 최소화하도록 설계된 지능검사로, 주로 비언어적·도형적 과제를 사용하여 문화 간 공정한 인지능력 비교를 목표로 한다",
+    "definition_en": "Intelligence tests designed to minimize the influence of cultural background, language, and educational level by using nonverbal or figural tasks, aiming for fair cross-cultural comparison of cognitive abilities",
+    "significance": "다문화 사회에서 문화적 편향을 줄인 공정한 지능 평가의 필요성이 증가하며, 이민자·소수민족 등 문화적으로 다양한 수검자의 인지능력을 보다 정확하게 측정하는 데 기여한다",
+    "key_researchers": [
+      {"name_ko": "레이먼드 캐텔", "name_en": "Raymond Cattell", "contribution": "Culture-Fair Intelligence Test(CFIT)를 개발하여 문화공정 검사의 선구적 모형을 제시"},
+      {"name_ko": "존 레이븐", "name_en": "John C. Raven", "contribution": "비언어적 문화공정 검사의 대표인 Raven's Progressive Matrices를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "Raven 점진적 행렬", "name_en": "Raven's Progressive Matrices", "id": "INTELL_RPM_023"},
+      {"name_ko": "비언어적 지능검사", "name_en": "Nonverbal Intelligence Tests", "id": "INTELL_NVI_030"},
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문화공정 = 문화 편향 최소화 → 비언어적·도형 과제 사용",
+      "differential": "문화공정 검사는 문화 영향을 '최소화'하려는 것이지 완전히 제거하는 것은 불가능하다. '문화자유(culture-free)' 검사는 실현 불가능한 이상이다",
+      "key_point": "캐텔의 CFIT와 레이븐의 행렬검사가 대표적이며, 주로 유동 지능(Gf)을 측정하지만 결정 지능(Gc)은 측정하지 못하는 한계가 있다",
+      "common_mistake": "문화공정 검사가 완전히 문화에서 자유로운(culture-free) 검사라고 생각하는 것 — 완전한 문화 자유는 실현 불가능하다"
+    }
+  },
+  {
+    "id": "INTELL_RPM_023",
+    "terminology": "Raven 점진적 행렬 (Raven's Progressive Matrices)",
+    "terminology_ko": "Raven 점진적 행렬",
+    "terminology_en": "Raven's Progressive Matrices",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "도형 행렬에서 빠진 조각의 패턴을 추론하여 선택하는 비언어적 지능검사로, 유동 지능(Gf)과 일반지능(g)의 대표적 측정 도구이며, 문화적 편향이 비교적 적다는 장점이 있다",
+    "definition_en": "A nonverbal intelligence test requiring identification of the missing piece in a matrix of abstract figures by recognizing underlying patterns, considered a prototypical measure of fluid intelligence (Gf) and general intelligence (g) with relatively low cultural bias",
+    "significance": "언어와 문화의 영향이 최소화된 유동 지능 측정의 표준 도구로, 연구 장면에서 g요인 측정에 가장 많이 사용되며 집단 시행이 가능하여 대규모 선별에 유용하다",
+    "key_researchers": [
+      {"name_ko": "존 레이븐", "name_en": "John C. Raven", "contribution": "1938년 Raven's Progressive Matrices를 개발, 이후 SPM, APM, CPM으로 확장"}
+    ],
+    "related_concepts": [
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"},
+      {"name_ko": "문화공정 검사", "name_en": "Culture-Fair Tests", "id": "INTELL_CFT_022"},
+      {"name_ko": "비언어적 지능검사", "name_en": "Nonverbal Intelligence Tests", "id": "INTELL_NVI_030"}
+    ],
+    "sub_types": [
+      {"name_ko": "표준형 점진적 행렬(SPM)", "name_en": "Standard Progressive Matrices", "definition": "일반 성인용(6~80세), 60문항, 가장 널리 사용되는 버전"},
+      {"name_ko": "고급형 점진적 행렬(APM)", "name_en": "Advanced Progressive Matrices", "definition": "고능력 성인용, 더 어려운 36문항으로 상위 지능 범위의 변별력이 높다"},
+      {"name_ko": "색채형 점진적 행렬(CPM)", "name_en": "Coloured Progressive Matrices", "definition": "아동(5~11세) 및 인지 저하 성인용, 색채를 사용하여 흥미를 높인 36문항"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "Raven = 까마귀가 아닌 Raven 박사, '행렬의 빈 칸 채우기' → 유동 지능(Gf) 측정",
+      "differential": "Raven은 유동 지능만 측정하는 단일 과제 검사이고, 웩슬러 검사는 여러 소검사로 다양한 인지능력을 종합 측정한다",
+      "key_point": "Raven은 집단 실시가 가능하고 언어 지시가 최소화되어 문화 간 비교 연구에 가장 많이 사용되는 지능검사이다",
+      "common_mistake": "Raven 검사만으로 전체적인 지능을 평가할 수 있다고 생각하는 것 — 유동 지능만 측정하므로 결정 지능 등은 별도 평가가 필요하다"
+    }
+  },
+  {
+    "id": "INTELL_STD_024",
+    "terminology": "표준화 (Standardization)",
+    "terminology_ko": "표준화",
+    "terminology_en": "Standardization",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "검사의 시행, 채점, 해석 절차를 일관되게 통일하고, 대표적인 규준 집단에게 실시하여 비교 기준이 되는 규준을 확립하는 과정으로, 심리검사의 객관성과 신뢰성의 기반이 된다",
+    "definition_en": "The process of establishing uniform procedures for test administration, scoring, and interpretation, as well as developing norms by administering the test to a representative standardization sample, providing the foundation for objectivity and reliability",
+    "significance": "표준화 없이는 개인의 검사 점수를 의미 있게 해석할 수 없으며, 지능검사에서 표준화된 절차의 엄격한 준수는 검사 결과의 타당성을 보장하는 전제 조건이다",
+    "key_researchers": [
+      {"name_ko": "알프레드 비네", "name_en": "Alfred Binet", "contribution": "최초의 표준화된 지능검사를 개발하여 심리측정학적 표준화의 토대를 마련"},
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "대규모 표준화 표본을 사용한 규준 확립의 모범을 제시"}
+    ],
+    "related_concepts": [
+      {"name_ko": "규준", "name_en": "Norms", "id": "INTELL_NORM_025"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"},
+      {"name_ko": "구성타당도", "name_en": "Construct Validity", "id": "RESEARCH_CV_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표준화 = 절차 통일(시행·채점·해석) + 규준 확립(대표 표본)",
+      "differential": "표준화는 검사 절차와 규준을 확립하는 과정이고, 신뢰도는 측정의 일관성, 타당도는 측정의 정확성을 의미한다. 표준화가 선행되어야 신뢰도와 타당도를 확보할 수 있다",
+      "key_point": "표준화된 시행 절차에서 벗어나면(예: 시간 제한 변경, 추가 단서 제공) 규준에 기반한 점수 해석이 무효화된다",
+      "common_mistake": "표준화를 단순히 '동일한 절차로 실시하는 것'으로만 이해하는 것 — 대표적 규준 집단의 확립도 표준화의 필수 요소이다"
+    }
+  },
+  {
+    "id": "INTELL_NORM_025",
+    "terminology": "규준 (Norms)",
+    "terminology_ko": "규준",
+    "terminology_en": "Norms",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "표준화 표본의 검사 수행 결과에서 도출된 점수 분포로, 개인의 원점수를 해석할 수 있는 비교 기준을 제공하며, 연령별·집단별로 구분되어 상대적 위치를 파악하게 한다",
+    "definition_en": "The distribution of test scores obtained from a standardization sample that provides a frame of reference for interpreting an individual's raw score, typically organized by age groups to determine relative standing",
+    "significance": "지능검사에서 원점수 자체는 의미가 없으며, 규준을 통해 동일 연령 집단 내 상대적 위치(IQ, 백분위)로 변환해야 비로소 임상적 해석이 가능해진다",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "심리검사의 규준 개발과 해석에 관한 체계적 기준을 정립, 'Psychological Testing' 교과서 저술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STD_024"},
+      {"name_ko": "백분위", "name_en": "Percentile", "id": "INTELL_PCT_027"},
+      {"name_ko": "표준점수", "name_en": "Standard Scores", "id": "INTELL_SS_026"},
+      {"name_ko": "Flynn 효과", "name_en": "Flynn Effect", "id": "INTELL_FE_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "규준 = 비교 기준 → 원점수 → 규준표 → IQ/백분위 산출",
+      "differential": "규준(norms)은 점수 해석의 비교 기준이고, 표준(standards)은 절대적 성취 기준이다. 규준참조 해석은 상대적 위치를 알려준다",
+      "key_point": "규준은 Flynn 효과로 인해 주기적으로 갱신해야 하며, 오래된 규준은 IQ를 과대추정하는 원인이 된다",
+      "common_mistake": "한 국가의 규준을 다른 문화권에 그대로 적용할 수 있다고 생각하는 것 — 규준은 문화·시대에 따라 달라진다"
+    }
+  },
+  {
+    "id": "INTELL_SS_026",
+    "terminology": "표준점수 (Standard Scores)",
+    "terminology_ko": "표준점수",
+    "terminology_en": "Standard Scores",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "원점수를 평균과 표준편차를 기준으로 변환한 점수로, 서로 다른 검사나 소검사의 점수를 동일한 척도에서 비교할 수 있게 해준다. 지능검사에서는 IQ(M=100, SD=15)와 환산점수(M=10, SD=3)가 대표적이다",
+    "definition_en": "Scores transformed from raw scores based on the mean and standard deviation of a distribution, enabling comparison across different tests or subtests on a common metric, with IQ scores (M=100, SD=15) and scaled scores (M=10, SD=3) being typical in intelligence testing",
+    "significance": "서로 다른 단위의 소검사 점수를 공통 척도로 변환하여 프로파일 분석, 지표 간 비교, 개인 내 강약점 분석을 가능하게 하는 심리측정학적 핵심 개념이다",
+    "key_researchers": [
+      {"name_ko": "데이비드 웩슬러", "name_en": "David Wechsler", "contribution": "지능검사에 M=100, SD=15의 표준점수 체계를 확립"},
+      {"name_ko": "윌리엄 슈테른", "name_en": "William Stern", "contribution": "IQ 개념의 기초를 마련하여 표준점수 기반 지능 측정의 토대를 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "편차 IQ", "name_en": "Deviation IQ", "id": "INTELL_DIQ_003"},
+      {"name_ko": "백분위", "name_en": "Percentile", "id": "INTELL_PCT_027"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "INTELL_NORM_025"}
+    ],
+    "sub_types": [
+      {"name_ko": "IQ 점수", "name_en": "IQ Score", "definition": "평균 100, 표준편차 15의 표준점수로, 전체 IQ 및 지표점수에 사용"},
+      {"name_ko": "환산점수", "name_en": "Scaled Score", "definition": "평균 10, 표준편차 3의 표준점수로, 개별 소검사 수준에서 사용"},
+      {"name_ko": "T점수", "name_en": "T Score", "definition": "평균 50, 표준편차 10의 표준점수로, 성격검사 등에서 주로 사용"},
+      {"name_ko": "z점수", "name_en": "z Score", "definition": "평균 0, 표준편차 1의 기본 표준점수로, 다른 모든 표준점수의 변환 기초가 된다"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "표준점수 변환: z(0,1) → T(50,10) → IQ(100,15) → 환산(10,3)",
+      "differential": "IQ 점수(M=100, SD=15)는 지표·전체 수준, 환산점수(M=10, SD=3)는 소검사 수준에서 사용된다는 점에서 적용 단위가 다르다",
+      "key_point": "표준점수 덕분에 언어이해 소검사(어휘)와 처리속도 소검사(기호쓰기) 같은 전혀 다른 과제의 수행을 동일 척도에서 비교할 수 있다",
+      "common_mistake": "표준점수와 원점수를 혼동하는 것 — 원점수는 맞힌 문항 수이고, 표준점수는 규준에 의해 변환된 상대적 위치 점수이다"
+    }
+  },
+  {
+    "id": "INTELL_PCT_027",
+    "terminology": "백분위 (Percentile)",
+    "terminology_ko": "백분위",
+    "terminology_en": "Percentile",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "규준 집단에서 해당 점수 이하에 속하는 사람의 비율을 나타내는 값으로, 예를 들어 백분위 75는 규준 집단의 75%보다 높은 수행임을 의미한다. 수검자와 보호자에게 결과를 설명할 때 가장 직관적인 척도이다",
+    "definition_en": "A value indicating the percentage of individuals in the normative sample who scored at or below a given score, e.g., a percentile rank of 75 means performance exceeds 75% of the norm group, commonly used for intuitive score interpretation",
+    "significance": "비전문가에게 검사 결과를 쉽게 설명할 수 있는 척도로, IQ 100은 50백분위, IQ 115는 약 84백분위, IQ 130은 약 98백분위에 해당한다",
+    "key_researchers": [
+      {"name_ko": "프랜시스 골턴", "name_en": "Francis Galton", "contribution": "개인차의 통계적 분포와 상대적 위치 개념을 도입하여 백분위 순위 체계의 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준점수", "name_en": "Standard Scores", "id": "INTELL_SS_026"},
+      {"name_ko": "규준", "name_en": "Norms", "id": "INTELL_NORM_025"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "백분위 50 = 평균 = IQ 100, 백분위 84 = +1SD = IQ 115, 백분위 98 = +2SD = IQ 130",
+      "differential": "백분위는 서열 척도(순위)이므로 동간격이 아니다. 백분위 50→60과 90→100의 차이는 IQ 점수로 환산하면 매우 다르다",
+      "key_point": "백분위는 비전문가에게 직관적이지만, 정상분포의 양 극단에서는 작은 IQ 차이가 큰 백분위 차이로 나타나 과장될 수 있다",
+      "common_mistake": "백분위를 백분율(정답률)과 혼동하는 것 — 백분위 80은 '80% 맞혔다'가 아니라 '80%의 사람보다 잘 했다'는 의미이다"
+    }
+  },
+  {
+    "id": "INTELL_CI_028",
+    "terminology": "신뢰구간 (Confidence Interval)",
+    "terminology_ko": "신뢰구간",
+    "terminology_en": "Confidence Interval",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "측정의 표준오차(SEM)를 기반으로 개인의 진점수가 포함될 것으로 추정되는 점수 범위로, 지능검사에서는 95% 신뢰구간이 주로 사용되며, 관찰 점수의 불확실성을 반영한다",
+    "definition_en": "A range of scores around an observed test score within which the individual's true score is estimated to fall, based on the standard error of measurement (SEM), with the 95% confidence interval being most commonly used in intelligence testing",
+    "significance": "단일 IQ 점수의 측정오차를 명시적으로 반영하여, 점수를 고정된 수치가 아닌 범위로 해석하도록 함으로써 과잉 해석을 방지하고 의사결정의 정확성을 높인다",
+    "key_researchers": [
+      {"name_ko": "앤 아나스타시", "name_en": "Anne Anastasi", "contribution": "심리검사 해석에서 신뢰구간 보고의 중요성을 강조한 선구적 심리측정학자"},
+      {"name_ko": "수전 어빈", "name_en": "Susan Urbina", "contribution": "Anastasi와 함께 'Psychological Testing' 교재에서 측정오차와 신뢰구간의 임상적 중요성을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "표준화", "name_en": "Standardization", "id": "INTELL_STD_024"},
+      {"name_ko": "신뢰도", "name_en": "Reliability", "id": "RESEARCH_REL_015"},
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "95% 신뢰구간 ≈ 관찰점수 ± 2×SEM → 진점수가 이 범위에 있을 확률 95%",
+      "differential": "신뢰구간은 관찰 점수의 불확실성 범위이고, 유의미한 차이는 두 점수 간 차이가 측정오차를 넘는지를 판단하는 것이다",
+      "key_point": "WAIS-IV FSIQ의 SEM은 약 2.16점이므로, 95% 신뢰구간은 관찰 IQ ± 약 4-5점이다. 따라서 IQ 70은 실제로 65-75 범위로 해석해야 한다",
+      "common_mistake": "IQ 점수를 오차 없는 정확한 수치로 보고하는 것 — 반드시 신뢰구간과 함께 보고해야 하며, 특히 진단적 절단점 부근에서 중요하다"
+    }
+  },
+  {
+    "id": "INTELL_DISC_029",
+    "terminology": "실행차이 분석 (Discrepancy Analysis)",
+    "terminology_ko": "실행차이 분석",
+    "terminology_en": "Discrepancy Analysis",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "지능검사의 지표 점수 간 또는 소검사 점수 간 차이가 통계적으로 유의미한지, 그리고 규준 집단에서 얼마나 드문 차이인지를 분석하는 프로파일 해석 방법으로, 개인 내 인지적 강약점을 파악하는 데 사용된다",
+    "definition_en": "A profile interpretation method analyzing whether differences between index scores or subtest scores are statistically significant and how rare such differences are in the normative population, used to identify within-person cognitive strengths and weaknesses",
+    "significance": "학습장애 진단(능력-성취 불일치), 뇌손상 평가(편측성 기능 저하), 개인 맞춤형 중재 계획 수립 등에서 FSIQ 이상의 풍부한 임상 정보를 제공한다",
+    "key_researchers": [
+      {"name_ko": "앨런 카우프만", "name_en": "Alan Kaufman", "contribution": "지능검사의 프로파일 분석과 지표 간 차이 해석 방법론을 체계화, 'Intelligent Testing' 접근 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전체 IQ", "name_en": "Full Scale IQ", "id": "INTELL_FSIQ_012"},
+      {"name_ko": "언어이해 지표", "name_en": "Verbal Comprehension Index", "id": "INTELL_VCI_013"},
+      {"name_ko": "지각추론 지표", "name_en": "Perceptual Reasoning Index", "id": "INTELL_PRI_014"},
+      {"name_ko": "신뢰구간", "name_en": "Confidence Interval", "id": "INTELL_CI_028"}
+    ],
+    "sub_types": [
+      {"name_ko": "지표 간 차이 분석", "name_en": "Index-Level Discrepancy", "definition": "VCI-PRI, WMI-PSI 등 지표 점수 간 차이의 통계적 유의미성과 기저율을 분석"},
+      {"name_ko": "소검사 수준 분석", "name_en": "Subtest-Level Analysis", "definition": "개인의 소검사 프로파일에서 자신의 평균과 유의미하게 다른 소검사를 파악"},
+      {"name_ko": "능력-성취 불일치", "name_en": "Ability-Achievement Discrepancy", "definition": "IQ와 학업 성취도 간 유의미한 차이로 학습장애를 진단하는 전통적 방법(현재는 RTI 모형과 병용)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "실행차이 분석: ①통계적 유의미성(reliable?) + ②기저율(unusual?) 이중 기준",
+      "differential": "통계적으로 유의미한 차이(reliable difference)와 임상적으로 드문 차이(abnormally large)는 다른 개념이다. 유의미하지만 흔한 차이도 있고, 유의미하면서 드문 차이도 있다",
+      "key_point": "VCI-PRI 차이가 유의미하더라도 규준 집단에서 흔한 차이(기저율 높음)라면 임상적 의미를 과도하게 부여하지 말아야 한다",
+      "common_mistake": "지표 간 차이가 크면 자동으로 장애 진단이 된다고 생각하는 것 — 정상 인구에서도 상당한 지표 차이는 흔히 나타난다"
+    }
+  },
+  {
+    "id": "INTELL_NVI_030",
+    "terminology": "비언어적 지능검사 (Nonverbal Intelligence Tests)",
+    "terminology_ko": "비언어적 지능검사",
+    "terminology_en": "Nonverbal Intelligence Tests",
+    "category": "INTELL",
+    "category_name": "지능평가 (Intellectual Assessment)",
+    "definition": "언어적 지시와 반응을 최소화하고 도형, 그림, 동작 등 비언어적 과제로 인지능력을 측정하는 지능검사로, 언어 장벽, 청각장애, 언어발달 지연 등이 있는 수검자에게 적합하다",
+    "definition_en": "Intelligence tests that minimize verbal instructions and responses by using figural, pictorial, or motor-based tasks to measure cognitive abilities, suitable for examinees with language barriers, hearing impairments, or language developmental delays",
+    "significance": "다문화 수검자, 청각장애인, 자폐스펙트럼장애 아동 등 표준 언어 기반 검사가 공정하지 않은 대상에게 보다 정확한 인지능력 추정치를 제공한다",
+    "key_researchers": [
+      {"name_ko": "잭 나글리에리", "name_en": "Jack Naglieri", "contribution": "Naglieri Nonverbal Ability Test(NNAT)를 개발하여 비언어적 지능 측정의 새로운 표준을 제시"},
+      {"name_ko": "존 레이븐", "name_en": "John C. Raven", "contribution": "Raven's Progressive Matrices로 비언어적 지능검사의 대표적 도구를 확립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문화공정 검사", "name_en": "Culture-Fair Tests", "id": "INTELL_CFT_022"},
+      {"name_ko": "Raven 점진적 행렬", "name_en": "Raven's Progressive Matrices", "id": "INTELL_RPM_023"},
+      {"name_ko": "유동 지능", "name_en": "Fluid Intelligence", "id": "INTELL_GF_010"},
+      {"name_ko": "지각추론 지표", "name_en": "Perceptual Reasoning Index", "id": "INTELL_PRI_014"}
+    ],
+    "sub_types": [
+      {"name_ko": "NNAT", "name_en": "Naglieri Nonverbal Ability Test", "definition": "도형 행렬, 유추, 연속 과제로 구성된 집단 실시 가능한 비언어적 능력검사"},
+      {"name_ko": "Leiter-3", "name_en": "Leiter International Performance Scale-3", "definition": "완전히 비언어적인 개별 검사로, 청각장애·언어장애 아동에게 특히 적합"},
+      {"name_ko": "TONI-4", "name_en": "Test of Nonverbal Intelligence-4", "definition": "추상적 도형 과제로 언어와 운동 반응을 최소화한 비언어적 지능검사"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "비언어적 검사 = 말 없이 측정 → Raven, NNAT, Leiter, TONI가 대표적",
+      "differential": "비언어적 검사는 언어 사용을 최소화한 '검사 형식'이고, 문화공정 검사는 문화 편향을 줄이려는 '검사 목적'이다. 비언어적 검사가 반드시 문화공정은 아니다",
+      "key_point": "비언어적 검사는 주로 유동 지능(Gf)을 측정하므로, 결정 지능(Gc)을 포함한 전체적 인지 능력 평가를 위해서는 추가 검사가 필요하다",
+      "common_mistake": "비언어적 검사가 언어 능력이 낮은 사람에게 항상 더 높은 IQ를 산출한다고 가정하는 것 — 실제로는 검사 유형에 따라 결과가 다를 수 있다"
+    }
+  }
+]
