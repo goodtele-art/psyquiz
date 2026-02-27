@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "EFFECT_CD_001",
+    "terminology": "코헨의 d (Cohen's d)",
+    "terminology_ko": "코헨의 d",
+    "terminology_en": "Cohen's d",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "두 집단의 평균 차이를 합동표준편차(pooled standard deviation)로 나누어 표준화한 효과크기 지표로, 집단 간 차이의 실질적 크기를 나타낸다.",
+    "definition_en": "A standardized effect size measure that expresses the difference between two group means divided by the pooled standard deviation, indicating the practical magnitude of group differences.",
+    "significance": "심리학 연구에서 가장 널리 사용되는 효과크기 지표로, p값만으로는 알 수 없는 차이의 실질적 크기를 전달하여 연구 결과의 실용적 해석을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과크기 개념을 체계화하고 d = 0.2(작은), 0.5(중간), 0.8(큰) 기준을 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "헤지스의 g",
+        "name_en": "Hedges' g",
+        "id": "EFFECT_HG_002"
+      },
+      {
+        "name_ko": "글래스의 델타",
+        "name_en": "Glass's Delta",
+        "id": "EFFECT_GD_003"
+      },
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent Samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "작은 효과 (Small Effect, d = 0.2)",
+        "description": "집단 간 차이가 작아서 육안으로 식별하기 어려운 수준"
+      },
+      {
+        "name": "중간 효과 (Medium Effect, d = 0.5)",
+        "description": "집단 간 차이가 주의 깊게 관찰하면 알아볼 수 있는 수준"
+      },
+      {
+        "name": "큰 효과 (Large Effect, d = 0.8)",
+        "description": "집단 간 차이가 명백하게 눈에 띄는 수준"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "d = (M₁ - M₂) / SD_pooled → '두 평균의 Difference를 SD로 나눈다'",
+      "differential": "코헨의 d는 합동표준편차를 사용하지만, 글래스의 델타는 통제집단의 표준편차만 사용한다.",
+      "key_point": "d = 0.2(작은), 0.5(중간), 0.8(큰)이라는 코헨의 기준은 편의적 지침일 뿐, 연구 맥락에 따라 해석해야 한다.",
+      "common_mistake": "코헨의 d가 항상 0~1 사이라고 오해하는 것. 실제로는 음수도 가능하고 1을 초과할 수도 있다."
+    }
+  },
+  {
+    "id": "EFFECT_HG_002",
+    "terminology": "헤지스의 g (Hedges' g)",
+    "terminology_ko": "헤지스의 g",
+    "terminology_en": "Hedges' g",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "코헨의 d에 소표본 편향 보정을 적용한 효과크기 지표로, 표본크기가 작을 때 d가 효과크기를 과대추정하는 문제를 교정한다.",
+    "definition_en": "An effect size measure that applies a small-sample bias correction to Cohen's d, correcting for the overestimation of effect size that occurs with small samples.",
+    "significance": "메타분석에서 소표본 연구들을 통합할 때 편향을 줄이는 표준 효과크기 지표로, 특히 표본크기가 20 미만인 연구에서 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "소표본 편향 보정 공식을 개발하고 메타분석 방법론을 체계화했다."
+      },
+      {
+        "name_ko": "잉그램 올킨",
+        "name_en": "Ingram Olkin",
+        "contribution": "Hedges와 함께 메타분석의 통계적 기초를 정립한 공저자이다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Hedges' g = Cohen's d × 보정계수 J → 'g는 d의 업그레이드 버전'",
+      "differential": "헤지스의 g는 코헨의 d에 보정계수 J를 곱한 것으로, 표본크기가 클수록 d와 g의 차이는 무시할 수준이 된다.",
+      "key_point": "보정계수 J = 1 - 3/(4df - 1)로, 표본크기가 작을수록 보정 효과가 크다.",
+      "common_mistake": "헤지스의 g가 코헨의 d보다 항상 더 좋은 지표라고 일반화하는 것. 대표본에서는 차이가 거의 없다."
+    }
+  },
+  {
+    "id": "EFFECT_GD_003",
+    "terminology": "글래스의 델타 (Glass's Delta)",
+    "terminology_ko": "글래스의 델타",
+    "terminology_en": "Glass's Delta",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "두 집단의 평균 차이를 통제집단의 표준편차로만 나누어 산출하는 효과크기 지표로, 실험 처치가 통제집단 대비 얼마나 효과적인지를 나타낸다.",
+    "definition_en": "An effect size measure computed by dividing the mean difference between two groups by the standard deviation of the control group only, indicating how effective the treatment is relative to the control condition.",
+    "significance": "실험 처치가 집단의 변산성을 변화시킬 수 있는 경우 합동표준편차 대신 통제집단의 표준편차를 사용함으로써 더 정확한 효과크기 추정을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "진 글래스",
+        "name_en": "Gene V. Glass",
+        "contribution": "1976년 '메타분석'이라는 용어를 창안하고, 통제집단 SD 기준 효과크기를 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "헤지스의 g",
+        "name_en": "Hedges' g",
+        "id": "EFFECT_HG_002"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Glass's Δ = (M_실험 - M_통제) / SD_통제 → '통제집단의 눈으로 본 차이'",
+      "differential": "글래스의 델타는 통제집단 SD만 사용하고, 코헨의 d는 두 집단의 합동 SD를 사용한다.",
+      "key_point": "처치가 분산에 영향을 미칠 때(예: 실험집단 분산 증가) 합동 SD보다 통제집단 SD가 더 적절한 기준이 된다.",
+      "common_mistake": "글래스의 델타에서 실험집단의 SD를 분모로 사용하는 것. 반드시 통제집단의 SD를 사용해야 한다."
+    }
+  },
+  {
+    "id": "EFFECT_ES_004",
+    "terminology": "효과크기 (Effect Size)",
+    "terminology_ko": "효과크기",
+    "terminology_en": "Effect Size",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "연구에서 발견된 관계나 차이의 실질적 크기를 정량적으로 나타내는 지표로, 통계적 유의성과 별개로 결과의 실용적 중요성을 평가하는 데 사용된다.",
+    "definition_en": "A quantitative measure indicating the practical magnitude of a relationship or difference found in research, used to evaluate the practical importance of results independently of statistical significance.",
+    "significance": "p값은 표본크기에 민감하여 사소한 효과도 유의하게 만들 수 있지만, 효과크기는 표본크기에 독립적이어서 결과의 실질적 의미를 전달하며, APA는 모든 연구에서 효과크기 보고를 권장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과크기의 체계적 분류(작은/중간/큰)와 검정력 분석 방법론을 정립했다."
+      },
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "효과크기 추정의 통계적 속성을 연구하고 메타분석에서의 활용을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-Squared",
+        "id": "EFFECT_ET_005"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-Squared",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "d 계열 (d-family)",
+        "description": "두 집단의 평균 차이를 표준화한 지표 (Cohen's d, Hedges' g, Glass's Δ)"
+      },
+      {
+        "name": "r 계열 (r-family)",
+        "description": "두 변인 간 관계의 강도를 나타내는 지표 (r, r², η², ω²)"
+      },
+      {
+        "name": "승산비 계열 (Odds ratio family)",
+        "description": "범주형 결과의 상대적 가능성을 나타내는 지표 (OR, RR, NNT)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Effect Size = 'So What?' 지표 → 통계적으로 유의해도 실질적으로 의미 있는지 답하는 것",
+      "differential": "효과크기는 결과의 '크기'를, p값은 결과가 우연인지 '확률'을 나타낸다. 둘 다 보고해야 완전한 해석이 가능하다.",
+      "key_point": "APA 제6판 이후 모든 통계 분석에서 효과크기 보고를 의무화하여, p값만 보고하는 것은 불충분하다.",
+      "common_mistake": "효과크기가 크면 반드시 통계적으로 유의하다고 생각하는 것. 표본이 매우 작으면 큰 효과크기도 유의하지 않을 수 있다."
+    }
+  },
+  {
+    "id": "EFFECT_ET_005",
+    "terminology": "에타제곱 (Eta-Squared)",
+    "terminology_ko": "에타제곱",
+    "terminology_en": "Eta-Squared",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "분산분석(ANOVA)에서 종속변인의 전체 분산 중 독립변인에 의해 설명되는 비율을 나타내는 효과크기 지표로, η² = SS_between / SS_total로 계산된다.",
+    "definition_en": "An effect size measure in ANOVA indicating the proportion of total variance in the dependent variable that is accounted for by the independent variable, calculated as η² = SS_between / SS_total.",
+    "significance": "분산분석 결과의 실질적 의미를 평가하는 핵심 지표로, F값과 p값만으로는 알 수 없는 독립변인의 설명력을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "분산분석을 개발하여 에타제곱 개념의 토대를 마련했다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "η² = .01(작은), .06(중간), .14(큰) 해석 기준을 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "부분 에타제곱",
+        "name_en": "Partial Eta-Squared",
+        "id": "EFFECT_PE_006"
+      },
+      {
+        "name_ko": "오메가제곱",
+        "name_en": "Omega-Squared",
+        "id": "EFFECT_OM_007"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "CORR_CD_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "η² = SS_between / SS_total → '전체 파이 중 설명되는 조각의 비율'",
+      "differential": "에타제곱은 전체 SS 대비 비율이고, 부분 에타제곱은 해당 효과 SS + 오차 SS 대비 비율이다.",
+      "key_point": "η² = .01(작은), .06(중간), .14(큰)이 코헨의 해석 기준이다.",
+      "common_mistake": "에타제곱이 모집단 효과크기의 편향 없는 추정치라고 생각하는 것. 실제로는 과대추정 경향이 있어 오메가제곱이 더 정확하다."
+    }
+  },
+  {
+    "id": "EFFECT_PE_006",
+    "terminology": "부분 에타제곱 (Partial Eta-Squared)",
+    "terminology_ko": "부분 에타제곱",
+    "terminology_en": "Partial Eta-Squared",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "요인설계 분산분석에서 특정 요인이 설명하는 분산의 비율을 해당 요인의 SS와 오차 SS의 합에 대해 산출한 효과크기로, η²_p = SS_effect / (SS_effect + SS_error)로 계산된다.",
+    "definition_en": "An effect size measure in factorial ANOVA indicating the proportion of variance explained by a specific factor relative to the sum of that factor's SS and error SS, calculated as η²_p = SS_effect / (SS_effect + SS_error).",
+    "significance": "다요인 설계에서 다른 요인의 효과를 통제한 후 특정 요인의 고유 설명력을 파악할 수 있어, SPSS 등 통계 소프트웨어에서 기본으로 보고되는 효과크기이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "부분 효과크기 개념의 기초를 마련한 효과크기 분류 체계를 정립했다."
+      },
+      {
+        "name_ko": "마크 오예르만",
+        "name_en": "Mark Olejnik",
+        "contribution": "부분 에타제곱과 에타제곱의 차이 및 적절한 사용 조건을 명확히 정리했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-Squared",
+        "id": "EFFECT_ET_005"
+      },
+      {
+        "name_ko": "오메가제곱",
+        "name_en": "Omega-Squared",
+        "id": "EFFECT_OM_007"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Partial = '부분적으로 본다' → 다른 요인은 빼고 해당 요인만의 설명력",
+      "differential": "에타제곱은 SS_total을 분모로 사용하지만, 부분 에타제곱은 SS_effect + SS_error를 분모로 사용하여 다른 요인의 SS를 제외한다.",
+      "key_point": "일원 ANOVA에서는 에타제곱과 부분 에타제곱이 동일하지만, 요인설계에서는 부분 에타제곱이 항상 더 크다.",
+      "common_mistake": "부분 에타제곱을 에타제곱과 동일시하는 것. 다요인 설계에서 부분 에타제곱은 에타제곱보다 항상 크다."
+    }
+  },
+  {
+    "id": "EFFECT_OM_007",
+    "terminology": "오메가제곱 (Omega-Squared)",
+    "terminology_ko": "오메가제곱",
+    "terminology_en": "Omega-Squared",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "분산분석에서 독립변인이 설명하는 모집단 분산 비율의 비편향 추정치로, 에타제곱의 과대추정 문제를 보정한 효과크기 지표이다.",
+    "definition_en": "An unbiased estimator of the proportion of population variance explained by the independent variable in ANOVA, correcting for the overestimation bias inherent in eta-squared.",
+    "significance": "에타제곱보다 보수적이고 정확한 모집단 효과크기 추정을 제공하여, 연구 결과의 일반화 가능성을 더 현실적으로 평가할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 헤이스",
+        "name_en": "William L. Hays",
+        "contribution": "분산분석에서 오메가제곱을 모집단 효과크기의 비편향 추정치로 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-Squared",
+        "id": "EFFECT_ET_005"
+      },
+      {
+        "name_ko": "부분 에타제곱",
+        "name_en": "Partial Eta-Squared",
+        "id": "EFFECT_PE_006"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ω² = (SS_between - df_between × MS_error) / (SS_total + MS_error) → '오차를 빼서 보정'",
+      "differential": "오메가제곱은 에타제곱의 비편향 보정 버전으로, 에타제곱보다 항상 작은 값을 산출한다.",
+      "key_point": "에타제곱이 표본의 효과크기를 과대추정하는 문제를 오차항(MS_error)으로 보정한 것이다.",
+      "common_mistake": "오메가제곱이 에타제곱보다 '더 나은' 지표라고만 생각하고, 실제로 SPSS 등에서 기본 보고되지 않는다는 점을 간과하는 것."
+    }
+  },
+  {
+    "id": "EFFECT_R2_008",
+    "terminology": "R제곱 (R-Squared)",
+    "terminology_ko": "R제곱",
+    "terminology_en": "R-Squared",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "회귀분석에서 예측변인(들)이 결과변인의 전체 분산 중 설명하는 비율을 나타내는 결정계수로, 모형의 설명력을 0에서 1 사이의 값으로 표현한다.",
+    "definition_en": "The coefficient of determination in regression analysis indicating the proportion of total variance in the outcome variable explained by the predictor(s), expressed as a value between 0 and 1.",
+    "significance": "회귀모형의 적합도와 예측력을 직관적으로 보여주는 핵심 효과크기 지표로, 심리학 연구에서 변인 간 관계의 실질적 크기를 평가하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "시월 라이트",
+        "name_en": "Sewall Wright",
+        "contribution": "경로분석과 결정계수의 이론적 기초를 발전시켰다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "R² = .01(작은), .09(중간), .25(큰) 해석 기준을 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "CORR_CD_006"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-Squared",
+        "id": "EFFECT_ET_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "R² (결정계수)",
+        "description": "예측변인이 설명하는 분산 비율의 표본 추정치"
+      },
+      {
+        "name": "조정된 R² (Adjusted R²)",
+        "description": "예측변인 수에 대한 벌점을 적용하여 과대추정을 보정한 결정계수"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "R² = r × r → 상관계수를 제곱하면 설명되는 분산 비율이 된다",
+      "differential": "R²는 설명된 분산의 비율이고, r은 관계의 방향과 강도를 나타낸다. R² = .25는 r = .50에 해당한다.",
+      "key_point": "R² = .01(작은), .09(중간), .25(큰)이 코헨의 해석 기준이며, 예측변인을 추가하면 항상 증가하므로 조정된 R²가 더 정확하다.",
+      "common_mistake": "R²가 높으면 인과관계가 있다고 해석하는 것. R²는 설명력만 나타내며 인과성을 증명하지 않는다."
+    }
+  },
+  {
+    "id": "EFFECT_MA_009",
+    "terminology": "메타분석 (Meta-Analysis)",
+    "terminology_ko": "메타분석",
+    "terminology_en": "Meta-Analysis",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "동일한 연구 주제에 대한 다수의 독립적 연구 결과를 통계적으로 통합하여 전체적인 효과크기를 산출하는 양적 연구 종합 방법이다.",
+    "definition_en": "A quantitative method of synthesizing results from multiple independent studies on the same topic to calculate an overall effect size through statistical integration.",
+    "significance": "개별 연구의 한계를 극복하고 축적된 근거의 전체적 경향을 파악할 수 있게 하며, 심리학에서 이론 검증과 근거기반 실무의 핵심 방법론이다.",
+    "key_researchers": [
+      {
+        "name_ko": "진 글래스",
+        "name_en": "Gene V. Glass",
+        "contribution": "1976년 '메타분석'이라는 용어를 최초로 사용하고 심리치료 효과에 대한 최초의 대규모 메타분석을 수행했다."
+      },
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "메타분석의 통계적 방법론을 체계화하고, 효과크기의 분산 추정 방법을 개발했다."
+      },
+      {
+        "name_ko": "잉그램 올킨",
+        "name_en": "Ingram Olkin",
+        "contribution": "Hedges와 함께 『Statistical Methods for Meta-Analysis』를 공저하여 메타분석의 수리적 기초를 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "숲그림",
+        "name_en": "Forest Plot",
+        "id": "EFFECT_FP_023"
+      },
+      {
+        "name_ko": "고정효과 모형",
+        "name_en": "Fixed-Effect Model",
+        "id": "EFFECT_FE_029"
+      },
+      {
+        "name_ko": "무선효과 모형",
+        "name_en": "Random-Effects Model",
+        "id": "EFFECT_RE_030"
+      },
+      {
+        "name_ko": "반복검증",
+        "name_en": "Replication",
+        "id": "FOUND_RP_031"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "고정효과 메타분석 (Fixed-Effect Meta-Analysis)",
+        "description": "모든 연구가 동일한 모집단 효과크기를 추정한다고 가정"
+      },
+      {
+        "name": "무선효과 메타분석 (Random-Effects Meta-Analysis)",
+        "description": "연구 간 진정한 효과크기의 변산을 허용"
+      },
+      {
+        "name": "개별 참여자 데이터 메타분석 (IPD Meta-Analysis)",
+        "description": "원시 데이터를 수집하여 통합 분석"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Meta(초월) + Analysis(분석) = '분석의 분석', 연구들을 모아 다시 분석",
+      "differential": "메타분석은 통계적 통합을 수행하는 양적 방법이고, 체계적 문헌고찰(systematic review)은 질적 평가를 포함하는 더 포괄적 과정이다.",
+      "key_point": "효과크기를 공통 척도로 변환하여 서로 다른 연구 결과를 비교 가능하게 만드는 것이 핵심이다.",
+      "common_mistake": "메타분석에 포함된 개별 연구의 질이 낮으면 결과도 신뢰할 수 없다는 'garbage in, garbage out' 문제를 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "EFFECT_OR_010",
+    "terminology": "오즈비 (Odds Ratio)",
+    "terminology_ko": "오즈비",
+    "terminology_en": "Odds Ratio",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "두 집단에서 특정 사건이 발생할 오즈(odds)의 비율로, 처치집단의 오즈를 통제집단의 오즈로 나누어 산출하며, 범주형 자료에서의 효과크기를 나타낸다.",
+    "definition_en": "The ratio of the odds of an event occurring in one group to the odds in another group, computed by dividing the treatment group's odds by the control group's odds, representing effect size for categorical data.",
+    "significance": "임상 연구와 역학 연구에서 위험 요인과 결과 변인 간의 관련성 강도를 표현하는 핵심 지표로, 로지스틱 회귀분석의 기본 효과크기이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제롬 콘필드",
+        "name_en": "Jerome Cornfield",
+        "contribution": "오즈비를 역학 연구에서 상대위험도의 근사치로 사용할 수 있음을 증명했다."
+      },
+      {
+        "name_ko": "데이비드 콕스",
+        "name_en": "David Cox",
+        "contribution": "로지스틱 회귀모형을 발전시켜 오즈비의 통계적 추론 기반을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상대위험도",
+        "name_en": "Relative Risk",
+        "id": "EFFECT_RR_011"
+      },
+      {
+        "name_ko": "절대위험도",
+        "name_en": "Absolute Risk Reduction",
+        "id": "EFFECT_AR_012"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "크래머의 V",
+        "name_en": "Cramér's V",
+        "id": "EFFECT_CV_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "OR = (a/b) / (c/d) → 2×2 교차표에서 대각선 곱의 비 = ad/bc",
+      "differential": "오즈비는 오즈(확률/(1-확률))의 비율이고, 상대위험도는 확률 자체의 비율이다. 사건이 드물면 두 값이 비슷하다.",
+      "key_point": "OR = 1이면 차이 없음, OR > 1이면 처치군 위험 증가, OR < 1이면 처치군 위험 감소를 의미한다.",
+      "common_mistake": "오즈비를 확률의 비율(상대위험도)과 혼동하는 것. 오즈비 2.0은 '확률이 2배'가 아니라 '오즈가 2배'이다."
+    }
+  },
+  {
+    "id": "EFFECT_RR_011",
+    "terminology": "상대위험도 (Relative Risk)",
+    "terminology_ko": "상대위험도",
+    "terminology_en": "Relative Risk",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "실험집단에서 사건이 발생할 확률을 통제집단에서 사건이 발생할 확률로 나눈 비율로, 처치가 사건 발생 가능성을 얼마나 변화시키는지를 나타낸다.",
+    "definition_en": "The ratio of the probability of an event occurring in the treatment group to the probability in the control group, indicating how much the treatment changes the likelihood of the event.",
+    "significance": "임상 시험과 코호트 연구에서 처치 효과를 직관적으로 전달하는 데 사용되며, 오즈비보다 해석이 용이하여 실무적 의사결정에 자주 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "오스틴 브래드포드 힐",
+        "name_en": "Austin Bradford Hill",
+        "contribution": "역학 연구에서 인과관계 추론의 기준을 정립하고, 상대위험도의 활용을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "오즈비",
+        "name_en": "Odds Ratio",
+        "id": "EFFECT_OR_010"
+      },
+      {
+        "name_ko": "절대위험도",
+        "name_en": "Absolute Risk Reduction",
+        "id": "EFFECT_AR_012"
+      },
+      {
+        "name_ko": "NNT",
+        "name_en": "Number Needed to Treat",
+        "id": "EFFECT_NT_013"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "RR = P(사건|처치) / P(사건|통제) → '두 확률의 비율'",
+      "differential": "상대위험도는 두 확률의 비율이고, 오즈비는 두 오즈의 비율이다. 사건 발생률이 낮을수록 둘의 차이가 작아진다.",
+      "key_point": "RR = 1이면 차이 없음, RR < 1이면 처치군이 위험 감소, RR > 1이면 처치군이 위험 증가를 의미한다.",
+      "common_mistake": "상대위험도와 절대위험도를 혼동하는 것. RR = 2.0이더라도 기저율이 0.1%이면 절대 차이는 매우 작다."
+    }
+  },
+  {
+    "id": "EFFECT_AR_012",
+    "terminology": "절대위험도 감소 (Absolute Risk Reduction)",
+    "terminology_ko": "절대위험도 감소",
+    "terminology_en": "Absolute Risk Reduction",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "통제집단의 사건 발생률에서 실험집단의 사건 발생률을 뺀 차이로, 처치에 의한 사건 발생 확률의 실제 감소량을 나타내는 효과크기이다.",
+    "definition_en": "The difference between the event rate in the control group and the event rate in the treatment group, representing the actual reduction in event probability attributable to the treatment.",
+    "significance": "상대위험도만으로는 알 수 없는 실질적 이득의 크기를 제공하여, 임상적 의사결정과 비용-효과 분석에 필수적인 정보를 전달한다.",
+    "key_researchers": [
+      {
+        "name_ko": "더글러스 알트만",
+        "name_en": "Douglas G. Altman",
+        "contribution": "임상 시험 보고에서 절대위험도 감소와 NNT의 중요성을 강조하고 CONSORT 성명의 개발을 주도했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상대위험도",
+        "name_en": "Relative Risk",
+        "id": "EFFECT_RR_011"
+      },
+      {
+        "name_ko": "NNT",
+        "name_en": "Number Needed to Treat",
+        "id": "EFFECT_NT_013"
+      },
+      {
+        "name_ko": "오즈비",
+        "name_en": "Odds Ratio",
+        "id": "EFFECT_OR_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ARR = P(통제) - P(처치) → '기저율에서 처치율을 빼면 절대 감소량'",
+      "differential": "ARR은 확률의 차이(절대값)이고, RR은 확률의 비율(상대값)이다. 기저율에 따라 같은 RR이라도 ARR은 크게 달라진다.",
+      "key_point": "NNT = 1/ARR이므로, ARR이 클수록 NNT가 작아져 처치 효율이 높다.",
+      "common_mistake": "상대위험도 50% 감소를 절대위험도 50% 감소로 해석하는 것. 기저율이 2%인 경우 50% 상대 감소는 1%의 절대 감소에 불과하다."
+    }
+  },
+  {
+    "id": "EFFECT_NT_013",
+    "terminology": "NNT (Number Needed to Treat)",
+    "terminology_ko": "NNT",
+    "terminology_en": "Number Needed to Treat",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "한 명의 추가적인 긍정적 결과를 얻기 위해 처치해야 하는 환자 수로, 절대위험도 감소(ARR)의 역수(1/ARR)로 계산되는 임상적 효과크기 지표이다.",
+    "definition_en": "The number of patients who need to be treated to achieve one additional positive outcome, calculated as the reciprocal of the absolute risk reduction (1/ARR), serving as a clinically meaningful effect size measure.",
+    "significance": "처치 효과를 가장 직관적으로 전달하는 지표로, 임상가와 환자가 치료의 실용적 가치를 이해하고 의사결정을 내리는 데 핵심적 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "앤드루 래드",
+        "name_en": "Andreas Laupacis",
+        "contribution": "1988년 NNT 개념을 최초로 제안하여 임상 시험 결과의 해석을 혁신했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "절대위험도 감소",
+        "name_en": "Absolute Risk Reduction",
+        "id": "EFFECT_AR_012"
+      },
+      {
+        "name_ko": "상대위험도",
+        "name_en": "Relative Risk",
+        "id": "EFFECT_RR_011"
+      },
+      {
+        "name_ko": "오즈비",
+        "name_en": "Odds Ratio",
+        "id": "EFFECT_OR_010"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "NNT (Number Needed to Treat)",
+        "description": "이득을 위한 처치 필요 수 (NNT가 작을수록 효과적)"
+      },
+      {
+        "name": "NNH (Number Needed to Harm)",
+        "description": "한 명의 부작용을 유발하는 처치 수 (NNH가 클수록 안전)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "NNT = 1/ARR → 'ARR이 10%면 NNT = 10, 즉 10명 치료하면 1명 추가 호전'",
+      "differential": "NNT는 절대적 효과(몇 명을 치료해야 하는가)를, NNH는 부작용(몇 명을 치료하면 1명 해가 되는가)을 나타낸다.",
+      "key_point": "NNT = 1이 이론적 최대 효과(모든 환자 호전)이고, NNT가 클수록 처치 효율이 낮다.",
+      "common_mistake": "NNT를 해석할 때 대상 집단과 기간을 무시하는 것. NNT = 10은 '어떤 모집단에서 어떤 기간 동안'인지에 따라 의미가 달라진다."
+    }
+  },
+  {
+    "id": "EFFECT_CV_014",
+    "terminology": "크래머의 V (Cramér's V)",
+    "terminology_ko": "크래머의 V",
+    "terminology_en": "Cramér's V",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "카이제곱 통계량을 표본크기와 교차표의 최소 차원으로 보정하여 0에서 1 사이의 값으로 표준화한 범주형 변인 간 연관성의 효과크기 지표이다.",
+    "definition_en": "An effect size measure for the association between categorical variables, standardized to range from 0 to 1 by correcting the chi-square statistic for sample size and the minimum dimension of the contingency table.",
+    "significance": "카이제곱 검정의 결과를 보완하여 범주형 변인 간 관계의 실질적 강도를 평가할 수 있으며, 교차표 크기에 관계없이 비교 가능한 효과크기를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "하랄드 크래머",
+        "name_en": "Harald Cramér",
+        "contribution": "카이제곱 기반 연관성 측도를 표준화하여 Cramér's V를 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "파이계수",
+        "name_en": "Phi Coefficient",
+        "id": "EFFECT_PH_015"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "오즈비",
+        "name_en": "Odds Ratio",
+        "id": "EFFECT_OR_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "V = √(χ²/(N × (k-1))) → '카이제곱을 N과 차원으로 나눠 표준화'",
+      "differential": "크래머의 V는 모든 크기의 교차표에 적용 가능하지만, 파이계수는 2×2 교차표에서만 사용한다.",
+      "key_point": "V = .10(작은), .30(중간), .50(큰)이 일반적 해석 기준이며, 범위는 항상 0~1이다.",
+      "common_mistake": "크래머의 V를 2×2가 아닌 교차표에서 파이계수와 동일시하는 것. 2×2에서만 두 값이 같다."
+    }
+  },
+  {
+    "id": "EFFECT_PH_015",
+    "terminology": "파이계수 (Phi Coefficient)",
+    "terminology_ko": "파이계수",
+    "terminology_en": "Phi Coefficient",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "2×2 교차표에서 두 이분 변인 간 연관성의 강도와 방향을 나타내는 상관계수로, φ = √(χ²/N)으로 계산되며 -1에서 +1 사이의 값을 가진다.",
+    "definition_en": "A correlation coefficient for the association between two dichotomous variables in a 2×2 contingency table, calculated as φ = √(χ²/N) and ranging from -1 to +1.",
+    "significance": "2×2 교차표에서의 효과크기를 피어슨 상관계수와 동일한 척도로 표현하여, 범주형 자료와 연속형 자료의 효과크기 비교를 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "카이제곱 검정과 상관계수를 개발하여 파이계수의 수학적 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "크래머의 V",
+        "name_en": "Cramér's V",
+        "id": "EFFECT_CV_014"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "포인트 이연상관",
+        "name_en": "Point-Biserial Correlation",
+        "id": "EFFECT_PB_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "φ(파이) = √(χ²/N) → '카이제곱을 N으로 나누고 루트'",
+      "differential": "파이계수는 2×2 전용이고 방향(+/-)이 있지만, 크래머의 V는 모든 크기의 교차표에 적용되고 항상 양수이다.",
+      "key_point": "2×2 교차표에서 φ = Cramér's V이며, 피어슨 r과 동일한 해석이 가능하다.",
+      "common_mistake": "파이계수를 3×3 이상의 교차표에 적용하려는 것. 이 경우 크래머의 V를 사용해야 한다."
+    }
+  },
+  {
+    "id": "EFFECT_PB_016",
+    "terminology": "포인트 이연상관 (Point-Biserial Correlation)",
+    "terminology_ko": "포인트 이연상관",
+    "terminology_en": "Point-Biserial Correlation",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "하나의 이분 변인과 하나의 연속 변인 간의 상관관계를 나타내는 계수로, 피어슨 상관계수의 특수한 경우이며 독립표본 t검정의 효과크기로도 사용된다.",
+    "definition_en": "A correlation coefficient between one dichotomous variable and one continuous variable, a special case of the Pearson correlation that also serves as an effect size measure for independent samples t-tests.",
+    "significance": "t검정 결과를 상관계수 형태의 효과크기로 변환할 수 있게 하여, 서로 다른 분석 방법의 결과를 공통 척도로 비교하는 데 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "상관계수의 일반 이론을 개발하여 포인트 이연상관의 수학적 기초를 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "파이계수",
+        "name_en": "Phi Coefficient",
+        "id": "EFFECT_PH_015"
+      },
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent Samples t-test",
+        "id": "TTEST_IT_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Point(점, 이분) + Biserial(이연) → 이분 변인과 연속 변인의 상관",
+      "differential": "포인트 이연상관은 자연적 이분 변인(남/여)에, 이연상관(biserial correlation)은 인위적으로 이분화된 연속 변인에 사용한다.",
+      "key_point": "r_pb = d / √(d² + 4)로 코헨의 d에서 변환 가능하며, t검정과 상관분석의 효과크기를 연결하는 다리 역할을 한다.",
+      "common_mistake": "포인트 이연상관과 이연상관(biserial correlation)을 혼동하는 것. 후자는 연속 변인을 인위적으로 이분화한 경우에 사용한다."
+    }
+  },
+  {
+    "id": "EFFECT_WR_017",
+    "terminology": "위험비 (Hazard Ratio)",
+    "terminology_ko": "위험비",
+    "terminology_en": "Hazard Ratio",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "생존분석에서 두 집단의 위험 함수(hazard function) 비율로, 시간 경과에 따른 사건 발생률의 상대적 차이를 나타내는 효과크기 지표이다.",
+    "definition_en": "The ratio of hazard functions between two groups in survival analysis, indicating the relative difference in event rates over time as an effect size measure.",
+    "significance": "시간 의존적 사건(치료 종결, 재발 등)의 분석에서 처치 효과를 정량화하며, 종단 연구와 임상 시험에서 널리 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 콕스",
+        "name_en": "David Cox",
+        "contribution": "1972년 비례위험 모형(Cox proportional hazards model)을 개발하여 위험비 추정의 기반을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상대위험도",
+        "name_en": "Relative Risk",
+        "id": "EFFECT_RR_011"
+      },
+      {
+        "name_ko": "오즈비",
+        "name_en": "Odds Ratio",
+        "id": "EFFECT_OR_010"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HR = hazard_처치 / hazard_통제 → '시간에 따른 사건 발생 속도의 비'",
+      "differential": "위험비는 시간 경과를 고려한 순간적 위험률의 비이고, 상대위험도는 특정 시점에서의 확률 비이다.",
+      "key_point": "HR = 1이면 차이 없음, HR < 1이면 처치군이 사건 발생률 감소, HR > 1이면 증가를 의미한다.",
+      "common_mistake": "위험비를 상대위험도와 동일시하는 것. 위험비는 시간 의존적 개념이고, 비례위험 가정이 필요하다."
+    }
+  },
+  {
+    "id": "EFFECT_EI_018",
+    "terminology": "효과크기 해석 기준 (Effect Size Benchmarks)",
+    "terminology_ko": "효과크기 해석 기준",
+    "terminology_en": "Effect Size Benchmarks",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "효과크기의 실질적 의미를 판단하기 위해 코헨이 제안한 편의적 기준(작은/중간/큰 효과)으로, d, r, η² 등 각 지표별로 구체적인 수치 기준이 있다.",
+    "definition_en": "Conventional benchmarks proposed by Cohen for judging the practical significance of effect sizes (small/medium/large), with specific numerical criteria for each index such as d, r, and η².",
+    "significance": "연구자들이 효과크기의 크기를 직관적으로 판단할 수 있는 공통 기준을 제공하지만, 연구 맥락과 분야에 따라 유연하게 적용해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "『Statistical Power Analysis for the Behavioral Sciences』에서 작은/중간/큰 효과의 기준치를 체계적으로 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-Squared",
+        "id": "EFFECT_ET_005"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-Squared",
+        "id": "EFFECT_R2_008"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "d 기준: 0.2/0.5/0.8",
+        "description": "코헨의 d에 대한 작은/중간/큰 효과 기준"
+      },
+      {
+        "name": "r 기준: .10/.30/.50",
+        "description": "상관계수에 대한 작은/중간/큰 효과 기준"
+      },
+      {
+        "name": "η² 기준: .01/.06/.14",
+        "description": "에타제곱에 대한 작은/중간/큰 효과 기준"
+      },
+      {
+        "name": "R² 기준: .02/.13/.26",
+        "description": "R제곱에 대한 작은/중간/큰 효과 기준"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "d = 2-5-8, r = 1-3-5, η² = 1-6-14 → '각 지표별 작은-중간-큰 숫자 세트'",
+      "differential": "코헨의 기준은 '편의적 지침'일 뿐 절대적 규칙이 아니다. 연구 맥락에서 작은 효과도 매우 중요할 수 있다.",
+      "key_point": "d = 0.2(작은), 0.5(중간), 0.8(큰); r = .10(작은), .30(중간), .50(큰); η² = .01(작은), .06(중간), .14(큰)이 코헨의 기준이다.",
+      "common_mistake": "코헨의 기준을 기계적으로 적용하는 것. 코헨 자신도 이 기준이 맥락을 무시한 임의적 편의에 불과하다고 경고했다."
+    }
+  },
+  {
+    "id": "EFFECT_CI_019",
+    "terminology": "신뢰구간 (Confidence Interval)",
+    "terminology_ko": "신뢰구간",
+    "terminology_en": "Confidence Interval",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "모집단 모수의 참값이 포함될 것으로 기대되는 값의 범위로, 점추정치의 정밀성과 불확실성을 구간으로 표현하며, 보통 95% 신뢰수준을 사용한다.",
+    "definition_en": "A range of values within which the true population parameter is expected to fall, expressing the precision and uncertainty of a point estimate, typically at a 95% confidence level.",
+    "significance": "효과크기의 점추정치만으로는 알 수 없는 추정의 정밀도를 제공하며, APA는 모든 통계 분석에서 효과크기와 함께 신뢰구간을 보고할 것을 권장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "1937년 신뢰구간의 수리적 이론을 정립하여 구간 추정의 기반을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "95% 신뢰구간",
+        "description": "동일한 방법으로 반복 표집하면 95%의 구간이 모수를 포함"
+      },
+      {
+        "name": "99% 신뢰구간",
+        "description": "더 넓은 구간으로 모수 포함 확률을 높인 구간"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "CI = 점추정치 ± (임계값 × 표준오차) → '추정치 주변의 불확실성 범위'",
+      "differential": "신뢰구간은 모수가 '이 범위 안에 있다'는 것이 아니라, '이 방법으로 반복하면 95%의 구간이 모수를 포함한다'는 의미이다.",
+      "key_point": "95% CI가 0(차이) 또는 1(비율)을 포함하지 않으면 통계적으로 유의한 것이며, p < .05와 동일한 결론을 준다.",
+      "common_mistake": "'모수가 95% 확률로 이 구간 안에 있다'고 해석하는 것. 모수는 고정값이고, 95%는 구간 생성 절차의 신뢰도를 의미한다."
+    }
+  },
+  {
+    "id": "EFFECT_SP_020",
+    "terminology": "통계적 검정력 (Statistical Power)",
+    "terminology_ko": "통계적 검정력",
+    "terminology_en": "Statistical Power",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "모집단에 실제로 효과가 존재할 때 귀무가설을 올바르게 기각할 확률(1 - β)로, 제2종 오류를 범하지 않을 확률을 나타낸다.",
+    "definition_en": "The probability of correctly rejecting the null hypothesis when an effect truly exists in the population (1 - β), representing the probability of avoiding a Type II error.",
+    "significance": "연구가 실제 효과를 탐지할 수 있는 능력을 나타내며, 검정력이 낮은 연구는 실제 효과를 놓칠 위험이 높아 자원 낭비와 잘못된 결론의 원인이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "행동과학 연구에서 검정력 분석의 중요성을 역설하고, 검정력 분석 방법론을 체계화했다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "에곤 피어슨과 함께 가설검정 이론에서 검정력 개념을 공식화했다."
+      },
+      {
+        "name_ko": "에곤 피어슨",
+        "name_en": "Egon Pearson",
+        "contribution": "네이만과 함께 제1종/제2종 오류와 검정력의 수학적 프레임워크를 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제2종 오류",
+        "name_en": "Type II Error",
+        "id": "HYPO_T2_004"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "표본크기 결정",
+        "name_en": "Sample Size Determination",
+        "id": "EFFECT_SD_021"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Power = 1 - β → '효과가 있을 때 찾아내는 힘', 보통 .80 이상을 목표로 한다",
+      "differential": "검정력은 '실제 효과를 탐지하는 능력'이고, 유의수준(α)은 '거짓 양성을 허용하는 기준'이다. 둘 다 가설검정의 오류를 통제한다.",
+      "key_point": "검정력은 표본크기, 효과크기, 유의수준, 검정방향(단측/양측)의 4가지 요인에 의해 결정된다.",
+      "common_mistake": "검정력이 높으면 연구 결과가 반드시 옳다고 생각하는 것. 높은 검정력은 효과를 '탐지할 확률'이 높다는 것이지, 결과의 정확성을 보장하지 않는다."
+    }
+  },
+  {
+    "id": "EFFECT_SD_021",
+    "terminology": "표본크기 결정 (Sample Size Determination)",
+    "terminology_ko": "표본크기 결정",
+    "terminology_en": "Sample Size Determination",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "연구에서 목표 검정력을 달성하기 위해 필요한 최소 표본크기를 산출하는 과정으로, 효과크기, 유의수준, 검정력, 검정 유형을 고려하여 계산한다.",
+    "definition_en": "The process of calculating the minimum sample size needed to achieve a target statistical power, considering effect size, significance level, power, and type of test.",
+    "significance": "적절한 표본크기는 연구의 검정력을 보장하고 자원의 효율적 사용을 가능하게 하며, IRB 심의와 연구비 신청에서 필수적으로 요구되는 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "다양한 통계 검정에 대한 표본크기 산출 공식과 표를 체계적으로 제시했다."
+      },
+      {
+        "name_ko": "프란츠 파울",
+        "name_en": "Franz Faul",
+        "contribution": "G*Power 소프트웨어를 개발하여 검정력 분석과 표본크기 결정을 대중화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통계적 검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "사전 검정력 분석",
+        "name_en": "A Priori Power Analysis",
+        "id": "EFFECT_AP_031"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "N = f(α, power, ES, test) → '네 가지 재료로 필요한 표본수 레시피를 만든다'",
+      "differential": "표본크기 결정은 연구 전에 수행하는 '사전 분석'이고, 사후 검정력 분석은 이미 수행된 연구의 검정력을 평가하는 것이다.",
+      "key_point": "G*Power 소프트웨어로 쉽게 산출 가능하며, 효과크기가 작을수록, 검정력이 높을수록 더 큰 표본이 필요하다.",
+      "common_mistake": "효과크기를 과대추정하여 필요 표본크기를 과소 산출하는 것. 보수적인 효과크기 추정이 중요하다."
+    }
+  },
+  {
+    "id": "EFFECT_PA_022",
+    "terminology": "검정력 분석 (Power Analysis)",
+    "terminology_ko": "검정력 분석",
+    "terminology_en": "Power Analysis",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "통계적 검정력, 효과크기, 표본크기, 유의수준 간의 관계를 분석하여 연구 설계의 적절성을 평가하거나 필요한 표본크기를 결정하는 절차이다.",
+    "definition_en": "A procedure that analyzes the relationships among statistical power, effect size, sample size, and significance level to evaluate research design adequacy or determine required sample size.",
+    "significance": "연구 계획 단계에서 적절한 표본크기를 결정하고, 완료된 연구에서 결과의 신뢰성을 평가하는 핵심 도구로, 연구 자원의 효율적 활용을 보장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "1969년 『Statistical Power Analysis for the Behavioral Sciences』를 출판하여 검정력 분석을 행동과학에 도입했다."
+      },
+      {
+        "name_ko": "프란츠 파울",
+        "name_en": "Franz Faul",
+        "contribution": "G*Power 소프트웨어를 개발하여 검정력 분석의 접근성을 높였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통계적 검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      },
+      {
+        "name_ko": "사전 검정력 분석",
+        "name_en": "A Priori Power Analysis",
+        "id": "EFFECT_AP_031"
+      },
+      {
+        "name_ko": "사후 검정력 분석",
+        "name_en": "Post Hoc Power Analysis",
+        "id": "EFFECT_PH_032"
+      },
+      {
+        "name_ko": "표본크기 결정",
+        "name_en": "Sample Size Determination",
+        "id": "EFFECT_SD_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "사전 검정력 분석 (A Priori)",
+        "description": "연구 전 필요한 표본크기를 결정하기 위한 분석"
+      },
+      {
+        "name": "사후 검정력 분석 (Post Hoc)",
+        "description": "연구 후 실제 달성된 검정력을 평가하는 분석"
+      },
+      {
+        "name": "민감도 분석 (Sensitivity)",
+        "description": "주어진 표본크기에서 탐지 가능한 최소 효과크기를 결정"
+      },
+      {
+        "name": "기준 분석 (Criterion)",
+        "description": "주어진 표본크기와 효과크기에서 최적의 유의수준을 결정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "검정력 분석의 4요소: α(유의수준) × ES(효과크기) × N(표본) × Power(검정력) → 3개를 알면 1개를 구한다",
+      "differential": "검정력 분석은 4요소 중 하나를 구하는 절차이고, 표본크기 결정은 검정력 분석의 한 유형(사전 분석)이다.",
+      "key_point": "G*Power가 가장 널리 사용되는 무료 소프트웨어이며, 사전/사후/민감도/기준의 4가지 유형을 지원한다.",
+      "common_mistake": "사후 검정력 분석이 비유의적 결과를 해석하는 데 유용하다고 생각하는 것. 사후 검정력은 p값의 단순 변환이라는 비판이 있다."
+    }
+  },
+  {
+    "id": "EFFECT_FP_023",
+    "terminology": "숲그림 (Forest Plot)",
+    "terminology_ko": "숲그림",
+    "terminology_en": "Forest Plot",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에서 각 개별 연구의 효과크기와 신뢰구간을 수평선으로 표시하고, 통합 효과크기를 다이아몬드로 표현하는 시각적 요약 그래프이다.",
+    "definition_en": "A graphical summary in meta-analysis that displays each study's effect size and confidence interval as horizontal lines, with the combined effect size represented as a diamond.",
+    "significance": "메타분석 결과를 한눈에 파악할 수 있게 하며, 개별 연구 간의 일관성과 이질성, 통합 효과크기의 정밀도를 시각적으로 전달한다.",
+    "key_researchers": [
+      {
+        "name_ko": "리처드 페토",
+        "name_en": "Richard Peto",
+        "contribution": "임상 시험의 메타분석에서 숲그림의 초기 형태를 개발했다."
+      },
+      {
+        "name_ko": "마이크 클라크",
+        "name_en": "Mike Clarke",
+        "contribution": "코크런 연합에서 숲그림의 표준화와 보급을 주도했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      },
+      {
+        "name_ko": "이질성",
+        "name_en": "Heterogeneity",
+        "id": "EFFECT_HT_024"
+      },
+      {
+        "name_ko": "깔때기 도표",
+        "name_en": "Funnel Plot",
+        "id": "EFFECT_FU_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Forest(숲) → 많은 나무(개별 연구)가 모여 숲(통합 결과)을 이루는 그림",
+      "differential": "숲그림은 각 연구의 효과크기와 통합 결과를 보여주고, 깔때기 도표는 출판편향을 시각적으로 평가한다.",
+      "key_point": "수직 기준선(보통 0 또는 1)을 가로지르지 않는 신뢰구간은 통계적으로 유의하며, 다이아몬드의 너비가 좁을수록 통합 추정의 정밀도가 높다.",
+      "common_mistake": "숲그림에서 개별 연구의 점 크기가 효과크기의 크기를 나타낸다고 생각하는 것. 점 크기는 보통 가중치(표본크기의 역)를 반영한다."
+    }
+  },
+  {
+    "id": "EFFECT_HT_024",
+    "terminology": "이질성 (Heterogeneity)",
+    "terminology_ko": "이질성",
+    "terminology_en": "Heterogeneity",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에 포함된 연구들의 효과크기가 우연(표집 오차)만으로 설명할 수 없을 정도로 서로 다른 정도를 나타내는 개념이다.",
+    "definition_en": "The degree to which effect sizes across studies in a meta-analysis differ beyond what would be expected from sampling error alone.",
+    "significance": "이질성이 높으면 단일 통합 효과크기의 의미가 제한되므로, 조절변인 분석이나 하위집단 분석을 통해 이질성의 원인을 탐색해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "메타분석에서 이질성을 검정하는 Q 통계량의 분포를 연구했다."
+      },
+      {
+        "name_ko": "줄리안 히긴스",
+        "name_en": "Julian P. T. Higgins",
+        "contribution": "이질성의 정도를 나타내는 I² 통계량을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "I² 통계량",
+        "name_en": "I-Squared Statistic",
+        "id": "EFFECT_I2_025"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      },
+      {
+        "name_ko": "무선효과 모형",
+        "name_en": "Random-Effects Model",
+        "id": "EFFECT_RE_030"
+      },
+      {
+        "name_ko": "민감도 분석",
+        "name_en": "Sensitivity Analysis",
+        "id": "EFFECT_SA_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "통계적 이질성 (Statistical Heterogeneity)",
+        "description": "효과크기의 변산이 표집오차 이상인 경우"
+      },
+      {
+        "name": "방법론적 이질성 (Methodological Heterogeneity)",
+        "description": "연구 설계와 방법의 차이에서 비롯되는 이질성"
+      },
+      {
+        "name": "임상적 이질성 (Clinical Heterogeneity)",
+        "description": "대상자, 처치, 결과변인의 차이에서 비롯되는 이질성"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Heterogeneity = hetero(다른) + geneity(종류) → '연구 결과들이 서로 다른 종류'",
+      "differential": "이질성은 연구 간 효과크기의 '불일치'를 나타내고, 출판편향은 연구의 '선택적 보고'를 나타낸다. 둘 다 메타분석의 타당성을 위협한다.",
+      "key_point": "Q 검정(이질성 유무)과 I²(이질성 정도)로 평가하며, I² > 75%이면 이질성이 상당히 높다.",
+      "common_mistake": "이질성이 높으면 메타분석을 수행할 수 없다고 생각하는 것. 무선효과 모형이나 조절변인 분석으로 대처할 수 있다."
+    }
+  },
+  {
+    "id": "EFFECT_I2_025",
+    "terminology": "I² 통계량 (I-Squared Statistic)",
+    "terminology_ko": "I² 통계량",
+    "terminology_en": "I-Squared Statistic",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에서 관찰된 효과크기의 전체 변산 중 진정한 이질성(연구 간 차이)이 차지하는 비율을 백분율로 나타내는 지표로, 0%에서 100% 사이의 값을 가진다.",
+    "definition_en": "A metric indicating the percentage of total variability in observed effect sizes attributable to true heterogeneity rather than sampling error, ranging from 0% to 100%.",
+    "significance": "Cochran의 Q 검정이 표본크기에 민감한 반면, I²는 연구 수에 비교적 독립적이어서 이질성의 '정도'를 보다 안정적으로 평가할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "줄리안 히긴스",
+        "name_en": "Julian P. T. Higgins",
+        "contribution": "I² = (Q - df)/Q × 100%를 제안하여 이질성의 정량적 평가 방법을 혁신했다."
+      },
+      {
+        "name_ko": "사이먼 톰프슨",
+        "name_en": "Simon G. Thompson",
+        "contribution": "Higgins와 함께 I² 통계량의 이론적 속성과 해석 기준을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "이질성",
+        "name_en": "Heterogeneity",
+        "id": "EFFECT_HT_024"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      },
+      {
+        "name_ko": "고정효과 모형",
+        "name_en": "Fixed-Effect Model",
+        "id": "EFFECT_FE_029"
+      },
+      {
+        "name_ko": "무선효과 모형",
+        "name_en": "Random-Effects Model",
+        "id": "EFFECT_RE_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "I² = (Q - df)/Q × 100% → '전체 변산에서 표집오차를 빼면 진짜 이질성 비율'",
+      "differential": "Q 검정은 이질성의 '유무'를 검정하고, I²는 이질성의 '정도'를 나타낸다. Q는 연구 수에 민감하지만 I²는 비교적 안정적이다.",
+      "key_point": "I² = 25%(낮음), 50%(중간), 75%(높음)가 Higgins의 해석 기준이다.",
+      "common_mistake": "I²가 0%이면 모든 연구의 효과크기가 동일하다고 해석하는 것. 0%는 관찰된 변산이 표집오차로 설명 가능하다는 뜻이다."
+    }
+  },
+  {
+    "id": "EFFECT_FU_026",
+    "terminology": "깔때기 도표 (Funnel Plot)",
+    "terminology_ko": "깔때기 도표",
+    "terminology_en": "Funnel Plot",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에서 각 연구의 효과크기를 x축, 정밀도(또는 표본크기)를 y축에 배치하여 출판편향의 존재를 시각적으로 평가하는 산점도이다.",
+    "definition_en": "A scatter plot in meta-analysis with each study's effect size on the x-axis and precision (or sample size) on the y-axis, used to visually assess the presence of publication bias.",
+    "significance": "출판편향이 없으면 대칭적인 역삼각형(깔때기) 모양이 나타나며, 비대칭은 출판편향의 존재를 시사하여 메타분석 결과의 신뢰성을 평가하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "리처드 라이트",
+        "name_en": "Richard J. Light",
+        "contribution": "1984년 깔때기 도표를 메타분석에서 출판편향 평가 도구로 제안했다."
+      },
+      {
+        "name_ko": "데이비드 필러머",
+        "name_en": "David B. Pillemer",
+        "contribution": "Light와 함께 메타분석의 시각적 평가 방법을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "출판편향",
+        "name_en": "Publication Bias",
+        "id": "EFFECT_PB_027"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      },
+      {
+        "name_ko": "숲그림",
+        "name_en": "Forest Plot",
+        "id": "EFFECT_FP_023"
+      },
+      {
+        "name_ko": "민감도 분석",
+        "name_en": "Sensitivity Analysis",
+        "id": "EFFECT_SA_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Funnel(깔때기) → 대칭 깔때기 모양이면 편향 없음, 비대칭이면 편향 의심",
+      "differential": "깔때기 도표는 출판편향의 '시각적' 평가이고, Egger 검정은 비대칭성의 '통계적' 검정이다.",
+      "key_point": "비대칭의 원인은 출판편향 외에도 연구 간 이질성, 방법론적 차이 등이 있으므로 다른 방법과 병행해야 한다.",
+      "common_mistake": "깔때기 도표의 비대칭이 반드시 출판편향을 의미한다고 단정하는 것. 소규모 연구 효과(small-study effects) 등 다른 원인도 가능하다."
+    }
+  },
+  {
+    "id": "EFFECT_PB_027",
+    "terminology": "출판편향 (Publication Bias)",
+    "terminology_ko": "출판편향",
+    "terminology_en": "Publication Bias",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "통계적으로 유의한 결과를 보고한 연구가 비유의적 결과를 보고한 연구보다 출판될 가능성이 높은 체계적 편향으로, 메타분석의 통합 효과크기를 과대추정하게 만든다.",
+    "definition_en": "A systematic bias where studies reporting statistically significant results are more likely to be published than those with non-significant findings, leading to overestimation of combined effect sizes in meta-analysis.",
+    "significance": "출판편향은 과학 문헌의 전체적 증거 기반을 왜곡하며, 메타분석 결과의 타당성을 위협하는 가장 심각한 문제 중 하나이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로버트 로젠탈",
+        "name_en": "Robert Rosenthal",
+        "contribution": "1979년 '파일서랍 문제(file drawer problem)'를 명명하여 출판편향의 심각성을 경고했다."
+      },
+      {
+        "name_ko": "콜린 비그",
+        "name_en": "Colin B. Begg",
+        "contribution": "깔때기 도표의 비대칭을 통계적으로 검정하는 Begg's rank correlation test를 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "깔때기 도표",
+        "name_en": "Funnel Plot",
+        "id": "EFFECT_FU_026"
+      },
+      {
+        "name_ko": "파일서랍 문제",
+        "name_en": "File Drawer Problem",
+        "id": "ETHICS_FD_025"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Publication Bias = 유의한 결과만 출판 → '가로등 아래서만 열쇠를 찾는 격'",
+      "differential": "출판편향은 연구 결과에 따른 '출판 여부'의 편향이고, 선택적 보고는 단일 연구 내에서 '결과 선별'의 편향이다.",
+      "key_point": "Trim-and-fill, Egger's test, fail-safe N 등으로 평가하며, 사전등록이 근본적 대안이다.",
+      "common_mistake": "출판편향은 연구자의 의도적 행위라고 생각하는 것. 학술지의 선호와 검토 과정에서도 발생하는 체계적 문제이다."
+    }
+  },
+  {
+    "id": "EFFECT_SA_028",
+    "terminology": "민감도 분석 (Sensitivity Analysis)",
+    "terminology_ko": "민감도 분석",
+    "terminology_en": "Sensitivity Analysis",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에서 특정 연구를 제외하거나 분석 조건을 변경했을 때 통합 효과크기가 얼마나 변하는지를 평가하여 결과의 강건성(robustness)을 검증하는 분석이다.",
+    "definition_en": "An analysis in meta-analysis that evaluates how much the combined effect size changes when specific studies are excluded or analytical conditions are altered, verifying the robustness of the results.",
+    "significance": "메타분석 결과가 특정 연구나 분석 결정에 과도하게 의존하지 않는지를 확인하여, 결과의 안정성과 신뢰성에 대한 증거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "메타분석 방법론에서 민감도 분석의 체계적 절차를 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      },
+      {
+        "name_ko": "이질성",
+        "name_en": "Heterogeneity",
+        "id": "EFFECT_HT_024"
+      },
+      {
+        "name_ko": "출판편향",
+        "name_en": "Publication Bias",
+        "id": "EFFECT_PB_027"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "제거법 (Leave-one-out)",
+        "description": "한 번에 하나의 연구를 제외하고 통합 효과크기 재산출"
+      },
+      {
+        "name": "하위집단 분석 (Subgroup Analysis)",
+        "description": "특정 기준으로 연구를 나누어 각 하위집단의 효과크기 비교"
+      },
+      {
+        "name": "조절변인 분석 (Moderator Analysis)",
+        "description": "이질성의 원인이 되는 조절변인을 메타회귀로 검정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Sensitivity = '민감하게 반응하는가?' → 조건을 바꿔도 결과가 안정적인지 확인",
+      "differential": "민감도 분석은 결과의 '강건성'을 검증하고, 이질성 분석은 연구 간 '불일치의 원인'을 탐색한다.",
+      "key_point": "하나의 연구를 제외했을 때 통합 효과크기가 크게 변하면, 그 연구가 결과에 과도한 영향을 미치고 있다는 신호이다.",
+      "common_mistake": "민감도 분석에서 결과가 변하면 메타분석이 실패했다고 해석하는 것. 어떤 조건에서 변하는지가 중요한 정보이다."
+    }
+  },
+  {
+    "id": "EFFECT_FE_029",
+    "terminology": "고정효과 모형 (Fixed-Effect Model)",
+    "terminology_ko": "고정효과 모형",
+    "terminology_en": "Fixed-Effect Model",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에서 모든 연구가 동일한 모집단 효과크기를 추정한다고 가정하는 통합 모형으로, 연구 간 변산은 표집오차에만 기인한다고 본다.",
+    "definition_en": "A meta-analytic model assuming all studies estimate the same population effect size, attributing between-study variability solely to sampling error.",
+    "significance": "동질적인 연구들을 통합할 때 정밀한 추정을 제공하지만, 연구 간 진정한 이질성이 있을 경우 신뢰구간을 과소추정하여 잘못된 결론을 유도할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "고정효과 메타분석의 수리적 기초를 체계화하고 가중평균 방법을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무선효과 모형",
+        "name_en": "Random-Effects Model",
+        "id": "EFFECT_RE_030"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      },
+      {
+        "name_ko": "이질성",
+        "name_en": "Heterogeneity",
+        "id": "EFFECT_HT_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Fixed = '고정된 하나의 진짜 효과' → 모든 연구가 같은 모집단에서 온다고 가정",
+      "differential": "고정효과 모형은 진짜 효과크기가 하나라고 가정하고, 무선효과 모형은 연구마다 다를 수 있다고 가정한다.",
+      "key_point": "가중치가 연구 내 분산(1/SE²)에만 기반하므로, 대표본 연구에 높은 가중치를 부여한다.",
+      "common_mistake": "이질성이 있을 때 고정효과 모형을 사용하는 것. I²가 높으면 무선효과 모형이 더 적절하다."
+    }
+  },
+  {
+    "id": "EFFECT_RE_030",
+    "terminology": "무선효과 모형 (Random-Effects Model)",
+    "terminology_ko": "무선효과 모형",
+    "terminology_en": "Random-Effects Model",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에서 각 연구의 진정한 효과크기가 공통 분포에서 무선적으로 추출된 것으로 가정하는 모형으로, 연구 간 분산(τ²)을 추가로 추정한다.",
+    "definition_en": "A meta-analytic model assuming each study's true effect size is randomly drawn from a distribution, additionally estimating between-study variance (τ²).",
+    "significance": "심리학 연구처럼 대상자, 설계, 맥락이 다양한 연구들을 통합할 때 보다 현실적인 가정을 반영하며, 이질성을 고려한 보수적인 추론을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "레베카 데시몬리안",
+        "name_en": "Rebecca DerSimonian",
+        "contribution": "DerSimonian-Laird 추정법을 개발하여 무선효과 메타분석의 표준 방법을 정립했다."
+      },
+      {
+        "name_ko": "닌 레어드",
+        "name_en": "Nan Laird",
+        "contribution": "DerSimonian과 함께 τ² 추정의 모멘트법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "고정효과 모형",
+        "name_en": "Fixed-Effect Model",
+        "id": "EFFECT_FE_029"
+      },
+      {
+        "name_ko": "이질성",
+        "name_en": "Heterogeneity",
+        "id": "EFFECT_HT_024"
+      },
+      {
+        "name_ko": "I² 통계량",
+        "name_en": "I-Squared Statistic",
+        "id": "EFFECT_I2_025"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Random = '무선적으로 다양한 효과' → 각 연구의 진짜 효과가 분포에서 추출",
+      "differential": "무선효과 모형은 연구 간 분산(τ²)을 추가로 추정하여 신뢰구간이 고정효과 모형보다 넓다.",
+      "key_point": "가중치 = 1/(연구 내 분산 + τ²)이므로, 소규모 연구에도 상대적으로 높은 가중치가 부여된다.",
+      "common_mistake": "무선효과 모형이 항상 고정효과 모형보다 '좋다'고 생각하는 것. 이질성이 없으면 두 모형의 결과는 동일하다."
+    }
+  },
+  {
+    "id": "EFFECT_AP_031",
+    "terminology": "사전 검정력 분석 (A Priori Power Analysis)",
+    "terminology_ko": "사전 검정력 분석",
+    "terminology_en": "A Priori Power Analysis",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "연구 수행 전에 목표 검정력(보통 .80)을 달성하기 위해 필요한 최소 표본크기를 예상 효과크기와 유의수준에 기반하여 산출하는 분석이다.",
+    "definition_en": "An analysis conducted before data collection to calculate the minimum sample size needed to achieve a target power level (typically .80) based on expected effect size and significance level.",
+    "significance": "연구 자원의 효율적 배분과 윤리적 연구 수행의 기반이 되며, 학위논문 계획서와 연구비 신청에서 필수적으로 요구되는 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "다양한 통계 검정별 표본크기 산출표를 제공하여 사전 검정력 분석을 실용화했다."
+      },
+      {
+        "name_ko": "프란츠 파울",
+        "name_en": "Franz Faul",
+        "contribution": "G*Power 소프트웨어에서 사전 분석(a priori) 기능을 구현하여 접근성을 높였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "검정력 분석",
+        "name_en": "Power Analysis",
+        "id": "EFFECT_PA_022"
+      },
+      {
+        "name_ko": "사후 검정력 분석",
+        "name_en": "Post Hoc Power Analysis",
+        "id": "EFFECT_PH_032"
+      },
+      {
+        "name_ko": "표본크기 결정",
+        "name_en": "Sample Size Determination",
+        "id": "EFFECT_SD_021"
+      },
+      {
+        "name_ko": "통계적 검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "A Priori(사전에) → '연구하기 전에' 필요한 N을 미리 계산",
+      "differential": "사전 분석은 연구 전 필요 N을 산출하고, 사후 분석은 연구 후 달성된 검정력을 계산한다.",
+      "key_point": "예상 효과크기는 선행연구나 파일럿 연구에서 얻으며, 보수적으로 추정하는 것이 바람직하다.",
+      "common_mistake": "사전 검정력 분석에서 큰 효과크기를 가정하여 필요 표본크기를 낮추는 '낙관적 설계'를 하는 것."
+    }
+  },
+  {
+    "id": "EFFECT_PH_032",
+    "terminology": "사후 검정력 분석 (Post Hoc Power Analysis)",
+    "terminology_ko": "사후 검정력 분석",
+    "terminology_en": "Post Hoc Power Analysis",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "이미 수행된 연구의 표본크기와 관찰된 효과크기를 이용하여 해당 연구가 달성한 통계적 검정력을 사후적으로 계산하는 분석이다.",
+    "definition_en": "An analysis that retrospectively calculates the statistical power achieved by a completed study using its sample size and observed effect size.",
+    "significance": "비유의적 결과가 낮은 검정력 때문인지를 평가하는 데 사용되지만, 관찰된 효과크기에 기반하므로 p값의 단순 변환에 불과하다는 비판이 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "행동과학 연구의 검정력이 전반적으로 낮다는 사실을 사후 검정력 분석으로 밝혔다."
+      },
+      {
+        "name_ko": "존 호인빌",
+        "name_en": "John M. Hoenig",
+        "contribution": "관찰된 검정력(observed power)의 무용성을 논증하여 사후 검정력 분석의 한계를 지적했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전 검정력 분석",
+        "name_en": "A Priori Power Analysis",
+        "id": "EFFECT_AP_031"
+      },
+      {
+        "name_ko": "검정력 분석",
+        "name_en": "Power Analysis",
+        "id": "EFFECT_PA_022"
+      },
+      {
+        "name_ko": "제2종 오류",
+        "name_en": "Type II Error",
+        "id": "HYPO_T2_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Post Hoc(사후에) → '연구를 마친 후에' 검정력이 얼마였는지 되돌아보는 것",
+      "differential": "사전 분석은 '앞으로의 연구'를 위해, 사후 분석은 '이미 한 연구'를 평가하기 위해 수행한다.",
+      "key_point": "관찰된 효과크기를 사용하면 p < .05일 때 검정력이 항상 높고, p > .05일 때 항상 낮아지므로 정보 가치가 제한적이다.",
+      "common_mistake": "비유의적 결과에 대해 사후 검정력이 낮으니 '효과가 없다고 결론내릴 수 없다'고 주장하는 것. 신뢰구간이 더 유익한 정보를 제공한다."
+    }
+  },
+  {
+    "id": "EFFECT_GP_033",
+    "terminology": "G*Power (G*Power Software)",
+    "terminology_ko": "G*Power",
+    "terminology_en": "G*Power Software",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "검정력 분석과 표본크기 결정을 위한 무료 통계 소프트웨어로, t검정, ANOVA, 상관, 회귀 등 다양한 통계 검정에 대한 사전/사후/민감도/기준 분석을 지원한다.",
+    "definition_en": "A free statistical software for power analysis and sample size determination, supporting a priori, post hoc, sensitivity, and criterion analyses for various statistical tests including t-tests, ANOVA, correlation, and regression.",
+    "significance": "검정력 분석의 접근성을 혁명적으로 높여, 복잡한 수식이나 표를 참조하지 않고도 연구자가 직접 필요 표본크기를 산출할 수 있게 하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "프란츠 파울",
+        "name_en": "Franz Faul",
+        "contribution": "G*Power 소프트웨어의 주 개발자로, 버전 1(1992)부터 3.1(2009)까지 지속적으로 발전시켰다."
+      },
+      {
+        "name_ko": "에드가 에르덴펠더",
+        "name_en": "Edgar Erdfelder",
+        "contribution": "G*Power의 공동 개발자로, 인지심리학적 관점에서 검정력 분석의 중요성을 강조했다."
+      },
+      {
+        "name_ko": "악셀 부흐너",
+        "name_en": "Axel Buchner",
+        "contribution": "G*Power의 공동 개발자로, 다양한 통계 검정에 대한 검정력 알고리즘을 구현했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "검정력 분석",
+        "name_en": "Power Analysis",
+        "id": "EFFECT_PA_022"
+      },
+      {
+        "name_ko": "사전 검정력 분석",
+        "name_en": "A Priori Power Analysis",
+        "id": "EFFECT_AP_031"
+      },
+      {
+        "name_ko": "표본크기 결정",
+        "name_en": "Sample Size Determination",
+        "id": "EFFECT_SD_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "G*Power = General Power → '범용 검정력 분석 도구'",
+      "differential": "G*Power는 빈도주의적 검정력 분석 도구이고, JASP/R의 BayesFactor는 베이즈적 증거 강도를 평가한다.",
+      "key_point": "5가지 분석 유형(사전/사후/민감도/기준/타협)을 제공하며, 입력에 3개를 넣으면 나머지 1개를 산출한다.",
+      "common_mistake": "G*Power의 결과를 절대적으로 신뢰하는 것. 입력한 효과크기 추정치의 정확성에 결과가 전적으로 의존한다."
+    }
+  },
+  {
+    "id": "EFFECT_CL_034",
+    "terminology": "공통언어 효과크기 (Common Language Effect Size)",
+    "terminology_ko": "공통언어 효과크기",
+    "terminology_en": "Common Language Effect Size",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "두 집단에서 각각 한 명을 무선적으로 뽑았을 때, 처치집단의 점수가 통제집단의 점수보다 높을 확률로 효과크기를 표현하는 직관적 지표이다.",
+    "definition_en": "An intuitive effect size measure expressing the probability that a randomly selected individual from the treatment group will score higher than a randomly selected individual from the control group.",
+    "significance": "비전문가도 이해할 수 있는 확률적 표현으로 효과크기를 전달하여, 연구 결과의 소통과 의사결정에 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "케네스 맥그로",
+        "name_en": "Kenneth O. McGraw",
+        "contribution": "1992년 공통언어 효과크기(CL)를 제안하여 효과크기의 직관적 해석 방법을 개발했다."
+      },
+      {
+        "name_ko": "S. P. 웡",
+        "name_en": "S. P. Wong",
+        "contribution": "McGraw와 함께 CL 지표를 공식화하고 다양한 효과크기와의 변환 공식을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "효과크기 해석 기준",
+        "name_en": "Effect Size Benchmarks",
+        "id": "EFFECT_EI_018"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CL = '보통 사람 말로 설명하는 효과크기' → d를 확률(%)로 변환",
+      "differential": "CL은 확률(0~1)로, Cohen's d는 표준편차 단위로 효과크기를 표현한다. d = 0.8일 때 CL ≈ .71이다.",
+      "key_point": "CL = .50이면 효과 없음(동전 던지기), CL = 1.0이면 완전한 분리(처치군이 항상 높음)를 의미한다.",
+      "common_mistake": "공통언어 효과크기가 '처치군의 x%가 좋아진다'는 의미라고 해석하는 것. 실제로는 무선 쌍의 비교 확률이다."
+    }
+  },
+  {
+    "id": "EFFECT_FSN_035",
+    "terminology": "안전계수 N (Fail-Safe N)",
+    "terminology_ko": "안전계수 N",
+    "terminology_en": "Fail-Safe N",
+    "category": "EFFECT",
+    "category_name": "효과크기와 검정력 (Effect Size & Statistical Power)",
+    "definition": "메타분석에서 통합 효과크기를 비유의적으로 만들기 위해 필요한 비유의적 연구의 수를 계산하여 출판편향의 영향을 평가하는 지표이다.",
+    "definition_en": "A metric in meta-analysis that calculates the number of non-significant studies needed to reduce the combined effect size to non-significance, evaluating the impact of publication bias.",
+    "significance": "출판편향이 메타분석 결론을 뒤집으려면 얼마나 많은 미출판 연구가 필요한지를 보여주어, 결과의 강건성을 직관적으로 평가할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로버트 로젠탈",
+        "name_en": "Robert Rosenthal",
+        "contribution": "1979년 파일서랍 문제에 대응하여 Fail-Safe N 개념을 최초로 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "출판편향",
+        "name_en": "Publication Bias",
+        "id": "EFFECT_PB_027"
+      },
+      {
+        "name_ko": "깔때기 도표",
+        "name_en": "Funnel Plot",
+        "id": "EFFECT_FU_026"
+      },
+      {
+        "name_ko": "메타분석",
+        "name_en": "Meta-Analysis",
+        "id": "EFFECT_MA_009"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "Rosenthal의 Fail-Safe N",
+        "description": "통합 p값을 비유의적으로 만드는 데 필요한 연구 수"
+      },
+      {
+        "name": "Orwin의 Fail-Safe N",
+        "description": "통합 효과크기를 특정 기준 이하로 만드는 데 필요한 연구 수"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Fail-Safe N = '안전 금고의 N' → 이만큼의 미출판 연구가 숨어 있어야 결론이 뒤집힘",
+      "differential": "Fail-Safe N은 출판편향의 '수량적' 평가이고, 깔때기 도표는 '시각적' 평가이다.",
+      "key_point": "Fail-Safe N이 포함된 연구 수의 5k + 10보다 크면 출판편향의 위협이 낮다고 판단한다 (Rosenthal 기준).",
+      "common_mistake": "Fail-Safe N이 크면 출판편향이 '없다'고 단정하는 것. 이 지표는 편향의 부재가 아니라 영향의 심각도를 평가한다."
+    }
+  }
+]

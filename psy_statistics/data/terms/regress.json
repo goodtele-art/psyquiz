@@ -1,0 +1,1808 @@
+[
+  {
+    "id": "REGRESS_SLR_001",
+    "terminology": "단순선형회귀 (Simple Linear Regression)",
+    "terminology_ko": "단순선형회귀",
+    "terminology_en": "Simple Linear Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "하나의 독립변인(예측변인)으로 하나의 종속변인(준거변인)을 예측하는 통계적 방법으로, 두 변인 간의 선형적 관계를 직선 방정식으로 모형화한다.",
+    "definition_en": "A statistical method that uses a single independent variable (predictor) to predict a single dependent variable (criterion), modeling the linear relationship between two variables as a straight-line equation.",
+    "significance": "심리학 연구에서 두 변인 간 인과적 예측 관계를 검증하는 가장 기본적인 방법으로, 상관에서 예측으로 나아가는 분석적 전환점을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "평균으로의 회귀 개념을 최초로 발견하고 회귀분석의 기초를 마련했다."
+      },
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "골턴의 아이디어를 수학적으로 공식화하여 현대 회귀분석의 통계적 틀을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "단순(하나의 예측변인) + 선형(직선) + 회귀(예측)",
+      "differential": "단순선형회귀는 예측변인이 1개이고, 다중회귀는 예측변인이 2개 이상이다.",
+      "key_point": "Y = a + bX 형태의 직선 방정식으로 표현되며, b는 기울기, a는 절편이다.",
+      "common_mistake": "상관이 높다고 반드시 회귀 예측이 정확한 것은 아니며, 인과관계를 의미하지도 않는다."
+    }
+  },
+  {
+    "id": "REGRESS_MR_002",
+    "terminology": "다중회귀 (Multiple Regression)",
+    "terminology_ko": "다중회귀",
+    "terminology_en": "Multiple Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "두 개 이상의 독립변인(예측변인)을 동시에 사용하여 하나의 종속변인을 예측하는 회귀분석 방법으로, 각 예측변인의 고유한 기여도를 평가할 수 있다.",
+    "definition_en": "A regression method that simultaneously uses two or more independent variables (predictors) to predict a single dependent variable, allowing evaluation of each predictor's unique contribution.",
+    "significance": "심리학 현상은 단일 원인으로 설명되기 어려우므로, 다중회귀는 여러 심리적 변인의 상대적 영향력을 비교하고 복합적 예측 모형을 구축하는 데 핵심적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "바바라 타바크닉",
+        "name_en": "Barbara Tabachnick",
+        "contribution": "Linda Fidell과 함께 다변량 통계의 실용적 안내서를 저술하여 행동과학 연구에서 다중회귀 활용을 대중화했다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "다중회귀에서의 효과크기, 검정력 분석, R² 해석 기준을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단순선형회귀",
+        "name_en": "Simple Linear Regression",
+        "id": "REGRESS_SLR_001"
+      },
+      {
+        "name_ko": "다중공선성",
+        "name_en": "Multicollinearity",
+        "id": "REGRESS_MC_016"
+      },
+      {
+        "name_ko": "위계적 회귀",
+        "name_en": "Hierarchical Regression",
+        "id": "REGRESS_HR_010"
+      },
+      {
+        "name_ko": "표준화 회귀계수",
+        "name_en": "Standardized Regression Coefficient",
+        "id": "REGRESS_BETA_024"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "동시입력법 (Enter/Simultaneous)",
+        "description": "모든 예측변인을 한꺼번에 투입하는 방법"
+      },
+      {
+        "name": "단계적 회귀 (Stepwise)",
+        "description": "통계적 기준에 따라 변인을 자동 선택하는 방법"
+      },
+      {
+        "name": "위계적 회귀 (Hierarchical)",
+        "description": "이론적 근거에 따라 단계별로 변인을 투입하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "다중(Multiple) = 예측변인이 여러 개, 종속변인은 하나",
+      "differential": "다중회귀는 종속변인이 1개이지만 예측변인이 여러 개이고, 다변량 회귀는 종속변인 자체가 여러 개이다.",
+      "key_point": "각 예측변인의 고유 기여도(다른 변인 통제 후)를 평가할 수 있다는 것이 핵심이다.",
+      "common_mistake": "예측변인을 많이 넣을수록 좋다고 오해하지만, 다중공선성 문제와 과적합 위험이 증가한다."
+    }
+  },
+  {
+    "id": "REGRESS_OLS_003",
+    "terminology": "최소제곱법 (Ordinary Least Squares)",
+    "terminology_ko": "최소제곱법",
+    "terminology_en": "Ordinary Least Squares",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "관찰값과 예측값 간 차이(잔차)의 제곱합을 최소화하는 방식으로 회귀계수를 추정하는 방법으로, 회귀분석의 가장 기본적인 추정법이다.",
+    "definition_en": "A method of estimating regression coefficients by minimizing the sum of squared differences (residuals) between observed and predicted values, serving as the most fundamental estimation technique in regression analysis.",
+    "significance": "심리학 연구에서 사용되는 대부분의 회귀모형이 OLS에 기반하며, 데이터에 가장 적합한 직선(또는 평면)을 객관적으로 결정하는 수학적 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "카를 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "최소제곱법의 수학적 원리를 독립적으로 개발하고 정규분포와의 관계를 정립했다."
+      },
+      {
+        "name_ko": "아드리앵마리 르장드르",
+        "name_en": "Adrien-Marie Legendre",
+        "contribution": "1805년 최소제곱법을 최초로 공식 출판하여 통계적 추정법의 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_RES_005"
+      },
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "회귀선",
+        "name_en": "Regression Line",
+        "id": "REGRESS_RL_011"
+      },
+      {
+        "name_ko": "가정 검증",
+        "name_en": "Assumption Checking",
+        "id": "REGRESS_AC_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "OLS = 잔차²의 합(Sum of Squared Residuals)을 '최소(Least)'로 만드는 방법",
+      "differential": "최소제곱법은 잔차의 제곱합을 최소화하지만, 최대우도법(MLE)은 데이터가 관찰될 확률을 최대화한다.",
+      "key_point": "잔차의 단순 합이 아닌 '제곱합'을 최소화하는 이유는 양수·음수 잔차가 상쇄되는 것을 방지하기 위함이다.",
+      "common_mistake": "OLS가 항상 최선의 추정법이라고 오해하지만, 정규성·등분산성 등 가정이 위반되면 편향된 결과를 산출할 수 있다."
+    }
+  },
+  {
+    "id": "REGRESS_RC_004",
+    "terminology": "회귀계수 (Regression Coefficient)",
+    "terminology_ko": "회귀계수",
+    "terminology_en": "Regression Coefficient",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀 방정식에서 독립변인이 한 단위 변화할 때 종속변인의 예측된 변화량을 나타내는 값으로, 변인 간 관계의 방향과 크기를 수량화한다.",
+    "definition_en": "A value in a regression equation that represents the predicted change in the dependent variable for a one-unit change in the independent variable, quantifying the direction and magnitude of the relationship between variables.",
+    "significance": "심리학 연구에서 특정 예측변인이 결과변인에 미치는 영향의 크기와 방향을 해석하는 핵심 지표로, 이론 검증과 실무적 의사결정의 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "부모-자녀 키 연구에서 회귀 개념을 최초로 도입하며 회귀계수의 기초를 마련했다."
+      },
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "회귀계수의 수학적 추정법과 표준오차 공식을 체계적으로 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준화 회귀계수",
+        "name_en": "Standardized Regression Coefficient",
+        "id": "REGRESS_BETA_024"
+      },
+      {
+        "name_ko": "비표준화 회귀계수",
+        "name_en": "Unstandardized Regression Coefficient",
+        "id": "REGRESS_B_025"
+      },
+      {
+        "name_ko": "기울기",
+        "name_en": "Slope",
+        "id": "REGRESS_SL_013"
+      },
+      {
+        "name_ko": "절편",
+        "name_en": "Intercept",
+        "id": "REGRESS_INT_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "비표준화 회귀계수 (B)",
+        "description": "원래 측정 단위로 표현된 회귀계수"
+      },
+      {
+        "name": "표준화 회귀계수 (β)",
+        "description": "표준편차 단위로 변환한 회귀계수로, 변인 간 상대적 비교 가능"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "회귀계수 = X가 1 올라가면 Y가 얼마나 변하는가",
+      "differential": "비표준화 회귀계수(B)는 원래 단위의 변화량이고, 표준화 회귀계수(β)는 표준편차 단위로 상대적 비교가 가능하다.",
+      "key_point": "회귀계수의 부호(+/-)는 관계의 방향을, 절대값은 관계의 크기를 나타낸다.",
+      "common_mistake": "회귀계수가 크다고 반드시 중요한 변인이라고 해석하면 안 되며, 측정 단위에 따라 크기가 달라지므로 표준화 계수로 비교해야 한다."
+    }
+  },
+  {
+    "id": "REGRESS_RES_005",
+    "terminology": "잔차 (Residual)",
+    "terminology_ko": "잔차",
+    "terminology_en": "Residual",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "관찰된 종속변인의 실제값과 회귀모형에 의해 예측된 값 간의 차이로, 모형이 설명하지 못한 오차를 나타낸다.",
+    "definition_en": "The difference between the observed actual value and the predicted value of the dependent variable from the regression model, representing the error unexplained by the model.",
+    "significance": "잔차 분석은 회귀모형의 적합도와 가정 충족 여부를 진단하는 핵심 도구로, 심리학 연구의 결과 해석 타당성을 검증하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랭크 앤스콤",
+        "name_en": "Frank Anscombe",
+        "contribution": "앤스콤의 사분면(Anscombe's quartet)을 통해 잔차 분석과 시각적 진단의 중요성을 입증했다."
+      },
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John Tukey",
+        "contribution": "탐색적 자료 분석(EDA)과 잔차 진단 기법을 발전시켜 잔차 분석의 실용적 방법론을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차분석",
+        "name_en": "Residual Analysis",
+        "id": "REGRESS_RA_015"
+      },
+      {
+        "name_ko": "최소제곱법",
+        "name_en": "Ordinary Least Squares",
+        "id": "REGRESS_OLS_003"
+      },
+      {
+        "name_ko": "예측값",
+        "name_en": "Predicted Value",
+        "id": "REGRESS_PV_014"
+      },
+      {
+        "name_ko": "추정의 표준오차",
+        "name_en": "Standard Error of Estimate",
+        "id": "REGRESS_SEE_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "원잔차 (Raw Residual)",
+        "description": "관찰값과 예측값의 단순 차이"
+      },
+      {
+        "name": "표준화 잔차 (Standardized Residual)",
+        "description": "잔차를 표준편차로 나눈 값"
+      },
+      {
+        "name": "스튜던트화 잔차 (Studentized Residual)",
+        "description": "각 관찰치의 영향력을 고려하여 조정된 잔차"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "잔차 = 실제값(Y) - 예측값(Ŷ), 즉 모형이 '남긴(잔)' 차이",
+      "differential": "잔차(residual)는 표본에서 관찰된 오차이고, 오차(error)는 모집단 수준의 이론적 개념이다.",
+      "key_point": "잔차의 정규성, 등분산성, 독립성은 회귀분석의 핵심 가정이며, 이를 진단하는 것이 잔차분석이다.",
+      "common_mistake": "잔차가 0에 가깝다고 모형이 좋은 것이 아니라, 잔차의 패턴(무선성)을 확인해야 한다."
+    }
+  },
+  {
+    "id": "REGRESS_R2_006",
+    "terminology": "결정계수 (Coefficient of Determination, R²)",
+    "terminology_ko": "결정계수",
+    "terminology_en": "Coefficient of Determination",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "종속변인의 전체 변동 중 회귀모형에 의해 설명되는 비율을 나타내는 값으로, 0에서 1 사이의 값을 가지며 모형의 설명력을 나타낸다.",
+    "definition_en": "A value representing the proportion of total variance in the dependent variable that is explained by the regression model, ranging from 0 to 1 and indicating the model's explanatory power.",
+    "significance": "심리학 연구에서 독립변인이 종속변인을 얼마나 잘 설명하는지를 직관적으로 보여주는 효과크기 지표로, 연구 결과의 실질적 의미를 평가하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "시월 라이트",
+        "name_en": "Sewall Wright",
+        "contribution": "경로분석을 개발하면서 결정계수의 분해와 해석 방법을 체계화했다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "R²의 효과크기 해석 기준(작은 .02, 중간 .13, 큰 .26)을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수정된 R제곱",
+        "name_en": "Adjusted R-squared",
+        "id": "REGRESS_AR2_027"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-squared",
+        "id": "EFFECT_R2_008"
+      },
+      {
+        "name_ko": "F검정",
+        "name_en": "F-test",
+        "id": "REGRESS_FT_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "R² = 설명된 분산 / 전체 분산, 피어슨 r을 제곱하면 R²",
+      "differential": "R²는 모형 전체의 설명력이고, 편상관의 제곱(sr²)은 개별 예측변인의 고유 설명력이다.",
+      "key_point": "R² = .25이면 종속변인 분산의 25%를 모형이 설명한다는 뜻이다.",
+      "common_mistake": "R²가 높다고 반드시 좋은 모형이 아니며, 예측변인을 추가하면 항상 증가하므로 수정된 R²를 함께 확인해야 한다."
+    }
+  },
+  {
+    "id": "REGRESS_SEE_007",
+    "terminology": "추정의 표준오차 (Standard Error of Estimate)",
+    "terminology_ko": "추정의 표준오차",
+    "terminology_en": "Standard Error of Estimate",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀모형의 예측값을 중심으로 실제 관찰값이 흩어져 있는 정도를 나타내는 지표로, 잔차의 표준편차와 유사한 개념이다.",
+    "definition_en": "A measure of the spread of observed values around the predicted values of a regression model, conceptually similar to the standard deviation of residuals.",
+    "significance": "심리학 연구에서 회귀 예측의 정밀도를 평가하는 기준으로, 값이 작을수록 모형의 예측이 정확함을 의미하여 연구 결과의 신뢰성을 판단하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "회귀분석에서 추정의 표준오차 공식을 발전시키고 예측 정확도 평가 방법을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_RES_005"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SEE(S_est) = 회귀선 주변으로 데이터가 얼마나 퍼져있는지를 보는 것",
+      "differential": "표준오차(SE)는 표본통계량의 변동성이고, 추정의 표준오차(SEE)는 회귀 예측값 주변의 변동성이다.",
+      "key_point": "R²가 1에 가까울수록 추정의 표준오차는 0에 가까워진다.",
+      "common_mistake": "추정의 표준오차와 회귀계수의 표준오차를 혼동하는 경우가 많은데, 전자는 모형 전체의 예측 정확도, 후자는 개별 계수의 불확실성이다."
+    }
+  },
+  {
+    "id": "REGRESS_LR_008",
+    "terminology": "로지스틱 회귀 (Logistic Regression)",
+    "terminology_ko": "로지스틱 회귀",
+    "terminology_en": "Logistic Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "종속변인이 이분형(예/아니오)이거나 범주형일 때 사용하는 회귀분석 방법으로, 특정 범주에 속할 확률을 로짓 함수를 통해 예측한다.",
+    "definition_en": "A regression method used when the dependent variable is dichotomous or categorical, predicting the probability of belonging to a particular category through the logit function.",
+    "significance": "심리학에서 진단 여부, 치료 성공/실패, 행동 선택 등 이분형 결과를 예측하는 연구에서 널리 사용되며, 임상 의사결정 모형 구축에 핵심적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 콕스",
+        "name_en": "David Cox",
+        "contribution": "1958년 로지스틱 회귀를 통계적 방법으로 체계화하고 최대우도 추정법을 적용했다."
+      },
+      {
+        "name_ko": "조셉 버크슨",
+        "name_en": "Joseph Berkson",
+        "contribution": "로짓 함수를 제안하여 로지스틱 회귀의 수학적 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단순선형회귀",
+        "name_en": "Simple Linear Regression",
+        "id": "REGRESS_SLR_001"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "이항 로지스틱 회귀 (Binary Logistic Regression)",
+        "description": "종속변인이 2개 범주인 경우"
+      },
+      {
+        "name": "다항 로지스틱 회귀 (Multinomial Logistic Regression)",
+        "description": "종속변인이 3개 이상 범주인 경우"
+      },
+      {
+        "name": "순서 로지스틱 회귀 (Ordinal Logistic Regression)",
+        "description": "종속변인이 순서형 범주인 경우"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "로지스틱 = '예/아니오'를 예측, S자 곡선(시그모이드 함수) 사용",
+      "differential": "선형회귀는 연속형 종속변인을 예측하지만, 로지스틱 회귀는 범주형 종속변인의 소속 확률을 예측한다.",
+      "key_point": "결과가 확률(0~1)로 산출되며, OLS 대신 최대우도추정법(MLE)으로 계수를 추정한다.",
+      "common_mistake": "로지스틱 '회귀'라는 이름이지만, 실제로는 분류(classification) 기법에 더 가깝다."
+    }
+  },
+  {
+    "id": "REGRESS_SW_009",
+    "terminology": "단계적 회귀 (Stepwise Regression)",
+    "terminology_ko": "단계적 회귀",
+    "terminology_en": "Stepwise Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "통계적 기준(예: F값, p값)에 따라 예측변인을 자동으로 모형에 추가하거나 제거하면서 최적의 예측변인 조합을 탐색하는 회귀분석 방법이다.",
+    "definition_en": "A regression method that automatically adds or removes predictors from the model based on statistical criteria (e.g., F-value, p-value) to find the optimal combination of predictor variables.",
+    "significance": "탐색적 연구에서 다수의 잠재적 예측변인 중 유의한 변인을 선별하는 데 활용되나, 이론적 근거 없는 자동 선택의 한계로 확인적 연구에서는 신중하게 사용해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "노먼 드레이퍼",
+        "name_en": "Norman Draper",
+        "contribution": "Harry Smith과 함께 단계적 회귀를 포함한 변인 선택 방법론을 체계적으로 정리했다."
+      },
+      {
+        "name_ko": "프랭크 해럴",
+        "name_en": "Frank Harrell",
+        "contribution": "단계적 회귀의 과적합 문제와 대안적 방법론을 비판적으로 분석했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "위계적 회귀",
+        "name_en": "Hierarchical Regression",
+        "id": "REGRESS_HR_010"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "전진선택법 (Forward Selection)",
+        "description": "가장 유의한 변인부터 하나씩 추가"
+      },
+      {
+        "name": "후진제거법 (Backward Elimination)",
+        "description": "모든 변인을 넣고 유의하지 않은 변인부터 제거"
+      },
+      {
+        "name": "단계선택법 (Stepwise)",
+        "description": "전진선택과 후진제거를 결합한 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "단계적 = 컴퓨터가 '단계별로' 변인을 넣고 빼면서 최적 조합 탐색",
+      "differential": "단계적 회귀는 통계적 기준으로 자동 선택하지만, 위계적 회귀는 연구자가 이론적 근거로 투입 순서를 결정한다.",
+      "key_point": "탐색적 목적에 유용하지만, 표본에 과적합될 위험이 있어 교차 타당화가 필요하다.",
+      "common_mistake": "단계적 회귀로 선택된 모형이 '최적'이라고 오해하지만, 이는 표본 특수적 결과일 수 있다."
+    }
+  },
+  {
+    "id": "REGRESS_HR_010",
+    "terminology": "위계적 회귀 (Hierarchical Regression)",
+    "terminology_ko": "위계적 회귀",
+    "terminology_en": "Hierarchical Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "연구자가 이론적 근거에 따라 예측변인을 단계별로 투입하여 각 단계에서 추가되는 설명력(ΔR²)의 유의성을 검증하는 회귀분석 방법이다.",
+    "definition_en": "A regression method in which the researcher enters predictors in steps based on theoretical rationale, testing the significance of the additional explanatory power (ΔR²) at each step.",
+    "significance": "심리학 연구에서 통제변인을 먼저 투입한 후 관심변인의 고유한 추가 설명력을 검증하는 데 널리 사용되며, 이론 주도적 분석 방법으로 평가된다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "ΔR²를 이용한 위계적 검증 방법과 효과크기 해석 체계를 확립했다."
+      },
+      {
+        "name_ko": "바바라 타바크닉",
+        "name_en": "Barbara Tabachnick",
+        "contribution": "위계적 회귀의 실용적 적용 지침과 단계적 회귀와의 차이점을 명확히 했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단계적 회귀",
+        "name_en": "Stepwise Regression",
+        "id": "REGRESS_SW_009"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "조절회귀",
+        "name_en": "Moderated Regression",
+        "id": "REGRESS_MOD_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "위계적 = 연구자가 '이론적 순서'에 따라 블록별로 변인을 투입",
+      "differential": "위계적 회귀는 연구자의 이론적 판단으로 투입 순서를 결정하고, 단계적 회귀는 통계적 기준으로 자동 결정한다.",
+      "key_point": "각 단계에서 ΔR²(R² 변화량)의 유의성을 F변화량 검정으로 확인하는 것이 핵심이다.",
+      "common_mistake": "위계적(hierarchical) 회귀와 위계적 선형모형(HLM, 다층모형)을 혼동하는 경우가 많다."
+    }
+  },
+  {
+    "id": "REGRESS_RL_011",
+    "terminology": "회귀선 (Regression Line)",
+    "terminology_ko": "회귀선",
+    "terminology_en": "Regression Line",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "산점도에서 데이터의 전반적 경향을 가장 잘 요약하는 직선으로, 최소제곱법에 의해 잔차의 제곱합이 최소가 되도록 적합된 예측선이다.",
+    "definition_en": "A straight line in a scatterplot that best summarizes the overall trend of the data, fitted by the least squares method so that the sum of squared residuals is minimized.",
+    "significance": "두 변인 간의 관계를 시각적으로 표현하고 예측을 수행하는 기본 도구로, 심리학 연구에서 변인 간 관계의 방향과 강도를 직관적으로 파악하게 해준다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "부모-자녀 키 연구에서 최초로 회귀직선의 개념을 도입했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "최소제곱법",
+        "name_en": "Ordinary Least Squares",
+        "id": "REGRESS_OLS_003"
+      },
+      {
+        "name_ko": "기울기",
+        "name_en": "Slope",
+        "id": "REGRESS_SL_013"
+      },
+      {
+        "name_ko": "절편",
+        "name_en": "Intercept",
+        "id": "REGRESS_INT_012"
+      },
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_RES_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "회귀선 = 산점도 위의 '최적 적합선(best-fit line)'",
+      "differential": "회귀선은 방향성(X→Y 예측)이 있지만, 상관에서의 적합선은 방향성이 없다.",
+      "key_point": "회귀선은 반드시 평균점(X̄, Ȳ)을 통과한다.",
+      "common_mistake": "모든 데이터가 회귀선 위에 있어야 한다고 오해하지만, 대부분의 점은 선에서 벗어나 있으며 그 차이가 잔차이다."
+    }
+  },
+  {
+    "id": "REGRESS_INT_012",
+    "terminology": "절편 (Intercept)",
+    "terminology_ko": "절편",
+    "terminology_en": "Intercept",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀 방정식에서 독립변인(X)이 0일 때 종속변인(Y)의 예측값으로, 회귀선이 Y축과 만나는 점이다.",
+    "definition_en": "The predicted value of the dependent variable (Y) when the independent variable (X) equals zero in the regression equation, representing the point where the regression line crosses the Y-axis.",
+    "significance": "회귀 방정식의 기준점을 제공하며, 독립변인이 0인 상황이 의미 있는 경우(예: 센터링 후) 실질적 해석이 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "회귀 방정식의 수학적 정식화에서 절편과 기울기의 추정 공식을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "기울기",
+        "name_en": "Slope",
+        "id": "REGRESS_SL_013"
+      },
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "회귀선",
+        "name_en": "Regression Line",
+        "id": "REGRESS_RL_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "절편(a) = Y축을 '절단'하는 점, Y = a + bX에서 X=0이면 Y=a",
+      "differential": "절편은 Y축과 만나는 점(상수)이고, 기울기는 X 변화에 따른 Y 변화의 비율이다.",
+      "key_point": "절편의 해석은 X=0이 의미 있는 값일 때만 유효하며, 그렇지 않으면 수학적 기준점에 불과하다.",
+      "common_mistake": "절편이 항상 실질적 의미를 가진다고 오해하지만, X가 0이 될 수 없는 경우(예: 나이, 키) 해석에 주의해야 한다."
+    }
+  },
+  {
+    "id": "REGRESS_SL_013",
+    "terminology": "기울기 (Slope)",
+    "terminology_ko": "기울기",
+    "terminology_en": "Slope",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀 방정식에서 독립변인(X)이 1단위 증가할 때 종속변인(Y)의 예측된 변화량으로, 회귀선의 경사도를 나타낸다.",
+    "definition_en": "The predicted change in the dependent variable (Y) for a one-unit increase in the independent variable (X) in the regression equation, representing the steepness of the regression line.",
+    "significance": "심리학 연구에서 변인 간 관계의 방향(정적/부적)과 크기를 직접적으로 보여주는 핵심 지표로, 처치 효과나 예측 관계의 실질적 의미를 해석하는 데 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "부모-자녀 신장 연구에서 회귀선의 기울기가 1보다 작아지는 '평균으로의 회귀' 현상을 발견했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "절편",
+        "name_en": "Intercept",
+        "id": "REGRESS_INT_012"
+      },
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "회귀선",
+        "name_en": "Regression Line",
+        "id": "REGRESS_RL_011"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기울기(b) = ΔY/ΔX, X가 1 오르면 Y는 b만큼 변한다",
+      "differential": "기울기(b)는 원래 측정 단위의 변화량이고, 표준화 기울기(β)는 표준편차 단위의 변화량이다.",
+      "key_point": "기울기가 양수이면 정적 관계, 음수이면 부적 관계, 0이면 관계 없음을 의미한다.",
+      "common_mistake": "기울기가 크다고 상관이 높은 것이 아니며, 기울기는 측정 단위에 영향을 받지만 상관계수는 단위에 무관하다."
+    }
+  },
+  {
+    "id": "REGRESS_PV_014",
+    "terminology": "예측값 (Predicted Value)",
+    "terminology_ko": "예측값",
+    "terminology_en": "Predicted Value",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀 방정식에 독립변인의 값을 대입하여 산출한 종속변인의 추정값으로, Ŷ(Y-hat)으로 표기한다.",
+    "definition_en": "The estimated value of the dependent variable obtained by substituting the independent variable's value into the regression equation, denoted as Ŷ (Y-hat).",
+    "significance": "회귀분석의 최종 산출물로, 심리학 연구에서 개인의 행동, 수행, 적응 수준 등을 예측하는 데 활용되며, 잔차 계산의 기준점이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "예측(prediction)의 개념을 통계학에 도입하고 회귀를 예측 도구로 활용하는 틀을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_RES_005"
+      },
+      {
+        "name_ko": "회귀선",
+        "name_en": "Regression Line",
+        "id": "REGRESS_RL_011"
+      },
+      {
+        "name_ko": "추정의 표준오차",
+        "name_en": "Standard Error of Estimate",
+        "id": "REGRESS_SEE_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Ŷ = a + bX, 모자(^)가 씌워진 Y는 '추정된' Y",
+      "differential": "예측값(Ŷ)은 회귀모형이 산출한 추정치이고, 관찰값(Y)은 실제 측정된 데이터이다.",
+      "key_point": "예측값은 항상 회귀선 위에 있으며, 관찰값과의 차이가 잔차이다.",
+      "common_mistake": "회귀선 범위 밖의 X값으로 예측(외삽)하면 부정확한 결과가 나올 수 있다는 점을 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "REGRESS_RA_015",
+    "terminology": "잔차분석 (Residual Analysis)",
+    "terminology_ko": "잔차분석",
+    "terminology_en": "Residual Analysis",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀모형의 가정(정규성, 등분산성, 독립성, 선형성) 충족 여부를 잔차의 패턴과 분포를 통해 진단하는 분석 방법이다.",
+    "definition_en": "An analytical method that diagnoses whether the assumptions of a regression model (normality, homoscedasticity, independence, linearity) are met by examining the patterns and distribution of residuals.",
+    "significance": "회귀분석 결과의 타당성은 가정 충족에 달려 있으므로, 잔차분석은 심리학 연구에서 결과 해석의 신뢰성을 보장하는 필수적 검증 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랭크 앤스콤",
+        "name_en": "Frank Anscombe",
+        "contribution": "앤스콤의 사분면으로 통계량만으로는 파악할 수 없는 데이터 패턴을 시각적 잔차분석으로 발견할 수 있음을 보여주었다."
+      },
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John Tukey",
+        "contribution": "잔차 플롯 등 시각적 진단 기법을 발전시켜 잔차분석의 실용적 도구를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_RES_005"
+      },
+      {
+        "name_ko": "이분산성",
+        "name_en": "Heteroscedasticity",
+        "id": "REGRESS_HET_032"
+      },
+      {
+        "name_ko": "더빈-왓슨 검정",
+        "name_en": "Durbin-Watson Test",
+        "id": "REGRESS_DW_017"
+      },
+      {
+        "name_ko": "가정 검증",
+        "name_en": "Assumption Checking",
+        "id": "REGRESS_AC_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "잔차분석 = 잔차 플롯으로 LINE(선형성, 독립성, 정규성, 등분산성) 확인",
+      "differential": "잔차분석은 모형 가정을 사후적으로 진단하는 것이고, 가정 검증은 보다 포괄적으로 사전·사후 점검을 포함한다.",
+      "key_point": "잔차 대 예측값 산점도에서 무선적 패턴이 나타나야 가정이 충족된 것이다.",
+      "common_mistake": "잔차분석을 생략하고 회귀 결과만 보고하면 왜곡된 결론을 내릴 수 있다."
+    }
+  },
+  {
+    "id": "REGRESS_MC_016",
+    "terminology": "다중공선성 (Multicollinearity)",
+    "terminology_ko": "다중공선성",
+    "terminology_en": "Multicollinearity",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "다중회귀에서 두 개 이상의 독립변인 간 상관이 매우 높아 개별 변인의 고유한 효과를 분리하기 어려운 상태로, 회귀계수의 추정을 불안정하게 만든다.",
+    "definition_en": "A condition in multiple regression where two or more independent variables are highly correlated, making it difficult to isolate the unique effect of each variable and destabilizing the estimation of regression coefficients.",
+    "significance": "심리학 연구에서 유사한 구성개념을 동시에 투입할 때 빈번히 발생하며, 회귀계수의 부호 반전이나 비유의적 결과를 초래하여 이론적 해석을 왜곡할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "바바라 타바크닉",
+        "name_en": "Barbara Tabachnick",
+        "contribution": "다중공선성 진단 기준(VIF, 허용도)과 해결 방안을 실용적으로 체계화했다."
+      },
+      {
+        "name_ko": "데이비드 벨슬리",
+        "name_en": "David Belsley",
+        "contribution": "조건지수(condition index)를 이용한 다중공선성 진단법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "VIF",
+        "name_en": "Variance Inflation Factor",
+        "id": "REGRESS_VIF_018"
+      },
+      {
+        "name_ko": "허용도",
+        "name_en": "Tolerance",
+        "id": "REGRESS_TOL_019"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "다중공선성",
+        "name_en": "Multicollinearity",
+        "id": "CORR_MC_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "다중공선성 = 예측변인끼리 너무 '닮아서' 구별이 안 되는 문제",
+      "differential": "다중공선성은 독립변인 간의 문제이고, 이분산성은 잔차의 분산에 관한 문제이다.",
+      "key_point": "VIF > 10 또는 허용도 < .10이면 다중공선성이 심각한 것으로 판단한다.",
+      "common_mistake": "독립변인 간 상관이 있으면 무조건 다중공선성이라고 오해하지만, 상관이 매우 높을 때(.80 이상)만 문제가 된다."
+    }
+  },
+  {
+    "id": "REGRESS_DW_017",
+    "terminology": "더빈-왓슨 검정 (Durbin-Watson Test)",
+    "terminology_ko": "더빈-왓슨 검정",
+    "terminology_en": "Durbin-Watson Test",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀분석에서 잔차의 자기상관(인접 잔차 간의 상관)을 검정하는 방법으로, 검정 통계량은 0에서 4 사이의 값을 가지며 2에 가까울수록 자기상관이 없음을 의미한다.",
+    "definition_en": "A test for autocorrelation (correlation between adjacent residuals) in regression analysis, with test statistics ranging from 0 to 4, where values close to 2 indicate no autocorrelation.",
+    "significance": "종단 연구나 시계열 데이터를 분석하는 심리학 연구에서 잔차의 독립성 가정이 충족되는지 확인하는 표준적 진단 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제임스 더빈",
+        "name_en": "James Durbin",
+        "contribution": "Geoffrey Watson과 함께 1950-1951년 잔차의 자기상관 검정법을 개발했다."
+      },
+      {
+        "name_ko": "제프리 왓슨",
+        "name_en": "Geoffrey Watson",
+        "contribution": "James Durbin과 공동으로 DW 검정 통계량과 임계값 표를 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차분석",
+        "name_en": "Residual Analysis",
+        "id": "REGRESS_RA_015"
+      },
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_RES_005"
+      },
+      {
+        "name_ko": "가정 검증",
+        "name_en": "Assumption Checking",
+        "id": "REGRESS_AC_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DW ≈ 2면 OK, 0에 가까우면 양의 자기상관, 4에 가까우면 음의 자기상관",
+      "differential": "더빈-왓슨 검정은 1차 자기상관만 검출하며, 고차 자기상관은 Breusch-Godfrey 검정을 사용한다.",
+      "key_point": "검정 통계량이 2에 가까우면 잔차의 독립성 가정이 충족된 것으로 본다.",
+      "common_mistake": "DW 검정은 시계열적 순서가 있는 데이터에서만 의미가 있으며, 횡단 연구에서는 해석에 주의가 필요하다."
+    }
+  },
+  {
+    "id": "REGRESS_VIF_018",
+    "terminology": "분산팽창인자 (Variance Inflation Factor, VIF)",
+    "terminology_ko": "분산팽창인자",
+    "terminology_en": "Variance Inflation Factor",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "다중회귀에서 각 독립변인의 회귀계수 분산이 다중공선성으로 인해 얼마나 팽창되었는지를 나타내는 지표로, 허용도의 역수이다.",
+    "definition_en": "An indicator in multiple regression showing how much the variance of each independent variable's regression coefficient is inflated due to multicollinearity, calculated as the reciprocal of tolerance.",
+    "significance": "다중공선성의 심각도를 정량적으로 평가하는 핵심 진단 지표로, 심리학 연구에서 유사한 구성개념을 동시에 투입할 때 필수적으로 보고해야 하는 통계량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "커트 마르쿠아르트",
+        "name_en": "Curt Marquardt",
+        "contribution": "다중공선성 문제에 대한 능형 회귀(ridge regression) 해결 방법론과 함께 VIF 개념을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "다중공선성",
+        "name_en": "Multicollinearity",
+        "id": "REGRESS_MC_016"
+      },
+      {
+        "name_ko": "허용도",
+        "name_en": "Tolerance",
+        "id": "REGRESS_TOL_019"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "VIF = 1/(1-R²ᵢ), 분산이 얼마나 '팽창'했는지를 보여주는 값",
+      "differential": "VIF는 허용도의 역수(VIF = 1/Tolerance)이므로 같은 정보를 반대 방향으로 나타낸다.",
+      "key_point": "VIF > 10이면 심각한 다중공선성, VIF > 5이면 주의가 필요하다는 기준이 일반적이다.",
+      "common_mistake": "VIF가 1이면 다중공선성이 전혀 없다는 뜻이지, 1보다 약간 큰 것은 정상이다."
+    }
+  },
+  {
+    "id": "REGRESS_TOL_019",
+    "terminology": "허용도 (Tolerance)",
+    "terminology_ko": "허용도",
+    "terminology_en": "Tolerance",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "다중회귀에서 특정 독립변인의 분산 중 다른 독립변인들에 의해 설명되지 않는 비율로, 1에서 해당 변인의 R²를 뺀 값이다.",
+    "definition_en": "The proportion of variance in a specific independent variable that is not explained by other independent variables in multiple regression, calculated as 1 minus the R² of that variable regressed on all other predictors.",
+    "significance": "다중공선성 진단에서 VIF와 함께 보고되는 핵심 지표로, 각 예측변인이 가진 고유 정보의 양을 파악하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 벨슬리",
+        "name_en": "David Belsley",
+        "contribution": "허용도와 조건지수를 결합한 다중공선성 진단 체계를 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "VIF",
+        "name_en": "Variance Inflation Factor",
+        "id": "REGRESS_VIF_018"
+      },
+      {
+        "name_ko": "다중공선성",
+        "name_en": "Multicollinearity",
+        "id": "REGRESS_MC_016"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "허용도 = 1 - R²ᵢ, 다른 변인으로 설명 안 되는 '고유한' 비율",
+      "differential": "허용도가 0에 가까우면 다중공선성이 심각하고, 1에 가까우면 다중공선성이 없다.",
+      "key_point": "허용도 < .10이면 심각한 다중공선성으로 판단하며, VIF의 역수(Tolerance = 1/VIF)이다.",
+      "common_mistake": "허용도가 높을수록 좋다고만 생각하기 쉽지만, 이는 다중공선성이 낮다는 것이지 예측력이 좋다는 의미가 아니다."
+    }
+  },
+  {
+    "id": "REGRESS_MOD_020",
+    "terminology": "조절회귀 (Moderated Regression)",
+    "terminology_ko": "조절회귀",
+    "terminology_en": "Moderated Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "독립변인과 종속변인 간의 관계가 제3의 변인(조절변인)에 의해 달라지는지를 상호작용항을 포함하여 검증하는 위계적 회귀분석 방법이다.",
+    "definition_en": "A hierarchical regression method that tests whether the relationship between the independent and dependent variables varies depending on a third variable (moderator) by including an interaction term.",
+    "significance": "심리학에서 '누구에게', '어떤 조건에서' 효과가 다른지를 밝히는 조절효과 검증의 표준적 방법으로, 개인차와 맥락 효과를 이해하는 데 핵심적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "루벤 바론",
+        "name_en": "Reuben Baron",
+        "contribution": "David Kenny와 함께 1986년 조절변인과 매개변인의 개념적·통계적 구분을 명확히 한 고전적 논문을 발표했다."
+      },
+      {
+        "name_ko": "앤드류 헤이스",
+        "name_en": "Andrew Hayes",
+        "contribution": "PROCESS 매크로를 개발하여 조절효과 분석의 실용적 접근을 대중화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "매개회귀",
+        "name_en": "Mediated Regression",
+        "id": "REGRESS_MED_021"
+      },
+      {
+        "name_ko": "위계적 회귀",
+        "name_en": "Hierarchical Regression",
+        "id": "REGRESS_HR_010"
+      },
+      {
+        "name_ko": "독립변인",
+        "name_en": "Independent Variable",
+        "id": "FOUND_IV_005"
+      },
+      {
+        "name_ko": "이원분산분석",
+        "name_en": "Two-way ANOVA",
+        "id": "ANOVA_TW_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조절 = '관계의 강도'가 달라지는 것, X→Y 화살표 위에 M이 영향",
+      "differential": "조절효과는 관계의 강도/방향이 달라지는 것이고, 매개효과는 X가 Y에 영향을 미치는 경로(과정)를 밝히는 것이다.",
+      "key_point": "상호작용항(X×M)이 유의해야 조절효과가 있으며, 주효과와 상호작용항을 단계별로 투입한다.",
+      "common_mistake": "조절변인과 매개변인을 혼동하거나, 상호작용항 투입 시 변인을 센터링하지 않으면 다중공선성이 발생한다."
+    }
+  },
+  {
+    "id": "REGRESS_MED_021",
+    "terminology": "매개회귀 (Mediated Regression)",
+    "terminology_ko": "매개회귀",
+    "terminology_en": "Mediated Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "독립변인이 종속변인에 영향을 미치는 과정에서 제3의 변인(매개변인)을 통해 간접적으로 영향을 미치는 경로를 검증하는 회귀분석 방법이다.",
+    "definition_en": "A regression method that tests whether the effect of the independent variable on the dependent variable is transmitted indirectly through a third variable (mediator).",
+    "significance": "심리학에서 '왜', '어떤 과정을 통해' 효과가 발생하는지를 밝히는 매개 메커니즘 검증의 기본 방법으로, 이론적 모형의 인과적 경로를 실증하는 데 핵심적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "루벤 바론",
+        "name_en": "Reuben Baron",
+        "contribution": "David Kenny와 함께 매개변인의 4단계 검증 절차(Baron & Kenny, 1986)를 제안했다."
+      },
+      {
+        "name_ko": "크리스틴 프리처",
+        "name_en": "Kristopher Preacher",
+        "contribution": "부트스트랩을 활용한 간접효과 검증 방법을 발전시켜 매개분석의 통계적 정확성을 높였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "조절회귀",
+        "name_en": "Moderated Regression",
+        "id": "REGRESS_MOD_020"
+      },
+      {
+        "name_ko": "경로분석",
+        "name_en": "Path Analysis",
+        "id": "REGRESS_PA_022"
+      },
+      {
+        "name_ko": "구조방정식",
+        "name_en": "Structural Equation Modeling",
+        "id": "REGRESS_SEM_023"
+      },
+      {
+        "name_ko": "독립변인",
+        "name_en": "Independent Variable",
+        "id": "FOUND_IV_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "완전매개 (Full Mediation)",
+        "description": "매개변인 투입 시 직접효과가 유의하지 않게 되는 경우"
+      },
+      {
+        "name": "부분매개 (Partial Mediation)",
+        "description": "매개변인 투입 후에도 직접효과가 유의한 경우"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "매개 = '중간 과정', X → M → Y 경로로 간접효과를 검증",
+      "differential": "매개효과는 X→M→Y 경로(간접효과)를 검증하고, 조절효과는 X→Y 관계가 M에 따라 달라지는지를 검증한다.",
+      "key_point": "Baron & Kenny의 4단계 절차보다 부트스트랩 간접효과 검정이 더 정확하고 권장된다.",
+      "common_mistake": "Baron & Kenny의 1단계(X→Y 유의)가 반드시 필요하다고 오해하지만, 간접효과가 유의하면 총효과가 비유의적이어도 매개가 성립할 수 있다."
+    }
+  },
+  {
+    "id": "REGRESS_PA_022",
+    "terminology": "경로분석 (Path Analysis)",
+    "terminology_ko": "경로분석",
+    "terminology_en": "Path Analysis",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "여러 변인 간의 인과적 관계를 동시에 분석하기 위해 다중 회귀방정식을 연립하여 직접효과와 간접효과를 분해하는 통계적 방법이다.",
+    "definition_en": "A statistical method that simultaneously analyzes causal relationships among multiple variables by linking multiple regression equations to decompose direct and indirect effects.",
+    "significance": "심리학의 복잡한 인과 모형을 검증하는 도구로, 매개 경로와 직접 경로를 동시에 추정하여 이론적 모형의 타당성을 평가할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "시월 라이트",
+        "name_en": "Sewall Wright",
+        "contribution": "1920년대 경로분석(path analysis)을 최초로 개발하여 유전학 연구에 적용했다."
+      },
+      {
+        "name_ko": "오티스 더들리 던컨",
+        "name_en": "Otis Dudley Duncan",
+        "contribution": "사회과학 분야에 경로분석을 도입하여 사회이동 연구에 체계적으로 적용했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구조방정식",
+        "name_en": "Structural Equation Modeling",
+        "id": "REGRESS_SEM_023"
+      },
+      {
+        "name_ko": "매개회귀",
+        "name_en": "Mediated Regression",
+        "id": "REGRESS_MED_021"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "경로(Path) = 변인 간 화살표로 연결된 인과 경로를 분석",
+      "differential": "경로분석은 관측변인만 사용하지만, 구조방정식(SEM)은 잠재변인도 포함할 수 있다.",
+      "key_point": "직접효과, 간접효과, 총효과를 분해하여 인과적 메커니즘을 검증한다.",
+      "common_mistake": "경로분석이 인과관계를 '증명'한다고 오해하지만, 이론적 인과 가정을 검증하는 것이지 인과를 확립하는 것은 아니다."
+    }
+  },
+  {
+    "id": "REGRESS_SEM_023",
+    "terminology": "구조방정식 모형 (Structural Equation Modeling, SEM)",
+    "terminology_ko": "구조방정식 모형",
+    "terminology_en": "Structural Equation Modeling",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "관측변인과 잠재변인 간의 인과적 관계를 동시에 분석하는 다변량 통계 기법으로, 측정모형과 구조모형을 통합하여 이론적 모형의 적합도를 검증한다.",
+    "definition_en": "A multivariate statistical technique that simultaneously analyzes causal relationships among observed and latent variables, integrating measurement and structural models to test the fit of theoretical models.",
+    "significance": "심리학의 복잡한 이론적 모형(잠재변인 포함)을 종합적으로 검증할 수 있는 강력한 도구로, 측정오차를 분리하여 보다 정확한 관계 추정이 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 외레스코그",
+        "name_en": "Karl Jöreskog",
+        "contribution": "LISREL 프로그램을 개발하고 SEM의 수학적 기초와 추정 방법을 확립했다."
+      },
+      {
+        "name_ko": "피터 벤틀러",
+        "name_en": "Peter Bentler",
+        "contribution": "EQS 프로그램과 적합도 지수(CFI 등)를 개발하여 SEM 방법론을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "경로분석",
+        "name_en": "Path Analysis",
+        "id": "REGRESS_PA_022"
+      },
+      {
+        "name_ko": "매개회귀",
+        "name_en": "Mediated Regression",
+        "id": "REGRESS_MED_021"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "확인적 요인분석 (CFA)",
+        "description": "측정모형의 적합도를 검증하는 SEM의 하위 모형"
+      },
+      {
+        "name": "다집단 분석 (Multi-group SEM)",
+        "description": "집단 간 모형의 동등성을 검증"
+      },
+      {
+        "name": "잠재성장모형 (Latent Growth Model)",
+        "description": "시간에 따른 변화 궤적을 잠재변인으로 모형화"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "SEM = 경로분석(구조모형) + 확인적 요인분석(측정모형)의 결합",
+      "differential": "SEM은 잠재변인을 포함하여 측정오차를 분리하지만, 경로분석은 관측변인만 사용하므로 측정오차가 포함된다.",
+      "key_point": "모형 적합도(χ², CFI, RMSEA, SRMR 등)를 보고하여 전체 모형의 적절성을 평가한다.",
+      "common_mistake": "SEM이 인과관계를 '증명'한다고 오해하지만, 이론에 기반한 가설 모형이 데이터에 얼마나 부합하는지를 검증하는 것이다."
+    }
+  },
+  {
+    "id": "REGRESS_BETA_024",
+    "terminology": "표준화 회귀계수 (Standardized Regression Coefficient, β)",
+    "terminology_ko": "표준화 회귀계수",
+    "terminology_en": "Standardized Regression Coefficient",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "모든 변인을 z점수로 표준화한 후 산출한 회귀계수로, 독립변인이 1 표준편차 변화할 때 종속변인의 표준편차 단위 변화량을 나타내며 변인 간 상대적 비교가 가능하다.",
+    "definition_en": "A regression coefficient calculated after standardizing all variables to z-scores, representing the change in the dependent variable in standard deviation units for a one standard deviation change in the independent variable, enabling relative comparison across predictors.",
+    "significance": "측정 단위가 다른 심리학 변인들의 상대적 영향력을 비교할 수 있게 해주어, 어떤 예측변인이 가장 강력한 예측자인지를 판단하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "표준화 계수의 효과크기 해석 기준과 다중회귀에서의 활용 방법을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비표준화 회귀계수",
+        "name_en": "Unstandardized Regression Coefficient",
+        "id": "REGRESS_B_025"
+      },
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "β(베타) = 표준화된 세계에서의 기울기, 단위 없이 상대 비교 가능",
+      "differential": "β(표준화)는 상대적 중요도 비교에, B(비표준화)는 실질적 변화량 해석에 적합하다.",
+      "key_point": "β의 절대값이 클수록 해당 변인의 상대적 영향력이 크며, -1에서 +1 사이의 값을 갖는 경향이 있다.",
+      "common_mistake": "β가 1을 초과하면 다중공선성 문제일 수 있으므로 확인이 필요하다."
+    }
+  },
+  {
+    "id": "REGRESS_B_025",
+    "terminology": "비표준화 회귀계수 (Unstandardized Regression Coefficient, B)",
+    "terminology_ko": "비표준화 회귀계수",
+    "terminology_en": "Unstandardized Regression Coefficient",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "원래 측정 단위를 그대로 사용하여 산출한 회귀계수로, 독립변인이 원래 단위로 1단위 변화할 때 종속변인의 원래 단위 변화량을 나타낸다.",
+    "definition_en": "A regression coefficient calculated using original measurement units, representing the change in the dependent variable in its original units for a one-unit change in the independent variable in its original units.",
+    "significance": "실질적 해석이 필요한 응용 연구에서 중요하며, 변인의 실제 단위로 예측치를 산출할 때 사용한다. 집단 간 비교에서는 표준화 계수보다 유리하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "회귀계수의 추정 공식과 표준오차를 확립하여 비표준화 계수의 수학적 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준화 회귀계수",
+        "name_en": "Standardized Regression Coefficient",
+        "id": "REGRESS_BETA_024"
+      },
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "기울기",
+        "name_en": "Slope",
+        "id": "REGRESS_SL_013"
+      },
+      {
+        "name_ko": "절편",
+        "name_en": "Intercept",
+        "id": "REGRESS_INT_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "B = 원래 단위 그대로, '불안이 1점 올라가면 우울이 B점 올라간다'",
+      "differential": "B(비표준화)는 원래 단위의 변화량이라 실질적 해석에, β(표준화)는 단위 없이 상대적 비교에 적합하다.",
+      "key_point": "회귀 방정식 Ŷ = a + B₁X₁ + B₂X₂에서 실제 예측값을 산출할 때 사용된다.",
+      "common_mistake": "비표준화 계수의 크기만으로 변인의 중요도를 비교하면 안 된다. 측정 단위가 다르면 크기 비교가 무의미하다."
+    }
+  },
+  {
+    "id": "REGRESS_PC_026",
+    "terminology": "부분상관 (Partial Correlation)",
+    "terminology_ko": "부분상관",
+    "terminology_en": "Partial Correlation",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "두 변인 간의 상관에서 제3의 변인(통제변인)의 영향을 모두 제거한 후 남는 순수한 상관으로, 두 변인의 잔차 간 상관에 해당한다.",
+    "definition_en": "The pure correlation between two variables after removing the influence of a third variable (control variable) from both, equivalent to the correlation between the residuals of the two variables.",
+    "significance": "심리학 연구에서 혼입변인을 통계적으로 통제하여 두 변인 간의 고유한 관계를 파악하는 데 필수적이며, 허위 상관을 배제하는 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "부분상관의 수학적 공식을 개발하여 통제변인을 고려한 상관 분석의 기초를 마련했다."
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "부분상관의 유의성 검정 방법을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "반편상관",
+        "name_en": "Semi-partial Correlation",
+        "id": "REGRESS_SPC_030"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "부분상관 = 두 변인 모두에서 제3변인 영향을 '빼고' 남은 상관",
+      "differential": "부분상관은 두 변인 모두에서 통제변인을 제거하지만, 반편상관은 한 변인에서만 제거한다.",
+      "key_point": "부분상관의 제곱은 통제변인 제거 후 남은 분산 중 설명되는 비율을 의미한다.",
+      "common_mistake": "부분상관과 반편상관(준부분상관)을 혼동하기 쉬우며, 다중회귀에서의 해석이 다르다."
+    }
+  },
+  {
+    "id": "REGRESS_AR2_027",
+    "terminology": "수정된 R제곱 (Adjusted R-squared)",
+    "terminology_ko": "수정된 R제곱",
+    "terminology_en": "Adjusted R-squared",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "R²가 예측변인 수의 증가에 따라 자동으로 증가하는 문제를 보정하기 위해, 표본크기와 예측변인 수를 고려하여 조정한 결정계수이다.",
+    "definition_en": "A modified version of R² that adjusts for the number of predictors and sample size, correcting the tendency of R² to increase automatically as more predictors are added to the model.",
+    "significance": "다중회귀에서 예측변인 수가 다른 모형을 비교할 때 필수적이며, 과적합 방지를 위한 모형 선택 기준으로 심리학 연구에서 표준적으로 보고된다.",
+    "key_researchers": [
+      {
+        "name_ko": "에즈커 솔로몬",
+        "name_en": "Ezekiel Mordecai",
+        "contribution": "수정된 결정계수 공식을 최초로 제안하여 모형 과적합 문제에 대한 통계적 보정법을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      },
+      {
+        "name_ko": "F검정",
+        "name_en": "F-test",
+        "id": "REGRESS_FT_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수정된 R² = R²에서 '뻥튀기'를 빼준 것, 변인 수와 표본크기를 고려",
+      "differential": "R²는 변인 추가 시 항상 증가하지만, 수정된 R²는 불필요한 변인 추가 시 감소할 수 있다.",
+      "key_point": "모형 비교 시 R²가 아닌 수정된 R²를 기준으로 해야 과적합을 방지할 수 있다.",
+      "common_mistake": "수정된 R²가 음수가 될 수도 있으며, 이는 모형이 매우 부적절함을 의미한다."
+    }
+  },
+  {
+    "id": "REGRESS_FT_028",
+    "terminology": "F검정 (F-test in Regression)",
+    "terminology_ko": "F검정",
+    "terminology_en": "F-test in Regression",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀모형 전체의 통계적 유의성을 검증하는 방법으로, 모형에 의해 설명된 분산과 설명되지 않은 분산의 비율(F비)을 이용하여 R²가 0보다 유의하게 큰지를 판단한다.",
+    "definition_en": "A method for testing the overall statistical significance of a regression model by comparing the ratio of explained variance to unexplained variance (F-ratio) to determine whether R² is significantly greater than zero.",
+    "significance": "회귀모형이 종속변인을 유의하게 예측하는지를 전체적으로 판단하는 1차 검증 단계로, 개별 계수의 유의성 검증에 앞서 반드시 확인해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "F분포와 분산분석(ANOVA)을 개발하여 회귀 모형 검증의 통계적 기초를 확립했다."
+      },
+      {
+        "name_ko": "조지 스네디커",
+        "name_en": "George Snedecor",
+        "contribution": "Fisher의 이름을 따 F분포를 명명하고 실용적 적용을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "F = 회귀분산(MSR) / 잔차분산(MSE), 설명력 대비 오차의 비율",
+      "differential": "회귀의 F검정은 모형 전체의 유의성을, t검정은 개별 회귀계수의 유의성을 검증한다.",
+      "key_point": "F검정이 유의해야 개별 회귀계수의 해석이 의미 있으며, ANOVA 표로 결과가 제시된다.",
+      "common_mistake": "F검정이 유의하더라도 모든 개별 예측변인이 유의하다는 뜻은 아니다."
+    }
+  },
+  {
+    "id": "REGRESS_TT_029",
+    "terminology": "회귀계수의 t검정 (t-test for Regression Coefficients)",
+    "terminology_ko": "회귀계수의 t검정",
+    "terminology_en": "t-test for Regression Coefficients",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "다중회귀에서 각 개별 회귀계수가 통계적으로 0과 유의하게 다른지를 검증하는 방법으로, 회귀계수를 그 표준오차로 나눈 t값을 이용한다.",
+    "definition_en": "A method in multiple regression for testing whether each individual regression coefficient is significantly different from zero, using the t-value obtained by dividing the regression coefficient by its standard error.",
+    "significance": "다중회귀에서 어떤 예측변인이 다른 변인들을 통제한 후에도 종속변인에 고유한 기여를 하는지를 판단하는 핵심 검증 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William Gosset",
+        "contribution": "Student라는 필명으로 t분포를 개발하여 소표본에서의 통계적 검정 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "F검정",
+        "name_en": "F-test in Regression",
+        "id": "REGRESS_FT_028"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent Samples t-test",
+        "id": "TTEST_IT_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "t = B / SE(B), 회귀계수를 그 표준오차로 나누면 t값",
+      "differential": "F검정은 모형 '전체'의 유의성을, t검정은 '개별' 회귀계수의 유의성을 검증한다.",
+      "key_point": "t값의 절대값이 클수록(p값이 작을수록) 해당 변인의 고유한 기여가 유의하다.",
+      "common_mistake": "t검정이 비유의적이라고 해당 변인이 종속변인과 관계가 없다는 뜻이 아니며, 다른 변인과의 중복 때문일 수 있다."
+    }
+  },
+  {
+    "id": "REGRESS_SPC_030",
+    "terminology": "반편상관 (Semi-partial Correlation)",
+    "terminology_ko": "반편상관",
+    "terminology_en": "Semi-partial Correlation",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "한 변인에서만 통제변인의 영향을 제거하고 다른 변인은 원래 값을 유지한 상태에서 산출한 상관으로, 다중회귀에서 개별 변인의 고유 설명력(sr²)을 나타낸다.",
+    "definition_en": "A correlation calculated after removing the influence of control variables from only one variable while keeping the other in its original form, representing the unique explanatory power (sr²) of an individual variable in multiple regression.",
+    "significance": "다중회귀에서 각 예측변인이 전체 분산 중 고유하게 설명하는 비율을 파악할 수 있어, R²를 개별 변인의 기여분으로 분해하는 데 핵심적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "반편상관을 이용한 효과크기 분석과 다중회귀에서의 분산 분해 방법을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "부분상관",
+        "name_en": "Partial Correlation",
+        "id": "REGRESS_PC_026"
+      },
+      {
+        "name_ko": "결정계수",
+        "name_en": "Coefficient of Determination",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-squared",
+        "id": "EFFECT_R2_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반편(semi-partial) = '반만' 편상관, 한쪽 변인에서만 통제변인을 제거",
+      "differential": "부분상관은 두 변인 모두에서 통제변인을 제거하지만, 반편상관은 한쪽에서만 제거하여 R² 분해에 직접 사용된다.",
+      "key_point": "sr²(반편상관의 제곱)은 전체 R²에서 해당 변인의 고유 기여분을 나타낸다.",
+      "common_mistake": "반편상관을 부분상관과 혼동하거나, 반편상관의 제곱합이 R²와 같다고 오해한다(공유 분산이 있으므로 합이 R²보다 작다)."
+    }
+  },
+  {
+    "id": "REGRESS_AC_031",
+    "terminology": "가정 검증 (Assumption Checking)",
+    "terminology_ko": "가정 검증",
+    "terminology_en": "Assumption Checking",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀분석의 타당한 적용을 위해 선형성, 정규성, 등분산성, 독립성, 다중공선성 부재 등 기본 가정의 충족 여부를 체계적으로 점검하는 절차이다.",
+    "definition_en": "A systematic procedure for verifying whether the basic assumptions of regression analysis—linearity, normality, homoscedasticity, independence, and absence of multicollinearity—are met for valid application.",
+    "significance": "가정 위반 시 회귀계수 추정과 검정 결과가 편향되므로, 심리학 연구의 결론 타당성을 보장하기 위해 분석 전후로 반드시 수행해야 하는 필수 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "바바라 타바크닉",
+        "name_en": "Barbara Tabachnick",
+        "contribution": "다변량 통계에서의 가정 검증 절차를 체계적으로 안내하는 교과서를 저술했다."
+      },
+      {
+        "name_ko": "데이비드 하웰",
+        "name_en": "David Howell",
+        "contribution": "행동과학 통계에서 가정 검증의 중요성과 실용적 방법을 강조했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차분석",
+        "name_en": "Residual Analysis",
+        "id": "REGRESS_RA_015"
+      },
+      {
+        "name_ko": "이분산성",
+        "name_en": "Heteroscedasticity",
+        "id": "REGRESS_HET_032"
+      },
+      {
+        "name_ko": "다중공선성",
+        "name_en": "Multicollinearity",
+        "id": "REGRESS_MC_016"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "LINE = Linearity(선형성), Independence(독립성), Normality(정규성), Equal variance(등분산성)",
+      "differential": "가정 검증은 분석 전후의 포괄적 점검이고, 잔차분석은 가정 검증의 사후적 진단 방법 중 하나이다.",
+      "key_point": "5대 가정: 선형성, 잔차의 정규성, 등분산성, 독립성, 다중공선성 부재를 모두 확인해야 한다.",
+      "common_mistake": "가정 검증 없이 회귀분석을 실시하고 결과를 보고하는 것은 결론의 타당성을 위협한다."
+    }
+  },
+  {
+    "id": "REGRESS_HET_032",
+    "terminology": "이분산성 (Heteroscedasticity)",
+    "terminology_ko": "이분산성",
+    "terminology_en": "Heteroscedasticity",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "회귀분석에서 잔차의 분산이 독립변인의 값에 따라 일정하지 않고 변하는 현상으로, 등분산성(homoscedasticity) 가정의 위반에 해당한다.",
+    "definition_en": "A condition in regression analysis where the variance of residuals is not constant across levels of the independent variable, representing a violation of the homoscedasticity assumption.",
+    "significance": "이분산성이 존재하면 회귀계수의 표준오차 추정이 부정확해져 유의성 검정의 신뢰성이 떨어지므로, 심리학 연구에서 반드시 진단하고 교정해야 하는 문제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "할버트 화이트",
+        "name_en": "Halbert White",
+        "contribution": "이분산성에 강건한(robust) 표준오차 추정법을 개발하여 이분산성 하에서도 유효한 추론을 가능하게 했다."
+      },
+      {
+        "name_ko": "트레버 브로이시",
+        "name_en": "Trevor Breusch",
+        "contribution": "Adrian Pagan과 함께 이분산성 검정(Breusch-Pagan test)을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가정 검증",
+        "name_en": "Assumption Checking",
+        "id": "REGRESS_AC_031"
+      },
+      {
+        "name_ko": "잔차분석",
+        "name_en": "Residual Analysis",
+        "id": "REGRESS_RA_015"
+      },
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_RES_005"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이분산(Hetero-) = '다른' 분산, 잔차의 퍼짐이 일정하지 않은 나팔 모양",
+      "differential": "등분산성(homo-)은 잔차 분산이 일정한 것이고, 이분산성(hetero-)은 일정하지 않은 것이다.",
+      "key_point": "잔차 대 예측값 산점도에서 깔때기 모양이 나타나면 이분산성을 의심한다.",
+      "common_mistake": "이분산성은 회귀계수 자체를 편향시키지는 않지만, 표준오차를 왜곡하여 유의성 판단을 부정확하게 만든다."
+    }
+  },
+  {
+    "id": "REGRESS_RTM_033",
+    "terminology": "평균으로의 회귀 (Regression to the Mean)",
+    "terminology_ko": "평균으로의 회귀",
+    "terminology_en": "Regression to the Mean",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "극단적인 값을 가진 측정치가 재측정 시 평균에 더 가까운 값을 보이는 통계적 현상으로, 측정 오차와 불완전한 상관에 의해 발생한다.",
+    "definition_en": "A statistical phenomenon where extreme measurements tend to be closer to the mean upon remeasurement, occurring due to measurement error and imperfect correlation.",
+    "significance": "사전-사후 설계의 심리학 연구에서 처치 효과를 과대 또는 과소 추정하게 만들 수 있는 위협 요인으로, 연구 설계와 결과 해석에서 반드시 고려해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "부모-자녀 키 연구에서 '평균으로의 회귀' 현상을 최초로 발견하고 명명했으며, 이것이 '회귀분석'이라는 명칭의 기원이 되었다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단순선형회귀",
+        "name_en": "Simple Linear Regression",
+        "id": "REGRESS_SLR_001"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "골턴의 발견: 키가 큰 부모의 자녀는 부모보다 '평균 쪽으로' 돌아간다",
+      "differential": "평균으로의 회귀는 통계적 인공물(artifact)이지 실제 변화가 아니라는 점에서 처치 효과와 구분된다.",
+      "key_point": "'회귀(regression)'라는 용어 자체가 골턴의 이 발견에서 유래했다.",
+      "common_mistake": "극단적 점수 집단의 평균이 재검사 시 변하면 처치 효과로 오해하기 쉽지만, 평균으로의 회귀 효과일 수 있다."
+    }
+  },
+  {
+    "id": "REGRESS_EXT_034",
+    "terminology": "외삽 (Extrapolation)",
+    "terminology_ko": "외삽",
+    "terminology_en": "Extrapolation",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "관찰된 데이터 범위를 벗어난 독립변인 값을 회귀 방정식에 대입하여 예측하는 것으로, 데이터 범위 밖에서는 관계가 달라질 수 있어 부정확한 예측을 초래할 위험이 있다.",
+    "definition_en": "Making predictions by substituting independent variable values beyond the observed data range into the regression equation, which risks inaccurate predictions because the relationship may differ outside the data range.",
+    "significance": "심리학 연구에서 표본의 범위를 넘어서는 일반화에 대한 주의를 환기시키며, 예측의 한계를 인식하는 데 중요한 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 하웰",
+        "name_en": "David Howell",
+        "contribution": "행동과학 통계 교과서에서 외삽의 위험성과 회귀 예측의 한계를 명확히 설명했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "예측값",
+        "name_en": "Predicted Value",
+        "id": "REGRESS_PV_014"
+      },
+      {
+        "name_ko": "회귀선",
+        "name_en": "Regression Line",
+        "id": "REGRESS_RL_011"
+      },
+      {
+        "name_ko": "추정의 표준오차",
+        "name_en": "Standard Error of Estimate",
+        "id": "REGRESS_SEE_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "외삽(Extra-) = 데이터 '바깥'으로 나가서 예측, 위험한 추정",
+      "differential": "내삽(interpolation)은 데이터 범위 안에서의 예측이라 비교적 안전하지만, 외삽은 범위 밖이라 불확실성이 크다.",
+      "key_point": "회귀선은 관찰된 데이터 범위 내에서만 유효하며, 범위 밖에서는 관계의 형태가 변할 수 있다.",
+      "common_mistake": "회귀 방정식이 있으면 어떤 X값이든 대입할 수 있다고 생각하지만, 관찰 범위 밖의 예측은 매우 위험하다."
+    }
+  },
+  {
+    "id": "REGRESS_DV_035",
+    "terminology": "더미변인 (Dummy Variable)",
+    "terminology_ko": "더미변인",
+    "terminology_en": "Dummy Variable",
+    "category": "REGRESS",
+    "category_name": "회귀분석 (Regression Analysis)",
+    "definition": "범주형 변인을 회귀분석에 포함시키기 위해 0과 1로 코딩한 이진 변인으로, k개 범주를 가진 변인은 k-1개의 더미변인으로 변환한다.",
+    "definition_en": "A binary variable coded as 0 and 1 to include categorical variables in regression analysis, where a variable with k categories is converted into k-1 dummy variables.",
+    "significance": "성별, 집단 구분 등 범주형 변인을 회귀모형에 통합할 수 있게 해주어, 심리학 연구에서 집단 차이를 회귀 프레임워크로 검증하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "범주형 변인의 회귀분석 코딩 방법(더미, 효과, 대비 코딩)을 체계적으로 정리했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      },
+      {
+        "name_ko": "회귀계수",
+        "name_en": "Regression Coefficient",
+        "id": "REGRESS_RC_004"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "더미 코딩 (Dummy Coding)",
+        "description": "참조집단을 0으로, 비교집단을 1로 코딩"
+      },
+      {
+        "name": "효과 코딩 (Effect Coding)",
+        "description": "참조집단을 -1로, 비교집단을 1로 코딩"
+      },
+      {
+        "name": "대비 코딩 (Contrast Coding)",
+        "description": "특정 집단 비교를 위한 가중치 코딩"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "더미 = 0과 1로 '가짜(dummy)' 숫자를 부여하여 범주를 표현",
+      "differential": "더미 코딩은 참조집단과의 차이를, 효과 코딩은 전체 평균과의 차이를 나타낸다.",
+      "key_point": "k개 범주에서 k-1개의 더미변인을 만들어야 하며, 하나를 참조범주로 남긴다.",
+      "common_mistake": "k개 범주를 모두 더미변인으로 만들면 완전 다중공선성이 발생한다(더미 변인 함정)."
+    }
+  }
+]

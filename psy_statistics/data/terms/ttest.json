@@ -1,0 +1,1750 @@
+[
+  {
+    "id": "TTEST_OS_001",
+    "terminology": "일표본 t검정 (One-sample t-test)",
+    "terminology_ko": "일표본 t검정",
+    "terminology_en": "One-sample t-test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "하나의 표본 평균이 알려진 모집단 평균(또는 이론적 기대값)과 통계적으로 유의하게 다른지를 검정하는 모수적 방법이다.",
+    "definition_en": "A parametric test that determines whether the mean of a single sample is significantly different from a known or hypothesized population mean.",
+    "significance": "기준값이나 이론적 기대치와의 비교가 필요한 심리학 연구에서, 표본이 특정 모집단에서 왔는지를 평가하는 기본적 검정이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "'Student'라는 필명으로 소표본에서의 t분포와 t검정을 개발하였다."
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "t검정의 수학적 기초를 확장하고 자유도 개념을 명확히 하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired-samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "t분포",
+        "name_en": "t-distribution",
+        "id": "TTEST_TD_009"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "일(1)표본 t = 표본 1개 vs 기준값 → t = (X̄ - μ₀) / (s/√n)",
+      "differential": "일표본 t검정은 '표본 vs 기준값'이고, 독립표본 t검정은 '표본 vs 표본'이다.",
+      "key_point": "검정통계량: t = (X̄ - μ₀) / (s/√n), 자유도: df = n - 1. 모분산이 미지일 때 사용한다.",
+      "common_mistake": "모분산을 알고 있으면 t검정이 아닌 z검정을 사용해야 한다. t검정은 표본분산(s²)을 사용할 때 적절하다."
+    }
+  },
+  {
+    "id": "TTEST_IT_002",
+    "terminology": "독립표본 t검정 (Independent-samples t-test)",
+    "terminology_ko": "독립표본 t검정",
+    "terminology_en": "Independent-samples t-test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "서로 독립적인 두 집단의 평균 차이가 통계적으로 유의한지를 검정하는 방법으로, 피험자간 설계에서 사용된다.",
+    "definition_en": "A test that determines whether the means of two independent groups are significantly different, used in between-subjects designs.",
+    "significance": "실험집단과 통제집단의 비교, 남녀 차이 검증 등 심리학 연구에서 가장 빈번하게 사용되는 기본 검정이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "t검정의 기본 틀을 개발하였으며, 이후 두 표본 비교로 확장되었다."
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "독립표본 t검정의 수학적 정당성을 확립하고 분산분석과의 관계를 밝혔다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired-samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      },
+      {
+        "name_ko": "웰치의 t검정",
+        "name_en": "Welch's t-test",
+        "id": "TTEST_WT_008"
+      },
+      {
+        "name_ko": "피험자간 설계",
+        "name_en": "Between-subjects Design",
+        "id": "DESIGN_BS_008"
+      },
+      {
+        "name_ko": "합동분산",
+        "name_en": "Pooled Variance",
+        "id": "TTEST_PV_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "독립표본 = 서로 다른 사람들 비교 → 실험군 vs 통제군",
+      "differential": "독립표본 t검정은 서로 다른 참가자(피험자간)이고, 대응표본 t검정은 같은 참가자가 두 조건 모두 경험(피험자내)한다.",
+      "key_point": "t = (X̄₁ - X̄₂) / √(s²p(1/n₁ + 1/n₂)), 자유도: df = n₁ + n₂ - 2. 등분산 가정을 충족해야 한다.",
+      "common_mistake": "두 집단의 분산이 크게 다를 때 일반 독립표본 t검정 대신 웰치의 t검정을 사용해야 한다."
+    }
+  },
+  {
+    "id": "TTEST_PT_003",
+    "terminology": "대응표본 t검정 (Paired-samples t-test)",
+    "terminology_ko": "대응표본 t검정",
+    "terminology_en": "Paired-samples t-test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "동일한 참가자에게서 두 번 측정하거나 짝지어진 두 집단의 평균 차이가 통계적으로 유의한지를 검정하는 방법이다.",
+    "definition_en": "A test that determines whether the mean difference between two related measurements (same participants or matched pairs) is statistically significant.",
+    "significance": "사전-사후 비교, 처치 효과 평가 등 반복측정 설계에서 개인차 변동을 통제하여 더 민감한 검정이 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "짝지어진 비교(paired comparison)의 효율성을 초기에 인식하고 적용하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "대응표본",
+        "name_en": "Paired Samples",
+        "id": "TTEST_PS_016"
+      },
+      {
+        "name_ko": "피험자내 설계",
+        "name_en": "Within-subjects Design",
+        "id": "DESIGN_WS_007"
+      },
+      {
+        "name_ko": "윌콕슨 부호순위 검정",
+        "name_en": "Wilcoxon Signed-Rank Test",
+        "id": "TTEST_WS_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대응 = 같은 사람, 두 번 측정 → 차이점수(D = X₂ - X₁)로 분석",
+      "differential": "대응표본은 차이점수(D)에 대한 일표본 t검정이며, 독립표본은 두 집단 평균을 직접 비교한다.",
+      "key_point": "t = D̄ / (sD/√n), 자유도: df = n - 1(쌍의 수 - 1). 개인차를 통제하여 검정력이 높다.",
+      "common_mistake": "대응표본 t검정에서 n은 '참가자 수'(쌍의 수)이지, 총 측정치 수(2n)가 아니다."
+    }
+  },
+  {
+    "id": "TTEST_DF_004",
+    "terminology": "자유도 (Degrees of Freedom)",
+    "terminology_ko": "자유도",
+    "terminology_en": "Degrees of Freedom",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "통계량 계산에서 자유롭게 변할 수 있는 독립적인 값의 개수로, t분포의 형태와 임계값을 결정하는 핵심 매개변수이다.",
+    "definition_en": "The number of independent values that are free to vary in the calculation of a statistic, a key parameter that determines the shape and critical values of the t-distribution.",
+    "significance": "표본크기가 작을수록 자유도가 줄어 t분포의 꼬리가 두꺼워지며, 이는 더 보수적인(기각하기 어려운) 검정으로 이어진다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "자유도 개념을 통계학에 체계적으로 도입하고 수학적으로 정의하였다."
+      },
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "t분포에서 자유도의 역할을 최초로 인식하고 활용하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "t분포",
+        "name_en": "t-distribution",
+        "id": "TTEST_TD_009"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자유도 = n - 제약 → 일표본: n-1, 독립표본: n₁+n₂-2, 대응: n-1(쌍)",
+      "differential": "t검정의 자유도는 검정 유형에 따라 다르고, F검정(ANOVA)은 분자·분모 각각의 자유도가 필요하다.",
+      "key_point": "자유도가 클수록(표본이 클수록) t분포는 정규분포에 가까워지고, df ≥ 30이면 거의 유사하다.",
+      "common_mistake": "웰치의 t검정에서 자유도는 정수가 아닌 소수로 계산되며(Satterthwaite 근사), n₁+n₂-2보다 작을 수 있다."
+    }
+  },
+  {
+    "id": "TTEST_SE_005",
+    "terminology": "평균의 표준오차 (Standard Error of the Mean)",
+    "terminology_ko": "평균의 표준오차",
+    "terminology_en": "Standard Error of the Mean",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "표본평균의 표집분포에서의 표준편차로, 표본평균이 모평균 주위에서 얼마나 변동하는지를 나타내는 측도이다.",
+    "definition_en": "The standard deviation of the sampling distribution of the sample mean, measuring how much the sample mean varies around the population mean.",
+    "significance": "t검정 공식의 분모에 해당하며, 표본크기가 커질수록 감소하여 더 정밀한 추정과 강력한 검정을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "소표본에서 표준오차 추정의 불확실성을 인식하고 t분포로 이를 보정하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "표본분포",
+        "name_en": "Sampling Distribution",
+        "id": "SAMPLE_SD_013"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SE = s / √n → 표준편차를 루트 n으로 나눈다 → n이 크면 SE가 작아진다",
+      "differential": "표준편차(SD)는 개별 점수의 변동성이고, 표준오차(SE)는 표본평균의 변동성이다. SE = SD / √n.",
+      "key_point": "표본크기를 4배로 늘리면 표준오차는 절반으로 줄어든다(√4 = 2). 정밀도 향상의 수확체감 법칙이 적용된다.",
+      "common_mistake": "표준오차와 표준편차를 혼동하는 경우가 많다. 그래프 오차막대(error bar)에 어느 것을 사용했는지 반드시 명시해야 한다."
+    }
+  },
+  {
+    "id": "TTEST_CD_006",
+    "terminology": "코헨의 d (Cohen's d)",
+    "terminology_ko": "코헨의 d",
+    "terminology_en": "Cohen's d",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "두 집단의 평균 차이를 합동표준편차로 나누어 표준화한 효과크기 지표로, t검정 결과의 실질적 크기를 나타낸다.",
+    "definition_en": "A standardized effect size measure that divides the difference between two group means by the pooled standard deviation, indicating the practical magnitude of t-test results.",
+    "significance": "t검정과 함께 반드시 보고해야 하는 효과크기 지표로, 표본크기에 독립적이어서 연구 간 비교와 메타분석에 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과크기 d를 개발하고, 소(0.2)·중(0.5)·대(0.8)의 해석 기준을 제시하였다."
+      },
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "소표본 편향을 보정한 Hedges' g를 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "HYPO_ES_016"
+      },
+      {
+        "name_ko": "합동표준편차",
+        "name_en": "Pooled Standard Deviation",
+        "id": "TTEST_PS_018"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "d = (M₁ - M₂) / sp → 평균 차이를 표준편차 단위로 표현 → d = 1.0이면 1 SD 차이",
+      "differential": "Cohen's d는 두 집단 비교, 반복측정의 경우 dz(차이점수 기반) 또는 dav(두 시점 평균 SD 기반)를 사용한다.",
+      "key_point": "코헨의 기준: d = 0.2(소), 0.5(중), 0.8(대). 이는 일반적 지침이며, 연구 분야에 따라 달라질 수 있다.",
+      "common_mistake": "d의 해석 기준은 맥락에 따라 달라야 한다. 예를 들어 임상 장면에서 d = 0.2도 실질적으로 중요할 수 있다."
+    }
+  },
+  {
+    "id": "TTEST_HV_007",
+    "terminology": "등분산 가정 (Homogeneity of Variance Assumption)",
+    "terminology_ko": "등분산 가정",
+    "terminology_en": "Homogeneity of Variance Assumption",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "독립표본 t검정에서 두 집단의 모분산이 동일하다는 가정으로, 위반 시 제1종 오류율이 왜곡될 수 있다.",
+    "definition_en": "The assumption in independent-samples t-tests that the population variances of both groups are equal; violation can distort the Type I error rate.",
+    "significance": "합동분산을 사용하는 전통적 t검정의 타당성을 결정하는 핵심 가정이며, 위반 시 웰치의 t검정을 대안으로 사용한다.",
+    "key_researchers": [
+      {
+        "name_ko": "하워드 레빈",
+        "name_en": "Howard Levene",
+        "contribution": "분산의 동질성을 검정하는 레빈 검정(Levene's test)을 개발하였다."
+      },
+      {
+        "name_ko": "모턴 브라운",
+        "name_en": "Morton B. Brown",
+        "contribution": "포사이스와 함께 레빈 검정의 변형 버전을 개발하여 견고성을 높였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "레빈 검정",
+        "name_en": "Levene's Test",
+        "id": "TTEST_LV_010"
+      },
+      {
+        "name_ko": "웰치의 t검정",
+        "name_en": "Welch's t-test",
+        "id": "TTEST_WT_008"
+      },
+      {
+        "name_ko": "합동분산",
+        "name_en": "Pooled Variance",
+        "id": "TTEST_PV_012"
+      },
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "등분산 = 두 집단의 분산이 '같다(等)'는 가정 → σ₁² = σ₂²",
+      "differential": "등분산 가정은 독립표본 t검정에만 해당하며, 대응표본 t검정에서는 이 가정이 필요하지 않다.",
+      "key_point": "두 집단의 분산 비가 2:1 이내이고 표본크기가 비슷하면, 등분산 가정 위반에 비교적 강건하다.",
+      "common_mistake": "레빈 검정이 유의하면 등분산 가정이 위반되었다는 것이지, 유의하면 등분산이라는 것이 아니다."
+    }
+  },
+  {
+    "id": "TTEST_WT_008",
+    "terminology": "웰치의 t검정 (Welch's t-test)",
+    "terminology_ko": "웰치의 t검정",
+    "terminology_en": "Welch's t-test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "등분산 가정을 요구하지 않는 독립표본 t검정의 변형으로, 각 집단의 분산을 별도로 추정하고 자유도를 보정한다.",
+    "definition_en": "A modification of the independent-samples t-test that does not require the equal variance assumption, estimating each group's variance separately and adjusting the degrees of freedom.",
+    "significance": "등분산 가정이 충족되지 않을 때의 대안으로, 현재 많은 연구자가 기본(default) t검정으로 웰치의 검정 사용을 권장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "버나드 웰치",
+        "name_en": "Bernard L. Welch",
+        "contribution": "이분산 상황에서도 정확한 검정을 제공하는 수정된 t검정 절차를 개발하였다."
+      },
+      {
+        "name_ko": "프랭클린 새터스웨이트",
+        "name_en": "Franklin E. Satterthwaite",
+        "contribution": "이분산 상황에서의 자유도 근사 공식(Satterthwaite approximation)을 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "레빈 검정",
+        "name_en": "Levene's Test",
+        "id": "TTEST_LV_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "웰치 = 분산이 달라도 OK → 자유도를 소수점으로 보정(Satterthwaite 근사)",
+      "differential": "전통적 t검정은 합동분산(pooled)을 사용하지만, 웰치의 t검정은 각 집단의 분산을 개별적으로 사용한다.",
+      "key_point": "등분산일 때도 웰치의 검정은 유사한 결과를 제공하므로, 기본값으로 웰치를 사용하라는 권고가 늘고 있다.",
+      "common_mistake": "SPSS에서 레빈 검정이 유의하면 '등분산이 가정되지 않은' 행의 결과(웰치)를 보고해야 한다."
+    }
+  },
+  {
+    "id": "TTEST_TD_009",
+    "terminology": "t분포 (t-distribution)",
+    "terminology_ko": "t분포",
+    "terminology_en": "t-distribution",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "정규모집단에서 소표본을 추출할 때 표본통계량이 따르는 확률분포로, 정규분포보다 꼬리가 두꺼운 종형 분포이다.",
+    "definition_en": "A probability distribution followed by sample statistics drawn from normally distributed populations with small samples, a bell-shaped distribution with heavier tails than the normal distribution.",
+    "significance": "모분산이 미지일 때 표준오차 추정의 불확실성을 반영하여, 소표본에서도 정확한 통계적 추론을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "'Student'라는 필명으로 1908년 t분포를 발견하고 논문을 발표하였다."
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "t분포의 수학적 증명을 완성하고 'Student's t'라는 명칭을 붙였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "표준정규분포",
+        "name_en": "Standard Normal Distribution",
+        "id": "PROB_SND_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "t분포 = 정규분포의 '뚱뚱한 꼬리' 버전 → df가 커지면 정규분포에 수렴",
+      "differential": "z분포(표준정규)는 모분산이 알려졌을 때, t분포는 모분산이 미지여서 표본분산으로 추정할 때 사용한다.",
+      "key_point": "자유도(df)가 유일한 매개변수이며, df → ∞이면 표준정규분포와 동일해진다. df ≥ 30이면 거의 유사하다.",
+      "common_mistake": "t분포는 하나가 아니라 자유도에 따라 무한히 많은 분포의 가족(family)이다."
+    }
+  },
+  {
+    "id": "TTEST_LV_010",
+    "terminology": "레빈 검정 (Levene's Test)",
+    "terminology_ko": "레빈 검정",
+    "terminology_en": "Levene's Test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "두 개 이상 집단의 분산이 동일한지를 검정하는 방법으로, 각 관측값과 집단 중심값의 절대편차에 대해 분산분석을 수행한다.",
+    "definition_en": "A test for equality of variances across two or more groups, performing an ANOVA on the absolute deviations of each observation from its group center.",
+    "significance": "독립표본 t검정이나 ANOVA의 등분산 가정을 사전에 검증하는 표준적 방법으로, SPSS 등 주요 통계 프로그램에서 기본 제공된다.",
+    "key_researchers": [
+      {
+        "name_ko": "하워드 레빈",
+        "name_en": "Howard Levene",
+        "contribution": "분산 동질성 검정을 위한 비모수적 접근의 레빈 검정을 개발하였다."
+      },
+      {
+        "name_ko": "모턴 브라운",
+        "name_en": "Morton B. Brown",
+        "contribution": "중앙값 기반 변형(Brown-Forsythe 검정)을 개발하여 비정규 분포에서의 견고성을 개선하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      },
+      {
+        "name_ko": "웰치의 t검정",
+        "name_en": "Welch's t-test",
+        "id": "TTEST_WT_008"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "평균 기반 레빈 검정",
+        "description": "각 집단의 평균으로부터의 절대편차를 사용 (원래 버전)"
+      },
+      {
+        "name": "중앙값 기반 레빈 검정 (Brown-Forsythe)",
+        "description": "중앙값으로부터의 절대편차를 사용, 비정규에 더 강건"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "레빈 검정 = 분산 같은지 확인 → p > .05이면 등분산 OK",
+      "differential": "레빈 검정에서 유의(p < .05)하면 분산이 다르다는 의미이므로, 웰치 t검정을 사용해야 한다.",
+      "key_point": "SPSS 독립표본 t검정 출력에서 레빈 검정 결과가 자동으로 제시되며, 이에 따라 적절한 t값 행을 선택한다.",
+      "common_mistake": "레빈 검정 자체도 표본크기에 영향을 받으므로, 대표본에서는 사소한 분산 차이도 유의하게 나타날 수 있다."
+    }
+  },
+  {
+    "id": "TTEST_HT_011",
+    "terminology": "동질성 검정 (Homogeneity Test)",
+    "terminology_ko": "동질성 검정",
+    "terminology_en": "Homogeneity Test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "비교하려는 집단들의 특성(분산, 분포 등)이 동질적인지를 확인하는 통계적 검정 절차의 총칭이다.",
+    "definition_en": "A general category of statistical tests that check whether the characteristics (variance, distribution, etc.) of groups being compared are homogeneous.",
+    "significance": "모수적 검정의 기본 가정을 사전에 검증하는 절차로, 가정 위반 시 대안적 분석 방법의 선택을 안내한다.",
+    "key_researchers": [
+      {
+        "name_ko": "모리스 바틀렛",
+        "name_en": "Maurice S. Bartlett",
+        "contribution": "바틀렛 검정(Bartlett's test)을 개발하여 정규분포 가정 하의 분산 동질성 검정을 제시하였다."
+      },
+      {
+        "name_ko": "하워드 레빈",
+        "name_en": "Howard Levene",
+        "contribution": "정규성 가정에 강건한 분산 동질성 검정을 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      },
+      {
+        "name_ko": "레빈 검정",
+        "name_en": "Levene's Test",
+        "id": "TTEST_LV_010"
+      },
+      {
+        "name_ko": "정규성 가정",
+        "name_en": "Normality Assumption",
+        "id": "TTEST_NA_023"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "분산 동질성 검정",
+        "description": "레빈, 바틀렛 검정 등으로 분산의 동질성 확인"
+      },
+      {
+        "name": "분포 동질성 검정",
+        "description": "카이제곱 동질성 검정으로 분포 형태의 동질성 확인"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "동질성 = 집단들이 '같은 성질'인지 확인 → 분산 동질성이 가장 흔한 사례",
+      "differential": "동질성 검정은 '가정이 충족되는가?'를 확인하는 것이고, t검정이나 ANOVA는 '차이가 있는가?'를 확인하는 것이다.",
+      "key_point": "등분산 동질성 검정은 예비 분석(preliminary analysis)으로 실시하며, 주요 분석 방법의 선택에 영향을 준다.",
+      "common_mistake": "동질성 검정 결과만으로 분석 방법을 기계적으로 선택하는 것보다, 시각적 검토와 함께 종합적으로 판단하는 것이 바람직하다."
+    }
+  },
+  {
+    "id": "TTEST_PV_012",
+    "terminology": "합동분산 (Pooled Variance)",
+    "terminology_ko": "합동분산",
+    "terminology_en": "Pooled Variance",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "독립표본 t검정에서 두 집단의 분산을 표본크기에 따라 가중 평균하여 하나의 추정치로 합친 공통 분산 추정치이다.",
+    "definition_en": "A weighted average of the variances from two groups in an independent-samples t-test, combining them into a single estimate of the common population variance.",
+    "significance": "등분산 가정이 충족될 때, 두 집단의 정보를 결합하여 더 안정적인 모분산 추정치를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "합동 추정의 원리를 통계적 추론에 체계적으로 적용하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      },
+      {
+        "name_ko": "합동표준편차",
+        "name_en": "Pooled Standard Deviation",
+        "id": "TTEST_PS_018"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "합동분산 = 두 집단 분산의 가중 평균 → s²p = [(n₁-1)s₁² + (n₂-1)s₂²] / (n₁+n₂-2)",
+      "differential": "합동분산은 등분산 가정 하에서 사용하고, 웰치 t검정에서는 각 집단의 분산을 별도로 사용한다.",
+      "key_point": "가중치는 각 집단의 자유도(n-1)이므로, 표본크기가 큰 집단의 분산이 더 많이 반영된다.",
+      "common_mistake": "두 분산의 단순 평균이 아니라 자유도로 가중한 평균이다. 표본크기가 같을 때만 단순 평균과 같다."
+    }
+  },
+  {
+    "id": "TTEST_ES_013",
+    "terminology": "t검정의 효과크기 (Effect Size for t-tests)",
+    "terminology_ko": "t검정의 효과크기",
+    "terminology_en": "Effect Size for t-tests",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "t검정에서 평균 차이의 실질적 크기를 나타내는 표준화 지표로, Cohen's d가 가장 널리 사용된다.",
+    "definition_en": "A standardized measure of the practical magnitude of mean differences in t-tests, with Cohen's d being the most widely used indicator.",
+    "significance": "APA 출판 매뉴얼에서 통계적 유의성과 함께 효과크기 보고를 의무화하고 있어, t검정 결과 해석에 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "행동과학에서의 효과크기 체계를 확립하고, d, r, f 등 다양한 효과크기 지표를 개발하였다."
+      },
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "소표본 편향을 교정한 Hedges' g를 제시하여 메타분석에서의 효과크기 활용을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "TTEST_CD_006"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "HYPO_ES_016"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "HYPO_CI_017"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "Cohen's d",
+        "description": "독립 두 집단 평균 차이를 합동표준편차로 나눈 값"
+      },
+      {
+        "name": "Hedges' g",
+        "description": "Cohen's d에 소표본 편향 보정을 적용한 값"
+      },
+      {
+        "name": "Glass's Δ",
+        "description": "통제집단의 표준편차만을 분모로 사용한 효과크기"
+      },
+      {
+        "name": "점이연상관 (r_pb)",
+        "description": "이분 변인과 연속 변인 간의 상관으로 표현한 효과크기"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "t에서 d 구하기: d = 2t / √df (독립표본), d = t / √n (대응표본)",
+      "differential": "Cohen's d는 합동SD 사용, Glass's Δ는 통제집단SD만 사용, Hedges' g는 d에 소표본 보정을 적용한다.",
+      "key_point": "효과크기의 95% 신뢰구간도 함께 보고하면, 효과크기 추정의 정밀성을 평가할 수 있다.",
+      "common_mistake": "t값이 크다고 반드시 효과크기가 큰 것은 아니다. t값은 표본크기에 영향을 받지만 d는 그렇지 않다."
+    }
+  },
+  {
+    "id": "TTEST_MD_014",
+    "terminology": "평균차이 (Mean Difference)",
+    "terminology_ko": "평균차이",
+    "terminology_en": "Mean Difference",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "두 집단 또는 두 조건의 표본평균 간의 차이로, t검정의 분자에 해당하며 검정의 핵심 관심사이다.",
+    "definition_en": "The difference between the sample means of two groups or conditions, constituting the numerator of the t-test and the primary focus of the test.",
+    "significance": "비표준화된 원래 단위의 효과 크기를 나타내며, 표준화된 효과크기(d)와 함께 보고하면 결과 해석이 풍부해진다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "평균 차이의 통계적 유의성을 소표본에서 평가할 수 있는 방법을 최초로 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "HYPO_CI_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "평균차이 = X̄₁ - X̄₂ → t검정의 분자(효과), 분모는 표준오차(오차)",
+      "differential": "평균차이는 원점수 단위(예: 5점 차이)이고, Cohen's d는 표준편차 단위(예: 0.5 SD 차이)이다.",
+      "key_point": "평균차이의 신뢰구간을 함께 보고하면, 모집단 평균 차이의 가능한 범위를 알 수 있다.",
+      "common_mistake": "평균차이만으로는 효과의 크기를 판단할 수 없다. 변동성(표준편차)을 고려해야 한다."
+    }
+  },
+  {
+    "id": "TTEST_CI_015",
+    "terminology": "평균차이의 신뢰구간 (Confidence Interval for Mean Difference)",
+    "terminology_ko": "평균차이의 신뢰구간",
+    "terminology_en": "Confidence Interval for Mean Difference",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "두 집단 모평균 차이의 참값이 포함될 것으로 기대되는 범위로, t검정 결과에 추정의 정밀도 정보를 추가한다.",
+    "definition_en": "A range within which the true population mean difference is expected to fall, adding precision information to t-test results.",
+    "significance": "가설검정의 이분법적 판단을 보완하여, 효과의 크기와 방향에 대한 연속적 정보를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "신뢰구간의 빈도주의적 이론을 정립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "HYPO_CI_017"
+      },
+      {
+        "name_ko": "평균차이",
+        "name_en": "Mean Difference",
+        "id": "TTEST_MD_014"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "TTEST_SE_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CI = (X̄₁ - X̄₂) ± t_crit × SE → 평균차이에서 오차범위를 더하고 뺌",
+      "differential": "신뢰구간이 0을 포함하면 p > .05(비유의), 0을 포함하지 않으면 p < .05(유의)와 대응한다.",
+      "key_point": "95% CI는 양측 α = .05 t검정과, 99% CI는 α = .01 t검정과 대응한다.",
+      "common_mistake": "CI의 너비는 표본크기에 영향을 받으므로, 좁은 CI가 항상 더 좋은 연구를 의미하지는 않는다."
+    }
+  },
+  {
+    "id": "TTEST_PS_016",
+    "terminology": "대응표본 (Paired Samples)",
+    "terminology_ko": "대응표본",
+    "terminology_en": "Paired Samples",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "동일한 참가자에게 두 번 측정하거나 의미 있는 기준으로 짝지어진 두 관측치의 쌍으로 구성된 표본이다.",
+    "definition_en": "A sample consisting of pairs of observations from the same participant measured twice or from meaningfully matched pairs.",
+    "significance": "짝지어진 관측치 간의 상관을 활용하여 개인차 변동을 제거함으로써, 독립표본보다 더 민감한 검정이 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "짝진 비교(paired comparison)의 통계적 효율성을 최초로 인식하고 활용하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired-samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "독립표본",
+        "name_en": "Independent Samples",
+        "id": "TTEST_IS_017"
+      },
+      {
+        "name_ko": "피험자내 설계",
+        "name_en": "Within-subjects Design",
+        "id": "DESIGN_WS_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "반복측정 (Repeated measures)",
+        "description": "같은 참가자를 두 시점 또는 두 조건에서 측정"
+      },
+      {
+        "name": "짝짓기 (Matched pairs)",
+        "description": "주요 변인에서 유사한 참가자를 짝지어 배정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "대응 = 짝(pair) → 같은 사람의 전후, 또는 짝지어진 두 사람",
+      "differential": "대응표본은 관측치 간 의존성(dependency)이 있고, 독립표본은 관측치 간 독립성(independence)이 있다.",
+      "key_point": "대응표본 t검정은 차이점수(D = X₂ - X₁)를 구한 후, 이 차이점수에 대한 일표본 t검정을 수행하는 것이다.",
+      "common_mistake": "대응표본에 독립표본 t검정을 적용하면, 개인차를 고려하지 못해 오차가 과대추정되고 검정력이 낮아진다."
+    }
+  },
+  {
+    "id": "TTEST_IS_017",
+    "terminology": "독립표본 (Independent Samples)",
+    "terminology_ko": "독립표본",
+    "terminology_en": "Independent Samples",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "한 집단의 관측치가 다른 집단의 관측치와 짝지어지지 않고 서로 독립적으로 수집된 두 개의 표본이다.",
+    "definition_en": "Two samples in which the observations in one group are not paired with or related to observations in the other group, collected independently.",
+    "significance": "피험자간 설계의 기본 표본 구조로, 무선할당을 통해 집단 간 동질성을 확보하여 인과 추론의 기초를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "무선할당(random assignment)을 통한 독립 집단 비교의 실험적 논리를 확립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "대응표본",
+        "name_en": "Paired Samples",
+        "id": "TTEST_PS_016"
+      },
+      {
+        "name_ko": "피험자간 설계",
+        "name_en": "Between-subjects Design",
+        "id": "DESIGN_BS_008"
+      },
+      {
+        "name_ko": "무선할당",
+        "name_en": "Random Assignment",
+        "id": "DESIGN_RA_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "독립 = 서로 관계 없는 다른 사람들 → 실험군(A)과 통제군(B)은 별개",
+      "differential": "독립표본은 '다른 사람'이 다른 조건, 대응표본은 '같은 사람'이 두 조건을 경험한다.",
+      "key_point": "독립성은 한 집단의 점수가 다른 집단의 점수에 대한 정보를 제공하지 않음을 의미한다.",
+      "common_mistake": "표본크기가 다른 두 집단도 독립표본 t검정을 사용할 수 있다. 등표본크기가 필수 조건은 아니다."
+    }
+  },
+  {
+    "id": "TTEST_PS_018",
+    "terminology": "합동표준편차 (Pooled Standard Deviation)",
+    "terminology_ko": "합동표준편차",
+    "terminology_en": "Pooled Standard Deviation",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "합동분산의 제곱근으로, Cohen's d의 분모에 사용되어 두 집단의 평균 차이를 표준화하는 데 활용된다.",
+    "definition_en": "The square root of the pooled variance, used as the denominator in Cohen's d to standardize the mean difference between two groups.",
+    "significance": "효과크기 d 계산의 핵심 구성요소로, 두 집단의 변동성 정보를 하나로 통합한 공통 척도를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "합동표준편차를 효과크기 d의 분모로 사용하는 방법을 표준화하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "합동분산",
+        "name_en": "Pooled Variance",
+        "id": "TTEST_PV_012"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "TTEST_CD_006"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "sp = √s²p → 합동분산에 루트를 씌운 것 → d = (M₁-M₂)/sp",
+      "differential": "합동표준편차는 두 집단 SD의 가중 평균이고, Glass's Δ에서는 통제집단의 SD만 사용한다.",
+      "key_point": "sp = √[((n₁-1)s₁² + (n₂-1)s₂²) / (n₁+n₂-2)]. 표본크기가 같으면 두 SD의 제곱평균 근의 제곱근이다.",
+      "common_mistake": "합동표준편차는 두 표준편차의 단순 평균이 아니다. 자유도 가중평균이며, 등표본일 때만 단순 평균과 근사한다."
+    }
+  },
+  {
+    "id": "TTEST_TV_019",
+    "terminology": "t값 (t-value)",
+    "terminology_ko": "t값",
+    "terminology_en": "t-value",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "표본 데이터로부터 계산된 t검정의 검정통계량으로, 평균 차이를 표준오차로 나누어 표준화한 비율이다.",
+    "definition_en": "The test statistic calculated from sample data in a t-test, a ratio of the mean difference divided by its standard error.",
+    "significance": "t값의 크기와 부호가 효과의 방향과 강도를 반영하며, 임계 t값 또는 p값과 비교하여 통계적 유의성을 판단한다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "t통계량과 그 표집분포를 최초로 도출하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "검정통계량",
+        "name_en": "Test Statistic",
+        "id": "HYPO_TS_008"
+      },
+      {
+        "name_ko": "임계 t값",
+        "name_en": "Critical t-value",
+        "id": "TTEST_CT_020"
+      },
+      {
+        "name_ko": "t분포",
+        "name_en": "t-distribution",
+        "id": "TTEST_TD_009"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "t = 신호/잡음 = (관찰된 차이) / (우연에 의한 변동) → 비율이 클수록 유의",
+      "differential": "t값은 표본크기에 영향을 받지만, 효과크기(d)는 표본크기에 독립적이다. 같은 d라도 n이 크면 t가 커진다.",
+      "key_point": "t = (X̄ - μ₀) / SE (일표본), t = (X̄₁ - X̄₂) / SE (독립표본), t = D̄ / SE_D (대응표본).",
+      "common_mistake": "t값의 부호는 평균의 대소 관계에 따라 달라지므로, 양측검정에서는 절대값으로 비교한다."
+    }
+  },
+  {
+    "id": "TTEST_CT_020",
+    "terminology": "임계 t값 (Critical t-value)",
+    "terminology_ko": "임계 t값",
+    "terminology_en": "Critical t-value",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "주어진 유의수준(α)과 자유도(df)에서 t분포의 기각역 경계를 정의하는 값으로, t분포표에서 찾을 수 있다.",
+    "definition_en": "The value from the t-distribution that defines the boundary of the rejection region for a given significance level (α) and degrees of freedom (df).",
+    "significance": "전통적 가설검정에서 계산된 t값과 비교하여 기각 여부를 결정하는 기준점 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "t분포표를 최초로 작성하여 임계값 참조를 가능하게 하였다."
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "다양한 자유도와 유의수준에 대한 상세한 t분포표를 출판하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "t값",
+        "name_en": "t-value",
+        "id": "TTEST_TV_019"
+      },
+      {
+        "name_ko": "임계값",
+        "name_en": "Critical Value",
+        "id": "HYPO_CV_009"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "기각역",
+        "name_en": "Rejection Region",
+        "id": "HYPO_RR_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "임계 t = t분포표에서 찾는 기준값 → |관찰된 t| > 임계 t이면 기각",
+      "differential": "임계 t값은 α와 df로 사전에 결정되고, 관찰된 t값은 데이터에서 계산된다.",
+      "key_point": "양측검정(α = .05, df = 20)의 임계 t값은 ±2.086이다. 자유도가 클수록 1.96(z)에 가까워진다.",
+      "common_mistake": "현대 통계 소프트웨어는 정확한 p값을 제공하므로 임계값 비교보다 p값 보고가 선호되지만, 원리 이해에는 필수이다."
+    }
+  },
+  {
+    "id": "TTEST_OT_021",
+    "terminology": "단측 t검정 (One-tailed t-test)",
+    "terminology_ko": "단측 t검정",
+    "terminology_en": "One-tailed t-test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "대립가설이 특정 방향(크거나 작은)의 평균 차이만을 예측하는 t검정으로, t분포의 한쪽 꼬리에만 기각역을 설정한다.",
+    "definition_en": "A t-test in which the alternative hypothesis predicts a specific direction of the mean difference, placing the rejection region in only one tail of the t-distribution.",
+    "significance": "이론적으로 강한 방향성 예측이 있을 때 사용하며, 양측 검정보다 더 높은 검정력을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "방향적 검정의 적절한 사용 조건에 대해 논의하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "양측 t검정",
+        "name_en": "Two-tailed t-test",
+        "id": "TTEST_TT_022"
+      },
+      {
+        "name_ko": "단측검정",
+        "name_en": "One-tailed Test",
+        "id": "HYPO_OT_010"
+      },
+      {
+        "name_ko": "대립가설",
+        "name_en": "Alternative Hypothesis",
+        "id": "HYPO_AH_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "단측 t = 한쪽만 → H₁: μ₁ > μ₂ 또는 H₁: μ₁ < μ₂",
+      "differential": "단측 t검정의 임계값은 양측보다 작으므로(예: α=.05, df=20 → 단측 1.725 vs 양측 2.086), 기각이 더 쉽다.",
+      "key_point": "효과가 예측한 반대 방향으로 나타나면, 아무리 큰 t값이라도 유의하다고 결론내릴 수 없다.",
+      "common_mistake": "양측 검정에서 유의하지 않은 결과를 단측으로 바꾸어 유의하게 만드는 것은 연구 부정행위이다."
+    }
+  },
+  {
+    "id": "TTEST_TT_022",
+    "terminology": "양측 t검정 (Two-tailed t-test)",
+    "terminology_ko": "양측 t검정",
+    "terminology_en": "Two-tailed t-test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "대립가설이 평균 차이의 방향을 특정하지 않는 t검정으로, t분포의 양쪽 꼬리에 기각역을 설정한다.",
+    "definition_en": "A t-test in which the alternative hypothesis does not specify the direction of the mean difference, placing rejection regions in both tails of the t-distribution.",
+    "significance": "효과 방향에 대한 확실한 예측이 없을 때 기본적으로 사용하며, 양방향 효과를 모두 탐지할 수 있는 보수적 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "t검정의 원래 공식에서 양방향 차이를 고려하는 틀을 제공하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단측 t검정",
+        "name_en": "One-tailed t-test",
+        "id": "TTEST_OT_021"
+      },
+      {
+        "name_ko": "양측검정",
+        "name_en": "Two-tailed Test",
+        "id": "HYPO_TT_011"
+      },
+      {
+        "name_ko": "임계 t값",
+        "name_en": "Critical t-value",
+        "id": "TTEST_CT_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "양측 t = 양쪽 → H₁: μ₁ ≠ μ₂ → α를 양쪽에 절반씩 배분",
+      "differential": "양측 t검정의 p값은 단측 p값의 2배이다. 양측 p = .048이면 단측 p = .024.",
+      "key_point": "대부분의 심리학 연구에서 양측 t검정이 기본이며, 단측을 사용할 경우 사전 정당화가 필요하다.",
+      "common_mistake": "SPSS는 기본적으로 양측 p값을 보고하므로, 단측 검정을 원할 경우 출력된 p값을 2로 나누어야 한다."
+    }
+  },
+  {
+    "id": "TTEST_NA_023",
+    "terminology": "정규성 가정 (Normality Assumption)",
+    "terminology_ko": "정규성 가정",
+    "terminology_en": "Normality Assumption",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "t검정이 타당하기 위해 모집단 분포(또는 표집분포)가 정규분포를 따라야 한다는 가정이다.",
+    "definition_en": "The assumption that the population distribution (or the sampling distribution) follows a normal distribution, required for the validity of the t-test.",
+    "significance": "소표본에서는 정규성 위반이 검정의 타당성에 큰 영향을 미치지만, 중심극한정리에 의해 대표본에서는 강건하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "정규분포(가우스 분포)의 수학적 특성을 정립하였다."
+      },
+      {
+        "name_ko": "사무엘 샤피로",
+        "name_en": "Samuel S. Shapiro",
+        "contribution": "윌크와 함께 정규성 검정(Shapiro-Wilk test)을 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "샤피로-윌크 검정",
+        "name_en": "Shapiro-Wilk Test",
+        "id": "TTEST_SW_024"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      },
+      {
+        "name_ko": "비모수 대안",
+        "name_en": "Nonparametric Alternatives",
+        "id": "TTEST_NP_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정규성 = 데이터가 종형 곡선(bell curve)을 따라야 한다는 가정",
+      "differential": "정규성 가정은 모집단 분포에 대한 것이지, 표본 데이터 자체가 완벽한 정규분포여야 한다는 것은 아니다.",
+      "key_point": "표본크기가 30 이상이면 중심극한정리에 의해 정규성 위반의 영향이 크게 감소한다.",
+      "common_mistake": "정규성 검정(Shapiro-Wilk 등)이 유의하다고 해서 반드시 비모수 검정으로 전환해야 하는 것은 아니며, 위반 정도와 표본크기를 종합적으로 고려한다."
+    }
+  },
+  {
+    "id": "TTEST_SW_024",
+    "terminology": "샤피로-윌크 검정 (Shapiro-Wilk Test)",
+    "terminology_ko": "샤피로-윌크 검정",
+    "terminology_en": "Shapiro-Wilk Test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "표본 데이터가 정규분포를 따르는지를 검정하는 가장 검정력이 높은 정규성 검정 방법 중 하나이다.",
+    "definition_en": "One of the most powerful tests for normality, assessing whether sample data follows a normal distribution.",
+    "significance": "t검정이나 ANOVA의 정규성 가정을 검증하는 표준적 방법으로, 소표본(n < 50)에서 특히 권장된다.",
+    "key_researchers": [
+      {
+        "name_ko": "사무엘 샤피로",
+        "name_en": "Samuel S. Shapiro",
+        "contribution": "윌크와 함께 1965년 W통계량 기반 정규성 검정을 개발하였다."
+      },
+      {
+        "name_ko": "마틴 윌크",
+        "name_en": "Martin B. Wilk",
+        "contribution": "샤피로와 함께 정규성 검정의 수학적 기초를 정립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정규성 가정",
+        "name_en": "Normality Assumption",
+        "id": "TTEST_NA_023"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "비모수 대안",
+        "name_en": "Nonparametric Alternatives",
+        "id": "TTEST_NP_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "샤피로-윌크 = 정규성 검사의 '금본위' → W통계량이 1에 가까울수록 정규",
+      "differential": "Shapiro-Wilk은 소표본에서 강력하고, Kolmogorov-Smirnov(K-S)는 대표본에서 사용되나 검정력이 상대적으로 낮다.",
+      "key_point": "p > .05이면 정규성 가정이 유지되고, p < .05이면 정규성이 의심된다. 단, 대표본에서는 사소한 비정규성도 유의해질 수 있다.",
+      "common_mistake": "Q-Q 도표(Q-Q plot) 등 시각적 방법과 함께 사용하는 것이 권장되며, 검정 결과만으로 판단하는 것은 부족하다."
+    }
+  },
+  {
+    "id": "TTEST_IA_025",
+    "terminology": "독립성 가정 (Independence Assumption)",
+    "terminology_ko": "독립성 가정",
+    "terminology_en": "Independence Assumption",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "각 관측치가 다른 관측치에 영향을 미치지 않고 독립적으로 얻어졌다는 가정으로, 모든 t검정의 가장 기본적인 가정이다.",
+    "definition_en": "The assumption that each observation is obtained independently of all other observations, the most fundamental assumption for all t-tests.",
+    "significance": "독립성 위반은 다른 가정 위반보다 심각한 결과를 초래하며, 제1종 오류율의 심각한 왜곡을 유발할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "무선할당을 통해 독립성을 확보하는 실험 설계의 원리를 확립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본",
+        "name_en": "Independent Samples",
+        "id": "TTEST_IS_017"
+      },
+      {
+        "name_ko": "무선할당",
+        "name_en": "Random Assignment",
+        "id": "DESIGN_RA_004"
+      },
+      {
+        "name_ko": "정규성 가정",
+        "name_en": "Normality Assumption",
+        "id": "TTEST_NA_023"
+      },
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "독립성 = 한 사람의 답이 다른 사람의 답에 영향 없음 → 집단 작업은 위반 가능",
+      "differential": "독립성 가정은 t검정의 3대 가정(독립성, 정규성, 등분산) 중 가장 중요하며, 위반 시 가장 심각한 영향을 미친다.",
+      "key_point": "연구 설계와 데이터 수집 과정에서 확보해야 하며, 통계적으로 사후 검정하기 어렵다.",
+      "common_mistake": "학급 단위 연구에서 개인을 독립 관측치로 취급하면 독립성이 위반되어, 다층 모형(MLM)이 필요할 수 있다."
+    }
+  },
+  {
+    "id": "TTEST_NP_026",
+    "terminology": "비모수 대안 (Nonparametric Alternatives)",
+    "terminology_ko": "비모수 대안",
+    "terminology_en": "Nonparametric Alternatives",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "t검정의 모수적 가정(정규성 등)이 충족되지 않을 때 사용하는 분포 무관 검정 방법들의 총칭이다.",
+    "definition_en": "Distribution-free test methods used when the parametric assumptions of t-tests (such as normality) are not met.",
+    "significance": "순서형 자료, 극단적 비정규 분포, 소표본 등에서 모수 검정의 가정 위반 문제를 해결하는 대안적 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랭크 윌콕슨",
+        "name_en": "Frank Wilcoxon",
+        "contribution": "부호순위 검정과 순위합 검정을 개발하여 비모수 검정의 기초를 마련하였다."
+      },
+      {
+        "name_ko": "헨리 맨",
+        "name_en": "Henry B. Mann",
+        "contribution": "휘트니와 함께 독립 두 집단 비교를 위한 U검정을 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윌콕슨 부호순위 검정",
+        "name_en": "Wilcoxon Signed-Rank Test",
+        "id": "TTEST_WS_027"
+      },
+      {
+        "name_ko": "맨-휘트니 U 검정",
+        "name_en": "Mann-Whitney U Test",
+        "id": "TTEST_MW_028"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "정규성 가정",
+        "name_en": "Normality Assumption",
+        "id": "TTEST_NA_023"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "윌콕슨 부호순위 검정",
+        "description": "대응표본 t검정의 비모수 대안"
+      },
+      {
+        "name": "맨-휘트니 U 검정",
+        "description": "독립표본 t검정의 비모수 대안"
+      },
+      {
+        "name": "윌콕슨 순위합 검정",
+        "description": "맨-휘트니 U와 동등한 검정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "비모수 = 모수(parameter) 가정 없이 → 순위(rank)로 변환하여 검정",
+      "differential": "모수 검정(t검정)은 평균을 비교하고, 비모수 검정은 중앙값이나 순위를 비교한다.",
+      "key_point": "비모수 검정은 가정이 적지만, 모수 검정보다 검정력이 낮아 실제 효과를 놓칠 가능성이 더 크다.",
+      "common_mistake": "정규성이 약간 위반되었다고 무조건 비모수를 사용하는 것보다, 표본크기와 위반 정도를 고려하여 판단하는 것이 바람직하다."
+    }
+  },
+  {
+    "id": "TTEST_WS_027",
+    "terminology": "윌콕슨 부호순위 검정 (Wilcoxon Signed-Rank Test)",
+    "terminology_ko": "윌콕슨 부호순위 검정",
+    "terminology_en": "Wilcoxon Signed-Rank Test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "대응표본 t검정의 비모수 대안으로, 차이의 부호와 순위를 모두 고려하여 두 관련 조건의 차이를 검정한다.",
+    "definition_en": "A nonparametric alternative to the paired-samples t-test that considers both the sign and rank of differences to test for differences between two related conditions.",
+    "significance": "대응표본의 차이점수가 정규분포를 따르지 않을 때, 순위 정보를 활용하여 신뢰할 수 있는 검정 결과를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랭크 윌콕슨",
+        "name_en": "Frank Wilcoxon",
+        "contribution": "1945년 부호순위 검정을 개발하여 비모수 통계학의 기초를 세웠다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired-samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "비모수 대안",
+        "name_en": "Nonparametric Alternatives",
+        "id": "TTEST_NP_026"
+      },
+      {
+        "name_ko": "맨-휘트니 U 검정",
+        "name_en": "Mann-Whitney U Test",
+        "id": "TTEST_MW_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "윌콕슨 부호순위 = 대응 t의 비모수 → 차이점수의 '부호(+/-)' + '순위(크기)'",
+      "differential": "부호 검정(sign test)은 차이의 방향만 고려하지만, 부호순위 검정은 차이의 크기(순위)도 고려하여 검정력이 더 높다.",
+      "key_point": "차이가 0인 쌍은 제외하고, 나머지 차이의 절대값에 순위를 매긴 후 양/음 순위합을 비교한다.",
+      "common_mistake": "윌콕슨 부호순위 검정(대응)과 윌콕슨 순위합 검정(독립)을 혼동하지 말아야 한다. 이름이 같은 사람이 만든 서로 다른 검정이다."
+    }
+  },
+  {
+    "id": "TTEST_MW_028",
+    "terminology": "맨-휘트니 U 검정 (Mann-Whitney U Test)",
+    "terminology_ko": "맨-휘트니 U 검정",
+    "terminology_en": "Mann-Whitney U Test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "독립표본 t검정의 비모수 대안으로, 두 독립 집단의 순위 분포를 비교하여 집단 간 차이를 검정한다.",
+    "definition_en": "A nonparametric alternative to the independent-samples t-test that compares the rank distributions of two independent groups to test for group differences.",
+    "significance": "정규성 가정이 심하게 위반되거나 순서형 자료를 분석할 때, 독립표본 t검정 대신 사용하는 대표적인 비모수 검정이다.",
+    "key_researchers": [
+      {
+        "name_ko": "헨리 맨",
+        "name_en": "Henry B. Mann",
+        "contribution": "휘트니와 함께 1947년 U통계량 기반 독립 두 집단 비교 검정을 개발하였다."
+      },
+      {
+        "name_ko": "도널드 휘트니",
+        "name_en": "Donald R. Whitney",
+        "contribution": "맨과 함께 U검정의 수학적 특성과 분포를 정립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent-samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "비모수 대안",
+        "name_en": "Nonparametric Alternatives",
+        "id": "TTEST_NP_026"
+      },
+      {
+        "name_ko": "윌콕슨 부호순위 검정",
+        "name_en": "Wilcoxon Signed-Rank Test",
+        "id": "TTEST_WS_027"
+      },
+      {
+        "name_ko": "맨-휘트니 U",
+        "name_en": "Mann-Whitney U",
+        "id": "NONPARA_MWU_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "맨-휘트니 = 독립 t의 비모수 → 두 집단 데이터를 합쳐서 순위 매기고 순위합 비교",
+      "differential": "맨-휘트니 U는 독립 두 집단 비교이고, 윌콕슨 부호순위는 대응(짝진) 두 조건 비교이다.",
+      "key_point": "U통계량은 한 집단의 각 관측치가 다른 집단의 관측치보다 큰 횟수의 합이다.",
+      "common_mistake": "맨-휘트니 검정은 '중앙값의 차이'를 검정하는 것이 아니라, '두 분포의 위치(stochastic dominance)'를 비교하는 것이다."
+    }
+  },
+  {
+    "id": "TTEST_SD_029",
+    "terminology": "표본크기 결정 (Sample Size Determination)",
+    "terminology_ko": "표본크기 결정",
+    "terminology_en": "Sample Size Determination",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "t검정에서 원하는 검정력을 달성하기 위해 필요한 최소 표본크기를 사전에 계산하는 절차이다.",
+    "definition_en": "A procedure for calculating the minimum sample size needed in advance to achieve a desired level of statistical power in a t-test.",
+    "significance": "과소 표본은 검정력 부족으로 실제 효과를 놓치고, 과대 표본은 자원 낭비이므로 적절한 표본크기 계획이 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "검정 유형별 필요 표본크기 산출표를 제시하였다."
+      },
+      {
+        "name_ko": "프란츠 파울",
+        "name_en": "Franz Faul",
+        "contribution": "G*Power 소프트웨어를 개발하여 t검정의 표본크기 계산을 실용화하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "검정력 분석",
+        "name_en": "Power Analysis",
+        "id": "HYPO_PA_034"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "HYPO_ES_016"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "n 결정 = α + 검정력 + 효과크기 → 3개를 알면 필요 n을 계산 (G*Power 활용)",
+      "differential": "사전(a priori) 표본크기 결정은 연구 설계 시 수행하며, 사후(post hoc) 검정력 분석과 목적이 다르다.",
+      "key_point": "독립표본 t검정(α=.05, power=.80, d=0.5)에 필요한 집단당 n ≈ 64, 총 N ≈ 128이다.",
+      "common_mistake": "필요 표본크기는 검정 유형(독립/대응/일표본)에 따라 다르며, 대응표본 설계는 일반적으로 더 적은 표본이 필요하다."
+    }
+  },
+  {
+    "id": "TTEST_PA_030",
+    "terminology": "t검정의 검정력 분석 (Power Analysis for t-tests)",
+    "terminology_ko": "t검정의 검정력 분석",
+    "terminology_en": "Power Analysis for t-tests",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "t검정에서 주어진 유의수준, 효과크기, 표본크기의 조건에서 실제 효과를 탐지할 확률을 산출하는 분석이다.",
+    "definition_en": "An analysis that calculates the probability of detecting a real effect in a t-test given specific conditions of significance level, effect size, and sample size.",
+    "significance": "연구 계획서 작성과 연구비 신청에 필수적인 절차로, 연구의 과학적 타당성을 사전에 보증하는 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "t검정별 검정력 함수와 표본크기 산출 방법을 체계적으로 정리하였다."
+      },
+      {
+        "name_ko": "프란츠 파울",
+        "name_en": "Franz Faul",
+        "contribution": "G*Power에서 다양한 t검정의 검정력 분석을 구현하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "검정력 분석",
+        "name_en": "Power Analysis",
+        "id": "HYPO_PA_034"
+      },
+      {
+        "name_ko": "표본크기 결정",
+        "name_en": "Sample Size Determination",
+        "id": "TTEST_SD_029"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "TTEST_CD_006"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "사전(a priori) 검정력 분석",
+        "description": "필요 표본크기 산출 (가장 권장)"
+      },
+      {
+        "name": "사후(post hoc) 검정력 분석",
+        "description": "달성된 검정력 계산 (비판 있음)"
+      },
+      {
+        "name": "타협(compromise) 검정력 분석",
+        "description": "주어진 n에서 α와 β의 최적 비율 결정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "t검정 검정력 = G*Power에서 → Test family: t-tests → 검정 유형 선택 → 4개 매개변수 입력",
+      "differential": "독립표본 t검정은 2개 집단의 n이 필요하고, 대응표본은 1개 집단(쌍의 수)의 n만 필요하다.",
+      "key_point": "G*Power에서 Independent means, Paired means, One-sample mean 등 검정 유형을 정확히 선택해야 한다.",
+      "common_mistake": "파일럿 연구의 효과크기를 사용한 검정력 분석은 추정이 불안정하므로, 관련 문헌의 효과크기를 참고하는 것이 더 신뢰할 수 있다."
+    }
+  },
+  {
+    "id": "TTEST_AS_031",
+    "terminology": "t검정의 가정 (Assumptions of t-tests)",
+    "terminology_ko": "t검정의 가정",
+    "terminology_en": "Assumptions of t-tests",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "t검정이 타당한 결론을 제공하기 위해 충족해야 하는 전제 조건들로, 독립성, 정규성, 등분산성의 세 가지가 핵심이다.",
+    "definition_en": "The prerequisites that must be met for t-tests to provide valid conclusions, with independence, normality, and homogeneity of variance being the three key assumptions.",
+    "significance": "가정 위반의 정도와 유형에 따라 결과의 신뢰도가 달라지므로, 분석 전 가정 검증은 필수적인 예비 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지 박스",
+        "name_en": "George E. P. Box",
+        "contribution": "'모든 모형은 틀리지만, 어떤 모형은 유용하다'는 명언으로 가정의 현실적 역할을 강조하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립성 가정",
+        "name_en": "Independence Assumption",
+        "id": "TTEST_IA_025"
+      },
+      {
+        "name_ko": "정규성 가정",
+        "name_en": "Normality Assumption",
+        "id": "TTEST_NA_023"
+      },
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      },
+      {
+        "name_ko": "비모수 대안",
+        "name_en": "Nonparametric Alternatives",
+        "id": "TTEST_NP_026"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "독립성",
+        "description": "관측치가 서로 독립적으로 수집됨 (가장 중요, 위반에 취약)"
+      },
+      {
+        "name": "정규성",
+        "description": "모집단이 정규분포를 따름 (대표본에서 강건)"
+      },
+      {
+        "name": "등분산성",
+        "description": "두 집단의 모분산이 동일함 (독립표본에만 해당)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "t검정 3대 가정 = INH: Independence(독립성), Normality(정규성), Homogeneity(등분산)",
+      "differential": "독립성 위반은 가장 심각하고 교정이 어렵지만, 정규성과 등분산 위반은 표본이 크면 영향이 감소한다.",
+      "key_point": "가정 확인 순서: ① 독립성(연구 설계 확인) → ② 정규성(Shapiro-Wilk, Q-Q plot) → ③ 등분산(Levene 검정).",
+      "common_mistake": "가정을 전혀 확인하지 않거나, 반대로 가정이 '완벽하게' 충족되어야만 t검정을 사용할 수 있다고 생각하는 것 모두 문제이다."
+    }
+  },
+  {
+    "id": "TTEST_RP_032",
+    "terminology": "t검정 결과 보고 (Reporting t-test Results)",
+    "terminology_ko": "t검정 결과 보고",
+    "terminology_en": "Reporting t-test Results",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "APA 양식에 따른 t검정 결과의 표준적 보고 형식으로, t값, 자유도, p값, 효과크기, 신뢰구간을 포함한다.",
+    "definition_en": "The standardized format for reporting t-test results according to APA style, including the t-value, degrees of freedom, p-value, effect size, and confidence interval.",
+    "significance": "연구 결과의 재현 가능성과 투명성을 보장하며, 독자가 결과를 정확히 이해하고 메타분석에 활용할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "APA Publication Manual을 통해 통계 결과 보고의 표준화된 양식을 제정하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "t값",
+        "name_en": "t-value",
+        "id": "TTEST_TV_019"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "TTEST_CD_006"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "HYPO_CI_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "APA 보고 형식: t(df) = 값, p = 값, d = 값, 95% CI [하한, 상한]",
+      "differential": "t(자유도)에서 괄호 안은 자유도이고, F(df₁, df₂)에서 괄호 안은 분자·분모 자유도이다.",
+      "key_point": "예시: t(38) = 2.45, p = .019, d = 0.77, 95% CI [0.52, 5.48]. 이탤릭체로 t, p, d를 표기한다.",
+      "common_mistake": "효과크기(d)와 신뢰구간 없이 t값과 p값만 보고하는 것은 현재 APA 기준에 부합하지 않는다."
+    }
+  },
+  {
+    "id": "TTEST_ZT_033",
+    "terminology": "z검정과 t검정의 비교 (z-test vs t-test)",
+    "terminology_ko": "z검정과 t검정의 비교",
+    "terminology_en": "z-test vs t-test",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "모분산이 알려진 경우 z검정을, 모분산이 미지여서 표본분산으로 추정해야 하는 경우 t검정을 사용하는 선택 기준이다.",
+    "definition_en": "The criterion for choosing between z-tests (when population variance is known) and t-tests (when population variance is unknown and must be estimated from sample variance).",
+    "significance": "실제 연구에서 모분산이 알려진 경우는 거의 없으므로 t검정이 표준이며, z검정은 주로 통계 원리 교육에서 다루어진다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "모분산이 미지일 때 z검정의 한계를 인식하고 t검정을 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "t분포",
+        "name_en": "t-distribution",
+        "id": "TTEST_TD_009"
+      },
+      {
+        "name_ko": "표준정규분포",
+        "name_en": "Standard Normal Distribution",
+        "id": "PROB_SND_002"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "σ 알면 → z, σ 모르면(s 사용) → t. 실전에서는 거의 항상 t!",
+      "differential": "z검정은 표준정규분포(N(0,1))를, t검정은 t분포(df에 따라 변함)를 참조 분포로 사용한다.",
+      "key_point": "표본이 커지면(n > 30) t분포가 z분포에 수렴하므로, 두 검정의 결과가 거의 동일해진다.",
+      "common_mistake": "대표본이라도 모분산이 미지이면 원칙적으로 t검정을 사용하는 것이 정확하다."
+    }
+  },
+  {
+    "id": "TTEST_DS_034",
+    "terminology": "차이점수 (Difference Score)",
+    "terminology_ko": "차이점수",
+    "terminology_en": "Difference Score",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "대응표본에서 각 쌍의 두 측정값 간 차이(D = X₂ - X₁)를 계산한 값으로, 대응표본 t검정의 분석 단위이다.",
+    "definition_en": "The calculated difference between two measurements for each pair in a paired sample (D = X₂ - X₁), serving as the unit of analysis in paired-samples t-tests.",
+    "significance": "개인 간 변동을 제거하고 조건 간 변화만을 분리하여, 더 민감한 검정을 가능하게 하는 핵심 변환이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "차이점수를 이용한 짝진 비교의 효율성을 최초로 인식하고 적용하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired-samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "대응표본",
+        "name_en": "Paired Samples",
+        "id": "TTEST_PS_016"
+      },
+      {
+        "name_ko": "평균차이",
+        "name_en": "Mean Difference",
+        "id": "TTEST_MD_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "D = 후(X₂) - 전(X₁) → 각 사람의 변화량 → D̄가 0과 다른지 검정",
+      "differential": "차이점수는 대응표본의 분석 단위이고, 원점수(raw scores)는 독립표본의 분석 단위이다.",
+      "key_point": "대응표본 t검정 = 차이점수(D)에 대한 일표본 t검정 → t = D̄ / (sD/√n).",
+      "common_mistake": "차이점수의 분산(sD²)은 두 측정치의 분산과 상관에 의해 결정된다. 상관이 높을수록 sD가 작아져 검정력이 증가한다."
+    }
+  },
+  {
+    "id": "TTEST_RB_035",
+    "terminology": "강건성 (Robustness)",
+    "terminology_ko": "강건성",
+    "terminology_en": "Robustness",
+    "category": "TTEST",
+    "category_name": "t검정 (t-Tests)",
+    "definition": "통계적 검정이 기본 가정의 위반에도 불구하고 정확한 제1종 오류율과 검정력을 유지하는 정도를 나타내는 특성이다.",
+    "definition_en": "The property of a statistical test to maintain accurate Type I error rates and power despite violations of its underlying assumptions.",
+    "significance": "t검정은 정규성과 등분산 가정 위반에 비교적 강건한 것으로 알려져 있어, 현실적으로 완벽한 가정 충족이 어려운 상황에서도 신뢰할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지 박스",
+        "name_en": "George E. P. Box",
+        "contribution": "통계적 검정의 강건성 개념을 체계화하고, t검정과 F검정의 강건성을 연구하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "t검정의 가정",
+        "name_en": "Assumptions of t-tests",
+        "id": "TTEST_AS_031"
+      },
+      {
+        "name_ko": "정규성 가정",
+        "name_en": "Normality Assumption",
+        "id": "TTEST_NA_023"
+      },
+      {
+        "name_ko": "등분산 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "TTEST_HV_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "강건 = robust = 가정이 깨져도 잘 버팀 → t검정은 비교적 '튼튼한' 검정",
+      "differential": "t검정은 정규성 위반에 강건하지만, 독립성 위반에는 강건하지 않다. 독립성은 가장 취약한 가정이다.",
+      "key_point": "등표본크기일 때 가장 강건하며, 불균등 표본크기 + 이분산 조합이 가장 문제가 된다.",
+      "common_mistake": "'강건하다'는 것이 가정을 확인할 필요가 없다는 의미는 아니다. 가정 확인은 항상 필수적이다."
+    }
+  }
+]

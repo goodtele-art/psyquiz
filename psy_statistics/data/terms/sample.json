@@ -1,0 +1,1733 @@
+[
+  {
+    "id": "SAMPLE_PO_001",
+    "terminology": "모집단 (Population)",
+    "terminology_ko": "모집단",
+    "terminology_en": "Population",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "연구자가 관심을 갖고 결론을 일반화하고자 하는 대상 전체의 집합으로, 특정 특성을 공유하는 모든 개체를 포함한다.",
+    "definition_en": "The entire set of individuals or objects that share a defined characteristic and to which the researcher intends to generalize research findings.",
+    "significance": "통계적 추론의 목표가 되는 대상 전체를 정의하며, 모집단의 명확한 규정 없이는 연구 결과의 일반화 범위를 판단할 수 없다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "모집단과 표본의 구분을 체계화하고 표본에서 모집단을 추론하는 통계적 방법론을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본",
+        "name_en": "Sample",
+        "id": "SAMPLE_SM_002"
+      },
+      {
+        "name_ko": "모수",
+        "name_en": "Parameter",
+        "id": "SAMPLE_PR_020"
+      },
+      {
+        "name_ko": "모평균",
+        "name_en": "Population Mean",
+        "id": "SAMPLE_PM_022"
+      },
+      {
+        "name_ko": "외적 타당도",
+        "name_en": "External Validity",
+        "id": "DESIGN_EV_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "목표 모집단 (Target Population)",
+        "description": "연구자가 궁극적으로 결론을 적용하고자 하는 전체 집단"
+      },
+      {
+        "name": "접근 가능 모집단 (Accessible Population)",
+        "description": "연구자가 실제로 접근하여 표본을 추출할 수 있는 집단"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "모집단(母集團) = 어머니 집단 → 표본의 '모체'가 되는 전체 집단",
+      "differential": "모집단은 관심 대상 전체, 표본은 모집단에서 선택된 부분집합이다.",
+      "key_point": "모집단은 연구 목적에 따라 정의되며, 목표 모집단과 접근 가능 모집단이 다를 수 있다.",
+      "common_mistake": "모집단을 항상 매우 큰 집단으로만 생각하는 것. 모집단은 연구 질문에 따라 작을 수도 있다."
+    }
+  },
+  {
+    "id": "SAMPLE_SM_002",
+    "terminology": "표본 (Sample)",
+    "terminology_ko": "표본",
+    "terminology_en": "Sample",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단에서 실제로 선택된 개체들의 부분집합으로, 이를 통해 모집단의 특성을 추론하기 위한 연구 대상이 된다.",
+    "definition_en": "A subset of individuals selected from a population, used to make inferences about the characteristics of the entire population.",
+    "significance": "모집단 전체를 조사하는 것은 대부분 비현실적이므로, 표본을 통한 추론이 심리학 연구의 기본 방법론이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "예르지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "표본 기반 모집단 추론의 이론적 기초인 신뢰구간 개념을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모집단",
+        "name_en": "Population",
+        "id": "SAMPLE_PO_001"
+      },
+      {
+        "name_ko": "표집",
+        "name_en": "Sampling",
+        "id": "SAMPLE_SP_003"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      },
+      {
+        "name_ko": "통계량",
+        "name_en": "Statistic",
+        "id": "SAMPLE_ST_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표본(標本) = 대표 본보기 → 모집단의 특성을 보여주는 '본보기'",
+      "differential": "표본은 실제 선택된 대상들, 표집은 대상을 선택하는 과정이다.",
+      "key_point": "표본은 모집단을 대표해야 하며, 대표성이 없는 표본에서 얻은 결론은 일반화할 수 없다.",
+      "common_mistake": "표본 크기만 크면 대표성이 보장된다고 생각하는 것. 표집 방법이 편향되면 큰 표본도 대표적이지 않다."
+    }
+  },
+  {
+    "id": "SAMPLE_SP_003",
+    "terminology": "표집 (Sampling)",
+    "terminology_ko": "표집",
+    "terminology_en": "Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단에서 표본을 선택하는 체계적인 과정으로, 확률표집과 비확률표집으로 크게 구분된다.",
+    "definition_en": "The systematic process of selecting a subset of individuals from a population, broadly categorized into probability and non-probability sampling methods.",
+    "significance": "표집 방법에 따라 연구 결과의 일반화 가능성과 통계적 추론의 타당성이 결정되므로, 연구 설계의 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "예르지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "확률 표집에 기반한 추론 이론을 발전시켜 현대 표집 방법론의 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무선표집",
+        "name_en": "Random Sampling",
+        "id": "SAMPLE_RS_004"
+      },
+      {
+        "name_ko": "비확률표집",
+        "name_en": "Non-Probability Sampling",
+        "id": "SAMPLE_NP_009"
+      },
+      {
+        "name_ko": "표본",
+        "name_en": "Sample",
+        "id": "SAMPLE_SM_002"
+      },
+      {
+        "name_ko": "표본추출틀",
+        "name_en": "Sampling Frame",
+        "id": "SAMPLE_SF_031"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "확률표집 (Probability Sampling)",
+        "description": "모집단의 각 개체가 선택될 확률이 알려진 표집 방법"
+      },
+      {
+        "name": "비확률표집 (Non-Probability Sampling)",
+        "description": "선택 확률이 알려지지 않은 표집 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "표집(標集) = 표본을 모으는 것 → 모집단에서 표본을 '뽑는' 과정",
+      "differential": "표집(sampling)은 표본을 선택하는 과정, 표본(sample)은 선택된 결과물이다.",
+      "key_point": "확률표집만이 통계적 추론의 정당한 근거를 제공하며, 비확률표집은 일반화에 제한이 있다.",
+      "common_mistake": "표집과 표본을 혼용하는 것. 표집은 '과정', 표본은 '결과'이다."
+    }
+  },
+  {
+    "id": "SAMPLE_RS_004",
+    "terminology": "무선표집 (Random Sampling)",
+    "terminology_ko": "무선표집",
+    "terminology_en": "Random Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 모든 개체가 표본에 선택될 동일한 확률을 갖도록 하는 표집 방법으로, 표본의 대표성을 확보하는 가장 기본적인 방법이다.",
+    "definition_en": "A sampling method in which every member of the population has an equal probability of being selected, serving as the fundamental approach for ensuring sample representativeness.",
+    "significance": "통계적 추론의 기본 가정을 충족하며, 표집 편향을 최소화하여 연구 결과의 일반화 가능성을 극대화한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "무선화 원리를 실험 설계와 표집에 도입하여 통계적 추론의 기반을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단순무선표집",
+        "name_en": "Simple Random Sampling",
+        "id": "SAMPLE_SR_005"
+      },
+      {
+        "name_ko": "무선할당",
+        "name_en": "Random Assignment",
+        "id": "DESIGN_RA_004"
+      },
+      {
+        "name_ko": "표집",
+        "name_en": "Sampling",
+        "id": "SAMPLE_SP_003"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "무선(無線/random) = 규칙 없이 무작위 → 모든 개체에게 같은 기회 부여",
+      "differential": "무선표집(random sampling)은 모집단→표본 선택, 무선할당(random assignment)은 표본→조건 배정이다.",
+      "key_point": "무선표집은 외적 타당도(일반화), 무선할당은 내적 타당도(인과관계)와 관련된다.",
+      "common_mistake": "무선표집과 무선할당을 혼동하는 것. 표집은 '누구를 뽑을까', 할당은 '누구를 어디에 넣을까'이다."
+    }
+  },
+  {
+    "id": "SAMPLE_SR_005",
+    "terminology": "단순무선표집 (Simple Random Sampling)",
+    "terminology_ko": "단순무선표집",
+    "terminology_en": "Simple Random Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 모든 개체와 모든 가능한 표본 조합이 동일한 선택 확률을 갖는 가장 기본적인 확률표집 방법이다.",
+    "definition_en": "The most basic probability sampling method in which every individual and every possible combination of individuals has an equal chance of being selected from the population.",
+    "significance": "다른 표집 방법의 기준이 되는 기본 방법으로, 표본분포 이론의 수학적 기초를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "무선화 원리에 기반한 표집 방법의 이론적 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무선표집",
+        "name_en": "Random Sampling",
+        "id": "SAMPLE_RS_004"
+      },
+      {
+        "name_ko": "층화표집",
+        "name_en": "Stratified Sampling",
+        "id": "SAMPLE_SS_007"
+      },
+      {
+        "name_ko": "체계적 표집",
+        "name_en": "Systematic Sampling",
+        "id": "SAMPLE_SY_006"
+      },
+      {
+        "name_ko": "표본추출틀",
+        "name_en": "Sampling Frame",
+        "id": "SAMPLE_SF_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "단순무선 = 가장 '단순'한 무작위 뽑기 → 모든 조합이 같은 확률",
+      "differential": "단순무선표집은 모든 개체가 독립적으로 동일 확률, 층화표집은 하위집단별로 표집한다.",
+      "key_point": "난수표나 컴퓨터 난수 생성기를 사용하며, 모집단 목록(표본추출틀)이 반드시 필요하다.",
+      "common_mistake": "편의적으로 선택한 표본을 '무작위'라고 주장하는 것. 체계적 절차 없이는 단순무선표집이 아니다."
+    }
+  },
+  {
+    "id": "SAMPLE_SY_006",
+    "terminology": "체계적 표집 (Systematic Sampling)",
+    "terminology_ko": "체계적 표집",
+    "terminology_en": "Systematic Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단 목록에서 무선적 시작점을 정한 후, 일정한 간격(k번째)마다 개체를 선택하는 표집 방법이다.",
+    "definition_en": "A sampling method in which individuals are selected at regular intervals (every kth individual) from a population list, starting from a randomly chosen point.",
+    "significance": "단순무선표집보다 실행이 간편하면서도 유사한 대표성을 확보할 수 있어 실무에서 많이 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 코크런",
+        "name_en": "William G. Cochran",
+        "contribution": "체계적 표집의 통계적 특성과 적용 조건을 체계적으로 분석하여 표집 이론에 기여했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단순무선표집",
+        "name_en": "Simple Random Sampling",
+        "id": "SAMPLE_SR_005"
+      },
+      {
+        "name_ko": "표집",
+        "name_en": "Sampling",
+        "id": "SAMPLE_SP_003"
+      },
+      {
+        "name_ko": "표본추출틀",
+        "name_en": "Sampling Frame",
+        "id": "SAMPLE_SF_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체계적 = '규칙적 간격' → 매 k번째 사람을 뽑는 방법 (예: 10번째마다)",
+      "differential": "체계적 표집은 일정 간격으로 추출, 단순무선표집은 완전히 무작위로 추출한다.",
+      "key_point": "모집단 목록에 주기적 패턴이 있으면 편향된 표본이 될 수 있으므로, 목록의 배열을 사전에 확인해야 한다.",
+      "common_mistake": "모집단 목록이 특정 패턴으로 정렬되어 있을 때 체계적 표집을 사용하면 편향이 발생할 수 있다."
+    }
+  },
+  {
+    "id": "SAMPLE_SS_007",
+    "terminology": "층화표집 (Stratified Sampling)",
+    "terminology_ko": "층화표집",
+    "terminology_en": "Stratified Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단을 상호배타적인 하위집단(층, stratum)으로 나눈 후, 각 층에서 독립적으로 무선표집하는 방법이다.",
+    "definition_en": "A sampling method that divides the population into mutually exclusive subgroups (strata) and independently draws random samples from each stratum.",
+    "significance": "주요 하위집단이 표본에 적절히 대표되도록 보장하며, 단순무선표집보다 표집 오차를 줄일 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "예르지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "최적 배분법(optimal allocation)을 개발하여 층화표집의 효율성을 극대화하는 이론을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단순무선표집",
+        "name_en": "Simple Random Sampling",
+        "id": "SAMPLE_SR_005"
+      },
+      {
+        "name_ko": "군집표집",
+        "name_en": "Cluster Sampling",
+        "id": "SAMPLE_CS_008"
+      },
+      {
+        "name_ko": "할당표집",
+        "name_en": "Quota Sampling",
+        "id": "SAMPLE_QS_011"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "비례층화표집 (Proportional Stratified Sampling)",
+        "description": "각 층의 모집단 비율에 맞게 표본 수를 배분하는 방법"
+      },
+      {
+        "name": "불비례층화표집 (Disproportional Stratified Sampling)",
+        "description": "특정 층의 표본 수를 의도적으로 늘리거나 줄이는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "층화(層化) = 층(layer)으로 나눈다 → 성별, 연령 등으로 '층'을 나눠 각 층에서 뽑기",
+      "differential": "층화표집은 각 '층 안에서' 무선 추출, 군집표집은 '군집 자체를' 무선 추출한다.",
+      "key_point": "층화 변인은 연구 변인과 관련이 있어야 효과적이며, 층 간 이질성이 크고 층 내 동질성이 높을 때 유리하다.",
+      "common_mistake": "층화표집과 할당표집을 혼동하는 것. 층화표집은 확률표집(각 층 내 무선), 할당표집은 비확률표집이다."
+    }
+  },
+  {
+    "id": "SAMPLE_CS_008",
+    "terminology": "군집표집 (Cluster Sampling)",
+    "terminology_ko": "군집표집",
+    "terminology_en": "Cluster Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단을 자연적 집단(군집)으로 나눈 후, 군집 자체를 무선적으로 선택하고 선택된 군집의 모든 개체를 조사하는 표집 방법이다.",
+    "definition_en": "A sampling method that divides the population into naturally occurring groups (clusters), randomly selects entire clusters, and surveys all individuals within the chosen clusters.",
+    "significance": "모집단이 광범위하게 분포되어 있을 때 경제적이고 실용적인 표집 방법으로, 대규모 조사 연구에서 널리 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 코크런",
+        "name_en": "William G. Cochran",
+        "contribution": "군집표집의 이론적 기초와 설계 효과(design effect) 개념을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "층화표집",
+        "name_en": "Stratified Sampling",
+        "id": "SAMPLE_SS_007"
+      },
+      {
+        "name_ko": "단순무선표집",
+        "name_en": "Simple Random Sampling",
+        "id": "SAMPLE_SR_005"
+      },
+      {
+        "name_ko": "표집",
+        "name_en": "Sampling",
+        "id": "SAMPLE_SP_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "단일단계 군집표집 (Single-Stage Cluster Sampling)",
+        "description": "선택된 군집의 모든 개체를 조사"
+      },
+      {
+        "name": "다단계 군집표집 (Multi-Stage Cluster Sampling)",
+        "description": "선택된 군집에서 다시 하위 표집을 실시"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "군집(群集) = 무리 → 학교, 병원 등 '무리(군집)' 단위로 통째로 선택",
+      "differential": "군집표집은 군집 자체를 무선 선택(군집 간 추출), 층화표집은 모든 층에서 개체를 추출(층 내 추출)한다.",
+      "key_point": "군집 내 이질성이 크고 군집 간 동질성이 높을 때 효율적이다 (층화표집과 정반대).",
+      "common_mistake": "군집표집이 층화표집과 같다고 생각하는 것. 둘은 추출 단위와 논리가 정반대이다."
+    }
+  },
+  {
+    "id": "SAMPLE_NP_009",
+    "terminology": "비확률표집 (Non-Probability Sampling)",
+    "terminology_ko": "비확률표집",
+    "terminology_en": "Non-Probability Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 각 개체가 표본에 선택될 확률이 알려지지 않거나 동일하지 않은 표집 방법의 총칭이다.",
+    "definition_en": "A general term for sampling methods in which the probability of each population member being selected is unknown or unequal.",
+    "significance": "확률표집이 어려운 현실적 상황에서 자주 사용되지만, 통계적 추론의 기본 가정을 충족하지 않아 일반화에 제한이 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 코크런",
+        "name_en": "William G. Cochran",
+        "contribution": "확률표집과 비확률표집의 통계적 특성 차이를 체계적으로 분석했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "편의표집",
+        "name_en": "Convenience Sampling",
+        "id": "SAMPLE_CV_010"
+      },
+      {
+        "name_ko": "할당표집",
+        "name_en": "Quota Sampling",
+        "id": "SAMPLE_QS_011"
+      },
+      {
+        "name_ko": "눈덩이표집",
+        "name_en": "Snowball Sampling",
+        "id": "SAMPLE_SB_012"
+      },
+      {
+        "name_ko": "무선표집",
+        "name_en": "Random Sampling",
+        "id": "SAMPLE_RS_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "편의표집 (Convenience Sampling)",
+        "description": "접근하기 쉬운 대상을 선택하는 방법"
+      },
+      {
+        "name": "할당표집 (Quota Sampling)",
+        "description": "하위집단 비율에 맞춰 비무선적으로 선택하는 방법"
+      },
+      {
+        "name": "눈덩이표집 (Snowball Sampling)",
+        "description": "참여자가 다른 참여자를 소개하는 방법"
+      },
+      {
+        "name": "목적적 표집 (Purposive Sampling)",
+        "description": "연구 목적에 부합하는 대상을 의도적으로 선택하는 방법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "비(非)확률 = 확률이 '아닌' → 선택 확률을 모르거나 동일하지 않은 표집",
+      "differential": "비확률표집은 선택 확률 불명, 확률표집은 모든 개체의 선택 확률이 알려져 있다.",
+      "key_point": "비확률표집으로 수집한 데이터에 확률 기반 추론 통계를 적용하면 엄밀히 논리적 근거가 부족하다.",
+      "common_mistake": "비확률표집 결과를 모집단 전체에 일반화하는 것. 표집 편향의 가능성을 항상 고려해야 한다."
+    }
+  },
+  {
+    "id": "SAMPLE_CV_010",
+    "terminology": "편의표집 (Convenience Sampling)",
+    "terminology_ko": "편의표집",
+    "terminology_en": "Convenience Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "연구자가 접근하기 쉽고 이용 가능한 대상을 편의적으로 선택하는 비확률표집 방법이다.",
+    "definition_en": "A non-probability sampling method in which participants are selected based on their availability and accessibility to the researcher.",
+    "significance": "심리학 연구에서 가장 흔히 사용되지만 표집 편향의 위험이 가장 높으며, 특히 대학생 표본에 대한 비판이 지속되고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "데이비드 시어스",
+        "name_en": "David O. Sears",
+        "contribution": "1986년 논문에서 심리학 연구의 대학생 편의표집 편향 문제를 체계적으로 비판했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비확률표집",
+        "name_en": "Non-Probability Sampling",
+        "id": "SAMPLE_NP_009"
+      },
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      },
+      {
+        "name_ko": "외적 타당도",
+        "name_en": "External Validity",
+        "id": "DESIGN_EV_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편의(便宜) = 편하고 쉬운 → 가까이 있는 사람을 '편하게' 뽑는 것",
+      "differential": "편의표집은 접근성만 고려, 목적적 표집은 연구 목적에 맞는 특성을 의도적으로 선택한다.",
+      "key_point": "심리학 연구의 약 70%가 대학생 편의표본을 사용하며, 이는 일반화의 심각한 제한이다.",
+      "common_mistake": "편의표집의 한계를 인식하지 않고 결과를 일반 인구에 무조건 일반화하는 것."
+    }
+  },
+  {
+    "id": "SAMPLE_QS_011",
+    "terminology": "할당표집 (Quota Sampling)",
+    "terminology_ko": "할당표집",
+    "terminology_en": "Quota Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 주요 특성(성별, 연령 등)의 비율에 맞추어 각 하위집단에서 일정 수의 대상을 비무선적으로 선택하는 표집 방법이다.",
+    "definition_en": "A non-probability sampling method in which predetermined quotas are set for key demographic categories to match population proportions, with individuals selected non-randomly within each category.",
+    "significance": "층화표집이 불가능할 때 모집단의 인구통계학적 구성을 반영하려는 실용적 대안이지만, 각 층 내에서의 편향은 통제하지 못한다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지 갤럽",
+        "name_en": "George Gallup",
+        "contribution": "여론조사에서 할당표집 방법론을 체계화하고 대중화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "층화표집",
+        "name_en": "Stratified Sampling",
+        "id": "SAMPLE_SS_007"
+      },
+      {
+        "name_ko": "비확률표집",
+        "name_en": "Non-Probability Sampling",
+        "id": "SAMPLE_NP_009"
+      },
+      {
+        "name_ko": "편의표집",
+        "name_en": "Convenience Sampling",
+        "id": "SAMPLE_CV_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "할당(割當) = 몫을 나눈다 → 남:여 = 50:50처럼 '몫'을 정해놓고 채우는 방식",
+      "differential": "할당표집은 비확률표집(층 내 비무선), 층화표집은 확률표집(층 내 무선)이다.",
+      "key_point": "인구통계학적 비율은 맞출 수 있지만, 각 할당 내에서의 선택이 무선적이지 않아 편향이 발생할 수 있다.",
+      "common_mistake": "할당표집을 층화표집과 같다고 생각하는 것. 가장 큰 차이는 층 내에서의 무선 추출 여부이다."
+    }
+  },
+  {
+    "id": "SAMPLE_SB_012",
+    "terminology": "눈덩이표집 (Snowball Sampling)",
+    "terminology_ko": "눈덩이표집",
+    "terminology_en": "Snowball Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "초기 참여자가 동일 특성을 가진 다른 잠재적 참여자를 소개하는 방식으로 표본을 점차 확대해 나가는 비확률표집 방법이다.",
+    "definition_en": "A non-probability sampling method in which existing participants recruit additional participants who share the same characteristics, gradually expanding the sample like a growing snowball.",
+    "significance": "약물 사용자, 성소수자 등 접근이 어려운 은닉 모집단(hidden population)을 연구할 때 특히 유용한 방법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "레오 굿맨",
+        "name_en": "Leo A. Goodman",
+        "contribution": "1961년 논문에서 눈덩이표집의 수학적 모형을 제시하고 분석 방법을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비확률표집",
+        "name_en": "Non-Probability Sampling",
+        "id": "SAMPLE_NP_009"
+      },
+      {
+        "name_ko": "편의표집",
+        "name_en": "Convenience Sampling",
+        "id": "SAMPLE_CV_010"
+      },
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "눈덩이(snowball) = 굴릴수록 커진다 → 소개를 통해 표본이 '눈덩이'처럼 불어남",
+      "differential": "눈덩이표집은 참여자가 참여자를 소개, 편의표집은 연구자가 접근 가능한 대상을 직접 선택한다.",
+      "key_point": "사회적 네트워크에 기반하므로, 네트워크 밖의 고립된 개체는 포함되기 어렵다는 한계가 있다.",
+      "common_mistake": "눈덩이표집으로 모집단 전체를 대표할 수 있다고 생각하는 것. 네트워크 편향이 불가피하다."
+    }
+  },
+  {
+    "id": "SAMPLE_SD_013",
+    "terminology": "표본분포 (Sampling Distribution)",
+    "terminology_ko": "표본분포",
+    "terminology_en": "Sampling Distribution",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "동일한 모집단에서 동일한 크기의 표본을 무한히 반복 추출했을 때 얻어지는 통계량(예: 표본평균)의 이론적 확률분포이다.",
+    "definition_en": "The theoretical probability distribution of a statistic (e.g., sample mean) obtained from all possible samples of the same size drawn from the same population.",
+    "significance": "통계적 추론의 핵심 개념으로, 표본에서 계산한 통계량이 모수를 얼마나 잘 추정하는지를 판단하는 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "표본분포의 이론적 특성을 활용하여 현대 추론 통계학의 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      },
+      {
+        "name_ko": "표본평균",
+        "name_en": "Sample Mean",
+        "id": "SAMPLE_XB_023"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표본분포 = '통계량'의 분포 → 표본 자체의 분포가 아니라 '표본에서 구한 값(예: 평균)'의 분포",
+      "differential": "표본분포는 통계량의 분포(이론적), 표본의 분포(data distribution)는 실제 표본 관찰값의 분포이다.",
+      "key_point": "표본분포는 실제 데이터의 분포가 아닌, 반복 표집 시 통계량이 어떻게 분포하는지를 나타낸다.",
+      "common_mistake": "표본분포를 표본 데이터 자체의 분포와 혼동하는 것. 표본분포는 '통계량'의 이론적 분포이다."
+    }
+  },
+  {
+    "id": "SAMPLE_SE_014",
+    "terminology": "표준오차 (Standard Error)",
+    "terminology_ko": "표준오차",
+    "terminology_en": "Standard Error",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본분포의 표준편차로, 표본 통계량이 모수 주위에서 변동하는 정도를 나타내며, 표본평균의 경우 SE = σ/√n으로 계산한다.",
+    "definition_en": "The standard deviation of a sampling distribution, indicating how much a sample statistic varies around the population parameter; for sample means, SE = σ/√n.",
+    "significance": "통계적 검정과 신뢰구간 구성의 기초가 되며, 표본 크기가 커질수록 작아져 추정의 정밀도가 높아진다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "표준오차 개념을 통계적 추론의 핵심 요소로 체계화하고 다양한 통계량의 표준오차 공식을 도출했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본분포",
+        "name_en": "Sampling Distribution",
+        "id": "SAMPLE_SD_013"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SE = σ/√n → 표본 크기(n)의 제곱근에 반비례 → n이 4배면 SE는 반으로",
+      "differential": "표준편차(SD)는 개별 관찰값의 변동성, 표준오차(SE)는 통계량의 변동성이다.",
+      "key_point": "표준오차는 표본 크기의 제곱근에 반비례하므로, 정밀도를 2배로 높이려면 표본 크기를 4배로 늘려야 한다.",
+      "common_mistake": "표준편차와 표준오차를 혼동하는 것. SD는 데이터의 퍼짐, SE는 추정값의 불확실성이다."
+    }
+  },
+  {
+    "id": "SAMPLE_CL_015",
+    "terminology": "중심극한정리 (Central Limit Theorem)",
+    "terminology_ko": "중심극한정리",
+    "terminology_en": "Central Limit Theorem",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 분포 형태에 관계없이, 충분히 큰 표본(일반적으로 n ≥ 30)에서 추출한 표본평균의 분포는 정규분포에 근사한다는 정리이다.",
+    "definition_en": "A theorem stating that the sampling distribution of the sample mean approaches a normal distribution as sample size increases, regardless of the population distribution shape, typically when n ≥ 30.",
+    "significance": "모집단 분포를 모르더라도 표본 크기가 충분하면 정규분포 기반의 추론 통계를 적용할 수 있게 하는 통계학의 가장 중요한 정리이다.",
+    "key_researchers": [
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "중심극한정리의 초기 형태를 증명하여 큰 표본에서 합의 분포가 정규분포에 수렴함을 보였다."
+      },
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "이항분포의 정규근사를 증명하여 중심극한정리의 선구적 연구를 수행했다."
+      },
+      {
+        "name_ko": "알렉산드르 랴푸노프",
+        "name_en": "Aleksandr Lyapunov",
+        "contribution": "중심극한정리의 일반적 증명을 완성하여 현대적 형태를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본분포",
+        "name_en": "Sampling Distribution",
+        "id": "SAMPLE_SD_013"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CLT: 어떤 분포든 n이 크면 평균의 분포는 '중심'(정규분포)으로 '극한' 수렴",
+      "differential": "중심극한정리는 표본평균의 분포가 정규분포에 근사한다는 것이며, 원래 데이터가 정규분포라는 뜻이 아니다.",
+      "key_point": "n ≥ 30은 경험적 기준이며, 모집단이 극단적 비대칭이면 더 큰 표본이 필요할 수 있다.",
+      "common_mistake": "중심극한정리가 '표본 크기가 크면 데이터 자체가 정규분포를 따른다'는 의미라고 오해하는 것."
+    }
+  },
+  {
+    "id": "SAMPLE_SZ_016",
+    "terminology": "표본크기 (Sample Size)",
+    "terminology_ko": "표본크기",
+    "terminology_en": "Sample Size",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본에 포함된 개체(관찰값)의 수로, 통상 n으로 표기하며 통계적 검정력과 추정의 정밀도를 결정하는 핵심 요소이다.",
+    "definition_en": "The number of observations or individuals included in a sample, denoted as n, which is a crucial factor determining statistical power and estimation precision.",
+    "significance": "적절한 표본크기는 충분한 검정력을 확보하고 표준오차를 줄여 모수의 정밀한 추정을 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "검정력 분석을 통한 사전 표본크기 결정 방법을 체계화하여 적절한 표본크기 계획의 중요성을 강조했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "SAMPLE_SZ_016"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "SAMPLE_DF_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "n = 표본크기 → n이 클수록 SE가 작아지고 검정력이 높아진다",
+      "differential": "표본크기(n)는 표본 내 개체 수, 모집단크기(N)는 모집단 전체 개체 수이다.",
+      "key_point": "표본크기는 효과크기, 유의수준, 검정력을 고려한 검정력 분석(power analysis)으로 사전에 계획해야 한다.",
+      "common_mistake": "표본크기가 크기만 하면 좋다고 생각하는 것. 과도한 표본은 비용 낭비이고, 사소한 효과도 유의하게 만든다."
+    }
+  },
+  {
+    "id": "SAMPLE_BI_017",
+    "terminology": "편향 (Bias)",
+    "terminology_ko": "편향",
+    "terminology_en": "Bias",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본 통계량이 모집단 모수를 체계적으로 과대추정하거나 과소추정하는 경향으로, 표본이 모집단을 정확히 반영하지 못할 때 발생한다.",
+    "definition_en": "A systematic tendency for a sample statistic to overestimate or underestimate the population parameter, occurring when the sample does not accurately represent the population.",
+    "significance": "편향된 표본에서는 표본 크기를 아무리 늘려도 정확한 추정이 불가능하므로, 표집 방법의 설계 단계에서 편향을 방지해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예르지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "표본 편향의 개념을 통계적으로 엄밀하게 정의하고 불편추정량(unbiased estimator)의 중요성을 강조했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본오차",
+        "name_en": "Sampling Error",
+        "id": "SAMPLE_ER_018"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      },
+      {
+        "name_ko": "편의표집",
+        "name_en": "Convenience Sampling",
+        "id": "SAMPLE_CV_010"
+      },
+      {
+        "name_ko": "체계적 오차",
+        "name_en": "Systematic Error",
+        "id": "MEASURE_SE_033"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "선택 편향 (Selection Bias)",
+        "description": "특정 유형의 개체가 표본에 과대/과소 대표되는 편향"
+      },
+      {
+        "name": "응답 편향 (Response Bias)",
+        "description": "응답자의 체계적 왜곡(사회적 바람직성 등)"
+      },
+      {
+        "name": "생존자 편향 (Survivorship Bias)",
+        "description": "탈락 없이 남은 대상만 분석하여 발생하는 편향"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "편향(偏向) = 한쪽으로 치우친다 → 추정값이 참값에서 체계적으로 빗나가는 것",
+      "differential": "편향은 체계적 오차(방향성 있음), 표본오차는 무선적 변동(방향성 없음)이다.",
+      "key_point": "편향은 표본 크기를 늘려도 해결되지 않으며, 표집 설계 자체를 개선해야 한다.",
+      "common_mistake": "큰 표본이면 편향이 줄어든다고 생각하는 것. 표집 방법이 편향되면 표본 크기와 무관하게 편향이 존재한다."
+    }
+  },
+  {
+    "id": "SAMPLE_ER_018",
+    "terminology": "표본오차 (Sampling Error)",
+    "terminology_ko": "표본오차",
+    "terminology_en": "Sampling Error",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본 통계량과 모집단 모수 사이의 자연스러운 차이로, 모집단의 일부만을 관찰하기 때문에 필연적으로 발생하는 무선적 변동이다.",
+    "definition_en": "The natural discrepancy between a sample statistic and the population parameter, inevitably arising from observing only a portion of the population.",
+    "significance": "표본오차는 표본 연구의 본질적 한계이며, 표본 크기를 늘리면 줄일 수 있지만 완전히 제거할 수는 없다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "표본오차를 통계적 추론의 기본 개념으로 정립하고, 이를 다루는 수학적 방법론을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비표본오차",
+        "name_en": "Non-Sampling Error",
+        "id": "SAMPLE_NE_019"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표본오차 = 표본이기 때문에 생기는 '자연스러운' 오차 → 뽑을 때마다 달라지는 것",
+      "differential": "표본오차는 표본추출의 무선적 변동이고, 비표본오차는 측정, 응답, 처리 과정의 오류이다.",
+      "key_point": "표본오차는 표본 크기를 늘리면 줄일 수 있지만, 비표본오차는 표본 크기와 무관하다.",
+      "common_mistake": "표본오차를 연구자의 실수로 인한 오류와 혼동하는 것. 표본오차는 표집의 본질적 불확실성이다."
+    }
+  },
+  {
+    "id": "SAMPLE_NE_019",
+    "terminology": "비표본오차 (Non-Sampling Error)",
+    "terminology_ko": "비표본오차",
+    "terminology_en": "Non-Sampling Error",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본추출 이외의 원인으로 발생하는 오차로, 측정 오류, 응답 거부, 데이터 입력 실수, 면접자 효과 등이 포함된다.",
+    "definition_en": "Errors arising from sources other than sampling, including measurement mistakes, non-response, data entry errors, and interviewer effects.",
+    "significance": "비표본오차는 표본 크기를 늘려도 줄어들지 않으며, 오히려 대규모 조사에서 관리가 어려워 증가할 수 있어 특별한 주의가 필요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 코크런",
+        "name_en": "William G. Cochran",
+        "contribution": "표본오차와 비표본오차의 구분을 체계화하고 총 조사 오차(total survey error) 관점을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본오차",
+        "name_en": "Sampling Error",
+        "id": "SAMPLE_ER_018"
+      },
+      {
+        "name_ko": "측정오차",
+        "name_en": "Measurement Error",
+        "id": "MEASURE_ME_027"
+      },
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "무응답 오차 (Non-Response Error)",
+        "description": "응답을 거부한 대상과 응답한 대상의 차이에서 발생하는 오차"
+      },
+      {
+        "name": "응답 오차 (Response Error)",
+        "description": "부정확한 응답이나 기억 오류에서 발생하는 오차"
+      },
+      {
+        "name": "처리 오차 (Processing Error)",
+        "description": "데이터 입력, 코딩, 분석 과정에서 발생하는 오차"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "비(非)표본오차 = 표집이 '아닌' 다른 원인의 오차 → 측정, 응답, 처리 문제",
+      "differential": "비표본오차는 표본 크기와 무관하고 체계적일 수 있지만, 표본오차는 표본 크기가 커지면 감소한다.",
+      "key_point": "비표본오차는 전수조사(census)에서도 발생할 수 있으며, 조사 품질 관리로 통제해야 한다.",
+      "common_mistake": "표본 크기를 늘리면 모든 오차가 줄어든다고 생각하는 것. 비표본오차는 오히려 증가할 수 있다."
+    }
+  },
+  {
+    "id": "SAMPLE_PR_020",
+    "terminology": "모수 (Parameter)",
+    "terminology_ko": "모수",
+    "terminology_en": "Parameter",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 특성을 나타내는 수치적 요약값으로, 일반적으로 고정된 상수이며 그리스 문자(μ, σ, ρ 등)로 표기한다.",
+    "definition_en": "A numerical summary describing a characteristic of the population, typically a fixed constant denoted by Greek letters (μ, σ, ρ, etc.).",
+    "significance": "통계적 추론의 궁극적 관심 대상으로, 표본에서 계산한 통계량을 통해 모수를 추정하거나 모수에 대한 가설을 검정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "모수와 통계량의 개념을 체계적으로 구분하고 최대우도추정법 등 모수 추정 방법을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통계량",
+        "name_en": "Statistic",
+        "id": "SAMPLE_ST_021"
+      },
+      {
+        "name_ko": "모집단",
+        "name_en": "Population",
+        "id": "SAMPLE_PO_001"
+      },
+      {
+        "name_ko": "모평균",
+        "name_en": "Population Mean",
+        "id": "SAMPLE_PM_022"
+      },
+      {
+        "name_ko": "모분산",
+        "name_en": "Population Variance",
+        "id": "SAMPLE_PV_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "모수(母數) = 모집단의 수치 → μ(뮤), σ(시그마) 등 그리스 문자로 표기",
+      "differential": "모수는 모집단의 고정된 값(보통 미지), 통계량은 표본에서 계산한 변동하는 값이다.",
+      "key_point": "모수는 대부분 알 수 없는 값이며, 통계적 추론을 통해 추정하거나 검정한다.",
+      "common_mistake": "모수를 표본 통계량과 혼동하는 것. 모수는 모집단 수준, 통계량은 표본 수준이다."
+    }
+  },
+  {
+    "id": "SAMPLE_ST_021",
+    "terminology": "통계량 (Statistic)",
+    "terminology_ko": "통계량",
+    "terminology_en": "Statistic",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본 데이터에서 계산된 수치적 요약값으로, 모수를 추정하는 데 사용되며 표본마다 다른 값을 가질 수 있다.",
+    "definition_en": "A numerical summary calculated from sample data, used to estimate population parameters and varying from sample to sample.",
+    "significance": "표본에서 직접 계산할 수 있는 유일한 수치로, 모수 추정과 가설 검정의 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "충분통계량(sufficient statistic)의 개념을 도입하여 통계량의 효율적 추정 이론을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모수",
+        "name_en": "Parameter",
+        "id": "SAMPLE_PR_020"
+      },
+      {
+        "name_ko": "표본평균",
+        "name_en": "Sample Mean",
+        "id": "SAMPLE_XB_023"
+      },
+      {
+        "name_ko": "표본분산",
+        "name_en": "Sample Variance",
+        "id": "SAMPLE_SV_025"
+      },
+      {
+        "name_ko": "표본분포",
+        "name_en": "Sampling Distribution",
+        "id": "SAMPLE_SD_013"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "통계량 = 표본에서 '계산'한 수치 → x̄, s², r 등 로마 문자로 표기",
+      "differential": "통계량은 표본에서 계산(변동값), 모수는 모집단의 특성(고정값)이다.",
+      "key_point": "좋은 통계량(추정량)은 불편성, 효율성, 일치성, 충분성의 특성을 갖추어야 한다.",
+      "common_mistake": "통계량이 항상 모수와 같다고 가정하는 것. 통계량은 표본마다 달라지는 변수이다."
+    }
+  },
+  {
+    "id": "SAMPLE_PM_022",
+    "terminology": "모평균 (Population Mean)",
+    "terminology_ko": "모평균",
+    "terminology_en": "Population Mean",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단에 속한 모든 개체의 측정값의 산술평균으로, μ(뮤)로 표기하며 일반적으로 알 수 없는 고정된 모수이다.",
+    "definition_en": "The arithmetic average of all values in the population, denoted by μ (mu), typically an unknown fixed parameter.",
+    "significance": "가설검정에서 검정하고자 하는 핵심 모수이며, 표본평균을 통해 추정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "최소제곱법을 개발하여 모평균 추정의 수학적 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본평균",
+        "name_en": "Sample Mean",
+        "id": "SAMPLE_XB_023"
+      },
+      {
+        "name_ko": "모수",
+        "name_en": "Parameter",
+        "id": "SAMPLE_PR_020"
+      },
+      {
+        "name_ko": "모분산",
+        "name_en": "Population Variance",
+        "id": "SAMPLE_PV_024"
+      },
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "모평균 = μ(뮤) → 모(母)집단의 평균, 그리스 문자로 표기",
+      "differential": "모평균(μ)은 모집단 전체의 평균(고정값), 표본평균(x̄)은 표본에서 계산한 평균(변동값)이다.",
+      "key_point": "모평균은 대부분 직접 알 수 없으며, 표본평균(x̄)이 모평균(μ)의 불편추정량이다.",
+      "common_mistake": "모평균과 표본평균을 동일시하는 것. 표본평균은 모평균의 추정치일 뿐이다."
+    }
+  },
+  {
+    "id": "SAMPLE_XB_023",
+    "terminology": "표본평균 (Sample Mean)",
+    "terminology_ko": "표본평균",
+    "terminology_en": "Sample Mean",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본에 포함된 관찰값들의 산술평균으로, x̄(x-bar)로 표기하며 모평균(μ)의 불편추정량이다.",
+    "definition_en": "The arithmetic average of observed values in a sample, denoted as x̄ (x-bar), which serves as an unbiased estimator of the population mean (μ).",
+    "significance": "모평균을 추정하는 가장 기본적인 통계량이며, 그 표본분포가 중심극한정리에 의해 정규분포에 근사한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "표본평균이 정규 모집단에서 모평균의 최대우도추정량이자 충분통계량임을 증명했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모평균",
+        "name_en": "Population Mean",
+        "id": "SAMPLE_PM_022"
+      },
+      {
+        "name_ko": "표본분포",
+        "name_en": "Sampling Distribution",
+        "id": "SAMPLE_SD_013"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "x̄(x-bar) = 표본평균 → 로마 문자에 윗줄 = 표본 수준 통계량",
+      "differential": "표본평균(x̄)은 표본에서 계산한 추정값, 모평균(μ)은 모집단의 참값이다.",
+      "key_point": "표본평균의 기대값은 모평균과 같으므로(E(x̄) = μ) 불편추정량이다.",
+      "common_mistake": "특정 표본평균이 반드시 모평균과 같다고 생각하는 것. 개별 표본평균은 모평균과 다를 수 있다."
+    }
+  },
+  {
+    "id": "SAMPLE_PV_024",
+    "terminology": "모분산 (Population Variance)",
+    "terminology_ko": "모분산",
+    "terminology_en": "Population Variance",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단 내 모든 개체의 측정값이 모평균에서 벗어난 정도를 제곱하여 평균한 값으로, σ²(시그마 제곱)으로 표기한다.",
+    "definition_en": "The average of squared deviations of all population values from the population mean, denoted as σ² (sigma squared).",
+    "significance": "모집단의 변산성을 나타내는 기본 모수로, 표본분산을 통해 추정하며 분산분석 등 많은 통계 기법의 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "분산의 개념을 처음 체계적으로 도입하고, 분산분석(ANOVA) 방법론을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본분산",
+        "name_en": "Sample Variance",
+        "id": "SAMPLE_SV_025"
+      },
+      {
+        "name_ko": "모수",
+        "name_en": "Parameter",
+        "id": "SAMPLE_PR_020"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "모평균",
+        "name_en": "Population Mean",
+        "id": "SAMPLE_PM_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "모분산 = σ² → N으로 나눈다 (모집단 전체이므로 N으로 나눔)",
+      "differential": "모분산(σ²)은 N으로 나누고, 표본분산(s²)은 n-1로 나눈다(불편추정을 위해).",
+      "key_point": "모분산은 대부분 알 수 없으며, 표본분산(s²)이 모분산의 불편추정량이 되려면 n-1로 나누어야 한다.",
+      "common_mistake": "표본분산에서 n 대신 n-1로 나누는 이유를 이해하지 못하는 것. n으로 나누면 모분산을 체계적으로 과소추정한다."
+    }
+  },
+  {
+    "id": "SAMPLE_SV_025",
+    "terminology": "표본분산 (Sample Variance)",
+    "terminology_ko": "표본분산",
+    "terminology_en": "Sample Variance",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본 관찰값들이 표본평균에서 벗어난 정도를 제곱하여 합한 후 자유도(n-1)로 나눈 값으로, s²으로 표기하며 모분산의 불편추정량이다.",
+    "definition_en": "The sum of squared deviations of sample values from the sample mean divided by degrees of freedom (n-1), denoted as s², serving as an unbiased estimator of population variance.",
+    "significance": "모분산의 불편추정량으로서, t검정, 분산분석 등 대부분의 추론 통계에서 모분산 대신 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프리드리히 베셀",
+        "name_en": "Friedrich Bessel",
+        "contribution": "표본분산에서 n-1로 나누는 베셀의 보정(Bessel's correction)을 제안하여 불편추정의 원리를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모분산",
+        "name_en": "Population Variance",
+        "id": "SAMPLE_PV_024"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "SAMPLE_DF_027"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "표본평균",
+        "name_en": "Sample Mean",
+        "id": "SAMPLE_XB_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "s² = SS/(n-1) → 편차제곱합을 자유도로 나눈 것 (n이 아니라 n-1!)",
+      "differential": "표본분산은 n-1로 나누어 불편추정, 모분산은 N으로 나눈다.",
+      "key_point": "n-1로 나누는 이유는 표본평균을 사용하면서 자유도가 하나 줄어들기 때문이다(베셀의 보정).",
+      "common_mistake": "표본분산을 구할 때 n으로 나누는 것. n으로 나누면 모분산을 체계적으로 과소추정하는 편향추정량이 된다."
+    }
+  },
+  {
+    "id": "SAMPLE_PP_026",
+    "terminology": "모비율 (Population Proportion)",
+    "terminology_ko": "모비율",
+    "terminology_en": "Population Proportion",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단에서 특정 특성을 가진 개체의 비율로, p로 표기하며 표본비율(p̂)을 통해 추정한다.",
+    "definition_en": "The proportion of individuals in the population possessing a specific characteristic, denoted as p and estimated by the sample proportion (p̂).",
+    "significance": "여론조사, 역학 연구, 품질관리 등에서 특정 속성의 발생 빈도를 추정할 때 핵심적인 모수이다.",
+    "key_researchers": [
+      {
+        "name_ko": "야코프 베르누이",
+        "name_en": "Jacob Bernoulli",
+        "contribution": "이항분포와 대수의 법칙을 통해 표본비율이 모비율에 수렴함을 최초로 증명했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모수",
+        "name_en": "Parameter",
+        "id": "SAMPLE_PR_020"
+      },
+      {
+        "name_ko": "통계량",
+        "name_en": "Statistic",
+        "id": "SAMPLE_ST_021"
+      },
+      {
+        "name_ko": "표본분포",
+        "name_en": "Sampling Distribution",
+        "id": "SAMPLE_SD_013"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "모비율 p = 모집단에서의 '비율' → 예: 유권자 중 찬성 비율",
+      "differential": "모비율(p)은 모집단 모수(고정), 표본비율(p̂)은 표본에서 계산한 통계량(변동)이다.",
+      "key_point": "np ≥ 5이고 n(1-p) ≥ 5일 때 표본비율의 분포는 정규분포로 근사할 수 있다.",
+      "common_mistake": "작은 표본에서 표본비율을 모비율과 같다고 단정하는 것. 표본 크기가 작으면 추정이 매우 불안정하다."
+    }
+  },
+  {
+    "id": "SAMPLE_DF_027",
+    "terminology": "자유도 (Degrees of Freedom)",
+    "terminology_ko": "자유도",
+    "terminology_en": "Degrees of Freedom",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "통계량 계산 시 자유롭게 변할 수 있는 독립적인 관찰값의 수로, 일반적으로 표본크기에서 추정한 모수의 수를 뺀 값이다.",
+    "definition_en": "The number of independent observations free to vary when computing a statistic, generally calculated as the sample size minus the number of estimated parameters.",
+    "significance": "t분포, 카이제곱분포, F분포 등 주요 표본분포의 형태를 결정하며, 적절한 통계표 값을 찾는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William Sealy Gosset",
+        "contribution": "t분포를 도출하면서 자유도 개념을 실질적으로 활용하는 기초를 마련했다."
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "자유도 개념을 분산분석 등 다양한 통계 검정에 체계적으로 적용하고 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본분산",
+        "name_en": "Sample Variance",
+        "id": "SAMPLE_SV_025"
+      },
+      {
+        "name_ko": "t검정",
+        "name_en": "t-Test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "df = n - k (k = 제약 수) → 5개 값의 합이 정해지면 4개만 자유롭게 변할 수 있다",
+      "differential": "자유도는 '자유롭게 변할 수 있는 수', 표본크기는 '전체 관찰값의 수'이다.",
+      "key_point": "자유도가 클수록 t분포는 정규분포에 가까워지며, 검정의 정밀도가 높아진다.",
+      "common_mistake": "자유도를 항상 n-1로 계산하는 것. 분석 유형에 따라 자유도 공식이 다르다."
+    }
+  },
+  {
+    "id": "SAMPLE_RP_028",
+    "terminology": "대표성 (Representativeness)",
+    "terminology_ko": "대표성",
+    "terminology_en": "Representativeness",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본이 모집단의 주요 특성(인구통계, 분포, 다양성 등)을 얼마나 정확하게 반영하고 있는지를 나타내는 개념이다.",
+    "definition_en": "The extent to which a sample accurately reflects the key characteristics (demographics, distribution, diversity) of the population from which it was drawn.",
+    "significance": "대표성이 없는 표본에서 얻은 결과는 모집단에 일반화할 수 없으므로, 외적 타당도의 핵심 전제 조건이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아모스 트버스키",
+        "name_en": "Amos Tversky",
+        "contribution": "대표성 휴리스틱 연구를 통해 사람들이 소표본에서 대표성을 과대평가하는 인지적 편향을 규명했다."
+      },
+      {
+        "name_ko": "대니얼 카너먼",
+        "name_en": "Daniel Kahneman",
+        "contribution": "트버스키와 함께 대표성 휴리스틱과 소수의 법칙에 관한 연구를 수행했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      },
+      {
+        "name_ko": "외적 타당도",
+        "name_en": "External Validity",
+        "id": "DESIGN_EV_012"
+      },
+      {
+        "name_ko": "무선표집",
+        "name_en": "Random Sampling",
+        "id": "SAMPLE_RS_004"
+      },
+      {
+        "name_ko": "모집단",
+        "name_en": "Population",
+        "id": "SAMPLE_PO_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대표성 = 표본이 모집단의 '축소판' → 모집단의 특성을 잘 대표하는가?",
+      "differential": "대표성은 표본이 모집단을 반영하는 정도이고, 일반화는 표본 결과를 모집단에 적용하는 과정이다.",
+      "key_point": "무선표집이 대표성을 확보하는 가장 확실한 방법이지만, 무선표집도 우연에 의해 비대표적 표본이 나올 수 있다.",
+      "common_mistake": "소표본에서도 당연히 대표성이 있다고 가정하는 것(소수의 법칙 오류)."
+    }
+  },
+  {
+    "id": "SAMPLE_OV_029",
+    "terminology": "과대표집 (Oversampling)",
+    "terminology_ko": "과대표집",
+    "terminology_en": "Oversampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단에서 특정 하위집단을 그 실제 비율보다 더 많이 표집하는 방법으로, 소수 집단의 충분한 분석을 위해 의도적으로 사용된다.",
+    "definition_en": "A sampling strategy that deliberately selects a disproportionately large number of individuals from a specific subgroup to ensure sufficient representation for analysis.",
+    "significance": "소수 집단이나 희귀 특성을 가진 집단을 충분히 분석하기 위해 필요하며, 분석 시 가중치 보정을 통해 전체 모집단 추정에 반영한다.",
+    "key_researchers": [
+      {
+        "name_ko": "레슬리 키시",
+        "name_en": "Leslie Kish",
+        "contribution": "복잡한 표집 설계에서 과대표집과 가중치 보정의 이론적 기초를 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과소표집",
+        "name_en": "Undersampling",
+        "id": "SAMPLE_UN_030"
+      },
+      {
+        "name_ko": "층화표집",
+        "name_en": "Stratified Sampling",
+        "id": "SAMPLE_SS_007"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과대(過大)표집 = '과하게 많이' 뽑기 → 소수 집단을 일부러 더 많이 뽑는 것",
+      "differential": "과대표집은 의도적으로 특정 집단을 많이 뽑는 것, 표집 편향은 비의도적으로 특정 집단이 많아지는 것이다.",
+      "key_point": "과대표집 후 전체 모집단 추정 시에는 반드시 가중치를 적용하여 비율을 보정해야 한다.",
+      "common_mistake": "과대표집한 데이터를 가중치 보정 없이 분석하면 모집단 추정이 편향된다."
+    }
+  },
+  {
+    "id": "SAMPLE_UN_030",
+    "terminology": "과소표집 (Undersampling)",
+    "terminology_ko": "과소표집",
+    "terminology_en": "Undersampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 특정 하위집단이 그 실제 비율보다 더 적게 표본에 포함되는 현상으로, 해당 집단에 대한 분석의 정밀도를 저하시킨다.",
+    "definition_en": "A situation in which a specific subgroup is represented in the sample at a lower rate than its actual proportion in the population, reducing analytical precision for that group.",
+    "significance": "과소표집된 집단에 대한 통계적 검정력이 부족해지며, 해당 집단의 특성이 연구 결과에 제대로 반영되지 않을 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "레슬리 키시",
+        "name_en": "Leslie Kish",
+        "contribution": "표집 설계에서 과소표집 문제와 그 보정 방법을 체계적으로 다루었다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "과대표집",
+        "name_en": "Oversampling",
+        "id": "SAMPLE_OV_029"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      },
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "과소(過少)표집 = '과하게 적게' 포함 → 소수 집단이 표본에 너무 적게 반영됨",
+      "differential": "과소표집은 특정 집단이 '적게' 포함되는 것, 과대표집은 '많이' 포함되는 것이다.",
+      "key_point": "과소표집된 집단에 대한 분석은 검정력이 낮아 의미 있는 결과를 발견하기 어렵다.",
+      "common_mistake": "과소표집된 집단에 대한 결과가 유의하지 않을 때 실제 효과가 없다고 결론짓는 것. 검정력 부족일 수 있다."
+    }
+  },
+  {
+    "id": "SAMPLE_SF_031",
+    "terminology": "표본추출틀 (Sampling Frame)",
+    "terminology_ko": "표본추출틀",
+    "terminology_en": "Sampling Frame",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "모집단의 개체들을 나열한 실제 목록으로, 표본을 추출하는 기초가 되며 이 목록의 완전성이 표본의 대표성에 직접적으로 영향을 미친다.",
+    "definition_en": "The actual list of all members of the population from which a sample is drawn, whose completeness directly affects the representativeness of the selected sample.",
+    "significance": "표본추출틀이 모집단을 완전히 포함하지 못하면(포괄 오차) 표본이 편향될 수 있으므로, 표집 설계의 첫 번째 고려 사항이다.",
+    "key_researchers": [
+      {
+        "name_ko": "레슬리 키시",
+        "name_en": "Leslie Kish",
+        "contribution": "표본추출틀의 오류 유형(불완전, 중복, 누락)을 체계적으로 분류하고 보정 방법을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "모집단",
+        "name_en": "Population",
+        "id": "SAMPLE_PO_001"
+      },
+      {
+        "name_ko": "표집",
+        "name_en": "Sampling",
+        "id": "SAMPLE_SP_003"
+      },
+      {
+        "name_ko": "대표성",
+        "name_en": "Representativeness",
+        "id": "SAMPLE_RP_028"
+      },
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "추출틀 = 뽑기 위한 '틀(frame)' → 학생 명부, 전화번호부 등 실제 목록",
+      "differential": "표본추출틀은 모집단의 실제 '목록'이고, 모집단은 이론적 '정의'이다.",
+      "key_point": "표본추출틀과 모집단이 일치하지 않으면 포괄 오차(coverage error)가 발생한다.",
+      "common_mistake": "표본추출틀이 모집단 전체를 완벽히 반영한다고 가정하는 것. 누락이나 중복이 흔하다."
+    }
+  },
+  {
+    "id": "SAMPLE_UB_032",
+    "terminology": "불편추정량 (Unbiased Estimator)",
+    "terminology_ko": "불편추정량",
+    "terminology_en": "Unbiased Estimator",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "추정량의 기대값이 추정하려는 모수와 정확히 같은 통계량으로, 체계적 과대추정이나 과소추정 없이 모수를 추정한다.",
+    "definition_en": "A statistic whose expected value equals the parameter it estimates, producing no systematic overestimation or underestimation of the true parameter value.",
+    "significance": "모수 추정의 기본 요건 중 하나로, 표본평균은 모평균의, 표본분산(n-1로 나눈)은 모분산의 불편추정량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "추정량의 바람직한 속성(불편성, 효율성, 충분성)을 체계적으로 정의했다."
+      },
+      {
+        "name_ko": "예르지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "불편추정의 개념을 구간추정 이론에 적용하여 신뢰구간 방법론을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      },
+      {
+        "name_ko": "모수",
+        "name_en": "Parameter",
+        "id": "SAMPLE_PR_020"
+      },
+      {
+        "name_ko": "통계량",
+        "name_en": "Statistic",
+        "id": "SAMPLE_ST_021"
+      },
+      {
+        "name_ko": "표본분산",
+        "name_en": "Sample Variance",
+        "id": "SAMPLE_SV_025"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "불편(不偏) = 편향되지 않은 → E(추정량) = 모수, 평균적으로 정확하다",
+      "differential": "불편추정량은 기대값이 모수와 같고, 편향추정량은 체계적으로 모수와 차이가 있다.",
+      "key_point": "표본분산에서 n-1로 나누는 것은 불편추정량을 만들기 위한 베셀의 보정이다.",
+      "common_mistake": "불편추정량이 항상 가장 좋은 추정량이라고 생각하는 것. 효율성이 낮은 불편추정량보다 약간 편향된 효율적 추정량이 나을 수 있다."
+    }
+  },
+  {
+    "id": "SAMPLE_LN_033",
+    "terminology": "대수의 법칙 (Law of Large Numbers)",
+    "terminology_ko": "대수의 법칙",
+    "terminology_en": "Law of Large Numbers",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본 크기가 증가할수록 표본평균이 모평균에 점점 더 가까워진다는 확률 이론의 기본 정리이다.",
+    "definition_en": "A fundamental theorem in probability theory stating that as sample size increases, the sample mean converges to the population mean.",
+    "significance": "표본에 기반한 추론의 이론적 정당성을 제공하며, 큰 표본일수록 모수 추정이 정확해짐을 보장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "야코프 베르누이",
+        "name_en": "Jacob Bernoulli",
+        "contribution": "약한 대수의 법칙을 최초로 증명하여(1713년 사후 출판) 확률론의 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      },
+      {
+        "name_ko": "표본평균",
+        "name_en": "Sample Mean",
+        "id": "SAMPLE_XB_023"
+      },
+      {
+        "name_ko": "모평균",
+        "name_en": "Population Mean",
+        "id": "SAMPLE_PM_022"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "약한 대수의 법칙 (Weak Law)",
+        "description": "표본평균이 모평균에 확률적으로 수렴함"
+      },
+      {
+        "name": "강한 대수의 법칙 (Strong Law)",
+        "description": "표본평균이 모평균에 거의 확실하게 수렴함"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "대수(大數) = 큰 수 → 표본이 '크면' 평균이 모평균에 가까워진다",
+      "differential": "대수의 법칙은 표본평균이 모평균에 '수렴'한다는 것, 중심극한정리는 표본평균의 '분포'가 정규분포에 근사한다는 것이다.",
+      "key_point": "대수의 법칙은 수렴(정확도), 중심극한정리는 분포 형태(정규성)에 관한 정리이다.",
+      "common_mistake": "소수의 법칙(gambler's fallacy)과 혼동하는 것. 작은 표본에서도 대수의 법칙이 적용된다고 오해하면 안 된다."
+    }
+  },
+  {
+    "id": "SAMPLE_PS_034",
+    "terminology": "목적적 표집 (Purposive Sampling)",
+    "terminology_ko": "목적적 표집",
+    "terminology_en": "Purposive Sampling",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "연구 목적에 부합하는 특정 특성을 가진 대상을 연구자가 의도적으로 선택하는 비확률표집 방법이다.",
+    "definition_en": "A non-probability sampling method in which the researcher deliberately selects participants who meet specific criteria relevant to the research purpose.",
+    "significance": "질적 연구나 특수 집단 연구에서 정보가 풍부한 사례를 확보하는 데 유용하며, 연구자의 전문적 판단에 의존한다.",
+    "key_researchers": [
+      {
+        "name_ko": "마이클 패튼",
+        "name_en": "Michael Quinn Patton",
+        "contribution": "질적 연구에서 목적적 표집의 다양한 전략(최대 변량, 동질적, 극단 사례 등)을 체계적으로 분류했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비확률표집",
+        "name_en": "Non-Probability Sampling",
+        "id": "SAMPLE_NP_009"
+      },
+      {
+        "name_ko": "편의표집",
+        "name_en": "Convenience Sampling",
+        "id": "SAMPLE_CV_010"
+      },
+      {
+        "name_ko": "눈덩이표집",
+        "name_en": "Snowball Sampling",
+        "id": "SAMPLE_SB_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "극단사례표집 (Extreme Case Sampling)",
+        "description": "극단적이거나 특이한 사례를 의도적으로 선택"
+      },
+      {
+        "name": "동질적 표집 (Homogeneous Sampling)",
+        "description": "유사한 특성을 가진 대상만 선택"
+      },
+      {
+        "name": "최대변량 표집 (Maximum Variation Sampling)",
+        "description": "다양한 특성을 가진 대상을 광범위하게 선택"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "목적적 = '목적'에 맞게 골라 뽑는다 → 연구자가 기준에 맞는 대상을 선택",
+      "differential": "목적적 표집은 연구 기준에 맞는 대상을 '의도적' 선택, 편의표집은 접근 용이성에 따른 '편의적' 선택이다.",
+      "key_point": "목적적 표집의 질은 연구자의 전문적 판단에 크게 의존하며, 선택 기준을 명확히 보고해야 한다.",
+      "common_mistake": "목적적 표집으로 선택한 사례의 결과를 모집단 전체에 일반화하는 것."
+    }
+  },
+  {
+    "id": "SAMPLE_PT_035",
+    "terminology": "점추정 (Point Estimation)",
+    "terminology_ko": "점추정",
+    "terminology_en": "Point Estimation",
+    "category": "SAMPLE",
+    "category_name": "표본과 표본분포 (Sampling & Sampling Distributions)",
+    "definition": "표본 통계량을 사용하여 모집단 모수의 값을 하나의 단일 값으로 추정하는 통계적 방법이다.",
+    "definition_en": "A statistical method that uses a sample statistic to estimate the value of a population parameter as a single numerical value.",
+    "significance": "모수에 대한 가장 직관적인 추정 방법이지만, 추정의 불확실성을 표현하지 못하므로 구간추정과 함께 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "최대우도추정법(MLE)을 개발하여 점추정의 체계적 방법론을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "불편추정량",
+        "name_en": "Unbiased Estimator",
+        "id": "SAMPLE_UB_032"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      },
+      {
+        "name_ko": "모수",
+        "name_en": "Parameter",
+        "id": "SAMPLE_PR_020"
+      },
+      {
+        "name_ko": "통계량",
+        "name_en": "Statistic",
+        "id": "SAMPLE_ST_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "점(點)추정 = '한 점'으로 추정 → 모평균 μ를 x̄ = 75.3이라고 추정하는 것",
+      "differential": "점추정은 단일 값 추정, 구간추정은 구간(범위)으로 추정하며 불확실성을 표현한다.",
+      "key_point": "점추정만으로는 추정의 정밀도를 알 수 없으므로, 표준오차나 신뢰구간을 함께 보고해야 한다.",
+      "common_mistake": "점추정 값이 모수의 정확한 값이라고 확신하는 것. 점추정에는 항상 표본오차가 수반된다."
+    }
+  }
+]
