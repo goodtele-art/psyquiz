@@ -338,8 +338,17 @@ const CrosswordGame = (() => {
         }, 0);
       });
 
-      hiddenInput.addEventListener('input', () => {
-        if (composing || gameEnded || !selectedCell) return;
+      hiddenInput.addEventListener('input', (e) => {
+        if (gameEnded || !selectedCell) return;
+        // iOS Safari: compositionstart가 발생하지 않아도 e.isComposing으로 감지
+        if (composing || e.isComposing) {
+          // 조합 중: 현재 셀에 중간 상태 표시 (다음 셀로 이동하지 않음)
+          const val = hiddenInput.value;
+          if (val) {
+            setCellChar(selectedCell.row, selectedCell.col, val.slice(-1));
+          }
+          return;
+        }
         const val = hiddenInput.value;
         if (val.length > 0) {
           const char = val.slice(-1);

@@ -1504,7 +1504,8 @@ body {
   position: absolute;
   width: 36px;
   height: 36px;
-  opacity: 0;
+  color: transparent;
+  background: transparent;
   border: none;
   outline: none;
   font-size: 16px;
@@ -1806,6 +1807,7 @@ body {
   z-index: 1000 !important;
   background: var(--bg) !important;
   padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .keyboard-game-active .game-hud {
@@ -1840,7 +1842,8 @@ body {
 .keyboard-game-active .typing-arena {
   flex: 1;
   height: auto !important;
-  min-height: 80px;
+  min-height: 40px;
+  max-height: 100px;
 }
 
 .keyboard-game-active .typing-input-area {
@@ -1892,15 +1895,18 @@ body {
 /* 십자말: 키보드 열림 시 그리드 스크롤 가능 */
 .keyboard-game-active .crossword-container {
   flex: 1;
-  overflow: auto;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   min-height: 0;
 }
 
-.keyboard-game-active .crossword-clues {
+.keyboard-game-active .crossword-actions {
   flex-shrink: 0;
-  max-height: 60px;
-  overflow: hidden;
+  margin: 4px 0;
+}
+
+.keyboard-game-active .crossword-clues {
+  display: none;
 }
 
 /* --- Responsive --- */
