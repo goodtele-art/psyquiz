@@ -2078,3 +2078,95 @@ body {
     margin: 16px auto;
   }
 }
+
+/* EDRIP 홍보 배너 */
+.edrip-promo {
+  max-width: 728px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.edrip-promo-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.edrip-promo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.edrip-promo-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.edrip-promo-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.2);
+  border-radius: 12px;
+}
+
+.edrip-promo-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.edrip-promo-hook {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 3px;
+}
+
+.edrip-promo-desc {
+  font-size: 12px;
+  opacity: 0.85;
+  line-height: 1.3;
+}
+
+.edrip-promo-cta {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  backdrop-filter: blur(4px);
+}
+
+.edrip-promo-tag {
+  display: block;
+  text-align: right;
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  opacity: 0.5;
+}
+
+@media (max-width: 520px) {
+  .edrip-promo { padding: 0 12px; margin: 16px auto; }
+  .edrip-promo-card { padding: 14px 16px; gap: 12px; }
+  .edrip-promo-icon { width: 40px; height: 40px; font-size: 24px; }
+  .edrip-promo-hook { font-size: 13px; }
+  .edrip-promo-desc { font-size: 11px; }
+  .edrip-promo-cta { padding: 6px 12px; font-size: 11px; }
+}
