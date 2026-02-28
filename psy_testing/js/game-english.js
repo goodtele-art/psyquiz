@@ -11,6 +11,7 @@ const EnglishGame = (() => {
   let answered = false;
   let termResults = [];
   let nextKeyHandler = null;
+  let vvHandler = null;
 
   function create(gameArea, gameConfig) {
     container = gameArea;
@@ -40,8 +41,53 @@ const EnglishGame = (() => {
 
   function cleanup() {
     removeNextKeyHandler();
+    cleanupMobileKeyboard();
     container = null;
     questions = [];
+  }
+
+  /* --- 모바일 키보드 대응 --- */
+  function setupMobileKeyboard() {
+    const vv = window.visualViewport;
+    if (!vv) return;
+
+    const pageEl = container?.closest('.page');
+    if (!pageEl) return;
+
+    let isCompact = false;
+
+    vvHandler = () => {
+      const keyboardOpen = vv.height < window.innerHeight * 0.7;
+
+      if (keyboardOpen) {
+        if (!isCompact) isCompact = true;
+        pageEl.classList.add('keyboard-game-active');
+        pageEl.style.top = vv.offsetTop + 'px';
+        pageEl.style.height = vv.height + 'px';
+      } else if (isCompact) {
+        isCompact = false;
+        pageEl.classList.remove('keyboard-game-active');
+        pageEl.style.top = '';
+        pageEl.style.height = '';
+      }
+    };
+
+    vv.addEventListener('resize', vvHandler);
+    vv.addEventListener('scroll', vvHandler);
+  }
+
+  function cleanupMobileKeyboard() {
+    if (vvHandler && window.visualViewport) {
+      window.visualViewport.removeEventListener('resize', vvHandler);
+      window.visualViewport.removeEventListener('scroll', vvHandler);
+      vvHandler = null;
+    }
+    const pageEl = document.getElementById('page-game');
+    if (pageEl) {
+      pageEl.classList.remove('keyboard-game-active');
+      pageEl.style.top = '';
+      pageEl.style.height = '';
+    }
   }
 
   function bindNextKeyHandler() {
@@ -137,6 +183,8 @@ const EnglishGame = (() => {
       </div>
     `;
 
+    setupMobileKeyboard();
+
     const input = document.getElementById('english-typing-input');
     input.focus();
     input.addEventListener('keydown', (e) => {
@@ -175,15 +223,23 @@ const EnglishGame = (() => {
 
     // 피드백
     const feedbackEl = document.getElementById('english-feedback');
-    feedbackEl.innerHTML = `
-      ${!isCorrect ? `<p class="english-answer-reveal">정답: ${correctAnswer}</p>` : ''}
-      <button class="english-next-btn" onclick="EnglishGame.next()">
+    const nextBtnHtml = `<button class="english-next-btn" onclick="EnglishGame.next()">
         ${currentIndex < questions.length - 1 ? '다음 문제 →' : '결과 보기 🎉'}
-      </button>
-    `;
+      </button>`;
+
+    if (isCorrect) {
+      feedbackEl.innerHTML = nextBtnHtml;
+      bindNextKeyHandler();
+    } else {
+      feedbackEl.innerHTML = `<p class="english-answer-reveal">정답: ${correctAnswer}</p>`;
+      setTimeout(() => {
+        if (!container) return;
+        feedbackEl.innerHTML = `<p class="english-answer-reveal">정답: ${correctAnswer}</p>${nextBtnHtml}`;
+        bindNextKeyHandler();
+      }, 1200);
+    }
 
     App.updateHUD(currentIndex + 1, questions.length, ScoreManager.score);
-    bindNextKeyHandler();
   }
 
   function checkTypingAnswer(user, correct) {
@@ -252,16 +308,24 @@ const EnglishGame = (() => {
 
     // 피드백
     const feedbackEl = document.getElementById('english-feedback');
-    feedbackEl.innerHTML = `
-      <div style="text-align:center;margin-top:16px">
+    const nextBtnHtml = `<div style="text-align:center;margin-top:16px">
         <button class="english-next-btn" onclick="EnglishGame.next()">
           ${currentIndex < questions.length - 1 ? '다음 문제 →' : '결과 보기 🎉'}
         </button>
-      </div>
-    `;
+      </div>`;
+
+    if (isCorrect) {
+      feedbackEl.innerHTML = nextBtnHtml;
+      bindNextKeyHandler();
+    } else {
+      setTimeout(() => {
+        if (!container) return;
+        feedbackEl.innerHTML = nextBtnHtml;
+        bindNextKeyHandler();
+      }, 1200);
+    }
 
     App.updateHUD(currentIndex + 1, questions.length, ScoreManager.score);
-    bindNextKeyHandler();
   }
 
   function next() {

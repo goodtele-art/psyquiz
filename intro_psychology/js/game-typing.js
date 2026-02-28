@@ -18,6 +18,7 @@ const TypingGame = (() => {
   let animFrame = null;
   let termResults = [];
   let gameActive = false;
+  let vvHandler = null;
 
   function create(gameArea, gameConfig) {
     container = gameArea;
@@ -51,6 +52,7 @@ const TypingGame = (() => {
     fallSpeed = speeds[config.difficulty] || 0.12;
 
     render();
+    setupMobileKeyboard();
     showQuestion();
     startFall();
 
@@ -60,7 +62,62 @@ const TypingGame = (() => {
   function cleanup() {
     gameActive = false;
     if (animFrame) cancelAnimationFrame(animFrame);
+    cleanupMobileKeyboard();
     container = null;
+  }
+
+  /* --- 모바일 키보드 대응 --- */
+  function setupMobileKeyboard() {
+    const vv = window.visualViewport;
+    if (!vv) return;
+
+    const pageEl = container?.closest('.page');
+    if (!pageEl) return;
+
+    let isCompact = false;
+
+    vvHandler = () => {
+      if (!gameActive) { cleanupMobileKeyboard(); return; }
+
+      const keyboardOpen = vv.height < window.innerHeight * 0.7;
+
+      if (keyboardOpen) {
+        if (!isCompact) isCompact = true;
+        pageEl.classList.add('keyboard-game-active');
+        pageEl.style.top = vv.offsetTop + 'px';
+        pageEl.style.height = vv.height + 'px';
+        requestAnimationFrame(() => {
+          const arena = document.getElementById('typing-arena');
+          if (arena) arenaHeight = arena.offsetHeight;
+        });
+      } else if (isCompact) {
+        isCompact = false;
+        pageEl.classList.remove('keyboard-game-active');
+        pageEl.style.top = '';
+        pageEl.style.height = '';
+        requestAnimationFrame(() => {
+          const arena = document.getElementById('typing-arena');
+          if (arena) arenaHeight = arena.offsetHeight || 280;
+        });
+      }
+    };
+
+    vv.addEventListener('resize', vvHandler);
+    vv.addEventListener('scroll', vvHandler);
+  }
+
+  function cleanupMobileKeyboard() {
+    if (vvHandler && window.visualViewport) {
+      window.visualViewport.removeEventListener('resize', vvHandler);
+      window.visualViewport.removeEventListener('scroll', vvHandler);
+      vvHandler = null;
+    }
+    const pageEl = document.getElementById('page-game');
+    if (pageEl) {
+      pageEl.classList.remove('keyboard-game-active');
+      pageEl.style.top = '';
+      pageEl.style.height = '';
+    }
   }
 
   function stripSpaces(str) {

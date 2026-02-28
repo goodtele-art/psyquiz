@@ -13,6 +13,7 @@ const CrosswordGame = (() => {
   let selectedDir = 'across';
   let completedWords = new Set();
   let termResults = [];
+  let vvHandler = null;
 
   function create(gameArea, gameConfig) {
     container = gameArea;
@@ -47,29 +48,95 @@ const CrosswordGame = (() => {
 
     ScoreManager.total = words.length;
     render();
+    setupMobileKeyboard();
     return { cleanup };
   }
 
   function cleanup() {
+    cleanupMobileKeyboard();
     container = null;
     words = [];
     grid = [];
   }
 
-  function placeWords(candidates, maxWords) {
-    // 그리드 초기화
-    grid = Array.from({ length: gridSize }, () => Array(gridSize).fill(null));
-    words = [];
-    let number = 1;
+  /* --- 모바일 키보드 대응 --- */
+  function setupMobileKeyboard() {
+    const vv = window.visualViewport;
+    if (!vv) return;
 
-    for (const cand of candidates) {
-      if (words.length >= maxWords) break;
+    const pageEl = container?.closest('.page');
+    if (!pageEl) return;
 
-      const placed = tryPlace(cand, number);
-      if (placed) {
-        number++;
+    let isCompact = false;
+
+    vvHandler = () => {
+      const keyboardOpen = vv.height < window.innerHeight * 0.7;
+
+      if (keyboardOpen) {
+        if (!isCompact) isCompact = true;
+        pageEl.classList.add('keyboard-game-active');
+        pageEl.style.top = vv.offsetTop + 'px';
+        pageEl.style.height = vv.height + 'px';
+        // 선택된 셀이 보이도록 스크롤
+        const activeInput = container.querySelector('.crossword-cell.selected input');
+        if (activeInput) {
+          requestAnimationFrame(() => {
+            activeInput.scrollIntoView({ block: 'center', behavior: 'instant' });
+          });
+        }
+      } else if (isCompact) {
+        isCompact = false;
+        pageEl.classList.remove('keyboard-game-active');
+        pageEl.style.top = '';
+        pageEl.style.height = '';
       }
+    };
+
+    vv.addEventListener('resize', vvHandler);
+    vv.addEventListener('scroll', vvHandler);
+  }
+
+  function cleanupMobileKeyboard() {
+    if (vvHandler && window.visualViewport) {
+      window.visualViewport.removeEventListener('resize', vvHandler);
+      window.visualViewport.removeEventListener('scroll', vvHandler);
+      vvHandler = null;
     }
+    const pageEl = document.getElementById('page-game');
+    if (pageEl) {
+      pageEl.classList.remove('keyboard-game-active');
+      pageEl.style.top = '';
+      pageEl.style.height = '';
+    }
+  }
+
+  function placeWords(candidates, maxWords) {
+    // 여러 번 시도하여 최대한 많은 단어 배치 (최소 2개 교차 보장)
+    let bestWords = [];
+    let bestGrid = [];
+
+    for (let attempt = 0; attempt < 8; attempt++) {
+      grid = Array.from({ length: gridSize }, () => Array(gridSize).fill(null));
+      words = [];
+      let number = 1;
+
+      const shuffled = attempt === 0 ? candidates : App.shuffle([...candidates]);
+
+      for (const cand of shuffled) {
+        if (words.length >= maxWords) break;
+        if (tryPlace(cand, number)) number++;
+      }
+
+      if (words.length > bestWords.length) {
+        bestWords = words.map(w => ({ ...w }));
+        bestGrid = grid.map(row => [...row]);
+      }
+
+      if (words.length >= maxWords || words.length >= Math.min(maxWords, 3)) break;
+    }
+
+    words = bestWords;
+    grid = bestGrid;
   }
 
   function tryPlace(cand, number) {
@@ -162,7 +229,7 @@ const CrosswordGame = (() => {
         if (cellChar !== null) {
           gridHTML += `<div class="crossword-cell active" data-row="${r}" data-col="${c}">
             ${wordStart ? `<span class="cell-number">${wordStart.number}</span>` : ''}
-            <input type="text" maxlength="1" data-row="${r}" data-col="${c}">
+            <input type="text" data-row="${r}" data-col="${c}">
           </div>`;
         } else {
           gridHTML += `<div class="crossword-cell empty"></div>`;
@@ -222,32 +289,51 @@ const CrosswordGame = (() => {
       input.addEventListener('compositionend', () => {
         composing = false;
         // IME 완성 후: 마지막 한 글자만 남기고 다음 셀로
-        const val = input.value;
-        if (val.length > 1) {
-          input.value = val.slice(-1);
-        }
-        if (input.value) {
-          moveToNext(r, c);
-          checkWordCompletion();
-        }
+        // setTimeout으로 브라우저 input 이벤트 후 처리
+        setTimeout(() => {
+          const val = input.value;
+          if (val.length > 1) input.value = val.slice(-1);
+          if (input.value) {
+            moveToNext(r, c);
+            checkWordCompletion();
+          }
+        }, 0);
       });
 
       input.addEventListener('input', () => {
         if (composing) return; // IME 조합 중에는 무시
         const val = input.value;
-        if (val.length > 1) {
-          input.value = val.slice(-1);
-        }
+        if (val.length > 1) input.value = val.slice(-1);
         if (input.value) {
           moveToNext(r, c);
           checkWordCompletion();
         }
       });
 
-      // Backspace로 이전 셀 이동
       input.addEventListener('keydown', (e) => {
-        if (e.key === 'Backspace' && !input.value && !composing) {
+        if (composing) return;
+        if (e.key === 'Tab') {
           e.preventDefault();
+          if (e.shiftKey) moveToPrev(r, c);
+          else moveToNext(r, c);
+        } else if (e.key === 'Backspace' && !input.value) {
+          e.preventDefault();
+          moveToPrev(r, c);
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          selectedDir = 'across';
+          moveToNext(r, c);
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          selectedDir = 'across';
+          moveToPrev(r, c);
+        } else if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          selectedDir = 'down';
+          moveToNext(r, c);
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          selectedDir = 'down';
           moveToPrev(r, c);
         }
       });
@@ -257,8 +343,8 @@ const CrosswordGame = (() => {
   }
 
   function firstSentence(str) {
-    const dot = str.indexOf('.');
-    if (dot > 0 && dot < str.length - 1) return str.substring(0, dot + 1);
+    const sentenceEnd = str.search(/(?<!\d)\.(?!\d)/);
+    if (sentenceEnd > 0 && sentenceEnd < str.length - 1) return str.substring(0, sentenceEnd + 1);
     return str;
   }
 

@@ -11,6 +11,7 @@ const EnglishGame = (() => {
   let answered = false;
   let termResults = [];
   let nextKeyHandler = null;
+  let vvHandler = null;
 
   function create(gameArea, gameConfig) {
     container = gameArea;
@@ -40,8 +41,53 @@ const EnglishGame = (() => {
 
   function cleanup() {
     removeNextKeyHandler();
+    cleanupMobileKeyboard();
     container = null;
     questions = [];
+  }
+
+  /* --- 모바일 키보드 대응 --- */
+  function setupMobileKeyboard() {
+    const vv = window.visualViewport;
+    if (!vv) return;
+
+    const pageEl = container?.closest('.page');
+    if (!pageEl) return;
+
+    let isCompact = false;
+
+    vvHandler = () => {
+      const keyboardOpen = vv.height < window.innerHeight * 0.7;
+
+      if (keyboardOpen) {
+        if (!isCompact) isCompact = true;
+        pageEl.classList.add('keyboard-game-active');
+        pageEl.style.top = vv.offsetTop + 'px';
+        pageEl.style.height = vv.height + 'px';
+      } else if (isCompact) {
+        isCompact = false;
+        pageEl.classList.remove('keyboard-game-active');
+        pageEl.style.top = '';
+        pageEl.style.height = '';
+      }
+    };
+
+    vv.addEventListener('resize', vvHandler);
+    vv.addEventListener('scroll', vvHandler);
+  }
+
+  function cleanupMobileKeyboard() {
+    if (vvHandler && window.visualViewport) {
+      window.visualViewport.removeEventListener('resize', vvHandler);
+      window.visualViewport.removeEventListener('scroll', vvHandler);
+      vvHandler = null;
+    }
+    const pageEl = document.getElementById('page-game');
+    if (pageEl) {
+      pageEl.classList.remove('keyboard-game-active');
+      pageEl.style.top = '';
+      pageEl.style.height = '';
+    }
   }
 
   function bindNextKeyHandler() {
@@ -136,6 +182,8 @@ const EnglishGame = (() => {
         <div id="english-feedback"></div>
       </div>
     `;
+
+    setupMobileKeyboard();
 
     const input = document.getElementById('english-typing-input');
     input.focus();
