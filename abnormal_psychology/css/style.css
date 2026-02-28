@@ -1858,7 +1858,6 @@ body {
 .typing-mobile-fixed > .game-hud {
   flex-shrink: 0 !important;
   height: 36px; min-height: 36px;
-  margin-top: 10px;
   padding: 2px 12px;
   position: relative !important;
   display: flex; align-items: center;
@@ -1880,8 +1879,7 @@ body {
 .typing-mobile-fixed .typing-row-layout {
   display: flex !important;
   flex-direction: column !important;
-  flex: 1 !important;
-  min-height: 0 !important;
+  flex: 0 1 auto !important;
   overflow: hidden !important;
   gap: 4px;
 }
@@ -1890,7 +1888,7 @@ body {
   flex-shrink: 0 !important;
   max-height: 25% !important;
   min-height: 40px;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 6px 12px;
   margin-bottom: 0;
   overflow-y: auto;
@@ -1910,10 +1908,8 @@ body {
 }
 
 .typing-mobile-fixed .typing-arena {
-  flex: 0 1 auto !important;
-  max-height: 30vh !important;
-  min-height: 60px !important;
-  height: auto !important;
+  flex: 0 0 auto !important;
+  height: 200px !important;
   border-radius: var(--radius-md);
   overflow: hidden !important;
 }
