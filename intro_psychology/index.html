@@ -163,19 +163,17 @@
       </div>
 
       <!-- EDRIP 홍보 배너 -->
-      <div class="edrip-promo" id="edrip-promo"></div>
-      <script>
-      (function(){
-        var ps=[
-          {i:'🧠',h:'감별진단이 안 떠오를 때?',d:'AI 환자와 면담하며 DSM-5 진단 실력을 키우세요',n:'PSYDA',u:'https://psyda.ebpkorea.com',b:'linear-gradient(135deg,#1E40AF,#3B82F6)'},
-          {i:'📖',h:'사례개념화, 어디서 시작하지?',d:'15개 이론 × 300개 기법으로 내 사례를 분석해보세요',n:'EBP Study',u:'https://study.ebpkorea.com',b:'linear-gradient(135deg,#15803D,#22C55E)'},
-          {i:'✉️',h:'공부만 하고 내 마음은 뒷전?',d:'매일 심리치료 이론이 담긴 따뜻한 편지가 도착해요',n:'EBP Letter',u:'https://letter.ebpkorea.com',b:'linear-gradient(135deg,#8B6F47,#B8997D)'},
-          {i:'📋',h:'역채점 실수, 또 처음부터?',d:'자동 채점 + AI 해석 보고서로 검사 시간을 90% 줄이세요',n:'EBP Test',u:'https://test.ebpkorea.com',b:'linear-gradient(135deg,#4338CA,#6366F1)'},
-          {i:'📝',h:'상담 끝나면 기록에 2시간?',d:'SOAP 노트를 쓰면 AI가 다음 세션 계획까지 제안해요',n:'EBP Record',u:'https://record.ebpkorea.com',b:'linear-gradient(135deg,#3D5C3C,#5A8359)'}
-        ],p=ps[Math.floor(Math.random()*ps.length)];
-        document.getElementById('edrip-promo').innerHTML='<a class="edrip-promo-card" href="'+p.u+'" target="_blank" rel="noopener" style="background:'+p.b+'"><div class="edrip-promo-icon">'+p.i+'</div><div class="edrip-promo-body"><div class="edrip-promo-hook">'+p.h+'</div><div class="edrip-promo-desc">'+p.d+'</div></div><span class="edrip-promo-cta">'+p.n+' →</span></a><span class="edrip-promo-tag">EBP Korea</span>';
-      })();
-      </script>
+      <div class="edrip-promo">
+        <a class="edrip-promo-card" href="https://letter.ebpkorea.com" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#8B6F47,#B8997D)">
+          <div class="edrip-promo-icon">✉️</div>
+          <div class="edrip-promo-body">
+            <div class="edrip-promo-hook">공부만 하고 내 마음은 뒷전?</div>
+            <div class="edrip-promo-desc">매일 심리치료 이론이 담긴 따뜻한 편지가 도착해요</div>
+          </div>
+          <span class="edrip-promo-cta">EBP Letter →</span>
+        </a>
+        <span class="edrip-promo-tag">EBP Korea</span>
+      </div>
 
       <!-- 광고: Kakao AdFit -->
       <div class="ad-block" aria-label="광고">
