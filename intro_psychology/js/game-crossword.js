@@ -1,6 +1,7 @@
 /* ========================================
    Game: 십자말 퍼즐 (Crossword)
    심리학 용어 한글 십자말 퍼즐
+   — Hidden single input 방식으로 한글 IME 완벽 대응
    ======================================== */
 
 const CrosswordGame = (() => {
@@ -14,12 +15,17 @@ const CrosswordGame = (() => {
   let completedWords = new Set();
   let termResults = [];
   let vvHandler = null;
+  let composing = false;
+  let gameEnded = false;
 
   function create(gameArea, gameConfig) {
     container = gameArea;
     config = gameConfig;
     completedWords = new Set();
     termResults = [];
+    composing = false;
+    gameEnded = false;
+    selectedCell = null;
 
     // 난이도별 그리드 크기와 단어 수
     const sizes = { easy: { grid: 9, words: 4 }, medium: { grid: 11, words: 6 }, hard: { grid: 13, words: 8 } };
@@ -78,10 +84,10 @@ const CrosswordGame = (() => {
         pageEl.style.top = vv.offsetTop + 'px';
         pageEl.style.height = vv.height + 'px';
         // 선택된 셀이 보이도록 스크롤
-        const activeInput = container.querySelector('.crossword-cell.selected input');
-        if (activeInput) {
+        const activeCell = container.querySelector('.crossword-cell.selected');
+        if (activeCell) {
           requestAnimationFrame(() => {
-            activeInput.scrollIntoView({ block: 'center', behavior: 'instant' });
+            activeCell.scrollIntoView({ block: 'center', behavior: 'instant' });
           });
         }
       } else if (isCompact) {
@@ -110,8 +116,8 @@ const CrosswordGame = (() => {
     }
   }
 
+  /* --- 단어 배치 --- */
   function placeWords(candidates, maxWords) {
-    // 여러 번 시도하여 최대한 많은 단어 배치 (최소 2개 교차 보장)
     let bestWords = [];
     let bestGrid = [];
 
@@ -144,7 +150,6 @@ const CrosswordGame = (() => {
     const len = word.length;
 
     if (words.length === 0) {
-      // 첫 단어: 가로 중앙 배치
       const row = Math.floor(gridSize / 2);
       const col = Math.floor((gridSize - len) / 2);
       if (col < 0) return false;
@@ -153,7 +158,6 @@ const CrosswordGame = (() => {
       return true;
     }
 
-    // 기존 글자와 교차하는 위치 찾기
     for (const existingWord of words) {
       for (let ei = 0; ei < existingWord.word.length; ei++) {
         for (let wi = 0; wi < word.length; wi++) {
@@ -204,7 +208,6 @@ const CrosswordGame = (() => {
     }
   }
 
-  // 셀이 교차점(가로+세로 모두 속함)인지 확인
   function isIntersection(row, col) {
     const matching = words.filter(w => {
       for (let i = 0; i < w.word.length; i++) {
@@ -217,9 +220,31 @@ const CrosswordGame = (() => {
     return matching.some(w => w.direction === 'across') && matching.some(w => w.direction === 'down');
   }
 
+  /* --- 셀 글자 읽기/쓰기 헬퍼 --- */
+  function getCellChar(row, col) {
+    const span = container.querySelector(`.crossword-cell[data-row="${row}"][data-col="${col}"] .cell-char`);
+    return span ? span.textContent : '';
+  }
+
+  function setCellChar(row, col, char) {
+    const span = container.querySelector(`.crossword-cell[data-row="${row}"][data-col="${col}"] .cell-char`);
+    if (span) span.textContent = char;
+  }
+
+  /* --- 히든 인풋 위치 업데이트 --- */
+  function positionHiddenInput(row, col) {
+    const hiddenInput = document.getElementById('cw-input');
+    if (!hiddenInput) return;
+    // 그리드 gap = 2px, cell = 36px → stride = 38px
+    hiddenInput.style.left = (col * 38) + 'px';
+    hiddenInput.style.top = (row * 38) + 'px';
+  }
+
+  /* --- 렌더링 --- */
   function render() {
-    // 그리드 렌더링
-    let gridHTML = `<div class="crossword-grid" style="grid-template-columns: repeat(${gridSize}, 36px);">`;
+    // 그리드 렌더링 (셀에 <input> 대신 <span class="cell-char"> 사용)
+    let gridHTML = `<div class="crossword-grid-wrapper">`;
+    gridHTML += `<div class="crossword-grid" style="grid-template-columns: repeat(${gridSize}, 36px);">`;
 
     for (let r = 0; r < gridSize; r++) {
       for (let c = 0; c < gridSize; c++) {
@@ -229,13 +254,18 @@ const CrosswordGame = (() => {
         if (cellChar !== null) {
           gridHTML += `<div class="crossword-cell active" data-row="${r}" data-col="${c}">
             ${wordStart ? `<span class="cell-number">${wordStart.number}</span>` : ''}
-            <input type="text" data-row="${r}" data-col="${c}">
+            <span class="cell-char"></span>
           </div>`;
         } else {
           gridHTML += `<div class="crossword-cell empty"></div>`;
         }
       }
     }
+    gridHTML += '</div>';
+
+    // 히든 인풋 (그리드 wrapper 내부, absolute 위치)
+    gridHTML += `<input id="cw-input" class="cw-hidden-input" type="text"
+      autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text">`;
     gridHTML += '</div>';
 
     // 힌트 렌더링
@@ -270,74 +300,92 @@ const CrosswordGame = (() => {
       </div>
     `;
 
-    // 이벤트 바인딩
+    // 셀 클릭 이벤트
     container.querySelectorAll('.crossword-cell.active').forEach(cell => {
       const r = parseInt(cell.dataset.row);
       const c = parseInt(cell.dataset.col);
       cell.addEventListener('click', () => selectCell(r, c));
     });
 
-    container.querySelectorAll('.crossword-cell.active input').forEach(input => {
-      const r = parseInt(input.dataset.row);
-      const c = parseInt(input.dataset.col);
-      let composing = false;
+    // 히든 인풋 이벤트 바인딩
+    const hiddenInput = document.getElementById('cw-input');
+    if (hiddenInput) {
+      hiddenInput.addEventListener('compositionstart', () => {
+        composing = true;
+      });
 
-      input.addEventListener('focus', () => selectCell(r, c, true));
-
-      input.addEventListener('compositionstart', () => { composing = true; });
-
-      input.addEventListener('compositionend', () => {
-        composing = false;
-        // IME 완성 후: 마지막 한 글자만 남기고 다음 셀로
-        // setTimeout으로 브라우저 input 이벤트 후 처리
+      hiddenInput.addEventListener('compositionend', (e) => {
+        // composing 해제를 setTimeout 내에서 수행하여
+        // compositionend 직후 발생하는 input 이벤트의 중복 처리 방지
         setTimeout(() => {
-          const val = input.value;
-          if (val.length > 1) input.value = val.slice(-1);
-          if (input.value) {
-            moveToNext(r, c);
-            checkWordCompletion();
+          composing = false;
+          if (gameEnded || !selectedCell) return;
+          const chars = e.data || hiddenInput.value || '';
+          hiddenInput.value = '';
+          if (!chars) return;
+
+          // 복수 글자 조합 (예: 한글 → 2글자) 처리
+          for (const char of chars) {
+            if (!selectedCell) break;
+            const curRow = selectedCell.row;
+            const curCol = selectedCell.col;
+            setCellChar(curRow, curCol, char);
+            moveToNext(curRow, curCol);
+            // 다음 셀이 없으면 (moveToNext가 위치를 변경하지 못했으면) 중단
+            if (selectedCell.row === curRow && selectedCell.col === curCol) break;
           }
+          checkWordCompletion();
         }, 0);
       });
 
-      input.addEventListener('input', () => {
-        if (composing) return; // IME 조합 중에는 무시
-        const val = input.value;
-        if (val.length > 1) input.value = val.slice(-1);
-        if (input.value) {
-          moveToNext(r, c);
+      hiddenInput.addEventListener('input', () => {
+        if (composing || gameEnded || !selectedCell) return;
+        const val = hiddenInput.value;
+        if (val.length > 0) {
+          const char = val.slice(-1);
+          setCellChar(selectedCell.row, selectedCell.col, char);
+          hiddenInput.value = '';
+          moveToNext(selectedCell.row, selectedCell.col);
           checkWordCompletion();
         }
       });
 
-      input.addEventListener('keydown', (e) => {
-        if (composing) return;
-        if (e.key === 'Tab') {
+      hiddenInput.addEventListener('keydown', (e) => {
+        if (composing || gameEnded || !selectedCell) return;
+        const { row, col } = selectedCell;
+
+        if (e.key === 'Backspace') {
           e.preventDefault();
-          if (e.shiftKey) moveToPrev(r, c);
-          else moveToNext(r, c);
-        } else if (e.key === 'Backspace' && !input.value) {
+          const currentChar = getCellChar(row, col);
+          if (currentChar) {
+            setCellChar(row, col, '');
+          } else {
+            moveToPrev(row, col);
+            if (selectedCell) setCellChar(selectedCell.row, selectedCell.col, '');
+          }
+        } else if (e.key === 'Tab') {
           e.preventDefault();
-          moveToPrev(r, c);
+          if (e.shiftKey) moveToPrev(row, col);
+          else moveToNext(row, col);
         } else if (e.key === 'ArrowRight') {
           e.preventDefault();
           selectedDir = 'across';
-          moveToNext(r, c);
+          moveToNext(row, col);
         } else if (e.key === 'ArrowLeft') {
           e.preventDefault();
           selectedDir = 'across';
-          moveToPrev(r, c);
+          moveToPrev(row, col);
         } else if (e.key === 'ArrowDown') {
           e.preventDefault();
           selectedDir = 'down';
-          moveToNext(r, c);
+          moveToNext(row, col);
         } else if (e.key === 'ArrowUp') {
           e.preventDefault();
           selectedDir = 'down';
-          moveToPrev(r, c);
+          moveToPrev(row, col);
         }
       });
-    });
+    }
 
     App.updateHUD(completedWords.size, words.length, ScoreManager.score);
   }
@@ -348,29 +396,33 @@ const CrosswordGame = (() => {
     return str;
   }
 
-  function selectCell(row, col, fromFocus) {
+  /* --- 셀 선택 --- */
+  function selectCell(row, col) {
+    if (gameEnded) return;
+
     // 같은 셀 재클릭 시(교차점이면) 방향 토글
-    if (!fromFocus && selectedCell && selectedCell.row === row && selectedCell.col === col) {
+    if (selectedCell && selectedCell.row === row && selectedCell.col === col) {
       if (isIntersection(row, col)) {
         selectedDir = selectedDir === 'across' ? 'down' : 'across';
       }
     } else {
       selectedCell = { row, col };
       // 새 셀 선택: 해당 셀이 속한 단어 방향으로 자동 설정
-      if (!fromFocus) {
-        const wordAtCell = findWordsAt(row, col);
-        if (wordAtCell.length === 1) {
-          selectedDir = wordAtCell[0].direction;
-        }
-        // 교차점이면 현재 방향 유지
+      const wordAtCell = findWordsAt(row, col);
+      if (wordAtCell.length === 1) {
+        selectedDir = wordAtCell[0].direction;
       }
     }
 
     highlightWord(row, col);
+    positionHiddenInput(row, col);
 
-    // 포커스 설정
-    const input = container.querySelector(`input[data-row="${row}"][data-col="${col}"]`);
-    if (input && document.activeElement !== input) input.focus();
+    // 히든 인풋 포커스 (키보드 활성화)
+    const hiddenInput = document.getElementById('cw-input');
+    if (hiddenInput) {
+      hiddenInput.value = '';
+      hiddenInput.focus();
+    }
   }
 
   function highlightWord(row, col) {
@@ -400,17 +452,18 @@ const CrosswordGame = (() => {
     }
   }
 
+  /* --- 셀 이동 --- */
   function moveToNext(row, col) {
     let nextR = row;
     let nextC = col;
     if (selectedDir === 'across') nextC++;
     else nextR++;
 
-    const nextInput = container.querySelector(`input[data-row="${nextR}"][data-col="${nextC}"]`);
-    if (nextInput) {
+    const nextCell = container.querySelector(`.crossword-cell.active[data-row="${nextR}"][data-col="${nextC}"]`);
+    if (nextCell) {
       selectedCell = { row: nextR, col: nextC };
       highlightWord(nextR, nextC);
-      nextInput.focus();
+      positionHiddenInput(nextR, nextC);
     }
   }
 
@@ -420,15 +473,15 @@ const CrosswordGame = (() => {
     if (selectedDir === 'across') prevC--;
     else prevR--;
 
-    const prevInput = container.querySelector(`input[data-row="${prevR}"][data-col="${prevC}"]`);
-    if (prevInput) {
+    const prevCell = container.querySelector(`.crossword-cell.active[data-row="${prevR}"][data-col="${prevC}"]`);
+    if (prevCell) {
       selectedCell = { row: prevR, col: prevC };
       highlightWord(prevR, prevC);
-      prevInput.focus();
+      positionHiddenInput(prevR, prevC);
     }
   }
 
-  // 해당 셀에 속한 모든 단어 반환
+  /* --- 단어 검색 --- */
   function findWordsAt(row, col) {
     return words.filter(w => {
       for (let i = 0; i < w.word.length; i++) {
@@ -440,12 +493,12 @@ const CrosswordGame = (() => {
     });
   }
 
-  // 특정 방향의 단어 찾기 (없으면 다른 방향이라도 반환)
   function findWordAtDir(row, col, dir) {
     const all = findWordsAt(row, col);
     return all.find(w => w.direction === dir) || all[0] || null;
   }
 
+  /* --- 정답 확인 --- */
   function checkWordCompletion() {
     words.forEach(w => {
       if (completedWords.has(w.number)) return;
@@ -456,56 +509,59 @@ const CrosswordGame = (() => {
       for (let i = 0; i < w.word.length; i++) {
         const r = w.direction === 'across' ? w.row : w.row + i;
         const c = w.direction === 'across' ? w.col + i : w.col;
-        const input = container.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
-        if (!input || !input.value) {
+        const char = getCellChar(r, c);
+        if (!char) {
           completed = false;
           break;
         }
-        if (input.value !== w.word[i]) {
+        if (char !== w.word[i]) {
           correct = false;
         }
       }
 
-      if (completed) {
-        if (correct) {
-          completedWords.add(w.number);
-          // 셀 색상 변경
-          for (let i = 0; i < w.word.length; i++) {
-            const r = w.direction === 'across' ? w.row : w.row + i;
-            const c = w.direction === 'across' ? w.col + i : w.col;
-            const cell = container.querySelector(`.crossword-cell[data-row="${r}"][data-col="${c}"]`);
-            if (cell) cell.classList.add('correct');
-          }
-          ScoreManager.addCorrect();
-          termResults.push({ id: w.term.id, correct: true });
+      if (completed && correct) {
+        completedWords.add(w.number);
+        for (let i = 0; i < w.word.length; i++) {
+          const r = w.direction === 'across' ? w.row : w.row + i;
+          const c = w.direction === 'across' ? w.col + i : w.col;
+          const cell = container.querySelector(`.crossword-cell[data-row="${r}"][data-col="${c}"]`);
+          if (cell) cell.classList.add('correct');
+        }
+        ScoreManager.addCorrect();
+        termResults.push({ id: w.term.id, correct: true });
 
-          // 힌트에도 완료 표시
-          const clueEl = container.querySelector(`.crossword-clue[data-number="${w.number}"]`);
-          if (clueEl) clueEl.style.textDecoration = 'line-through';
+        const clueEl = container.querySelector(`.crossword-clue[data-number="${w.number}"]`);
+        if (clueEl) clueEl.style.textDecoration = 'line-through';
 
-          App.updateHUD(completedWords.size, words.length, ScoreManager.score);
+        App.updateHUD(completedWords.size, words.length, ScoreManager.score);
 
-          if (completedWords.size === words.length) {
-            setTimeout(() => finishGame(), 600);
-          }
+        if (completedWords.size === words.length) {
+          setTimeout(() => finish(), 600);
         }
       }
     });
   }
 
   function focusWord(number) {
+    if (gameEnded) return;
     const word = words.find(w => w.number === number);
     if (!word) return;
     selectedDir = word.direction;
     selectedCell = { row: word.row, col: word.col };
     highlightWord(word.row, word.col);
-    const input = container.querySelector(`input[data-row="${word.row}"][data-col="${word.col}"]`);
-    if (input) input.focus();
+    positionHiddenInput(word.row, word.col);
+    const hiddenInput = document.getElementById('cw-input');
+    if (hiddenInput) {
+      hiddenInput.value = '';
+      hiddenInput.focus();
+    }
     Sound.click();
   }
 
-  // 제출하기: 현재 입력 기준으로 맞은 것만 인정하고 게임 종료
+  /* --- 제출/공개 --- */
   function submitAnswers() {
+    gameEnded = true;
+
     words.forEach(w => {
       if (completedWords.has(w.number)) return;
 
@@ -513,8 +569,8 @@ const CrosswordGame = (() => {
       for (let i = 0; i < w.word.length; i++) {
         const r = w.direction === 'across' ? w.row : w.row + i;
         const c = w.direction === 'across' ? w.col + i : w.col;
-        const input = container.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
-        if (!input || input.value !== w.word[i]) { correct = false; break; }
+        const char = getCellChar(r, c);
+        if (char !== w.word[i]) { correct = false; break; }
       }
 
       if (correct) {
@@ -525,19 +581,19 @@ const CrosswordGame = (() => {
         termResults.push({ id: w.term.id, correct: false });
       }
 
-      // 모든 셀에 정답/오답 표시
+      // 모든 셀에 정답 표시
       for (let i = 0; i < w.word.length; i++) {
         const r = w.direction === 'across' ? w.row : w.row + i;
         const c = w.direction === 'across' ? w.col + i : w.col;
         const cell = container.querySelector(`.crossword-cell[data-row="${r}"][data-col="${c}"]`);
-        const input = container.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
         if (cell) cell.classList.add(correct ? 'correct' : 'wrong');
-        if (input) {
-          input.value = w.word[i];
-          input.disabled = true;
-        }
+        setCellChar(r, c, w.word[i]);
       }
     });
+
+    // 히든 인풋 비활성화
+    const hiddenInput = document.getElementById('cw-input');
+    if (hiddenInput) hiddenInput.disabled = true;
 
     // 버튼 영역을 결과 보기로 교체
     const actionsEl = container.querySelector('.crossword-actions');
@@ -548,8 +604,9 @@ const CrosswordGame = (() => {
     App.updateHUD(completedWords.size, words.length, ScoreManager.score);
   }
 
-  // 정답 보기: 모든 정답을 채워 넣고 게임 종료
   function revealAll() {
+    gameEnded = true;
+
     words.forEach(w => {
       if (completedWords.has(w.number)) return;
       termResults.push({ id: w.term.id, correct: false });
@@ -558,14 +615,14 @@ const CrosswordGame = (() => {
         const r = w.direction === 'across' ? w.row : w.row + i;
         const c = w.direction === 'across' ? w.col + i : w.col;
         const cell = container.querySelector(`.crossword-cell[data-row="${r}"][data-col="${c}"]`);
-        const input = container.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
         if (cell) cell.classList.add('revealed');
-        if (input) {
-          input.value = w.word[i];
-          input.disabled = true;
-        }
+        setCellChar(r, c, w.word[i]);
       }
     });
+
+    // 히든 인풋 비활성화
+    const hiddenInput = document.getElementById('cw-input');
+    if (hiddenInput) hiddenInput.disabled = true;
 
     // 버튼 영역을 결과 보기로 교체
     const actionsEl = container.querySelector('.crossword-actions');
