@@ -19,6 +19,7 @@ const TypingGame = (() => {
   let termResults = [];
   let gameActive = false;
   let vvHandler = null;
+  let arenaObserver = null;
 
   function create(gameArea, gameConfig) {
     container = gameArea;
@@ -53,14 +54,14 @@ const TypingGame = (() => {
 
     render();
 
-    // 모바일: 고정 레이아웃 즉시 적용 (키보드 감지 불필요)
+    // 모바일: 고정 레이아웃 즉시 적용
     const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     if (isMobile) {
       const pageEl = container.closest('.page');
       if (pageEl) pageEl.classList.add('typing-mobile-fixed');
-    } else {
-      setupMobileKeyboard();
     }
+    // 항상 Visual Viewport 리스너 등록 (iOS + Android 통합)
+    setupMobileKeyboard();
 
     showQuestion();
     startFall();
@@ -71,13 +72,14 @@ const TypingGame = (() => {
   function cleanup() {
     gameActive = false;
     if (animFrame) cancelAnimationFrame(animFrame);
+    if (arenaObserver) { arenaObserver.disconnect(); arenaObserver = null; }
     cleanupMobileKeyboard();
     const pageEl = document.getElementById('page-game');
     if (pageEl) pageEl.classList.remove('typing-mobile-fixed');
     container = null;
   }
 
-  /* --- 모바일 키보드 대응 --- */
+  /* --- 모바일 키보드 대응 (iOS + Android 통합) --- */
   function setupMobileKeyboard() {
     const vv = window.visualViewport;
     if (!vv) return;
@@ -85,31 +87,27 @@ const TypingGame = (() => {
     const pageEl = container?.closest('.page');
     if (!pageEl) return;
 
+    // ★ 키보드 열기 전 높이를 캡처 (Android에서 innerHeight가 키보드와 함께 줄어드는 문제 해결)
+    const baselineHeight = window.innerHeight;
     let isCompact = false;
 
     vvHandler = () => {
       if (!gameActive) { cleanupMobileKeyboard(); return; }
 
-      const keyboardOpen = vv.height < window.innerHeight * 0.7;
+      const keyboardOpen = vv.height < baselineHeight * 0.75;
 
       if (keyboardOpen) {
         if (!isCompact) isCompact = true;
-        pageEl.classList.add('keyboard-game-active');
+        pageEl.classList.add('typing-mobile-fixed');
         pageEl.style.top = vv.offsetTop + 'px';
         pageEl.style.height = vv.height + 'px';
-        requestAnimationFrame(() => {
-          const arena = document.getElementById('typing-arena');
-          if (arena) arenaHeight = arena.offsetHeight;
-        });
       } else if (isCompact) {
         isCompact = false;
-        pageEl.classList.remove('keyboard-game-active');
+        // 터치 기기는 typing-mobile-fixed 유지, 데스크탑만 해제
+        const isMob = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        if (!isMob) pageEl.classList.remove('typing-mobile-fixed');
         pageEl.style.top = '';
         pageEl.style.height = '';
-        requestAnimationFrame(() => {
-          const arena = document.getElementById('typing-arena');
-          if (arena) arenaHeight = arena.offsetHeight || 280;
-        });
       }
     };
 
@@ -150,7 +148,8 @@ const TypingGame = (() => {
       <div class="typing-input-area">
         <input type="text" class="typing-input" id="typing-input"
                placeholder="답을 입력하고 Enter..."
-               autocomplete="off" autocapitalize="off" spellcheck="false">
+               autocomplete="off" autocapitalize="off" spellcheck="false"
+               inputmode="text" enterkeyhint="go">
       </div>
       <div class="typing-hint" id="typing-hint"></div>
     `;
@@ -158,7 +157,23 @@ const TypingGame = (() => {
     inputEl = document.getElementById('typing-input');
     blockEl = document.getElementById('typing-block');
     questionEl = document.getElementById('typing-question-text');
-    arenaHeight = document.getElementById('typing-arena').offsetHeight || 350;
+
+    // arenaHeight: ResizeObserver로 실시간 추적
+    const arenaEl = document.getElementById('typing-arena');
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        arenaHeight = arenaEl.offsetHeight || 200;
+      });
+    });
+    if (arenaObserver) arenaObserver.disconnect();
+    if (typeof ResizeObserver !== 'undefined') {
+      arenaObserver = new ResizeObserver(entries => {
+        for (const e of entries) {
+          if (e.contentRect.height > 0) arenaHeight = e.contentRect.height;
+        }
+      });
+      arenaObserver.observe(arenaEl);
+    }
 
     inputEl.focus();
     inputEl.addEventListener('keydown', handleKeydown);
@@ -192,8 +207,11 @@ const TypingGame = (() => {
       if (!gameActive) return;
       fallPosition += fallSpeed;
 
+      // 블록 위치를 arena 범위 내로 clamp
+      const maxFall = Math.max(arenaHeight - 50, 50);
+      const clampedPos = Math.min(fallPosition, maxFall);
       if (blockEl) {
-        blockEl.style.top = fallPosition + 'px';
+        blockEl.style.top = clampedPos + 'px';
       }
 
       // 바닥 도달 = 오답

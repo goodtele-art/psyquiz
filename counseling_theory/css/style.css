@@ -1842,98 +1842,94 @@ body {
 /* 타이핑 낙하: 모바일 고정 레이아웃 — absolute로 영역 확정 */
 .typing-mobile-fixed {
   position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  height: 50vh !important;
+  top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+  height: 100vh !important;
+  height: 100dvh !important;
   overflow: hidden !important;
   padding: 0 !important;
+  padding-top: env(safe-area-inset-top, 0px) !important;
   z-index: 100;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
-/* HUD: 상단 34px 고정 */
 .typing-mobile-fixed > .game-hud {
-  position: absolute !important;
-  top: 0; left: 0; right: 0;
-  height: 34px;
+  flex-shrink: 0 !important;
+  height: 36px; min-height: 36px;
   padding: 2px 12px;
-  display: flex;
-  align-items: center;
+  position: relative !important;
+  display: flex; align-items: center;
   overflow: hidden;
   z-index: 2;
   background: var(--bg);
 }
 
-/* 게임 영역: HUD 아래 ~ 컨테이너 하단 */
 .typing-mobile-fixed > .game-area {
-  position: absolute !important;
-  top: 48px; left: 8px; right: 8px; bottom: 0;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  padding: 0;
+  flex: 1 !important;
+  min-height: 0 !important;
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  padding: 0 8px !important;
 }
 
-/* 좌우 분할: 설명(좌) + 낙하(우) */
 .typing-mobile-fixed .typing-row-layout {
   display: flex !important;
-  flex-direction: row !important;
-  flex: 1;
-  gap: 6px;
-  min-height: 0;
-  overflow: hidden;
+  flex-direction: column !important;
+  flex: 1 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  gap: 4px;
 }
 
 .typing-mobile-fixed .typing-question-box {
-  flex: 1;
-  min-width: 0;
-  padding: 6px 10px;
+  flex-shrink: 0 !important;
+  max-height: 25% !important;
+  min-height: 40px;
+  padding: 6px 12px;
   margin-bottom: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
 .typing-mobile-fixed .typing-question-label {
-  font-size: 0.65rem;
-  padding: 2px 6px;
-  top: -8px;
+  font-size: 0.6rem; padding: 1px 6px; top: -6px;
 }
 
 .typing-mobile-fixed .typing-question-text {
-  font-size: 0.85rem;
-  line-height: 1.35;
+  font-size: 0.82rem; line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .typing-mobile-fixed .typing-arena {
-  flex: 1;
-  min-width: 0;
+  flex: 1 !important;
+  min-height: 80px !important;
   height: auto !important;
-  min-height: unset;
-  max-height: unset;
   border-radius: var(--radius-md);
+  overflow: hidden !important;
 }
 
 .typing-mobile-fixed .typing-falling-block {
-  font-size: 0.9rem;
-  letter-spacing: 2px;
-  padding: 6px 10px;
+  font-size: 1rem; letter-spacing: 3px; padding: 8px 14px;
+  max-width: 90%;
 }
 
-/* 입력 + 힌트: 하단 고정 */
 .typing-mobile-fixed .typing-input-area {
-  flex-shrink: 0;
-  padding: 4px 0;
+  flex-shrink: 0 !important; padding: 4px 0;
 }
 
 .typing-mobile-fixed .typing-input {
-  padding: 8px 12px;
-  font-size: 0.95rem;
+  padding: 8px 12px; font-size: 0.95rem;
 }
 
 .typing-mobile-fixed .typing-hint {
-  flex-shrink: 0;
-  font-size: 0.78rem;
-  margin-top: 2px;
+  flex-shrink: 0 !important;
+  font-size: 0.75rem; margin-top: 2px; min-height: 1.2em;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 /* 영어공부: 키보드 열림 시 컴팩트 레이아웃 */
