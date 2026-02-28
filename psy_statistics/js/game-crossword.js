@@ -254,11 +254,16 @@ const CrosswordGame = (() => {
     for (let r = 0; r < gridSize; r++) {
       for (let c = 0; c < gridSize; c++) {
         const cellChar = grid[r][c];
-        const wordStart = words.find(w => w.row === r && w.col === c);
+        const wordStarts = words.filter(w => w.row === r && w.col === c);
 
         if (cellChar !== null) {
+          let numHTML = '';
+          for (const ws of wordStarts) {
+            const cls = ws.direction === 'across' ? 'cell-number-across' : 'cell-number-down';
+            numHTML += `<span class="cell-number ${cls}">${ws.number}</span>`;
+          }
           gridHTML += `<div class="crossword-cell active" data-row="${r}" data-col="${c}">
-            ${wordStart ? `<span class="cell-number">${wordStart.number}</span>` : ''}
+            ${numHTML}
             <span class="cell-char"></span>
           </div>`;
         } else {

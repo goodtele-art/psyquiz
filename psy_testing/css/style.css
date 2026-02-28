@@ -1521,6 +1521,20 @@ body {
   left: 3px;
   font-size: 0.55rem;
   color: var(--text-muted);
+  line-height: 1;
+}
+
+/* 가로/세로 번호가 같은 셀에 겹칠 때 위치 분리 */
+.crossword-cell .cell-number-across {
+  top: 1px;
+  left: 2px;
+}
+
+.crossword-cell .cell-number-down {
+  top: 1px;
+  right: 2px;
+  left: auto;
+  color: var(--game-crossword-dark);
 }
 
 .crossword-clues {
