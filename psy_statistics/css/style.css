@@ -1856,7 +1856,7 @@ body {
 /* 게임 영역: HUD 아래 ~ 컨테이너 하단 */
 .typing-mobile-fixed > .game-area {
   position: absolute !important;
-  top: 38px; left: 8px; right: 8px; bottom: 0;
+  top: 48px; left: 8px; right: 8px; bottom: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
