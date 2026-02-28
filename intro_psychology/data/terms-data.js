@@ -9197,7 +9197,7 @@ TERMS_DATA.COGN = [
   {
     "id": "COGN_HEUR_006",
     "terminology": "발견법/휴리스틱 (Heuristic)",
-    "terminology_ko": "발견법(휴리스틱)",
+    "terminology_ko": "발견법",
     "terminology_en": "Heuristic",
     "category": "COGN",
     "category_name": "사고와 언어 (Thinking & Language)",
@@ -9396,7 +9396,7 @@ TERMS_DATA.COGN = [
   {
     "id": "COGN_ANCHOR_010",
     "terminology": "고정효과/앵커링 (Anchoring Effect)",
-    "terminology_ko": "고정효과(앵커링)",
+    "terminology_ko": "고정효과",
     "terminology_en": "Anchoring Effect",
     "category": "COGN",
     "category_name": "사고와 언어 (Thinking & Language)",
@@ -10242,7 +10242,7 @@ TERMS_DATA.COGN = [
   {
     "id": "COGN_LAD_028",
     "terminology": "언어습득장치 (Language Acquisition Device, LAD)",
-    "terminology_ko": "언어습득장치(LAD)",
+    "terminology_ko": "언어습득장치",
     "terminology_en": "Language Acquisition Device (LAD)",
     "category": "COGN",
     "category_name": "사고와 언어 (Thinking & Language)",
@@ -15227,7 +15227,7 @@ TERMS_DATA.PERSON = [
   {
     "id": "PERSON_ID_002",
     "terminology": "원본능/이드 (Id)",
-    "terminology_ko": "원본능(이드)",
+    "terminology_ko": "원본능",
     "terminology_en": "Id",
     "category": "PERSON",
     "category_name": "성격심리 (Personality)",
@@ -15269,7 +15269,7 @@ TERMS_DATA.PERSON = [
   {
     "id": "PERSON_EGO_003",
     "terminology": "자아/에고 (Ego)",
-    "terminology_ko": "자아(에고)",
+    "terminology_ko": "자아",
     "terminology_en": "Ego",
     "category": "PERSON",
     "category_name": "성격심리 (Personality)",
@@ -15316,7 +15316,7 @@ TERMS_DATA.PERSON = [
   {
     "id": "PERSON_SUPEREGO_004",
     "terminology": "초자아/슈퍼에고 (Superego)",
-    "terminology_ko": "초자아(슈퍼에고)",
+    "terminology_ko": "초자아",
     "terminology_en": "Superego",
     "category": "PERSON",
     "category_name": "성격심리 (Personality)",
@@ -15782,7 +15782,7 @@ TERMS_DATA.PERSON = [
   {
     "id": "PERSON_BIGFIVE_013",
     "terminology": "5요인 모형/빅 파이브 (Big Five Model)",
-    "terminology_ko": "5요인 모형(빅 파이브)",
+    "terminology_ko": "5요인 모형",
     "terminology_en": "Big Five Model",
     "category": "PERSON",
     "category_name": "성격심리 (Personality)",
@@ -16653,7 +16653,7 @@ TERMS_DATA.PERSON = [
   {
     "id": "PERSON_MMPI_030",
     "terminology": "미네소타 다면적 인성검사 (MMPI: Minnesota Multiphasic Personality Inventory)",
-    "terminology_ko": "미네소타 다면적 인성검사(MMPI)",
+    "terminology_ko": "미네소타 다면적 인성검사",
     "terminology_en": "Minnesota Multiphasic Personality Inventory (MMPI)",
     "category": "PERSON",
     "category_name": "성격심리 (Personality)",

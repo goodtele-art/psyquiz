@@ -99,7 +99,7 @@
   {
     "id": "DEVELOP_CBCL_004",
     "terminology": "K-CBCL 아동행동체크리스트 (Korean Child Behavior Checklist)",
-    "terminology_ko": "K-CBCL (아동행동체크리스트)",
+    "terminology_ko": "K-CBCL",
     "terminology_en": "Korean Child Behavior Checklist (K-CBCL)",
     "category": "DEVELOP",
     "category_name": "발달/교육검사 (Developmental & Educational Testing)",
@@ -132,7 +132,7 @@
   {
     "id": "DEVELOP_CONN_005",
     "terminology": "ADHD 평가도구: Conners 평정척도 (Conners Rating Scales)",
-    "terminology_ko": "ADHD 평가도구 (Conners 평정척도)",
+    "terminology_ko": "ADHD 평가도구",
     "terminology_en": "Conners Rating Scales",
     "category": "DEVELOP",
     "category_name": "발달/교육검사 (Developmental & Educational Testing)",
@@ -196,7 +196,7 @@
   {
     "id": "DEVELOP_ASD_007",
     "terminology": "자폐스펙트럼 검사: ADOS와 ADI-R (Autism Diagnostic Observation Schedule & Autism Diagnostic Interview-Revised)",
-    "terminology_ko": "자폐스펙트럼 검사 (ADOS, ADI-R)",
+    "terminology_ko": "자폐스펙트럼 검사",
     "terminology_en": "Autism Diagnostic Observation Schedule (ADOS) & Autism Diagnostic Interview-Revised (ADI-R)",
     "category": "DEVELOP",
     "category_name": "발달/교육검사 (Developmental & Educational Testing)",
@@ -419,7 +419,7 @@
   {
     "id": "DEVELOP_KASQ_014",
     "terminology": "K-ASQ 영유아 발달선별검사 (Korean Ages and Stages Questionnaires)",
-    "terminology_ko": "K-ASQ (영유아 발달선별)",
+    "terminology_ko": "K-ASQ",
     "terminology_en": "Korean Ages and Stages Questionnaires (K-ASQ)",
     "category": "DEVELOP",
     "category_name": "발달/교육검사 (Developmental & Educational Testing)",
@@ -732,7 +732,7 @@
   {
     "id": "DEVELOP_IEP_024",
     "terminology": "개별화교육프로그램 (Individualized Education Program, IEP)",
-    "terminology_ko": "개별화교육프로그램 (IEP)",
+    "terminology_ko": "개별화교육프로그램",
     "terminology_en": "Individualized Education Program (IEP)",
     "category": "DEVELOP",
     "category_name": "발달/교육검사 (Developmental & Educational Testing)",
