@@ -52,7 +52,16 @@ const TypingGame = (() => {
     fallSpeed = speeds[config.difficulty] || 0.12;
 
     render();
-    setupMobileKeyboard();
+
+    // 모바일: 고정 레이아웃 즉시 적용 (키보드 감지 불필요)
+    const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    if (isMobile) {
+      const pageEl = container.closest('.page');
+      if (pageEl) pageEl.classList.add('typing-mobile-fixed');
+    } else {
+      setupMobileKeyboard();
+    }
+
     showQuestion();
     startFall();
 
@@ -63,6 +72,8 @@ const TypingGame = (() => {
     gameActive = false;
     if (animFrame) cancelAnimationFrame(animFrame);
     cleanupMobileKeyboard();
+    const pageEl = document.getElementById('page-game');
+    if (pageEl) pageEl.classList.remove('typing-mobile-fixed');
     container = null;
   }
 
