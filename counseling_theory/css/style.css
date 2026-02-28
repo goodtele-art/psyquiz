@@ -1857,8 +1857,8 @@ body {
 }
 
 .keyboard-game-active .typing-arena {
-  flex: 0 0 90px;
-  width: 90px;
+  flex: 1;
+  min-width: 0;
   height: auto !important;
   min-height: unset;
   max-height: unset;

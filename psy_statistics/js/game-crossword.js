@@ -35,15 +35,18 @@ const CrosswordGame = (() => {
 
     // 단어 준비 (짧은 한글 용어 우선, 더 넓은 풀에서 선택)
     let allCandidates = config.terms
-      .map(t => ({ word: t.terminology_ko, clue: t.definition, term: t }))
+      .map(t => ({ word: t.terminology_ko.replace(/\s/g, ''), clue: t.definition, term: t }))
       .filter(w => w.word.length >= 2 && w.word.length <= 6);
 
     // 후보가 부족하면 같은 카테고리에서 보충
     if (allCandidates.length < s.words * 3) {
       const extras = App.getTermsByCategory(config.category || 'all')
-        .filter(t => t.terminology_ko.length >= 2 && t.terminology_ko.length <= 6
-          && !allCandidates.find(c => c.term.id === t.id))
-        .map(t => ({ word: t.terminology_ko, clue: t.definition, term: t }));
+        .filter(t => {
+          const stripped = t.terminology_ko.replace(/\s/g, '');
+          return stripped.length >= 2 && stripped.length <= 6
+            && !allCandidates.find(c => c.term.id === t.id);
+        })
+        .map(t => ({ word: t.terminology_ko.replace(/\s/g, ''), clue: t.definition, term: t }));
       allCandidates.push(...App.shuffle(extras));
     }
 
