@@ -1822,28 +1822,55 @@ body {
   min-height: 0;
 }
 
-/* 타이핑 낙하: 키보드 열림 시 컴팩트 레이아웃 */
-.keyboard-game-active .typing-question-box {
-  flex-shrink: 0;
-  padding: 10px 16px;
-  margin-bottom: 8px;
+/* 타이핑 낙하: 기본 row-layout (세로 — display:contents로 투명) */
+.typing-row-layout {
+  display: contents;
 }
 
-.keyboard-game-active .typing-question-text {
-  font-size: 0.82rem;
-  min-height: 1.8em;
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+/* 타이핑 낙하: 키보드 열림 시 좌우 분할 레이아웃 */
+.keyboard-game-active .typing-row-layout {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 6px;
+  min-height: 0;
   overflow: hidden;
 }
 
-.keyboard-game-active .typing-arena {
+.keyboard-game-active .typing-question-box {
   flex: 1;
+  min-width: 0;
+  padding: 6px 10px;
+  margin-bottom: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.keyboard-game-active .typing-question-label {
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  top: -8px;
+}
+
+.keyboard-game-active .typing-question-text {
+  font-size: 0.78rem;
+  line-height: 1.3;
+  display: block;
+}
+
+.keyboard-game-active .typing-arena {
+  flex: 0 0 90px;
+  width: 90px;
   height: auto !important;
-  min-height: 40px;
-  max-height: 100px;
+  min-height: unset;
+  max-height: unset;
+  border-radius: var(--radius-md);
+}
+
+.keyboard-game-active .typing-falling-block {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  padding: 4px 8px;
 }
 
 .keyboard-game-active .typing-input-area {

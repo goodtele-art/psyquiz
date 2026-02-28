@@ -17,6 +17,7 @@ const CrosswordGame = (() => {
   let vvHandler = null;
   let composing = false;
   let gameEnded = false;
+  let inputTimer = null;
 
   function create(gameArea, gameConfig) {
     container = gameArea;
@@ -59,6 +60,7 @@ const CrosswordGame = (() => {
   }
 
   function cleanup() {
+    clearTimeout(inputTimer);
     cleanupMobileKeyboard();
     container = null;
     words = [];
@@ -312,26 +314,23 @@ const CrosswordGame = (() => {
     if (hiddenInput) {
       hiddenInput.addEventListener('compositionstart', () => {
         composing = true;
+        clearTimeout(inputTimer);
       });
 
       hiddenInput.addEventListener('compositionend', (e) => {
-        // composing 해제를 setTimeout 내에서 수행하여
-        // compositionend 직후 발생하는 input 이벤트의 중복 처리 방지
+        clearTimeout(inputTimer);
         setTimeout(() => {
           composing = false;
           if (gameEnded || !selectedCell) return;
           const chars = e.data || hiddenInput.value || '';
           hiddenInput.value = '';
           if (!chars) return;
-
-          // 복수 글자 조합 (예: 한글 → 2글자) 처리
           for (const char of chars) {
             if (!selectedCell) break;
             const curRow = selectedCell.row;
             const curCol = selectedCell.col;
             setCellChar(curRow, curCol, char);
             moveToNext(curRow, curCol);
-            // 다음 셀이 없으면 (moveToNext가 위치를 변경하지 못했으면) 중단
             if (selectedCell.row === curRow && selectedCell.col === curCol) break;
           }
           checkWordCompletion();
@@ -340,19 +339,55 @@ const CrosswordGame = (() => {
 
       hiddenInput.addEventListener('input', (e) => {
         if (gameEnded || !selectedCell) return;
-        // iOS Safari: compositionstart가 발생하지 않아도 e.isComposing으로 감지
+        clearTimeout(inputTimer);
+
+        // 데스크톱: composition 이벤트 정상 동작 시
         if (composing || e.isComposing) {
-          // 조합 중: 현재 셀에 중간 상태 표시 (다음 셀로 이동하지 않음)
           const val = hiddenInput.value;
-          if (val) {
-            setCellChar(selectedCell.row, selectedCell.col, val.slice(-1));
-          }
+          if (val) setCellChar(selectedCell.row, selectedCell.col, val.slice(-1));
           return;
         }
+
         const val = hiddenInput.value;
-        if (val.length > 0) {
-          const char = val.slice(-1);
-          setCellChar(selectedCell.row, selectedCell.col, char);
+        if (!val) return;
+
+        // 복수 문자: 이전 글자 확정, 마지막 글자는 조합 중일 수 있음
+        if (val.length > 1) {
+          const finalized = val.slice(0, -1);
+          const current = val.slice(-1);
+          for (const char of finalized) {
+            if (!selectedCell) break;
+            setCellChar(selectedCell.row, selectedCell.col, char);
+            moveToNext(selectedCell.row, selectedCell.col);
+          }
+          if (selectedCell) setCellChar(selectedCell.row, selectedCell.col, current);
+          hiddenInput.value = current;
+          checkWordCompletion();
+        } else {
+          setCellChar(selectedCell.row, selectedCell.col, val);
+        }
+
+        // 한글 여부 판단
+        const lastChar = (hiddenInput.value || val).slice(-1);
+        const code = lastChar.charCodeAt(0);
+        const isKorean = (code >= 0x3131 && code <= 0x3163) ||
+          (code >= 0x1100 && code <= 0x11FF) ||
+          (code >= 0xAC00 && code <= 0xD7A3);
+
+        if (isKorean) {
+          // 한글: 조합 완료까지 대기 (400ms 타이머)
+          inputTimer = setTimeout(() => {
+            if (!selectedCell || gameEnded) return;
+            const fv = hiddenInput.value;
+            if (fv) {
+              setCellChar(selectedCell.row, selectedCell.col, fv.slice(-1));
+              hiddenInput.value = '';
+              moveToNext(selectedCell.row, selectedCell.col);
+              checkWordCompletion();
+            }
+          }, 400);
+        } else {
+          // 비한글: 즉시 확정
           hiddenInput.value = '';
           moveToNext(selectedCell.row, selectedCell.col);
           checkWordCompletion();
@@ -408,6 +443,7 @@ const CrosswordGame = (() => {
   /* --- 셀 선택 --- */
   function selectCell(row, col) {
     if (gameEnded) return;
+    clearTimeout(inputTimer);
 
     // 같은 셀 재클릭 시(교차점이면) 방향 토글
     if (selectedCell && selectedCell.row === row && selectedCell.col === col) {

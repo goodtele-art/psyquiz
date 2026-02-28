@@ -126,13 +126,15 @@ const TypingGame = (() => {
 
   function render() {
     container.innerHTML = `
-      <div class="typing-question-box" id="typing-question">
-        <span class="typing-question-label">문제</span>
-        <p class="typing-question-text" id="typing-question-text"></p>
-      </div>
-      <div class="typing-arena" id="typing-arena">
-        <div class="typing-scanlines"></div>
-        <div class="typing-falling-block" id="typing-block" style="top: 0px"></div>
+      <div class="typing-row-layout">
+        <div class="typing-question-box" id="typing-question">
+          <span class="typing-question-label">문제</span>
+          <p class="typing-question-text" id="typing-question-text"></p>
+        </div>
+        <div class="typing-arena" id="typing-arena">
+          <div class="typing-scanlines"></div>
+          <div class="typing-falling-block" id="typing-block" style="top: 0px"></div>
+        </div>
       </div>
       <div class="typing-input-area">
         <input type="text" class="typing-input" id="typing-input"

@@ -134,13 +134,14 @@ const TimelineGame = (() => {
   }
 
   function render() {
+    const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     const listItems = (submitted ? items : shuffledItems).map((item, i) => {
       let statusClass = '';
       if (submitted) {
         statusClass = shuffledItems[i] === items[i] ? 'correct' : 'wrong';
       }
       return `
-        <div class="timeline-item ${statusClass}" data-index="${i}" draggable="${!submitted}"
+        <div class="timeline-item ${statusClass}" data-index="${i}" draggable="${!submitted && !isMobile}"
              ondragstart="TimelineGame.dragStart(event, ${i})"
              ondragover="event.preventDefault()"
              ondrop="TimelineGame.drop(event, ${i})"
@@ -163,7 +164,7 @@ const TimelineGame = (() => {
         <div class="timeline-submit">
           ${!submitted
             ? `<button class="btn-primary" onclick="TimelineGame.submit()">제출하기</button>
-               <p style="font-size:0.8rem;color:var(--text-muted);margin-top:8px;">드래그 또는 클릭으로 순서를 변경하세요</p>`
+               <p style="font-size:0.8rem;color:var(--text-muted);margin-top:8px;">${isMobile ? '두 항목을 차례로 눌러 순서를 바꾸세요' : '드래그 또는 클릭으로 순서를 변경하세요'}</p>`
             : round < maxRounds - 1
               ? `<button class="btn-primary" onclick="TimelineGame.nextRound()">다음 문제 →</button>`
               : `<button class="btn-primary" onclick="TimelineGame.finish()">결과 보기</button>`
