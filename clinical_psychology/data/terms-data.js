@@ -15646,8 +15646,8 @@ TERMS_DATA.PSYCHOD = [
   },
   {
     "id": "PSYCHOD_INT_018A",
-    "terminology": "지적화 (Intellectualization)",
-    "terminology_ko": "지적화",
+    "terminology": "주지화 (Intellectualization)",
+    "terminology_ko": "주지화",
     "terminology_en": "Intellectualization",
     "category": "PSYCHOD",
     "category_name": "정신역동 심리치료 (Psychodynamic Psychotherapy)",

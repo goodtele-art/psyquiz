@@ -13325,11 +13325,6 @@ TERMS_DATA.MOTIV = [
     ],
     "related_concepts": [
       {
-        "name_ko": "호르몬과 동기",
-        "name_en": "Hormones and Motivation",
-        "id": "MOTIV_HORMONE_030"
-      },
-      {
         "name_ko": "동기",
         "name_en": "Motivation",
         "id": "MOTIV_MOTIV_001"
@@ -13628,84 +13623,6 @@ TERMS_DATA.MOTIV = [
       "differential": "살로비-메이어 모델(능력 기반, 4영역)과 골먼 모델(혼합 모델, 5영역)의 차이를 구분",
       "key_point": "정서지능은 IQ와 독립적으로 학업 성취, 직무 성과, 대인관계 질을 예측한다",
       "common_mistake": "정서지능이 IQ보다 중요하다고 과장하는 오류 — 둘 다 중요하며 상호보완적이다"
-    }
-  },
-  {
-    "id": "MOTIV_HORMONE_030",
-    "terminology": "호르몬과 동기 (Hormones and Motivation)",
-    "terminology_ko": "호르몬과 동기",
-    "terminology_en": "Hormones and Motivation",
-    "category": "MOTIV",
-    "category_name": "동기와 정서 (Motivation & Emotion)",
-    "definition": "호르몬은 내분비계를 통해 분비되어 동기와 행동에 영향을 미치는 화학적 전달 물질이다. 렙틴(포만), 그렐린(배고픔), 테스토스테론(성동기/공격성), 옥시토신(사회적 유대), 코르티솔(스트레스 반응) 등이 동기의 생물학적 기반을 형성한다.",
-    "definition_en": "Hormones are chemical messengers secreted through the endocrine system that influence motivation and behavior. Leptin (satiety), ghrelin (hunger), testosterone (sexual motivation/aggression), oxytocin (social bonding), and cortisol (stress response) form the biological basis of motivation.",
-    "significance": "동기의 생물학적 기반을 이해하는 데 필수적인 주제이다. 호르몬은 동기를 직접 유발하기보다 행동의 역치(threshold)를 조절하여 동기에 영향을 미친다.",
-    "key_researchers": [
-      {
-        "name_ko": "제프리 프리드먼",
-        "name_en": "Jeffrey Friedman",
-        "contribution": "렙틴(leptin) 발견으로 체중 조절의 호르몬 기전 규명"
-      },
-      {
-        "name_ko": "코지마 마사유키",
-        "name_en": "Masayuki Kojima",
-        "contribution": "그렐린(ghrelin) 발견으로 배고픔의 호르몬 조절 기전 규명"
-      },
-      {
-        "name_ko": "수 카터",
-        "name_en": "C. Sue Carter",
-        "contribution": "옥시토신과 사회적 유대/짝결합(pair bonding)의 관계를 연구"
-      }
-    ],
-    "related_concepts": [
-      {
-        "name_ko": "성동기",
-        "name_en": "Sexual Motivation",
-        "id": "MOTIV_SEXMOT_024"
-      },
-      {
-        "name_ko": "비만",
-        "name_en": "Obesity",
-        "id": "MOTIV_OBESITY_022"
-      },
-      {
-        "name_ko": "항상성",
-        "name_en": "Homeostasis",
-        "id": "MOTIV_HOMEO_004"
-      }
-    ],
-    "sub_types": [
-      {
-        "name_ko": "렙틴",
-        "name_en": "Leptin",
-        "description": "지방세포에서 분비되어 포만감을 신호하고 음식 섭취를 억제하는 호르몬"
-      },
-      {
-        "name_ko": "그렐린",
-        "name_en": "Ghrelin",
-        "description": "위에서 분비되어 배고픔을 신호하고 음식 섭취를 촉진하는 호르몬"
-      },
-      {
-        "name_ko": "테스토스테론",
-        "name_en": "Testosterone",
-        "description": "성동기, 공격성, 지배 행동에 관여하는 성호르몬"
-      },
-      {
-        "name_ko": "옥시토신",
-        "name_en": "Oxytocin",
-        "description": "사회적 유대, 신뢰, 애착에 관여하는 호르몬"
-      },
-      {
-        "name_ko": "코르티솔",
-        "name_en": "Cortisol",
-        "description": "스트레스 반응에 관여하며 에너지 동원을 촉진하는 호르몬"
-      }
-    ],
-    "quiz_hints": {
-      "mnemonic": "주요 호르몬: 렙틴(배부름) ↔ 그렐린(배고픔), 옥시토신(사랑), 테스토스테론(성/공격), 코르티솔(스트레스)",
-      "differential": "렙틴(포만 신호, 지방세포)과 그렐린(배고픔 신호, 위)의 반대 기능을 구분",
-      "key_point": "호르몬은 동기를 '유발'하기보다 행동의 역치를 '조절'한다",
-      "common_mistake": "테스토스테론이 공격성을 직접 '유발'한다고 오해 — 실제로는 사회적 맥락에서 지배 행동의 역치를 낮추는 역할을 한다"
     }
   }
 ];
