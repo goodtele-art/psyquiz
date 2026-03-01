@@ -296,7 +296,7 @@ body {
 /* --- Game Grid --- */
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-bottom: 24px;
 }
@@ -2000,7 +2000,7 @@ body {
 @media (min-width: 600px) {
   .page { padding: 0 32px 48px; }
   .game-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     max-width: 640px;
     margin: 0 auto 24px;
   }
