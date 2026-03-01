@@ -1,9 +1,11 @@
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE_NAME = 'psyquiz-counsel-' + CACHE_VERSION;
 
 const STATIC_ASSETS = [
   './',
   './index.html',
+  './glossary.html',
+  './og-image.svg',
   './css/style.css',
   './data/terms-data.js',
   './data/exam/exam-data.js',

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /shared/
+Disallow: /.claude/
+Disallow: /scripts/
+
+Sitemap: https://psyquiz.ebpkorea.com/sitemap.xml
