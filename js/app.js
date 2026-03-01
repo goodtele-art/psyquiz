@@ -36,10 +36,12 @@ const Portal = (() => {
   }
 
   function generateUUID() {
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
-      const r = Math.random() * 16 | 0;
-      return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
-    });
+    const bytes = new Uint8Array(16);
+    crypto.getRandomValues(bytes);
+    bytes[6] = (bytes[6] & 0x0f) | 0x40;
+    bytes[8] = (bytes[8] & 0x3f) | 0x80;
+    const hex = [...bytes].map(b => b.toString(16).padStart(2, '0')).join('');
+    return `${hex.slice(0,8)}-${hex.slice(8,12)}-${hex.slice(12,16)}-${hex.slice(16,20)}-${hex.slice(20)}`;
   }
 
   // --- Theme ---
@@ -139,16 +141,16 @@ const Portal = (() => {
     const voterRef = db.ref(`${DB_PATH}/${requestId}/voters/${userId}`);
     const countRef = db.ref(`${DB_PATH}/${requestId}/agreeCount`);
 
-    voterRef.once('value').then(snap => {
-      if (snap.exists()) {
-        // 이미 동의함 — 무시
-        return;
+    // transaction으로 원자적 투표 처리 (경합조건 방지)
+    voterRef.transaction(currentVal => {
+      if (currentVal !== null) return; // 이미 투표함 → 중단
+      return true;
+    }).then(result => {
+      if (result.committed) {
+        countRef.transaction(count => (count || 0) + 1);
       }
-      // 트랜잭션으로 카운트 증가 + 투표 기록
-      const updates = {};
-      updates[`${DB_PATH}/${requestId}/voters/${userId}`] = true;
-      db.ref().update(updates);
-      countRef.transaction(count => (count || 0) + 1);
+    }).catch(err => {
+      console.warn('[Portal] 투표 실패:', err.message);
     });
   }
 
