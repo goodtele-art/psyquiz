@@ -2092,6 +2092,64 @@ body {
   display: block;
 }
 
+/* ========================================
+   Glossary Banner
+   ======================================== */
+
+.glossary-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  margin: 8px auto 24px;
+  max-width: 640px;
+  background: linear-gradient(135deg, #6C63FF 0%, #4834D4 100%);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 4px 16px rgba(108, 99, 255, 0.25);
+  text-decoration: none;
+  color: #fff;
+}
+.glossary-banner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(108, 99, 255, 0.35);
+}
+.glossary-banner:active {
+  transform: scale(0.98);
+}
+.glossary-banner-icon {
+  font-size: 2.4rem;
+  flex-shrink: 0;
+}
+.glossary-banner-info {
+  flex: 1;
+  min-width: 0;
+}
+.glossary-banner-info h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 4px;
+}
+.glossary-banner-info p {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  margin: 0 0 4px;
+}
+.glossary-banner-meta {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.65);
+}
+.glossary-banner-arrow {
+  font-size: 1.5rem;
+  color: rgba(255,255,255,0.8);
+  flex-shrink: 0;
+}
+[data-theme="dark"] .glossary-banner {
+  box-shadow: 0 4px 16px rgba(108, 99, 255, 0.15);
+}
+
 /* Dark mode adjustments */
 [data-theme="dark"] .exam-banner {
   box-shadow: 0 4px 16px rgba(233, 30, 99, 0.15);
