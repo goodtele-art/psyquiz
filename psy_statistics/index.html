@@ -2,14 +2,41 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover, interactive-widget=resizes-visual">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.gstatic.com https://www.googletagmanager.com https://t1.daumcdn.net 'unsafe-inline'; style-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; connect-src https://psyquiz-portal-1acfe-default-rtdb.firebaseio.com https://*.googleapis.com wss://*.firebaseio.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; img-src 'self' data: https://img1a.coupangcdn.com https://www.google-analytics.com; font-src 'self' https://cdn.jsdelivr.net; frame-src https://t1.daumcdn.net;">
   <meta name="description" content="심리통계와 연구방법론 용어를 8가지 게임으로 학습하는 웹앱">
   <title>심리통계와 연구방법론 게임 학습</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
   <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+  <link rel="preload" href="data/terms-data.js" as="script">
   <!-- Kakao AdFit -->
   <script async src="https://t1.daumcdn.net/kas/static/ba.min.js"></script>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSMJ68DD0P"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PSMJ68DD0P');</script>
+  <!-- Firebase SDK -->
+  <script defer src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js" integrity="sha384-4gq9w/AGf72FXdNQ3Kn3EqWP7633NbCMjpYHt8YCZyXf23o2opcuAr4cif41tLrC" crossorigin="anonymous"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js" integrity="sha384-5PDE6CZvnNIJI5xu68GIFoOO3U73lAnRLBwPBmmKjWnYnYwKEHWr/ghtGooEOXGb" crossorigin="anonymous"></script>
+  <!-- App Scripts -->
+  <script defer src="data/terms-data.js"></script>
+  <script defer src="data/exam/exam-data.js"></script>
+  <script defer src="js/sound.js"></script>
+  <script defer src="js/firebase-config.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/app.js"></script>
+  <script defer src="js/game-quiz.js"></script>
+  <script defer src="js/game-card.js"></script>
+  <script defer src="js/game-typing.js"></script>
+  <script defer src="js/game-swipe.js"></script>
+  <script defer src="js/game-connect.js"></script>
+  <script defer src="js/game-crossword.js"></script>
+  <script defer src="js/game-hierarchy.js"></script>
+  <script defer src="js/game-timeline.js"></script>
+  <script defer src="js/game-exam.js"></script>
+  <script defer src="js/game-english.js"></script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">본문 바로가기</a>
@@ -326,26 +353,6 @@
 
   <!-- 플로팅 스코어 컨테이너 -->
   <div id="floating-scores" class="floating-scores"></div>
-
-  <!-- Firebase SDK (리더보드 동기화) -->
-  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
-
-  <script src="data/terms-data.js"></script>
-  <script src="data/exam/exam-data.js"></script>
-  <script src="js/sound.js"></script>
-  <script src="js/firebase-config.js"></script>
-  <script src="js/components.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/game-quiz.js"></script>
-  <script src="js/game-card.js"></script>
-  <script src="js/game-typing.js"></script>
-  <script src="js/game-swipe.js"></script>
-  <script src="js/game-connect.js"></script>
-  <script src="js/game-crossword.js"></script>
-  <script src="js/game-hierarchy.js"></script>
-  <script src="js/game-timeline.js"></script>
-  <script src="js/game-exam.js"></script>
-  <script src="js/game-english.js"></script>
+  <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');</script>
 </body>
 </html>

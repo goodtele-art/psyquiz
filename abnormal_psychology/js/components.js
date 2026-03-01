@@ -275,11 +275,12 @@ const Leaderboard = {
   MAX_ENTRIES: 10,
   _cache: {},
   _activeGameType: null,
+  _lastSubmitTime: 0,
 
   init() {
     this._cache = this._loadLocal();
     if (typeof FirebaseConfig !== 'undefined' && FirebaseConfig.isReady()) {
-      this._attachListener();
+      this._fetchOnce();
     }
   },
 
@@ -292,11 +293,11 @@ const Leaderboard = {
     localStorage.setItem(this.KEY, JSON.stringify(this._cache));
   },
 
-  _attachListener() {
+  _fetchOnce() {
     try {
       const ref = FirebaseConfig.getCourseRef();
       if (!ref) return;
-      ref.on('value', snap => {
+      ref.once('value', snap => {
         const data = snap.val();
         if (!data) return;
         Object.entries(data).forEach(([gameType, entries]) => {
@@ -307,13 +308,13 @@ const Leaderboard = {
           }
         });
         this._saveLocal();
-        // 결과 화면에 리더보드가 표시 중이면 자동 갱신
         const tableEl = document.getElementById('leaderboard-table');
         if (tableEl && this._activeGameType) {
           tableEl.innerHTML = this.renderTable(this._activeGameType);
         }
+        try { FirebaseConfig.getDb().goOffline(); } catch(_) {}
       }, err => {
-        console.warn('[Leaderboard] Firebase 리스너 오류:', err.message);
+        console.warn('[Leaderboard] Firebase 조회 오류:', err.message);
       });
     } catch (e) {
       console.warn('[Leaderboard] Firebase 연결 실패:', e.message);
@@ -340,6 +341,11 @@ const Leaderboard = {
   },
 
   addEntry(gameType, entry) {
+    // 클라이언트 사이드 제출 쿨다운 (5초)
+    const now = Date.now();
+    if (now - this._lastSubmitTime < 5000) return;
+    this._lastSubmitTime = now;
+
     if (!this._cache[gameType]) this._cache[gameType] = [];
     this._cache[gameType].push(entry);
     this._cache[gameType].sort((a, b) => b.score - a.score || (a.elapsed || 0) - (b.elapsed || 0));
@@ -347,10 +353,17 @@ const Leaderboard = {
     this._saveLocal();
 
     if (typeof FirebaseConfig !== 'undefined' && FirebaseConfig.isReady()) {
+      const db = FirebaseConfig.getDb();
+      try { db.goOnline(); } catch(_) {}
       const ref = FirebaseConfig.getRef(gameType);
       if (ref) {
-        ref.push(entry).then(() => this._pruneFirebase(gameType)).catch(err => {
+        const firebaseEntry = { ...entry, createdAt: firebase.database.ServerValue.TIMESTAMP };
+        ref.push(firebaseEntry).then(() => {
+          this._pruneFirebase(gameType);
+          setTimeout(() => { try { db.goOffline(); } catch(_) {} }, 2000);
+        }).catch(err => {
           console.warn('[Leaderboard] Firebase push 실패:', err.message);
+          try { db.goOffline(); } catch(_) {}
         });
       }
     }
