@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CACHE_NAME = 'psyquiz-psystat-' + CACHE_VERSION;
 
 const STATIC_ASSETS = [

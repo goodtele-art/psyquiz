@@ -90,9 +90,9 @@
   <link rel="preload" href="data/terms-data.js" as="script">
   <!-- Kakao AdFit -->
   <script async src="https://t1.daumcdn.net/kas/static/ba.min.js"></script>
-  <!-- Google Analytics 4 -->
+  <!-- Google Analytics 4 (consent mode v2) -->
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied'});gtag('js',new Date());gtag('config','G-PSMJ68DD0P');</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSMJ68DD0P"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PSMJ68DD0P');</script>
   <!-- Firebase SDK -->
   <script defer src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js" integrity="sha384-4gq9w/AGf72FXdNQ3Kn3EqWP7633NbCMjpYHt8YCZyXf23o2opcuAr4cif41tLrC" crossorigin="anonymous"></script>
   <script defer src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js" integrity="sha384-5PDE6CZvnNIJI5xu68GIFoOO3U73lAnRLBwPBmmKjWnYnYwKEHWr/ghtGooEOXGb" crossorigin="anonymous"></script>
@@ -298,6 +298,7 @@
 
       <!-- 교재 추천: Coupang Partners -->
       <div class="ad-block ad-books" aria-label="광고">
+        <p class="ad-disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
         <p class="ad-books-title">이 과목의 추천 교재</p>
         <div class="ad-books-list">
           <a href="https://link.coupang.com/a/dVvHO1" target="_blank" rel="noopener sponsored" class="ad-book-item">
@@ -309,7 +310,6 @@
             <span class="ad-book-arrow">↗</span>
           </a>
         </div>
-        <p class="ad-disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
       </div>
     </section>
 
@@ -435,6 +435,7 @@
 
         <!-- 교재 추천: Coupang Partners -->
         <div class="ad-block ad-books" aria-label="광고">
+          <p class="ad-disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
           <p class="ad-books-title">이 과목의 추천 교재</p>
           <div class="ad-books-list">
             <a href="https://link.coupang.com/a/dVvHO1" target="_blank" rel="noopener sponsored" class="ad-book-item">
@@ -446,7 +447,6 @@
               <span class="ad-book-arrow">↗</span>
             </a>
           </div>
-          <p class="ad-disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
         </div>
       </div>
     </section>
@@ -456,6 +456,7 @@
   <!-- 플로팅 스코어 컨테이너 -->
   <div id="floating-scores" class="floating-scores"></div>
   <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');</script>
+  <script src="/shared/cookie-consent.js" defer></script>
   <noscript>
     <div style="padding:40px 20px;text-align:center;font-family:sans-serif;">
       <h2>임상심리학 — PsyQuiz 게임 학습</h2>

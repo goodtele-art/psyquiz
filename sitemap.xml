@@ -8,6 +8,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- 개인정보 처리방침 -->
+  <url>
+    <loc>https://psyquiz.ebpkorea.com/privacy.html</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
   <!-- 심리학개론 -->
   <url>
     <loc>https://psyquiz.ebpkorea.com/intro_psychology/</loc>
