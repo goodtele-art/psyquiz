@@ -1,6 +1,6 @@
 /* ========================================
    Game: 실전문제 풀기 (Real Exam Practice)
-   임상심리사 2급 기출문제 랜덤 10문제
+   기출문제 랜덤 10문제 + 문항별 난이도 표시
    ======================================== */
 
 const ExamGame = (() => {
@@ -30,6 +30,13 @@ const ExamGame = (() => {
     questions = [];
   }
 
+  function difficultyBadge(questionId) {
+    const pct = ItemStats.getDifficulty(questionId);
+    const { text, cls } = ItemStats.getDifficultyLabel(pct);
+    const pctText = pct !== null ? ` ${pct}%` : '';
+    return `<span class="item-difficulty ${cls}">${text}${pctText}</span>`;
+  }
+
   function renderQuestion() {
     if (currentIndex >= questions.length) {
       finishGame();
@@ -41,11 +48,14 @@ const ExamGame = (() => {
 
     App.updateHUD(currentIndex + 1, questions.length, ScoreManager.score);
 
-    const labels = ['\u2460', '\u2461', '\u2462', '\u2463']; // ①②③④
+    const labels = ['\u2460', '\u2461', '\u2462', '\u2463', '\u2464']; // ①②③④⑤
 
     container.innerHTML = `
       <div class="quiz-question-card">
-        <span class="quiz-question-type exam-source">${q.exam} \uC2DC\uD5D8</span>
+        <div class="exam-header">
+          <span class="quiz-question-type exam-source">${q.exam} \uC2DC\uD5D8</span>
+          ${difficultyBadge(q.id)}
+        </div>
         <p class="quiz-question-text">${q.question}</p>
       </div>
       <div class="quiz-options">
@@ -68,7 +78,7 @@ const ExamGame = (() => {
     const isCorrect = optIndex === q.answer;
     const correctIdx = q.answer;
 
-    const labels = ['\u2460', '\u2461', '\u2462', '\u2463'];
+    const labels = ['\u2460', '\u2461', '\u2462', '\u2463', '\u2464'];
 
     // 모든 옵션 비활성화
     const optionEls = container.querySelectorAll('.quiz-option');
@@ -113,6 +123,7 @@ const ExamGame = (() => {
   }
 
   function finishGame() {
+    ItemStats.recordBatch(termResults);
     App.completeGame({
       termResults,
       correct: ScoreManager.correct,

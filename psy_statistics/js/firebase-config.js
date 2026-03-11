@@ -16,6 +16,7 @@ const FirebaseConfig = (() => {
 
   const COURSE_ID = 'psy_statistics';
   const DB_ROOT = 'psyquiz-leaderboards';
+  const ITEM_STATS_ROOT = 'psyquiz-item-stats';
 
   let db = null;
   let ready = false;
@@ -36,6 +37,7 @@ const FirebaseConfig = (() => {
   function getDb() { return db; }
   function getRef(gameType) { return db ? db.ref(`${DB_ROOT}/${COURSE_ID}/${gameType}`) : null; }
   function getCourseRef() { return db ? db.ref(`${DB_ROOT}/${COURSE_ID}`) : null; }
+  function getItemStatsRef() { return db ? db.ref(`${ITEM_STATS_ROOT}/${COURSE_ID}`) : null; }
 
-  return { init, isReady, getDb, getRef, getCourseRef, COURSE_ID };
+  return { init, isReady, getDb, getRef, getCourseRef, getItemStatsRef, COURSE_ID };
 })();

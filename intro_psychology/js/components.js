@@ -269,6 +269,87 @@ const StarRating = {
   }
 };
 
+/* --- Item Stats (문항별 난이도 통계) --- */
+const ItemStats = {
+  KEY: 'psytest_item_stats',
+  _cache: {},
+
+  init() {
+    this._cache = this._loadLocal();
+    this._fetchOnce();
+  },
+
+  _loadLocal() {
+    try { return JSON.parse(localStorage.getItem(this.KEY)) || {}; }
+    catch { return {}; }
+  },
+
+  _saveLocal() {
+    localStorage.setItem(this.KEY, JSON.stringify(this._cache));
+  },
+
+  _fetchOnce() {
+    if (typeof FirebaseConfig === 'undefined' || !FirebaseConfig.isReady()) return;
+    const ref = FirebaseConfig.getItemStatsRef();
+    if (!ref) return;
+    const db = FirebaseConfig.getDb();
+    try { db.goOnline(); } catch (_) {}
+    ref.once('value', snap => {
+      const data = snap.val();
+      if (data) {
+        this._cache = data;
+        this._saveLocal();
+      }
+      try { db.goOffline(); } catch (_) {}
+    }, () => {
+      try { db.goOffline(); } catch (_) {}
+    });
+  },
+
+  getDifficulty(questionId) {
+    const s = this._cache[questionId];
+    if (!s || !s.attempts || s.attempts < 3) return null;
+    return Math.round((s.correct / s.attempts) * 100);
+  },
+
+  getDifficultyLabel(pct) {
+    if (pct === null) return { text: '신규', cls: 'diff-new' };
+    if (pct >= 80) return { text: '쉬움', cls: 'diff-easy' };
+    if (pct >= 60) return { text: '보통', cls: 'diff-medium' };
+    if (pct >= 40) return { text: '어려움', cls: 'diff-hard' };
+    return { text: '매우 어려움', cls: 'diff-very-hard' };
+  },
+
+  recordBatch(termResults) {
+    if (!termResults || !termResults.length) return;
+
+    termResults.forEach(({ id, correct }) => {
+      if (!this._cache[id]) this._cache[id] = { attempts: 0, correct: 0 };
+      this._cache[id].attempts++;
+      if (correct) this._cache[id].correct++;
+    });
+    this._saveLocal();
+
+    if (typeof FirebaseConfig === 'undefined' || !FirebaseConfig.isReady()) return;
+    const ref = FirebaseConfig.getItemStatsRef();
+    if (!ref) return;
+    const db = FirebaseConfig.getDb();
+    try { db.goOnline(); } catch (_) {}
+
+    const updates = {};
+    termResults.forEach(({ id, correct }) => {
+      updates[`${id}/attempts`] = firebase.database.ServerValue.increment(1);
+      if (correct) updates[`${id}/correct`] = firebase.database.ServerValue.increment(1);
+    });
+
+    ref.update(updates).then(() => {
+      setTimeout(() => { try { db.goOffline(); } catch (_) {} }, 2000);
+    }).catch(() => {
+      try { db.goOffline(); } catch (_) {}
+    });
+  }
+};
+
 /* --- Leaderboard (Firebase 글로벌 + localStorage 캐시) --- */
 const Leaderboard = {
   KEY: 'psych_leaderboard',

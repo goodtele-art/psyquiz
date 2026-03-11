@@ -2067,6 +2067,36 @@ body {
   color: var(--game-exam-dark) !important;
 }
 
+/* exam question header (source + difficulty) */
+.exam-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+/* item difficulty badge */
+.item-difficulty {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.diff-new { background: #f0f0f0; color: #999; }
+.diff-easy { background: #d4edda; color: #155724; }
+.diff-medium { background: #fff3cd; color: #856404; }
+.diff-hard { background: #f8d7da; color: #721c24; }
+.diff-very-hard { background: #721c24; color: #fff; }
+
+[data-theme="dark"] .diff-new { background: rgba(255,255,255,0.1); color: #888; }
+[data-theme="dark"] .diff-easy { background: rgba(46,204,113,0.2); color: #82E0AA; }
+[data-theme="dark"] .diff-medium { background: rgba(243,156,18,0.2); color: #F9E79F; }
+[data-theme="dark"] .diff-hard { background: rgba(231,76,60,0.2); color: #F1948A; }
+[data-theme="dark"] .diff-very-hard { background: rgba(231,76,60,0.4); color: #FADBD8; }
+
 /* exam setup info card */
 .exam-info-card {
   background: var(--card-bg);

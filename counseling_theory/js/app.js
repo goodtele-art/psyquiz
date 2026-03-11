@@ -384,6 +384,7 @@ const App = (() => {
     loadTerms();
     if (typeof FirebaseConfig !== 'undefined') FirebaseConfig.init();
     Leaderboard.init();
+    ItemStats.init();
     updateHomeStats();
 
     // 카드 호버 사운드
