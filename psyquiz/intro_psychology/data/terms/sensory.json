@@ -1,0 +1,838 @@
+[
+  {
+    "id": "SENSORY_SENS_001",
+    "terminology": "감각 (Sensation)",
+    "terminology_ko": "감각",
+    "terminology_en": "Sensation",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "감각수용기가 외부 자극 에너지를 탐지하여 신경 신호로 변환하는 과정. 자극의 물리적 속성을 있는 그대로 수용하는 초기 단계이다.",
+    "definition_en": "The process by which sensory receptors detect physical stimulus energy from the environment and convert it into neural signals. It represents the initial, bottom-up stage of receiving raw sensory information.",
+    "significance": "지각의 원재료를 제공하는 기초 과정으로, 감각 없이는 외부 세계에 대한 어떤 심리적 경험도 불가능하다. 감각과 지각의 구분은 심리학의 핵심 주제이다.",
+    "key_researchers": [
+      {"name_ko": "구스타프 페히너", "name_en": "Gustav Fechner", "contribution": "정신물리학을 창시하여 물리적 자극과 감각 경험 간의 수학적 관계를 최초로 체계화"},
+      {"name_ko": "에른스트 베버", "name_en": "Ernst Weber", "contribution": "감각 변별에 관한 최초의 체계적 연구를 수행하여 베버의 법칙 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"},
+      {"name_ko": "절대역", "name_en": "Absolute Threshold", "id": "SENSORY_AT_003"},
+      {"name_ko": "변환", "name_en": "Transduction", "id": "SENSORY_TRANS_017"}
+    ],
+    "sub_types": [
+      {"name": "시각 (Vision)", "description": "빛 에너지를 수용하는 감각"},
+      {"name": "청각 (Audition)", "description": "소리 파동을 수용하는 감각"},
+      {"name": "촉각 (Touch)", "description": "피부의 기계적 자극을 수용하는 감각"},
+      {"name": "미각 (Gustation)", "description": "화학적 자극에 의한 맛 감각"},
+      {"name": "후각 (Olfaction)", "description": "화학적 자극에 의한 냄새 감각"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "감각 = 원재료(raw data) 수집, 지각 = 원재료 해석(interpretation)",
+      "differential": "감각은 자극의 탐지(detection)이고, 지각은 자극의 해석(interpretation)이다",
+      "key_point": "감각은 상향처리(bottom-up)의 시작점이다",
+      "common_mistake": "감각과 지각을 동의어로 혼동하는 것 — 감각은 수용, 지각은 조직화 및 해석"
+    }
+  },
+  {
+    "id": "SENSORY_PERC_002",
+    "terminology": "지각 (Perception)",
+    "terminology_ko": "지각",
+    "terminology_en": "Perception",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "감각 정보를 선택, 조직화, 해석하여 의미 있는 경험으로 구성하는 과정. 기존 지식과 기대가 영향을 미치는 능동적 과정이다.",
+    "definition_en": "The process of selecting, organizing, and interpreting sensory information to form meaningful experiences. It is an active process influenced by prior knowledge, expectations, and context.",
+    "significance": "동일한 감각 입력에서도 서로 다른 지각이 형성될 수 있음을 보여주며, 인간 인지의 구성적(constructive) 특성을 드러낸다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 폰 헬름홀츠", "name_en": "Hermann von Helmholtz", "contribution": "지각을 '무의식적 추론(unconscious inference)'으로 설명"},
+      {"name_ko": "제임스 깁슨", "name_en": "James J. Gibson", "contribution": "직접 지각 이론(직접 지각)과 행동유도성(affordance) 개념 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"},
+      {"name_ko": "하향처리", "name_en": "Top-Down Processing", "id": "SENSORY_TDP_009"},
+      {"name_ko": "지각적 세트", "name_en": "Perceptual Set", "id": "SENSORY_PS_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "지각 = 뇌의 '해석 공장' — 원재료(감각)를 완제품(경험)으로 가공",
+      "differential": "감각은 수동적 수용, 지각은 능동적 해석이다",
+      "key_point": "지각은 상향처리와 하향처리의 상호작용으로 이루어진다",
+      "common_mistake": "지각이 순전히 자극에 의해 결정된다고 생각하는 것 — 실제로는 기대와 맥락이 큰 영향을 미침"
+    }
+  },
+  {
+    "id": "SENSORY_AT_003",
+    "terminology": "절대역 (Absolute Threshold)",
+    "terminology_ko": "절대역",
+    "terminology_en": "Absolute Threshold",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "특정 감각 자극을 50%의 확률로 탐지할 수 있는 최소 자극 강도. 이 수준 이하의 자극은 역하자극(subliminal stimulus)이라 한다.",
+    "definition_en": "The minimum stimulus intensity needed to detect a particular stimulus 50% of the time. Stimuli below this level are called subliminal stimuli.",
+    "significance": "감각 체계의 민감도를 정량적으로 측정하는 기준이 되며, 역하 지각(subliminal perception) 연구의 기초를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "구스타프 페히너", "name_en": "Gustav Fechner", "contribution": "절대역의 개념을 체계화하고 측정 방법(정신물리학적 방법)을 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "차이역", "name_en": "Difference Threshold", "id": "SENSORY_DT_004"},
+      {"name_ko": "신호탐지이론", "name_en": "Signal Detection Theory", "id": "SENSORY_SDT_006"},
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "절대역 = '50% 탐지 라인' — 조용한 방에서 시계 똑딱 소리가 들릴 확률 반반인 거리",
+      "differential": "절대역은 자극의 '유무' 판단, 차이역(JND)은 두 자극의 '차이' 판단",
+      "key_point": "50%라는 기준이 핵심 — 100%가 아님에 주의",
+      "common_mistake": "절대역을 '반드시 감지되는 최소 자극'으로 오해하는 것 — 실제로는 50% 확률의 기준"
+    }
+  },
+  {
+    "id": "SENSORY_DT_004",
+    "terminology": "차이역 (Difference Threshold)",
+    "terminology_ko": "차이역",
+    "terminology_en": "Difference Threshold",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "두 자극 간의 차이를 50%의 확률로 탐지할 수 있는 최소 자극 차이. '최소식별차이(Just Noticeable Difference, JND)'라고도 한다.",
+    "definition_en": "The minimum difference between two stimuli required for detection 50% of the time. Also known as the Just Noticeable Difference (JND).",
+    "significance": "베버의 법칙의 기초가 되며, 감각 체계가 절대적 차이가 아닌 상대적 비율에 반응함을 보여주는 핵심 개념이다.",
+    "key_researchers": [
+      {"name_ko": "에른스트 베버", "name_en": "Ernst Weber", "contribution": "차이역이 기준 자극의 일정 비율임을 발견 (베버의 법칙)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "절대역", "name_en": "Absolute Threshold", "id": "SENSORY_AT_003"},
+      {"name_ko": "웨버의 법칙", "name_en": "Weber's Law", "id": "SENSORY_WL_005"},
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "JND = Just Noticeable Difference, '겨우 알아차릴 수 있는 차이'",
+      "differential": "절대역은 '있다/없다'의 문제, 차이역은 '같다/다르다'의 문제",
+      "key_point": "차이역은 고정된 양이 아니라 기준 자극에 비례하여 변한다",
+      "common_mistake": "차이역을 고정된 절대값으로 생각하는 것 — 실제로는 비율(웨버 분수)로 결정됨"
+    }
+  },
+  {
+    "id": "SENSORY_WL_005",
+    "terminology": "웨버의 법칙 (Weber's Law)",
+    "terminology_ko": "웨버의 법칙",
+    "terminology_en": "Weber's Law",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "차이역(JND)은 기준 자극 강도의 일정 비율(상수 k)이라는 법칙. 즉 ΔI/I = k로 표현되며, 자극이 클수록 차이를 느끼려면 더 큰 변화가 필요하다.",
+    "definition_en": "The principle that the just noticeable difference (JND) for any given sense is a constant proportion (k) of the stimulus being judged, expressed as ΔI/I = k.",
+    "significance": "정신물리학의 기본 법칙으로, 인간 감각 체계가 절대적 차이가 아닌 상대적 비율에 반응함을 정량적으로 증명하였다.",
+    "key_researchers": [
+      {"name_ko": "에른스트 베버", "name_en": "Ernst Weber", "contribution": "무게 판별 실험에서 차이역이 기준 자극의 일정 비율임을 최초로 발견"},
+      {"name_ko": "구스타프 페히너", "name_en": "Gustav Fechner", "contribution": "베버의 발견을 수학적으로 정식화하고 '베버의 법칙'이라 명명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "차이역", "name_en": "Difference Threshold", "id": "SENSORY_DT_004"},
+      {"name_ko": "절대역", "name_en": "Absolute Threshold", "id": "SENSORY_AT_003"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "10kg에 1kg 추가 → 느낌, 100kg에 1kg 추가 → 못 느낌 (비율이 핵심!)",
+      "differential": "베버의 법칙은 비율 원리, 페히너의 법칙(S = k log I)은 감각 크기의 로그 관계",
+      "key_point": "공식 ΔI/I = k에서 k는 감각 양식마다 다르다 (시각 ≈ 1/60, 무게 ≈ 1/50)",
+      "common_mistake": "모든 감각 범위에서 법칙이 완벽히 성립한다고 생각하는 것 — 극단적 자극에서는 위반됨"
+    }
+  },
+  {
+    "id": "SENSORY_SDT_006",
+    "terminology": "신호탐지이론 (Signal Detection Theory)",
+    "terminology_ko": "신호탐지이론",
+    "terminology_en": "Signal Detection Theory",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "자극 탐지가 자극의 물리적 강도뿐 아니라 심리적 요인(기대, 동기, 경험, 피로 등)에 의해서도 결정된다는 이론. 적중(hit), 오경보(false alarm), 누락(miss), 정기각(correct rejection)의 네 가지 결과를 분석한다.",
+    "definition_en": "A theory predicting how and when we detect the presence of a faint stimulus amid background noise, considering not only stimulus intensity but also psychological factors such as expectations, motivation, experience, and fatigue.",
+    "significance": "고전적 역 개념의 한계를 극복하여 감각 민감도(d')와 반응 편향(β)을 분리하며, 의료 진단, 레이더 탐지 등 실용 분야에 광범위하게 적용된다.",
+    "key_researchers": [
+      {"name_ko": "존 스웨츠", "name_en": "John Swets", "contribution": "신호탐지이론의 심리학적 적용을 체계화"},
+      {"name_ko": "데이비드 그린", "name_en": "David Green", "contribution": "스웨츠와 함께 『Signal Detection Theory and Psychophysics』를 저술하여 이론 정립"}
+    ],
+    "related_concepts": [
+      {"name_ko": "절대역", "name_en": "Absolute Threshold", "id": "SENSORY_AT_003"},
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"}
+    ],
+    "sub_types": [
+      {"name": "적중 (Hit)", "description": "신호가 있을 때 '있다'고 정확히 반응"},
+      {"name": "오경보 (False Alarm)", "description": "신호가 없을 때 '있다'고 잘못 반응"},
+      {"name": "누락 (Miss)", "description": "신호가 있을 때 '없다'고 잘못 반응"},
+      {"name": "정기각 (Correct Rejection)", "description": "신호가 없을 때 '없다'고 정확히 반응"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "SDT = 역(threshold) + 심리(마음) — 탐지는 물리적 강도와 심리적 기준의 합작",
+      "differential": "고전적 역 이론은 고정된 역을 가정하나, SDT는 반응 기준이 상황에 따라 변한다고 봄",
+      "key_point": "민감도(d')와 반응 편향(β)을 분리하여 측정할 수 있다는 것이 핵심",
+      "common_mistake": "신호탐지이론이 역(threshold) 개념을 완전히 대체한다고 생각하는 것 — 보완적 관계"
+    }
+  },
+  {
+    "id": "SENSORY_SA_007",
+    "terminology": "감각순응 (Sensory Adaptation)",
+    "terminology_ko": "감각순응",
+    "terminology_en": "Sensory Adaptation",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "일정한 자극에 지속적으로 노출될 때 그 자극에 대한 감각 민감도가 점차 감소하는 현상. 변화하는 자극에 더 주의를 기울이도록 하는 적응적 기능이 있다.",
+    "definition_en": "The diminished sensitivity to a constant, unchanging stimulus over time. It serves an adaptive function by allowing us to focus on new or changing stimuli in the environment.",
+    "significance": "감각 체계가 절대적 자극 수준보다 변화(change)에 더 민감하게 반응하도록 설계되어 있음을 보여주며, 생존에 유리한 적응적 기제이다.",
+    "key_researchers": [
+      {"name_ko": "게오르크 폰 베케시", "name_en": "Georg von Békésy", "contribution": "청각의 순응 과정에 관한 연구를 통해 감각순응의 신경 기제 탐구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"},
+      {"name_ko": "절대역", "name_en": "Absolute Threshold", "id": "SENSORY_AT_003"},
+      {"name_ko": "수용기", "name_en": "Sensory Receptors", "id": "SENSORY_REC_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수영장 물에 처음엔 차갑지만 금방 익숙해지는 것 = 감각순응",
+      "differential": "감각순응은 말초 수용기 수준의 현상이고, 습관화(habituation)는 중추신경계 수준의 반응 감소이다",
+      "key_point": "변화하지 않는 자극에 대한 민감도 감소 — 통증 감각은 순응이 거의 일어나지 않는다는 점 주의",
+      "common_mistake": "감각순응과 습관화(habituation)를 같은 개념으로 혼동하는 것"
+    }
+  },
+  {
+    "id": "SENSORY_BUP_008",
+    "terminology": "상향처리 (Bottom-Up Processing)",
+    "terminology_ko": "상향처리",
+    "terminology_en": "Bottom-Up Processing",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "감각 수용기에서 시작하여 뇌의 고차 영역으로 올라가는 정보처리 방식. 원시 감각 데이터에 의해 주도되며, 사전 지식이나 기대 없이 자극 자체의 특성을 분석한다.",
+    "definition_en": "Information processing that begins with sensory receptors and works up to the brain's higher-level integration. It is data-driven, analyzing stimulus features without the influence of prior knowledge or expectations.",
+    "significance": "감각 정보가 어떻게 물리적 특성에서 점진적으로 복잡한 표상으로 구축되는지를 설명하며, 하향처리와 함께 지각의 두 축을 형성한다.",
+    "key_researchers": [
+      {"name_ko": "제임스 깁슨", "name_en": "James J. Gibson", "contribution": "환경이 제공하는 자극 정보만으로 지각이 가능하다는 직접 지각 이론(생태학적 접근) 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "하향처리", "name_en": "Top-Down Processing", "id": "SENSORY_TDP_009"},
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"},
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Bottom-Up = 바닥(감각)에서 위(뇌)로 → 데이터가 이끄는 처리",
+      "differential": "상향처리는 자극 주도(data-driven), 하향처리는 개념 주도(concept-driven)",
+      "key_point": "상향처리는 특히 새롭고 익숙하지 않은 자극을 처리할 때 우세하다",
+      "common_mistake": "상향처리만으로 지각이 완성된다고 생각하는 것 — 대부분의 지각은 두 처리의 상호작용"
+    }
+  },
+  {
+    "id": "SENSORY_TDP_009",
+    "terminology": "하향처리 (Top-Down Processing)",
+    "terminology_ko": "하향처리",
+    "terminology_en": "Top-Down Processing",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "기존 지식, 기대, 경험, 맥락 등 고차 인지 과정이 감각 정보의 해석을 이끄는 처리 방식. 불완전하거나 모호한 자극을 해석할 때 특히 중요한 역할을 한다.",
+    "definition_en": "Information processing guided by higher-level cognitive processes such as existing knowledge, expectations, experience, and context. It is particularly important when interpreting incomplete or ambiguous stimuli.",
+    "significance": "동일한 감각 입력이 맥락에 따라 다르게 지각될 수 있음을 설명하며, 지각의 구성적(constructive) 본질을 증명한다.",
+    "key_researchers": [
+      {"name_ko": "리처드 그레고리", "name_en": "Richard Gregory", "contribution": "지각을 가설 검증 과정으로 설명하며 하향처리의 역할을 강조"},
+      {"name_ko": "어빙 비더만", "name_en": "Irving Biederman", "contribution": "기하학적 구성요소(geon) 기반의 물체 인식 이론을 통해 하향처리의 기제 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "상향처리", "name_en": "Bottom-Up Processing", "id": "SENSORY_BUP_008"},
+      {"name_ko": "지각적 세트", "name_en": "Perceptual Set", "id": "SENSORY_PS_030"},
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Top-Down = 위(뇌/지식)에서 아래(감각)로 → 기대가 이끄는 처리",
+      "differential": "하향처리는 개념 주도(concept-driven), 상향처리는 자극 주도(data-driven)",
+      "key_point": "교정(proofreading)이 어려운 이유 = 하향처리가 오타를 '수정'하여 읽게 만들기 때문",
+      "common_mistake": "하향처리가 왜곡만 초래한다고 생각하는 것 — 실제로는 효율적 지각에 필수적"
+    }
+  },
+  {
+    "id": "SENSORY_GEST_010",
+    "terminology": "게슈탈트 원리 (Gestalt Principles)",
+    "terminology_ko": "게슈탈트 원리",
+    "terminology_en": "Gestalt Principles",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "지각 체계가 감각 정보를 의미 있는 전체로 조직화하는 규칙들의 집합. '전체는 부분의 합보다 크다(The whole is greater than the sum of its parts)'는 원리에 기반한다.",
+    "definition_en": "A set of rules describing how the perceptual system organizes sensory elements into meaningful wholes. Based on the principle that 'the whole is greater than the sum of its parts.'",
+    "significance": "지각이 단순한 감각의 합이 아닌 능동적 조직화 과정임을 증명하였으며, 디자인, UX, 시각예술 등에 광범위하게 적용된다.",
+    "key_researchers": [
+      {"name_ko": "막스 베르트하이머", "name_en": "Max Wertheimer", "contribution": "게슈탈트 심리학의 창시자, 가현운동(phi phenomenon) 연구"},
+      {"name_ko": "쿠르트 코프카", "name_en": "Kurt Koffka", "contribution": "게슈탈트 원리를 체계화하고 『Principles of Gestalt Psychology』 저술"},
+      {"name_ko": "볼프강 쾰러", "name_en": "Wolfgang Köhler", "contribution": "통찰 학습 연구를 통해 게슈탈트 원리의 인지적 적용 확장"}
+    ],
+    "related_concepts": [
+      {"name_ko": "근접성", "name_en": "Proximity", "id": "SENSORY_PROX_019"},
+      {"name_ko": "유사성", "name_en": "Similarity", "id": "SENSORY_SIM_020"},
+      {"name_ko": "폐쇄성", "name_en": "Closure", "id": "SENSORY_CLOS_021"},
+      {"name_ko": "연속성", "name_en": "Continuity", "id": "SENSORY_CONT_022"},
+      {"name_ko": "전경과 배경", "name_en": "Figure and Ground", "id": "SENSORY_FG_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "게슈탈트 = '형태/전체' → 부분이 아닌 전체로 본다",
+      "differential": "구조주의(분석적 접근)가 요소를 분해하는 반면, 게슈탈트는 전체적 조직화를 강조",
+      "key_point": "핵심 원리: 근접성, 유사성, 폐쇄성, 연속성, 전경/배경",
+      "common_mistake": "게슈탈트 원리가 시각에만 적용된다고 생각하는 것 — 청각 등 다른 감각에도 적용됨"
+    }
+  },
+  {
+    "id": "SENSORY_BIN_011",
+    "terminology": "양안단서 (Binocular Cues)",
+    "terminology_ko": "양안단서",
+    "terminology_en": "Binocular Cues",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "깊이를 지각하기 위해 두 눈의 협응에 의존하는 단서. 양안부등(retinal disparity)과 폭주(convergence)가 대표적이다.",
+    "definition_en": "Depth cues that depend on the coordinated use of both eyes. The two main types are retinal disparity and convergence.",
+    "significance": "3D 입체 시각의 기초를 제공하며, 가까운 거리의 깊이 지각에 특히 중요하다. 3D 영화와 VR 기술의 원리적 기반이다.",
+    "key_researchers": [
+      {"name_ko": "찰스 휘트스톤", "name_en": "Charles Wheatstone", "contribution": "입체경(stereoscope)을 발명하여 양안부등에 의한 깊이 지각을 최초로 실험적으로 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "단안단서", "name_en": "Monocular Cues", "id": "SENSORY_MON_012"},
+      {"name_ko": "깊이지각", "name_en": "Depth Perception", "id": "SENSORY_DP_024"},
+      {"name_ko": "양안부등", "name_en": "Retinal Disparity", "id": "SENSORY_RD_025"}
+    ],
+    "sub_types": [
+      {"name": "양안부등 (Retinal Disparity)", "description": "두 눈의 망막에 맺히는 상의 차이에 의한 깊이 단서"},
+      {"name": "폭주 (Convergence)", "description": "가까운 물체를 볼 때 두 눈이 안쪽으로 모이는 정도에 의한 깊이 단서"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "양안(兩眼) = 두 눈 → 두 눈이 있어야 작동하는 깊이 단서",
+      "differential": "양안단서는 두 눈 필요(근거리 유효), 단안단서는 한 눈으로 충분(원거리에도 유효)",
+      "key_point": "양안부등과 폭주 두 가지가 핵심이며, 약 8m 이내에서 효과적",
+      "common_mistake": "양안단서가 모든 거리에서 유효하다고 생각하는 것 — 먼 거리에서는 효과가 급감"
+    }
+  },
+  {
+    "id": "SENSORY_MON_012",
+    "terminology": "단안단서 (Monocular Cues)",
+    "terminology_ko": "단안단서",
+    "terminology_en": "Monocular Cues",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "한쪽 눈만으로도 사용할 수 있는 깊이 지각 단서. 상대적 크기, 중첩, 선형원근법, 결 기울기, 상대적 높이, 대기원근법, 운동시차 등이 포함된다.",
+    "definition_en": "Depth cues available to either eye alone, including relative size, interposition, linear perspective, texture gradient, relative height, aerial perspective, and motion parallax.",
+    "significance": "2차원 이미지(그림, 사진)에서도 깊이감을 만들어내며, 원거리 깊이 지각에서 양안단서보다 더 중요한 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "레오나르도 다 빈치", "name_en": "Leonardo da Vinci", "contribution": "대기원근법, 중첩 등 단안단서를 회화에 체계적으로 적용한 선구자"}
+    ],
+    "related_concepts": [
+      {"name_ko": "양안단서", "name_en": "Binocular Cues", "id": "SENSORY_BIN_011"},
+      {"name_ko": "깊이지각", "name_en": "Depth Perception", "id": "SENSORY_DP_024"},
+      {"name_ko": "운동시차", "name_en": "Motion Parallax", "id": "SENSORY_MP_026"}
+    ],
+    "sub_types": [
+      {"name": "상대적 크기 (Relative Size)", "description": "같은 크기의 물체 중 작게 보이는 것이 더 먼 것으로 지각"},
+      {"name": "중첩 (Interposition)", "description": "한 물체가 다른 물체를 가리면 가리는 물체가 더 가까운 것으로 지각"},
+      {"name": "선형원근법 (Linear Perspective)", "description": "평행선이 멀어질수록 수렴하는 경향"},
+      {"name": "결 기울기 (Texture Gradient)", "description": "표면의 결이 멀수록 조밀해지는 현상"},
+      {"name": "대기원근법 (Aerial Perspective)", "description": "먼 물체일수록 흐리고 푸르게 보이는 현상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "단안(單眼) = 한 눈 → 한 눈으로도 되는 깊이 단서, 그림에서도 작동!",
+      "differential": "단안단서는 한 눈 + 원거리에 유효, 양안단서는 두 눈 + 근거리에 유효",
+      "key_point": "화가들이 2D 캔버스에 3D 느낌을 주기 위해 사용하는 기법 = 단안단서의 활용",
+      "common_mistake": "단안단서는 양안단서보다 열등하다고 생각하는 것 — 실제로 먼 거리에서는 단안단서가 더 유효"
+    }
+  },
+  {
+    "id": "SENSORY_PC_013",
+    "terminology": "지각항등성 (Perceptual Constancy)",
+    "terminology_ko": "지각항등성",
+    "terminology_en": "Perceptual Constancy",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "조명, 거리, 각도 등 관찰 조건이 변해도 대상의 크기, 형태, 밝기, 색상 등을 안정적으로 지각하는 능력. 망막상의 변화에도 불구하고 대상을 일관되게 인식한다.",
+    "definition_en": "The ability to perceive objects as unchanging in size, shape, brightness, and color despite changes in viewing conditions such as lighting, distance, and angle.",
+    "significance": "끊임없이 변하는 감각 입력 속에서 세계를 안정적으로 지각할 수 있게 하는 핵심 기제이며, 지각의 능동적 구성 과정을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "헤르만 폰 헬름홀츠", "name_en": "Hermann von Helmholtz", "contribution": "지각항등성을 무의식적 추론(unconscious inference)으로 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"},
+      {"name_ko": "착시", "name_en": "Illusion", "id": "SENSORY_ILL_014"},
+      {"name_ko": "하향처리", "name_en": "Top-Down Processing", "id": "SENSORY_TDP_009"}
+    ],
+    "sub_types": [
+      {"name": "크기 항등성 (Size Constancy)", "description": "거리가 변해도 대상의 크기를 안정적으로 지각"},
+      {"name": "형태 항등성 (Shape Constancy)", "description": "각도가 변해도 대상의 형태를 안정적으로 지각"},
+      {"name": "밝기 항등성 (Brightness Constancy)", "description": "조명이 변해도 대상의 밝기를 안정적으로 지각"},
+      {"name": "색상 항등성 (Color Constancy)", "description": "조명의 색이 변해도 대상의 색상을 안정적으로 지각"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "문이 열리면 망막상은 사다리꼴이지만 우리는 여전히 '직사각형 문'으로 본다 = 형태 항등성",
+      "differential": "지각항등성은 '올바른' 지각을 유지하는 것이고, 착시는 지각항등성이 실패하거나 오적용된 결과",
+      "key_point": "지각항등성은 맥락 정보(context)에 의존하며, 맥락이 제거되면 항등성이 무너진다",
+      "common_mistake": "지각항등성이 완벽하다고 생각하는 것 — 에임즈 방(Ames room) 같은 조건에서는 실패"
+    }
+  },
+  {
+    "id": "SENSORY_ILL_014",
+    "terminology": "착시 (Illusion)",
+    "terminology_ko": "착시",
+    "terminology_en": "Illusion",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "실제 물리적 자극과 지각된 경험 간에 체계적인 불일치가 발생하는 현상. 지각 체계의 정상적 작동 원리가 특정 조건에서 오류를 일으킬 때 나타난다.",
+    "definition_en": "A systematic discrepancy between the actual physical stimulus and the perceived experience. Illusions arise when the normal operating principles of the perceptual system produce errors under certain conditions.",
+    "significance": "지각이 단순한 자극 복사가 아닌 능동적 구성 과정임을 가장 명확히 보여주며, 지각 체계의 작동 원리를 역으로 추론하는 연구 도구이다.",
+    "key_researchers": [
+      {"name_ko": "리처드 그레고리", "name_en": "Richard Gregory", "contribution": "착시를 부적절한 항등성 조정(misapplied constancy scaling)으로 설명"},
+      {"name_ko": "프란츠 뮐러-라이어", "name_en": "Franz Müller-Lyer", "contribution": "뮐러-라이어 착시를 발견하여 착시 연구의 고전적 사례 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지각항등성", "name_en": "Perceptual Constancy", "id": "SENSORY_PC_013"},
+      {"name_ko": "뮐러-라이어 착시", "name_en": "Müller-Lyer Illusion", "id": "SENSORY_ML_028"},
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"}
+    ],
+    "sub_types": [
+      {"name": "기하학적 착시 (Geometric Illusion)", "description": "크기, 길이, 방향 등에서 발생하는 착시"},
+      {"name": "운동 착시 (Motion Illusion)", "description": "정지된 자극이 움직이는 것처럼 보이는 착시"},
+      {"name": "밝기/색상 착시 (Brightness/Color Illusion)", "description": "밝기나 색상이 맥락에 의해 왜곡되는 착시"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "착시 = 지각 체계의 '합리적 오류' — 보통은 맞는 규칙이 특정 조건에서 실패",
+      "differential": "착시(illusion)는 실제 자극이 존재하고 왜곡되는 것, 환각(hallucination)은 자극 없이 지각이 생기는 것",
+      "key_point": "착시는 지각의 결함이 아니라 정상적 지각 원리의 부산물이다",
+      "common_mistake": "착시를 '비정상적' 지각으로 취급하는 것 — 실제로는 정상적 지각 메커니즘의 자연스러운 결과"
+    }
+  },
+  {
+    "id": "SENSORY_VC_015",
+    "terminology": "시각절벽 (Visual Cliff)",
+    "terminology_ko": "시각절벽",
+    "terminology_en": "Visual Cliff",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "깊이 지각의 발달을 연구하기 위해 고안된 실험 장치. 유리판 아래에 바닥이 깊어 보이는 면과 얕아 보이는 면을 만들어, 영아가 깊은 쪽을 회피하는지 관찰한다.",
+    "definition_en": "A laboratory apparatus designed to study depth perception in infants and young animals. It features a glass-covered platform with a shallow side and a deep side, testing whether subjects avoid the deep side.",
+    "significance": "기어 다니는 영아도 깊이를 지각하고 회피한다는 것을 보여주어, 깊이 지각에 선천적 요소가 있음을 시사하는 고전적 연구이다.",
+    "key_researchers": [
+      {"name_ko": "엘리너 깁슨", "name_en": "Eleanor Gibson", "contribution": "리처드 워크와 함께 시각절벽 실험을 설계하여 영아의 깊이 지각 능력을 최초로 체계적으로 입증"},
+      {"name_ko": "리처드 워크", "name_en": "Richard Walk", "contribution": "엘리너 깁슨과 함께 시각절벽 실험을 공동으로 수행(1960)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "깊이지각", "name_en": "Depth Perception", "id": "SENSORY_DP_024"},
+      {"name_ko": "양안단서", "name_en": "Binocular Cues", "id": "SENSORY_BIN_011"},
+      {"name_ko": "단안단서", "name_en": "Monocular Cues", "id": "SENSORY_MON_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "시각절벽 = 유리 테이블 위의 '가짜 낭떠러지' — 아기가 깊은 쪽으로 기어가지 않으면 깊이 지각이 있다는 증거",
+      "differential": "시각절벽은 깊이 지각의 '존재'를 검증하는 실험이지, 선천/후천의 결론을 내리는 실험이 아님",
+      "key_point": "6~14개월 영아 대부분이 깊은 쪽을 회피 → 깊이 지각의 초기 발달을 시사",
+      "common_mistake": "시각절벽 실험이 깊이 지각이 100% 선천적임을 증명했다고 생각하는 것 — 기어 다니는 나이(약 6개월)에서 테스트되므로 경험의 역할을 완전히 배제할 수 없음"
+    }
+  },
+  {
+    "id": "SENSORY_REC_016",
+    "terminology": "수용기 (Sensory Receptors)",
+    "terminology_ko": "수용기",
+    "terminology_en": "Sensory Receptors",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "특정 유형의 자극 에너지를 탐지하여 신경 충동(전기적 신호)으로 변환하는 특수한 신경세포 또는 구조물. 각 감각 양식에 따라 특화된 수용기가 존재한다.",
+    "definition_en": "Specialized neural cells or structures that detect specific types of stimulus energy and convert them into neural impulses. Each sensory modality has its own specialized receptors.",
+    "significance": "외부 세계와 신경계를 연결하는 관문으로, 수용기의 특성이 감각 경험의 범위와 한계를 결정한다.",
+    "key_researchers": [
+      {"name_ko": "요하네스 뮐러", "name_en": "Johannes Müller", "contribution": "특수 신경 에너지 법칙을 제안하여 각 감각 신경이 고유한 감각을 전달함을 주장"}
+    ],
+    "related_concepts": [
+      {"name_ko": "변환", "name_en": "Transduction", "id": "SENSORY_TRANS_017"},
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"},
+      {"name_ko": "감각순응", "name_en": "Sensory Adaptation", "id": "SENSORY_SA_007"}
+    ],
+    "sub_types": [
+      {"name": "광수용기 (Photoreceptors)", "description": "빛을 탐지하는 수용기 (간상체, 원추체)"},
+      {"name": "기계수용기 (Mechanoreceptors)", "description": "압력, 진동 등 기계적 자극을 탐지"},
+      {"name": "화학수용기 (Chemoreceptors)", "description": "화학물질을 탐지 (미각, 후각)"},
+      {"name": "열수용기 (Thermoreceptors)", "description": "온도 변화를 탐지"},
+      {"name": "통각수용기 (Nociceptors)", "description": "통증 자극을 탐지"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "수용기 = 자극 에너지의 '번역기' — 빛→전기, 소리→전기, 냄새→전기",
+      "differential": "수용기는 변환(transduction)을 수행하는 '장치', 변환은 수용기가 수행하는 '과정'",
+      "key_point": "요하네스 뮐러의 특수 신경 에너지 법칙: 감각의 차이는 수용기가 아니라 신경 경로에 의해 결정된다",
+      "common_mistake": "수용기가 직접 '감각'을 만든다고 생각하는 것 — 수용기는 변환만 하고, 감각 경험은 뇌에서 구성됨"
+    }
+  },
+  {
+    "id": "SENSORY_TRANS_017",
+    "terminology": "변환 (Transduction)",
+    "terminology_ko": "변환",
+    "terminology_en": "Transduction",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "감각수용기가 한 형태의 에너지(빛, 소리, 화학물질 등)를 신경 신호(전기적 충동)로 변환하는 과정. 모든 감각 경험의 필수적 첫 단계이다.",
+    "definition_en": "The process by which sensory receptors convert one form of energy (light, sound, chemical, etc.) into neural signals (electrical impulses). It is the essential first step for all sensory experience.",
+    "significance": "다양한 물리적 에너지가 어떻게 공통의 신경 언어(전기 신호)로 번역되는지를 설명하며, 감각 체계의 가장 근본적인 기능이다.",
+    "key_researchers": [
+      {"name_ko": "조지 월드", "name_en": "George Wald", "contribution": "망막에서의 광화학적 변환 과정(로돕신의 역할)을 밝혀 노벨상 수상(1967)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "수용기", "name_en": "Sensory Receptors", "id": "SENSORY_REC_016"},
+      {"name_ko": "감각", "name_en": "Sensation", "id": "SENSORY_SENS_001"},
+      {"name_ko": "상향처리", "name_en": "Bottom-Up Processing", "id": "SENSORY_BUP_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "변환 = 에너지 '번역' — 빛(전자기파)이 눈에서 전기 신호로 '번역'되는 것",
+      "differential": "변환은 에너지 형태의 전환이고, 부호화(encoding)는 신경 신호에 자극 정보를 담는 것",
+      "key_point": "변환이 일어나는 구체적 위치: 눈 = 망막, 귀 = 코르티 기관, 코 = 후각 상피",
+      "common_mistake": "변환을 신호의 '전달'과 혼동하는 것 — 변환은 에너지 형태의 전환, 전달은 신경을 통한 정보 이동"
+    }
+  },
+  {
+    "id": "SENSORY_AC_018",
+    "terminology": "연합피질 (Association Cortex)",
+    "terminology_ko": "연합피질",
+    "terminology_en": "Association Cortex",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "일차 감각피질에서 처리된 정보를 통합하고 고차원적 해석을 수행하는 대뇌피질 영역. 여러 감각 양식의 정보를 결합하고 기억, 주의 등과 연계하여 의미 있는 지각을 구성한다.",
+    "definition_en": "Cortical areas that integrate information processed by primary sensory cortices and perform higher-order interpretation. They combine information from multiple sensory modalities with memory, attention, and other cognitive processes to construct meaningful perception.",
+    "significance": "단순한 감각 특성(색, 모양)이 어떻게 '물체', '장면', '사건'이라는 통합된 지각으로 구성되는지를 설명하는 신경 기반을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "모르투지 메숈람", "name_en": "M. Marsel Mesulam", "contribution": "연합피질의 네트워크 조직과 주의 기능에서의 역할을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"},
+      {"name_ko": "상향처리", "name_en": "Bottom-Up Processing", "id": "SENSORY_BUP_008"},
+      {"name_ko": "하향처리", "name_en": "Top-Down Processing", "id": "SENSORY_TDP_009"}
+    ],
+    "sub_types": [
+      {"name": "두정 연합피질 (Parietal Association Cortex)", "description": "공간 지각과 주의를 담당 (배측 경로, 'where' pathway)"},
+      {"name": "측두 연합피질 (Temporal Association Cortex)", "description": "대상 인식을 담당 (복측 경로, 'what' pathway)"},
+      {"name": "전두 연합피질 (Frontal Association Cortex)", "description": "계획, 의사결정 등 실행 기능 담당"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "연합피질 = 감각의 '편집실' — 개별 감각 조각을 의미 있는 '영화'로 편집",
+      "differential": "일차 감각피질은 특정 감각의 기본 특성 처리, 연합피질은 감각 간 통합과 고차 해석 담당",
+      "key_point": "연합피질 손상 → 감각은 정상이지만 인식/해석에 문제 발생 (실인증 등)",
+      "common_mistake": "연합피질이 하나의 영역이라고 생각하는 것 — 실제로는 뇌 전반에 분산된 여러 영역"
+    }
+  },
+  {
+    "id": "SENSORY_PROX_019",
+    "terminology": "근접성 (Proximity)",
+    "terminology_ko": "근접성",
+    "terminology_en": "Proximity",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "서로 가까이 위치한 요소들을 하나의 집단으로 묶어서 지각하는 게슈탈트 조직화 원리. 공간적으로 인접한 자극들이 함께 속하는 것으로 인식된다.",
+    "definition_en": "The Gestalt grouping principle stating that elements close to each other tend to be perceived as belonging together. Spatially adjacent stimuli are grouped as a unified whole.",
+    "significance": "가장 강력하고 기본적인 게슈탈트 원리 중 하나로, 시각 디자인과 인터페이스 설계에서 정보를 효과적으로 구조화하는 데 활용된다.",
+    "key_researchers": [
+      {"name_ko": "막스 베르트하이머", "name_en": "Max Wertheimer", "contribution": "근접성을 포함한 게슈탈트 조직화 법칙을 최초로 체계적으로 기술(1923)"}
+    ],
+    "related_concepts": [
+      {"name_ko": "게슈탈트 원리", "name_en": "Gestalt Principles", "id": "SENSORY_GEST_010"},
+      {"name_ko": "유사성", "name_en": "Similarity", "id": "SENSORY_SIM_020"},
+      {"name_ko": "전경과 배경", "name_en": "Figure and Ground", "id": "SENSORY_FG_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "● ●  ● ●  ● ● → 간격에 따라 세 쌍으로 묶여 보인다 = 근접성",
+      "differential": "근접성은 '거리'에 의한 집단화, 유사성은 '특성(색, 모양 등)'에 의한 집단화",
+      "key_point": "근접성과 유사성이 충돌하면 일반적으로 근접성이 우세한 경우가 많다",
+      "common_mistake": "근접성이 시각에만 적용된다고 생각하는 것 — 청각에서도 시간적으로 가까운 음이 묶여 들린다"
+    }
+  },
+  {
+    "id": "SENSORY_SIM_020",
+    "terminology": "유사성 (Similarity)",
+    "terminology_ko": "유사성",
+    "terminology_en": "Similarity",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "색, 크기, 형태, 방향 등의 특성이 유사한 요소들을 같은 집단으로 묶어 지각하는 게슈탈트 조직화 원리.",
+    "definition_en": "The Gestalt grouping principle stating that elements sharing similar features (color, size, shape, orientation) tend to be perceived as belonging together.",
+    "significance": "시각적 정보를 빠르고 효율적으로 범주화하는 기제로, 데이터 시각화와 UI 디자인에서 핵심적으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "막스 베르트하이머", "name_en": "Max Wertheimer", "contribution": "유사성을 포함한 게슈탈트 조직화 법칙을 체계적으로 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "게슈탈트 원리", "name_en": "Gestalt Principles", "id": "SENSORY_GEST_010"},
+      {"name_ko": "근접성", "name_en": "Proximity", "id": "SENSORY_PROX_019"},
+      {"name_ko": "연속성", "name_en": "Continuity", "id": "SENSORY_CONT_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "●○●○●○ → 검은 점과 흰 점이 각각 묶여 보인다 = 유사성",
+      "differential": "유사성은 '특성의 닮음'에 의한 집단화, 근접성은 '공간적 거리'에 의한 집단화",
+      "key_point": "유사성은 색, 크기, 형태, 방향, 운동 방향 등 다양한 차원에서 작동한다",
+      "common_mistake": "유사성이 형태에만 적용된다고 생각하는 것 — 색, 크기, 운동 방향 등 모든 시각적 특성에 적용"
+    }
+  },
+  {
+    "id": "SENSORY_CLOS_021",
+    "terminology": "폐쇄성 (Closure)",
+    "terminology_ko": "폐쇄성",
+    "terminology_en": "Closure",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "불완전하거나 끊어진 자극을 완성된 전체로 채워서 지각하는 게슈탈트 조직화 원리. 빠진 부분을 자동으로 보충하여 의미 있는 형태를 구성한다.",
+    "definition_en": "The Gestalt grouping principle stating that the perceptual system tends to fill in gaps and perceive incomplete figures as complete, whole forms.",
+    "significance": "지각이 수동적 수용이 아닌 능동적 구성 과정임을 잘 보여주며, 불완전한 정보로부터 의미를 추출하는 지각 체계의 효율성을 드러낸다.",
+    "key_researchers": [
+      {"name_ko": "쿠르트 코프카", "name_en": "Kurt Koffka", "contribution": "폐쇄성을 포함한 게슈탈트 조직화 원리를 이론적으로 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "게슈탈트 원리", "name_en": "Gestalt Principles", "id": "SENSORY_GEST_010"},
+      {"name_ko": "전경과 배경", "name_en": "Figure and Ground", "id": "SENSORY_FG_023"},
+      {"name_ko": "하향처리", "name_en": "Top-Down Processing", "id": "SENSORY_TDP_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "불완전한 원(∘)을 보면 '완전한 원'으로 지각한다 = 폐쇄성이 빈틈을 채움",
+      "differential": "폐쇄성은 '빈 부분을 채우는' 것, 연속성은 '끊어진 선을 이어서 보는' 것",
+      "key_point": "WWF 팬더 로고처럼 끊어진 형태를 완전한 이미지로 인식하는 것이 대표적 예",
+      "common_mistake": "폐쇄성을 단순한 '추측'으로 보는 것 — 실제로는 자동적이고 즉각적인 지각 과정"
+    }
+  },
+  {
+    "id": "SENSORY_CONT_022",
+    "terminology": "연속성 (Continuity)",
+    "terminology_ko": "연속성",
+    "terminology_en": "Continuity",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "매끄럽게 연속되는 패턴이나 방향을 따라 요소들을 하나의 집단으로 묶어 지각하는 게슈탈트 조직화 원리. 갑작스러운 방향 전환보다 부드러운 연속을 선호한다.",
+    "definition_en": "The Gestalt grouping principle stating that elements arranged in a smooth, continuous pattern or direction tend to be perceived as belonging together, favoring smooth continuation over abrupt changes.",
+    "significance": "선, 윤곽, 경로 등의 지각에서 핵심적 역할을 하며, 부분적으로 가려진 물체의 연속성을 유지하는 데 기여한다.",
+    "key_researchers": [
+      {"name_ko": "막스 베르트하이머", "name_en": "Max Wertheimer", "contribution": "좋은 연속(good continuation) 원리를 게슈탈트 조직화 법칙으로 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "게슈탈트 원리", "name_en": "Gestalt Principles", "id": "SENSORY_GEST_010"},
+      {"name_ko": "폐쇄성", "name_en": "Closure", "id": "SENSORY_CLOS_021"},
+      {"name_ko": "근접성", "name_en": "Proximity", "id": "SENSORY_PROX_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "두 선이 X로 교차할 때, 'X'가 아닌 '/ \\'로 본다 = 부드러운 연속을 선호",
+      "differential": "연속성은 '방향의 부드러운 이어짐', 폐쇄성은 '빈 부분의 채움'",
+      "key_point": "교차하는 선들을 각각 독립적인 연속 선으로 지각하는 것이 핵심 예시",
+      "common_mistake": "연속성과 폐쇄성을 같은 원리로 혼동하는 것 — 연속성은 방향, 폐쇄성은 완성에 관한 것"
+    }
+  },
+  {
+    "id": "SENSORY_FG_023",
+    "terminology": "전경과 배경 (Figure and Ground)",
+    "terminology_ko": "전경과 배경",
+    "terminology_en": "Figure and Ground",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "시각 장면을 초점이 되는 형상(전경, figure)과 그 뒤의 배경(ground)으로 분리하여 지각하는 조직화 원리. 가역적 도형에서는 전경과 배경이 교대로 지각될 수 있다.",
+    "definition_en": "The perceptual organization of the visual field into a dominant figure (object of focus) against a less distinct background (ground). In reversible figures, figure and ground can alternate.",
+    "significance": "지각적 조직화의 가장 기본적 단계로, 대상 인식의 전제 조건이다. 루빈의 꽃병과 같은 양의적 도형은 이 과정의 능동적 특성을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "에드가 루빈", "name_en": "Edgar Rubin", "contribution": "전경-배경 분리 현상을 체계적으로 연구하고 유명한 루빈의 꽃병(얼굴) 도형을 고안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "게슈탈트 원리", "name_en": "Gestalt Principles", "id": "SENSORY_GEST_010"},
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"},
+      {"name_ko": "폐쇄성", "name_en": "Closure", "id": "SENSORY_CLOS_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "루빈의 꽃병: 꽃병으로 보면 검은 부분이 배경, 얼굴로 보면 흰 부분이 배경 → 전경/배경 교대",
+      "differential": "전경/배경은 '무엇이 대상이고 무엇이 배경인가'의 분리, 근접성 등은 '대상들이 어떻게 묶이는가'의 문제",
+      "key_point": "전경은 형태가 있고, 배경보다 앞에 있으며, 더 작고 의미 있는 것으로 지각되는 경향이 있다",
+      "common_mistake": "전경과 배경이 항상 고정되어 있다고 생각하는 것 — 양의적 도형에서는 교대됨"
+    }
+  },
+  {
+    "id": "SENSORY_DP_024",
+    "terminology": "깊이지각 (Depth Perception)",
+    "terminology_ko": "깊이지각",
+    "terminology_en": "Depth Perception",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "2차원 망막 이미지로부터 3차원 공간에서 대상까지의 거리와 깊이를 지각하는 능력. 양안단서와 단안단서를 통합적으로 활용하여 이루어진다.",
+    "definition_en": "The ability to perceive the distance and three-dimensional structure of objects from two-dimensional retinal images. It is achieved through the integration of binocular and monocular depth cues.",
+    "significance": "일상생활에서 물체를 잡고, 장애물을 피하고, 안전하게 이동하는 데 필수적이며, 지각 체계의 놀라운 구성 능력을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "엘리너 깁슨", "name_en": "Eleanor Gibson", "contribution": "시각절벽 실험으로 깊이 지각의 발달적 기초 연구"},
+      {"name_ko": "찰스 휘트스톤", "name_en": "Charles Wheatstone", "contribution": "양안부등에 의한 입체 시각의 실험적 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "양안단서", "name_en": "Binocular Cues", "id": "SENSORY_BIN_011"},
+      {"name_ko": "단안단서", "name_en": "Monocular Cues", "id": "SENSORY_MON_012"},
+      {"name_ko": "시각절벽", "name_en": "Visual Cliff", "id": "SENSORY_VC_015"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "2D 망막 → 3D 세계 = 깊이지각이 '차원의 마법'을 수행",
+      "differential": "깊이지각은 '거리'에 관한 것, 지각항등성은 '크기/형태의 안정성'에 관한 것",
+      "key_point": "양안단서(근거리)와 단안단서(원거리)가 상보적으로 작용한다",
+      "common_mistake": "깊이지각이 전적으로 양안 시각에 의존한다고 생각하는 것 — 한 눈으로도 단안단서를 통해 깊이 지각 가능"
+    }
+  },
+  {
+    "id": "SENSORY_RD_025",
+    "terminology": "양안부등 (Retinal Disparity)",
+    "terminology_ko": "양안부등",
+    "terminology_en": "Retinal Disparity",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "두 눈이 약 6.5cm 떨어져 있어 각 눈의 망막에 약간 다른 이미지가 맺히는 현상. 이 차이를 뇌가 비교하여 깊이와 입체감을 계산한다.",
+    "definition_en": "The slightly different images cast on each eye's retina due to the approximately 6.5 cm separation between the eyes. The brain compares these differences to compute depth and stereoscopic vision.",
+    "significance": "입체 시각(stereopsis)의 주요 기제이며, 3D 영화, VR, 입체경 등 기술의 원리적 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "찰스 휘트스톤", "name_en": "Charles Wheatstone", "contribution": "입체경을 발명하여 양안부등이 입체 시각의 기초임을 최초로 실험적으로 입증(1838)"},
+      {"name_ko": "벨라 줄레즈", "name_en": "Bela Julesz", "contribution": "무선점 입체도(random-dot stereogram)를 개발하여 양안부등만으로도 깊이 지각이 가능함을 증명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "양안단서", "name_en": "Binocular Cues", "id": "SENSORY_BIN_011"},
+      {"name_ko": "깊이지각", "name_en": "Depth Perception", "id": "SENSORY_DP_024"},
+      {"name_ko": "단안단서", "name_en": "Monocular Cues", "id": "SENSORY_MON_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "왼손 엄지를 세우고 한 눈씩 감으면 위치가 달라 보인다 = 양안부등의 체험",
+      "differential": "양안부등은 망막상의 '이미지 차이', 폭주(convergence)는 안구가 안쪽으로 '모이는 정도'",
+      "key_point": "대상이 가까울수록 양안부등이 크고, 멀수록 작다 → 약 8m 이상에서는 거의 무효",
+      "common_mistake": "양안부등과 폭주를 혼동하는 것 — 양안부등은 망막상 이미지의 차이, 폭주는 안구 근육의 긴장"
+    }
+  },
+  {
+    "id": "SENSORY_MP_026",
+    "terminology": "운동시차 (Motion Parallax)",
+    "terminology_ko": "운동시차",
+    "terminology_en": "Motion Parallax",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "관찰자가 움직일 때, 가까운 물체는 빠르게, 먼 물체는 느리게 움직이는 것처럼 보이는 현상. 한 눈으로도 사용할 수 있는 단안 깊이 단서이다.",
+    "definition_en": "A monocular depth cue in which objects closer to the observer appear to move faster across the visual field than distant objects when the observer is in motion.",
+    "significance": "양안 시각 없이도 효과적인 깊이 지각을 가능하게 하는 역동적 단서로, 운전, 보행 등 일상적 깊이 판단에 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "헬름홀츠", "name_en": "Hermann von Helmholtz", "contribution": "운동시차를 깊이 지각의 주요 단서로 체계적으로 기술"}
+    ],
+    "related_concepts": [
+      {"name_ko": "단안단서", "name_en": "Monocular Cues", "id": "SENSORY_MON_012"},
+      {"name_ko": "깊이지각", "name_en": "Depth Perception", "id": "SENSORY_DP_024"},
+      {"name_ko": "양안부등", "name_en": "Retinal Disparity", "id": "SENSORY_RD_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기차 창밖을 보면 가까운 나무는 쌩쌩, 먼 산은 천천히 = 운동시차",
+      "differential": "운동시차는 '관찰자의 움직임'에 의한 단서, 양안부등은 '두 눈의 위치 차이'에 의한 단서",
+      "key_point": "관찰자가 반드시 움직여야 작동하는 역동적(dynamic) 단서이다",
+      "common_mistake": "운동시차를 양안단서로 분류하는 것 — 한 눈으로도 작동하는 단안단서"
+    }
+  },
+  {
+    "id": "SENSORY_FL_027",
+    "terminology": "피검빈도의 법칙 (Frequency Law / Law of Prägnanz)",
+    "terminology_ko": "피검빈도의 법칙",
+    "terminology_en": "Law of Prägnanz (Good Figure)",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "지각 체계는 가능한 한 가장 단순하고, 규칙적이며, 안정적인 형태로 자극을 조직화하려는 경향이 있다는 게슈탈트의 기본 법칙. '좋은 형태(good figure)'의 법칙이라고도 한다.",
+    "definition_en": "The fundamental Gestalt law stating that the perceptual system tends to organize stimuli into the simplest, most regular, and most stable configuration possible. Also known as the law of good figure or simplicity.",
+    "significance": "모든 게슈탈트 조직화 원리의 상위 법칙으로, 근접성, 유사성, 폐쇄성, 연속성 등이 이 법칙의 구체적 표현이다.",
+    "key_researchers": [
+      {"name_ko": "막스 베르트하이머", "name_en": "Max Wertheimer", "contribution": "프레그난츠 법칙을 게슈탈트 조직화의 핵심 원리로 제안"},
+      {"name_ko": "쿠르트 코프카", "name_en": "Kurt Koffka", "contribution": "프레그난츠 법칙을 이론적으로 정교화하고 다양한 현상에 적용"}
+    ],
+    "related_concepts": [
+      {"name_ko": "게슈탈트 원리", "name_en": "Gestalt Principles", "id": "SENSORY_GEST_010"},
+      {"name_ko": "폐쇄성", "name_en": "Closure", "id": "SENSORY_CLOS_021"},
+      {"name_ko": "연속성", "name_en": "Continuity", "id": "SENSORY_CONT_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Prägnanz = '간결함/좋은 형태' → 뇌는 항상 '가장 깔끔한 해석'을 선호",
+      "differential": "프레그난츠 법칙은 모든 게슈탈트 원리의 '상위 법칙', 근접성/유사성 등은 그 '하위 원리'",
+      "key_point": "올림픽 오륜기를 5개의 원으로 보는 것이 수십 개의 호(arc)로 보는 것보다 '좋은 형태'",
+      "common_mistake": "프레그난츠 법칙을 다른 게슈탈트 원리와 동급으로 놓는 것 — 실제로는 가장 상위의 통합 법칙"
+    }
+  },
+  {
+    "id": "SENSORY_ML_028",
+    "terminology": "뮐러-라이어 착시 (Müller-Lyer Illusion)",
+    "terminology_ko": "뮐러-라이어 착시",
+    "terminology_en": "Müller-Lyer Illusion",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "동일한 길이의 두 선분이 화살표 방향에 따라 다른 길이로 지각되는 착시. 바깥쪽 화살표(><)가 달린 선분이 안쪽 화살표(<>)가 달린 선분보다 짧아 보인다.",
+    "definition_en": "A visual illusion in which two lines of equal length appear different in length due to the direction of arrowheads (fins) at their ends. Lines with outward-pointing fins (><) appear shorter than lines with inward-pointing fins (<>).",
+    "significance": "지각항등성의 부적절한 적용(misapplied constancy scaling) 이론의 대표적 증거이며, 문화 간 차이 연구를 통해 지각에 대한 경험의 영향을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "프란츠 뮐러-라이어", "name_en": "Franz Müller-Lyer", "contribution": "1889년에 이 착시 현상을 최초로 보고"},
+      {"name_ko": "리처드 그레고리", "name_en": "Richard Gregory", "contribution": "뮐러-라이어 착시를 부적절한 항등성 조정(잘못된 크기 항등성)으로 설명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "착시", "name_en": "Illusion", "id": "SENSORY_ILL_014"},
+      {"name_ko": "지각항등성", "name_en": "Perceptual Constancy", "id": "SENSORY_PC_013"},
+      {"name_ko": "하향처리", "name_en": "Top-Down Processing", "id": "SENSORY_TDP_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "><(짧아 보임) vs <>(길어 보임) — 방의 안쪽 모서리(><)와 바깥 모서리(<>)로 연상",
+      "differential": "뮐러-라이어 착시는 '길이' 착시, 폰초 착시(Ponzo)는 '크기' 착시",
+      "key_point": "세갈족(San) 등 목조건물이 없는 문화권에서는 착시 효과가 약함 → 경험의 영향",
+      "common_mistake": "이 착시가 순전히 생리적 현상이라고 생각하는 것 — 문화 간 차이가 있어 경험적 요인이 작용"
+    }
+  },
+  {
+    "id": "SENSORY_PHI_029",
+    "terminology": "파이 현상 (Phi Phenomenon)",
+    "terminology_ko": "파이 현상",
+    "terminology_en": "Phi Phenomenon",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "순차적으로 점멸하는 두 개 이상의 정지 자극이 마치 하나의 물체가 움직이는 것처럼 지각되는 가현운동(apparent motion) 현상. 영화와 애니메이션의 원리적 기초이다.",
+    "definition_en": "An illusion of apparent motion created when two or more stationary stimuli are presented in rapid succession, perceived as a single object moving from one location to another. It is the perceptual basis for movies and animation.",
+    "significance": "게슈탈트 심리학의 출발점이 된 현상으로, 지각이 단순한 감각 요소의 합이 아니라 전체로서의 경험임을 증명하는 핵심 사례이다.",
+    "key_researchers": [
+      {"name_ko": "막스 베르트하이머", "name_en": "Max Wertheimer", "contribution": "1912년 파이 현상에 대한 실험적 연구를 발표하여 게슈탈트 심리학을 창시하는 계기를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "게슈탈트 원리", "name_en": "Gestalt Principles", "id": "SENSORY_GEST_010"},
+      {"name_ko": "착시", "name_en": "Illusion", "id": "SENSORY_ILL_014"},
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"}
+    ],
+    "sub_types": [
+      {"name": "베타 운동 (Beta Movement)", "description": "두 자극의 교대 제시로 물체가 이동하는 것처럼 보이는 가현운동"},
+      {"name": "순수 파이 현상 (Pure Phi)", "description": "물체 이동 없이 운동감 자체만 지각되는 현상"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "네온사인의 화살표 불빛이 '달리는' 것처럼 보이는 것 = 파이 현상",
+      "differential": "파이 현상은 '움직이는 것처럼 보이는' 가현운동, 자동운동(autokinetic effect)은 정지 빛점이 '혼자 움직이는 것처럼 보이는' 현상",
+      "key_point": "게슈탈트 심리학의 탄생 계기가 된 역사적으로 중요한 현상",
+      "common_mistake": "파이 현상과 스트로보스코프 효과를 완전히 동일시하는 것 — 엄밀히는 베르트하이머가 구분"
+    }
+  },
+  {
+    "id": "SENSORY_PS_030",
+    "terminology": "지각적 세트 (Perceptual Set)",
+    "terminology_ko": "지각적 세트",
+    "terminology_en": "Perceptual Set",
+    "category": "SENSORY",
+    "category_name": "감각과 지각 (Sensation & Perception)",
+    "definition": "기대, 동기, 정서, 문화적 배경, 맥락 등에 의해 형성된 심리적 준비 상태가 지각을 특정 방향으로 이끄는 경향. 같은 자극도 지각적 세트에 따라 다르게 해석될 수 있다.",
+    "definition_en": "A mental predisposition or readiness to perceive stimuli in a particular way, shaped by expectations, motivations, emotions, cultural background, and context. The same stimulus can be interpreted differently depending on one's perceptual set.",
+    "significance": "지각이 순수한 감각 데이터만으로 결정되지 않고 관찰자의 심리적 상태에 크게 영향받음을 보여주는 대표적 현상이며, 편향과 고정관념 연구와도 연결된다.",
+    "key_researchers": [
+      {"name_ko": "제롬 브루너", "name_en": "Jerome Bruner", "contribution": "지각적 세트와 기대가 지각에 미치는 영향을 체계적으로 연구 ('New Look' 운동)"},
+      {"name_ko": "레오 포스트만", "name_en": "Leo Postman", "contribution": "브루너와 함께 가치와 욕구가 지각에 미치는 영향(perceptual defense, perceptual sensitization)을 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "하향처리", "name_en": "Top-Down Processing", "id": "SENSORY_TDP_009"},
+      {"name_ko": "지각", "name_en": "Perception", "id": "SENSORY_PERC_002"},
+      {"name_ko": "착시", "name_en": "Illusion", "id": "SENSORY_ILL_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "'B'와 '13'의 중간에 있는 모호한 기호 — 문자 맥락에서는 B, 숫자 맥락에서는 13으로 읽힘",
+      "differential": "지각적 세트는 '지각 이전의 심리적 준비', 착시는 '지각 과정의 결과적 오류'",
+      "key_point": "스키마(schema), 기대, 동기, 정서, 문화가 지각적 세트를 형성하는 주요 요인",
+      "common_mistake": "지각적 세트가 항상 왜곡을 초래한다고 생각하는 것 — 대부분의 경우 효율적 지각을 돕는다"
+    }
+  }
+]

@@ -1,0 +1,1839 @@
+[
+  {
+    "id": "ANOVA_OW_001",
+    "terminology": "일원분산분석 (One-Way ANOVA)",
+    "terminology_ko": "일원분산분석",
+    "terminology_en": "One-Way ANOVA",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "하나의 독립변인(요인)이 세 개 이상의 수준을 가질 때, 각 집단의 평균 차이가 통계적으로 유의한지 검정하는 분석 방법이다.",
+    "definition_en": "A statistical method that tests whether the means of three or more groups defined by a single independent variable differ significantly from each other.",
+    "significance": "세 집단 이상의 평균 비교에서 다중 t검정의 제1종 오류 증가 문제를 해결하며, 심리학 실험에서 처치 효과를 검증하는 가장 기본적인 방법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산분석 기법을 개발하고 F분포를 도입하여 농업 실험 자료의 분석 방법론을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      },
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "이원분산분석",
+        "name_en": "Two-Way ANOVA",
+        "id": "ANOVA_TW_002"
+      },
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent Samples t-test",
+        "id": "TTEST_IT_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "독립표본 일원분산분석 (Between-Subjects One-Way ANOVA)",
+        "description": "서로 다른 참가자가 각 집단에 배정되는 설계"
+      },
+      {
+        "name": "반복측정 일원분산분석 (Repeated Measures One-Way ANOVA)",
+        "description": "동일한 참가자가 모든 조건에 참여하는 설계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "One-Way = 요인 1개, 수준 3개 이상",
+      "differential": "독립표본 t검정은 2집단 비교이고, 일원분산분석은 3집단 이상 비교이다. 둘 다 하나의 독립변인을 다룬다.",
+      "key_point": "집단 간 분산과 집단 내 분산의 비율(F비)을 통해 집단 평균 차이의 유의성을 판단한다.",
+      "common_mistake": "F검정이 유의하면 모든 집단 간 차이가 유의하다고 해석하는 오류가 있다. 어떤 집단 간 차이인지는 사후검정이 필요하다."
+    }
+  },
+  {
+    "id": "ANOVA_TW_002",
+    "terminology": "이원분산분석 (Two-Way ANOVA)",
+    "terminology_ko": "이원분산분석",
+    "terminology_en": "Two-Way ANOVA",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "두 개의 독립변인(요인)이 종속변인에 미치는 주효과와 상호작용효과를 동시에 검정하는 분산분석 방법이다.",
+    "definition_en": "An ANOVA method that simultaneously tests the main effects of two independent variables and their interaction effect on a dependent variable.",
+    "significance": "심리학 연구에서 두 변인의 독립적 효과뿐 아니라 결합 효과를 밝힐 수 있어, 복합적 현상의 이해에 핵심적인 분석 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "요인설계와 분산분석을 결합하여 다요인 실험의 분석 체계를 정립했다."
+      },
+      {
+        "name_ko": "프랭크 예이츠",
+        "name_en": "Frank Yates",
+        "contribution": "Fisher와 협력하여 요인설계의 분석 방법을 발전시키고 불균형 설계의 분석법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상호작용효과",
+        "name_en": "Interaction Effect",
+        "id": "ANOVA_IE_010"
+      },
+      {
+        "name_ko": "주효과",
+        "name_en": "Main Effect",
+        "id": "ANOVA_ME_011"
+      },
+      {
+        "name_ko": "요인설계",
+        "name_en": "Factorial Design",
+        "id": "DESIGN_FD_010"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "2×2 설계",
+        "description": "두 요인이 각각 2수준을 갖는 가장 단순한 이원설계"
+      },
+      {
+        "name": "2×3 설계",
+        "description": "한 요인이 2수준, 다른 요인이 3수준인 설계"
+      },
+      {
+        "name": "불균형 이원분산분석 (Unbalanced Two-Way ANOVA)",
+        "description": "각 셀의 사례 수가 다른 설계"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Two-Way = 요인 2개 → 주효과 2개 + 상호작용 1개 = 총 3개의 F검정",
+      "differential": "일원분산분석은 요인 1개만 다루지만, 이원분산분석은 요인 2개와 그 상호작용까지 분석한다.",
+      "key_point": "주효과가 유의해도 상호작용이 유의하면 주효과의 해석이 달라질 수 있으므로, 상호작용을 먼저 확인해야 한다.",
+      "common_mistake": "상호작용이 유의할 때 주효과만 해석하는 오류가 빈번하다. 상호작용이 있으면 단순주효과 분석이 필요하다."
+    }
+  },
+  {
+    "id": "ANOVA_RM_003",
+    "terminology": "반복측정 분산분석 (Repeated Measures ANOVA)",
+    "terminology_ko": "반복측정 분산분석",
+    "terminology_en": "Repeated Measures ANOVA",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "동일한 참가자가 모든 처치 조건에 반복적으로 참여하는 피험자내 설계에서 조건 간 평균 차이를 검정하는 분산분석 방법이다.",
+    "definition_en": "An ANOVA method that tests mean differences across conditions in a within-subjects design where the same participants are measured under all treatment conditions.",
+    "significance": "개인차 변동을 통제하여 오차 분산을 줄일 수 있어 검정력이 높으며, 종단 연구나 시계열 비교에 널리 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산분석의 기본 틀을 제공하여 반복측정 설계의 분석 기초를 마련했다."
+      },
+      {
+        "name_ko": "사뮤엘 그린하우스",
+        "name_en": "Samuel W. Greenhouse",
+        "contribution": "구형성 가정 위반 시 자유도를 교정하는 Greenhouse-Geisser 교정법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구형성 가정",
+        "name_en": "Sphericity Assumption",
+        "id": "ANOVA_SP_028"
+      },
+      {
+        "name_ko": "피험자내 설계",
+        "name_en": "Within-Subjects Design",
+        "id": "DESIGN_WS_007"
+      },
+      {
+        "name_ko": "그린하우스-가이서 교정",
+        "name_en": "Greenhouse-Geisser Correction",
+        "id": "ANOVA_GG_030"
+      },
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired Samples t-test",
+        "id": "TTEST_PT_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Repeated = 같은 사람이 반복 측정 → 개인차 통제 → 오차 감소",
+      "differential": "독립표본 분산분석은 서로 다른 참가자를 비교하지만, 반복측정은 동일 참가자의 여러 조건을 비교한다.",
+      "key_point": "구형성 가정이 충족되어야 하며, 위반 시 Greenhouse-Geisser 또는 Huynh-Feldt 교정을 적용해야 한다.",
+      "common_mistake": "반복측정에서 연습효과나 이월효과를 통제하지 않으면 결과가 왜곡될 수 있다는 점을 간과하기 쉽다."
+    }
+  },
+  {
+    "id": "ANOVA_FR_004",
+    "terminology": "F비 (F-ratio)",
+    "terminology_ko": "F비",
+    "terminology_en": "F-ratio",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "처치 간 분산(집단 간 평균제곱)을 오차 분산(집단 내 평균제곱)으로 나눈 비율로, 집단 간 차이의 통계적 유의성을 판단하는 검정통계량이다.",
+    "definition_en": "The ratio of between-group mean square to within-group mean square, serving as the test statistic for determining the statistical significance of group differences.",
+    "significance": "분산분석의 핵심 통계량으로, 처치 효과가 우연에 의한 변동보다 큰지를 정량적으로 평가하는 기준이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "F분포를 이론적으로 도출하고, 분산의 비를 통한 가설검정 체계를 확립했다."
+      },
+      {
+        "name_ko": "조지 스네데커",
+        "name_en": "George W. Snedecor",
+        "contribution": "Fisher를 기리기 위해 F분포라 명명하고, 분산분석의 실용적 적용 방법을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균제곱",
+        "name_en": "Mean Square",
+        "id": "ANOVA_MS_006"
+      },
+      {
+        "name_ko": "처치간 분산",
+        "name_en": "Between-Treatments Variance",
+        "id": "ANOVA_BT_012"
+      },
+      {
+        "name_ko": "처치내 분산",
+        "name_en": "Within-Treatments Variance",
+        "id": "ANOVA_WT_013"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "F = MS_between / MS_within, 분자가 크면 F가 커지고 유의해진다",
+      "differential": "t값은 두 집단의 평균 차이를 표준오차로 나눈 것이고, F비는 분산의 비율이다. t² = F (2집단일 때).",
+      "key_point": "F비가 1에 가까우면 처치 효과가 없고, 1보다 클수록 집단 간 차이가 오차 이상임을 시사한다.",
+      "common_mistake": "F비는 항상 양수이므로 방향성을 나타내지 않는다. 어떤 집단이 더 높은지는 F비만으로 알 수 없다."
+    }
+  },
+  {
+    "id": "ANOVA_SS_005",
+    "terminology": "제곱합 (Sum of Squares)",
+    "terminology_ko": "제곱합",
+    "terminology_en": "Sum of Squares",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "각 관측값과 평균 간 편차를 제곱하여 합산한 값으로, 분산분석에서 변동의 크기를 측정하는 기본 단위이다.",
+    "definition_en": "The sum of squared deviations of each observation from the mean, serving as the fundamental measure of variability in analysis of variance.",
+    "significance": "총변동을 집단 간 변동과 집단 내 변동으로 분해하는 분산분석의 핵심 원리를 구현하며, 효과 크기 계산의 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "제곱합의 분해(SS_total = SS_between + SS_within)를 분산분석의 기본 원리로 확립했다."
+      },
+      {
+        "name_ko": "카를 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "최소제곱법의 발전에 기여하여 제곱합 개념의 통계적 활용을 확대했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균제곱",
+        "name_en": "Mean Square",
+        "id": "ANOVA_MS_006"
+      },
+      {
+        "name_ko": "총분산",
+        "name_en": "Total Variance",
+        "id": "ANOVA_TV_014"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "ANOVA_DF_032"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "집단간 제곱합 (SS_between)",
+        "description": "각 집단 평균과 전체 평균 간 편차의 제곱합"
+      },
+      {
+        "name": "집단내 제곱합 (SS_within)",
+        "description": "각 관측값과 자기 집단 평균 간 편차의 제곱합"
+      },
+      {
+        "name": "총제곱합 (SS_total)",
+        "description": "모든 관측값과 전체 평균 간 편차의 제곱합"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "SS_total = SS_between + SS_within → 총변동 = 집단간 + 집단내",
+      "differential": "제곱합(SS)은 자유도로 나누기 전의 값이고, 평균제곱(MS)은 SS를 자유도로 나눈 값이다.",
+      "key_point": "SS_between이 SS_total에서 차지하는 비율이 클수록 독립변인의 설명력이 높다.",
+      "common_mistake": "제곱합 자체는 표본 크기에 의존하므로, 효과 크기를 비교하려면 에타제곱 등으로 변환해야 한다."
+    }
+  },
+  {
+    "id": "ANOVA_MS_006",
+    "terminology": "평균제곱 (Mean Square)",
+    "terminology_ko": "평균제곱",
+    "terminology_en": "Mean Square",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "제곱합을 해당 자유도로 나눈 값으로, 분산의 추정치이며 F비를 계산하는 데 직접 사용되는 통계량이다.",
+    "definition_en": "The sum of squares divided by the corresponding degrees of freedom, serving as a variance estimate and used directly in computing the F-ratio.",
+    "significance": "표본 크기의 영향을 보정한 분산 추정치를 제공하여, 집단 간 변동과 집단 내 변동을 공정하게 비교할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "평균제곱을 분산의 불편 추정치로 사용하는 방법을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제곱합",
+        "name_en": "Sum of Squares",
+        "id": "ANOVA_SS_005"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "ANOVA_DF_032"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "집단간 평균제곱 (MS_between)",
+        "description": "SS_between을 집단 간 자유도(k-1)로 나눈 값"
+      },
+      {
+        "name": "집단내 평균제곱 (MS_within)",
+        "description": "SS_within을 집단 내 자유도(N-k)로 나눈 값"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "MS = SS / df → 제곱합을 자유도로 나눈 것이 평균제곱",
+      "differential": "제곱합(SS)은 변동의 총량이고, 평균제곱(MS)은 자유도당 변동량(분산 추정치)이다.",
+      "key_point": "F비 = MS_between / MS_within이므로, MS_between이 MS_within보다 클수록 F비가 커진다.",
+      "common_mistake": "평균제곱을 산술평균과 혼동하는 경우가 있다. MS는 분산의 추정치이지 평균값이 아니다."
+    }
+  },
+  {
+    "id": "ANOVA_PH_007",
+    "terminology": "사후검정 (Post Hoc Test)",
+    "terminology_ko": "사후검정",
+    "terminology_en": "Post Hoc Test",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "분산분석에서 전체 F검정이 유의한 후, 어떤 집단 쌍 간의 평균 차이가 유의한지를 구체적으로 밝히기 위해 실시하는 다중비교 절차이다.",
+    "definition_en": "A multiple comparison procedure conducted after a significant omnibus F-test to identify which specific pairs of group means differ significantly.",
+    "significance": "전체 F검정만으로는 어떤 집단 간에 차이가 있는지 알 수 없으므로, 구체적인 집단 간 비교를 통해 실질적인 연구 질문에 답할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 투키",
+        "name_en": "John W. Tukey",
+        "contribution": "모든 쌍별 비교를 위한 HSD(Honestly Significant Difference) 검정법을 개발했다."
+      },
+      {
+        "name_ko": "헨리 셰페",
+        "name_en": "Henry Scheffé",
+        "contribution": "가장 보수적인 사후비교 방법인 Scheffé 검정을 개발하여 임의의 대비 검정을 가능하게 했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "투키 HSD",
+        "name_en": "Tukey HSD",
+        "id": "ANOVA_TK_008"
+      },
+      {
+        "name_ko": "본페로니 교정",
+        "name_en": "Bonferroni Correction",
+        "id": "ANOVA_BF_019"
+      },
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      },
+      {
+        "name_ko": "셰페 검정",
+        "name_en": "Scheffé Test",
+        "id": "ANOVA_SC_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "쌍별 비교 (Pairwise Comparison)",
+        "description": "모든 가능한 두 집단 조합을 비교하는 방법"
+      },
+      {
+        "name": "대비 분석 (Contrast Analysis)",
+        "description": "특정 집단 조합에 대한 가중치 기반 비교"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Post Hoc = 사후(事後), F검정 '후에' 실시하는 검정",
+      "differential": "사전비교(계획비교)는 연구 전 특정 가설에 기반하고, 사후검정은 F검정 유의 후 탐색적으로 실시한다.",
+      "key_point": "사후검정은 가족별 오류율(familywise error rate)을 통제하여 다중비교에서 제1종 오류 증가를 방지한다.",
+      "common_mistake": "F검정이 유의하지 않은데 사후검정을 실시하거나, 사후검정 없이 집단 간 차이를 주장하는 오류가 흔하다."
+    }
+  },
+  {
+    "id": "ANOVA_TK_008",
+    "terminology": "투키 HSD (Tukey's HSD)",
+    "terminology_ko": "투키 HSD",
+    "terminology_en": "Tukey's HSD",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "모든 가능한 쌍별 평균 비교를 실시하면서 가족별 오류율을 통제하는 사후검정 방법으로, 스튜던트화 범위 분포(q분포)를 사용한다.",
+    "definition_en": "A post hoc test that performs all possible pairwise mean comparisons while controlling the familywise error rate, using the studentized range distribution (q-distribution).",
+    "significance": "심리학 연구에서 가장 널리 사용되는 사후검정으로, 검정력과 제1종 오류 통제 간의 균형이 우수하다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 투키",
+        "name_en": "John W. Tukey",
+        "contribution": "HSD(Honestly Significant Difference) 검정을 개발하여 다중비교 문제의 표준적 해결책을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "본페로니 교정",
+        "name_en": "Bonferroni Correction",
+        "id": "ANOVA_BF_019"
+      },
+      {
+        "name_ko": "셰페 검정",
+        "name_en": "Scheffé Test",
+        "id": "ANOVA_SC_018"
+      },
+      {
+        "name_ko": "뉴먼-쿨스 검정",
+        "name_en": "Newman-Keuls Test",
+        "id": "ANOVA_NK_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HSD = Honestly Significant Difference, '진정으로 유의한 차이'",
+      "differential": "Tukey는 모든 쌍별 비교에 적합하고, Scheffé는 복잡한 대비에 적합하며, Bonferroni는 비교 수가 적을 때 유리하다.",
+      "key_point": "각 집단의 표본 크기가 같을 때 가장 적합하며, 불균등할 경우 Tukey-Kramer 변형을 사용한다.",
+      "common_mistake": "Tukey HSD를 집단 크기가 매우 불균등한 설계에 그대로 적용하면 검정력이 저하될 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_ET_009",
+    "terminology": "에타제곱 (Eta-squared)",
+    "terminology_ko": "에타제곱",
+    "terminology_en": "Eta-squared",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "분산분석에서 독립변인이 종속변인의 총변동 중 설명하는 비율을 나타내는 효과 크기 지표로, SS_between을 SS_total로 나누어 산출한다.",
+    "definition_en": "An effect size measure in ANOVA indicating the proportion of total variance in the dependent variable explained by the independent variable, calculated as SS_between divided by SS_total.",
+    "significance": "통계적 유의성과 별개로 독립변인의 실질적 영향력을 평가할 수 있게 하여, 연구 결과의 실용적 중요성을 판단하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산의 분해 원리를 확립하여 에타제곱 개념의 기초를 마련했다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과 크기의 해석 기준(.01=소, .06=중, .14=대)을 제안하여 에타제곱의 실용적 활용을 촉진했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "부분 에타제곱",
+        "name_en": "Partial Eta-squared",
+        "id": "ANOVA_PE_022"
+      },
+      {
+        "name_ko": "오메가제곱",
+        "name_en": "Omega-squared",
+        "id": "ANOVA_OM_023"
+      },
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-squared",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-squared",
+        "id": "REGRESS_R2_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "η² = SS_between / SS_total → 전체 변동 중 처치가 설명하는 비율",
+      "differential": "에타제곱은 표본에 기반한 편향 추정치이고, 오메가제곱은 편향을 교정한 모집단 추정치이다.",
+      "key_point": "Cohen의 기준: η² = .01(소), .06(중), .14(대). 표본 크기가 클수록 과대추정 경향이 있다.",
+      "common_mistake": "에타제곱이 결정계수(R²)와 동일하다고 단순화하는 경우가 있으나, 다요인 설계에서는 부분 에타제곱을 사용해야 한다."
+    }
+  },
+  {
+    "id": "ANOVA_IE_010",
+    "terminology": "상호작용효과 (Interaction Effect)",
+    "terminology_ko": "상호작용효과",
+    "terminology_en": "Interaction Effect",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "한 독립변인의 효과가 다른 독립변인의 수준에 따라 달라지는 현상으로, 두 요인의 결합 효과가 각 주효과의 합과 다를 때 발생한다.",
+    "definition_en": "A phenomenon where the effect of one independent variable differs depending on the level of another independent variable, occurring when the combined effect of two factors differs from the sum of their main effects.",
+    "significance": "심리 현상의 복합성을 드러내며, 단순한 주효과 해석을 넘어 조건부 효과를 밝힘으로써 이론적 정교화에 기여한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "요인설계에서 상호작용 개념을 분산분석 틀 안에서 정의하고 검정 방법을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "주효과",
+        "name_en": "Main Effect",
+        "id": "ANOVA_ME_011"
+      },
+      {
+        "name_ko": "단순주효과",
+        "name_en": "Simple Main Effect",
+        "id": "ANOVA_SM_034"
+      },
+      {
+        "name_ko": "이원분산분석",
+        "name_en": "Two-Way ANOVA",
+        "id": "ANOVA_TW_002"
+      },
+      {
+        "name_ko": "조절효과",
+        "name_en": "Moderation Effect",
+        "id": "CORR_MO_026"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "서수적 상호작용 (Ordinal Interaction)",
+        "description": "두 조건의 선 그래프가 교차하지 않는 상호작용"
+      },
+      {
+        "name": "비서수적 상호작용 (Disordinal Interaction)",
+        "description": "두 조건의 선 그래프가 교차하는 상호작용"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "그래프에서 선이 평행하지 않으면 상호작용 → 선이 교차하면 비서수적 상호작용",
+      "differential": "주효과는 한 요인의 전반적 효과이고, 상호작용은 한 요인의 효과가 다른 요인의 수준에 따라 달라지는 것이다.",
+      "key_point": "상호작용이 유의하면 주효과의 해석에 주의해야 하며, 단순주효과 분석을 통해 구체적 패턴을 확인해야 한다.",
+      "common_mistake": "상호작용 그래프에서 선이 약간만 비평행해도 상호작용이 있다고 판단하는 오류가 있다. 통계적 유의성을 반드시 확인해야 한다."
+    }
+  },
+  {
+    "id": "ANOVA_ME_011",
+    "terminology": "주효과 (Main Effect)",
+    "terminology_ko": "주효과",
+    "terminology_en": "Main Effect",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "다요인 분산분석에서 다른 요인의 수준을 무시하고(평균하여) 한 독립변인이 종속변인에 미치는 전반적인 효과를 말한다.",
+    "definition_en": "In a factorial ANOVA, the overall effect of one independent variable on the dependent variable, averaged across the levels of the other factor(s).",
+    "significance": "각 독립변인의 독립적 효과를 파악할 수 있게 하여, 다요인 실험에서 변인 간 효과를 체계적으로 분리하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "요인설계에서 주효과와 상호작용을 분리하는 분산분해 원리를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상호작용효과",
+        "name_en": "Interaction Effect",
+        "id": "ANOVA_IE_010"
+      },
+      {
+        "name_ko": "단순주효과",
+        "name_en": "Simple Main Effect",
+        "id": "ANOVA_SM_034"
+      },
+      {
+        "name_ko": "이원분산분석",
+        "name_en": "Two-Way ANOVA",
+        "id": "ANOVA_TW_002"
+      },
+      {
+        "name_ko": "독립변인",
+        "name_en": "Independent Variable",
+        "id": "FOUND_IV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Main = 주(主), 다른 변인은 무시하고 해당 변인만의 '주된' 효과",
+      "differential": "주효과는 다른 요인을 평균하여 얻은 전반적 효과이고, 단순주효과는 다른 요인의 특정 수준에서의 효과이다.",
+      "key_point": "상호작용이 유의할 때 주효과만 해석하면 오도할 수 있으므로 항상 상호작용을 먼저 확인해야 한다.",
+      "common_mistake": "주효과가 유의하면 모든 수준에서 그 효과가 동일하다고 가정하는 오류가 있다. 상호작용이 있으면 수준에 따라 달라진다."
+    }
+  },
+  {
+    "id": "ANOVA_BT_012",
+    "terminology": "처치간 분산 (Between-Treatments Variance)",
+    "terminology_ko": "처치간 분산",
+    "terminology_en": "Between-Treatments Variance",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "서로 다른 처치 조건(집단)의 평균들이 전체 평균으로부터 얼마나 떨어져 있는지를 나타내는 변동으로, 처치 효과와 표집 오차를 모두 반영한다.",
+    "definition_en": "The variability among the treatment condition means around the grand mean, reflecting both treatment effects and sampling error.",
+    "significance": "독립변인의 효과를 반영하는 분산 성분으로, 처치내 분산과의 비교를 통해 처치 효과의 유무를 판단하는 근거가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산의 체계적 분해를 통해 처치간 분산과 오차 분산을 분리하는 방법을 고안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "처치내 분산",
+        "name_en": "Within-Treatments Variance",
+        "id": "ANOVA_WT_013"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      },
+      {
+        "name_ko": "집단간 변동",
+        "name_en": "Between-Group Variability",
+        "id": "ANOVA_BG_015"
+      },
+      {
+        "name_ko": "평균제곱",
+        "name_en": "Mean Square",
+        "id": "ANOVA_MS_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Between = 집단 '사이'의 차이 → 처치 효과 + 오차",
+      "differential": "처치간 분산은 처치효과+오차를 포함하지만, 처치내 분산은 오차만 포함한다.",
+      "key_point": "처치간 분산이 처치내 분산보다 충분히 크면 처치 효과가 있다고 판단한다(F비 > 1).",
+      "common_mistake": "처치간 분산이 순수한 처치 효과만 반영한다고 오해하기 쉽다. 실제로는 오차도 포함되어 있다."
+    }
+  },
+  {
+    "id": "ANOVA_WT_013",
+    "terminology": "처치내 분산 (Within-Treatments Variance)",
+    "terminology_ko": "처치내 분산",
+    "terminology_en": "Within-Treatments Variance",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "동일한 처치 조건 내에서 개인 간 점수 차이로 인한 변동으로, 처치 효과와 무관한 순수 오차 변동을 나타낸다.",
+    "definition_en": "The variability among individual scores within the same treatment condition, representing pure error variance unrelated to treatment effects.",
+    "significance": "F비의 분모로서 기준선 역할을 하며, 이 값이 작을수록 처치 효과를 탐지할 검정력이 높아진다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "오차 분산의 개념을 정의하고 이를 분산분석의 분모항으로 사용하는 방법을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "처치간 분산",
+        "name_en": "Between-Treatments Variance",
+        "id": "ANOVA_BT_012"
+      },
+      {
+        "name_ko": "오차항",
+        "name_en": "Error Term",
+        "id": "ANOVA_ER_017"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Within = 집단 '안'의 차이 → 개인차로 인한 순수 오차",
+      "differential": "처치간 분산은 처치효과+오차이고, 처치내 분산은 오차만 포함한다. 이 차이가 F검정의 논리적 기초이다.",
+      "key_point": "처치내 분산을 줄이는 방법(동질적 표본, 반복측정 설계)은 검정력을 높인다.",
+      "common_mistake": "처치내 분산이 0에 가까우면 좋다고 생각하지만, 너무 작으면 일반화 가능성이 제한될 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_TV_014",
+    "terminology": "총분산 (Total Variance)",
+    "terminology_ko": "총분산",
+    "terminology_en": "Total Variance",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "모든 관측값의 전체 평균으로부터의 변동을 합산한 것으로, 집단간 분산과 집단내 분산으로 분해되는 분산분석의 출발점이다.",
+    "definition_en": "The total variability of all observations from the grand mean, which is partitioned into between-group and within-group components as the starting point of ANOVA.",
+    "significance": "분산의 분해 원리(SS_total = SS_between + SS_within)를 통해 독립변인의 설명력을 정량화하는 기초를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "총분산을 체계적으로 분해하는 분산분석의 핵심 원리를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제곱합",
+        "name_en": "Sum of Squares",
+        "id": "ANOVA_SS_005"
+      },
+      {
+        "name_ko": "처치간 분산",
+        "name_en": "Between-Treatments Variance",
+        "id": "ANOVA_BT_012"
+      },
+      {
+        "name_ko": "처치내 분산",
+        "name_en": "Within-Treatments Variance",
+        "id": "ANOVA_WT_013"
+      },
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-squared",
+        "id": "ANOVA_ET_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Total = Between + Within → 전체 = 집단간 + 집단내",
+      "differential": "총분산은 모든 변동의 합이고, 에타제곱은 총분산 대비 집단간 분산의 비율이다.",
+      "key_point": "총분산의 분해는 분산분석의 핵심 원리이며, 이를 통해 독립변인이 설명하는 비율을 계산할 수 있다.",
+      "common_mistake": "총분산이 집단간 분산과 집단내 분산의 곱이라고 오해하는 경우가 있다. 올바른 관계는 합(덧셈)이다."
+    }
+  },
+  {
+    "id": "ANOVA_BG_015",
+    "terminology": "집단간 변동 (Between-Group Variability)",
+    "terminology_ko": "집단간 변동",
+    "terminology_en": "Between-Group Variability",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "각 집단의 평균이 전체 평균(총평균)으로부터 떨어진 정도를 나타내는 변동으로, 독립변인의 효과를 반영하는 분산 성분이다.",
+    "definition_en": "The variability of each group mean from the grand mean, reflecting the variance component attributable to the effect of the independent variable.",
+    "significance": "독립변인의 처치가 실제로 집단 간 차이를 만들었는지 판단하는 핵심 근거이며, F비의 분자를 구성한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "집단간 변동과 집단내 변동의 분리를 통한 가설검정 체계를 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단내 변동",
+        "name_en": "Within-Group Variability",
+        "id": "ANOVA_WG_016"
+      },
+      {
+        "name_ko": "처치간 분산",
+        "name_en": "Between-Treatments Variance",
+        "id": "ANOVA_BT_012"
+      },
+      {
+        "name_ko": "제곱합",
+        "name_en": "Sum of Squares",
+        "id": "ANOVA_SS_005"
+      },
+      {
+        "name_ko": "독립변인",
+        "name_en": "Independent Variable",
+        "id": "FOUND_IV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Between-Group = 집단 '사이'의 변동, 처치로 인한 체계적 차이를 반영",
+      "differential": "집단간 변동은 처치 효과를 반영하는 체계적 분산이고, 집단내 변동은 개인차에 의한 비체계적 분산이다.",
+      "key_point": "집단간 변동이 클수록 독립변인의 효과가 크다는 것을 시사하지만, 집단내 변동과의 비율로 판단해야 한다.",
+      "common_mistake": "집단간 변동이 크다고 반드시 유의하다고 할 수 없다. 집단내 변동도 함께 커지면 F비가 작아질 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_WG_016",
+    "terminology": "집단내 변동 (Within-Group Variability)",
+    "terminology_ko": "집단내 변동",
+    "terminology_en": "Within-Group Variability",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "동일 집단에 속한 개인들의 점수가 해당 집단 평균으로부터 벗어난 정도로, 처치와 무관한 개인차 및 측정 오차를 반영한다.",
+    "definition_en": "The extent to which individual scores within the same group deviate from the group mean, reflecting individual differences and measurement error unrelated to treatment.",
+    "significance": "오차 분산의 추정치를 제공하며, 이 값이 작을수록 처치 효과를 탐지하기 쉬워져 연구의 검정력이 높아진다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "오차 분산 개념을 분산분석 체계에 통합하여 확률적 추론의 기반을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단간 변동",
+        "name_en": "Between-Group Variability",
+        "id": "ANOVA_BG_015"
+      },
+      {
+        "name_ko": "오차항",
+        "name_en": "Error Term",
+        "id": "ANOVA_ER_017"
+      },
+      {
+        "name_ko": "처치내 분산",
+        "name_en": "Within-Treatments Variance",
+        "id": "ANOVA_WT_013"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Within-Group = 같은 집단 '안'에서의 차이 → 개인차 + 측정오차",
+      "differential": "집단내 변동은 개인차와 측정오차만 반영하지만, 집단간 변동은 처치효과도 포함한다.",
+      "key_point": "실험 통제를 강화하거나 동질적 참가자를 선발하면 집단내 변동을 줄여 검정력을 높일 수 있다.",
+      "common_mistake": "집단내 변동을 완전히 제거할 수 있다고 생각하지만, 개인차는 항상 존재하므로 0이 될 수 없다."
+    }
+  },
+  {
+    "id": "ANOVA_ER_017",
+    "terminology": "오차항 (Error Term)",
+    "terminology_ko": "오차항",
+    "terminology_en": "Error Term",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "분산분석에서 독립변인으로 설명되지 않는 잔차 변동으로, F비의 분모에 해당하며 처치 효과 판단의 기준선을 제공한다.",
+    "definition_en": "The residual variability in ANOVA not explained by the independent variable, serving as the denominator of the F-ratio and providing the baseline for judging treatment effects.",
+    "significance": "적절한 오차항의 선택은 분산분석의 정확성을 좌우하며, 설계 유형(독립/반복측정/혼합)에 따라 오차항이 달라진다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "적절한 오차항 선택의 원리를 분산분석 이론에 통합했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "처치내 분산",
+        "name_en": "Within-Treatments Variance",
+        "id": "ANOVA_WT_013"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      },
+      {
+        "name_ko": "평균제곱",
+        "name_en": "Mean Square",
+        "id": "ANOVA_MS_006"
+      },
+      {
+        "name_ko": "잔차",
+        "name_en": "Residual",
+        "id": "REGRESS_SLR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "오차항 = F비의 분모 → 처치 효과를 판단하는 '기준선'",
+      "differential": "독립 설계에서 오차항은 MS_within이지만, 반복측정 설계에서는 피험자×처치 상호작용이 오차항이 된다.",
+      "key_point": "혼합설계에서 피험자간 효과와 피험자내 효과는 서로 다른 오차항을 사용한다.",
+      "common_mistake": "모든 분산분석에서 MS_within을 오차항으로 사용한다고 가정하는 오류가 있다. 설계에 따라 오차항이 달라진다."
+    }
+  },
+  {
+    "id": "ANOVA_SC_018",
+    "terminology": "셰페 검정 (Scheffé Test)",
+    "terminology_ko": "셰페 검정",
+    "terminology_en": "Scheffé Test",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "모든 가능한 선형 대비를 포함한 가장 보수적인 사후검정 방법으로, 제1종 오류를 엄격하게 통제하지만 검정력은 상대적으로 낮다.",
+    "definition_en": "The most conservative post hoc method that controls for all possible linear contrasts, strictly controlling Type I error but with relatively lower statistical power.",
+    "significance": "사전 계획 없이 다양한 복합 비교를 탐색할 때 안전한 방법이며, 집단 크기가 불균등한 경우에도 적용 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "헨리 셰페",
+        "name_en": "Henry Scheffé",
+        "contribution": "1953년에 임의의 선형 대비에 대한 동시 신뢰구간 방법을 개발하여 사후검정의 이론적 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "투키 HSD",
+        "name_en": "Tukey HSD",
+        "id": "ANOVA_TK_008"
+      },
+      {
+        "name_ko": "본페로니 교정",
+        "name_en": "Bonferroni Correction",
+        "id": "ANOVA_BF_019"
+      },
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Scheffé = 가장 '엄격한(Safe)' 사후검정 → 보수적",
+      "differential": "Scheffé는 복합 대비에 적합하고 가장 보수적이며, Tukey는 쌍별 비교에 최적화되어 검정력이 더 높다.",
+      "key_point": "쌍별 비교만 필요하면 Tukey가 더 검정력이 높으므로, Scheffé는 복합 대비가 필요할 때 선택한다.",
+      "common_mistake": "Scheffé 검정이 항상 최선이라고 생각하지만, 쌍별 비교에서는 불필요하게 보수적이어서 유의한 차이를 놓칠 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_BF_019",
+    "terminology": "본페로니 교정 (Bonferroni Correction)",
+    "terminology_ko": "본페로니 교정",
+    "terminology_en": "Bonferroni Correction",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "다중비교 시 유의수준(α)을 비교 횟수로 나누어 각 개별 검정의 유의수준을 조정함으로써 가족별 오류율을 통제하는 방법이다.",
+    "definition_en": "A method that controls the familywise error rate by dividing the significance level (α) by the number of comparisons to adjust the criterion for each individual test.",
+    "significance": "간단하고 직관적인 다중비교 교정법으로, 비교 횟수가 적을 때 효율적이며 분산분석 외의 다중검정에도 폭넓게 적용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "카를로 에밀리오 본페로니",
+        "name_en": "Carlo Emilio Bonferroni",
+        "contribution": "확률의 합집합에 대한 부등식(Bonferroni inequality)을 증명하여 다중비교 교정의 수학적 기초를 제공했다."
+      },
+      {
+        "name_ko": "올리브 진 더넷",
+        "name_en": "Olive Jean Dunn",
+        "contribution": "Bonferroni 부등식을 다중비교 검정에 적용하는 실용적 방법을 1961년에 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      },
+      {
+        "name_ko": "가족별 오류율",
+        "name_en": "Familywise Error Rate",
+        "id": "ANOVA_FW_025"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "α/c (c=비교 횟수), 3번 비교하면 .05/3 = .017을 기준으로 판단",
+      "differential": "Bonferroni는 어떤 검정에도 적용 가능한 일반적 교정법이고, Tukey HSD는 분산분석 사후검정에 특화된 방법이다.",
+      "key_point": "비교 횟수가 많아지면 지나치게 보수적이 되어 검정력이 크게 감소하므로, 비교 횟수가 적을 때 적합하다.",
+      "common_mistake": "모든 다중비교에 Bonferroni를 적용하면 안전하다고 생각하지만, 비교 횟수가 많으면 과도하게 보수적이다."
+    }
+  },
+  {
+    "id": "ANOVA_NK_020",
+    "terminology": "뉴먼-쿨스 검정 (Newman-Keuls Test)",
+    "terminology_ko": "뉴먼-쿨스 검정",
+    "terminology_en": "Newman-Keuls Test",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "평균들을 크기순으로 정렬한 후 순차적으로 범위를 좁혀가며 비교하는 단계적 사후검정 방법으로, Tukey보다 검정력은 높지만 제1종 오류 통제가 덜 엄격하다.",
+    "definition_en": "A stepwise post hoc method that orders means by magnitude and compares them sequentially with narrowing ranges, offering higher power than Tukey but less strict Type I error control.",
+    "significance": "Tukey와 Scheffé의 중간 수준의 보수성을 가지며, 탐색적 분석에서 집단 차이의 패턴을 발견하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "데니스 뉴먼",
+        "name_en": "Dennis Newman",
+        "contribution": "1939년에 순차적 범위 검정의 기초가 되는 방법을 제안했다."
+      },
+      {
+        "name_ko": "모리스 쿨스",
+        "name_en": "Maurice Keuls",
+        "contribution": "1952년에 Newman의 방법을 확장하여 단계적 다중비교 절차를 완성했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "투키 HSD",
+        "name_en": "Tukey HSD",
+        "id": "ANOVA_TK_008"
+      },
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "셰페 검정",
+        "name_en": "Scheffé Test",
+        "id": "ANOVA_SC_018"
+      },
+      {
+        "name_ko": "더넷 검정",
+        "name_en": "Dunnett Test",
+        "id": "ANOVA_DN_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Newman-Keuls = 순차적(step-down) 범위 검정 → 멀리 떨어진 것부터 비교",
+      "differential": "Tukey는 모든 비교에 동일한 임계값을 적용하지만, Newman-Keuls는 범위에 따라 다른 임계값을 사용한다.",
+      "key_point": "가족별 오류율을 완전히 통제하지 못하므로, 현대 통계학에서는 Tukey나 Bonferroni가 더 권장된다.",
+      "common_mistake": "Newman-Keuls가 검정력이 높다고 무조건 선택하면, 제1종 오류가 유의수준을 초과할 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_DN_021",
+    "terminology": "더넷 검정 (Dunnett Test)",
+    "terminology_ko": "더넷 검정",
+    "terminology_en": "Dunnett Test",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "여러 실험집단의 평균을 하나의 통제집단 평균과만 비교하는 사후검정 방법으로, 통제집단 대비 처치 효과를 효율적으로 평가한다.",
+    "definition_en": "A post hoc method that compares each treatment group mean only against a single control group mean, efficiently evaluating treatment effects relative to a control condition.",
+    "significance": "통제집단이 있는 실험설계에서 불필요한 실험집단 간 비교를 생략하여 검정력을 높이며, 약물 효과 연구 등에서 널리 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 더넷",
+        "name_en": "Charles W. Dunnett",
+        "contribution": "1955년에 다수의 처치를 단일 통제와 비교하는 다중비교 방법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "투키 HSD",
+        "name_en": "Tukey HSD",
+        "id": "ANOVA_TK_008"
+      },
+      {
+        "name_ko": "독립변인",
+        "name_en": "Independent Variable",
+        "id": "FOUND_IV_005"
+      },
+      {
+        "name_ko": "실험설계",
+        "name_en": "Experimental Design",
+        "id": "DESIGN_ED_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "단측 더넷 검정 (One-sided Dunnett)",
+        "description": "처치집단이 통제집단보다 크거나 작은지 한 방향만 검정"
+      },
+      {
+        "name": "양측 더넷 검정 (Two-sided Dunnett)",
+        "description": "처치집단이 통제집단과 다른지 양방향으로 검정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Dunnett = 통제집단 vs. 나머지 → 모든 처치를 '하나의 기준'과 비교",
+      "differential": "Tukey는 모든 쌍을 비교하지만, Dunnett은 통제집단과의 비교만 하므로 비교 횟수가 적고 검정력이 높다.",
+      "key_point": "k개 처치집단이 있으면 k번의 비교만 실시하므로, k(k-1)/2번 비교하는 Tukey보다 효율적이다.",
+      "common_mistake": "모든 실험집단 간 비교가 필요한 상황에서 Dunnett을 사용하면 실험집단 간 차이를 놓치게 된다."
+    }
+  },
+  {
+    "id": "ANOVA_PE_022",
+    "terminology": "부분 에타제곱 (Partial Eta-squared)",
+    "terminology_ko": "부분 에타제곱",
+    "terminology_en": "Partial Eta-squared",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "다요인 설계에서 다른 요인의 효과를 제거한 후 특정 요인이 설명하는 분산의 비율로, SS_effect를 (SS_effect + SS_error)로 나누어 산출한다.",
+    "definition_en": "The proportion of variance explained by a specific factor after removing the effects of other factors in a factorial design, calculated as SS_effect divided by (SS_effect + SS_error).",
+    "significance": "다요인 설계에서 각 요인의 고유한 설명력을 평가할 수 있으며, SPSS 등 통계 소프트웨어에서 기본 효과 크기로 보고된다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과 크기 개념을 체계화하고 부분 에타제곱의 해석 기준을 제시했다."
+      },
+      {
+        "name_ko": "조셉 스티븐스",
+        "name_en": "Joseph P. Stevens",
+        "contribution": "다변량 분석에서 부분 에타제곱의 적용과 해석 방법을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-squared",
+        "id": "ANOVA_ET_009"
+      },
+      {
+        "name_ko": "오메가제곱",
+        "name_en": "Omega-squared",
+        "id": "ANOVA_OM_023"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-squared",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "부분 η²p = SS_effect / (SS_effect + SS_error) → '부분'이므로 다른 요인의 SS는 제외",
+      "differential": "에타제곱은 SS_total을 분모로 사용하지만, 부분 에타제곱은 (SS_effect + SS_error)를 분모로 사용하여 다른 요인의 영향을 제외한다.",
+      "key_point": "다요인 설계에서 에타제곱보다 부분 에타제곱이 더 적절하며, SPSS는 기본적으로 부분 에타제곱을 보고한다.",
+      "common_mistake": "부분 에타제곱과 에타제곱을 구분하지 않고 혼용하는 경우가 많다. 다요인 설계에서 둘의 값은 다르다."
+    }
+  },
+  {
+    "id": "ANOVA_OM_023",
+    "terminology": "오메가제곱 (Omega-squared)",
+    "terminology_ko": "오메가제곱",
+    "terminology_en": "Omega-squared",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "에타제곱의 양의 편향을 교정한 효과 크기 추정치로, 모집단에서 독립변인이 설명하는 분산 비율을 보다 정확하게 추정한다.",
+    "definition_en": "A bias-corrected effect size estimate that more accurately estimates the proportion of population variance explained by the independent variable, adjusting for the positive bias of eta-squared.",
+    "significance": "표본에 기반한 에타제곱보다 모집단 효과 크기를 정확하게 추정하므로, 연구 결과의 일반화 가능성을 평가하는 데 더 적합하다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 헤이스",
+        "name_en": "William L. Hays",
+        "contribution": "분산분석에서 오메가제곱의 사용을 권장하며 해석 지침을 제시했다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과 크기의 해석 기준을 제안하여 오메가제곱 활용의 기반을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-squared",
+        "id": "ANOVA_ET_009"
+      },
+      {
+        "name_ko": "부분 에타제곱",
+        "name_en": "Partial Eta-squared",
+        "id": "ANOVA_PE_022"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-squared",
+        "id": "REGRESS_R2_006"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ω² = (SS_between - df_between × MS_within) / (SS_total + MS_within) → 편향 교정",
+      "differential": "에타제곱은 표본 효과 크기로 과대추정 경향이 있고, 오메가제곱은 모집단 효과 크기의 불편 추정치에 가깝다.",
+      "key_point": "표본이 작을수록 에타제곱과 오메가제곱의 차이가 크므로, 소표본 연구에서는 오메가제곱이 더 권장된다.",
+      "common_mistake": "오메가제곱이 음수가 나올 수 있는데, 이 경우 효과 크기를 0으로 보고한다는 점을 모르는 경우가 있다."
+    }
+  },
+  {
+    "id": "ANOVA_AC_024",
+    "terminology": "공분산분석 (ANCOVA)",
+    "terminology_ko": "공분산분석",
+    "terminology_en": "ANCOVA",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "하나 이상의 공변인(covariate)의 효과를 통계적으로 통제한 후 집단 간 종속변인 평균 차이를 검정하는 분석 방법으로, ANOVA와 회귀분석을 결합한 것이다.",
+    "definition_en": "An analysis method that tests group mean differences on the dependent variable after statistically controlling for one or more covariates, combining ANOVA with regression analysis.",
+    "significance": "무선 배정이 불완전하거나 사전 차이가 존재할 때 혼입변인을 통제하여 처치 효과의 내적 타당도를 높일 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "공분산분석의 이론적 기초를 분산분석과 회귀분석의 결합으로 확립했다."
+      },
+      {
+        "name_ko": "거트루드 콕스",
+        "name_en": "Gertrude M. Cox",
+        "contribution": "실험설계와 공분산분석의 실용적 적용 방법을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "다중회귀",
+        "name_en": "Multiple Regression",
+        "id": "REGRESS_MR_002"
+      },
+      {
+        "name_ko": "독립변인",
+        "name_en": "Independent Variable",
+        "id": "FOUND_IV_005"
+      },
+      {
+        "name_ko": "편상관",
+        "name_en": "Partial Correlation",
+        "id": "CORR_PC_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ANCOVA = ANOVA + Covariate → 공변인을 통제한 분산분석",
+      "differential": "ANOVA는 공변인 없이 집단 평균을 비교하지만, ANCOVA는 공변인의 영향을 통계적으로 제거한 후 비교한다.",
+      "key_point": "공변인과 종속변인 간 선형 관계, 회귀 기울기의 동질성 가정이 충족되어야 한다.",
+      "common_mistake": "ANCOVA가 무선 배정의 대체물이 될 수 있다고 생각하지만, 사전 집단 차이를 완전히 교정하지 못할 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_FW_025",
+    "terminology": "가족별 오류율 (Familywise Error Rate)",
+    "terminology_ko": "가족별 오류율",
+    "terminology_en": "Familywise Error Rate",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "일련의 다중비교에서 적어도 하나의 제1종 오류를 범할 확률로, 비교 횟수가 증가할수록 높아지며 사후검정의 필요성을 정당화한다.",
+    "definition_en": "The probability of committing at least one Type I error across a set of multiple comparisons, which increases with the number of comparisons and justifies the need for post hoc procedures.",
+    "significance": "다중비교 시 개별 비교별 유의수준이 아닌 전체 비교 집합의 오류율을 통제해야 하는 이유를 설명하는 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 투키",
+        "name_en": "John W. Tukey",
+        "contribution": "가족별 오류율 개념을 체계화하고 이를 통제하는 다중비교 방법을 개발했다."
+      },
+      {
+        "name_ko": "카를로 에밀리오 본페로니",
+        "name_en": "Carlo Emilio Bonferroni",
+        "contribution": "확률 부등식을 통해 가족별 오류율의 상한을 수학적으로 증명했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      },
+      {
+        "name_ko": "본페로니 교정",
+        "name_en": "Bonferroni Correction",
+        "id": "ANOVA_BF_019"
+      },
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비교 c회 시 가족별 오류율 ≈ 1-(1-α)^c, 10회 비교면 약 40%",
+      "differential": "개별 비교별 오류율(per-comparison error rate)은 각 검정의 α이고, 가족별 오류율은 전체 비교에서 최소 1회 오류 확률이다.",
+      "key_point": "3집단 비교 시 3쌍의 t검정을 하면 가족별 오류율이 .05가 아닌 약 .14로 증가한다.",
+      "common_mistake": "각 비교에서 α=.05를 적용하면 전체 오류율도 .05라고 오해한다. 비교 횟수에 비례하여 오류율이 증가한다."
+    }
+  },
+  {
+    "id": "ANOVA_MV_026",
+    "terminology": "다변량 분산분석 (MANOVA)",
+    "terminology_ko": "다변량 분산분석",
+    "terminology_en": "MANOVA",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "두 개 이상의 종속변인을 동시에 고려하여 집단 간 차이를 검정하는 분산분석의 확장으로, 종속변인 간 상관관계를 반영한다.",
+    "definition_en": "An extension of ANOVA that simultaneously tests group differences on two or more dependent variables, accounting for the correlations among dependent variables.",
+    "significance": "심리학 연구에서 여러 측정치를 동시에 분석함으로써 제1종 오류 증가를 방지하고, 변인 간 관계를 고려한 총체적 검정이 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "새뮤얼 윌크스",
+        "name_en": "Samuel S. Wilks",
+        "contribution": "다변량 검정의 기초가 되는 Wilks의 람다(Λ) 통계량을 개발했다."
+      },
+      {
+        "name_ko": "케네스 로이",
+        "name_en": "S. N. Roy",
+        "contribution": "Roy의 최대근 통계량을 개발하여 MANOVA의 검정력을 높이는 방법을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "종속변인",
+        "name_en": "Dependent Variable",
+        "id": "FOUND_DV_006"
+      },
+      {
+        "name_ko": "상관행렬",
+        "name_en": "Correlation Matrix",
+        "id": "CORR_CM_017"
+      },
+      {
+        "name_ko": "다중공선성",
+        "name_en": "Multicollinearity",
+        "id": "CORR_MC_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "일원 MANOVA (One-Way MANOVA)",
+        "description": "하나의 독립변인과 여러 종속변인을 분석"
+      },
+      {
+        "name": "이원 MANOVA (Two-Way MANOVA)",
+        "description": "두 개의 독립변인과 여러 종속변인을 분석"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "MANOVA = Multivariate ANOVA → 종속변인이 Multiple(여러 개)",
+      "differential": "ANOVA는 종속변인 1개, MANOVA는 종속변인 2개 이상. MANOVA 후 유의하면 개별 ANOVA로 후속 분석한다.",
+      "key_point": "Wilks의 Λ, Pillai의 Trace, Hotelling의 Trace, Roy의 최대근 등 4가지 다변량 검정 통계량이 사용된다.",
+      "common_mistake": "종속변인이 여러 개일 때 개별 ANOVA를 반복 실시하면 제1종 오류가 증가하므로, MANOVA를 먼저 실시해야 한다."
+    }
+  },
+  {
+    "id": "ANOVA_MX_027",
+    "terminology": "혼합 분산분석 (Mixed ANOVA)",
+    "terminology_ko": "혼합 분산분석",
+    "terminology_en": "Mixed ANOVA",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "피험자간 요인과 피험자내 요인을 동시에 포함하는 분산분석으로, 분할구획 설계(split-plot design)라고도 하며 각 요인의 주효과와 상호작용을 검정한다.",
+    "definition_en": "An ANOVA that simultaneously includes both between-subjects and within-subjects factors, also called a split-plot design, testing main effects and interactions of each factor.",
+    "significance": "심리학의 사전-사후 통제집단 설계 등에서 집단 차이와 시간 변화를 동시에 분석할 수 있어 폭넓게 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분할구획 설계(split-plot design)를 농업 실험에 도입하여 혼합설계의 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "반복측정 분산분석",
+        "name_en": "Repeated Measures ANOVA",
+        "id": "ANOVA_RM_003"
+      },
+      {
+        "name_ko": "피험자간 설계",
+        "name_en": "Between-Subjects Design",
+        "id": "DESIGN_BS_008"
+      },
+      {
+        "name_ko": "피험자내 설계",
+        "name_en": "Within-Subjects Design",
+        "id": "DESIGN_WS_007"
+      },
+      {
+        "name_ko": "상호작용효과",
+        "name_en": "Interaction Effect",
+        "id": "ANOVA_IE_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Mixed = Between + Within → 집단간 요인과 반복측정 요인을 '혼합'",
+      "differential": "순수 피험자간 설계는 모든 요인이 집단간, 순수 반복측정은 모든 요인이 집단내이지만, 혼합설계는 두 유형을 결합한다.",
+      "key_point": "피험자간 효과와 피험자내 효과는 서로 다른 오차항을 사용하므로, 각각의 F검정이 독립적으로 계산된다.",
+      "common_mistake": "혼합설계에서 피험자간 효과와 피험자내 효과의 오차항이 동일하다고 가정하는 오류가 있다."
+    }
+  },
+  {
+    "id": "ANOVA_SP_028",
+    "terminology": "구형성 가정 (Sphericity Assumption)",
+    "terminology_ko": "구형성 가정",
+    "terminology_en": "Sphericity Assumption",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "반복측정 분산분석에서 모든 조건 쌍 간 차이 점수의 분산이 동일해야 한다는 가정으로, 위반 시 F검정의 제1종 오류율이 증가한다.",
+    "definition_en": "The assumption in repeated measures ANOVA that the variances of difference scores between all pairs of conditions are equal, with violations inflating the Type I error rate of the F-test.",
+    "significance": "반복측정 설계에서 가장 중요한 가정이며, 위반 시 적절한 교정 방법을 적용해야 결과의 신뢰성을 확보할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 모슬리",
+        "name_en": "John W. Mauchly",
+        "contribution": "구형성 가정을 검정하는 Mauchly의 구형성 검정(W)을 1940년에 개발했다."
+      },
+      {
+        "name_ko": "사뮤엘 그린하우스",
+        "name_en": "Samuel W. Greenhouse",
+        "contribution": "구형성 위반 시 자유도를 교정하는 엡실론 교정법을 Geisser와 함께 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "반복측정 분산분석",
+        "name_en": "Repeated Measures ANOVA",
+        "id": "ANOVA_RM_003"
+      },
+      {
+        "name_ko": "모슬리 검정",
+        "name_en": "Mauchly's Test",
+        "id": "ANOVA_MW_029"
+      },
+      {
+        "name_ko": "그린하우스-가이서 교정",
+        "name_en": "Greenhouse-Geisser Correction",
+        "id": "ANOVA_GG_030"
+      },
+      {
+        "name_ko": "등분산성 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "ANOVA_HV_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Sphericity = 구(球)형성 → 차이 점수의 분산이 모두 '동그랗게 같아야' 한다",
+      "differential": "등분산성은 집단 간 분산의 동질성이고, 구형성은 조건 쌍 간 차이 점수 분산의 동질성으로 반복측정에만 해당한다.",
+      "key_point": "Mauchly 검정으로 확인하며, 위반 시 Greenhouse-Geisser(보수적) 또는 Huynh-Feldt(덜 보수적) 교정을 적용한다.",
+      "common_mistake": "구형성과 등분산성을 같은 개념으로 혼동하는 경우가 많다. 구형성은 반복측정 설계에만 적용되는 고유한 가정이다."
+    }
+  },
+  {
+    "id": "ANOVA_MW_029",
+    "terminology": "모슬리 검정 (Mauchly's Test)",
+    "terminology_ko": "모슬리 검정",
+    "terminology_en": "Mauchly's Test",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "반복측정 분산분석에서 구형성 가정의 충족 여부를 검정하는 방법으로, 유의하면 구형성 가정이 위반된 것으로 판단한다.",
+    "definition_en": "A test that evaluates whether the sphericity assumption is met in repeated measures ANOVA, with a significant result indicating violation of the assumption.",
+    "significance": "반복측정 분산분석의 전제조건을 확인하는 필수 절차이며, 결과에 따라 적절한 교정 방법의 적용 여부를 결정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 모슬리",
+        "name_en": "John W. Mauchly",
+        "contribution": "1940년에 구형성 가정을 검정하는 W 통계량을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구형성 가정",
+        "name_en": "Sphericity Assumption",
+        "id": "ANOVA_SP_028"
+      },
+      {
+        "name_ko": "그린하우스-가이서 교정",
+        "name_en": "Greenhouse-Geisser Correction",
+        "id": "ANOVA_GG_030"
+      },
+      {
+        "name_ko": "반복측정 분산분석",
+        "name_en": "Repeated Measures ANOVA",
+        "id": "ANOVA_RM_003"
+      },
+      {
+        "name_ko": "등분산성 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "ANOVA_HV_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Mauchly's W → W가 유의하면 구형성 '위반' (Violation)",
+      "differential": "Levene 검정은 독립 설계의 등분산성을, Mauchly 검정은 반복측정 설계의 구형성을 검정한다.",
+      "key_point": "표본이 크면 사소한 위반에도 유의하고, 작으면 심각한 위반도 감지 못하므로 엡실론 값도 함께 검토한다.",
+      "common_mistake": "Mauchly 검정이 유의하지 않으면 구형성이 완벽히 충족된다고 결론짓지만, 검정력 부족일 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_GG_030",
+    "terminology": "그린하우스-가이서 교정 (Greenhouse-Geisser Correction)",
+    "terminology_ko": "그린하우스-가이서 교정",
+    "terminology_en": "Greenhouse-Geisser Correction",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "구형성 가정이 위반되었을 때 엡실론(ε) 계수를 사용하여 자유도를 하향 조정함으로써 F검정의 정확성을 유지하는 교정 방법이다.",
+    "definition_en": "A correction method that adjusts degrees of freedom downward using an epsilon (ε) coefficient to maintain the accuracy of the F-test when the sphericity assumption is violated.",
+    "significance": "반복측정 분산분석에서 구형성 위반의 영향을 교정하여 제1종 오류율을 적절하게 통제하는 표준적 방법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "사뮤엘 그린하우스",
+        "name_en": "Samuel W. Greenhouse",
+        "contribution": "Geisser와 함께 1959년에 구형성 위반 시 자유도 교정법을 개발했다."
+      },
+      {
+        "name_ko": "시모어 가이서",
+        "name_en": "Seymour Geisser",
+        "contribution": "Greenhouse와 공동으로 엡실론 교정계수의 수학적 기초를 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구형성 가정",
+        "name_en": "Sphericity Assumption",
+        "id": "ANOVA_SP_028"
+      },
+      {
+        "name_ko": "모슬리 검정",
+        "name_en": "Mauchly's Test",
+        "id": "ANOVA_MW_029"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "ANOVA_DF_032"
+      },
+      {
+        "name_ko": "반복측정 분산분석",
+        "name_en": "Repeated Measures ANOVA",
+        "id": "ANOVA_RM_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "G-G 교정: ε가 1이면 구형성 충족, 1보다 작을수록 심한 위반 → 자유도를 ε만큼 줄인다",
+      "differential": "Greenhouse-Geisser는 보수적 교정이고, Huynh-Feldt는 덜 보수적인 교정이다. ε > .75이면 Huynh-Feldt를 권장한다.",
+      "key_point": "교정된 자유도 = 원래 자유도 × ε. ε의 하한은 1/(k-1)이며, k는 반복측정 수준의 수이다.",
+      "common_mistake": "Greenhouse-Geisser가 항상 최선이라고 생각하지만, 지나치게 보수적일 수 있어 Huynh-Feldt와 비교해야 한다."
+    }
+  },
+  {
+    "id": "ANOVA_HV_031",
+    "terminology": "등분산성 가정 (Homogeneity of Variance Assumption)",
+    "terminology_ko": "등분산성 가정",
+    "terminology_en": "Homogeneity of Variance Assumption",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "분산분석에서 각 집단의 모집단 분산이 동일해야 한다는 가정으로, Levene 검정이나 Bartlett 검정으로 확인하며 위반 시 Welch의 F검정을 사용한다.",
+    "definition_en": "The assumption that population variances are equal across all groups in ANOVA, tested by Levene's or Bartlett's test, with Welch's F-test used when violated.",
+    "significance": "등분산성이 심하게 위반되면 F검정의 정확성이 저하되므로, 사전 검토를 통해 적절한 분석 방법을 선택해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "하워드 레빈",
+        "name_en": "Howard Levene",
+        "contribution": "정규성에 강건한 등분산성 검정법(Levene's test)을 1960년에 개발했다."
+      },
+      {
+        "name_ko": "버나드 웰치",
+        "name_en": "Bernard L. Welch",
+        "contribution": "등분산성 위반 시에도 사용 가능한 Welch의 F검정을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정규성 가정",
+        "name_en": "Normality Assumption",
+        "id": "ANOVA_NR_033"
+      },
+      {
+        "name_ko": "구형성 가정",
+        "name_en": "Sphericity Assumption",
+        "id": "ANOVA_SP_028"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "크루스칼-왈리스 검정",
+        "name_en": "Kruskal-Wallis Test",
+        "id": "NONPARA_KW_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Homo(같은) + Variance(분산) = 집단들의 분산이 '같다'는 가정",
+      "differential": "등분산성은 독립표본 설계에서 집단 간 분산의 동질성이고, 구형성은 반복측정에서 차이점수 분산의 동질성이다.",
+      "key_point": "Levene 검정이 유의하면 등분산성 위반이며, Welch의 F검정이나 비모수 대안(Kruskal-Wallis)을 고려한다.",
+      "common_mistake": "집단 크기가 동일하면 등분산성 위반에 ANOVA가 강건하다고 하지만, 분산 비가 4:1 이상이면 문제가 될 수 있다."
+    }
+  },
+  {
+    "id": "ANOVA_DF_032",
+    "terminology": "자유도 (Degrees of Freedom in ANOVA)",
+    "terminology_ko": "자유도",
+    "terminology_en": "Degrees of Freedom",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "분산분석에서 제곱합을 평균제곱으로 변환할 때 사용되는 값으로, 집단간 자유도(k-1)와 집단내 자유도(N-k)로 구분된다.",
+    "definition_en": "Values used to convert sums of squares to mean squares in ANOVA, divided into between-group degrees of freedom (k-1) and within-group degrees of freedom (N-k).",
+    "significance": "F분포의 형태를 결정하며, 적절한 자유도를 통해 정확한 임계값을 산출하여 가설검정의 정확성을 확보한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "자유도 개념을 F분포와 분산분석 체계에 통합하여 검정의 수학적 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제곱합",
+        "name_en": "Sum of Squares",
+        "id": "ANOVA_SS_005"
+      },
+      {
+        "name_ko": "평균제곱",
+        "name_en": "Mean Square",
+        "id": "ANOVA_MS_006"
+      },
+      {
+        "name_ko": "F비",
+        "name_en": "F-ratio",
+        "id": "ANOVA_FR_004"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "집단간 자유도 (df_between = k-1)",
+        "description": "k개 집단의 평균을 추정한 후 남는 자유로운 변동의 수"
+      },
+      {
+        "name": "집단내 자유도 (df_within = N-k)",
+        "description": "N명의 전체 참가자에서 k개 집단 평균을 추정한 후 남는 자유도"
+      },
+      {
+        "name": "총자유도 (df_total = N-1)",
+        "description": "전체 관측치에서 전체 평균 하나를 추정한 후 남는 자유도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "df_between = k-1, df_within = N-k, df_total = N-1 → 항상 df_total = df_between + df_within",
+      "differential": "t검정의 자유도는 n-1 또는 n₁+n₂-2이지만, ANOVA는 분자(k-1)와 분모(N-k) 두 개의 자유도가 필요하다.",
+      "key_point": "F(df_between, df_within)로 표기하며, 두 자유도가 F분포의 형태를 결정한다.",
+      "common_mistake": "df_between과 df_within의 순서를 혼동하여 F표에서 잘못된 임계값을 찾는 오류가 있다."
+    }
+  },
+  {
+    "id": "ANOVA_NR_033",
+    "terminology": "정규성 가정 (Normality Assumption in ANOVA)",
+    "terminology_ko": "정규성 가정",
+    "terminology_en": "Normality Assumption",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "분산분석에서 각 집단의 종속변인 점수가 정규분포를 따라야 한다는 가정으로, 표본이 충분히 크면 중심극한정리에 의해 약간의 위반에 강건하다.",
+    "definition_en": "The assumption that dependent variable scores in each group follow a normal distribution in ANOVA, which is robust to mild violations with sufficiently large samples due to the central limit theorem.",
+    "significance": "정규성 위반이 심할 경우 F검정의 신뢰성이 저하되므로, Shapiro-Wilk 검정이나 Q-Q 도표로 사전 확인이 권장된다.",
+    "key_researchers": [
+      {
+        "name_ko": "새뮤얼 샤피로",
+        "name_en": "Samuel S. Shapiro",
+        "contribution": "Wilk와 함께 정규성 검정을 위한 Shapiro-Wilk 검정을 개발했다."
+      },
+      {
+        "name_ko": "마틴 윌크",
+        "name_en": "Martin B. Wilk",
+        "contribution": "Shapiro와 공동으로 소표본에서도 검정력이 높은 정규성 검정을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "등분산성 가정",
+        "name_en": "Homogeneity of Variance",
+        "id": "ANOVA_HV_031"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "크루스칼-왈리스 검정",
+        "name_en": "Kruskal-Wallis Test",
+        "id": "NONPARA_KW_004"
+      },
+      {
+        "name_ko": "구형성 가정",
+        "name_en": "Sphericity Assumption",
+        "id": "ANOVA_SP_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정규성은 ANOVA의 3대 가정 중 하나(정규성, 등분산성, 독립성)",
+      "differential": "정규성은 분포의 형태에 관한 가정이고, 등분산성은 분포의 산포에 관한 가정이다.",
+      "key_point": "표본 크기가 각 집단 30명 이상이면 중심극한정리에 의해 정규성 위반에 상당히 강건하다.",
+      "common_mistake": "Shapiro-Wilk 검정이 유의하면 무조건 ANOVA를 사용할 수 없다고 판단하지만, 표본이 크면 사소한 편차에도 유의하게 나온다."
+    }
+  },
+  {
+    "id": "ANOVA_SM_034",
+    "terminology": "단순주효과 (Simple Main Effect)",
+    "terminology_ko": "단순주효과",
+    "terminology_en": "Simple Main Effect",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "요인설계에서 상호작용이 유의할 때, 한 요인의 특정 수준에서 다른 요인의 효과를 개별적으로 검정하는 후속 분석 방법이다.",
+    "definition_en": "A follow-up analysis in factorial designs that tests the effect of one factor at each specific level of the other factor when a significant interaction is found.",
+    "significance": "상호작용 효과의 구체적인 패턴을 해석하는 데 필수적이며, 어떤 조건에서 요인의 효과가 나타나는지를 밝힌다.",
+    "key_researchers": [
+      {
+        "name_ko": "로저 커크",
+        "name_en": "Roger E. Kirk",
+        "contribution": "실험설계 교재에서 단순주효과 분석의 절차와 적절한 오차항 선택 방법을 체계적으로 기술했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상호작용효과",
+        "name_en": "Interaction Effect",
+        "id": "ANOVA_IE_010"
+      },
+      {
+        "name_ko": "주효과",
+        "name_en": "Main Effect",
+        "id": "ANOVA_ME_011"
+      },
+      {
+        "name_ko": "이원분산분석",
+        "name_en": "Two-Way ANOVA",
+        "id": "ANOVA_TW_002"
+      },
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Simple = '단순' → 다른 요인을 고정(특정 수준)하고 한 요인의 효과만 검정",
+      "differential": "주효과는 다른 요인을 평균하여 얻은 전반적 효과이고, 단순주효과는 다른 요인의 특정 수준에서의 효과이다.",
+      "key_point": "상호작용이 유의할 때만 실시하며, 각 수준에서의 단순주효과를 비교하여 상호작용 패턴을 구체적으로 해석한다.",
+      "common_mistake": "상호작용이 유의하지 않은데 단순주효과를 분석하거나, 주효과만으로 상호작용을 해석하려는 오류가 있다."
+    }
+  },
+  {
+    "id": "ANOVA_PC_035",
+    "terminology": "계획비교 (Planned Comparison)",
+    "terminology_ko": "계획비교",
+    "terminology_en": "Planned Comparison",
+    "category": "ANOVA",
+    "category_name": "분산분석 (Analysis of Variance)",
+    "definition": "연구 시작 전에 이론이나 선행연구에 기반하여 특정 집단 간 차이를 검정하도록 사전에 계획된 비교로, 사후검정보다 검정력이 높다.",
+    "definition_en": "Comparisons planned before data collection based on theory or prior research to test specific group differences, offering higher statistical power than post hoc tests.",
+    "significance": "이론 주도적 가설검정이 가능하며, 사후검정의 보수적 교정 없이 더 높은 검정력으로 연구 가설을 직접 검증할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "직교 대비(orthogonal contrasts)의 개념을 도입하여 계획비교의 이론적 기초를 확립했다."
+      },
+      {
+        "name_ko": "도널드 러빈",
+        "name_en": "Donald B. Rubin",
+        "contribution": "인과추론에서 사전 계획된 비교의 중요성을 강조했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사후검정",
+        "name_en": "Post Hoc Test",
+        "id": "ANOVA_PH_007"
+      },
+      {
+        "name_ko": "대립가설",
+        "name_en": "Alternative Hypothesis",
+        "id": "HYPO_AH_002"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      },
+      {
+        "name_ko": "가족별 오류율",
+        "name_en": "Familywise Error Rate",
+        "id": "ANOVA_FW_025"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "직교 대비 (Orthogonal Contrasts)",
+        "description": "비교들이 서로 독립적(직교)인 경우, 최대 k-1개의 독립 비교 가능"
+      },
+      {
+        "name": "비직교 대비 (Non-orthogonal Contrasts)",
+        "description": "비교들이 독립적이지 않아 정보가 중복되는 경우"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Planned = 사전 '계획' → 연구 전에 미리 정한 비교 → 사후검정 불필요",
+      "differential": "계획비교는 사전에 이론에 기반하여 설정하고, 사후검정은 F검정 유의 후 탐색적으로 실시한다.",
+      "key_point": "계획비교는 전체 F검정이 유의하지 않아도 실시할 수 있으며, 직교 대비는 최대 k-1개까지 가능하다.",
+      "common_mistake": "데이터를 본 후 사후적으로 설정한 비교를 계획비교라고 주장하는 것은 p-해킹에 해당한다."
+    }
+  }
+]

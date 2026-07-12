@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "DESCRIP_MN_001",
+    "terminology": "평균 (Mean)",
+    "terminology_ko": "평균",
+    "terminology_en": "Mean",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "모든 관측값의 합을 관측값의 개수로 나눈 값으로, 분포의 중심을 나타내는 가장 대표적인 중심경향치이다.",
+    "definition_en": "The sum of all observed values divided by the number of observations, serving as the most commonly used measure of central tendency.",
+    "significance": "심리학 연구에서 집단의 전형적인 수행 수준을 요약하고, 집단 간 비교의 기초 통계량으로 널리 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "최소제곱법을 통해 평균의 수학적 최적성을 증명하였다"
+      },
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "정규분포와 평균의 관계를 최초로 규명하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      },
+      {
+        "name_ko": "최빈값",
+        "name_en": "Mode",
+        "id": "DESCRIP_MO_003"
+      },
+      {
+        "name_ko": "중심경향치",
+        "name_en": "Central Tendency",
+        "id": "DESCRIP_CT_017"
+      },
+      {
+        "name_ko": "가중평균",
+        "name_en": "Weighted Mean",
+        "id": "DESCRIP_WM_020"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "산술평균",
+        "name_en": "Arithmetic Mean",
+        "definition": "모든 값의 합을 개수로 나눈 가장 일반적인 형태의 평균"
+      },
+      {
+        "name_ko": "기하평균",
+        "name_en": "Geometric Mean",
+        "definition": "n개의 양수 값을 모두 곱한 후 n제곱근을 취한 평균으로, 비율 데이터에 적합하다"
+      },
+      {
+        "name_ko": "조화평균",
+        "name_en": "Harmonic Mean",
+        "definition": "관측값의 역수의 산술평균의 역수로, 속도나 비율의 평균에 사용된다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Mean = 모든 값의 '평(평등하게)균(고르게)' 나누기",
+      "differential": "평균은 모든 값을 사용하므로 극단값에 민감하고, 중앙값은 순서만 고려하므로 극단값에 강건하다",
+      "key_point": "평균은 편차의 합이 항상 0이 되는 균형점(balance point)이다",
+      "common_mistake": "극단값(이상치)이 있는 분포에서도 평균이 항상 최선의 대표값이라고 생각하는 것"
+    }
+  },
+  {
+    "id": "DESCRIP_MD_002",
+    "terminology": "중앙값 (Median)",
+    "terminology_ko": "중앙값",
+    "terminology_en": "Median",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "관측값을 크기 순서로 배열했을 때 정확히 가운데에 위치하는 값으로, 분포를 상위 50%와 하위 50%로 나누는 중심경향치이다.",
+    "definition_en": "The middle value in a set of observations arranged in order of magnitude, dividing the distribution into two equal halves.",
+    "significance": "극단값이나 비대칭 분포에서 평균보다 안정적인 중심 위치를 제공하여, 심리학의 반응시간 등 편포된 데이터 분석에 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드워드 라이트",
+        "name_en": "Edward Wright",
+        "contribution": "항해학에서 중앙값 개념의 초기 적용을 시도하였다"
+      },
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "중앙값을 통계적 대표값으로 체계화하고 개인차 연구에 활용하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "최빈값",
+        "name_en": "Mode",
+        "id": "DESCRIP_MO_003"
+      },
+      {
+        "name_ko": "백분위",
+        "name_en": "Percentile",
+        "id": "DESCRIP_PC_011"
+      },
+      {
+        "name_ko": "사분위범위",
+        "name_en": "Interquartile Range",
+        "id": "DESCRIP_IQR_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "중앙값 = '줄 세운' 데이터의 '한가운데'",
+      "differential": "중앙값은 순위(서열)만 고려하고, 평균은 실제 값의 크기를 모두 반영한다",
+      "key_point": "관측값이 짝수개일 때는 가운데 두 값의 평균이 중앙값이 된다",
+      "common_mistake": "중앙값이 자료의 물리적 중간(최소+최대/2)이라고 착각하는 것 — 그것은 중간범위(midrange)이다"
+    }
+  },
+  {
+    "id": "DESCRIP_MO_003",
+    "terminology": "최빈값 (Mode)",
+    "terminology_ko": "최빈값",
+    "terminology_en": "Mode",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "자료에서 가장 빈번하게 나타나는 값으로, 명명척도 수준에서도 사용할 수 있는 유일한 중심경향치이다.",
+    "definition_en": "The most frequently occurring value in a dataset, and the only measure of central tendency applicable to nominal-scale data.",
+    "significance": "범주형 데이터의 대표값으로 사용되며, 심리학에서 가장 흔한 반응 양식이나 진단 범주를 파악하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "최빈값이라는 용어를 최초로 사용하고 분포의 비대칭성과 연결지었다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      },
+      {
+        "name_ko": "도수분포",
+        "name_en": "Frequency Distribution",
+        "id": "DESCRIP_FD_012"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "최빈(最頻) = 가장(最) 빈번한(頻) 값",
+      "differential": "최빈값은 하나의 분포에 여러 개 존재할 수 있지만(쌍봉분포 등), 평균과 중앙값은 항상 하나이다",
+      "key_point": "최빈값은 명명척도에서도 사용 가능한 유일한 중심경향치이다",
+      "common_mistake": "최빈값이 항상 분포의 중심에 있다고 생각하는 것 — 편포된 분포에서는 꼬리 반대쪽에 치우칠 수 있다"
+    }
+  },
+  {
+    "id": "DESCRIP_RG_004",
+    "terminology": "범위 (Range)",
+    "terminology_ko": "범위",
+    "terminology_en": "Range",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "자료에서 최대값과 최소값의 차이로, 분포의 전체 산포 정도를 가장 간단하게 나타내는 변산성 측정치이다.",
+    "definition_en": "The difference between the maximum and minimum values in a dataset, providing the simplest measure of variability.",
+    "significance": "자료의 전반적 산포를 빠르게 파악할 수 있으나, 극단값에 크게 영향을 받아 심리학 연구에서는 보조적 지표로 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "레너드 틸리 하디",
+        "name_en": "Leonard Tippett",
+        "contribution": "범위의 표본분포 이론을 개발하여 품질관리 분야에 기여하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사분위범위",
+        "name_en": "Interquartile Range",
+        "id": "DESCRIP_IQR_005"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "변산성",
+        "name_en": "Variability",
+        "id": "DESCRIP_VB_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "범위 = 최대 - 최소, 가장 '넓은 폭'",
+      "differential": "범위는 양 극단값 2개만 사용하고, 사분위범위(IQR)는 중앙 50%의 폭을 나타낸다",
+      "key_point": "범위는 계산이 간편하지만 이상치 하나에 크게 왜곡될 수 있다",
+      "common_mistake": "범위가 자료의 분산을 충분히 대표한다고 생각하는 것 — 범위는 극단값 두 개만 반영할 뿐이다"
+    }
+  },
+  {
+    "id": "DESCRIP_IQR_005",
+    "terminology": "사분위범위 (Interquartile Range)",
+    "terminology_ko": "사분위범위",
+    "terminology_en": "Interquartile Range",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "제3사분위수(Q3)와 제1사분위수(Q1)의 차이로, 자료의 중앙 50%가 차지하는 범위를 나타내는 변산성 측정치이다.",
+    "definition_en": "The difference between the third quartile (Q3) and the first quartile (Q1), representing the spread of the middle 50% of the data.",
+    "significance": "극단값에 강건한 변산성 지표로, 심리학에서 이상치가 흔한 반응시간 데이터나 편포된 분포의 산포를 기술할 때 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "사분위수 개념을 통계 분석에 도입하고 개인차 연구의 기초를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "범위",
+        "name_en": "Range",
+        "id": "DESCRIP_RG_004"
+      },
+      {
+        "name_ko": "상자그림",
+        "name_en": "Box Plot",
+        "id": "DESCRIP_BP_016"
+      },
+      {
+        "name_ko": "백분위",
+        "name_en": "Percentile",
+        "id": "DESCRIP_PC_011"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "IQR = Q3 - Q1 = '중앙 50%의 폭'",
+      "differential": "범위(Range)는 전체 데이터의 폭이고, IQR은 중앙 50%의 폭이므로 극단값에 영향받지 않는다",
+      "key_point": "상자그림(box plot)에서 상자의 길이가 바로 IQR이다",
+      "common_mistake": "IQR이 Q1부터 Q3까지의 데이터 개수를 의미한다고 착각하는 것 — IQR은 값의 차이(범위)이다"
+    }
+  },
+  {
+    "id": "DESCRIP_VAR_006",
+    "terminology": "분산 (Variance)",
+    "terminology_ko": "분산",
+    "terminology_en": "Variance",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "각 관측값과 평균의 편차를 제곱한 값들의 평균으로, 데이터가 평균으로부터 얼마나 흩어져 있는지를 나타내는 변산성의 핵심 측정치이다.",
+    "definition_en": "The average of the squared deviations from the mean, quantifying the degree to which data points are spread out from the mean.",
+    "significance": "분산은 t검정, ANOVA 등 추론통계의 기초가 되며, 심리학 연구에서 개인차와 집단 간 차이를 분석하는 핵심 통계량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산 개념을 공식화하고 분산분석(ANOVA)을 개발하였다"
+      },
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "편차 제곱합을 기반으로 한 변이성 측정 체계를 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "제곱합",
+        "name_en": "Sum of Squares",
+        "id": "DESCRIP_SS_024"
+      },
+      {
+        "name_ko": "편차점수",
+        "name_en": "Deviation Score",
+        "id": "DESCRIP_DS_025"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "모분산",
+        "name_en": "Population Variance",
+        "definition": "모집단 전체의 분산으로, SS를 N으로 나누어 계산한다 (σ²)"
+      },
+      {
+        "name_ko": "표본분산",
+        "name_en": "Sample Variance",
+        "definition": "표본에서 추정한 분산으로, SS를 n-1로 나누어 불편 추정량을 구한다 (s²)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "분산 = '분(나누어)산(흩어진)' 정도, 편차²의 평균",
+      "differential": "분산은 편차 제곱의 평균이므로 단위가 원래 단위의 제곱이고, 표준편차는 분산의 제곱근으로 원래 단위와 동일하다",
+      "key_point": "표본분산에서 n-1로 나누는 이유는 자유도를 반영하여 불편 추정량을 만들기 위함이다",
+      "common_mistake": "모분산 공식(÷N)과 표본분산 공식(÷n-1)을 혼동하는 것"
+    }
+  },
+  {
+    "id": "DESCRIP_SD_007",
+    "terminology": "표준편차 (Standard Deviation)",
+    "terminology_ko": "표준편차",
+    "terminology_en": "Standard Deviation",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "분산의 제곱근으로, 데이터가 평균으로부터 평균적으로 얼마나 떨어져 있는지를 원래 측정 단위로 나타내는 변산성 측정치이다.",
+    "definition_en": "The square root of the variance, expressing the average distance of data points from the mean in the original unit of measurement.",
+    "significance": "심리학 연구에서 가장 널리 사용되는 산포 지표로, z점수 산출과 정규분포 해석의 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "표준편차(standard deviation)라는 용어를 최초로 도입하였다"
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "표본 표준편차의 편향 보정과 소표본 이론을 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SD = √분산 → 원래 단위로 '얼마나 퍼졌나'",
+      "differential": "표준편차는 개별 점수의 산포를 나타내고, 표준오차(SE)는 표본평균의 산포를 나타낸다",
+      "key_point": "정규분포에서 평균 ±1SD 안에 약 68%, ±2SD 안에 약 95%, ±3SD 안에 약 99.7%의 데이터가 포함된다",
+      "common_mistake": "표준편차와 표준오차(SE)를 혼동하는 것 — 표준오차는 표준편차를 √n으로 나눈 값이다"
+    }
+  },
+  {
+    "id": "DESCRIP_SK_008",
+    "terminology": "왜도 (Skewness)",
+    "terminology_ko": "왜도",
+    "terminology_en": "Skewness",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "분포의 비대칭 정도와 방향을 나타내는 통계량으로, 양의 왜도는 오른쪽 꼬리가 긴 분포를, 음의 왜도는 왼쪽 꼬리가 긴 분포를 의미한다.",
+    "definition_en": "A measure of the asymmetry of a probability distribution, where positive skewness indicates a longer right tail and negative skewness indicates a longer left tail.",
+    "significance": "심리학 데이터의 분포 형태를 판단하여 적절한 통계 기법(모수적 vs. 비모수적)을 선택하는 근거를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "왜도의 계수를 정의하고 분포의 비대칭성을 체계적으로 분류하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "첨도",
+        "name_en": "Kurtosis",
+        "id": "DESCRIP_KT_009"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      },
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "양의 왜도 (정적 편포)",
+        "name_en": "Positive Skewness",
+        "definition": "오른쪽 꼬리가 길고, 평균 > 중앙값 > 최빈값 순서의 분포"
+      },
+      {
+        "name_ko": "음의 왜도 (부적 편포)",
+        "name_en": "Negative Skewness",
+        "definition": "왼쪽 꼬리가 길고, 최빈값 > 중앙값 > 평균 순서의 분포"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "왜도 = '왜(비뚤어진) 도(정도)' → 꼬리가 긴 쪽이 왜도 부호의 방향",
+      "differential": "왜도는 좌우 비대칭(수평 방향)을 측정하고, 첨도는 봉우리의 뾰족함(수직 방향)을 측정한다",
+      "key_point": "양의 왜도 분포에서는 평균 > 중앙값, 음의 왜도 분포에서는 평균 < 중앙값이다",
+      "common_mistake": "꼬리가 긴 방향과 데이터가 많이 몰린 방향을 혼동하는 것 — 양의 왜도에서 대부분의 데이터는 왼쪽(낮은 값)에 몰려 있다"
+    }
+  },
+  {
+    "id": "DESCRIP_KT_009",
+    "terminology": "첨도 (Kurtosis)",
+    "terminology_ko": "첨도",
+    "terminology_en": "Kurtosis",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "분포의 꼬리 두께와 봉우리의 뾰족한 정도를 나타내는 통계량으로, 정규분포 대비 극단값의 출현 경향을 반영한다.",
+    "definition_en": "A measure of the tailedness and peakedness of a probability distribution, reflecting the tendency for extreme values relative to a normal distribution.",
+    "significance": "심리학 데이터의 분포 형태를 진단하여 극단값의 존재 여부를 파악하고, 정규성 가정의 충족 여부를 판단하는 데 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "첨도를 포함한 분포의 형태 기술을 위한 적률 체계를 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "왜도",
+        "name_en": "Skewness",
+        "id": "DESCRIP_SK_008"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "정규첨도 (중첨분포)",
+        "name_en": "Mesokurtic",
+        "definition": "정규분포와 동일한 첨도(첨도 = 3, 초과첨도 = 0)"
+      },
+      {
+        "name_ko": "급첨분포",
+        "name_en": "Leptokurtic",
+        "definition": "정규분포보다 꼬리가 두텁고 봉우리가 뾰족한 분포(초과첨도 > 0)"
+      },
+      {
+        "name_ko": "완첨분포",
+        "name_en": "Platykurtic",
+        "definition": "정규분포보다 꼬리가 얇고 봉우리가 완만한 분포(초과첨도 < 0)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "첨도 = '첨(뾰족할 첨) 도(정도)' → Lepto(가늘고 뾰족) vs. Platy(넓고 평평)",
+      "differential": "첨도는 주로 꼬리의 두께(극단값 빈도)를 반영하며, 봉우리의 높이만을 의미하는 것은 아니다",
+      "key_point": "초과첨도(excess kurtosis) = 첨도 - 3으로, 정규분포를 기준(0)으로 비교한다",
+      "common_mistake": "첨도가 단순히 '봉우리의 뾰족함'만을 의미한다고 생각하는 것 — 실제로는 꼬리의 무거움(극단값 빈도)이 더 중요하다"
+    }
+  },
+  {
+    "id": "DESCRIP_ZS_010",
+    "terminology": "z점수 (z-Score)",
+    "terminology_ko": "z점수",
+    "terminology_en": "z-Score",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "원점수에서 평균을 빼고 표준편차로 나눈 표준화 점수로, 평균으로부터 표준편차 단위로 떨어진 정도를 나타낸다.",
+    "definition_en": "A standardized score calculated by subtracting the mean from a raw score and dividing by the standard deviation, expressing the distance from the mean in standard deviation units.",
+    "significance": "서로 다른 척도나 검사의 점수를 동일한 기준으로 비교할 수 있게 하여, 심리검사 해석과 연구 결과 통합에 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "표준화된 점수의 개념을 개인차 비교에 최초로 적용하였다"
+      },
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "z점수를 정규분포와 연결하여 통계적 추론의 기반을 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "표준정규분포",
+        "name_en": "Standard Normal Distribution",
+        "id": "PROB_SND_002"
+      },
+      {
+        "name_ko": "T점수",
+        "name_en": "T-Score",
+        "id": "DESCRIP_TS_027"
+      },
+      {
+        "name_ko": "원점수",
+        "name_en": "Raw Score",
+        "id": "DESCRIP_RS_029"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "z = (X - μ) / σ → '원점수가 평균에서 몇 SD만큼 떨어졌나'",
+      "differential": "z점수는 평균=0, SD=1로 표준화하고, T점수는 평균=50, SD=10으로 변환한다",
+      "key_point": "z점수가 양수이면 평균 이상, 음수이면 평균 이하이며, 절대값이 클수록 평균에서 멀다",
+      "common_mistake": "z점수 자체가 백분위라고 생각하는 것 — z점수는 정규분포표를 통해 확률/백분위로 변환해야 한다"
+    }
+  },
+  {
+    "id": "DESCRIP_PC_011",
+    "terminology": "백분위 (Percentile)",
+    "terminology_ko": "백분위",
+    "terminology_en": "Percentile",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "전체 분포에서 해당 점수 이하에 있는 사례의 비율을 백분율로 나타낸 값으로, 상대적 위치를 표현하는 지표이다.",
+    "definition_en": "A value indicating the percentage of cases in a distribution that fall at or below a given score, expressing relative standing within a group.",
+    "significance": "심리검사 결과를 규준 집단 내에서 상대적으로 해석할 수 있게 하여, 지능검사, 성격검사 등의 임상적 해석에 널리 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "백분위 순위 개념을 도입하여 개인의 상대적 위치를 체계적으로 비교하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "사분위범위",
+        "name_en": "Interquartile Range",
+        "id": "DESCRIP_IQR_005"
+      },
+      {
+        "name_ko": "누적빈도",
+        "name_en": "Cumulative Frequency",
+        "id": "DESCRIP_CF_030"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "사분위수",
+        "name_en": "Quartile",
+        "definition": "분포를 4등분하는 점수로, Q1(25%), Q2(50%=중앙값), Q3(75%)"
+      },
+      {
+        "name_ko": "십분위수",
+        "name_en": "Decile",
+        "definition": "분포를 10등분하는 점수"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "백분위 75 = '나보다 아래가 75%' → 상위 25%에 해당",
+      "differential": "백분위는 순위 기반(서열)이고, z점수는 평균과 표준편차 기반(등간)의 상대적 위치 지표이다",
+      "key_point": "백분위는 등간척도가 아니므로, 백분위 간의 차이가 능력 차이를 동일하게 반영하지 않는다",
+      "common_mistake": "백분위 90이 100점 만점에 90점이라는 의미라고 착각하는 것 — 백분위는 점수가 아니라 상대적 순위이다"
+    }
+  },
+  {
+    "id": "DESCRIP_FD_012",
+    "terminology": "도수분포 (Frequency Distribution)",
+    "terminology_ko": "도수분포",
+    "terminology_en": "Frequency Distribution",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "자료의 각 값 또는 급간에 해당하는 사례의 수(도수)를 체계적으로 정리한 표로, 데이터의 분포 패턴을 파악하는 기본 도구이다.",
+    "definition_en": "An organized tabulation showing the number of cases (frequencies) falling into each category or class interval, used to reveal the pattern of data distribution.",
+    "significance": "수집된 데이터의 전체적인 분포 형태를 한눈에 파악할 수 있게 하여, 심리학 연구에서 자료 탐색의 첫 단계로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "도수분포를 그래픽으로 표현하는 히스토그램을 도입하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "히스토그램",
+        "name_en": "Histogram",
+        "id": "DESCRIP_HG_013"
+      },
+      {
+        "name_ko": "급간",
+        "name_en": "Class Interval",
+        "id": "DESCRIP_CI_032"
+      },
+      {
+        "name_ko": "상대빈도",
+        "name_en": "Relative Frequency",
+        "id": "DESCRIP_RF_031"
+      },
+      {
+        "name_ko": "누적빈도",
+        "name_en": "Cumulative Frequency",
+        "id": "DESCRIP_CF_030"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "단순도수분포",
+        "name_en": "Simple Frequency Distribution",
+        "definition": "각 개별 값에 대한 도수를 나열한 분포표"
+      },
+      {
+        "name_ko": "급간도수분포",
+        "name_en": "Grouped Frequency Distribution",
+        "definition": "값들을 일정한 급간으로 묶어 도수를 정리한 분포표"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "도수분포 = '몇 번(도수)씩 나타나는지 분류(분포)한 표'",
+      "differential": "도수분포는 빈도의 수치적 정리이고, 히스토그램은 이를 시각적으로 표현한 그래프이다",
+      "key_point": "급간의 크기에 따라 분포의 모습이 달라질 수 있으므로, 적절한 급간 설정이 중요하다",
+      "common_mistake": "도수분포표의 급간 경계에서 겹치는 값을 어디에 포함시킬지 혼동하는 것"
+    }
+  },
+  {
+    "id": "DESCRIP_HG_013",
+    "terminology": "히스토그램 (Histogram)",
+    "terminology_ko": "히스토그램",
+    "terminology_en": "Histogram",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "연속형 자료의 도수분포를 막대의 높이로 나타낸 그래프로, 막대가 서로 붙어 있어 연속적 변인임을 표현한다.",
+    "definition_en": "A graphical representation of a frequency distribution for continuous data using adjacent bars whose heights represent frequencies.",
+    "significance": "자료의 분포 형태(정규성, 왜도, 이상치 등)를 직관적으로 파악할 수 있어, 심리학 연구의 자료 탐색 단계에서 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "히스토그램이라는 용어와 기법을 현대 통계학에 도입하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "도수분포",
+        "name_en": "Frequency Distribution",
+        "id": "DESCRIP_FD_012"
+      },
+      {
+        "name_ko": "줄기-잎 그림",
+        "name_en": "Stem-and-Leaf Plot",
+        "id": "DESCRIP_SL_014"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      },
+      {
+        "name_ko": "급간",
+        "name_en": "Class Interval",
+        "id": "DESCRIP_CI_032"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "히스토그램 = 막대가 '붙어있는' 그래프 → 연속 변인",
+      "differential": "히스토그램은 연속 변인의 막대가 붙어 있고, 막대그래프(bar chart)는 범주형 변인의 막대가 떨어져 있다",
+      "key_point": "막대의 면적이 빈도에 비례하므로, 급간 너비가 다를 경우 높이가 아닌 면적으로 비교해야 한다",
+      "common_mistake": "히스토그램과 막대그래프를 같은 것으로 취급하는 것 — 히스토그램은 연속 변인, 막대그래프는 범주 변인용이다"
+    }
+  },
+  {
+    "id": "DESCRIP_SL_014",
+    "terminology": "줄기-잎 그림 (Stem-and-Leaf Plot)",
+    "terminology_ko": "줄기-잎 그림",
+    "terminology_en": "Stem-and-Leaf Plot",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "각 데이터 값을 줄기(앞자리)와 잎(끝자리)으로 분리하여 분포 형태와 개별 값을 동시에 보여주는 탐색적 그래프이다.",
+    "definition_en": "An exploratory display that splits each data value into a stem (leading digits) and a leaf (trailing digit), showing both the distribution shape and individual values.",
+    "significance": "소규모 데이터셋의 분포 형태를 빠르게 파악하면서도 원래 값을 보존할 수 있어, 심리학 실험 데이터의 초기 탐색에 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John Tukey",
+        "contribution": "탐색적 자료분석(EDA)의 일환으로 줄기-잎 그림을 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "히스토그램",
+        "name_en": "Histogram",
+        "id": "DESCRIP_HG_013"
+      },
+      {
+        "name_ko": "상자그림",
+        "name_en": "Box Plot",
+        "id": "DESCRIP_BP_016"
+      },
+      {
+        "name_ko": "도수분포",
+        "name_en": "Frequency Distribution",
+        "id": "DESCRIP_FD_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "줄기(10의 자리) | 잎(1의 자리) → 히스토그램처럼 보이면서 원래 값도 보존",
+      "differential": "줄기-잎 그림은 원래 데이터 값을 보존하지만, 히스토그램은 급간 내 개별 값 정보를 잃는다",
+      "key_point": "줄기-잎 그림을 옆으로 회전하면 히스토그램과 유사한 모양이 된다",
+      "common_mistake": "큰 데이터셋에 줄기-잎 그림을 적용하려는 것 — 데이터가 많으면 히스토그램이 더 적합하다"
+    }
+  },
+  {
+    "id": "DESCRIP_SP_015",
+    "terminology": "산점도 (Scatter Plot)",
+    "terminology_ko": "산점도",
+    "terminology_en": "Scatter Plot",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "두 변인의 관계를 좌표 평면에 점으로 나타낸 그래프로, 변인 간 상관의 방향과 강도를 시각적으로 표현한다.",
+    "definition_en": "A graph displaying the relationship between two variables as a set of points on a coordinate plane, visually representing the direction and strength of correlation.",
+    "significance": "심리학 연구에서 두 변인(예: 불안과 수행, 지능과 학업성취) 간의 관계 패턴을 직관적으로 탐색하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "회귀 분석 연구에서 산점도를 체계적으로 활용하고 발전시켰다"
+      },
+      {
+        "name_ko": "존 허셜",
+        "name_en": "John Herschel",
+        "contribution": "과학적 데이터 표현에서 산점도의 초기 형태를 사용하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "피어슨상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "단순선형회귀",
+        "name_en": "Simple Linear Regression",
+        "id": "REGRESS_SLR_001"
+      },
+      {
+        "name_ko": "변인",
+        "name_en": "Variable",
+        "id": "FOUND_VR_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "산(scatter)점(dot)도(plot) = 점이 '흩뿌려진' 그래프",
+      "differential": "산점도는 두 변인의 관계를 보여주고, 히스토그램은 한 변인의 분포를 보여준다",
+      "key_point": "점들이 직선에 가까울수록 상관이 강하고, 타원 형태이면 약한 상관을 나타낸다",
+      "common_mistake": "산점도에서 관찰된 패턴을 인과관계로 해석하는 것 — 상관은 인과가 아니다"
+    }
+  },
+  {
+    "id": "DESCRIP_BP_016",
+    "terminology": "상자그림 (Box Plot)",
+    "terminology_ko": "상자그림",
+    "terminology_en": "Box Plot",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "최소값, Q1, 중앙값, Q3, 최대값의 다섯 수치 요약을 시각화한 그래프로, 분포의 중심, 산포, 왜도, 이상치를 한눈에 보여준다.",
+    "definition_en": "A graphical display of the five-number summary (minimum, Q1, median, Q3, maximum) that simultaneously shows center, spread, skewness, and outliers.",
+    "significance": "여러 집단의 분포를 동시에 비교할 수 있어, 심리학 실험에서 조건 간 차이를 시각적으로 탐색하는 데 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John Tukey",
+        "contribution": "탐색적 자료분석(EDA)의 일환으로 상자-수염 그림(box-and-whisker plot)을 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사분위범위",
+        "name_en": "Interquartile Range",
+        "id": "DESCRIP_IQR_005"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      },
+      {
+        "name_ko": "줄기-잎 그림",
+        "name_en": "Stem-and-Leaf Plot",
+        "id": "DESCRIP_SL_014"
+      },
+      {
+        "name_ko": "왜도",
+        "name_en": "Skewness",
+        "id": "DESCRIP_SK_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Box = 상자(Q1~Q3) + Whisker = 수염(최소~최대) + 점 = 이상치",
+      "differential": "상자그림은 다섯 수치 요약을 보여주고, 히스토그램은 전체 분포의 형태를 보여준다",
+      "key_point": "IQR의 1.5배를 벗어나는 값은 이상치(outlier)로 표시된다",
+      "common_mistake": "상자 안의 선이 평균이라고 착각하는 것 — 상자그림의 중앙선은 중앙값(median)이다"
+    }
+  },
+  {
+    "id": "DESCRIP_CT_017",
+    "terminology": "중심경향치 (Central Tendency)",
+    "terminology_ko": "중심경향치",
+    "terminology_en": "Central Tendency",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "분포에서 데이터가 집중되는 중심 위치를 나타내는 대표값의 총칭으로, 평균, 중앙값, 최빈값이 대표적이다.",
+    "definition_en": "A generic term for statistical measures that identify the center or typical value of a distribution, including the mean, median, and mode.",
+    "significance": "심리학 연구에서 집단의 전형적 특성을 하나의 값으로 요약하여 집단 간 비교를 가능하게 하는 기술통계의 핵심 개념이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "개인차 측정에서 중심경향치의 통계적 활용을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      },
+      {
+        "name_ko": "최빈값",
+        "name_en": "Mode",
+        "id": "DESCRIP_MO_003"
+      },
+      {
+        "name_ko": "변산성",
+        "name_en": "Variability",
+        "id": "DESCRIP_VB_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "중심경향치 3총사: Mean(평균), Median(중앙값), Mode(최빈값)",
+      "differential": "중심경향치는 '어디에 모이나'를 나타내고, 변산성은 '얼마나 퍼져 있나'를 나타낸다",
+      "key_point": "측정 수준에 따라 적합한 중심경향치가 달라진다 — 명명척도는 최빈값, 서열척도는 중앙값, 등간/비율척도는 평균",
+      "common_mistake": "모든 상황에서 평균이 최선의 대표값이라고 가정하는 것 — 편포된 분포에서는 중앙값이 더 적합하다"
+    }
+  },
+  {
+    "id": "DESCRIP_VB_018",
+    "terminology": "변산성 (Variability)",
+    "terminology_ko": "변산성",
+    "terminology_en": "Variability",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "데이터가 중심으로부터 얼마나 퍼져 있는지를 나타내는 산포 정도의 총칭으로, 범위, 분산, 표준편차가 대표적이다.",
+    "definition_en": "A general term for measures describing how spread out data values are from the center, including range, variance, and standard deviation.",
+    "significance": "심리학에서 개인차의 크기를 파악하고, 집단 내 동질성을 평가하며, 통계적 검정력에 영향을 미치는 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산 개념의 공식화와 분산분석 기법을 통해 변산성 분석의 체계를 확립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "중심경향치",
+        "name_en": "Central Tendency",
+        "id": "DESCRIP_CT_017"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "범위",
+        "name_en": "Range",
+        "id": "DESCRIP_RG_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "변산성 = '변(변하는) 산(흩어지는)' 정도, 데이터의 '퍼짐' 크기",
+      "differential": "변산성은 데이터의 퍼짐(산포)을 총칭하는 개념이고, 분산과 표준편차는 그 구체적 측정치이다",
+      "key_point": "변산성이 크면 개인차가 크고, 변산성이 작으면 집단이 동질적이라는 의미이다",
+      "common_mistake": "변산성이 크다는 것을 '나쁜 것'으로만 해석하는 것 — 개인차 연구에서 변산성은 연구의 핵심 대상이다"
+    }
+  },
+  {
+    "id": "DESCRIP_ND_019",
+    "terminology": "정규분포 (Normal Distribution)",
+    "terminology_ko": "정규분포",
+    "terminology_en": "Normal Distribution",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "평균을 중심으로 좌우 대칭인 종 모양의 확률분포로, 평균, 중앙값, 최빈값이 일치하며 68-95-99.7 규칙을 따른다.",
+    "definition_en": "A symmetric, bell-shaped probability distribution centered at the mean where mean, median, and mode coincide, following the 68-95-99.7 rule.",
+    "significance": "많은 심리학 변인(지능, 성격 특성 등)이 근사적으로 정규분포를 따르며, 모수 통계의 핵심 가정으로 작용한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "측정 오차의 분포로 정규분포를 체계화하여 가우스 분포라고도 불린다"
+      },
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "이항분포의 근사로서 정규분포의 수학적 형태를 최초로 발견하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준정규분포",
+        "name_en": "Standard Normal Distribution",
+        "id": "PROB_SND_002"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "왜도",
+        "name_en": "Skewness",
+        "id": "DESCRIP_SK_008"
+      },
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정규분포 = '종(bell) 모양' + 68-95-99.7 법칙",
+      "differential": "정규분포는 연속적 이론 분포이고, 히스토그램은 실제 데이터의 경험적 분포이다",
+      "key_point": "평균과 표준편차 두 모수만으로 분포가 완전히 결정된다",
+      "common_mistake": "모든 심리학 데이터가 정규분포를 따른다고 가정하는 것 — 반응시간 등은 흔히 정적으로 편포된다"
+    }
+  },
+  {
+    "id": "DESCRIP_WM_020",
+    "terminology": "가중평균 (Weighted Mean)",
+    "terminology_ko": "가중평균",
+    "terminology_en": "Weighted Mean",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "각 관측값에 중요도나 빈도에 따른 가중치를 부여한 후 계산하는 평균으로, 하위집단의 크기가 다를 때 전체 평균을 구하는 데 사용된다.",
+    "definition_en": "A mean calculated by assigning weights to each value based on importance or frequency, used to compute the overall mean when subgroup sizes differ.",
+    "significance": "심리학 메타분석에서 연구별 표본 크기를 가중치로 사용하여 전체 효과크기를 산출할 때 핵심적으로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "진 글래스",
+        "name_en": "Gene V. Glass",
+        "contribution": "메타분석에서 가중평균 효과크기 방법을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "총평균",
+        "name_en": "Grand Mean",
+        "id": "DESCRIP_GM_023"
+      },
+      {
+        "name_ko": "집단평균",
+        "name_en": "Group Mean",
+        "id": "DESCRIP_GRM_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "가중평균 = 각 값에 '무게(가중치)' 다르게 달아서 구한 평균",
+      "differential": "단순평균은 모든 값을 동등하게 취급하고, 가중평균은 값마다 다른 비중을 부여한다",
+      "key_point": "가중평균 = Σ(w × X) / Σw, 가중치의 합으로 나눈다",
+      "common_mistake": "하위집단 평균을 단순 산술평균하면 집단크기가 다를 때 전체 평균과 달라진다"
+    }
+  },
+  {
+    "id": "DESCRIP_TM_021",
+    "terminology": "절사평균 (Trimmed Mean)",
+    "terminology_ko": "절사평균",
+    "terminology_en": "Trimmed Mean",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "분포의 양 극단에서 일정 비율의 관측값을 제거한 후 나머지 값들의 평균을 구한 것으로, 극단값에 강건한 중심경향치이다.",
+    "definition_en": "A mean calculated after removing a specified percentage of observations from both tails of the distribution, providing a robust measure of central tendency.",
+    "significance": "이상치에 민감한 산술평균의 한계를 보완하여, 심리학에서 반응시간이나 편포된 데이터의 대표값으로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John Tukey",
+        "contribution": "강건 통계(robust statistics) 분야에서 절사평균의 유용성을 강조하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      },
+      {
+        "name_ko": "왜도",
+        "name_en": "Skewness",
+        "id": "DESCRIP_SK_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "절사(切捨) = 양쪽 꼬리를 '잘라내고(절)' '버린(사)' 평균",
+      "differential": "절사평균은 극단값 일부를 제거한 평균이고, 윈저화 평균(Winsorized mean)은 극단값을 가장 가까운 비극단값으로 대체한 평균이다",
+      "key_point": "보통 5% 또는 10% 절사가 사용되며, 50% 절사평균은 중앙값과 동일하다",
+      "common_mistake": "절사 비율을 임의로 크게 설정하면 유효한 데이터까지 제거될 수 있다"
+    }
+  },
+  {
+    "id": "DESCRIP_GRM_022",
+    "terminology": "집단평균 (Group Mean)",
+    "terminology_ko": "집단평균",
+    "terminology_en": "Group Mean",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "특정 집단이나 조건에 속하는 관측값들의 산술평균으로, 실험 조건 간 비교의 기본 단위가 된다.",
+    "definition_en": "The arithmetic mean of observations within a specific group or condition, serving as the basic unit for comparing experimental conditions.",
+    "significance": "심리학 실험에서 처치 조건별 효과를 비교하기 위한 기본 통계량이며, 분산분석의 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "실험설계에서 집단평균 비교를 위한 분산분석 기법을 개발하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "총평균",
+        "name_en": "Grand Mean",
+        "id": "DESCRIP_GM_023"
+      },
+      {
+        "name_ko": "가중평균",
+        "name_en": "Weighted Mean",
+        "id": "DESCRIP_WM_020"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "집단평균 = 해당 '집단만의' 대표 값",
+      "differential": "집단평균은 한 조건 내의 평균이고, 총평균(grand mean)은 모든 조건을 합친 전체 평균이다",
+      "key_point": "분산분석에서 F비는 집단평균 간 차이(집단 간 변산)와 집단 내 변산의 비율이다",
+      "common_mistake": "집단크기가 다를 때 집단평균들을 단순 평균하면 총평균과 달라질 수 있다"
+    }
+  },
+  {
+    "id": "DESCRIP_GM_023",
+    "terminology": "총평균 (Grand Mean)",
+    "terminology_ko": "총평균",
+    "terminology_en": "Grand Mean",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "모든 집단의 모든 관측값을 합산하여 전체 관측값 수로 나눈 평균으로, 분산분석에서 전체 기준선 역할을 한다.",
+    "definition_en": "The overall mean of all observations across all groups, calculated by dividing the total sum of scores by the total number of observations.",
+    "significance": "분산분석에서 각 집단평균의 편차를 계산하는 기준점이 되며, 집단 간 효과를 평가하는 기초 통계량이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산분석의 수학적 체계에서 총평균의 역할을 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "집단평균",
+        "name_en": "Group Mean",
+        "id": "DESCRIP_GRM_022"
+      },
+      {
+        "name_ko": "가중평균",
+        "name_en": "Weighted Mean",
+        "id": "DESCRIP_WM_020"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "총평균 = '전체(Grand)' 데이터의 평균, ANOVA의 기준선",
+      "differential": "총평균은 모든 데이터를 하나로 합쳐 계산하고, 집단평균의 평균은 집단크기가 같을 때만 총평균과 동일하다",
+      "key_point": "ANOVA에서 SS_total = Σ(개별값 - 총평균)²으로 총변산을 계산한다",
+      "common_mistake": "집단크기가 다를 때 집단평균의 단순 평균을 총평균이라고 착각하는 것"
+    }
+  },
+  {
+    "id": "DESCRIP_SS_024",
+    "terminology": "제곱합 (Sum of Squares)",
+    "terminology_ko": "제곱합",
+    "terminology_en": "Sum of Squares",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "각 관측값과 평균 간 편차를 제곱하여 모두 합한 값으로, 분산과 표준편차를 계산하는 기초가 되는 변산성 지표이다.",
+    "definition_en": "The sum of the squared deviations of each observation from the mean, serving as the foundation for calculating variance and standard deviation.",
+    "significance": "분산분석(ANOVA)에서 변산의 원천을 분해(SS_total = SS_between + SS_within)하는 핵심 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "최소제곱법(least squares method)을 통해 SS 최소화 원리를 정립하였다"
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "제곱합의 분해를 분산분석의 수학적 기초로 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "편차점수",
+        "name_en": "Deviation Score",
+        "id": "DESCRIP_DS_025"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "집단간 제곱합",
+        "name_en": "Between-Groups SS",
+        "definition": "각 집단평균과 총평균 간 편차의 제곱합 (처치 효과 반영)"
+      },
+      {
+        "name_ko": "집단내 제곱합",
+        "name_en": "Within-Groups SS",
+        "definition": "각 관측값과 해당 집단평균 간 편차의 제곱합 (오차 변산 반영)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "SS = Σ(X - M)² → '편차 제곱의 총합'",
+      "differential": "SS는 편차 제곱의 '합계'이고, 분산(MS)은 SS를 자유도로 나눈 '평균'이다",
+      "key_point": "SS = ΣX² - (ΣX)²/N 라는 계산 공식으로 편리하게 구할 수 있다",
+      "common_mistake": "SS와 분산을 혼동하는 것 — SS를 자유도(df)로 나누어야 분산(MS)이 된다"
+    }
+  },
+  {
+    "id": "DESCRIP_DS_025",
+    "terminology": "편차점수 (Deviation Score)",
+    "terminology_ko": "편차점수",
+    "terminology_en": "Deviation Score",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "개별 관측값에서 평균을 뺀 값으로, 각 데이터가 평균으로부터 얼마나, 어떤 방향으로 벗어나 있는지를 나타낸다.",
+    "definition_en": "The difference between an individual observation and the mean, indicating how far and in which direction each data point deviates from the average.",
+    "significance": "분산, 표준편차, z점수 등 모든 산포 지표의 기초가 되며, 데이터의 상대적 위치를 이해하는 출발점이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "오차 이론에서 편차의 수학적 성질을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제곱합",
+        "name_en": "Sum of Squares",
+        "id": "DESCRIP_SS_024"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "편차 = X - M → 양수면 평균 위, 음수면 평균 아래",
+      "differential": "편차점수는 원래 단위이고, z점수는 편차를 표준편차로 나누어 표준화한 값이다",
+      "key_point": "모든 편차점수의 합은 반드시 0이 된다: Σ(X - M) = 0",
+      "common_mistake": "편차의 합으로 산포를 측정하려는 것 — 편차의 합은 항상 0이므로 제곱합(SS)을 사용해야 한다"
+    }
+  },
+  {
+    "id": "DESCRIP_CV_026",
+    "terminology": "변동계수 (Coefficient of Variation)",
+    "terminology_ko": "변동계수",
+    "terminology_en": "Coefficient of Variation",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "표준편차를 평균으로 나누어 백분율로 표현한 상대적 변산성 지표로, 단위나 평균이 다른 분포의 변산성을 비교할 때 사용된다.",
+    "definition_en": "A relative measure of variability expressed as the ratio of the standard deviation to the mean, used to compare variability across distributions with different units or means.",
+    "significance": "서로 다른 심리측정 도구나 다른 척도의 변산성을 동일한 기준으로 비교할 수 있게 해준다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "변동계수(CV)를 상대적 변산성 측정치로 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "변산성",
+        "name_en": "Variability",
+        "id": "DESCRIP_VB_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CV = (SD / M) × 100% → '평균 대비 몇 %나 퍼져 있나'",
+      "differential": "표준편차는 절대적 산포(원래 단위)이고, 변동계수는 상대적 산포(비율)이므로 단위가 없다",
+      "key_point": "평균이 0에 가까우면 CV가 매우 커져 해석이 어려워진다",
+      "common_mistake": "평균이 0이거나 음수인 경우에 변동계수를 적용하려는 것 — CV는 비율척도에서만 의미 있다"
+    }
+  },
+  {
+    "id": "DESCRIP_TS_027",
+    "terminology": "T점수 (T-Score)",
+    "terminology_ko": "T점수",
+    "terminology_en": "T-Score",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "z점수를 평균 50, 표준편차 10의 척도로 변환한 표준화 점수로, 음수와 소수를 피하여 해석과 소통을 용이하게 한다.",
+    "definition_en": "A standardized score derived by transforming z-scores to a scale with a mean of 50 and standard deviation of 10, eliminating negative numbers and decimals.",
+    "significance": "MMPI 등 주요 심리검사에서 프로파일 해석의 표준 척도로 사용되며, 임상적 절단점 설정에 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 맥콜",
+        "name_en": "William A. McCall",
+        "contribution": "T점수 체계를 고안하여 교육 및 심리 측정에 도입하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "표준점수",
+        "name_en": "Standard Score",
+        "id": "DESCRIP_STD_028"
+      },
+      {
+        "name_ko": "원점수",
+        "name_en": "Raw Score",
+        "id": "DESCRIP_RS_029"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "T = 10z + 50 → z=0이면 T=50, z=1이면 T=60",
+      "differential": "z점수는 평균=0, SD=1이고, T점수는 평균=50, SD=10이다 — MMPI에서 T≥65는 임상적 유의 수준",
+      "key_point": "T점수 70 = z점수 2.0 = 평균에서 2 표준편차 위 = 상위 약 2.3%",
+      "common_mistake": "T점수가 100점 만점의 백분율 점수라고 오해하는 것 — T점수는 표준화 점수이다"
+    }
+  },
+  {
+    "id": "DESCRIP_STD_028",
+    "terminology": "표준점수 (Standard Score)",
+    "terminology_ko": "표준점수",
+    "terminology_en": "Standard Score",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "원점수를 평균과 표준편차를 이용하여 변환한 점수의 총칭으로, 서로 다른 분포의 점수를 공통 척도에서 비교할 수 있게 한다.",
+    "definition_en": "A general term for scores transformed using the mean and standard deviation, enabling comparison of scores from different distributions on a common scale.",
+    "significance": "심리검사에서 다양한 하위검사 점수를 동일한 기준으로 비교하고 프로파일을 작성하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "개인차 측정에서 표준화된 점수 비교의 필요성을 최초로 제기하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "T점수",
+        "name_en": "T-Score",
+        "id": "DESCRIP_TS_027"
+      },
+      {
+        "name_ko": "원점수",
+        "name_en": "Raw Score",
+        "id": "DESCRIP_RS_029"
+      },
+      {
+        "name_ko": "백분위",
+        "name_en": "Percentile",
+        "id": "DESCRIP_PC_011"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "definition": "평균=0, 표준편차=1로 변환한 가장 기본적인 표준점수"
+      },
+      {
+        "name_ko": "T점수",
+        "name_en": "T-Score",
+        "definition": "평균=50, 표준편차=10으로 변환한 점수 (MMPI 등)"
+      },
+      {
+        "name_ko": "IQ 편차점수",
+        "name_en": "Deviation IQ",
+        "definition": "평균=100, 표준편차=15로 변환한 지능검사 점수"
+      },
+      {
+        "name_ko": "스태나인",
+        "name_en": "Stanine",
+        "definition": "1~9의 9단계로 구분한 표준점수 (평균=5, SD≈2)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "표준점수 = '표준화된(standardized)' 점수 → z, T, IQ, stanine 등 모두 포함",
+      "differential": "표준점수는 선형 변환(z, T)과 비선형 변환(정규화 점수)으로 나뉜다",
+      "key_point": "모든 표준점수는 z점수로부터 변환 가능하다: 새 점수 = z × (새 SD) + (새 평균)",
+      "common_mistake": "서로 다른 표준점수 체계(z, T, IQ)를 직접 비교하는 것 — 반드시 같은 척도로 변환 후 비교해야 한다"
+    }
+  },
+  {
+    "id": "DESCRIP_RS_029",
+    "terminology": "원점수 (Raw Score)",
+    "terminology_ko": "원점수",
+    "terminology_en": "Raw Score",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "통계적 변환 없이 측정 도구에서 직접 얻어진 점수로, 표준화나 변환의 기초가 되는 원래 측정값이다.",
+    "definition_en": "The original, untransformed score obtained directly from a measurement instrument, serving as the basis for standardization and other transformations.",
+    "significance": "심리검사의 원점수 자체는 의미 해석이 어려우므로, 규준과 비교하거나 표준점수로 변환하여 해석해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "리 크론바크",
+        "name_en": "Lee Cronbach",
+        "contribution": "검사 점수의 해석 틀에서 원점수와 규준 점수의 구분을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준점수",
+        "name_en": "Standard Score",
+        "id": "DESCRIP_STD_028"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "백분위",
+        "name_en": "Percentile",
+        "id": "DESCRIP_PC_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "원(原)점수 = '원래 그대로의' 점수, 변환 전 출발점",
+      "differential": "원점수는 검사에서 직접 얻은 값이고, 표준점수는 규준 집단의 평균·SD로 변환한 값이다",
+      "key_point": "동일한 원점수라도 규준 집단이 다르면 표준점수(상대적 위치)가 달라진다",
+      "common_mistake": "원점수가 높으면 무조건 우수하다고 판단하는 것 — 검사의 난이도와 규준에 따라 의미가 달라진다"
+    }
+  },
+  {
+    "id": "DESCRIP_CF_030",
+    "terminology": "누적빈도 (Cumulative Frequency)",
+    "terminology_ko": "누적빈도",
+    "terminology_en": "Cumulative Frequency",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "특정 값 이하에 해당하는 모든 도수를 순차적으로 합산한 값으로, 분포에서 해당 값까지의 누적 사례 수를 나타낸다.",
+    "definition_en": "The running total of frequencies up to and including a given value, showing the cumulative number of cases at or below that value.",
+    "significance": "백분위 산출과 누적분포함수의 기초가 되어, 심리검사 규준 작성 시 점수 분포의 누적적 특성을 파악하는 데 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랜시스 골턴",
+        "name_en": "Francis Galton",
+        "contribution": "누적빈도를 이용한 오자이브(ogive) 곡선을 통계 분석에 도입하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "도수분포",
+        "name_en": "Frequency Distribution",
+        "id": "DESCRIP_FD_012"
+      },
+      {
+        "name_ko": "상대빈도",
+        "name_en": "Relative Frequency",
+        "id": "DESCRIP_RF_031"
+      },
+      {
+        "name_ko": "백분위",
+        "name_en": "Percentile",
+        "id": "DESCRIP_PC_011"
+      },
+      {
+        "name_ko": "누적분포함수",
+        "name_en": "Cumulative Distribution Function",
+        "id": "PROB_CDF_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "누적빈도 = 아래에서부터 '쌓아올린' 빈도",
+      "differential": "누적빈도는 '이하 사례 수'이고, 누적상대빈도는 '이하 비율(%)'이다",
+      "key_point": "누적빈도의 마지막 값은 전체 관측값의 수(N)와 같아야 한다",
+      "common_mistake": "누적빈도와 단순 도수를 혼동하는 것 — 누적빈도는 항상 증가하거나 유지되며 감소하지 않는다"
+    }
+  },
+  {
+    "id": "DESCRIP_RF_031",
+    "terminology": "상대빈도 (Relative Frequency)",
+    "terminology_ko": "상대빈도",
+    "terminology_en": "Relative Frequency",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "특정 값의 도수를 전체 관측값 수로 나눈 비율로, 해당 값이 전체에서 차지하는 비중을 나타낸다.",
+    "definition_en": "The proportion of observations falling into a particular category, calculated by dividing the frequency by the total number of observations.",
+    "significance": "표본 크기가 다른 분포를 비교할 때 유용하며, 확률의 경험적 추정치로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "리하르트 폰 미제스",
+        "name_en": "Richard von Mises",
+        "contribution": "상대빈도를 확률의 경험적 정의로 체계화한 빈도주의 확률론을 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "도수분포",
+        "name_en": "Frequency Distribution",
+        "id": "DESCRIP_FD_012"
+      },
+      {
+        "name_ko": "누적빈도",
+        "name_en": "Cumulative Frequency",
+        "id": "DESCRIP_CF_030"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      },
+      {
+        "name_ko": "히스토그램",
+        "name_en": "Histogram",
+        "id": "DESCRIP_HG_013"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "상대빈도 = f / N → '전체 중 몇 %인가'",
+      "differential": "상대빈도는 비율(proportion)이고, 도수(frequency)는 절대적 횟수이다",
+      "key_point": "모든 상대빈도의 합은 반드시 1(또는 100%)이 된다",
+      "common_mistake": "상대빈도를 확률과 완전히 동일시하는 것 — 상대빈도는 확률의 추정치일 뿐이다"
+    }
+  },
+  {
+    "id": "DESCRIP_CI_032",
+    "terminology": "급간 (Class Interval)",
+    "terminology_ko": "급간",
+    "terminology_en": "Class Interval",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "도수분포표에서 연속형 자료를 일정한 폭의 구간으로 나누는 단위로, 분포의 요약 수준을 결정한다.",
+    "definition_en": "A defined range of values used to group continuous data in a frequency distribution table, determining the level of summarization.",
+    "significance": "급간의 크기에 따라 히스토그램의 형태와 분포 해석이 달라지므로, 적절한 급간 설정이 자료 탐색의 정확성에 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "허버트 스터지스",
+        "name_en": "Herbert Sturges",
+        "contribution": "급간 수를 결정하는 스터지스 공식(k = 1 + 3.322 log N)을 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "도수분포",
+        "name_en": "Frequency Distribution",
+        "id": "DESCRIP_FD_012"
+      },
+      {
+        "name_ko": "히스토그램",
+        "name_en": "Histogram",
+        "id": "DESCRIP_HG_013"
+      },
+      {
+        "name_ko": "상대빈도",
+        "name_en": "Relative Frequency",
+        "id": "DESCRIP_RF_031"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "급간 = '계급의 간격(폭)', 데이터를 담는 '구간 바구니'",
+      "differential": "급간은 구간의 폭이고, 급간 수는 구간의 개수이다 — 급간이 좁으면 세밀하고, 넓으면 요약적이다",
+      "key_point": "스터지스 공식: 급간 수 ≈ 1 + 3.322 × log₁₀(N)으로 대략적 급간 수를 결정한다",
+      "common_mistake": "급간을 너무 좁게 설정하면 불규칙한 변동이 과도하게 드러나고, 너무 넓게 설정하면 분포의 세부 형태가 사라진다"
+    }
+  },
+  {
+    "id": "DESCRIP_FNS_033",
+    "terminology": "다섯 수치 요약 (Five-Number Summary)",
+    "terminology_ko": "다섯 수치 요약",
+    "terminology_en": "Five-Number Summary",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "최소값, 제1사분위수(Q1), 중앙값(Q2), 제3사분위수(Q3), 최대값으로 구성된 분포 요약 방법으로, 상자그림의 기초가 된다.",
+    "definition_en": "A set of five descriptive statistics—minimum, Q1, median, Q3, and maximum—that summarize a distribution and form the basis for box plots.",
+    "significance": "복잡한 분포를 다섯 개 값으로 간결하게 요약하여 집단 간 빠른 비교를 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John Tukey",
+        "contribution": "탐색적 자료분석에서 다섯 수치 요약과 상자그림을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상자그림",
+        "name_en": "Box Plot",
+        "id": "DESCRIP_BP_016"
+      },
+      {
+        "name_ko": "사분위범위",
+        "name_en": "Interquartile Range",
+        "id": "DESCRIP_IQR_005"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "5수치 = Min, Q1, Median, Q3, Max → 상자그림의 5개 기준점",
+      "differential": "다섯 수치 요약은 순서 통계량 기반이므로 극단값에 비교적 강건하고, 평균·표준편차 요약은 극단값에 민감하다",
+      "key_point": "5수치 요약만으로 분포의 중심, 산포, 대칭성, 꼬리를 대략 파악할 수 있다",
+      "common_mistake": "다섯 수치 요약이 분포의 모든 정보를 담고 있다고 생각하는 것 — 쌍봉 분포 등은 5수치 요약만으로 파악이 어렵다"
+    }
+  },
+  {
+    "id": "DESCRIP_OL_034",
+    "terminology": "이상치 (Outlier)",
+    "terminology_ko": "이상치",
+    "terminology_en": "Outlier",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "나머지 데이터와 현저하게 다른 극단적인 관측값으로, 분포의 대표값과 변산성에 큰 영향을 미칠 수 있다.",
+    "definition_en": "An observation that is markedly different from the rest of the data, potentially having a large influence on measures of central tendency and variability.",
+    "significance": "심리학 연구에서 이상치는 측정 오류, 부주의한 응답, 또는 이질적 하위집단의 존재를 나타낼 수 있어, 자료 정제의 핵심 판단 대상이다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John Tukey",
+        "contribution": "IQR × 1.5 기준을 이용한 이상치 탐지 방법(Tukey's fences)을 제안하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "상자그림",
+        "name_en": "Box Plot",
+        "id": "DESCRIP_BP_016"
+      },
+      {
+        "name_ko": "사분위범위",
+        "name_en": "Interquartile Range",
+        "id": "DESCRIP_IQR_005"
+      },
+      {
+        "name_ko": "절사평균",
+        "name_en": "Trimmed Mean",
+        "id": "DESCRIP_TM_021"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이상치 = '이상하게 동떨어진(out + lier)' 값",
+      "differential": "이상치는 단순히 극단값이 아니라, 분포의 패턴에서 벗어난 값이다 — 비대칭 분포에서 한쪽만 이상치일 수 있다",
+      "key_point": "Tukey 기준: Q1 - 1.5×IQR 미만이거나 Q3 + 1.5×IQR 초과하는 값을 이상치로 분류한다",
+      "common_mistake": "이상치를 무조건 제거해야 한다고 생각하는 것 — 이상치가 연구적으로 의미 있는 발견일 수 있다"
+    }
+  },
+  {
+    "id": "DESCRIP_FP_035",
+    "terminology": "도수다각형 (Frequency Polygon)",
+    "terminology_ko": "도수다각형",
+    "terminology_en": "Frequency Polygon",
+    "category": "DESCRIP",
+    "category_name": "기술통계 (Descriptive Statistics)",
+    "definition": "각 급간의 중간값에 도수를 점으로 표시한 후 직선으로 연결한 그래프로, 분포의 형태를 연속적 곡선으로 나타낸다.",
+    "definition_en": "A graph formed by connecting points plotted at the midpoint of each class interval at the corresponding frequency, displaying the distribution as a continuous line.",
+    "significance": "여러 분포를 하나의 그래프에 겹쳐서 비교할 수 있어, 심리학 실험에서 조건 간 분포 형태의 차이를 시각적으로 파악하는 데 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "도수다각형을 히스토그램과 함께 통계적 시각화의 표준 도구로 확립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "히스토그램",
+        "name_en": "Histogram",
+        "id": "DESCRIP_HG_013"
+      },
+      {
+        "name_ko": "도수분포",
+        "name_en": "Frequency Distribution",
+        "id": "DESCRIP_FD_012"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "도수다각형 = 급간 중간점을 '점-선-점'으로 연결한 꺾은선",
+      "differential": "히스토그램은 막대(면적)로 빈도를 표현하고, 도수다각형은 선(높이)으로 표현하여 겹쳐 그리기에 유리하다",
+      "key_point": "그래프의 양 끝을 x축까지 연결하여 닫힌 다각형을 만들면 면적이 전체 빈도(N)에 비례한다",
+      "common_mistake": "도수다각형의 점을 급간의 시작점이나 끝점에 찍는 것 — 반드시 급간의 중간값에 찍어야 한다"
+    }
+  }
+]

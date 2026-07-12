@@ -1,0 +1,1779 @@
+[
+  {
+    "id": "ETHICS_RE_001",
+    "terminology": "연구윤리 (Research Ethics)",
+    "terminology_ko": "연구윤리",
+    "terminology_en": "Research Ethics",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구 수행 과정에서 참여자의 권리와 복지를 보호하고, 과학적 진실성을 유지하기 위해 준수해야 하는 도덕적 원칙과 규범의 체계이다.",
+    "definition_en": "A system of moral principles and standards that must be followed during research to protect the rights and welfare of participants and maintain scientific integrity.",
+    "significance": "연구의 사회적 신뢰를 확보하고, 참여자에 대한 부당한 위해를 방지하며, 과학적 지식의 정확성과 신뢰성을 보장하는 근본적 토대이다.",
+    "key_researchers": [
+      {
+        "name_ko": "톰 뷰챔프",
+        "name_en": "Tom L. Beauchamp",
+        "contribution": "벨몬트 보고서의 주 저자로, 연구윤리의 3대 원칙(존중, 선행, 정의)을 체계화했다."
+      },
+      {
+        "name_ko": "제임스 칠드러스",
+        "name_en": "James F. Childress",
+        "contribution": "Beauchamp와 함께 생명윤리의 4원칙(자율성 존중, 선행, 악행금지, 정의)을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "벨몬트 보고서",
+        "name_en": "Belmont Report",
+        "id": "ETHICS_BM_002"
+      },
+      {
+        "name_ko": "IRB",
+        "name_en": "Institutional Review Board",
+        "id": "ETHICS_IR_004"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "APA 윤리강령",
+        "name_en": "APA Ethics Code",
+        "id": "ETHICS_AE_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "참여자 보호 윤리",
+        "description": "사전동의, 비밀보장, 최소 위험 등 연구 참여자의 권리를 보호하는 원칙"
+      },
+      {
+        "name": "과학적 진실성 윤리",
+        "description": "데이터 위조/변조/표절 금지, 정확한 보고 등 연구 과정의 정직성"
+      },
+      {
+        "name": "사회적 책임 윤리",
+        "description": "연구 결과의 공정한 활용과 사회적 영향에 대한 책임"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "연구윤리의 3축: 참여자 보호 + 과학적 진실성 + 사회적 책임",
+      "differential": "연구윤리는 연구 수행 전반의 도덕적 원칙이고, IRB는 이 원칙을 실행하기 위한 제도적 심의 기구이다.",
+      "key_point": "벨몬트 보고서의 3원칙(인간 존중, 선행, 정의)이 현대 연구윤리의 기본 프레임워크이다.",
+      "common_mistake": "연구윤리를 참여자 보호에만 한정하는 것. 데이터의 정직한 수집, 분석, 보고도 핵심 영역이다."
+    }
+  },
+  {
+    "id": "ETHICS_BM_002",
+    "terminology": "벨몬트 보고서 (Belmont Report)",
+    "terminology_ko": "벨몬트 보고서",
+    "terminology_en": "Belmont Report",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "1979년 미국 국가위원회가 발표한 인간 대상 연구의 윤리적 원칙과 지침으로, 인간 존중(respect for persons), 선행(beneficence), 정의(justice)의 3대 원칙을 제시한다.",
+    "definition_en": "A 1979 report by the U.S. National Commission outlining ethical principles and guidelines for human subjects research, establishing three core principles: respect for persons, beneficence, and justice.",
+    "significance": "터스키기 매독 연구 등의 윤리적 스캔들 이후 제정되어, 현대 인간 대상 연구윤리의 기본 틀을 확립하고 IRB 시스템의 법적 근거를 제공했다.",
+    "key_researchers": [
+      {
+        "name_ko": "톰 뷰챔프",
+        "name_en": "Tom L. Beauchamp",
+        "contribution": "벨몬트 보고서의 주 저자로, 3대 윤리 원칙의 구체적 내용과 적용 방법을 기술했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "뉘른베르크 강령",
+        "name_en": "Nuremberg Code",
+        "id": "ETHICS_NC_030"
+      },
+      {
+        "name_ko": "헬싱키 선언",
+        "name_en": "Declaration of Helsinki",
+        "id": "ETHICS_DH_031"
+      },
+      {
+        "name_ko": "IRB",
+        "name_en": "Institutional Review Board",
+        "id": "ETHICS_IR_004"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "인간 존중 (Respect for Persons)",
+        "description": "자율적 결정 능력이 있는 개인의 자율성을 존중하고, 취약한 대상자를 보호"
+      },
+      {
+        "name": "선행 (Beneficence)",
+        "description": "해악을 최소화하고 이득을 극대화하여 참여자의 복지를 보장"
+      },
+      {
+        "name": "정의 (Justice)",
+        "description": "연구의 부담과 혜택을 공정하게 분배"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "벨몬트의 3원칙: 존중(Respect) + 선행(Beneficence) + 정의(Justice) → 'RBJ'",
+      "differential": "벨몬트 보고서는 미국의 연구윤리 원칙이고, 헬싱키 선언은 세계의사회(WMA)의 국제적 의학연구 윤리 지침이다.",
+      "key_point": "터스키기 매독 연구(1932-1972)의 윤리 위반이 직접적 계기가 되었으며, 미국 연방법(Common Rule)의 기초가 되었다.",
+      "common_mistake": "벨몬트 보고서가 법률이라고 생각하는 것. 윤리적 원칙을 제시한 지침이며, 이를 기반으로 연방 규정이 별도로 제정되었다."
+    }
+  },
+  {
+    "id": "ETHICS_AE_003",
+    "terminology": "APA 윤리강령 (APA Ethics Code)",
+    "terminology_ko": "APA 윤리강령",
+    "terminology_en": "APA Ethics Code",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "미국심리학회(APA)가 제정한 심리학자의 직업적 행동 기준으로, 연구 수행, 치료, 교육, 평가 등 전문 활동에서의 윤리적 원칙과 구체적 행동 규범을 규정한다.",
+    "definition_en": "Professional conduct standards established by the American Psychological Association governing ethical principles and specific behavioral standards for psychologists in research, therapy, teaching, and assessment.",
+    "significance": "심리학 연구와 실무에서의 윤리적 행동의 기준을 제공하며, 위반 시 학회 차원의 제재가 가능한 구속력 있는 전문 윤리 규범이다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "1953년 첫 윤리강령 제정 이후 지속적으로 개정하여 현재 2017년 개정판을 사용한다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "연구윤리",
+        "name_en": "Research Ethics",
+        "id": "ETHICS_RE_001"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_008"
+      },
+      {
+        "name_ko": "디브리핑",
+        "name_en": "Debriefing",
+        "id": "ETHICS_DB_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "일반 원칙 (General Principles)",
+        "description": "선행과 비악행, 충실성과 책임, 진실성, 정의, 인권 존중의 5가지 열망적 원칙"
+      },
+      {
+        "name": "윤리 기준 (Ethical Standards)",
+        "description": "연구, 치료, 평가 등 구체적 상황에서의 행동 규범 (10개 영역, 강제적)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "APA 5원칙: Beneficence, Fidelity, Integrity, Justice, Respect → 'BFIJR'",
+      "differential": "APA 윤리강령은 심리학 전문가를 위한 직업 윤리이고, 벨몬트 보고서는 인간 대상 연구 전반의 기본 원칙이다.",
+      "key_point": "일반 원칙(aspirational)은 이상적 지향이고, 윤리 기준(enforceable)은 위반 시 제재가 가능한 구체적 규범이다.",
+      "common_mistake": "APA 윤리강령이 법률과 동일한 효력이 있다고 생각하는 것. 학회 내부 규범이며, 법적 효력은 관할권의 법률에 따른다."
+    }
+  },
+  {
+    "id": "ETHICS_IR_004",
+    "terminology": "IRB (Institutional Review Board)",
+    "terminology_ko": "IRB",
+    "terminology_en": "Institutional Review Board",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "대학이나 연구기관에 설치된 연구윤리 심의위원회로, 인간 대상 연구의 윤리적 적절성을 사전에 검토하고 승인하는 독립적 기구이다.",
+    "definition_en": "An independent committee established at universities and research institutions to review and approve the ethical appropriateness of human subjects research before it is conducted.",
+    "significance": "연구 참여자의 권리와 복지를 보호하는 제도적 안전장치이며, 연구비 지원과 학술지 출판의 필수 요건으로 연구의 윤리적 품질을 보장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "헨리 비처",
+        "name_en": "Henry K. Beecher",
+        "contribution": "1966년 비윤리적 인간 실험 22건을 폭로하여 IRB 제도 도입의 계기를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "벨몬트 보고서",
+        "name_en": "Belmont Report",
+        "id": "ETHICS_BM_002"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "연구참여자 보호",
+        "name_en": "Protection of Human Subjects",
+        "id": "ETHICS_PP_029"
+      },
+      {
+        "name_ko": "연구윤리",
+        "name_en": "Research Ethics",
+        "id": "ETHICS_RE_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "면제 심의 (Exempt Review)",
+        "description": "최소 위험 이하의 연구로 전체 심의가 면제되는 경우"
+      },
+      {
+        "name": "신속 심의 (Expedited Review)",
+        "description": "최소 위험 연구로 위원장 또는 지정 위원의 신속 검토"
+      },
+      {
+        "name": "전체 심의 (Full Board Review)",
+        "description": "최소 위험 이상의 연구로 전체 위원회 합의가 필요한 경우"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "IRB = Institutional(기관) Review(심의) Board(위원회) → '기관 윤리 심의 위원회'",
+      "differential": "IRB는 연구 개시 전 윤리성을 '사전' 심의하는 기구이고, 연구부정행위 조사위원회는 부정행위를 '사후' 조사하는 기구이다.",
+      "key_point": "최소 5인 이상으로 구성하며, 비과학자 1인과 기관 외부인 1인을 반드시 포함해야 한다.",
+      "common_mistake": "IRB 승인이 연구의 과학적 질까지 보장한다고 생각하는 것. IRB는 윤리적 적절성만 심의한다."
+    }
+  },
+  {
+    "id": "ETHICS_IC_005",
+    "terminology": "사전동의 (Informed Consent)",
+    "terminology_ko": "사전동의",
+    "terminology_en": "Informed Consent",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구 참여자에게 연구의 목적, 절차, 위험, 이득, 철회 권리 등을 충분히 설명하고, 이를 이해한 후 자발적으로 참여에 동의하는 과정이다.",
+    "definition_en": "The process of fully informing research participants about the study's purpose, procedures, risks, benefits, and right to withdraw, and obtaining their voluntary agreement to participate after understanding this information.",
+    "significance": "연구 참여자의 자율성을 존중하는 가장 기본적인 윤리적 보장 장치로, 벨몬트 보고서의 '인간 존중' 원칙을 실현하는 핵심 절차이다.",
+    "key_researchers": [
+      {
+        "name_ko": "루스 페이든",
+        "name_en": "Ruth R. Faden",
+        "contribution": "사전동의의 철학적 기초와 실천적 요건에 관한 이론을 체계화했다."
+      },
+      {
+        "name_ko": "톰 뷰챔프",
+        "name_en": "Tom L. Beauchamp",
+        "contribution": "Faden과 함께 사전동의의 자율성 기반 이론을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "IRB",
+        "name_en": "Institutional Review Board",
+        "id": "ETHICS_IR_004"
+      },
+      {
+        "name_ko": "디브리핑",
+        "name_en": "Debriefing",
+        "id": "ETHICS_DB_006"
+      },
+      {
+        "name_ko": "기만연구",
+        "name_en": "Deception Research",
+        "id": "ETHICS_DC_010"
+      },
+      {
+        "name_ko": "벨몬트 보고서",
+        "name_en": "Belmont Report",
+        "id": "ETHICS_BM_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "서면 동의 (Written Consent)",
+        "description": "동의서에 서명하는 가장 일반적인 형태"
+      },
+      {
+        "name": "구두 동의 (Oral Consent)",
+        "description": "서명이 참여자를 식별하는 유일한 수단일 때 사용"
+      },
+      {
+        "name": "온라인 동의 (Online Consent)",
+        "description": "웹 기반 연구에서 클릭으로 동의하는 형태"
+      },
+      {
+        "name": "대리 동의 (Proxy Consent)",
+        "description": "미성년자나 인지 능력이 제한된 대상자의 법적 대리인이 동의"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "사전동의의 4요소: 정보 제공 + 이해 + 자발성 + 능력 → '알고, 이해하고, 자유롭게, 판단 능력이 있어야'",
+      "differential": "사전동의는 연구 '시작 전'에 정보를 제공하는 것이고, 디브리핑은 연구 '종료 후'에 기만 등의 정보를 알려주는 것이다.",
+      "key_point": "참여자는 언제든 이유 없이 철회할 수 있으며, 철회로 인한 불이익이 없어야 한다.",
+      "common_mistake": "동의서에 서명만 받으면 사전동의가 완료되었다고 생각하는 것. 참여자가 내용을 실제로 이해했는지가 핵심이다."
+    }
+  },
+  {
+    "id": "ETHICS_DB_006",
+    "terminology": "디브리핑 (Debriefing)",
+    "terminology_ko": "디브리핑",
+    "terminology_en": "Debriefing",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구 참여 종료 후 참여자에게 연구의 진정한 목적, 절차, 기만의 사용 여부 등을 설명하고, 참여로 인한 부정적 영향을 해소하는 과정이다.",
+    "definition_en": "The process after research participation of explaining the true purpose, procedures, and any use of deception to participants, and addressing any negative effects of participation.",
+    "significance": "기만이 사용된 연구에서 참여자의 심리적 회복을 돕고, 연구에 대한 부정적 경험을 완화하여 참여자의 존엄성을 보호한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 밀그램",
+        "name_en": "Stanley Milgram",
+        "contribution": "복종 실험에서의 강한 기만 사용이 디브리핑의 중요성을 부각시키는 계기가 되었다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "기만연구",
+        "name_en": "Deception Research",
+        "id": "ETHICS_DC_010"
+      },
+      {
+        "name_ko": "연구참여자 보호",
+        "name_en": "Protection of Human Subjects",
+        "id": "ETHICS_PP_029"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Debriefing = De(해제) + Briefing(설명) → '기만의 해제 + 진실 설명'",
+      "differential": "디브리핑은 연구 '후'에 진실을 알려주는 것이고, 사전동의는 연구 '전'에 정보를 제공하는 것이다.",
+      "key_point": "기만을 사용한 연구에서는 가능한 한 빠르게 디브리핑을 실시하고, 참여자가 데이터 사용을 철회할 수 있어야 한다.",
+      "common_mistake": "디브리핑이 기만연구에서만 필요하다고 생각하는 것. 기만이 없더라도 연구 결과와 의의를 설명하는 것이 좋은 관행이다."
+    }
+  },
+  {
+    "id": "ETHICS_PR_007",
+    "terminology": "사전등록 (Preregistration)",
+    "terminology_ko": "사전등록",
+    "terminology_en": "Preregistration",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "데이터 수집 전에 연구의 가설, 설계, 분석 계획을 공개 저장소에 등록하여, 사후적인 가설 변경이나 선택적 분석을 방지하는 투명성 실천이다.",
+    "definition_en": "The practice of registering hypotheses, study design, and analysis plans in a public repository before data collection, preventing post hoc hypothesis modification and selective analysis.",
+    "significance": "p-해킹, HARKing, 선택적 보고 등 의심스러운 연구관행을 방지하고, 확인적 연구와 탐색적 분석을 명확히 구분하는 핵심 투명성 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "브라이언 노섹",
+        "name_en": "Brian Nosek",
+        "contribution": "Open Science Framework(OSF)를 설립하여 사전등록 인프라를 구축하고, 오픈 사이언스 운동을 주도했다."
+      },
+      {
+        "name_ko": "크리스 챔버스",
+        "name_en": "Chris Chambers",
+        "contribution": "Registered Reports 형식을 개발하여 사전등록을 학술 출판 과정에 통합했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "오픈 사이언스",
+        "name_en": "Open Science",
+        "id": "ETHICS_OS_020"
+      },
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-Hacking",
+        "id": "ETHICS_PH_011"
+      },
+      {
+        "name_ko": "HARKing",
+        "name_en": "HARKing",
+        "id": "ETHICS_HK_024"
+      },
+      {
+        "name_ko": "사전분석계획",
+        "name_en": "Pre-Analysis Plan",
+        "id": "ETHICS_PA_023"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "표준 사전등록 (Standard Preregistration)",
+        "description": "OSF 등에 연구 계획을 등록하고 타임스탬프를 부여"
+      },
+      {
+        "name": "등록보고서 (Registered Reports)",
+        "description": "데이터 수집 전 연구 계획을 동료심사하여 조건부 수락을 받는 형식"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Pre(사전) + Registration(등록) → '데이터 수집 전에 계획을 미리 공개 등록'",
+      "differential": "사전등록은 연구 계획의 '공개 등록'이고, 사전분석계획은 분석 방법의 '구체적 명세'이다. 사전등록이 더 포괄적이다.",
+      "key_point": "OSF(osf.io)와 AsPredicted가 대표적 사전등록 플랫폼이며, ClinicalTrials.gov는 임상시험 전용이다.",
+      "common_mistake": "사전등록이 탐색적 분석을 금지한다고 생각하는 것. 사전등록된 분석과 탐색적 분석을 명확히 구분하면 된다."
+    }
+  },
+  {
+    "id": "ETHICS_CF_008",
+    "terminology": "비밀보장 (Confidentiality)",
+    "terminology_ko": "비밀보장",
+    "terminology_en": "Confidentiality",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구 과정에서 수집된 참여자의 개인정보와 반응 데이터를 연구 목적 외에 노출하지 않도록 보호하는 윤리적 의무이다.",
+    "definition_en": "The ethical obligation to protect participants' personal information and response data collected during research from disclosure beyond the research purpose.",
+    "significance": "참여자의 사생활을 보호하고 연구 참여에 대한 심리적 안전감을 제공하여, 솔직한 응답과 자발적 참여를 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "윤리강령 제4조에서 비밀보장의 구체적 기준과 예외 사항을 규정했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "익명성",
+        "name_en": "Anonymity",
+        "id": "ETHICS_AN_009"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "데이터 공유",
+        "name_en": "Data Sharing",
+        "id": "ETHICS_DS_022"
+      },
+      {
+        "name_ko": "연구참여자 보호",
+        "name_en": "Protection of Human Subjects",
+        "id": "ETHICS_PP_029"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Confidentiality = '비밀은 지키되, 연구자는 누구인지 안다' → 익명성과 구분",
+      "differential": "비밀보장은 연구자가 참여자를 식별할 수 있지만 정보를 공개하지 않는 것이고, 익명성은 연구자도 참여자를 식별할 수 없는 것이다.",
+      "key_point": "참여자의 자해/타해 위험이 있을 때 등 비밀보장의 법적 예외 상황이 존재하며, 이를 사전동의 시 고지해야 한다.",
+      "common_mistake": "비밀보장과 익명성을 동일시하는 것. 비밀보장 연구에서 연구자는 참여자 신원을 알고 있다."
+    }
+  },
+  {
+    "id": "ETHICS_AN_009",
+    "terminology": "익명성 (Anonymity)",
+    "terminology_ko": "익명성",
+    "terminology_en": "Anonymity",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구자를 포함하여 누구도 특정 데이터가 어떤 참여자의 것인지 식별할 수 없도록 보장하는 데이터 수집 및 관리 방식이다.",
+    "definition_en": "A method of data collection and management ensuring that no one, including the researchers, can identify which data belongs to which participant.",
+    "significance": "민감한 주제에 대한 솔직한 응답을 극대화하고, 사회적 바람직성 편향을 줄이며, 참여자의 사생활을 가장 강력하게 보호한다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "익명성과 비밀보장의 구분을 명확히 하고, 연구 상황별 적용 지침을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_008"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "데이터 공유",
+        "name_en": "Data Sharing",
+        "id": "ETHICS_DS_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Anonymity = Anonymous(무명) → 연구자조차 누구의 데이터인지 모르는 완전한 무명",
+      "differential": "익명성은 연구자도 참여자를 식별할 수 없고, 비밀보장은 연구자는 식별할 수 있지만 외부에 공개하지 않는 것이다.",
+      "key_point": "종단 연구나 실험 연구에서는 동일 참여자의 데이터를 연결해야 하므로 완전한 익명성이 불가능한 경우가 많다.",
+      "common_mistake": "온라인 설문에서 이름을 수집하지 않으면 자동으로 익명이 보장된다고 생각하는 것. IP 주소 등으로 식별 가능할 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_DC_010",
+    "terminology": "기만연구 (Deception Research)",
+    "terminology_ko": "기만연구",
+    "terminology_en": "Deception Research",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구의 진정한 목적이나 절차에 대해 참여자에게 의도적으로 불완전하거나 거짓된 정보를 제공하는 연구 방법으로, 참여자의 자연스러운 행동을 관찰하기 위해 사용된다.",
+    "definition_en": "A research method that intentionally provides participants with incomplete or false information about the true purpose or procedures, used to observe natural behavior unaffected by demand characteristics.",
+    "significance": "사회심리학 등에서 요구특성을 통제하기 위해 필수적이지만, 참여자의 자율성과 신뢰를 침해할 수 있어 엄격한 윤리적 정당화와 사후 디브리핑이 요구된다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 밀그램",
+        "name_en": "Stanley Milgram",
+        "contribution": "복종 실험(1963)에서 극단적 기만을 사용하여, 기만연구의 윤리적 논쟁을 촉발시켰다."
+      },
+      {
+        "name_ko": "솔로몬 애쉬",
+        "name_en": "Solomon Asch",
+        "contribution": "동조 실험(1951)에서 연합(confederate)을 사용한 기만 패러다임을 개척했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "디브리핑",
+        "name_en": "Debriefing",
+        "id": "ETHICS_DB_006"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "IRB",
+        "name_en": "Institutional Review Board",
+        "id": "ETHICS_IR_004"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "적극적 기만 (Active Deception)",
+        "description": "참여자에게 거짓 정보를 적극적으로 제공하는 기만"
+      },
+      {
+        "name": "소극적 기만 (Passive Deception/Omission)",
+        "description": "연구의 일부 정보를 생략하여 불완전한 정보를 제공하는 기만"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "기만연구의 3조건: ① 대안 없음 ② 심각한 해 없음 ③ 즉시 디브리핑",
+      "differential": "적극적 기만은 거짓 정보를 제공하는 것이고, 소극적 기만은 정보를 생략하는 것이다. 적극적 기만이 윤리적으로 더 문제된다.",
+      "key_point": "APA 윤리강령은 기만 없이 연구를 수행할 수 없을 때만 허용하며, 참여자에게 심각한 고통을 주는 기만은 금지한다.",
+      "common_mistake": "기만연구가 무조건 비윤리적이라고 생각하는 것. IRB 승인과 적절한 디브리핑이 있으면 정당화될 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_PH_011",
+    "terminology": "p-해킹 (p-Hacking)",
+    "terminology_ko": "p-해킹",
+    "terminology_en": "p-Hacking",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "통계적으로 유의한 결과(p < .05)를 얻기 위해 데이터를 다양한 방식으로 분석하거나, 이상치를 선택적으로 제거하거나, 표본을 추가하는 등의 부적절한 분석 관행이다.",
+    "definition_en": "The inappropriate practice of analyzing data in various ways, selectively removing outliers, or adding participants to achieve statistically significant results (p < .05).",
+    "significance": "거짓 양성 비율을 인위적으로 높여 재현 불가능한 연구 결과를 양산하며, 심리학 재현성 위기의 핵심 원인 중 하나로 지목된다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지프 시먼스",
+        "name_en": "Joseph P. Simmons",
+        "contribution": "2011년 'False-positive psychology' 논문에서 p-해킹의 구체적 방법과 심각성을 체계적으로 입증했다."
+      },
+      {
+        "name_ko": "유리 시먼손",
+        "name_en": "Uri Simonsohn",
+        "contribution": "p-curve 분석을 개발하여 출판된 연구에서 p-해킹의 증거를 탐지하는 방법을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "연구자 자유도",
+        "name_en": "Researcher Degrees of Freedom",
+        "id": "ETHICS_RF_027"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "재현성 위기",
+        "name_en": "Replication Crisis",
+        "id": "ETHICS_RC_014"
+      },
+      {
+        "name_ko": "QRP",
+        "name_en": "Questionable Research Practices",
+        "id": "ETHICS_QR_028"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "선택적 분석 (Selective Analysis)",
+        "description": "여러 분석 방법 중 유의한 결과만 보고"
+      },
+      {
+        "name": "선택적 이상치 제거",
+        "description": "유의한 결과를 위해 이상치를 선택적으로 제거"
+      },
+      {
+        "name": "선택적 표본 추가",
+        "description": "유의할 때까지 데이터를 추가 수집"
+      },
+      {
+        "name": "선택적 종속변인 보고",
+        "description": "여러 종속변인 중 유의한 것만 보고"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "p-Hacking = p < .05를 '해킹'하듯 억지로 만드는 것 → '통계적 유의성 조작'",
+      "differential": "p-해킹은 데이터를 다양하게 '분석'하여 유의성을 얻는 것이고, 데이터 위조는 데이터 자체를 '조작'하는 것이다.",
+      "key_point": "Simmons 등(2011)은 유연한 분석만으로도 거짓 양성률이 명목 5%에서 60% 이상으로 증가할 수 있음을 보여주었다.",
+      "common_mistake": "p-해킹이 의도적인 사기라고만 생각하는 것. 대부분은 연구자가 의식하지 못한 채 '합리적 분석 결정'으로 발생한다."
+    }
+  },
+  {
+    "id": "ETHICS_PB_012",
+    "terminology": "출판편향 (Publication Bias)",
+    "terminology_ko": "출판편향",
+    "terminology_en": "Publication Bias",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "통계적으로 유의한 결과나 긍정적인 결과를 보고한 연구가 비유의적/부정적 결과의 연구보다 출판될 가능성이 체계적으로 높은 현상이다.",
+    "definition_en": "The systematic phenomenon where studies reporting statistically significant or positive results have a higher probability of being published than those with non-significant or negative results.",
+    "significance": "과학 문헌이 효과의 존재와 크기를 과대추정하게 만들어 메타분석 결과를 왜곡하고, 비효과적인 치료법이 효과적으로 보이게 하는 심각한 문제를 초래한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로버트 로젠탈",
+        "name_en": "Robert Rosenthal",
+        "contribution": "1979년 '파일서랍 문제'를 명명하여 출판편향의 심각성을 학계에 경고했다."
+      },
+      {
+        "name_ko": "케이 딕커신",
+        "name_en": "Kay Dickersin",
+        "contribution": "출판편향의 실증적 증거를 체계적으로 수집하고, 임상시험 등록의 필요성을 주장했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "파일서랍 문제",
+        "name_en": "File Drawer Problem",
+        "id": "ETHICS_FD_025"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "선택적 보고",
+        "name_en": "Selective Reporting",
+        "id": "ETHICS_SR_026"
+      },
+      {
+        "name_ko": "깔때기 도표",
+        "name_en": "Funnel Plot",
+        "id": "EFFECT_FU_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Publication Bias = '출판 편식' → 유의한 결과만 골라 출판하는 편식 현상",
+      "differential": "출판편향은 학술지 수준에서 유의한 연구를 선호하는 것이고, 선택적 보고는 연구자 수준에서 유의한 결과만 보고하는 것이다.",
+      "key_point": "사전등록, 등록보고서(Registered Reports), 결과 무관 심사(results-blind review)가 대안이다.",
+      "common_mistake": "출판편향이 연구자의 의도적 선택만으로 발생한다고 생각하는 것. 심사자와 편집자의 편향, 연구자의 자기검열도 원인이다."
+    }
+  },
+  {
+    "id": "ETHICS_RM_013",
+    "terminology": "연구부정행위 (Research Misconduct)",
+    "terminology_ko": "연구부정행위",
+    "terminology_en": "Research Misconduct",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "과학 연구에서 위조(fabrication), 변조(falsification), 표절(plagiarism)을 포함하는 의도적이고 심각한 윤리 위반 행위로, 과학적 기록의 무결성을 훼손한다.",
+    "definition_en": "Intentional and serious ethical violations in scientific research including fabrication, falsification, and plagiarism (FFP), which compromise the integrity of the scientific record.",
+    "significance": "과학에 대한 공공의 신뢰를 근본적으로 훼손하고, 잘못된 연구 결과에 기반한 정책과 실무가 실제 피해를 초래할 수 있어 엄격한 예방과 제재가 필요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국 연구진실성국",
+        "name_en": "U.S. Office of Research Integrity",
+        "contribution": "연구부정행위의 정의(FFP)를 공식화하고, 조사 및 제재 절차를 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "위조",
+        "name_en": "Fabrication",
+        "id": "ETHICS_FA_015"
+      },
+      {
+        "name_ko": "변조",
+        "name_en": "Falsification",
+        "id": "ETHICS_FL_016"
+      },
+      {
+        "name_ko": "표절",
+        "name_en": "Plagiarism",
+        "id": "ETHICS_PL_017"
+      },
+      {
+        "name_ko": "QRP",
+        "name_en": "Questionable Research Practices",
+        "id": "ETHICS_QR_028"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "위조 (Fabrication)",
+        "description": "존재하지 않는 데이터나 결과를 만들어내는 행위"
+      },
+      {
+        "name": "변조 (Falsification)",
+        "description": "연구 자료, 장비, 과정을 조작하거나 데이터를 변경하는 행위"
+      },
+      {
+        "name": "표절 (Plagiarism)",
+        "description": "타인의 아이디어, 과정, 결과, 문장을 적절한 인용 없이 사용하는 행위"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "FFP = Fabrication(위조) + Falsification(변조) + Plagiarism(표절) → 연구부정행위의 3대 범주",
+      "differential": "연구부정행위(FFP)는 의도적이고 심각한 위반이고, QRP(의심스러운 연구관행)는 '회색지대'의 부적절한 관행이다.",
+      "key_point": "미국 연방 정의에서 '성실한 오류(honest error)'와 '견해의 차이(differences of opinion)'는 부정행위에서 제외된다.",
+      "common_mistake": "연구부정행위를 데이터 위조에만 한정하는 것. 표절과 변조도 동등하게 심각한 부정행위이다."
+    }
+  },
+  {
+    "id": "ETHICS_RC_014",
+    "terminology": "재현성 위기 (Replication Crisis)",
+    "terminology_ko": "재현성 위기",
+    "terminology_en": "Replication Crisis",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "심리학을 포함한 여러 과학 분야에서 주요 연구 결과를 독립적으로 재현하는 데 반복적으로 실패하는 현상으로, 출판된 연구의 신뢰성에 대한 근본적 의문을 제기했다.",
+    "definition_en": "A phenomenon across multiple scientific fields including psychology where independent attempts to replicate key findings repeatedly fail, raising fundamental questions about the reliability of published research.",
+    "significance": "심리학의 과학적 기반에 대한 근본적 성찰을 촉발하고, 사전등록, 오픈 사이언스, 대규모 재현 프로젝트 등 연구 관행의 전면적 개혁을 이끌었다.",
+    "key_researchers": [
+      {
+        "name_ko": "브라이언 노섹",
+        "name_en": "Brian Nosek",
+        "contribution": "Reproducibility Project: Psychology(2015)를 주도하여 100개 연구 중 36%만 재현됨을 보고했다."
+      },
+      {
+        "name_ko": "존 이오아니디스",
+        "name_en": "John P. A. Ioannidis",
+        "contribution": "2005년 'Why Most Published Research Findings Are False' 논문으로 재현성 위기를 예견했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "반복검증",
+        "name_en": "Replication",
+        "id": "FOUND_RP_031"
+      },
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-Hacking",
+        "id": "ETHICS_PH_011"
+      },
+      {
+        "name_ko": "출판편향",
+        "name_en": "Publication Bias",
+        "id": "ETHICS_PB_012"
+      },
+      {
+        "name_ko": "오픈 사이언스",
+        "name_en": "Open Science",
+        "id": "ETHICS_OS_020"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Replication Crisis = '재현 실패의 위기' → 100개 연구 중 36개만 재현(Nosek, 2015)",
+      "differential": "재현성(replicability)은 동일 방법으로 같은 결과를 얻는 것이고, 재생산성(reproducibility)은 동일 데이터로 같은 분석 결과를 얻는 것이다.",
+      "key_point": "Open Science Collaboration(2015) 결과: 원래 유의한 100개 연구 중 재현 시 36%만 유의했으며, 평균 효과크기도 절반으로 감소했다.",
+      "common_mistake": "재현 실패가 원래 연구가 '틀렸다'는 증거라고 단정하는 것. 재현 연구의 검정력 부족, 표본 차이 등 다른 원인도 가능하다."
+    }
+  },
+  {
+    "id": "ETHICS_FA_015",
+    "terminology": "위조 (Fabrication)",
+    "terminology_ko": "위조",
+    "terminology_en": "Fabrication",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "실제로 수행하지 않은 실험이나 관찰의 데이터, 결과, 기록을 존재하지 않는데 만들어내는 가장 심각한 형태의 연구부정행위이다.",
+    "definition_en": "The most serious form of research misconduct involving the creation of data, results, or records from experiments or observations that were never conducted.",
+    "significance": "과학적 기록에 허위 정보를 유입시켜 후속 연구와 실무에 직접적 피해를 줄 수 있으며, 발각 시 논문 철회, 연구비 반환, 직위 해임 등 가장 무거운 제재를 받는다.",
+    "key_researchers": [
+      {
+        "name_ko": "디데릭 스타펠",
+        "name_en": "Diederik Stapel",
+        "contribution": "사회심리학에서 대규모 데이터 위조 사건(2011)의 당사자로, 58편의 논문이 철회되었다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변조",
+        "name_en": "Falsification",
+        "id": "ETHICS_FL_016"
+      },
+      {
+        "name_ko": "연구부정행위",
+        "name_en": "Research Misconduct",
+        "id": "ETHICS_RM_013"
+      },
+      {
+        "name_ko": "표절",
+        "name_en": "Plagiarism",
+        "id": "ETHICS_PL_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Fabrication = Fabricate(만들어내다) → '없는 데이터를 만들어낸다'",
+      "differential": "위조는 존재하지 않는 데이터를 '만들어내는' 것이고, 변조는 실제 데이터를 '바꾸는' 것이다.",
+      "key_point": "Stapel 사건(2011), Hwang 사건(2005) 등이 대표적이며, 동료의 비정상적 데이터 패턴 보고가 발각의 주요 경로이다.",
+      "common_mistake": "위조는 극소수 악의적 연구자만의 문제라고 생각하는 것. 조직적 압력과 인센티브 구조가 위조를 유발할 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_FL_016",
+    "terminology": "변조 (Falsification)",
+    "terminology_ko": "변조",
+    "terminology_en": "Falsification",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "실제로 수집한 연구 자료, 장비, 과정을 조작하거나, 데이터를 변경 또는 생략하여 연구 기록이 정확히 반영되지 않도록 하는 부정행위이다.",
+    "definition_en": "Misconduct involving the manipulation of research materials, equipment, or processes, or changing or omitting data so that research records do not accurately reflect the actual findings.",
+    "significance": "위조보다 탐지가 어려워 과학적 기록을 은밀하게 오염시키며, 이상치 제거, 그래프 조작 등 비교적 '가벼운' 형태도 심각한 윤리 위반에 해당한다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국 연구진실성국",
+        "name_en": "U.S. Office of Research Integrity",
+        "contribution": "변조의 구체적 유형과 판단 기준을 연방 규정에 명시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "위조",
+        "name_en": "Fabrication",
+        "id": "ETHICS_FA_015"
+      },
+      {
+        "name_ko": "연구부정행위",
+        "name_en": "Research Misconduct",
+        "id": "ETHICS_RM_013"
+      },
+      {
+        "name_ko": "선택적 보고",
+        "name_en": "Selective Reporting",
+        "id": "ETHICS_SR_026"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "데이터 변조",
+        "description": "수치를 변경하거나 불리한 데이터 포인트를 제거"
+      },
+      {
+        "name": "이미지 조작",
+        "description": "실험 이미지를 편집하거나 합성하여 결과를 왜곡"
+      },
+      {
+        "name": "선택적 데이터 생략",
+        "description": "가설을 지지하지 않는 데이터를 의도적으로 보고에서 제외"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Falsification = False(거짓) + ification → '진짜 데이터를 거짓으로 바꾸는 것'",
+      "differential": "변조는 실제 데이터를 '변경'하는 것이고, 위조는 존재하지 않는 데이터를 '창조'하는 것이다.",
+      "key_point": "불리한 데이터 포인트를 정당한 통계적 근거 없이 제거하는 것도 변조에 해당할 수 있다.",
+      "common_mistake": "'이상치 제거'를 정당한 분석 절차라고 자동으로 가정하는 것. 사전에 정해진 기준 없이 결과에 따라 이상치를 제거하면 변조가 될 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_PL_017",
+    "terminology": "표절 (Plagiarism)",
+    "terminology_ko": "표절",
+    "terminology_en": "Plagiarism",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "타인의 아이디어, 과정, 결과, 표현을 적절한 출처 표시 없이 자신의 것처럼 사용하는 행위로, 자기 표절(self-plagiarism)도 포함된다.",
+    "definition_en": "The act of using another person's ideas, processes, results, or expressions without proper attribution, presenting them as one's own work, including self-plagiarism.",
+    "significance": "학문적 정직성의 기본을 훼손하고 원저자의 지적 재산권을 침해하며, 학위 취소, 논문 철회, 직위 해임 등의 심각한 제재를 초래한다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "APA 출판 매뉴얼에서 올바른 인용 방법과 표절의 범위를 구체적으로 규정했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "위조",
+        "name_en": "Fabrication",
+        "id": "ETHICS_FA_015"
+      },
+      {
+        "name_ko": "변조",
+        "name_en": "Falsification",
+        "id": "ETHICS_FL_016"
+      },
+      {
+        "name_ko": "연구부정행위",
+        "name_en": "Research Misconduct",
+        "id": "ETHICS_RM_013"
+      },
+      {
+        "name_ko": "APA 보고 양식",
+        "name_en": "APA Reporting Style",
+        "id": "ETHICS_AP_018"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "직접 표절 (Direct Plagiarism)",
+        "description": "타인의 문장을 인용 없이 그대로 복사"
+      },
+      {
+        "name": "패러프레이즈 표절 (Paraphrase Plagiarism)",
+        "description": "출처 없이 내용을 바꿔 쓴 것"
+      },
+      {
+        "name": "자기 표절 (Self-Plagiarism)",
+        "description": "자신의 이전 출판물을 새 저작으로 재사용"
+      },
+      {
+        "name": "아이디어 표절 (Idea Plagiarism)",
+        "description": "출처 없이 타인의 독창적 아이디어를 사용"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Plagiarism = '남의 것을 내 것처럼' → 인용 표시의 부재가 핵심",
+      "differential": "표절은 타인의 아이디어/표현을 '도용'하는 것이고, 위조는 데이터를 '만들어내는' 것이다. 둘 다 연구부정행위이다.",
+      "key_point": "자기 표절(이전 출판물 재사용)도 부정행위에 해당하며, 이중 출판(duplicate publication)과도 관련된다.",
+      "common_mistake": "패러프레이즈하면(바꿔 쓰면) 인용하지 않아도 된다고 생각하는 것. 아이디어의 출처는 항상 밝혀야 한다."
+    }
+  },
+  {
+    "id": "ETHICS_AP_018",
+    "terminology": "APA 보고 양식 (APA Reporting Style)",
+    "terminology_ko": "APA 보고 양식",
+    "terminology_en": "APA Reporting Style",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "미국심리학회(APA) 출판 매뉴얼에 규정된 연구 결과의 표준 보고 형식으로, 효과크기, 신뢰구간, 정확한 p값, 검정통계량 등을 반드시 보고하도록 요구한다.",
+    "definition_en": "The standard reporting format specified in the APA Publication Manual requiring the reporting of effect sizes, confidence intervals, exact p-values, and test statistics in research results.",
+    "significance": "연구 결과의 투명성과 재현가능성을 보장하고, 메타분석에 필요한 정보를 제공하며, 전 세계 심리학 학술지의 표준 보고 형식으로 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "1929년 첫 출판 매뉴얼 이후 7차 개정(2020)까지 보고 기준을 지속적으로 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      },
+      {
+        "name_ko": "CONSORT",
+        "name_en": "CONSORT Statement",
+        "id": "ETHICS_CS_019"
+      },
+      {
+        "name_ko": "효과보고 의무",
+        "name_en": "Effect Size Reporting Mandate",
+        "id": "ETHICS_ER_032"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "APA 보고 필수: 검정통계량 + df + p값 + 효과크기 + CI → 'T-d-p-ES-CI'",
+      "differential": "APA 양식은 심리학의 일반 보고 기준이고, CONSORT/STROBE는 특정 연구설계(RCT/관찰연구)의 보고 지침이다.",
+      "key_point": "APA 7판(2020)은 p값을 정확하게 보고하고(예: p = .032), 효과크기와 95% CI를 반드시 포함할 것을 요구한다.",
+      "common_mistake": "'p < .05'만 보고하면 충분하다고 생각하는 것. APA는 정확한 p값, 효과크기, 신뢰구간을 모두 요구한다."
+    }
+  },
+  {
+    "id": "ETHICS_CS_019",
+    "terminology": "CONSORT 성명 (CONSORT Statement)",
+    "terminology_ko": "CONSORT 성명",
+    "terminology_en": "CONSORT Statement",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "무작위 대조 시험(RCT)의 투명하고 완전한 보고를 위한 국제 지침으로, 체크리스트 25개 항목과 참여자 흐름도(flow diagram)를 포함한다.",
+    "definition_en": "An international guideline for transparent and complete reporting of randomized controlled trials, including a 25-item checklist and a participant flow diagram.",
+    "significance": "RCT 보고의 질을 표준화하여 연구 결과의 평가 가능성과 재현성을 높이며, 500개 이상의 학술지가 투고 조건으로 채택하고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "더글러스 알트만",
+        "name_en": "Douglas G. Altman",
+        "contribution": "CONSORT 성명의 주 개발자로, RCT 보고 기준의 국제 표준화를 주도했다."
+      },
+      {
+        "name_ko": "데이비드 모허",
+        "name_en": "David Moher",
+        "contribution": "CONSORT 2010 개정판의 주도적 역할을 수행하고, 보고 지침의 체계적 발전에 기여했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "STROBE",
+        "name_en": "STROBE Statement",
+        "id": "ETHICS_ST_033"
+      },
+      {
+        "name_ko": "APA 보고 양식",
+        "name_en": "APA Reporting Style",
+        "id": "ETHICS_AP_018"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CONSORT = Consolidated Standards of Reporting Trials → '시험 보고의 통합 기준'",
+      "differential": "CONSORT는 RCT(실험 연구) 보고 지침이고, STROBE는 관찰 연구(코호트, 사례-대조, 단면) 보고 지침이다.",
+      "key_point": "참여자 흐름도(flow diagram)가 핵심으로, 모집→배정→추적→분석의 각 단계에서의 참여자 수를 명시해야 한다.",
+      "common_mistake": "CONSORT가 연구 '수행' 방법을 규정한다고 생각하는 것. CONSORT는 연구 '보고' 방법에 대한 지침이다."
+    }
+  },
+  {
+    "id": "ETHICS_OS_020",
+    "terminology": "오픈 사이언스 (Open Science)",
+    "terminology_ko": "오픈 사이언스",
+    "terminology_en": "Open Science",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구의 전 과정(가설, 데이터, 분석코드, 결과, 출판물)을 공개적이고 투명하게 공유하여 과학의 재현성, 접근성, 협력을 증진시키는 운동이다.",
+    "definition_en": "A movement to share all aspects of the research process (hypotheses, data, analysis code, results, publications) openly and transparently to promote scientific reproducibility, accessibility, and collaboration.",
+    "significance": "재현성 위기에 대한 근본적 대응으로, 연구의 투명성과 접근성을 높여 과학적 자기교정 기능을 강화하고, 공공 자금으로 수행된 연구의 사회 환원을 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "브라이언 노섹",
+        "name_en": "Brian Nosek",
+        "contribution": "Center for Open Science를 설립하고 OSF 플랫폼을 구축하여 오픈 사이언스 인프라를 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "데이터 공유",
+        "name_en": "Data Sharing",
+        "id": "ETHICS_DS_022"
+      },
+      {
+        "name_ko": "재현성 위기",
+        "name_en": "Replication Crisis",
+        "id": "ETHICS_RC_014"
+      },
+      {
+        "name_ko": "반복검증",
+        "name_en": "Replication",
+        "id": "FOUND_RP_031"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "오픈 데이터 (Open Data)",
+        "description": "연구 데이터를 공개 저장소에 공유"
+      },
+      {
+        "name": "오픈 코드 (Open Code)",
+        "description": "분석 스크립트와 소프트웨어를 공개"
+      },
+      {
+        "name": "오픈 액세스 (Open Access)",
+        "description": "출판물을 무료로 접근 가능하게 공개"
+      },
+      {
+        "name": "오픈 자료 (Open Materials)",
+        "description": "실험 자극, 측정 도구 등을 공개"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Open Science의 4가지 Open: Data + Code + Access + Materials → 'DCAM'",
+      "differential": "오픈 사이언스는 연구 과정 전체의 투명성 운동이고, 사전등록은 가설과 분석 계획의 사전 공개라는 구체적 실천이다.",
+      "key_point": "OSF(Open Science Framework), GitHub, Zenodo 등이 대표적 플랫폼이며, 뱃지 시스템으로 실천을 인센티브화한다.",
+      "common_mistake": "오픈 사이언스가 모든 데이터를 무조건 공개하는 것이라고 생각하는 것. 참여자 프라이버시와 비밀보장은 여전히 우선한다."
+    }
+  },
+  {
+    "id": "ETHICS_IC_021",
+    "terminology": "이해충돌 (Conflict of Interest)",
+    "terminology_ko": "이해충돌",
+    "terminology_en": "Conflict of Interest",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구자의 재정적, 개인적, 직업적 이해관계가 연구의 객관적 수행이나 보고에 부당한 영향을 미칠 수 있는 상황이다.",
+    "definition_en": "A situation where a researcher's financial, personal, or professional interests may unduly influence the objective conduct or reporting of research.",
+    "significance": "연구 결과의 편향 가능성을 투명하게 공개하여, 독자가 결과를 비판적으로 평가할 수 있게 하며, 학술지 투고 시 의무적으로 공시해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회",
+        "name_en": "American Psychological Association",
+        "contribution": "윤리강령에서 이해충돌의 공시 의무와 관리 방법을 규정했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "연구윤리",
+        "name_en": "Research Ethics",
+        "id": "ETHICS_RE_001"
+      },
+      {
+        "name_ko": "APA 윤리강령",
+        "name_en": "APA Ethics Code",
+        "id": "ETHICS_AE_003"
+      },
+      {
+        "name_ko": "출판편향",
+        "name_en": "Publication Bias",
+        "id": "ETHICS_PB_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "재정적 이해충돌",
+        "description": "연구 결과에 따라 재정적 이득이 달라지는 경우 (예: 제약회사 후원)"
+      },
+      {
+        "name": "비재정적 이해충돌",
+        "description": "학문적 경쟁, 개인적 관계, 이념적 동기 등"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "COI = Conflict of Interest → '이익의 충돌' → 연구 객관성 vs. 개인 이익",
+      "differential": "이해충돌은 편향의 '가능성'이지 실제 편향의 '증거'가 아니다. 공시(disclosure)만으로 충분한지, 회피가 필요한지 판단해야 한다.",
+      "key_point": "APA, ICMJE 등 모든 주요 학술 기관이 이해충돌 공시를 의무화하고 있다.",
+      "common_mistake": "이해충돌이 있으면 연구가 자동으로 편향되었다고 결론짓는 것. 공시는 투명성을 위한 것이지 연구의 무효를 의미하지 않는다."
+    }
+  },
+  {
+    "id": "ETHICS_DS_022",
+    "terminology": "데이터 공유 (Data Sharing)",
+    "terminology_ko": "데이터 공유",
+    "terminology_en": "Data Sharing",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구에서 수집한 원시 데이터와 분석 코드를 다른 연구자가 접근하고 재분석할 수 있도록 공개 저장소에 공유하는 실천이다.",
+    "definition_en": "The practice of making raw data and analysis code from research accessible to other researchers through public repositories for verification and reanalysis.",
+    "significance": "연구의 재현성과 투명성을 높이고, 데이터의 2차 활용을 통한 과학적 발견을 촉진하며, 공공 자금 연구의 사회 환원 의무를 이행한다.",
+    "key_researchers": [
+      {
+        "name_ko": "브라이언 노섹",
+        "name_en": "Brian Nosek",
+        "contribution": "OSF를 통해 데이터 공유 인프라를 제공하고, 데이터 공유를 오픈 사이언스의 핵심 실천으로 추진했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "오픈 사이언스",
+        "name_en": "Open Science",
+        "id": "ETHICS_OS_020"
+      },
+      {
+        "name_ko": "재현성 위기",
+        "name_en": "Replication Crisis",
+        "id": "ETHICS_RC_014"
+      },
+      {
+        "name_ko": "비밀보장",
+        "name_en": "Confidentiality",
+        "id": "ETHICS_CF_008"
+      },
+      {
+        "name_ko": "익명성",
+        "name_en": "Anonymity",
+        "id": "ETHICS_AN_009"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "완전 공개 (Full Open Data)",
+        "description": "비식별화된 데이터를 누구나 접근 가능하게 공개"
+      },
+      {
+        "name": "요청 공유 (Data Available on Request)",
+        "description": "합리적 요청 시 연구자에게 직접 제공"
+      },
+      {
+        "name": "제한 접근 (Restricted Access)",
+        "description": "특정 조건(IRB 승인 등) 하에서만 접근 허용"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Data Sharing = '내 데이터를 남도 볼 수 있게' → 투명성과 검증 가능성의 핵심",
+      "differential": "데이터 공유는 원시 데이터의 공개이고, 사전등록은 연구 계획의 공개이다. 둘 다 투명성을 위한 실천이다.",
+      "key_point": "FAIR 원칙(Findable, Accessible, Interoperable, Reusable)이 데이터 공유의 국제 표준이다.",
+      "common_mistake": "데이터 공유가 참여자 프라이버시를 침해한다고 무조건 거부하는 것. 비식별화와 접근 제한으로 양립이 가능하다."
+    }
+  },
+  {
+    "id": "ETHICS_PA_023",
+    "terminology": "사전분석계획 (Pre-Analysis Plan)",
+    "terminology_ko": "사전분석계획",
+    "terminology_en": "Pre-Analysis Plan",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "데이터 수집 전에 분석에 사용할 통계적 방법, 변인 정의, 이상치 처리 기준, 모형 명세 등을 구체적으로 기술한 계획 문서이다.",
+    "definition_en": "A document specifying the statistical methods, variable definitions, outlier handling criteria, and model specifications to be used in analysis, written before data collection.",
+    "significance": "연구자 자유도를 최소화하고 확인적 분석과 탐색적 분석을 명확히 구분하여, p-해킹과 HARKing을 구조적으로 방지한다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드워드 미겔",
+        "name_en": "Edward Miguel",
+        "contribution": "경제학에서 사전분석계획의 도입을 주도하고, 개발경제학 연구에서의 효과를 입증했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "연구자 자유도",
+        "name_en": "Researcher Degrees of Freedom",
+        "id": "ETHICS_RF_027"
+      },
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-Hacking",
+        "id": "ETHICS_PH_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Pre-Analysis Plan = '분석 레시피를 미리 작성' → 데이터를 보기 전에 분석 방법을 고정",
+      "differential": "사전분석계획은 분석 방법의 '구체적 명세'이고, 사전등록은 가설과 설계를 포함한 '전체 연구 계획'의 공개이다.",
+      "key_point": "변인 정의, 이상치 기준, 공변인 선택, 다중비교 보정 방법 등을 사전에 명시해야 한다.",
+      "common_mistake": "사전분석계획이 있으면 어떤 탐색적 분석도 할 수 없다고 생각하는 것. 계획된 분석과 탐색적 분석을 구분하여 보고하면 된다."
+    }
+  },
+  {
+    "id": "ETHICS_HK_024",
+    "terminology": "HARKing (Hypothesizing After Results are Known)",
+    "terminology_ko": "HARKing",
+    "terminology_en": "HARKing",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "데이터 분석 결과를 확인한 후에 마치 사전에 예측했던 것처럼 가설을 수정하거나 새로 만들어 보고하는 의심스러운 연구관행이다.",
+    "definition_en": "A questionable research practice of modifying or creating hypotheses after examining data analysis results, presenting them as if they were predicted a priori.",
+    "significance": "탐색적 결과를 확인적 결과로 포장하여 거짓 양성 비율을 높이고, 연구의 사전 예측력에 대한 과장된 인상을 만들어 과학적 자기교정을 방해한다.",
+    "key_researchers": [
+      {
+        "name_ko": "노버트 케르",
+        "name_en": "Norbert L. Kerr",
+        "contribution": "1998년 HARKing이라는 용어를 창안하고 이 관행의 유형과 문제점을 체계적으로 분석했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-Hacking",
+        "id": "ETHICS_PH_011"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "QRP",
+        "name_en": "Questionable Research Practices",
+        "id": "ETHICS_QR_028"
+      },
+      {
+        "name_ko": "가설",
+        "name_en": "Hypothesis",
+        "id": "FOUND_HY_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "HARKing = 결과를 보고 '아, 내가 원래 이걸 예측했지' → '사후 예언'",
+      "differential": "HARKing은 사후 가설을 사전 가설로 위장하는 것이고, 탐색적 분석은 사후 분석임을 명시하는 정직한 관행이다.",
+      "key_point": "사전등록이 가장 효과적인 방지책이며, 확인적 분석과 탐색적 분석을 논문에서 명확히 구분해야 한다.",
+      "common_mistake": "모든 사후 가설 생성이 HARKing이라고 생각하는 것. 문제는 사후 가설을 사전 가설인 것처럼 보고하는 것이다."
+    }
+  },
+  {
+    "id": "ETHICS_FD_025",
+    "terminology": "파일서랍 문제 (File Drawer Problem)",
+    "terminology_ko": "파일서랍 문제",
+    "terminology_en": "File Drawer Problem",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "통계적으로 비유의적인 결과를 얻은 연구가 출판되지 않고 연구자의 파일서랍에 방치되는 현상으로, 출판편향의 핵심 메커니즘이다.",
+    "definition_en": "The phenomenon where studies with statistically non-significant results remain unpublished in researchers' file drawers, representing the core mechanism of publication bias.",
+    "significance": "출판된 문헌이 실제 증거의 편향된 표본에 불과함을 경고하며, 메타분석 결과의 과대추정 문제와 사전등록의 필요성을 부각시켰다.",
+    "key_researchers": [
+      {
+        "name_ko": "로버트 로젠탈",
+        "name_en": "Robert Rosenthal",
+        "contribution": "1979년 '파일서랍 문제'라는 용어를 창안하고, Fail-Safe N으로 이 문제의 심각도를 평가하는 방법을 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "출판편향",
+        "name_en": "Publication Bias",
+        "id": "ETHICS_PB_012"
+      },
+      {
+        "name_ko": "안전계수 N",
+        "name_en": "Fail-Safe N",
+        "id": "EFFECT_FSN_035"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "선택적 보고",
+        "name_en": "Selective Reporting",
+        "id": "ETHICS_SR_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "File Drawer = '서랍 속에 잠자는 연구들' → 비유의적 결과가 세상에 나오지 못함",
+      "differential": "파일서랍 문제는 연구 전체가 미출판되는 것이고, 선택적 보고는 단일 연구 내 일부 결과만 보고하는 것이다.",
+      "key_point": "등록보고서(Registered Reports)는 데이터 수집 전 심사를 통해 파일서랍 문제를 구조적으로 해결한다.",
+      "common_mistake": "파일서랍 문제가 연구자의 게으름 때문이라고 생각하는 것. 학술지의 유의한 결과 선호가 구조적 원인이다."
+    }
+  },
+  {
+    "id": "ETHICS_SR_026",
+    "terminology": "선택적 보고 (Selective Reporting)",
+    "terminology_ko": "선택적 보고",
+    "terminology_en": "Selective Reporting",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구에서 측정한 여러 결과 중 통계적으로 유의한 결과만 선별적으로 보고하고, 비유의적 결과는 누락하는 부적절한 보고 관행이다.",
+    "definition_en": "The inappropriate reporting practice of selectively reporting only statistically significant results from multiple measured outcomes while omitting non-significant findings.",
+    "significance": "단일 연구 수준에서 결과를 왜곡하여 효과의 존재와 크기에 대한 편향된 인상을 만들며, 메타분석의 정확성에도 부정적 영향을 미친다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 이오아니디스",
+        "name_en": "John P. A. Ioannidis",
+        "contribution": "선택적 보고가 연구 결과의 신뢰성을 체계적으로 저해하는 메커니즘을 분석했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "파일서랍 문제",
+        "name_en": "File Drawer Problem",
+        "id": "ETHICS_FD_025"
+      },
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-Hacking",
+        "id": "ETHICS_PH_011"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      },
+      {
+        "name_ko": "출판편향",
+        "name_en": "Publication Bias",
+        "id": "ETHICS_PB_012"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "결과변인 선택적 보고",
+        "description": "유의한 종속변인만 보고하고 나머지는 생략"
+      },
+      {
+        "name": "분석 방법 선택적 보고",
+        "description": "유의한 결과를 내는 분석 방법만 보고"
+      },
+      {
+        "name": "하위집단 선택적 보고",
+        "description": "유의한 하위집단 결과만 보고"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "Selective Reporting = '체리 피킹(cherry picking)' → 좋아 보이는 결과만 골라 보고",
+      "differential": "선택적 보고는 단일 연구 내 결과의 선별이고, 파일서랍 문제는 연구 전체의 미출판이다.",
+      "key_point": "사전등록에서 1차 결과변인과 분석 방법을 미리 명시하면 선택적 보고를 방지할 수 있다.",
+      "common_mistake": "비유의적 결과를 보고할 가치가 없다고 생각하는 것. 비유의적 결과도 과학적으로 중요한 정보이다."
+    }
+  },
+  {
+    "id": "ETHICS_RF_027",
+    "terminology": "연구자 자유도 (Researcher Degrees of Freedom)",
+    "terminology_ko": "연구자 자유도",
+    "terminology_en": "Researcher Degrees of Freedom",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "연구 과정에서 연구자가 데이터 수집 중단 시점, 이상치 처리, 변인 선택, 분석 방법 등을 자의적으로 결정할 수 있는 유연성의 정도를 나타내는 개념이다.",
+    "definition_en": "The degree of flexibility researchers have in making arbitrary decisions during research, including when to stop data collection, how to handle outliers, which variables to include, and which analyses to run.",
+    "significance": "연구자 자유도가 높을수록 p-해킹의 가능성이 증가하여, 사전등록과 사전분석계획을 통해 이를 제한하는 것이 재현성 향상의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "조지프 시먼스",
+        "name_en": "Joseph P. Simmons",
+        "contribution": "2011년 'False-positive psychology'에서 연구자 자유도가 거짓 양성률을 급격히 높일 수 있음을 입증했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-Hacking",
+        "id": "ETHICS_PH_011"
+      },
+      {
+        "name_ko": "사전분석계획",
+        "name_en": "Pre-Analysis Plan",
+        "id": "ETHICS_PA_023"
+      },
+      {
+        "name_ko": "QRP",
+        "name_en": "Questionable Research Practices",
+        "id": "ETHICS_QR_028"
+      },
+      {
+        "name_ko": "사전등록",
+        "name_en": "Preregistration",
+        "id": "ETHICS_PR_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Researcher DF = '연구자의 선택지 수' → 선택지가 많을수록 유의한 결과를 찾을 확률 증가",
+      "differential": "통계적 자유도(df)는 데이터의 독립 정보량이고, 연구자 자유도는 분석 결정의 유연성이다. 전혀 다른 개념이다.",
+      "key_point": "Simmons 등(2011)은 4가지 연구자 자유도(종속변인 선택, 표본크기 결정, 공변인 포함, 조건 배제)만으로도 거짓 양성률이 61%까지 상승할 수 있음을 보여주었다.",
+      "common_mistake": "연구자 자유도를 의도적 부정행위와 동일시하는 것. 대부분 연구자가 인식하지 못한 채 유연한 결정을 내리는 것이다."
+    }
+  },
+  {
+    "id": "ETHICS_QR_028",
+    "terminology": "QRP (Questionable Research Practices)",
+    "terminology_ko": "QRP",
+    "terminology_en": "Questionable Research Practices",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "명백한 연구부정행위(FFP)에는 해당하지 않지만 연구의 신뢰성과 재현성을 저해하는 회색지대의 관행으로, p-해킹, HARKing, 선택적 보고 등이 포함된다.",
+    "definition_en": "Gray-area practices that do not constitute clear research misconduct (FFP) but undermine research reliability and reproducibility, including p-hacking, HARKing, and selective reporting.",
+    "significance": "명시적 부정행위보다 훨씬 빈번하게 발생하여 과학적 증거 기반을 체계적으로 오염시키며, 재현성 위기의 주된 원인으로 지목된다.",
+    "key_researchers": [
+      {
+        "name_ko": "레슬리 존",
+        "name_en": "Leslie K. John",
+        "contribution": "2012년 심리학자 대상 설문에서 QRP의 높은 빈도를 실증적으로 보고했다(예: HARKing 35%, 선택적 보고 67%)."
+      },
+      {
+        "name_ko": "조지프 시먼스",
+        "name_en": "Joseph P. Simmons",
+        "contribution": "QRP의 통계적 영향을 시뮬레이션으로 입증하고, '21-word solution(사전등록 약속)'을 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-Hacking",
+        "id": "ETHICS_PH_011"
+      },
+      {
+        "name_ko": "HARKing",
+        "name_en": "HARKing",
+        "id": "ETHICS_HK_024"
+      },
+      {
+        "name_ko": "선택적 보고",
+        "name_en": "Selective Reporting",
+        "id": "ETHICS_SR_026"
+      },
+      {
+        "name_ko": "연구부정행위",
+        "name_en": "Research Misconduct",
+        "id": "ETHICS_RM_013"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "p-해킹",
+        "description": "유의한 결과를 위해 다양한 분석을 시도"
+      },
+      {
+        "name": "HARKing",
+        "description": "사후 가설을 사전 가설로 위장"
+      },
+      {
+        "name": "선택적 보고",
+        "description": "유의한 결과만 보고"
+      },
+      {
+        "name": "선택적 이상치 제거",
+        "description": "결과에 따라 이상치를 자의적으로 제거"
+      },
+      {
+        "name": "선택적 표본 중단",
+        "description": "유의해지면 데이터 수집 중단"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "QRP = '회색지대 관행' → 사기(FFP)는 아니지만 과학을 오염시키는 나쁜 습관들",
+      "differential": "QRP는 의도성이 불분명한 '회색지대'의 관행이고, FFP(위조/변조/표절)는 명백한 '의도적' 부정행위이다.",
+      "key_point": "John 등(2012)의 설문에서 심리학자의 58%가 최소 1개 QRP를 시인했으며, 가장 흔한 것은 선택적 보고(67%)였다.",
+      "common_mistake": "QRP가 '가벼운 위반'이라 심각하지 않다고 생각하는 것. 빈번한 QRP의 누적 효과가 FFP보다 과학에 더 큰 해를 끼친다."
+    }
+  },
+  {
+    "id": "ETHICS_PP_029",
+    "terminology": "연구참여자 보호 (Protection of Human Subjects)",
+    "terminology_ko": "연구참여자 보호",
+    "terminology_en": "Protection of Human Subjects",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "인간 대상 연구에서 참여자의 신체적, 심리적, 사회적 안녕을 보호하기 위한 윤리적 원칙과 제도적 장치의 총체로, IRB 심의, 사전동의, 위험-이득 평가를 포함한다.",
+    "definition_en": "The totality of ethical principles and institutional mechanisms designed to protect the physical, psychological, and social well-being of participants in human subjects research, including IRB review, informed consent, and risk-benefit assessment.",
+    "significance": "터스키기 매독 실험, 나치 인체실험 등의 역사적 비극이 참여자 보호의 필요성을 절실히 보여주었으며, 모든 인간 대상 연구의 기본적 윤리 요건이다.",
+    "key_researchers": [
+      {
+        "name_ko": "헨리 비처",
+        "name_en": "Henry K. Beecher",
+        "contribution": "1966년 비윤리적 연구 사례 22건을 폭로하여 연구참여자 보호 제도의 도입을 촉진했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "IRB",
+        "name_en": "Institutional Review Board",
+        "id": "ETHICS_IR_004"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      },
+      {
+        "name_ko": "벨몬트 보고서",
+        "name_en": "Belmont Report",
+        "id": "ETHICS_BM_002"
+      },
+      {
+        "name_ko": "디브리핑",
+        "name_en": "Debriefing",
+        "id": "ETHICS_DB_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "참여자 보호의 3요소: 사전동의 + 위험최소화 + 비밀보장 → '알리고, 보호하고, 지킨다'",
+      "differential": "참여자 보호는 연구 '수행 과정'에서의 윤리이고, 연구 보고 윤리는 결과 '발표 과정'에서의 윤리이다.",
+      "key_point": "취약 집단(아동, 수감자, 인지장애인)은 추가적 보호가 필요하며, 대리동의 등 별도 절차가 적용된다.",
+      "common_mistake": "설문 연구는 참여자에게 위험이 없다고 가정하는 것. 민감한 질문은 심리적 불편감을 유발할 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_NC_030",
+    "terminology": "뉘른베르크 강령 (Nuremberg Code)",
+    "terminology_ko": "뉘른베르크 강령",
+    "terminology_en": "Nuremberg Code",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "1947년 뉘른베르크 전범 재판에서 나치 인체실험에 대한 판결과 함께 공포된 인간 대상 연구의 10가지 윤리 원칙으로, 자발적 동의를 최우선 원칙으로 제시한다.",
+    "definition_en": "Ten ethical principles for human experimentation proclaimed in 1947 following the Nuremberg trials of Nazi war crimes, establishing voluntary consent as the paramount requirement.",
+    "significance": "현대 연구윤리의 역사적 출발점으로, 인간 대상 연구에서의 자발적 동의 원칙을 최초로 국제적으로 선언하여 이후 모든 윤리 지침의 기초가 되었다.",
+    "key_researchers": [
+      {
+        "name_ko": "앤드루 아이비",
+        "name_en": "Andrew C. Ivy",
+        "contribution": "뉘른베르크 재판에서 미국 의학 자문관으로 활동하며, 연구윤리 원칙 수립에 기여했다."
+      },
+      {
+        "name_ko": "레오 알렉산더",
+        "name_en": "Leo Alexander",
+        "contribution": "뉘른베르크 강령의 10개 원칙 초안을 작성한 핵심 인물이다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "헬싱키 선언",
+        "name_en": "Declaration of Helsinki",
+        "id": "ETHICS_DH_031"
+      },
+      {
+        "name_ko": "벨몬트 보고서",
+        "name_en": "Belmont Report",
+        "id": "ETHICS_BM_002"
+      },
+      {
+        "name_ko": "사전동의",
+        "name_en": "Informed Consent",
+        "id": "ETHICS_IC_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "뉘른베르크 = 나치 → 인체실험의 비극 → 자발적 동의가 '제1원칙'",
+      "differential": "뉘른베르크 강령은 1947년 최초의 국제 연구윤리 지침이고, 헬싱키 선언은 1964년 WMA가 이를 발전시킨 의학연구 윤리 선언이다.",
+      "key_point": "10가지 원칙 중 제1원칙인 '자발적 동의는 절대적으로 필수적이다'가 가장 핵심이다.",
+      "common_mistake": "뉘른베르크 강령이 국제법으로 법적 구속력이 있다고 생각하는 것. 윤리적 지침이며 직접적 법적 효력은 제한적이다."
+    }
+  },
+  {
+    "id": "ETHICS_DH_031",
+    "terminology": "헬싱키 선언 (Declaration of Helsinki)",
+    "terminology_ko": "헬싱키 선언",
+    "terminology_en": "Declaration of Helsinki",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "세계의사회(WMA)가 1964년에 채택한 인간 대상 의학연구의 윤리적 원칙으로, 뉘른베르크 강령을 발전시켜 IRB 심의, 취약 집단 보호 등을 추가로 규정한다.",
+    "definition_en": "Ethical principles for medical research involving human subjects adopted by the World Medical Association in 1964, extending the Nuremberg Code with requirements for IRB review and protection of vulnerable populations.",
+    "significance": "국제적으로 가장 널리 인정되는 의학연구 윤리 선언으로, FDA를 포함한 각국 규제기관의 연구윤리 기준에 직접적 영향을 미치고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "세계의사회",
+        "name_en": "World Medical Association",
+        "contribution": "1964년 헬싱키에서 최초 채택 후 여러 차례 개정(최근 2013년)하여 현대 의학연구윤리의 국제 표준을 유지하고 있다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "뉘른베르크 강령",
+        "name_en": "Nuremberg Code",
+        "id": "ETHICS_NC_030"
+      },
+      {
+        "name_ko": "벨몬트 보고서",
+        "name_en": "Belmont Report",
+        "id": "ETHICS_BM_002"
+      },
+      {
+        "name_ko": "IRB",
+        "name_en": "Institutional Review Board",
+        "id": "ETHICS_IR_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "헬싱키(핀란드) = WMA → 뉘른베르크 강령의 발전판, 의학연구 윤리의 국제 표준",
+      "differential": "뉘른베르크 강령은 자발적 동의에 집중하고, 헬싱키 선언은 윤리위원회 심의, 위험-이득 평가, 취약 집단 보호까지 포괄한다.",
+      "key_point": "참여자의 이익이 과학과 사회의 이익보다 항상 우선한다는 원칙이 핵심이다.",
+      "common_mistake": "헬싱키 선언이 한 번 제정된 후 변하지 않았다고 생각하는 것. 1964년 이후 여러 차례 개정되어 현대적 요구를 반영하고 있다."
+    }
+  },
+  {
+    "id": "ETHICS_ER_032",
+    "terminology": "효과보고 의무 (Effect Size Reporting Mandate)",
+    "terminology_ko": "효과보고 의무",
+    "terminology_en": "Effect Size Reporting Mandate",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "APA를 비롯한 학술기관이 모든 통계 분석에서 효과크기와 신뢰구간을 의무적으로 보고하도록 요구하는 출판 정책이다.",
+    "definition_en": "A publication policy by APA and other scholarly institutions requiring mandatory reporting of effect sizes and confidence intervals in all statistical analyses.",
+    "significance": "p값 중심의 이분법적 해석(유의/비유의)을 넘어 결과의 실질적 크기와 정밀도를 투명하게 전달하여, 연구의 해석과 메타분석적 통합을 촉진한다.",
+    "key_researchers": [
+      {
+        "name_ko": "미국심리학회 출판위원회",
+        "name_en": "APA Publications and Communications Board",
+        "contribution": "APA Publication Manual 5판(2001)부터 효과크기 보고를 강력 권장하고, 6판(2010)에서 의무화했다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "1994년 'The earth is round (p < .05)' 논문에서 p값 중심 관행을 비판하고 효과크기 보고의 필요성을 역설했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      },
+      {
+        "name_ko": "APA 보고 양식",
+        "name_en": "APA Reporting Style",
+        "id": "ETHICS_AP_018"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "APA 6판 이후: p값만으로는 불충분, 반드시 ES + CI를 함께 보고",
+      "differential": "효과보고 의무는 개별 연구에서의 보고 기준이고, 메타분석은 여러 연구의 효과크기를 통합하는 분석 방법이다.",
+      "key_point": "Cohen(1994)의 유명한 제목 'The earth is round (p < .05)'은 p값의 이분법적 사용에 대한 통렬한 비판이다.",
+      "common_mistake": "효과크기를 보고하기만 하면 충분하다고 생각하는 것. 효과크기의 신뢰구간도 함께 보고해야 추정의 정밀도를 평가할 수 있다."
+    }
+  },
+  {
+    "id": "ETHICS_ST_033",
+    "terminology": "STROBE 성명 (STROBE Statement)",
+    "terminology_ko": "STROBE 성명",
+    "terminology_en": "STROBE Statement",
+    "category": "ETHICS",
+    "category_name": "연구윤리와 보고 (Research Ethics & Reporting)",
+    "definition": "관찰 역학 연구(코호트, 사례-대조, 단면 연구)의 보고 품질을 향상시키기 위한 국제 지침으로, 22개 항목의 체크리스트를 제공한다.",
+    "definition_en": "An international guideline for improving the reporting quality of observational epidemiological studies (cohort, case-control, cross-sectional), providing a 22-item checklist.",
+    "significance": "관찰 연구는 RCT와 달리 표준화된 보고 형식이 부족했으나, STROBE가 투명하고 완전한 보고를 위한 합의된 기준을 제공하여 연구 평가를 용이하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "에릭 폰 엘름",
+        "name_en": "Erik von Elm",
+        "contribution": "STROBE 성명의 주도적 개발자로, 관찰 연구 보고의 국제 표준화를 추진했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "CONSORT 성명",
+        "name_en": "CONSORT Statement",
+        "id": "ETHICS_CS_019"
+      },
+      {
+        "name_ko": "APA 보고 양식",
+        "name_en": "APA Reporting Style",
+        "id": "ETHICS_AP_018"
+      },
+      {
+        "name_ko": "내적 타당도",
+        "name_en": "Internal Validity",
+        "id": "DESIGN_IV_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "STROBE = Strengthening the Reporting of Observational Studies in Epidemiology → '관찰 연구 보고 강화'",
+      "differential": "STROBE는 관찰 연구(코호트, 사례-대조, 단면) 보고 지침이고, CONSORT는 실험 연구(RCT) 보고 지침이다.",
+      "key_point": "22개 항목 체크리스트가 핵심이며, 연구설계 유형(코호트/사례-대조/단면)에 따라 일부 항목이 다르다.",
+      "common_mistake": "STROBE가 연구 수행 방법을 규정한다고 생각하는 것. CONSORT와 마찬가지로 연구 '보고' 방법에 대한 지침이다."
+    }
+  }
+]

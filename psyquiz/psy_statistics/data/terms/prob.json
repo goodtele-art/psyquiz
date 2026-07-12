@@ -1,0 +1,1749 @@
+[
+  {
+    "id": "PROB_PR_001",
+    "terminology": "확률 (Probability)",
+    "terminology_ko": "확률",
+    "terminology_en": "Probability",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "특정 사건이 발생할 가능성을 0과 1 사이의 수치로 표현한 것으로, 0은 불가능, 1은 확실한 사건을 의미한다.",
+    "definition_en": "A numerical measure between 0 and 1 expressing the likelihood that an event will occur, where 0 indicates impossibility and 1 indicates certainty.",
+    "significance": "심리학 연구에서 통계적 추론의 기초가 되며, p값 해석과 가설검정의 논리적 토대를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "고전적 확률 이론을 체계화하고 확률론적 추론의 수학적 기초를 정립하였다"
+      },
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "확률의 공리적 체계를 완성하여 현대 확률론의 기반을 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률분포",
+        "name_en": "Probability Distribution",
+        "id": "PROB_PD_012"
+      },
+      {
+        "name_ko": "표본공간",
+        "name_en": "Sample Space",
+        "id": "PROB_SS_026"
+      },
+      {
+        "name_ko": "사건",
+        "name_en": "Event",
+        "id": "PROB_EV_027"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "고전적 확률",
+        "name_en": "Classical Probability",
+        "definition": "동일한 가능성의 결과들 중 관심 사건의 비율로 확률을 정의 (a priori)"
+      },
+      {
+        "name_ko": "경험적 확률",
+        "name_en": "Empirical Probability",
+        "definition": "반복 시행에서 관찰된 상대빈도로 확률을 추정 (빈도주의)"
+      },
+      {
+        "name_ko": "주관적 확률",
+        "name_en": "Subjective Probability",
+        "definition": "개인의 신념이나 경험에 기반한 확률 판단 (베이즈주의)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "확률 P = 원하는 결과 수 / 가능한 전체 결과 수 (고전적 정의)",
+      "differential": "확률은 이론적 예측값이고, 상대빈도는 실제 관찰된 경험적 비율이다",
+      "key_point": "모든 확률은 0 ≤ P(A) ≤ 1이며, 전체 표본공간의 확률은 1이다",
+      "common_mistake": "확률이 1보다 클 수 있다고 생각하거나, 확률과 가능성(odds)을 혼동하는 것"
+    }
+  },
+  {
+    "id": "PROB_SND_002",
+    "terminology": "표준정규분포 (Standard Normal Distribution)",
+    "terminology_ko": "표준정규분포",
+    "terminology_en": "Standard Normal Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "평균이 0이고 표준편차가 1인 특수한 정규분포로, z점수를 확률로 변환하는 기준 분포 역할을 한다.",
+    "definition_en": "A special case of the normal distribution with a mean of 0 and standard deviation of 1, serving as the reference distribution for converting z-scores to probabilities.",
+    "significance": "모든 정규분포를 하나의 공통 기준으로 변환할 수 있게 하여, 심리검사 점수 해석과 통계적 추론의 보편적 도구가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "표준정규분포의 수학적 함수를 최초로 유도하였다"
+      },
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "오차의 분포로서 정규분포를 체계화하여 가우스 분포라는 이름의 기원이 되었다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      },
+      {
+        "name_ko": "표준정규분포표",
+        "name_en": "Standard Normal Table",
+        "id": "PROB_SNT_018"
+      },
+      {
+        "name_ko": "확률밀도함수",
+        "name_en": "Probability Density Function",
+        "id": "PROB_PDF_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표준정규 = N(0, 1) → 평균=0, SD=1인 '표준화된 종 모양'",
+      "differential": "표준정규분포는 평균=0, SD=1로 고정된 하나의 분포이고, 일반 정규분포는 다양한 평균과 SD를 가질 수 있다",
+      "key_point": "어떤 정규분포든 z = (X - μ) / σ 변환을 통해 표준정규분포로 변환할 수 있다",
+      "common_mistake": "표준정규분포에서만 68-95-99.7 규칙이 적용된다고 생각하는 것 — 이 규칙은 모든 정규분포에 적용된다"
+    }
+  },
+  {
+    "id": "PROB_BN_003",
+    "terminology": "이항분포 (Binomial Distribution)",
+    "terminology_ko": "이항분포",
+    "terminology_en": "Binomial Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "독립적인 n번의 시행에서 성공 확률이 p로 일정할 때, 성공 횟수의 확률분포로, 두 가지 결과만 존재하는 상황을 모형화한다.",
+    "definition_en": "The probability distribution of the number of successes in n independent trials, each with a constant probability p of success, modeling binary outcome situations.",
+    "significance": "심리학에서 이분적 반응(정답/오답, 예/아니오)의 확률을 분석하고, 신호탐지론이나 검정력 분석의 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "야코프 베르누이",
+        "name_en": "Jacob Bernoulli",
+        "contribution": "베르누이 시행과 이항분포의 수학적 기초를 정립하였다"
+      },
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "이항분포의 정규 근사를 발견하여 중심극한정리의 선구적 업적을 이루었다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률분포",
+        "name_en": "Probability Distribution",
+        "id": "PROB_PD_012"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "DESCRIP_ND_019"
+      },
+      {
+        "name_ko": "기대값",
+        "name_en": "Expected Value",
+        "id": "PROB_EV_015"
+      },
+      {
+        "name_ko": "이산확률분포",
+        "name_en": "Discrete Probability Distribution",
+        "id": "PROB_DPD_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이항(二項) = '두 가지(성공/실패)' 결과, B(n, p) = n번 시행, 성공확률 p",
+      "differential": "이항분포는 고정된 n번 시행의 성공 횟수이고, 포아송분포는 일정 구간에서의 발생 횟수이다",
+      "key_point": "이항분포의 평균 = np, 분산 = np(1-p)이고, n이 크면 정규분포로 근사된다",
+      "common_mistake": "성공 확률이 시행마다 변하는 상황에 이항분포를 적용하는 것 — 이항분포는 p가 일정해야 한다"
+    }
+  },
+  {
+    "id": "PROB_PO_004",
+    "terminology": "포아송분포 (Poisson Distribution)",
+    "terminology_ko": "포아송분포",
+    "terminology_en": "Poisson Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "일정한 시간이나 공간 단위에서 드물게 발생하는 사건의 횟수에 대한 확률분포로, 평균 발생률(λ)로 특성화된다.",
+    "definition_en": "A probability distribution describing the number of rare events occurring in a fixed interval of time or space, characterized by the mean rate parameter (λ).",
+    "significance": "심리학에서 사고, 극단 행동 등 희소한 사건의 발생 빈도를 모형화하고, 이항분포의 근사치로도 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "시메옹 드니 푸아송",
+        "name_en": "Siméon Denis Poisson",
+        "contribution": "대수의 법칙 연구에서 포아송분포를 최초로 유도하고 발표하였다"
+      },
+      {
+        "name_ko": "라디슬라프 보르트키에비치",
+        "name_en": "Ladislaus Bortkiewicz",
+        "contribution": "프로이센 군대의 말 발차기 사망 데이터로 포아송분포의 실제 적용을 입증하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "이항분포",
+        "name_en": "Binomial Distribution",
+        "id": "PROB_BN_003"
+      },
+      {
+        "name_ko": "이산확률분포",
+        "name_en": "Discrete Probability Distribution",
+        "id": "PROB_DPD_014"
+      },
+      {
+        "name_ko": "기대값",
+        "name_en": "Expected Value",
+        "id": "PROB_EV_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "포아송 = '드문 사건의 횟수' 분포, λ(람다) 하나로 결정",
+      "differential": "이항분포는 시행 횟수(n)가 정해져 있고, 포아송분포는 정해진 구간 내 발생 횟수에 상한이 없다",
+      "key_point": "포아송분포의 평균 = 분산 = λ이며, λ가 클수록 정규분포에 근사한다",
+      "common_mistake": "포아송분포를 적용할 때 사건의 독립성 가정을 확인하지 않는 것 — 사건 간 독립이어야 한다"
+    }
+  },
+  {
+    "id": "PROB_CP_005",
+    "terminology": "조건부 확률 (Conditional Probability)",
+    "terminology_ko": "조건부 확률",
+    "terminology_en": "Conditional Probability",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "한 사건이 이미 발생한 것으로 알려졌을 때 다른 사건이 발생할 확률로, P(A|B) = P(A∩B) / P(B)로 계산된다.",
+    "definition_en": "The probability of an event occurring given that another event has already occurred, calculated as P(A|B) = P(A∩B) / P(B).",
+    "significance": "심리학에서 진단 정확도(민감도, 특이도), 기저율 문제, 베이즈 추론의 핵심 개념으로 임상적 의사결정에 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "토머스 베이즈",
+        "name_en": "Thomas Bayes",
+        "contribution": "조건부 확률의 역전(사후확률 추정)을 위한 베이즈 정리의 기초를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "베이즈 정리",
+        "name_en": "Bayes' Theorem",
+        "id": "PROB_BT_010"
+      },
+      {
+        "name_ko": "독립사건",
+        "name_en": "Independent Events",
+        "id": "PROB_IE_007"
+      },
+      {
+        "name_ko": "결합확률",
+        "name_en": "Joint Probability",
+        "id": "PROB_JP_022"
+      },
+      {
+        "name_ko": "확률의 곱셈법칙",
+        "name_en": "Multiplication Rule",
+        "id": "PROB_MR_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "P(A|B) = 'B가 일어났다는 조건 하에(|) A의 확률'",
+      "differential": "조건부 확률 P(A|B)는 B가 주어진 상태에서 A의 확률이고, 결합확률 P(A∩B)는 A와 B가 동시에 일어날 확률이다",
+      "key_point": "P(A|B) ≠ P(B|A) — 이 둘을 혼동하는 것이 '역확률 오류(inverse fallacy)'이다",
+      "common_mistake": "P(질병|양성반응)과 P(양성반응|질병)를 같다고 착각하는 것 — 기저율을 고려해야 한다"
+    }
+  },
+  {
+    "id": "PROB_ME_006",
+    "terminology": "배반사건 (Mutually Exclusive Events)",
+    "terminology_ko": "배반사건",
+    "terminology_en": "Mutually Exclusive Events",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "두 사건이 동시에 발생할 수 없는 관계로, 한 사건이 일어나면 다른 사건은 발생하지 않는다. P(A∩B) = 0이다.",
+    "definition_en": "Events that cannot occur simultaneously — if one event occurs, the other cannot. Mathematically, P(A∩B) = 0.",
+    "significance": "확률의 덧셈법칙을 적용할 때 배반 여부에 따라 공식이 달라지므로, 확률 계산의 정확성에 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "확률 공리 체계에서 배반사건의 가법성을 공식화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립사건",
+        "name_en": "Independent Events",
+        "id": "PROB_IE_007"
+      },
+      {
+        "name_ko": "확률의 덧셈법칙",
+        "name_en": "Addition Rule",
+        "id": "PROB_AR_019"
+      },
+      {
+        "name_ko": "여사건",
+        "name_en": "Complement",
+        "id": "PROB_CM_021"
+      },
+      {
+        "name_ko": "표본공간",
+        "name_en": "Sample Space",
+        "id": "PROB_SS_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "배반 = '서로 배(排)척하여 반(反)대' → 겹침 = 0",
+      "differential": "배반사건은 동시 발생 불가(교집합=0)이고, 독립사건은 한 사건이 다른 사건의 확률에 영향을 주지 않는 것이다",
+      "key_point": "배반사건이면 P(A∪B) = P(A) + P(B)로 단순 합산이 가능하다",
+      "common_mistake": "배반사건과 독립사건을 같은 개념으로 혼동하는 것 — 배반사건은 독립이 아니다(한쪽이 일어나면 다른 쪽은 반드시 불가능)"
+    }
+  },
+  {
+    "id": "PROB_IE_007",
+    "terminology": "독립사건 (Independent Events)",
+    "terminology_ko": "독립사건",
+    "terminology_en": "Independent Events",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "한 사건의 발생이 다른 사건의 발생 확률에 영향을 주지 않는 관계로, P(A|B) = P(A)가 성립한다.",
+    "definition_en": "Events where the occurrence of one does not affect the probability of the other, satisfying P(A|B) = P(A).",
+    "significance": "심리학 실험에서 관측치의 독립성은 대부분의 통계 분석의 기본 가정이며, 이를 위반하면 결과가 왜곡될 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "독립 사건의 확률 곱셈 법칙을 수학적으로 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "배반사건",
+        "name_en": "Mutually Exclusive Events",
+        "id": "PROB_ME_006"
+      },
+      {
+        "name_ko": "조건부 확률",
+        "name_en": "Conditional Probability",
+        "id": "PROB_CP_005"
+      },
+      {
+        "name_ko": "확률의 곱셈법칙",
+        "name_en": "Multiplication Rule",
+        "id": "PROB_MR_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "독립 = A가 일어나든 안 일어나든 B의 확률은 '변함없다'",
+      "differential": "독립사건은 한 사건이 다른 사건의 확률을 변화시키지 않고, 배반사건은 동시 발생이 불가능하다 — 이 둘은 서로 다른 개념이다",
+      "key_point": "독립사건이면 P(A∩B) = P(A) × P(B)로 결합확률을 간단히 구할 수 있다",
+      "common_mistake": "두 사건이 배반이면 독립이라고 생각하는 것 — 사실 배반사건은 독립이 아니다(확률이 0이 아닌 한)"
+    }
+  },
+  {
+    "id": "PROB_LLN_008",
+    "terminology": "큰 수의 법칙 (Law of Large Numbers)",
+    "terminology_ko": "큰 수의 법칙",
+    "terminology_en": "Law of Large Numbers",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "표본 크기가 충분히 커지면 표본 평균이 모집단 평균에 점점 더 가까워진다는 확률 이론의 기본 법칙이다.",
+    "definition_en": "A fundamental theorem stating that as sample size increases, the sample mean converges to the population mean with increasing precision.",
+    "significance": "심리학 연구에서 충분한 표본 크기의 필요성을 정당화하고, 반복 실험의 결과가 안정적 추정치로 수렴함을 보장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "야코프 베르누이",
+        "name_en": "Jacob Bernoulli",
+        "contribution": "큰 수의 법칙을 최초로 수학적으로 증명하였다(약한 법칙)"
+      },
+      {
+        "name_ko": "에밀 보렐",
+        "name_en": "Émile Borel",
+        "contribution": "큰 수의 강한 법칙의 정립에 기여하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      },
+      {
+        "name_ko": "모집단",
+        "name_en": "Population",
+        "id": "SAMPLE_PO_001"
+      },
+      {
+        "name_ko": "표본",
+        "name_en": "Sample",
+        "id": "SAMPLE_SM_002"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "약한 큰 수의 법칙",
+        "name_en": "Weak Law of Large Numbers",
+        "definition": "표본 평균이 모평균에 확률적으로 수렴한다 (확률 수렴)"
+      },
+      {
+        "name_ko": "강한 큰 수의 법칙",
+        "name_en": "Strong Law of Large Numbers",
+        "definition": "표본 평균이 모평균에 거의 확실하게 수렴한다 (거의 확실한 수렴)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "큰 수(大數)의 법칙 = 시행을 '많이' 할수록 결과가 '이론값에 수렴'",
+      "differential": "큰 수의 법칙은 '평균의 수렴'이고, 중심극한정리는 '표본평균의 분포 형태(정규)'에 관한 것이다",
+      "key_point": "이 법칙은 개별 결과가 아닌 평균이 수렴한다는 것이며, 개별 시행은 여전히 변동할 수 있다",
+      "common_mistake": "도박사의 오류 — 이전 결과가 특정 방향이면 다음에 반대 결과가 나올 '확률이 높다'고 잘못 생각하는 것"
+    }
+  },
+  {
+    "id": "PROB_ND_009",
+    "terminology": "정규분포 (Normal Distribution)",
+    "terminology_ko": "정규분포",
+    "terminology_en": "Normal Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "평균(μ)과 표준편차(σ)의 두 모수로 정의되는 좌우 대칭 종 모양의 연속확률분포로, 자연 현상과 심리 변인의 분포를 설명하는 핵심 모형이다.",
+    "definition_en": "A continuous probability distribution defined by two parameters — mean (μ) and standard deviation (σ) — forming a symmetric bell-shaped curve that models many natural and psychological variables.",
+    "significance": "중심극한정리에 의해 표본평균의 분포가 정규분포에 근사하므로, 거의 모든 모수적 추론통계의 이론적 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "측정 오차 분포로 정규분포를 체계화하여 가우스 분포라고도 불린다"
+      },
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "이항분포의 근사로서 정규분포의 수학적 형태를 최초로 유도하였다"
+      },
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "중심극한정리를 통해 정규분포의 보편적 중요성을 확립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준정규분포",
+        "name_en": "Standard Normal Distribution",
+        "id": "PROB_SND_002"
+      },
+      {
+        "name_ko": "확률밀도함수",
+        "name_en": "Probability Density Function",
+        "id": "PROB_PDF_016"
+      },
+      {
+        "name_ko": "중심극한정리",
+        "name_en": "Central Limit Theorem",
+        "id": "SAMPLE_CL_015"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정규분포 N(μ, σ²) = 종 모양 + 68-95-99.7 규칙",
+      "differential": "정규분포는 이론적 모형이고, 실제 데이터는 정규분포에 '근사'할 뿐 완전히 일치하지는 않는다",
+      "key_point": "평균과 표준편차 두 모수만 알면 분포 전체가 결정되고, 곡선 아래 전체 면적 = 1이다",
+      "common_mistake": "정규분포의 꼬리가 x축에 닿는다고 생각하는 것 — 이론적으로 꼬리는 무한히 뻗어 x축에 닿지 않는다(점근선)"
+    }
+  },
+  {
+    "id": "PROB_BT_010",
+    "terminology": "베이즈 정리 (Bayes' Theorem)",
+    "terminology_ko": "베이즈 정리",
+    "terminology_en": "Bayes' Theorem",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "새로운 증거(데이터)가 주어졌을 때 사전확률을 사후확률로 갱신하는 공식으로, P(A|B) = P(B|A)·P(A) / P(B)이다.",
+    "definition_en": "A formula for updating prior probability to posterior probability given new evidence: P(A|B) = P(B|A)·P(A) / P(B).",
+    "significance": "심리학에서 임상 진단의 정확도(기저율 문제), 의사결정 연구, 베이즈 통계의 이론적 토대가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "토머스 베이즈",
+        "name_en": "Thomas Bayes",
+        "contribution": "사후확률 추정의 수학적 기초를 담은 논문을 남겼다(사후 출판)"
+      },
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "베이즈의 아이디어를 독립적으로 발전시키고 수학적으로 정교화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "조건부 확률",
+        "name_en": "Conditional Probability",
+        "id": "PROB_CP_005"
+      },
+      {
+        "name_ko": "사전확률",
+        "name_en": "Prior Probability",
+        "id": "PROB_PP_011"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "베이즈 = '사전(prior) + 증거(likelihood) → 사후(posterior)' 업데이트",
+      "differential": "빈도주의 통계는 p값(데이터|가설)을 계산하고, 베이즈 통계는 사후확률(가설|데이터)을 직접 추정한다",
+      "key_point": "기저율(사전확률)을 무시하면 잘못된 판단을 내릴 수 있다(기저율 무시 편향)",
+      "common_mistake": "P(A|B)와 P(B|A)가 같다고 착각하는 것 — 베이즈 정리는 이 둘의 관계를 명확히 한다"
+    }
+  },
+  {
+    "id": "PROB_PP_011",
+    "terminology": "사전확률 (Prior Probability)",
+    "terminology_ko": "사전확률",
+    "terminology_en": "Prior Probability",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "새로운 데이터를 관찰하기 전에 기존 지식이나 경험에 기반하여 가설에 부여하는 초기 확률이다.",
+    "definition_en": "The initial probability assigned to a hypothesis based on existing knowledge or experience before observing new data.",
+    "significance": "베이즈 통계에서 분석의 출발점이 되며, 임상 심리학에서 유병률(기저율)이 진단적 추론에 미치는 영향을 이해하는 데 핵심적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "토머스 베이즈",
+        "name_en": "Thomas Bayes",
+        "contribution": "사전확률에서 사후확률로의 갱신 원리를 최초로 정립하였다"
+      },
+      {
+        "name_ko": "해럴드 제프리스",
+        "name_en": "Harold Jeffreys",
+        "contribution": "무정보 사전확률(non-informative prior)의 체계를 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "베이즈 정리",
+        "name_en": "Bayes' Theorem",
+        "id": "PROB_BT_010"
+      },
+      {
+        "name_ko": "조건부 확률",
+        "name_en": "Conditional Probability",
+        "id": "PROB_CP_005"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "정보적 사전확률",
+        "name_en": "Informative Prior",
+        "definition": "이전 연구나 전문가 지식에 기반한 구체적인 사전 분포"
+      },
+      {
+        "name_ko": "무정보 사전확률",
+        "name_en": "Non-informative Prior",
+        "definition": "특정 가설을 선호하지 않는 균등하거나 모호한 사전 분포"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "사전(事前) 확률 = '데이터를 보기 전(前)에' 알고 있는 확률",
+      "differential": "사전확률은 데이터 관찰 전의 믿음이고, 사후확률은 데이터 관찰 후 갱신된 믿음이다",
+      "key_point": "사전확률이 극단적이면(예: 0 또는 1에 가까우면) 새로운 데이터로도 크게 변하지 않는다",
+      "common_mistake": "사전확률을 주관적이라는 이유로 무시하는 것 — 기저율(유병률)은 객관적 사전확률의 대표적 예이다"
+    }
+  },
+  {
+    "id": "PROB_PD_012",
+    "terminology": "확률분포 (Probability Distribution)",
+    "terminology_ko": "확률분포",
+    "terminology_en": "Probability Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "확률변수가 취할 수 있는 모든 값과 각 값에 대응하는 확률을 체계적으로 나타낸 함수 또는 표이다.",
+    "definition_en": "A function or table that systematically describes all possible values of a random variable and their corresponding probabilities.",
+    "significance": "심리학 연구에서 이론적 분포 모형(정규, t, F, 카이제곱 등)을 통해 검정 통계량의 유의성을 판단하는 기반이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "현대 확률론의 측도론적 기초 위에 확률분포 이론을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "이산확률분포",
+        "name_en": "Discrete Probability Distribution",
+        "id": "PROB_DPD_014"
+      },
+      {
+        "name_ko": "연속확률분포",
+        "name_en": "Continuous Probability Distribution",
+        "id": "PROB_CPD_013"
+      },
+      {
+        "name_ko": "확률밀도함수",
+        "name_en": "Probability Density Function",
+        "id": "PROB_PDF_016"
+      },
+      {
+        "name_ko": "기대값",
+        "name_en": "Expected Value",
+        "id": "PROB_EV_015"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "이산확률분포",
+        "name_en": "Discrete Probability Distribution",
+        "definition": "셀 수 있는 값들에 대한 확률분포 (이항, 포아송 등)"
+      },
+      {
+        "name_ko": "연속확률분포",
+        "name_en": "Continuous Probability Distribution",
+        "definition": "연속적인 값 범위에 대한 확률분포 (정규, t, F 등)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "확률분포 = '모든 가능한 값 + 각각의 확률'을 정리한 지도",
+      "differential": "도수분포는 실제 데이터의 경험적 분포이고, 확률분포는 이론적/수학적 모형이다",
+      "key_point": "유효한 확률분포의 조건: 모든 확률이 0 이상이고, 전체 합(또는 적분)이 1이다",
+      "common_mistake": "확률분포의 y축 값(밀도)을 확률로 직접 해석하는 것 — 연속분포에서 확률은 면적(구간)으로 계산해야 한다"
+    }
+  },
+  {
+    "id": "PROB_CPD_013",
+    "terminology": "연속확률분포 (Continuous Probability Distribution)",
+    "terminology_ko": "연속확률분포",
+    "terminology_en": "Continuous Probability Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "확률변수가 연속적인 값을 취하는 확률분포로, 특정 구간의 확률은 곡선 아래 면적으로 계산된다.",
+    "definition_en": "A probability distribution for a continuous random variable where probabilities are calculated as areas under the curve over specified intervals.",
+    "significance": "심리학에서 사용되는 정규분포, t분포, F분포, 카이제곱분포 등 주요 검정 분포가 모두 연속확률분포에 속한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "연속확률분포의 대표적 예인 정규분포의 수학적 형태를 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "이산확률분포",
+        "name_en": "Discrete Probability Distribution",
+        "id": "PROB_DPD_014"
+      },
+      {
+        "name_ko": "확률밀도함수",
+        "name_en": "Probability Density Function",
+        "id": "PROB_PDF_016"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "누적분포함수",
+        "name_en": "Cumulative Distribution Function",
+        "id": "PROB_CDF_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "연속 = '끊김 없는' 변수 → 확률 = '곡선 아래 면적'",
+      "differential": "이산분포에서는 P(X=x)가 확률이지만, 연속분포에서는 P(X=x)=0이고 P(a≤X≤b)가 의미 있는 확률이다",
+      "key_point": "연속분포에서 특정 한 점의 확률은 정확히 0이다 — 확률은 반드시 구간으로 계산한다",
+      "common_mistake": "연속분포에서 P(X=3) 같은 점 확률을 0이 아닌 값으로 생각하는 것"
+    }
+  },
+  {
+    "id": "PROB_DPD_014",
+    "terminology": "이산확률분포 (Discrete Probability Distribution)",
+    "terminology_ko": "이산확률분포",
+    "terminology_en": "Discrete Probability Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "확률변수가 셀 수 있는 유한하거나 가산무한한 값을 취하는 확률분포로, 각 값에 직접 확률이 대응된다.",
+    "definition_en": "A probability distribution for a random variable that takes countable (finite or countably infinite) values, with probabilities assigned directly to each value.",
+    "significance": "심리학에서 정답 수, 선택 빈도 등 셀 수 있는 결과 변인의 분포를 모형화하는 데 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "야코프 베르누이",
+        "name_en": "Jacob Bernoulli",
+        "contribution": "이산확률분포의 대표적 예인 이항분포의 수학적 기초를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "연속확률분포",
+        "name_en": "Continuous Probability Distribution",
+        "id": "PROB_CPD_013"
+      },
+      {
+        "name_ko": "이항분포",
+        "name_en": "Binomial Distribution",
+        "id": "PROB_BN_003"
+      },
+      {
+        "name_ko": "포아송분포",
+        "name_en": "Poisson Distribution",
+        "id": "PROB_PO_004"
+      },
+      {
+        "name_ko": "기대값",
+        "name_en": "Expected Value",
+        "id": "PROB_EV_015"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이산(離散) = '떨어져 있는(셀 수 있는)' 값들의 분포",
+      "differential": "이산분포는 막대그래프로 표현하고, 연속분포는 매끄러운 곡선으로 표현한다",
+      "key_point": "이산분포에서 모든 가능한 값의 확률 합은 정확히 1이다: ΣP(X=x) = 1",
+      "common_mistake": "이산변수라도 값의 종류가 매우 많으면 연속변수처럼 취급할 수 있다는 점을 간과하는 것"
+    }
+  },
+  {
+    "id": "PROB_EV_015",
+    "terminology": "기대값 (Expected Value)",
+    "terminology_ko": "기대값",
+    "terminology_en": "Expected Value",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "확률변수의 모든 가능한 값에 해당 확률을 곱하여 합산한 값으로, 장기적으로 기대되는 평균값을 나타낸다.",
+    "definition_en": "The sum of all possible values of a random variable weighted by their probabilities, representing the long-run average expected outcome.",
+    "significance": "심리학에서 의사결정 이론, 효용 함수, 기대효용 이론의 핵심 개념으로 합리적 선택의 기준을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "크리스티안 하위헌스",
+        "name_en": "Christiaan Huygens",
+        "contribution": "기대값(기댓값)의 개념을 확률 이론에 최초로 도입하였다"
+      },
+      {
+        "name_ko": "다니엘 베르누이",
+        "name_en": "Daniel Bernoulli",
+        "contribution": "기대효용 이론을 통해 기대값의 심리적 해석을 확장하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률분포",
+        "name_en": "Probability Distribution",
+        "id": "PROB_PD_012"
+      },
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "E(X) = ΣxP(x) → '각 결과 × 확률'의 총합 = 장기적 평균",
+      "differential": "기대값은 이론적 확률분포의 평균(모평균 μ)이고, 표본평균은 실제 데이터의 산술평균이다",
+      "key_point": "기대값이 반드시 실제로 관찰 가능한 값일 필요는 없다 (예: 주사위 기대값 = 3.5)",
+      "common_mistake": "기대값이 가장 흔히 나타나는 값(최빈값)이라고 생각하는 것 — 기대값은 확률 가중 평균이다"
+    }
+  },
+  {
+    "id": "PROB_PDF_016",
+    "terminology": "확률밀도함수 (Probability Density Function)",
+    "terminology_ko": "확률밀도함수",
+    "terminology_en": "Probability Density Function",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "연속확률변수에서 각 값 근처의 확률 밀도를 나타내는 함수로, 특정 구간의 확률은 함수 곡선 아래의 면적으로 구한다.",
+    "definition_en": "A function describing the relative likelihood of a continuous random variable taking on a given value, where probability is calculated as the area under the curve over an interval.",
+    "significance": "정규분포, t분포, F분포 등 심리학 통계에서 사용되는 연속분포의 수학적 표현이며, 확률 계산의 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 프리드리히 가우스",
+        "name_en": "Carl Friedrich Gauss",
+        "contribution": "정규분포의 확률밀도함수를 명시적으로 정의하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "누적분포함수",
+        "name_en": "Cumulative Distribution Function",
+        "id": "PROB_CDF_017"
+      },
+      {
+        "name_ko": "연속확률분포",
+        "name_en": "Continuous Probability Distribution",
+        "id": "PROB_CPD_013"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "확률분포",
+        "name_en": "Probability Distribution",
+        "id": "PROB_PD_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PDF = 확률의 '밀도(농도)' → 곡선이 높은 곳 = 값이 나올 가능성이 '밀집'",
+      "differential": "PDF는 확률 밀도(미분 형태)이고, CDF는 누적 확률(적분 형태)이다",
+      "key_point": "f(x) 자체는 확률이 아니라 밀도이므로 1보다 클 수 있다 — 확률은 면적(적분값)이다",
+      "common_mistake": "f(x)의 값을 직접 확률로 해석하는 것 — PDF의 y축 값은 밀도이지 확률이 아니다"
+    }
+  },
+  {
+    "id": "PROB_CDF_017",
+    "terminology": "누적분포함수 (Cumulative Distribution Function)",
+    "terminology_ko": "누적분포함수",
+    "terminology_en": "Cumulative Distribution Function",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "확률변수가 특정 값 이하일 확률을 나타내는 함수로, F(x) = P(X ≤ x)이며, 0에서 1까지 단조증가한다.",
+    "definition_en": "A function giving the probability that a random variable is less than or equal to a given value: F(x) = P(X ≤ x), monotonically increasing from 0 to 1.",
+    "significance": "p값 계산, 백분위 결정, 신뢰구간 산출 등 통계적 추론의 핵심 도구로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "확률론의 공리적 체계에서 분포함수의 수학적 성질을 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률밀도함수",
+        "name_en": "Probability Density Function",
+        "id": "PROB_PDF_016"
+      },
+      {
+        "name_ko": "백분위",
+        "name_en": "Percentile",
+        "id": "DESCRIP_PC_011"
+      },
+      {
+        "name_ko": "누적빈도",
+        "name_en": "Cumulative Frequency",
+        "id": "DESCRIP_CF_030"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CDF = F(x) = 'x 이하일 확률' → 왼쪽에서부터 쌓아가는 확률",
+      "differential": "CDF는 P(X ≤ x)로 확률 자체를 나타내고, PDF는 f(x)로 밀도를 나타낸다 — CDF는 PDF의 적분",
+      "key_point": "CDF는 항상 0에서 시작하여 1로 수렴하며, 절대로 감소하지 않는다(단조증가)",
+      "common_mistake": "CDF의 기울기가 확률이라고 생각하는 것 — CDF의 기울기는 PDF(밀도)이고, CDF의 값 자체가 누적확률이다"
+    }
+  },
+  {
+    "id": "PROB_SNT_018",
+    "terminology": "표준정규분포표 (Standard Normal Table)",
+    "terminology_ko": "표준정규분포표",
+    "terminology_en": "Standard Normal Table",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "z점수에 대응하는 누적확률(또는 면적)을 정리한 표로, z값을 확률로, 확률을 z값으로 변환하는 데 사용된다.",
+    "definition_en": "A table listing cumulative probabilities (areas under the curve) corresponding to z-scores, used to convert between z-values and probabilities.",
+    "significance": "컴퓨터 이전 시대 통계 분석의 필수 도구였으며, 현재도 z점수와 확률의 관계를 이해하는 교육적 목적으로 널리 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "통계 표의 편찬 사업을 주도하여 표준정규분포표를 포함한 주요 통계 표를 체계화하였다"
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "「연구자를 위한 통계적 방법」에서 널리 사용되는 통계 표를 보급하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표준정규분포",
+        "name_en": "Standard Normal Distribution",
+        "id": "PROB_SND_002"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "누적분포함수",
+        "name_en": "Cumulative Distribution Function",
+        "id": "PROB_CDF_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "z표 = 'z점수 → 확률' 또는 '확률 → z점수'로 변환하는 사전",
+      "differential": "z표는 표준정규분포(N(0,1))에만 적용되고, t표나 F표는 각각 해당 분포에 적용된다",
+      "key_point": "z = 1.96에 대응하는 양쪽 꼬리 면적이 0.05이므로, 95% 신뢰구간에서 핵심 값이다",
+      "common_mistake": "z표의 확률값이 양쪽 꼬리인지 한쪽 꼬리인지 혼동하는 것 — 표의 유형을 반드시 확인해야 한다"
+    }
+  },
+  {
+    "id": "PROB_AR_019",
+    "terminology": "확률의 덧셈법칙 (Addition Rule of Probability)",
+    "terminology_ko": "확률의 덧셈법칙",
+    "terminology_en": "Addition Rule of Probability",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "두 사건 A 또는 B가 발생할 확률을 구하는 법칙으로, P(A∪B) = P(A) + P(B) - P(A∩B)이다.",
+    "definition_en": "A rule for calculating the probability of event A or event B occurring: P(A∪B) = P(A) + P(B) - P(A∩B).",
+    "significance": "심리학 연구에서 복합 사건의 확률을 정확하게 계산하기 위한 기본 규칙으로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "확률의 공리적 체계에서 덧셈법칙의 수학적 기초를 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률의 곱셈법칙",
+        "name_en": "Multiplication Rule",
+        "id": "PROB_MR_020"
+      },
+      {
+        "name_ko": "배반사건",
+        "name_en": "Mutually Exclusive Events",
+        "id": "PROB_ME_006"
+      },
+      {
+        "name_ko": "결합확률",
+        "name_en": "Joint Probability",
+        "id": "PROB_JP_022"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "P(A 또는 B) = P(A) + P(B) - P(A 그리고 B) → '겹치는 부분 빼기'",
+      "differential": "덧셈법칙은 'A 또는 B(합사건)'의 확률이고, 곱셈법칙은 'A 그리고 B(곱사건)'의 확률이다",
+      "key_point": "배반사건이면 P(A∩B)=0이므로 단순히 P(A)+P(B)로 계산할 수 있다",
+      "common_mistake": "중복 부분(교집합)을 빼지 않고 단순히 확률을 더하는 것 — 배반이 아니면 겹침을 빼야 한다"
+    }
+  },
+  {
+    "id": "PROB_MR_020",
+    "terminology": "확률의 곱셈법칙 (Multiplication Rule of Probability)",
+    "terminology_ko": "확률의 곱셈법칙",
+    "terminology_en": "Multiplication Rule of Probability",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "두 사건 A와 B가 동시에 발생할 확률을 구하는 법칙으로, P(A∩B) = P(A) × P(B|A)이다.",
+    "definition_en": "A rule for calculating the probability of both events A and B occurring: P(A∩B) = P(A) × P(B|A).",
+    "significance": "심리학에서 연속적 사건의 결합확률을 구하거나, 검사의 교차타당도를 평가하는 데 적용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "독립사건에 대한 곱셈법칙의 수학적 기초를 정립하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률의 덧셈법칙",
+        "name_en": "Addition Rule",
+        "id": "PROB_AR_019"
+      },
+      {
+        "name_ko": "독립사건",
+        "name_en": "Independent Events",
+        "id": "PROB_IE_007"
+      },
+      {
+        "name_ko": "조건부 확률",
+        "name_en": "Conditional Probability",
+        "id": "PROB_CP_005"
+      },
+      {
+        "name_ko": "결합확률",
+        "name_en": "Joint Probability",
+        "id": "PROB_JP_022"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "P(A 그리고 B) = P(A) × P(B|A) → 'A가 일어난 후 B도 일어날 확률'",
+      "differential": "독립사건이면 P(A∩B)=P(A)×P(B)로 단순화되고, 종속사건이면 조건부확률을 반드시 사용해야 한다",
+      "key_point": "독립사건의 곱셈법칙: P(A∩B)=P(A)×P(B) — 조건부확률이 원래 확률과 같으므로 단순 곱셈",
+      "common_mistake": "종속사건에서도 단순히 P(A)×P(B)를 계산하는 것 — 독립이 아니면 조건부확률을 써야 한다"
+    }
+  },
+  {
+    "id": "PROB_CM_021",
+    "terminology": "여사건 (Complement)",
+    "terminology_ko": "여사건",
+    "terminology_en": "Complement",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "특정 사건 A가 발생하지 않는 사건으로, P(A') = 1 - P(A)이다. 사건 A와 여사건 A'는 전체 표본공간을 구성한다.",
+    "definition_en": "The event consisting of all outcomes not in event A, with P(A') = 1 - P(A). Event A and its complement together comprise the entire sample space.",
+    "significance": "복잡한 확률 문제에서 직접 계산이 어려울 때 '1에서 빼기' 전략으로 확률을 간편하게 구하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "확률 공리에서 여사건의 성질을 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      },
+      {
+        "name_ko": "표본공간",
+        "name_en": "Sample Space",
+        "id": "PROB_SS_026"
+      },
+      {
+        "name_ko": "배반사건",
+        "name_en": "Mutually Exclusive Events",
+        "id": "PROB_ME_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "여사건 = 'A가 아닌 나머지 전부' → P(A') = 1 - P(A)",
+      "differential": "여사건은 A의 반대(전체에서 A를 뺀 것)이고, 배반사건은 A와 동시에 일어날 수 없는 사건이다",
+      "key_point": "'적어도 하나' 문제는 여사건을 이용하면 쉽다: P(적어도 1개) = 1 - P(하나도 없음)",
+      "common_mistake": "여사건과 반대 결과를 혼동하는 것 — 주사위에서 {1,2}의 여사건은 {3,4,5,6}이지 {6}만이 아니다"
+    }
+  },
+  {
+    "id": "PROB_JP_022",
+    "terminology": "결합확률 (Joint Probability)",
+    "terminology_ko": "결합확률",
+    "terminology_en": "Joint Probability",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "두 개 이상의 사건이 동시에 발생할 확률로, P(A∩B)로 표기한다.",
+    "definition_en": "The probability of two or more events occurring simultaneously, denoted as P(A∩B).",
+    "significance": "심리학에서 두 진단이 동시에 나타날 확률(공병률), 공변 패턴의 분석 등에 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "확률론에서 결합확률의 체계적 계산법을 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "조건부 확률",
+        "name_en": "Conditional Probability",
+        "id": "PROB_CP_005"
+      },
+      {
+        "name_ko": "주변확률",
+        "name_en": "Marginal Probability",
+        "id": "PROB_MP_023"
+      },
+      {
+        "name_ko": "확률의 곱셈법칙",
+        "name_en": "Multiplication Rule",
+        "id": "PROB_MR_020"
+      },
+      {
+        "name_ko": "독립사건",
+        "name_en": "Independent Events",
+        "id": "PROB_IE_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "결합확률 = P(A 그리고 B) = 두 사건의 '교집합' 확률",
+      "differential": "결합확률은 P(A∩B)로 두 사건의 동시 발생이고, 주변확률은 P(A) 또는 P(B)로 한 사건만의 확률이다",
+      "key_point": "결합확률표(contingency table)에서 셀 내부의 값이 결합확률이고, 행/열 합계가 주변확률이다",
+      "common_mistake": "결합확률 P(A∩B)와 조건부확률 P(A|B)를 혼동하는 것"
+    }
+  },
+  {
+    "id": "PROB_MP_023",
+    "terminology": "주변확률 (Marginal Probability)",
+    "terminology_ko": "주변확률",
+    "terminology_en": "Marginal Probability",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "결합확률표에서 한 변인에 대해 다른 변인의 모든 수준을 합산한 확률로, 해당 변인 단독의 확률을 나타낸다.",
+    "definition_en": "The probability of a single event obtained by summing joint probabilities over all levels of the other variable, representing the unconditional probability of that event.",
+    "significance": "심리학에서 기저율(base rate) 파악, 진단 정확도 평가 시 개별 사건의 전반적 확률을 이해하는 데 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "확률론에서 주변확률과 결합확률의 관계를 수학적으로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "결합확률",
+        "name_en": "Joint Probability",
+        "id": "PROB_JP_022"
+      },
+      {
+        "name_ko": "조건부 확률",
+        "name_en": "Conditional Probability",
+        "id": "PROB_CP_005"
+      },
+      {
+        "name_ko": "사전확률",
+        "name_en": "Prior Probability",
+        "id": "PROB_PP_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "주변(marginal) = 결합확률표의 '가장자리(margin)' 합계",
+      "differential": "주변확률은 한 변인만의 무조건 확률이고, 조건부확률은 다른 사건을 전제로 한 확률이다",
+      "key_point": "P(A) = ΣP(A∩Bᵢ) — 모든 B의 수준에 걸쳐 결합확률을 합하면 주변확률이 된다(전체 확률 법칙)",
+      "common_mistake": "주변확률을 결합확률의 일부로 혼동하는 것 — 주변확률은 한 변인에 대한 전체 합계이다"
+    }
+  },
+  {
+    "id": "PROB_PM_024",
+    "terminology": "순열 (Permutation)",
+    "terminology_ko": "순열",
+    "terminology_en": "Permutation",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "n개 원소에서 r개를 선택하여 순서를 고려하여 나열하는 경우의 수로, nPr = n! / (n-r)!로 계산된다.",
+    "definition_en": "The number of ways to arrange r items selected from n items where order matters, calculated as nPr = n! / (n-r)!.",
+    "significance": "확률 계산에서 순서가 의미 있는 사건의 경우의 수를 구하는 기초가 되며, 실험설계에서 조건 제시 순서를 결정하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "블레즈 파스칼",
+        "name_en": "Blaise Pascal",
+        "contribution": "조합론과 순열의 체계적 연구를 확률론의 기초로 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "조합",
+        "name_en": "Combination",
+        "id": "PROB_CB_025"
+      },
+      {
+        "name_ko": "표본공간",
+        "name_en": "Sample Space",
+        "id": "PROB_SS_026"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "순열 = '순서(順)가 있는 배열(列)' → ABC ≠ BAC",
+      "differential": "순열은 순서가 중요하고(ABC≠BAC), 조합은 순서가 중요하지 않다(ABC=BAC)",
+      "key_point": "nPr = n! / (n-r)!, 특히 nPn = n!(모든 원소의 전체 배열)",
+      "common_mistake": "순열과 조합을 구분하지 않는 것 — 순서가 의미 있으면 순열, 없으면 조합을 사용한다"
+    }
+  },
+  {
+    "id": "PROB_CB_025",
+    "terminology": "조합 (Combination)",
+    "terminology_ko": "조합",
+    "terminology_en": "Combination",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "n개 원소에서 순서를 고려하지 않고 r개를 선택하는 경우의 수로, nCr = n! / [r!(n-r)!]로 계산된다.",
+    "definition_en": "The number of ways to select r items from n items without regard to order, calculated as nCr = n! / [r!(n-r)!].",
+    "significance": "이항분포의 확률 계산에서 핵심 계수이며, 심리학 실험에서 조건 조합을 설계하는 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "블레즈 파스칼",
+        "name_en": "Blaise Pascal",
+        "contribution": "파스칼의 삼각형을 통해 조합 수의 체계적 계산법을 발전시켰다"
+      },
+      {
+        "name_ko": "피에르 드 페르마",
+        "name_en": "Pierre de Fermat",
+        "contribution": "파스칼과의 서신에서 조합론을 확률 문제에 적용하는 기초를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "순열",
+        "name_en": "Permutation",
+        "id": "PROB_PM_024"
+      },
+      {
+        "name_ko": "이항분포",
+        "name_en": "Binomial Distribution",
+        "id": "PROB_BN_003"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조합 = '조(짜맞추기)합(합치기)' → 순서 무관, 구성만 중요",
+      "differential": "nCr = nPr / r! → 순열에서 순서를 무시(r!로 나누기)하면 조합이 된다",
+      "key_point": "이항계수 nCr은 이항분포에서 성공 r회의 경우의 수를 나타낸다",
+      "common_mistake": "조합 문제에서 순서를 고려하여 과대 계산하는 것 — {A,B,C}와 {C,B,A}는 같은 조합이다"
+    }
+  },
+  {
+    "id": "PROB_SS_026",
+    "terminology": "표본공간 (Sample Space)",
+    "terminology_ko": "표본공간",
+    "terminology_en": "Sample Space",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "확률 실험에서 발생할 수 있는 모든 가능한 결과의 집합으로, 기호 S 또는 Ω로 표기한다.",
+    "definition_en": "The set of all possible outcomes of a probability experiment, denoted by S or Ω.",
+    "significance": "확률을 정의하고 계산하는 출발점으로, 심리학 연구에서 가능한 결과를 체계적으로 파악하는 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "공리적 확률론에서 표본공간을 확률 체계의 기본 요소로 정의하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사건",
+        "name_en": "Event",
+        "id": "PROB_EV_027"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      },
+      {
+        "name_ko": "여사건",
+        "name_en": "Complement",
+        "id": "PROB_CM_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표본공간 S = '가능한 모든 결과의 목록', 주사위 S = {1,2,3,4,5,6}",
+      "differential": "표본공간은 모든 가능한 결과의 전체 집합이고, 사건은 표본공간의 부분집합이다",
+      "key_point": "P(S) = 1 — 표본공간 전체의 확률은 항상 1이다",
+      "common_mistake": "표본공간의 원소를 빠뜨리는 것 — 모든 가능한 결과를 빠짐없이 포함해야 한다"
+    }
+  },
+  {
+    "id": "PROB_EV_027",
+    "terminology": "사건 (Event)",
+    "terminology_ko": "사건",
+    "terminology_en": "Event",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "표본공간의 부분집합으로, 관심 있는 하나 이상의 결과로 구성된 집합이다.",
+    "definition_en": "A subset of the sample space consisting of one or more outcomes of interest.",
+    "significance": "확률의 대상이 되는 기본 단위로, 심리학 연구에서 특정 결과 패턴의 발생 가능성을 분석하는 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "확률론의 공리적 체계에서 사건을 측정 가능한 집합으로 정의하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본공간",
+        "name_en": "Sample Space",
+        "id": "PROB_SS_026"
+      },
+      {
+        "name_ko": "확률",
+        "name_en": "Probability",
+        "id": "PROB_PR_001"
+      },
+      {
+        "name_ko": "배반사건",
+        "name_en": "Mutually Exclusive Events",
+        "id": "PROB_ME_006"
+      },
+      {
+        "name_ko": "독립사건",
+        "name_en": "Independent Events",
+        "id": "PROB_IE_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "단순사건",
+        "name_en": "Simple Event",
+        "definition": "표본공간의 원소 하나로 구성된 사건 (더 이상 분해 불가)"
+      },
+      {
+        "name_ko": "복합사건",
+        "name_en": "Compound Event",
+        "definition": "두 개 이상의 단순사건으로 구성된 사건"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "사건 = 표본공간(S)의 '부분집합', 예: 주사위 짝수 = {2,4,6}",
+      "differential": "사건은 관심 있는 결과의 집합이고, 표본공간은 모든 가능한 결과의 전체 집합이다",
+      "key_point": "사건의 확률 = 사건에 포함된 결과의 확률 합 (동일확률 가정 시: 사건 원소 수 / 전체 원소 수)",
+      "common_mistake": "사건(event)과 결과(outcome)를 구분하지 않는 것 — 결과는 개별 원소이고, 사건은 원소들의 집합이다"
+    }
+  },
+  {
+    "id": "PROB_TD_028",
+    "terminology": "t분포 (t-Distribution)",
+    "terminology_ko": "t분포",
+    "terminology_en": "t-Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "모집단 표준편차를 모를 때 표본 통계량의 분포를 기술하는 연속확률분포로, 자유도에 의해 형태가 결정되며 정규분포보다 꼬리가 두텁다.",
+    "definition_en": "A continuous probability distribution describing the distribution of sample statistics when the population standard deviation is unknown, with heavier tails than the normal distribution and shape determined by degrees of freedom.",
+    "significance": "심리학의 대부분의 연구에서 모표준편차를 모르므로, t분포는 t검정과 회귀분석 등 추론통계의 핵심 분포이다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William Sealy Gosset",
+        "contribution": "'Student'라는 필명으로 소표본에서의 t분포를 발견하고 발표하였다"
+      },
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "t분포의 수학적 성질을 엄밀히 증명하고 자유도 개념을 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "독립표본t검정",
+        "name_en": "Independent-Samples t-Test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "t분포 = '정규분포의 두꺼운 꼬리 버전', df↑ → 정규분포에 근접",
+      "differential": "t분포는 모 σ를 모를 때(s로 추정) 사용하고, z분포(표준정규)는 모 σ를 알 때 사용한다",
+      "key_point": "자유도가 증가할수록 t분포는 정규분포에 수렴하며, df≥30이면 거의 동일하다",
+      "common_mistake": "t분포가 항상 정규분포와 같다고 가정하는 것 — 소표본에서는 꼬리가 상당히 두텁다"
+    }
+  },
+  {
+    "id": "PROB_FD_029",
+    "terminology": "F분포 (F-Distribution)",
+    "terminology_ko": "F분포",
+    "terminology_en": "F-Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "두 독립적인 카이제곱 변수의 비율로 정의되는 연속확률분포로, 분산분석(ANOVA)과 회귀분석에서 분산 비교에 사용된다.",
+    "definition_en": "A continuous probability distribution defined as the ratio of two independent chi-square variables, used in ANOVA and regression analysis for comparing variances.",
+    "significance": "심리학 실험에서 집단 간 차이를 검정하는 ANOVA의 핵심 검정분포이며, 회귀모형의 전체 유의성 검정에도 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산분석과 함께 F분포의 이론적 기초를 확립하였다(F는 Fisher의 첫 글자)"
+      },
+      {
+        "name_ko": "조지 스네데커",
+        "name_en": "George W. Snedecor",
+        "contribution": "피셔를 기리며 F비(F-ratio)라는 명칭을 도입하고 통계 교육에 보급하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-Way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "카이제곱 분포",
+        "name_en": "Chi-Square Distribution",
+        "id": "PROB_CS_030"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "분산",
+        "name_en": "Variance",
+        "id": "DESCRIP_VAR_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "F = Fisher의 F, 두 분산의 비(MS_between / MS_within)",
+      "differential": "t분포는 평균 차이를 검정하고, F분포는 분산의 비를 검정한다 — 사실 t² = F (df₁=1일 때)",
+      "key_point": "F분포는 항상 양수이고 오른쪽으로 치우친 비대칭 분포이며, 두 개의 자유도(df₁, df₂)로 결정된다",
+      "common_mistake": "F값이 음수가 될 수 있다고 생각하는 것 — F는 분산의 비율이므로 항상 0 이상이다"
+    }
+  },
+  {
+    "id": "PROB_CS_030",
+    "terminology": "카이제곱 분포 (Chi-Square Distribution)",
+    "terminology_ko": "카이제곱 분포",
+    "terminology_en": "Chi-Square Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "독립적인 표준정규 변수들의 제곱합으로 정의되는 연속확률분포로, 적합도 검정과 독립성 검정에 사용된다.",
+    "definition_en": "A continuous probability distribution defined as the sum of squares of independent standard normal variables, used for goodness-of-fit and independence tests.",
+    "significance": "범주형 데이터의 분석에서 핵심적인 검정분포이며, 심리학의 설문 응답 패턴, 진단 범주 간 연관성 분석에 널리 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "카이제곱 적합도 검정을 개발하여 범주형 데이터 분석의 기초를 마련하였다"
+      },
+      {
+        "name_ko": "프리드리히 헬메르트",
+        "name_en": "Friedrich Helmert",
+        "contribution": "카이제곱 분포의 수학적 성질을 초기에 연구하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "F분포",
+        "name_en": "F-Distribution",
+        "id": "PROB_FD_029"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      },
+      {
+        "name_ko": "표준정규분포",
+        "name_en": "Standard Normal Distribution",
+        "id": "PROB_SND_002"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "χ² = z₁² + z₂² + ... → '표준정규 변수의 제곱합'",
+      "differential": "카이제곱 검정은 범주형 데이터(빈도)에 사용하고, t검정과 F검정은 연속형 데이터(평균/분산)에 사용한다",
+      "key_point": "카이제곱 분포는 항상 양수이고 오른쪽으로 치우치며, 자유도가 증가하면 정규분포에 근사한다",
+      "common_mistake": "카이제곱 검정에서 기대빈도가 5 미만인 셀이 많을 때에도 그대로 적용하는 것 — 피셔의 정확 검정을 고려해야 한다"
+    }
+  },
+  {
+    "id": "PROB_UD_031",
+    "terminology": "균일분포 (Uniform Distribution)",
+    "terminology_ko": "균일분포",
+    "terminology_en": "Uniform Distribution",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "모든 가능한 값이 동일한 확률로 발생하는 확률분포로, 이산형과 연속형이 모두 존재한다.",
+    "definition_en": "A probability distribution in which all possible values are equally likely to occur, existing in both discrete and continuous forms.",
+    "significance": "무작위 배정, 난수 생성, 무정보 사전확률의 기초가 되며, 다른 분포와의 비교 기준으로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "이유불충분의 원리를 통해 균일분포를 무정보 상태의 확률 모형으로 체계화하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률분포",
+        "name_en": "Probability Distribution",
+        "id": "PROB_PD_012"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "사전확률",
+        "name_en": "Prior Probability",
+        "id": "PROB_PP_011"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "이산균일분포",
+        "name_en": "Discrete Uniform Distribution",
+        "definition": "유한한 수의 값 각각이 동일한 확률을 갖는 분포 (예: 공정한 주사위)"
+      },
+      {
+        "name_ko": "연속균일분포",
+        "name_en": "Continuous Uniform Distribution",
+        "definition": "구간 [a, b]에서 모든 값이 동일한 밀도를 갖는 분포"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "균일 = '고르게 동일한' 확률 → 주사위의 각 면이 1/6인 것처럼",
+      "differential": "균일분포는 모든 값이 동등한 확률이고, 정규분포는 중앙에 집중되는 불균등한 확률이다",
+      "key_point": "연속균일분포의 확률밀도함수: f(x) = 1/(b-a), 구간 [a,b]에서 일정",
+      "common_mistake": "모든 '공정한' 상황이 균일분포라고 생각하는 것 — 동전 10번 던지기에서 앞면 횟수는 이항분포이지 균일분포가 아니다"
+    }
+  },
+  {
+    "id": "PROB_CLT_032",
+    "terminology": "중심극한정리 (Central Limit Theorem)",
+    "terminology_ko": "중심극한정리",
+    "terminology_en": "Central Limit Theorem",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "모집단의 분포 형태와 관계없이, 충분히 큰 표본에서 추출한 표본평균의 분포가 정규분포에 근사한다는 정리이다.",
+    "definition_en": "A theorem stating that the distribution of sample means approximates a normal distribution as sample size increases, regardless of the shape of the population distribution.",
+    "significance": "모집단이 정규분포가 아니더라도 추론통계를 적용할 수 있는 이론적 근거를 제공하여, 심리학 연구의 통계적 추론을 정당화한다.",
+    "key_researchers": [
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "중심극한정리의 초기 형태를 증명하고 그 보편적 중요성을 인식하였다"
+      },
+      {
+        "name_ko": "알렉산드르 랴푸노프",
+        "name_en": "Aleksandr Lyapunov",
+        "contribution": "특성함수를 이용하여 중심극한정리의 일반적 증명을 완성하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "표본분포",
+        "name_en": "Sampling Distribution",
+        "id": "SAMPLE_SD_013"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "큰 수의 법칙",
+        "name_en": "Law of Large Numbers",
+        "id": "PROB_LLN_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CLT = 표본크기↑ → 표본평균의 분포가 '종(bell) 모양'에 근접",
+      "differential": "큰 수의 법칙은 표본평균이 모평균으로 '수렴'하는 것이고, 중심극한정리는 표본평균의 '분포 형태'가 정규분포가 된다는 것이다",
+      "key_point": "일반적으로 n≥30이면 중심극한정리가 잘 작동하지만, 모집단이 극단적으로 편포되면 더 큰 표본이 필요하다",
+      "common_mistake": "중심극한정리가 개별 관측값의 분포를 정규화한다고 생각하는 것 — 정규화되는 것은 '표본평균'의 분포이다"
+    }
+  },
+  {
+    "id": "PROB_6895_033",
+    "terminology": "68-95-99.7 규칙 (Empirical Rule)",
+    "terminology_ko": "68-95-99.7 규칙",
+    "terminology_en": "Empirical Rule",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "정규분포에서 평균 ±1SD 안에 약 68%, ±2SD 안에 약 95%, ±3SD 안에 약 99.7%의 데이터가 포함된다는 경험 규칙이다.",
+    "definition_en": "A rule stating that in a normal distribution, approximately 68% of data falls within ±1 SD, 95% within ±2 SD, and 99.7% within ±3 SD of the mean.",
+    "significance": "심리검사 점수의 상대적 위치를 빠르게 해석하고, 이상치 탐지의 대략적 기준을 제공하는 실용적 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "아브라함 드 무아브르",
+        "name_en": "Abraham de Moivre",
+        "contribution": "정규분포 곡선의 면적 계산을 통해 이 규칙의 수학적 기초를 마련하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      },
+      {
+        "name_ko": "이상치",
+        "name_en": "Outlier",
+        "id": "DESCRIP_OL_034"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "68-95-99.7 = ±1σ에 68%, ±2σ에 95%, ±3σ에 거의 전부(99.7%)",
+      "differential": "68-95-99.7 규칙은 정규분포에만 적용되고, 체비셰프 정리는 모든 분포에 적용되는 더 일반적 규칙이다",
+      "key_point": "이 규칙에서 '95%'는 ±1.96 SD가 아닌 ±2 SD의 근사값이다 — 정확한 95%는 ±1.96 SD",
+      "common_mistake": "정규분포가 아닌 데이터에 이 규칙을 그대로 적용하는 것"
+    }
+  },
+  {
+    "id": "PROB_RV_034",
+    "terminology": "확률변수 (Random Variable)",
+    "terminology_ko": "확률변수",
+    "terminology_en": "Random Variable",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "확률 실험의 각 결과에 수치를 대응시키는 함수로, 표본공간의 원소를 실수 값으로 변환한다.",
+    "definition_en": "A function that assigns a numerical value to each outcome of a probability experiment, mapping elements of the sample space to real numbers.",
+    "significance": "심리학 측정값(점수, 반응시간 등)을 확률분포의 틀에서 분석할 수 있게 하는 이론적 기초를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "확률론의 공리적 기초에서 확률변수를 측정 가능한 함수로 엄밀히 정의하였다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "확률분포",
+        "name_en": "Probability Distribution",
+        "id": "PROB_PD_012"
+      },
+      {
+        "name_ko": "기대값",
+        "name_en": "Expected Value",
+        "id": "PROB_EV_015"
+      },
+      {
+        "name_ko": "표본공간",
+        "name_en": "Sample Space",
+        "id": "PROB_SS_026"
+      }
+    ],
+    "sub_types": [
+      {
+        "name_ko": "이산확률변수",
+        "name_en": "Discrete Random Variable",
+        "definition": "셀 수 있는 값을 취하는 확률변수 (예: 정답 수, 선택 횟수)"
+      },
+      {
+        "name_ko": "연속확률변수",
+        "name_en": "Continuous Random Variable",
+        "definition": "구간 내 모든 실수 값을 취할 수 있는 확률변수 (예: 반응시간, 체온)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "확률변수 = '실험 결과에 숫자 붙이기' 함수, X: S → R",
+      "differential": "확률변수는 수학적 함수이고, 변인(variable)은 연구 맥락에서 측정 대상을 일반적으로 지칭하는 용어이다",
+      "key_point": "확률변수는 대문자(X)로, 그것이 취하는 특정 값은 소문자(x)로 표기하는 것이 관례이다",
+      "common_mistake": "확률변수를 '변하는 숫자'로만 이해하는 것 — 정확하게는 표본공간에서 실수로의 함수이다"
+    }
+  },
+  {
+    "id": "PROB_CT_035",
+    "terminology": "체비셰프 정리 (Chebyshev's Theorem)",
+    "terminology_ko": "체비셰프 정리",
+    "terminology_en": "Chebyshev's Theorem",
+    "category": "PROB",
+    "category_name": "확률과 정규분포 (Probability & Normal Distribution)",
+    "definition": "분포의 형태와 관계없이, 평균에서 k 표준편차 이내에 최소 1 - 1/k²의 비율의 데이터가 포함된다는 정리이다 (k > 1).",
+    "definition_en": "A theorem stating that for any distribution, at least 1 - 1/k² of the data falls within k standard deviations of the mean (for k > 1), regardless of distribution shape.",
+    "significance": "정규분포 가정이 불가능할 때에도 산포에 대한 최소한의 보장을 제공하여, 비정규 심리학 데이터의 해석에 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "파프누티 체비셰프",
+        "name_en": "Pafnuty Chebyshev",
+        "contribution": "분포 무관 부등식을 증명하여 확률론의 기초를 발전시켰다"
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "68-95-99.7 규칙",
+        "name_en": "Empirical Rule",
+        "id": "PROB_6895_033"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체비셰프: k=2이면 최소 75%, k=3이면 최소 89% → 정규분포(95%, 99.7%)보다 보수적",
+      "differential": "체비셰프 정리는 모든 분포에 적용되는 '최소 보장'이고, 68-95-99.7 규칙은 정규분포에서의 '정확한 비율'이다",
+      "key_point": "체비셰프 정리는 분포 형태에 대한 가정이 없으므로, 결과가 보수적(하한)이다",
+      "common_mistake": "체비셰프 정리를 정규분포에만 적용되는 것으로 한정하는 것 — 이 정리는 모든 분포에 적용된다"
+    }
+  }
+]

@@ -1,0 +1,1659 @@
+[
+  {
+    "id": "NONPARA_CHI_001",
+    "terminology": "카이제곱 검정 (Chi-Square Test)",
+    "terminology_ko": "카이제곱 검정",
+    "terminology_en": "Chi-Square Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "범주형 자료에서 관찰빈도와 기대빈도 간의 차이가 통계적으로 유의한지를 검정하는 비모수 통계 방법으로, 적합도 검정과 독립성 검정으로 구분된다.",
+    "definition_en": "A nonparametric statistical method that tests whether the difference between observed and expected frequencies in categorical data is statistically significant, divided into goodness-of-fit and independence tests.",
+    "significance": "심리학 연구에서 성별, 진단 범주, 응답 유형 등 명목척도 자료를 분석하는 가장 기본적이고 널리 사용되는 비모수 검정법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "1900년 카이제곱 적합도 검정을 개발하여 범주형 자료의 통계적 분석 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "카이제곱 적합도 검정",
+        "name_en": "Chi-Square Goodness-of-Fit Test",
+        "id": "NONPARA_GOF_016"
+      },
+      {
+        "name_ko": "카이제곱 독립성 검정",
+        "name_en": "Chi-Square Test of Independence",
+        "id": "NONPARA_IND_017"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "적합도 검정 (Goodness-of-Fit Test)",
+        "description": "한 변인의 관찰 분포가 이론적 분포에 적합한지 검정"
+      },
+      {
+        "name": "독립성 검정 (Test of Independence)",
+        "description": "두 범주형 변인 간의 관련성(독립성) 검정"
+      },
+      {
+        "name": "동질성 검정 (Test of Homogeneity)",
+        "description": "여러 집단의 범주 분포가 동일한지 검정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "χ² = Σ(관찰 - 기대)² / 기대, 관찰된 것과 기대한 것의 '차이'를 검정",
+      "differential": "카이제곱은 빈도(범주형) 자료를 분석하고, t검정이나 ANOVA는 연속형 자료를 분석한다.",
+      "key_point": "기대빈도가 5 미만인 셀이 20% 이상이면 카이제곱 검정의 정확성이 떨어지므로 피셔의 정확검정을 사용해야 한다.",
+      "common_mistake": "카이제곱 검정은 관련성의 유무만 판단하며, 관련성의 강도나 방향은 별도의 지표(크래머의 V 등)로 확인해야 한다."
+    }
+  },
+  {
+    "id": "NONPARA_MWU_002",
+    "terminology": "맨-휘트니 U검정 (Mann-Whitney U Test)",
+    "terminology_ko": "맨-휘트니 U검정",
+    "terminology_en": "Mann-Whitney U Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "두 독립 집단의 순위 분포를 비교하는 비모수 검정법으로, 정규성 가정을 충족하지 못하거나 서열척도 자료일 때 독립표본 t검정의 대안으로 사용된다.",
+    "definition_en": "A nonparametric test that compares the rank distributions of two independent groups, used as an alternative to the independent samples t-test when normality assumptions are not met or data are ordinal.",
+    "significance": "심리학 연구에서 소표본이거나 비정규 분포 자료에서 두 집단의 차이를 검증할 때 가장 널리 사용되는 비모수 대안이다.",
+    "key_researchers": [
+      {
+        "name_ko": "헨리 맨",
+        "name_en": "Henry Mann",
+        "contribution": "Donald Whitney와 함께 1947년 두 독립 표본의 순위 기반 검정법(U검정)을 개발했다."
+      },
+      {
+        "name_ko": "도널드 휘트니",
+        "name_en": "Donald Whitney",
+        "contribution": "Henry Mann과 공동으로 U검정의 수학적 기초와 검정 통계량을 확립했다."
+      },
+      {
+        "name_ko": "프랭크 윌콕슨",
+        "name_en": "Frank Wilcoxon",
+        "contribution": "1945년 순위합 검정을 독립적으로 개발하여 동일한 검정의 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent Samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "윌콕슨 부호순위 검정",
+        "name_en": "Wilcoxon Signed-Rank Test",
+        "id": "NONPARA_WSR_003"
+      },
+      {
+        "name_ko": "크루스칼-왈리스 검정",
+        "name_en": "Kruskal-Wallis Test",
+        "id": "NONPARA_KW_004"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "맨-휘트니 = 독립 2집단 비모수 비교, t검정의 '비모수 쌍둥이'",
+      "differential": "맨-휘트니 U검정은 두 '독립' 집단을 비교하고, 윌콕슨 부호순위 검정은 '대응' 표본을 비교한다.",
+      "key_point": "원점수 대신 전체를 통합하여 순위를 매긴 후, 각 집단의 순위합을 비교한다.",
+      "common_mistake": "맨-휘트니 U검정을 '중앙값 비교'로만 이해하면 안 되며, 실제로는 두 집단의 순위 분포 전체를 비교하는 것이다."
+    }
+  },
+  {
+    "id": "NONPARA_WSR_003",
+    "terminology": "윌콕슨 부호순위 검정 (Wilcoxon Signed-Rank Test)",
+    "terminology_ko": "윌콕슨 부호순위 검정",
+    "terminology_en": "Wilcoxon Signed-Rank Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "대응 표본(반복 측정)에서 차이값의 부호와 크기 순위를 모두 고려하여 두 조건 간 차이를 검정하는 비모수 방법으로, 대응표본 t검정의 비모수 대안이다.",
+    "definition_en": "A nonparametric method that tests differences between two related conditions by considering both the sign and rank magnitude of difference scores, serving as a nonparametric alternative to the paired samples t-test.",
+    "significance": "심리학의 사전-사후 설계나 반복측정 연구에서 정규성 가정이 위반될 때 가장 많이 사용되는 비모수 대안이다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랭크 윌콕슨",
+        "name_en": "Frank Wilcoxon",
+        "contribution": "1945년 부호순위 검정을 개발하여 대응 표본의 비모수 검정 방법을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired Samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "부호 검정",
+        "name_en": "Sign Test",
+        "id": "NONPARA_ST_011"
+      },
+      {
+        "name_ko": "맨-휘트니 U검정",
+        "name_en": "Mann-Whitney U Test",
+        "id": "NONPARA_MWU_002"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "윌콕슨 = 대응표본 비모수, 차이값의 '부호(방향)' + '순위(크기)' 모두 사용",
+      "differential": "부호 검정은 차이의 방향(부호)만 사용하지만, 윌콕슨 부호순위 검정은 방향과 크기(순위) 모두 사용하여 더 검정력이 높다.",
+      "key_point": "차이값이 0인 경우는 제외하고, 나머지 차이값의 절대값에 순위를 매긴 후 양의 순위합과 음의 순위합을 비교한다.",
+      "common_mistake": "윌콕슨의 '순위합 검정(rank-sum test)'과 '부호순위 검정(signed-rank test)'을 혼동하는 경우가 많다. 전자는 독립표본, 후자는 대응표본 검정이다."
+    }
+  },
+  {
+    "id": "NONPARA_KW_004",
+    "terminology": "크루스칼-왈리스 검정 (Kruskal-Wallis Test)",
+    "terminology_ko": "크루스칼-왈리스 검정",
+    "terminology_en": "Kruskal-Wallis Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "세 개 이상의 독립 집단의 순위 분포를 비교하는 비모수 검정법으로, 일원분산분석(one-way ANOVA)의 비모수 대안이다.",
+    "definition_en": "A nonparametric test that compares the rank distributions of three or more independent groups, serving as a nonparametric alternative to one-way ANOVA.",
+    "significance": "심리학 연구에서 세 집단 이상의 비교가 필요하지만 정규성이나 등분산성 가정을 충족하지 못할 때, 또는 서열 자료를 분석할 때 표준적으로 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 크루스칼",
+        "name_en": "William Kruskal",
+        "contribution": "W. Allen Wallis와 함께 1952년 다집단 순위 비교 검정법을 개발했다."
+      },
+      {
+        "name_ko": "앨런 왈리스",
+        "name_en": "W. Allen Wallis",
+        "contribution": "William Kruskal과 공동으로 비모수적 분산분석 대안을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "맨-휘트니 U검정",
+        "name_en": "Mann-Whitney U Test",
+        "id": "NONPARA_MWU_002"
+      },
+      {
+        "name_ko": "프리드만 검정",
+        "name_en": "Friedman Test",
+        "id": "NONPARA_FR_005"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "크루스칼-왈리스 = 독립 3집단+ 비모수 비교, ANOVA의 '비모수 버전'",
+      "differential": "크루스칼-왈리스는 독립 집단을 비교하고, 프리드만 검정은 반복측정(대응) 설계를 위한 비모수 검정이다.",
+      "key_point": "유의한 결과가 나오면 어떤 집단 간에 차이가 있는지 사후검정(예: 맨-휘트니 U + 본페로니 보정)이 필요하다.",
+      "common_mistake": "크루스칼-왈리스가 유의하면 모든 집단이 서로 다르다고 오해하지만, ANOVA처럼 사후검정으로 쌍별 비교가 필요하다."
+    }
+  },
+  {
+    "id": "NONPARA_FR_005",
+    "terminology": "프리드만 검정 (Friedman Test)",
+    "terminology_ko": "프리드만 검정",
+    "terminology_en": "Friedman Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "세 개 이상의 반복측정(대응) 조건에서 순위를 이용하여 조건 간 차이를 검정하는 비모수 방법으로, 반복측정 분산분석의 비모수 대안이다.",
+    "definition_en": "A nonparametric method that tests differences among three or more repeated measures (related) conditions using ranks, serving as a nonparametric alternative to repeated measures ANOVA.",
+    "significance": "심리학의 반복측정 설계에서 정규성 가정이 충족되지 않을 때 사용되며, 같은 참가자의 여러 조건을 비교하는 연구에서 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "밀턴 프리드만",
+        "name_en": "Milton Friedman",
+        "contribution": "1937년 순위 기반 반복측정 비교 검정법을 개발했으며, 후에 노벨 경제학상을 수상한 경제학자이기도 하다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "크루스칼-왈리스 검정",
+        "name_en": "Kruskal-Wallis Test",
+        "id": "NONPARA_KW_004"
+      },
+      {
+        "name_ko": "윌콕슨 부호순위 검정",
+        "name_en": "Wilcoxon Signed-Rank Test",
+        "id": "NONPARA_WSR_003"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "코크런 Q검정",
+        "name_en": "Cochran's Q Test",
+        "id": "NONPARA_CQ_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "프리드만 = 반복측정 3조건+ 비모수, 각 참가자 내에서 순위를 매김",
+      "differential": "프리드만은 반복측정(대응) 설계이고, 크루스칼-왈리스는 독립 집단 설계이다. 둘 다 3집단 이상의 비모수 비교이다.",
+      "key_point": "각 참가자(행) 내에서 조건별로 순위를 매긴 후, 조건별 순위합을 비교한다.",
+      "common_mistake": "프리드만 검정의 개발자 Milton Friedman이 노벨 경제학상 수상자와 동일 인물이라는 점을 모르는 경우가 많다."
+    }
+  },
+  {
+    "id": "NONPARA_FE_006",
+    "terminology": "피셔의 정확검정 (Fisher's Exact Test)",
+    "terminology_ko": "피셔의 정확검정",
+    "terminology_en": "Fisher's Exact Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "2×2 분할표에서 표본크기가 작거나 기대빈도가 낮을 때 정확한 확률을 계산하여 두 범주형 변인의 관련성을 검정하는 비모수 방법이다.",
+    "definition_en": "A nonparametric method that calculates exact probabilities to test the association between two categorical variables in a 2×2 contingency table when sample size is small or expected frequencies are low.",
+    "significance": "소표본 심리학 연구에서 카이제곱 검정의 대안으로 필수적이며, 기대빈도 조건이 충족되지 않을 때 정확한 유의확률을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "1934년 '숙녀의 차 실험(lady tasting tea)'에서 정확검정의 원리를 제시하여 소표본 범주형 분석의 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      },
+      {
+        "name_ko": "관찰빈도",
+        "name_en": "Observed Frequency",
+        "id": "NONPARA_OF_019"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "피셔 정확 = 소표본에서 '정확한' 확률 계산, 카이제곱의 보완",
+      "differential": "카이제곱은 근사적 검정(대표본)이고, 피셔의 정확검정은 정확한 확률을 직접 계산(소표본)한다.",
+      "key_point": "기대빈도가 5 미만인 셀이 있으면 카이제곱 대신 피셔의 정확검정을 사용해야 한다.",
+      "common_mistake": "피셔의 정확검정이 2×2 분할표에만 적용된다고 오해하지만, 확장 버전은 더 큰 분할표에도 적용 가능하다."
+    }
+  },
+  {
+    "id": "NONPARA_MDT_007",
+    "terminology": "중앙값 검정 (Median Test)",
+    "terminology_ko": "중앙값 검정",
+    "terminology_en": "Median Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "두 개 이상의 독립 집단에서 공통 중앙값보다 위와 아래에 속하는 사례 수를 비교하여 집단 간 중심 경향의 차이를 검정하는 비모수 방법이다.",
+    "definition_en": "A nonparametric method that tests differences in central tendency among two or more independent groups by comparing the number of cases above and below a common median.",
+    "significance": "개념적으로 단순하여 비모수 검정의 기초적 이해에 도움이 되지만, 검정력이 낮아 실제 연구에서는 맨-휘트니 U나 크루스칼-왈리스가 더 선호된다.",
+    "key_researchers": [
+      {
+        "name_ko": "시드니 시겔",
+        "name_en": "Sidney Siegel",
+        "contribution": "비모수 통계 교과서에서 중앙값 검정의 절차와 한계를 체계적으로 설명했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      },
+      {
+        "name_ko": "맨-휘트니 U검정",
+        "name_en": "Mann-Whitney U Test",
+        "id": "NONPARA_MWU_002"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "크루스칼-왈리스 검정",
+        "name_en": "Kruskal-Wallis Test",
+        "id": "NONPARA_KW_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "중앙값 검정 = 전체 중앙값 기준 위/아래 빈도를 카이제곱으로 비교",
+      "differential": "중앙값 검정은 중앙값 위/아래의 빈도만 사용하지만, 맨-휘트니는 모든 순위 정보를 활용하여 검정력이 더 높다.",
+      "key_point": "순위 정보를 이분화(중앙값 위/아래)하므로 정보 손실이 크고 검정력이 낮다.",
+      "common_mistake": "중앙값 검정이 중앙값의 '동일성'을 검정한다고 오해하지만, 실제로는 분포의 위치를 비교하는 것이다."
+    }
+  },
+  {
+    "id": "NONPARA_RUN_008",
+    "terminology": "런 검정 (Runs Test)",
+    "terminology_ko": "런 검정",
+    "terminology_en": "Runs Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "이진 데이터 시퀀스에서 연속적으로 동일한 값이 나타나는 구간(런)의 수를 분석하여 자료의 무선성(randomness)을 검정하는 비모수 방법이다.",
+    "definition_en": "A nonparametric method that tests the randomness of data by analyzing the number of runs (consecutive sequences of identical values) in a binary data sequence.",
+    "significance": "심리학 실험에서 무선 배정의 적절성을 확인하거나, 회귀 잔차의 독립성(무선 패턴)을 검증하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "아브라함 왈드",
+        "name_en": "Abraham Wald",
+        "contribution": "Jacob Wolfowitz와 함께 런 검정의 수학적 기초와 분포를 확립했다."
+      },
+      {
+        "name_ko": "제이콥 울포위츠",
+        "name_en": "Jacob Wolfowitz",
+        "contribution": "Abraham Wald와 공동으로 무선성 검정을 위한 런 검정을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "잔차분석",
+        "name_en": "Residual Analysis",
+        "id": "REGRESS_RA_015"
+      },
+      {
+        "name_ko": "더빈-왓슨 검정",
+        "name_en": "Durbin-Watson Test",
+        "id": "REGRESS_DW_017"
+      },
+      {
+        "name_ko": "무선화검정",
+        "name_en": "Randomization Test",
+        "id": "NONPARA_RAND_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "런(run) = 같은 것이 연속으로 나오는 묶음, 런이 너무 많거나 적으면 비무선적",
+      "differential": "런 검정은 순서의 무선성을 검정하고, 더빈-왓슨은 잔차 간의 자기상관을 검정한다.",
+      "key_point": "런의 수가 기대보다 너무 많으면 체계적 교대, 너무 적으면 군집화 경향을 의미한다.",
+      "common_mistake": "런 검정은 이진 데이터에만 직접 적용 가능하며, 연속 자료는 중앙값 기준으로 이분화한 후 사용한다."
+    }
+  },
+  {
+    "id": "NONPARA_KS_009",
+    "terminology": "콜모고로프-스미르노프 검정 (Kolmogorov-Smirnov Test)",
+    "terminology_ko": "콜모고로프-스미르노프 검정",
+    "terminology_en": "Kolmogorov-Smirnov Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "표본의 누적분포함수와 이론적 분포(또는 다른 표본)의 누적분포함수 간의 최대 차이를 이용하여 분포의 적합성을 검정하는 비모수 방법이다.",
+    "definition_en": "A nonparametric method that tests the goodness of fit of a distribution by using the maximum difference between the cumulative distribution function of the sample and a theoretical distribution (or another sample).",
+    "significance": "심리학 연구에서 데이터의 정규성을 검정하는 데 가장 많이 사용되는 방법 중 하나로, 모수 통계 적용의 전제 조건을 확인하는 데 핵심적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "안드레이 콜모고로프",
+        "name_en": "Andrey Kolmogorov",
+        "contribution": "1933년 일표본 적합도 검정을 개발하여 분포 비교의 수학적 기초를 확립했다."
+      },
+      {
+        "name_ko": "니콜라이 스미르노프",
+        "name_en": "Nikolai Smirnov",
+        "contribution": "Kolmogorov의 검정을 이표본 비교로 확장하여 두 분포의 차이를 검정하는 방법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      },
+      {
+        "name_ko": "비모수적 가정",
+        "name_en": "Nonparametric Assumptions",
+        "id": "NONPARA_NPA_027"
+      },
+      {
+        "name_ko": "가정 검증",
+        "name_en": "Assumption Checking",
+        "id": "REGRESS_AC_031"
+      },
+      {
+        "name_ko": "카이제곱 적합도 검정",
+        "name_en": "Chi-Square Goodness-of-Fit Test",
+        "id": "NONPARA_GOF_016"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "일표본 K-S 검정 (One-sample)",
+        "description": "표본이 특정 이론적 분포를 따르는지 검정"
+      },
+      {
+        "name": "이표본 K-S 검정 (Two-sample)",
+        "description": "두 표본이 동일한 분포를 따르는지 검정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "K-S 검정 = 누적분포 곡선 간의 '최대 차이(D)'를 검정 통계량으로 사용",
+      "differential": "K-S 검정은 분포 전체의 형태를 비교하지만, 샤피로-윌크 검정은 정규성에 특화되어 더 검정력이 높다.",
+      "key_point": "검정 통계량 D는 두 누적분포함수 간의 최대 수직 거리이다.",
+      "common_mistake": "K-S 검정은 대표본에서 사소한 차이도 유의하게 나올 수 있으며, 정규성 검정 시 샤피로-윌크가 더 권장된다."
+    }
+  },
+  {
+    "id": "NONPARA_SR_010",
+    "terminology": "스피어만 순위 상관 (Spearman Rank Correlation)",
+    "terminology_ko": "스피어만 순위 상관",
+    "terminology_en": "Spearman Rank Correlation",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "두 변인의 순위를 이용하여 단조적(monotonic) 관련성의 방향과 강도를 측정하는 비모수 상관계수로, 피어슨 상관의 비모수 대안이다.",
+    "definition_en": "A nonparametric correlation coefficient that measures the direction and strength of the monotonic relationship between two variables using their ranks, serving as a nonparametric alternative to Pearson correlation.",
+    "significance": "심리학 연구에서 서열 자료이거나 정규성이 보장되지 않을 때 두 변인 간 관계를 파악하는 표준적 비모수 상관 방법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "1904년 순위 상관계수를 개발하였으며, 일반 지능(g-factor) 이론으로도 유명하다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      },
+      {
+        "name_ko": "켄달의 W",
+        "name_en": "Kendall's W",
+        "id": "NONPARA_KW2_015"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "스피어만 상관",
+        "name_en": "Spearman Correlation",
+        "id": "CORR_SR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "스피어만 ρ(rho) = 순위로 변환한 후 피어슨 상관을 구한 것과 동일",
+      "differential": "피어슨은 '선형' 관계를 측정하고, 스피어만은 '단조적' 관계를 측정한다. 곡선적이지만 단조적인 관계도 포착 가능하다.",
+      "key_point": "원점수를 순위로 변환하므로 이상치에 강건하고, 서열 자료에 직접 적용 가능하다.",
+      "common_mistake": "스피어만 상관을 순서가 있는 자료에만 사용한다고 오해하지만, 연속 자료에서도 정규성 위반 시 사용 가능하다."
+    }
+  },
+  {
+    "id": "NONPARA_ST_011",
+    "terminology": "부호 검정 (Sign Test)",
+    "terminology_ko": "부호 검정",
+    "terminology_en": "Sign Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "대응 표본에서 차이값의 부호(양 또는 음)만을 이용하여 두 조건 간 차이를 검정하는 가장 단순한 비모수 방법이다.",
+    "definition_en": "The simplest nonparametric method that tests differences between two paired conditions using only the signs (positive or negative) of the difference scores.",
+    "significance": "가정이 거의 없는 가장 보수적인 비모수 검정으로, 자료의 측정 수준이 낮거나 극단적인 가정 위반 시에도 적용 가능하다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 아부스노트",
+        "name_en": "John Arbuthnot",
+        "contribution": "1710년 남녀 출생비 연구에서 부호 검정의 원리를 최초로 적용한 것으로 알려져 있다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "윌콕슨 부호순위 검정",
+        "name_en": "Wilcoxon Signed-Rank Test",
+        "id": "NONPARA_WSR_003"
+      },
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired Samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "이항검정",
+        "name_en": "Binomial Test",
+        "id": "NONPARA_BN_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "부호 검정 = 차이의 '부호'만 봄(+인지 -인지), 가장 단순한 비모수",
+      "differential": "부호 검정은 차이의 방향만 사용하여 검정력이 낮고, 윌콕슨 부호순위는 방향+크기를 사용하여 검정력이 더 높다.",
+      "key_point": "차이값의 크기를 무시하고 양의 차이와 음의 차이의 빈도만 비교하므로 정보 손실이 크다.",
+      "common_mistake": "부호 검정은 검정력이 매우 낮으므로, 가능하면 윌콕슨 부호순위 검정을 사용하는 것이 바람직하다."
+    }
+  },
+  {
+    "id": "NONPARA_BN_012",
+    "terminology": "이항검정 (Binomial Test)",
+    "terminology_ko": "이항검정",
+    "terminology_en": "Binomial Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "이분형 결과(성공/실패)의 관찰된 비율이 이론적 기대 비율과 유의하게 다른지를 이항분포에 기반하여 검정하는 비모수 방법이다.",
+    "definition_en": "A nonparametric method that tests whether the observed proportion of a dichotomous outcome (success/failure) significantly differs from a theoretical expected proportion, based on the binomial distribution.",
+    "significance": "심리학에서 선호도, 정답률, 반응 경향 등이 우연 수준과 다른지를 검증하는 기본적 방법으로, 단일 비율의 유의성 검정에 사용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "야코프 베르누이",
+        "name_en": "Jacob Bernoulli",
+        "contribution": "이항분포의 수학적 기초를 확립하여 이항검정의 이론적 토대를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "부호 검정",
+        "name_en": "Sign Test",
+        "id": "NONPARA_ST_011"
+      },
+      {
+        "name_ko": "카이제곱 적합도 검정",
+        "name_en": "Chi-Square Goodness-of-Fit Test",
+        "id": "NONPARA_GOF_016"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이항(Bi-nomial) = 2가지 결과, 관찰 비율 vs 기대 비율 비교",
+      "differential": "이항검정은 두 범주 중 하나의 비율을 검정하고, 카이제곱 적합도는 여러 범주의 분포를 동시에 검정한다.",
+      "key_point": "소표본에서 정확한 확률을 계산하며, 대표본에서는 정규근사를 사용할 수 있다.",
+      "common_mistake": "이항검정은 단일 비율 검정이므로, 두 집단 비율 비교에는 카이제곱 또는 z검정을 사용해야 한다."
+    }
+  },
+  {
+    "id": "NONPARA_MN_013",
+    "terminology": "맥니마 검정 (McNemar Test)",
+    "terminology_ko": "맥니마 검정",
+    "terminology_en": "McNemar Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "대응 표본(동일 대상 반복측정)에서 이분형 변인의 변화가 유의한지를 검정하는 비모수 방법으로, 사전-사후 범주 변화의 대칭성을 검정한다.",
+    "definition_en": "A nonparametric method that tests whether the change in a dichotomous variable is significant in paired samples (repeated measures of the same subjects), testing the symmetry of pre-post categorical changes.",
+    "significance": "심리학에서 처치 전후의 성공/실패, 찬성/반대 등 이분형 응답의 변화가 유의한지를 검증하는 데 사용되며, 태도 변화 연구에 특히 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "퀸 맥니마",
+        "name_en": "Quinn McNemar",
+        "contribution": "1947년 대응 표본의 이분형 자료 변화를 검정하는 방법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "윌콕슨 부호순위 검정",
+        "name_en": "Wilcoxon Signed-Rank Test",
+        "id": "NONPARA_WSR_003"
+      },
+      {
+        "name_ko": "코크런 Q검정",
+        "name_en": "Cochran's Q Test",
+        "id": "NONPARA_CQ_014"
+      },
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired Samples t-test",
+        "id": "TTEST_PT_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "맥니마 = 대응(사전-사후) + 이분형(예/아니오), 변화한 셀만 분석",
+      "differential": "맥니마는 대응 이분형 자료의 변화를, 카이제곱은 독립 표본의 범주 분포를 검정한다.",
+      "key_point": "변화가 없는 셀(동의→동의, 불동의→불동의)은 무시하고, 변화한 셀(동의→불동의, 불동의→동의)만 분석한다.",
+      "common_mistake": "맥니마 검정에서 분석의 초점은 '불일치 셀'이며, 일치 셀은 검정에 기여하지 않는다."
+    }
+  },
+  {
+    "id": "NONPARA_CQ_014",
+    "terminology": "코크런 Q검정 (Cochran's Q Test)",
+    "terminology_ko": "코크런 Q검정",
+    "terminology_en": "Cochran's Q Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "세 개 이상의 반복측정 조건에서 이분형 결과(성공/실패)의 비율이 조건 간에 유의하게 다른지를 검정하는 비모수 방법으로, 맥니마 검정의 확장이다.",
+    "definition_en": "A nonparametric method that tests whether the proportions of a dichotomous outcome (success/failure) differ significantly across three or more repeated measures conditions, extending the McNemar test.",
+    "significance": "심리학에서 동일 참가자가 여러 조건에서 보인 이분형 반응(정답/오답 등)의 차이를 비교하는 반복측정 설계에 적용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "윌리엄 코크런",
+        "name_en": "William Cochran",
+        "contribution": "반복측정에서 이분형 결과를 비교하는 Q검정을 개발하여 맥니마 검정을 다조건으로 확장했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "맥니마 검정",
+        "name_en": "McNemar Test",
+        "id": "NONPARA_MN_013"
+      },
+      {
+        "name_ko": "프리드만 검정",
+        "name_en": "Friedman Test",
+        "id": "NONPARA_FR_005"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "코크런 Q = 맥니마의 확장판, 3조건+ 반복측정 이분형 비교",
+      "differential": "맥니마는 2조건 대응 비교이고, 코크런 Q는 3조건 이상의 반복측정 이분형 비교이다.",
+      "key_point": "프리드만 검정과 유사하지만, 종속변인이 이분형(0/1)이라는 점이 다르다.",
+      "common_mistake": "코크런 Q검정이 유의하면 모든 조건 쌍이 다르다는 뜻이 아니며, 사후검정(맥니마 + 보정)이 필요하다."
+    }
+  },
+  {
+    "id": "NONPARA_KW2_015",
+    "terminology": "켄달의 일치계수 (Kendall's W, Coefficient of Concordance)",
+    "terminology_ko": "켄달의 일치계수",
+    "terminology_en": "Kendall's Coefficient of Concordance",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "여러 평정자(또는 반복측정)의 순위 평정이 얼마나 일치하는지를 0에서 1 사이의 값으로 나타내는 비모수 일치도 지표이다.",
+    "definition_en": "A nonparametric measure of agreement indicating the degree of concordance among multiple raters' (or repeated measures') rank ratings, ranging from 0 to 1.",
+    "significance": "심리학에서 평정자 간 신뢰도, 전문가 합의도, 선호도 일치도 등을 평가하는 데 사용되며, 서열 자료의 일치도 측정에 표준적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "모리스 켄달",
+        "name_en": "Maurice Kendall",
+        "contribution": "일치계수(W)와 순위상관계수(τ)를 개발하여 비모수 상관 및 일치도 분석의 기초를 확립했다."
+      },
+      {
+        "name_ko": "버나드 배빙턴 스미스",
+        "name_en": "Bernard Babington Smith",
+        "contribution": "Kendall과 함께 일치계수의 수학적 성질과 적용 방법을 연구했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "스피어만 순위 상관",
+        "name_en": "Spearman Rank Correlation",
+        "id": "NONPARA_SR_010"
+      },
+      {
+        "name_ko": "프리드만 검정",
+        "name_en": "Friedman Test",
+        "id": "NONPARA_FR_005"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "켄달 W = 평정자들의 '합의 정도', 0(불일치)~1(완전 일치)",
+      "differential": "스피어만은 두 변인(또는 2명의 평정자) 간 상관이고, 켄달 W는 3명 이상 평정자의 전체 일치도이다.",
+      "key_point": "W = 0이면 평정자 간 합의가 없고, W = 1이면 모든 평정자가 동일한 순위를 매긴 것이다.",
+      "common_mistake": "켄달의 W(일치계수)와 켄달의 τ(tau, 순위 상관계수)를 혼동하는 경우가 많다."
+    }
+  },
+  {
+    "id": "NONPARA_GOF_016",
+    "terminology": "카이제곱 적합도 검정 (Chi-Square Goodness-of-Fit Test)",
+    "terminology_ko": "카이제곱 적합도 검정",
+    "terminology_en": "Chi-Square Goodness-of-Fit Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "한 범주형 변인의 관찰된 빈도 분포가 이론적으로 기대되는 분포와 유의하게 다른지를 검정하는 방법이다.",
+    "definition_en": "A method that tests whether the observed frequency distribution of a single categorical variable significantly differs from a theoretically expected distribution.",
+    "significance": "심리학 연구에서 응답 분포가 균등한지, 이론적 비율과 일치하는지를 검증하는 기본적 방법으로, 분포 가설을 검정하는 데 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "1900년 적합도 검정을 최초로 개발하여 관찰 분포와 이론 분포를 비교하는 통계적 방법의 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "카이제곱 독립성 검정",
+        "name_en": "Chi-Square Test of Independence",
+        "id": "NONPARA_IND_017"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      },
+      {
+        "name_ko": "관찰빈도",
+        "name_en": "Observed Frequency",
+        "id": "NONPARA_OF_019"
+      },
+      {
+        "name_ko": "콜모고로프-스미르노프 검정",
+        "name_en": "Kolmogorov-Smirnov Test",
+        "id": "NONPARA_KS_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "적합도 = 관찰 분포가 기대 분포에 '적합'한가? 한 변인의 분포만 검정",
+      "differential": "적합도 검정은 한 변인의 분포를 검정하고, 독립성 검정은 두 변인 간의 관련성을 검정한다.",
+      "key_point": "자유도 = 범주 수(k) - 1이며, 기대빈도 < 5인 범주가 많으면 범주를 합칠 필요가 있다.",
+      "common_mistake": "적합도 검정의 기대빈도가 항상 균등 분포라고 오해하지만, 이론에 따른 불균등 기대비율도 설정 가능하다."
+    }
+  },
+  {
+    "id": "NONPARA_IND_017",
+    "terminology": "카이제곱 독립성 검정 (Chi-Square Test of Independence)",
+    "terminology_ko": "카이제곱 독립성 검정",
+    "terminology_en": "Chi-Square Test of Independence",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "두 범주형 변인이 서로 독립적인지(관련이 없는지)를 분할표(교차표)의 관찰빈도와 기대빈도를 비교하여 검정하는 방법이다.",
+    "definition_en": "A method that tests whether two categorical variables are independent (unrelated) by comparing observed and expected frequencies in a contingency (cross-tabulation) table.",
+    "significance": "심리학 연구에서 성별과 선호도, 진단 유형과 처치 결과 등 두 범주형 변인 간 관련성을 검증하는 가장 보편적인 방법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "카이제곱 검정을 분할표에 적용하여 두 변인의 독립성을 검정하는 방법의 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "카이제곱 적합도 검정",
+        "name_en": "Chi-Square Goodness-of-Fit Test",
+        "id": "NONPARA_GOF_016"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      },
+      {
+        "name_ko": "피셔의 정확검정",
+        "name_en": "Fisher's Exact Test",
+        "id": "NONPARA_FE_006"
+      },
+      {
+        "name_ko": "연속성 보정",
+        "name_en": "Continuity Correction",
+        "id": "NONPARA_CC_021"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "독립성 검정 = 두 변인이 '독립'인지 '관련'인지, 분할표(r×c)로 검정",
+      "differential": "적합도 검정은 한 변인의 분포만 보지만, 독립성 검정은 두 변인 간 관련성을 본다.",
+      "key_point": "기대빈도 = (행 합계 × 열 합계) / 전체 합계로 계산하며, 자유도 = (행-1)(열-1)이다.",
+      "common_mistake": "카이제곱이 유의하면 두 변인이 관련 있다는 것이지, 인과관계를 의미하지는 않는다."
+    }
+  },
+  {
+    "id": "NONPARA_EF_018",
+    "terminology": "기대빈도 (Expected Frequency)",
+    "terminology_ko": "기대빈도",
+    "terminology_en": "Expected Frequency",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "귀무가설이 참이라는 가정 하에 각 셀에서 이론적으로 기대되는 빈도로, 카이제곱 검정에서 관찰빈도와 비교하는 기준이 된다.",
+    "definition_en": "The theoretically expected frequency in each cell under the assumption that the null hypothesis is true, serving as the baseline for comparison with observed frequencies in chi-square tests.",
+    "significance": "카이제곱 검정의 핵심 구성요소로, 기대빈도의 크기는 검정의 정확성을 결정하며, 충분히 크지 않으면 대안적 검정을 사용해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "카이제곱 검정 공식에서 기대빈도의 역할과 계산 방법을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "관찰빈도",
+        "name_en": "Observed Frequency",
+        "id": "NONPARA_OF_019"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "귀무가설",
+        "name_en": "Null Hypothesis",
+        "id": "HYPO_NH_001"
+      },
+      {
+        "name_ko": "피셔의 정확검정",
+        "name_en": "Fisher's Exact Test",
+        "id": "NONPARA_FE_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기대빈도 = '귀무가설이 맞다면' 이 정도 빈도가 나올 것이다",
+      "differential": "기대빈도는 이론적 계산값이고, 관찰빈도는 실제 수집된 데이터의 빈도이다.",
+      "key_point": "독립성 검정에서 기대빈도 = (행합계 × 열합계) / 전체합계, 적합도 검정에서는 이론적 비율 × N이다.",
+      "common_mistake": "기대빈도가 5 미만인 셀이 전체의 20% 이상이면 카이제곱 근사가 부정확하므로 피셔 정확검정이나 범주 합병을 고려해야 한다."
+    }
+  },
+  {
+    "id": "NONPARA_OF_019",
+    "terminology": "관찰빈도 (Observed Frequency)",
+    "terminology_ko": "관찰빈도",
+    "terminology_en": "Observed Frequency",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "실제 수집된 데이터에서 각 범주 또는 분할표의 각 셀에 해당하는 사례의 실제 빈도수이다.",
+    "definition_en": "The actual count of cases falling into each category or each cell of a contingency table in the collected data.",
+    "significance": "카이제곱 검정에서 기대빈도와 비교되는 실제 데이터 값으로, 관찰빈도와 기대빈도의 차이가 검정의 핵심이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "관찰빈도와 기대빈도의 비교를 통한 검정 원리를 카이제곱 검정으로 공식화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "빈도자료",
+        "name_en": "Frequency Data",
+        "id": "NONPARA_FD_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관찰빈도 = 실제로 '관찰된' 빈도, 데이터에서 직접 세어 얻은 수",
+      "differential": "관찰빈도는 실제 데이터에서 얻은 빈도이고, 기대빈도는 귀무가설 하의 이론적 빈도이다.",
+      "key_point": "χ² = Σ(O-E)²/E 공식에서 O가 관찰빈도, E가 기대빈도이다.",
+      "common_mistake": "관찰빈도는 반드시 정수(자연수)여야 하며, 비율이나 백분율을 빈도 대신 사용하면 안 된다."
+    }
+  },
+  {
+    "id": "NONPARA_RK_020",
+    "terminology": "순위 (Rank)",
+    "terminology_ko": "순위",
+    "terminology_en": "Rank",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "원점수를 크기 순서대로 나열하여 부여한 서열 값으로, 비모수 통계에서 원점수 대신 분석의 기본 단위로 사용된다.",
+    "definition_en": "An ordinal value assigned by arranging raw scores in order of magnitude, used as the basic unit of analysis in nonparametric statistics instead of raw scores.",
+    "significance": "비모수 검정의 핵심 개념으로, 원점수를 순위로 변환함으로써 분포 가정에서 자유로운 분석이 가능하며, 이상치의 영향도 감소시킨다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랭크 윌콕슨",
+        "name_en": "Frank Wilcoxon",
+        "contribution": "순위 기반 검정법(순위합 검정, 부호순위 검정)을 개발하여 순위를 비모수 분석의 핵심 도구로 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "스피어만 순위 상관",
+        "name_en": "Spearman Rank Correlation",
+        "id": "NONPARA_SR_010"
+      },
+      {
+        "name_ko": "맨-휘트니 U검정",
+        "name_en": "Mann-Whitney U Test",
+        "id": "NONPARA_MWU_002"
+      },
+      {
+        "name_ko": "서열자료",
+        "name_en": "Ordinal Data",
+        "id": "NONPARA_OD_028"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "순위 = 원점수를 '줄 세워서' 번호를 매긴 것",
+      "differential": "순위는 크기의 순서 정보만 보존하고 간격 정보는 잃어버리므로, 정보 손실이 발생할 수 있다.",
+      "key_point": "동점(tie)이 있으면 평균 순위를 부여하며, 동점이 많으면 검정력이 감소할 수 있다.",
+      "common_mistake": "순위 변환은 간격 정보를 잃으므로, 등간/비율 자료에서 불필요하게 비모수로 전환하면 검정력이 떨어진다."
+    }
+  },
+  {
+    "id": "NONPARA_CC_021",
+    "terminology": "연속성 보정 (Continuity Correction)",
+    "terminology_ko": "연속성 보정",
+    "terminology_en": "Continuity Correction",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "이산형 분포(빈도자료)에 연속형 분포(카이제곱, 정규분포)를 근사적으로 적용할 때 발생하는 오차를 보정하기 위해 관찰빈도와 기대빈도의 차이에서 0.5를 빼는 조정이다.",
+    "definition_en": "An adjustment that subtracts 0.5 from the absolute difference between observed and expected frequencies to correct for the error when approximating a discrete distribution (frequency data) with a continuous distribution (chi-square, normal).",
+    "significance": "소표본이나 2×2 분할표에서 카이제곱 검정의 정확성을 높이는 전통적 보정 방법이나, 현대에는 피셔 정확검정이 더 권장되는 경향이 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "프랭크 예이츠",
+        "name_en": "Frank Yates",
+        "contribution": "1934년 2×2 분할표에서의 연속성 보정(Yates' correction)을 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "피셔의 정확검정",
+        "name_en": "Fisher's Exact Test",
+        "id": "NONPARA_FE_006"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "예이츠 보정 = |O-E|에서 0.5를 빼서 보수적으로 조정",
+      "differential": "연속성 보정은 카이제곱 근사를 보수적으로 만들고, 피셔 정확검정은 정확한 확률을 직접 계산한다.",
+      "key_point": "주로 2×2 분할표(자유도=1)에서 적용되며, 더 큰 분할표에서는 일반적으로 불필요하다.",
+      "common_mistake": "연속성 보정이 지나치게 보수적이어서 검정력을 떨어뜨릴 수 있다는 비판이 있으며, 피셔 정확검정이 대안으로 선호된다."
+    }
+  },
+  {
+    "id": "NONPARA_ES_022",
+    "terminology": "비모수 효과크기 (Nonparametric Effect Size)",
+    "terminology_ko": "비모수 효과크기",
+    "terminology_en": "Nonparametric Effect Size",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "비모수 검정 결과의 실질적 의미를 평가하기 위한 효과크기 지표로, 순위 기반 검정에서는 r = Z/√N, 카이제곱에서는 크래머의 V 등이 사용된다.",
+    "definition_en": "Effect size measures for evaluating the practical significance of nonparametric test results, including r = Z/√N for rank-based tests and Cramér's V for chi-square tests.",
+    "significance": "유의성 검정만으로는 효과의 실질적 크기를 알 수 없으므로, 비모수 분석에서도 효과크기를 보고하여 연구 결과의 실용적 의미를 평가해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과크기의 해석 기준과 중요성을 강조하여 모든 통계 분석에서 효과크기 보고의 필요성을 확립했다."
+      },
+      {
+        "name_ko": "하랄트 크래머",
+        "name_en": "Harald Cramér",
+        "contribution": "범주형 자료의 연관성 강도를 측정하는 크래머의 V(Cramér's V)를 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "R제곱",
+        "name_en": "R-squared",
+        "id": "EFFECT_R2_008"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "r = Z/√N",
+        "description": "맨-휘트니, 윌콕슨 등 순위 기반 검정의 효과크기"
+      },
+      {
+        "name": "크래머의 V (Cramér's V)",
+        "description": "카이제곱 검정의 연관성 강도 지표"
+      },
+      {
+        "name": "파이 계수 (Phi coefficient)",
+        "description": "2×2 분할표에서의 연관성 강도"
+      },
+      {
+        "name": "η² (에타제곱)",
+        "description": "크루스칼-왈리스 등에서 사용 가능한 효과크기"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "비모수도 효과크기가 필요하다! 유의하다 ≠ 크다",
+      "differential": "모수적 효과크기(Cohen's d, η²)는 원점수 기반이고, 비모수 효과크기(r = Z/√N)는 순위/검정 통계량 기반이다.",
+      "key_point": "APA 기준에 따라 비모수 검정에서도 효과크기를 반드시 보고해야 한다.",
+      "common_mistake": "비모수 검정에서 효과크기를 보고하지 않는 경우가 많지만, 유의성만으로는 실질적 의미를 판단할 수 없다."
+    }
+  },
+  {
+    "id": "NONPARA_BS_023",
+    "terminology": "부트스트랩 (Bootstrap)",
+    "terminology_ko": "부트스트랩",
+    "terminology_en": "Bootstrap",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "원래 표본에서 복원추출을 반복하여 통계량의 표집분포를 경험적으로 추정하는 재표집(resampling) 방법으로, 분포 가정 없이 신뢰구간과 유의성 검정을 수행할 수 있다.",
+    "definition_en": "A resampling method that repeatedly draws samples with replacement from the original sample to empirically estimate the sampling distribution of a statistic, enabling confidence intervals and significance tests without distributional assumptions.",
+    "significance": "전통적 가정이 충족되지 않는 심리학 데이터에서 강건한 추론을 가능하게 하며, 특히 매개효과 검증 등에서 표준적 방법으로 권장된다.",
+    "key_researchers": [
+      {
+        "name_ko": "브래들리 에프론",
+        "name_en": "Bradley Efron",
+        "contribution": "1979년 부트스트랩 방법을 개발하여 통계적 추론의 혁명적 전환을 이끌었다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무선화검정",
+        "name_en": "Randomization Test",
+        "id": "NONPARA_RAND_024"
+      },
+      {
+        "name_ko": "정확검정",
+        "name_en": "Exact Test",
+        "id": "NONPARA_ET_025"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "매개회귀",
+        "name_en": "Mediated Regression",
+        "id": "REGRESS_MED_021"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "비모수적 부트스트랩 (Nonparametric Bootstrap)",
+        "description": "원 표본에서 직접 복원추출"
+      },
+      {
+        "name": "모수적 부트스트랩 (Parametric Bootstrap)",
+        "description": "추정된 모수를 기반으로 새 표본 생성"
+      },
+      {
+        "name": "편향 보정 부트스트랩 (BCa Bootstrap)",
+        "description": "편향과 가속도를 보정한 부트스트랩 신뢰구간"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "부트스트랩 = 자기 신발끈을 당겨 스스로 일어나듯, 데이터 자체에서 반복 추출",
+      "differential": "부트스트랩은 '복원' 추출이고, 잭나이프(jackknife)는 한 번에 하나씩 '제거'하는 방법이다.",
+      "key_point": "1,000~10,000회 반복 추출하여 통계량의 분포를 경험적으로 구성하며, 신뢰구간 산출에 특히 유용하다.",
+      "common_mistake": "부트스트랩이 표본크기를 늘려주는 것이 아니라, 같은 표본에서 반복 추출하여 표집분포를 추정하는 것이다."
+    }
+  },
+  {
+    "id": "NONPARA_RAND_024",
+    "terminology": "무선화검정 (Randomization Test)",
+    "terminology_ko": "무선화검정",
+    "terminology_en": "Randomization Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "관찰된 데이터의 가능한 모든 순열(또는 무선 배정)을 생성하여 관찰된 검정 통계량이 우연히 발생할 확률을 직접 계산하는 비모수 방법이다.",
+    "definition_en": "A nonparametric method that generates all possible permutations (or random assignments) of observed data to directly calculate the probability that the observed test statistic could occur by chance.",
+    "significance": "분포 가정에 전혀 의존하지 않는 가장 순수한 비모수 방법으로, 소표본 실험 연구에서 정확한 유의확률을 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "무선화 원리를 실험 설계의 기초로 확립하고, 정확검정의 논리적 토대를 마련했다."
+      },
+      {
+        "name_ko": "에드윈 피트먼",
+        "name_en": "Edwin Pitman",
+        "contribution": "순열 검정(permutation test)의 수학적 기초를 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "부트스트랩",
+        "name_en": "Bootstrap",
+        "id": "NONPARA_BS_023"
+      },
+      {
+        "name_ko": "정확검정",
+        "name_en": "Exact Test",
+        "id": "NONPARA_ET_025"
+      },
+      {
+        "name_ko": "실험설계",
+        "name_en": "Experimental Design",
+        "id": "DESIGN_ED_001"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정확 순열 검정 (Exact Permutation Test)",
+        "description": "모든 가능한 순열을 열거하여 검정"
+      },
+      {
+        "name": "몬테카를로 순열 검정 (Monte Carlo Permutation Test)",
+        "description": "무선 표집된 순열의 부분집합을 사용한 근사 검정"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "무선화검정 = 데이터 라벨을 무선으로 섞어보며 '우연히 이런 결과가 나올까?' 확인",
+      "differential": "무선화검정은 데이터를 섞어 비교하고, 부트스트랩은 복원추출로 표집분포를 추정한다.",
+      "key_point": "분포 가정이 전혀 필요 없으며, 유의확률은 관찰값보다 극단적인 순열의 비율이다.",
+      "common_mistake": "가능한 순열 수가 매우 많을 때는 정확 계산이 불가능하므로 몬테카를로 근사를 사용해야 한다."
+    }
+  },
+  {
+    "id": "NONPARA_ET_025",
+    "terminology": "정확검정 (Exact Test)",
+    "terminology_ko": "정확검정",
+    "terminology_en": "Exact Test",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "근사적 분포(카이제곱, 정규분포 등)에 의존하지 않고, 검정 통계량의 정확한 확률분포를 직접 계산하여 유의확률을 산출하는 통계적 검정 방법의 총칭이다.",
+    "definition_en": "A general term for statistical tests that calculate exact p-values by directly computing the exact probability distribution of the test statistic, without relying on approximate distributions (chi-square, normal, etc.).",
+    "significance": "소표본이나 희소 자료에서 근사 검정이 부정확할 때 정확한 유의확률을 제공하여, 심리학의 소규모 임상 연구나 사례 연구에서 특히 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald Fisher",
+        "contribution": "정확검정의 논리적 기초를 확립하고 피셔의 정확검정을 개발했다."
+      },
+      {
+        "name_ko": "시릴 메타",
+        "name_en": "Cyrus Mehta",
+        "contribution": "정확검정을 효율적으로 계산하는 알고리즘(네트워크 알고리즘)을 개발하여 실용적 적용을 가능하게 했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "피셔의 정확검정",
+        "name_en": "Fisher's Exact Test",
+        "id": "NONPARA_FE_006"
+      },
+      {
+        "name_ko": "무선화검정",
+        "name_en": "Randomization Test",
+        "id": "NONPARA_RAND_024"
+      },
+      {
+        "name_ko": "부트스트랩",
+        "name_en": "Bootstrap",
+        "id": "NONPARA_BS_023"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정확검정 = 근사 없이 '정확한' 확률을 직접 계산",
+      "differential": "정확검정은 확률을 직접 계산하고, 근사 검정(카이제곱 등)은 이론적 분포에 기반한 근사값을 사용한다.",
+      "key_point": "소표본이나 기대빈도가 낮을 때 근사 검정보다 정확하며, 컴퓨터 발달로 실용적 적용이 가능해졌다.",
+      "common_mistake": "정확검정은 항상 근사 검정보다 낫다고 오해할 수 있지만, 대표본에서는 근사 검정이 충분히 정확하고 계산이 빠르다."
+    }
+  },
+  {
+    "id": "NONPARA_CR_026",
+    "terminology": "기각역 (Critical Region)",
+    "terminology_ko": "기각역",
+    "terminology_en": "Critical Region",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "귀무가설을 기각하는 검정 통계량의 값 범위로, 비모수 검정에서는 모수적 검정과 달리 특수한 임계값 표를 사용하거나 정확 확률을 계산하여 결정한다.",
+    "definition_en": "The range of test statistic values that leads to rejection of the null hypothesis; in nonparametric tests, determined using special critical value tables or exact probability calculations rather than standard parametric distributions.",
+    "significance": "비모수 검정에서 통계적 의사결정의 기준을 제공하며, 검정마다 고유한 임계값 표가 있어 올바른 표를 참조하는 것이 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "에곤 피어슨과 함께 기각역의 개념을 포함한 가설검정 이론을 체계화했다."
+      },
+      {
+        "name_ko": "에곤 피어슨",
+        "name_en": "Egon Pearson",
+        "contribution": "Neyman과 공동으로 제1종 오류와 기각역의 관계를 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "귀무가설",
+        "name_en": "Null Hypothesis",
+        "id": "HYPO_NH_001"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기각역 = 이 범위에 들어오면 H₀를 '기각'하는 영역",
+      "differential": "비모수 검정의 기각역은 전용 임계값 표에서 확인하고, 모수 검정은 t, F, z 분포 표를 사용한다.",
+      "key_point": "유의수준(α)이 기각역의 크기를 결정하며, α가 작을수록 기각역이 좁아진다.",
+      "common_mistake": "비모수 검정에서 모수적 임계값 표를 사용하면 잘못된 결론을 내릴 수 있다."
+    }
+  },
+  {
+    "id": "NONPARA_NPA_027",
+    "terminology": "비모수적 가정 (Nonparametric Assumptions)",
+    "terminology_ko": "비모수적 가정",
+    "terminology_en": "Nonparametric Assumptions",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "비모수 검정이 정규분포 등 분포 형태에 대한 가정을 하지 않지만, 독립성, 무선 표집, 측정 수준 등 여전히 충족해야 하는 기본 가정들을 말한다.",
+    "definition_en": "The basic assumptions that nonparametric tests still require despite not assuming specific distributional forms like normality, including independence, random sampling, and appropriate measurement level.",
+    "significance": "비모수 검정이 '가정이 없다'는 흔한 오해를 바로잡고, 적절한 비모수 방법 선택을 위해 측정 수준과 표집 조건을 확인해야 함을 강조한다.",
+    "key_researchers": [
+      {
+        "name_ko": "시드니 시겔",
+        "name_en": "Sidney Siegel",
+        "contribution": "행동과학을 위한 비모수 통계 교과서에서 비모수 검정의 가정과 적용 조건을 체계적으로 정리했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가정 검증",
+        "name_en": "Assumption Checking",
+        "id": "REGRESS_AC_031"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "정규분포",
+        "name_en": "Normal Distribution",
+        "id": "PROB_ND_009"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비모수 ≠ 무가정, 분포 가정은 없지만 독립성·표집·측정 수준 가정은 있다",
+      "differential": "모수 검정은 분포 형태(정규성, 등분산성)를 가정하지만, 비모수 검정은 분포 가정 없이 독립성과 측정 수준만 가정한다.",
+      "key_point": "비모수 검정도 관찰의 독립성, 무선 표집, 적절한 측정 수준을 필요로 한다.",
+      "common_mistake": "비모수 검정에 '아무런 가정이 없다'고 오해하는 것이 가장 흔한 실수이다."
+    }
+  },
+  {
+    "id": "NONPARA_OD_028",
+    "terminology": "서열자료 (Ordinal Data)",
+    "terminology_ko": "서열자료",
+    "terminology_en": "Ordinal Data",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "대상 간의 순서(크고 작음)는 구분할 수 있지만, 순서 간 간격이 동일하다고 보장할 수 없는 측정 수준의 자료로, 비모수 검정의 주요 적용 대상이다.",
+    "definition_en": "Data measured at a level where the order (greater or lesser) among objects can be determined but equal intervals between ranks are not guaranteed, serving as a primary application target for nonparametric tests.",
+    "significance": "심리학에서 리커트 척도 응답, 선호도 순위, 증상 심각도 등급 등 서열 자료는 매우 흔하며, 이러한 자료의 적절한 분석을 위해 비모수 방법이 필요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Stevens",
+        "contribution": "1946년 측정 수준(명명, 서열, 등간, 비율)의 분류 체계를 확립하여 적절한 통계 방법 선택의 기준을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "명명자료",
+        "name_en": "Nominal Data",
+        "id": "NONPARA_ND_029"
+      },
+      {
+        "name_ko": "순위",
+        "name_en": "Rank",
+        "id": "NONPARA_RK_020"
+      },
+      {
+        "name_ko": "비모수적 가정",
+        "name_en": "Nonparametric Assumptions",
+        "id": "NONPARA_NPA_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "서열 = '순서'만 의미 있음, 1등과 2등의 차이 ≠ 2등과 3등의 차이",
+      "differential": "서열자료는 순서는 있지만 간격이 동일하지 않고, 등간자료는 순서와 간격 모두 동일하다.",
+      "key_point": "서열자료에 평균 대신 중앙값, 피어슨 대신 스피어만 상관 등 비모수 방법이 적합하다.",
+      "common_mistake": "5점 리커트 척도를 등간척도로 간주하고 모수 통계를 적용하는 것은 논쟁의 여지가 있다."
+    }
+  },
+  {
+    "id": "NONPARA_ND_029",
+    "terminology": "명명자료 (Nominal Data)",
+    "terminology_ko": "명명자료",
+    "terminology_en": "Nominal Data",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "범주나 이름으로만 구분되며 순서나 크기 비교가 불가능한 가장 낮은 측정 수준의 자료로, 빈도 기반 비모수 검정(카이제곱 등)의 대상이 된다.",
+    "definition_en": "Data at the lowest measurement level classified only by category or name with no meaningful order or magnitude comparison, analyzed using frequency-based nonparametric tests such as chi-square.",
+    "significance": "심리학에서 성별, 진단 유형, 집단 소속 등 범주형 변인은 매우 흔하며, 이러한 자료에 적합한 통계 방법(카이제곱, 피셔 정확검정 등)의 선택이 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Stevens",
+        "contribution": "명명척도를 측정 수준 분류 체계의 가장 기본적 수준으로 정의했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      },
+      {
+        "name_ko": "서열자료",
+        "name_en": "Ordinal Data",
+        "id": "NONPARA_OD_028"
+      },
+      {
+        "name_ko": "빈도자료",
+        "name_en": "Frequency Data",
+        "id": "NONPARA_FD_030"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "명명 = '이름표'만 붙이는 것, 숫자 코딩(1=남, 2=여)은 라벨일 뿐",
+      "differential": "명명자료는 범주 구분만 가능하고, 서열자료는 순서 비교까지 가능하다.",
+      "key_point": "명명자료에 적용 가능한 통계: 최빈값, 빈도, 카이제곱, 피셔 정확검정 등이다.",
+      "common_mistake": "명명자료에 숫자를 부여(예: 남=1, 여=2)했다고 산술 연산이 가능하다고 오해하면 안 된다."
+    }
+  },
+  {
+    "id": "NONPARA_FD_030",
+    "terminology": "빈도자료 (Frequency Data)",
+    "terminology_ko": "빈도자료",
+    "terminology_en": "Frequency Data",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "각 범주에 해당하는 사례의 수(빈도)로 표현된 자료로, 카이제곱 검정 등 범주형 비모수 검정의 기본 입력 자료이다.",
+    "definition_en": "Data expressed as the count (frequency) of cases falling into each category, serving as the basic input data for categorical nonparametric tests such as chi-square.",
+    "significance": "심리학 설문 조사, 임상 분류, 행동 관찰 연구 등에서 빈도자료는 매우 흔하며, 적절한 비모수 분석 방법의 선택이 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "빈도자료를 분석하는 카이제곱 검정을 개발하여 범주형 자료 분석의 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "관찰빈도",
+        "name_en": "Observed Frequency",
+        "id": "NONPARA_OF_019"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      },
+      {
+        "name_ko": "명명자료",
+        "name_en": "Nominal Data",
+        "id": "NONPARA_ND_029"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "빈도자료 = '몇 명인지' 세는 것, 범주별 사례 수가 데이터",
+      "differential": "빈도자료는 사례 수(count)이고, 비율자료는 빈도를 전체로 나눈 값(proportion)이다.",
+      "key_point": "카이제곱 검정에 입력하는 것은 비율이 아니라 빈도(원수)이어야 한다.",
+      "common_mistake": "비율이나 백분율을 빈도 대신 카이제곱 공식에 넣으면 결과가 왜곡된다."
+    }
+  },
+  {
+    "id": "NONPARA_PA_031",
+    "terminology": "모수적 대안 (Parametric Alternative)",
+    "terminology_ko": "모수적 대안",
+    "terminology_en": "Parametric Alternative",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "비모수 검정에 대응하는 모수적 검정법으로, 정규성 등 분포 가정이 충족될 때 비모수 검정보다 더 높은 검정력을 제공한다.",
+    "definition_en": "The parametric counterpart of a nonparametric test, providing higher statistical power than the nonparametric test when distributional assumptions such as normality are met.",
+    "significance": "적절한 검정법 선택을 위해 모수적 대안과 비모수 검정의 대응 관계를 이해하는 것이 중요하며, 가정 충족 시 모수 검정이 더 효율적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "시드니 시겔",
+        "name_en": "Sidney Siegel",
+        "contribution": "비모수 검정과 모수적 대안의 대응 관계를 체계적으로 정리한 교과서를 저술했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "독립표본 t검정",
+        "name_en": "Independent Samples t-test",
+        "id": "TTEST_IT_002"
+      },
+      {
+        "name_ko": "대응표본 t검정",
+        "name_en": "Paired Samples t-test",
+        "id": "TTEST_PT_003"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-way ANOVA",
+        "id": "ANOVA_OW_001"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "맨-휘트니 ↔ 독립표본 t검정",
+        "description": "독립 2집단 비교"
+      },
+      {
+        "name": "윌콕슨 부호순위 ↔ 대응표본 t검정",
+        "description": "대응 2집단 비교"
+      },
+      {
+        "name": "크루스칼-왈리스 ↔ 일원분산분석",
+        "description": "독립 3집단+ 비교"
+      },
+      {
+        "name": "프리드만 ↔ 반복측정 분산분석",
+        "description": "대응 3조건+ 비교"
+      },
+      {
+        "name": "스피어만 ↔ 피어슨 상관",
+        "description": "두 변인 간 상관"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "모수적 대안 = 가정이 충족되면 쓸 수 있는 '더 강력한 원래 검정'",
+      "differential": "모수 검정은 분포 가정 충족 시 검정력이 높고, 비모수 검정은 가정 불충족 시 더 타당한 결과를 제공한다.",
+      "key_point": "비모수 검정의 검정력 효율성(Power Efficiency)은 보통 모수 대안의 90~95% 수준이다.",
+      "common_mistake": "가정이 충족되는데도 비모수 검정을 사용하면 불필요하게 검정력을 낭비하게 된다."
+    }
+  },
+  {
+    "id": "NONPARA_CT_032",
+    "terminology": "분할표 (Contingency Table)",
+    "terminology_ko": "분할표",
+    "terminology_en": "Contingency Table",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "두 개 이상의 범주형 변인의 교차 빈도를 행과 열로 정리한 표로, 카이제곱 독립성 검정의 기본 자료 형태이다.",
+    "definition_en": "A table organizing the cross-classified frequencies of two or more categorical variables into rows and columns, serving as the basic data format for chi-square tests of independence.",
+    "significance": "심리학 연구에서 범주형 변인 간 관계를 시각적으로 파악하고 통계적으로 검증하는 출발점으로, 빈도 기반 분석의 기본 도구이다.",
+    "key_researchers": [
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "분할표와 카이제곱 검정의 결합을 통해 범주형 자료 분석의 체계를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "카이제곱 독립성 검정",
+        "name_en": "Chi-Square Test of Independence",
+        "id": "NONPARA_IND_017"
+      },
+      {
+        "name_ko": "기대빈도",
+        "name_en": "Expected Frequency",
+        "id": "NONPARA_EF_018"
+      },
+      {
+        "name_ko": "관찰빈도",
+        "name_en": "Observed Frequency",
+        "id": "NONPARA_OF_019"
+      },
+      {
+        "name_ko": "피셔의 정확검정",
+        "name_en": "Fisher's Exact Test",
+        "id": "NONPARA_FE_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "2×2 분할표",
+        "description": "각 변인이 2개 범주인 가장 단순한 형태"
+      },
+      {
+        "name": "r×c 분할표",
+        "description": "행이 r개, 열이 c개 범주인 일반적 형태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "분할표 = 두 범주형 변인을 '격자'로 교차하여 빈도를 정리한 표",
+      "differential": "분할표(contingency table)는 빈도를 정리한 것이고, 상관표(correlation matrix)는 상관계수를 정리한 것이다.",
+      "key_point": "자유도 = (행 수 - 1)(열 수 - 1)이며, 주변 합계(marginal totals)를 이용하여 기대빈도를 계산한다.",
+      "common_mistake": "분할표에 빈도가 아닌 비율을 넣고 카이제곱을 계산하면 결과가 왜곡된다."
+    }
+  },
+  {
+    "id": "NONPARA_CV_033",
+    "terminology": "크래머의 V (Cramér's V)",
+    "terminology_ko": "크래머의 V",
+    "terminology_en": "Cramér's V",
+    "category": "NONPARA",
+    "category_name": "비모수 통계 (Nonparametric Statistics)",
+    "definition": "카이제곱 통계량을 표본크기와 분할표 크기로 표준화하여 0에서 1 사이의 값으로 두 범주형 변인 간 연관성의 강도를 나타내는 효과크기 지표이다.",
+    "definition_en": "An effect size measure that standardizes the chi-square statistic by sample size and table dimensions to indicate the strength of association between two categorical variables, ranging from 0 to 1.",
+    "significance": "카이제곱 검정의 유의성만으로는 관련성의 강도를 알 수 없으므로, 크래머의 V는 범주형 변인 간 연관성의 실질적 크기를 보고하는 표준 지표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "하랄트 크래머",
+        "name_en": "Harald Cramér",
+        "contribution": "카이제곱 기반 연관성 측도를 개발하여 범주형 변인의 효과크기 측정 방법을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비모수 효과크기",
+        "name_en": "Nonparametric Effect Size",
+        "id": "NONPARA_ES_022"
+      },
+      {
+        "name_ko": "카이제곱 검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "카이제곱 독립성 검정",
+        "name_en": "Chi-Square Test of Independence",
+        "id": "NONPARA_IND_017"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "V = √(χ²/N × min(r-1, c-1)), 0이면 무관련, 1이면 완전 연관",
+      "differential": "파이(φ)는 2×2 분할표 전용이고, 크래머의 V는 어떤 크기의 분할표에도 적용 가능하다.",
+      "key_point": "Cohen의 해석 기준(자유도에 따라 다름): 작은 효과 .10, 중간 효과 .30, 큰 효과 .50(df*=1 기준).",
+      "common_mistake": "크래머의 V가 .50이라고 50%의 관련성이라고 해석하면 안 되며, 효과크기 기준표에 따라 해석해야 한다."
+    }
+  }
+]

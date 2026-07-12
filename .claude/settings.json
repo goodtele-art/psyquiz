@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(schedule)",
+      "Skill(schedule:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\goodt\\MyProgram\\apps-deployed\\EBPKOREA\\components\\home",
+      "c:\\Users\\goodt\\MyProgram\\apps-deployed\\EBPKOREA\\app"
+    ]
+  }
+}

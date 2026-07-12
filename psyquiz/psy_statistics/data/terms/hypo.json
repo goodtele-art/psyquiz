@@ -1,0 +1,1852 @@
+[
+  {
+    "id": "HYPO_NH_001",
+    "terminology": "귀무가설 (Null Hypothesis)",
+    "terminology_ko": "귀무가설",
+    "terminology_en": "Null Hypothesis",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "처리 효과나 집단 간 차이가 없다고 진술하는 통계적 가설로, 관찰된 차이가 표집 오차에 의한 것이라고 가정한다.",
+    "definition_en": "A statistical hypothesis stating that there is no effect or no difference between populations, assuming any observed difference is due to sampling error.",
+    "significance": "통계적 가설검정의 출발점으로, 귀무가설을 기각할 충분한 증거가 있는지를 판단하는 것이 검정의 핵심 논리이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "유의성 검정 프레임워크를 개발하며 귀무가설 개념을 체계화하였다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "피어슨과 함께 가설검정의 의사결정 체계를 정립하여 귀무가설과 대립가설의 쌍대 구조를 확립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "대립가설",
+        "name_en": "Alternative Hypothesis",
+        "id": "HYPO_AH_002"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "가설",
+        "name_en": "Hypothesis",
+        "id": "FOUND_HY_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "귀무(歸無) = 무(無)로 돌아간다 → 효과가 '없다'는 가설",
+      "differential": "귀무가설은 '차이 없음'을 주장하고, 대립가설은 '차이 있음'을 주장한다. 귀무가설은 H₀, 대립가설은 H₁으로 표기한다.",
+      "key_point": "연구자가 증명하고 싶은 것이 아니라, 기각하고 싶은 가설이다. 직접 증명이 아닌 간접 반증의 논리를 사용한다.",
+      "common_mistake": "귀무가설이 기각되지 않았다고 해서 귀무가설이 '참'이라는 의미가 아니라, 기각할 충분한 증거가 없다는 것이다."
+    }
+  },
+  {
+    "id": "HYPO_AH_002",
+    "terminology": "대립가설 (Alternative Hypothesis)",
+    "terminology_ko": "대립가설",
+    "terminology_en": "Alternative Hypothesis",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "귀무가설에 반대되는 가설로, 처리 효과가 존재하거나 집단 간 차이가 있다고 진술하는 통계적 가설이다.",
+    "definition_en": "A statistical hypothesis that contradicts the null hypothesis, stating that there is a real effect or a true difference between populations.",
+    "significance": "연구자가 실제로 지지하고자 하는 가설로, 연구 가설과 직접적으로 대응하여 연구의 방향성을 결정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "에곤 피어슨과 함께 귀무가설 대 대립가설의 쌍대 검정 체계를 공식화하였다."
+      },
+      {
+        "name_ko": "에곤 피어슨",
+        "name_en": "Egon Pearson",
+        "contribution": "네이만과 함께 가설검정에서 대립가설의 명시적 설정 필요성을 주장하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "귀무가설",
+        "name_en": "Null Hypothesis",
+        "id": "HYPO_NH_001"
+      },
+      {
+        "name_ko": "단측검정",
+        "name_en": "One-tailed Test",
+        "id": "HYPO_OT_010"
+      },
+      {
+        "name_ko": "양측검정",
+        "name_en": "Two-tailed Test",
+        "id": "HYPO_TT_011"
+      },
+      {
+        "name_ko": "가설",
+        "name_en": "Hypothesis",
+        "id": "FOUND_HY_002"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "방향성 대립가설 (Directional)",
+        "description": "특정 방향의 차이를 예측 (μ₁ > μ₂ 또는 μ₁ < μ₂)"
+      },
+      {
+        "name": "비방향성 대립가설 (Non-directional)",
+        "description": "차이의 존재만 예측하고 방향은 특정하지 않음 (μ₁ ≠ μ₂)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "대립(對立) = 귀무가설에 맞서는(對) 가설 → 연구자의 주장",
+      "differential": "연구가설(research hypothesis)은 개념적 수준이고, 대립가설은 이를 통계적으로 표현한 것이다.",
+      "key_point": "H₁ 또는 Hₐ로 표기하며, 방향성(>, <) 또는 비방향성(≠)으로 설정할 수 있다.",
+      "common_mistake": "대립가설이 '증명'되는 것이 아니라, 귀무가설이 기각됨으로써 간접적으로 '지지'되는 것이다."
+    }
+  },
+  {
+    "id": "HYPO_T1_003",
+    "terminology": "제1종 오류 (Type I Error)",
+    "terminology_ko": "제1종 오류",
+    "terminology_en": "Type I Error",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "귀무가설이 실제로 참임에도 불구하고 이를 기각하는 오류로, 존재하지 않는 효과를 있다고 잘못 결론내리는 것이다.",
+    "definition_en": "The error of rejecting a true null hypothesis, incorrectly concluding that an effect exists when it actually does not.",
+    "significance": "거짓 양성(false positive)에 해당하며, 유의수준(α)으로 그 확률을 통제하여 잘못된 연구 결론의 위험을 관리한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "피어슨과 함께 제1종 오류와 제2종 오류의 구분을 공식화하고, 오류율 통제 개념을 도입하였다."
+      },
+      {
+        "name_ko": "에곤 피어슨",
+        "name_en": "Egon Pearson",
+        "contribution": "네이만과 함께 두 종류 오류의 상충 관계를 수학적으로 정립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제2종 오류",
+        "name_en": "Type II Error",
+        "id": "HYPO_T2_004"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "1종 오류 = '늑대가 왔다!(거짓 경보)' → 실제로는 없는데 있다고 외침",
+      "differential": "제1종 오류는 '없는 효과를 있다고' (거짓 양성), 제2종 오류는 '있는 효과를 못 찾음' (거짓 음성)이다.",
+      "key_point": "제1종 오류의 확률은 유의수준(α)과 같으며, 연구자가 사전에 설정한다.",
+      "common_mistake": "α = .05라고 해서 결과가 5% 확률로 틀리다는 것이 아니라, 귀무가설이 참일 때 기각할 확률이 5%라는 것이다."
+    }
+  },
+  {
+    "id": "HYPO_T2_004",
+    "terminology": "제2종 오류 (Type II Error)",
+    "terminology_ko": "제2종 오류",
+    "terminology_en": "Type II Error",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "귀무가설이 실제로 거짓임에도 불구하고 이를 기각하지 못하는 오류로, 실제 존재하는 효과를 탐지하지 못하는 것이다.",
+    "definition_en": "The error of failing to reject a false null hypothesis, missing a real effect that actually exists in the population.",
+    "significance": "거짓 음성(false negative)에 해당하며, 그 확률(β)은 표본크기와 효과크기에 의해 결정되어 연구 설계의 적절성을 평가하는 데 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "제2종 오류 확률(β)과 검정력(1-β) 개념을 정립하였다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "검정력 분석을 통해 제2종 오류를 사전에 통제하는 방법론을 체계화하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      },
+      {
+        "name_ko": "베타",
+        "name_en": "Beta",
+        "id": "HYPO_BT_015"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "2종 오류 = '아무 일 없어~(놓침)' → 실제 효과가 있는데 못 찾음",
+      "differential": "제1종 오류(α)는 연구자가 직접 설정하지만, 제2종 오류(β)는 표본크기, 효과크기, α에 의해 간접적으로 결정된다.",
+      "key_point": "β의 확률이며, 검정력(1-β)을 높이면 제2종 오류가 감소한다.",
+      "common_mistake": "표본크기가 작으면 제2종 오류가 증가한다는 점을 간과하여, 유의하지 않은 결과를 '효과 없음'으로 성급하게 해석하는 경우가 많다."
+    }
+  },
+  {
+    "id": "HYPO_PV_005",
+    "terminology": "p값 (p-value)",
+    "terminology_ko": "p값",
+    "terminology_en": "p-value",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "귀무가설이 참이라는 가정 하에, 관찰된 검정통계량 값 이상으로 극단적인 결과를 얻을 확률이다.",
+    "definition_en": "The probability of obtaining a test statistic as extreme as or more extreme than the observed value, assuming the null hypothesis is true.",
+    "significance": "통계적 유의성을 판단하는 핵심 지표로, α보다 작으면 귀무가설을 기각하는 의사결정의 기준이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "p값을 유의성 검정의 핵심 도구로 도입하고, 데이터가 귀무가설과 양립하는 정도를 나타내는 연속적 측도로 사용하였다."
+      },
+      {
+        "name_ko": "칼 피어슨",
+        "name_en": "Karl Pearson",
+        "contribution": "카이제곱 적합도 검정을 통해 p값 활용의 초기 사례를 제공하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "귀무가설",
+        "name_en": "Null Hypothesis",
+        "id": "HYPO_NH_001"
+      },
+      {
+        "name_ko": "검정통계량",
+        "name_en": "Test Statistic",
+        "id": "HYPO_TS_008"
+      },
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-hacking",
+        "id": "ETHICS_PH_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "p = probability(확률) → 귀무가설 하에서 이 결과가 나올 확률",
+      "differential": "p값은 귀무가설이 참일 확률이 아니라, 귀무가설이 참일 때 현재 데이터(또는 더 극단적 데이터)가 관찰될 확률이다.",
+      "key_point": "p < α이면 '통계적으로 유의하다'고 판단하지만, p값 자체가 효과의 크기나 실질적 중요성을 나타내지는 않는다.",
+      "common_mistake": "p값을 '귀무가설이 참일 확률'이나 '결과가 우연일 확률'로 해석하는 것은 대표적인 오해이다."
+    }
+  },
+  {
+    "id": "HYPO_AL_006",
+    "terminology": "유의수준 (Significance Level)",
+    "terminology_ko": "유의수준",
+    "terminology_en": "Significance Level",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "제1종 오류를 범할 최대 허용 확률로, 귀무가설을 기각하기 위한 기준값이며, 관례적으로 α = .05를 사용한다.",
+    "definition_en": "The maximum probability of committing a Type I error that a researcher is willing to accept, conventionally set at α = .05.",
+    "significance": "연구자가 데이터 수집 전에 사전 설정하는 의사결정 기준으로, 통계적 유의성 판단의 엄격함을 조절한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "α = .05를 '편리한 기준'으로 제안하여 통계적 유의성의 관례적 기준을 확립하였다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "유의수준을 장기적 오류율 통제의 관점에서 재해석하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "알파",
+        "name_en": "Alpha",
+        "id": "HYPO_AP_014"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "α(알파) = 허용 오류 한계 → '이 정도 위험은 감수하겠다'는 기준",
+      "differential": "유의수준(α)은 사전에 설정하는 기준이고, p값은 데이터에서 계산되는 값이다. p ≤ α이면 유의하다고 판단한다.",
+      "key_point": "α = .05는 절대적 규칙이 아니라 관례이며, 연구 맥락에 따라 .01이나 .001 등으로 조정할 수 있다.",
+      "common_mistake": "유의수준을 데이터 분석 후에 결과에 맞게 변경하는 것은 p-해킹의 일종으로 부적절하다."
+    }
+  },
+  {
+    "id": "HYPO_PW_007",
+    "terminology": "검정력 (Statistical Power)",
+    "terminology_ko": "검정력",
+    "terminology_en": "Statistical Power",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "귀무가설이 실제로 거짓일 때 이를 올바르게 기각할 확률로, 1 - β로 계산되며, 실제 존재하는 효과를 탐지할 수 있는 검정의 능력을 나타낸다.",
+    "definition_en": "The probability of correctly rejecting a false null hypothesis, calculated as 1 - β, representing the ability of a test to detect a real effect.",
+    "significance": "연구 설계 단계에서 적절한 표본크기를 결정하는 핵심 기준이며, .80 이상을 권장하여 충분한 탐지력을 보장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "검정력 분석(power analysis) 방법론을 체계화하고, 효과크기별 필요 표본크기 산출표를 제공하였다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "검정력 개념을 가설검정 이론에 공식적으로 도입하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제2종 오류",
+        "name_en": "Type II Error",
+        "id": "HYPO_T2_004"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "HYPO_ES_016"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "검정력 = 1 - β → 효과가 있을 때 찾아낼 확률, 높을수록 좋다",
+      "differential": "검정력은 '실제 효과를 탐지할 확률'이고, 유의수준은 '거짓 효과를 보고할 확률 한계'이다.",
+      "key_point": "검정력에 영향을 미치는 4가지 요소: 효과크기, 표본크기, 유의수준(α), 검정 방향(단측/양측)이다.",
+      "common_mistake": "검정력이 낮은 연구에서 유의하지 않은 결과를 얻었을 때, 이를 '효과 없음'으로 해석하는 것은 제2종 오류의 위험이 크다."
+    }
+  },
+  {
+    "id": "HYPO_TS_008",
+    "terminology": "검정통계량 (Test Statistic)",
+    "terminology_ko": "검정통계량",
+    "terminology_en": "Test Statistic",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "표본 데이터로부터 계산되는 수치로, 귀무가설의 타당성을 평가하기 위해 표본 결과와 귀무가설의 예측 간 차이를 표준화한 값이다.",
+    "definition_en": "A numerical value computed from sample data that standardizes the difference between observed results and what is expected under the null hypothesis, used to evaluate the validity of the null hypothesis.",
+    "significance": "z, t, F, χ² 등 다양한 검정통계량이 검정 방법에 따라 사용되며, 임계값과의 비교를 통해 의사결정을 내린다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "분산분석의 F통계량을 개발하고, 다양한 검정통계량의 분포 이론을 정립하였다."
+      },
+      {
+        "name_ko": "윌리엄 고셋",
+        "name_en": "William S. Gosset",
+        "contribution": "'Student'라는 필명으로 t통계량과 t분포를 개발하여 소표본 검정을 가능하게 하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "임계값",
+        "name_en": "Critical Value",
+        "id": "HYPO_CV_009"
+      },
+      {
+        "name_ko": "기각역",
+        "name_en": "Rejection Region",
+        "id": "HYPO_RR_012"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-score",
+        "id": "DESCRIP_ZS_010"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "z통계량",
+        "description": "모분산이 알려진 경우 또는 대표본에서 사용"
+      },
+      {
+        "name": "t통계량",
+        "description": "모분산이 미지이고 표본분산을 사용할 때 사용"
+      },
+      {
+        "name": "F통계량",
+        "description": "분산분석에서 집단 간 변동과 집단 내 변동의 비율"
+      },
+      {
+        "name": "χ²통계량",
+        "description": "범주형 자료의 관찰빈도와 기대빈도 간 차이"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "검정통계량 = (관찰값 - 기대값) / 표준오차 → 표준화된 차이",
+      "differential": "검정통계량은 표본에서 계산한 값이고, 임계값은 분포표에서 찾는 기준값이다.",
+      "key_point": "검정통계량의 절대값이 클수록 귀무가설과 더 멀리 떨어진 관찰 결과를 의미한다.",
+      "common_mistake": "검정통계량의 크기 자체가 효과크기를 의미하지 않는다. 표본크기가 크면 작은 효과도 큰 검정통계량을 산출할 수 있다."
+    }
+  },
+  {
+    "id": "HYPO_CV_009",
+    "terminology": "임계값 (Critical Value)",
+    "terminology_ko": "임계값",
+    "terminology_en": "Critical Value",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "기각역과 비기각역의 경계를 정의하는 검정통계량의 값으로, 유의수준과 자유도에 의해 결정된다.",
+    "definition_en": "The value of a test statistic that defines the boundary between the rejection region and the non-rejection region, determined by the significance level and degrees of freedom.",
+    "significance": "전통적 가설검정에서 의사결정의 기준점 역할을 하며, 검정통계량이 임계값을 초과하면 귀무가설을 기각한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "통계 분포표를 작성하여 다양한 유의수준에서의 임계값을 연구자들이 쉽게 참조할 수 있도록 하였다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "기각역 개념과 함께 임계값의 의사결정 기준 역할을 정립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "기각역",
+        "name_en": "Rejection Region",
+        "id": "HYPO_RR_012"
+      },
+      {
+        "name_ko": "검정통계량",
+        "name_en": "Test Statistic",
+        "id": "HYPO_TS_008"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "자유도",
+        "name_en": "Degrees of Freedom",
+        "id": "TTEST_DF_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "임계(臨界) = 경계에 임한다 → 기각과 비기각의 경계선",
+      "differential": "임계값은 분포표에서 사전에 결정되고, 검정통계량은 실제 데이터에서 계산된다.",
+      "key_point": "단측검정의 임계값은 한쪽 꼬리에, 양측검정의 임계값은 양쪽 꼬리에 위치한다.",
+      "common_mistake": "컴퓨터 통계 프로그램이 p값을 직접 계산해주므로 임계값 비교는 덜 사용되지만, 검정 논리 이해에는 필수적이다."
+    }
+  },
+  {
+    "id": "HYPO_OT_010",
+    "terminology": "단측검정 (One-tailed Test)",
+    "terminology_ko": "단측검정",
+    "terminology_en": "One-tailed Test",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "대립가설이 특정 방향의 차이만을 예측하는 검정으로, 분포의 한쪽 꼬리에만 기각역을 설정한다.",
+    "definition_en": "A hypothesis test in which the alternative hypothesis predicts the direction of the difference, placing the rejection region in only one tail of the distribution.",
+    "significance": "효과의 방향에 대한 선행 이론이나 강한 근거가 있을 때 사용하며, 양측검정보다 검정력이 높지만 반대 방향 효과는 탐지하지 못한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "유의성 검정에서 방향적 검정의 적절한 사용 조건을 논의하였다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "단측 대 양측 검정의 검정력 차이를 수학적으로 분석하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "양측검정",
+        "name_en": "Two-tailed Test",
+        "id": "HYPO_TT_011"
+      },
+      {
+        "name_ko": "대립가설",
+        "name_en": "Alternative Hypothesis",
+        "id": "HYPO_AH_002"
+      },
+      {
+        "name_ko": "기각역",
+        "name_en": "Rejection Region",
+        "id": "HYPO_RR_012"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "단측 = 한쪽(one tail)만 본다 → 방향 예측이 확실할 때",
+      "differential": "단측검정은 한쪽 방향만 검정하므로 검정력이 높지만, 양측검정은 양방향을 모두 검정하므로 더 보수적이다.",
+      "key_point": "단측검정의 p값은 양측검정 p값의 절반이다. 단, 효과 방향이 반대이면 유의하다고 결론내릴 수 없다.",
+      "common_mistake": "결과를 본 후에 단측/양측을 선택하는 것은 부적절하며, 반드시 데이터 수집 전에 결정해야 한다."
+    }
+  },
+  {
+    "id": "HYPO_TT_011",
+    "terminology": "양측검정 (Two-tailed Test)",
+    "terminology_ko": "양측검정",
+    "terminology_en": "Two-tailed Test",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "대립가설이 차이의 방향을 특정하지 않고 차이의 존재만을 예측하는 검정으로, 분포의 양쪽 꼬리에 기각역을 설정한다.",
+    "definition_en": "A hypothesis test in which the alternative hypothesis does not specify the direction of the difference, placing the rejection region in both tails of the distribution.",
+    "significance": "효과의 방향에 대한 사전 예측이 없거나 양방향 효과를 모두 탐지하고자 할 때 사용하며, 더 보수적이고 안전한 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "방향성 예측이 불확실한 경우 양측검정의 사용을 기본으로 권장하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "단측검정",
+        "name_en": "One-tailed Test",
+        "id": "HYPO_OT_010"
+      },
+      {
+        "name_ko": "대립가설",
+        "name_en": "Alternative Hypothesis",
+        "id": "HYPO_AH_002"
+      },
+      {
+        "name_ko": "기각역",
+        "name_en": "Rejection Region",
+        "id": "HYPO_RR_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "양측 = 양쪽(two tails) 다 본다 → H₁: μ ≠ μ₀",
+      "differential": "양측검정은 α를 두 꼬리에 나누어(각 α/2) 배분하므로, 동일 α에서 단측검정보다 기각이 어렵다.",
+      "key_point": "양측검정이 기본(default)으로 권장되며, 효과 방향에 대한 강한 이론적 근거가 있을 때만 단측을 사용한다.",
+      "common_mistake": "양측검정의 임계값은 α/2 기준으로 구하는 것이지, α 전체를 한쪽에 두는 것이 아니다."
+    }
+  },
+  {
+    "id": "HYPO_RR_012",
+    "terminology": "기각역 (Rejection Region)",
+    "terminology_ko": "기각역",
+    "terminology_en": "Rejection Region",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "표집분포에서 귀무가설을 기각하게 되는 검정통계량 값들의 범위로, 임계값에 의해 경계가 정해진다.",
+    "definition_en": "The range of values of a test statistic in the sampling distribution that leads to rejection of the null hypothesis, bounded by the critical value.",
+    "significance": "가설검정의 의사결정 영역을 시각적으로 표현하며, 검정통계량이 이 영역에 속하면 귀무가설을 기각한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "가설검정의 기각역 개념을 체계적 의사결정 절차로 정립하였다."
+      },
+      {
+        "name_ko": "에곤 피어슨",
+        "name_en": "Egon Pearson",
+        "contribution": "네이만과 함께 최적 기각역의 수학적 이론을 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "비기각역",
+        "name_en": "Non-rejection Region",
+        "id": "HYPO_NR_013"
+      },
+      {
+        "name_ko": "임계값",
+        "name_en": "Critical Value",
+        "id": "HYPO_CV_009"
+      },
+      {
+        "name_ko": "검정통계량",
+        "name_en": "Test Statistic",
+        "id": "HYPO_TS_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "기각역 = 분포 꼬리의 극단적 영역 → 여기 들어오면 H₀ 기각",
+      "differential": "기각역은 H₀를 기각하는 영역이고, 비기각역은 H₀를 기각하지 않는(유지하는) 영역이다.",
+      "key_point": "단측검정은 한쪽 꼬리에만, 양측검정은 양쪽 꼬리에 기각역이 위치한다.",
+      "common_mistake": "기각역의 면적이 α와 같다. 양측검정에서는 각 꼬리의 면적이 α/2이다."
+    }
+  },
+  {
+    "id": "HYPO_NR_013",
+    "terminology": "비기각역 (Non-rejection Region)",
+    "terminology_ko": "비기각역",
+    "terminology_en": "Non-rejection Region",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "표집분포에서 귀무가설을 기각하지 않는 검정통계량 값들의 범위로, 관찰된 결과가 귀무가설과 양립 가능함을 의미한다.",
+    "definition_en": "The range of values of a test statistic in the sampling distribution that does not lead to rejection of the null hypothesis, indicating the observed result is compatible with H₀.",
+    "significance": "검정통계량이 이 영역에 위치하면 귀무가설을 유지하되, 이는 귀무가설이 참임을 증명하는 것이 아니라 기각할 증거가 부족하다는 것이다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "기각역과 비기각역의 상보적 관계를 가설검정 체계에서 정의하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "기각역",
+        "name_en": "Rejection Region",
+        "id": "HYPO_RR_012"
+      },
+      {
+        "name_ko": "임계값",
+        "name_en": "Critical Value",
+        "id": "HYPO_CV_009"
+      },
+      {
+        "name_ko": "귀무가설",
+        "name_en": "Null Hypothesis",
+        "id": "HYPO_NH_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비기각역 = 분포의 중심 영역 → 여기 있으면 H₀ 유지",
+      "differential": "'채택역(acceptance region)'이라는 용어는 H₀가 참이라고 받아들이는 것처럼 오해를 줄 수 있어, '비기각역'이 더 정확한 표현이다.",
+      "key_point": "비기각역에 있다는 것은 귀무가설을 기각할 충분한 증거가 없다는 의미이지, 귀무가설이 참이라는 증거가 아니다.",
+      "common_mistake": "비기각역을 '채택역'이라고 부르며 귀무가설을 적극적으로 수용하는 것은 논리적 오류이다."
+    }
+  },
+  {
+    "id": "HYPO_AP_014",
+    "terminology": "알파 (Alpha, α)",
+    "terminology_ko": "알파",
+    "terminology_en": "Alpha",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "제1종 오류의 확률을 나타내는 기호로, 유의수준과 동일한 의미이며 귀무가설이 참일 때 잘못 기각할 확률이다.",
+    "definition_en": "The symbol representing the probability of Type I error, synonymous with the significance level, indicating the probability of incorrectly rejecting a true null hypothesis.",
+    "significance": "연구자가 허용하는 위양성 비율의 상한으로, 통계적 의사결정의 엄격성을 결정하는 핵심 매개변수이다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": ".05 수준을 유의성의 관례적 기준으로 제안하였다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "α를 장기적 오류율 통제 관점에서 체계화하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "베타",
+        "name_en": "Beta",
+        "id": "HYPO_BT_015"
+      },
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "α = 알파 = '알(아봤더니) 파(거짓)' → 참인데 거짓이라 판단할 확률",
+      "differential": "α(알파)는 제1종 오류 확률이고, β(베타)는 제2종 오류 확률이다. 그리스 알파벳 순서와 오류 번호가 대응한다.",
+      "key_point": "α를 낮추면 제1종 오류는 줄지만, 다른 조건이 동일하면 제2종 오류(β)는 증가한다.",
+      "common_mistake": "α = .05는 피셔가 '편의상의 기준'으로 제안한 것이며, 연구 분야나 상황에 따라 더 엄격한 기준(.01, .001)이 필요할 수 있다."
+    }
+  },
+  {
+    "id": "HYPO_BT_015",
+    "terminology": "베타 (Beta, β)",
+    "terminology_ko": "베타",
+    "terminology_en": "Beta",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "제2종 오류의 확률을 나타내는 기호로, 귀무가설이 거짓일 때 기각하지 못할 확률이며, 1 - β가 검정력이다.",
+    "definition_en": "The symbol representing the probability of Type II error, indicating the probability of failing to reject a false null hypothesis; 1 - β equals statistical power.",
+    "significance": "검정력(1-β)과 직접적으로 연결되어, 연구 설계 시 적절한 표본크기를 결정하는 데 핵심적인 역할을 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "β 확률과 검정력 개념을 가설검정 이론에 공식적으로 도입하였다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "β ≤ .20(검정력 ≥ .80)을 권장 기준으로 제안하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "알파",
+        "name_en": "Alpha",
+        "id": "HYPO_AP_014"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      },
+      {
+        "name_ko": "제2종 오류",
+        "name_en": "Type II Error",
+        "id": "HYPO_T2_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "β = 베타 = '베(어물쩍) 타(넘김)' → 있는 효과를 그냥 넘겨버림",
+      "differential": "β는 고정된 값이 아니라 효과크기, 표본크기, α에 따라 달라지는 조건부 확률이다.",
+      "key_point": "코헨은 β = .20(검정력 .80)을 관례적 기준으로 제안했으나, 중요한 연구에서는 .10(검정력 .90)이 권장되기도 한다.",
+      "common_mistake": "β는 α처럼 연구자가 직접 설정하는 것이 아니라, 효과크기와 표본크기에 의해 결정되며 사전 검정력 분석을 통해 간접적으로 조절한다."
+    }
+  },
+  {
+    "id": "HYPO_ES_016",
+    "terminology": "효과크기 (Effect Size)",
+    "terminology_ko": "효과크기",
+    "terminology_en": "Effect Size",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "처리 효과의 실질적인 크기를 나타내는 표준화된 측도로, 표본크기에 독립적이어서 연구 간 비교와 메타분석에 유용하다.",
+    "definition_en": "A standardized measure of the practical magnitude of a treatment effect, independent of sample size, useful for cross-study comparisons and meta-analyses.",
+    "significance": "통계적 유의성만으로는 알 수 없는 실질적 중요성을 평가하며, APA 매뉴얼에서 보고를 권고하는 핵심 통계치이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과크기의 체계적 분류(소·중·대)와 다양한 효과크기 지표(d, f, r, w)를 정립하였다."
+      },
+      {
+        "name_ko": "래리 헤지스",
+        "name_en": "Larry V. Hedges",
+        "contribution": "편향 보정 효과크기(Hedges' g)를 개발하고 메타분석에서의 효과크기 활용을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      },
+      {
+        "name_ko": "에타제곱",
+        "name_en": "Eta-squared",
+        "id": "EFFECT_ES_004"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "d 계열 (차이 기반)",
+        "description": "평균 차이를 표준편차로 나눈 값 (Cohen's d, Hedges' g)"
+      },
+      {
+        "name": "r 계열 (관계 기반)",
+        "description": "상관계수 또는 상관계수의 변환 (r, r², η²)"
+      },
+      {
+        "name": "승산비 (OR)",
+        "description": "범주형 결과의 효과크기 지표"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "효과크기 = p값이 '유의한가?'라면, 효과크기는 '얼마나 큰가?'",
+      "differential": "p값은 효과의 존재 여부(유무)를 판단하고, 효과크기는 효과의 크기(양)를 나타낸다.",
+      "key_point": "코헨의 기준: d = 0.2(소), 0.5(중), 0.8(대). 이는 행동과학에서의 일반적 지침이며, 분야별로 다를 수 있다.",
+      "common_mistake": "큰 표본에서는 아주 작은 효과도 통계적으로 유의할 수 있으므로, 효과크기 없이 p값만 보고하는 것은 불완전하다."
+    }
+  },
+  {
+    "id": "HYPO_CI_017",
+    "terminology": "신뢰구간 (Confidence Interval)",
+    "terminology_ko": "신뢰구간",
+    "terminology_en": "Confidence Interval",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "모수의 참값이 포함될 것으로 기대되는 값들의 범위로, 점추정에 대한 불확실성의 정도를 함께 제시한다.",
+    "definition_en": "A range of values within which the true population parameter is expected to fall, providing information about the precision and uncertainty of a point estimate.",
+    "significance": "가설검정의 이분법적 결론(유의/비유의)을 보완하여 추정의 정밀도를 함께 보고하며, 효과크기의 불확실성을 평가하는 데 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "신뢰구간의 빈도주의적 해석과 수학적 이론을 정립하였다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "가설검정 대안으로서 효과크기와 신뢰구간 보고의 중요성을 강조하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "점추정",
+        "name_en": "Point Estimation",
+        "id": "HYPO_PE_018"
+      },
+      {
+        "name_ko": "구간추정",
+        "name_en": "Interval Estimation",
+        "id": "HYPO_IE_019"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "95% CI = 같은 방법으로 100번 반복하면 95번은 참값을 포함 → 방법의 신뢰도",
+      "differential": "신뢰구간은 모수가 특정 구간에 있을 확률이 아니라, 반복 표집 시 그 비율의 구간이 모수를 포함하는 것이다.",
+      "key_point": "신뢰구간이 좁을수록 추정이 정밀하며, 0을 포함하지 않으면 유의수준 α에서 통계적으로 유의하다.",
+      "common_mistake": "'95% 신뢰구간'을 '모수가 이 구간에 있을 확률이 95%'로 해석하는 것은 빈도주의 관점에서 오류이다."
+    }
+  },
+  {
+    "id": "HYPO_PE_018",
+    "terminology": "점추정 (Point Estimation)",
+    "terminology_ko": "점추정",
+    "terminology_en": "Point Estimation",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "모수의 값을 하나의 수치(점)로 추정하는 방법으로, 표본통계량을 모수의 최선의 추정값으로 사용한다.",
+    "definition_en": "A method of estimating a population parameter with a single value (point), using a sample statistic as the best estimate of the parameter.",
+    "significance": "통계적 추론의 가장 기본적인 형태이나, 추정의 불확실성을 반영하지 못하므로 구간추정과 함께 사용한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "최대우도추정(MLE)을 비롯한 점추정의 수리적 이론과 추정량의 바람직한 성질을 정립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "구간추정",
+        "name_en": "Interval Estimation",
+        "id": "HYPO_IE_019"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "HYPO_CI_017"
+      },
+      {
+        "name_ko": "표본",
+        "name_en": "Sample",
+        "id": "SAMPLE_SM_002"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "점(點) 추정 = 점 하나로 찍는다 → 예: 표본평균 X̄ = 72점",
+      "differential": "점추정은 '하나의 값'을 제시하고, 구간추정은 '값의 범위'를 제시한다.",
+      "key_point": "좋은 점추정량의 성질: 불편성(unbiasedness), 효율성(efficiency), 일치성(consistency).",
+      "common_mistake": "점추정값만 보고하면 추정의 정밀도를 알 수 없으므로, 반드시 표준오차나 신뢰구간을 함께 보고해야 한다."
+    }
+  },
+  {
+    "id": "HYPO_IE_019",
+    "terminology": "구간추정 (Interval Estimation)",
+    "terminology_ko": "구간추정",
+    "terminology_en": "Interval Estimation",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "모수의 참값이 포함될 가능성이 높은 값들의 범위를 제시하는 추정 방법으로, 추정의 불확실성을 명시적으로 반영한다.",
+    "definition_en": "An estimation method that provides a range of values likely to contain the true parameter, explicitly reflecting the uncertainty of the estimate.",
+    "significance": "점추정의 한계를 보완하여 추정의 정밀성에 대한 정보를 제공하며, 현대 통계학에서 가설검정을 보완하는 주요 접근이다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "신뢰구간 이론을 수학적으로 정립하여 구간추정의 기초를 확립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "점추정",
+        "name_en": "Point Estimation",
+        "id": "HYPO_PE_018"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "HYPO_CI_017"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "구간 추정 = 범위로 추정 → 예: 평균 = 72 ± 3 (69~75)",
+      "differential": "구간추정은 불확실성을 포함한 범위이고, 점추정은 단일 값이다. 구간추정이 더 많은 정보를 제공한다.",
+      "key_point": "신뢰수준(90%, 95%, 99%)이 높을수록 구간이 넓어지고, 표본크기가 클수록 구간이 좁아진다.",
+      "common_mistake": "넓은 신뢰구간이 '나쁜' 것은 아니며, 추정의 불확실성이 크다는 정보를 정직하게 전달하는 것이다."
+    }
+  },
+  {
+    "id": "HYPO_NH_020",
+    "terminology": "귀무가설 유의성 검정 (Null Hypothesis Significance Testing, NHST)",
+    "terminology_ko": "귀무가설 유의성 검정",
+    "terminology_en": "Null Hypothesis Significance Testing",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "피셔의 유의성 검정과 네이만-피어슨의 가설검정을 혼합한 현대 통계적 가설검정의 표준 절차로, p값을 유의수준과 비교하여 의사결정을 내린다.",
+    "definition_en": "The standard modern procedure for statistical hypothesis testing that blends Fisher's significance testing with Neyman-Pearson's decision framework, comparing p-values against a significance level.",
+    "significance": "심리학 연구의 지배적 통계 분석 패러다임이나, 재현성 위기와 함께 그 한계에 대한 비판이 증가하고 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "유의성 검정의 연속적 증거 접근을 개발하였다."
+      },
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "이분법적 의사결정 틀과 오류율 통제 접근을 개발하였다."
+      },
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "NHST의 한계를 비판하고 효과크기와 검정력의 중요성을 강조하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "피셔의 유의성 검정",
+        "name_en": "Fisher's Significance Testing",
+        "id": "HYPO_FS_022"
+      },
+      {
+        "name_ko": "네이만-피어슨 접근",
+        "name_en": "Neyman-Pearson Approach",
+        "id": "HYPO_NP_021"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-hacking",
+        "id": "ETHICS_PH_011"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "NHST = Null Hypothesis Significance Testing → 현대 가설검정의 혼합 패러다임",
+      "differential": "NHST는 피셔와 네이만-피어슨 접근의 혼합이며, 두 접근의 철학적 차이를 인식하지 못한 채 기계적으로 사용되는 경우가 많다.",
+      "key_point": "NHST는 '귀무가설이 참이라면' 이라는 조건부 확률에 기반하며, 효과크기와 신뢰구간으로 보완해야 한다.",
+      "common_mistake": "p < .05를 기계적으로 적용하고, p ≥ .05이면 '효과 없음'으로 결론내리는 이분법적 사고는 NHST의 대표적 오용이다."
+    }
+  },
+  {
+    "id": "HYPO_NP_021",
+    "terminology": "네이만-피어슨 접근 (Neyman-Pearson Approach)",
+    "terminology_ko": "네이만-피어슨 접근",
+    "terminology_en": "Neyman-Pearson Approach",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "가설검정을 두 가설(H₀ vs H₁) 간의 의사결정 문제로 보고, 제1종과 제2종 오류율을 장기적으로 통제하는 행동 규칙을 제공하는 접근이다.",
+    "definition_en": "An approach that frames hypothesis testing as a decision problem between two hypotheses (H₀ vs H₁), providing a behavioral rule that controls long-run Type I and Type II error rates.",
+    "significance": "가설검정에 형식적 의사결정 이론을 도입하여, 검정력과 오류율의 상충 관계를 체계적으로 분석할 수 있게 하였다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "가설검정을 반복적 의사결정 문제로 정의하고, 오류율 통제의 수학적 틀을 제시하였다."
+      },
+      {
+        "name_ko": "에곤 피어슨",
+        "name_en": "Egon Pearson",
+        "contribution": "네이만과 함께 최강력 검정(most powerful test)의 레마를 증명하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "피셔의 유의성 검정",
+        "name_en": "Fisher's Significance Testing",
+        "id": "HYPO_FS_022"
+      },
+      {
+        "name_ko": "NHST",
+        "name_en": "NHST",
+        "id": "HYPO_NH_020"
+      },
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      },
+      {
+        "name_ko": "제2종 오류",
+        "name_en": "Type II Error",
+        "id": "HYPO_T2_004"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "네이만-피어슨 = '결정' 중심 → H₀ vs H₁ 중 하나를 선택하는 의사결정 규칙",
+      "differential": "피셔는 p값을 증거의 강도로 본 반면, 네이만-피어슨은 기각/비기각의 이분법적 의사결정에 초점을 둔다.",
+      "key_point": "대립가설을 명시적으로 설정하고, 두 종류 오류의 균형을 고려하는 것이 핵심이다.",
+      "common_mistake": "네이만-피어슨 접근은 개별 실험이 아닌 장기적·반복적 의사결정에서의 오류율 통제를 목표로 한다."
+    }
+  },
+  {
+    "id": "HYPO_FS_022",
+    "terminology": "피셔의 유의성 검정 (Fisher's Significance Testing)",
+    "terminology_ko": "피셔의 유의성 검정",
+    "terminology_en": "Fisher's Significance Testing",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "대립가설을 명시적으로 설정하지 않고, p값을 데이터와 귀무가설 간의 불일치 정도를 나타내는 연속적 증거 척도로 사용하는 접근이다.",
+    "definition_en": "An approach that does not explicitly specify an alternative hypothesis, using the p-value as a continuous measure of the degree of inconsistency between the data and the null hypothesis.",
+    "significance": "현대 NHST의 한 축을 형성하며, p값을 이분법적으로 사용하기보다 증거의 강도로 해석하는 원래 취지를 이해하는 데 중요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "귀무가설만을 설정하고 p값으로 데이터의 '놀라움(surprise)' 정도를 평가하는 검정 프레임워크를 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "네이만-피어슨 접근",
+        "name_en": "Neyman-Pearson Approach",
+        "id": "HYPO_NP_021"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "NHST",
+        "name_en": "NHST",
+        "id": "HYPO_NH_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "피셔 = '증거의 강도' → p값이 작을수록 귀무가설에 반하는 증거가 강함",
+      "differential": "피셔의 접근은 대립가설 없이 귀무가설만 검정하며, 네이만-피어슨 접근은 H₀ vs H₁의 이분법적 선택을 요구한다.",
+      "key_point": "피셔는 p값을 연속적 증거 척도로 사용했지, .05 기준으로 기계적 결정을 하라고 한 것은 아니다.",
+      "common_mistake": "피셔와 네이만-피어슨의 접근은 철학적으로 다르지만, 현대 NHST에서는 혼합되어 사용된다."
+    }
+  },
+  {
+    "id": "HYPO_BY_023",
+    "terminology": "베이즈 추론 (Bayesian Inference)",
+    "terminology_ko": "베이즈 추론",
+    "terminology_en": "Bayesian Inference",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "사전확률과 관찰된 데이터(우도)를 결합하여 사후확률을 계산하는 통계적 추론 방법으로, NHST의 대안적 패러다임이다.",
+    "definition_en": "A statistical inference method that combines prior probabilities with observed data (likelihood) to calculate posterior probabilities, serving as an alternative paradigm to NHST.",
+    "significance": "NHST의 한계를 보완하는 대안적 접근으로 주목받으며, 누적 증거의 업데이트와 가설의 직접적 확률 평가를 가능하게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "토머스 베이즈",
+        "name_en": "Thomas Bayes",
+        "contribution": "조건부 확률의 역 관계를 기술한 베이즈 정리를 제시하였다."
+      },
+      {
+        "name_ko": "해럴드 제프리스",
+        "name_en": "Harold Jeffreys",
+        "contribution": "베이즈 정리를 과학적 추론에 체계적으로 적용하는 방법론을 개발하였다."
+      },
+      {
+        "name_ko": "데니스 린들리",
+        "name_en": "Dennis V. Lindley",
+        "contribution": "베이즈 통계학의 이론적 토대를 발전시키고 빈도주의와의 차이를 명확히 하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전확률",
+        "name_en": "Prior Probability",
+        "id": "HYPO_PP_024"
+      },
+      {
+        "name_ko": "사후확률",
+        "name_en": "Posterior Probability",
+        "id": "HYPO_PO_025"
+      },
+      {
+        "name_ko": "우도비",
+        "name_en": "Likelihood Ratio",
+        "id": "HYPO_LR_026"
+      },
+      {
+        "name_ko": "NHST",
+        "name_en": "NHST",
+        "id": "HYPO_NH_020"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "베이즈 = 사전(prior) × 우도(likelihood) → 사후(posterior) → 믿음의 업데이트",
+      "differential": "빈도주의(NHST)는 '데이터가 가설에 비추어 얼마나 놀라운가'를 묻고, 베이즈 접근은 '데이터를 고려할 때 가설이 얼마나 타당한가'를 묻는다.",
+      "key_point": "사전확률의 설정이 결과에 영향을 미치므로, 사전확률의 선택이 주관적이라는 비판이 있다.",
+      "common_mistake": "베이즈 추론은 '주관적'이라서 과학적이지 않다는 것은 오해이며, 사전확률의 민감도 분석 등을 통해 견고성을 확보할 수 있다."
+    }
+  },
+  {
+    "id": "HYPO_PP_024",
+    "terminology": "사전확률 (Prior Probability)",
+    "terminology_ko": "사전확률",
+    "terminology_en": "Prior Probability",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "데이터를 관찰하기 전에 가설이 참일 것으로 기대되는 확률로, 선행 연구나 이론적 지식에 기반하여 설정한다.",
+    "definition_en": "The probability that a hypothesis is true before observing the data, set based on prior research or theoretical knowledge.",
+    "significance": "베이즈 추론의 핵심 구성요소로, 연구자의 사전 지식을 분석에 명시적으로 반영할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "토머스 베이즈",
+        "name_en": "Thomas Bayes",
+        "contribution": "사전확률에서 사후확률로의 갱신 원리를 제시하였다."
+      },
+      {
+        "name_ko": "피에르시몽 라플라스",
+        "name_en": "Pierre-Simon Laplace",
+        "contribution": "베이즈 정리를 일반화하고 무정보 사전확률의 원리를 정립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사후확률",
+        "name_en": "Posterior Probability",
+        "id": "HYPO_PO_025"
+      },
+      {
+        "name_ko": "베이즈 추론",
+        "name_en": "Bayesian Inference",
+        "id": "HYPO_BY_023"
+      },
+      {
+        "name_ko": "우도비",
+        "name_en": "Likelihood Ratio",
+        "id": "HYPO_LR_026"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "정보적 사전확률 (Informative prior)",
+        "description": "선행 연구에 기반한 구체적 사전확률"
+      },
+      {
+        "name": "무정보 사전확률 (Non-informative prior)",
+        "description": "사전 지식이 없을 때 사용하는 균등 사전확률"
+      },
+      {
+        "name": "약정보 사전확률 (Weakly informative prior)",
+        "description": "넓은 범위에서 약한 제약만 주는 사전확률"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "사전(事前) = 데이터 '전'의 믿음 → prior belief",
+      "differential": "사전확률은 데이터 이전의 기대이고, 사후확률은 데이터를 본 후 업데이트된 기대이다.",
+      "key_point": "무정보 사전확률을 사용하면 빈도주의 결과와 유사한 결과를 얻을 수 있다.",
+      "common_mistake": "사전확률이 '주관적'이라는 이유로 베이즈 접근을 비과학적으로 보는 것은 편견이며, 빈도주의도 암묵적 가정이 있다."
+    }
+  },
+  {
+    "id": "HYPO_PO_025",
+    "terminology": "사후확률 (Posterior Probability)",
+    "terminology_ko": "사후확률",
+    "terminology_en": "Posterior Probability",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "데이터를 관찰한 후에 가설이 참일 확률로, 사전확률과 우도(likelihood)를 베이즈 정리로 결합하여 산출한다.",
+    "definition_en": "The probability that a hypothesis is true after observing the data, calculated by combining the prior probability and the likelihood using Bayes' theorem.",
+    "significance": "연구자가 실제로 알고 싶어 하는 '데이터를 고려할 때 가설이 참일 확률'을 직접 제공한다는 점에서 NHST의 p값보다 직관적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "토머스 베이즈",
+        "name_en": "Thomas Bayes",
+        "contribution": "사후확률 계산의 수학적 기초를 제시하였다."
+      },
+      {
+        "name_ko": "해럴드 제프리스",
+        "name_en": "Harold Jeffreys",
+        "contribution": "사후확률 기반 추론을 과학적 가설 비교에 체계적으로 적용하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "사전확률",
+        "name_en": "Prior Probability",
+        "id": "HYPO_PP_024"
+      },
+      {
+        "name_ko": "베이즈 추론",
+        "name_en": "Bayesian Inference",
+        "id": "HYPO_BY_023"
+      },
+      {
+        "name_ko": "우도비",
+        "name_en": "Likelihood Ratio",
+        "id": "HYPO_LR_026"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "사후(事後) = 데이터를 '본 후'의 업데이트된 믿음 → posterior belief",
+      "differential": "사후확률은 P(H|D)이고, p값은 P(D|H₀)이다. 조건의 방향이 반대이며, 이 둘을 혼동해서는 안 된다.",
+      "key_point": "사후확률 = (사전확률 × 우도) / 증거 → 데이터가 많아질수록 사전확률의 영향이 줄어든다.",
+      "common_mistake": "p값을 사후확률로 해석하는 것은 대표적인 오류이다. p값은 P(D|H₀)이지 P(H₀|D)가 아니다."
+    }
+  },
+  {
+    "id": "HYPO_LR_026",
+    "terminology": "우도비 (Likelihood Ratio)",
+    "terminology_ko": "우도비",
+    "terminology_en": "Likelihood Ratio",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "두 가설 하에서 관찰된 데이터의 우도(가능도)의 비율로, 데이터가 어느 가설을 더 지지하는지를 나타내는 척도이다.",
+    "definition_en": "The ratio of the likelihoods of the observed data under two competing hypotheses, indicating which hypothesis the data supports more strongly.",
+    "significance": "베이즈 추론에서 사전확률을 사후확률로 변환하는 핵심 요소이며, 가설 간 상대적 증거 강도를 직접 비교할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "우도(likelihood) 개념을 통계학에 도입하고 최대우도추정법을 개발하였다."
+      },
+      {
+        "name_ko": "해럴드 제프리스",
+        "name_en": "Harold Jeffreys",
+        "contribution": "우도비에 기반한 가설 비교 방법을 체계화하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "베이즈 추론",
+        "name_en": "Bayesian Inference",
+        "id": "HYPO_BY_023"
+      },
+      {
+        "name_ko": "사전확률",
+        "name_en": "Prior Probability",
+        "id": "HYPO_PP_024"
+      },
+      {
+        "name_ko": "사후확률",
+        "name_en": "Posterior Probability",
+        "id": "HYPO_PO_025"
+      },
+      {
+        "name_ko": "베이즈 인자",
+        "name_en": "Bayes Factor",
+        "id": "HYPO_BF_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "우도비 = L(H₁)/L(H₀) → 데이터가 H₁을 H₀보다 몇 배 더 지지하는가",
+      "differential": "우도(likelihood)는 확률과 달리 합이 1이 될 필요가 없으며, 두 가설의 상대적 비교에 사용된다.",
+      "key_point": "우도비가 1보다 크면 데이터가 H₁을 더 지지하고, 1보다 작으면 H₀를 더 지지한다.",
+      "common_mistake": "우도(likelihood)를 확률(probability)과 동일시하는 것은 오류이다. 우도는 매개변수가 주어졌을 때 데이터의 함수이다."
+    }
+  },
+  {
+    "id": "HYPO_BF_027",
+    "terminology": "베이즈 인자 (Bayes Factor)",
+    "terminology_ko": "베이즈 인자",
+    "terminology_en": "Bayes Factor",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "두 경쟁 가설의 주변 우도(marginal likelihood)의 비율로, NHST의 p값을 대체하여 가설 간 상대적 증거 강도를 정량화한다.",
+    "definition_en": "The ratio of the marginal likelihoods of two competing hypotheses, quantifying the relative evidence strength between hypotheses as an alternative to the p-value in NHST.",
+    "significance": "귀무가설을 '지지하는' 증거도 정량화할 수 있어, NHST에서 불가능한 '효과 없음의 증거'를 제시할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "해럴드 제프리스",
+        "name_en": "Harold Jeffreys",
+        "contribution": "베이즈 인자 개념을 도입하고 증거 강도 해석 기준을 제시하였다."
+      },
+      {
+        "name_ko": "로버트 카스",
+        "name_en": "Robert E. Kass",
+        "contribution": "래프터리와 함께 베이즈 인자의 현대적 해석 기준과 활용법을 정리하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "우도비",
+        "name_en": "Likelihood Ratio",
+        "id": "HYPO_LR_026"
+      },
+      {
+        "name_ko": "베이즈 추론",
+        "name_en": "Bayesian Inference",
+        "id": "HYPO_BY_023"
+      },
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BF₁₀ = 10이면 '데이터가 H₁을 H₀보다 10배 더 지지한다'",
+      "differential": "p값은 귀무가설만 평가하지만, 베이즈 인자는 두 가설을 동시에 비교하여 상대적 지지도를 제공한다.",
+      "key_point": "제프리스 기준: BF > 3(약한 증거), > 10(강한 증거), > 30(매우 강한 증거), > 100(결정적 증거).",
+      "common_mistake": "BF가 1에 가까우면 두 가설에 대한 증거가 비슷하다는 의미이지, 분석이 실패한 것이 아니다."
+    }
+  },
+  {
+    "id": "HYPO_ER_028",
+    "terminology": "오류율 (Error Rate)",
+    "terminology_ko": "오류율",
+    "terminology_en": "Error Rate",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "통계적 검정에서 잘못된 결론을 내리는 비율로, 제1종 오류율(α)과 제2종 오류율(β)을 포함하는 포괄적 개념이다.",
+    "definition_en": "The rate of making incorrect conclusions in statistical testing, encompassing both Type I error rate (α) and Type II error rate (β).",
+    "significance": "가설검정의 질을 평가하는 핵심 기준이며, 연구 설계 시 두 오류율의 균형을 고려해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "예지 네이만",
+        "name_en": "Jerzy Neyman",
+        "contribution": "장기적 오류율 통제의 관점에서 가설검정 이론을 정립하였다."
+      },
+      {
+        "name_ko": "에곤 피어슨",
+        "name_en": "Egon Pearson",
+        "contribution": "네이만과 함께 두 종류 오류의 상충 관계를 분석하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "제1종 오류",
+        "name_en": "Type I Error",
+        "id": "HYPO_T1_003"
+      },
+      {
+        "name_ko": "제2종 오류",
+        "name_en": "Type II Error",
+        "id": "HYPO_T2_004"
+      },
+      {
+        "name_ko": "가족별 오류율",
+        "name_en": "Familywise Error Rate",
+        "id": "HYPO_FW_029"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "비교별 오류율 (Per-comparison error rate)",
+        "description": "개별 검정 하나에서의 제1종 오류 확률"
+      },
+      {
+        "name": "가족별 오류율 (Familywise error rate)",
+        "description": "일련의 검정 전체에서 하나 이상의 제1종 오류를 범할 확률"
+      },
+      {
+        "name": "거짓발견율 (False discovery rate)",
+        "description": "기각된 가설 중 거짓 기각의 비율"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "오류율 = 틀린 결정의 비율 → α(거짓 양성률) + β(거짓 음성률)",
+      "differential": "비교별 오류율은 단일 검정의 오류이고, 가족별 오류율은 여러 검정을 동시에 수행할 때의 전체 오류이다.",
+      "key_point": "α를 낮추면 β가 증가하고, β를 낮추면 α가 증가하는 상충 관계(trade-off)가 존재한다.",
+      "common_mistake": "여러 검정을 동시에 수행하면 전체 오류율이 α보다 훨씬 높아지므로 다중비교 보정이 필요하다."
+    }
+  },
+  {
+    "id": "HYPO_FW_029",
+    "terminology": "가족별 오류율 (Familywise Error Rate, FWER)",
+    "terminology_ko": "가족별 오류율",
+    "terminology_en": "Familywise Error Rate",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "하나의 연구에서 여러 통계 검정을 동시에 수행할 때, 하나 이상의 제1종 오류를 범할 전체 확률이다.",
+    "definition_en": "The probability of making at least one Type I error when conducting multiple statistical tests simultaneously within a single study.",
+    "significance": "다중비교 문제의 핵심 개념으로, k개 독립 검정 수행 시 FWER = 1 - (1-α)^k로 급격히 증가하므로 보정이 필요하다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John W. Tukey",
+        "contribution": "사후검정(HSD)을 통해 가족별 오류율을 통제하는 방법을 개발하였다."
+      },
+      {
+        "name_ko": "카를로 에밀리오 본페로니",
+        "name_en": "Carlo Emilio Bonferroni",
+        "contribution": "부등식 원리를 통해 FWER 통제의 가장 보수적인 교정법의 기초를 제공하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "본페로니 교정",
+        "name_en": "Bonferroni Correction",
+        "id": "HYPO_BN_030"
+      },
+      {
+        "name_ko": "다중비교 문제",
+        "name_en": "Multiple Comparisons Problem",
+        "id": "HYPO_MC_031"
+      },
+      {
+        "name_ko": "오류율",
+        "name_en": "Error Rate",
+        "id": "HYPO_ER_028"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FWER = Family-Wise → 검정 '가족' 전체의 오류율",
+      "differential": "FWER은 '하나라도 틀릴 확률'이고, 거짓발견율(FDR)은 '기각 중 틀린 비율'이다. FWER이 더 보수적이다.",
+      "key_point": "20개 독립 검정(α = .05) 시 FWER = 1 - (1-.05)²⁰ ≈ .64로, 64% 확률로 최소 1개 거짓 양성이 발생한다.",
+      "common_mistake": "분산분석 후 사후검정 없이 여러 t검정을 반복하면 FWER이 통제되지 않아 거짓 양성이 급증한다."
+    }
+  },
+  {
+    "id": "HYPO_BN_030",
+    "terminology": "본페로니 교정 (Bonferroni Correction)",
+    "terminology_ko": "본페로니 교정",
+    "terminology_en": "Bonferroni Correction",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "다중비교에서 가족별 오류율(FWER)을 통제하기 위해 유의수준을 검정 횟수로 나누는 가장 단순하고 보수적인 교정 방법이다.",
+    "definition_en": "The simplest and most conservative correction method for controlling familywise error rate in multiple comparisons, dividing the significance level by the number of tests.",
+    "significance": "다중비교 보정의 가장 기본적인 방법으로, 교정된 유의수준 α' = α/k를 사용하여 전체 FWER을 α 이하로 유지한다.",
+    "key_researchers": [
+      {
+        "name_ko": "카를로 에밀리오 본페로니",
+        "name_en": "Carlo Emilio Bonferroni",
+        "contribution": "부등식(Bonferroni inequality)을 증명하여 확률 합의 상한을 제시하였다."
+      },
+      {
+        "name_ko": "올리브 진 던",
+        "name_en": "Olive Jean Dunn",
+        "contribution": "본페로니 부등식을 통계적 다중비교 문제에 적용하는 방법을 개발하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족별 오류율",
+        "name_en": "Familywise Error Rate",
+        "id": "HYPO_FW_029"
+      },
+      {
+        "name_ko": "다중비교 문제",
+        "name_en": "Multiple Comparisons Problem",
+        "id": "HYPO_MC_031"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "본페로니 = α ÷ 검정 횟수(k) → 3번 검정하면 .05/3 ≈ .017",
+      "differential": "본페로니 교정은 가장 보수적이어서 검정력이 크게 감소하고, Holm 방법은 비슷한 FWER 통제를 유지하면서 검정력이 더 높다.",
+      "key_point": "검정 횟수가 많아지면 교정이 지나치게 엄격해져 실제 효과도 탐지하지 못하는 문제(제2종 오류 증가)가 있다.",
+      "common_mistake": "본페로니 교정이 유일한 다중비교 보정법이라 생각하는 경우가 많지만, Holm, Hochberg, FDR 등 덜 보수적인 대안이 있다."
+    }
+  },
+  {
+    "id": "HYPO_MC_031",
+    "terminology": "다중비교 문제 (Multiple Comparisons Problem)",
+    "terminology_ko": "다중비교 문제",
+    "terminology_en": "Multiple Comparisons Problem",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "동일 데이터셋에서 여러 통계 검정을 반복 수행할 때 제1종 오류의 확률이 누적적으로 증가하는 문제이다.",
+    "definition_en": "The problem of cumulative increase in Type I error probability when performing multiple statistical tests on the same dataset.",
+    "significance": "심리학 연구에서 여러 종속변인이나 집단을 비교할 때 필수적으로 고려해야 하며, 미보정 시 재현 불가능한 거짓 발견이 증가한다.",
+    "key_researchers": [
+      {
+        "name_ko": "존 튜키",
+        "name_en": "John W. Tukey",
+        "contribution": "다중비교 문제를 체계적으로 분석하고 HSD(Honestly Significant Difference) 검정을 개발하였다."
+      },
+      {
+        "name_ko": "요아브 벤야미니",
+        "name_en": "Yoav Benjamini",
+        "contribution": "호크버그와 함께 거짓발견율(FDR) 제어 방법을 개발하여 대안적 접근을 제시하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족별 오류율",
+        "name_en": "Familywise Error Rate",
+        "id": "HYPO_FW_029"
+      },
+      {
+        "name_ko": "본페로니 교정",
+        "name_en": "Bonferroni Correction",
+        "id": "HYPO_BN_030"
+      },
+      {
+        "name_ko": "p-해킹",
+        "name_en": "p-hacking",
+        "id": "ETHICS_PH_011"
+      },
+      {
+        "name_ko": "일원분산분석",
+        "name_en": "One-way ANOVA",
+        "id": "ANOVA_OW_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "검정 많이 하면 → 우연히 유의한 결과 발생 확률 급증 → '낚시질(fishing)' 문제",
+      "differential": "계획된 비교(planned comparisons)는 사전에 지정하므로 보정이 덜 필요하지만, 사후비교(post-hoc)는 반드시 다중비교 보정이 필요하다.",
+      "key_point": "해결 방법: 본페로니 교정, Holm 교정, Tukey HSD, FDR 제어 등이 있으며, 연구 목적에 따라 선택한다.",
+      "common_mistake": "탐색적 분석에서 수십 개 검정을 수행한 후 유의한 결과만 보고하면서 다중비교 보정을 하지 않는 것은 연구 부정행위에 가깝다."
+    }
+  },
+  {
+    "id": "HYPO_SP_032",
+    "terminology": "유의확률 (Significance Probability)",
+    "terminology_ko": "유의확률",
+    "terminology_en": "Significance Probability",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "관찰된 검정통계량 또는 그보다 극단적인 값이 귀무가설 하에서 나타날 확률로, p값과 동의어로 사용된다.",
+    "definition_en": "The probability of obtaining a test statistic as extreme as or more extreme than the observed value under the null hypothesis; used synonymously with p-value.",
+    "significance": "통계적 의사결정의 핵심 기준으로, 유의확률이 유의수준보다 작으면 결과가 통계적으로 유의하다고 판단한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "유의확률 개념을 데이터의 증거 강도 평가 도구로 도입하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "검정통계량",
+        "name_en": "Test Statistic",
+        "id": "HYPO_TS_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "유의확률 = p값의 한국어 표현 → sig. 또는 p로 SPSS 등에서 출력",
+      "differential": "유의확률(p값)은 데이터에서 계산되는 관찰된 값이고, 유의수준(α)은 사전에 설정하는 기준값이다.",
+      "key_point": "SPSS 등 통계 프로그램에서 'Sig.' 또는 'p'로 표시되며, 이 값이 α보다 작으면 유의하다고 판단한다.",
+      "common_mistake": "유의확률이 정확히 .000으로 출력되더라도 실제로는 0이 아니며, p < .001로 보고해야 한다."
+    }
+  },
+  {
+    "id": "HYPO_FD_033",
+    "terminology": "거짓발견율 (False Discovery Rate, FDR)",
+    "terminology_ko": "거짓발견율",
+    "terminology_en": "False Discovery Rate",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "기각된 귀무가설 중에서 실제로는 참인 귀무가설의 비율, 즉 유의하다고 판단한 결과 중 거짓 양성의 기대 비율이다.",
+    "definition_en": "The expected proportion of rejected null hypotheses that are actually true, i.e., the expected proportion of false positives among all significant results.",
+    "significance": "대규모 동시 검정(예: 유전체, 뇌영상)에서 FWER보다 덜 보수적이면서 오류를 효과적으로 통제하는 대안으로 널리 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "요아브 벤야미니",
+        "name_en": "Yoav Benjamini",
+        "contribution": "호크버그와 함께 BH 절차(Benjamini-Hochberg procedure)를 개발하여 FDR 제어 방법을 제시하였다."
+      },
+      {
+        "name_ko": "이탤 호크버그",
+        "name_en": "Yosef Hochberg",
+        "contribution": "벤야미니와 함께 FDR 제어의 수학적 기초를 확립하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "가족별 오류율",
+        "name_en": "Familywise Error Rate",
+        "id": "HYPO_FW_029"
+      },
+      {
+        "name_ko": "다중비교 문제",
+        "name_en": "Multiple Comparisons Problem",
+        "id": "HYPO_MC_031"
+      },
+      {
+        "name_ko": "본페로니 교정",
+        "name_en": "Bonferroni Correction",
+        "id": "HYPO_BN_030"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FDR = 발견한 것 중 '거짓'의 비율 → FWER보다 관대하지만 여전히 통제된 오류",
+      "differential": "FWER은 '하나라도 거짓 양성일 확률'을 통제하고, FDR은 '유의한 결과 중 거짓 양성 비율'을 통제한다.",
+      "key_point": "BH 절차: p값을 정렬 → 각 p값을 (순위/총 검정 수) × α와 비교 → 가장 큰 유의한 p값까지 기각.",
+      "common_mistake": "FDR 제어가 FWER 제어보다 항상 우월한 것은 아니며, 소수의 검정에서는 FWER 제어가 더 적절할 수 있다."
+    }
+  },
+  {
+    "id": "HYPO_PA_034",
+    "terminology": "검정력 분석 (Power Analysis)",
+    "terminology_ko": "검정력 분석",
+    "terminology_en": "Power Analysis",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "연구 설계 단계에서 원하는 검정력을 달성하기 위해 필요한 표본크기를 결정하거나, 주어진 조건에서의 검정력을 계산하는 절차이다.",
+    "definition_en": "A procedure for determining the sample size needed to achieve a desired level of statistical power, or for calculating the power given specific conditions in the research design.",
+    "significance": "연구 자원의 효율적 배분과 제2종 오류 방지를 위한 필수적 사전 절차로, 연구비 신청 시 요구되는 핵심 근거이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "검정력 분석의 방법론과 소프트웨어(G*Power의 기초)를 체계화하고 'Statistical Power Analysis for the Behavioral Sciences'를 저술하였다."
+      },
+      {
+        "name_ko": "프란츠 파울",
+        "name_en": "Franz Faul",
+        "contribution": "G*Power 소프트웨어를 개발하여 검정력 분석을 실용적으로 활용할 수 있게 하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "HYPO_PW_007"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "HYPO_ES_016"
+      },
+      {
+        "name_ko": "표본크기",
+        "name_en": "Sample Size",
+        "id": "SAMPLE_SZ_016"
+      },
+      {
+        "name_ko": "검정력",
+        "name_en": "Statistical Power",
+        "id": "EFFECT_SP_020"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "사전 검정력 분석 (A priori)",
+        "description": "연구 전 필요 표본크기 산출"
+      },
+      {
+        "name": "사후 검정력 분석 (Post hoc)",
+        "description": "연구 후 달성된 검정력 계산"
+      },
+      {
+        "name": "민감도 분석 (Sensitivity)",
+        "description": "주어진 표본크기로 탐지 가능한 최소 효과크기 산출"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "검정력 분석 = 연구 전 '몇 명이 필요한가?' 계산 → α, 효과크기, 검정력 3개로 n 결정",
+      "differential": "사전(a priori) 검정력 분석은 연구 설계 시, 사후(post hoc) 검정력 분석은 연구 완료 후 수행하지만, 사후 분석은 비판이 많다.",
+      "key_point": "검정력 분석의 4개 매개변수(α, 검정력, 효과크기, n) 중 3개를 알면 나머지 1개를 구할 수 있다.",
+      "common_mistake": "사후 검정력 분석(observed power)은 p값과 1:1 대응하므로 새로운 정보를 제공하지 않아 무의미하다는 비판이 있다."
+    }
+  },
+  {
+    "id": "HYPO_SS_035",
+    "terminology": "통계적 유의성 (Statistical Significance)",
+    "terminology_ko": "통계적 유의성",
+    "terminology_en": "Statistical Significance",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "관찰된 결과가 우연(표집오차)만으로는 설명하기 어려울 정도로 극단적이어서, 귀무가설을 기각하기에 충분한 증거가 있는 상태를 말한다.",
+    "definition_en": "A condition in which the observed results are sufficiently extreme to be unlikely under the null hypothesis, providing enough evidence to reject it.",
+    "significance": "연구 결과의 신뢰성을 판단하는 관례적 기준이지만, 실질적 유의성(practical significance)과 구분하여 해석해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "로널드 피셔",
+        "name_en": "Ronald A. Fisher",
+        "contribution": "통계적 유의성의 개념과 기준을 확립하고 과학 연구에 광범위하게 적용하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "p값",
+        "name_en": "p-value",
+        "id": "HYPO_PV_005"
+      },
+      {
+        "name_ko": "유의수준",
+        "name_en": "Significance Level",
+        "id": "HYPO_AL_006"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "HYPO_ES_016"
+      },
+      {
+        "name_ko": "실질적 유의성",
+        "name_en": "Practical Significance",
+        "id": "HYPO_PS_036"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "통계적 유의성 = p < α → '우연이라고 보기 어렵다'는 판단",
+      "differential": "통계적 유의성은 효과의 '존재 여부'에 대한 판단이고, 실질적 유의성은 효과의 '크기'와 '중요성'에 대한 판단이다.",
+      "key_point": "통계적으로 유의하다고 해서 반드시 실질적으로 중요하거나 의미 있는 것은 아니다.",
+      "common_mistake": "'유의하지 않다(p > .05)'를 '효과가 없다'로 해석하는 것은 논리적 오류이다."
+    }
+  },
+  {
+    "id": "HYPO_PS_036",
+    "terminology": "실질적 유의성 (Practical Significance)",
+    "terminology_ko": "실질적 유의성",
+    "terminology_en": "Practical Significance",
+    "category": "HYPO",
+    "category_name": "가설검정 (Hypothesis Testing)",
+    "definition": "통계적 유의성과 별개로, 연구 결과가 실제 현장에서 의미 있고 중요한 차이나 효과를 나타내는지를 평가하는 것이다.",
+    "definition_en": "An evaluation of whether research findings represent a meaningful and important difference or effect in practical settings, separate from statistical significance.",
+    "significance": "효과크기를 통해 평가하며, 표본이 클 때 사소한 차이도 통계적으로 유의할 수 있으므로 연구 결과의 실제 가치를 판단하는 데 필수적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "효과크기 보고를 통해 통계적 유의성 너머의 실질적 중요성 평가를 강조하였다."
+      },
+      {
+        "name_ko": "커크",
+        "name_en": "Roger E. Kirk",
+        "contribution": "실질적 유의성과 통계적 유의성의 구분, 효과크기 보고의 중요성을 체계적으로 주장하였다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "통계적 유의성",
+        "name_en": "Statistical Significance",
+        "id": "HYPO_SS_035"
+      },
+      {
+        "name_ko": "효과크기",
+        "name_en": "Effect Size",
+        "id": "HYPO_ES_016"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "실질적 유의성 = '현실에서 의미 있는가?' → 통계적 유의성 ≠ 실제 중요성",
+      "differential": "통계적 유의성은 p값 기반 이분법적 판단이고, 실질적 유의성은 효과크기와 맥락을 고려한 질적 판단이다.",
+      "key_point": "N = 10,000이면 아주 작은 차이(예: d = 0.03)도 p < .05가 될 수 있지만, 실질적 의미는 거의 없다.",
+      "common_mistake": "통계적으로 유의한 결과를 자동으로 '중요한 발견'으로 보고하는 것은 실질적 유의성을 고려하지 않은 것이다."
+    }
+  }
+]

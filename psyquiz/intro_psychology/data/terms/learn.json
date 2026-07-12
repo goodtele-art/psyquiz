@@ -1,0 +1,864 @@
+[
+  {
+    "id": "LEARN_CC_001",
+    "terminology": "고전적 조건형성 (Classical Conditioning)",
+    "terminology_ko": "고전적 조건형성",
+    "terminology_en": "Classical Conditioning",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "중성 자극이 무조건 자극과 반복적으로 짝지어 제시됨으로써, 중성 자극만으로도 무조건 자극에 의해 유발되던 반응과 유사한 반응을 일으키게 되는 학습 과정이다. Pavlov의 개 실험에서 종소리(중성 자극)가 먹이(무조건 자극)와 반복 짝지어져 종소리만으로 타액 분비가 일어난 것이 대표적 사례이다.",
+    "definition_en": "A type of learning in which a neutral stimulus comes to elicit a response after being repeatedly paired with an unconditioned stimulus that naturally produces that response. Pavlov's classic experiment demonstrated this when a bell (neutral stimulus) paired with food (unconditioned stimulus) eventually elicited salivation on its own.",
+    "significance": "행동주의 심리학의 기초를 형성하며, 공포증, 광고, 약물 내성 등 다양한 현상을 설명하는 핵심 학습 원리이다. 행동치료의 이론적 토대를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "개의 타액 분비 실험을 통해 고전적 조건형성의 기본 원리를 발견하였다"},
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "Little Albert 실험을 통해 인간의 정서 반응도 고전적 조건형성으로 학습됨을 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "무조건 자극", "name_en": "Unconditioned Stimulus", "id": "LEARN_US_002"},
+      {"name_ko": "무조건 반응", "name_en": "Unconditioned Response", "id": "LEARN_UR_003"},
+      {"name_ko": "조건 자극", "name_en": "Conditioned Stimulus", "id": "LEARN_CS_004"},
+      {"name_ko": "조건 반응", "name_en": "Conditioned Response", "id": "LEARN_CR_005"},
+      {"name_ko": "조작적 조건형성", "name_en": "Operant Conditioning", "id": "LEARN_OC_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Pavlov의 개: 종소리(CS) + 먹이(US) -> 종소리만으로 침(CR)",
+      "differential": "조작적 조건형성은 행동의 결과(강화/처벌)에 의한 학습이고, 고전적 조건형성은 자극 간 연합에 의한 자동적 반응 학습이다",
+      "key_point": "유기체의 자발적 행동이 아닌 자동적/반사적 반응이 학습되는 과정이다",
+      "common_mistake": "고전적 조건형성과 조작적 조건형성을 혼동하는 경우가 많다. 고전적 조건형성은 자극-자극 연합이고 조작적 조건형성은 행동-결과 연합이다"
+    }
+  },
+  {
+    "id": "LEARN_US_002",
+    "terminology": "무조건 자극 (Unconditioned Stimulus, US)",
+    "terminology_ko": "무조건 자극",
+    "terminology_en": "Unconditioned Stimulus (US)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "사전 학습 없이도 자연적으로, 자동적으로 반응을 유발하는 자극이다. 예를 들어, 먹이는 별도의 학습 없이도 타액 분비를 유발하는 무조건 자극이다.",
+    "definition_en": "A stimulus that naturally and automatically triggers a response without any prior learning. For example, food naturally triggers salivation without any conditioning.",
+    "significance": "고전적 조건형성의 출발점으로, 생물학적으로 의미 있는 자극이 학습의 기반이 됨을 보여준다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "고전적 조건형성 실험에서 무조건 자극의 개념을 정립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "무조건 반응", "name_en": "Unconditioned Response", "id": "LEARN_UR_003"},
+      {"name_ko": "조건 자극", "name_en": "Conditioned Stimulus", "id": "LEARN_CS_004"},
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "US = Unlearned Stimulus, 배우지 않아도(Un-) 반응을 일으키는 자극",
+      "differential": "조건 자극(CS)은 학습을 통해 반응을 유발하게 된 자극이고, 무조건 자극(US)은 학습 없이 자연적으로 반응을 유발한다",
+      "key_point": "무조건 자극은 생물학적으로 의미 있는 자극으로, 학습 이전에 이미 반응을 유발하는 능력이 있다",
+      "common_mistake": "조건형성 이후에도 US는 여전히 US이다. US가 CS로 바뀌는 것이 아니다"
+    }
+  },
+  {
+    "id": "LEARN_UR_003",
+    "terminology": "무조건 반응 (Unconditioned Response, UR)",
+    "terminology_ko": "무조건 반응",
+    "terminology_en": "Unconditioned Response (UR)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "무조건 자극에 의해 자연적으로, 자동적으로 유발되는 학습되지 않은 반응이다. 예를 들어, 먹이에 대한 타액 분비는 학습 없이 자연적으로 일어나는 무조건 반응이다.",
+    "definition_en": "An unlearned, naturally occurring response to an unconditioned stimulus. For example, salivation in response to food is a natural, unlearned reaction.",
+    "significance": "고전적 조건형성에서 학습의 기준선(baseline)이 되는 반응으로, 조건 반응(CR)과 비교하여 학습의 발생 여부를 판단하는 기준이 된다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "조건형성 실험에서 무조건 반응과 조건 반응을 구분하는 개념 체계를 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "무조건 자극", "name_en": "Unconditioned Stimulus", "id": "LEARN_US_002"},
+      {"name_ko": "조건 반응", "name_en": "Conditioned Response", "id": "LEARN_CR_005"},
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "UR = Unlearned Response, 배우지 않아도(Un-) 나타나는 반응",
+      "differential": "UR은 US에 의해 자동적으로 유발되고, CR은 CS에 의해 학습을 통해 유발된다. UR과 CR은 유사하지만 동일하지 않을 수 있다",
+      "key_point": "UR과 CR은 형태가 유사하지만, CR은 보통 UR보다 약한 강도로 나타난다",
+      "common_mistake": "UR과 CR이 항상 동일한 반응이라고 오해하기 쉽지만, CR은 UR보다 약하거나 형태가 다소 다를 수 있다"
+    }
+  },
+  {
+    "id": "LEARN_CS_004",
+    "terminology": "조건 자극 (Conditioned Stimulus, CS)",
+    "terminology_ko": "조건 자극",
+    "terminology_en": "Conditioned Stimulus (CS)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "원래 중성 자극이었으나 무조건 자극과 반복적으로 짝지어진 후, 그 자체만으로 조건 반응을 유발하게 된 자극이다. Pavlov 실험에서 종소리가 대표적인 조건 자극이다.",
+    "definition_en": "An originally neutral stimulus that, after repeated pairing with an unconditioned stimulus, comes to trigger a conditioned response. In Pavlov's experiment, the bell served as the conditioned stimulus.",
+    "significance": "환경의 중성 자극이 학습을 통해 행동에 영향을 미칠 수 있음을 보여주며, 공포증, 광고 효과, 약물 갈망 등 다양한 현상의 설명에 활용된다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "조건 자극의 개념을 정립하고 조건형성 과정을 체계적으로 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "무조건 자극", "name_en": "Unconditioned Stimulus", "id": "LEARN_US_002"},
+      {"name_ko": "조건 반응", "name_en": "Conditioned Response", "id": "LEARN_CR_005"},
+      {"name_ko": "자극일반화", "name_en": "Stimulus Generalization", "id": "LEARN_SG_008"},
+      {"name_ko": "자극변별", "name_en": "Stimulus Discrimination", "id": "LEARN_SD_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CS = Conditioned(조건화된) Stimulus, 학습을 통해 반응을 유발하게 '된' 자극",
+      "differential": "US는 선천적으로 반응을 유발하지만, CS는 US와의 연합을 통해 후천적으로 반응을 유발하게 된다",
+      "key_point": "조건형성 전에는 중성 자극(NS)이었다가, US와의 반복적 짝짓기를 통해 CS가 된다",
+      "common_mistake": "CS는 US와 짝지어지기 전에는 반응을 유발하지 않는 중성 자극이다. 처음부터 CS인 것이 아니다"
+    }
+  },
+  {
+    "id": "LEARN_CR_005",
+    "terminology": "조건 반응 (Conditioned Response, CR)",
+    "terminology_ko": "조건 반응",
+    "terminology_en": "Conditioned Response (CR)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "조건 자극에 의해 유발되는 학습된 반응이다. 고전적 조건형성의 결과로 나타나며, 무조건 반응과 유사하지만 보통 그보다 약한 강도로 나타난다.",
+    "definition_en": "A learned response to a previously neutral stimulus (now a conditioned stimulus). It is the result of classical conditioning and is typically similar to, but often weaker than, the unconditioned response.",
+    "significance": "학습이 실제로 일어났음을 확인하는 지표 반응이며, 적응적 행동뿐 아니라 공포증, 중독 등 부적응적 반응의 형성도 설명한다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "조건 반응의 형성, 소거, 자발적 회복 등의 과정을 체계적으로 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "조건 자극", "name_en": "Conditioned Stimulus", "id": "LEARN_CS_004"},
+      {"name_ko": "무조건 반응", "name_en": "Unconditioned Response", "id": "LEARN_UR_003"},
+      {"name_ko": "소거", "name_en": "Extinction", "id": "LEARN_EXT_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "CR = Conditioned(조건화된) Response, 학습을 통해 나타나게 '된' 반응",
+      "differential": "CR은 CS에 의해 유발되는 학습된 반응이고, UR은 US에 의해 자연적으로 유발되는 비학습 반응이다",
+      "key_point": "CR의 출현이 곧 조건형성(학습)이 일어났음을 의미한다",
+      "common_mistake": "CR과 UR은 종종 동일한 행동(예: 타액 분비)이지만, CR은 학습에 의해 유발된 것이고 UR은 자연적으로 유발된 것이다"
+    }
+  },
+  {
+    "id": "LEARN_EXT_006",
+    "terminology": "소거 (Extinction)",
+    "terminology_ko": "소거",
+    "terminology_en": "Extinction",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "고전적 조건형성에서 조건 자극을 무조건 자극 없이 반복적으로 제시할 때 조건 반응이 점차 약화되어 사라지는 현상이다. 조작적 조건형성에서는 강화가 더 이상 주어지지 않을 때 행동 빈도가 감소하는 것을 의미한다.",
+    "definition_en": "In classical conditioning, the diminishing of a conditioned response when the conditioned stimulus is repeatedly presented without the unconditioned stimulus. In operant conditioning, it refers to the decrease in behavior when reinforcement is no longer provided.",
+    "significance": "학습된 반응이 영구적이지 않으며 환경 변화에 따라 수정될 수 있음을 보여준다. 행동치료에서 불안, 공포증 치료(체계적 둔감법, 노출치료)의 이론적 기반이 된다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "고전적 조건형성에서 소거 현상을 최초로 체계적으로 기술하였다"},
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "조작적 조건형성에서의 소거 과정을 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자발적 회복", "name_en": "Spontaneous Recovery", "id": "LEARN_SR_007"},
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소거 = 소(消, 사라질 소) + 거(去, 갈 거): 반응이 사라져 감",
+      "differential": "소거는 반응이 '삭제'되는 것이 아니라 '억제'되는 것이다. 자발적 회복이 이를 증명한다",
+      "key_point": "소거 시 일시적으로 반응이 증가하는 '소거 폭발(extinction burst)'이 나타날 수 있다",
+      "common_mistake": "소거가 학습의 완전한 제거를 의미한다고 오해하기 쉽지만, 자발적 회복 현상은 원래 학습이 완전히 사라지지 않았음을 보여준다"
+    }
+  },
+  {
+    "id": "LEARN_SR_007",
+    "terminology": "자발적 회복 (Spontaneous Recovery)",
+    "terminology_ko": "자발적 회복",
+    "terminology_en": "Spontaneous Recovery",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "소거 절차 이후 일정 시간이 경과한 뒤, 조건 자극을 다시 제시했을 때 소거되었던 조건 반응이 다시 나타나는 현상이다. 이는 소거가 학습의 완전한 제거가 아님을 시사한다.",
+    "definition_en": "The reappearance of an extinguished conditioned response after a rest period following extinction. This phenomenon suggests that extinction does not completely erase the original learning.",
+    "significance": "학습된 연합이 소거 후에도 완전히 사라지지 않고 잠재적으로 유지됨을 보여주며, 중독 재발이나 공포증 재발을 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "소거된 조건 반응이 시간 경과 후 자발적으로 회복됨을 발견하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "소거", "name_en": "Extinction", "id": "LEARN_EXT_006"},
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자발적 회복 = 추가 훈련 없이 '자발적으로' 반응이 '회복'됨",
+      "differential": "자발적 회복은 소거 후 시간 경과만으로 나타나는 반면, 재조건형성(reconditioning)은 CS-US를 다시 짝지어야 한다",
+      "key_point": "자발적 회복된 반응은 보통 원래 조건 반응보다 약하며, 반복 소거-회복 주기를 거치면 점차 약해진다",
+      "common_mistake": "자발적 회복이 원래 강도의 CR을 되살린다고 오해하기 쉬우나, 회복된 CR은 보통 원래보다 약하다"
+    }
+  },
+  {
+    "id": "LEARN_SG_008",
+    "terminology": "자극일반화 (Stimulus Generalization)",
+    "terminology_ko": "자극일반화",
+    "terminology_en": "Stimulus Generalization",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "조건 자극과 유사한 자극에 대해서도 조건 반응이 나타나는 현상이다. 자극이 원래 CS와 유사할수록 더 강한 반응이 나타나며, 이를 일반화 기울기(generalization gradient)라 한다.",
+    "definition_en": "The tendency to respond to stimuli similar to the conditioned stimulus. The more similar the stimulus is to the original CS, the stronger the response, forming a generalization gradient.",
+    "significance": "새로운 상황에 대한 적응적 반응을 가능하게 하며, 공포증의 확산을 설명한다. Watson의 Little Albert 실험에서 흰 쥐에 대한 공포가 토끼, 털코트 등으로 일반화된 것이 대표적이다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "자극일반화 현상을 체계적으로 기술하였다"},
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "Little Albert 실험에서 공포의 자극일반화를 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자극변별", "name_en": "Stimulus Discrimination", "id": "LEARN_SD_009"},
+      {"name_ko": "조건 자극", "name_en": "Conditioned Stimulus", "id": "LEARN_CS_004"},
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "일반화 = CS와 '비슷한' 자극에도 반응이 '일반적으로' 나타남",
+      "differential": "자극일반화는 유사 자극에도 반응하는 것이고, 자극변별은 유사 자극들을 구분하여 특정 자극에만 반응하는 것이다",
+      "key_point": "일반화 기울기(generalization gradient): 원래 CS와 유사할수록 강한 CR이 나타난다",
+      "common_mistake": "자극일반화는 항상 부적응적인 것이 아니라, 생존에 필요한 적응적 기능도 한다 (뱀과 유사한 모든 것을 피하는 것)"
+    }
+  },
+  {
+    "id": "LEARN_SD_009",
+    "terminology": "자극변별 (Stimulus Discrimination)",
+    "terminology_ko": "자극변별",
+    "terminology_en": "Stimulus Discrimination",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "조건 자극과 유사하지만 다른 자극을 구분하여, 조건 자극에만 반응하고 유사한 다른 자극에는 반응하지 않는 학습된 능력이다. 자극일반화의 반대 과정이다.",
+    "definition_en": "The learned ability to distinguish between the conditioned stimulus and other similar stimuli, responding only to the CS and not to similar stimuli. It is the opposite process of stimulus generalization.",
+    "significance": "환경 자극을 정확히 변별하는 능력은 적응적 행동에 필수적이다. 과도한 일반화를 제한하여 적절한 상황에서만 반응하도록 한다.",
+    "key_researchers": [
+      {"name_ko": "이반 파블로프", "name_en": "Ivan Pavlov", "contribution": "변별 훈련 절차를 개발하고 자극변별의 원리를 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자극일반화", "name_en": "Stimulus Generalization", "id": "LEARN_SG_008"},
+      {"name_ko": "조건 자극", "name_en": "Conditioned Stimulus", "id": "LEARN_CS_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "변별 = '변(다를 변)'별(구별할 별): 다른 것을 구별함",
+      "differential": "자극일반화는 유사 자극에 같은 반응을 보이는 것이고, 자극변별은 유사 자극들 간의 차이를 구분하는 것이다",
+      "key_point": "변별 훈련: CS에는 US를 짝짓고, 유사 자극에는 US를 짝짓지 않으면 변별이 형성된다",
+      "common_mistake": "자극변별은 자극일반화의 '실패'가 아니라 별도의 학습 과정이다"
+    }
+  },
+  {
+    "id": "LEARN_OC_010",
+    "terminology": "조작적 조건형성 (Operant Conditioning)",
+    "terminology_ko": "조작적 조건형성",
+    "terminology_en": "Operant Conditioning",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "행동의 결과(강화 또는 처벌)에 의해 그 행동의 발생 빈도가 변화하는 학습 유형이다. 유기체가 환경을 능동적으로 '조작'하고 그 결과로부터 학습하는 과정으로, Skinner가 체계화하였다.",
+    "definition_en": "A type of learning in which behavior is strengthened or weakened by its consequences (reinforcement or punishment). The organism actively 'operates' on the environment and learns from the consequences, as systematized by Skinner.",
+    "significance": "교육, 양육, 동물 훈련, 행동치료, 조직관리 등 거의 모든 행동 변화 영역에서 적용되는 핵심 학습 원리이다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "스키너 상자(Skinner box)를 개발하고 조작적 조건형성의 원리를 체계적으로 연구하였다"},
+      {"name_ko": "에드워드 손다이크", "name_en": "Edward Thorndike", "contribution": "효과의 법칙을 통해 조작적 조건형성의 이론적 토대를 마련하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"},
+      {"name_ko": "처벌", "name_en": "Punishment", "id": "LEARN_PUN_014"},
+      {"name_ko": "강화계획", "name_en": "Reinforcement Schedule", "id": "LEARN_RS_015"},
+      {"name_ko": "효과의 법칙", "name_en": "Law of Effect", "id": "LEARN_LOE_019"},
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조작적 = 유기체가 환경을 '조작(operate)'하여 학습. Skinner의 쥐가 지렛대를 '조작'함",
+      "differential": "고전적 조건형성은 자극-자극 연합(S-S)이고, 조작적 조건형성은 반응-결과 연합(R-S)이다",
+      "key_point": "행동의 결과가 미래 행동을 결정한다: 강화는 행동을 증가시키고, 처벌은 행동을 감소시킨다",
+      "common_mistake": "조작적 조건형성에서 '부적 강화'를 '처벌'로 혼동하는 경우가 매우 흔하다"
+    }
+  },
+  {
+    "id": "LEARN_REINF_011",
+    "terminology": "강화 (Reinforcement)",
+    "terminology_ko": "강화",
+    "terminology_en": "Reinforcement",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "행동 뒤에 따르는 결과가 그 행동의 발생 빈도를 증가시키는 과정이다. 쾌적한 자극의 제시(정적 강화) 또는 불쾌한 자극의 제거(부적 강화)를 통해 이루어진다.",
+    "definition_en": "Any event that follows a behavior and increases the likelihood that the behavior will be repeated. It can occur through the presentation of a pleasant stimulus (positive reinforcement) or the removal of an unpleasant stimulus (negative reinforcement).",
+    "significance": "행동의 형성과 유지에 가장 핵심적인 원리로, 교육, 치료, 양육, 조직관리 등 모든 행동 변화 전략의 기초이다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "강화의 원리를 체계적으로 연구하고 다양한 강화계획의 효과를 밝혔다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정적 강화", "name_en": "Positive Reinforcement", "id": "LEARN_PR_012"},
+      {"name_ko": "부적 강화", "name_en": "Negative Reinforcement", "id": "LEARN_NR_013"},
+      {"name_ko": "처벌", "name_en": "Punishment", "id": "LEARN_PUN_014"},
+      {"name_ko": "강화계획", "name_en": "Reinforcement Schedule", "id": "LEARN_RS_015"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "일차 강화물",
+        "name_en": "Primary Reinforcer",
+        "definition": "생물학적 욕구를 충족시키는 선천적 강화물 (음식, 물, 안전 등)"
+      },
+      {
+        "name_ko": "이차 강화물",
+        "name_en": "Secondary (Conditioned) Reinforcer",
+        "definition": "일차 강화물과의 연합을 통해 강화력을 획득한 학습된 강화물 (돈, 칭찬, 성적 등)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "강화(强化) = 행동을 '강'하게 '화'(만든다). 행동을 증가시키면 무조건 강화이다",
+      "differential": "강화는 행동을 '증가'시키고, 처벌은 행동을 '감소'시킨다. 정적/부적은 자극의 제시/제거를 의미한다",
+      "key_point": "강화의 핵심 정의는 '행동의 빈도를 증가시키는 것'이다. 정적이든 부적이든 행동이 증가하면 강화이다",
+      "common_mistake": "부적 강화를 처벌로 혼동하는 것이 가장 흔한 오류이다. 부적 강화도 행동을 '증가'시킨다"
+    }
+  },
+  {
+    "id": "LEARN_PR_012",
+    "terminology": "정적 강화 (Positive Reinforcement)",
+    "terminology_ko": "정적 강화",
+    "terminology_en": "Positive Reinforcement",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "행동 뒤에 쾌적한 자극(강화물)을 제시함으로써 그 행동의 발생 빈도를 증가시키는 과정이다. 예를 들어, 아이가 공부를 하면 칭찬(쾌적 자극)을 주어 공부 행동을 증가시키는 것이다.",
+    "definition_en": "Increasing the frequency of a behavior by presenting a desirable stimulus after the behavior occurs. For example, praising a child for studying increases the likelihood of future studying.",
+    "significance": "가장 효과적이고 윤리적인 행동 변화 방법으로, 교육과 치료 현장에서 가장 많이 권장되는 강화 유형이다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "정적 강화의 효과를 실험적으로 입증하고 그 원리를 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "부적 강화", "name_en": "Negative Reinforcement", "id": "LEARN_NR_013"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"},
+      {"name_ko": "처벌", "name_en": "Punishment", "id": "LEARN_PUN_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정적(+) 강화 = 좋은 것을 '+더해서(positive)' 행동을 '강화'함",
+      "differential": "정적 강화는 좋은 자극을 '제시'하여 행동을 증가시키고, 부적 강화는 나쁜 자극을 '제거'하여 행동을 증가시킨다",
+      "key_point": "'정적(positive)'은 '좋다'는 의미가 아니라 자극을 '제시(+)'한다는 의미이다",
+      "common_mistake": "'정적'을 '긍정적'으로 해석하면 안 된다. 정적은 자극의 '제시(addition)'를 의미한다"
+    }
+  },
+  {
+    "id": "LEARN_NR_013",
+    "terminology": "부적 강화 (Negative Reinforcement)",
+    "terminology_ko": "부적 강화",
+    "terminology_en": "Negative Reinforcement",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "행동 뒤에 불쾌한 자극(혐오 자극)을 제거함으로써 그 행동의 발생 빈도를 증가시키는 과정이다. 예를 들어, 두통약을 먹으면 두통(불쾌 자극)이 사라지므로 두통약을 먹는 행동이 증가한다.",
+    "definition_en": "Increasing the frequency of a behavior by removing an aversive stimulus after the behavior occurs. For example, taking aspirin removes a headache, increasing the likelihood of taking aspirin in the future.",
+    "significance": "회피 행동, 도피 행동의 형성과 유지를 설명하는 핵심 원리이며, 불안장애의 유지 기제를 이해하는 데 중요하다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "부적 강화의 원리를 실험적으로 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정적 강화", "name_en": "Positive Reinforcement", "id": "LEARN_PR_012"},
+      {"name_ko": "처벌", "name_en": "Punishment", "id": "LEARN_PUN_014"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "도피 학습",
+        "name_en": "Escape Learning",
+        "definition": "이미 존재하는 혐오 자극을 제거하기 위한 행동을 학습하는 것"
+      },
+      {
+        "name_ko": "회피 학습",
+        "name_en": "Avoidance Learning",
+        "definition": "혐오 자극이 나타나기 전에 미리 행동하여 그것을 피하는 것을 학습하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "부적(-) 강화 = 나쁜 것을 '-빼서(negative)' 행동을 '강화'함. 결과: 행동 증가!",
+      "differential": "부적 강화는 불쾌한 자극을 '제거'하여 행동을 '증가'시키고, 처벌은 불쾌한 자극을 '제시'하여 행동을 '감소'시킨다",
+      "key_point": "부적 강화도 '강화'이므로 행동을 증가시킨다. '부적'은 자극의 '제거(-)'를 의미한다",
+      "common_mistake": "부적 강화를 처벌과 동일시하는 것이 심리학 입문에서 가장 빈번한 오류이다. 부적 강화는 행동을 '증가'시키고, 처벌은 행동을 '감소'시킨다"
+    }
+  },
+  {
+    "id": "LEARN_PUN_014",
+    "terminology": "처벌 (Punishment)",
+    "terminology_ko": "처벌",
+    "terminology_en": "Punishment",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "행동 뒤에 따르는 결과가 그 행동의 발생 빈도를 감소시키는 과정이다. 불쾌한 자극의 제시(정적 처벌) 또는 쾌적한 자극의 제거(부적 처벌)를 통해 이루어진다.",
+    "definition_en": "Any consequence that follows a behavior and decreases the likelihood of that behavior being repeated. It can involve presenting an aversive stimulus (positive punishment) or removing a pleasant stimulus (negative punishment).",
+    "significance": "행동을 억제하는 기제를 설명하지만, 부작용(공격성, 회피, 공포, 모방)으로 인해 강화보다 제한적으로 사용이 권장된다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "처벌의 효과와 한계를 실험적으로 연구하고, 강화가 처벌보다 효과적임을 주장하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"},
+      {"name_ko": "정적 강화", "name_en": "Positive Reinforcement", "id": "LEARN_PR_012"},
+      {"name_ko": "부적 강화", "name_en": "Negative Reinforcement", "id": "LEARN_NR_013"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "정적 처벌",
+        "name_en": "Positive Punishment",
+        "definition": "불쾌한 자극을 제시하여 행동을 감소시키는 것 (예: 체벌, 벌금)"
+      },
+      {
+        "name_ko": "부적 처벌",
+        "name_en": "Negative Punishment",
+        "definition": "쾌적한 자극을 제거하여 행동을 감소시키는 것 (예: 외출 금지, 용돈 삭감)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "처벌 = 행동을 '줄이는' 결과. 강화와 반대 방향",
+      "differential": "강화(행동 증가) vs 처벌(행동 감소). 정적(자극 제시) vs 부적(자극 제거)",
+      "key_point": "2x2 매트릭스: 정적 강화(+자극, 행동↑), 부적 강화(-자극, 행동↑), 정적 처벌(+자극, 행동↓), 부적 처벌(-자극, 행동↓)",
+      "common_mistake": "정적 처벌과 부적 강화를 혼동하기 쉽다. 둘 다 혐오 자극과 관련되지만, 정적 처벌은 혐오 자극을 '제시'하고 부적 강화는 혐오 자극을 '제거'한다"
+    }
+  },
+  {
+    "id": "LEARN_RS_015",
+    "terminology": "강화계획 (Reinforcement Schedule)",
+    "terminology_ko": "강화계획",
+    "terminology_en": "Reinforcement Schedule",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "강화가 어떤 규칙에 따라 제공되는지를 정의하는 패턴이다. 매 반응마다 강화하는 연속 강화와, 일부 반응에만 강화하는 부분 강화(간헐 강화)로 크게 나뉘며, 부분 강화는 비율/간격, 고정/변동의 조합으로 4가지 유형이 있다.",
+    "definition_en": "A pattern that defines how and when reinforcement is delivered. It is divided into continuous reinforcement (every response reinforced) and partial (intermittent) reinforcement (only some responses reinforced), with partial schedules further classified into four types based on ratio/interval and fixed/variable combinations.",
+    "significance": "행동의 학습 속도, 반응 비율, 소거에 대한 저항성을 결정하는 핵심 변인이다. 부분 강화 효과(partial reinforcement effect)는 간헐 강화가 소거에 더 강한 저항을 보임을 설명한다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "다양한 강화계획의 효과를 체계적으로 연구하였다"},
+      {"name_ko": "찰스 페르스터", "name_en": "Charles Ferster", "contribution": "Skinner와 함께 강화계획에 관한 대표적 저서 'Schedules of Reinforcement'를 저술하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정비율계획", "name_en": "Fixed-Ratio Schedule", "id": "LEARN_FR_021"},
+      {"name_ko": "변동비율계획", "name_en": "Variable-Ratio Schedule", "id": "LEARN_VR_022"},
+      {"name_ko": "고정간격계획", "name_en": "Fixed-Interval Schedule", "id": "LEARN_FI_023"},
+      {"name_ko": "변동간격계획", "name_en": "Variable-Interval Schedule", "id": "LEARN_VI_024"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "연속 강화",
+        "name_en": "Continuous Reinforcement",
+        "definition": "매 반응마다 강화하는 계획. 학습이 빠르지만 소거도 빠르다"
+      },
+      {
+        "name_ko": "부분(간헐) 강화",
+        "name_en": "Partial (Intermittent) Reinforcement",
+        "definition": "일부 반응에만 강화하는 계획. 학습은 느리지만 소거에 대한 저항이 높다"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "강화계획 4종: FR(고정비율), VR(변동비율), FI(고정간격), VI(변동간격)",
+      "differential": "비율(ratio) 계획은 반응 횟수 기반, 간격(interval) 계획은 시간 경과 기반이다",
+      "key_point": "부분 강화 효과: 간헐 강화로 학습된 행동이 연속 강화로 학습된 행동보다 소거에 더 저항적이다",
+      "common_mistake": "연속 강화가 항상 더 좋다고 오해하기 쉬우나, 부분 강화가 소거 저항이 높아 행동 유지에 더 효과적이다"
+    }
+  },
+  {
+    "id": "LEARN_SHAP_016",
+    "terminology": "조성 (Shaping)",
+    "terminology_ko": "조성",
+    "terminology_en": "Shaping",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "목표 행동에 점점 더 가까워지는 연속적 근사치(successive approximations)를 강화하여 점진적으로 목표 행동을 형성해 가는 절차이다. 자연적으로 발생하지 않는 복잡한 행동을 학습시키는 데 사용된다.",
+    "definition_en": "A procedure in which reinforcers guide behavior toward closer and closer approximations of a desired goal behavior. It is used to teach complex behaviors that would not naturally occur through successive approximations.",
+    "significance": "자연적으로 발생하지 않는 복잡한 행동을 가르치는 핵심 기법으로, 동물 훈련, 언어 발달, 행동치료, 특수교육 등에서 널리 활용된다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "조성 절차를 개발하고 비둘기의 탁구 치기 등 복잡한 행동 형성에 적용하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "조작적 조건형성", "name_en": "Operant Conditioning", "id": "LEARN_OC_010"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"},
+      {"name_ko": "행동수정", "name_en": "Behavior Modification", "id": "LEARN_BM_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조성(造成) = 행동을 '만들어(造) 이룸(成)'. 점토를 빚듯 행동을 점차 빚어감",
+      "differential": "조성은 목표 행동에 '점진적으로' 접근하는 것이고, 연쇄(chaining)는 여러 행동을 '순서대로' 연결하는 것이다",
+      "key_point": "핵심 원리는 '연속적 근사치의 강화(reinforcement of successive approximations)'이다",
+      "common_mistake": "조성은 최종 목표 행동만 강화하는 것이 아니라, 목표에 점점 가까운 중간 단계 행동들도 강화한다"
+    }
+  },
+  {
+    "id": "LEARN_OL_017",
+    "terminology": "관찰학습 (Observational Learning)",
+    "terminology_ko": "관찰학습",
+    "terminology_en": "Observational Learning",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "다른 사람(모델)의 행동과 그 결과를 관찰함으로써 새로운 행동을 학습하는 과정이다. 직접 경험하지 않고도 타인의 경험을 통해 학습이 이루어지며, Bandura의 사회학습이론의 핵심 개념이다.",
+    "definition_en": "Learning that occurs by observing others' behavior and its consequences, without direct personal experience. It is the core concept of Bandura's social learning theory, demonstrating that people can learn new behaviors by watching models.",
+    "significance": "직접 경험 없이도 학습이 가능함을 보여주어 행동주의의 한계를 극복하였다. 미디어 폭력, 사회화, 문화 전달 등을 설명하는 핵심 이론이다.",
+    "key_researchers": [
+      {"name_ko": "알버트 반두라", "name_en": "Albert Bandura", "contribution": "보보 인형 실험(Bobo doll experiment)을 통해 관찰학습을 입증하고 사회학습이론(후에 사회인지이론)을 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "모델링", "name_en": "Modeling", "id": "LEARN_MOD_018"},
+      {"name_ko": "대리강화", "name_en": "Vicarious Reinforcement", "id": "LEARN_VIC_029"},
+      {"name_ko": "조작적 조건형성", "name_en": "Operant Conditioning", "id": "LEARN_OC_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Bandura의 보보 인형 실험: 아이들이 어른의 공격 행동을 '관찰'하고 '모방'함",
+      "differential": "관찰학습은 직접 강화 없이 타인의 행동을 관찰하여 학습하는 것이고, 조작적 조건형성은 자신의 행동 결과를 통해 직접 학습하는 것이다",
+      "key_point": "관찰학습의 4단계: 주의(attention) → 파지(retention) → 재생(reproduction) → 동기(motivation)",
+      "common_mistake": "관찰학습은 단순 모방이 아니다. 관찰한 행동을 실제로 수행할지는 동기(강화 기대)에 따라 결정된다(학습-수행 구분)"
+    }
+  },
+  {
+    "id": "LEARN_MOD_018",
+    "terminology": "모델링 (Modeling)",
+    "terminology_ko": "모델링",
+    "terminology_en": "Modeling",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "관찰자가 모델(다른 사람)의 행동을 관찰한 후 그 행동을 모방하거나 학습하는 과정이다. 모델의 특성(지위, 유사성, 매력도)이 모델링 효과에 영향을 미친다.",
+    "definition_en": "The process by which an observer watches a model's behavior and then imitates or learns from it. The effectiveness of modeling is influenced by model characteristics such as status, similarity, and attractiveness.",
+    "significance": "사회적 학습의 핵심 기제이며, 치료(모델링 기법), 교육(시범), 광고(유명인 모델) 등에서 광범위하게 응용된다.",
+    "key_researchers": [
+      {"name_ko": "알버트 반두라", "name_en": "Albert Bandura", "contribution": "모델링의 원리와 조건을 체계적으로 연구하고, 치료적 모델링 기법을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "관찰학습", "name_en": "Observational Learning", "id": "LEARN_OL_017"},
+      {"name_ko": "대리강화", "name_en": "Vicarious Reinforcement", "id": "LEARN_VIC_029"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "실제 모델링",
+        "name_en": "Live Modeling",
+        "definition": "실제 사람이 직접 행동을 시범 보이는 것"
+      },
+      {
+        "name_ko": "상징적 모델링",
+        "name_en": "Symbolic Modeling",
+        "definition": "TV, 영화, 책 등 매체를 통해 행동을 관찰하는 것"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "모델링 = 모델을 보고 따라 하기. 보보 인형 실험이 대표적",
+      "differential": "모델링은 특정 모델의 행동을 관찰하고 모방하는 것이고, 관찰학습은 모델링을 포함하는 더 넓은 개념이다",
+      "key_point": "효과적 모델의 조건: 관찰자와 유사한, 존경받는, 매력적인, 강화받는 모델이 더 효과적이다",
+      "common_mistake": "모델링이 항상 의도적 모방을 의미하지 않는다. 무의식적으로 모델의 행동을 습득할 수도 있다"
+    }
+  },
+  {
+    "id": "LEARN_LOE_019",
+    "terminology": "효과의 법칙 (Law of Effect)",
+    "terminology_ko": "효과의 법칙",
+    "terminology_en": "Law of Effect",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "만족스러운 결과를 가져오는 행동은 반복될 가능성이 높아지고, 불만족스러운 결과를 가져오는 행동은 반복될 가능성이 낮아진다는 Thorndike의 원리이다. 퍼즐 상자 실험을 통해 발견되었다.",
+    "definition_en": "Thorndike's principle stating that behaviors followed by satisfying consequences tend to be repeated, while behaviors followed by unsatisfying consequences tend not to be repeated. It was discovered through puzzle box experiments.",
+    "significance": "조작적 조건형성의 이론적 선구자로, 행동의 결과가 학습을 결정한다는 핵심 원리를 최초로 제시하였다. Skinner의 조작적 조건형성은 이 법칙을 정교하게 발전시킨 것이다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 손다이크", "name_en": "Edward Thorndike", "contribution": "고양이 퍼즐 상자 실험을 통해 효과의 법칙을 발견하고, 시행착오 학습의 원리를 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "조작적 조건형성", "name_en": "Operant Conditioning", "id": "LEARN_OC_010"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Thorndike의 고양이: 퍼즐 상자 탈출 → 먹이(만족 결과) → 탈출 행동 반복",
+      "differential": "효과의 법칙은 Thorndike의 초기 원리이고, 조작적 조건형성은 Skinner가 이를 정교화한 체계이다",
+      "key_point": "행동의 '결과'가 그 행동의 미래 발생 확률을 결정한다는 것이 핵심이다",
+      "common_mistake": "효과의 법칙과 조작적 조건형성을 동일시하기 쉬우나, 효과의 법칙은 조작적 조건형성의 이론적 기초/전신이다"
+    }
+  },
+  {
+    "id": "LEARN_LH_020",
+    "terminology": "학습된 무기력 (Learned Helplessness)",
+    "terminology_ko": "학습된 무기력",
+    "terminology_en": "Learned Helplessness",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "통제 불가능한 혐오 사건을 반복적으로 경험한 후, 실제로 통제가 가능한 상황에서도 도피하거나 회피하려는 시도를 하지 않게 되는 현상이다. Seligman의 개 실험에서 발견되었다.",
+    "definition_en": "A condition in which a person or animal, after repeated exposure to uncontrollable aversive events, fails to attempt escape or avoidance even when such actions are possible. It was discovered in Seligman's experiments with dogs.",
+    "significance": "우울증의 인지적 모형을 제시하였으며, 통제감의 상실이 심리적 건강에 미치는 영향을 이해하는 데 중요한 기여를 하였다. 긍정심리학의 출발점이 되었다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그만", "name_en": "Martin Seligman", "contribution": "학습된 무기력 현상을 발견하고 이를 우울증의 모형으로 발전시켰으며, 이후 긍정심리학을 창시하였다"},
+      {"name_ko": "스티븐 마이어", "name_en": "Steven Maier", "contribution": "Seligman과 함께 학습된 무기력의 초기 실험 연구를 수행하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "조작적 조건형성", "name_en": "Operant Conditioning", "id": "LEARN_OC_010"},
+      {"name_ko": "부적 강화", "name_en": "Negative Reinforcement", "id": "LEARN_NR_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Seligman의 개 실험: 피할 수 없는 전기 충격 경험 → 피할 수 있는 상황에서도 포기",
+      "differential": "학습된 무기력은 '통제 불가능성'의 학습이고, 소거는 '강화 부재'에 의한 반응 감소이다",
+      "key_point": "핵심은 '통제 불가능성(uncontrollability)'의 학습이다. 결과가 나쁜 것이 아니라 자신의 행동과 결과 간 연결이 없다는 것을 학습하는 것이다",
+      "common_mistake": "학습된 무기력을 단순한 '의욕 상실'로 이해하면 안 된다. 핵심은 '자신의 행동이 결과를 통제할 수 없다'는 인지적 학습이다"
+    }
+  },
+  {
+    "id": "LEARN_FR_021",
+    "terminology": "고정비율계획 (Fixed-Ratio Schedule, FR)",
+    "terminology_ko": "고정비율계획",
+    "terminology_en": "Fixed-Ratio Schedule (FR)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "일정한 횟수의 반응을 완료할 때마다 강화가 제공되는 강화계획이다. 예를 들어, FR-5는 매 5번째 반응마다 강화가 주어진다. 높은 반응률을 보이며 강화 후 일시적 휴지(post-reinforcement pause)가 특징적이다.",
+    "definition_en": "A reinforcement schedule in which reinforcement is delivered after a fixed number of responses. For example, FR-5 provides reinforcement after every 5th response. It produces high response rates with characteristic post-reinforcement pauses.",
+    "significance": "성과급, 수당(piece-rate pay) 등 실생활에서 널리 사용되는 강화계획이며, 근면한 행동을 유발하지만 강화 직후 휴지가 나타난다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "고정비율계획을 포함한 4가지 강화계획의 효과를 체계적으로 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "변동비율계획", "name_en": "Variable-Ratio Schedule", "id": "LEARN_VR_022"},
+      {"name_ko": "강화계획", "name_en": "Reinforcement Schedule", "id": "LEARN_RS_015"},
+      {"name_ko": "고정간격계획", "name_en": "Fixed-Interval Schedule", "id": "LEARN_FI_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FR = Fixed Ratio: '고정된' '비율(횟수)'마다 강화. 예: 커피 10잔 스탬프 모으면 1잔 무료",
+      "differential": "고정비율은 반응 '횟수' 기준이고 고정간격은 '시간' 기준이다. 고정비율은 고정간격보다 높은 반응률을 보인다",
+      "key_point": "강화 직후 일시적 휴지(post-reinforcement pause)가 나타나는 것이 특징이다",
+      "common_mistake": "고정비율을 고정간격과 혼동하기 쉽다. 비율은 '횟수' 기준, 간격은 '시간' 기준이다"
+    }
+  },
+  {
+    "id": "LEARN_VR_022",
+    "terminology": "변동비율계획 (Variable-Ratio Schedule, VR)",
+    "terminology_ko": "변동비율계획",
+    "terminology_en": "Variable-Ratio Schedule (VR)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "평균적으로 일정한 횟수의 반응 후에 강화가 제공되지만, 각 강화 사이의 필요 반응 수가 변동하는 강화계획이다. 가장 높고 일정한 반응률을 보이며, 소거에 가장 강한 저항을 나타낸다.",
+    "definition_en": "A reinforcement schedule in which reinforcement is delivered after an average number of responses, but the exact number varies. It produces the highest and most steady response rates and greatest resistance to extinction.",
+    "significance": "도박, 영업, 낚시 등의 행동 패턴을 설명하며, 소거 저항이 가장 높아 행동을 지속시키는 데 가장 효과적인 강화계획이다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "변동비율계획이 가장 높은 반응률과 소거 저항을 보임을 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정비율계획", "name_en": "Fixed-Ratio Schedule", "id": "LEARN_FR_021"},
+      {"name_ko": "강화계획", "name_en": "Reinforcement Schedule", "id": "LEARN_RS_015"},
+      {"name_ko": "변동간격계획", "name_en": "Variable-Interval Schedule", "id": "LEARN_VI_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "VR = Variable Ratio: '변동하는' '비율(횟수)'. 슬롯머신이 대표적 예 - 언제 당첨될지 모르므로 계속 함",
+      "differential": "변동비율은 고정비율과 달리 강화 후 휴지가 거의 없어 일정하고 높은 반응률을 보인다",
+      "key_point": "4가지 강화계획 중 가장 높은 반응률과 가장 높은 소거 저항을 보인다",
+      "common_mistake": "변동비율과 변동간격을 혼동하기 쉽다. 변동비율은 반응 '횟수' 기준(슬롯머신), 변동간격은 '시간' 기준(이메일 확인)"
+    }
+  },
+  {
+    "id": "LEARN_FI_023",
+    "terminology": "고정간격계획 (Fixed-Interval Schedule, FI)",
+    "terminology_ko": "고정간격계획",
+    "terminology_en": "Fixed-Interval Schedule (FI)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "일정한 시간이 경과한 후 첫 번째 반응에 강화가 제공되는 강화계획이다. 강화 직후에는 반응률이 낮다가 강화 시점이 가까워지면 반응률이 급격히 증가하는 부채꼴 패턴(scallop pattern)이 특징적이다.",
+    "definition_en": "A reinforcement schedule in which reinforcement is delivered for the first response after a fixed time period has elapsed. It produces a characteristic scallop pattern with low response rates just after reinforcement and increasing rates as the next reinforcement approaches.",
+    "significance": "월급, 정기 시험 등의 행동 패턴을 설명한다. 시험 전에만 열심히 공부하는 학생의 패턴이 고정간격계획의 부채꼴 패턴에 해당한다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "고정간격계획의 특징적 반응 패턴(부채꼴 패턴)을 발견하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "변동간격계획", "name_en": "Variable-Interval Schedule", "id": "LEARN_VI_024"},
+      {"name_ko": "강화계획", "name_en": "Reinforcement Schedule", "id": "LEARN_RS_015"},
+      {"name_ko": "고정비율계획", "name_en": "Fixed-Ratio Schedule", "id": "LEARN_FR_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "FI = Fixed Interval: '고정된' '간격(시간)'. 예: 매월 월급 → 월말에 근무 열심, 월초에 느슨",
+      "differential": "고정간격(시간 기준)은 부채꼴 패턴, 고정비율(횟수 기준)은 강화 후 휴지 패턴을 보인다",
+      "key_point": "부채꼴 패턴(scallop pattern): 강화 직후 낮은 반응률 → 시간 경과에 따라 반응률 점차 증가",
+      "common_mistake": "고정간격계획에서는 시간이 지나면 '자동으로' 강화되는 것이 아니라, 시간 경과 '후' 첫 반응에 강화된다"
+    }
+  },
+  {
+    "id": "LEARN_VI_024",
+    "terminology": "변동간격계획 (Variable-Interval Schedule, VI)",
+    "terminology_ko": "변동간격계획",
+    "terminology_en": "Variable-Interval Schedule (VI)",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "평균적으로 일정한 시간 간격 후 첫 번째 반응에 강화가 제공되지만, 실제 간격이 변동하는 강화계획이다. 느리지만 꾸준하고 일정한 반응률을 보인다.",
+    "definition_en": "A reinforcement schedule in which reinforcement is delivered for the first response after an average time interval that varies. It produces slow but steady and consistent response rates.",
+    "significance": "이메일 확인, 낚시 등 불규칙한 간격으로 보상이 주어지는 상황을 설명하며, 일정하고 꾸준한 행동 패턴을 유지하는 데 효과적이다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "변동간격계획의 반응 특성을 체계적으로 연구하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고정간격계획", "name_en": "Fixed-Interval Schedule", "id": "LEARN_FI_023"},
+      {"name_ko": "강화계획", "name_en": "Reinforcement Schedule", "id": "LEARN_RS_015"},
+      {"name_ko": "변동비율계획", "name_en": "Variable-Ratio Schedule", "id": "LEARN_VR_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "VI = Variable Interval: '변동하는' '간격(시간)'. 예: 이메일/SNS 확인 - 언제 새 메시지가 올지 몰라 수시로 확인",
+      "differential": "변동간격은 느리지만 꾸준한 반응률을, 변동비율은 빠르고 꾸준한 반응률을 보인다",
+      "key_point": "고정간격의 부채꼴 패턴 없이 일정한 반응률을 유지하는 것이 특징이다",
+      "common_mistake": "변동간격에서의 느린 반응률을 변동비율의 높은 반응률과 혼동하지 않도록 주의해야 한다"
+    }
+  },
+  {
+    "id": "LEARN_TE_025",
+    "terminology": "토큰경제 (Token Economy)",
+    "terminology_ko": "토큰경제",
+    "terminology_en": "Token Economy",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "바람직한 행동에 대해 토큰(점수, 스티커, 칩 등)을 강화물로 제공하고, 축적된 토큰을 나중에 실제 보상(음식, 활동, 특권 등)과 교환할 수 있게 하는 행동수정 프로그램이다.",
+    "definition_en": "A behavior modification system in which tokens (points, stickers, chips, etc.) are given as reinforcers for desirable behaviors and can later be exchanged for actual rewards (food, activities, privileges, etc.).",
+    "significance": "조작적 조건형성의 원리를 실제 환경에 체계적으로 적용한 대표적 기법으로, 학교, 정신병원, 교정시설 등에서 널리 사용된다.",
+    "key_researchers": [
+      {"name_ko": "테오도르 에일론", "name_en": "Teodoro Ayllon", "contribution": "정신병원에서 토큰경제 시스템을 최초로 체계적으로 적용하였다"},
+      {"name_ko": "나탄 아즈린", "name_en": "Nathan Azrin", "contribution": "Ayllon과 함께 정신병원에서의 토큰경제 연구를 수행하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "조작적 조건형성", "name_en": "Operant Conditioning", "id": "LEARN_OC_010"},
+      {"name_ko": "정적 강화", "name_en": "Positive Reinforcement", "id": "LEARN_PR_012"},
+      {"name_ko": "행동수정", "name_en": "Behavior Modification", "id": "LEARN_BM_030"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "토큰경제 = '토큰(이차 강화물)'으로 운영되는 '경제' 시스템",
+      "differential": "토큰경제는 이차 강화물(토큰)을 사용하는 체계적 프로그램이고, 단순 보상은 일차 강화물을 직접 제공하는 것이다",
+      "key_point": "토큰은 이차(조건) 강화물로, 다양한 일차 강화물(backup reinforcer)과 교환될 수 있어 강화 효과가 높다",
+      "common_mistake": "토큰경제가 '뇌물'이라는 비판이 있지만, 체계적 강화를 통해 바람직한 행동을 형성하는 것이 목적이다"
+    }
+  },
+  {
+    "id": "LEARN_GTA_026",
+    "terminology": "미각혐오학습 (Taste Aversion Learning)",
+    "terminology_ko": "미각혐오학습",
+    "terminology_en": "Taste Aversion Learning",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "특정 음식을 먹은 후 메스꺼움이나 구토를 경험하면, 한 번의 경험만으로도 그 음식에 대한 강한 혐오가 형성되는 학습이다. CS(맛)와 US(메스꺼움) 사이에 수 시간의 긴 지연이 있어도 학습이 이루어진다는 점에서 고전적 조건형성의 일반 원칙에 예외가 된다.",
+    "definition_en": "A learned aversion to a particular taste that develops after consuming a food followed by nausea or illness. Remarkably, it can form after just a single pairing and even with long delays (hours) between the taste (CS) and illness (US), challenging general principles of classical conditioning.",
+    "significance": "생물학적 준비성(biological preparedness)의 개념을 지지하며, 유기체가 진화적으로 특정 연합을 더 쉽게 학습하도록 준비되어 있음을 보여준다. 암 환자의 화학요법 부작용 관리에 활용된다.",
+    "key_researchers": [
+      {"name_ko": "존 가르시아", "name_en": "John Garcia", "contribution": "Garcia 효과를 발견하여, 고전적 조건형성에서 자극 간 긴 시간 지연에도 학습이 가능함을 입증하였다"},
+      {"name_ko": "로버트 쾰링", "name_en": "Robert Koelling", "contribution": "Garcia와 함께 미각혐오학습과 생물학적 준비성에 관한 핵심 실험을 수행하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"},
+      {"name_ko": "자극일반화", "name_en": "Stimulus Generalization", "id": "LEARN_SG_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Garcia 효과: 음식 맛(CS) → 수 시간 후 메스꺼움(US) → 한 번만에 혐오 형성",
+      "differential": "일반적 고전적 조건형성은 CS-US 간격이 짧아야 효과적이지만, 미각혐오학습은 수 시간 지연에도 학습이 일어난다",
+      "key_point": "생물학적 준비성: 맛-메스꺼움 연합은 쉽게 형성되지만, 소리-메스꺼움 연합은 잘 형성되지 않는다",
+      "common_mistake": "미각혐오학습이 고전적 조건형성의 '반례'라고 생각하기 쉬우나, 고전적 조건형성의 '특수한 형태'로 보는 것이 더 정확하다"
+    }
+  },
+  {
+    "id": "LEARN_LL_027",
+    "terminology": "잠재학습 (Latent Learning)",
+    "terminology_ko": "잠재학습",
+    "terminology_en": "Latent Learning",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "명시적 강화 없이도 학습이 일어나지만, 적절한 동기(강화)가 주어질 때까지 행동으로 표현되지 않는 학습이다. Tolman의 쥐 미로 실험에서 강화 없이 미로를 탐색한 쥐가 강화를 받기 시작하자 즉시 높은 수행을 보여 잠재학습을 입증하였다.",
+    "definition_en": "Learning that occurs without apparent reinforcement but is not demonstrated until an incentive is provided. Tolman's rat maze experiments showed that rats who explored a maze without reinforcement quickly performed as well as reinforced rats once a reward was introduced.",
+    "significance": "학습과 수행의 구분을 최초로 입증하여, 순수 행동주의의 한계를 드러내고 인지적 요인의 중요성을 보여주었다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 톨먼", "name_en": "Edward Tolman", "contribution": "잠재학습 실험을 통해 학습과 수행의 구분을 입증하고, 인지도(cognitive map)의 개념을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지도", "name_en": "Cognitive Map", "id": "LEARN_CM_028"},
+      {"name_ko": "관찰학습", "name_en": "Observational Learning", "id": "LEARN_OL_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "잠재(潛在) = 숨어있는 학습. 배웠지만 강화가 주어질 때까지 숨어있다가 나타남",
+      "differential": "잠재학습은 강화 없이도 학습이 일어남을 보여주고, 조작적 조건형성은 강화가 학습의 필수 요소라고 본다",
+      "key_point": "학습(learning)과 수행(performance)은 다르다. 학습은 되었지만 동기가 없으면 수행으로 나타나지 않을 수 있다",
+      "common_mistake": "잠재학습이 '학습이 안 일어난 것'이 아니라, 학습은 되었지만 표현되지 않았을 뿐이다"
+    }
+  },
+  {
+    "id": "LEARN_CM_028",
+    "terminology": "인지도 (Cognitive Map)",
+    "terminology_ko": "인지도",
+    "terminology_en": "Cognitive Map",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "환경의 공간적 배치에 대한 내적 표상(심적 지도)이다. Tolman이 제안한 개념으로, 쥐가 미로의 공간적 구조를 내적으로 표상하여 다양한 경로로 목표에 도달할 수 있음을 보여주었다.",
+    "definition_en": "A mental representation of the spatial layout of an environment. Proposed by Tolman, it explains how organisms form internal spatial representations, enabling flexible navigation through different routes to reach a goal.",
+    "significance": "학습이 단순한 자극-반응 연합이 아니라 인지적 표상의 형성을 포함함을 보여주어, 행동주의에서 인지심리학으로의 전환에 기여하였다.",
+    "key_researchers": [
+      {"name_ko": "에드워드 톨먼", "name_en": "Edward Tolman", "contribution": "쥐 미로 실험을 통해 인지도의 존재를 입증하고, 학습의 인지적 측면을 강조하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "잠재학습", "name_en": "Latent Learning", "id": "LEARN_LL_027"},
+      {"name_ko": "관찰학습", "name_en": "Observational Learning", "id": "LEARN_OL_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "인지도 = 머릿속 지도(map). Tolman의 쥐가 미로의 '심적 지도'를 가지고 있었다",
+      "differential": "인지도는 공간적 환경의 내적 표상이고, 잠재학습은 강화 없이 일어나는 학습 과정 자체를 가리킨다",
+      "key_point": "인지도는 단순 자극-반응 연합을 넘어서는 인지적 학습의 증거이다",
+      "common_mistake": "인지도가 실제 정확한 '지도'를 의미하는 것이 아니라, 환경에 대한 대략적 내적 표상을 의미한다"
+    }
+  },
+  {
+    "id": "LEARN_VIC_029",
+    "terminology": "대리강화 (Vicarious Reinforcement)",
+    "terminology_ko": "대리강화",
+    "terminology_en": "Vicarious Reinforcement",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "타인(모델)이 특정 행동으로 강화받는 것을 관찰함으로써, 관찰자 자신도 그 행동을 수행할 가능성이 높아지는 현상이다. 직접 강화를 받지 않아도 타인의 강화를 통해 행동이 영향받는다.",
+    "definition_en": "An increase in the likelihood of performing a behavior after observing a model being reinforced for that behavior. The observer's behavior is influenced by the consequences experienced by the model, without direct personal reinforcement.",
+    "significance": "직접 경험하지 않고도 타인의 결과를 통해 행동이 변화할 수 있음을 보여주며, 관찰학습의 동기적 요소를 설명한다.",
+    "key_researchers": [
+      {"name_ko": "알버트 반두라", "name_en": "Albert Bandura", "contribution": "보보 인형 실험의 변형에서 모델이 보상받는 것을 본 아이들이 공격 행동을 더 많이 모방함을 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "관찰학습", "name_en": "Observational Learning", "id": "LEARN_OL_017"},
+      {"name_ko": "모델링", "name_en": "Modeling", "id": "LEARN_MOD_018"},
+      {"name_ko": "강화", "name_en": "Reinforcement", "id": "LEARN_REINF_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "대리(代理) 강화 = 남이 '대신' 강화받는 것을 보고 내 행동이 변화함",
+      "differential": "직접 강화는 본인이 직접 강화를 받는 것이고, 대리강화는 타인이 강화받는 것을 관찰하는 것이다",
+      "key_point": "관찰학습에서 학습과 수행을 결정하는 핵심 동기적 요인이다",
+      "common_mistake": "대리강화만으로 학습이 일어나는 것이 아니라, 이미 관찰을 통해 학습된 행동의 '수행' 여부에 영향을 미치는 것이다"
+    }
+  },
+  {
+    "id": "LEARN_BM_030",
+    "terminology": "행동수정 (Behavior Modification)",
+    "terminology_ko": "행동수정",
+    "terminology_en": "Behavior Modification",
+    "category": "LEARN",
+    "category_name": "학습 (Learning)",
+    "definition": "학습 원리(특히 조작적 조건형성과 고전적 조건형성)를 체계적으로 적용하여 바람직하지 않은 행동을 감소시키고 바람직한 행동을 증가시키는 치료적 접근이다.",
+    "definition_en": "A therapeutic approach that systematically applies learning principles (especially operant and classical conditioning) to decrease undesirable behaviors and increase desirable ones.",
+    "significance": "학습 이론의 대표적 실제 응용 분야로, 교육, 임상, 조직, 건강 등 다양한 영역에서 증거 기반 행동 변화 기법으로 활용된다.",
+    "key_researchers": [
+      {"name_ko": "버러스 F. 스키너", "name_en": "B. F. Skinner", "contribution": "조작적 조건형성 원리를 실제 행동 변화에 적용하는 이론적 기초를 제공하였다"},
+      {"name_ko": "조셉 울프", "name_en": "Joseph Wolpe", "contribution": "체계적 둔감법 등 고전적 조건형성 기반의 행동치료 기법을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "조작적 조건형성", "name_en": "Operant Conditioning", "id": "LEARN_OC_010"},
+      {"name_ko": "고전적 조건형성", "name_en": "Classical Conditioning", "id": "LEARN_CC_001"},
+      {"name_ko": "토큰경제", "name_en": "Token Economy", "id": "LEARN_TE_025"},
+      {"name_ko": "조성", "name_en": "Shaping", "id": "LEARN_SHAP_016"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "체계적 둔감법",
+        "name_en": "Systematic Desensitization",
+        "definition": "이완 훈련과 점진적 노출을 결합하여 공포와 불안을 감소시키는 기법"
+      },
+      {
+        "name_ko": "혐오치료",
+        "name_en": "Aversion Therapy",
+        "definition": "바람직하지 않은 행동에 혐오 자극을 짝지어 그 행동을 감소시키는 기법"
+      },
+      {
+        "name_ko": "바이오피드백",
+        "name_en": "Biofeedback",
+        "definition": "생리적 반응에 대한 피드백을 통해 자율신경계 반응을 조절하도록 학습시키는 기법"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동수정 = 학습 원리로 행동을 '수정'하는 실천적 접근",
+      "differential": "행동수정은 관찰 가능한 행동의 변화에 초점을 맞추고, 인지행동치료(CBT)는 사고의 변화도 함께 다룬다",
+      "key_point": "핵심 원칙: 구체적 행동 목표 설정, 기저선 측정, 학습 원리 적용, 행동 변화의 객관적 측정",
+      "common_mistake": "행동수정이 기계적이고 비인간적이라는 편견이 있지만, 과학적 원리에 기반한 체계적이고 효과적인 접근이다"
+    }
+  }
+]

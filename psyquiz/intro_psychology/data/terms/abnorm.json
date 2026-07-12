@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "ABNORM_AB_001",
+    "terminology": "이상행동 (Abnormal Behavior)",
+    "terminology_ko": "이상행동",
+    "terminology_en": "Abnormal Behavior",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "통계적 비정상성, 사회적 규범 일탈, 주관적 고통, 기능 손상 등의 기준에 의해 정상 범주에서 벗어난 것으로 판단되는 행동으로, 문화와 시대에 따라 그 기준이 달라질 수 있다.",
+    "definition_en": "Behavior judged to deviate from the normal range based on criteria such as statistical infrequency, violation of social norms, subjective distress, and functional impairment, with standards varying across cultures and historical periods.",
+    "significance": "이상심리학의 핵심 개념으로, 무엇을 '이상'으로 규정할 것인가의 문제는 진단, 치료, 사회적 낙인과 직결되며, 정상과 이상의 경계에 대한 지속적 논의를 촉발한다.",
+    "key_researchers": [
+      {"name_ko": "토머스 사스", "name_en": "Thomas Szasz", "contribution": "『정신질환이라는 신화(The Myth of Mental Illness)』에서 이상행동의 사회적 구성 측면을 비판적으로 분석했다."},
+      {"name_ko": "데이비드 로젠한", "name_en": "David Rosenhan", "contribution": "로젠한 실험(1973)을 통해 정상과 이상의 구분이 얼마나 맥락 의존적인지를 실증적으로 보여주었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신장애", "name_en": "Mental Disorder", "id": "ABNORM_MD_002"},
+      {"name_ko": "DSM", "name_en": "DSM", "id": "ABNORM_DSM_003"},
+      {"name_ko": "낙인", "name_en": "Stigma", "id": "ABNORM_STIG_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "이상행동의 4D: Deviance(일탈), Distress(고통), Dysfunction(기능장애), Danger(위험)",
+      "differential": "이상행동은 넓은 상위 개념이고, 정신장애는 진단 기준을 충족하는 구체적 분류이다.",
+      "key_point": "이상행동의 판단은 단일 기준이 아닌 통계적, 사회적, 주관적, 기능적 기준의 복합적 적용이 필요하다.",
+      "common_mistake": "이상행동이 곧 정신장애를 의미한다고 오해하지만, 모든 이상행동이 정신장애로 진단되는 것은 아니다."
+    }
+  },
+  {
+    "id": "ABNORM_MD_002",
+    "terminology": "정신장애 (Mental Disorder)",
+    "terminology_ko": "정신장애",
+    "terminology_en": "Mental Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "인지, 정서 조절, 행동에서의 임상적으로 유의미한 장해로, 심리적·생물학적·발달적 과정의 기능 이상을 반영하며, 사회적·직업적 기능에 중대한 고통이나 손상을 초래하는 증후군이다.",
+    "definition_en": "A syndrome characterized by clinically significant disturbance in cognition, emotion regulation, or behavior that reflects a dysfunction in psychological, biological, or developmental processes and causes significant distress or impairment in social or occupational functioning.",
+    "significance": "정신건강 분야의 기본 단위로, 진단 체계(DSM, ICD)의 대상이 되며, 치료 계획, 보험 적용, 법적 판단의 근거가 된다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "현대 정신장애 분류 체계의 토대를 마련하여, 조발성 치매(현 조현병)와 조울병을 구분하는 등 체계적 분류를 시도했다."},
+      {"name_ko": "제롬 웨이크필드", "name_en": "Jerome Wakefield", "contribution": "'유해한 기능장애(harmful dysfunction)' 개념을 제안하여 정신장애의 정의에 대한 이론적 논의를 심화시켰다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "ABNORM_AB_001"},
+      {"name_ko": "DSM", "name_en": "DSM", "id": "ABNORM_DSM_003"},
+      {"name_ko": "의학 모형", "name_en": "Medical Model", "id": "ABNORM_MEDM_017"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "정신장애 = 고통(Distress) + 기능 손상(Disability) + 기능 이상(Dysfunction)의 3D",
+      "differential": "정신장애는 공식 진단 체계에 의해 분류되는 개념이고, 이상행동은 보다 넓고 비공식적인 개념이다.",
+      "key_point": "DSM-5에서의 정신장애 정의는 '개인 내부의 기능 이상'을 강조하여, 단순한 사회적 일탈이나 갈등은 정신장애에 해당하지 않는다.",
+      "common_mistake": "정신장애가 반드시 생물학적 원인에 의한 '질병'이라고 단정하는 오류를 범하기 쉬우나, 심리사회적 요인도 중요한 역할을 한다."
+    }
+  },
+  {
+    "id": "ABNORM_DSM_003",
+    "terminology": "DSM (Diagnostic and Statistical Manual of Mental Disorders)",
+    "terminology_ko": "DSM",
+    "terminology_en": "Diagnostic and Statistical Manual of Mental Disorders",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "미국정신의학회(APA)가 발행하는 정신장애의 진단 및 통계 편람으로, 정신장애의 분류 기준과 진단 코드를 제공하며, 현재 DSM-5-TR(2022)이 최신판이다.",
+    "definition_en": "The Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association (APA), providing classification criteria and diagnostic codes for mental disorders, with DSM-5-TR (2022) being the current edition.",
+    "significance": "전 세계적으로 가장 널리 사용되는 정신장애 진단 체계로, 임상 실무, 연구, 교육의 공통 언어를 제공하며, 보험 체계와 법률에도 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "로버트 스피처", "name_en": "Robert Spitzer", "contribution": "DSM-III(1980)의 주편집자로서 조작적 진단 기준과 다축 체계를 도입하여 현대 정신과 진단의 패러다임을 확립했다."},
+      {"name_ko": "앨런 프랜시스", "name_en": "Allen Frances", "contribution": "DSM-IV의 편집위원장을 역임했으며, 이후 DSM-5의 진단 범위 확대에 대해 비판적 논의를 이끌었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신장애", "name_en": "Mental Disorder", "id": "ABNORM_MD_002"},
+      {"name_ko": "의학 모형", "name_en": "Medical Model", "id": "ABNORM_MEDM_017"},
+      {"name_ko": "생물심리사회 모형", "name_en": "Biopsychosocial Model", "id": "ABNORM_BPS_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DSM = Diagnostic(진단) + Statistical(통계) + Manual(편람) — APA가 발행하는 정신장애의 '분류 사전'",
+      "differential": "DSM은 미국정신의학회 발행이고, ICD(국제질병분류)는 WHO가 발행하는 국제 표준이다.",
+      "key_point": "DSM-5(2013)에서 다축 체계를 폐지하고 차원적 평가를 도입하여, 범주적 진단과 차원적 접근을 통합하려 시도했다.",
+      "common_mistake": "DSM이 정신장애의 원인을 설명한다고 오해하지만, DSM은 증상 기반의 기술적(descriptive) 분류 체계이다."
+    }
+  },
+  {
+    "id": "ABNORM_GAD_004",
+    "terminology": "범불안장애 (Generalized Anxiety Disorder)",
+    "terminology_ko": "범불안장애",
+    "terminology_en": "Generalized Anxiety Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "다양한 사건이나 활동에 대해 과도하고 통제하기 어려운 걱정이 최소 6개월 이상 지속되며, 근육 긴장, 수면장애, 안절부절못함 등의 신체 증상을 동반하는 불안장애이다.",
+    "definition_en": "An anxiety disorder characterized by excessive, difficult-to-control worry about a variety of events or activities persisting for at least six months, accompanied by physical symptoms such as muscle tension, sleep disturbance, and restlessness.",
+    "significance": "불안장애 중 가장 만성적인 경과를 보이며, 다른 불안장애나 우울장애와의 높은 공존이환율로 인해 감별진단과 통합적 치료 접근이 중요하다.",
+    "key_researchers": [
+      {"name_ko": "토머스 보코벡", "name_en": "Thomas Borkovec", "contribution": "걱정의 인지적 회피 이론을 제안하여 범불안장애에서 걱정이 정서적 처리를 회피하는 기능을 한다고 설명했다."},
+      {"name_ko": "미셸 뒤가", "name_en": "Michel Dugas", "contribution": "불확실성에 대한 인내력 부족(intolerance of uncertainty)을 범불안장애의 핵심 인지적 취약성으로 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ABNORM_PD_005"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ABNORM_SAD_020"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "ABNORM_MDD_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "GAD = General(광범위한) + Anxiety(불안) + Disorder(장애) — '무엇이든 걱정하는 장애'",
+      "differential": "공황장애는 갑작스러운 공황발작이 특징인 반면, 범불안장애는 만성적이고 광범위한 걱정이 지속된다.",
+      "key_point": "범불안장애의 진단에서 '통제하기 어려운 걱정'이 핵심이며, 6개월 이상의 지속 기간이 요구된다.",
+      "common_mistake": "일상적인 걱정과 범불안장애를 혼동하기 쉬우나, 범불안장애는 걱정의 강도, 빈도, 통제 불능성에서 질적으로 다르다."
+    }
+  },
+  {
+    "id": "ABNORM_PD_005",
+    "terminology": "공황장애 (Panic Disorder)",
+    "terminology_ko": "공황장애",
+    "terminology_en": "Panic Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "예기치 않은 반복적 공황발작(심계항진, 호흡곤란, 어지러움, 죽을 것 같은 공포 등)이 나타나며, 추가 발작에 대한 지속적 걱정이나 발작과 관련된 행동 변화를 동반하는 불안장애이다.",
+    "definition_en": "An anxiety disorder characterized by recurrent unexpected panic attacks (palpitations, shortness of breath, dizziness, fear of dying, etc.) accompanied by persistent concern about additional attacks or significant behavioral changes related to the attacks.",
+    "significance": "급성 불안의 극단적 형태로, 광장공포증과의 공존이 흔하며, 인지행동치료(CBT)의 효과가 가장 잘 입증된 장애 중 하나이다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 클라크", "name_en": "David M. Clark", "contribution": "공황장애의 인지 모형을 제안하여, 신체 감각에 대한 파국적 해석이 공황발작을 유발하고 유지시킨다고 설명했다."},
+      {"name_ko": "데이비드 발로", "name_en": "David H. Barlow", "contribution": "공황 통제 치료(Panic Control Treatment)를 개발하여 인지 재구성, 호흡 재훈련, 내부감각 노출을 통합한 치료법을 체계화했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ABNORM_GAD_004"},
+      {"name_ko": "광장공포증", "name_en": "Agoraphobia", "id": "ABNORM_AGOR_021"},
+      {"name_ko": "공포증", "name_en": "Phobia", "id": "ABNORM_PHO_006"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공황발작의 핵심 = PUSH: Palpitations(심계항진), Unreality(비현실감), Shortness of breath(호흡곤란), Hot flashes(열감)",
+      "differential": "공황장애는 '예기치 않은' 발작이 핵심이고, 특정공포증의 공황은 특정 자극에 의해 '예상 가능하게' 유발된다.",
+      "key_point": "공황발작 자체가 공황장애는 아니며, 반복적 발작 + 발작에 대한 지속적 걱정/행동 변화가 있어야 진단된다.",
+      "common_mistake": "공황발작을 심장마비로 오인하여 응급실을 방문하는 경우가 많으나, 공황발작은 의학적으로 위험하지 않다."
+    }
+  },
+  {
+    "id": "ABNORM_PHO_006",
+    "terminology": "공포증 (Phobia)",
+    "terminology_ko": "공포증",
+    "terminology_en": "Phobia",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "특정 대상, 상황, 활동에 대한 비합리적이고 과도한 공포로, 공포 대상을 적극적으로 회피하거나 극심한 불안 속에서 견디며, 일상 기능에 유의미한 지장을 초래하는 장애이다.",
+    "definition_en": "A disorder involving irrational and excessive fear of a specific object, situation, or activity, leading to active avoidance or endurance with intense anxiety, causing significant impairment in daily functioning.",
+    "significance": "가장 흔한 불안장애로, 체계적 둔감화, 노출 치료 등 행동주의 치료 기법의 효과가 잘 입증되어 있으며, 학습 이론의 임상적 적용을 대표한다.",
+    "key_researchers": [
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "리틀 앨버트 실험(1920)을 통해 공포 반응이 고전적 조건형성으로 학습될 수 있음을 실증했다."},
+      {"name_ko": "조지프 울프", "name_en": "Joseph Wolpe", "contribution": "체계적 둔감화(systematic desensitization) 기법을 개발하여 공포증의 행동주의적 치료법을 확립했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "특정공포증", "name_en": "Specific Phobia", "id": "ABNORM_SP_019"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ABNORM_SAD_020"},
+      {"name_ko": "광장공포증", "name_en": "Agoraphobia", "id": "ABNORM_AGOR_021"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "특정공포증",
+        "name_en": "Specific Phobia",
+        "description": "특정 대상이나 상황(동물, 높이, 혈액 등)에 대한 공포"
+      },
+      {
+        "name_ko": "사회불안장애",
+        "name_en": "Social Anxiety Disorder",
+        "description": "사회적 상황에서의 평가에 대한 공포"
+      },
+      {
+        "name_ko": "광장공포증",
+        "name_en": "Agoraphobia",
+        "description": "탈출이 어렵거나 도움을 받기 힘든 상황에 대한 공포"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "공포증의 3요소: 비합리적 공포(Fear) + 회피(Avoidance) + 기능 손상(Impairment)",
+      "differential": "정상적 공포는 적응적이고 비례적인 반면, 공포증은 비합리적이고 과도하며 기능 손상을 야기한다.",
+      "key_point": "Mowrer의 2요인 이론에 의하면, 공포는 고전적 조건형성으로 학습되고 조작적 조건형성(회피의 부적 강화)으로 유지된다.",
+      "common_mistake": "모든 강한 공포가 공포증인 것은 아니며, 진단을 위해서는 비합리성, 회피 행동, 일상 기능 저해가 동반되어야 한다."
+    }
+  },
+  {
+    "id": "ABNORM_OCD_007",
+    "terminology": "강박장애 (Obsessive-Compulsive Disorder, OCD)",
+    "terminology_ko": "강박장애",
+    "terminology_en": "Obsessive-Compulsive Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "반복적이고 침습적인 사고(강박사고)와 그에 따른 불안을 줄이기 위해 수행하는 반복적 행동이나 정신적 행위(강박행동)를 특징으로 하며, 상당한 시간을 소모하거나 심각한 고통을 유발하는 장애이다.",
+    "definition_en": "A disorder characterized by recurrent, intrusive thoughts (obsessions) and repetitive behaviors or mental acts (compulsions) performed to reduce the resulting anxiety, consuming significant time or causing marked distress.",
+    "significance": "DSM-5에서 불안장애에서 분리되어 '강박 및 관련 장애' 범주로 독립 분류되었으며, 신경생물학적 기반(기저핵-전두엽 회로)이 비교적 잘 규명된 장애이다.",
+    "key_researchers": [
+      {"name_ko": "주디스 래포포트", "name_en": "Judith Rapoport", "contribution": "아동기 강박장애 연구의 선구자로, OCD의 신경생물학적 기반을 탐구했다."},
+      {"name_ko": "폴 살코브스키스", "name_en": "Paul Salkovskis", "contribution": "강박사고에 대한 과도한 책임감(inflated responsibility)이 OCD의 핵심 인지 요인이라는 인지 모형을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ABNORM_GAD_004"},
+      {"name_ko": "외상후 스트레스장애", "name_en": "PTSD", "id": "ABNORM_PTSD_008"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "오염 강박",
+        "name_en": "Contamination OCD",
+        "description": "오염에 대한 강박사고와 과도한 씻기/청소 강박행동"
+      },
+      {
+        "name_ko": "확인 강박",
+        "name_en": "Checking OCD",
+        "description": "위험에 대한 의심과 반복적 확인 행동"
+      },
+      {
+        "name_ko": "대칭/정리 강박",
+        "name_en": "Symmetry/Ordering OCD",
+        "description": "대칭, 정확성, 순서에 대한 강박과 정렬 행동"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "OCD = Obsession(강박사고: 침습적 생각) → Compulsion(강박행동: 불안 감소 위한 행동) → Distress(고통)",
+      "differential": "OCPD(강박성 성격장애)는 자아동조적(ego-syntonic)이고 완벽주의가 주된 특징인 반면, OCD는 자아이질적(ego-dystonic)이며 침습적 사고에 고통을 느낀다.",
+      "key_point": "DSM-5에서 OCD는 불안장애가 아닌 '강박 및 관련 장애'로 독립 분류되었다.",
+      "common_mistake": "'깔끔한 것을 좋아하면 OCD'라는 일상적 표현은 부정확하며, 진정한 OCD는 침습적이고 고통스러운 강박사고가 핵심이다."
+    }
+  },
+  {
+    "id": "ABNORM_PTSD_008",
+    "terminology": "외상후 스트레스장애 (Post-Traumatic Stress Disorder, PTSD)",
+    "terminology_ko": "외상후 스트레스장애",
+    "terminology_en": "Post-Traumatic Stress Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "실제 또는 위협적인 죽음, 심각한 부상, 성폭력에 노출된 후 침습적 재경험(플래시백, 악몽), 회피, 인지·감정의 부정적 변화, 과각성 증상이 1개월 이상 지속되는 외상 관련 장애이다.",
+    "definition_en": "A trauma-related disorder following exposure to actual or threatened death, serious injury, or sexual violence, characterized by intrusive re-experiencing (flashbacks, nightmares), avoidance, negative alterations in cognition and mood, and hyperarousal symptoms lasting more than one month.",
+    "significance": "전쟁, 재난, 성폭력 등 외상 경험의 심리적 영향을 체계화한 진단으로, 외상 중심 인지행동치료와 EMDR의 효과가 잘 입증되어 있다.",
+    "key_researchers": [
+      {"name_ko": "주디스 허먼", "name_en": "Judith Herman", "contribution": "『트라우마와 회복(Trauma and Recovery)』에서 복합 PTSD 개념을 제안하고, 외상의 사회정치적 맥락을 강조했다."},
+      {"name_ko": "프랜신 샤피로", "name_en": "Francine Shapiro", "contribution": "EMDR(안구운동 둔감화 및 재처리) 치료법을 개발하여 PTSD 치료의 새로운 접근을 열었다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "강박장애", "name_en": "OCD", "id": "ABNORM_OCD_007"},
+      {"name_ko": "해리장애", "name_en": "Dissociative Disorder", "id": "ABNORM_DISS_014"},
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "ABNORM_MDD_009"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PTSD의 4대 증상군: RAIN — Re-experiencing(재경험), Avoidance(회피), negative alterations In cognition/mood(인지·감정 변화), hyperarousal/Nervous system(과각성)",
+      "differential": "급성 스트레스 장애(ASD)는 외상 후 3일~1개월의 증상이고, PTSD는 1개월 이상 지속될 때 진단된다.",
+      "key_point": "DSM-5에서 PTSD는 불안장애에서 분리되어 '외상 및 스트레스 관련 장애'로 재분류되었다.",
+      "common_mistake": "외상 경험을 한 모든 사람이 PTSD를 발병하는 것은 아니며, 대다수는 자연적 회복을 보인다."
+    }
+  },
+  {
+    "id": "ABNORM_MDD_009",
+    "terminology": "주요우울장애 (Major Depressive Disorder)",
+    "terminology_ko": "주요우울장애",
+    "terminology_en": "Major Depressive Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "우울한 기분 또는 흥미·쾌감의 상실이 최소 2주 이상 지속되며, 식욕·수면 변화, 피로, 무가치감, 집중력 저하, 자살 사고 등의 증상을 동반하는 기분장애이다.",
+    "definition_en": "A mood disorder characterized by depressed mood or loss of interest/pleasure persisting for at least two weeks, accompanied by changes in appetite and sleep, fatigue, feelings of worthlessness, difficulty concentrating, and suicidal ideation.",
+    "significance": "세계적으로 장애 부담이 가장 높은 정신장애 중 하나로, 자살의 주요 위험 요인이며, 약물치료와 심리치료의 통합적 접근이 효과적이다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "우울증의 인지 삼제(자신, 세계, 미래에 대한 부정적 사고)와 인지적 왜곡 개념을 제안하여 인지치료의 기반을 확립했다."},
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "학습된 무기력(learned helplessness) 이론을 제안하여 우울증의 원인에 대한 실험적 모형을 제시했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "지속성 우울장애", "name_en": "Persistent Depressive Disorder", "id": "ABNORM_PDD_027"},
+      {"name_ko": "양극성 장애", "name_en": "Bipolar Disorder", "id": "ABNORM_BD_010"},
+      {"name_ko": "계절성 정동장애", "name_en": "Seasonal Affective Disorder", "id": "ABNORM_SEAS_028"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "멜랑콜리아형",
+        "name_en": "Melancholic Features",
+        "description": "뚜렷한 쾌감 상실, 이른 아침 기상, 정신운동 초조/지체가 두드러지는 하위 유형"
+      },
+      {
+        "name_ko": "비정형",
+        "name_en": "Atypical Features",
+        "description": "기분 반응성, 과식, 과수면, 납 같은 마비감이 특징적인 하위 유형"
+      },
+      {
+        "name_ko": "정신병적 양상 동반",
+        "name_en": "With Psychotic Features",
+        "description": "우울 삽화에 망상이나 환각이 동반되는 하위 유형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "MDD 증상 = SIG E CAPS: Sleep(수면), Interest(흥미), Guilt(죄책감), Energy(에너지), Concentration(집중), Appetite(식욕), Psychomotor(정신운동), Suicidal ideation(자살사고)",
+      "differential": "지속성 우울장애(기분저하증)는 경도지만 2년 이상 지속되고, 주요우울장애는 더 심하지만 삽화적이다.",
+      "key_point": "진단에는 우울 기분 또는 흥미 상실 중 최소 하나가 반드시 포함되어야 하며, 9개 증상 중 5개 이상이 2주간 지속되어야 한다.",
+      "common_mistake": "일시적 슬픔이나 애도 반응을 주요우울장애로 오진하는 오류에 주의해야 한다."
+    }
+  },
+  {
+    "id": "ABNORM_BD_010",
+    "terminology": "양극성 장애 (Bipolar Disorder)",
+    "terminology_ko": "양극성 장애",
+    "terminology_en": "Bipolar Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "조증(또는 경조증) 삽화와 우울 삽화가 교대로 나타나는 기분장애로, 조증 삽화에서는 비정상적으로 고양되거나 과민한 기분, 에너지 증가, 수면 욕구 감소, 과대성 등이 나타난다.",
+    "definition_en": "A mood disorder characterized by alternating manic (or hypomanic) and depressive episodes, with manic episodes featuring abnormally elevated or irritable mood, increased energy, decreased need for sleep, and grandiosity.",
+    "significance": "유전적 기여가 높은 장애(유전율 약 80%)로, 리튬 등 기분안정제가 핵심 치료이며, 단극성 우울증과의 감별이 치료 방향에 중요한 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "조울병(manic-depressive illness)을 조발성 치매(조현병)와 구분하는 이분법적 분류를 확립했다."},
+      {"name_ko": "케이 레드필드 재미슨", "name_en": "Kay Redfield Jamison", "contribution": "양극성 장애와 창의성의 관계를 탐구하고, 자신의 경험을 토대로 이 장애에 대한 이해를 높이는 데 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "ABNORM_MDD_009"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "ABNORM_SCZ_011"},
+      {"name_ko": "계절성 정동장애", "name_en": "Seasonal Affective Disorder", "id": "ABNORM_SEAS_028"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "양극성 I형 장애",
+        "name_en": "Bipolar I Disorder",
+        "description": "완전한 조증 삽화가 최소 1회 이상 발생하며, 우울 삽화는 필수가 아님"
+      },
+      {
+        "name_ko": "양극성 II형 장애",
+        "name_en": "Bipolar II Disorder",
+        "description": "경조증 삽화와 주요우울 삽화가 번갈아 나타나며, 완전한 조증은 없음"
+      },
+      {
+        "name_ko": "순환성 장애",
+        "name_en": "Cyclothymic Disorder",
+        "description": "경조증과 경도 우울 증상이 2년 이상 만성적으로 교대하는 상태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "양극성 = 두 극(조증 극 + 우울 극)을 오가는 기분의 시소",
+      "differential": "양극성 I형은 조증 삽화가 필수이고, II형은 경조증+주요우울 삽화가 특징이다. 조현병은 기분 삽화 외에 사고장애가 핵심이다.",
+      "key_point": "양극성 장애 환자에게 항우울제를 단독 투여하면 조증 전환(manic switch)의 위험이 있어 기분안정제 병용이 필수적이다.",
+      "common_mistake": "'기분이 자주 변하면 양극성 장애'라는 인식은 부정확하며, 양극성 장애의 삽화는 일반적으로 수일~수주간 지속된다."
+    }
+  },
+  {
+    "id": "ABNORM_SCZ_011",
+    "terminology": "조현병 (Schizophrenia)",
+    "terminology_ko": "조현병",
+    "terminology_en": "Schizophrenia",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "망상, 환각, 와해된 언어, 와해된 행동, 음성증상 중 2개 이상이 1개월 이상 존재하고 전체 장해가 6개월 이상 지속되는 정신병적 장애로, 현실 검증력의 심각한 손상을 특징으로 한다.",
+    "definition_en": "A psychotic disorder characterized by two or more of the following—delusions, hallucinations, disorganized speech, disorganized behavior, or negative symptoms—present for at least one month with overall disturbance persisting for six months, involving severe impairment in reality testing.",
+    "significance": "정신의학과 이상심리학에서 가장 중요하게 연구되는 장애 중 하나로, 도파민 가설, 신경발달 모형 등 다양한 이론적 모형이 제안되어 왔으며, 약물치료와 심리사회적 재활의 통합이 강조된다.",
+    "key_researchers": [
+      {"name_ko": "오이겐 블로일러", "name_en": "Eugen Bleuler", "contribution": "'조현병(schizophrenia)'이라는 용어를 처음 사용하고, 4A 증상(연상이완, 정동둔마, 양가감정, 자폐적 사고)을 핵심 특징으로 제안했다."},
+      {"name_ko": "커트 슈나이더", "name_en": "Kurt Schneider", "contribution": "1급 증상(first-rank symptoms)을 제안하여 조현병의 진단적 특이성을 높이려 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "양성증상", "name_en": "Positive Symptoms", "id": "ABNORM_POS_012"},
+      {"name_ko": "음성증상", "name_en": "Negative Symptoms", "id": "ABNORM_NEG_013"},
+      {"name_ko": "양극성 장애", "name_en": "Bipolar Disorder", "id": "ABNORM_BD_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조현(調絃) = 현악기의 줄을 고르다 → 뇌의 신경 회로 조율이 깨진 상태",
+      "differential": "조현병은 6개월 이상 지속되어야 하고, 단기 정신병적 장애는 1일~1개월, 조현양상장애는 1~6개월이다.",
+      "key_point": "도파민 가설에 따르면 중변연계(mesolimbic) 도파민 과잉은 양성증상과, 전두엽(mesocortical) 도파민 저하는 음성증상과 관련된다.",
+      "common_mistake": "조현병을 '다중인격(해리성 정체감 장애)'과 혼동하는 것은 매우 흔한 오류이다. 조현병은 인격의 분리가 아니라 현실 검증력의 손상이다."
+    }
+  },
+  {
+    "id": "ABNORM_POS_012",
+    "terminology": "양성증상 (Positive Symptoms)",
+    "terminology_ko": "양성증상",
+    "terminology_en": "Positive Symptoms",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "정상적으로 존재하지 않는 경험이나 행동이 추가로 나타나는 증상으로, 망상(사고 내용의 장애), 환각(지각의 장애), 와해된 언어, 와해된 또는 긴장증적 행동이 포함된다.",
+    "definition_en": "Symptoms reflecting an excess or distortion of normal functions, including delusions (thought content disturbance), hallucinations (perceptual disturbance), disorganized speech, and disorganized or catatonic behavior.",
+    "significance": "항정신병 약물(특히 전형적 항정신병 약물)이 양성증상에 효과적이며, 이는 도파민 D2 수용체 차단과 관련된다.",
+    "key_researchers": [
+      {"name_ko": "팀 크로", "name_en": "Tim Crow", "contribution": "양성증상과 음성증상을 구분하는 Type I/Type II 분류를 제안하여, 양성증상(Type I)이 도파민 과잉과 관련됨을 주장했다."},
+      {"name_ko": "낸시 안드레아센", "name_en": "Nancy Andreasen", "contribution": "양성 및 음성 증상 평가 척도(SAPS/SANS)를 개발하여 조현병 증상의 체계적 측정에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "음성증상", "name_en": "Negative Symptoms", "id": "ABNORM_NEG_013"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "ABNORM_SCZ_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "망상",
+        "name_en": "Delusions",
+        "description": "현실과 부합하지 않는 확고한 잘못된 믿음(피해망상, 과대망상, 관계망상 등)"
+      },
+      {
+        "name_ko": "환각",
+        "name_en": "Hallucinations",
+        "description": "외부 자극 없이 경험하는 감각적 지각(환청이 가장 흔함)"
+      },
+      {
+        "name_ko": "와해된 언어",
+        "name_en": "Disorganized Speech",
+        "description": "논리적 연결이 깨진 언어(탈선, 지리멸렬, 음향연상 등)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "양성(Positive) = 정상에 '더해진(+)' 것 — 없어야 할 것이 있는 상태",
+      "differential": "양성증상은 '추가된' 이상 경험(환각, 망상)이고, 음성증상은 '결여된' 정상 기능(감정둔마, 의욕 저하)이다.",
+      "key_point": "전형적(1세대) 항정신병 약물은 양성증상에 주로 효과적이며, 음성증상에는 제한적이다.",
+      "common_mistake": "'양성'이 '좋다'는 의미가 아니라, 정상에 비해 '추가된' 증상이라는 뜻임을 주의해야 한다."
+    }
+  },
+  {
+    "id": "ABNORM_NEG_013",
+    "terminology": "음성증상 (Negative Symptoms)",
+    "terminology_ko": "음성증상",
+    "terminology_en": "Negative Symptoms",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "정상적으로 존재해야 할 기능이 감소하거나 소실되는 증상으로, 정서적 둔마(blunted affect), 무의지증(avolition), 무언증(alogia), 무쾌감증(anhedonia), 사회적 위축 등이 포함된다.",
+    "definition_en": "Symptoms reflecting a diminution or loss of normal functions, including blunted affect, avolition, alogia, anhedonia, and social withdrawal.",
+    "significance": "양성증상에 비해 치료 반응이 저조하고 장기 예후와 기능적 결과에 더 큰 영향을 미치며, 비정형(2세대) 항정신병 약물과 심리사회적 재활이 병행되어야 한다.",
+    "key_researchers": [
+      {"name_ko": "낸시 안드레아센", "name_en": "Nancy Andreasen", "contribution": "음성증상 평가 척도(SANS)를 개발하고, 음성증상이 조현병의 핵심 특징이라고 주장했다."},
+      {"name_ko": "팀 크로", "name_en": "Tim Crow", "contribution": "Type II 조현병 개념을 통해 음성증상이 구조적 뇌 이상(뇌실 확대 등)과 관련됨을 제안했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "양성증상", "name_en": "Positive Symptoms", "id": "ABNORM_POS_012"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "ABNORM_SCZ_011"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "정서적 둔마",
+        "name_en": "Blunted Affect",
+        "description": "정서적 표현의 범위와 강도가 현저히 감소한 상태"
+      },
+      {
+        "name_ko": "무의지증",
+        "name_en": "Avolition",
+        "description": "목표 지향적 활동을 시작하거나 지속하는 동기의 현저한 감소"
+      },
+      {
+        "name_ko": "무쾌감증",
+        "name_en": "Anhedonia",
+        "description": "이전에 즐거움을 주던 활동에서 쾌감을 경험하지 못하는 상태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "음성(Negative) = 정상에서 '빼진(-)' 것 — 있어야 할 것이 없는 상태. 5A: Affect(정서둔마), Alogia(무언), Avolition(무의지), Anhedonia(무쾌감), Asociality(비사회성)",
+      "differential": "음성증상의 정서 둔마는 우울증의 정서적 고통과 다르다. 우울증은 슬픔을 느끼지만, 음성증상은 감정 자체가 감소한다.",
+      "key_point": "음성증상은 조현병의 장기 기능적 예후를 가장 잘 예측하는 지표이며, 치료가 가장 어려운 영역이다.",
+      "common_mistake": "음성증상을 우울증이나 약물 부작용과 혼동하기 쉬우며, 정확한 감별이 치료 방향에 중요하다."
+    }
+  },
+  {
+    "id": "ABNORM_DISS_014",
+    "terminology": "해리장애 (Dissociative Disorder)",
+    "terminology_ko": "해리장애",
+    "terminology_en": "Dissociative Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "의식, 기억, 정체감, 지각의 통합 기능에 붕괴가 발생하는 장애군으로, 극심한 스트레스나 외상과 관련하여 정상적인 심리 기능의 통합이 깨지는 것을 특징으로 한다.",
+    "definition_en": "A group of disorders involving disruptions in the normally integrated functions of consciousness, memory, identity, and perception, typically associated with extreme stress or trauma.",
+    "significance": "외상과 방어기제의 관계를 이해하는 데 핵심적인 진단군이며, 해리가 고통스러운 경험으로부터 심리적으로 벗어나려는 방어 기능을 한다는 이론적 관점을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "피에르 자네", "name_en": "Pierre Janet", "contribution": "해리(dissociation) 개념의 선구자로, 외상적 경험이 의식의 분열을 유발한다는 이론을 발전시켰다."},
+      {"name_ko": "에르네스트 힐가드", "name_en": "Ernest Hilgard", "contribution": "신해리 이론(neodissociation theory)을 통해 의식의 다중 수준과 해리의 메커니즘을 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리성 정체감 장애", "name_en": "Dissociative Identity Disorder", "id": "ABNORM_DID_029"},
+      {"name_ko": "외상후 스트레스장애", "name_en": "PTSD", "id": "ABNORM_PTSD_008"},
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "ABNORM_CONV_024"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "해리성 기억상실증",
+        "name_en": "Dissociative Amnesia",
+        "description": "외상적 또는 스트레스성 사건에 대한 중요한 자전적 정보를 회상하지 못하는 상태"
+      },
+      {
+        "name_ko": "이인증/비현실감 장애",
+        "name_en": "Depersonalization/Derealization Disorder",
+        "description": "자신이나 주변 환경이 비현실적이거나 낯설게 느껴지는 상태"
+      },
+      {
+        "name_ko": "해리성 정체감 장애",
+        "name_en": "Dissociative Identity Disorder",
+        "description": "두 개 이상의 뚜렷한 인격 상태가 존재하며, 기억의 불연속이 동반되는 상태"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "해리(解離) = 풀어서(解) 떨어지다(離) → 통합된 심리 기능이 풀어져 분리되는 것",
+      "differential": "해리장애는 의식/기억/정체감의 통합 실패이고, 조현병은 현실 검증력의 손상이다. 이 둘은 자주 혼동되지만 근본적으로 다르다.",
+      "key_point": "해리는 외상에 대한 방어기제로 기능할 수 있으며, 해리 증상의 심각도는 외상의 중증도와 상관관계를 보인다.",
+      "common_mistake": "해리장애를 꾸며내는 것(malingering)으로 오해하는 경우가 있으나, 신경생물학적 연구로 뇌 기능의 실제 변화가 확인되었다."
+    }
+  },
+  {
+    "id": "ABNORM_PERS_015",
+    "terminology": "성격장애 (Personality Disorder)",
+    "terminology_ko": "성격장애",
+    "terminology_en": "Personality Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "내적 경험과 행동의 지속적 패턴이 문화적 기대에서 현저히 벗어나며, 인지, 정동, 대인관계 기능, 충동 통제 영역에서 광범위하고 경직된 양상을 보여 유의미한 고통이나 기능 손상을 초래하는 장애이다.",
+    "definition_en": "A disorder characterized by an enduring pattern of inner experience and behavior that deviates markedly from cultural expectations, manifesting as pervasive and inflexible patterns in cognition, affectivity, interpersonal functioning, and impulse control, causing significant distress or impairment.",
+    "significance": "다른 정신장애와 빈번히 공존이환하며, 치료적 관계 형성과 치료 반응에 영향을 미치기 때문에 임상에서 중요한 진단 영역이다.",
+    "key_researchers": [
+      {"name_ko": "시어도어 밀론", "name_en": "Theodore Millon", "contribution": "성격장애의 다축적 분류와 이론적 틀을 체계화하고, 밀론 임상 다축 성격검사(MCMI)를 개발했다."},
+      {"name_ko": "토마스 위디거", "name_en": "Thomas Widiger", "contribution": "성격장애의 범주적 모형에서 차원적 모형으로의 전환을 주장하며, Big Five 성격 특성과의 연결을 탐구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "반사회성 성격장애", "name_en": "Antisocial Personality Disorder", "id": "ABNORM_ASPD_016"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "ABNORM_BPD_025"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "A군 성격장애",
+        "name_en": "Cluster A Personality Disorders",
+        "description": "기이하고 괴벽한 유형(편집성, 조현성, 조현형 성격장애)"
+      },
+      {
+        "name_ko": "B군 성격장애",
+        "name_en": "Cluster B Personality Disorders",
+        "description": "극적이고 감정적이며 변덕스러운 유형(반사회성, 경계선, 연극성, 자기애성 성격장애)"
+      },
+      {
+        "name_ko": "C군 성격장애",
+        "name_en": "Cluster C Personality Disorders",
+        "description": "불안하고 두려움이 많은 유형(회피성, 의존성, 강박성 성격장애)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "성격장애 3군: A=기이(Weird), B=극적(Wild), C=걱정(Worried)",
+      "differential": "성격장애는 지속적이고 광범위한 패턴이며, 임상 증후군(Axis I 장애)은 삽화적이고 특정 증상 중심이다.",
+      "key_point": "DSM-5에서 성격장애의 대안적 모형(차원적 접근)이 Section III에 포함되어, 기존 범주적 진단의 한계를 보완하려 했다.",
+      "common_mistake": "성격장애를 단순히 '성격이 나쁜 것'과 혼동하지만, 이는 임상적으로 유의미한 기능 손상을 동반하는 정신장애이다."
+    }
+  },
+  {
+    "id": "ABNORM_ASPD_016",
+    "terminology": "반사회성 성격장애 (Antisocial Personality Disorder)",
+    "terminology_ko": "반사회성 성격장애",
+    "terminology_en": "Antisocial Personality Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "타인의 권리를 무시하고 침해하는 지속적 패턴으로, 사기, 충동성, 공격성, 무책임성, 양심의 가책 결여를 특징으로 하며, 15세 이전 품행장애 증거가 있고 18세 이후 진단되는 B군 성격장애이다.",
+    "definition_en": "A Cluster B personality disorder characterized by a pervasive pattern of disregard for and violation of the rights of others, including deceitfulness, impulsivity, aggressiveness, irresponsibility, and lack of remorse, with evidence of conduct disorder before age 15 and diagnosed after age 18.",
+    "significance": "범죄학과 법심리학에서 중요한 개념으로, 사이코패시(psychopathy)와의 관계가 활발히 연구되며, 치료에 가장 저항적인 성격장애로 간주된다.",
+    "key_researchers": [
+      {"name_ko": "허비 클레클리", "name_en": "Hervey Cleckley", "contribution": "『정상의 가면(The Mask of Sanity)』에서 사이코패시의 임상적 특성을 체계적으로 기술했다."},
+      {"name_ko": "로버트 헤어", "name_en": "Robert Hare", "contribution": "사이코패시 체크리스트(PCL-R)를 개발하여 사이코패시의 평가를 표준화하고, ASPD와의 차이를 규명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성격장애", "name_en": "Personality Disorder", "id": "ABNORM_PERS_015"},
+      {"name_ko": "경계선 성격장애", "name_en": "Borderline Personality Disorder", "id": "ABNORM_BPD_025"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ASPD = CORRUPT: Conformity lacks(규범 무시), Obligations ignored(의무 무시), Reckless(무모), Remorseless(양심 부재), Underhanded(사기), Planning lacks(충동적), Temper(공격성)",
+      "differential": "ASPD는 DSM의 공식 진단으로 행동 중심이고, 사이코패시는 Hare의 PCL-R에 기반한 개념으로 정서·대인관계적 특성(피상적 매력, 공감 결여)을 더 강조한다.",
+      "key_point": "진단을 위해 15세 이전의 품행장애(conduct disorder) 증거가 필수적이며, 18세 이상이어야 진단 가능하다.",
+      "common_mistake": "반사회성 성격장애와 사이코패시를 동일시하는 오류가 흔하다. 대부분의 사이코패스는 ASPD 기준을 충족하지만, 모든 ASPD 진단자가 사이코패스인 것은 아니다."
+    }
+  },
+  {
+    "id": "ABNORM_MEDM_017",
+    "terminology": "의학 모형 (Medical Model)",
+    "terminology_ko": "의학 모형",
+    "terminology_en": "Medical Model",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "정신장애를 신체 질환과 유사한 생물학적 원인에 의한 '질병'으로 개념화하는 관점으로, 진단, 원인(병인), 예후, 치료(약물치료)의 틀을 의학적 패러다임에서 적용한다.",
+    "definition_en": "A perspective that conceptualizes mental disorders as 'diseases' caused by biological factors analogous to physical illness, applying the medical paradigm of diagnosis, etiology, prognosis, and treatment (pharmacotherapy).",
+    "significance": "정신장애의 생물학적 기반에 대한 연구를 촉진하고 약물치료 발전에 기여했으나, 심리사회적 요인의 과소평가와 낙인 강화라는 비판을 받는다.",
+    "key_researchers": [
+      {"name_ko": "에밀 크레펠린", "name_en": "Emil Kraepelin", "contribution": "정신장애의 체계적 분류와 생물학적 원인론을 주창하여 의학 모형의 토대를 마련했다."},
+      {"name_ko": "토머스 사스", "name_en": "Thomas Szasz", "contribution": "의학 모형에 대한 가장 영향력 있는 비판자로, 정신질환을 '생활의 문제'로 재개념화해야 한다고 주장했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "생물심리사회 모형", "name_en": "Biopsychosocial Model", "id": "ABNORM_BPS_018"},
+      {"name_ko": "DSM", "name_en": "DSM", "id": "ABNORM_DSM_003"},
+      {"name_ko": "낙인", "name_en": "Stigma", "id": "ABNORM_STIG_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "의학 모형 = 정신장애도 '몸의 병'처럼 진단·치료한다는 관점",
+      "differential": "의학 모형은 생물학적 원인을 강조하고, 심리학적 모형은 학습·인지·정서 과정을 강조하며, 사회문화적 모형은 사회적 맥락을 강조한다.",
+      "key_point": "의학 모형의 강점은 생물학적 연구의 촉진과 약물치료의 발전이며, 한계는 환원주의적 접근과 환자 역할의 수동화이다.",
+      "common_mistake": "의학 모형이 심리사회적 요인을 완전히 무시한다고 단정하는 것은 과장이며, 현대 의학 모형은 점차 통합적 관점을 수용하고 있다."
+    }
+  },
+  {
+    "id": "ABNORM_BPS_018",
+    "terminology": "생물심리사회 모형 (Biopsychosocial Model)",
+    "terminology_ko": "생물심리사회 모형",
+    "terminology_en": "Biopsychosocial Model",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "정신장애의 발생과 경과를 생물학적(유전, 신경화학), 심리학적(인지, 정서, 행동), 사회적(가족, 문화, 사회경제적 지위) 요인의 상호작용으로 이해하는 통합적 관점이다.",
+    "definition_en": "An integrative perspective that understands the onset and course of mental disorders through the interaction of biological (genetics, neurochemistry), psychological (cognition, emotion, behavior), and social (family, culture, socioeconomic status) factors.",
+    "significance": "단일 원인론의 한계를 극복하고 다양한 이론적 관점을 통합하는 현대 이상심리학의 지배적 패러다임으로, 다학제적 치료 접근의 이론적 기초를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "조지 엥겔", "name_en": "George Engel", "contribution": "1977년 Science지 논문에서 생물심리사회 모형을 공식 제안하여, 의학 모형의 환원주의적 한계를 극복하려 했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "의학 모형", "name_en": "Medical Model", "id": "ABNORM_MEDM_017"},
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "ABNORM_AB_001"},
+      {"name_ko": "정신장애", "name_en": "Mental Disorder", "id": "ABNORM_MD_002"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BPS = Bio(몸) + Psycho(마음) + Social(사회) → 세 요인의 삼각 상호작용",
+      "differential": "의학 모형은 생물학적 요인에 초점을 맞추지만, 생물심리사회 모형은 생물·심리·사회적 요인의 통합적 상호작용을 강조한다.",
+      "key_point": "Engel(1977)이 의학에서의 환원주의적 접근을 비판하며 제안했으며, 현대 이상심리학의 가장 널리 수용되는 틀이다.",
+      "common_mistake": "세 요인이 동등한 비중을 가진다는 의미가 아니라, 장애에 따라 요인 간 상대적 기여가 달라진다."
+    }
+  },
+  {
+    "id": "ABNORM_SP_019",
+    "terminology": "특정공포증 (Specific Phobia)",
+    "terminology_ko": "특정공포증",
+    "terminology_en": "Specific Phobia",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "특정 대상이나 상황(동물, 자연환경, 혈액-주사-부상, 상황적, 기타)에 대한 뚜렷하고 지속적인 공포 또는 불안으로, 해당 자극에 노출되면 즉각적인 공포 반응이 유발되며 적극적으로 회피하는 장애이다.",
+    "definition_en": "A disorder characterized by marked and persistent fear or anxiety about a specific object or situation (animals, natural environment, blood-injection-injury, situational, other) that provokes an immediate fear response upon exposure and is actively avoided.",
+    "significance": "가장 유병률이 높은 불안장애 중 하나이며, 노출 치료(exposure therapy)의 효과가 가장 명확히 입증된 장애이다.",
+    "key_researchers": [
+      {"name_ko": "스탠리 래크먼", "name_en": "Stanley Rachman", "contribution": "공포 습득의 세 경로(직접 조건형성, 대리학습, 정보 전달)를 제안하여 공포증의 다양한 발생 기제를 설명했다."},
+      {"name_ko": "마틴 셀리그먼", "name_en": "Martin Seligman", "contribution": "준비성(preparedness) 이론을 통해 진화적으로 위협적이었던 자극에 대한 공포가 더 쉽게 학습된다고 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공포증", "name_en": "Phobia", "id": "ABNORM_PHO_006"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ABNORM_SAD_020"},
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ABNORM_PD_005"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "동물형",
+        "name_en": "Animal Type",
+        "description": "뱀, 거미, 개 등 특정 동물에 대한 공포"
+      },
+      {
+        "name_ko": "자연환경형",
+        "name_en": "Natural Environment Type",
+        "description": "높이, 폭풍, 물 등 자연 현상에 대한 공포"
+      },
+      {
+        "name_ko": "혈액-주사-부상형",
+        "name_en": "Blood-Injection-Injury Type",
+        "description": "혈액, 주사, 부상 장면에 대한 공포로, 미주신경성 실신 반응이 특징적"
+      },
+      {
+        "name_ko": "상황형",
+        "name_en": "Situational Type",
+        "description": "비행기, 엘리베이터, 밀폐 공간 등 특정 상황에 대한 공포"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "특정공포증 유형 = ANBS: Animal(동물), Natural environment(자연환경), Blood-injection-injury(혈액), Situational(상황)",
+      "differential": "특정공포증은 단일한 구체적 자극에 대한 공포이고, 사회불안장애는 사회적 평가 상황에 대한 공포이다.",
+      "key_point": "혈액-주사-부상형은 다른 공포증과 달리 이상성 생리 반응(서맥, 혈압 저하, 실신)을 보이는 독특한 유형이다.",
+      "common_mistake": "단순히 싫어하는 것(예: 거미를 싫어함)과 특정공포증을 혼동하지만, 임상적 진단을 위해서는 과도한 공포와 회피로 인한 기능 손상이 있어야 한다."
+    }
+  },
+  {
+    "id": "ABNORM_SAD_020",
+    "terminology": "사회불안장애 (Social Anxiety Disorder)",
+    "terminology_ko": "사회불안장애",
+    "terminology_en": "Social Anxiety Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "타인에 의해 관찰되거나 부정적으로 평가받을 수 있는 사회적 상황에서 뚜렷한 공포나 불안을 경험하며, 이러한 상황을 회피하거나 극심한 불안 속에서 견디는 장애이다.",
+    "definition_en": "A disorder characterized by marked fear or anxiety in social situations where one may be observed or negatively evaluated by others, leading to avoidance of or endurance of such situations with intense anxiety.",
+    "significance": "일반 인구의 약 7~12%에 영향을 미치는 높은 유병률의 장애로, 학업·직업·대인관계에 광범위한 영향을 미치며, 우울증의 위험 요인으로 작용한다.",
+    "key_researchers": [
+      {"name_ko": "데이비드 클라크", "name_en": "David M. Clark", "contribution": "사회불안장애의 인지 모형을 제안하여, 자기 초점 주의(self-focused attention)와 부정적 자기 이미지가 핵심 유지 요인이라고 설명했다."},
+      {"name_ko": "리처드 하임버그", "name_en": "Richard Heimberg", "contribution": "인지행동 집단치료(CBGT) 프로그램을 개발하여 사회불안장애의 근거 기반 치료에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "특정공포증", "name_en": "Specific Phobia", "id": "ABNORM_SP_019"},
+      {"name_ko": "범불안장애", "name_en": "Generalized Anxiety Disorder", "id": "ABNORM_GAD_004"},
+      {"name_ko": "광장공포증", "name_en": "Agoraphobia", "id": "ABNORM_AGOR_021"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "수행 상황 한정형",
+        "name_en": "Performance Only",
+        "description": "발표, 공연 등 수행 상황에서만 불안이 나타나는 유형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "사회불안 = '남들이 나를 어떻게 볼까'에 대한 과도한 두려움",
+      "differential": "사회불안장애는 부정적 평가에 대한 공포가 핵심이고, 광장공포증은 탈출이 어려운 상황에 대한 공포가 핵심이다.",
+      "key_point": "이전 명칭인 '사회공포증(social phobia)'에서 '사회불안장애'로 변경된 것은 단순 공포를 넘어선 광범위한 불안 양상을 반영한다.",
+      "common_mistake": "단순한 수줍음(shyness)과 사회불안장애를 동일시하는 오류가 흔하며, 임상적 진단을 위해서는 현저한 기능 손상이 동반되어야 한다."
+    }
+  },
+  {
+    "id": "ABNORM_AGOR_021",
+    "terminology": "광장공포증 (Agoraphobia)",
+    "terminology_ko": "광장공포증",
+    "terminology_en": "Agoraphobia",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "대중교통, 열린 공간, 밀폐된 장소, 줄 서기/군중, 집 밖에 혼자 있기 등 5가지 상황 중 2가지 이상에서 뚜렷한 공포나 불안을 경험하며, 이를 탈출이 어렵거나 도움을 받을 수 없다고 두려워하는 장애이다.",
+    "definition_en": "A disorder characterized by marked fear or anxiety about two or more of five situations—public transportation, open spaces, enclosed places, standing in line or being in a crowd, and being outside the home alone—due to fear that escape might be difficult or help unavailable.",
+    "significance": "DSM-5에서 공황장애와 독립적으로 진단 가능해졌으며, 치료하지 않을 경우 심한 회피로 인해 외출이 불가능해질 정도로 기능이 제한될 수 있다.",
+    "key_researchers": [
+      {"name_ko": "카를 베스트팔", "name_en": "Carl Westphal", "contribution": "1871년 광장공포증(Agoraphobie)을 최초로 임상적으로 기술했다."},
+      {"name_ko": "데이비드 발로", "name_en": "David H. Barlow", "contribution": "광장공포증과 공황장애의 관계를 체계화하고 인지행동치료 프로토콜을 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "공황장애", "name_en": "Panic Disorder", "id": "ABNORM_PD_005"},
+      {"name_ko": "사회불안장애", "name_en": "Social Anxiety Disorder", "id": "ABNORM_SAD_020"},
+      {"name_ko": "특정공포증", "name_en": "Specific Phobia", "id": "ABNORM_SP_019"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "광장(agora=광장) + 공포(phobia) → 원래는 '시장이나 광장에 대한 공포'에서 유래. 핵심은 '탈출 불가능'에 대한 두려움",
+      "differential": "광장공포증은 '탈출 곤란/도움 불가' 상황에 대한 공포이고, 사회불안장애는 '부정적 평가'에 대한 공포이다.",
+      "key_point": "DSM-5에서 광장공포증은 공황장애와 독립적으로 진단 가능하게 변경되었다(이전에는 공황장애의 하위 유형).",
+      "common_mistake": "'광장'이라는 이름 때문에 넓은 장소만 두려워하는 것으로 오해하지만, 밀폐 공간, 줄 서기 등 다양한 상황이 포함된다."
+    }
+  },
+  {
+    "id": "ABNORM_SSD_022",
+    "terminology": "신체증상장애 (Somatic Symptom Disorder)",
+    "terminology_ko": "신체증상장애",
+    "terminology_en": "Somatic Symptom Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "하나 이상의 고통스러운 신체 증상이 존재하며, 이에 대한 과도한 사고, 감정, 행동(건강 불안, 과도한 시간·에너지 투자)이 동반되어 일상 기능에 유의미한 지장을 초래하는 장애이다.",
+    "definition_en": "A disorder characterized by one or more distressing somatic symptoms accompanied by excessive thoughts, feelings, or behaviors related to the symptoms (health anxiety, disproportionate time and energy devoted to symptoms), causing significant disruption in daily functioning.",
+    "significance": "DSM-5에서 기존의 신체화 장애, 건강염려증 등을 통합·재편한 진단으로, 의학적으로 설명되지 않는 증상에 대한 심리적 접근의 필요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "아서 발스키", "name_en": "Arthur Barsky", "contribution": "신체감각 증폭(somatosensory amplification) 개념을 제안하여, 정상 신체감각을 병적으로 해석하는 인지 과정을 설명했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "전환장애", "name_en": "Conversion Disorder", "id": "ABNORM_CONV_024"},
+      {"name_ko": "해리장애", "name_en": "Dissociative Disorder", "id": "ABNORM_DISS_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SSD = Somatic(신체) + Symptom(증상) + Disorder(장애) — 신체 증상 + 과도한 심리적 반응",
+      "differential": "전환장애는 감각·운동 기능의 상실이 특징이고, 신체증상장애는 실제 신체 증상에 대한 과도한 심리적 반응이 핵심이다.",
+      "key_point": "DSM-5에서 '의학적으로 설명되지 않는 증상'이라는 기준을 제거하고, 신체 증상에 대한 과도한 심리적 반응 자체를 핵심 기준으로 전환했다.",
+      "common_mistake": "신체증상장애 환자의 증상이 '꾸민 것'이라고 오해하지만, 이들의 고통은 실제적이며 의도적 가장과는 전혀 다르다."
+    }
+  },
+  {
+    "id": "ABNORM_CONV_024",
+    "terminology": "전환장애 (Conversion Disorder)",
+    "terminology_ko": "전환장애",
+    "terminology_en": "Conversion Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "신경학적 질환으로 설명되지 않는 운동 또는 감각 기능의 변화(마비, 시력 상실, 발작 등)가 나타나며, 심리적 갈등이나 스트레스가 신체 증상으로 '전환'되는 것으로 이해되는 장애이다.",
+    "definition_en": "A disorder characterized by alterations in motor or sensory function (paralysis, blindness, seizures, etc.) not explained by neurological disease, understood as psychological conflicts or stress being 'converted' into somatic symptoms.",
+    "significance": "Freud의 히스테리 연구에서 기원한 역사적으로 중요한 진단으로, 심리적 갈등과 신체 증상 간의 관계에 대한 이해를 발전시켰다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "히스테리 환자들의 분석을 통해 무의식적 갈등이 신체 증상으로 전환된다는 이론을 발전시켰다."},
+      {"name_ko": "장-마르탱 샤르코", "name_en": "Jean-Martin Charcot", "contribution": "히스테리의 신경학적 연구를 선도하고, 최면과 히스테리의 관계를 연구하여 이 분야의 과학적 탐구를 촉진했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "신체증상장애", "name_en": "Somatic Symptom Disorder", "id": "ABNORM_SSD_022"},
+      {"name_ko": "해리장애", "name_en": "Dissociative Disorder", "id": "ABNORM_DISS_014"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "운동 증상형",
+        "name_en": "Motor Symptoms",
+        "description": "사지 마비, 보행 장애, 연하곤란 등 운동 기능의 변화"
+      },
+      {
+        "name_ko": "감각 증상형",
+        "name_en": "Sensory Symptoms",
+        "description": "시력 상실, 청력 상실, 감각 이상 등 감각 기능의 변화"
+      },
+      {
+        "name_ko": "발작형",
+        "name_en": "Seizure-like Symptoms",
+        "description": "간질 발작과 유사한 비간질성 발작(PNES)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "전환(Conversion) = 심리적 갈등이 신체 증상으로 '변환'되는 것 (Freud의 용어)",
+      "differential": "전환장애는 신경학적으로 설명되지 않는 기능 상실이고, 신체증상장애는 실제 증상에 대한 과도한 심리적 반응이다.",
+      "key_point": "DSM-5에서 공식 명칭은 '기능적 신경증상장애(Functional Neurological Symptom Disorder)'이며, 전환장애는 대안 명칭이다.",
+      "common_mistake": "'la belle indifférence'(아름다운 무관심)가 전환장애의 진단적 특징이라고 배우지만, 이는 신뢰할 수 있는 진단 지표가 아니다."
+    }
+  },
+  {
+    "id": "ABNORM_BPD_025",
+    "terminology": "경계선 성격장애 (Borderline Personality Disorder)",
+    "terminology_ko": "경계선 성격장애",
+    "terminology_en": "Borderline Personality Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "대인관계, 자기상, 정동의 불안정성과 현저한 충동성을 특징으로 하는 B군 성격장애로, 유기에 대한 극심한 두려움, 이상화-평가절하의 교대, 만성적 공허감, 자해 행동 등이 나타난다.",
+    "definition_en": "A Cluster B personality disorder characterized by instability in interpersonal relationships, self-image, and affects, along with marked impulsivity, including frantic efforts to avoid abandonment, alternation between idealization and devaluation, chronic emptiness, and self-harm behaviors.",
+    "significance": "가장 활발히 연구되는 성격장애로, 변증법적 행동치료(DBT)의 개발 계기가 되었으며, 외상 경험과 정서 조절의 관계를 이해하는 데 핵심적이다.",
+    "key_researchers": [
+      {"name_ko": "마샤 리네한", "name_en": "Marsha Linehan", "contribution": "경계선 성격장애를 위한 변증법적 행동치료(DBT)를 개발하여 효과적인 근거 기반 치료법을 확립했다."},
+      {"name_ko": "오토 컨버그", "name_en": "Otto Kernberg", "contribution": "경계선 인격 구조(borderline personality organization) 개념을 정교화하고, 전이 초점 심리치료(TFP)를 개발했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "성격장애", "name_en": "Personality Disorder", "id": "ABNORM_PERS_015"},
+      {"name_ko": "반사회성 성격장애", "name_en": "Antisocial Personality Disorder", "id": "ABNORM_ASPD_016"},
+      {"name_ko": "해리장애", "name_en": "Dissociative Disorder", "id": "ABNORM_DISS_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "BPD의 핵심 = IMPULSIVE: Instability(불안정), Mood swings(기분 변동), Paranoid ideation(편집 사고), Unstable relationships(불안정한 관계), Loneliness/emptiness(공허감), Suicidal behavior(자살 행동), Identity disturbance(정체감 장해), Violent anger(분노), Efforts to avoid abandonment(유기 회피)",
+      "differential": "경계선 성격장애는 대인관계와 정서의 불안정성이 핵심이고, 양극성 장애는 삽화적 기분 변동이 핵심이다.",
+      "key_point": "Linehan의 생물사회적 이론에 따르면, 생물학적 정서적 취약성과 비수용적 양육환경의 상호작용이 BPD 발생의 핵심이다.",
+      "common_mistake": "BPD를 '조작적'이라는 부정적 틀로만 이해하는 것은 낙인을 강화하며, 정서 조절의 어려움으로 이해하는 것이 임상적으로 더 정확하다."
+    }
+  },
+  {
+    "id": "ABNORM_ASD_026",
+    "terminology": "자폐스펙트럼장애 (Autism Spectrum Disorder)",
+    "terminology_ko": "자폐스펙트럼장애",
+    "terminology_en": "Autism Spectrum Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "사회적 의사소통 및 상호작용의 지속적 결함과 제한적이고 반복적인 행동·흥미·활동 패턴을 특징으로 하는 신경발달장애로, 증상은 발달 초기에 시작되나 사회적 요구 증가 시 명확해질 수 있다.",
+    "definition_en": "A neurodevelopmental disorder characterized by persistent deficits in social communication and interaction and restricted, repetitive patterns of behavior, interests, or activities, with symptoms beginning in early development but potentially becoming apparent when social demands increase.",
+    "significance": "DSM-5에서 자폐성 장애, 아스퍼거 장애, PDD-NOS를 통합한 스펙트럼 개념으로 재편되었으며, 신경다양성(neurodiversity) 관점에서의 논의가 활발하다.",
+    "key_researchers": [
+      {"name_ko": "레오 카너", "name_en": "Leo Kanner", "contribution": "1943년 '초기 유아 자폐증(early infantile autism)'을 최초로 체계적으로 기술했다."},
+      {"name_ko": "한스 아스퍼거", "name_en": "Hans Asperger", "contribution": "1944년 자폐적 정신병질(autistic psychopathy)을 기술하여, 이후 아스퍼거 증후군의 명칭 유래가 되었다."},
+      {"name_ko": "사이먼 배런-코헨", "name_en": "Simon Baron-Cohen", "contribution": "마음이론(Theory of Mind) 결함 가설과 극단 남성 뇌(extreme male brain) 이론을 제안하여 자폐증의 인지적 기반을 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "ADHD", "name_en": "ADHD", "id": "ABNORM_ADHD_023"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ASD의 2대 축: Social(사회적 의사소통 결함) + Repetitive(제한·반복적 행동) = 'S+R'",
+      "differential": "ASD는 사회적 의사소통 결함 + 반복 행동이 핵심이고, ADHD는 부주의 + 과잉행동/충동성이 핵심이다(공존이환 가능).",
+      "key_point": "DSM-5에서 자폐성 장애, 아스퍼거 장애, PDD-NOS가 '자폐스펙트럼장애'로 통합되어 단일 진단으로 재편되었다.",
+      "common_mistake": "모든 자폐인이 지적 장애를 동반한다는 것은 오해이며, 지적 수준은 심한 지적 장애부터 평균 이상까지 광범위한 스펙트럼을 보인다."
+    }
+  },
+  {
+    "id": "ABNORM_ADHD_023",
+    "terminology": "ADHD (주의력결핍 과잉행동장애, Attention-Deficit/Hyperactivity Disorder)",
+    "terminology_ko": "ADHD",
+    "terminology_en": "Attention-Deficit/Hyperactivity Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "부주의(집중 유지 곤란, 조직화 어려움), 과잉행동(가만히 못 앉아 있음, 과도한 활동), 충동성(차례를 기다리지 못함, 성급한 행동)이 기능을 저해하는 수준으로 나타나는 신경발달장애로, 12세 이전에 증상이 시작된다.",
+    "definition_en": "A neurodevelopmental disorder characterized by functionally impairing levels of inattention (difficulty sustaining focus, poor organization), hyperactivity (inability to sit still, excessive activity), and impulsivity (difficulty waiting turns, hasty actions), with onset before age 12.",
+    "significance": "아동기 정신장애 중 가장 유병률이 높은 장애 중 하나로(약 5~7%), 성인기까지 지속되는 경우가 많으며, 학업·직업·대인관계에 광범위한 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "러셀 바클리", "name_en": "Russell Barkley", "contribution": "ADHD를 행동 억제(behavioral inhibition)와 실행 기능(executive function)의 결함으로 이론화하여, 자기조절 결핍 모형을 제안했다."},
+      {"name_ko": "버지니아 더글라스", "name_en": "Virginia Douglas", "contribution": "ADHD의 핵심 결함이 과잉행동보다 주의력 결함에 있다는 연구를 통해 진단 기준의 변화에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "자폐스펙트럼장애", "name_en": "Autism Spectrum Disorder", "id": "ABNORM_ASD_026"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "주로 부주의한 표현형",
+        "name_en": "Predominantly Inattentive Presentation",
+        "description": "부주의 증상이 과잉행동-충동성 증상보다 우세한 유형"
+      },
+      {
+        "name_ko": "주로 과잉행동-충동적 표현형",
+        "name_en": "Predominantly Hyperactive-Impulsive Presentation",
+        "description": "과잉행동-충동성 증상이 부주의 증상보다 우세한 유형"
+      },
+      {
+        "name_ko": "복합 표현형",
+        "name_en": "Combined Presentation",
+        "description": "부주의와 과잉행동-충동성 증상이 모두 현저한 유형"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "ADHD의 3대 핵심 = IAH: Inattention(부주의), Activity excess(과잉행동), Haste(충동성/성급함)",
+      "differential": "ADHD의 부주의는 지속적 패턴이고, 불안이나 우울로 인한 주의 곤란은 삽화적이다.",
+      "key_point": "DSM-5에서 발병 연령 기준이 7세에서 12세 이전으로 변경되었고, 성인 ADHD의 공식 인정이 강화되었다.",
+      "common_mistake": "ADHD가 단순히 '산만한 아이'의 문제라는 인식은 부정확하며, 성인의 약 60%가 증상이 지속되어 평생에 걸친 기능 저해를 경험한다."
+    }
+  },
+  {
+    "id": "ABNORM_PDD_027",
+    "terminology": "지속성 우울장애 (Persistent Depressive Disorder)",
+    "terminology_ko": "지속성 우울장애",
+    "terminology_en": "Persistent Depressive Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "우울한 기분이 하루의 대부분, 거의 매일, 최소 2년 이상 지속되며(아동·청소년은 1년), 식욕 변화, 수면 장애, 피로, 낮은 자존감, 집중력 저하, 절망감 중 2개 이상을 동반하는 만성 기분장애이다.",
+    "definition_en": "A chronic mood disorder characterized by depressed mood for most of the day, nearly every day, for at least two years (one year for children and adolescents), accompanied by two or more of the following: changes in appetite, sleep disturbance, fatigue, low self-esteem, poor concentration, or feelings of hopelessness.",
+    "significance": "이전의 기분저하증(dysthymia)과 만성 주요우울장애를 통합한 DSM-5 진단으로, 만성적 경과로 인한 누적적 기능 손상이 임상적으로 중요하다.",
+    "key_researchers": [
+      {"name_ko": "제임스 코인", "name_en": "James Coyne", "contribution": "우울증의 대인관계적 모형을 제안하여, 만성 우울이 대인관계 패턴에 의해 유지되는 악순환을 설명했다."},
+      {"name_ko": "제임스 매컬러", "name_en": "James McCullough", "contribution": "만성 우울증을 위한 인지행동분석 체계(CBASP)를 개발하여 지속성 우울장애의 치료에 기여했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "ABNORM_MDD_009"},
+      {"name_ko": "계절성 정동장애", "name_en": "Seasonal Affective Disorder", "id": "ABNORM_SEAS_028"},
+      {"name_ko": "양극성 장애", "name_en": "Bipolar Disorder", "id": "ABNORM_BD_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PDD = Persistent(지속적) + Depressive(우울) + Disorder(장애) — '2년 이상 이어지는 낮은 수준의 우울'",
+      "differential": "주요우울장애는 증상이 더 심하지만 삽화적(최소 2주)이고, 지속성 우울장애는 더 경하지만 만성적(최소 2년)이다.",
+      "key_point": "지속성 우울장애는 기분저하증(dysthymia) + 만성 주요우울장애를 통합한 DSM-5의 새 진단이다.",
+      "common_mistake": "'그냥 원래 성격이 어두운 사람'으로 치부하기 쉬우나, 지속성 우울장애는 치료가 필요한 임상적 상태이다."
+    }
+  },
+  {
+    "id": "ABNORM_SEAS_028",
+    "terminology": "계절성 정동장애 (Seasonal Affective Disorder, SAD)",
+    "terminology_ko": "계절성 정동장애",
+    "terminology_en": "Seasonal Affective Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "특정 계절(주로 가을~겨울)에 반복적으로 우울 삽화가 발생하고, 해당 계절이 끝나면 자연적으로 호전되는 패턴을 보이는 기분장애로, DSM-5에서는 주요우울장애의 '계절성 패턴 명시자'로 분류된다.",
+    "definition_en": "A mood disorder with recurrent depressive episodes occurring in a specific season (typically fall/winter) and remitting naturally when the season ends, classified in DSM-5 as a 'seasonal pattern specifier' for Major Depressive Disorder.",
+    "significance": "일조량과 기분의 관계를 밝히는 생물학적 연구의 출발점이 되었으며, 광선치료(light therapy)라는 특화된 치료법의 개발로 이어졌다.",
+    "key_researchers": [
+      {"name_ko": "노먼 로젠탈", "name_en": "Norman Rosenthal", "contribution": "1984년 계절성 정동장애 개념을 최초로 체계화하고, 광선치료의 효과를 입증하는 연구를 주도했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "주요우울장애", "name_en": "Major Depressive Disorder", "id": "ABNORM_MDD_009"},
+      {"name_ko": "지속성 우울장애", "name_en": "Persistent Depressive Disorder", "id": "ABNORM_PDD_027"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "겨울형",
+        "name_en": "Winter Pattern",
+        "description": "가을~겨울에 우울이 시작되고 봄에 호전. 과식, 과수면, 탄수화물 갈망이 특징적"
+      },
+      {
+        "name_ko": "여름형",
+        "name_en": "Summer Pattern",
+        "description": "봄~여름에 우울이 시작. 식욕감소, 불면이 더 흔하며, 겨울형보다 드묾"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "SAD = Seasonal(계절) + Affective(정동) + Disorder(장애) — '겨울이 되면 슬퍼지는 장애'",
+      "differential": "SAD는 계절과 연동된 반복적 패턴이 핵심이고, 일반 주요우울장애는 계절과 무관하게 삽화가 발생한다.",
+      "key_point": "광선치료(10,000 lux, 매일 30분)가 1차 치료법으로 권장되며, 멜라토닌과 세로토닌 경로의 계절적 변화가 병인에 관여한다.",
+      "common_mistake": "SAD는 독립 진단이 아니라 주요우울장애의 '계절성 패턴 명시자(seasonal pattern specifier)'임을 기억해야 한다."
+    }
+  },
+  {
+    "id": "ABNORM_DID_029",
+    "terminology": "해리성 정체감 장애 (Dissociative Identity Disorder, DID)",
+    "terminology_ko": "해리성 정체감 장애",
+    "terminology_en": "Dissociative Identity Disorder",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "두 개 이상의 뚜렷한 인격 상태(정체감의 붕괴)가 존재하며, 일상적 사건, 중요한 개인 정보, 외상적 사건에 대한 기억의 반복적 공백이 동반되는 해리장애로, 이전에는 다중인격장애(Multiple Personality Disorder)로 불렸다.",
+    "definition_en": "A dissociative disorder characterized by the presence of two or more distinct personality states (identity disruption) accompanied by recurrent gaps in recall of everyday events, important personal information, and/or traumatic events, previously known as Multiple Personality Disorder.",
+    "significance": "정신의학에서 가장 논쟁적인 진단 중 하나로, 실체 여부에 대한 학술적 논쟁이 계속되며, 외상-해리 모형과 사회인지 모형 간의 이론적 대립이 활발하다.",
+    "key_researchers": [
+      {"name_ko": "리처드 클럽트", "name_en": "Richard Kluft", "contribution": "DID의 임상 연구와 치료의 선구자로, 단계적 외상 치료 모형을 제안했다."},
+      {"name_ko": "이안 해킹", "name_en": "Ian Hacking", "contribution": "다중인격의 역사적·사회적 구성에 대한 철학적 분석을 통해 이 진단의 문화적 맥락을 탐구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "해리장애", "name_en": "Dissociative Disorder", "id": "ABNORM_DISS_014"},
+      {"name_ko": "외상후 스트레스장애", "name_en": "PTSD", "id": "ABNORM_PTSD_008"},
+      {"name_ko": "조현병", "name_en": "Schizophrenia", "id": "ABNORM_SCZ_011"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "DID = Dissociative(해리적) + Identity(정체감) + Disorder(장애) → 정체감이 분리되어 여러 '자기'가 존재",
+      "differential": "DID는 정체감의 분리와 기억 공백이 핵심이고, 조현병은 현실 검증력 손상(망상, 환각)이 핵심이다. 이 둘은 매우 다른 장애이다.",
+      "key_point": "외상-해리 모형은 심각한 아동기 외상(주로 학대)이 원인이라고 보고, 사회인지 모형은 암시성과 치료자 영향이 증상을 형성한다고 본다.",
+      "common_mistake": "대중매체에서 DID를 극적으로 묘사하지만, 실제 임상에서의 인격 전환은 대개 미묘하고 관찰하기 어려우며, 기억 공백이 더 두드러지는 특징이다."
+    }
+  },
+  {
+    "id": "ABNORM_STIG_030",
+    "terminology": "낙인 (Stigma)",
+    "terminology_ko": "낙인",
+    "terminology_en": "Stigma",
+    "category": "ABNORM",
+    "category_name": "이상심리 (Abnormal Psychology)",
+    "definition": "정신장애를 가진 개인에 대해 부여되는 부정적 고정관념, 편견, 차별로, 공적 낙인(타인의 편견), 자기낙인(내면화된 부정적 자기관), 구조적 낙인(제도적 차별)을 포함하며, 도움추구 행동을 저해한다.",
+    "definition_en": "Negative stereotypes, prejudice, and discrimination directed toward individuals with mental disorders, encompassing public stigma (others' prejudice), self-stigma (internalized negative self-concept), and structural stigma (institutional discrimination), which impedes help-seeking behavior.",
+    "significance": "정신건강 서비스 이용의 가장 큰 장벽 중 하나로, 낙인 감소는 공중보건의 핵심 과제이며, 정신건강 리터러시와 접촉 기반 중재가 효과적인 전략으로 연구된다.",
+    "key_researchers": [
+      {"name_ko": "어빙 고프먼", "name_en": "Erving Goffman", "contribution": "『스티그마(Stigma, 1963)』에서 낙인의 사회학적 분석을 체계화하여, 손상된 정체성(spoiled identity) 개념을 제안했다."},
+      {"name_ko": "패트릭 코리건", "name_en": "Patrick Corrigan", "contribution": "정신장애 낙인의 유형(공적 낙인, 자기낙인)을 구분하고, 낙인 감소를 위한 근거 기반 전략(교육, 접촉, 항의)을 연구했다."}
+    ],
+    "related_concepts": [
+      {"name_ko": "이상행동", "name_en": "Abnormal Behavior", "id": "ABNORM_AB_001"},
+      {"name_ko": "의학 모형", "name_en": "Medical Model", "id": "ABNORM_MEDM_017"},
+      {"name_ko": "정신장애", "name_en": "Mental Disorder", "id": "ABNORM_MD_002"}
+    ],
+    "sub_types": [
+      {
+        "name_ko": "공적 낙인",
+        "name_en": "Public Stigma",
+        "description": "일반 대중이 정신장애를 가진 사람에 대해 갖는 부정적 태도와 차별 행동"
+      },
+      {
+        "name_ko": "자기낙인",
+        "name_en": "Self-Stigma",
+        "description": "정신장애를 가진 개인이 사회적 편견을 내면화하여 자존감과 자기효능감이 저하되는 현상"
+      },
+      {
+        "name_ko": "구조적 낙인",
+        "name_en": "Structural Stigma",
+        "description": "법률, 정책, 제도 수준에서 정신장애를 가진 사람에 대한 체계적 불이익"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "낙인(Stigma) = 고대 그리스에서 노예나 범죄자에게 찍던 '표시(stigma)'에서 유래 → 부정적 '꼬리표'",
+      "differential": "편견(prejudice)은 부정적 태도이고, 차별(discrimination)은 그에 따른 행동이며, 낙인(stigma)은 이 둘과 고정관념을 포괄하는 상위 개념이다.",
+      "key_point": "낙인 감소를 위해 가장 효과적인 전략은 정신장애를 가진 사람과의 직접 접촉(contact-based intervention)이다.",
+      "common_mistake": "정신질환에 대한 생물학적 설명이 낙인을 줄인다고 기대하지만, 연구에 따르면 오히려 '다름'을 강조하여 사회적 거리감을 증가시킬 수 있다."
+    }
+  }
+]

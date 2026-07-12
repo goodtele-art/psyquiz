@@ -1,0 +1,1681 @@
+[
+  {
+    "id": "MEASURE_MS_001",
+    "terminology": "측정 (Measurement)",
+    "terminology_ko": "측정",
+    "terminology_en": "Measurement",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "일정한 규칙에 따라 관찰 대상의 속성에 수치를 부여하는 과정으로, 추상적 개념을 경험적으로 관찰 가능한 형태로 변환하는 것이다.",
+    "definition_en": "The process of assigning numbers to objects or events according to a set of rules, transforming abstract constructs into empirically observable forms.",
+    "significance": "심리학 연구에서 추상적인 심리적 구성개념을 과학적으로 다룰 수 있게 하는 기본 과정으로, 모든 양적 연구의 출발점이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Smith Stevens",
+        "contribution": "측정을 '규칙에 따라 대상에 수치를 부여하는 것'으로 정의하고 측정 수준(척도 유형)을 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "척도",
+        "name_en": "Scale",
+        "id": "MEASURE_SC_002"
+      },
+      {
+        "name_ko": "조작화",
+        "name_en": "Operationalization",
+        "id": "MEASURE_OP_026"
+      },
+      {
+        "name_ko": "조작적 정의",
+        "name_en": "Operational Definition",
+        "id": "FOUND_OD_011"
+      },
+      {
+        "name_ko": "측정오차",
+        "name_en": "Measurement Error",
+        "id": "MEASURE_ME_027"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "측정 = '규칙 + 수치 부여' (Stevens의 정의)",
+      "differential": "측정(measurement)은 수치 부여 과정 자체이고, 척도(scale)는 측정에 사용되는 도구나 체계이다.",
+      "key_point": "측정은 반드시 일정한 '규칙'에 따라야 하며, 규칙 없는 수치 부여는 측정이 아니다.",
+      "common_mistake": "측정과 평가를 동일시하는 것. 측정은 수량화이고, 평가는 가치 판단을 포함한다."
+    }
+  },
+  {
+    "id": "MEASURE_SC_002",
+    "terminology": "척도 (Scale)",
+    "terminology_ko": "척도",
+    "terminology_en": "Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정 대상의 속성을 체계적으로 수량화하기 위해 사용하는 일련의 숫자 또는 기호 체계로, 측정의 정밀도와 허용 가능한 통계 분석을 결정한다.",
+    "definition_en": "A systematic framework of numbers or symbols used to quantify attributes of objects, which determines the precision of measurement and the permissible statistical analyses.",
+    "significance": "어떤 척도를 사용하느냐에 따라 적용 가능한 통계 기법이 달라지므로, 연구 설계와 분석의 기본 전제가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Smith Stevens",
+        "contribution": "1946년 Science 논문에서 명명·서열·등간·비율의 4가지 측정 척도를 분류하는 체계를 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "측정",
+        "name_en": "Measurement",
+        "id": "MEASURE_MS_001"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "등간척도",
+        "name_en": "Interval Scale",
+        "id": "MEASURE_IT_005"
+      },
+      {
+        "name_ko": "비율척도",
+        "name_en": "Ratio Scale",
+        "id": "MEASURE_RT_006"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "명명척도 (Nominal Scale)",
+        "description": "범주 분류만 가능한 가장 낮은 수준의 척도"
+      },
+      {
+        "name": "서열척도 (Ordinal Scale)",
+        "description": "순서 관계를 나타내는 척도"
+      },
+      {
+        "name": "등간척도 (Interval Scale)",
+        "description": "동일한 간격을 갖는 척도"
+      },
+      {
+        "name": "비율척도 (Ratio Scale)",
+        "description": "절대 영점을 갖는 가장 높은 수준의 척도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "척도 4단계: 명(名)→서(序)→등(等)→비(比), 갈수록 정보가 많아진다",
+      "differential": "척도(scale)는 측정 체계이고, 검사(test)는 그 척도를 사용하는 구체적 도구이다.",
+      "key_point": "척도의 수준이 높을수록 더 다양한 통계 분석이 가능하며, 비율척도가 가장 많은 정보를 담는다.",
+      "common_mistake": "리커트 척도를 등간척도로 무조건 간주하는 것. 엄밀히 서열척도이나, 연구에서 등간으로 가정하는 경우가 많다."
+    }
+  },
+  {
+    "id": "MEASURE_NM_003",
+    "terminology": "명명척도 (Nominal Scale)",
+    "terminology_ko": "명명척도",
+    "terminology_en": "Nominal Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정 대상을 상호배타적인 범주로 분류하기 위해 이름이나 숫자를 부여하는 가장 기본적인 척도로, 숫자 간에 크기나 순서의 의미가 없다.",
+    "definition_en": "The most basic level of measurement that classifies objects into mutually exclusive categories using labels or numbers, where the numbers carry no quantitative meaning or order.",
+    "significance": "성별, 진단 범주 등 질적 변인을 체계적으로 분류하여 빈도 분석이나 카이제곱검정 등 비모수 통계를 적용할 수 있게 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Smith Stevens",
+        "contribution": "측정 수준 분류 체계에서 명명척도를 가장 기본적 수준으로 정의했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "카이제곱검정",
+        "name_en": "Chi-Square Test",
+        "id": "NONPARA_CHI_001"
+      },
+      {
+        "name_ko": "척도",
+        "name_en": "Scale",
+        "id": "MEASURE_SC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "명명(命名) = 이름을 붙인다 → 숫자는 '이름표'일 뿐 크기 의미 없음",
+      "differential": "명명척도는 분류만 가능, 서열척도는 순서 비교도 가능하다.",
+      "key_point": "명명척도의 숫자(예: 남=1, 여=2)는 크기가 아닌 범주 식별용이므로, 평균을 구하는 것은 무의미하다.",
+      "common_mistake": "명명척도에 부여된 숫자로 평균이나 합계를 계산하는 것은 통계적으로 의미가 없다."
+    }
+  },
+  {
+    "id": "MEASURE_OR_004",
+    "terminology": "서열척도 (Ordinal Scale)",
+    "terminology_ko": "서열척도",
+    "terminology_en": "Ordinal Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정 대상을 순서에 따라 배열할 수 있는 척도로, 범주 간 순위는 알 수 있지만 범주 간 간격이 동일하다고 보장할 수 없다.",
+    "definition_en": "A scale that ranks objects in order along some dimension, where the intervals between ranks are not necessarily equal.",
+    "significance": "심리학에서 만족도 순위, 선호 순서 등 순서 정보가 있는 변인을 다룰 때 사용하며, 중앙값이나 비모수검정이 적절한 통계 방법이다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Smith Stevens",
+        "contribution": "서열척도를 명명척도와 등간척도 사이의 측정 수준으로 체계화했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      },
+      {
+        "name_ko": "등간척도",
+        "name_en": "Interval Scale",
+        "id": "MEASURE_IT_005"
+      },
+      {
+        "name_ko": "중앙값",
+        "name_en": "Median",
+        "id": "DESCRIP_MD_002"
+      },
+      {
+        "name_ko": "스피어만 상관",
+        "name_en": "Spearman Correlation",
+        "id": "CORR_SR_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "서열(序列) = 차례로 늘어놓는다 → 1등, 2등, 3등 순서는 알지만 점수 차이는 모른다",
+      "differential": "서열척도는 순서만 알 수 있고, 등간척도는 순서 + 동일 간격까지 보장된다.",
+      "key_point": "서열척도에서는 '1위와 2위의 차이'와 '2위와 3위의 차이'가 같다고 할 수 없다.",
+      "common_mistake": "서열척도 데이터에 산술평균을 구하는 것은 간격이 동일하지 않으므로 엄밀히 부적절하다."
+    }
+  },
+  {
+    "id": "MEASURE_IT_005",
+    "terminology": "등간척도 (Interval Scale)",
+    "terminology_ko": "등간척도",
+    "terminology_en": "Interval Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정 단위 간 간격이 동일하여 차이를 수량적으로 비교할 수 있지만, 절대적 영점(true zero)이 존재하지 않는 척도이다.",
+    "definition_en": "A scale with equal intervals between values that allows meaningful comparison of differences, but lacks a true zero point.",
+    "significance": "IQ 점수, 온도(섭씨) 등 심리학에서 흔히 사용하는 표준화 점수들이 등간척도에 해당하며, 평균과 표준편차 등 모수통계를 적용할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Smith Stevens",
+        "contribution": "등간척도를 동일 간격과 영점 부재 특성으로 정의하고 허용 가능한 통계 연산을 규정했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "비율척도",
+        "name_en": "Ratio Scale",
+        "id": "MEASURE_RT_006"
+      },
+      {
+        "name_ko": "표준편차",
+        "name_en": "Standard Deviation",
+        "id": "DESCRIP_SD_007"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "등간(等間) = 같은 간격 → 섭씨 온도처럼 10°와 20°의 차이 = 20°와 30°의 차이",
+      "differential": "등간척도는 절대 영점이 없어 비율 비교(2배, 3배)가 불가능하고, 비율척도는 영점이 있어 비율 비교가 가능하다.",
+      "key_point": "등간척도에서 0은 '해당 속성이 없음'을 의미하지 않는다 (예: 섭씨 0도 ≠ 온도 없음).",
+      "common_mistake": "IQ 200이 IQ 100의 2배 지능이라고 해석하는 것. 등간척도이므로 비율 해석은 부적절하다."
+    }
+  },
+  {
+    "id": "MEASURE_RT_006",
+    "terminology": "비율척도 (Ratio Scale)",
+    "terminology_ko": "비율척도",
+    "terminology_en": "Ratio Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "등간척도의 특성에 더해 절대적 영점(true zero)을 갖는 가장 높은 수준의 척도로, 비율 비교가 가능하다.",
+    "definition_en": "The highest level of measurement that has all properties of an interval scale plus a true zero point, allowing meaningful ratio comparisons.",
+    "significance": "반응시간, 정답 수 등 심리학 실험에서 수집되는 많은 변인이 비율척도에 해당하며, 모든 산술 연산과 통계 분석이 허용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "스탠리 스티븐스",
+        "name_en": "Stanley Smith Stevens",
+        "contribution": "비율척도를 측정 수준 위계에서 가장 높은 수준으로 정의하고, 모든 산술 연산이 가능함을 명시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "등간척도",
+        "name_en": "Interval Scale",
+        "id": "MEASURE_IT_005"
+      },
+      {
+        "name_ko": "척도",
+        "name_en": "Scale",
+        "id": "MEASURE_SC_002"
+      },
+      {
+        "name_ko": "평균",
+        "name_en": "Mean",
+        "id": "DESCRIP_MN_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "비율(比率) = 비교 가능 → '2배, 3배' 표현이 의미 있는 척도",
+      "differential": "비율척도는 절대 영점이 있어 '0 = 속성 없음'이지만, 등간척도의 0은 임의적이다.",
+      "key_point": "비율척도에서는 0이 해당 속성의 완전한 부재를 의미하므로, 값의 비율 비교(A는 B의 2배)가 타당하다.",
+      "common_mistake": "심리검사 점수를 비율척도로 간주하여 '2배 더 우울하다'고 해석하는 것은 잘못이다."
+    }
+  },
+  {
+    "id": "MEASURE_RL_007",
+    "terminology": "신뢰도 (Reliability)",
+    "terminology_ko": "신뢰도",
+    "terminology_en": "Reliability",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정 도구가 동일한 대상을 반복 측정했을 때 일관된 결과를 산출하는 정도로, 측정의 안정성과 일관성을 나타낸다.",
+    "definition_en": "The degree to which a measurement instrument yields consistent and stable results when measuring the same construct repeatedly.",
+    "significance": "신뢰도가 낮은 도구로 수집한 데이터는 연구 결과의 재현성을 보장할 수 없으므로, 타당도의 필요조건이 되는 핵심 측정 속성이다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "고전검사이론에서 신뢰도의 수학적 모형(참점수 + 오차)을 처음 제안했다."
+      },
+      {
+        "name_ko": "리 크론바흐",
+        "name_en": "Lee Cronbach",
+        "contribution": "내적 합치도 지표인 크론바흐 알파(α)를 개발하여 신뢰도 추정의 표준을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      },
+      {
+        "name_ko": "크론바흐 알파",
+        "name_en": "Cronbach's Alpha",
+        "id": "MEASURE_CA_015"
+      },
+      {
+        "name_ko": "검사-재검사 신뢰도",
+        "name_en": "Test-Retest Reliability",
+        "id": "MEASURE_TR_016"
+      },
+      {
+        "name_ko": "측정의 표준오차",
+        "name_en": "Standard Error of Measurement",
+        "id": "MEASURE_SEM_019"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "검사-재검사 신뢰도 (Test-Retest Reliability)",
+        "description": "동일 검사를 시간 간격을 두고 두 번 실시하여 상관을 구하는 방법"
+      },
+      {
+        "name": "동형검사 신뢰도 (Parallel Forms Reliability)",
+        "description": "동등한 두 검사를 실시하여 상관을 구하는 방법"
+      },
+      {
+        "name": "반분 신뢰도 (Split-Half Reliability)",
+        "description": "검사를 절반으로 나누어 두 부분의 상관을 구하는 방법"
+      },
+      {
+        "name": "내적 합치도 (Internal Consistency)",
+        "description": "문항 간 일관성을 측정하는 방법 (크론바흐 α 등)"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "신뢰도 = 일관성 → 같은 것을 다시 재면 같은 결과가 나오는가?",
+      "differential": "신뢰도는 '일관성'(같은 결과 반복), 타당도는 '정확성'(측정하려는 것을 측정하는가)이다.",
+      "key_point": "신뢰도는 타당도의 필요조건이지만 충분조건은 아니다. 일관적이어도 엉뚱한 것을 측정할 수 있다.",
+      "common_mistake": "신뢰도가 높으면 자동으로 타당도도 높다고 생각하는 것. 신뢰도는 타당도의 상한선을 결정할 뿐이다."
+    }
+  },
+  {
+    "id": "MEASURE_VD_012",
+    "terminology": "타당도 (Validity)",
+    "terminology_ko": "타당도",
+    "terminology_en": "Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정 도구가 측정하고자 하는 구성개념을 실제로 정확하게 측정하고 있는 정도를 나타내는 개념이다.",
+    "definition_en": "The degree to which a measurement instrument accurately measures the construct it is intended to measure.",
+    "significance": "아무리 신뢰롭게 측정하더라도 측정하려는 것을 정확히 측정하지 못하면 연구 결론이 무의미하므로, 측정의 가장 중요한 속성이다.",
+    "key_researchers": [
+      {
+        "name_ko": "리 크론바흐",
+        "name_en": "Lee Cronbach",
+        "contribution": "구성타당도 개념을 체계화하고 타당도의 통합적 관점을 제시했다."
+      },
+      {
+        "name_ko": "폴 미흘",
+        "name_en": "Paul Meehl",
+        "contribution": "크론바흐와 함께 구성타당도의 이론적 토대를 마련한 1955년 논문을 공동 저술했다."
+      },
+      {
+        "name_ko": "사무엘 메식",
+        "name_en": "Samuel Messick",
+        "contribution": "타당도를 단일 개념으로 통합하여 구성타당도 중심의 현대적 타당도 이론을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "구성타당도",
+        "name_en": "Construct Validity",
+        "id": "MEASURE_CV_008"
+      },
+      {
+        "name_ko": "내용타당도",
+        "name_en": "Content Validity",
+        "id": "MEASURE_CNV_009"
+      },
+      {
+        "name_ko": "준거타당도",
+        "name_en": "Criterion Validity",
+        "id": "MEASURE_CRV_010"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "내용타당도 (Content Validity)",
+        "description": "검사 문항이 측정 영역을 적절히 대표하는 정도"
+      },
+      {
+        "name": "준거타당도 (Criterion Validity)",
+        "description": "외부 준거와의 관련성 정도"
+      },
+      {
+        "name": "구성타당도 (Construct Validity)",
+        "description": "이론적 구성개념을 측정하는 정도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "타당도 = '과녁 맞추기' → 화살이 정중앙(측정 목표)에 맞는가?",
+      "differential": "신뢰도는 화살이 한 곳에 모이는 것(일관성), 타당도는 화살이 과녁 중앙에 맞는 것(정확성)이다.",
+      "key_point": "현대 측정이론에서 타당도는 검사 자체의 속성이 아니라 '검사 점수의 해석과 사용'에 대한 것이다.",
+      "common_mistake": "타당도가 검사 자체에 내재된 고정 속성이라고 보는 것. 타당도는 특정 목적과 맥락에서의 점수 해석에 대한 것이다."
+    }
+  },
+  {
+    "id": "MEASURE_CV_008",
+    "terminology": "구성타당도 (Construct Validity)",
+    "terminology_ko": "구성타당도",
+    "terminology_en": "Construct Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정 도구가 이론적으로 정의된 심리적 구성개념(construct)을 실제로 측정하고 있는 정도로, 수렴타당도와 변별타당도를 통해 확인한다.",
+    "definition_en": "The degree to which a test measures the theoretical construct it claims to measure, evaluated through convergent and discriminant evidence.",
+    "significance": "심리학에서 직접 관찰할 수 없는 추상적 개념(지능, 성격, 불안 등)을 측정할 때 가장 핵심적인 타당도 유형이다.",
+    "key_researchers": [
+      {
+        "name_ko": "리 크론바흐",
+        "name_en": "Lee Cronbach",
+        "contribution": "구성타당도의 개념을 최초로 체계적으로 정의한 1955년 논문을 공동 저술했다."
+      },
+      {
+        "name_ko": "폴 미흘",
+        "name_en": "Paul Meehl",
+        "contribution": "구성타당도 검증을 위한 법칙학적 네트워크(nomological network) 개념을 제안했다."
+      },
+      {
+        "name_ko": "도널드 캠벨",
+        "name_en": "Donald T. Campbell",
+        "contribution": "다특성-다방법 행렬(MTMM)을 통한 구성타당도 검증 방법을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수렴타당도",
+        "name_en": "Convergent Validity",
+        "id": "MEASURE_COV_011"
+      },
+      {
+        "name_ko": "변별타당도",
+        "name_en": "Discriminant Validity",
+        "id": "MEASURE_DV_013"
+      },
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      },
+      {
+        "name_ko": "요인분석",
+        "name_en": "Factor Analysis",
+        "id": "MEASURE_CV_008"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "수렴타당도 (Convergent Validity)",
+        "description": "동일 구성개념을 측정하는 다른 도구와 높은 상관을 보이는 정도"
+      },
+      {
+        "name": "변별타당도 (Discriminant Validity)",
+        "description": "다른 구성개념을 측정하는 도구와 낮은 상관을 보이는 정도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "구성(構成)타당도 = 구성개념(construct)을 제대로 구성(측정)했는가?",
+      "differential": "구성타당도는 '이론적 개념 측정 여부'이고, 내용타당도는 '측정 영역의 대표성'이며, 준거타당도는 '외부 기준과의 관계'이다.",
+      "key_point": "현대 측정이론에서 구성타당도는 모든 타당도의 상위 개념으로, 타당도의 핵심이 된다.",
+      "common_mistake": "구성타당도를 다른 타당도 유형과 병렬적으로 취급하는 것. 현대 관점에서 모든 타당도는 구성타당도의 증거이다."
+    }
+  },
+  {
+    "id": "MEASURE_CNV_009",
+    "terminology": "내용타당도 (Content Validity)",
+    "terminology_ko": "내용타당도",
+    "terminology_en": "Content Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사 문항이 측정하고자 하는 내용 영역(content domain)을 적절하게 대표하고 있는 정도를 나타낸다.",
+    "definition_en": "The degree to which test items adequately represent the content domain that the test is designed to measure.",
+    "significance": "특히 학업성취 검사나 자격시험에서 중요하며, 문항이 해당 영역을 골고루 다루는지를 체계적으로 평가한다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 로쉐",
+        "name_en": "Charles H. Lawshe",
+        "contribution": "내용타당도비(CVR)를 개발하여 전문가 판단의 합의 정도를 수량화하는 방법을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      },
+      {
+        "name_ko": "안면타당도",
+        "name_en": "Face Validity",
+        "id": "MEASURE_FV_014"
+      },
+      {
+        "name_ko": "구성타당도",
+        "name_en": "Construct Validity",
+        "id": "MEASURE_CV_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내용타당도 = '시험 범위를 골고루 냈는가?'",
+      "differential": "내용타당도는 전문가의 체계적 판단에 의존하고, 안면타당도는 비전문가의 피상적 인상이다.",
+      "key_point": "내용타당도는 통계적 지표가 아닌 전문가 판단(expert judgment)에 의해 평가된다.",
+      "common_mistake": "내용타당도와 안면타당도를 혼동하는 것. 내용타당도는 전문가가, 안면타당도는 일반인이 판단한다."
+    }
+  },
+  {
+    "id": "MEASURE_CRV_010",
+    "terminology": "준거타당도 (Criterion Validity)",
+    "terminology_ko": "준거타당도",
+    "terminology_en": "Criterion Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사 점수가 외부의 독립적 준거(criterion)와 어느 정도 관련이 있는지를 나타내는 타당도 유형이다.",
+    "definition_en": "The degree to which test scores are related to an independent external criterion, indicating the test's practical utility for prediction or classification.",
+    "significance": "선발, 배치, 진단 등 실제적 의사결정에서 검사의 실용적 가치를 판단하는 핵심 지표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드워드 손다이크",
+        "name_en": "Edward L. Thorndike",
+        "contribution": "교육 및 심리 측정에서 준거 개념을 체계적으로 도입하고 예측타당도 연구의 기틀을 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "예측타당도",
+        "name_en": "Predictive Validity",
+        "id": "MEASURE_PV_021"
+      },
+      {
+        "name_ko": "동시타당도",
+        "name_en": "Concurrent Validity",
+        "id": "MEASURE_CCV_022"
+      },
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "예측타당도 (Predictive Validity)",
+        "description": "검사 점수가 미래 행동/수행을 예측하는 정도"
+      },
+      {
+        "name": "동시타당도 (Concurrent Validity)",
+        "description": "검사 점수가 현재의 준거와 동시에 관련되는 정도"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "준거(準據) = 기준, 근거 → 외부 기준과 비교하여 검증하는 타당도",
+      "differential": "준거타당도는 외부 기준과의 상관으로, 구성타당도는 이론적 구성개념과의 부합으로 검증한다.",
+      "key_point": "준거타당도의 핵심은 적절한 '준거'의 선택이며, 준거 오염(criterion contamination)을 방지해야 한다.",
+      "common_mistake": "준거타당도를 높이려면 좋은 준거가 필요한데, 적절한 준거 선택 자체가 어려운 경우가 많다."
+    }
+  },
+  {
+    "id": "MEASURE_COV_011",
+    "terminology": "수렴타당도 (Convergent Validity)",
+    "terminology_ko": "수렴타당도",
+    "terminology_en": "Convergent Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "동일한 구성개념을 측정하는 서로 다른 방법으로 측정한 결과가 높은 상관을 보이는 정도를 나타낸다.",
+    "definition_en": "The degree to which measures of the same construct obtained through different methods are highly correlated with each other.",
+    "significance": "구성타당도의 핵심 증거로, 동일한 개념을 다양한 방법으로 측정했을 때 결과가 수렴해야 해당 구성개념을 제대로 측정하고 있다고 판단할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 캠벨",
+        "name_en": "Donald T. Campbell",
+        "contribution": "피스크와 함께 다특성-다방법 행렬(MTMM)을 개발하여 수렴·변별 타당도 검증 방법을 체계화했다."
+      },
+      {
+        "name_ko": "도널드 피스크",
+        "name_en": "Donald W. Fiske",
+        "contribution": "캠벨과 공동으로 MTMM 방법론을 통한 타당도 검증 프레임워크를 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "변별타당도",
+        "name_en": "Discriminant Validity",
+        "id": "MEASURE_DV_013"
+      },
+      {
+        "name_ko": "구성타당도",
+        "name_en": "Construct Validity",
+        "id": "MEASURE_CV_008"
+      },
+      {
+        "name_ko": "다특성-다방법 행렬",
+        "name_en": "MTMM Matrix",
+        "id": "MEASURE_MT_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "수렴(收斂) = 모여든다 → 같은 개념을 다르게 재도 결과가 '모여든다'",
+      "differential": "수렴타당도는 같은 개념끼리 높은 상관, 변별타당도는 다른 개념끼리 낮은 상관을 기대한다.",
+      "key_point": "수렴타당도와 변별타당도는 항상 쌍으로 확인해야 구성타당도의 완전한 증거가 된다.",
+      "common_mistake": "수렴타당도만 확인하고 변별타당도를 검증하지 않으면 구성타당도 증거가 불완전하다."
+    }
+  },
+  {
+    "id": "MEASURE_DV_013",
+    "terminology": "변별타당도 (Discriminant Validity)",
+    "terminology_ko": "변별타당도",
+    "terminology_en": "Discriminant Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "서로 다른 구성개념을 측정하는 도구들 간에 낮은 상관이 나타나는 정도로, 측정이 개념적으로 구별되는 것을 실제로 구별하고 있음을 보여준다.",
+    "definition_en": "The degree to which measures of different constructs show low correlations, demonstrating that conceptually distinct constructs are measured distinctly.",
+    "significance": "측정 도구가 특정 개념만을 순수하게 측정하고 있는지를 확인하는 데 필수적이며, 수렴타당도와 함께 구성타당도의 핵심 증거이다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 캠벨",
+        "name_en": "Donald T. Campbell",
+        "contribution": "변별타당도 개념을 수렴타당도와 짝지어 제안하고 MTMM 행렬로 검증하는 방법을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수렴타당도",
+        "name_en": "Convergent Validity",
+        "id": "MEASURE_COV_011"
+      },
+      {
+        "name_ko": "구성타당도",
+        "name_en": "Construct Validity",
+        "id": "MEASURE_CV_008"
+      },
+      {
+        "name_ko": "다특성-다방법 행렬",
+        "name_en": "MTMM Matrix",
+        "id": "MEASURE_MT_023"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "변별(辨別) = 구별한다 → 다른 개념은 '구별'되어 낮은 상관을 보여야 한다",
+      "differential": "변별타당도는 '다른 것은 다르게' 측정됨을, 수렴타당도는 '같은 것은 같게' 측정됨을 확인한다.",
+      "key_point": "변별타당도가 낮으면 검사가 의도하지 않은 다른 개념까지 측정하고 있을 가능성이 있다.",
+      "common_mistake": "변별타당도와 변별도(discrimination)를 혼동하는 것. 변별타당도는 구성개념 수준, 변별도는 문항 수준의 개념이다."
+    }
+  },
+  {
+    "id": "MEASURE_FV_014",
+    "terminology": "안면타당도 (Face Validity)",
+    "terminology_ko": "안면타당도",
+    "terminology_en": "Face Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사가 겉보기에 측정하려는 것을 측정하는 것처럼 보이는 정도로, 비전문가의 주관적 인상에 기반한다.",
+    "definition_en": "The degree to which a test appears, on its surface, to measure what it claims to measure, based on subjective impressions of non-experts.",
+    "significance": "엄밀한 의미의 타당도는 아니지만, 수검자의 검사 수용도와 동기에 영향을 미치므로 검사 개발 시 고려해야 하는 실용적 요소이다.",
+    "key_researchers": [
+      {
+        "name_ko": "앤 아나스타시",
+        "name_en": "Anne Anastasi",
+        "contribution": "안면타당도가 엄밀한 타당도가 아님을 지적하면서도 실용적 중요성을 인정했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "내용타당도",
+        "name_en": "Content Validity",
+        "id": "MEASURE_CNV_009"
+      },
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "안면(顔面) = 얼굴 → 겉모습(얼굴)만 보고 판단하는 타당도",
+      "differential": "안면타당도는 비전문가의 '인상', 내용타당도는 전문가의 '체계적 판단'이다.",
+      "key_point": "안면타당도는 기술적 의미의 타당도가 아니며, 수검자 동기와 검사 수용성에 관한 것이다.",
+      "common_mistake": "안면타당도가 높으면 검사가 타당하다고 결론짓는 것. 겉보기와 실제 측정 내용은 다를 수 있다."
+    }
+  },
+  {
+    "id": "MEASURE_CA_015",
+    "terminology": "크론바흐 알파 (Cronbach's Alpha)",
+    "terminology_ko": "크론바흐 알파",
+    "terminology_en": "Cronbach's Alpha",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사 문항 간의 내적 합치도를 나타내는 신뢰도 계수로, 0에서 1 사이의 값을 가지며 문항들이 동일한 구성개념을 일관되게 측정하는 정도를 표시한다.",
+    "definition_en": "A reliability coefficient indicating internal consistency among test items, ranging from 0 to 1, representing the extent to which items consistently measure the same construct.",
+    "significance": "가장 널리 사용되는 신뢰도 추정 방법으로, 단 한 번의 검사 실시로 내적 합치도를 추정할 수 있어 실용적이다.",
+    "key_researchers": [
+      {
+        "name_ko": "리 크론바흐",
+        "name_en": "Lee Cronbach",
+        "contribution": "1951년 Psychometrika 논문에서 계수 α를 제안하여 내적 합치도 추정의 표준을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "반분 신뢰도",
+        "name_en": "Split-Half Reliability",
+        "id": "MEASURE_SH_017"
+      },
+      {
+        "name_ko": "내적 합치도",
+        "name_en": "Internal Consistency",
+        "id": "MEASURE_IC_024"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "α(알파) = '알'(All)파 → 모든 문항의 합치도를 한 번에 측정",
+      "differential": "크론바흐 α는 문항 간 일관성, 검사-재검사 신뢰도는 시간적 안정성을 측정한다.",
+      "key_point": "일반적으로 α ≥ .70이면 수용 가능, ≥ .80이면 양호, ≥ .90이면 우수한 신뢰도로 간주한다.",
+      "common_mistake": "α가 높으면 검사가 단일 차원(unidimensional)이라고 결론짓는 것. α는 다차원 검사에서도 높을 수 있다."
+    }
+  },
+  {
+    "id": "MEASURE_TR_016",
+    "terminology": "검사-재검사 신뢰도 (Test-Retest Reliability)",
+    "terminology_ko": "검사-재검사 신뢰도",
+    "terminology_en": "Test-Retest Reliability",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "동일한 검사를 동일한 집단에게 일정한 시간 간격을 두고 두 번 실시한 후, 두 검사 점수 간 상관계수로 추정하는 신뢰도이다.",
+    "definition_en": "A reliability estimate obtained by administering the same test to the same group at two different time points and calculating the correlation between the two sets of scores.",
+    "significance": "측정의 시간적 안정성(temporal stability)을 평가하는 기본적 방법으로, 특히 성격 특성 같은 안정적 구성개념 측정에 적합하다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "검사-재검사 패러다임의 이론적 기초인 고전검사이론을 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "반분 신뢰도",
+        "name_en": "Split-Half Reliability",
+        "id": "MEASURE_SH_017"
+      },
+      {
+        "name_ko": "크론바흐 알파",
+        "name_en": "Cronbach's Alpha",
+        "id": "MEASURE_CA_015"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "검사→시간 경과→재검사 → 두 점수의 상관 = 안정성 계수",
+      "differential": "검사-재검사는 '시간 안정성', 반분 신뢰도/크론바흐 α는 '내적 일관성'을 측정한다.",
+      "key_point": "시간 간격이 너무 짧으면 기억 효과, 너무 길면 실제 변화가 반영되어 신뢰도 추정이 왜곡된다.",
+      "common_mistake": "적절한 시간 간격을 고려하지 않는 것. 측정하는 구성개념의 안정성에 따라 간격을 결정해야 한다."
+    }
+  },
+  {
+    "id": "MEASURE_SH_017",
+    "terminology": "반분 신뢰도 (Split-Half Reliability)",
+    "terminology_ko": "반분 신뢰도",
+    "terminology_en": "Split-Half Reliability",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사를 두 부분(보통 홀수-짝수 문항)으로 나누어 각 부분의 점수 간 상관을 구한 뒤, 스피어만-브라운 공식으로 전체 검사의 신뢰도를 추정하는 방법이다.",
+    "definition_en": "A reliability estimation method that divides a test into two halves (usually odd-even items), calculates the correlation between halves, and applies the Spearman-Brown formula to estimate full-test reliability.",
+    "significance": "한 번의 검사 실시로 신뢰도를 추정할 수 있어, 재검사가 어려운 상황에서 실용적인 대안이 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "스피어만-브라운 예언 공식을 개발하여 반분 상관에서 전체 검사 신뢰도를 추정하는 방법을 제공했다."
+      },
+      {
+        "name_ko": "윌리엄 브라운",
+        "name_en": "William Brown",
+        "contribution": "스피어만과 독립적으로 동일한 예언 공식을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "크론바흐 알파",
+        "name_en": "Cronbach's Alpha",
+        "id": "MEASURE_CA_015"
+      },
+      {
+        "name_ko": "검사-재검사 신뢰도",
+        "name_en": "Test-Retest Reliability",
+        "id": "MEASURE_TR_016"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "반분(半分) = 반으로 나눈다 → 검사를 반으로 쪼개서 상관 비교",
+      "differential": "반분 신뢰도는 검사를 2등분하여 비교, 크론바흐 α는 가능한 모든 반분의 평균과 같다.",
+      "key_point": "반분 방법에 따라 결과가 달라질 수 있으며, 이를 해결한 것이 크론바흐 α이다.",
+      "common_mistake": "검사를 전반부/후반부로 나누면 피로나 연습 효과가 반영될 수 있으므로, 홀수-짝수 분할이 권장된다."
+    }
+  },
+  {
+    "id": "MEASURE_IR_018",
+    "terminology": "평정자간 신뢰도 (Inter-Rater Reliability)",
+    "terminology_ko": "평정자간 신뢰도",
+    "terminology_en": "Inter-Rater Reliability",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "둘 이상의 평정자(관찰자, 채점자)가 동일한 대상을 독립적으로 평가했을 때 평정 결과 간의 일치도를 나타내는 신뢰도이다.",
+    "definition_en": "The degree of agreement among two or more raters who independently evaluate the same subjects, indicating consistency of scoring or observation across judges.",
+    "significance": "행동 관찰, 면접 평가, 주관식 채점 등 판단이 개입되는 측정에서 결과의 객관성을 보장하는 핵심 지표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "우연 일치를 보정한 평정자 일치도 계수인 코헨의 카파(κ)를 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "코헨의 카파",
+        "name_en": "Cohen's Kappa",
+        "id": "MEASURE_CK_025"
+      },
+      {
+        "name_ko": "피어슨 상관",
+        "name_en": "Pearson Correlation",
+        "id": "CORR_PR_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "평정자간(inter-rater) = 평가자 '사이'의 일치도",
+      "differential": "평정자간 신뢰도는 평가자 간 일치도, 평정자내 신뢰도(intra-rater)는 동일 평가자의 시간적 일관성이다.",
+      "key_point": "단순 일치율(percent agreement)보다 우연 일치를 보정한 코헨의 κ가 더 엄밀한 지표이다.",
+      "common_mistake": "단순 일치율만으로 평정자간 신뢰도를 보고하는 것. 우연에 의한 일치를 보정해야 한다."
+    }
+  },
+  {
+    "id": "MEASURE_SEM_019",
+    "terminology": "측정의 표준오차 (Standard Error of Measurement)",
+    "terminology_ko": "측정의 표준오차",
+    "terminology_en": "Standard Error of Measurement",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "동일한 개인을 동일한 검사로 반복 측정했을 때 관찰점수가 참값 주위에서 변동하는 정도를 나타내는 표준편차로, SEM = SD × √(1 - r)로 계산한다.",
+    "definition_en": "The standard deviation of observed scores around a person's true score upon repeated testing, calculated as SEM = SD × √(1 - r), where SD is the score standard deviation and r is reliability.",
+    "significance": "개인의 관찰점수가 참점수에서 얼마나 벗어날 수 있는지를 추정하여 점수 해석의 정밀도를 제공하는 핵심 지표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "고전검사이론에서 참점수와 오차점수의 관계를 정립하여 SEM 산출의 이론적 기초를 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "참값",
+        "name_en": "True Score",
+        "id": "MEASURE_TS_030"
+      },
+      {
+        "name_ko": "관찰점수",
+        "name_en": "Observed Score",
+        "id": "MEASURE_OS_031"
+      },
+      {
+        "name_ko": "표준오차",
+        "name_en": "Standard Error",
+        "id": "SAMPLE_SE_014"
+      },
+      {
+        "name_ko": "신뢰구간",
+        "name_en": "Confidence Interval",
+        "id": "EFFECT_CI_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SEM = SD × √(1-r) → 신뢰도(r)가 높으면 SEM은 작아진다",
+      "differential": "측정의 표준오차(SEM)는 개인 점수의 오차, 표본의 표준오차(SE)는 통계량의 변동성이다.",
+      "key_point": "SEM이 작을수록 개인 점수의 해석이 정밀하며, 이를 이용해 점수의 신뢰구간(신뢰대)을 구할 수 있다.",
+      "common_mistake": "SEM과 표준오차(standard error of the mean)를 혼동하는 것. SEM은 측정 오차, SE는 표집 오차이다."
+    }
+  },
+  {
+    "id": "MEASURE_LK_020",
+    "terminology": "리커트 척도 (Likert Scale)",
+    "terminology_ko": "리커트 척도",
+    "terminology_en": "Likert Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "태도나 의견의 강도를 측정하기 위해 진술문에 대한 동의 정도를 일반적으로 5점 또는 7점의 등급으로 응답하게 하는 자기보고식 평정 척도이다.",
+    "definition_en": "A self-report rating scale that measures the intensity of attitudes or opinions by asking respondents to indicate their level of agreement with statements, typically on a 5-point or 7-point scale.",
+    "significance": "심리학 설문 연구에서 가장 널리 사용되는 측정 도구로, 태도, 만족도, 성격 등 주관적 구성개념을 효율적으로 수량화할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "렌시스 리커트",
+        "name_en": "Rensis Likert",
+        "contribution": "1932년 논문에서 태도 측정을 위한 총합 평정법(method of summated ratings)을 개발했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "척도",
+        "name_en": "Scale",
+        "id": "MEASURE_SC_002"
+      },
+      {
+        "name_ko": "서열척도",
+        "name_en": "Ordinal Scale",
+        "id": "MEASURE_OR_004"
+      },
+      {
+        "name_ko": "의미변별 척도",
+        "name_en": "Semantic Differential Scale",
+        "id": "MEASURE_SD_028"
+      },
+      {
+        "name_ko": "서스톤 척도",
+        "name_en": "Thurstone Scale",
+        "id": "MEASURE_TH_029"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "리커트 = '동의 정도' → 매우 동의~매우 반대의 5단계(또는 7단계) 선택",
+      "differential": "리커트 척도는 동의 정도를 묻고, 의미변별 척도는 양극 형용사 사이 위치를 묻는다.",
+      "key_point": "엄밀히 서열척도이지만, 연구에서는 등간척도로 가정하여 평균 등의 모수통계를 적용하는 것이 관행이다.",
+      "common_mistake": "리커트 '척도(scale)'와 리커트 '문항(item)'을 혼동하는 것. 척도는 여러 문항의 합, 문항은 개별 질문이다."
+    }
+  },
+  {
+    "id": "MEASURE_PV_021",
+    "terminology": "예측타당도 (Predictive Validity)",
+    "terminology_ko": "예측타당도",
+    "terminology_en": "Predictive Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사 점수가 미래의 행동이나 수행을 얼마나 정확하게 예측할 수 있는지를 나타내는 준거타당도의 하위 유형이다.",
+    "definition_en": "A subtype of criterion validity indicating how accurately test scores predict future behavior, performance, or outcomes measured at a later time.",
+    "significance": "대학 입학 시험, 직업 적성 검사 등에서 미래 수행을 예측하는 데 핵심적인 지표로 활용된다.",
+    "key_researchers": [
+      {
+        "name_ko": "에드워드 손다이크",
+        "name_en": "Edward L. Thorndike",
+        "contribution": "교육 측정에서 예측 타당화 연구의 초기 토대를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "준거타당도",
+        "name_en": "Criterion Validity",
+        "id": "MEASURE_CRV_010"
+      },
+      {
+        "name_ko": "동시타당도",
+        "name_en": "Concurrent Validity",
+        "id": "MEASURE_CCV_022"
+      },
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "예측(豫測) = 미리 헤아린다 → 검사가 미래 결과를 미리 알려주는 정도",
+      "differential": "예측타당도는 검사 후 '시간 경과' 뒤 준거를 측정하고, 동시타당도는 검사와 준거를 '동시에' 측정한다.",
+      "key_point": "예측타당도 연구에서는 검사 실시와 준거 측정 사이에 반드시 시간 간격이 있어야 한다.",
+      "common_mistake": "예측타당도와 동시타당도를 구분하지 않는 것. 핵심 차이는 준거 측정 시점이다."
+    }
+  },
+  {
+    "id": "MEASURE_CCV_022",
+    "terminology": "동시타당도 (Concurrent Validity)",
+    "terminology_ko": "동시타당도",
+    "terminology_en": "Concurrent Validity",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사 점수와 현재 시점의 외부 준거 간의 상관으로 평가되는 준거타당도의 하위 유형으로, 검사와 준거를 거의 동시에 측정한다.",
+    "definition_en": "A subtype of criterion validity assessed by correlating test scores with a criterion measured at approximately the same time.",
+    "significance": "새로 개발된 검사가 기존의 확립된 검사와 동등한 측정 능력을 가지는지 빠르게 확인하는 데 유용하다.",
+    "key_researchers": [
+      {
+        "name_ko": "앤 아나스타시",
+        "name_en": "Anne Anastasi",
+        "contribution": "동시타당도와 예측타당도를 준거타당도의 두 하위 유형으로 체계적으로 분류했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "준거타당도",
+        "name_en": "Criterion Validity",
+        "id": "MEASURE_CRV_010"
+      },
+      {
+        "name_ko": "예측타당도",
+        "name_en": "Predictive Validity",
+        "id": "MEASURE_PV_021"
+      },
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "동시(同時) = 같은 시점 → 검사와 준거를 '동시에' 측정하여 비교",
+      "differential": "동시타당도는 현재의 준거와 비교, 예측타당도는 미래의 준거와 비교한다.",
+      "key_point": "기존 검사를 대체할 새 검사를 개발할 때, 두 검사 점수의 상관이 동시타당도의 증거가 된다.",
+      "common_mistake": "동시타당도만으로 검사의 예측력을 주장하는 것. 동시타당도가 높아도 미래 예측력은 별도로 확인해야 한다."
+    }
+  },
+  {
+    "id": "MEASURE_MT_023",
+    "terminology": "다특성-다방법 행렬 (Multitrait-Multimethod Matrix)",
+    "terminology_ko": "다특성-다방법 행렬",
+    "terminology_en": "Multitrait-Multimethod Matrix",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "여러 특성(trait)을 여러 방법(method)으로 측정한 결과를 상관 행렬로 조직하여, 수렴타당도와 변별타당도를 동시에 평가하는 체계적 방법이다.",
+    "definition_en": "A systematic approach organizing correlations from measuring multiple traits with multiple methods into a matrix to simultaneously evaluate convergent and discriminant validity.",
+    "significance": "구성타당도를 검증하는 가장 체계적인 방법으로, 특성 분산과 방법 분산을 분리하여 측정의 질을 종합적으로 평가할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "도널드 캠벨",
+        "name_en": "Donald T. Campbell",
+        "contribution": "1959년 피스크와 함께 MTMM 행렬을 제안하여 구성타당도 검증의 표준 방법을 확립했다."
+      },
+      {
+        "name_ko": "도널드 피스크",
+        "name_en": "Donald W. Fiske",
+        "contribution": "캠벨과 공동으로 MTMM 방법론을 제안하여 특성과 방법 효과를 분리하는 틀을 제공했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "수렴타당도",
+        "name_en": "Convergent Validity",
+        "id": "MEASURE_COV_011"
+      },
+      {
+        "name_ko": "변별타당도",
+        "name_en": "Discriminant Validity",
+        "id": "MEASURE_DV_013"
+      },
+      {
+        "name_ko": "구성타당도",
+        "name_en": "Construct Validity",
+        "id": "MEASURE_CV_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "MTMM = Multi-Trait Multi-Method → 여러 특성 × 여러 방법의 상관 행렬",
+      "differential": "MTMM은 수렴+변별 타당도를 동시에 평가하지만, 확인적 요인분석(CFA)이 더 정교한 대안이 될 수 있다.",
+      "key_point": "같은 특성-다른 방법의 상관(수렴)이 다른 특성-같은 방법의 상관(방법 효과)보다 커야 한다.",
+      "common_mistake": "방법 효과(method effect)를 무시하고 수렴 상관만 확인하는 것. 방법 분산도 반드시 고려해야 한다."
+    }
+  },
+  {
+    "id": "MEASURE_IC_024",
+    "terminology": "내적 합치도 (Internal Consistency)",
+    "terminology_ko": "내적 합치도",
+    "terminology_en": "Internal Consistency",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사를 구성하는 문항들이 동일한 구성개념을 얼마나 일관되게 측정하고 있는지를 나타내는 신뢰도의 한 유형이다.",
+    "definition_en": "A type of reliability indicating the extent to which test items consistently measure the same construct, reflecting the homogeneity of the items.",
+    "significance": "한 번의 검사 실시로 추정 가능하여 실용적이며, 검사 문항의 동질성과 구성개념의 단일성을 평가하는 기본 지표이다.",
+    "key_researchers": [
+      {
+        "name_ko": "리 크론바흐",
+        "name_en": "Lee Cronbach",
+        "contribution": "내적 합치도의 대표 지표인 계수 α를 개발하여 이 개념을 측정의 핵심 속성으로 확립했다."
+      },
+      {
+        "name_ko": "조지 쿠더",
+        "name_en": "George Kuder",
+        "contribution": "리처드슨과 함께 KR-20 공식을 개발하여 이분 문항의 내적 합치도 추정 방법을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "크론바흐 알파",
+        "name_en": "Cronbach's Alpha",
+        "id": "MEASURE_CA_015"
+      },
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "반분 신뢰도",
+        "name_en": "Split-Half Reliability",
+        "id": "MEASURE_SH_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "내적 합치(合致) = 안쪽(문항들)이 서로 맞아떨어진다",
+      "differential": "내적 합치도는 문항 간 일관성(한 시점), 검사-재검사 신뢰도는 시간 간 안정성(두 시점)이다.",
+      "key_point": "내적 합치도가 높다는 것은 문항들이 동질적으로 같은 것을 측정하고 있다는 의미이다.",
+      "common_mistake": "내적 합치도만으로 검사의 전체 신뢰도가 충분하다고 판단하는 것. 시간적 안정성도 별도로 확인해야 한다."
+    }
+  },
+  {
+    "id": "MEASURE_CK_025",
+    "terminology": "코헨의 카파 (Cohen's Kappa)",
+    "terminology_ko": "코헨의 카파",
+    "terminology_en": "Cohen's Kappa",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "두 평정자가 범주형 데이터를 분류할 때 우연에 의한 일치를 보정하여 실제 일치도를 나타내는 계수로, -1에서 1 사이의 값을 갖는다.",
+    "definition_en": "A coefficient measuring inter-rater agreement for categorical data, correcting for chance agreement, with values ranging from -1 to 1.",
+    "significance": "임상 진단, 행동 코딩, 내용분석 등에서 평가자 간 일치도의 표준 지표로 사용되며, 단순 일치율보다 엄밀한 평가를 제공한다.",
+    "key_researchers": [
+      {
+        "name_ko": "제이콥 코헨",
+        "name_en": "Jacob Cohen",
+        "contribution": "1960년 논문에서 우연 일치를 보정한 일치도 계수 κ를 제안하여 평정자 일치도 연구의 표준을 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "평정자간 신뢰도",
+        "name_en": "Inter-Rater Reliability",
+        "id": "MEASURE_IR_018"
+      },
+      {
+        "name_ko": "명명척도",
+        "name_en": "Nominal Scale",
+        "id": "MEASURE_NM_003"
+      },
+      {
+        "name_ko": "코헨의 d",
+        "name_en": "Cohen's d",
+        "id": "EFFECT_CD_001"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "κ(카파) = 실제 일치 - 우연 일치 → 우연을 빼고 남은 '진짜 일치'",
+      "differential": "코헨의 κ는 범주형 데이터의 일치도, 급내상관계수(ICC)는 연속형 데이터의 일치도이다.",
+      "key_point": "일반적으로 κ ≥ .80이면 우수, .60~.79이면 상당, .40~.59이면 보통 수준의 일치도로 해석한다.",
+      "common_mistake": "코헨의 카파(κ, 일치도)와 코헨의 d(효과크기)를 혼동하는 것. 이름은 같은 Jacob Cohen이 만들었지만 전혀 다른 지표이다."
+    }
+  },
+  {
+    "id": "MEASURE_OP_026",
+    "terminology": "조작화 (Operationalization)",
+    "terminology_ko": "조작화",
+    "terminology_en": "Operationalization",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "추상적인 이론적 구성개념을 구체적이고 측정 가능한 지표나 절차로 변환하는 과정이다.",
+    "definition_en": "The process of translating abstract theoretical constructs into specific, measurable indicators or procedures that can be observed and quantified.",
+    "significance": "추상적 개념과 경험적 관찰을 연결하는 다리 역할을 하며, 조작화 없이는 심리적 구성개념을 과학적으로 연구할 수 없다.",
+    "key_researchers": [
+      {
+        "name_ko": "퍼시 브리지먼",
+        "name_en": "Percy W. Bridgman",
+        "contribution": "조작주의(operationism)를 제안하여 개념을 측정 절차로 정의하는 철학적 기초를 마련했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "조작적 정의",
+        "name_en": "Operational Definition",
+        "id": "FOUND_OD_011"
+      },
+      {
+        "name_ko": "측정",
+        "name_en": "Measurement",
+        "id": "MEASURE_MS_001"
+      },
+      {
+        "name_ko": "구성타당도",
+        "name_en": "Construct Validity",
+        "id": "MEASURE_CV_008"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "조작화 = 추상→구체 → '불안'을 '심박수 증가, STAI 점수'로 바꾸는 것",
+      "differential": "조작화는 개념→측정 절차로의 변환 과정, 조작적 정의는 그 변환의 결과물(정의문)이다.",
+      "key_point": "하나의 구성개념에 여러 조작화가 가능하며, 조작화 방법에 따라 연구 결과가 달라질 수 있다.",
+      "common_mistake": "하나의 조작화가 구성개념의 전체를 완벽히 포착한다고 생각하는 것. 조작화는 항상 개념의 일부만을 반영한다."
+    }
+  },
+  {
+    "id": "MEASURE_ME_027",
+    "terminology": "측정오차 (Measurement Error)",
+    "terminology_ko": "측정오차",
+    "terminology_en": "Measurement Error",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정된 관찰값과 참값 사이의 차이로, 모든 측정에는 어느 정도의 오차가 수반된다.",
+    "definition_en": "The difference between an observed measurement and the true value of what is being measured, inherent in all measurement processes.",
+    "significance": "측정오차의 크기와 유형을 이해하는 것은 신뢰도 향상과 정확한 결과 해석의 기본 전제이다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "고전검사이론에서 관찰점수 = 참점수 + 오차점수(X = T + E) 모형을 정립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 오차",
+        "name_en": "Systematic Error",
+        "id": "MEASURE_SE_033"
+      },
+      {
+        "name_ko": "무선오차",
+        "name_en": "Random Error",
+        "id": "MEASURE_RE_034"
+      },
+      {
+        "name_ko": "참값",
+        "name_en": "True Score",
+        "id": "MEASURE_TS_030"
+      },
+      {
+        "name_ko": "관찰점수",
+        "name_en": "Observed Score",
+        "id": "MEASURE_OS_031"
+      },
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      }
+    ],
+    "sub_types": [
+      {
+        "name": "체계적 오차 (Systematic Error)",
+        "description": "일정한 방향으로 편향되는 오차"
+      },
+      {
+        "name": "무선오차 (Random Error)",
+        "description": "무작위적으로 변동하는 오차"
+      }
+    ],
+    "quiz_hints": {
+      "mnemonic": "X = T + E (관찰점수 = 참점수 + 오차) → 고전검사이론의 기본 공식",
+      "differential": "측정오차는 측정 도구의 불완전성에서 오고, 표본오차는 표본추출의 불완전성에서 온다.",
+      "key_point": "무선오차는 신뢰도를 낮추고, 체계적 오차는 타당도를 위협한다.",
+      "common_mistake": "측정오차를 완전히 제거할 수 있다고 생각하는 것. 측정오차는 줄일 수 있지만 완전히 없앨 수는 없다."
+    }
+  },
+  {
+    "id": "MEASURE_SD_028",
+    "terminology": "의미변별 척도 (Semantic Differential Scale)",
+    "terminology_ko": "의미변별 척도",
+    "terminology_en": "Semantic Differential Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "양극의 형용사 쌍(예: 좋은-나쁜, 강한-약한) 사이에 일반적으로 7점 척도를 두어 대상에 대한 의미적 인상이나 태도를 측정하는 도구이다.",
+    "definition_en": "A rating scale using bipolar adjective pairs (e.g., good-bad, strong-weak) typically with 7 points, designed to measure the semantic meaning or attitude toward an object.",
+    "significance": "태도, 이미지, 개념의 내포적 의미를 체계적으로 측정할 수 있으며, 평가(evaluation), 잠재력(potency), 활동성(activity)의 3차원으로 분석된다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 오스굿",
+        "name_en": "Charles E. Osgood",
+        "contribution": "1957년 의미변별법을 개발하고, EPA(평가-잠재력-활동성) 3차원 모형을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "리커트 척도",
+        "name_en": "Likert Scale",
+        "id": "MEASURE_LK_020"
+      },
+      {
+        "name_ko": "척도",
+        "name_en": "Scale",
+        "id": "MEASURE_SC_002"
+      },
+      {
+        "name_ko": "서스톤 척도",
+        "name_en": "Thurstone Scale",
+        "id": "MEASURE_TH_029"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SD척도 = 양극 형용사 사이에서 위치 선택 (예: 좋은 ①②③④⑤⑥⑦ 나쁜)",
+      "differential": "의미변별 척도는 양극 형용사 쌍을 사용하고, 리커트 척도는 진술문에 대한 동의 정도를 묻는다.",
+      "key_point": "오스굿의 연구에서 의미 공간의 3대 차원은 평가(evaluation), 잠재력(potency), 활동성(activity)이다.",
+      "common_mistake": "의미변별 척도를 단순한 양극 평정 도구로만 이해하는 것. 다차원적 의미 분석 도구이다."
+    }
+  },
+  {
+    "id": "MEASURE_TH_029",
+    "terminology": "서스톤 척도 (Thurstone Scale)",
+    "terminology_ko": "서스톤 척도",
+    "terminology_en": "Thurstone Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "전문가 판단을 거쳐 동일 간격으로 배열된 진술문들로 구성되는 태도 측정 척도로, 응답자가 동의하는 진술문의 척도값 중앙값이 태도 점수가 된다.",
+    "definition_en": "An attitude measurement scale consisting of statements arranged at equal intervals by expert judges, where a respondent's attitude score is the median scale value of endorsed statements.",
+    "significance": "최초의 체계적 태도 측정 방법으로, 등간척도 수준의 태도 측정을 목표로 한 선구적 접근이었다.",
+    "key_researchers": [
+      {
+        "name_ko": "루이스 서스턴",
+        "name_en": "Louis Leon Thurstone",
+        "contribution": "1928년 등현간격법(method of equal-appearing intervals)을 개발하여 태도의 양적 측정 방법을 최초로 확립했다."
+      },
+      {
+        "name_ko": "어니스트 체이브",
+        "name_en": "Ernest J. Chave",
+        "contribution": "서스턴과 함께 태도 척도 제작의 구체적 절차를 발전시켰다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "리커트 척도",
+        "name_en": "Likert Scale",
+        "id": "MEASURE_LK_020"
+      },
+      {
+        "name_ko": "의미변별 척도",
+        "name_en": "Semantic Differential Scale",
+        "id": "MEASURE_SD_028"
+      },
+      {
+        "name_ko": "거트만 척도",
+        "name_en": "Guttman Scale",
+        "id": "MEASURE_GT_035"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "서스톤 = '전문가가 등간격으로 배열한' 진술문 → 등현간격법",
+      "differential": "서스톤 척도는 전문가가 문항을 등간격 배열, 리커트 척도는 응답자가 동의 정도를 평정한다.",
+      "key_point": "제작에 많은 시간과 전문가가 필요하여 리커트 척도보다 실용성이 떨어지지만, 이론적으로 등간척도에 더 가깝다.",
+      "common_mistake": "서스톤 척도가 리커트 척도처럼 동의-반대 연속선에서 응답하는 것으로 오해하는 것."
+    }
+  },
+  {
+    "id": "MEASURE_TS_030",
+    "terminology": "참값 (True Score)",
+    "terminology_ko": "참값",
+    "terminology_en": "True Score",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "동일한 검사를 무한히 반복 실시했을 때 얻어지는 관찰점수들의 이론적 평균으로, 오차가 제거된 순수한 점수를 의미한다.",
+    "definition_en": "The theoretical average of an infinite number of repeated measurements of the same attribute, representing the error-free score in classical test theory.",
+    "significance": "고전검사이론(CTT)의 핵심 개념으로, X = T + E(관찰점수 = 참점수 + 오차) 모형의 기초가 된다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "참점수 모형(true score model)을 제안하여 고전검사이론의 수학적 기초를 확립했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "관찰점수",
+        "name_en": "Observed Score",
+        "id": "MEASURE_OS_031"
+      },
+      {
+        "name_ko": "측정오차",
+        "name_en": "Measurement Error",
+        "id": "MEASURE_ME_027"
+      },
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "측정의 표준오차",
+        "name_en": "Standard Error of Measurement",
+        "id": "MEASURE_SEM_019"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "참값 = 무한 반복의 평균 → 오차가 모두 상쇄되어 남은 '진짜 점수'",
+      "differential": "참값은 이론적 개념(직접 관찰 불가), 관찰점수는 실제로 얻어지는 측정값이다.",
+      "key_point": "참값은 직접 관찰할 수 없는 이론적 개념이며, 신뢰도를 통해 간접적으로 추정한다.",
+      "common_mistake": "참값이 실제로 관찰하거나 측정할 수 있다고 생각하는 것. 참값은 이론적 구성 개념이다."
+    }
+  },
+  {
+    "id": "MEASURE_OS_031",
+    "terminology": "관찰점수 (Observed Score)",
+    "terminology_ko": "관찰점수",
+    "terminology_en": "Observed Score",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사를 실시하여 실제로 얻어지는 점수로, 고전검사이론에서 참점수와 오차점수의 합(X = T + E)으로 정의된다.",
+    "definition_en": "The actual score obtained from administering a test, defined in classical test theory as the sum of the true score and error score (X = T + E).",
+    "significance": "모든 실제 연구에서 분석되는 데이터는 관찰점수이며, 이것이 참점수에 얼마나 가까운지가 측정의 질을 결정한다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "관찰점수를 참점수와 오차의 합으로 분해하는 고전검사이론 모형을 제안했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "참값",
+        "name_en": "True Score",
+        "id": "MEASURE_TS_030"
+      },
+      {
+        "name_ko": "측정오차",
+        "name_en": "Measurement Error",
+        "id": "MEASURE_ME_027"
+      },
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "관찰점수 X = T(참) + E(오차) → 우리가 실제로 '관찰'하는 점수",
+      "differential": "관찰점수는 실제 측정값(오차 포함), 참값은 이론적 순수 점수(오차 제거)이다.",
+      "key_point": "관찰점수에는 항상 측정오차가 포함되어 있으므로, 단일 관찰점수를 참점수와 동일시해서는 안 된다.",
+      "common_mistake": "관찰점수를 곧바로 참값으로 해석하는 것. 관찰점수에는 항상 오차가 포함되어 있다."
+    }
+  },
+  {
+    "id": "MEASURE_ST_032",
+    "terminology": "표준화 (Standardization)",
+    "terminology_ko": "표준화",
+    "terminology_en": "Standardization",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "검사의 실시, 채점, 해석 절차를 일관되게 통일하여 모든 수검자에게 동일한 조건을 보장하는 과정이며, 규준 집단의 점수 분포를 확립하는 것을 포함한다.",
+    "definition_en": "The process of establishing uniform procedures for administering, scoring, and interpreting a test, ensuring all examinees are tested under the same conditions, including establishing norm group score distributions.",
+    "significance": "서로 다른 시간, 장소, 검사자에 의해 실시되어도 비교 가능한 결과를 산출할 수 있게 하여 검사의 객관성을 보장한다.",
+    "key_researchers": [
+      {
+        "name_ko": "알프레드 비네",
+        "name_en": "Alfred Binet",
+        "contribution": "최초의 표준화된 지능검사를 개발하여 검사 표준화의 실질적 선례를 만들었다."
+      },
+      {
+        "name_ko": "루이스 터만",
+        "name_en": "Lewis Terman",
+        "contribution": "스탠포드-비네 지능검사를 미국에서 표준화하여 대규모 규준 확립의 모범을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "측정",
+        "name_en": "Measurement",
+        "id": "MEASURE_MS_001"
+      },
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      },
+      {
+        "name_ko": "z점수",
+        "name_en": "z-Score",
+        "id": "DESCRIP_ZS_010"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "표준화 = '같은 조건, 같은 절차' → 누가, 언제 실시해도 동일한 조건 보장",
+      "differential": "표준화는 절차의 통일과 규준 확립 과정이고, 표준점수(z점수 등)는 표준화된 점수 변환이다.",
+      "key_point": "표준화에는 실시 절차의 통일(검사 표준화)과 규준 집단 확립(규준 표준화) 두 가지 측면이 있다.",
+      "common_mistake": "표준화와 정규화(normalization)를 혼동하는 것. 표준화는 절차 통일, 정규화는 분포 변환이다."
+    }
+  },
+  {
+    "id": "MEASURE_SE_033",
+    "terminology": "체계적 오차 (Systematic Error)",
+    "terminology_ko": "체계적 오차",
+    "terminology_en": "Systematic Error",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정값을 특정 방향으로 일관되게 편향시키는 오차로, 반복 측정해도 상쇄되지 않고 동일한 방향으로 영향을 미친다.",
+    "definition_en": "An error that consistently biases measurements in one direction, remaining constant across repeated measurements and not canceling out.",
+    "significance": "체계적 오차는 신뢰도에는 영향을 주지 않지만 타당도를 직접적으로 위협하므로, 연구 설계와 측정 도구에서 통제해야 한다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "측정 오차를 체계적 오차와 무선 오차로 구분하는 고전검사이론의 틀을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "무선오차",
+        "name_en": "Random Error",
+        "id": "MEASURE_RE_034"
+      },
+      {
+        "name_ko": "측정오차",
+        "name_en": "Measurement Error",
+        "id": "MEASURE_ME_027"
+      },
+      {
+        "name_ko": "타당도",
+        "name_en": "Validity",
+        "id": "MEASURE_VD_012"
+      },
+      {
+        "name_ko": "편향",
+        "name_en": "Bias",
+        "id": "SAMPLE_BI_017"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "체계적 = '한 방향으로만' → 저울이 항상 50g 더 무겁게 재는 것",
+      "differential": "체계적 오차는 일정 방향 편향(타당도 위협), 무선오차는 무작위 변동(신뢰도 위협)이다.",
+      "key_point": "체계적 오차는 반복 측정으로 줄일 수 없으며, 오차 원인을 찾아 제거해야 한다.",
+      "common_mistake": "표본 크기를 늘리면 체계적 오차가 줄어든다고 생각하는 것. 체계적 오차는 표본 크기와 무관하다."
+    }
+  },
+  {
+    "id": "MEASURE_RE_034",
+    "terminology": "무선오차 (Random Error)",
+    "terminology_ko": "무선오차",
+    "terminology_en": "Random Error",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "측정값을 예측 불가능한 방향으로 변동시키는 오차로, 반복 측정 시 양의 방향과 음의 방향으로 무작위적으로 나타나 장기적으로 상쇄된다.",
+    "definition_en": "Unpredictable fluctuations in measurement that vary randomly in both positive and negative directions, tending to cancel out over many repeated measurements.",
+    "significance": "무선오차는 측정의 신뢰도를 낮추는 주요 원인이며, 반복 측정이나 문항 수 증가를 통해 영향을 줄일 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "찰스 스피어만",
+        "name_en": "Charles Spearman",
+        "contribution": "고전검사이론에서 무선오차의 속성(평균 0, 참점수와 독립)을 수학적으로 정의했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "체계적 오차",
+        "name_en": "Systematic Error",
+        "id": "MEASURE_SE_033"
+      },
+      {
+        "name_ko": "측정오차",
+        "name_en": "Measurement Error",
+        "id": "MEASURE_ME_027"
+      },
+      {
+        "name_ko": "신뢰도",
+        "name_en": "Reliability",
+        "id": "MEASURE_RL_007"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "무선(無線/random) = '무작위' → 이리저리 흔들리는 오차, 평균 내면 0에 수렴",
+      "differential": "무선오차는 신뢰도를 낮추고, 체계적 오차는 타당도를 낮춘다.",
+      "key_point": "고전검사이론에서 무선오차의 기대값은 0이고, 참점수와 상관이 없다고 가정한다.",
+      "common_mistake": "무선오차가 곧 부정확함이라고 생각하는 것. 무선오차는 평균적으로 상쇄되므로 많은 관찰의 평균은 참값에 수렴한다."
+    }
+  },
+  {
+    "id": "MEASURE_GT_035",
+    "terminology": "거트만 척도 (Guttman Scale)",
+    "terminology_ko": "거트만 척도",
+    "terminology_en": "Guttman Scale",
+    "category": "MEASURE",
+    "category_name": "측정과 척도 (Measurement & Scales)",
+    "definition": "문항들이 누적적 계층 구조를 이루어, 어려운 문항에 동의하면 쉬운 문항에도 반드시 동의하게 되는 단일 차원의 누적 척도이다.",
+    "definition_en": "A cumulative scale in which items form a hierarchical order, such that endorsement of a more difficult item implies endorsement of all easier items, representing a unidimensional construct.",
+    "significance": "측정의 단일차원성(unidimensionality)을 검증하는 데 유용하며, 재현계수를 통해 척도의 누적 구조를 확인할 수 있다.",
+    "key_researchers": [
+      {
+        "name_ko": "루이스 거트만",
+        "name_en": "Louis Guttman",
+        "contribution": "1950년 누적 척도법(scalogram analysis)을 개발하여 단일 차원 측정의 엄격한 기준을 제시했다."
+      }
+    ],
+    "related_concepts": [
+      {
+        "name_ko": "리커트 척도",
+        "name_en": "Likert Scale",
+        "id": "MEASURE_LK_020"
+      },
+      {
+        "name_ko": "서스톤 척도",
+        "name_en": "Thurstone Scale",
+        "id": "MEASURE_TH_029"
+      },
+      {
+        "name_ko": "척도",
+        "name_en": "Scale",
+        "id": "MEASURE_SC_002"
+      }
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "거트만 = '누적 계단' → 3단계 올라갔으면 1, 2단계는 이미 올라간 것",
+      "differential": "거트만 척도는 누적적 계층 구조(어려운 것에 동의→쉬운 것도 동의), 리커트 척도는 동의 정도 평정이다.",
+      "key_point": "재현계수(coefficient of reproducibility)가 .90 이상이면 거트만 척도 구조가 성립한다고 판단한다.",
+      "common_mistake": "모든 태도가 누적 구조를 가진다고 가정하는 것. 거트만 척도는 단일차원적 개념에만 적합하다."
+    }
+  }
+]

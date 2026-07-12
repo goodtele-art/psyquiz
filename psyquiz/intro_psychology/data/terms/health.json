@@ -1,0 +1,852 @@
+[
+  {
+    "id": "HEALTH_STRESS_001",
+    "terminology": "스트레스 (Stress)",
+    "terminology_ko": "스트레스",
+    "terminology_en": "Stress",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "환경의 요구가 개인의 적응 자원을 초과한다고 평가될 때 발생하는 심리적·생리적 긴장 상태. 외적 사건(스트레서) 자체가 아니라, 개인의 인지적 평가에 의해 결정된다.",
+    "definition_en": "A state of psychological and physiological tension that occurs when environmental demands are appraised as exceeding one's adaptive resources. Stress is determined not by external events alone but by the individual's cognitive appraisal.",
+    "significance": "건강심리학의 핵심 개념으로, 정신건강과 신체건강 모두에 광범위한 영향을 미친다. Lazarus의 인지적 평가 모형은 스트레스를 주관적 경험으로 재정의하여 현대 스트레스 연구의 패러다임을 전환했다.",
+    "key_researchers": [
+      {"name_ko": "한스 셀리에", "name_en": "Hans Selye", "contribution": "스트레스 개념을 의학·심리학에 도입하고, 일반적응증후군(GAS)을 제안하여 스트레스 반응의 단계적 모형을 정립"},
+      {"name_ko": "리처드 래저러스", "name_en": "Richard Lazarus", "contribution": "스트레스의 인지적 평가 이론(transactional model)을 제안하여, 스트레스가 개인과 환경의 상호작용에서 발생함을 체계화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레서", "name_en": "Stressor", "id": "HEALTH_STRESSOR_002"},
+      {"name_ko": "일반적응증후군", "name_en": "General Adaptation Syndrome", "id": "HEALTH_GAS_003"},
+      {"name_ko": "대처", "name_en": "Coping", "id": "HEALTH_COPE_008"}
+    ],
+    "sub_types": [
+      {"name_ko": "유스트레스", "name_en": "Eustress", "description": "적절한 수준의 긍정적 스트레스로, 수행을 향상시키고 성장을 촉진하는 기능을 한다"},
+      {"name_ko": "디스트레스", "name_en": "Distress", "description": "과도하거나 지속적인 부정적 스트레스로, 심리적·신체적 건강을 해치는 유해한 스트레스"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "스트레스 = '요구 > 자원'이라는 인지적 평가의 결과",
+      "differential": "스트레스(반응 상태)와 스트레서(스트레스를 유발하는 자극/사건)를 구분할 것",
+      "key_point": "Lazarus의 모형에서 1차 평가(위협 여부)와 2차 평가(대처 자원)가 스트레스 경험을 결정한다",
+      "common_mistake": "스트레스가 항상 해롭다고 오해하지만, 적절한 수준의 스트레스(유스트레스)는 수행과 동기를 촉진한다"
+    }
+  },
+  {
+    "id": "HEALTH_STRESSOR_002",
+    "terminology": "스트레서 (Stressor)",
+    "terminology_ko": "스트레서",
+    "terminology_en": "Stressor",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "스트레스 반응을 유발하는 외적 또는 내적 자극이나 사건. 주요 생활 변화, 일상적 번거로움, 외상적 사건, 만성적 상황 등 다양한 형태가 있다.",
+    "definition_en": "An external or internal stimulus or event that triggers a stress response. Stressors can take various forms including major life changes, daily hassles, traumatic events, and chronic conditions.",
+    "significance": "스트레스 연구에서 원인 변인을 명확히 구분하기 위한 핵심 개념이다. 스트레서의 유형(급성 vs. 만성, 통제 가능 vs. 불가능)에 따라 건강에 미치는 영향이 달라진다.",
+    "key_researchers": [
+      {"name_ko": "토머스 홈스", "name_en": "Thomas Holmes", "contribution": "리처드 라헤와 함께 사회재적응평가척도(SRRS)를 개발하여 생활사건 스트레서를 정량화"},
+      {"name_ko": "리처드 라헤", "name_en": "Richard Rahe", "contribution": "홈스와 함께 SRRS를 개발하고, 생활 변화 단위(LCU)와 질병 발생의 상관을 실증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"},
+      {"name_ko": "생활사건 스트레스", "name_en": "Life Events Stress", "id": "HEALTH_LIFE_018"},
+      {"name_ko": "일상적 번거로움", "name_en": "Daily Hassles", "id": "HEALTH_HASSLE_019"}
+    ],
+    "sub_types": [
+      {"name_ko": "급성 스트레서", "name_en": "Acute Stressor", "description": "갑자기 발생하며 단기간 지속되는 스트레서 (예: 시험, 교통사고)"},
+      {"name_ko": "만성 스트레서", "name_en": "Chronic Stressor", "description": "장기간 지속되는 스트레서 (예: 빈곤, 만성 질환, 직장 갈등)"},
+      {"name_ko": "외상적 스트레서", "name_en": "Traumatic Stressor", "description": "생명 위협이나 극심한 공포를 유발하는 압도적 사건 (예: 자연재해, 전쟁)"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "스트레서(stressor) = stress + -or(유발자) → 스트레스를 유발하는 것",
+      "differential": "스트레서(자극/원인)와 스트레스(반응/상태)는 구분되는 개념이다",
+      "key_point": "같은 스트레서라도 개인의 인지적 평가에 따라 스트레스 수준이 다르게 경험된다",
+      "common_mistake": "스트레서가 항상 부정적 사건이라고 오해하지만, 결혼이나 승진 같은 긍정적 사건도 적응을 요구하는 스트레서가 될 수 있다"
+    }
+  },
+  {
+    "id": "HEALTH_GAS_003",
+    "terminology": "일반적응증후군 (General Adaptation Syndrome, GAS)",
+    "terminology_ko": "일반적응증후군",
+    "terminology_en": "General Adaptation Syndrome",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "한스 셀리에가 제안한 스트레스에 대한 신체의 비특이적 반응 모형으로, 경고 반응기(alarm), 저항기(resistance), 소진기(exhaustion)의 세 단계로 구성된다.",
+    "definition_en": "A three-stage model of the body's nonspecific response to stress proposed by Hans Selye, consisting of the alarm reaction, resistance stage, and exhaustion stage.",
+    "significance": "스트레스가 신체에 미치는 생리적 영향을 최초로 체계화한 모형이다. 만성 스트레스가 면역력 저하와 질병으로 이어지는 메커니즘을 설명하며, 스트레스-질병 관계 연구의 기초가 되었다.",
+    "key_researchers": [
+      {"name_ko": "한스 셀리에", "name_en": "Hans Selye", "contribution": "1936년 GAS 모형을 제안하여, 스트레서의 종류와 무관하게 신체가 동일한 생리적 반응 패턴을 보임을 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"},
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "HEALTH_FF_004"},
+      {"name_ko": "코르티솔", "name_en": "Cortisol", "id": "HEALTH_CORT_020"},
+      {"name_ko": "소진", "name_en": "Burnout", "id": "HEALTH_BURN_012"}
+    ],
+    "sub_types": [
+      {"name_ko": "경고 반응기", "name_en": "Alarm Reaction", "description": "교감신경계가 활성화되어 투쟁-도피 반응이 나타나는 초기 단계"},
+      {"name_ko": "저항기", "name_en": "Resistance Stage", "description": "신체가 스트레서에 적응하려 시도하며, 겉으로는 정상으로 보이지만 내부 자원이 소모되는 단계"},
+      {"name_ko": "소진기", "name_en": "Exhaustion Stage", "description": "적응 에너지가 고갈되어 면역 기능이 저하되고 질병에 취약해지는 최종 단계"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "GAS = 경고(Alarm) → 저항(Resistance) → 소진(Exhaustion) → ARE 순서로 기억",
+      "differential": "GAS는 신체의 생리적 반응 단계이고, Lazarus 모형은 인지적 평가 과정이다. 전자는 보편적 반응, 후자는 개인차를 강조",
+      "key_point": "셀리에의 핵심 통찰: 스트레서의 종류가 달라도 신체 반응 패턴은 동일하다(비특이적 반응)",
+      "common_mistake": "GAS가 심리적 스트레스를 무시한다고 비판받지만, 셀리에의 원래 모형은 생리적 반응에 초점을 맞춘 것이다"
+    }
+  },
+  {
+    "id": "HEALTH_FF_004",
+    "terminology": "투쟁-도피 반응 (Fight-or-Flight Response)",
+    "terminology_ko": "투쟁-도피 반응",
+    "terminology_en": "Fight-or-Flight Response",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "위협적 상황에서 교감신경계가 활성화되어 신체를 위협에 맞서 싸우거나(fight) 도망칠(flight) 수 있도록 준비시키는 급성 생리적 각성 반응. 아드레날린과 노르아드레날린이 분비되어 심박수, 호흡, 근육 긴장이 증가한다.",
+    "definition_en": "An acute physiological arousal response in which the sympathetic nervous system is activated to prepare the body to either confront (fight) or flee from (flight) a perceived threat. Adrenaline and noradrenaline are released, increasing heart rate, respiration, and muscle tension.",
+    "significance": "진화적으로 생존에 필수적인 적응 반응이었으나, 현대 사회에서는 만성적으로 활성화되어 심혈관 질환 등 건강 문제를 유발할 수 있다. GAS의 경고 반응기에 해당한다.",
+    "key_researchers": [
+      {"name_ko": "월터 캐논", "name_en": "Walter Cannon", "contribution": "1929년 투쟁-도피 반응 개념을 최초로 명명하고, 교감신경-부신 축의 역할을 규명"},
+      {"name_ko": "셸리 테일러", "name_en": "Shelley Taylor", "contribution": "여성의 스트레스 반응으로 돌봄-친교 반응(tend-and-befriend)을 제안하여 투쟁-도피 모형을 보완"}
+    ],
+    "related_concepts": [
+      {"name_ko": "일반적응증후군", "name_en": "General Adaptation Syndrome", "id": "HEALTH_GAS_003"},
+      {"name_ko": "코르티솔", "name_en": "Cortisol", "id": "HEALTH_CORT_020"},
+      {"name_ko": "심혈관 질환과 스트레스", "name_en": "Cardiovascular Disease & Stress", "id": "HEALTH_CVD_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "Fight or Flight = 싸우거나(Fight) 도망가거나(Flight) → 월터 캐논이 명명",
+      "differential": "투쟁-도피 반응(급성 위협 대응)과 일반적응증후군(장기적 스트레스 반응 단계)을 구분할 것",
+      "key_point": "Taylor의 돌봄-친교 반응(tend-and-befriend)은 투쟁-도피가 주로 남성의 반응 패턴일 수 있음을 시사한다",
+      "common_mistake": "투쟁-도피 반응이 공포에서만 발생한다고 오해하지만, 분노, 긴급 상황 등 다양한 위협에서 활성화된다"
+    }
+  },
+  {
+    "id": "HEALTH_TYPEA_005",
+    "terminology": "A형 행동양식 (Type A Behavior Pattern)",
+    "terminology_ko": "A형 행동양식",
+    "terminology_en": "Type A Behavior Pattern",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "경쟁심, 시간 긴박감, 적대감, 공격성을 특징으로 하는 행동 패턴으로, 관상동맥 심장질환과의 관련성이 연구되어 왔다. 특히 적대감 요소가 심혈관 질환의 핵심 위험 요인으로 밝혀졌다.",
+    "definition_en": "A behavior pattern characterized by competitiveness, time urgency, hostility, and aggression, studied for its association with coronary heart disease. Hostility has been identified as the key component linked to cardiovascular risk.",
+    "significance": "성격과 신체 질환의 관계를 최초로 체계적으로 연구한 사례로, 행동의학과 건강심리학의 발전에 크게 기여했다. 후속 연구에서 적대감이 핵심 병인 요소로 분리되었다.",
+    "key_researchers": [
+      {"name_ko": "메이어 프리드먼", "name_en": "Meyer Friedman", "contribution": "레이 로젠만과 함께 A형 행동양식 개념을 제안하고 관상동맥 질환과의 관련성을 실증"},
+      {"name_ko": "레이 로젠만", "name_en": "Ray Rosenman", "contribution": "프리드먼과 공동으로 Western Collaborative Group Study를 수행하여 A형-심장질환 연결을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "B형 행동양식", "name_en": "Type B Behavior Pattern", "id": "HEALTH_TYPEB_006"},
+      {"name_ko": "심혈관 질환과 스트레스", "name_en": "Cardiovascular Disease & Stress", "id": "HEALTH_CVD_030"},
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HPSY_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "A형 = Aggressive(공격적), Ambitious(야심적), Angry(분노), Always in a hurry(항상 바쁨)",
+      "differential": "A형(경쟁적, 적대적, 시간 압박감)과 B형(여유롭고 느긋한)은 행동 양식의 양극단이다",
+      "key_point": "후속 연구에서 A형의 모든 요소가 아닌 '적대감(hostility)' 요소만이 심장질환의 독립적 위험 요인으로 확인되었다",
+      "common_mistake": "A형 행동양식이 곧 심장병을 유발한다고 단정짓는 오류 — 적대감이라는 특정 요소가 핵심이며, A형 전체가 위험 요인은 아니다"
+    }
+  },
+  {
+    "id": "HEALTH_TYPEB_006",
+    "terminology": "B형 행동양식 (Type B Behavior Pattern)",
+    "terminology_ko": "B형 행동양식",
+    "terminology_en": "Type B Behavior Pattern",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "여유롭고, 느긋하며, 비경쟁적인 행동 패턴으로, A형 행동양식과 대비되는 개념이다. 시간 압박감이 적고 적대감이 낮아 심혈관 질환의 위험이 상대적으로 낮은 것으로 알려져 있다.",
+    "definition_en": "A relaxed, easygoing, and noncompetitive behavior pattern, contrasted with Type A. Characterized by low time urgency and low hostility, associated with relatively lower risk of cardiovascular disease.",
+    "significance": "A형 행동양식의 대조 개념으로, 성격-건강 관계 연구에서 기준점 역할을 한다. 그러나 B형이 반드시 건강한 것은 아니며, 다양한 성격 차원이 건강에 영향을 미친다.",
+    "key_researchers": [
+      {"name_ko": "메이어 프리드먼", "name_en": "Meyer Friedman", "contribution": "A형과 대비되는 B형 행동양식을 함께 개념화"},
+      {"name_ko": "레이 로젠만", "name_en": "Ray Rosenman", "contribution": "A형/B형 분류 체계를 공동 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "A형 행동양식", "name_en": "Type A Behavior Pattern", "id": "HEALTH_TYPEA_005"},
+      {"name_ko": "심혈관 질환과 스트레스", "name_en": "Cardiovascular Disease & Stress", "id": "HEALTH_CVD_030"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "B형 = Be relaxed(여유롭게), Be calm(차분하게) → 느긋한 행동양식",
+      "differential": "A형(경쟁적·적대적·시간압박)과 B형(여유롭고·비경쟁적)은 연속선상의 양극단이다",
+      "key_point": "A형/B형 구분은 이분법이 아닌 연속선(continuum)으로 이해해야 한다",
+      "common_mistake": "B형이 '게으른' 성격이라고 오해하지만, 여유로움과 게으름은 다른 개념이다"
+    }
+  },
+  {
+    "id": "HEALTH_PNI_007",
+    "terminology": "심리신경면역학 (Psychoneuroimmunology)",
+    "terminology_ko": "심리신경면역학",
+    "terminology_en": "Psychoneuroimmunology",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "심리적 과정(스트레스, 정서, 인지)이 신경계와 내분비계를 매개로 면역 기능에 미치는 영향을 연구하는 학제간 분야. 스트레스가 면역력을 저하시키는 경로를 과학적으로 규명한다.",
+    "definition_en": "An interdisciplinary field studying how psychological processes (stress, emotion, cognition) influence immune function through the nervous and endocrine systems. It scientifically elucidates the pathways through which stress suppresses immunity.",
+    "significance": "마음과 몸의 연결을 실증적으로 입증한 분야로, 스트레스가 감기, 암, 자가면역 질환 등 다양한 질병의 발병과 경과에 영향을 미치는 메커니즘을 밝혔다.",
+    "key_researchers": [
+      {"name_ko": "로버트 아더", "name_en": "Robert Ader", "contribution": "1981년 '심리신경면역학(Psychoneuroimmunology)'이라는 용어를 창안하고, 면역 반응이 조건화될 수 있음을 실험으로 증명"},
+      {"name_ko": "자니스 키콜트-글레이저", "name_en": "Janice Kiecolt-Glaser", "contribution": "시험 스트레스가 의대생의 면역 기능을 저하시킨다는 연구 등 스트레스-면역 관계에 대한 핵심적 실증 연구 수행"}
+    ],
+    "related_concepts": [
+      {"name_ko": "면역계", "name_en": "Immune System", "id": "HEALTH_IMMUNE_021"},
+      {"name_ko": "코르티솔", "name_en": "Cortisol", "id": "HEALTH_CORT_020"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "PNI = Psycho(심리) + Neuro(신경) + Immunology(면역학) → 세 체계의 연결",
+      "differential": "심리신경면역학(마음→면역)과 건강심리학(행동→건강 전반)은 범위가 다르다. PNI는 면역 메커니즘에 초점",
+      "key_point": "Robert Ader의 고전 실험: 쥐에게 면역억제제와 사카린 용액을 짝지어 제시하자, 나중에 사카린만으로도 면역 반응이 억제됨",
+      "common_mistake": "PNI가 스트레스의 면역 억제만 연구한다고 오해하지만, 긍정적 심리 상태가 면역 기능을 강화하는 과정도 포함한다"
+    }
+  },
+  {
+    "id": "HEALTH_COPE_008",
+    "terminology": "대처 (Coping)",
+    "terminology_ko": "대처",
+    "terminology_en": "Coping",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "스트레스 상황의 요구를 관리하기 위해 개인이 사용하는 인지적·행동적 노력. 문제중심 대처와 정서중심 대처로 크게 구분되며, 상황에 따라 적응적이거나 부적응적일 수 있다.",
+    "definition_en": "Cognitive and behavioral efforts used by an individual to manage the demands of a stressful situation. Broadly categorized into problem-focused and emotion-focused coping, which can be adaptive or maladaptive depending on the situation.",
+    "significance": "Lazarus와 Folkman의 스트레스 이론에서 핵심 개념으로, 스트레스 자체보다 대처 방식이 적응 결과를 결정한다. 임상심리학과 건강심리학의 핵심 중재 표적이다.",
+    "key_researchers": [
+      {"name_ko": "리처드 래저러스", "name_en": "Richard Lazarus", "contribution": "수전 폴크만과 함께 대처의 인지적 평가 모형을 제안하고 문제중심/정서중심 대처의 분류 체계를 정립"},
+      {"name_ko": "수전 폴크만", "name_en": "Susan Folkman", "contribution": "Lazarus와 공동으로 스트레스 대처 이론을 발전시키고, 의미중심 대처(meaning-focused coping)를 추가 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "문제중심 대처", "name_en": "Problem-Focused Coping", "id": "HEALTH_PFC_009"},
+      {"name_ko": "정서중심 대처", "name_en": "Emotion-Focused Coping", "id": "HEALTH_EFC_010"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "문제중심 대처", "name_en": "Problem-Focused Coping", "description": "스트레스 원인을 직접 해결하려는 대처 전략"},
+      {"name_ko": "정서중심 대처", "name_en": "Emotion-Focused Coping", "description": "스트레스로 인한 부정적 정서를 조절하려는 대처 전략"},
+      {"name_ko": "의미중심 대처", "name_en": "Meaning-Focused Coping", "description": "역경에서 긍정적 의미를 발견하고 가치를 재정립하는 대처 전략"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "대처 = 對(맞설 대) + 處(곳 처) → 스트레스에 맞서는 방법",
+      "differential": "대처(의식적 노력)와 방어기제(무의식적 기제)를 구분할 것. 대처는 인지적으로 자각된 전략이다",
+      "key_point": "통제 가능한 상황에서는 문제중심 대처가, 통제 불가능한 상황에서는 정서중심 대처가 더 적응적이다",
+      "common_mistake": "정서중심 대처가 항상 비효과적이라고 오해하지만, 상황에 따라 가장 적응적인 전략일 수 있다"
+    }
+  },
+  {
+    "id": "HEALTH_PFC_009",
+    "terminology": "문제중심 대처 (Problem-Focused Coping)",
+    "terminology_ko": "문제중심 대처",
+    "terminology_en": "Problem-Focused Coping",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "스트레스의 원인이 되는 문제를 직접 해결하거나 변화시키려는 대처 전략. 정보 수집, 계획 수립, 직접 행동, 도움 요청 등이 포함된다.",
+    "definition_en": "A coping strategy aimed at directly addressing or changing the source of stress. Includes information gathering, planning, direct action, and seeking instrumental help.",
+    "significance": "스트레서가 통제 가능한 상황에서 가장 효과적인 대처 방식으로, 스트레스의 근본 원인을 제거함으로써 장기적 적응에 기여한다.",
+    "key_researchers": [
+      {"name_ko": "리처드 래저러스", "name_en": "Richard Lazarus", "contribution": "문제중심 대처와 정서중심 대처의 이원적 분류 체계를 제안"},
+      {"name_ko": "수전 폴크만", "name_en": "Susan Folkman", "contribution": "대처 방식 질문지(Ways of Coping Questionnaire)를 개발하여 대처 유형을 측정"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대처", "name_en": "Coping", "id": "HEALTH_COPE_008"},
+      {"name_ko": "정서중심 대처", "name_en": "Emotion-Focused Coping", "id": "HEALTH_EFC_010"},
+      {"name_ko": "통제감", "name_en": "Perceived Control", "id": "HEALTH_CTRL_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "문제중심 = 문제를 직접 해결 → Problem을 Fix하는 대처",
+      "differential": "문제중심(원인 해결)과 정서중심(감정 조절)은 동시에 사용 가능하며, 상호배타적이지 않다",
+      "key_point": "통제 가능한 상황(예: 시험 준비 부족)에서는 문제중심 대처가 더 적응적이다",
+      "common_mistake": "문제중심 대처가 항상 최선이라고 오해하지만, 통제 불가능한 상황(예: 사별)에서는 오히려 비효과적일 수 있다"
+    }
+  },
+  {
+    "id": "HEALTH_EFC_010",
+    "terminology": "정서중심 대처 (Emotion-Focused Coping)",
+    "terminology_ko": "정서중심 대처",
+    "terminology_en": "Emotion-Focused Coping",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "스트레스로 인한 부정적 감정을 조절하고 완화하기 위한 대처 전략. 재평가, 정서적 지지 추구, 이완, 수용, 회피 등이 포함된다.",
+    "definition_en": "A coping strategy aimed at regulating and alleviating negative emotions caused by stress. Includes reappraisal, seeking emotional support, relaxation, acceptance, and avoidance.",
+    "significance": "통제 불가능한 상황에서 심리적 안녕을 유지하는 데 핵심적 역할을 한다. 적응적 정서중심 대처(재평가, 수용)와 부적응적 정서중심 대처(회피, 부인)를 구분하는 것이 중요하다.",
+    "key_researchers": [
+      {"name_ko": "수전 폴크만", "name_en": "Susan Folkman", "contribution": "정서중심 대처의 적응적 기능을 강조하고, 긍정적 재평가의 효과를 실증"},
+      {"name_ko": "리처드 래저러스", "name_en": "Richard Lazarus", "contribution": "정서중심 대처를 문제중심 대처와 대등한 독립적 대처 유형으로 개념화"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대처", "name_en": "Coping", "id": "HEALTH_COPE_008"},
+      {"name_ko": "문제중심 대처", "name_en": "Problem-Focused Coping", "id": "HEALTH_PFC_009"},
+      {"name_ko": "사회적 지지", "name_en": "Social Support", "id": "HEALTH_SOCSUP_011"}
+    ],
+    "sub_types": [
+      {"name_ko": "적응적 정서중심 대처", "name_en": "Adaptive Emotion-Focused Coping", "description": "인지적 재평가, 수용, 정서적 지지 추구 등 건강한 정서 조절 전략"},
+      {"name_ko": "부적응적 정서중심 대처", "name_en": "Maladaptive Emotion-Focused Coping", "description": "회피, 부인, 약물 남용 등 장기적으로 해로운 정서 조절 전략"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "정서중심 = 감정(Emotion)을 다스리는 대처 → 원인이 아닌 감정에 초점",
+      "differential": "정서중심 대처 중 재평가·수용은 적응적이지만, 회피·부인은 부적응적이다. 같은 범주 내에서도 효과가 다르다",
+      "key_point": "사별, 불치병 진단 등 통제 불가능한 상황에서는 정서중심 대처가 가장 적응적인 전략이 된다",
+      "common_mistake": "정서중심 대처를 '약한' 대처 방식으로 평가하는 오류 — 상황 적합성이 효과를 결정한다"
+    }
+  },
+  {
+    "id": "HEALTH_SOCSUP_011",
+    "terminology": "사회적 지지 (Social Support)",
+    "terminology_ko": "사회적 지지",
+    "terminology_en": "Social Support",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "타인으로부터 받는 정서적, 도구적, 정보적, 평가적 도움으로, 스트레스의 부정적 영향을 완충하는 보호 요인이다. 지각된 사회적 지지가 실제 지지보다 건강에 더 강한 영향을 미친다.",
+    "definition_en": "Emotional, instrumental, informational, and appraisal assistance received from others, serving as a protective buffer against the negative effects of stress. Perceived social support has a stronger impact on health than actual support received.",
+    "significance": "스트레스 완충 모형(buffering hypothesis)에서 핵심 매개 변인으로, 사회적 지지가 높은 사람은 스트레스 상황에서도 건강을 더 잘 유지한다. 면역 기능, 심혈관 건강, 정신건강 모두에 보호 효과가 있다.",
+    "key_researchers": [
+      {"name_ko": "셀던 코헨", "name_en": "Sheldon Cohen", "contribution": "사회적 지지의 스트레스 완충 효과를 실증하고, 사회적 통합이 감기 바이러스 저항력을 높인다는 실험 연구 수행"},
+      {"name_ko": "하우스", "name_en": "James House", "contribution": "사회적 지지의 네 가지 유형(정서적, 도구적, 정보적, 평가적)을 분류하고 직업 스트레스에서의 완충 효과를 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대처", "name_en": "Coping", "id": "HEALTH_COPE_008"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RESIL_023"}
+    ],
+    "sub_types": [
+      {"name_ko": "정서적 지지", "name_en": "Emotional Support", "description": "공감, 돌봄, 사랑 등 정서적 위로와 안정감을 제공하는 지지"},
+      {"name_ko": "도구적 지지", "name_en": "Instrumental Support", "description": "금전적 도움, 물자 제공 등 실질적·물질적 도움"},
+      {"name_ko": "정보적 지지", "name_en": "Informational Support", "description": "조언, 안내, 정보 제공 등 문제 해결에 도움이 되는 지식 제공"},
+      {"name_ko": "평가적 지지", "name_en": "Appraisal Support", "description": "자기평가에 도움이 되는 피드백과 사회적 비교 정보 제공"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "사회적 지지의 4유형: 정서적·도구적·정보적·평가적 → 정·도·정·평",
+      "differential": "스트레스 완충 모형(사회적 지지가 스트레스 영향을 완충)과 직접 효과 모형(사회적 지지가 항상 건강에 이로움)을 구분",
+      "key_point": "Cohen의 연구: 사회적 네트워크가 다양한 사람들이 감기 바이러스에 노출되어도 감기에 걸릴 확률이 낮았다",
+      "common_mistake": "사회적 지지를 양적으로만 판단하는 오류 — 관계의 수보다 지각된 지지의 질이 건강에 더 중요하다"
+    }
+  },
+  {
+    "id": "HEALTH_BURN_012",
+    "terminology": "소진 (Burnout)",
+    "terminology_ko": "소진",
+    "terminology_en": "Burnout",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "만성적 직무 스트레스에 대한 반응으로 나타나는 심리적 증후군. 정서적 고갈(emotional exhaustion), 비인격화(depersonalization), 개인적 성취감 저하(reduced personal accomplishment)의 세 요소로 구성된다.",
+    "definition_en": "A psychological syndrome resulting from chronic occupational stress, consisting of three components: emotional exhaustion, depersonalization (cynicism), and reduced personal accomplishment.",
+    "significance": "현대 산업사회에서 주요 직업 건강 문제로 인식되며, 의료·교육·사회서비스 종사자에게 특히 높은 유병률을 보인다. WHO가 ICD-11에 직업 관련 현상으로 포함시켰다.",
+    "key_researchers": [
+      {"name_ko": "크리스티나 매슬랙", "name_en": "Christina Maslach", "contribution": "소진의 3요소 모형을 제안하고, 매슬랙 소진 척도(MBI)를 개발하여 소진 연구의 표준을 확립"},
+      {"name_ko": "허버트 프로이덴버거", "name_en": "Herbert Freudenberger", "contribution": "1974년 '번아웃(burnout)'이라는 용어를 심리학에 최초로 도입"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"},
+      {"name_ko": "일반적응증후군", "name_en": "General Adaptation Syndrome", "id": "HEALTH_GAS_003"},
+      {"name_ko": "통제감", "name_en": "Perceived Control", "id": "HEALTH_CTRL_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "소진 3요소: 정서적 고갈·비인격화·성취감 저하 → '정비성' 또는 'EDA(Exhaustion-Depersonalization-Accomplishment↓)'",
+      "differential": "소진(직무 관련 만성 스트레스)과 우울증(전반적 기능 저하)은 원인과 범위가 다르다",
+      "key_point": "소진은 개인의 취약성보다 직무 환경(과도한 업무량, 통제 부족, 보상 부족)이 주요 원인이다",
+      "common_mistake": "소진을 단순한 '피로'와 동일시하는 오류 — 소진은 정서적 고갈, 냉소주의, 효능감 저하를 포함하는 복합 증후군이다"
+    }
+  },
+  {
+    "id": "HEALTH_CTRL_013",
+    "terminology": "통제감 (Perceived Control)",
+    "terminology_ko": "통제감",
+    "terminology_en": "Perceived Control",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "자신이 환경이나 사건에 영향을 미칠 수 있다고 지각하는 주관적 믿음. 통제감이 높을수록 스트레스의 부정적 영향이 감소하며, 신체적·심리적 건강이 향상된다.",
+    "definition_en": "The subjective belief that one can influence events and outcomes in one's environment. Higher perceived control is associated with reduced negative effects of stress and improved physical and psychological health.",
+    "significance": "학습된 무기력 이론과 연결되어, 통제감 상실이 우울, 무기력, 면역 기능 저하를 초래함을 보여준다. 노인 건강, 직업 스트레스, 환자 회복 등 다양한 영역에서 중요한 보호 요인이다.",
+    "key_researchers": [
+      {"name_ko": "엘런 랭어", "name_en": "Ellen Langer", "contribution": "요양원 연구를 통해 통제감이 노인의 건강과 생존율에 미치는 극적 효과를 실증"},
+      {"name_ko": "마틴 셀리그만", "name_en": "Martin Seligman", "contribution": "학습된 무기력(learned helplessness) 이론으로 통제감 상실의 부정적 결과를 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"},
+      {"name_ko": "자기효능감과 건강", "name_en": "Self-Efficacy & Health", "id": "HEALTH_SE_029"},
+      {"name_ko": "낙관주의", "name_en": "Optimism", "id": "HEALTH_OPT_014"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "통제감 = 내가 변화시킬 수 있다는 믿음 → Langer의 요양원 화분 실험",
+      "differential": "통제감(내가 영향을 미칠 수 있다는 믿음)과 자기효능감(특정 과제를 수행할 수 있다는 믿음)은 범위가 다르다",
+      "key_point": "Langer & Rodin(1976) 요양원 연구: 화분을 돌보는 선택권을 가진 노인들이 그렇지 않은 노인보다 더 건강하고 오래 생존했다",
+      "common_mistake": "실제 통제력보다 '지각된' 통제감이 건강에 더 중요하다는 점을 놓치는 경우가 많다"
+    }
+  },
+  {
+    "id": "HEALTH_OPT_014",
+    "terminology": "낙관주의 (Optimism)",
+    "terminology_ko": "낙관주의",
+    "terminology_en": "Optimism",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "미래에 좋은 결과가 일어날 것이라고 기대하는 일반화된 경향성. 낙관주의자는 스트레스 상황에서 더 적극적인 대처 전략을 사용하고, 더 나은 신체적·심리적 건강 결과를 보인다.",
+    "definition_en": "A generalized tendency to expect positive outcomes. Optimists tend to use more active coping strategies under stress and demonstrate better physical and psychological health outcomes.",
+    "significance": "긍정심리학의 핵심 개념으로, Scheier와 Carver의 성향적 낙관주의 연구와 Seligman의 학습된 낙관주의 연구가 건강에 대한 낙관주의의 보호 효과를 폭넓게 입증했다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그만", "name_en": "Martin Seligman", "contribution": "학습된 낙관주의(learned optimism) 개념을 제안하고, 설명양식(explanatory style)이 건강에 미치는 영향을 연구"},
+      {"name_ko": "마이클 셰이어", "name_en": "Michael Scheier", "contribution": "찰스 카버와 함께 성향적 낙관주의(dispositional optimism) 개념과 LOT(Life Orientation Test) 척도를 개발"}
+    ],
+    "related_concepts": [
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_POSPSYCH_022"},
+      {"name_ko": "통제감", "name_en": "Perceived Control", "id": "HEALTH_CTRL_013"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RESIL_023"}
+    ],
+    "sub_types": [
+      {"name_ko": "성향적 낙관주의", "name_en": "Dispositional Optimism", "description": "미래에 대해 일반적으로 긍정적 결과를 기대하는 안정적 성격 특성"},
+      {"name_ko": "학습된 낙관주의", "name_en": "Learned Optimism", "description": "설명양식을 변화시켜 훈련으로 습득 가능한 낙관적 사고 방식"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "낙관주의 = 좋은 일은 '내 덕', 나쁜 일은 '일시적·상황적' → 설명양식의 차이",
+      "differential": "낙관주의(미래 결과에 대한 기대)와 자기효능감(특정 과제 수행 능력에 대한 믿음)을 구분",
+      "key_point": "Seligman의 설명양식: 낙관주의자는 나쁜 사건을 일시적·특수적·외적 원인으로, 좋은 사건을 영구적·보편적·내적 원인으로 설명한다",
+      "common_mistake": "비현실적 낙관주의(unrealistic optimism)는 오히려 위험 행동을 증가시킬 수 있다는 점을 간과하는 오류"
+    }
+  },
+  {
+    "id": "HEALTH_PSY_015",
+    "terminology": "심신장애 (Psychosomatic Disorder)",
+    "terminology_ko": "심신장애",
+    "terminology_en": "Psychosomatic Disorder",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "심리적 요인(스트레스, 정서, 성격 등)이 발병이나 악화에 중요한 역할을 하는 신체 질환. 실제 기질적 병변이 존재하며, 단순한 꾀병이나 상상이 아니다.",
+    "definition_en": "Physical illness in which psychological factors (stress, emotion, personality) play a significant role in onset or exacerbation. Actual organic pathology exists; it is not malingering or imaginary.",
+    "significance": "마음-몸 이원론을 극복하고 생물심리사회 모형의 필요성을 보여주는 대표적 개념이다. 위궤양, 고혈압, 천식, 습진 등이 초기 심신의학의 주요 연구 대상이었다.",
+    "key_researchers": [
+      {"name_ko": "프란츠 알렉산더", "name_en": "Franz Alexander", "contribution": "시카고학파의 심신의학을 이끌며, 특정 심리적 갈등이 특정 신체 질환과 연결된다는 특이성 가설(specificity hypothesis)을 제안"},
+      {"name_ko": "헬렌 플랜더스 던바", "name_en": "Helen Flanders Dunbar", "contribution": "심신의학(psychosomatic medicine) 분야의 선구자로, 성격 유형과 질병의 관계를 체계적으로 연구"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HPSY_016"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"},
+      {"name_ko": "심리신경면역학", "name_en": "Psychoneuroimmunology", "id": "HEALTH_PNI_007"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "심신(心身)장애 = 마음(心/psycho) + 몸(身/somatic) → 마음이 몸에 영향",
+      "differential": "심신장애(실제 기질적 병변 존재)와 전환장애(conversion disorder, 신경학적 원인 없는 신체 증상)를 구분",
+      "key_point": "현대에는 '심신장애'보다 '심리적 요인이 영향을 미치는 의학적 상태(psychological factors affecting medical condition)'라는 표현이 선호된다",
+      "common_mistake": "심신장애를 '마음의 병'이나 '가짜 질병'으로 오해하지만, 실제 신체적 손상이 존재하는 진짜 질환이다"
+    }
+  },
+  {
+    "id": "HEALTH_HPSY_016",
+    "terminology": "건강심리학 (Health Psychology)",
+    "terminology_ko": "건강심리학",
+    "terminology_en": "Health Psychology",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "건강의 증진과 유지, 질병의 예방과 치료, 건강 관련 행동의 이해에 심리학 원리를 적용하는 분야. 생물심리사회 모형(biopsychosocial model)에 기반한다.",
+    "definition_en": "A field that applies psychological principles to the promotion and maintenance of health, prevention and treatment of illness, and understanding of health-related behaviors. Based on the biopsychosocial model.",
+    "significance": "생의학적 모형(biomedical model)의 한계를 극복하고, 건강과 질병에 대한 다차원적 접근을 제공한다. 행동 변화, 환자 순응, 통증 관리, 만성질환 대처 등을 연구한다.",
+    "key_researchers": [
+      {"name_ko": "조지프 마타라초", "name_en": "Joseph Matarazzo", "contribution": "건강심리학을 독립적 학문 분야로 확립하는 데 주도적 역할을 하고, 행동건강(behavioral health) 개념을 정의"},
+      {"name_ko": "조지 엥겔", "name_en": "George Engel", "contribution": "생물심리사회 모형(biopsychosocial model)을 제안하여 건강심리학의 이론적 토대를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동의학", "name_en": "Behavioral Medicine", "id": "HEALTH_BMED_017"},
+      {"name_ko": "심신장애", "name_en": "Psychosomatic Disorder", "id": "HEALTH_PSY_015"},
+      {"name_ko": "건강행동", "name_en": "Health Behavior", "id": "HEALTH_HBEHAV_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "건강심리학 = 심리학 + 건강 → 생물심리사회(BPS) 모형이 핵심 프레임워크",
+      "differential": "건강심리학(심리학 내 분과)과 행동의학(의학·심리학 통합 학제간 분야)의 범위 차이를 이해",
+      "key_point": "Engel(1977)의 생물심리사회 모형: 건강과 질병은 생물학적·심리적·사회적 요인의 상호작용으로 결정된다",
+      "common_mistake": "건강심리학이 정신건강만 다룬다고 오해하지만, 신체 질환의 예방·치료·재활에서의 심리적 요인을 폭넓게 연구한다"
+    }
+  },
+  {
+    "id": "HEALTH_BMED_017",
+    "terminology": "행동의학 (Behavioral Medicine)",
+    "terminology_ko": "행동의학",
+    "terminology_en": "Behavioral Medicine",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "건강과 질병에 관련된 행동과학적 지식과 기법을 의학에 통합하여 적용하는 학제간 분야. 질병 예방, 진단, 치료, 재활에서 행동적 접근을 활용한다.",
+    "definition_en": "An interdisciplinary field that integrates behavioral science knowledge and techniques with medicine for application to health and illness. It utilizes behavioral approaches in disease prevention, diagnosis, treatment, and rehabilitation.",
+    "significance": "심리학, 의학, 공중보건, 사회학 등을 통합하는 광범위한 학제간 접근으로, 만성질환 관리, 건강행동 변화, 통증 관리 등에서 핵심적 역할을 한다.",
+    "key_researchers": [
+      {"name_ko": "닐 밀러", "name_en": "Neal Miller", "contribution": "바이오피드백 연구의 선구자로, 자율신경계 반응의 조건화 가능성을 증명하여 행동의학의 기초를 마련"},
+      {"name_ko": "오블 폼로", "name_en": "Ovide Pomerleau", "contribution": "행동의학의 정의와 범위를 체계화하는 데 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HPSY_016"},
+      {"name_ko": "바이오피드백", "name_en": "Biofeedback", "id": "HEALTH_BIO_026"},
+      {"name_ko": "건강행동", "name_en": "Health Behavior", "id": "HEALTH_HBEHAV_027"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "행동의학 = 행동과학 + 의학의 통합 → 건강심리학보다 넓은 학제간 분야",
+      "differential": "행동의학(학제간 통합 분야, 의학 포함)과 건강심리학(심리학 내 하위 분야)은 범위가 다르다",
+      "key_point": "행동의학은 심리학자뿐 아니라 의사, 간호사, 공중보건 전문가 등이 함께 참여하는 통합적 분야이다",
+      "common_mistake": "행동의학과 건강심리학을 동의어로 사용하는 오류 — 행동의학이 더 넓은 학제간 개념이다"
+    }
+  },
+  {
+    "id": "HEALTH_LIFE_018",
+    "terminology": "생활사건 스트레스 (Life Events Stress)",
+    "terminology_ko": "생활사건 스트레스",
+    "terminology_en": "Life Events Stress",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "결혼, 이혼, 해고, 이사 등 중요한 생활 변화가 적응을 요구하여 유발하는 스트레스. Holmes와 Rahe의 사회재적응평가척도(SRRS)로 측정하며, 누적된 생활 변화 단위(LCU)가 높을수록 질병 위험이 증가한다.",
+    "definition_en": "Stress caused by major life changes (marriage, divorce, job loss, relocation) that require adaptation. Measured by Holmes and Rahe's Social Readjustment Rating Scale (SRRS); higher accumulated Life Change Units (LCU) are associated with increased illness risk.",
+    "significance": "스트레스를 정량화하려는 최초의 체계적 시도로, 생활사건과 건강의 상관을 실증했다. 그러나 개인차를 무시하고 사건의 객관적 가중치만 고려한다는 비판을 받는다.",
+    "key_researchers": [
+      {"name_ko": "토머스 홈스", "name_en": "Thomas Holmes", "contribution": "리처드 라헤와 사회재적응평가척도(SRRS)를 개발하여 43가지 생활사건에 스트레스 점수를 부여"},
+      {"name_ko": "리처드 라헤", "name_en": "Richard Rahe", "contribution": "해군 연구를 통해 LCU 점수와 질병 발생률의 상관을 실증적으로 검증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "스트레서", "name_en": "Stressor", "id": "HEALTH_STRESSOR_002"},
+      {"name_ko": "일상적 번거로움", "name_en": "Daily Hassles", "id": "HEALTH_HASSLE_019"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "SRRS = Social Readjustment Rating Scale → 사회재적응평가척도. 배우자 사망(100점)이 최고 점수",
+      "differential": "생활사건 스트레스(주요 사건)와 일상적 번거로움(사소한 반복 스트레스)은 다른 유형의 스트레서이다",
+      "key_point": "SRRS에서 배우자 사망(100), 이혼(73), 결혼(50)의 점수를 기억할 것 — 긍정적 사건도 적응을 요구하므로 스트레스를 유발한다",
+      "common_mistake": "생활사건 점수가 높으면 반드시 질병에 걸린다고 오해하지만, 상관관계이지 인과관계가 아니며 개인차가 크다"
+    }
+  },
+  {
+    "id": "HEALTH_HASSLE_019",
+    "terminology": "일상적 번거로움 (Daily Hassles)",
+    "terminology_ko": "일상적 번거로움",
+    "terminology_en": "Daily Hassles",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "교통 체증, 업무 마감, 가사 부담 등 일상생활에서 반복적으로 경험하는 사소하지만 짜증스러운 사건들. 연구에 따르면, 주요 생활사건보다 일상적 번거로움의 누적이 건강에 더 큰 영향을 미칠 수 있다.",
+    "definition_en": "Minor but irritating events experienced repeatedly in daily life, such as traffic jams, work deadlines, and household chores. Research suggests that accumulated daily hassles may have a greater impact on health than major life events.",
+    "significance": "Kanner 등의 연구는 일상적 번거로움이 주요 생활사건보다 심리적 안녕과 신체 건강의 더 강력한 예측 변인임을 보여주었다. 스트레스 측정의 정교화에 기여했다.",
+    "key_researchers": [
+      {"name_ko": "앨런 캐너", "name_en": "Allen Kanner", "contribution": "일상적 번거로움 척도(Hassles Scale)를 개발하고, 번거로움이 건강에 미치는 영향을 실증"},
+      {"name_ko": "리처드 래저러스", "name_en": "Richard Lazarus", "contribution": "일상적 번거로움이 주요 생활사건보다 건강의 더 나은 예측 변인이라는 주장을 뒷받침하는 이론적 틀을 제공"}
+    ],
+    "related_concepts": [
+      {"name_ko": "생활사건 스트레스", "name_en": "Life Events Stress", "id": "HEALTH_LIFE_018"},
+      {"name_ko": "스트레서", "name_en": "Stressor", "id": "HEALTH_STRESSOR_002"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "일상적 번거로움 = 작지만 쌓이면 큰 스트레스 → '티끌 모아 태산'",
+      "differential": "일상적 번거로움(사소하지만 반복적)과 생활사건(드물지만 중대한) — 전자가 건강을 더 잘 예측한다는 연구가 있다",
+      "key_point": "Kanner 등(1981): 일상적 번거로움의 빈도와 강도가 심리적·신체적 증상의 더 강력한 예측 변인이었다",
+      "common_mistake": "사소한 일이라서 건강에 영향을 미치지 않는다고 간과하지만, 누적 효과가 심각할 수 있다"
+    }
+  },
+  {
+    "id": "HEALTH_CORT_020",
+    "terminology": "코르티솔 (Cortisol)",
+    "terminology_ko": "코르티솔",
+    "terminology_en": "Cortisol",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "부신피질에서 분비되는 주요 스트레스 호르몬(글루코코르티코이드)으로, HPA축(시상하부-뇌하수체-부신 축)에 의해 조절된다. 단기적으로는 에너지 동원과 면역 조절에 기여하지만, 만성적 분비 시 면역 억제, 해마 손상, 체지방 축적 등을 초래한다.",
+    "definition_en": "A major stress hormone (glucocorticoid) secreted by the adrenal cortex, regulated by the HPA (hypothalamic-pituitary-adrenal) axis. Acutely, it mobilizes energy and modulates immune function, but chronic elevation can suppress immunity, damage the hippocampus, and increase body fat.",
+    "significance": "스트레스의 생리적 메커니즘을 이해하는 핵심 바이오마커이다. 만성 스트레스 → 코르티솔 상승 → 면역 억제 → 질병 취약성 증가의 경로가 심리신경면역학의 중심 모형이다.",
+    "key_researchers": [
+      {"name_ko": "브루스 매큐언", "name_en": "Bruce McEwen", "contribution": "알로스타틱 부하(allostatic load) 개념을 제안하여, 만성적 코르티솔 상승이 신체에 미치는 누적적 마모를 설명"},
+      {"name_ko": "로버트 사폴스키", "name_en": "Robert Sapolsky", "contribution": "영장류 연구를 통해 만성 스트레스로 인한 코르티솔 상승이 해마 뉴런을 손상시킴을 발견"}
+    ],
+    "related_concepts": [
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "HEALTH_FF_004"},
+      {"name_ko": "심리신경면역학", "name_en": "Psychoneuroimmunology", "id": "HEALTH_PNI_007"},
+      {"name_ko": "면역계", "name_en": "Immune System", "id": "HEALTH_IMMUNE_021"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "코르티솔 = '스트레스 호르몬' → HPA축(시상하부→뇌하수체→부신피질) 경로로 분비",
+      "differential": "아드레날린(급성 투쟁-도피, 교감신경계)과 코르티솔(지속적 스트레스 반응, HPA축)의 경로와 시간 차이를 구분",
+      "key_point": "Sapolsky: 만성적 코르티솔 상승은 해마의 신경세포를 손상시켜 기억력 저하를 유발한다",
+      "common_mistake": "코르티솔이 항상 해롭다고 오해하지만, 정상 수준의 코르티솔은 에너지 동원, 항염증, 면역 조절에 필수적이다"
+    }
+  },
+  {
+    "id": "HEALTH_IMMUNE_021",
+    "terminology": "면역계 (Immune System)",
+    "terminology_ko": "면역계",
+    "terminology_en": "Immune System",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "세균, 바이러스 등 병원체와 이상 세포로부터 신체를 방어하는 생물학적 체계. 심리적 스트레스가 면역 기능을 저하시켜 감염과 질병에 대한 취약성을 높인다는 것이 심리신경면역학의 핵심 발견이다.",
+    "definition_en": "A biological system that defends the body against pathogens such as bacteria and viruses, as well as abnormal cells. A central finding of psychoneuroimmunology is that psychological stress suppresses immune function, increasing vulnerability to infection and disease.",
+    "significance": "스트레스-건강 관계의 핵심 매개 체계로, T세포, B세포, 자연살해세포(NK cell) 등의 기능이 스트레스에 의해 변화한다. 건강심리학 연구에서 면역 기능은 스트레스의 객관적 생리적 지표로 사용된다.",
+    "key_researchers": [
+      {"name_ko": "자니스 키콜트-글레이저", "name_en": "Janice Kiecolt-Glaser", "contribution": "만성 스트레스(간병인 스트레스)가 면역 기능을 저하시키고 상처 치유를 지연시킨다는 연구 수행"},
+      {"name_ko": "로버트 아더", "name_en": "Robert Ader", "contribution": "면역 반응의 고전적 조건화 가능성을 증명하여 심리신경면역학의 기초를 마련"}
+    ],
+    "related_concepts": [
+      {"name_ko": "심리신경면역학", "name_en": "Psychoneuroimmunology", "id": "HEALTH_PNI_007"},
+      {"name_ko": "코르티솔", "name_en": "Cortisol", "id": "HEALTH_CORT_020"},
+      {"name_ko": "스트레스", "name_en": "Stress", "id": "HEALTH_STRESS_001"}
+    ],
+    "sub_types": [
+      {"name_ko": "선천면역", "name_en": "Innate Immunity", "description": "비특이적 방어 체계로, 피부, 점막, 자연살해세포, 식세포 등이 포함된다"},
+      {"name_ko": "적응면역", "name_en": "Adaptive Immunity", "description": "특정 병원체에 대한 특이적 방어 체계로, T세포와 B세포에 의해 매개된다"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "면역계 = 신체의 방어군 → 스트레스가 이 방어군을 약화시킨다",
+      "differential": "선천면역(비특이적, 즉각 반응)과 적응면역(특이적, 학습된 반응)을 구분할 것",
+      "key_point": "Kiecolt-Glaser 연구: 알츠하이머 환자를 돌보는 간병인은 대조군보다 면역 기능이 유의하게 저하되었다",
+      "common_mistake": "면역 기능은 이분법적(강하다/약하다)이 아니라, 다양한 면역 세포와 경로가 각각 다르게 영향받는다"
+    }
+  },
+  {
+    "id": "HEALTH_POSPSYCH_022",
+    "terminology": "긍정심리학 (Positive Psychology)",
+    "terminology_ko": "긍정심리학",
+    "terminology_en": "Positive Psychology",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "인간의 강점, 미덕, 최적 기능, 웰빙을 과학적으로 연구하는 심리학 분야. 정신병리와 약점에 초점을 맞추던 전통적 접근에서 벗어나, 행복, 몰입, 의미, 긍정적 관계 등을 탐구한다.",
+    "definition_en": "A branch of psychology that scientifically studies human strengths, virtues, optimal functioning, and well-being. Moving beyond the traditional focus on psychopathology and weakness, it explores happiness, flow, meaning, and positive relationships.",
+    "significance": "스트레스와 건강 분야에서 회복탄력성, 외상 후 성장, 긍정 정서의 건강 보호 효과 등을 연구함으로써, 질병 예방과 건강 증진의 새로운 관점을 제공한다.",
+    "key_researchers": [
+      {"name_ko": "마틴 셀리그만", "name_en": "Martin Seligman", "contribution": "1998년 APA 회장 취임 연설에서 긍정심리학 운동을 공식 발족시키고 PERMA 모형을 제안"},
+      {"name_ko": "미하이 칙센트미하이", "name_en": "Mihaly Csikszentmihalyi", "contribution": "몰입(flow) 이론을 통해 최적 경험의 심리적 조건을 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "낙관주의", "name_en": "Optimism", "id": "HEALTH_OPT_014"},
+      {"name_ko": "회복탄력성", "name_en": "Resilience", "id": "HEALTH_RESIL_023"},
+      {"name_ko": "마음챙김", "name_en": "Mindfulness", "id": "HEALTH_MIND_024"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "긍정심리학 = Seligman의 PERMA → Positive Emotion, Engagement, Relationships, Meaning, Accomplishment",
+      "differential": "긍정심리학(과학적 연구)과 자기계발서(일반 대중 조언)를 구분 — 긍정심리학은 실증적 근거에 기반한다",
+      "key_point": "Seligman은 심리학이 '마음의 질병 치료'에서 '마음의 강점 발견과 증진'으로 패러다임을 전환해야 한다고 주장했다",
+      "common_mistake": "긍정심리학이 '항상 긍정적이어야 한다'는 메시지라고 오해하지만, 부정적 정서의 적응적 기능도 인정한다"
+    }
+  },
+  {
+    "id": "HEALTH_RESIL_023",
+    "terminology": "회복탄력성 (Resilience)",
+    "terminology_ko": "회복탄력성",
+    "terminology_en": "Resilience",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "역경, 외상, 스트레스에 직면했을 때 이를 효과적으로 극복하고 적응적으로 기능할 수 있는 능력. 고정된 특성이 아니라 학습과 경험을 통해 발달할 수 있는 역동적 과정이다.",
+    "definition_en": "The capacity to effectively overcome adversity, trauma, or stress and maintain adaptive functioning. Not a fixed trait but a dynamic process that can develop through learning and experience.",
+    "significance": "외상 후 스트레스 연구에서 대부분의 사람이 외상 후 회복한다는 발견이 회복탄력성 연구를 촉발했다. 위험 요인뿐 아니라 보호 요인을 규명하여 예방적 개입의 근거를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "에미 워너", "name_en": "Emmy Werner", "contribution": "카우아이 종단연구를 통해 고위험 환경의 아동 중 1/3이 회복탄력성을 보여 성공적으로 적응함을 발견"},
+      {"name_ko": "조지 보나노", "name_en": "George Bonanno", "contribution": "외상 경험 후 회복탄력성이 가장 흔한 반응 경로임을 실증하여, 회복탄력성의 보편성을 입증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "대처", "name_en": "Coping", "id": "HEALTH_COPE_008"},
+      {"name_ko": "사회적 지지", "name_en": "Social Support", "id": "HEALTH_SOCSUP_011"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_POSPSYCH_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "회복탄력성 = 고무공처럼 눌러도 다시 튀어오르는 힘(bounce back)",
+      "differential": "회복탄력성(역경 후 적응적 기능 유지)과 외상 후 성장(역경을 통해 이전보다 더 발전)을 구분",
+      "key_point": "Werner의 카우아이 연구: 보호 요인(따뜻한 양육자 1명, 사회적 지지, 자기효능감)이 회복탄력성의 핵심이었다",
+      "common_mistake": "회복탄력성을 타고나는 고정 특성이라고 오해하지만, 환경적 보호 요인과 학습을 통해 강화될 수 있는 역동적 과정이다"
+    }
+  },
+  {
+    "id": "HEALTH_MIND_024",
+    "terminology": "마음챙김 (Mindfulness)",
+    "terminology_ko": "마음챙김",
+    "terminology_en": "Mindfulness",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "현재 순간의 경험에 대해 판단 없이 의도적으로 주의를 기울이는 심리적 과정. 불교 명상 전통에서 유래하여 현대 심리학과 의학에서 스트레스 감소와 웰빙 증진을 위한 과학적 접근으로 발전했다.",
+    "definition_en": "A psychological process of intentionally paying attention to present-moment experience without judgment. Originating from Buddhist meditation traditions, it has evolved into a scientific approach in modern psychology and medicine for stress reduction and well-being enhancement.",
+    "significance": "Kabat-Zinn의 마음챙김 기반 스트레스 감소(MBSR) 프로그램이 만성통증, 불안, 우울, 면역 기능 등에 효과가 있음이 다수의 임상 연구에서 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "존 카밧진", "name_en": "Jon Kabat-Zinn", "contribution": "마음챙김 기반 스트레스 감소(MBSR) 프로그램을 개발하여 마음챙김을 현대 의학과 심리학에 도입"},
+      {"name_ko": "엘런 랭어", "name_en": "Ellen Langer", "contribution": "사회심리학적 관점에서 마음챙김(mindfulness)의 인지적 측면을 연구하여 주의적 유연성 개념을 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_RELAX_025"},
+      {"name_ko": "대처", "name_en": "Coping", "id": "HEALTH_COPE_008"},
+      {"name_ko": "긍정심리학", "name_en": "Positive Psychology", "id": "HEALTH_POSPSYCH_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "마음챙김 = 마음(mind)을 챙기다(fulness) → 현재에 주의를 기울이되, 판단하지 않는다",
+      "differential": "마음챙김(현재 경험에 비판단적 주의)과 명상(마음을 훈련하는 다양한 기법들의 총칭)을 구분",
+      "key_point": "Kabat-Zinn(1990): MBSR 8주 프로그램은 만성통증 환자의 통증 감소, 불안·우울 완화, 면역 기능 향상을 보여주었다",
+      "common_mistake": "마음챙김이 생각을 비우는 것이라고 오해하지만, 실제로는 현재 경험을 있는 그대로 관찰하는 것이다"
+    }
+  },
+  {
+    "id": "HEALTH_RELAX_025",
+    "terminology": "이완훈련 (Relaxation Training)",
+    "terminology_ko": "이완훈련",
+    "terminology_en": "Relaxation Training",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "교감신경계의 각성을 감소시키고 부교감신경계의 활동을 증가시켜 신체적·심리적 이완 상태를 유도하는 체계적 기법. 점진적 근육 이완, 자율훈련법, 호흡법, 명상 등이 포함된다.",
+    "definition_en": "Systematic techniques designed to reduce sympathetic nervous system arousal and increase parasympathetic activity, inducing a state of physical and psychological relaxation. Includes progressive muscle relaxation, autogenic training, breathing exercises, and meditation.",
+    "significance": "스트레스 관리와 건강 증진을 위한 비약물적 개입으로 널리 사용된다. 불안, 고혈압, 불면증, 만성통증 등에 효과가 실증적으로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "에드먼드 제이콥슨", "name_en": "Edmund Jacobson", "contribution": "1930년대 점진적 근육 이완법(progressive muscle relaxation)을 개발"},
+      {"name_ko": "허버트 벤슨", "name_en": "Herbert Benson", "contribution": "이완반응(relaxation response) 개념을 제안하여, 명상과 이완이 투쟁-도피 반응의 생리적 반대 효과를 가짐을 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "바이오피드백", "name_en": "Biofeedback", "id": "HEALTH_BIO_026"},
+      {"name_ko": "마음챙김", "name_en": "Mindfulness", "id": "HEALTH_MIND_024"},
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "HEALTH_FF_004"}
+    ],
+    "sub_types": [
+      {"name_ko": "점진적 근육 이완법", "name_en": "Progressive Muscle Relaxation", "description": "신체 각 근육군을 체계적으로 긴장시킨 후 이완하여 전신 이완을 유도하는 기법"},
+      {"name_ko": "자율훈련법", "name_en": "Autogenic Training", "description": "자기암시를 통해 사지의 무거움, 따뜻함 등을 느끼며 이완 상태에 도달하는 기법"},
+      {"name_ko": "복식호흡", "name_en": "Diaphragmatic Breathing", "description": "횡격막을 이용한 느리고 깊은 호흡으로 부교감신경계를 활성화하는 기법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "이완훈련 = 투쟁-도피의 '반대 스위치' → 교감신경 ↓, 부교감신경 ↑",
+      "differential": "이완훈련(신체적 이완에 초점)과 마음챙김(인지적 비판단적 관찰에 초점)은 접근 방식이 다르다",
+      "key_point": "Jacobson의 점진적 근육 이완: 긴장(5-10초) → 이완(15-30초)을 반복하여 근육의 이완 감각을 학습한다",
+      "common_mistake": "이완훈련이 단순히 '쉬는 것'이라고 오해하지만, 체계적으로 학습해야 하는 기술(skill)이다"
+    }
+  },
+  {
+    "id": "HEALTH_BIO_026",
+    "terminology": "바이오피드백 (Biofeedback)",
+    "terminology_ko": "바이오피드백",
+    "terminology_en": "Biofeedback",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "심박수, 근전도, 피부전도, 뇌파 등 자율적 생리적 과정에 대한 실시간 정보를 전자 장비로 제공하여, 개인이 이러한 과정을 의식적으로 조절할 수 있도록 훈련하는 기법.",
+    "definition_en": "A technique that uses electronic instruments to provide real-time information about autonomic physiological processes (heart rate, muscle tension, skin conductance, brain waves), enabling individuals to learn to consciously regulate these processes.",
+    "significance": "자율신경계 반응이 의지적 통제가 불가능하다는 기존 관념을 뒤집고, 학습을 통한 생리적 자기조절의 가능성을 입증했다. 두통, 고혈압, 만성통증 등의 치료에 활용된다.",
+    "key_researchers": [
+      {"name_ko": "닐 밀러", "name_en": "Neal Miller", "contribution": "내장 반응의 도구적 조건화 가능성을 제안하여 바이오피드백의 이론적 기초를 마련"},
+      {"name_ko": "조 카미야", "name_en": "Joe Kamiya", "contribution": "알파파(alpha wave) 뇌파 피드백의 선구적 연구를 수행하여 뉴로피드백 분야를 개척"}
+    ],
+    "related_concepts": [
+      {"name_ko": "이완훈련", "name_en": "Relaxation Training", "id": "HEALTH_RELAX_025"},
+      {"name_ko": "행동의학", "name_en": "Behavioral Medicine", "id": "HEALTH_BMED_017"},
+      {"name_ko": "통제감", "name_en": "Perceived Control", "id": "HEALTH_CTRL_013"}
+    ],
+    "sub_types": [
+      {"name_ko": "근전도(EMG) 바이오피드백", "name_en": "EMG Biofeedback", "description": "근육 긴장도를 측정하여 근이완을 훈련하는 기법 (두통, 만성통증에 활용)"},
+      {"name_ko": "뉴로피드백", "name_en": "Neurofeedback", "description": "뇌파(EEG)를 측정하여 특정 뇌파 패턴을 훈련하는 기법 (ADHD, 불안에 활용)"},
+      {"name_ko": "심박변이도(HRV) 바이오피드백", "name_en": "HRV Biofeedback", "description": "심박변이도를 조절하여 자율신경계 균형을 훈련하는 기법"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "바이오피드백 = Bio(생체) + Feedback(되먹임) → 생체 신호를 보고 스스로 조절 학습",
+      "differential": "바이오피드백(장비를 통한 생리적 자기조절)과 이완훈련(장비 없이 근육/호흡을 직접 이완)의 방법적 차이",
+      "key_point": "핵심 원리: 보통 자각하지 못하는 생리적 과정을 측정 장비로 '가시화'하여 조작적 조건화(operant conditioning)를 가능하게 한다",
+      "common_mistake": "바이오피드백이 장비가 치료하는 것이라고 오해하지만, 장비는 정보를 제공할 뿐이며 실제 변화는 학습자의 자기조절 능력에 의한 것이다"
+    }
+  },
+  {
+    "id": "HEALTH_HBEHAV_027",
+    "terminology": "건강행동 (Health Behavior)",
+    "terminology_ko": "건강행동",
+    "terminology_en": "Health Behavior",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "건강을 유지, 증진하거나 질병을 예방하기 위해 개인이 취하는 행동. 운동, 균형 잡힌 식사, 금연, 절주, 정기 검진 등이 포함되며, 건강행동의 채택과 유지에는 심리적 요인이 크게 작용한다.",
+    "definition_en": "Actions taken by individuals to maintain, promote health, or prevent disease. Includes exercise, balanced diet, smoking cessation, moderate drinking, and regular check-ups. Psychological factors play a major role in the adoption and maintenance of health behaviors.",
+    "significance": "만성질환의 주요 원인이 흡연, 운동 부족, 불건전한 식습관 등 생활양식과 관련되면서, 건강행동의 변화가 예방의학과 건강심리학의 핵심 목표가 되었다.",
+    "key_researchers": [
+      {"name_ko": "제임스 프로차스카", "name_en": "James Prochaska", "contribution": "변화단계 모형(Transtheoretical Model)을 개발하여 건강행동 변화의 단계적 과정을 체계화"},
+      {"name_ko": "아이작 아젠", "name_en": "Icek Ajzen", "contribution": "계획행동이론(Theory of Planned Behavior)을 통해 건강행동의 의도와 실행을 예측하는 모형 제안"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강신념모형", "name_en": "Health Belief Model", "id": "HEALTH_HBM_028"},
+      {"name_ko": "자기효능감과 건강", "name_en": "Self-Efficacy & Health", "id": "HEALTH_SE_029"},
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HPSY_016"}
+    ],
+    "sub_types": [
+      {"name_ko": "건강증진 행동", "name_en": "Health-Promoting Behavior", "description": "운동, 건강한 식사, 충분한 수면 등 건강을 적극적으로 향상시키는 행동"},
+      {"name_ko": "건강위험 행동", "name_en": "Health-Risk Behavior", "description": "흡연, 과음, 약물 남용, 불안전 성행위 등 건강을 해치는 행동"},
+      {"name_ko": "질병행동", "name_en": "Illness Behavior", "description": "증상을 경험한 후 도움을 구하거나 치료를 받는 행동"}
+    ],
+    "quiz_hints": {
+      "mnemonic": "건강행동 변화 단계: 전숙고→숙고→준비→행동→유지 → Prochaska의 5단계 모형",
+      "differential": "건강행동(의도적 건강 관련 행동)과 건강신념(건강에 대한 인지적 평가)은 행동 vs. 인지의 차이",
+      "key_point": "Prochaska의 변화단계: 전숙고기(precontemplation) → 숙고기(contemplation) → 준비기(preparation) → 행동기(action) → 유지기(maintenance)",
+      "common_mistake": "건강행동 변화가 '의지력'만으로 가능하다고 오해하지만, 환경적 지지, 자기효능감, 사회적 규범 등 복합 요인이 작용한다"
+    }
+  },
+  {
+    "id": "HEALTH_HBM_028",
+    "terminology": "건강신념모형 (Health Belief Model)",
+    "terminology_ko": "건강신념모형",
+    "terminology_en": "Health Belief Model",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "개인이 건강 관련 행동을 취할지 여부를 예측하는 인지적 모형. 지각된 취약성(susceptibility), 지각된 심각성(severity), 지각된 이득(benefits), 지각된 장벽(barriers), 행동 계기(cues to action), 자기효능감의 요소로 구성된다.",
+    "definition_en": "A cognitive model predicting whether individuals will engage in health-related behaviors. Comprises perceived susceptibility, perceived severity, perceived benefits, perceived barriers, cues to action, and self-efficacy.",
+    "significance": "건강 관련 의사결정을 설명하는 가장 영향력 있는 이론적 모형 중 하나로, 예방접종, 건강검진, 금연 등 다양한 건강행동 중재 프로그램의 이론적 기초를 제공한다.",
+    "key_researchers": [
+      {"name_ko": "어윈 로젠스톡", "name_en": "Irwin Rosenstock", "contribution": "1966년 건강신념모형을 최초로 제안하여 예방적 건강행동의 심리적 결정 요인을 체계화"},
+      {"name_ko": "마셜 베커", "name_en": "Marshall Becker", "contribution": "건강신념모형을 질병행동과 환자역할 행동으로 확장하고 모형의 경험적 검증에 기여"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강행동", "name_en": "Health Behavior", "id": "HEALTH_HBEHAV_027"},
+      {"name_ko": "자기효능감과 건강", "name_en": "Self-Efficacy & Health", "id": "HEALTH_SE_029"},
+      {"name_ko": "건강심리학", "name_en": "Health Psychology", "id": "HEALTH_HPSY_016"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "건강신념모형의 핵심 4요소: 취약성·심각성·이득·장벽 → '취심이장'",
+      "differential": "건강신념모형(개인의 신념 중심)과 계획행동이론(의도와 사회적 규범 포함)은 강조점이 다르다",
+      "key_point": "핵심 공식: 행동 가능성 = (지각된 위협: 취약성 × 심각성) + (행동 평가: 이득 - 장벽) + 행동 계기",
+      "common_mistake": "건강신념모형이 모든 건강행동을 설명할 수 있다고 과대평가하지만, 습관적 행동이나 사회문화적 요인을 충분히 반영하지 못한다는 한계가 있다"
+    }
+  },
+  {
+    "id": "HEALTH_SE_029",
+    "terminology": "자기효능감과 건강 (Self-Efficacy & Health)",
+    "terminology_ko": "자기효능감과 건강",
+    "terminology_en": "Self-Efficacy & Health",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "특정 건강행동을 성공적으로 수행할 수 있다는 자신의 능력에 대한 신념으로, 건강행동의 시작, 유지, 변화를 예측하는 가장 강력한 심리적 요인 중 하나이다.",
+    "definition_en": "The belief in one's ability to successfully perform specific health behaviors. It is one of the most powerful psychological predictors of health behavior initiation, maintenance, and change.",
+    "significance": "Bandura의 자기효능감 이론이 건강 분야에 적용되어, 금연, 운동, 식이 조절, 만성질환 관리 등 거의 모든 건강행동 영역에서 자기효능감의 예측력이 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "앨버트 밴듀라", "name_en": "Albert Bandura", "contribution": "자기효능감(self-efficacy) 개념을 제안하고, 건강행동 변화에서의 핵심적 역할을 이론화"},
+      {"name_ko": "케이트 로리그", "name_en": "Kate Lorig", "contribution": "만성질환 자기관리 프로그램을 개발하여 자기효능감 강화가 환자의 건강 결과를 향상시킴을 실증"}
+    ],
+    "related_concepts": [
+      {"name_ko": "건강행동", "name_en": "Health Behavior", "id": "HEALTH_HBEHAV_027"},
+      {"name_ko": "건강신념모형", "name_en": "Health Belief Model", "id": "HEALTH_HBM_028"},
+      {"name_ko": "통제감", "name_en": "Perceived Control", "id": "HEALTH_CTRL_013"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자기효능감 = '나는 할 수 있다'는 믿음 → Bandura의 사회인지이론에서 유래",
+      "differential": "자기효능감(특정 행동 수행 능력에 대한 믿음)과 자존감(자신에 대한 전반적 가치 평가)은 범위가 다르다",
+      "key_point": "자기효능감의 4가지 원천: 성공 경험(가장 강력), 대리 경험, 언어적 설득, 생리적/정서적 상태",
+      "common_mistake": "자기효능감이 높으면 모든 건강행동을 잘 한다고 과대해석하지만, 자기효능감은 행동 영역별로 특수적(domain-specific)이다"
+    }
+  },
+  {
+    "id": "HEALTH_CVD_030",
+    "terminology": "심혈관 질환과 스트레스 (Cardiovascular Disease & Stress)",
+    "terminology_ko": "심혈관 질환과 스트레스",
+    "terminology_en": "Cardiovascular Disease & Stress",
+    "category": "HEALTH",
+    "category_name": "스트레스와 건강 (Stress, Health, & Coping)",
+    "definition": "만성적 스트레스가 교감신경계 과활성화, 코르티솔 상승, 혈압 증가, 동맥경화 촉진 등을 통해 관상동맥 심장질환, 고혈압, 뇌졸중 등 심혈관계 질환의 발병과 악화에 기여하는 관계.",
+    "definition_en": "The relationship in which chronic stress contributes to the onset and exacerbation of cardiovascular diseases (coronary heart disease, hypertension, stroke) through sympathetic overactivation, elevated cortisol, increased blood pressure, and accelerated atherosclerosis.",
+    "significance": "스트레스-질병 관계에서 가장 많이 연구된 영역으로, A형 행동양식(특히 적대감)과 심장질환의 관계가 대표적이다. 심리사회적 중재가 심혈관 건강을 개선할 수 있음이 임상 연구로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "메이어 프리드먼", "name_en": "Meyer Friedman", "contribution": "A형 행동양식과 관상동맥 심장질환의 관련성을 최초로 체계적으로 연구"},
+      {"name_ko": "레드포드 윌리엄스", "name_en": "Redford Williams", "contribution": "A형 행동양식 중 '적대감(hostility)' 요소만이 심장질환의 독립적 위험 요인임을 규명"}
+    ],
+    "related_concepts": [
+      {"name_ko": "A형 행동양식", "name_en": "Type A Behavior Pattern", "id": "HEALTH_TYPEA_005"},
+      {"name_ko": "코르티솔", "name_en": "Cortisol", "id": "HEALTH_CORT_020"},
+      {"name_ko": "투쟁-도피 반응", "name_en": "Fight-or-Flight Response", "id": "HEALTH_FF_004"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "스트레스 → 교감신경 활성화 → 혈압↑, 심박↑, 동맥경화 → 심혈관 질환",
+      "differential": "심혈관 질환에서 A형 행동양식 전체보다 '적대감(hostility)'이 핵심 위험 요인이라는 점을 구분",
+      "key_point": "Williams: A형의 구성 요소 중 적대감(cynical hostility)이 관상동맥 질환의 가장 강력한 독립 예측 변인이다",
+      "common_mistake": "스트레스만으로 심혈관 질환이 발생한다고 단순화하는 오류 — 유전, 식습관, 운동, 흡연 등 다중 위험 요인이 상호작용한다"
+    }
+  }
+]

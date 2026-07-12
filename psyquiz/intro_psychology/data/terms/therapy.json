@@ -1,0 +1,893 @@
+[
+  {
+    "id": "THERAPY_PSY_001",
+    "terminology": "심리치료 (Psychotherapy)",
+    "terminology_ko": "심리치료",
+    "terminology_en": "Psychotherapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "심리적 문제나 정신장애를 치료하기 위해 치료자와 내담자 간의 전문적 관계 속에서 심리학적 원리와 기법을 활용하는 체계적 치료 과정이다. 약물이 아닌 대화, 행동 변화, 인지 재구성 등 심리적 수단을 주된 치료 도구로 사용한다.",
+    "definition_en": "A systematic treatment process that uses psychological principles and techniques within a professional relationship between a therapist and client to address psychological problems or mental disorders. It employs psychological means such as dialogue, behavior change, and cognitive restructuring rather than medication as primary therapeutic tools.",
+    "significance": "정신건강 치료의 핵심 축으로, 약물치료와 함께 또는 단독으로 다양한 정신장애와 심리적 문제를 다루는 근거 기반 치료법이다. 수백 가지 이상의 심리치료 접근법이 존재하며, 공통 요인(치료적 동맹, 공감, 긍정적 기대)이 치료 효과의 상당 부분을 설명한다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "정신분석을 창시하여 최초의 체계적 심리치료 이론과 실천 모델을 확립하였다"},
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심 치료를 개발하여 치료적 관계의 핵심 조건을 정립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신분석 치료", "name_en": "Psychoanalytic Therapy", "id": "THERAPY_PA_002"},
+      {"name_ko": "인간중심 치료", "name_en": "Person-Centered Therapy", "id": "THERAPY_PCT_005"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "THERAPY_CBT_008"},
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"}
+    ],
+    "sub_types": [
+      "정신역동적 치료",
+      "인본주의적 치료",
+      "행동주의적 치료",
+      "인지적 치료",
+      "통합적 치료"
+    ],
+    "quiz_hints": {
+      "mnemonic": "심리(心理) + 치료(治療): 마음의 이치를 다스려 고치는 것",
+      "differential": "약물치료는 생물학적 수단(약물)을, 심리치료는 심리학적 수단(대화, 행동 변화 등)을 주된 도구로 사용한다",
+      "key_point": "모든 심리치료의 공통 요인으로 치료적 동맹, 공감, 긍정적 기대가 있으며, 이것이 치료 효과의 상당 부분을 설명한다",
+      "common_mistake": "심리치료를 단순한 '상담'이나 '조언'으로 오해하기 쉬우나, 심리학적 이론에 기반한 체계적 치료 과정이다"
+    }
+  },
+  {
+    "id": "THERAPY_PA_002",
+    "terminology": "정신분석 치료 (Psychoanalytic Therapy)",
+    "terminology_ko": "정신분석 치료",
+    "terminology_en": "Psychoanalytic Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "프로이트가 창시한 치료법으로, 무의식적 갈등과 억압된 기억이 현재의 심리적 문제를 유발한다고 보고, 자유연상, 꿈 해석, 전이 분석 등을 통해 무의식을 의식화하여 통찰을 얻게 하는 치료 접근이다.",
+    "definition_en": "A therapeutic approach founded by Freud, based on the premise that unconscious conflicts and repressed memories cause current psychological problems. It uses free association, dream interpretation, and transference analysis to bring unconscious material into conscious awareness and achieve insight.",
+    "significance": "최초의 체계적 심리치료 이론으로, 무의식의 역할과 초기 경험의 중요성을 강조하여 이후 모든 심리치료 발전의 토대를 마련하였다. 현대 정신역동적 치료의 원형이다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "정신분석의 이론과 기법을 체계화하고 자유연상, 꿈 해석 등 핵심 치료 기법을 개발하였다"},
+      {"name_ko": "안나 프로이트", "name_en": "Anna Freud", "contribution": "자아 방어기제 이론을 체계화하고 아동 정신분석을 발전시켰다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자유연상", "name_en": "Free Association", "id": "THERAPY_FA_003"},
+      {"name_ko": "전이", "name_en": "Transference", "id": "THERAPY_TF_004"},
+      {"name_ko": "저항", "name_en": "Resistance", "id": "THERAPY_RES_017"},
+      {"name_ko": "해석", "name_en": "Interpretation", "id": "THERAPY_INT_018"},
+      {"name_ko": "역전이", "name_en": "Countertransference", "id": "THERAPY_CTF_019"}
+    ],
+    "sub_types": [
+      "고전적 정신분석",
+      "자아심리학",
+      "대상관계이론",
+      "자기심리학",
+      "단기 정신역동 치료"
+    ],
+    "quiz_hints": {
+      "mnemonic": "정신분석 = 무의식 탐구: 자유연상으로 무의식을 '분석'하여 통찰을 얻는다",
+      "differential": "인지치료는 의식적 사고 패턴을 수정하지만, 정신분석은 무의식적 갈등을 의식화하는 것에 초점을 둔다",
+      "key_point": "핵심 가정: 현재의 심리적 문제는 무의식적 갈등과 초기 경험에 뿌리를 두고 있다",
+      "common_mistake": "정신분석을 단순히 '소파에 누워서 이야기하는 것'으로 오해하기 쉬우나, 전이, 저항, 해석 등 체계적 기법을 사용하는 구조화된 치료이다"
+    }
+  },
+  {
+    "id": "THERAPY_FA_003",
+    "terminology": "자유연상 (Free Association)",
+    "terminology_ko": "자유연상",
+    "terminology_en": "Free Association",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "정신분석의 핵심 기법으로, 내담자가 마음에 떠오르는 생각, 감정, 이미지를 검열이나 편집 없이 있는 그대로 말하도록 하는 방법이다. 이를 통해 무의식적 갈등과 억압된 내용이 의식으로 떠오를 수 있다.",
+    "definition_en": "A fundamental psychoanalytic technique in which the client is encouraged to verbalize whatever comes to mind without censorship or editing. Through this process, unconscious conflicts and repressed material can surface into conscious awareness.",
+    "significance": "프로이트가 최면 대신 도입한 방법으로, 무의식에 접근하는 정신분석의 기본 규칙(fundamental rule)이다. 내담자의 자유로운 연상 흐름 속에서 무의식적 주제와 갈등이 드러난다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "최면술을 대체하여 자유연상법을 정신분석의 핵심 기법으로 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "정신분석 치료", "name_en": "Psychoanalytic Therapy", "id": "THERAPY_PA_002"},
+      {"name_ko": "저항", "name_en": "Resistance", "id": "THERAPY_RES_017"},
+      {"name_ko": "해석", "name_en": "Interpretation", "id": "THERAPY_INT_018"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "자유(Free) + 연상(Association): 마음의 검열관을 해고하고 자유롭게 떠오르는 것을 말한다",
+      "differential": "꿈 해석은 꿈의 내용을 분석하지만, 자유연상은 깨어 있는 상태에서 의식의 흐름을 따라가는 기법이다",
+      "key_point": "정신분석의 '기본 규칙'으로, 내담자가 어떤 생각이든 검열 없이 말하도록 요청한다",
+      "common_mistake": "자유연상이 아무 말이나 하는 것이 아니라, 검열을 최소화하여 무의식적 내용이 자연스럽게 드러나게 하는 구조화된 기법이다"
+    }
+  },
+  {
+    "id": "THERAPY_TF_004",
+    "terminology": "전이 (Transference)",
+    "terminology_ko": "전이",
+    "terminology_en": "Transference",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "내담자가 과거 중요한 인물(부모 등)에 대해 가졌던 감정, 태도, 기대를 치료자에게 무의식적으로 투사하는 현상이다. 예를 들어, 권위적인 아버지에 대한 분노를 치료자에게 표현하는 것이 전이에 해당한다.",
+    "definition_en": "The phenomenon in which the client unconsciously projects feelings, attitudes, and expectations originally directed toward significant past figures (such as parents) onto the therapist. For example, expressing anger toward the therapist that was originally felt toward an authoritarian father.",
+    "significance": "정신분석에서 전이 분석은 치료의 핵심 도구로, 내담자의 무의식적 관계 패턴을 '여기-지금(here and now)'에서 직접 관찰하고 작업할 수 있게 해준다. 전이의 해석을 통해 내담자는 반복적 관계 패턴에 대한 통찰을 얻는다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "전이 현상을 발견하고 이를 치료의 핵심 도구로 개념화하였다"},
+      {"name_ko": "하인즈 코헛", "name_en": "Heinz Kohut", "contribution": "자기대상 전이(이상화 전이, 거울 전이 등)의 개념을 발전시켰다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "역전이", "name_en": "Countertransference", "id": "THERAPY_CTF_019"},
+      {"name_ko": "정신분석 치료", "name_en": "Psychoanalytic Therapy", "id": "THERAPY_PA_002"},
+      {"name_ko": "저항", "name_en": "Resistance", "id": "THERAPY_RES_017"},
+      {"name_ko": "해석", "name_en": "Interpretation", "id": "THERAPY_INT_018"}
+    ],
+    "sub_types": [
+      "긍정적 전이 (Positive Transference)",
+      "부정적 전이 (Negative Transference)",
+      "이상화 전이 (Idealizing Transference)",
+      "거울 전이 (Mirror Transference)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "전이(轉移) = 감정의 '이동': 과거 인물에 대한 감정이 치료자에게로 '옮겨진다'",
+      "differential": "전이는 내담자가 치료자에게 과거 감정을 투사하는 것이고, 역전이는 치료자가 내담자에게 자신의 무의식적 감정을 투사하는 것이다",
+      "key_point": "전이는 단순한 오류가 아니라 치료에서 활용되는 핵심 도구로, 내담자의 무의식적 관계 패턴을 드러낸다",
+      "common_mistake": "전이를 단순히 '좋아하거나 싫어하는 감정'으로 축소하기 쉬우나, 과거 중요 인물에 대한 감정이 무의식적으로 재현되는 것이다"
+    }
+  },
+  {
+    "id": "THERAPY_PCT_005",
+    "terminology": "인간중심 치료 (Person-Centered Therapy)",
+    "terminology_ko": "인간중심 치료",
+    "terminology_en": "Person-Centered Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "칼 로저스가 개발한 인본주의적 치료 접근으로, 무조건적 긍정적 존중, 공감적 이해, 진정성(일치성)이라는 치료자의 세 가지 핵심 조건이 충족되면 내담자가 스스로 성장하고 문제를 해결할 수 있다고 본다.",
+    "definition_en": "A humanistic therapeutic approach developed by Carl Rogers, based on the premise that when the therapist provides three core conditions — unconditional positive regard, empathic understanding, and genuineness (congruence) — the client can achieve self-directed growth and problem resolution.",
+    "significance": "치료 관계의 질이 치료 효과의 핵심이라는 관점을 확립하였으며, 이후 모든 심리치료에서 치료적 관계의 중요성을 인식하게 하는 데 결정적 기여를 하였다. 상담심리학 발전의 토대이다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심 치료를 창시하고 치료적 관계의 세 가지 핵심 조건(무조건적 긍정적 존중, 공감, 진정성)을 정립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "적극적 경청", "name_en": "Active Listening", "id": "THERAPY_AL_020"},
+      {"name_ko": "공감", "name_en": "Empathy", "id": "THERAPY_EMP_021"},
+      {"name_ko": "반영", "name_en": "Reflection", "id": "THERAPY_REF_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "로저스의 3대 조건: UEG — Unconditional positive regard, Empathy, Genuineness (무조건적 긍정적 존중, 공감, 진정성)",
+      "differential": "정신분석은 치료자가 해석을 통해 통찰을 제공하지만, 인간중심 치료는 내담자의 자기 탐색을 촉진하는 비지시적 접근이다",
+      "key_point": "치료의 핵심은 기법이 아니라 치료적 관계이며, 내담자에게 성장의 잠재력이 내재해 있다고 본다",
+      "common_mistake": "인간중심 치료가 단순히 '듣기만 하는 것'이라고 오해하기 쉬우나, 깊은 공감과 진정성을 바탕으로 한 적극적 개입이다"
+    }
+  },
+  {
+    "id": "THERAPY_BT_006",
+    "terminology": "행동치료 (Behavior Therapy)",
+    "terminology_ko": "행동치료",
+    "terminology_en": "Behavior Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "학습 이론(고전적 조건형성, 조작적 조건형성)의 원리를 적용하여 부적응적 행동을 소거하고 적응적 행동을 학습시키는 치료 접근이다. 관찰 가능한 행동의 변화에 초점을 맞추며, 무의식이나 내적 갈등보다 현재의 행동 문제를 직접 다룬다.",
+    "definition_en": "A therapeutic approach that applies principles of learning theory (classical and operant conditioning) to eliminate maladaptive behaviors and teach adaptive ones. It focuses on observable behavioral change and directly addresses current behavioral problems rather than unconscious conflicts.",
+    "significance": "심리치료에 과학적 방법론을 도입한 핵심 접근으로, 공포증, 강박장애, 물질남용 등 다양한 장애에 대해 경험적으로 검증된 치료 기법들을 제공한다. 인지행동치료의 행동적 토대이다.",
+    "key_researchers": [
+      {"name_ko": "조셉 울프", "name_en": "Joseph Wolpe", "contribution": "체계적 둔감화를 개발하여 불안장애의 행동치료 기법을 확립하였다"},
+      {"name_ko": "B.F. 스키너", "name_en": "B.F. Skinner", "contribution": "조작적 조건형성 원리를 치료에 적용하여 행동수정의 이론적 기반을 제공하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "THERAPY_SD_007"},
+      {"name_ko": "토큰경제", "name_en": "Token Economy", "id": "THERAPY_TE_016"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "THERAPY_EXP_015"},
+      {"name_ko": "혐오치료", "name_en": "Aversion Therapy", "id": "THERAPY_AVT_023"},
+      {"name_ko": "홍수법", "name_en": "Flooding", "id": "THERAPY_FLD_024"}
+    ],
+    "sub_types": [
+      "체계적 둔감화",
+      "노출 치료",
+      "혐오 치료",
+      "토큰 경제",
+      "행동 활성화"
+    ],
+    "quiz_hints": {
+      "mnemonic": "행동치료 = 학습으로 배운 문제 행동은 학습으로 고칠 수 있다",
+      "differential": "인지치료는 사고 패턴을 변화시키지만, 행동치료는 관찰 가능한 행동 자체를 변화시키는 데 초점을 둔다",
+      "key_point": "학습 이론에 기반하여 부적응적 행동을 소거하고 적응적 행동을 강화하는 것이 핵심 원리이다",
+      "common_mistake": "행동치료가 사고나 감정을 무시한다고 오해하기 쉬우나, 행동 변화를 통해 사고와 감정의 변화도 이끌어낼 수 있다"
+    }
+  },
+  {
+    "id": "THERAPY_SD_007",
+    "terminology": "체계적 둔감화 (Systematic Desensitization)",
+    "terminology_ko": "체계적 둔감화",
+    "terminology_en": "Systematic Desensitization",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "조셉 울프가 개발한 행동치료 기법으로, 불안을 유발하는 자극을 약한 것부터 강한 것까지 위계적으로 배열한 후, 이완 상태에서 점진적으로 노출시켜 불안 반응을 소거하는 방법이다. 상호억제 원리에 기반한다.",
+    "definition_en": "A behavior therapy technique developed by Joseph Wolpe in which anxiety-provoking stimuli are arranged hierarchically from least to most threatening, and the client is gradually exposed to them while maintaining a relaxed state, thereby extinguishing the anxiety response. It is based on the principle of reciprocal inhibition.",
+    "significance": "공포증 치료에 높은 효과가 입증된 대표적 행동치료 기법으로, 고전적 조건형성의 역조건형성 원리를 임상에 성공적으로 적용한 사례이다.",
+    "key_researchers": [
+      {"name_ko": "조셉 울프", "name_en": "Joseph Wolpe", "contribution": "상호억제 원리에 기반하여 체계적 둔감화 기법을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "THERAPY_EXP_015"},
+      {"name_ko": "홍수법", "name_en": "Flooding", "id": "THERAPY_FLD_024"}
+    ],
+    "sub_types": [
+      "실제적 둔감화 (In Vivo Desensitization)",
+      "상상적 둔감화 (Imaginal Desensitization)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "체계적(Systematic) = 단계별로 + 둔감화(Desensitization) = 무감각하게: '단계적으로 무감각하게 만든다'",
+      "differential": "홍수법은 가장 강한 불안 자극에 즉시 노출시키지만, 체계적 둔감화는 약한 자극부터 점진적으로 노출시킨다",
+      "key_point": "3단계 절차: (1) 이완 훈련 (2) 불안 위계 작성 (3) 이완 상태에서 점진적 노출",
+      "common_mistake": "체계적 둔감화와 홍수법을 혼동하기 쉬운데, 체계적 둔감화는 '점진적' 노출이고 홍수법은 '즉각적이고 강렬한' 노출이다"
+    }
+  },
+  {
+    "id": "THERAPY_CBT_008",
+    "terminology": "인지행동치료 (Cognitive-Behavioral Therapy, CBT)",
+    "terminology_ko": "인지행동치료",
+    "terminology_en": "Cognitive-Behavioral Therapy (CBT)",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "인지치료와 행동치료를 통합한 치료 접근으로, 부적응적 사고 패턴(인지 왜곡)과 행동 패턴을 함께 수정하여 정서적 문제를 해결하는 구조화된 단기 치료이다. 우울증, 불안장애 등에 대해 가장 광범위한 경험적 지지를 받고 있다.",
+    "definition_en": "An integrative therapeutic approach combining cognitive and behavioral therapies that addresses emotional problems by modifying both maladaptive thought patterns (cognitive distortions) and behavioral patterns. It is a structured, time-limited therapy with the most extensive empirical support for disorders such as depression and anxiety.",
+    "significance": "현재 가장 널리 연구되고 실천되는 근거 기반 심리치료로, 우울증, 불안장애, PTSD, 섭식장애 등 다양한 장애에 대한 치료 효과가 메타분석을 통해 반복적으로 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "인지치료를 개발하고 이를 행동적 기법과 통합하여 CBT의 기틀을 마련하였다"},
+      {"name_ko": "도널드 마이켄바움", "name_en": "Donald Meichenbaum", "contribution": "인지행동수정 및 스트레스 면역 훈련을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지치료", "name_en": "Cognitive Therapy", "id": "THERAPY_CT_009"},
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"},
+      {"name_ko": "합리적 정서행동 치료", "name_en": "REBT", "id": "THERAPY_REBT_010"}
+    ],
+    "sub_types": [
+      "벡의 인지치료",
+      "변증법적 행동치료 (DBT)",
+      "수용전념치료 (ACT)",
+      "마음챙김 기반 인지치료 (MBCT)",
+      "스키마 치료"
+    ],
+    "quiz_hints": {
+      "mnemonic": "CBT = Cognition(인지) + Behavior(행동) + Therapy(치료): 생각과 행동을 함께 바꾼다",
+      "differential": "순수 인지치료는 사고 패턴 수정에 집중하고, 순수 행동치료는 행동 변화에 집중하지만, CBT는 둘을 통합한다",
+      "key_point": "핵심 원리: 상황 자체가 아니라 상황에 대한 '해석(인지)'이 정서와 행동을 결정한다",
+      "common_mistake": "CBT를 단순히 '긍정적으로 생각하기'로 오해하기 쉬우나, 비합리적 사고를 현실적이고 균형 잡힌 사고로 재구성하는 것이다"
+    }
+  },
+  {
+    "id": "THERAPY_CT_009",
+    "terminology": "인지치료 (Cognitive Therapy)",
+    "terminology_ko": "인지치료",
+    "terminology_en": "Cognitive Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "아론 벡이 개발한 치료 접근으로, 우울증과 불안을 유발하는 부정적 자동적 사고와 인지 왜곡을 식별하고 이를 보다 현실적이고 적응적인 사고로 대체하여 정서적 문제를 치료한다. 인지 삼제(자기, 세상, 미래에 대한 부정적 관점)가 핵심 개념이다.",
+    "definition_en": "A therapeutic approach developed by Aaron Beck that treats emotional problems by identifying negative automatic thoughts and cognitive distortions that contribute to depression and anxiety, and replacing them with more realistic and adaptive thinking. The cognitive triad (negative views of self, world, and future) is a core concept.",
+    "significance": "인지적 관점에서 정신장애를 이해하는 혁신적 틀을 제공하였으며, 특히 우울증 치료에서 약물치료에 필적하는 효과가 입증되어 심리치료의 패러다임 전환을 이끌었다.",
+    "key_researchers": [
+      {"name_ko": "아론 벡", "name_en": "Aaron T. Beck", "contribution": "인지치료를 창시하고 우울증의 인지 모델(인지 삼제, 인지 왜곡, 자동적 사고)을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "THERAPY_CBT_008"},
+      {"name_ko": "합리적 정서행동 치료", "name_en": "REBT", "id": "THERAPY_REBT_010"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "벡의 인지 삼제(Cognitive Triad): 자기(Self), 세상(World), 미래(Future)에 대한 부정적 사고가 우울증을 만든다",
+      "differential": "REBT(엘리스)는 비합리적 '신념'을 논박하는 데 초점을 맞추고, 인지치료(벡)는 '자동적 사고'와 '인지 왜곡'을 식별하고 검증하는 데 초점을 맞춘다",
+      "key_point": "핵심 개념: 자동적 사고 → 인지 왜곡 → 핵심 신념의 3수준 구조",
+      "common_mistake": "벡의 인지치료와 엘리스의 REBT를 혼동하기 쉬운데, 벡은 소크라테스식 질문으로 사고를 검증하고 엘리스는 직접적 논박으로 신념을 도전한다"
+    }
+  },
+  {
+    "id": "THERAPY_REBT_010",
+    "terminology": "합리적 정서행동 치료 (Rational Emotive Behavior Therapy, REBT)",
+    "terminology_ko": "합리적 정서행동 치료",
+    "terminology_en": "Rational Emotive Behavior Therapy (REBT)",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "앨버트 엘리스가 개발한 인지적 치료 접근으로, ABC 모델(A: 선행사건, B: 신념, C: 결과)에 기반하여 비합리적 신념을 적극적으로 논박(D: Disputing)하고 합리적 신념으로 대체하여 정서적 문제를 해결한다.",
+    "definition_en": "A cognitive therapeutic approach developed by Albert Ellis, based on the ABC model (A: Activating event, B: Belief, C: Consequence). It actively disputes (D: Disputing) irrational beliefs and replaces them with rational beliefs to resolve emotional problems.",
+    "significance": "인지치료의 선구적 모델로, 사건이 아닌 사건에 대한 '신념'이 정서적 반응을 결정한다는 핵심 원리를 제시하여 인지행동치료 발전의 토대를 마련하였다.",
+    "key_researchers": [
+      {"name_ko": "앨버트 엘리스", "name_en": "Albert Ellis", "contribution": "합리적 정서행동 치료(REBT)를 창시하고 ABC 모델과 비합리적 신념 체계를 개념화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인지치료", "name_en": "Cognitive Therapy", "id": "THERAPY_CT_009"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "THERAPY_CBT_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "ABCDE 모델: A(사건) → B(신념) → C(결과/감정) → D(논박) → E(효과/새로운 감정)",
+      "differential": "벡의 인지치료는 자동적 사고를 소크라테스식 질문으로 검증하지만, REBT는 비합리적 신념을 직접적이고 적극적으로 논박한다",
+      "key_point": "핵심 원리: 사건(A)이 감정(C)을 직접 만드는 것이 아니라, 사건에 대한 신념(B)이 감정을 결정한다",
+      "common_mistake": "REBT의 'Rational'을 '이성적으로만 생각하라'는 뜻으로 오해하기 쉬우나, 현실적이고 유연하며 자기 도움적인 사고를 의미한다"
+    }
+  },
+  {
+    "id": "THERAPY_GT_011",
+    "terminology": "집단치료 (Group Therapy)",
+    "terminology_ko": "집단치료",
+    "terminology_en": "Group Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "한 명 이상의 치료자가 여러 명의 내담자를 동시에 치료하는 형태로, 집단 내 상호작용을 치료적 도구로 활용한다. 보편성, 이타심, 대인관계 학습 등 집단 고유의 치료적 요인이 작용한다.",
+    "definition_en": "A form of therapy in which one or more therapists treat several clients simultaneously, utilizing group interactions as therapeutic tools. Unique therapeutic factors of groups operate, including universality, altruism, and interpersonal learning.",
+    "significance": "비용 효율적이면서도 대인관계 문제를 직접 다룰 수 있는 치료 형태로, 얼럼(Yalom)이 제시한 11가지 치료적 요인은 집단치료의 이론적 기반이 되었다.",
+    "key_researchers": [
+      {"name_ko": "어빈 얼럼", "name_en": "Irvin Yalom", "contribution": "집단치료의 11가지 치료적 요인(보편성, 이타심, 희망 고취 등)을 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "가족치료", "name_en": "Family Therapy", "id": "THERAPY_FT_026"},
+      {"name_ko": "부부치료", "name_en": "Couples Therapy", "id": "THERAPY_CPT_027"}
+    ],
+    "sub_types": [
+      "정신역동적 집단치료",
+      "인지행동 집단치료",
+      "지지적 집단치료",
+      "자조 집단 (Self-Help Group)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "얼럼의 치료적 요인 중 핵심 3가지: 보편성(나만 그런 게 아니다), 이타심(남을 도우며 나도 성장), 대인관계 학습",
+      "differential": "개인치료는 치료자-내담자 1:1 관계에 초점을 맞추지만, 집단치료는 집단원 간 상호작용 자체를 치료 도구로 활용한다",
+      "key_point": "얼럼의 11가지 치료적 요인: 보편성, 이타심, 희망 고취, 정보 제공, 일차 가족집단의 교정적 재현, 사회화 기법 발달, 모방 행동, 대인관계 학습, 집단 응집력, 카타르시스, 실존적 요인",
+      "common_mistake": "집단치료를 단순히 '비용 절감을 위한 개인치료의 대안'으로 보기 쉬우나, 집단 고유의 치료적 요인이 개인치료에서 얻을 수 없는 독특한 치료적 가치를 제공한다"
+    }
+  },
+  {
+    "id": "THERAPY_APM_012",
+    "terminology": "항정신병 약물 (Antipsychotic Medications)",
+    "terminology_ko": "항정신병 약물",
+    "terminology_en": "Antipsychotic Medications",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "조현병 등 정신병적 증상(망상, 환각, 사고장애)을 치료하기 위해 사용되는 약물이다. 주로 도파민 수용체를 차단하여 양성 증상을 감소시킨다. 1세대(전형적)와 2세대(비전형적) 항정신병 약물로 구분된다.",
+    "definition_en": "Medications used to treat psychotic symptoms such as delusions, hallucinations, and thought disorders in conditions like schizophrenia. They primarily work by blocking dopamine receptors to reduce positive symptoms. They are classified into first-generation (typical) and second-generation (atypical) antipsychotics.",
+    "significance": "1950년대 클로르프로마진의 도입으로 정신병원의 탈원화 운동이 가능해졌으며, 조현병 등 중증 정신장애의 치료에 혁명적 변화를 가져왔다. 생물학적 정신의학의 발전을 촉진하였다.",
+    "key_researchers": [
+      {"name_ko": "장 들레이", "name_en": "Jean Delay", "contribution": "피에르 드니케르와 함께 클로르프로마진(최초의 항정신병 약물)의 정신과적 효과를 발견하였다"},
+      {"name_ko": "피에르 드니케르", "name_en": "Pierre Deniker", "contribution": "장 들레이와 함께 클로르프로마진의 항정신병 효과를 임상적으로 입증하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "항우울제", "name_en": "Antidepressants", "id": "THERAPY_AD_013"},
+      {"name_ko": "항불안제", "name_en": "Anxiolytics", "id": "THERAPY_AX_014"}
+    ],
+    "sub_types": [
+      "1세대(전형적) 항정신병 약물: 클로르프로마진, 할로페리돌",
+      "2세대(비전형적) 항정신병 약물: 클로자핀, 리스페리돈, 올란자핀"
+    ],
+    "quiz_hints": {
+      "mnemonic": "항(Anti) + 정신병(Psychotic): 정신병적 증상을 막는 약물. 도파민 차단이 핵심 기전",
+      "differential": "항우울제는 세로토닌/노르에피네프린 계통에 작용하여 기분을 개선하고, 항정신병 약물은 도파민 계통에 작용하여 정신병적 증상을 감소시킨다",
+      "key_point": "1세대는 양성 증상에 효과적이나 추체외로 부작용이 크고, 2세대는 양성 및 음성 증상 모두에 효과적이나 대사 부작용이 있다",
+      "common_mistake": "항정신병 약물이 정신병을 '완치'한다고 오해하기 쉬우나, 증상을 관리하는 것이며 장기 복용이 필요한 경우가 많다"
+    }
+  },
+  {
+    "id": "THERAPY_AD_013",
+    "terminology": "항우울제 (Antidepressants)",
+    "terminology_ko": "항우울제",
+    "terminology_en": "Antidepressants",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "우울증을 비롯한 기분장애를 치료하기 위해 사용되는 약물이다. 주로 세로토닌, 노르에피네프린, 도파민 등 신경전달물질의 가용성을 증가시켜 기분을 개선한다. SSRI, SNRI, 삼환계 항우울제, MAO 억제제 등의 종류가 있다.",
+    "definition_en": "Medications used to treat depression and other mood disorders. They primarily work by increasing the availability of neurotransmitters such as serotonin, norepinephrine, and dopamine to improve mood. Types include SSRIs, SNRIs, tricyclic antidepressants, and MAO inhibitors.",
+    "significance": "우울증의 생물학적 치료에 핵심적 역할을 하며, 심리치료와 병행 시 치료 효과가 극대화된다. SSRI의 개발은 부작용을 줄이면서 항우울 효과를 유지하는 혁신이었다.",
+    "key_researchers": [
+      {"name_ko": "롤란드 쿤", "name_en": "Roland Kuhn", "contribution": "최초의 삼환계 항우울제인 이미프라민의 항우울 효과를 발견하였다"},
+      {"name_ko": "레이 풀러", "name_en": "Ray Fuller", "contribution": "브라이언 몰로이, 데이비드 웡과 함께 최초의 SSRI인 플루옥세틴(프로작)을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "SSRI", "name_en": "Selective Serotonin Reuptake Inhibitors", "id": "THERAPY_SSRI_028"},
+      {"name_ko": "항정신병 약물", "name_en": "Antipsychotic Medications", "id": "THERAPY_APM_012"},
+      {"name_ko": "항불안제", "name_en": "Anxiolytics", "id": "THERAPY_AX_014"}
+    ],
+    "sub_types": [
+      "선택적 세로토닌 재흡수 억제제 (SSRI)",
+      "세로토닌-노르에피네프린 재흡수 억제제 (SNRI)",
+      "삼환계 항우울제 (TCA)",
+      "모노아민 산화효소 억제제 (MAOI)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "항우울제의 세대별 진화: MAOI → TCA → SSRI → SNRI (부작용은 줄고 선택성은 높아진다)",
+      "differential": "항불안제(벤조디아제핀)는 즉각적으로 불안을 줄이지만, 항우울제는 치료 효과가 나타나기까지 보통 2-4주가 소요된다",
+      "key_point": "항우울제의 치료 효과는 보통 복용 시작 후 2-4주 후에 나타나며, 이 지연 기간 동안 환자 교육이 중요하다",
+      "common_mistake": "항우울제가 복용 즉시 기분을 좋게 만든다고 오해하기 쉬우나, 2-4주의 지연 기간이 있다"
+    }
+  },
+  {
+    "id": "THERAPY_AX_014",
+    "terminology": "항불안제 (Anxiolytics)",
+    "terminology_ko": "항불안제",
+    "terminology_en": "Anxiolytics",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "불안 증상을 감소시키기 위해 사용되는 약물이다. 대표적으로 벤조디아제핀 계열(디아제팜, 알프라졸람 등)이 있으며, GABA 수용체에 작용하여 중추신경계의 활동을 억제함으로써 진정 효과를 나타낸다.",
+    "definition_en": "Medications used to reduce anxiety symptoms. The most common class is benzodiazepines (diazepam, alprazolam, etc.), which act on GABA receptors to inhibit central nervous system activity, producing a calming effect.",
+    "significance": "불안장애의 급성 증상 관리에 효과적이나, 의존성과 남용의 위험이 있어 장기 사용에 주의가 필요하다. 현재는 SSRI가 불안장애의 1차 약물치료로 더 많이 사용된다.",
+    "key_researchers": [
+      {"name_ko": "레오 스턴바크", "name_en": "Leo Sternbach", "contribution": "최초의 벤조디아제핀인 클로르디아제폭시드(리브리움)를 합성하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "항우울제", "name_en": "Antidepressants", "id": "THERAPY_AD_013"},
+      {"name_ko": "항정신병 약물", "name_en": "Antipsychotic Medications", "id": "THERAPY_APM_012"},
+      {"name_ko": "SSRI", "name_en": "Selective Serotonin Reuptake Inhibitors", "id": "THERAPY_SSRI_028"}
+    ],
+    "sub_types": [
+      "벤조디아제핀: 디아제팜(발리움), 알프라졸람(자낙스), 로라제팜",
+      "비벤조디아제핀: 부스피론"
+    ],
+    "quiz_hints": {
+      "mnemonic": "항(Anti) + 불안(Anxiety): GABA 증강 → 신경 억제 → 불안 감소. '가바가 불안을 잠재운다'",
+      "differential": "항우울제(SSRI)도 불안장애에 사용되지만 효과 발현에 수주가 걸리고, 항불안제(벤조디아제핀)는 즉각적 효과가 있으나 의존성 위험이 있다",
+      "key_point": "벤조디아제핀은 빠른 효과가 장점이나, 의존성과 내성 위험으로 단기 사용이 권장된다",
+      "common_mistake": "항불안제를 장기적 해결책으로 오해하기 쉬우나, 벤조디아제핀의 장기 사용은 의존성 위험이 크며 근본적 치료(심리치료, SSRI)와 병행해야 한다"
+    }
+  },
+  {
+    "id": "THERAPY_EXP_015",
+    "terminology": "노출치료 (Exposure Therapy)",
+    "terminology_ko": "노출치료",
+    "terminology_en": "Exposure Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "불안이나 공포를 유발하는 자극에 내담자를 체계적으로 노출시켜, 회피 행동을 줄이고 불안 반응을 소거하는 행동치료 기법이다. 실제 노출(in vivo), 상상 노출(imaginal), 가상현실 노출 등 다양한 형태가 있다.",
+    "definition_en": "A behavioral therapy technique that systematically exposes clients to anxiety- or fear-provoking stimuli to reduce avoidance behaviors and extinguish anxiety responses. Various forms include in vivo exposure, imaginal exposure, and virtual reality exposure.",
+    "significance": "공포증, PTSD, 강박장애, 사회불안장애 등 불안 관련 장애에 대해 가장 강력한 경험적 근거를 가진 치료 기법 중 하나이다. 습관화와 소거의 원리에 기반한다.",
+    "key_researchers": [
+      {"name_ko": "에드나 포아", "name_en": "Edna Foa", "contribution": "지속 노출치료(Prolonged Exposure)를 개발하여 PTSD 치료에 획기적 기여를 하였다"},
+      {"name_ko": "조셉 울프", "name_en": "Joseph Wolpe", "contribution": "체계적 둔감화를 통해 노출 기반 치료의 기초를 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "THERAPY_SD_007"},
+      {"name_ko": "홍수법", "name_en": "Flooding", "id": "THERAPY_FLD_024"},
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"}
+    ],
+    "sub_types": [
+      "실제 노출 (In Vivo Exposure)",
+      "상상 노출 (Imaginal Exposure)",
+      "가상현실 노출 (Virtual Reality Exposure)",
+      "내수용감각 노출 (Interoceptive Exposure)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "노출(Exposure) = 두려운 것에 '드러내다': 회피 대신 직면하여 불안을 이긴다",
+      "differential": "체계적 둔감화는 이완과 함께 점진적 노출을 하지만, 노출치료는 이완 없이도 노출 자체의 효과에 초점을 맞출 수 있다",
+      "key_point": "불안의 핵심 유지 요인인 '회피'를 직접 다루며, 충분한 시간 동안 노출을 유지하여 습관화를 달성하는 것이 중요하다",
+      "common_mistake": "노출치료가 환자에게 무조건 두려운 상황을 강요하는 것으로 오해하기 쉬우나, 내담자의 동의와 치료 계획 하에 체계적으로 진행된다"
+    }
+  },
+  {
+    "id": "THERAPY_TE_016",
+    "terminology": "토큰경제 (Token Economy)",
+    "terminology_ko": "토큰경제",
+    "terminology_en": "Token Economy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "조작적 조건형성의 원리에 기반한 행동수정 기법으로, 바람직한 행동을 할 때 토큰(대리 강화물)을 제공하고 이를 나중에 실제 보상(특권, 물품 등)으로 교환할 수 있게 하여 적응 행동을 증가시키는 체계이다.",
+    "definition_en": "A behavior modification technique based on operant conditioning principles in which tokens (secondary reinforcers) are given for desired behaviors and can later be exchanged for actual rewards (privileges, goods, etc.) to increase adaptive behaviors.",
+    "significance": "정신병원, 학교, 교정시설 등 다양한 기관 환경에서 행동 변화를 체계적으로 촉진하는 데 효과적인 것으로 입증되었다. 조작적 조건형성의 대표적 임상 적용 사례이다.",
+    "key_researchers": [
+      {"name_ko": "테오도르 에일론", "name_en": "Teodoro Ayllon", "contribution": "네이선 에이즈린과 함께 정신병원에서 토큰경제 프로그램을 최초로 체계적으로 적용하였다"},
+      {"name_ko": "네이선 에이즈린", "name_en": "Nathan Azrin", "contribution": "에일론과 함께 토큰경제의 이론적 틀과 실행 지침을 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"},
+      {"name_ko": "인지행동치료", "name_en": "Cognitive-Behavioral Therapy", "id": "THERAPY_CBT_008"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "토큰 = 화폐처럼 사용되는 '보상 교환권': 좋은 행동 → 토큰 획득 → 원하는 보상으로 교환",
+      "differential": "토큰경제는 2차 강화물(토큰)을 사용하는 체계적 프로그램이고, 단순 강화는 1차 강화물을 직접 제공하는 것이다",
+      "key_point": "토큰은 2차(조건) 강화물로 기능하며, 다양한 1차 강화물과 교환될 수 있어 유연성이 높다",
+      "common_mistake": "토큰경제가 '뇌물'과 같다고 오해하기 쉬우나, 내적 동기와 자기 관리 능력을 점진적으로 발달시키는 치료적 도구이다"
+    }
+  },
+  {
+    "id": "THERAPY_RES_017",
+    "terminology": "저항 (Resistance)",
+    "terminology_ko": "저항",
+    "terminology_en": "Resistance",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "정신분석에서 내담자가 무의식적으로 치료 과정을 방해하는 현상으로, 억압된 갈등이 의식으로 떠오르는 것을 막으려는 방어기제의 표현이다. 주제를 바꾸거나, 침묵하거나, 약속을 잊는 등 다양한 형태로 나타난다.",
+    "definition_en": "In psychoanalysis, the phenomenon in which the client unconsciously obstructs the therapeutic process as a defense mechanism to prevent repressed conflicts from reaching consciousness. It manifests in various forms such as changing subjects, silence, or forgetting appointments.",
+    "significance": "저항은 단순한 방해가 아니라 치료적으로 중요한 정보를 제공한다. 내담자가 어떤 주제에서 저항을 보이는지 분석하면 무의식적 갈등의 핵심에 접근할 수 있다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "저항의 개념을 정립하고 이를 무의식적 갈등의 지표로 활용하는 방법을 개발하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자유연상", "name_en": "Free Association", "id": "THERAPY_FA_003"},
+      {"name_ko": "전이", "name_en": "Transference", "id": "THERAPY_TF_004"},
+      {"name_ko": "해석", "name_en": "Interpretation", "id": "THERAPY_INT_018"},
+      {"name_ko": "정신분석 치료", "name_en": "Psychoanalytic Therapy", "id": "THERAPY_PA_002"}
+    ],
+    "sub_types": [
+      "억압 저항 (Repression Resistance)",
+      "전이 저항 (Transference Resistance)",
+      "이득 저항 (Secondary Gain Resistance)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "저항(Resistance) = 무의식의 '문지기': 억압된 내용이 의식으로 나오지 못하게 막는다",
+      "differential": "저항은 무의식적 방어의 표현이고, 비순응(noncompliance)은 의식적 치료 거부이다",
+      "key_point": "저항이 나타나는 지점이 곧 무의식적 갈등의 핵심이 있는 곳이므로, 치료적으로 중요한 정보이다",
+      "common_mistake": "저항을 내담자의 의도적 비협조로 오해하기 쉬우나, 무의식적 방어기제의 표현으로 치료적으로 다루어야 할 현상이다"
+    }
+  },
+  {
+    "id": "THERAPY_INT_018",
+    "terminology": "해석 (Interpretation)",
+    "terminology_ko": "해석",
+    "terminology_en": "Interpretation",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "정신분석에서 치료자가 내담자의 자유연상, 꿈, 행동, 저항, 전이 등에 숨겨진 무의식적 의미를 내담자에게 설명하여 통찰을 촉진하는 핵심 치료 기법이다.",
+    "definition_en": "A core psychoanalytic technique in which the therapist explains the unconscious meanings hidden in the client's free associations, dreams, behaviors, resistance, and transference to promote insight.",
+    "significance": "정신분석 치료에서 변화를 이끌어내는 핵심 도구로, 적절한 시기에 정확한 해석이 제공될 때 내담자는 무의식적 갈등에 대한 통찰을 얻고 심리적 변화를 경험한다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "해석을 정신분석 치료의 핵심 기법으로 체계화하고 꿈의 해석, 전이 해석 등의 방법을 개발하였다"},
+      {"name_ko": "제임스 스트래치", "name_en": "James Strachey", "contribution": "전이 해석이 치료에서 가장 중요한 '돌연변이적 해석(mutative interpretation)'임을 제안하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "자유연상", "name_en": "Free Association", "id": "THERAPY_FA_003"},
+      {"name_ko": "전이", "name_en": "Transference", "id": "THERAPY_TF_004"},
+      {"name_ko": "저항", "name_en": "Resistance", "id": "THERAPY_RES_017"},
+      {"name_ko": "정신분석 치료", "name_en": "Psychoanalytic Therapy", "id": "THERAPY_PA_002"}
+    ],
+    "sub_types": [
+      "전이 해석 (Transference Interpretation)",
+      "꿈 해석 (Dream Interpretation)",
+      "저항 해석 (Resistance Interpretation)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "해석 = 무의식의 '번역가': 내담자가 모르는 무의식의 의미를 의식의 언어로 번역해준다",
+      "differential": "반영(Reflection)은 내담자의 감정을 그대로 되돌려주지만, 해석은 무의식적 의미를 새롭게 제시하여 통찰을 촉진한다",
+      "key_point": "적절한 타이밍(timing)이 중요하며, 내담자가 받아들일 준비가 되었을 때 해석을 제공해야 효과적이다",
+      "common_mistake": "해석을 치료자가 일방적으로 '진단'을 내리는 것으로 오해하기 쉬우나, 내담자와의 협력적 탐색 과정에서 이루어진다"
+    }
+  },
+  {
+    "id": "THERAPY_CTF_019",
+    "terminology": "역전이 (Countertransference)",
+    "terminology_ko": "역전이",
+    "terminology_en": "Countertransference",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "치료자가 내담자에 대해 갖는 무의식적 감정 반응으로, 치료자 자신의 미해결된 갈등이나 과거 경험이 내담자와의 관계에서 활성화되는 현상이다. 현대적 관점에서는 내담자에 대한 치료자의 모든 감정 반응을 포함하며, 이를 치료적 도구로 활용할 수 있다.",
+    "definition_en": "The therapist's unconscious emotional reactions to the client, in which the therapist's own unresolved conflicts or past experiences become activated in the therapeutic relationship. In modern perspectives, it encompasses all of the therapist's emotional reactions to the client and can be utilized as a therapeutic tool.",
+    "significance": "초기에는 치료의 방해 요인으로만 여겨졌으나, 현대 정신역동적 관점에서는 내담자의 대인관계 패턴을 이해하는 귀중한 정보원으로 활용된다. 치료자의 자기 분석과 수퍼비전의 필요성을 강조한다.",
+    "key_researchers": [
+      {"name_ko": "지그문트 프로이트", "name_en": "Sigmund Freud", "contribution": "역전이 개념을 처음 제시하고 이를 치료의 방해 요인으로 인식하였다"},
+      {"name_ko": "파울라 하이만", "name_en": "Paula Heimann", "contribution": "역전이를 내담자를 이해하는 치료적 도구로 재개념화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "전이", "name_en": "Transference", "id": "THERAPY_TF_004"},
+      {"name_ko": "정신분석 치료", "name_en": "Psychoanalytic Therapy", "id": "THERAPY_PA_002"}
+    ],
+    "sub_types": [
+      "일치적 역전이 (Concordant Countertransference)",
+      "보충적 역전이 (Complementary Countertransference)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "역(Counter) + 전이(Transference): 전이의 '역방향', 치료자가 내담자에게 느끼는 무의식적 감정",
+      "differential": "전이는 내담자 → 치료자 방향의 감정 투사이고, 역전이는 치료자 → 내담자 방향의 감정 반응이다",
+      "key_point": "현대적 관점: 역전이는 제거해야 할 오류가 아니라, 내담자의 대인관계 패턴을 이해하는 치료적 정보원이다",
+      "common_mistake": "역전이를 단순히 치료자의 '실수'로 보기 쉬우나, 이를 인식하고 활용하는 것이 숙련된 치료의 핵심이다"
+    }
+  },
+  {
+    "id": "THERAPY_AL_020",
+    "terminology": "적극적 경청 (Active Listening)",
+    "terminology_ko": "적극적 경청",
+    "terminology_en": "Active Listening",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "내담자의 말과 감정에 완전히 집중하여 듣고, 이해한 내용을 반영, 요약, 명료화 등을 통해 내담자에게 되돌려줌으로써 내담자가 충분히 이해받고 있음을 경험하게 하는 상담 기법이다.",
+    "definition_en": "A counseling technique of fully concentrating on the client's words and emotions, and communicating understanding back through reflection, summarization, and clarification, so the client experiences being fully heard and understood.",
+    "significance": "칼 로저스의 인간중심 치료에서 핵심적 치료 기술로, 치료적 관계 형성의 기본이 되며 거의 모든 치료 접근에서 필수적인 기초 기술로 인정된다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "인간중심 치료에서 적극적 경청을 핵심 치료 기술로 확립하였다"},
+      {"name_ko": "토마스 고든", "name_en": "Thomas Gordon", "contribution": "적극적 경청 기술을 대인관계 훈련 프로그램으로 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인간중심 치료", "name_en": "Person-Centered Therapy", "id": "THERAPY_PCT_005"},
+      {"name_ko": "공감", "name_en": "Empathy", "id": "THERAPY_EMP_021"},
+      {"name_ko": "반영", "name_en": "Reflection", "id": "THERAPY_REF_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "적극적(Active) + 경청(Listening): 수동적으로 듣기만 하는 것이 아니라 '적극적으로' 이해를 전달한다",
+      "differential": "단순 경청은 조용히 듣는 것이지만, 적극적 경청은 반영, 요약, 명료화 등으로 이해를 '적극적으로' 확인하고 전달한다",
+      "key_point": "말의 내용뿐 아니라 감정, 비언어적 메시지까지 포착하여 전체적으로 이해하고 이를 내담자에게 전달하는 것이 핵심이다",
+      "common_mistake": "적극적 경청을 단순히 '잘 듣는 것'으로 축소하기 쉬우나, 반영과 요약을 통해 이해를 능동적으로 확인하는 기술이다"
+    }
+  },
+  {
+    "id": "THERAPY_EMP_021",
+    "terminology": "공감 (Empathy)",
+    "terminology_ko": "공감",
+    "terminology_en": "Empathy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "치료자가 내담자의 내적 경험(감정, 생각, 관점)을 마치 자신의 것인 것처럼 이해하면서도 '마치 ~인 것처럼(as if)' 조건을 유지하는 것이다. 로저스는 이를 치료적 변화의 핵심 조건 중 하나로 제시하였다.",
+    "definition_en": "The therapist's ability to understand the client's inner experience (feelings, thoughts, perspective) as if it were their own, while maintaining the 'as if' condition. Rogers identified this as one of the core conditions for therapeutic change.",
+    "significance": "치료적 관계의 핵심 요소로, 거의 모든 심리치료 접근에서 치료 효과에 기여하는 공통 요인으로 인정된다. 내담자의 자기 탐색을 촉진하고 치료 동맹을 강화한다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "공감적 이해를 치료적 변화의 필요충분조건 중 하나로 정립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인간중심 치료", "name_en": "Person-Centered Therapy", "id": "THERAPY_PCT_005"},
+      {"name_ko": "적극적 경청", "name_en": "Active Listening", "id": "THERAPY_AL_020"},
+      {"name_ko": "반영", "name_en": "Reflection", "id": "THERAPY_REF_022"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "공감 = '마치(as if)' 조건: 상대의 입장이 '되어' 보되, 나를 '잃지' 않는 것",
+      "differential": "동정(sympathy)은 상대의 감정에 대해 안타까움을 느끼는 것이고, 공감(empathy)은 상대의 입장에서 그 감정을 이해하는 것이다",
+      "key_point": "로저스의 'as if' 조건이 핵심: 내담자의 감정에 빠져드는 것(동일시)이 아니라, 그 감정을 이해하면서 치료자 자신을 유지하는 것이다",
+      "common_mistake": "공감을 '동의'나 '동정'으로 혼동하기 쉬우나, 공감은 상대의 경험을 이해하는 것이지 반드시 동의하거나 안쓰러워하는 것이 아니다"
+    }
+  },
+  {
+    "id": "THERAPY_REF_022",
+    "terminology": "반영 (Reflection)",
+    "terminology_ko": "반영",
+    "terminology_en": "Reflection",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "치료자가 내담자가 표현한 감정이나 의미를 자신의 말로 다시 되돌려주는 상담 기법이다. 내담자의 감정을 거울처럼 비추어 줌으로써 내담자가 자신의 감정을 더 명확하게 인식하고 탐색할 수 있도록 돕는다.",
+    "definition_en": "A counseling technique in which the therapist mirrors back the feelings or meanings expressed by the client in the therapist's own words. By reflecting the client's emotions like a mirror, it helps the client more clearly recognize and explore their own feelings.",
+    "significance": "인간중심 치료의 핵심 기법으로, 내담자가 자신의 감정을 외부에서 들어봄으로써 자기 이해를 심화하고 감정을 정리할 수 있게 해준다.",
+    "key_researchers": [
+      {"name_ko": "칼 로저스", "name_en": "Carl Rogers", "contribution": "반영을 인간중심 치료의 핵심 상담 기법으로 개발하고 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "인간중심 치료", "name_en": "Person-Centered Therapy", "id": "THERAPY_PCT_005"},
+      {"name_ko": "공감", "name_en": "Empathy", "id": "THERAPY_EMP_021"},
+      {"name_ko": "적극적 경청", "name_en": "Active Listening", "id": "THERAPY_AL_020"}
+    ],
+    "sub_types": [
+      "감정 반영 (Reflection of Feeling)",
+      "내용 반영 (Reflection of Content)",
+      "의미 반영 (Reflection of Meaning)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "반영 = '감정의 거울': 내담자의 감정을 거울처럼 비추어 되돌려준다",
+      "differential": "해석은 무의식적 의미를 새롭게 제시하지만, 반영은 내담자가 이미 표현한 감정이나 의미를 치료자의 말로 되돌려주는 것이다",
+      "key_point": "반영은 단순한 '앵무새 따라하기'가 아니라, 내담자의 감정의 본질을 포착하여 정확하게 되돌려주는 기술이다",
+      "common_mistake": "반영을 내담자의 말을 그대로 반복하는 것(단순 반복)으로 오해하기 쉬우나, 감정의 핵심을 치료자의 언어로 재구성하여 전달하는 것이다"
+    }
+  },
+  {
+    "id": "THERAPY_AVT_023",
+    "terminology": "혐오치료 (Aversion Therapy)",
+    "terminology_ko": "혐오치료",
+    "terminology_en": "Aversion Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "고전적 조건형성 원리를 이용하여 제거하고자 하는 행동이나 자극을 불쾌한 자극(혐오 자극)과 반복적으로 짝지어 제시함으로써, 해당 행동에 대한 혐오 반응을 형성시키는 행동치료 기법이다.",
+    "definition_en": "A behavior therapy technique using classical conditioning principles to pair an unwanted behavior or stimulus repeatedly with an unpleasant (aversive) stimulus, thereby creating an aversive response to the targeted behavior.",
+    "significance": "알코올 의존, 흡연 등 중독 행동의 치료에 활용되어 왔으나, 윤리적 문제와 장기 효과의 한계로 현재는 제한적으로 사용된다.",
+    "key_researchers": [
+      {"name_ko": "존 왓슨", "name_en": "John B. Watson", "contribution": "조건형성을 통한 정서 반응 학습을 실험적으로 입증하여 혐오치료의 이론적 기반을 마련하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"},
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "THERAPY_SD_007"}
+    ],
+    "sub_types": [
+      "화학적 혐오치료 (약물 이용)",
+      "전기 혐오치료 (전기 자극 이용)",
+      "은밀한 감작 (Covert Sensitization, 상상 이용)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "혐오(Aversion) + 치료: 나쁜 행동을 '혐오스러운 것'과 연결시켜 그만두게 만든다",
+      "differential": "체계적 둔감화는 공포를 줄이기 위해 불안 자극을 이완과 짝짓지만, 혐오치료는 원치 않는 행동을 줄이기 위해 그 행동을 불쾌 자극과 짝짓는다",
+      "key_point": "역조건형성의 원리: 쾌락을 주던 자극이 혐오 자극과 짝지어져 불쾌한 반응을 유발하게 된다",
+      "common_mistake": "혐오치료가 처벌과 같다고 오해하기 쉬우나, 처벌은 조작적 조건형성이고 혐오치료는 고전적 조건형성 원리에 기반한다"
+    }
+  },
+  {
+    "id": "THERAPY_FLD_024",
+    "terminology": "홍수법 (Flooding)",
+    "terminology_ko": "홍수법",
+    "terminology_en": "Flooding",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "불안을 유발하는 가장 강렬한 자극에 내담자를 즉각적이고 장시간 노출시켜, 불안 반응이 소거될 때까지 유지하는 행동치료 기법이다. 점진적 접근 없이 가장 두려운 상황에 직면하게 한다.",
+    "definition_en": "A behavior therapy technique that immediately and prolongedly exposes the client to the most intense anxiety-provoking stimulus until the anxiety response is extinguished, without gradual approach to the most feared situation.",
+    "significance": "불안 소거의 원리를 가장 직접적으로 적용한 기법으로, 특정 공포증 치료에 빠른 효과를 보일 수 있으나 내담자에게 심한 스트레스를 줄 수 있어 신중한 적용이 필요하다.",
+    "key_researchers": [
+      {"name_ko": "토마스 스탬플", "name_en": "Thomas Stampfl", "contribution": "내파법(implosive therapy)을 개발하여 홍수법의 이론적 기반을 마련하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "THERAPY_SD_007"},
+      {"name_ko": "노출치료", "name_en": "Exposure Therapy", "id": "THERAPY_EXP_015"},
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"}
+    ],
+    "sub_types": [
+      "실제 홍수법 (In Vivo Flooding)",
+      "상상 홍수법 (Imaginal Flooding / Implosive Therapy)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "홍수(Flooding) = 불안의 '홍수'에 빠뜨린다: 가장 강한 공포에 즉시 노출시킨다",
+      "differential": "체계적 둔감화는 약한 불안부터 점진적으로 노출하지만, 홍수법은 가장 강한 불안 자극에 즉시 노출시킨다",
+      "key_point": "핵심 원리: 불안이 최고조에 달해도 실제 위험이 없으므로, 충분한 시간이 지나면 불안은 자연적으로 소거된다(습관화)",
+      "common_mistake": "홍수법을 중간에 중단하면 오히려 불안이 강화(감작)될 수 있으므로, 불안이 충분히 감소할 때까지 노출을 유지해야 한다"
+    }
+  },
+  {
+    "id": "THERAPY_MDL_025",
+    "terminology": "모델링 (Modeling)",
+    "terminology_ko": "모델링",
+    "terminology_en": "Modeling",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "관찰학습(사회학습)의 원리를 치료에 적용한 기법으로, 치료자나 다른 모델이 적응적 행동을 시범 보이면 내담자가 이를 관찰하고 모방하여 새로운 행동을 습득하거나 공포를 감소시키는 방법이다.",
+    "definition_en": "A therapeutic technique applying principles of observational (social) learning, in which the therapist or another model demonstrates adaptive behaviors that the client observes and imitates, thereby acquiring new behaviors or reducing fears.",
+    "significance": "반두라의 사회학습이론에 기반하며, 특히 아동의 공포 치료, 사회기술 훈련 등에 효과적이다. 직접 경험 없이도 행동 변화를 이끌어낼 수 있는 효율적 방법이다.",
+    "key_researchers": [
+      {"name_ko": "앨버트 반두라", "name_en": "Albert Bandura", "contribution": "사회학습이론을 개발하고 관찰학습을 통한 행동 변화의 원리를 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "행동치료", "name_en": "Behavior Therapy", "id": "THERAPY_BT_006"},
+      {"name_ko": "체계적 둔감화", "name_en": "Systematic Desensitization", "id": "THERAPY_SD_007"}
+    ],
+    "sub_types": [
+      "실제 모델링 (Live Modeling)",
+      "상징적 모델링 (Symbolic Modeling)",
+      "참여 모델링 (Participant Modeling)",
+      "은밀한 모델링 (Covert Modeling)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "모델링 = '보고 배우기': 반두라의 보보 인형 실험처럼 관찰만으로도 행동을 학습할 수 있다",
+      "differential": "체계적 둔감화는 직접 노출과 이완을 결합하지만, 모델링은 다른 사람의 행동을 관찰하여 간접적으로 학습하는 것이다",
+      "key_point": "참여 모델링은 모델의 시범 관찰 후 내담자가 직접 행동을 연습하는 것으로, 가장 효과적인 형태이다",
+      "common_mistake": "모델링을 단순한 '따라하기'로 축소하기 쉬우나, 인지적 과정(주의, 파지, 재생, 동기)이 관여하는 복합적 학습 과정이다"
+    }
+  },
+  {
+    "id": "THERAPY_FT_026",
+    "terminology": "가족치료 (Family Therapy)",
+    "terminology_ko": "가족치료",
+    "terminology_en": "Family Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "개인의 문제를 가족 체계의 맥락에서 이해하고, 가족 구성원 간의 상호작용 패턴, 의사소통 방식, 가족 구조를 변화시켜 문제를 해결하는 치료 접근이다. 가족 전체를 하나의 치료 단위로 본다.",
+    "definition_en": "A therapeutic approach that understands individual problems within the context of the family system and resolves issues by changing interaction patterns, communication styles, and family structures among family members. The entire family is viewed as the unit of treatment.",
+    "significance": "개인의 증상을 가족 체계의 기능 문제로 재개념화한 혁신적 관점으로, 아동/청소년 문제, 섭식장애, 물질남용 등의 치료에서 높은 효과가 입증되었다.",
+    "key_researchers": [
+      {"name_ko": "살바도르 미누친", "name_en": "Salvador Minuchin", "contribution": "구조적 가족치료를 개발하여 가족 구조와 경계의 개념을 정립하였다"},
+      {"name_ko": "머레이 보웬", "name_en": "Murray Bowen", "contribution": "다세대 가족치료를 개발하고 자기분화(differentiation of self) 개념을 제시하였다"},
+      {"name_ko": "버지니아 사티어", "name_en": "Virginia Satir", "contribution": "경험적 가족치료를 개발하고 가족 의사소통 유형을 체계화하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "부부치료", "name_en": "Couples Therapy", "id": "THERAPY_CPT_027"},
+      {"name_ko": "집단치료", "name_en": "Group Therapy", "id": "THERAPY_GT_011"}
+    ],
+    "sub_types": [
+      "구조적 가족치료 (Structural Family Therapy)",
+      "전략적 가족치료 (Strategic Family Therapy)",
+      "다세대 가족치료 (Multigenerational Family Therapy)",
+      "경험적 가족치료 (Experiential Family Therapy)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "가족치료 = '개인이 아닌 가족이 환자': IP(확인된 환자)의 증상은 가족 체계의 문제를 반영한다",
+      "differential": "개인치료는 개인 내적 문제에 초점을 맞추지만, 가족치료는 가족 구성원 간 상호작용과 체계의 변화에 초점을 맞춘다",
+      "key_point": "IP(identified patient)의 증상은 가족 체계의 역기능을 반영하므로, 개인이 아닌 가족 전체를 치료 단위로 다룬다",
+      "common_mistake": "가족치료를 '가족 모두가 모여 이야기하는 것'으로 단순화하기 쉬우나, 체계이론에 기반한 가족 구조와 상호작용 패턴의 변화를 목표로 하는 전문적 치료이다"
+    }
+  },
+  {
+    "id": "THERAPY_CPT_027",
+    "terminology": "부부치료 (Couples Therapy)",
+    "terminology_ko": "부부치료",
+    "terminology_en": "Couples Therapy",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "부부 또는 커플 간의 관계 문제를 다루는 치료 접근으로, 의사소통 패턴 개선, 갈등 해결 기술 향상, 정서적 유대 강화를 통해 관계의 질을 향상시킨다.",
+    "definition_en": "A therapeutic approach addressing relationship issues between couples by improving communication patterns, enhancing conflict resolution skills, and strengthening emotional bonds to improve relationship quality.",
+    "significance": "관계 갈등이 개인의 정신건강에 미치는 영향이 크다는 연구 결과를 바탕으로, 우울증, 불안장애 등의 치료에서도 부부치료의 효과가 입증되고 있다.",
+    "key_researchers": [
+      {"name_ko": "존 가트만", "name_en": "John Gottman", "contribution": "부부 관계의 과학적 연구를 통해 관계 성공과 실패를 예측하는 요인을 밝히고 가트만 부부치료를 개발하였다"},
+      {"name_ko": "수 존슨", "name_en": "Sue Johnson", "contribution": "정서중심 부부치료(EFT)를 개발하여 애착이론을 부부치료에 적용하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "가족치료", "name_en": "Family Therapy", "id": "THERAPY_FT_026"},
+      {"name_ko": "집단치료", "name_en": "Group Therapy", "id": "THERAPY_GT_011"}
+    ],
+    "sub_types": [
+      "정서중심 부부치료 (Emotionally Focused Therapy, EFT)",
+      "가트만 부부치료 (Gottman Method Couples Therapy)",
+      "행동적 부부치료 (Behavioral Couples Therapy)",
+      "통합적 행동 부부치료 (Integrative Behavioral Couple Therapy)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "가트만의 관계 파괴 4기사: 비난(Criticism), 경멸(Contempt), 방어(Defensiveness), 담쌓기(Stonewalling)",
+      "differential": "가족치료는 가족 전체의 체계를 다루지만, 부부치료는 두 사람 간의 관계 역학에 초점을 맞춘다",
+      "key_point": "가트만 연구에 따르면, 긍정적 상호작용과 부정적 상호작용의 비율이 5:1 이상일 때 관계가 안정적이다",
+      "common_mistake": "부부치료의 목표가 항상 '관계 유지'라고 오해하기 쉬우나, 경우에 따라 건강한 이별을 돕는 것도 치료 목표가 될 수 있다"
+    }
+  },
+  {
+    "id": "THERAPY_SSRI_028",
+    "terminology": "SSRI (Selective Serotonin Reuptake Inhibitors)",
+    "terminology_ko": "선택적 세로토닌 재흡수 억제제",
+    "terminology_en": "Selective Serotonin Reuptake Inhibitors (SSRI)",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "세로토닌의 재흡수를 선택적으로 차단하여 시냅스 간극의 세로토닌 농도를 증가시키는 항우울제이다. 기존 항우울제보다 부작용이 적어 우울증, 불안장애, 강박장애 등의 1차 치료 약물로 가장 널리 사용된다. 대표 약물로 플루옥세틴(프로작), 설트랄린(졸로프트) 등이 있다.",
+    "definition_en": "Antidepressants that selectively block the reuptake of serotonin, increasing serotonin levels in the synaptic cleft. With fewer side effects than older antidepressants, they are the most widely used first-line medications for depression, anxiety disorders, and OCD. Representative drugs include fluoxetine (Prozac) and sertraline (Zoloft).",
+    "significance": "1980년대 도입 이후 항우울제 사용의 패러다임을 변화시켰으며, 부작용이 적고 안전성이 높아 우울증과 불안장애의 약물치료 접근성을 크게 향상시켰다.",
+    "key_researchers": [
+      {"name_ko": "레이 풀러", "name_en": "Ray Fuller", "contribution": "플루옥세틴(프로작)의 개발에 핵심적으로 기여하였다"},
+      {"name_ko": "데이비드 웡", "name_en": "David T. Wong", "contribution": "플루옥세틴의 세로토닌 재흡수 억제 기전을 발견하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "항우울제", "name_en": "Antidepressants", "id": "THERAPY_AD_013"},
+      {"name_ko": "항불안제", "name_en": "Anxiolytics", "id": "THERAPY_AX_014"}
+    ],
+    "sub_types": [
+      "플루옥세틴 (Fluoxetine, 프로작)",
+      "설트랄린 (Sertraline, 졸로프트)",
+      "파록세틴 (Paroxetine, 팍실)",
+      "에스시탈로프람 (Escitalopram, 렉사프로)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "SSRI = Selective(선택적) Serotonin(세로토닌) Reuptake(재흡수) Inhibitors(억제제): 세로토닌만 '선택적'으로 골라서 재흡수를 '억제'한다",
+      "differential": "SNRI는 세로토닌과 노르에피네프린 모두의 재흡수를 차단하지만, SSRI는 세로토닌의 재흡수만 선택적으로 차단한다",
+      "key_point": "현재 우울증과 불안장애의 1차 약물치료로 가장 널리 사용되며, 효과 발현까지 2-4주 소요된다",
+      "common_mistake": "SSRI가 세로토닌을 '생성'한다고 오해하기 쉬우나, 이미 분비된 세로토닌의 '재흡수를 차단'하여 시냅스 간극에 더 오래 머물게 하는 것이다"
+    }
+  },
+  {
+    "id": "THERAPY_LI_029",
+    "terminology": "리튬 (Lithium)",
+    "terminology_ko": "리튬",
+    "terminology_en": "Lithium",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "양극성 장애(조울증)의 치료와 예방에 사용되는 대표적인 기분안정제이다. 조증 삽화를 감소시키고 기분 변동을 안정화하는 효과가 있으며, 치료 범위가 좁아 정기적인 혈중 농도 모니터링이 필수적이다.",
+    "definition_en": "A primary mood stabilizer used for the treatment and prevention of bipolar disorder. It reduces manic episodes and stabilizes mood fluctuations. Due to its narrow therapeutic window, regular blood level monitoring is essential.",
+    "significance": "양극성 장애 치료의 골드 스탠다드로, 1949년 존 케이드의 발견 이후 기분안정제 치료의 시대를 열었다. 자살 예방 효과도 입증되어 있다.",
+    "key_researchers": [
+      {"name_ko": "존 케이드", "name_en": "John Cade", "contribution": "1949년 리튬의 항조증 효과를 발견하여 양극성 장애의 약물치료를 개척하였다"},
+      {"name_ko": "모겐스 쇼우", "name_en": "Mogens Schou", "contribution": "리튬의 예방적 효과를 체계적으로 연구하고 임상적 사용을 확립하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "항우울제", "name_en": "Antidepressants", "id": "THERAPY_AD_013"},
+      {"name_ko": "항정신병 약물", "name_en": "Antipsychotic Medications", "id": "THERAPY_APM_012"}
+    ],
+    "sub_types": [],
+    "quiz_hints": {
+      "mnemonic": "리튬 = 양극성 장애의 '균형추': 조증의 높은 기분과 우울증의 낮은 기분을 안정시킨다",
+      "differential": "항우울제는 우울증을 치료하고, 항정신병 약물은 정신병적 증상을 치료하지만, 리튬은 기분의 극단적 변동(양극성 장애)을 안정시킨다",
+      "key_point": "치료 범위(therapeutic window)가 매우 좁아 혈중 리튬 농도를 정기적으로 모니터링해야 하며, 독성 위험에 주의해야 한다",
+      "common_mistake": "리튬이 즉시 효과를 나타낸다고 오해하기 쉬우나, 완전한 치료 효과가 나타나기까지 수일~수주가 소요된다"
+    }
+  },
+  {
+    "id": "THERAPY_ECT_030",
+    "terminology": "전기경련요법 (Electroconvulsive Therapy, ECT)",
+    "terminology_ko": "전기경련요법",
+    "terminology_en": "Electroconvulsive Therapy (ECT)",
+    "category": "THERAPY",
+    "category_name": "심리치료 (Therapy & Treatment)",
+    "definition": "전신마취와 근이완제 투여 후 두피에 전기 자극을 가하여 뇌에 통제된 경련을 유도하는 생물학적 치료법이다. 약물에 반응하지 않는 중증 우울증, 자살 위험이 높은 경우, 긴장증 등에 효과적이다.",
+    "definition_en": "A biological treatment that induces controlled seizures in the brain by applying electrical stimulation to the scalp after general anesthesia and muscle relaxants. It is effective for severe depression unresponsive to medication, high suicide risk, and catatonia.",
+    "significance": "약물 저항성 중증 우울증에 대한 가장 효과적인 치료법 중 하나로, 현대 ECT는 안전하게 시행되며 빠른 효과를 보인다. 과거의 부정적 이미지와 달리 잘 연구된 근거 기반 치료법이다.",
+    "key_researchers": [
+      {"name_ko": "우고 체를레티", "name_en": "Ugo Cerletti", "contribution": "루치오 비니와 함께 1938년 최초의 전기경련요법을 시행하였다"},
+      {"name_ko": "루치오 비니", "name_en": "Lucio Bini", "contribution": "체를레티와 함께 ECT 장비를 개발하고 최초로 인간에게 적용하였다"}
+    ],
+    "related_concepts": [
+      {"name_ko": "항우울제", "name_en": "Antidepressants", "id": "THERAPY_AD_013"},
+      {"name_ko": "항정신병 약물", "name_en": "Antipsychotic Medications", "id": "THERAPY_APM_012"}
+    ],
+    "sub_types": [
+      "일측성 ECT (Unilateral ECT)",
+      "양측성 ECT (Bilateral ECT)"
+    ],
+    "quiz_hints": {
+      "mnemonic": "ECT = Electric(전기) + Convulsive(경련) + Therapy(치료): 통제된 전기 경련으로 뇌를 '리셋'한다",
+      "differential": "경두개자기자극(TMS)은 비침습적이고 경련을 유발하지 않지만, ECT는 마취 하에 경련을 유도하며 중증 사례에 더 효과적이다",
+      "key_point": "현대 ECT는 전신마취와 근이완제를 사용하여 안전하게 시행되며, 약물 저항성 중증 우울증에 가장 효과적인 치료법이다",
+      "common_mistake": "ECT를 '잔인한' 또는 '비과학적' 치료로 오해하기 쉬우나, 현대 ECT는 안전하고 효과적인 근거 기반 치료법으로, 대중문화의 부정적 묘사와 다르다"
+    }
+  }
+]
